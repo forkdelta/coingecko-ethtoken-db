@@ -1,10 +1,13 @@
 from glob import glob
 from itertools import groupby
 import logging
+from time import sleep
+
+from eth_utils import is_hex_address, to_checksum_address
 import requests
 
-from helpers import (DEFAULT_HEADERS, has_cached_coin_details,
-                     fetch_coin_details, read_entry)
+from helpers import (DEFAULT_HEADERS, LiteralString, has_cached_coin_details,
+                     fetch_coin_details, read_entry, write_token_entry)
 
 CG_LISTINGS_API_URL = "https://api.coingecko.com/api/v3/coins/list"
 
@@ -35,33 +38,52 @@ def map_existing_entries(files, exclude_deprecated=True):
     }
 
 
-from contextlib import contextmanager
-from time import sleep, time
+def clean_links_value(value):
+    if value is None:
+        return None
+    elif isinstance(value, str):
+        return value if value else None
+    elif isinstance(value, list):
+        clean_list = list(filter(clean_links_value, value))
+        uniq_list = list(set(clean_list))
+        return uniq_list if len(uniq_list) > 0 else None
+    elif isinstance(value, dict):
+        clean_pairs = [(k, clean_links_value(v)) for (k, v) in value.items()]
+        clean_dict = {k: v for (k, v) in clean_pairs if v is not None}
+        return clean_dict if clean_dict else None
+    else:
+        return value
 
-#
-# @contextmanager
-# def rate_limit(rate, time_slice=60):
-#     remaining = rate
-#     while True:
-#         batch_start = time()
-#         while remaining > 0:
-#             yield
-#             if time() - batch_start > time_slice:
-#                 batch_start = time()
-#                 remaining = rate
-#             else:
-#                 remaining -= 1
-#         if time_slice - (time() - batch_start) > 0:
-#             sleep(time_slice - (time() - batch_start))
+
+def make_token_entry(coin_details):
+    checksum_address = to_checksum_address(coin_details["contract_address"])
+    description = coin_details.get("description", {}).get("en")
+    if isinstance(description, str) and len(description) > 0:
+        description = description.replace("\r\n", "\n")
+
+    return dict(
+        address=checksum_address,
+        description=LiteralString(description),
+        links=clean_links_value(coin_details["links"]),
+        **{
+            k: v
+            for (k, v) in coin_details.items()
+            if k in ["id", "symbol", "name"]
+        })
 
 
 def main(listings):
     for listing in listings:
         print("Fetching", listing["id"])
+
         if not has_cached_coin_details(listing["id"]):
             sleep(0.5)
 
-        asset_details = fetch_coin_details(listing["id"])
+        coin_details = fetch_coin_details(listing["id"])
+        if is_hex_address(coin_details.get("contract_address")):
+            # We've got a live one!
+            token_entry = make_token_entry(coin_details)
+            write_token_entry(token_entry["address"], token_entry)
 
 
 if __name__ == "__main__":

@@ -7,14 +7,17 @@ from time import time
 import requests
 import yaml
 
+from yaml_helpers import (YAML_INDENT, YAML_WIDTH, LiteralString,
+                          literal_presenter)
+
 USER_AGENT = "CoinGecko Ethereum Tokens DB Builder (https://github.com/forkdelta/coingecko-ethtoken-db)"
 DEFAULT_HEADERS = {"User-Agent": USER_AGENT}
-
-requests_session = requests.Session()
 
 CACHE_PATH = ".cache"
 CG_COIN_DETAILS_URL = "https://api.coingecko.com/api/v3/coins/{cid}/"
 CG_COIN_DETAILS_MAXAGE = 86400
+
+requests_session = requests.Session()
 
 
 def has_cached_coin_details(cid, max_cache_age=CG_COIN_DETAILS_MAXAGE):
@@ -56,3 +59,16 @@ def fetch_coin_details(cid,
 def read_entry(fn):
     with open(fn) as infile:
         return yaml.safe_load(infile)
+
+
+def write_token_entry(address, listing):
+    yaml.add_representer(LiteralString, literal_presenter)
+    with open("tokens/{}.yaml".format(address), "w") as outfile:
+        outfile.write(
+            yaml.dump(
+                listing,
+                explicit_start=True,
+                width=YAML_WIDTH,
+                indent=YAML_INDENT,
+                default_flow_style=False,
+                allow_unicode=True))
