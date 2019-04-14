@@ -59,16 +59,33 @@ def clean_text(text):
     return text.strip().replace("\r\n", "\n").replace(" \n", "\n")
 
 
+def extract_ticker(ticker):
+    market = ticker["market"]
+    return dict(
+        market={
+            k: v
+            for (k, v) in market.items() if k in ["name", "identifier"]
+        },
+        **{k: v
+           for (k, v) in ticker.items() if k in ["base", "target"]})
+
+
+not_stale = lambda ticker: ticker["is_stale"]
+
+
 def make_token_entry(coin_details):
     checksum_address = to_checksum_address(coin_details["contract_address"])
     description = coin_details.get("description", {}).get("en")
     if isinstance(description, str):
         description = clean_text(description)
 
+    tickers = list(
+        map(extract_ticker, filter(not_stale, coin_details["tickers"])))
     return dict(
         address=checksum_address,
         description=LiteralString(description),
         links=clean_links_value(coin_details["links"]),
+        tickers=tickers,
         **{
             k: v
             for (k, v) in coin_details.items()
