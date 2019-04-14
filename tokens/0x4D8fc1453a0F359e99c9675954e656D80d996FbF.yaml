@@ -6,8 +6,8 @@ id: bee-token
 links:
   blockchain_site:
   - https://enjinx.io/eth/token/0x4d8fc1453a0f359e99c9675954e656d80d996fbf
-  - https://ethplorer.io/address/0x4d8fc1453a0f359e99c9675954e656d80d996fbf
   - https://etherscan.io/token/0x4d8fc1453a0f359e99c9675954e656d80d996fbf
+  - https://ethplorer.io/address/0x4d8fc1453a0f359e99c9675954e656d80d996fbf
   facebook_username: thebeetoken
   homepage:
   - http://www.thebeetoken.com
@@ -19,3 +19,39 @@ links:
   twitter_screen_name: thebeetoken
 name: Bee Token
 symbol: bee
+tickers:
+- base: BEE
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: BEE
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
+- base: BEE
+  market:
+    identifier: dflow
+    name: Dflow
+  target: BTC
+- base: BEE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BEE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BEE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: BEE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI

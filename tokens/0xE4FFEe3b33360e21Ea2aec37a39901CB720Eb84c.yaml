@@ -15,9 +15,9 @@ id: mediex
 links:
   bitcointalk_thread_identifier: 2175342
   blockchain_site:
-  - https://ethplorer.io/address/0xe4ffee3b33360e21ea2aec37a39901cb720eb84c
   - https://enjinx.io/eth/token/0xe4ffee3b33360e21ea2aec37a39901cb720eb84c
   - https://etherscan.io/token/0xe4ffee3b33360e21ea2aec37a39901cb720eb84c
+  - https://ethplorer.io/address/0xe4ffee3b33360e21ea2aec37a39901cb720eb84c
   facebook_username: Mediex.MDX
   homepage:
   - https://www.mediex.co/
@@ -28,3 +28,29 @@ links:
   twitter_screen_name: mediex_mdx
 name: Mediex
 symbol: mdx
+tickers:
+- base: MDX
+  market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH
+- base: MDX2
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: MDX
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: MDX
+  market:
+    identifier: letsdocoinz
+    name: Letsdocoinz
+  target: BTC
+- base: MDX
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

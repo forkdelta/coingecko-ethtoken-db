@@ -16,9 +16,9 @@ description: >-
 id: u-network
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x3543638ed4a9006e4840b105944271bcea15605d
-  - https://etherscan.io/token/0x3543638ed4a9006e4840b105944271bcea15605d
   - https://enjinx.io/eth/token/0x3543638ed4a9006e4840b105944271bcea15605d
+  - https://etherscan.io/token/0x3543638ed4a9006e4840b105944271bcea15605d
+  - https://ethplorer.io/address/0x3543638ed4a9006e4840b105944271bcea15605d
   homepage:
   - https://u.network/
   repos_url:
@@ -29,3 +29,34 @@ links:
   twitter_screen_name: UNetworkHQ
 name: U Network
 symbol: uuu
+tickers:
+- base: UUU
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: UUU
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
+- base: UUU
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: UUU
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: UUU
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: UUU
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

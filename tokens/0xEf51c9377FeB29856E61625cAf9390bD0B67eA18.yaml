@@ -24,9 +24,9 @@ links:
   - https://medium.com/@bioniccoin
   bitcointalk_thread_identifier: 4404010
   blockchain_site:
-  - https://ethplorer.io/address/0xef51c9377feb29856e61625caf9390bd0b67ea18
-  - https://etherscan.io/token/0xef51c9377feb29856e61625caf9390bd0b67ea18
   - https://enjinx.io/eth/token/0xef51c9377feb29856e61625caf9390bd0b67ea18
+  - https://etherscan.io/token/0xef51c9377feb29856e61625caf9390bd0b67ea18
+  - https://ethplorer.io/address/0xef51c9377feb29856e61625caf9390bd0b67ea18
   homepage:
   - https://bionic-coin.io/
   repos_url:
@@ -35,3 +35,64 @@ links:
   twitter_screen_name: bionic_coin
 name: Bionic
 symbol: bnc
+tickers:
+- base: BNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: BNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: BNC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: BNC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
+- base: BNC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: LTC
+- base: BNC
+  market:
+    identifier: axnet
+    name: AXNET
+  target: ETH
+- base: BNC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
+- base: BNC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: BNC
+  market:
+    identifier: axnet
+    name: AXNET
+  target: TUSD
+- base: BNC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
+- base: BNC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

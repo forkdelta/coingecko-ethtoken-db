@@ -15,12 +15,12 @@ links:
   - https://medium.com/@ubcoin
   bitcointalk_thread_identifier: 3109856
   blockchain_site:
+  - https://enjinx.io/eth/token/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
   - https://etherscan.io/token/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
   - https://ethplorer.io/address/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
-  - https://enjinx.io/eth/token/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
   chat_url:
-  - https://t.me/ubcoin
   - https://bitcointalk.org/index.php?topic=3094107.0
+  - https://t.me/ubcoin
   facebook_username: ubcoinmarket
   homepage:
   - https://ubcoin.io/
@@ -31,3 +31,24 @@ links:
   twitter_screen_name: ubcoin
 name: Ubcoin Market
 symbol: ubc
+tickers:
+- base: UBC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: UBC
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: UBC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: UBC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

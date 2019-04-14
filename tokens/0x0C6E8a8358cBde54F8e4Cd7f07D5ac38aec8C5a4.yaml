@@ -10,8 +10,8 @@ id: platoncoin
 links:
   blockchain_site:
   - https://enjinx.io/eth/token/0x0c6e8a8358cbde54f8e4cd7f07d5ac38aec8c5a4
-  - https://ethplorer.io/address/0x0c6e8a8358cbde54f8e4cd7f07d5ac38aec8c5a4
   - https://etherscan.io/token/0x0c6e8a8358cbde54f8e4cd7f07d5ac38aec8c5a4
+  - https://ethplorer.io/address/0x0c6e8a8358cbde54f8e4cd7f07d5ac38aec8c5a4
   facebook_username: platonfinance
   homepage:
   - https://platonfinance.com
@@ -21,3 +21,19 @@ links:
   twitter_screen_name: platonfinance
 name: PlatonCoin
 symbol: pltc
+tickers:
+- base: PLTC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: PLTC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
+- base: PLTC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC

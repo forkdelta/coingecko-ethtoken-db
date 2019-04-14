@@ -37,8 +37,8 @@ id: canonchain
 links:
   blockchain_site:
   - https://enjinx.io/eth/token/0x0223fc70574214f65813fe336d870ac47e147fae
-  - https://ethplorer.io/address/0x0223fc70574214f65813fe336d870ac47e147fae
   - https://etherscan.io/token/0x0223fc70574214f65813fe336d870ac47e147fae
+  - https://ethplorer.io/address/0x0223fc70574214f65813fe336d870ac47e147fae
   homepage:
   - http://www.canonchain.com/
   repos_url:
@@ -48,3 +48,14 @@ links:
   twitter_screen_name: canonchain
 name: CanonChain
 symbol: czr
+tickers:
+- base: CZR
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH
+- base: CZR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

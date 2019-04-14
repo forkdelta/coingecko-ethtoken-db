@@ -7,12 +7,23 @@ id: mercury-protocol
 links:
   bitcointalk_thread_identifier: 2151103
   blockchain_site:
-  - https://ethplorer.io/address/0xb3bd49e28f8f832b8d1e246106991e546c323502
-  - https://etherscan.io/token/0xb3bd49e28f8f832b8d1e246106991e546c323502
   - https://enjinx.io/eth/token/0xb3bd49e28f8f832b8d1e246106991e546c323502
+  - https://etherscan.io/token/0xb3bd49e28f8f832b8d1e246106991e546c323502
+  - https://ethplorer.io/address/0xb3bd49e28f8f832b8d1e246106991e546c323502
   homepage:
   - https://www.mercuryprotocol.com/
   subreddit_url: https://www.reddit.com/r/MercuryProtocol
   twitter_screen_name: mercuryprotocol
 name: Mercury Protocol
 symbol: gmt
+tickers:
+- base: GMT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: GMT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

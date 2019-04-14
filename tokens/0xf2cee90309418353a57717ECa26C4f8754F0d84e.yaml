@@ -13,12 +13,23 @@ id: bitcoinbrand
 links:
   bitcointalk_thread_identifier: 4557619
   blockchain_site:
-  - https://ethplorer.io/search/0xf2cee90309418353a57717eca26c4f8754f0d84e
   - https://enjinx.io/eth/token/0xf2cee90309418353a57717eca26c4f8754f0d84e
   - https://etherscan.io/token/0xf2cee90309418353a57717ECa26C4f8754F0d84e
+  - https://ethplorer.io/search/0xf2cee90309418353a57717eca26c4f8754f0d84e
   homepage:
   - http://thebitcoinbrand.com/
   telegram_channel_identifier: bitcoinbrandofficial
   twitter_screen_name: bitcoin_brand
 name: BitcoinBrand
 symbol: btcb
+tickers:
+- base: BTCB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: BTCB
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

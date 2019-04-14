@@ -18,9 +18,9 @@ id: trendercoin
 links:
   bitcointalk_thread_identifier: 2237090
   blockchain_site:
-  - https://ethplorer.io/address/0x80e82dd8707a68d9f26a3035c1bbf2b704549801
   - https://enjinx.io/eth/token/0x80e82dd8707a68d9f26a3035c1bbf2b704549801
   - https://etherscan.io/token/0x80e82dd8707a68d9f26a3035c1bbf2b704549801
+  - https://ethplorer.io/address/0x80e82dd8707a68d9f26a3035c1bbf2b704549801
   facebook_username: trendercoin
   homepage:
   - https://trendercoin.com/
@@ -28,3 +28,19 @@ links:
   twitter_screen_name: trenderdotme
 name: Trendercoin
 symbol: tdc
+tickers:
+- base: TDC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TDC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: TDC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

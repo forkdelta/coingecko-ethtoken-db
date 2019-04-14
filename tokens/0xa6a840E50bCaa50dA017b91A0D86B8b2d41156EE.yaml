@@ -9,9 +9,9 @@ description: >-
 id: echolink
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee
   - https://enjinx.io/eth/token/0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee
   - https://etherscan.io/token/0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee
+  - https://ethplorer.io/address/0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee
   homepage:
   - https://echolink.info/
   repos_url:
@@ -22,3 +22,14 @@ links:
   twitter_screen_name: EchoLinkInfo1
 name: EchoLink
 symbol: eko
+tickers:
+- base: EKO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: EKO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

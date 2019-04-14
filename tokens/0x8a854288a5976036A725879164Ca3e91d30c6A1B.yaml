@@ -7,9 +7,9 @@ id: get-token
 links:
   bitcointalk_thread_identifier: 2111306
   blockchain_site:
-  - https://ethplorer.io/address/0x8a854288a5976036a725879164ca3e91d30c6a1b
   - https://enjinx.io/eth/token/0x8a854288a5976036a725879164ca3e91d30c6a1b
   - https://etherscan.io/token/0x8a854288a5976036a725879164ca3e91d30c6a1b
+  - https://ethplorer.io/address/0x8a854288a5976036a725879164ca3e91d30c6a1b
   chat_url:
   - https://discordapp.com/invite/3ecAp8s
   facebook_username: getprotocol
@@ -25,3 +25,54 @@ links:
   twitter_screen_name: getprotocol
 name: GET Protocol
 symbol: get
+tickers:
+- base: GET
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: GET
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: GET
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: GET
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: GET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: GET
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: GET
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: GET
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: GET
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: GET
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH

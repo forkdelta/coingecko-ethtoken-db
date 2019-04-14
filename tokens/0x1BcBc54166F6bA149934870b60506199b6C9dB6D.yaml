@@ -14,8 +14,8 @@ links:
   bitcointalk_thread_identifier: 2048747
   blockchain_site:
   - https://enjinx.io/eth/token/0x1bcbc54166f6ba149934870b60506199b6c9db6d
-  - https://ethplorer.io/address/0x1bcbc54166f6ba149934870b60506199b6c9db6d
   - https://etherscan.io/token/0x1bcbc54166f6ba149934870b60506199b6c9db6d
+  - https://ethplorer.io/address/0x1bcbc54166f6ba149934870b60506199b6c9db6d
   chat_url:
   - https://join.slack.com/t/rasputinonline/shared_invite/enQtMjY0NjQ3OTA0MTAxLTE0ZDE5Mzc3NmMxZDMxZjU1YWIyYmYzNjhhNDQ0ZGYwZWQ3MThhYTViMWUyM2IzNmM3MTgxYWU3OTAzNTA3YzU
   homepage:
@@ -26,3 +26,19 @@ links:
   twitter_screen_name: rasputinonline
 name: Rasputin Online Coin
 symbol: roc
+tickers:
+- base: ROC
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BCH
+- base: ROC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: ROC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

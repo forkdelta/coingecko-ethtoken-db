@@ -7,9 +7,9 @@ id: dovu
 links:
   bitcointalk_thread_identifier: 2116249
   blockchain_site:
-  - https://ethplorer.io/address/0xac3211a5025414af2866ff09c23fc18bc97e79b1
-  - https://etherscan.io/token/0xac3211a5025414af2866ff09c23fc18bc97e79b1
   - https://enjinx.io/eth/token/0xac3211a5025414af2866ff09c23fc18bc97e79b1
+  - https://etherscan.io/token/0xac3211a5025414af2866ff09c23fc18bc97e79b1
+  - https://ethplorer.io/address/0xac3211a5025414af2866ff09c23fc18bc97e79b1
   homepage:
   - https://dovu.io/
   repos_url:
@@ -20,3 +20,39 @@ links:
   twitter_screen_name: dovuofficial
 name: Dovu
 symbol: dov
+tickers:
+- base: DOV
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DOV
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DOV
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DOV
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: DOV
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: DOV
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DOVU
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

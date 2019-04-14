@@ -9,8 +9,8 @@ description: >-
 id: remme
 links:
   blockchain_site:
-  - https://enjinx.io/eth/token/0x83984d6142934bb535793a82adb0a46ef0f66b6d
   - https://blockexplorer.remme.io/
+  - https://enjinx.io/eth/token/0x83984d6142934bb535793a82adb0a46ef0f66b6d
   - https://etherscan.io/token/0x83984d6142934bb535793a82adb0a46ef0f66b6d
   - https://ethplorer.io/address/0x83984d6142934bb535793a82adb0a46ef0f66b6d
   facebook_username: remme.io
@@ -24,3 +24,34 @@ links:
   twitter_screen_name: remme_io
 name: REMME
 symbol: rem
+tickers:
+- base: REM
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: REM
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: REM
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
+- base: REM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: REM
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: REM
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

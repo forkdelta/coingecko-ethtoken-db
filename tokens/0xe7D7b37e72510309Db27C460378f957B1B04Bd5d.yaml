@@ -13,9 +13,9 @@ links:
   - https://medium.com/@empowr_official
   bitcointalk_thread_identifier: 3170283
   blockchain_site:
-  - https://ethplorer.io/address/0xe7d7b37e72510309db27c460378f957b1b04bd5d
-  - https://etherscan.io/token/0xe7d7b37e72510309db27c460378f957b1b04bd5d
   - https://enjinx.io/eth/token/0xe7d7b37e72510309db27c460378f957b1b04bd5d
+  - https://etherscan.io/token/0xe7d7b37e72510309db27c460378f957b1b04bd5d
+  - https://ethplorer.io/address/0xe7d7b37e72510309db27c460378f957b1b04bd5d
   chat_url:
   - https://discordapp.com/invite/YXTmpHt
   facebook_username: empowrofficial
@@ -26,3 +26,19 @@ links:
   twitter_screen_name: EmpowrOfficial
 name: empowr Coin
 symbol: empr
+tickers:
+- base: EMPR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: EMPR
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: EMPR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -13,8 +13,8 @@ links:
   - https://medium.com/@Ezoow
   bitcointalk_thread_identifier: 5037199
   blockchain_site:
-  - https://ethplorer.io/address/0x78a2a1029e3168b49d3a276c787050ff5106dcf2
   - https://etherscan.io/token/0x78a2a1029e3168b49d3a276c787050ff5106dcf2
+  - https://ethplorer.io/address/0x78a2a1029e3168b49d3a276c787050ff5106dcf2
   chat_url:
   - https://t.me/ezoowtoken
   facebook_username: ezoowofficial
@@ -26,3 +26,14 @@ links:
   twitter_screen_name: EzoowToken
 name: EZOOW
 symbol: ezw
+tickers:
+- base: EZW
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EZW
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

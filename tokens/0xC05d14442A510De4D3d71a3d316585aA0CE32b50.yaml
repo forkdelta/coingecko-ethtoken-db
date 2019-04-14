@@ -16,8 +16,8 @@ links:
   - https://medium.com/lina-review
   bitcointalk_thread_identifier: 5091232
   blockchain_site:
-  - https://etherscan.io/token/0xc05d14442a510de4d3d71a3d316585aa0ce32b50
   - https://enjinx.io/eth/token/0xc05d14442a510de4d3d71a3d316585aa0ce32b50
+  - https://etherscan.io/token/0xc05d14442a510de4d3d71a3d316585aa0ce32b50
   - https://ethplorer.io/address/0xc05d14442a510de4d3d71a3d316585aa0ce32b50
   homepage:
   - https://lina.network/
@@ -25,3 +25,24 @@ links:
   twitter_screen_name: lina_network
 name: LINA
 symbol: lina
+tickers:
+- base: LINA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LINA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: LINA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: LINA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

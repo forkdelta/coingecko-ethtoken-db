@@ -13,9 +13,9 @@ links:
   - https://medium.com/@seq/what-can-genomic-blockchain-do-e7a3d1bf80e9
   bitcointalk_thread_identifier: 4910048
   blockchain_site:
-  - https://ethplorer.io/address/0x884181554dfa9e578d36379919c05c25dc4a15bb
-  - https://etherscan.io/token/0x884181554dfa9e578d36379919c05c25dc4a15bb
   - https://enjinx.io/eth/token/0x884181554dfa9e578d36379919c05c25dc4a15bb
+  - https://etherscan.io/token/0x884181554dfa9e578d36379919c05c25dc4a15bb
+  - https://ethplorer.io/address/0x884181554dfa9e578d36379919c05c25dc4a15bb
   homepage:
   - http://www.gscchain.org/
   repos_url:
@@ -25,3 +25,14 @@ links:
   twitter_screen_name: gsc_chain
 name: Gene Source Code Token
 symbol: gene
+tickers:
+- base: GENE
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: GENE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

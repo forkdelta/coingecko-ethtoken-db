@@ -64,12 +64,33 @@ links:
   - https://blog.golemproject.net/
   repos_url:
     github:
-    - https://github.com/golemfactory/golem
     - https://github.com/golemfactory/concent-deployment
+    - https://github.com/golemfactory/golem
     - https://github.com/golemfactory/golem-electron
-    - https://github.com/golemfactory/golem-unlimited
     - https://github.com/golemfactory/golem-messages
+    - https://github.com/golemfactory/golem-unlimited
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 name: Golem
 symbol: gnt
+tickers:
+- base: GNT
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: GNT
+  market:
+    identifier: jex
+    name: JEX
+  target: USDT
+- base: GNT
+  market:
+    identifier: bytex
+    name: Bytex
+  target: BTC
+- base: GNT
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW

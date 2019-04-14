@@ -10,8 +10,8 @@ id: bitdice
 links:
   bitcointalk_thread_identifier: 2047543
   blockchain_site:
-  - https://etherscan.io/token/0x29d75277ac7f0335b2165d0895e8725cbf658d73
   - https://enjinx.io/eth/token/0x29d75277ac7f0335b2165d0895e8725cbf658d73
+  - https://etherscan.io/token/0x29d75277ac7f0335b2165d0895e8725cbf658d73
   - https://ethplorer.io/address/0x29d75277ac7f0335b2165d0895e8725cbf658d73
   homepage:
   - https://www.bitdice.me/
@@ -22,3 +22,19 @@ links:
   twitter_screen_name: bitdice
 name: BitDice
 symbol: csno
+tickers:
+- base: CSNO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CSNO
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: CSNO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

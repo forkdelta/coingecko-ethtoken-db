@@ -11,13 +11,13 @@ links:
   - https://steemit.com/@bitnation
   bitcointalk_thread_identifier: 3081168
   blockchain_site:
-  - https://ethplorer.io/address/0xbb1fa4fdeb3459733bf67ebc6f893003fa976a82
-  - https://etherscan.io/token/0xbb1fa4fdeb3459733bf67ebc6f893003fa976a82
   - https://enjinx.io/eth/token/0xbb1fa4fdeb3459733bf67ebc6f893003fa976a82
+  - https://etherscan.io/token/0xbb1fa4fdeb3459733bf67ebc6f893003fa976a82
+  - https://ethplorer.io/address/0xbb1fa4fdeb3459733bf67ebc6f893003fa976a82
   facebook_username: MyBitnation
   homepage:
-  - https://tse.bitnation.co/
   - https://bitnation.co/
+  - https://tse.bitnation.co/
   repos_url:
     github:
     - https://github.com/Bit-Nation/BITNATION-Pangea-mobile
@@ -25,3 +25,14 @@ links:
   twitter_screen_name: mybitnation
 name: Pangea Arbitration Token (Bitnation)
 symbol: xpat
+tickers:
+- base: XPAT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: XPAT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -15,8 +15,8 @@ links:
   announcement_url:
   - https://medium.com/hadepay
   blockchain_site:
-  - https://ethplorer.io/address/0x0854dcbdcd026c0b534b09608adb3f2bf6baacd0
   - https://etherscan.io/token/0x0854dcbdcd026c0b534b09608adb3f2bf6baacd0
+  - https://ethplorer.io/address/0x0854dcbdcd026c0b534b09608adb3f2bf6baacd0
   facebook_username: HadePlatform
   homepage:
   - https://hadeplatform.com/hpay/
@@ -28,3 +28,24 @@ links:
   twitter_screen_name: HadePlatform
 name: HPAY Coin
 symbol: hpay
+tickers:
+- base: HPAY
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: HPAY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: HPAY
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: HPAY
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: BTC

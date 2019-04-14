@@ -9,12 +9,33 @@ links:
   announcement_url:
   - https://medium.com/gramgold-coin
   blockchain_site:
-  - https://ethplorer.io/address/0x1be7cfd61aa8daaa9ff2f3b8820888f09462d037
-  - https://etherscan.io/token/0x1be7cfd61aa8daaa9ff2f3b8820888f09462d037
   - https://enjinx.io/eth/token/0x1be7cfd61aa8daaa9ff2f3b8820888f09462d037
+  - https://etherscan.io/token/0x1be7cfd61aa8daaa9ff2f3b8820888f09462d037
+  - https://ethplorer.io/address/0x1be7cfd61aa8daaa9ff2f3b8820888f09462d037
   homepage:
   - https://gramgold.co/
   telegram_channel_identifier: GramGold_Coin
   twitter_screen_name: GramGoldCoin
 name: GramGold Coin
 symbol: ggc
+tickers:
+- base: GGC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: GGC
+  market:
+    identifier: worldcore
+    name: Worldcore
+  target: USDT
+- base: GGC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: TUSD
+- base: GGC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH

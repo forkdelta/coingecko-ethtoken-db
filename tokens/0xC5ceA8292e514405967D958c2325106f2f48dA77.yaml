@@ -8,8 +8,8 @@ description: >-
 id: proof-token
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xc5cea8292e514405967d958c2325106f2f48da77
   - https://etherscan.io/token/0xc5cea8292e514405967d958c2325106f2f48da77
+  - https://ethplorer.io/address/0xc5cea8292e514405967d958c2325106f2f48da77
   facebook_username: proofsuite
   homepage:
   - https://www.proofsuite.com
@@ -19,3 +19,19 @@ links:
   twitter_screen_name: proofsuite
 name: Proof Token
 symbol: prft
+tickers:
+- base: PRFT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: PRFT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PRFT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

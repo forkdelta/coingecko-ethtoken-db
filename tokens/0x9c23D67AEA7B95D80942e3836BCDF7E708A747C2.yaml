@@ -37,12 +37,58 @@ description: >-
 id: locicoin
 links:
   blockchain_site:
+  - https://enjinx.io/eth/token/0x9c23d67aea7b95d80942e3836bcdf7e708a747c2
   - https://etherscan.io/token/0x9c23d67aea7b95d80942e3836bcdf7e708a747c2
   - https://ethplorer.io/address/0x9c23d67aea7b95d80942e3836bcdf7e708a747c2
-  - https://enjinx.io/eth/token/0x9c23d67aea7b95d80942e3836bcdf7e708a747c2
   homepage:
   - http://www.loci.io/
   subreddit_url: https://www.reddit.com/r/loci_io/
   twitter_screen_name: Loci_io
 name: LOCIcoin
 symbol: loci
+tickers:
+- base: LOCI
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: LOCI
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: LOCI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LOCI
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTC
+- base: LOCI
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: LOCI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: LOCI
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LOCI
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: LOCI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

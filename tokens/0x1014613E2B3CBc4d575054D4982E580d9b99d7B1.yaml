@@ -30,8 +30,8 @@ id: bcv
 links:
   blockchain_site:
   - https://enjinx.io/eth/token/0x1014613e2b3cbc4d575054d4982e580d9b99d7b1
-  - https://ethplorer.io/address/0x1014613e2b3cbc4d575054d4982e580d9b99d7b1
   - https://etherscan.io/token/0x1014613e2b3cbc4d575054d4982e580d9b99d7b1
+  - https://ethplorer.io/address/0x1014613e2b3cbc4d575054d4982e580d9b99d7b1
   facebook_username: BitCapitalVendor
   homepage:
   - http://bitcv.one/#
@@ -43,3 +43,19 @@ links:
   twitter_screen_name: BCVofficial
 name: BitCapitalVendor
 symbol: bcv
+tickers:
+- base: BCV
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: BCV
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: BCV
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH

@@ -16,12 +16,12 @@ id: crowdholding
 links:
   bitcointalk_thread_identifier: 2082561
   blockchain_site:
-  - https://ethplorer.io/address/0xd9a12cde03a86e800496469858de8581d3a5353d
   - https://etherscan.io/token/0xd9a12cde03a86e800496469858de8581d3a5353d
+  - https://ethplorer.io/address/0xd9a12cde03a86e800496469858de8581d3a5353d
   facebook_username: Crowdholding
   homepage:
-  - https://www.crowdholding.com/
   - https://ico.crowdholding.com/
+  - https://www.crowdholding.com/
   repos_url:
     github:
     - https://github.com/crowdholding/yup-token
@@ -30,3 +30,14 @@ links:
   twitter_screen_name: crowdholding
 name: Crowdholding
 symbol: yup
+tickers:
+- base: YUP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: YUP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

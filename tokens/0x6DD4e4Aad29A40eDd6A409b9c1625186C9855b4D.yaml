@@ -15,9 +15,9 @@ id: parkgene
 links:
   bitcointalk_thread_identifier: 2705900
   blockchain_site:
-  - https://ethplorer.io/address/0x6dd4e4aad29a40edd6a409b9c1625186c9855b4d
   - https://enjinx.io/eth/token/0x6dd4e4aad29a40edd6a409b9c1625186c9855b4d
   - https://etherscan.io/token/0x6dd4e4aad29a40edd6a409b9c1625186c9855b4d
+  - https://ethplorer.io/address/0x6dd4e4aad29a40edd6a409b9c1625186c9855b4d
   facebook_username: parkgene.token
   homepage:
   - https://parkgene.io
@@ -29,3 +29,19 @@ links:
   twitter_screen_name: PARKGENE1
 name: Parkgene
 symbol: gene
+tickers:
+- base: GENE
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: GENE
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
+- base: GENE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

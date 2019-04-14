@@ -10,12 +10,43 @@ description: >-
 id: zip
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd
-  - https://etherscan.io/token/0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd
   - https://enjinx.io/eth/token/0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd
+  - https://etherscan.io/token/0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd
+  - https://ethplorer.io/address/0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd
   homepage:
   - http://zipper.io/
   telegram_channel_identifier: ZipperEN
   twitter_screen_name: ZipperInfo
 name: Zipper Network
 symbol: zip
+tickers:
+- base: ZIP
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: ZIP
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ZIP
+  market:
+    identifier: idcm
+    name: IDCM
+  target: BTC
+- base: ZIP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: ZIP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: ZIP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR

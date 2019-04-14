@@ -9,9 +9,9 @@ id: ccore
 links:
   bitcointalk_thread_identifier: 2100088
   blockchain_site:
-  - https://ethplorer.io/address/0x679badc551626e01b23ceecefbc9b877ea18fc46
-  - https://etherscan.io/token/0x679badc551626e01b23ceecefbc9b877ea18fc46
   - https://enjinx.io/eth/token/0x679badc551626e01b23ceecefbc9b877ea18fc46
+  - https://etherscan.io/token/0x679badc551626e01b23ceecefbc9b877ea18fc46
+  - https://ethplorer.io/address/0x679badc551626e01b23ceecefbc9b877ea18fc46
   facebook_username: ccore.io
   homepage:
   - https://ccore.io/
@@ -23,3 +23,19 @@ links:
   twitter_screen_name: ccore_io
 name: Ccore
 symbol: cco
+tickers:
+- base: CCO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CCO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CCO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

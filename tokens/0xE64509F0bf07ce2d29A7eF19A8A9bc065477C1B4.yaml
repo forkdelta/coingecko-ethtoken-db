@@ -11,11 +11,22 @@ id: piplcoin
 links:
   bitcointalk_thread_identifier: 2018431
   blockchain_site:
+  - https://enjinx.io/eth/token/0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4
   - https://etherscan.io/token/0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4
   - https://ethplorer.io/address/0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4
-  - https://enjinx.io/eth/token/0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4
   homepage:
   - https://piplcoin.com/
   twitter_screen_name: PiplCoin
 name: PiplCoin
 symbol: pipl
+tickers:
+- base: PIPL
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: PIPL
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH

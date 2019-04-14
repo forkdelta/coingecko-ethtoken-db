@@ -33,9 +33,9 @@ id: ino-coin
 links:
   bitcointalk_thread_identifier: 3160994
   blockchain_site:
-  - https://ethplorer.io/address/0xc9859fccc876e6b4b3c749c5d29ea04f48acb74f
   - https://enjinx.io/eth/token/0xc9859fccc876e6b4b3c749c5d29ea04f48acb74f
   - https://etherscan.io/token/0xc9859fccc876e6b4b3c749c5d29ea04f48acb74f
+  - https://ethplorer.io/address/0xc9859fccc876e6b4b3c749c5d29ea04f48acb74f
   facebook_username: InoCoin-352618868548773
   homepage:
   - https://inocoin.eu
@@ -46,3 +46,24 @@ links:
   twitter_screen_name: inocoin2018
 name: Ino Coin
 symbol: ino
+tickers:
+- base: INO
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: INO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: INO
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: INO
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: BTC

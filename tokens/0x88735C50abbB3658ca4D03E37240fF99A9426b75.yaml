@@ -15,9 +15,9 @@ description: >-
 id: grape
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x88735c50abbb3658ca4d03e37240ff99a9426b75
   - https://enjinx.io/eth/token/0x88735c50abbb3658ca4d03e37240ff99a9426b75
   - https://etherscan.io/token/0x88735c50abbb3658ca4d03e37240ff99a9426b75
+  - https://ethplorer.io/address/0x88735c50abbb3658ca4d03e37240ff99a9426b75
   chat_url:
   - https://discordapp.com/channels/462283736071798804/463709324313624578
   homepage:
@@ -25,3 +25,14 @@ links:
   twitter_screen_name: coingrape
 name: GRAPE
 symbol: grp
+tickers:
+- base: GRP
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: GRP
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC

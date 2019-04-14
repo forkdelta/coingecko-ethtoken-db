@@ -9,8 +9,8 @@ id: insurepal
 links:
   bitcointalk_thread_identifier: 2495721
   blockchain_site:
-  - https://etherscan.io/token/0x64CdF819d3E75Ac8eC217B3496d7cE167Be42e80
   - https://enjinx.io/eth/token/0x64cdf819d3e75ac8ec217b3496d7ce167be42e80
+  - https://etherscan.io/token/0x64CdF819d3E75Ac8eC217B3496d7cE167Be42e80
   - https://ethplorer.io/address/0x64cdf819d3e75ac8ec217b3496d7ce167be42e80
   facebook_username: InsurePal
   homepage:
@@ -22,3 +22,29 @@ links:
   twitter_screen_name: InsurePal_io
 name: InsurePal
 symbol: ipl
+tickers:
+- base: IPL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: IPL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: IPL
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: IPL
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: IPL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

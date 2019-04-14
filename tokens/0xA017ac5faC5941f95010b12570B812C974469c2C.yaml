@@ -6,18 +6,59 @@ description: >-
 id: proxeus
 links:
   announcement_url:
-  - https://proxeus.com/press-news/
   - https://medium.com/@proxeusapp_4423
+  - https://proxeus.com/press-news/
   blockchain_site:
-  - https://ethplorer.io/address/0xa017ac5fac5941f95010b12570b812c974469c2c
   - https://etherscan.io/token/0xa017ac5fac5941f95010b12570b812c974469c2c
+  - https://ethplorer.io/address/0xa017ac5fac5941f95010b12570b812c974469c2c
   homepage:
   - https://proxeus.com/
   repos_url:
     github:
-    - https://github.com/ProxeusApp/pgp
     - https://github.com/ProxeusApp/libre-ext-tmpl-assistance
+    - https://github.com/ProxeusApp/pgp
   subreddit_url: https://www.reddit.com/r/proxeus/
   twitter_screen_name: proxeusapp
 name: Proxeus
 symbol: xes
+tickers:
+- base: XES
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: XES
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: XES
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: XES
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: XES
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: XES
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: XES
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: XES
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

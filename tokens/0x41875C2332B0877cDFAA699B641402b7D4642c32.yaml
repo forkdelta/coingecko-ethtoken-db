@@ -22,9 +22,9 @@ id: futurax
 links:
   bitcointalk_thread_identifier: 3102862
   blockchain_site:
-  - https://ethplorer.io/address/0x41875c2332b0877cdfaa699b641402b7d4642c32
   - https://enjinx.io/eth/token/0x41875c2332b0877cdfaa699b641402b7d4642c32
   - https://etherscan.io/token/0x41875c2332b0877cdfaa699b641402b7d4642c32
+  - https://ethplorer.io/address/0x41875c2332b0877cdfaa699b641402b7d4642c32
   chat_url:
   - https://medium.com/@FuturaxProject
   - https://t.me/futurax
@@ -38,3 +38,14 @@ links:
   twitter_screen_name: FuturaxProject
 name: FUTURAX
 symbol: ftxt
+tickers:
+- base: FTXT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: FTXT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

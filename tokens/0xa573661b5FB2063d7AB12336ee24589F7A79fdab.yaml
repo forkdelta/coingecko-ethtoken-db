@@ -9,9 +9,9 @@ links:
   - https://steemit.com/@icechain
   bitcointalk_thread_identifier: 5057035
   blockchain_site:
+  - https://enjinx.io/eth/token/0xa573661b5fb2063d7ab12336ee24589f7a79fdab
   - https://etherscan.io/token/0xa573661b5fb2063d7ab12336ee24589f7a79fdab
   - https://ethplorer.io/address/0xa573661b5fb2063d7ab12336ee24589f7a79fdab
-  - https://enjinx.io/eth/token/0xa573661b5fb2063d7ab12336ee24589f7a79fdab
   facebook_username: theicechain
   homepage:
   - https://icechain.io/
@@ -22,3 +22,24 @@ links:
   twitter_screen_name: theicechain
 name: IceChain
 symbol: ichx
+tickers:
+- base: ICHX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: ICHX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ICHX
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: ICHX
+  market:
+    identifier: coinlim
+    name: Coinlim
+  target: BTC

@@ -9,9 +9,9 @@ links:
   announcement_url:
   - https://medium.com/nerves-foundation
   blockchain_site:
-  - https://ethplorer.io/address/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6
   - https://enjinx.io/eth/token/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6
   - https://etherscan.io/token/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6
+  - https://ethplorer.io/address/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6
   chat_url:
   - https://t.me/NervesKorea
   homepage:
@@ -23,3 +23,29 @@ links:
   twitter_screen_name: NerFoundation
 name: Nerves
 symbol: ner
+tickers:
+- base: NER
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
+- base: NER
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: NER
+  market:
+    identifier: idcm
+    name: IDCM
+  target: ETH
+- base: NER
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: NER
+  market:
+    identifier: idcm
+    name: IDCM
+  target: BTC

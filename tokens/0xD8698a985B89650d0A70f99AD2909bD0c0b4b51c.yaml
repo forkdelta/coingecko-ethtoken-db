@@ -9,8 +9,8 @@ links:
   - https://medium.com/@consentium
   bitcointalk_thread_identifier: 2848892
   blockchain_site:
-  - https://ethplorer.io/address/0xd8698a985b89650d0a70f99ad2909bd0c0b4b51c
   - https://etherscan.io/token/0xd8698a985b89650d0a70f99ad2909bd0c0b4b51c
+  - https://ethplorer.io/address/0xd8698a985b89650d0a70f99ad2909bd0c0b4b51c
   facebook_username: consentium
   homepage:
   - https://consentium.net/
@@ -18,3 +18,19 @@ links:
   twitter_screen_name: ConsentiumCoin
 name: Consentium
 symbol: csm
+tickers:
+- base: CSM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CSM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: CSM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

@@ -11,9 +11,9 @@ id: cotrader
 links:
   bitcointalk_thread_identifier: 4371801
   blockchain_site:
-  - https://ethplorer.io/address/0x5c872500c00565505f3624ab435c222e558e9ff8
   - https://enjinx.io/eth/token/0x5c872500c00565505f3624ab435c222e558e9ff8
   - https://etherscan.io/token/0x5c872500c00565505f3624ab435c222e558e9ff8
+  - https://ethplorer.io/address/0x5c872500c00565505f3624ab435c222e558e9ff8
   facebook_username: cotrader
   homepage:
   - https://cotrader.com/
@@ -26,3 +26,14 @@ links:
   twitter_screen_name: cotrader_com
 name: CoTrader
 symbol: cot
+tickers:
+- base: COT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: COT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

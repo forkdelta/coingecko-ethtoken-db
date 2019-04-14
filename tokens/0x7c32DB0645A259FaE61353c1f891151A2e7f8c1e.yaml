@@ -19,9 +19,9 @@ links:
   - https://medium.com/potentiam
   bitcointalk_thread_identifier: 2209815
   blockchain_site:
-  - https://ethplorer.io/address/0x7c32db0645a259fae61353c1f891151a2e7f8c1e
   - https://enjinx.io/eth/token/0x7c32db0645a259fae61353c1f891151a2e7f8c1e
   - https://etherscan.io/token/0x7c32DB0645A259FaE61353c1f891151A2e7f8c1e
+  - https://ethplorer.io/address/0x7c32db0645a259fae61353c1f891151a2e7f8c1e
   facebook_username: potentiam.io
   homepage:
   - https://www.potentiam.io/
@@ -33,3 +33,19 @@ links:
   twitter_screen_name: Potentiam_io
 name: Potentiam
 symbol: ptm
+tickers:
+- base: PTM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: PTM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PTM
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

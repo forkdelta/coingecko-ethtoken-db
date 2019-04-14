@@ -11,9 +11,9 @@ id: ebcoin
 links:
   bitcointalk_thread_identifier: 2585209
   blockchain_site:
+  - https://enjinx.io/eth/token/0x31f3d9d1bece0c033ff78fa6da60a6048f3e13c5
   - https://etherscan.io/token/0x31f3d9d1bece0c033ff78fa6da60a6048f3e13c5
   - https://ethplorer.io/address/0x31f3d9d1bece0c033ff78fa6da60a6048f3e13c5
-  - https://enjinx.io/eth/token/0x31f3d9d1bece0c033ff78fa6da60a6048f3e13c5
   facebook_username: EBCoinGlobal
   homepage:
   - https://www.ebcoin.io/
@@ -24,3 +24,24 @@ links:
   twitter_screen_name: EBCoinGlobal
 name: EBCoin
 symbol: ebc
+tickers:
+- base: EBC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
+- base: EBC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EBC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
+- base: EBC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

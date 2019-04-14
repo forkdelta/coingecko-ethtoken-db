@@ -9,8 +9,8 @@ id: giga-watt-token
 links:
   bitcointalk_thread_identifier: 1914900
   blockchain_site:
-  - https://etherscan.io/token/0x84119cb33e8f590d75c2d6ea4e6b0741a7494eda
   - https://enjinx.io/eth/token/0x84119cb33e8f590d75c2d6ea4e6b0741a7494eda
+  - https://etherscan.io/token/0x84119cb33e8f590d75c2d6ea4e6b0741a7494eda
   - https://ethplorer.io/address/0x84119cb33e8f590d75c2d6ea4e6b0741a7494eda
   homepage:
   - https://cryptonomos.com/wtt/
@@ -18,3 +18,29 @@ links:
   twitter_screen_name: WTTtoken
 name: Giga Watt Token
 symbol: wtt
+tickers:
+- base: WTT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: WTT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: WTT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: WTT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: WTT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -10,9 +10,9 @@ description: >-
 id: cpchain
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xfae4ee59cdd86e3be9e8b90b53aa866327d7c090
-  - https://etherscan.io/token/0xfae4ee59cdd86e3be9e8b90b53aa866327d7c090
   - https://enjinx.io/eth/token/0xfae4ee59cdd86e3be9e8b90b53aa866327d7c090
+  - https://etherscan.io/token/0xfae4ee59cdd86e3be9e8b90b53aa866327d7c090
+  - https://ethplorer.io/address/0xfae4ee59cdd86e3be9e8b90b53aa866327d7c090
   homepage:
   - http://www.cpchain.io/
   repos_url:
@@ -22,3 +22,24 @@ links:
   twitter_screen_name: cpchain_io
 name: CPChain
 symbol: cpc
+tickers:
+- base: CPC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CPC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CPC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: CPC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -10,9 +10,9 @@ id: xov
 links:
   bitcointalk_thread_identifier: 3023796
   blockchain_site:
-  - https://ethplorer.io/address/0x153ed9cc1b792979d2bde0bbf45cc2a7e436a5f9
-  - https://etherscan.io/token/0x153ed9cc1b792979d2bde0bbf45cc2a7e436a5f9
   - https://enjinx.io/eth/token/0x153ed9cc1b792979d2bde0bbf45cc2a7e436a5f9
+  - https://etherscan.io/token/0x153ed9cc1b792979d2bde0bbf45cc2a7e436a5f9
+  - https://ethplorer.io/address/0x153ed9cc1b792979d2bde0bbf45cc2a7e436a5f9
   facebook_username: XOVBANK
   homepage:
   - http://www.xov.io/
@@ -20,3 +20,24 @@ links:
   twitter_screen_name: XOVercoin
 name: XOVBank
 symbol: xov
+tickers:
+- base: XOV
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: XOV
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: XOV
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: TUSD
+- base: XOV
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

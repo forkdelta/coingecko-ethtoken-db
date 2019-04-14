@@ -8,8 +8,8 @@ id: swtcoin
 links:
   bitcointalk_thread_identifier: 3308625
   blockchain_site:
-  - https://ethplorer.io/address/0xc0f1728d9513efc316d0e93a0758c992f88b0809
   - https://etherscan.io/token/0xc0f1728d9513efc316d0e93a0758c992f88b0809
+  - https://ethplorer.io/address/0xc0f1728d9513efc316d0e93a0758c992f88b0809
   homepage:
   - http://www.swatcoin.network/
   repos_url:
@@ -19,3 +19,24 @@ links:
   twitter_screen_name: SWTCoin
 name: SWTCoin
 symbol: swat
+tickers:
+- base: SWAT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: SWAT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SWAT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: SWAT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH

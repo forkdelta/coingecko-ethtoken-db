@@ -27,9 +27,9 @@ links:
   - https://medium.com/@qripplex
   bitcointalk_thread_identifier: 5041723
   blockchain_site:
-  - https://ethplorer.io/address/0x36dd88a0a0f53c90555087e57f758383978e64b5
   - https://enjinx.io/eth/token/0x36dd88a0a0f53c90555087e57f758383978e64b5
   - https://etherscan.io/token/0x36dd88a0a0f53c90555087e57f758383978e64b5
+  - https://ethplorer.io/address/0x36dd88a0a0f53c90555087e57f758383978e64b5
   homepage:
   - https://qripplex.com
   repos_url:
@@ -39,3 +39,14 @@ links:
   twitter_screen_name: Qripplex_PPL
 name: Qripplex
 symbol: ppl
+tickers:
+- base: PPL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: PPL
+  market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH

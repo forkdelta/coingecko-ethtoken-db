@@ -18,8 +18,8 @@ description: >-
 id: digitex-futures-exchange
 links:
   announcement_url:
-  - https://medium.com/digitex-futures
   - https://blog.digitexfutures.com/
+  - https://medium.com/digitex-futures
   bitcointalk_thread_identifier: 2649724
   blockchain_site:
   - https://enjinx.io/eth/token/0x1c83501478f1320977047008496dacbd60bb15ef
@@ -35,3 +35,29 @@ links:
   twitter_screen_name: DigitexFutures
 name: Digitex Futures Exchange
 symbol: dgtx
+tickers:
+- base: DGTX
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: DGTX
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: DGTX
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: DGTX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DGTX
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH

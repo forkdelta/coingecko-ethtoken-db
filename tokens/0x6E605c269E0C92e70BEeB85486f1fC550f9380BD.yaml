@@ -11,8 +11,8 @@ id: catex-token
 links:
   bitcointalk_thread_identifier: 5041792
   blockchain_site:
-  - https://ethplorer.io/address/0x6e605c269e0c92e70beeb85486f1fc550f9380bd
   - https://etherscan.io/token/0x6e605c269e0c92e70beeb85486f1fc550f9380bd
+  - https://ethplorer.io/address/0x6e605c269e0c92e70beeb85486f1fc550f9380bd
   facebook_username: officialcatex
   homepage:
   - https://www.catex.io/
@@ -24,3 +24,14 @@ links:
   twitter_screen_name: catexofficial
 name: Catex Token
 symbol: catt
+tickers:
+- base: CATT
+  market:
+    identifier: catex
+    name: Catex
+  target: TRX
+- base: CATT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

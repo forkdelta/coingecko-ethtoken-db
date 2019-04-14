@@ -13,8 +13,8 @@ links:
   bitcointalk_thread_identifier: 2154573
   blockchain_site:
   - https://enjinx.io/eth/token/0x622cd54deb2bb7a051515192417109bcf3fe098f
-  - https://ethplorer.io/address/0x622cd54deb2bb7a051515192417109bcf3fe098f
   - https://etherscan.io/token/0x622cd54deb2bb7a051515192417109bcf3fe098f
+  - https://ethplorer.io/address/0x622cd54deb2bb7a051515192417109bcf3fe098f
   homepage:
   - https://www.ipcchain.org/
   repos_url:
@@ -22,3 +22,14 @@ links:
     - https://github.com/wugeipc/ERC20
 name: IPChain
 symbol: ipc
+tickers:
+- base: IPC
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: IPC
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH

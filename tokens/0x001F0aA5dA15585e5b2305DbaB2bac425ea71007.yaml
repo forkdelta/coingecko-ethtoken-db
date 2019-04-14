@@ -11,9 +11,9 @@ links:
   - https://medium.ip.sx/
   bitcointalk_thread_identifier: 2897132
   blockchain_site:
-  - https://ethplorer.io/address/0x001f0aa5da15585e5b2305dbab2bac425ea71007
   - https://enjinx.io/eth/token/0x001f0aa5da15585e5b2305dbab2bac425ea71007
   - https://etherscan.io/token/0x001f0aa5da15585e5b2305dbab2bac425ea71007
+  - https://ethplorer.io/address/0x001f0aa5da15585e5b2305dbab2bac425ea71007
   facebook_username: IPExchange
   homepage:
   - https://ip.sx/
@@ -25,3 +25,29 @@ links:
   twitter_screen_name: ipexchange1
 name: IP Exchange
 symbol: ipsx
+tickers:
+- base: IPSX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: IPSX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: IPSX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: IPSX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: IPSX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC

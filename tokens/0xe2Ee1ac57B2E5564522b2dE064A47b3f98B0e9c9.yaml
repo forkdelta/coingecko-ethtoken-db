@@ -57,8 +57,8 @@ id: whalesburg
 links:
   bitcointalk_thread_identifier: 2711079
   blockchain_site:
-  - https://etherscan.io/token/0xe2ee1ac57b2e5564522b2de064a47b3f98b0e9c9
   - https://enjinx.io/eth/token/0xe2ee1ac57b2e5564522b2de064a47b3f98b0e9c9
+  - https://etherscan.io/token/0xe2ee1ac57b2e5564522b2de064a47b3f98b0e9c9
   - https://ethplorer.io/address/0xe2ee1ac57b2e5564522b2de064a47b3f98b0e9c9
   facebook_username: Whalesburg
   homepage:
@@ -68,3 +68,14 @@ links:
   twitter_screen_name: whalesburg
 name: Whalesburg
 symbol: wbt
+tickers:
+- base: WBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: WBT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

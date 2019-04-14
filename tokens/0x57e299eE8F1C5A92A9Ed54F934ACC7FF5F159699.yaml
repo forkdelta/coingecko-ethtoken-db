@@ -15,8 +15,8 @@ description: >-
 id: record-farm
 links:
   announcement_url:
-  - https://steemit.com/@recordfoundation
   - https://medium.com/recordfoundation
+  - https://steemit.com/@recordfoundation
   bitcointalk_thread_identifier: 3331502
   blockchain_site:
   - https://etherscan.io/token/0x57e299ee8f1c5a92a9ed54f934acc7ff5f159699
@@ -29,3 +29,14 @@ links:
   twitter_screen_name: recordfarm
 name: RECORD
 symbol: rcd
+tickers:
+- base: RCD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: RCD
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC

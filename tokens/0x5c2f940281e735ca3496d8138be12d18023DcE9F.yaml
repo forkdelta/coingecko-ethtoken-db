@@ -9,9 +9,9 @@ id: banana-token
 links:
   bitcointalk_thread_identifier: 5104163
   blockchain_site:
+  - https://enjinx.io/eth/token/0x5c2f940281e735ca3496d8138be12d18023dce9f
   - https://etherscan.io/token/0x5c2f940281e735ca3496d8138be12d18023dce9f
   - https://ethplorer.io/address/0x5c2f940281e735ca3496d8138be12d18023dce9f
-  - https://enjinx.io/eth/token/0x5c2f940281e735ca3496d8138be12d18023dce9f
   facebook_username: Chimpionio
   homepage:
   - https://www.chimpion.io
@@ -20,3 +20,24 @@ links:
   twitter_screen_name: chimpionio
 name: Banana Token
 symbol: bnana
+tickers:
+- base: BNANA
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: BNANA
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: USDC
+- base: BNANA
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: BTC
+- base: BNANA
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

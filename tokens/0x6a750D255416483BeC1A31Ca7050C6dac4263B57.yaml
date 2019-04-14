@@ -11,9 +11,9 @@ id: maximine
 links:
   bitcointalk_thread_identifier: 3247389
   blockchain_site:
-  - https://ethplorer.io/address/0x6a750d255416483bec1a31ca7050c6dac4263b57
-  - https://etherscan.io/token/0x6a750d255416483bec1a31ca7050c6dac4263b57
   - https://enjinx.io/eth/token/0x6a750d255416483bec1a31ca7050c6dac4263b57
+  - https://etherscan.io/token/0x6a750d255416483bec1a31ca7050c6dac4263b57
+  - https://ethplorer.io/address/0x6a750d255416483bec1a31ca7050c6dac4263b57
   facebook_username: MaxiMineCoin
   homepage:
   - https://maximine.io/
@@ -22,3 +22,34 @@ links:
   twitter_screen_name: maximinecoin
 name: Maximine
 symbol: mxm
+tickers:
+- base: MXM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: MXM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: MXM
+  market:
+    identifier: rfinex
+    name: Rfinex
+  target: ETH
+- base: MXM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: MXM
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: MXM
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH

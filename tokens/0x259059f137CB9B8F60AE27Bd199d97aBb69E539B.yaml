@@ -12,8 +12,8 @@ links:
   - https://medium.com/@SpectrumNetwork
   bitcointalk_thread_identifier: 4637194
   blockchain_site:
-  - https://etherscan.io/token/0x259059f137cb9b8f60ae27bd199d97abb69e539b
   - https://enjinx.io/eth/token/0x259059f137cb9b8f60ae27bd199d97abb69e539b
+  - https://etherscan.io/token/0x259059f137cb9b8f60ae27bd199d97abb69e539b
   - https://ethplorer.io/address/0x259059f137cb9b8f60ae27bd199d97abb69e539b
   chat_url:
   - https://discordapp.com/invite/vNAfqeK
@@ -27,3 +27,14 @@ links:
   twitter_screen_name: SpectrumNtwork
 name: SpectrumNetwork
 symbol: spec
+tickers:
+- base: SPEC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SPEC
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH

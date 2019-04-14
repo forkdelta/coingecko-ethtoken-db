@@ -10,12 +10,28 @@ description: >-
 id: promotionchain
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xa6714a2e5f0b1bdb97b895b0913b4fcd3a775e4d
   - https://enjinx.io/eth/token/0xa6714a2e5f0b1bdb97b895b0913b4fcd3a775e4d
   - https://etherscan.io/token/0xa6714a2e5f0b1bdb97b895b0913b4fcd3a775e4d
+  - https://ethplorer.io/address/0xa6714a2e5f0b1bdb97b895b0913b4fcd3a775e4d
   facebook_username: PromotionChain-938583542982567
   homepage:
   - http://www.pchain.io/
   twitter_screen_name: PromotionChain
 name: PromotionChain
 symbol: pc
+tickers:
+- base: PC
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: USDT
+- base: PC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: PC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH

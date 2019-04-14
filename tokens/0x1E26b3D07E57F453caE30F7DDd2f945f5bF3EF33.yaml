@@ -35,9 +35,9 @@ id: clearcoin
 links:
   bitcointalk_thread_identifier: 2710499
   blockchain_site:
-  - https://ethplorer.io/address/0x1e26b3d07e57f453cae30f7ddd2f945f5bf3ef33
-  - https://etherscan.io/token/0x1E26b3D07E57F453caE30F7DDd2f945f5bF3EF33
   - https://enjinx.io/eth/token/0x1e26b3d07e57f453cae30f7ddd2f945f5bf3ef33
+  - https://etherscan.io/token/0x1E26b3D07E57F453caE30F7DDd2f945f5bF3EF33
+  - https://ethplorer.io/address/0x1e26b3d07e57f453cae30f7ddd2f945f5bf3ef33
   facebook_username: ClearCoin
   homepage:
   - https://clearcoin.co/
@@ -45,11 +45,27 @@ links:
   - https://clearcoin.co/blog/
   repos_url:
     github:
-    - https://github.com/clearcoin/web3j
-    - https://github.com/clearcoin/go-ethereum
     - https://github.com/clearcoin/cljs-web3
+    - https://github.com/clearcoin/go-ethereum
+    - https://github.com/clearcoin/web3j
   subreddit_url: https://www.reddit.com/r/ClearCoin/
   telegram_channel_identifier: ClearCoin
   twitter_screen_name: clearcoinHQ
 name: ClearCoin
 symbol: xclr
+tickers:
+- base: XCLR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: XCLR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: XCLR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

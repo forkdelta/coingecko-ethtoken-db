@@ -10,8 +10,8 @@ id: saifu
 links:
   bitcointalk_thread_identifier: 2472594
   blockchain_site:
-  - https://ethplorer.io/address/0x5b135d7e2774c801a73208f258123d7623e07784
   - https://etherscan.io/token/0x5b135d7e2774c801a73208f258123d7623e07784
+  - https://ethplorer.io/address/0x5b135d7e2774c801a73208f258123d7623e07784
   facebook_username: saifuai
   homepage:
   - http://ico.saifu.ai/
@@ -22,3 +22,19 @@ links:
   twitter_screen_name: AiSaifu
 name: Saifu
 symbol: sfu
+tickers:
+- base: SFU
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SFU
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SFU
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC

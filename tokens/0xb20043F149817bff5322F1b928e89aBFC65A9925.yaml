@@ -32,11 +32,22 @@ id: exrt-network
 links:
   blockchain_site:
   - https://enjinx.io/eth/token/0xb20043f149817bff5322f1b928e89abfc65a9925
-  - https://ethplorer.io/address/0xb20043f149817bff5322f1b928e89abfc65a9925
   - https://etherscan.io/token/0xb20043F149817bff5322F1b928e89aBFC65A9925
+  - https://ethplorer.io/address/0xb20043f149817bff5322f1b928e89abfc65a9925
   homepage:
   - https://exrnchain.com/exrt/
   subreddit_url: https://www.reddit.com/r/EXRNchain/
   twitter_screen_name: EXRNtoken
 name: EXRT Network
 symbol: exrt
+tickers:
+- base: EXRT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EXRT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

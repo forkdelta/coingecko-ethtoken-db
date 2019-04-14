@@ -14,9 +14,9 @@ links:
   - http://medium.com/@BitScreener
   bitcointalk_thread_identifier: 3354336
   blockchain_site:
-  - https://ethplorer.io/address/0xff2b3353c3015e9f1fbf95b9bda23f58aa7ce007
   - https://enjinx.io/eth/token/0xff2b3353c3015e9f1fbf95b9bda23f58aa7ce007
   - https://etherscan.io/token/0xff2b3353c3015e9f1fbf95b9bda23f58aa7ce007
+  - https://ethplorer.io/address/0xff2b3353c3015e9f1fbf95b9bda23f58aa7ce007
   facebook_username: bitscreenercom
   homepage:
   - https://tokensale.bitscreener.com/
@@ -27,3 +27,14 @@ links:
   twitter_screen_name: BitScreener
 name: BitScreener
 symbol: bitx
+tickers:
+- base: BITX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BITX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

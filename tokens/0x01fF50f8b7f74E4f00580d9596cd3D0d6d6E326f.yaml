@@ -41,9 +41,9 @@ description: >-
 id: bnktothefuture
 links:
   blockchain_site:
+  - https://enjinx.io/eth/token/0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f
   - https://etherscan.io/token/0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f
   - https://ethplorer.io/address/0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f
-  - https://enjinx.io/eth/token/0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f
   facebook_username: banktothefuture
   homepage:
   - https://bf-token.bnktothefuture.com/#!/
@@ -54,3 +54,44 @@ links:
   twitter_screen_name: BankToTheFuture
 name: BnkToTheFuture
 symbol: bft
+tickers:
+- base: BFT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: BFT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: BFT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: BFT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: BFT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: BFT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: BFT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: BFT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH

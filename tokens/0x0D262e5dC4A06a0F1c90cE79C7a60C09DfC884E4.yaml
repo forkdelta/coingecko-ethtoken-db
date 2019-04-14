@@ -15,9 +15,9 @@ id: jet8
 links:
   bitcointalk_thread_identifier: 2862213
   blockchain_site:
-  - https://ethplorer.io/address/0x0d262e5dc4a06a0f1c90ce79c7a60c09dfc884e4
   - https://enjinx.io/eth/token/0x0d262e5dc4a06a0f1c90ce79c7a60c09dfc884e4
   - https://etherscan.io/token/0x0d262e5dc4a06a0f1c90ce79c7a60c09dfc884e4
+  - https://ethplorer.io/address/0x0d262e5dc4a06a0f1c90ce79c7a60c09dfc884e4
   homepage:
   - https://jet8.io/
   repos_url:
@@ -28,3 +28,29 @@ links:
   twitter_screen_name: jet8app
 name: JET8
 symbol: j8t
+tickers:
+- base: J8T
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: J8T
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: J8T
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: J8T
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: J8T
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

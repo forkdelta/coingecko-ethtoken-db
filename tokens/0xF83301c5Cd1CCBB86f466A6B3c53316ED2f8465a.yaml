@@ -5,9 +5,9 @@ id: comsa
 links:
   bitcointalk_thread_identifier: 2087485
   blockchain_site:
-  - https://ethplorer.io/address/0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a
-  - https://etherscan.io/token/0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a
   - https://enjinx.io/eth/token/0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a
+  - https://etherscan.io/token/0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a
+  - https://ethplorer.io/address/0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a
   facebook_username: comsaio
   homepage:
   - https://comsa.io/en/
@@ -16,3 +16,29 @@ links:
   twitter_screen_name: comsaglobal
 name: COMSA
 symbol: cms
+tickers:
+- base: CMS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: CMS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CMS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: CMS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: CMS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

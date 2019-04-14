@@ -6,9 +6,9 @@ description: >-
 id: signal-token
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x6888a16ea9792c15a4dcf2f6c623d055c8ede792
-  - https://etherscan.io/token/0x6888a16ea9792c15a4dcf2f6c623d055c8ede792
   - https://enjinx.io/eth/token/0x6888a16ea9792c15a4dcf2f6c623d055c8ede792
+  - https://etherscan.io/token/0x6888a16ea9792c15a4dcf2f6c623d055c8ede792
+  - https://ethplorer.io/address/0x6888a16ea9792c15a4dcf2f6c623d055c8ede792
   facebook_username: spectivvr
   homepage:
   - https://www.spectivvr.com/
@@ -19,3 +19,24 @@ links:
   twitter_screen_name: spectivvr
 name: Signal Token
 symbol: sig
+tickers:
+- base: SIG
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: SIG
+  market:
+    identifier: topbtc
+    name: TopBTC
+  target: BTC
+- base: SIG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SIG
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -10,8 +10,8 @@ links:
   - https://medium.com/@official_datp
   bitcointalk_thread_identifier: 5031332
   blockchain_site:
-  - https://etherscan.io/token/0x813b428af3920226e059b68a62e4c04933d4ea7a
   - https://enjinx.io/eth/token/0x813b428af3920226e059b68a62e4c04933d4ea7a
+  - https://etherscan.io/token/0x813b428af3920226e059b68a62e4c04933d4ea7a
   - https://ethplorer.io/address/0x813b428af3920226e059b68a62e4c04933d4ea7a
   facebook_username: DATP.OFFICIAL
   homepage:
@@ -23,3 +23,34 @@ links:
   twitter_screen_name: DATP_OFFICIAL
 name: Decentralized Asset Trading Platform
 symbol: datp
+tickers:
+- base: ETH
+  market:
+    identifier: purcow
+    name: Purcow
+  target: DATP
+- base: DATP
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: DATP
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: DATP
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: DATP
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: DATP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -19,8 +19,8 @@ id: adhive
 links:
   bitcointalk_thread_identifier: 2393979
   blockchain_site:
-  - https://etherscan.io/token/0xe69a353b3152dd7b706ff7dd40fe1d18b7802d31
   - https://enjinx.io/eth/token/0xe69a353b3152dd7b706ff7dd40fe1d18b7802d31
+  - https://etherscan.io/token/0xe69a353b3152dd7b706ff7dd40fe1d18b7802d31
   - https://ethplorer.io/address/0xe69a353b3152dd7b706ff7dd40fe1d18b7802d31
   facebook_username: adhivetv
   homepage:
@@ -33,3 +33,39 @@ links:
   twitter_screen_name: AdhiveTv
 name: AdHive
 symbol: adh
+tickers:
+- base: ADH
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: ETH
+- base: ADH
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: OUSD
+- base: ADH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ADH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: ADH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: ADH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ADH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH

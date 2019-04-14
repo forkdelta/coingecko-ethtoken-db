@@ -14,9 +14,9 @@ id: airbloc-protocol
 links:
   bitcointalk_thread_identifier: 3705273
   blockchain_site:
-  - https://ethplorer.io/address/0xf8b358b3397a8ea5464f8cc753645d42e14b79ea
-  - https://etherscan.io/token/0xf8b358b3397a8ea5464f8cc753645d42e14b79EA
   - https://enjinx.io/eth/token/0xf8b358b3397a8ea5464f8cc753645d42e14b79ea
+  - https://etherscan.io/token/0xf8b358b3397a8ea5464f8cc753645d42e14b79EA
+  - https://ethplorer.io/address/0xf8b358b3397a8ea5464f8cc753645d42e14b79ea
   facebook_username: AirblocOfficial
   homepage:
   - https://www.airbloc.org/
@@ -29,3 +29,19 @@ links:
   twitter_screen_name: AirblocOfficial
 name: Airbloc
 symbol: abl
+tickers:
+- base: ABL
+  market:
+    identifier: dflow
+    name: Dflow
+  target: BTC
+- base: ABL
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: ABL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -11,13 +11,13 @@ description: >-
 id: crowdwiz
 links:
   announcement_url:
-  - https://steemit.com/@crowdwiz
   - https://medium.com/@crowdwiz.io
+  - https://steemit.com/@crowdwiz
   bitcointalk_thread_identifier: 4751634
   blockchain_site:
-  - https://ethplorer.io/address/0x2f9b6779c37df5707249eeb3734bbfc94763fbe2
   - https://enjinx.io/eth/token/0x2f9b6779c37df5707249eeb3734bbfc94763fbe2
   - https://etherscan.io/token/0x2f9b6779c37df5707249eeb3734bbfc94763fbe2
+  - https://ethplorer.io/address/0x2f9b6779c37df5707249eeb3734bbfc94763fbe2
   facebook_username: Crowdwiz
   homepage:
   - https://crowdwiz.io/
@@ -29,3 +29,19 @@ links:
   twitter_screen_name: Crowdwiz
 name: CrowdWiz
 symbol: wiz
+tickers:
+- base: WIZ
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WIZ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: WIZ
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

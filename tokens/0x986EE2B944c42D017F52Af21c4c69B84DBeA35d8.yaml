@@ -11,9 +11,9 @@ links:
   announcement_url:
   - https://medium.com/@bitmart.exchange
   blockchain_site:
-  - https://ethplorer.io/address/0x986ee2b944c42d017f52af21c4c69b84dbea35d8
   - https://enjinx.io/eth/token/0x986ee2b944c42d017f52af21c4c69b84dbea35d8
   - https://etherscan.io/token/0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8
+  - https://ethplorer.io/address/0x986ee2b944c42d017f52af21c4c69b84dbea35d8
   facebook_username: bitmartexchange
   homepage:
   - https://www.bitmart.com/
@@ -22,3 +22,19 @@ links:
   twitter_screen_name: BitMartExchange
 name: BitMart Token
 symbol: bmx
+tickers:
+- base: BMX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: BMX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ZRX
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX

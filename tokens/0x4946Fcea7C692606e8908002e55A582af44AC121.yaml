@@ -50,9 +50,9 @@ links:
   announcement_url:
   - https://t.me/Foamprotocol
   blockchain_site:
+  - https://enjinx.io/eth/token/0x4946fcea7c692606e8908002e55a582af44ac121
   - https://etherscan.io/token/0x4946fcea7c692606e8908002e55a582af44ac121
   - https://ethplorer.io/address/0x4946fcea7c692606e8908002e55a582af44ac121
-  - https://enjinx.io/eth/token/0x4946fcea7c692606e8908002e55a582af44ac121
   chat_url:
   - https://gitter.im/f-o-a-m/
   facebook_username: foamprotocol
@@ -62,10 +62,36 @@ links:
   - http://discourse.foam.space
   repos_url:
     github:
-    - https://github.com/f-o-a-m/foam.css
     - https://github.com/f-o-a-m/
+    - https://github.com/f-o-a-m/foam.css
   subreddit_url: https://www.reddit.com/r/foamprotocol/
   telegram_channel_identifier: foamspace
   twitter_screen_name: foamspace
 name: Foam
 symbol: foam
+tickers:
+- base: FOAM
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: FOAM
+  market:
+    identifier: zgtop
+    name: ZG.TOP
+  target: ETH
+- base: FOAM
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: FOAM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: FOAM
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

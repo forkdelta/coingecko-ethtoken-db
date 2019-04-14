@@ -15,9 +15,9 @@ id: ordocoin
 links:
   bitcointalk_thread_identifier: 3468246
   blockchain_site:
-  - https://ethplorer.io/address/0x7a74c427c833bad2a638e0fb203ba2c728f557c1
   - https://enjinx.io/eth/token/0x7a74c427c833bad2a638e0fb203ba2c728f557c1
   - https://etherscan.io/token/0x7a74c427c833bad2a638e0fb203ba2c728f557c1
+  - https://ethplorer.io/address/0x7a74c427c833bad2a638e0fb203ba2c728f557c1
   facebook_username: Ordocoin
   homepage:
   - https://ordocoin.org/
@@ -28,3 +28,14 @@ links:
   twitter_screen_name: coin_ordo
 name: Ordocoin
 symbol: rdc
+tickers:
+- base: RDC
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: RDC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

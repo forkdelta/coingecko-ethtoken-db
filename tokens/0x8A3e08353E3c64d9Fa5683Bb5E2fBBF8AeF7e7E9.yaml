@@ -10,10 +10,31 @@ description: >-
 id: agricultural-ecological-chain
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x8a3e08353e3c64d9fa5683bb5e2fbbf8aef7e7e9
-  - https://etherscan.io/token/0x8a3e08353e3c64d9fa5683bb5e2fbbf8aef7e7e9
   - https://enjinx.io/eth/token/0x8a3e08353e3c64d9fa5683bb5e2fbbf8aef7e7e9
+  - https://etherscan.io/token/0x8a3e08353e3c64d9fa5683bb5e2fbbf8aef7e7e9
+  - https://ethplorer.io/address/0x8a3e08353e3c64d9fa5683bb5e2fbbf8aef7e7e9
   homepage:
   - http://www.cnmcc.net/
 name: Agricultural ecological chain
 symbol: cnmc
+tickers:
+- base: CNMC
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: CNMC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: CNMC
+  market:
+    identifier: bcex
+    name: BCEX
+  target: BTC
+- base: CNMC
+  market:
+    identifier: exx
+    name: EXX
+  target: BTC

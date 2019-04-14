@@ -24,9 +24,9 @@ links:
   - https://medium.com/auctus
   bitcointalk_thread_identifier: 2059117
   blockchain_site:
+  - https://enjinx.io/eth/token/0xc12d099be31567add4e4e4d0d45691c3f58f5663
   - https://etherscan.io/token/0xc12d099be31567add4e4e4d0d45691c3f58f5663
   - https://ethplorer.io/address/0xc12d099be31567add4e4e4d0d45691c3f58f5663
-  - https://enjinx.io/eth/token/0xc12d099be31567add4e4e4d0d45691c3f58f5663
   chat_url:
   - https://chat.auctus.org/
   facebook_username: AuctusProject
@@ -42,3 +42,44 @@ links:
   twitter_screen_name: AuctusProject
 name: Auctus
 symbol: auc
+tickers:
+- base: AUC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: AUC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: AUC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: AUC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: AUC
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: AUC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: AUC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: AUC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

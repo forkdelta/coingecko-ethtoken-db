@@ -5,8 +5,8 @@ id: indicoin
 links:
   bitcointalk_thread_identifier: 2142084
   blockchain_site:
-  - https://etherscan.io/token/0xe8c09672cfb9cfce6e2edbb01057d9fa569f97c1
   - https://enjinx.io/eth/token/0xe8c09672cfb9cfce6e2edbb01057d9fa569f97c1
+  - https://etherscan.io/token/0xe8c09672cfb9cfce6e2edbb01057d9fa569f97c1
   - https://ethplorer.io/address/0xe8c09672cfb9cfce6e2edbb01057d9fa569f97c1
   facebook_username: indicoin.crypto
   homepage:
@@ -16,3 +16,24 @@ links:
   twitter_screen_name: Indi_Coin
 name: Indicoin
 symbol: indi
+tickers:
+- base: INDI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: INDI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: INDI
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: INDI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -10,9 +10,9 @@ description: >-
 id: sentinel-group
 links:
   blockchain_site:
+  - https://enjinx.io/eth/token/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037
   - https://etherscan.io/token/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037
   - https://ethplorer.io/address/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037
-  - https://enjinx.io/eth/token/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037
   chat_url:
   - https://discord.gg/mmAA8qF
   homepage:
@@ -25,3 +25,49 @@ links:
   twitter_screen_name: Sentinel_co
 name: Sentinel
 symbol: sent
+tickers:
+- base: SENT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SENT
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: SENT
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: SENT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: SENT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: SENT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: SENT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: SENT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: SENT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

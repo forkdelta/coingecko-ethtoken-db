@@ -9,9 +9,9 @@ id: yggdrash
 links:
   bitcointalk_thread_identifier: 3061492
   blockchain_site:
-  - https://ethplorer.io/address/0xca2796f9f61dc7b238aab043971e49c6164df375
   - https://enjinx.io/eth/token/0xca2796f9f61dc7b238aab043971e49c6164df375
   - https://etherscan.io/token/0xca2796f9f61dc7b238aab043971e49c6164df375
+  - https://ethplorer.io/address/0xca2796f9f61dc7b238aab043971e49c6164df375
   facebook_username: yggdrash
   homepage:
   - https://yggdrash.io/
@@ -22,3 +22,34 @@ links:
   twitter_screen_name: YggdrashNews
 name: Yggdrash
 symbol: yeed
+tickers:
+- base: YGG
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: YGG
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: YEED
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: YEED
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: YEED
+  market:
+    identifier: nexybit
+    name: Nexybit
+  target: BTC
+- base: YEED
+  market:
+    identifier: nexybit
+    name: Nexybit
+  target: USDT

@@ -41,8 +41,8 @@ links:
   announcement_url:
   - https://medium.com/@hero_node
   blockchain_site:
-  - https://etherscan.io/token/0x491c9a23db85623eed455a8efdd6aba9b911c5df
   - https://enjinx.io/eth/token/0x491c9a23db85623eed455a8efdd6aba9b911c5df
+  - https://etherscan.io/token/0x491c9a23db85623eed455a8efdd6aba9b911c5df
   - https://ethplorer.io/address/0x491c9a23db85623eed455a8efdd6aba9b911c5df
   homepage:
   - https://heronode.io/
@@ -54,3 +54,24 @@ links:
   twitter_screen_name: hero_node
 name: Hero Node Token
 symbol: her
+tickers:
+- base: HER
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: HER
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: HER
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: HER
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

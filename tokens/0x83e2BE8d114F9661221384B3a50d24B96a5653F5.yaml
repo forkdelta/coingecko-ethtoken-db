@@ -27,17 +27,28 @@ links:
   bitcointalk_thread_identifier: 4434967
   blockchain_site:
   - https://enjinx.io/eth/token/0x83e2be8d114f9661221384b3a50d24b96a5653f5
-  - https://ethplorer.io/address/0x83e2be8d114f9661221384b3a50d24b96a5653f5
   - https://etherscan.io/token/0x83e2be8d114f9661221384b3a50d24b96a5653f5
+  - https://ethplorer.io/address/0x83e2be8d114f9661221384b3a50d24b96a5653f5
   facebook_username: 0xcert
   homepage:
   - https://0xcert.org/
   repos_url:
     github:
-    - https://github.com/0xcert/framework
     - https://github.com/0xcert/ethereum-erc721
+    - https://github.com/0xcert/framework
   subreddit_url: https://www.reddit.com/r/0xcert
   telegram_channel_identifier: zeroxcert
   twitter_screen_name: 0xcert
 name: 0xcert
 symbol: zxc
+tickers:
+- base: ZXC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ZXC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

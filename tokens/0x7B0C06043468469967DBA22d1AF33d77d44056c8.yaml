@@ -12,9 +12,9 @@ id: morpheus-network
 links:
   bitcointalk_thread_identifier: 2723338
   blockchain_site:
-  - https://ethplorer.io/address/0x7b0c06043468469967dba22d1af33d77d44056c8
-  - https://etherscan.io/token/0x7b0c06043468469967dba22d1af33d77d44056c8
   - https://enjinx.io/eth/token/0x7b0c06043468469967dba22d1af33d77d44056c8
+  - https://etherscan.io/token/0x7b0c06043468469967dba22d1af33d77d44056c8
+  - https://ethplorer.io/address/0x7b0c06043468469967dba22d1af33d77d44056c8
   facebook_username: themorpheusnetwork
   homepage:
   - https://morpheus.network
@@ -26,3 +26,29 @@ links:
   twitter_screen_name: morphcrypto
 name: Morpheus Network
 symbol: mrph
+tickers:
+- base: MRPH
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: MRPH
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: MRPH
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: MRPH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: MRPH
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

@@ -9,8 +9,8 @@ description: >-
 id: travelnote
 links:
   announcement_url:
-  - https://t.me/travelnote_announcements
   - http://medium.com/@travelnotegroup
+  - https://t.me/travelnote_announcements
   bitcointalk_thread_identifier: 5063223
   blockchain_site:
   - https://etherscan.io/token/0x5635ddeabf9cdda686995fe90beb5411831563fc
@@ -25,3 +25,24 @@ links:
   twitter_screen_name: TravelNote2
 name: TravelNote
 symbol: tvnt
+tickers:
+- base: TVNT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TVNT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TVNT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: TVNT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

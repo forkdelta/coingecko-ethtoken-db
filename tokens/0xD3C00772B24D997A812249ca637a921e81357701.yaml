@@ -7,9 +7,9 @@ description: >-
 id: wild-crypto
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xd3c00772b24d997a812249ca637a921e81357701
-  - https://etherscan.io/token/0xd3c00772b24d997a812249ca637a921e81357701
   - https://enjinx.io/eth/token/0xd3c00772b24d997a812249ca637a921e81357701
+  - https://etherscan.io/token/0xd3c00772b24d997a812249ca637a921e81357701
+  - https://ethplorer.io/address/0xd3c00772b24d997a812249ca637a921e81357701
   homepage:
   - https://wildcrypto.com/
   repos_url:
@@ -18,3 +18,29 @@ links:
   twitter_screen_name: WildCrypto
 name: Wild Crypto
 symbol: wild
+tickers:
+- base: WILD
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: WILD
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WILD
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WILD
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: WILD
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH

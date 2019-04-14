@@ -12,8 +12,8 @@ id: idolcoin
 links:
   bitcointalk_thread_identifier: 4406856
   blockchain_site:
-  - https://etherscan.io/token/0x2cc114bbe7b551d62b15c465c7bdcccd9125b182
   - https://enjinx.io/eth/token/0x2cc114bbe7b551d62b15c465c7bdcccd9125b182
+  - https://etherscan.io/token/0x2cc114bbe7b551d62b15c465c7bdcccd9125b182
   - https://ethplorer.io/address/0x2cc114bbe7b551d62b15c465c7bdcccd9125b182
   chat_url:
   - https://discordapp.com/invite/tB9yA2g
@@ -25,3 +25,14 @@ links:
   twitter_screen_name: IDOL_COIN_
 name: IDOLCOIN
 symbol: idol
+tickers:
+- base: IDOL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: IDOL
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: BTC

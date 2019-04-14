@@ -9,9 +9,9 @@ id: jinbi-token
 links:
   bitcointalk_thread_identifier: 3388735
   blockchain_site:
-  - https://ethplorer.io/address/0x21d5a14e625d767ce6b7a167491c2d18e0785fda
   - https://enjinx.io/eth/token/0x21d5a14e625d767ce6b7a167491c2d18e0785fda
   - https://etherscan.io/token/0x21d5a14e625d767ce6b7a167491c2d18e0785fda
+  - https://ethplorer.io/address/0x21d5a14e625d767ce6b7a167491c2d18e0785fda
   homepage:
   - https://jinbitoken.io
   subreddit_url: https://www.reddit.com/r/JinbiToken/
@@ -19,3 +19,14 @@ links:
   twitter_screen_name: JinbiToken
 name: Jinbi Token
 symbol: jnb
+tickers:
+- base: JNB
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: JNB
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH

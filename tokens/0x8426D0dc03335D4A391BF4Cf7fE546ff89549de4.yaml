@@ -8,8 +8,8 @@ description: >-
 id: blok
 links:
   announcement_url:
-  - https://steemit.com/@blok.network
   - https://medium.com/@blok.network
+  - https://steemit.com/@blok.network
   bitcointalk_thread_identifier: 2943013
   blockchain_site:
   - https://etherscan.io/token/0x8426d0dc03335d4a391bf4cf7fe546ff89549de4
@@ -25,3 +25,34 @@ links:
   twitter_screen_name: bloknetwork
 name: Blok
 symbol: blo
+tickers:
+- base: BLO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BLO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: BLO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BLO
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: BLO
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: BLO
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH

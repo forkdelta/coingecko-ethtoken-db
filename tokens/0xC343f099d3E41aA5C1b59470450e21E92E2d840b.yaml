@@ -10,12 +10,12 @@ description: "VeriME is a decentralized Verification-as-a-Service (VaaS) ecosyst
 id: verime
 links:
   announcement_url:
-  - https://steemit.com/@verimedigital
   - https://medium.com/verime
+  - https://steemit.com/@verimedigital
   bitcointalk_thread_identifier: 2538176
   blockchain_site:
-  - https://enjinx.io/eth/token/0xc343f099d3e41aa5c1b59470450e21e92e2d840b
   - http://ethplorer.io/address/0xc343f099d3e41aa5c1b59470450e21e92e2d840b
+  - https://enjinx.io/eth/token/0xc343f099d3e41aa5c1b59470450e21e92e2d840b
   - https://etherscan.io/token/0xc343f099d3e41aa5c1b59470450e21e92e2d840b
   facebook_username: VeriMEDigital
   homepage:
@@ -23,3 +23,14 @@ links:
   twitter_screen_name: VeriME_mobi
 name: VeriME
 symbol: vme
+tickers:
+- base: VME
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: VME
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -15,9 +15,9 @@ id: eternal-token
 links:
   bitcointalk_thread_identifier: 4458425
   blockchain_site:
-  - https://ethplorer.io/address/0x054c64741dbafdc19784505494029823d89c3b13
   - https://enjinx.io/eth/token/0x054c64741dbafdc19784505494029823d89c3b13
   - https://etherscan.io/token/0x054c64741dbafdc19784505494029823d89c3b13
+  - https://ethplorer.io/address/0x054c64741dbafdc19784505494029823d89c3b13
   homepage:
   - https://www.atom-solutions.jp/en/xetchange.php
   repos_url:
@@ -28,3 +28,34 @@ links:
   twitter_screen_name: AdminXET
 name: Eternal Token
 symbol: xet
+tickers:
+- base: XET
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: BTC
+- base: XET
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
+- base: XET
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: USDT
+- base: XET
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
+- base: XET
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: XET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

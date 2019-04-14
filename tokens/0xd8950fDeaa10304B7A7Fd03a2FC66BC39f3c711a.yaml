@@ -15,8 +15,8 @@ links:
   - https://ethplorer.io/address/0xd8950fdeaa10304b7a7fd03a2fc66bc39f3c711a
   facebook_username: wysker
   homepage:
-  - https://wysker.com/
   - https://www.wystoken.org/
+  - https://wysker.com/
   repos_url:
     github:
     - https://github.com/wysker/token-sale
@@ -24,3 +24,24 @@ links:
   twitter_screen_name: wysker_
 name: Wysker Token
 symbol: wys
+tickers:
+- base: WYS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: WYS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: WYS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: WYS
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

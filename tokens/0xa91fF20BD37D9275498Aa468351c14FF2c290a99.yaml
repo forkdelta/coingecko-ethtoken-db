@@ -11,12 +11,23 @@ id: epintoken
 links:
   bitcointalk_thread_identifier: 4860339
   blockchain_site:
+  - https://enjinx.io/eth/token/0xa91ff20bd37d9275498aa468351c14ff2c290a99
   - https://etherscan.io/token/0xa91ff20bd37d9275498aa468351c14ff2c290a99
   - https://ethplorer.io/address/0xa91ff20bd37d9275498aa468351c14ff2c290a99
-  - https://enjinx.io/eth/token/0xa91ff20bd37d9275498aa468351c14ff2c290a99
   homepage:
   - https://epintoken.com
   telegram_channel_identifier: EpinToken
   twitter_screen_name: EpinToken
 name: EpinToken
 symbol: eptk
+tickers:
+- base: EPTK
+  market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH
+- base: EPTK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

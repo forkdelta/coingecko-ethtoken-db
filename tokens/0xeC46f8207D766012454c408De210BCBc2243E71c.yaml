@@ -9,9 +9,9 @@ id: nitro
 links:
   bitcointalk_thread_identifier: 2254986
   blockchain_site:
-  - https://ethplorer.io/address/0xec46f8207d766012454c408de210bcbc2243e71c
-  - https://etherscan.io/token/0xec46f8207d766012454c408de210bcbc2243e71c
   - https://enjinx.io/eth/token/0xec46f8207d766012454c408de210bcbc2243e71c
+  - https://etherscan.io/token/0xec46f8207d766012454c408de210bcbc2243e71c
+  - https://ethplorer.io/address/0xec46f8207d766012454c408de210bcbc2243e71c
   facebook_username: NitroToken
   homepage:
   - https://www.nitro.live/
@@ -23,3 +23,24 @@ links:
   twitter_screen_name: nitrotoken
 name: NITRO
 symbol: nox
+tickers:
+- base: NOX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: NOX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: NOX
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: NOX
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC

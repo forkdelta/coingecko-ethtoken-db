@@ -18,9 +18,9 @@ links:
   announcement_url:
   - https://medium.com/@DaPowerPlay
   blockchain_site:
-  - https://ethplorer.io/address/0x01b3ec4aae1b8729529beb4965f27d008788b0eb
-  - https://etherscan.io/token/0x01b3ec4aae1b8729529beb4965f27d008788b0eb
   - https://enjinx.io/eth/token/0x01b3ec4aae1b8729529beb4965f27d008788b0eb
+  - https://etherscan.io/token/0x01b3ec4aae1b8729529beb4965f27d008788b0eb
+  - https://ethplorer.io/address/0x01b3ec4aae1b8729529beb4965f27d008788b0eb
   chat_url:
   - https://dpp-official.slack.com/
   facebook_username: dapowerplay
@@ -34,3 +34,29 @@ links:
   twitter_screen_name: da_powerplay
 name: Digital Assets Power Play
 symbol: dpp
+tickers:
+- base: DPP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DPP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DPP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: DPP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DPP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

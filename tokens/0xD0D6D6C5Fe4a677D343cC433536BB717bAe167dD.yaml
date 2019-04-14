@@ -6,9 +6,9 @@ description: >-
 id: adtoken
 links:
   blockchain_site:
+  - https://enjinx.io/eth/token/0xd0d6d6c5fe4a677d343cc433536bb717bae167dd
   - https://etherscan.io/token/0xd0d6d6c5fe4a677d343cc433536bb717bae167dd
   - https://ethplorer.io/address/0xd0d6d6c5fe4a677d343cc433536bb717bae167dd
-  - https://enjinx.io/eth/token/0xd0d6d6c5fe4a677d343cc433536bb717bae167dd
   homepage:
   - https://adtoken.com/
   repos_url:
@@ -18,3 +18,44 @@ links:
   twitter_screen_name: ad_chain
 name: adToken
 symbol: adt
+tickers:
+- base: ADT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ADT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: ADT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: ADT
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ADT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ADT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ADT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: ADT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

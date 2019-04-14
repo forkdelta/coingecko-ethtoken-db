@@ -19,8 +19,8 @@ links:
   announcement_url:
   - https://medium.com/octcoin
   blockchain_site:
-  - https://etherscan.io/token/0xbc90c835f2bc5255078cefc2a9c37cde0db2cae5
   - https://enjinx.io/eth/token/0xbc90c835f2bc5255078cefc2a9c37cde0db2cae5
+  - https://etherscan.io/token/0xbc90c835f2bc5255078cefc2a9c37cde0db2cae5
   - https://ethplorer.io/address/0xbc90c835f2bc5255078cefc2a9c37cde0db2cae5
   chat_url:
   - https://discord.gg/ek4SPsN
@@ -30,3 +30,19 @@ links:
   twitter_screen_name: octcoin
 name: OCTCOIN
 symbol: octc
+tickers:
+- base: OCTC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: OCTC
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: OCTC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

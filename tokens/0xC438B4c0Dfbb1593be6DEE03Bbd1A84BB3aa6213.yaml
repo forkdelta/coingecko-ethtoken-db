@@ -10,18 +10,49 @@ id: qchain
 links:
   bitcointalk_thread_identifier: 2264106
   blockchain_site:
-  - https://ethplorer.io/address/0xc438b4c0dfbb1593be6dee03bbd1a84bb3aa6213
   - https://enjinx.io/eth/token/0xc438b4c0dfbb1593be6dee03bbd1a84bb3aa6213
   - https://etherscan.io/token/0xc438b4c0dfbb1593be6dee03bbd1a84bb3aa6213
+  - https://ethplorer.io/address/0xc438b4c0dfbb1593be6dee03bbd1a84bb3aa6213
   facebook_username: QchainPlatform
   homepage:
   - https://qchain.co/
   repos_url:
     github:
-    - https://github.com/Q-chain/python-ethereum-client
     - https://github.com/Q-chain/Qchain-web-backend
+    - https://github.com/Q-chain/python-ethereum-client
   subreddit_url: https://www.reddit.com/r/qchain/
   telegram_channel_identifier: qchainplatform
   twitter_screen_name: QchainPlatform
 name: Qchain
 symbol: eqc
+tickers:
+- base: EQC
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: EQC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: EQC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: EQC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EQC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: EQC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -11,8 +11,8 @@ links:
   - https://medium.com/@iqeon
   bitcointalk_thread_identifier: 2479328
   blockchain_site:
-  - https://etherscan.io/token/0x0db8d8b76bc361bacbb72e2c491e06085a97ab31
   - https://enjinx.io/eth/token/0x0db8d8b76bc361bacbb72e2c491e06085a97ab31
+  - https://etherscan.io/token/0x0db8d8b76bc361bacbb72e2c491e06085a97ab31
   - https://ethplorer.io/address/0x0db8d8b76bc361bacbb72e2c491e06085a97ab31
   chat_url:
   - https://iqeon.slack.com/
@@ -22,14 +22,55 @@ links:
   repos_url:
     github:
     - https://github.com/iqeon
-    - https://github.com/iqeon/eth-contract-metadata
-    - https://github.com/iqeon/tokens
-    - https://github.com/iqeon/EtherSecurityLookup
     - https://github.com/iqeon/EtherAddressLookup
-    - https://github.com/iqeon/tokens-1
+    - https://github.com/iqeon/EtherSecurityLookup
+    - https://github.com/iqeon/eth-contract-metadata
     - https://github.com/iqeon/smart-contract
+    - https://github.com/iqeon/tokens
+    - https://github.com/iqeon/tokens-1
   subreddit_url: https://www.reddit.com/r/IQeon/
   telegram_channel_identifier: IQeonICO
   twitter_screen_name: IQeon
 name: IQeon
 symbol: iqn
+tickers:
+- base: IQN
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: IQN
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: IQN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: IQN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: IQN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

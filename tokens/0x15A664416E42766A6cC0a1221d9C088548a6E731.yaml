@@ -10,8 +10,8 @@ id: web-innovation-ph
 links:
   bitcointalk_thread_identifier: 4581401
   blockchain_site:
-  - https://ethplorer.io/address/0x15a664416e42766a6cc0a1221d9c088548a6e731
   - https://etherscan.io/token/0x15a664416e42766a6cc0a1221d9c088548a6e731
+  - https://ethplorer.io/address/0x15a664416e42766a6cc0a1221d9c088548a6e731
   chat_url:
   - https://discordapp.com/invite/NkBtY4X
   facebook_username: webinnovationph
@@ -25,3 +25,14 @@ links:
   twitter_screen_name: WebnProject
 name: WEBN token
 symbol: webn
+tickers:
+- base: WEBN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WEBN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -9,9 +9,9 @@ id: connect
 links:
   bitcointalk_thread_identifier: 4738537
   blockchain_site:
-  - https://ethplorer.io/address/0x54a9ed327f2614316914c3f3a782a77d0aa47aee
   - https://enjinx.io/eth/token/0x54a9ed327f2614316914c3f3a782a77d0aa47aee
   - https://etherscan.io/token/0x54a9ed327f2614316914c3f3a782a77d0aa47aee
+  - https://ethplorer.io/address/0x54a9ed327f2614316914c3f3a782a77d0aa47aee
   chat_url:
   - https://connecttoken.slack.com/messages
   facebook_username: connecttoken
@@ -25,3 +25,29 @@ links:
   twitter_screen_name: connecttoken
 name: Connect
 symbol: cnct
+tickers:
+- base: CNCT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: CNCT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: CNCT
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: CNCT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CNCT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC

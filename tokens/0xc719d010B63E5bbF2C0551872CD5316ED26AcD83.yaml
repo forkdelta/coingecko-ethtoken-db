@@ -9,8 +9,8 @@ links:
   announcement_url:
   - https://blog.etherisc.com/
   blockchain_site:
-  - https://etherscan.io/token/0xc719d010b63e5bbf2c0551872cd5316ed26acd83
   - https://enjinx.io/eth/token/0xc719d010b63e5bbf2c0551872cd5316ed26acd83
+  - https://etherscan.io/token/0xc719d010b63e5bbf2c0551872cd5316ed26acd83
   - https://ethplorer.io/address/0xc719d010b63e5bbf2c0551872cd5316ed26acd83
   homepage:
   - https://etherisc.com/
@@ -22,3 +22,14 @@ links:
   twitter_screen_name: etherisc
 name: Etherisc
 symbol: dip
+tickers:
+- base: DIP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DIP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

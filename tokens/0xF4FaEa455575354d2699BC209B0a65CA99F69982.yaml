@@ -5,9 +5,9 @@ id: no-bs-crypto
 links:
   bitcointalk_thread_identifier: 4709590
   blockchain_site:
+  - https://enjinx.io/eth/token/0xf4faea455575354d2699bc209b0a65ca99f69982
   - https://etherscan.io/token/0xf4faea455575354d2699bc209b0a65ca99f69982
   - https://ethplorer.io/address/0xf4faea455575354d2699bc209b0a65ca99f69982
-  - https://enjinx.io/eth/token/0xf4faea455575354d2699bc209b0a65ca99f69982
   chat_url:
   - https://discordapp.com/invite/s2wZUCA
   homepage:
@@ -15,3 +15,34 @@ links:
   twitter_screen_name: noBScrypto
 name: No BS Crypto
 symbol: nobs
+tickers:
+- base: NOBS
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: NOBS
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: NOBS
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BCH
+- base: NOBS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: NOBS
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: NOBS
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

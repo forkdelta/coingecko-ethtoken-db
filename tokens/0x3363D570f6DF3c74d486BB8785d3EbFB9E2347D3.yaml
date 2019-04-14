@@ -14,11 +14,11 @@ description: >-
 id: hedgetrade
 links:
   announcement_url:
-  - https://www.linkedin.com/company/hedgetradehq
   - https://medium.com/@hedgetradehq
+  - https://www.linkedin.com/company/hedgetradehq
   blockchain_site:
-  - https://ethplorer.io/address/0x3363d570f6df3c74d486bb8785d3ebfb9e2347d3
   - https://etherscan.io/token/0x3363d570f6df3c74d486bb8785d3ebfb9e2347d3
+  - https://ethplorer.io/address/0x3363d570f6df3c74d486bb8785d3ebfb9e2347d3
   facebook_username: hedgetradehq
   homepage:
   - https://hedgetrade.com/
@@ -29,3 +29,34 @@ links:
   twitter_screen_name: hedgetradehq
 name: HedgeTrade
 symbol: hedg
+tickers:
+- base: HEDG
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: ETH
+- base: HEDG
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: HEDG
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: HEDG
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: USDC
+- base: HEDG
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: HEDG
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC

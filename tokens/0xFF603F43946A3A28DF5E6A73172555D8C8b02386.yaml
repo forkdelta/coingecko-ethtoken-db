@@ -11,12 +11,38 @@ description: >-
 id: oneroot-network
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xff603f43946a3a28df5e6a73172555d8c8b02386
   - https://enjinx.io/eth/token/0xff603f43946a3a28df5e6a73172555d8c8b02386
   - https://etherscan.io/token/0xff603f43946a3a28df5e6a73172555d8c8b02386
+  - https://ethplorer.io/address/0xff603f43946a3a28df5e6a73172555d8c8b02386
   homepage:
   - https://www.oneroot.io/en
   telegram_channel_identifier: OneRootProject
   twitter_screen_name: OneRootNetwork
 name: OneRoot Network
 symbol: rnt
+tickers:
+- base: RNT
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: USDT
+- base: RNT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: RNT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: RNT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: RNT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

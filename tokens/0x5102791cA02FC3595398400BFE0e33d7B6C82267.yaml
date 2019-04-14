@@ -8,9 +8,9 @@ id: leadcoin
 links:
   bitcointalk_thread_identifier: 2728016
   blockchain_site:
-  - https://ethplorer.io/address/0x5102791ca02fc3595398400bfe0e33d7b6c82267
   - https://enjinx.io/eth/token/0x5102791ca02fc3595398400bfe0e33d7b6c82267
   - https://etherscan.io/token/0x5102791ca02fc3595398400bfe0e33d7b6c82267
+  - https://ethplorer.io/address/0x5102791ca02fc3595398400bfe0e33d7b6c82267
   homepage:
   - https://www.leadcoin.network/
   repos_url:
@@ -21,3 +21,39 @@ links:
   twitter_screen_name: LeadCoinNetwork
 name: LeadCoin
 symbol: ldc
+tickers:
+- base: LDC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LDC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: LDC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LDC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: LDC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: LDC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: LDC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

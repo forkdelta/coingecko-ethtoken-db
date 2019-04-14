@@ -61,11 +61,37 @@ links:
   - https://cardstack.com/
   repos_url:
     github:
-    - https://github.com/cardstack/cardstack-token
     - https://github.com/cardstack/cardstack
     - https://github.com/cardstack/cardstack-auth0
+    - https://github.com/cardstack/cardstack-token
   subreddit_url: https://www.reddit.com/r/Cardstack
   telegram_channel_identifier: cardstack
   twitter_screen_name: cardstack
 name: Cardstack
 symbol: card
+tickers:
+- base: CARD
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: CARD
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: CARD
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: CARD
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH
+- base: CARD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

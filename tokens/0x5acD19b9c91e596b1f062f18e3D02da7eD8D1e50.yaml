@@ -23,13 +23,13 @@ description: >-
 id: btc-lite
 links:
   announcement_url:
-  - https://medium.com/@btclite
   - http://btclite.org/blog/
+  - https://medium.com/@btclite
   bitcointalk_thread_identifier: 2471229
   blockchain_site:
+  - https://enjinx.io/eth/token/0x5acd19b9c91e596b1f062f18e3d02da7ed8d1e50
   - https://etherscan.io/token/0x5acd19b9c91e596b1f062f18e3d02da7ed8d1e50
   - https://ethplorer.io/address/0x5acd19b9c91e596b1f062f18e3d02da7ed8d1e50
-  - https://enjinx.io/eth/token/0x5acd19b9c91e596b1f062f18e3d02da7ed8d1e50
   chat_url:
   - https://t.me/BTCLchat
   homepage:
@@ -44,3 +44,34 @@ links:
   twitter_screen_name: BTCliteofficial
 name: BTC Lite
 symbol: btcl
+tickers:
+- base: BTCL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BTCL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BTCL
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: BTCL
+  market:
+    identifier: raisex
+    name: Raisex
+  target: BTC
+- base: BTCL
+  market:
+    identifier: raisex
+    name: Raisex
+  target: ETH
+- base: BTCL
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

@@ -7,10 +7,10 @@ links:
   - https://www.weibo.com/MOLBlockchain?refer_flag=1001030102_
   bitcointalk_thread_identifier: 4975147
   blockchain_site:
-  - https://explorer.mol.one/?lang=en
   - https://enjinx.io/eth/token/0x32b7a3018e4b832dea848786348164667ec030f3
   - https://etherscan.io/token/0x32b7a3018e4b832dea848786348164667ec030f3
   - https://ethplorer.io/address/0x32b7a3018e4b832dea848786348164667ec030f3
+  - https://explorer.mol.one/?lang=en
   homepage:
   - https://www.mol.one/
   repos_url:
@@ -19,3 +19,19 @@ links:
   twitter_screen_name: MOL_Blockchain
 name: Molecule
 symbol: mol
+tickers:
+- base: MOL
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: MOL
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: MOL
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH

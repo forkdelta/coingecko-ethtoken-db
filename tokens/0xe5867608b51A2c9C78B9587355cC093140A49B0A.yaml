@@ -8,8 +8,8 @@ description: >-
 id: speed-mining-service
 links:
   blockchain_site:
-  - https://etherscan.io/token/0xe5867608b51a2c9c78b9587355cc093140a49b0a
   - https://enjinx.io/eth/token/0xe5867608b51a2c9c78b9587355cc093140a49b0a
+  - https://etherscan.io/token/0xe5867608b51a2c9c78b9587355cc093140a49b0a
   - https://ethplorer.io/address/0xe5867608b51a2c9c78b9587355cc093140a49b0a
   facebook_username: SPEEDMINING
   homepage:
@@ -20,3 +20,34 @@ links:
   twitter_screen_name: Speed_Mining
 name: Speed Mining Service
 symbol: sms
+tickers:
+- base: SMS
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DASH
+- base: SMS
+  market:
+    identifier: bitsane
+    name: Bitsane
+  target: BTC
+- base: SMS
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: USD
+- base: SMS
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: SMS
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC
+- base: SMS
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

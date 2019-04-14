@@ -16,9 +16,9 @@ description: >-
 id: nusd
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x57ab1e02fee23774580c119740129eac7081e9d3
-  - https://etherscan.io/token/0x57ab1e02fee23774580c119740129eac7081e9d3
   - https://enjinx.io/eth/token/0x57ab1e02fee23774580c119740129eac7081e9d3
+  - https://etherscan.io/token/0x57ab1e02fee23774580c119740129eac7081e9d3
+  - https://ethplorer.io/address/0x57ab1e02fee23774580c119740129eac7081e9d3
   chat_url:
   - https://discordapp.com/invite/AEdUHzt
   facebook_username: havven.io
@@ -32,3 +32,39 @@ links:
   twitter_screen_name: havven_io
 name: sUSD
 symbol: susd
+tickers:
+- base: NUSD
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
+- base: NUSD
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: NUSD
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: SUSD
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: NUSD
+  market:
+    identifier: cryptology
+    name: Cryptology
+  target: BTC
+- base: NUSD
+  market:
+    identifier: cryptology
+    name: Cryptology
+  target: ETH
+- base: NUSD
+  market:
+    identifier: cryptology
+    name: Cryptology
+  target: USDT

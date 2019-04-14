@@ -13,8 +13,8 @@ id: ravelous
 links:
   bitcointalk_thread_identifier: 2676153
   blockchain_site:
-  - https://ethplorer.io/address/0x6a09e1b7cc5cb52ffdfc585a8df51ced7063915c
   - https://etherscan.io/token/0x6a09e1b7cc5cb52ffdfc585a8df51ced7063915c
+  - https://ethplorer.io/address/0x6a09e1b7cc5cb52ffdfc585a8df51ced7063915c
   facebook_username: ravelousmarket
   homepage:
   - http://ravelous.com/
@@ -26,3 +26,24 @@ links:
   twitter_screen_name: ravelousmarket
 name: Ravelous
 symbol: rave
+tickers:
+- base: RAVE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: RAVE
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: RAVE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: RAVE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

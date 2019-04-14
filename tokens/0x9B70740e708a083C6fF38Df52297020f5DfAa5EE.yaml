@@ -44,9 +44,9 @@ id: daneel
 links:
   bitcointalk_thread_identifier: 2667581
   blockchain_site:
-  - https://ethplorer.io/address/0x9b70740e708a083c6ff38df52297020f5dfaa5ee
-  - https://etherscan.io/token/0x9b70740e708a083c6ff38df52297020f5dfaa5ee
   - https://enjinx.io/eth/token/0x9b70740e708a083c6ff38df52297020f5dfaa5ee
+  - https://etherscan.io/token/0x9b70740e708a083c6ff38df52297020f5dfaa5ee
+  - https://ethplorer.io/address/0x9b70740e708a083c6ff38df52297020f5dfaa5ee
   facebook_username: daneelproject
   homepage:
   - https://daneel.io/
@@ -58,3 +58,29 @@ links:
   twitter_screen_name: daneelproject
 name: Daneel
 symbol: dan
+tickers:
+- base: DAN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: DAN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DAN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DAN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DAN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

@@ -29,21 +29,72 @@ id: zilliqa
 links:
   bitcointalk_thread_identifier: 2367256
   blockchain_site:
-  - https://explorer.zilliqa.com
-  - https://ethplorer.io/address/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
   - https://enjinx.io/eth/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
-  - https://viewblock.io/zilliqa
   - https://etherscan.io/token/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
+  - https://ethplorer.io/address/0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
+  - https://explorer.zilliqa.com
+  - https://viewblock.io/zilliqa
   homepage:
   - https://www.zilliqa.com/
   repos_url:
     github:
-    - https://github.com/Zilliqa/Zilliqa-JavaScript-Library
-    - https://github.com/Zilliqa/scilla
-    - https://github.com/Zilliqa/Zilliqa-Wallet
     - https://github.com/Zilliqa/Zilliqa
+    - https://github.com/Zilliqa/Zilliqa-JavaScript-Library
+    - https://github.com/Zilliqa/Zilliqa-Wallet
+    - https://github.com/Zilliqa/scilla
   subreddit_url: https://www.reddit.com/r/zilliqa/
   telegram_channel_identifier: zilliqachat
   twitter_screen_name: zilliqa
 name: Zilliqa
 symbol: zil
+tickers:
+- base: ZIL
+  market:
+    identifier: jex
+    name: JEX
+  target: USDT
+- base: ZIL
+  market:
+    identifier: uex
+    name: UEX
+  target: ETH
+- base: ZIL
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: ZIL
+  market:
+    identifier: axnet
+    name: AXNET
+  target: BTC
+- base: ZIL
+  market:
+    identifier: zgtop
+    name: ZG.TOP
+  target: USDT
+- base: ZIL
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TL
+- base: ZIL
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: USDT
+- base: ZIL
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: ZIL
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: ZIL
+  market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH

@@ -6,9 +6,9 @@ id: tcash
 links:
   bitcointalk_thread_identifier: 2357581
   blockchain_site:
-  - https://ethplorer.io/address/0x7051620d11042c4335069aaa4f10cd3b4290c681
   - https://enjinx.io/eth/token/0x7051620d11042c4335069aaa4f10cd3b4290c681
   - https://etherscan.io/token/0x7051620d11042c4335069AaA4f10Cd3B4290C681
+  - https://ethplorer.io/address/0x7051620d11042c4335069aaa4f10cd3b4290c681
   chat_url:
   - https://etherflyer.slack.com/
   homepage:
@@ -21,3 +21,19 @@ links:
   twitter_screen_name: etherflyercom
 name: TCASH
 symbol: tcash
+tickers:
+- base: TCASH
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: TCASH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TCASH
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

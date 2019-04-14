@@ -10,8 +10,8 @@ description: >-
 id: cdc-foundation
 links:
   blockchain_site:
-  - https://etherscan.io/token/0x87026f792d09960232ca406e80c89bd35bafe566
   - https://enjinx.io/eth/token/0x87026f792d09960232ca406e80c89bd35bafe566
+  - https://etherscan.io/token/0x87026f792d09960232ca406e80c89bd35bafe566
   - https://ethplorer.io/address/0x87026f792d09960232ca406e80c89bd35bafe566
   facebook_username: CDCKorea
   homepage:
@@ -22,3 +22,24 @@ links:
   twitter_screen_name: cdc_kr
 name: Commerce Data Connection
 symbol: cdc
+tickers:
+- base: CDC
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: BTC
+- base: CDC
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: BTC
+- base: CDC
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: ETH
+- base: CDC
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: ETH

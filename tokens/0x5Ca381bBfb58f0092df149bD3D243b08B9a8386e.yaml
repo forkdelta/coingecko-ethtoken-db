@@ -27,14 +27,14 @@ description: >-
 id: mxc
 links:
   announcement_url:
-  - https://www.mxc.org/newsroom/blog
   - https://medium.com/mxcoin
+  - https://www.mxc.org/newsroom/blog
   blockchain_site:
   - https://etherscan.io/token/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e
   - https://ethplorer.io/address/0x5ca381bbfb58f0092df149bd3d243b08b9a8386e
   chat_url:
-  - https://t.me/mxcofficialannouncements
   - https://discordapp.com/invite/4vrJyhX
+  - https://t.me/mxcofficialannouncements
   homepage:
   - https://www.mxc.org
   subreddit_url: https://www.reddit.com/r/MXCFoundation/
@@ -42,3 +42,29 @@ links:
   twitter_screen_name: MXCfoundation
 name: Machine Xchange Coin
 symbol: mxc
+tickers:
+- base: MXC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: MXC
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: BTC
+- base: MXC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: BTC
+- base: MXC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: MXC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

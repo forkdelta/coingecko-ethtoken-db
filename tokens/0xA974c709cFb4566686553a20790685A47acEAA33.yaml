@@ -22,8 +22,8 @@ id: mixin
 links:
   bitcointalk_thread_identifier: 2529771
   blockchain_site:
-  - https://etherscan.io/token/0xa974c709cfb4566686553a20790685a47aceaa33
   - https://enjinx.io/eth/token/0xa974c709cfb4566686553a20790685a47aceaa33
+  - https://etherscan.io/token/0xa974c709cfb4566686553a20790685a47aceaa33
   - https://ethplorer.io/address/0xa974c709cfb4566686553a20790685a47aceaa33
   facebook_username: MixinMessenger
   homepage:
@@ -31,8 +31,54 @@ links:
   repos_url:
     github:
     - https://github.com/MixinMessenger/android-app
-    - https://github.com/MixinMessenger/ios-app
     - https://github.com/MixinMessenger/developers.mixin.one
+    - https://github.com/MixinMessenger/ios-app
   twitter_screen_name: MixinMessenger
 name: Mixin
 symbol: xin
+tickers:
+- base: XIN
+  market:
+    identifier: kkcoin
+    name: KKCoin
+  target: ETH
+- base: XIN
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: XIN
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: XIN
+  market:
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: XIN
+  market:
+    identifier: bigone
+    name: BigONE
+  target: ETH
+- base: XIN
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: XIN
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: XIN
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: XIN
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH

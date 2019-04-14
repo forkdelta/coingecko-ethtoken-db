@@ -10,9 +10,9 @@ id: real
 links:
   bitcointalk_thread_identifier: 2064991
   blockchain_site:
-  - https://ethplorer.io/address/0x9214ec02cb71cba0ada6896b8da260736a67ab10
   - https://enjinx.io/eth/token/0x9214ec02cb71cba0ada6896b8da260736a67ab10
   - https://etherscan.io/token/0x9214ec02cb71cba0ada6896b8da260736a67ab10
+  - https://ethplorer.io/address/0x9214ec02cb71cba0ada6896b8da260736a67ab10
   facebook_username: realestateassetledger
   homepage:
   - https://www.real.markets/
@@ -22,3 +22,34 @@ links:
   twitter_screen_name: real_token
 name: Real Estate Asset Ledger
 symbol: real
+tickers:
+- base: REAL
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: REAL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: REAL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: REAL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: REAL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: REAL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

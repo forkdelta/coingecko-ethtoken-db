@@ -8,9 +8,9 @@ description: >-
 id: birdchain
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x026e62dded1a6ad07d93d39f96b9eabd59665e0d
   - https://enjinx.io/eth/token/0x026e62dded1a6ad07d93d39f96b9eabd59665e0d
   - https://etherscan.io/token/0x026e62dded1a6ad07d93d39f96b9eabd59665e0d
+  - https://ethplorer.io/address/0x026e62dded1a6ad07d93d39f96b9eabd59665e0d
   facebook_username: birdchain.io
   homepage:
   - https://www.birdchain.io/
@@ -21,3 +21,24 @@ links:
   twitter_screen_name: birdchain_io
 name: Birdchain
 symbol: bird
+tickers:
+- base: BIRD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BIRD
+  market:
+    identifier: novaexchange
+    name: Nova Exchange
+  target: DOGE
+- base: BIRD
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: BIRD
+  market:
+    identifier: novaexchange
+    name: Nova Exchange
+  target: MOON

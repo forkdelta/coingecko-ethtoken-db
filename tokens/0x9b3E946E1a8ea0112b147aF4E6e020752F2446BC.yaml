@@ -21,11 +21,27 @@ links:
   - https://medium.com/@puregoldio
   bitcointalk_thread_identifier: 2687883
   blockchain_site:
-  - https://ethplorer.io/address/0x9b3e946e1a8ea0112b147af4e6e020752f2446bc
   - https://etherscan.io/token/0x9b3e946e1a8ea0112b147af4e6e020752f2446bc
+  - https://ethplorer.io/address/0x9b3e946e1a8ea0112b147af4e6e020752f2446bc
   facebook_username: puregoldio
   homepage:
   - https://puregold.io/
   twitter_screen_name: Puregold_SG
 name: Puregold Token
 symbol: pgt
+tickers:
+- base: PGT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: PGT
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: PGT
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC

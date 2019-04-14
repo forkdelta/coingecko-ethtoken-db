@@ -4,8 +4,8 @@ description: ""
 id: ucash
 links:
   blockchain_site:
-  - https://etherscan.io/token/0x92e52a1a235d9a103d970901066ce910aacefd37
   - https://enjinx.io/eth/token/0x92e52a1a235d9a103d970901066ce910aacefd37
+  - https://etherscan.io/token/0x92e52a1a235d9a103d970901066ce910aacefd37
   - https://ethplorer.io/address/0x92e52a1a235d9a103d970901066ce910aacefd37
   homepage:
   - https://u.cash
@@ -16,3 +16,44 @@ links:
   twitter_screen_name: udotcash
 name: U.CASH
 symbol: ucash
+tickers:
+- base: UCASH
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
+- base: UCASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: UCASH
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: UCASH
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: UCASH
+  market:
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: UCASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: UCASH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: UCASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

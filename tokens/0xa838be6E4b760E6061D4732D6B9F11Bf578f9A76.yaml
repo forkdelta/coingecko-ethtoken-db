@@ -11,8 +11,8 @@ links:
   - https://medium.com/tvtwocom
   bitcointalk_thread_identifier: 2632547
   blockchain_site:
-  - https://ethplorer.io/address/0xa838be6e4b760e6061d4732d6b9f11bf578f9a76
   - https://etherscan.io/token/0xa838be6e4b760e6061d4732d6b9f11bf578f9a76
+  - https://ethplorer.io/address/0xa838be6e4b760e6061d4732d6b9f11bf578f9a76
   facebook_username: tvtwocom
   homepage:
   - https://tv-two.com/
@@ -24,3 +24,19 @@ links:
   twitter_screen_name: tvtwocom
 name: TV-TWO
 symbol: ttv
+tickers:
+- base: TTV
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: TIO
+- base: TTV
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TTV
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

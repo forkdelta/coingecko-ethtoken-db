@@ -17,12 +17,33 @@ description: >-
 id: dprating
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xe8663a64a96169ff4d95b4299e7ae9a76b905b31
-  - https://etherscan.io/token/0xe8663a64a96169ff4d95b4299e7ae9a76b905b31
   - https://enjinx.io/eth/token/0xe8663a64a96169ff4d95b4299e7ae9a76b905b31
+  - https://etherscan.io/token/0xe8663a64a96169ff4d95b4299e7ae9a76b905b31
+  - https://ethplorer.io/address/0xe8663a64a96169ff4d95b4299e7ae9a76b905b31
   homepage:
   - http://token.dprating.com/
   telegram_channel_identifier: DPRating
   twitter_screen_name: dprating
 name: DPRating
 symbol: rating
+tickers:
+- base: RATING
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: RATING
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: RATING
+  market:
+    identifier: uex
+    name: UEX
+  target: ETH
+- base: RATING
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH

@@ -9,16 +9,16 @@ description: >-
 id: usechain
 links:
   announcement_url:
-  - https://medium.com/@usechain
   - https://bitcointalk.org/index.php?topic=4449026.0
+  - https://medium.com/@usechain
   bitcointalk_thread_identifier: 3432061
   blockchain_site:
-  - https://ethplorer.io/address/0xd9485499499d66b175cf5ed54c0a19f1a6bcb61a
-  - https://etherscan.io/token/0xd9485499499d66b175cf5ed54c0a19f1a6bcb61a
   - https://enjinx.io/eth/token/0xd9485499499d66b175cf5ed54c0a19f1a6bcb61a
+  - https://etherscan.io/token/0xd9485499499d66b175cf5ed54c0a19f1a6bcb61a
+  - https://ethplorer.io/address/0xd9485499499d66b175cf5ed54c0a19f1a6bcb61a
   chat_url:
-  - https://www.weibo.com/usechain?is_all=1
   - https://www.usechain.net/wechat
+  - https://www.weibo.com/usechain?is_all=1
   facebook_username: UsechainFoundation
   homepage:
   - https://www.usechain.net/
@@ -30,3 +30,34 @@ links:
   twitter_screen_name: usechain
 name: Usechain
 symbol: use
+tickers:
+- base: USE
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
+- base: UST
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: USE
+  market:
+    identifier: coineal
+    name: Coineal
+  target: ETH
+- base: UST0
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: USE
+  market:
+    identifier: oax
+    name: OAX
+  target: ETH
+- base: USE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

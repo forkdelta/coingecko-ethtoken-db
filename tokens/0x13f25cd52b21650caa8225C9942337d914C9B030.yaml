@@ -10,11 +10,42 @@ links:
   bitcointalk_thread_identifier: 2742349
   blockchain_site:
   - https://enjinx.io/eth/token/0x13f25cd52b21650caa8225c9942337d914c9b030
-  - https://ethplorer.io/address/0x13f25cd52b21650caa8225c9942337d914c9b030
   - https://etherscan.io/token/0x13f25cd52b21650caa8225c9942337d914c9b030
+  - https://ethplorer.io/address/0x13f25cd52b21650caa8225c9942337d914c9b030
   homepage:
   - http://rcfund.org/en-US
   telegram_channel_identifier: realchain
   twitter_screen_name: RealChainFund
 name: RealChain
 symbol: rct
+tickers:
+- base: RCT
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: RCT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: RCT
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: RCT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: RCT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: RCT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

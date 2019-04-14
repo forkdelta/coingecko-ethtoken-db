@@ -9,8 +9,8 @@ description: >-
 id: clinicoin
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x386073f0c9f076db93a5222c27f921663e2ce890
   - http://etherscan.io/token/0x386073f0c9f076db93a5222c27f921663e2ce890
+  - https://ethplorer.io/address/0x386073f0c9f076db93a5222c27f921663e2ce890
   facebook_username: clinicoin
   homepage:
   - https://clinicoin.io/
@@ -22,3 +22,19 @@ links:
   twitter_screen_name: clinicoin
 name: Clinicoin
 symbol: clin
+tickers:
+- base: CLIN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: CLIN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CLIN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

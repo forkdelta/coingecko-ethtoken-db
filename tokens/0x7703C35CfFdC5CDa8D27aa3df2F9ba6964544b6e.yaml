@@ -9,9 +9,9 @@ links:
   - https://steemit.com/@pylonnetwork
   bitcointalk_thread_identifier: 2054297
   blockchain_site:
-  - https://ethplorer.io/address/0x7703c35cffdc5cda8d27aa3df2f9ba6964544b6e
   - https://enjinx.io/eth/token/0x7703c35cffdc5cda8d27aa3df2f9ba6964544b6e
   - https://etherscan.io/token/0x7703C35CfFdC5CDa8D27aa3df2F9ba6964544b6e
+  - https://ethplorer.io/address/0x7703c35cffdc5cda8d27aa3df2f9ba6964544b6e
   facebook_username: KlenergyTechOfficial
   homepage:
   - https://pylon-network.org/
@@ -23,3 +23,19 @@ links:
   twitter_screen_name: KlenergyTech
 name: Pylon Network
 symbol: pylnt
+tickers:
+- base: PYLNT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: PYLNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: PYLNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC

@@ -11,9 +11,9 @@ id: stk
 links:
   bitcointalk_thread_identifier: 2212245
   blockchain_site:
-  - https://ethplorer.io/address/0xae73b38d1c9a8b274127ec30160a4927c4d71824
-  - https://etherscan.io/token/0xaE73B38d1c9A8b274127ec30160a4927C4d71824
   - https://enjinx.io/eth/token/0xae73b38d1c9a8b274127ec30160a4927c4d71824
+  - https://etherscan.io/token/0xaE73B38d1c9A8b274127ec30160a4927C4d71824
+  - https://ethplorer.io/address/0xae73b38d1c9a8b274127ec30160a4927c4d71824
   homepage:
   - https://stktoken.com
   repos_url:
@@ -24,3 +24,44 @@ links:
   twitter_screen_name: stktoken
 name: STK
 symbol: stk
+tickers:
+- base: STK
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
+- base: STK
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: STK
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: STK
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: STK
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: STK
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: STK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: STK
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

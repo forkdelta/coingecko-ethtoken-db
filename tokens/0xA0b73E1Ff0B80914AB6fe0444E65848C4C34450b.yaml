@@ -11,8 +11,8 @@ description: >-
 id: crypto-com-chain
 links:
   announcement_url:
-  - https://medium.com/@crypto.com
   - https://hk.linkedin.com/company/cryptocom
+  - https://medium.com/@crypto.com
   blockchain_site:
   - https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b
   - https://ethplorer.io/address/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b
@@ -26,3 +26,19 @@ links:
   twitter_screen_name: cryptocom
 name: Crypto.com Chain
 symbol: cro
+tickers:
+- base: CRO
+  market:
+    identifier: cpdax
+    name: CPDax
+  target: KRW
+- base: CRO
+  market:
+    identifier: gopax
+    name: GoPax
+  target: BTC
+- base: CRO
+  market:
+    identifier: gopax
+    name: GoPax
+  target: ETH

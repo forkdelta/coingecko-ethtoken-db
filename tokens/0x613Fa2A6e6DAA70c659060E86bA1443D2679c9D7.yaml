@@ -12,9 +12,9 @@ description: >-
 id: parkingo
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x613fa2a6e6daa70c659060e86ba1443d2679c9d7
   - https://enjinx.io/eth/token/0x613fa2a6e6daa70c659060e86ba1443d2679c9d7
   - https://etherscan.io/token/0x613fa2a6e6daa70c659060e86ba1443d2679c9d7
+  - https://ethplorer.io/address/0x613fa2a6e6daa70c659060e86ba1443d2679c9d7
   homepage:
   - https://parkingo.io/en/
   repos_url:
@@ -22,3 +22,14 @@ links:
     - https://github.com/parkingo/GOToken
 name: ParkinGo
 symbol: got
+tickers:
+- base: GOT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: GOT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD

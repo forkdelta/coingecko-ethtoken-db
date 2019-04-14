@@ -12,8 +12,8 @@ links:
   bitcointalk_thread_identifier: 2557256
   blockchain_site:
   - https://enjinx.io/eth/token/0x28dee01d53fed0edf5f6e310bf8ef9311513ae40
-  - https://ethplorer.io/address/0x28dee01d53fed0edf5f6e310bf8ef9311513ae40
   - https://etherscan.io/token/0x28dee01d53fed0edf5f6e310bf8ef9311513ae40
+  - https://ethplorer.io/address/0x28dee01d53fed0edf5f6e310bf8ef9311513ae40
   homepage:
   - https://www.blitzpredict.io/
   repos_url:
@@ -24,3 +24,24 @@ links:
   twitter_screen_name: BlitzPredict
 name: BlitzPredict
 symbol: xbp
+tickers:
+- base: XBP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: XBP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: XBP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: XBP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

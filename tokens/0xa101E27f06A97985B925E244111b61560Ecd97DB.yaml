@@ -10,8 +10,8 @@ links:
   bitcointalk_thread_identifier: 2624745
   blockchain_site:
   - https://enjinx.io/eth/token/0xa101e27f06a97985b925e244111b61560ecd97db
-  - https://ethplorer.io/address/0xa101e27f06a97985b925e244111b61560ecd97db
   - https://etherscan.io/token/0xa101e27f06a97985b925e244111b61560ecd97db
+  - https://ethplorer.io/address/0xa101e27f06a97985b925e244111b61560ecd97db
   facebook_username: bittoexchange
   homepage:
   - https://www.bitto.tech/
@@ -23,3 +23,24 @@ links:
   twitter_screen_name: bittoexchange
 name: BITTO
 symbol: BITTO
+tickers:
+- base: BITTO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: BITTO
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: BITTO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: BITTO
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH

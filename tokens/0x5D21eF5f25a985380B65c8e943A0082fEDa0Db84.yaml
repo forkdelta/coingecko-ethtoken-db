@@ -6,8 +6,8 @@ id: ethereum-cash
 links:
   bitcointalk_thread_identifier: 2256651
   blockchain_site:
-  - https://ethplorer.io/address/0x5d21ef5f25a985380b65c8e943a0082feda0db84
   - https://etherscan.io/token/0x5d21ef5f25a985380b65c8e943a0082feda0db84
+  - https://ethplorer.io/address/0x5d21ef5f25a985380b65c8e943a0082feda0db84
   homepage:
   - https://www.ethereumcash.technology/
   repos_url:
@@ -17,3 +17,29 @@ links:
   twitter_screen_name: EthereumCash_
 name: Ethereum Cash
 symbol: ecash
+tickers:
+- base: ECASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: ECASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: ECASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: ECASH
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ECASH
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

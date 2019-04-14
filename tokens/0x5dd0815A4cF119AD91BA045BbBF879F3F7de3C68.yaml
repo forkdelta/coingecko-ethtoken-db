@@ -19,8 +19,8 @@ links:
   bitcointalk_thread_identifier: 2799527
   blockchain_site:
   - https://enjinx.io/eth/token/0x5dd0815a4cf119ad91ba045bbbf879f3f7de3c68
-  - https://ethplorer.io/address/0x5dd0815a4cf119ad91ba045bbbf879f3f7de3c68
   - https://etherscan.io/token/0x5dd0815a4cf119ad91ba045bbbf879f3f7de3c68
+  - https://ethplorer.io/address/0x5dd0815a4cf119ad91ba045bbbf879f3f7de3c68
   facebook_username: SKYFchain-2030350540582744
   homepage:
   - https://www.skyfchain.io/
@@ -31,3 +31,14 @@ links:
   twitter_screen_name: SKYFchain
 name: SKYFchain
 symbol: skyft
+tickers:
+- base: SKYFT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SKYFT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

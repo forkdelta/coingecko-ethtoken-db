@@ -22,8 +22,8 @@ id: tronclassic
 links:
   bitcointalk_thread_identifier: 3829331
   blockchain_site:
-  - https://etherscan.io/token/0xad5fe5b0b8ec8ff4565204990e4405b2da117d8e
   - https://enjinx.io/eth/token/0xad5fe5b0b8ec8ff4565204990e4405b2da117d8e
+  - https://etherscan.io/token/0xad5fe5b0b8ec8ff4565204990e4405b2da117d8e
   - https://ethplorer.io/address/0xad5fe5b0b8ec8ff4565204990e4405b2da117d8e
   homepage:
   - https://www.tronclassic.xyz/
@@ -36,3 +36,19 @@ links:
   twitter_screen_name: TronClassic
 name: TronClassic
 symbol: trxc
+tickers:
+- base: TRXC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: TRXC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: TRXC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

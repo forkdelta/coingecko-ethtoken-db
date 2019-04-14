@@ -16,8 +16,8 @@ id: crafty
 links:
   bitcointalk_thread_identifier: 2628942
   blockchain_site:
-  - https://ethplorer.io/search/0x6956983f8b3ce173b4ab84361aa0ad52f38d936f
   - https://etherscan.io/token/0x6956983f8b3ce173b4ab84361aa0ad52f38d936f
+  - https://ethplorer.io/search/0x6956983f8b3ce173b4ab84361aa0ad52f38d936f
   facebook_username: crafty.wk
   homepage:
   - https://crafty.work/?lang=en
@@ -27,3 +27,24 @@ links:
   twitter_screen_name: craftywork_
 name: Crafty
 symbol: cfty
+tickers:
+- base: CFTY
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CFTY
+  market:
+    identifier: braziliex
+    name: Braziliex
+  target: USDT
+- base: CFTY
+  market:
+    identifier: braziliex
+    name: Braziliex
+  target: BTC
+- base: CFTY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -16,8 +16,8 @@ links:
   bitcointalk_thread_identifier: 3214189
   blockchain_site:
   - https://enjinx.io/eth/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
-  - https://ethplorer.io/search/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
   - https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
+  - https://ethplorer.io/search/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
   chat_url:
   - https://slack.kleros.io/
   facebook_username: kleros.io
@@ -31,3 +31,24 @@ links:
   twitter_screen_name: kleros_io
 name: Kleros
 symbol: pnk
+tickers:
+- base: PNK
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PNK
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: PNK
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: PNK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

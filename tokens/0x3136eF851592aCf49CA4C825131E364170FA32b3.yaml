@@ -23,9 +23,9 @@ id: coinfi
 links:
   bitcointalk_thread_identifier: 2571554
   blockchain_site:
-  - https://ethplorer.io/address/0x3136ef851592acf49ca4c825131e364170fa32b3
-  - https://etherscan.io/token/0x3136ef851592acf49ca4c825131e364170fa32b3
   - https://enjinx.io/eth/token/0x3136ef851592acf49ca4c825131e364170fa32b3
+  - https://etherscan.io/token/0x3136ef851592acf49ca4c825131e364170fa32b3
+  - https://ethplorer.io/address/0x3136ef851592acf49ca4c825131e364170fa32b3
   facebook_username: CoinFiProject
   homepage:
   - http://www.coinfi.com/
@@ -37,3 +37,34 @@ links:
   twitter_screen_name: coin_fi
 name: CoinFi
 symbol: cofi
+tickers:
+- base: COFI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: COFI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: COFI
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: COFI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: COFI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: COFI
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH

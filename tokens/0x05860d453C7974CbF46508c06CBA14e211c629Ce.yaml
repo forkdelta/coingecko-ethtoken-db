@@ -26,9 +26,9 @@ id: edenchain
 links:
   bitcointalk_thread_identifier: 3101588
   blockchain_site:
-  - https://ethplorer.io/address/0x05860d453c7974cbf46508c06cba14e211c629ce
-  - https://etherscan.io/token/0x05860d453c7974cbf46508c06cba14e211c629ce
   - https://enjinx.io/eth/token/0x05860d453c7974cbf46508c06cba14e211c629ce
+  - https://etherscan.io/token/0x05860d453c7974cbf46508c06cba14e211c629ce
+  - https://ethplorer.io/address/0x05860d453c7974cbf46508c06cba14e211c629ce
   facebook_username: edenchainio
   homepage:
   - http://edenchain.io/
@@ -37,3 +37,29 @@ links:
   twitter_screen_name: edenchainio
 name: Edenchain
 symbol: edn
+tickers:
+- base: EDN
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
+- base: EDEN
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: EDN
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: EDN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EDN
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH

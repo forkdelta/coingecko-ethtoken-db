@@ -6,8 +6,8 @@ id: arbidex
 links:
   bitcointalk_thread_identifier: 2536004
   blockchain_site:
-  - https://etherscan.io/token/0x9a794dc1939f1d78fa48613b89b8f9d0a20da00e
   - https://enjinx.io/eth/token/0x9a794dc1939f1d78fa48613b89b8f9d0a20da00e
+  - https://etherscan.io/token/0x9a794dc1939f1d78fa48613b89b8f9d0a20da00e
   - https://ethplorer.io/address/0x9a794dc1939f1d78fa48613b89b8f9d0a20da00e
   facebook_username: arbidextoken
   homepage:
@@ -16,3 +16,49 @@ links:
   twitter_screen_name: arbidextoken
 name: Arbidex
 symbol: abx
+tickers:
+- base: ABX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: ABX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ABX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ABX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ABX
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: ETH
+- base: ETH
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ABX
+- base: ABX
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: ABX
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: OUSD
+- base: ABX
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH

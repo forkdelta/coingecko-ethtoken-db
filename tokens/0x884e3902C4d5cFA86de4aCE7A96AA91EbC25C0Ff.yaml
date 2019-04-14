@@ -15,9 +15,9 @@ links:
   - https://medium.com/jboxcoin/
   bitcointalk_thread_identifier: 2330794
   blockchain_site:
-  - https://ethplorer.io/address/0x884e3902c4d5cfa86de4ace7a96aa91ebc25c0ff
-  - https://etherscan.io/token/0x884e3902c4d5cfa86de4ace7a96aa91ebc25c0ff
   - https://enjinx.io/eth/token/0x884e3902c4d5cfa86de4ace7a96aa91ebc25c0ff
+  - https://etherscan.io/token/0x884e3902c4d5cfa86de4ace7a96aa91ebc25c0ff
+  - https://ethplorer.io/address/0x884e3902c4d5cfa86de4ace7a96aa91ebc25c0ff
   facebook_username: jboxcommunity
   homepage:
   - https://jboxcoin.org/
@@ -28,3 +28,19 @@ links:
   twitter_screen_name: jbox_coin
 name: JBOX
 symbol: jbx
+tickers:
+- base: JBX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: JBX
+  market:
+    identifier: raisex
+    name: Raisex
+  target: ETH
+- base: JBX
+  market:
+    identifier: raisex
+    name: Raisex
+  target: BTC

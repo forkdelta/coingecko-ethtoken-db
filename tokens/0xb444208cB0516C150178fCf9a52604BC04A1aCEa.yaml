@@ -4,9 +4,9 @@ description: ""
 id: greenmed
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xb444208cb0516c150178fcf9a52604bc04a1acea
-  - https://etherscan.io/token/0xb444208cb0516c150178fcf9a52604bc04a1acea
   - https://enjinx.io/eth/token/0xb444208cb0516c150178fcf9a52604bc04a1acea
+  - https://etherscan.io/token/0xb444208cb0516c150178fcf9a52604bc04a1acea
+  - https://ethplorer.io/address/0xb444208cb0516c150178fcf9a52604bc04a1acea
   homepage:
   - https://www.greenmed.io/
   repos_url:
@@ -16,3 +16,24 @@ links:
   twitter_screen_name: greenmed_team
 name: GreenMed
 symbol: grmd
+tickers:
+- base: GRMD
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: GRMD
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: GRMD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: GRMD
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

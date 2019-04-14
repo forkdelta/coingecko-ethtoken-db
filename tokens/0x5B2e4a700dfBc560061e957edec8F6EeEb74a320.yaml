@@ -30,8 +30,8 @@ links:
   bitcointalk_thread_identifier: 2208591
   blockchain_site:
   - https://enjinx.io/eth/token/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
-  - https://ethplorer.io/address/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
   - https://etherscan.io/token/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
+  - https://ethplorer.io/address/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
   chat_url:
   - https://t.me/insolarannouncements
   facebook_username: ins.ecosystem
@@ -39,11 +39,52 @@ links:
   - https://insolar.io/
   repos_url:
     github:
-    - https://github.com/insolar/platform-backend
     - https://github.com/insolar/insolar
+    - https://github.com/insolar/platform-backend
     - https://github.com/insolar/platform-frontend
   subreddit_url: https://www.reddit.com/r/insolar
   telegram_channel_identifier: insolar
   twitter_screen_name: insolario
 name: Insolar
 symbol: ins
+tickers:
+- base: INS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: INS
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: INS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: INS
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: INS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: INS
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: INS
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: INS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI

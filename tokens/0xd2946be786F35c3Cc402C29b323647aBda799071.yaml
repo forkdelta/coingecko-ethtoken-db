@@ -43,8 +43,8 @@ links:
   - https://medium.com/@vikkyglobal
   blockchain_site:
   - https://enjinx.io/eth/token/0xd2946be786f35c3cc402c29b323647abda799071
-  - https://ethplorer.io/address/0xd2946be786f35c3cc402c29b323647abda799071
   - https://etherscan.io/token/0xd2946be786f35c3cc402c29b323647abda799071
+  - https://ethplorer.io/address/0xd2946be786f35c3cc402c29b323647abda799071
   homepage:
   - https://ico.vikky.io/
   repos_url:
@@ -54,3 +54,29 @@ links:
   twitter_screen_name: VikkyGlobal
 name: VikkyToken
 symbol: vikky
+tickers:
+- base: VIKKY
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: VIKKY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: VIKKY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: VIKKY
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: VIKKY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA

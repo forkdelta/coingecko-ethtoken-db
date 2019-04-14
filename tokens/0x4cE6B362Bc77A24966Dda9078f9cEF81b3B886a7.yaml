@@ -13,9 +13,9 @@ links:
   - https://medium.com/@NPERproject
   bitcointalk_thread_identifier: 3705093
   blockchain_site:
-  - https://ethplorer.io/address/0x4ce6b362bc77a24966dda9078f9cef81b3b886a7
-  - https://etherscan.io/token/0x4ce6b362bc77a24966dda9078f9cef81b3b886a7
   - https://enjinx.io/eth/token/0x4ce6b362bc77a24966dda9078f9cef81b3b886a7
+  - https://etherscan.io/token/0x4ce6b362bc77a24966dda9078f9cef81b3b886a7
+  - https://ethplorer.io/address/0x4ce6b362bc77a24966dda9078f9cef81b3b886a7
   chat_url:
   - https://open.kakao.com/o/gy06bUJ
   facebook_username: NPERproject
@@ -30,3 +30,34 @@ links:
   twitter_screen_name: NPERproject
 name: NPER
 symbol: nper
+tickers:
+- base: NPER
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: NPER
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: NPER
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: NPER
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
+- base: NPER
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: NPER
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

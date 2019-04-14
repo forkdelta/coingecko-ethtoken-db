@@ -10,9 +10,9 @@ id: spectre-utility-token
 links:
   bitcointalk_thread_identifier: 2169122
   blockchain_site:
-  - https://ethplorer.io/address/0x2c82c73d5b34aa015989462b2948cd616a37641f
-  - https://etherscan.io/token/0x2c82c73d5b34aa015989462b2948cd616a37641f
   - https://enjinx.io/eth/token/0x2c82c73d5b34aa015989462b2948cd616a37641f
+  - https://etherscan.io/token/0x2c82c73d5b34aa015989462b2948cd616a37641f
+  - https://ethplorer.io/address/0x2c82c73d5b34aa015989462b2948cd616a37641f
   facebook_username: spectrepage
   homepage:
   - http://www.spectre.ai/
@@ -23,3 +23,24 @@ links:
   twitter_screen_name: SpectreAI
 name: Spectre.ai Utility Token
 symbol: sxut
+tickers:
+- base: SXUT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: SXUT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SXUT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: SXUT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

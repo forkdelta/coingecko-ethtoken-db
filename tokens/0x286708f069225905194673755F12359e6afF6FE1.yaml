@@ -27,8 +27,8 @@ links:
   - https://ethplorer.io/address/0x286708f069225905194673755f12359e6aff6fe1
   facebook_username: GibBlockEx
   homepage:
-  - https://stacs.io/
   - https://hashstacs.io/
+  - https://stacs.io/
   repos_url:
     github:
     - https://github.com/Gibraltar-Blockchain-Exchange/rock-token
@@ -37,3 +37,24 @@ links:
   twitter_screen_name: GibBlockEx
 name: STACS Token
 symbol: stacs
+tickers:
+- base: STACS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: STACS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: STACS
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: GBP
+- base: STACS
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: EUR

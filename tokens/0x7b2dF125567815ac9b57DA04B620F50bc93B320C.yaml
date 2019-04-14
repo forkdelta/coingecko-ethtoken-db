@@ -11,9 +11,9 @@ links:
   announcement_url:
   - https://medium.com/@archetypalnetwork/
   blockchain_site:
-  - https://ethplorer.io/address/0x7b2df125567815ac9b57da04b620f50bc93b320c
-  - https://etherscan.io/token/0x7b2df125567815ac9b57da04b620f50bc93b320c
   - https://enjinx.io/eth/token/0x7b2df125567815ac9b57da04b620f50bc93b320c
+  - https://etherscan.io/token/0x7b2df125567815ac9b57da04b620f50bc93b320c
+  - https://ethplorer.io/address/0x7b2df125567815ac9b57da04b620f50bc93b320c
   homepage:
   - https://archetypal.network/
   repos_url:
@@ -23,3 +23,24 @@ links:
   twitter_screen_name: ArchetypalNet
 name: Archetypal Network
 symbol: actp
+tickers:
+- base: ACTP
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: ACTP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ACTP
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: ACTP
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC

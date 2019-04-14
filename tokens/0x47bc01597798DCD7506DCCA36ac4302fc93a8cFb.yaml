@@ -9,9 +9,9 @@ id: crowd-machine
 links:
   bitcointalk_thread_identifier: 2490945
   blockchain_site:
-  - https://ethplorer.io/address/0x47bc01597798dcd7506dcca36ac4302fc93a8cfb
-  - https://etherscan.io/token/0x47bc01597798dcd7506dcca36ac4302fc93a8cfb
   - https://enjinx.io/eth/token/0x47bc01597798dcd7506dcca36ac4302fc93a8cfb
+  - https://etherscan.io/token/0x47bc01597798dcd7506dcca36ac4302fc93a8cfb
+  - https://ethplorer.io/address/0x47bc01597798dcd7506dcca36ac4302fc93a8cfb
   facebook_username: Crowd-Machine-393354234414159
   homepage:
   - https://crowdmachine.com/
@@ -20,3 +20,29 @@ links:
   twitter_screen_name: crowd_machine
 name: Crowd Machine
 symbol: cmct
+tickers:
+- base: CMCT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CMCT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CMCT
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: CMCT
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: CMCT
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH

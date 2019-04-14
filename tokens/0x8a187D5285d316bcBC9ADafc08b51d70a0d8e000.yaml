@@ -7,9 +7,9 @@ description: >-
 id: smart-investment-fund-token
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x8a187d5285d316bcbc9adafc08b51d70a0d8e000
   - https://enjinx.io/eth/token/0x8a187d5285d316bcbc9adafc08b51d70a0d8e000
   - https://etherscan.io/token/0x8a187d5285d316bcbc9adafc08b51d70a0d8e000
+  - https://ethplorer.io/address/0x8a187d5285d316bcbc9adafc08b51d70a0d8e000
   homepage:
   - https://smartift.com/
   repos_url:
@@ -19,3 +19,19 @@ links:
   twitter_screen_name: smartift
 name: Smart Investment Fund Token
 symbol: sift
+tickers:
+- base: SIFT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SIFT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: SIFT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

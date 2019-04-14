@@ -11,10 +11,41 @@ description: >-
 id: vio
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x94ffb55ce68231c5966ea8dab16a8f066846513f
-  - https://etherscan.io/token/0x94ffb55ce68231c5966ea8dab16a8f066846513f
   - https://enjinx.io/eth/token/0x94ffb55ce68231c5966ea8dab16a8f066846513f
+  - https://etherscan.io/token/0x94ffb55ce68231c5966ea8dab16a8f066846513f
+  - https://ethplorer.io/address/0x94ffb55ce68231c5966ea8dab16a8f066846513f
   homepage:
   - https://www.viome.io/
 name: Vio
 symbol: vio
+tickers:
+- base: VIO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: VIO
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: VIO
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: VIO
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: VIO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: VIO
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC

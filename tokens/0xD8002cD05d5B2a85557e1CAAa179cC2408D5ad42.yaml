@@ -47,8 +47,8 @@ links:
   bitcointalk_thread_identifier: 3069984
   blockchain_site:
   - https://enjinx.io/eth/token/0xd8002cd05d5b2a85557e1caaa179cc2408d5ad42
-  - https://ethplorer.io/address/0xd8002cd05d5b2a85557e1caaa179cc2408d5ad42
   - https://etherscan.io/token/0xd8002cd05d5b2a85557e1caaa179cc2408d5ad42
+  - https://ethplorer.io/address/0xd8002cd05d5b2a85557e1caaa179cc2408d5ad42
   chat_url:
   - https://open.kakao.com/o/gqEhL5G
   - https://open.kakao.com/o/gveiWlM
@@ -59,3 +59,14 @@ links:
   twitter_screen_name: Bingo_Platform
 name: 777.Bingo
 symbol: '777'
+tickers:
+- base: '777'
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: '777'
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH

@@ -8,8 +8,8 @@ links:
   bitcointalk_thread_identifier: 2053239
   blockchain_site:
   - https://enjinx.io/eth/token/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05
-  - https://ethplorer.io/address/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05
   - https://etherscan.io/token/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05
+  - https://ethplorer.io/address/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05
   chat_url:
   - https://atlantio.slack.com/join/shared_invite/MjMyNzg4MTM5NTg0LTE1MDQwMzM4NjItMGEyZDY0MGY3Mg
   facebook_username: atlantplatform
@@ -23,3 +23,49 @@ links:
   twitter_screen_name: atlantio
 name: Atlant
 symbol: atl
+tickers:
+- base: ATL
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: ATL
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: ATL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ATL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: ATL
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: ATL
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: ATL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: ATL
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: ATL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE

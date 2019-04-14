@@ -22,8 +22,8 @@ links:
   bitcointalk_thread_identifier: 4087326
   blockchain_site:
   - https://enjinx.io/eth/token/0x48ff53777f747cfb694101222a944de070c15d36
-  - https://ethplorer.io/address/0x48ff53777f747cfb694101222a944de070c15d36
   - https://etherscan.io/token/0x48ff53777f747cfb694101222a944de070c15d36
+  - https://ethplorer.io/address/0x48ff53777f747cfb694101222a944de070c15d36
   facebook_username: imptoken
   homepage:
   - https://imps.me/
@@ -35,3 +35,14 @@ links:
   twitter_screen_name: imptoken
 name: Ether Kingdoms Token
 symbol: imp
+tickers:
+- base: IMP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: IMP
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

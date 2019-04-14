@@ -35,18 +35,79 @@ id: simple-token
 links:
   bitcointalk_thread_identifier: 2266379
   blockchain_site:
-  - https://ethplorer.io/address/0x2c4e8f2d746113d0696ce89b35f0d8bf88e0aeca
-  - https://etherscan.io/token/0x2c4e8f2d746113d0696ce89b35f0d8bf88e0aeca
   - https://enjinx.io/eth/token/0x2c4e8f2d746113d0696ce89b35f0d8bf88e0aeca
+  - https://etherscan.io/token/0x2c4e8f2d746113d0696ce89b35f0d8bf88e0aeca
+  - https://ethplorer.io/address/0x2c4e8f2d746113d0696ce89b35f0d8bf88e0aeca
   facebook_username: OST
   homepage:
   - https://ost.com/
   repos_url:
     github:
-    - https://github.com/OpenSTFoundation/openst-platform
     - https://github.com/OpenSTFoundation/openst-contracts
+    - https://github.com/OpenSTFoundation/openst-platform
   subreddit_url: https://www.reddit.com/r/OSTdotcom/
   telegram_channel_identifier: ostdotcom
   twitter_screen_name: OSTdotcom
 name: OST
 symbol: ost
+tickers:
+- base: OST
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: OST
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: OST
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: OST
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: OST
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
+- base: OST
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: ST
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: OST
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: OST
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: OST
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: ST
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: OST
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC

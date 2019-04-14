@@ -12,11 +12,37 @@ id: model-x-coin
 links:
   bitcointalk_thread_identifier: 4639957
   blockchain_site:
-  - https://ethplorer.io/address/0x3c6da7763caa0e4b684bbc733f04a8ec08af3762
   - https://etherscan.io/token/0x3c6da7763caa0e4b684bbc733f04a8ec08af3762
+  - https://ethplorer.io/address/0x3c6da7763caa0e4b684bbc733f04a8ec08af3762
   homepage:
   - https://model-x.net/
   telegram_channel_identifier: ModelX_Webcam
   twitter_screen_name: ModelX_Webcam
 name: MODEL-X-coin
 symbol: modx
+tickers:
+- base: MODX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: MODX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: MODX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: MODX
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: MODX
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC

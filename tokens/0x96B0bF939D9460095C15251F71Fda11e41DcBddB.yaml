@@ -21,9 +21,9 @@ links:
   - https://steemit.com/@sharpay
   bitcointalk_thread_identifier: 2518528
   blockchain_site:
-  - https://ethplorer.io/address/0x96b0bf939d9460095c15251f71fda11e41dcbddb
   - https://enjinx.io/eth/token/0x96b0bf939d9460095c15251f71fda11e41dcbddb
   - https://etherscan.io/token/0x96b0bf939d9460095c15251f71fda11e41dcbddb
+  - https://ethplorer.io/address/0x96b0bf939d9460095c15251f71fda11e41dcbddb
   chat_url:
   - https://golos.io/@sharpay
   - https://t.me/sharpay_admin
@@ -37,3 +37,19 @@ links:
   twitter_screen_name: sharpay_io
 name: Sharpay
 symbol: s
+tickers:
+- base: S
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: S
+  market:
+    identifier: simex
+    name: Simex
+  target: BTC
+- base: S
+  market:
+    identifier: simex
+    name: Simex
+  target: RUB

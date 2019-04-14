@@ -9,9 +9,9 @@ description: >-
 id: fundrequest
 links:
   blockchain_site:
+  - https://enjinx.io/eth/token/0x4df47b4969b2911c966506e3592c41389493953b
   - https://etherscan.io/token/0x4df47b4969b2911c966506e3592c41389493953b
   - https://ethplorer.io/address/0x4df47b4969b2911c966506e3592c41389493953b
-  - https://enjinx.io/eth/token/0x4df47b4969b2911c966506e3592c41389493953b
   chat_url:
   - https://fundrequest.chat/
   homepage:
@@ -25,3 +25,39 @@ links:
   twitter_screen_name: fundrequest_io
 name: FundRequest
 symbol: fnd
+tickers:
+- base: FND
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: FND
+  market:
+    identifier: ethex
+    name: Ethex
+  target: ETH
+- base: FND
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: FND
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: FND
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: FND
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: FND
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

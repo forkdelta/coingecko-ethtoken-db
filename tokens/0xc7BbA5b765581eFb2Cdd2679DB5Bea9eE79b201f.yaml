@@ -24,9 +24,9 @@ description: >-
 id: gems-2
 links:
   blockchain_site:
+  - https://enjinx.io/eth/token/0xc7bba5b765581efb2cdd2679db5bea9ee79b201f
   - https://etherscan.io/token/0xc7bba5b765581efb2cdd2679db5bea9ee79b201f
   - https://ethplorer.io/address/0xc7bba5b765581efb2cdd2679db5bea9ee79b201f
-  - https://enjinx.io/eth/token/0xc7bba5b765581efb2cdd2679db5bea9ee79b201f
   homepage:
   - https://gems.org/
   official_forum_url:
@@ -35,3 +35,29 @@ links:
   twitter_screen_name: gems
 name: Gems
 symbol: gem
+tickers:
+- base: GEM
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: GEM
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: GEM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: GEM
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: GEM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

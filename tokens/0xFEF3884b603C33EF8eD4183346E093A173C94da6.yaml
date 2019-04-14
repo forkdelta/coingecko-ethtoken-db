@@ -21,8 +21,8 @@ links:
   bitcointalk_thread_identifier: 3345753
   blockchain_site:
   - https://enjinx.io/eth/token/0xfef3884b603c33ef8ed4183346e093a173c94da6
-  - https://ethplorer.io/address/0xfef3884b603c33ef8ed4183346e093a173c94da6
   - https://etherscan.io/token/0xfef3884b603c33ef8ed4183346e093a173c94da6
+  - https://ethplorer.io/address/0xfef3884b603c33ef8ed4183346e093a173c94da6
   chat_url:
   - https://discordapp.com/invite/QgpQdWS
   facebook_username: metamorphcoin
@@ -35,3 +35,24 @@ links:
   twitter_screen_name: MetaMorphPro
 name: MetaMorph
 symbol: metm
+tickers:
+- base: METM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: METM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: METM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: METM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA

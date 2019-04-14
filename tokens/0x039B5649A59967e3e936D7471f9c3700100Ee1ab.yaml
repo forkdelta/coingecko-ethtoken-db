@@ -32,11 +32,62 @@ id: kucoin-shares
 links:
   blockchain_site:
   - https://enjinx.io/eth/token/0x039b5649a59967e3e936d7471f9c3700100ee1ab
-  - https://ethplorer.io/address/0x039b5649a59967e3e936d7471f9c3700100ee1ab
   - https://etherscan.io/token/0x039b5649a59967e3e936d7471f9c3700100ee1ab
+  - https://ethplorer.io/address/0x039b5649a59967e3e936d7471f9c3700100ee1ab
   homepage:
   - https://www.kucoin.com/#/
   subreddit_url: https://www.reddit.com/r/kucoin
   twitter_screen_name: kucoincom
 name: KuCoin Shares
 symbol: kcs
+tickers:
+- base: KCS
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: ETC
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
+- base: KCS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: KCS
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: KCS
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: KCS
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: GAS
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
+- base: DRGN
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
+- base: TKY
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
+- base: PRL
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS

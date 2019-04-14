@@ -11,8 +11,8 @@ links:
   - https://medium.com/sensay
   bitcointalk_thread_identifier: 2096600
   blockchain_site:
-  - https://ethplorer.io/address/0x6745fab6801e376cd24f03572b9c9b0d4edddccf
   - https://etherscan.io/token/0x6745fab6801e376cd24f03572b9c9b0d4edddccf
+  - https://ethplorer.io/address/0x6745fab6801e376cd24f03572b9c9b0d4edddccf
   chat_url:
   - https://t.me/sense_announcements
   facebook_username: sensaybot
@@ -27,3 +27,14 @@ links:
   twitter_screen_name: SenseToken
 name: Sense
 symbol: sense
+tickers:
+- base: SENSE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SENSE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

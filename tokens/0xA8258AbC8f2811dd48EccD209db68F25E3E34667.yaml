@@ -28,12 +28,12 @@ description: >-
 id: constellation-labs
 links:
   announcement_url:
-  - https://medium.com/constellationlabs/dag-distribution-addressing-market-event-pt-1-775c8c17f602
   - https://medium.com/constellationlabs
+  - https://medium.com/constellationlabs/dag-distribution-addressing-market-event-pt-1-775c8c17f602
   blockchain_site:
   - https://enjinx.io/eth/token/0xa8258abc8f2811dd48eccd209db68f25e3e34667
-  - https://ethplorer.io/address/0xa8258abc8f2811dd48eccd209db68f25e3e34667
   - https://etherscan.io/token/0xa8258abc8f2811dd48eccd209db68f25e3e34667
+  - https://ethplorer.io/address/0xa8258abc8f2811dd48eccd209db68f25e3e34667
   facebook_username: Conste11ation
   homepage:
   - https://constellationlabs.io/
@@ -47,3 +47,34 @@ links:
   twitter_screen_name: conste11ation
 name: Constellation
 symbol: dag
+tickers:
+- base: DAG
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: DAG
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DAG
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DAG
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: DAG
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: DAG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

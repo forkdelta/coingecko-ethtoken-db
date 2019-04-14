@@ -14,8 +14,8 @@ links:
   bitcointalk_thread_identifier: 1011112
   blockchain_site:
   - https://enjinx.io/eth/token/0x8727c112c712c4a03371ac87a74dd6ab104af768
-  - https://ethplorer.io/address/0x8727c112c712c4a03371ac87a74dd6ab104af768
   - https://etherscan.io/token/0x8727c112c712c4a03371ac87a74dd6ab104af768
+  - https://ethplorer.io/address/0x8727c112c712c4a03371ac87a74dd6ab104af768
   facebook_username: jetcoins
   homepage:
   - http://www.jetcoininstitute.com/
@@ -27,3 +27,39 @@ links:
   twitter_screen_name: jetcoins
 name: Jetcoin
 symbol: jet
+tickers:
+- base: JET
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: JET
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: JET
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: JET
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: JET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: JET
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: JET
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

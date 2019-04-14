@@ -30,12 +30,12 @@ description: >-
 id: plus-coin
 links:
   announcement_url:
-  - https://t.me/Official_PlusCoin
   - https://medium.com/pluscoin
+  - https://t.me/Official_PlusCoin
   blockchain_site:
-  - https://ethplorer.io/address/0x97fb6fc2ad532033af97043b563131c5204f8a35
-  - https://etherscan.io/token/0x97fb6fc2ad532033af97043b563131c5204f8a35
   - https://enjinx.io/eth/token/0x97fb6fc2ad532033af97043b563131c5204f8a35
+  - https://etherscan.io/token/0x97fb6fc2ad532033af97043b563131c5204f8a35
+  - https://ethplorer.io/address/0x97fb6fc2ad532033af97043b563131c5204f8a35
   chat_url:
   - https://pluscoin-shared-invitation.herokuapp.com/
   facebook_username: metapspluscoin
@@ -49,3 +49,34 @@ links:
   twitter_screen_name: pluscoin
 name: Plus Coin
 symbol: nplc
+tickers:
+- base: PLC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: NPLC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: PLC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: NPLC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: NPLC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: PLC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC

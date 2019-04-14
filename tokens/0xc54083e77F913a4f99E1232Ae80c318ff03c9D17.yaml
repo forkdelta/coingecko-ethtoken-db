@@ -31,11 +31,37 @@ description: >-
 id: carinet-token
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xc54083e77f913a4f99e1232ae80c318ff03c9d17
-  - https://etherscan.io/token/0xc54083e77f913a4f99e1232ae80c318ff03c9d17
   - https://enjinx.io/eth/token/0xc54083e77f913a4f99e1232ae80c318ff03c9d17
+  - https://etherscan.io/token/0xc54083e77f913a4f99e1232ae80c318ff03c9d17
+  - https://ethplorer.io/address/0xc54083e77f913a4f99e1232ae80c318ff03c9d17
   homepage:
   - http://www.carinet.io/
   twitter_screen_name: carinet_io
 name: CariNet
 symbol: cit
+tickers:
+- base: CIT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: CIT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: CIT
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: CIT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: CIT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB

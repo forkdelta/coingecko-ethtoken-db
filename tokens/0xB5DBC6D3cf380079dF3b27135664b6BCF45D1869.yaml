@@ -14,13 +14,13 @@ description: "SHIVOM is building the largest genomic and health data hub around 
 id: project-shivom
 links:
   announcement_url:
-  - https://steemit.com/@projectshivom
   - https://medium.com/@projectshivom
+  - https://steemit.com/@projectshivom
   bitcointalk_thread_identifier: 3204563
   blockchain_site:
-  - https://ethplorer.io/address/0xb5dbc6d3cf380079df3b27135664b6bcf45d1869
   - https://enjinx.io/eth/token/0xb5dbc6d3cf380079df3b27135664b6bcf45d1869
   - https://etherscan.io/token/0xb5dbc6d3cf380079df3b27135664b6bcf45d1869
+  - https://ethplorer.io/address/0xb5dbc6d3cf380079df3b27135664b6bcf45d1869
   chat_url:
   - https://discord.me/shivom
   facebook_username: ProjectShivom
@@ -31,3 +31,24 @@ links:
   twitter_screen_name: projectshivom
 name: Project SHIVOM
 symbol: omx
+tickers:
+- base: OMX
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: OMX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: OMX
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: OMX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

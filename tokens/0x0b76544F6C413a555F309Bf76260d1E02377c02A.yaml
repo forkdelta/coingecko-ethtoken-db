@@ -43,8 +43,8 @@ id: internet-node-token
 links:
   blockchain_site:
   - https://enjinx.io/eth/token/0x0b76544f6c413a555f309bf76260d1e02377c02a
-  - https://ethplorer.io/address/0x0b76544f6c413a555f309bf76260d1e02377c02a
   - https://etherscan.io/token/0x0b76544f6c413a555f309bf76260d1e02377c02a
+  - https://ethplorer.io/address/0x0b76544f6c413a555f309bf76260d1e02377c02a
   homepage:
   - https://intchain.io/
   repos_url:
@@ -53,3 +53,34 @@ links:
   subreddit_url: https://www.reddit.com/r/int_chain
 name: Internet Node Token
 symbol: int
+tickers:
+- base: INT
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: USDT
+- base: INT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: INT
+  market:
+    identifier: allcoin
+    name: Allcoin
+  target: BTC
+- base: INT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: INT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: INT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

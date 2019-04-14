@@ -12,9 +12,9 @@ id: terawatt
 links:
   bitcointalk_thread_identifier: 4180151
   blockchain_site:
+  - https://enjinx.io/eth/token/0x93c9291523cb95c0eb0bc379b0483f4d7fc05072
   - https://etherscan.io/token/0x93c9291523cb95c0eb0bc379b0483f4d7fc05072
   - https://ethplorer.io/address/0x93c9291523cb95c0eb0bc379b0483f4d7fc05072
-  - https://enjinx.io/eth/token/0x93c9291523cb95c0eb0bc379b0483f4d7fc05072
   facebook_username: Terawatt
   homepage:
   - https://www.terawattled.com/
@@ -25,3 +25,14 @@ links:
   twitter_screen_name: terawatt_led
 name: Terawatt
 symbol: led
+tickers:
+- base: LED
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LED
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

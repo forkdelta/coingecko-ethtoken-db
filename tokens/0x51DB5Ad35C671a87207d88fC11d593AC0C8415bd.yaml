@@ -6,17 +6,73 @@ id: moeda-loyalty-points
 links:
   bitcointalk_thread_identifier: 2027555
   blockchain_site:
-  - https://ethplorer.io/address/0x51db5ad35c671a87207d88fc11d593ac0c8415bd
-  - https://etherscan.io/token/0x51db5ad35c671a87207d88fc11d593ac0c8415bd
   - https://enjinx.io/eth/token/0x51db5ad35c671a87207d88fc11d593ac0c8415bd
+  - https://etherscan.io/token/0x51db5ad35c671a87207d88fc11d593ac0c8415bd
+  - https://ethplorer.io/address/0x51db5ad35c671a87207d88fc11d593ac0c8415bd
   facebook_username: moedaseeds/
   homepage:
   - https://moedaseeds.com/
   repos_url:
     github:
-    - https://github.com/moedaplatform
     - https://github.com/moedabank/moeda
+    - https://github.com/moedaplatform
   subreddit_url: https://www.reddit.com/r/MoedaBanking
   twitter_screen_name: moedaseeds/
 name: Moeda Loyalty Points
 symbol: mda
+tickers:
+- base: MDA
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: MDA
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: ETH
+- base: MDA
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: MDA
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: MDA
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: MDA
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: MDA
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: MDA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: MDA
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: MDA
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: MDA
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

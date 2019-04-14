@@ -7,8 +7,8 @@ links:
   - https://medium.com/@drmblock
   bitcointalk_thread_identifier: 2075254
   blockchain_site:
-  - https://ethplorer.io/address/0xaf146fbd319ca7ae178caa2c9d80a2db6b944350
   - https://etherscan.io/token/0xaf146fbd319ca7ae178caa2c9d80a2db6b944350
+  - https://ethplorer.io/address/0xaf146fbd319ca7ae178caa2c9d80a2db6b944350
   chat_url:
   - https://propxico.slack.com/
   facebook_username: drmblock
@@ -18,3 +18,24 @@ links:
   twitter_screen_name: drmblock
 name: Propx
 symbol: pxt
+tickers:
+- base: PXT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: PXT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PXT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: PXT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

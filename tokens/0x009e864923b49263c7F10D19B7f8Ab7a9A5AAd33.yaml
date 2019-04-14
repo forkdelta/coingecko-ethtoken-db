@@ -12,8 +12,8 @@ id: knoxstertoken
 links:
   bitcointalk_thread_identifier: 2326058
   blockchain_site:
-  - https://ethplorer.io/address/0x009e864923b49263c7f10d19b7f8ab7a9a5aad33
   - https://etherscan.io/token/0x009e864923b49263c7f10d19b7f8ab7a9a5aad33
+  - https://ethplorer.io/address/0x009e864923b49263c7f10d19b7f8ab7a9a5aad33
   homepage:
   - https://fortknoxster.com/
   subreddit_url: https://www.reddit.com/r/FortKnoxster/
@@ -21,3 +21,24 @@ links:
   twitter_screen_name: fortknoxster
 name: Knoxstertoken
 symbol: fkx
+tickers:
+- base: FKX
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: FKX
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: FKX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: FKX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -15,8 +15,8 @@ links:
   - https://ethplorer.io/address/0x7c84e62859d0715eb77d1b1c4154ecd6abb21bec
   facebook_username: shpingapp
   homepage:
-  - https://www.shping.com/
   - https://tokensale.shping.com/
+  - https://www.shping.com/
   repos_url:
     github:
     - https://github.com/shping/smart-contracts
@@ -25,3 +25,24 @@ links:
   twitter_screen_name: ShpingApp
 name: Shping
 symbol: shping
+tickers:
+- base: SHPING
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: SHPING
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SHPING
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SHPING
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH

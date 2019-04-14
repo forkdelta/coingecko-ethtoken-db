@@ -35,8 +35,8 @@ description: >-
 id: able
 links:
   announcement_url:
-  - https://www.linkedin.com/company/able-bank/
   - https://medium.com/@ableproject
+  - https://www.linkedin.com/company/able-bank/
   bitcointalk_thread_identifier: 3159298
   blockchain_site:
   - https://enjinx.io/eth/token/0x865bfd8232778f00cae81315bf75ef1fe6e30cdd
@@ -55,3 +55,14 @@ links:
   twitter_screen_name: Ablecoinproject
 name: ABLE X Token
 symbol: ablx
+tickers:
+- base: ABLX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ABLX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -18,9 +18,9 @@ links:
   - https://medium.com/@talao
   bitcointalk_thread_identifier: 3196824
   blockchain_site:
-  - https://ethplorer.io/address/0x1d4ccc31dab6ea20f461d329a0562c1c58412515
-  - https://etherscan.io/token/0x1d4ccc31dab6ea20f461d329a0562c1c58412515
   - https://enjinx.io/eth/token/0x1d4ccc31dab6ea20f461d329a0562c1c58412515
+  - https://etherscan.io/token/0x1d4ccc31dab6ea20f461d329a0562c1c58412515
+  - https://ethplorer.io/address/0x1d4ccc31dab6ea20f461d329a0562c1c58412515
   facebook_username: TalaoDAO
   homepage:
   - https://ico.talao.io/
@@ -32,3 +32,14 @@ links:
   twitter_screen_name: TalaoDAO
 name: TALAO
 symbol: talao
+tickers:
+- base: TALAO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TALAO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

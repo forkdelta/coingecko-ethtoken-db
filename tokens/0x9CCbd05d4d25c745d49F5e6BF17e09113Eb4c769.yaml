@@ -7,8 +7,8 @@ id: decentralized-crypto-token
 links:
   bitcointalk_thread_identifier: 5060729
   blockchain_site:
-  - https://etherscan.io/token/0x9ccbd05d4d25c745d49f5e6bf17e09113eb4c769
   - https://enjinx.io/eth/token/0x9ccbd05d4d25c745d49f5e6bf17e09113eb4c769
+  - https://etherscan.io/token/0x9ccbd05d4d25c745d49f5e6bf17e09113eb4c769
   - https://ethplorer.io/address/0x9ccbd05d4d25c745d49f5e6bf17e09113eb4c769
   facebook_username: dcto.info
   homepage:
@@ -20,3 +20,19 @@ links:
   twitter_screen_name: dcto_project
 name: Decentralized Crypto Token
 symbol: dcto
+tickers:
+- base: DCTO
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: DCTO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DCTO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

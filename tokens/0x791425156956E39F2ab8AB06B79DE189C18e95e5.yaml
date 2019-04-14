@@ -22,12 +22,12 @@ description: >-
 id: icobay-token
 links:
   announcement_url:
-  - https://www.linkedin.com/company/icobay-group/
   - https://medium.com/@icobaygroup
+  - https://www.linkedin.com/company/icobay-group/
   blockchain_site:
+  - https://enjinx.io/eth/token/0x791425156956e39f2ab8ab06b79de189c18e95e5
   - https://etherscan.io/token/0x791425156956e39f2ab8ab06b79de189c18e95e5
   - https://ethplorer.io/address/0x791425156956e39f2ab8ab06b79de189c18e95e5
-  - https://enjinx.io/eth/token/0x791425156956e39f2ab8ab06b79de189c18e95e5
   chat_url:
   - https://discordapp.com/invite/awuHKna
   facebook_username: icobaygroup
@@ -40,3 +40,14 @@ links:
   twitter_screen_name: icobaynet
 name: ICOBay Token
 symbol: ibt
+tickers:
+- base: IBT
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: IBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

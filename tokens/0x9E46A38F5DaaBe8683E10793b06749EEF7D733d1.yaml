@@ -34,9 +34,9 @@ id: polyswarm
 links:
   bitcointalk_thread_identifier: 2680309
   blockchain_site:
+  - https://enjinx.io/eth/token/0x9e46a38f5daabe8683e10793b06749eef7d733d1
   - https://etherscan.io/token/0x9e46a38f5daabe8683e10793b06749eef7d733d1
   - https://ethplorer.io/address/0x9e46a38f5daabe8683e10793b06749eef7d733d1
-  - https://enjinx.io/eth/token/0x9e46a38f5daabe8683e10793b06749eef7d733d1
   facebook_username: PolySwarm
   homepage:
   - https://polyswarm.io/
@@ -48,3 +48,14 @@ links:
   twitter_screen_name: polyswarm
 name: PolySwarm
 symbol: nct
+tickers:
+- base: NCT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: NCT
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH

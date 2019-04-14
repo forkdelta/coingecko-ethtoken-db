@@ -21,8 +21,8 @@ description: >-
 id: shipchain
 links:
   blockchain_site:
-  - https://etherscan.io/token/0xe25b0bba01dc5630312b6a21927e578061a13f55
   - https://enjinx.io/eth/token/0xe25b0bba01dc5630312b6a21927e578061a13f55
+  - https://etherscan.io/token/0xe25b0bba01dc5630312b6a21927e578061a13f55
   - https://ethplorer.io/address/0xe25b0bba01dc5630312b6a21927e578061a13f55
   facebook_username: shipchain
   homepage:
@@ -31,3 +31,14 @@ links:
   twitter_screen_name: shipchain
 name: ShipChain
 symbol: ship
+tickers:
+- base: SHIP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SHIP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

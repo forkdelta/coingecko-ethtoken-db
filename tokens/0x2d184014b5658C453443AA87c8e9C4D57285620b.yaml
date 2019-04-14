@@ -8,10 +8,10 @@ links:
   - https://medium.com/@jsecoin/
   bitcointalk_thread_identifier: 2398571
   blockchain_site:
-  - https://ethplorer.io/address/0x2d184014b5658c453443aa87c8e9c4d57285620b
-  - https://enjinx.io/eth/token/0x2d184014b5658c453443aa87c8e9c4d57285620b
   - https://blockchain.jsecoin.com
+  - https://enjinx.io/eth/token/0x2d184014b5658c453443aa87c8e9c4d57285620b
   - https://etherscan.io/token/0x2d184014b5658c453443aa87c8e9c4d57285620b
+  - https://ethplorer.io/address/0x2d184014b5658c453443aa87c8e9c4d57285620b
   chat_url:
   - https://discord.gg/3gBZsA4
   facebook_username: officialjsecoin
@@ -25,3 +25,14 @@ links:
   twitter_screen_name: jsecoin
 name: JSECOIN
 symbol: jse
+tickers:
+- base: JSE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: JSE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -9,11 +9,37 @@ id: sprinklecoin
 links:
   bitcointalk_thread_identifier: 2990951
   blockchain_site:
-  - https://ethplorer.io/address/0x3f5b26b0fa3e9d8547b7cf6725871f96ee91313a
-  - https://etherscan.io/token/0x3f5b26b0fa3e9d8547b7cf6725871f96ee91313a
   - https://enjinx.io/eth/token/0x3f5b26b0fa3e9d8547b7cf6725871f96ee91313a
+  - https://etherscan.io/token/0x3f5b26b0fa3e9d8547b7cf6725871f96ee91313a
+  - https://ethplorer.io/address/0x3f5b26b0fa3e9d8547b7cf6725871f96ee91313a
   facebook_username: SprinkleCoin
   homepage:
   - https://www.sprinklecoin.com
 name: SprinkleCoin
 symbol: scoi
+tickers:
+- base: SCOI
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: SCOI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: SCOI
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: SCOI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: SCOI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

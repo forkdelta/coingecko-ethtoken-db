@@ -23,9 +23,9 @@ links:
   - https://medium.com/@touristreviewofficial
   bitcointalk_thread_identifier: 5061956
   blockchain_site:
-  - https://ethplorer.io/address/0xc6d603a9df53d1542552058c382bf115aace70c7
-  - https://etherscan.io/token/0xc6d603a9df53d1542552058c382bf115aace70c7
   - https://enjinx.io/eth/token/0xc6d603a9df53d1542552058c382bf115aace70c7
+  - https://etherscan.io/token/0xc6d603a9df53d1542552058c382bf115aace70c7
+  - https://ethplorer.io/address/0xc6d603a9df53d1542552058c382bf115aace70c7
   facebook_username: TouristReviewGlobal
   homepage:
   - https://touristreview.io/
@@ -36,3 +36,24 @@ links:
   twitter_screen_name: TRET_Global
 name: Tourist Review Token
 symbol: tret
+tickers:
+- base: TRET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TRET
+  market:
+    identifier: bitrabbit
+    name: BitRabbit
+  target: ETH
+- base: TRET
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: DOGE
+- base: TRET
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

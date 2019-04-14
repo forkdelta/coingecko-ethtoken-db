@@ -19,9 +19,9 @@ id: bigbom-eco
 links:
   bitcointalk_thread_identifier: 3213250
   blockchain_site:
-  - https://ethplorer.io/address/0x84f7c44b6fed1080f647e354d552595be2cc602f
-  - https://etherscan.io/token/0x84f7c44b6fed1080f647e354d552595be2cc602f
   - https://enjinx.io/eth/token/0x84f7c44b6fed1080f647e354d552595be2cc602f
+  - https://etherscan.io/token/0x84f7c44b6fed1080f647e354d552595be2cc602f
+  - https://ethplorer.io/address/0x84f7c44b6fed1080f647e354d552595be2cc602f
   homepage:
   - https://bigbom.com/
   repos_url:
@@ -32,3 +32,24 @@ links:
   twitter_screen_name: bigbomglobal
 name: Bigbom
 symbol: bbo
+tickers:
+- base: BBO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: BBO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: BBO
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: BBO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

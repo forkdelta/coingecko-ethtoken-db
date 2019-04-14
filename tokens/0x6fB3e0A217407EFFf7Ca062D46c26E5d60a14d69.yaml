@@ -15,13 +15,13 @@ description: >-
 id: iotex
 links:
   announcement_url:
-  - https://t.me/iotexchannel
   - https://medium.com/@iotex
+  - https://t.me/iotexchannel
   bitcointalk_thread_identifier: 3099670
   blockchain_site:
   - https://enjinx.io/eth/token/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69
-  - https://ethplorer.io/address/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69
   - https://etherscan.io/token/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69
+  - https://ethplorer.io/address/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69
   facebook_username: iotex.io
   homepage:
   - https://iotex.io
@@ -33,3 +33,49 @@ links:
   twitter_screen_name: iotex_io
 name: IoTeX
 symbol: iotx
+tickers:
+- base: IOTX
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: IOTX
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: IOTX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: IOTX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: IOTX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: IOTX
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: IOTX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: IOTX
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: IOTX
+  market:
+    identifier: allbit
+    name: Allbit
+  target: APOT

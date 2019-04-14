@@ -10,8 +10,8 @@ links:
   - https://medium.com/view-ly
   bitcointalk_thread_identifier: 2158676
   blockchain_site:
-  - https://ethplorer.io/address/0xf03f8d65bafa598611c3495124093c56e8f638f0
   - https://etherscan.io/token/0xf03f8d65bafa598611c3495124093c56e8f638f0
+  - https://ethplorer.io/address/0xf03f8d65bafa598611c3495124093c56e8f638f0
   chat_url:
   - https://discordapp.com/invite/MkTqjnG
   facebook_username: theViewly
@@ -24,3 +24,19 @@ links:
   twitter_screen_name: OfficialViewly
 name: View
 symbol: view
+tickers:
+- base: VIEW
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: VIEW
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: VIEW
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH

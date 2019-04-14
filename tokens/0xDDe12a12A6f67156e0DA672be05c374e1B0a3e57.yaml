@@ -15,13 +15,13 @@ links:
   - https://medium.com/joyso
   bitcointalk_thread_identifier: 2802940
   blockchain_site:
-  - https://etherscan.io/token/0xDDe12a12A6f67156e0DA672be05c374e1B0a3e57
   - https://enjinx.io/eth/token/0xdde12a12a6f67156e0da672be05c374e1b0a3e57
+  - https://etherscan.io/token/0xDDe12a12A6f67156e0DA672be05c374e1B0a3e57
   - https://ethplorer.io/address/0xdde12a12a6f67156e0da672be05c374e1b0a3e57
   facebook_username: joyso.io
   homepage:
-  - https://joyso.io/trade/en/markets
   - https://joyso.io/
+  - https://joyso.io/trade/en/markets
   repos_url:
     github:
     - https://github.com/Joyso-io/joyso-contract
@@ -29,3 +29,19 @@ links:
   twitter_screen_name: joyso_io
 name: JOYSO
 symbol: joy
+tickers:
+- base: JOY1
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: JOY
+  market:
+    identifier: joyso
+    name: Joyso
+  target: TUSD
+- base: JOY
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH

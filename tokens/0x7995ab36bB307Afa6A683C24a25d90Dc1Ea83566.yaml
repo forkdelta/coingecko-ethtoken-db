@@ -16,8 +16,8 @@ description: >-
 id: hitchain
 links:
   blockchain_site:
-  - https://etherscan.io/token/0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566
   - https://enjinx.io/eth/token/0x7995ab36bb307afa6a683c24a25d90dc1ea83566
+  - https://etherscan.io/token/0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566
   - https://ethplorer.io/address/0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566
   homepage:
   - http://hitchain.org/index.html
@@ -26,3 +26,29 @@ links:
   twitter_screen_name: Hit_Chain
 name: HitChain
 symbol: hit
+tickers:
+- base: HIT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: HIT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: HIT
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: HIT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: HIT
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH

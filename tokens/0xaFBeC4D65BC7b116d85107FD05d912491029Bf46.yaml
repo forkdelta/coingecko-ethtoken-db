@@ -55,12 +55,68 @@ description: >-
 id: arbitraging
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xafbec4d65bc7b116d85107fd05d912491029bf46
   - https://enjinx.io/eth/token/0xafbec4d65bc7b116d85107fd05d912491029bf46
   - https://etherscan.io/token/0xafbec4d65bc7b116d85107fd05d912491029bf46
+  - https://ethplorer.io/address/0xafbec4d65bc7b116d85107fd05d912491029bf46
   homepage:
   - https://arbitraging.co/
   telegram_channel_identifier: arbofficial
   twitter_screen_name: arbitragingco
 name: ARBITRAGE
 symbol: arb
+tickers:
+- base: ARB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: LTC
+- base: ARB
+  market:
+    identifier: raisex
+    name: Raisex
+  target: BTC
+- base: ARB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT
+- base: ARB
+  market:
+    identifier: raisex
+    name: Raisex
+  target: ETH
+- base: ARB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: ARB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: ARB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
+- base: ARB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
+- base: ARB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
+- base: ARB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
+- base: ARB
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

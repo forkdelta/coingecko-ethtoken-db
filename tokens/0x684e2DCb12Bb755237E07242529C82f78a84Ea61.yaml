@@ -10,9 +10,9 @@ id: well
 links:
   bitcointalk_thread_identifier: 2567810
   blockchain_site:
-  - https://ethplorer.io/address/0x684e2dcb12bb755237e07242529c82f78a84ea61
   - https://enjinx.io/eth/token/0x684e2dcb12bb755237e07242529c82f78a84ea61
   - https://etherscan.io/token/0x684e2dcb12bb755237e07242529c82f78a84ea61
+  - https://ethplorer.io/address/0x684e2dcb12bb755237e07242529c82f78a84ea61
   facebook_username: jointeamwell
   homepage:
   - https://www.joinwell.io/
@@ -24,3 +24,24 @@ links:
   twitter_screen_name: jointeamwell
 name: WELL
 symbol: well
+tickers:
+- base: WELL
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: WELL
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: WELL
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: WELL
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC

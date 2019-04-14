@@ -10,8 +10,8 @@ id: crypto-angel
 links:
   bitcointalk_thread_identifier: 3080221
   blockchain_site:
-  - https://ethplorer.io/address/0xe7fad78cf9034b36b6a7dc2951e5acf8d28e4dc7
   - https://etherscan.io/token/0xe7fad78cf9034b36b6a7dc2951e5acf8d28e4dc7
+  - https://ethplorer.io/address/0xe7fad78cf9034b36b6a7dc2951e5acf8d28e4dc7
   facebook_username: crypto.angel.coin
   homepage:
   - https://www.crypto-angel.com/
@@ -22,3 +22,14 @@ links:
   twitter_screen_name: cryptoangelcoin
 name: Crypto Angel
 symbol: angel
+tickers:
+- base: ANGEL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ANGEL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

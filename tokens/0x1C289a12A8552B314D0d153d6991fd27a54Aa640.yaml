@@ -36,8 +36,8 @@ links:
   - https://medium.com/bitmax-io
   blockchain_site:
   - https://enjinx.io/eth/token/0x1c289a12a8552b314d0d153d6991fd27a54aa640
-  - https://ethplorer.io/address/0x1c289a12a8552b314d0d153d6991fd27a54aa640
   - https://etherscan.io/token/0x1c289a12a8552b314d0d153d6991fd27a54aa640
+  - https://ethplorer.io/address/0x1c289a12a8552b314d0d153d6991fd27a54aa640
   homepage:
   - https://bitmax.io/#/home
   subreddit_url: https://www.reddit.com/r/BitMax/
@@ -45,3 +45,14 @@ links:
   twitter_screen_name: BitMax_Official
 name: Bitmax Token
 symbol: btmx
+tickers:
+- base: BTMX
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: ETH
+- base: BTMX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

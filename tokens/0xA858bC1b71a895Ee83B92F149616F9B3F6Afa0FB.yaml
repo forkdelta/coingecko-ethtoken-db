@@ -27,16 +27,16 @@ description: >-
 id: kambria
 links:
   announcement_url:
-  - https://www.linkedin.com/company/kambria/
   - https://medium.com/kambria-network
+  - https://www.linkedin.com/company/kambria/
   bitcointalk_thread_identifier: 3121447
   blockchain_site:
+  - https://enjinx.io/eth/token/0xa858bc1b71a895ee83b92f149616f9b3f6afa0fb
   - https://etherscan.io/token/0xa858bc1b71a895ee83b92f149616f9b3f6afa0fb
   - https://ethplorer.io/address/0xa858bc1b71a895ee83b92f149616f9b3f6afa0fb
-  - https://enjinx.io/eth/token/0xa858bc1b71a895ee83b92f149616f9b3f6afa0fb
   chat_url:
-  - https://t.me/KambriaKorea
   - https://open.kakao.com/o/gcUpSEQ
+  - https://t.me/KambriaKorea
   facebook_username: KambriaNetwork
   homepage:
   - https://kambria.io/
@@ -48,3 +48,34 @@ links:
   twitter_screen_name: KambriaNetwork
 name: Kambria
 symbol: kat
+tickers:
+- base: KAT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: KAT
+  market:
+    identifier: allbit
+    name: Allbit
+  target: APOT
+- base: KAT
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: KAT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KAT
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: KAT
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: BTC

@@ -7,8 +7,8 @@ description: >-
 id: payera
 links:
   announcement_url:
-  - https://steemit.com/@payera
   - https://medium.com/@Payera
+  - https://steemit.com/@payera
   bitcointalk_thread_identifier: 3512743
   blockchain_site:
   - https://etherscan.io/token/0xbfd78aebccf26cb964a7836263143b5ee8072d84
@@ -19,3 +19,14 @@ links:
   twitter_screen_name: payeraio
 name: PAYERA
 symbol: pera
+tickers:
+- base: PERA
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PERA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

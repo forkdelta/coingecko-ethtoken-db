@@ -43,18 +43,149 @@ id: iexec-rlc
 links:
   bitcointalk_thread_identifier: 1746241
   blockchain_site:
-  - https://ethplorer.io/address/0x607f4c5bb672230e8672085532f7e901544a7375
-  - https://etherscan.io/token/0x607F4C5BB672230e8672085532f7e901544a7375
   - https://enjinx.io/eth/token/0x607f4c5bb672230e8672085532f7e901544a7375
+  - https://etherscan.io/token/0x607F4C5BB672230e8672085532f7e901544a7375
+  - https://ethplorer.io/address/0x607f4c5bb672230e8672085532f7e901544a7375
   facebook_username: iexecteam
   homepage:
   - http://iex.ec/
   repos_url:
     github:
-    - https://github.com/iExecBlockchainComputing/iexec-stack
-    - https://github.com/iExecBlockchainComputing/iexec-sdk
     - https://github.com/iExecBlockchainComputing/PoCo
+    - https://github.com/iExecBlockchainComputing/iexec-sdk
+    - https://github.com/iExecBlockchainComputing/iexec-stack
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
 name: iExec RLC
 symbol: rlc
+tickers:
+- base: RLC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: RLC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: RLC
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
+- base: RLC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: RLC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: RLC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: RLC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: RLC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: RLC
+  market:
+    identifier: ethex
+    name: Ethex
+  target: ETH
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: RLC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: RLC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: RLC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: RLC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: RLC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: RLC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: RLC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: RLC
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: RLC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: RLC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: RLC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: RLC
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: RLC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

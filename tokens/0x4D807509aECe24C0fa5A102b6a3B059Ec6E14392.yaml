@@ -20,18 +20,34 @@ links:
   - https://medium.com/menlo-one
   bitcointalk_thread_identifier: 3904487
   blockchain_site:
-  - https://ethplorer.io/address/0x4d807509aece24c0fa5a102b6a3b059ec6e14392
   - https://etherscan.io/token/0x4d807509aece24c0fa5a102b6a3b059ec6e14392
+  - https://ethplorer.io/address/0x4d807509aece24c0fa5a102b6a3b059ec6e14392
   facebook_username: menloone
   homepage:
   - https://menlo.one
   repos_url:
     github:
+    - https://github.com/MenloOne/ethersignal
     - https://github.com/MenloOne/menlo-token-crowdsale
     - https://github.com/MenloOne/townhall
-    - https://github.com/MenloOne/ethersignal
   subreddit_url: https://www.reddit.com/r/menloone/
   telegram_channel_identifier: Menloone
   twitter_screen_name: menloone
 name: Menlo One
 symbol: one
+tickers:
+- base: ONE
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: ONE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ONE
+  market:
+    identifier: eosex
+    name: EOSex
+  target: ETH

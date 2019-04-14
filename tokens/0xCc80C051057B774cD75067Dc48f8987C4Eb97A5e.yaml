@@ -46,9 +46,9 @@ links:
   - https://www.ethfinex.com/
   bitcointalk_thread_identifier: 2824735
   blockchain_site:
+  - https://enjinx.io/eth/token/0xcc80c051057b774cd75067dc48f8987c4eb97a5e
   - https://etherscan.io/token/0xcc80c051057b774cd75067dc48f8987c4eb97a5e
   - https://ethplorer.io/address/0xcc80c051057b774cd75067dc48f8987c4eb97a5e
-  - https://enjinx.io/eth/token/0xcc80c051057b774cd75067dc48f8987c4eb97a5e
   facebook_username: ethfinex
   homepage:
   - https://nectar.community/
@@ -62,3 +62,24 @@ links:
   twitter_screen_name: ethfinex
 name: Nectar Token
 symbol: nec
+tickers:
+- base: NEC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: NEC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: NEC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: NEC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

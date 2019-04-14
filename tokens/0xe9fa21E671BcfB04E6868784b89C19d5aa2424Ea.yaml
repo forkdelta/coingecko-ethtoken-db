@@ -13,17 +13,33 @@ links:
   - https://medium.com/@eurocoinpay
   bitcointalk_thread_identifier: 5073261
   blockchain_site:
+  - https://enjinx.io/eth/token/0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea
   - https://etherscan.io/token/0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea
   - https://ethplorer.io/address/0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea
-  - https://enjinx.io/eth/token/0xe9fa21e671bcfb04e6868784b89c19d5aa2424ea
   facebook_username: eurocoinpay
   homepage:
   - https://eurocoinpay.io/
   repos_url:
     github:
-    - https://github.com/eurocoinpaygit/EurocoinToken-ECTE
     - https://github.com/EurocoinpayOK/EurocoinCash
+    - https://github.com/eurocoinpaygit/EurocoinToken-ECTE
   telegram_channel_identifier: eurocoinpay_io
   twitter_screen_name: eurocoinpay
 name: EurocoinToken
 symbol: ecte
+tickers:
+- base: ECTE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: ECTE
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: ECTE
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC

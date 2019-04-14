@@ -6,12 +6,28 @@ id: ebitcoin-cash
 links:
   bitcointalk_thread_identifier: 2255095
   blockchain_site:
-  - https://ethplorer.io/address/0xafc39788c51f0c1ff7b55317f3e70299e521fff6
   - https://enjinx.io/eth/token/0xafc39788c51f0c1ff7b55317f3e70299e521fff6
   - https://etherscan.io/token/0xafc39788c51f0c1ff7b55317f3e70299e521fff6
+  - https://ethplorer.io/address/0xafc39788c51f0c1ff7b55317f3e70299e521fff6
   facebook_username: '1528769833904071'
   homepage:
   - https://ebitcoincash.io/
   twitter_screen_name: ebchcoin
 name: eBitcoin Cash
 symbol: ebch
+tickers:
+- base: EBCH
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: EBCH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EBCH
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

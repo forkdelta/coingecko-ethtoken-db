@@ -7,8 +7,8 @@ id: stasis-eurs
 links:
   bitcointalk_thread_identifier: 4789890
   blockchain_site:
-  - https://etherscan.io/token/0xdb25f211ab05b1c97d595516f45794528a807ad8
   - https://enjinx.io/eth/token/0xdb25f211ab05b1c97d595516f45794528a807ad8
+  - https://etherscan.io/token/0xdb25f211ab05b1c97d595516f45794528a807ad8
   - https://ethplorer.io/address/0xdb25f211ab05b1c97d595516f45794528a807ad8
   facebook_username: stasisnet
   homepage:
@@ -20,3 +20,49 @@ links:
   twitter_screen_name: stasisnet
 name: STASIS EURS
 symbol: eurs
+tickers:
+- base: EURS
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: USD
+- base: EURS
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: EURS
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: EURS
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: EURS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: EURS
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTC
+- base: EURS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EURS
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: ETH
+- base: EURS
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT

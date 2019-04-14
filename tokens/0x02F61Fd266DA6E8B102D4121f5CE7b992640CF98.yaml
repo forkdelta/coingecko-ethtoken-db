@@ -14,8 +14,8 @@ links:
   bitcointalk_thread_identifier: 3093917
   blockchain_site:
   - https://enjinx.io/eth/token/0x02f61fd266da6e8b102d4121f5ce7b992640cf98
-  - https://ethplorer.io/address/0x02f61fd266da6e8b102d4121f5ce7b992640cf98
   - https://etherscan.io/token/0x02f61fd266da6e8b102d4121f5ce7b992640cf98
+  - https://ethplorer.io/address/0x02f61fd266da6e8b102d4121f5ce7b992640cf98
   facebook_username: LikeCoin.Foundation
   homepage:
   - https://like.co/
@@ -26,3 +26,19 @@ links:
   twitter_screen_name: likecoin_fdn
 name: LikeCoin
 symbol: like
+tickers:
+- base: LIKE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LIKE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: LIKE
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH

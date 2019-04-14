@@ -20,8 +20,8 @@ links:
   - https://medium.com/beattoken
   bitcointalk_thread_identifier: 2851951
   blockchain_site:
-  - https://etherscan.io/token/0x2fb12bccf6f5dd338b76be784a93ade072425690
   - https://enjinx.io/eth/token/0x2fb12bccf6f5dd338b76be784a93ade072425690
+  - https://etherscan.io/token/0x2fb12bccf6f5dd338b76be784a93ade072425690
   - https://ethplorer.io/address/0x2fb12bccf6f5dd338b76be784a93ade072425690
   chat_url:
   - https://discordapp.com/invite/PnyFgdX
@@ -36,3 +36,14 @@ links:
   twitter_screen_name: beattoken
 name: BEAT
 symbol: beat
+tickers:
+- base: BEAT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: BEAT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

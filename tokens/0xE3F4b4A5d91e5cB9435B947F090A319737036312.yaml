@@ -22,12 +22,12 @@ description: >-
 id: popchain
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xe3f4b4a5d91e5cb9435b947f090a319737036312
   - https://enjinx.io/eth/token/0xe3f4b4a5d91e5cb9435b947f090a319737036312
   - https://etherscan.io/token/0xe3f4b4a5d91e5cb9435b947f090a319737036312
+  - https://ethplorer.io/address/0xe3f4b4a5d91e5cb9435b947f090a319737036312
   chat_url:
-  - https://t.me/popchain_kr
   - https://t.me/popchain_cn
+  - https://t.me/popchain_kr
   homepage:
   - http://www.popchain.org/
   repos_url:
@@ -37,3 +37,24 @@ links:
   twitter_screen_name: POPCHAIN_Global
 name: Popchain
 symbol: pch
+tickers:
+- base: PCH
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: PCH
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: PCH
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: PCH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

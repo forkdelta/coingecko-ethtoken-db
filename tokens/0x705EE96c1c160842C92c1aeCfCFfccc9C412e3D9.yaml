@@ -8,9 +8,9 @@ id: clearpoll
 links:
   bitcointalk_thread_identifier: 2167245
   blockchain_site:
-  - https://ethplorer.io/address/0x705ee96c1c160842c92c1aecfcffccc9c412e3d9
-  - https://etherscan.io/token/0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9
   - https://enjinx.io/eth/token/0x705ee96c1c160842c92c1aecfcffccc9c412e3d9
+  - https://etherscan.io/token/0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9
+  - https://ethplorer.io/address/0x705ee96c1c160842c92c1aecfcffccc9c412e3d9
   homepage:
   - https://www.clearpoll.io/
   subreddit_url: https://www.reddit.com/r/clearpoll
@@ -18,3 +18,44 @@ links:
   twitter_screen_name: voteclearpoll
 name: ClearPoll
 symbol: poll
+tickers:
+- base: POLL
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: POLL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: POLL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: POLL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: POLL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: POLL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: POLL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: POLL
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

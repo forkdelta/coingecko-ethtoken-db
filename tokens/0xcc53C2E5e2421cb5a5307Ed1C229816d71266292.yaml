@@ -17,8 +17,8 @@ links:
   bitcointalk_thread_identifier: 2795842
   blockchain_site:
   - https://enjinx.io/eth/token/0xcc53c2e5e2421cb5a5307ed1c229816d71266292
-  - https://ethplorer.io/address/0xcc53c2e5e2421cb5a5307ed1c229816d71266292
   - https://etherscan.io/token/0xcc53C2E5e2421cb5a5307Ed1C229816d71266292
+  - https://ethplorer.io/address/0xcc53c2e5e2421cb5a5307ed1c229816d71266292
   facebook_username: bitcoinus.io
   homepage:
   - https://www.bitcoinus.com/
@@ -29,3 +29,14 @@ links:
   twitter_screen_name: bitcoinus_io
 name: Bitcoinus
 symbol: bits
+tickers:
+- base: BITS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BITS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

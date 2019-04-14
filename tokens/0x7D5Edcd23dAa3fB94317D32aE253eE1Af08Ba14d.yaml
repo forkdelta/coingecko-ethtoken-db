@@ -7,8 +7,8 @@ id: ethbet
 links:
   bitcointalk_thread_identifier: 2133120
   blockchain_site:
-  - https://ethplorer.io/address/0x7d5edcd23daa3fb94317d32ae253ee1af08ba14d
   - https://etherscan.io/token/0x7D5Edcd23dAa3fB94317D32aE253eE1Af08Ba14d
+  - https://ethplorer.io/address/0x7d5edcd23daa3fb94317d32ae253ee1af08ba14d
   homepage:
   - https://ethbet.io/
   repos_url:
@@ -18,3 +18,24 @@ links:
   twitter_screen_name: EthbetProject
 name: EthBet
 symbol: ebet
+tickers:
+- base: EBET
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: EBET
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: EBET
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: EBET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

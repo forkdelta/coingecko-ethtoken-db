@@ -13,9 +13,9 @@ id: xaurum
 links:
   bitcointalk_thread_identifier: 970586
   blockchain_site:
-  - https://ethplorer.io/address/0x4df812f6064def1e5e029f1ca858777cc98d2d81
-  - https://enjinx.io/eth/token/0x4df812f6064def1e5e029f1ca858777cc98d2d81
   - http://etherscan.io/token/0x4DF812F6064def1e5e029f1ca858777CC98D2D81
+  - https://enjinx.io/eth/token/0x4df812f6064def1e5e029f1ca858777cc98d2d81
+  - https://ethplorer.io/address/0x4df812f6064def1e5e029f1ca858777cc98d2d81
   facebook_username: xaurumofficial
   homepage:
   - http://www.xaurum.org/
@@ -25,3 +25,34 @@ links:
   twitter_screen_name: xaurumofficial
 name: Xaurum
 symbol: xaur
+tickers:
+- base: XAUR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: XAUR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: XAUR
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: XAUR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: XAUR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: XGM
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: XAUR

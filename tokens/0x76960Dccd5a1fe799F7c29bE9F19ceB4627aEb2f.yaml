@@ -7,9 +7,9 @@ description: >-
 id: red
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x76960dccd5a1fe799f7c29be9f19ceb4627aeb2f
   - https://enjinx.io/eth/token/0x76960dccd5a1fe799f7c29be9f19ceb4627aeb2f
   - https://etherscan.io/token/0x76960dccd5a1fe799f7c29be9f19ceb4627aeb2f
+  - https://ethplorer.io/address/0x76960dccd5a1fe799f7c29be9f19ceb4627aeb2f
   homepage:
   - https://ico.red-lang.org/
   - https://www.red-lang.org/
@@ -20,3 +20,24 @@ links:
   twitter_screen_name: red_lang
 name: Red
 symbol: red
+tickers:
+- base: RED
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: RED
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: RED
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: RED
+  market:
+    identifier: kkcoin
+    name: KKCoin
+  target: ETH

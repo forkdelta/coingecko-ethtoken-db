@@ -32,8 +32,8 @@ links:
   bitcointalk_thread_identifier: 2045582
   blockchain_site:
   - https://enjinx.io/eth/token/0x6781a0f84c7e9e846dcb84a9a5bd49333067b104
-  - https://ethplorer.io/address/0x6781a0f84c7e9e846dcb84a9a5bd49333067b104
   - https://etherscan.io/token/0x6781a0f84c7e9e846dcb84a9a5bd49333067b104
+  - https://ethplorer.io/address/0x6781a0f84c7e9e846dcb84a9a5bd49333067b104
   facebook_username: officialzapstore
   homepage:
   - https://zap.store
@@ -44,3 +44,29 @@ links:
   twitter_screen_name: the_zapstore
 name: Zap
 symbol: zap
+tickers:
+- base: ZAP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ZAP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ZAP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ZAP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ZAP
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

@@ -11,7 +11,13 @@ links:
   - http://buy.rigsoiltoken.xyz/
   repos_url:
     github:
-    - https://github.com/rigsoiltoken/rigsoiltoken.io
     - https://github.com/rigsoiltoken/RIGS
+    - https://github.com/rigsoiltoken/rigsoiltoken.io
 name: Rigs Oil Token
 symbol: rigs
+tickers:
+- base: RIGS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

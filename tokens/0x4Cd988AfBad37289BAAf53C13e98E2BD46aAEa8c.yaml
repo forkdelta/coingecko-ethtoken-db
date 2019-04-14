@@ -17,9 +17,9 @@ description: >-
 id: key
 links:
   blockchain_site:
-  - https://etherscan.io/token/0x4cd988afbad37289baaf53c13e98e2bd46aaea8c
-  - https://enjinx.io/eth/token/0x4cd988afbad37289baaf53c13e98e2bd46aaea8c
   - http://ethplorer.io/address/0x4cd988afbad37289baaf53c13e98e2bd46aaea8c
+  - https://enjinx.io/eth/token/0x4cd988afbad37289baaf53c13e98e2bd46aaea8c
+  - https://etherscan.io/token/0x4cd988afbad37289baaf53c13e98e2bd46aaea8c
   homepage:
   - https://bihu.com/
   - https://home.bihu.com/
@@ -28,3 +28,34 @@ links:
     - https://github.com/bihu-id/bihu-contracts
 name: Key
 symbol: key
+tickers:
+- base: KEY
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: BTC
+- base: KEY
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: KEY
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: KEY
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
+- base: KEY
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: USDT
+- base: KEY
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB

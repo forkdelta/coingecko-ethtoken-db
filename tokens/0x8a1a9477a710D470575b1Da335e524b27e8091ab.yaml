@@ -13,9 +13,9 @@ id: coinnec
 links:
   bitcointalk_thread_identifier: 2782687
   blockchain_site:
+  - https://enjinx.io/eth/token/0x8a1a9477a710d470575b1da335e524b27e8091ab
   - https://etherscan.io/token/0x8a1a9477a710d470575b1da335e524b27e8091ab
   - https://ethplorer.io/address/0x8a1a9477a710d470575b1da335e524b27e8091ab
-  - https://enjinx.io/eth/token/0x8a1a9477a710d470575b1da335e524b27e8091ab
   facebook_username: coinnec
   homepage:
   - http://coinnec.com/
@@ -23,3 +23,19 @@ links:
   twitter_screen_name: coinnec
 name: Coinnec
 symbol: coi
+tickers:
+- base: COI
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: COI
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: COI
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

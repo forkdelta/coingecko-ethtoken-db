@@ -10,9 +10,9 @@ id: sgpay
 links:
   bitcointalk_thread_identifier: 2804879
   blockchain_site:
+  - https://enjinx.io/eth/token/0x33c623a2baafeb8d15dfaf3ce44095efec83d72c
   - https://etherscan.io/token/0x33c623a2baafeb8d15dfaf3ce44095efec83d72c
   - https://ethplorer.io/address/0x33c623a2baafeb8d15dfaf3ce44095efec83d72c
-  - https://enjinx.io/eth/token/0x33c623a2baafeb8d15dfaf3ce44095efec83d72c
   facebook_username: sgpaywallet
   homepage:
   - https://www.sgpay.org/
@@ -23,3 +23,19 @@ links:
   twitter_screen_name: sgpaywallet
 name: SGPay
 symbol: sgp
+tickers:
+- base: SGP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
+- base: SGP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SGP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

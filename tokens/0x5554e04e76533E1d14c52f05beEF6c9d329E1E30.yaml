@@ -15,11 +15,52 @@ id: autonio
 links:
   bitcointalk_thread_identifier: 2138049
   blockchain_site:
-  - https://ethplorer.io/address/0x5554e04e76533e1d14c52f05beef6c9d329e1e30
-  - https://etherscan.io/token/0x5554e04e76533e1d14c52f05beef6c9d329e1e30
   - https://enjinx.io/eth/token/0x5554e04e76533e1d14c52f05beef6c9d329e1e30
+  - https://etherscan.io/token/0x5554e04e76533e1d14c52f05beef6c9d329e1e30
+  - https://ethplorer.io/address/0x5554e04e76533e1d14c52f05beef6c9d329e1e30
   homepage:
   - https://auton.io/
   twitter_screen_name: AI_Autonio
 name: Autonio
 symbol: nio
+tickers:
+- base: NIO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ETH
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: NIO
+- base: NIO
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: ETH
+- base: BTC
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: NIO
+- base: NIO
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: NIO
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: NIO
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
+- base: NIO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

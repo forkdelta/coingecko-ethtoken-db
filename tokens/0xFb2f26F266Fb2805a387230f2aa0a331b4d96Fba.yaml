@@ -33,20 +33,81 @@ description: >-
 id: dadi
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
   - https://enjinx.io/eth/token/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
   - https://etherscan.io/token/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
+  - https://ethplorer.io/address/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
   facebook_username: daditechnology
   homepage:
   - https://dadi.cloud
   repos_url:
     github:
-    - https://github.com/dadi/cdn
-    - https://github.com/dadi/web
-    - https://github.com/dadi/cloud
     - https://github.com/dadi/api
+    - https://github.com/dadi/cdn
+    - https://github.com/dadi/cloud
     - https://github.com/dadi/publish
+    - https://github.com/dadi/web
   subreddit_url: https://www.reddit.com/r/DADI
   twitter_screen_name: dadi
 name: DADI
 symbol: dadi
+tickers:
+- base: DADI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: DADI
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: DADI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: DAD
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: DADI
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: DADI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DADI
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: DADI
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
+- base: DADI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DADI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DADI
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
+- base: DADI
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH

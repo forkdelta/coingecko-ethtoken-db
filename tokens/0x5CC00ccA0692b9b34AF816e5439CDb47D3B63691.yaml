@@ -9,8 +9,8 @@ id: wooshcoin-io
 links:
   bitcointalk_thread_identifier: 4820204
   blockchain_site:
-  - https://ethplorer.io/address/0x5cc00cca0692b9b34af816e5439cdb47d3b63691
   - https://etherscan.io/token/0x5cc00cca0692b9b34af816e5439cdb47d3b63691
+  - https://ethplorer.io/address/0x5cc00cca0692b9b34af816e5439cdb47d3b63691
   facebook_username: wooshcoin
   homepage:
   - https://www.wooshcoin.io/
@@ -22,3 +22,19 @@ links:
   twitter_screen_name: wooshcoin
 name: WooshCoin
 symbol: xwo
+tickers:
+- base: XWO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: XWO
+  market:
+    identifier: altilly
+    name: Altilly
+  target: LTC
+- base: XWO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

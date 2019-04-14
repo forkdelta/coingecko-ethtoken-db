@@ -14,12 +14,12 @@ links:
   bitcointalk_thread_identifier: 2225492
   blockchain_site:
   - https://enjinx.io/eth/token/0x1ed7ae1f0e2fa4276dd7ddc786334a3df81d50c0
-  - https://ethplorer.io/address/0x1ed7ae1f0e2fa4276dd7ddc786334a3df81d50c0
   - https://etherscan.io/token/0x1ed7ae1f0e2fa4276dd7ddc786334a3df81d50c0
+  - https://ethplorer.io/address/0x1ed7ae1f0e2fa4276dd7ddc786334a3df81d50c0
   facebook_username: FSBT-Tech-309897252936549
   homepage:
-  - https://www.fsbt.tech/
   - https://www.fortyseven.io/
+  - https://www.fsbt.tech/
   repos_url:
     github:
     - https://github.com/fortysevenbank/FSBT-Smart-Contract
@@ -27,3 +27,14 @@ links:
   twitter_screen_name: fsbttech
 name: FSBT API
 symbol: fsbt
+tickers:
+- base: FSBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: FSBT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

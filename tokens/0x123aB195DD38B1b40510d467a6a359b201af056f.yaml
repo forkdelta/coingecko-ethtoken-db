@@ -10,9 +10,9 @@ id: legolas-exchange
 links:
   bitcointalk_thread_identifier: 2383397
   blockchain_site:
+  - https://enjinx.io/eth/token/0x123ab195dd38b1b40510d467a6a359b201af056f
   - https://etherscan.io/token/0x123ab195dd38b1b40510d467a6a359b201af056f
   - https://ethplorer.io/address/0x123ab195dd38b1b40510d467a6a359b201af056f
-  - https://enjinx.io/eth/token/0x123ab195dd38b1b40510d467a6a359b201af056f
   facebook_username: legolas.exchange
   homepage:
   - https://legolas.exchange/
@@ -24,3 +24,24 @@ links:
   twitter_screen_name: LegolasExchange
 name: Legolas Exchange
 symbol: lgo
+tickers:
+- base: LGO
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: LGO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LGO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LGO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

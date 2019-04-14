@@ -26,13 +26,13 @@ description: >-
 id: ionchain-token
 links:
   announcement_url:
-  - https://steemit.com/@ionchain/
   - https://medium.com/@ionchain
+  - https://steemit.com/@ionchain/
   bitcointalk_thread_identifier: 3641957
   blockchain_site:
-  - https://ethplorer.io/address/0xbc647aad10114b89564c0a7aabe542bd0cf2c5af
   - https://enjinx.io/eth/token/0xbc647aad10114b89564c0a7aabe542bd0cf2c5af
   - https://etherscan.io/token/0xbc647aad10114b89564c0a7aabe542bd0cf2c5af
+  - https://ethplorer.io/address/0xbc647aad10114b89564c0a7aabe542bd0cf2c5af
   chat_url:
   - https://t.me/ionchain
   homepage:
@@ -45,3 +45,9 @@ links:
   twitter_screen_name: ion_chain
 name: IONChain
 symbol: ionc
+tickers:
+- base: IONC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

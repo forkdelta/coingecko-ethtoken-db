@@ -22,9 +22,9 @@ id: commerceblock-token
 links:
   bitcointalk_thread_identifier: 2613540
   blockchain_site:
-  - https://ethplorer.io/address/0x076C97e1c869072eE22f8c91978C99B4bcB02591
-  - https://etherscan.io/token/0x076C97e1c869072eE22f8c91978C99B4bcB02591
   - https://enjinx.io/eth/token/0x076c97e1c869072ee22f8c91978c99b4bcb02591
+  - https://etherscan.io/token/0x076C97e1c869072eE22f8c91978C99B4bcB02591
+  - https://ethplorer.io/address/0x076C97e1c869072eE22f8c91978C99B4bcB02591
   facebook_username: commerceblock
   homepage:
   - https://www.commerceblock.com/
@@ -32,9 +32,60 @@ links:
   - blog.commerceblock.com
   repos_url:
     github:
+    - https://github.com/commerceblock/ocean
     - https://github.com/commerceblock/ocean-attestation
     - https://github.com/commerceblock/ocean-explorer
-    - https://github.com/commerceblock/ocean
   twitter_screen_name: commerceblock
 name: CommerceBlock Token
 symbol: cbt
+tickers:
+- base: CBT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: CBT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: CBT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: CBT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: CBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CBT
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: CBT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: CBT
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: CBT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CBT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

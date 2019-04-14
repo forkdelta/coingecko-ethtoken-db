@@ -10,11 +10,22 @@ id: yoyow
 links:
   bitcointalk_thread_identifier: 1623498
   blockchain_site:
-  - https://ethplorer.io/address/0xcbeaec699431857fdb4d37addbbdc20e132d4903
-  - https://etherscan.io/token/0xcbeaec699431857fdb4d37addbbdc20e132d4903
   - https://enjinx.io/eth/token/0xcbeaec699431857fdb4d37addbbdc20e132d4903
+  - https://etherscan.io/token/0xcbeaec699431857fdb4d37addbbdc20e132d4903
+  - https://ethplorer.io/address/0xcbeaec699431857fdb4d37addbbdc20e132d4903
   homepage:
   - https://yoyow.org/
   twitter_screen_name: InfoYoyow
 name: YOYOW
 symbol: yoyow
+tickers:
+- base: YYW
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: YOYOW
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH

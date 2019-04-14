@@ -10,12 +10,12 @@ description: >-
 id: eterbase
 links:
   announcement_url:
-  - https://www.eterbase.com/blog
   - https://medium.com/@ETERBASE
+  - https://www.eterbase.com/blog
   bitcointalk_thread_identifier: 3664292
   blockchain_site:
-  - https://ethplorer.io/address/0x49a1cbb5d28cdedd55b7daa627f658fbd8cf1d23
   - https://etherscan.io/token/0x49a1cbb5d28cdedd55b7daa627f658fbd8cf1d23
+  - https://ethplorer.io/address/0x49a1cbb5d28cdedd55b7daa627f658fbd8cf1d23
   chat_url:
   - https://discordapp.com/invite/S62VK6p
   facebook_username: eterbase
@@ -29,3 +29,34 @@ links:
   twitter_screen_name: ETERBASE
 name: ETERBASE
 symbol: xbase
+tickers:
+- base: XBASE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: XBASE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: XBASE
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: XBASE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: XBASE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: XBASE
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC

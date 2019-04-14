@@ -7,10 +7,26 @@ id: kronn
 links:
   bitcointalk_thread_identifier: 5084112
   blockchain_site:
-  - https://ethplorer.io/address/0x9588fc24a9796fbd870951a2cd54c6f1f24b2e7c
-  - https://etherscan.io/token/0x9588Fc24a9796fBd870951A2CD54C6f1f24b2E7c
   - https://enjinx.io/eth/token/0x9588fc24a9796fbd870951a2cd54c6f1f24b2e7c
+  - https://etherscan.io/token/0x9588Fc24a9796fBd870951A2CD54C6f1f24b2E7c
+  - https://ethplorer.io/address/0x9588fc24a9796fbd870951a2cd54c6f1f24b2e7c
   homepage:
   - https://kronn.net/
 name: Kronn
 symbol: krex
+tickers:
+- base: KREX
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: BTC
+- base: KREX
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
+- base: KREX
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: BTC

@@ -48,8 +48,8 @@ links:
   - https://forum.livepeer.org/
   - https://medium.com/livepeer-blog
   blockchain_site:
-  - https://ethplorer.io/address/0x58b6a8a3302369daec383334672404ee733ab239
   - https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239
+  - https://ethplorer.io/address/0x58b6a8a3302369daec383334672404ee733ab239
   chat_url:
   - https://discord.gg/RR4kFAh
   facebook_username: livepeer
@@ -64,3 +64,14 @@ links:
   twitter_screen_name: LivepeerOrg
 name: Livepeer
 symbol: lpt
+tickers:
+- base: LPT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LPT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI

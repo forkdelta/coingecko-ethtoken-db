@@ -7,8 +7,8 @@ id: mywish
 links:
   bitcointalk_thread_identifier: 2059189
   blockchain_site:
-  - https://etherscan.io/token/0x1b22c32cd936cb97c28c5690a0695a82abf688e6
   - https://enjinx.io/eth/token/0x1b22c32cd936cb97c28c5690a0695a82abf688e6
+  - https://etherscan.io/token/0x1b22c32cd936cb97c28c5690a0695a82abf688e6
   - https://ethplorer.io/address/0x1b22c32cd936cb97c28c5690a0695a82abf688e6
   chat_url:
   - https://mywishteam.slack.com/
@@ -23,3 +23,29 @@ links:
   twitter_screen_name: mywishplatform
 name: MyWish
 symbol: wish
+tickers:
+- base: WISH
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WISH
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: WISH
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: WISH
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: WISH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

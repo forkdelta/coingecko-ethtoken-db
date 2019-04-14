@@ -12,9 +12,9 @@ links:
   - https://medium.com/@SharderChain
   bitcointalk_thread_identifier: 2767036
   blockchain_site:
-  - https://ethplorer.io/address/0xbbff862d906e348e9946bfb2132ecb157da3d4b4
-  - https://etherscan.io/token/0xbbff862d906e348e9946bfb2132ecb157da3d4b4
   - https://enjinx.io/eth/token/0xbbff862d906e348e9946bfb2132ecb157da3d4b4
+  - https://etherscan.io/token/0xbbff862d906e348e9946bfb2132ecb157da3d4b4
+  - https://ethplorer.io/address/0xbbff862d906e348e9946bfb2132ecb157da3d4b4
   homepage:
   - https://sharder.org/
   repos_url:
@@ -24,3 +24,44 @@ links:
   twitter_screen_name: SharderChain
 name: sharder protocol
 symbol: ss
+tickers:
+- base: SS
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: SS
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: SS
+  market:
+    identifier: vinex
+    name: Vinex
+  target: ETH
+- base: SS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: SS
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BZ
+- base: SS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SS
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH

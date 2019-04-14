@@ -7,11 +7,27 @@ description: >-
 id: clipper-coin-capital
 links:
   blockchain_site:
-  - https://ethplorer.io/address/0x378903a03fb2c3ac76bb52773e3ce11340377a32
   - https://enjinx.io/eth/token/0x378903a03fb2c3ac76bb52773e3ce11340377a32
   - https://etherscan.io/token/0x378903a03fb2c3ac76bb52773e3ce11340377a32
+  - https://ethplorer.io/address/0x378903a03fb2c3ac76bb52773e3ce11340377a32
   homepage:
   - http://www.clippercoin.com/en/pc_index.html
   telegram_channel_identifier: CCC_official
 name: Clipper Coin Capital
 symbol: cccx
+tickers:
+- base: CCCX
+  market:
+    identifier: idcm
+    name: IDCM
+  target: ETH
+- base: CCCX
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: TWDT
+- base: CCCX
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT

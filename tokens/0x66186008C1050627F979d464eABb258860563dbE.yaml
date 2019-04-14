@@ -7,9 +7,9 @@ description: >-
 id: medishares
 links:
   blockchain_site:
+  - https://enjinx.io/eth/token/0x66186008c1050627f979d464eabb258860563dbe
   - https://etherscan.io/token/0x66186008C1050627F979d464eABb258860563dbE
   - https://ethplorer.io/address/0x66186008c1050627f979d464eabb258860563dbe
-  - https://enjinx.io/eth/token/0x66186008c1050627f979d464eabb258860563dbe
   homepage:
   - http://www.medishares.org/
   repos_url:
@@ -18,3 +18,49 @@ links:
   twitter_screen_name: MediShares
 name: MediShares
 symbol: mds
+tickers:
+- base: MDS
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: MDS
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: USDT
+- base: MDS
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: MDS
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: MDS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: MDS
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: MDS
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: MDS
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: MDS
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH

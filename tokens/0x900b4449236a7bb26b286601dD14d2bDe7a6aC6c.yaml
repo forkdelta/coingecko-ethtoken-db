@@ -17,11 +17,37 @@ description: >-
 id: earth-token
 links:
   blockchain_site:
-  - https://etherscan.io/token/0x900b4449236a7bb26b286601dd14d2bde7a6ac6c
   - https://enjinx.io/eth/token/0x900b4449236a7bb26b286601dd14d2bde7a6ac6c
+  - https://etherscan.io/token/0x900b4449236a7bb26b286601dd14d2bde7a6ac6c
   - https://ethplorer.io/address/0x900b4449236a7bb26b286601dd14d2bde7a6ac6c
   homepage:
   - https://earth-token.com/
   subreddit_url: https://www.reddit.com/r/EarthToken/
 name: Earth Token
 symbol: earth
+tickers:
+- base: EARTH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EARTH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EARTH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: EARTH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: EARTH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC

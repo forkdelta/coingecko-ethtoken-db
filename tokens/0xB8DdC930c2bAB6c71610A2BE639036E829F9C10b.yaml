@@ -9,8 +9,8 @@ id: kwhcoin
 links:
   bitcointalk_thread_identifier: 2303093
   blockchain_site:
-  - https://etherscan.io/token/0xb8ddc930c2bab6c71610a2be639036e829f9c10b
   - https://enjinx.io/eth/token/0xb8ddc930c2bab6c71610a2be639036e829f9c10b
+  - https://etherscan.io/token/0xb8ddc930c2bab6c71610a2be639036e829f9c10b
   - https://ethplorer.io/address/0xb8ddc930c2bab6c71610a2be639036e829f9c10b
   facebook_username: KWHCoin
   homepage:
@@ -22,3 +22,29 @@ links:
   twitter_screen_name: KwhCoin
 name: KwhCoin
 symbol: kwh
+tickers:
+- base: KWH
+  market:
+    identifier: bitfex
+    name: Bitfex
+  target: LTC
+- base: KWH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: KWH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KWH
+  market:
+    identifier: bitfex
+    name: Bitfex
+  target: DASH
+- base: KWH
+  market:
+    identifier: bitfex
+    name: Bitfex
+  target: BTC
