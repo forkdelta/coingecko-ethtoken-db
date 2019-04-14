@@ -45,8 +45,8 @@ def clean_links_value(value):
         return value if value else None
     elif isinstance(value, list):
         clean_list = list(filter(clean_links_value, value))
-        uniq_list = list(set(clean_list))
-        return uniq_list if len(uniq_list) > 0 else None
+        uniq_list = list(sorted(list(set(clean_list))))
+        return uniq_list if uniq_list else None
     elif isinstance(value, dict):
         clean_pairs = [(k, clean_links_value(v)) for (k, v) in value.items()]
         clean_dict = {k: v for (k, v) in clean_pairs if v is not None}
