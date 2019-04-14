@@ -55,11 +55,15 @@ def clean_links_value(value):
         return value
 
 
+def clean_text(text):
+    return text.strip().replace("\r\n", "\n").replace(" \n", "\n")
+
+
 def make_token_entry(coin_details):
     checksum_address = to_checksum_address(coin_details["contract_address"])
     description = coin_details.get("description", {}).get("en")
-    if isinstance(description, str) and len(description) > 0:
-        description = description.replace("\r\n", "\n")
+    if isinstance(description, str):
+        description = clean_text(description)
 
     return dict(
         address=checksum_address,
