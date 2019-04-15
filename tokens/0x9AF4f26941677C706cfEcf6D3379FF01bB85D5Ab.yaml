@@ -26,18 +26,23 @@ symbol: drt
 tickers:
 - base: DRT
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: DRT
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
 - base: DRT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: DRT
   market:
-    identifier: thetokenstore
-    name: Token Store
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: DRT
   market:
@@ -51,19 +56,19 @@ tickers:
   target: DAI
 - base: DRT
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DRT
+  market:
     identifier: stocks_exchange
     name: STEX
   target: ETH
 - base: DRT
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: thetokenstore
+    name: Token Store
   target: ETH
-- base: DRT
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: DRT
   market:
     identifier: yobit
@@ -73,14 +78,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR
 - base: DRT
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: DRT
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+  target: WAVES

@@ -35,33 +35,13 @@ symbol: ocn
 tickers:
 - base: OCN
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: OCN
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: BTC
-- base: OCN
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: OCN
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: USDT
-- base: OCN
-  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
 - base: OCN
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: bit_z
+    name: Bit-Z
   target: ETH
 - base: OCN
   market:
@@ -72,21 +52,21 @@ tickers:
   market:
     identifier: blockonix
     name: Blockonix
-  target: USDT
+  target: ETH
 - base: OCN
   market:
     identifier: blockonix
     name: Blockonix
-  target: ETH
-- base: OCN
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+  target: USDT
 - base: OCN
   market:
     identifier: everbloom
     name: Everbloom
+  target: ETH
+- base: OCN
+  market:
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: OCN
   market:
@@ -95,11 +75,31 @@ tickers:
   target: ETH
 - base: OCN
   market:
-    identifier: bit_z
-    name: Bit-Z
+    identifier: gate-io
+    name: Gate.io
+  target: BTC
+- base: OCN
+  market:
+    identifier: gate-io
+    name: Gate.io
   target: ETH
+- base: OCN
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: OCN
   market:
     identifier: joyso
     name: Joyso
+  target: ETH
+- base: OCN
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
+- base: OCN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH

@@ -36,6 +36,11 @@ symbol: adh
 tickers:
 - base: ADH
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ADH
+  market:
     identifier: orderbook
     name: Orderbook.io
   target: ETH
@@ -46,11 +51,6 @@ tickers:
   target: OUSD
 - base: ADH
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ADH
-  market:
     identifier: quoine
     name: Liquid (Quoine)
   target: BTC
@@ -58,14 +58,14 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: QASH
-- base: ADH
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: ADH
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: ETH
+  target: QASH
+- base: ADH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

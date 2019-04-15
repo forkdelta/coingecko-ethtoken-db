@@ -48,11 +48,16 @@ tickers:
   target: BTC
 - base: METM
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: METM
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: METM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

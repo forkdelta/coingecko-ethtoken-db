@@ -24,16 +24,6 @@ symbol: wings
 tickers:
 - base: WINGS
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: WINGS
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: WINGS
-  market:
     identifier: binance
     name: Binance
   target: BTC
@@ -44,23 +34,8 @@ tickers:
   target: ETH
 - base: WINGS
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: WINGS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: WINGS
-  market:
     identifier: blockonix
     name: Blockonix
-  target: ETH
-- base: WINGS
-  market:
-    identifier: everbloom
-    name: Everbloom
   target: ETH
 - base: WINGS
   market:
@@ -69,16 +44,36 @@ tickers:
   target: USDT
 - base: WINGS
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: WINGS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: WINGS
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: WINGS
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: WINGS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WINGS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: WINGS
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: WINGS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

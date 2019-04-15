@@ -21,9 +21,14 @@ tickers:
   target: KRW
 - base: AUTO
   market:
-    identifier: saturn_network
-    name: Saturn Network
+    identifier: idex
+    name: Idex
   target: ETH
+- base: AUTO
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: AUTO
   market:
     identifier: okex
@@ -33,17 +38,12 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: BTC
-- base: AUTO
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: AUTO
-  market:
-    identifier: okex
-    name: OKEx
   target: USDT
+- base: AUTO
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
 - base: AUTO
   market:
     identifier: tokenjar

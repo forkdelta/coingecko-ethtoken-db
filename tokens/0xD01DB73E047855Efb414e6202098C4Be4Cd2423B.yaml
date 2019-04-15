@@ -36,18 +36,8 @@ tickers:
   target: BTC
 - base: UQC
   market:
-    identifier: idax
-    name: Idax
-  target: BTC
-- base: UQC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: UQC
-  market:
-    identifier: idex
-    name: Idex
+    identifier: coin_exchange
+    name: Coinexchange
   target: ETH
 - base: UQC
   market:
@@ -56,19 +46,24 @@ tickers:
   target: ETH
 - base: UQC
   market:
-    identifier: coin_exchange
-    name: Coinexchange
+    identifier: idax
+    name: Idax
+  target: ETH
+- base: UQC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: UQC
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: UQC
   market:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: UQC
-  market:
-    identifier: idax
-    name: Idax
-  target: ETH
 - base: UQC
   market:
     identifier: tokenjar

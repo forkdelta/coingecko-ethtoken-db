@@ -37,14 +37,9 @@ symbol: dpp
 tickers:
 - base: DPP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: DPP
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: DPP
   market:
     identifier: latoken
@@ -57,6 +52,11 @@ tickers:
   target: DAI
 - base: DPP
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DPP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

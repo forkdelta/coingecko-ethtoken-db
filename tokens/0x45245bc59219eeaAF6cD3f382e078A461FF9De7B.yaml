@@ -34,23 +34,8 @@ symbol: bkx
 tickers:
 - base: BKX
   market:
-    identifier: simex
-    name: Simex
-  target: USD
-- base: BKX
-  market:
-    identifier: simex
-    name: Simex
-  target: BTC
-- base: BKX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BKX
-  market:
-    identifier: simex
-    name: Simex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: BKX
   market:
@@ -59,11 +44,26 @@ tickers:
   target: ETH
 - base: BKX
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: BKX
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: BKX
+  market:
+    identifier: simex
+    name: Simex
+  target: BTC
+- base: BKX
+  market:
+    identifier: simex
+    name: Simex
+  target: ETH
+- base: BKX
+  market:
+    identifier: simex
+    name: Simex
+  target: USD
+- base: BKX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

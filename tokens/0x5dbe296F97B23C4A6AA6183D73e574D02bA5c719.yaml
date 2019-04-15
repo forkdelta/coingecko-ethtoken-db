@@ -33,6 +33,11 @@ symbol: luc
 tickers:
 - base: LUC
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: LUC
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -48,24 +53,19 @@ tickers:
   target: USD
 - base: LUC
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: LUC
+  market:
     identifier: lbank
     name: Lbank
   target: ETH
 - base: LUC
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: LUC
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: LUC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: LUC
   market:
     identifier: yobit
@@ -75,9 +75,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR
 - base: LUC
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: WAVES

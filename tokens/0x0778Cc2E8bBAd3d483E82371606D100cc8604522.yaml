@@ -27,11 +27,31 @@ links:
 name: LHCoin
 symbol: lhcoin
 tickers:
+- base: LHCOIN
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: LHCOIN
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: LHCOIN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: LHC
   market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
+- base: LHCOIN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: LHCOIN
   market:
     identifier: yobit
@@ -42,13 +62,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: LHCOIN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LHCOIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE

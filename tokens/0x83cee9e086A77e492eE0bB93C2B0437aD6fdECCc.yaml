@@ -40,23 +40,8 @@ symbol: mntp
 tickers:
 - base: MNTP
   market:
-    identifier: simex
-    name: Simex
-  target: USD
-- base: MNTP
-  market:
-    identifier: simex
-    name: Simex
-  target: BTC
-- base: MNTP
-  market:
     identifier: everbloom
     name: Everbloom
-  target: ETH
-- base: MNTP
-  market:
-    identifier: simex
-    name: Simex
   target: ETH
 - base: MNTP
   market:
@@ -75,6 +60,21 @@ tickers:
   target: ETH
 - base: MNTP
   market:
+    identifier: simex
+    name: Simex
+  target: BTC
+- base: MNTP
+  market:
+    identifier: simex
+    name: Simex
+  target: ETH
+- base: MNTP
+  market:
+    identifier: simex
+    name: Simex
+  target: USD
+- base: MNTP
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
@@ -82,12 +82,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: DOGE
 - base: MNTP
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: RUR
 - base: MNTP
   market:
     identifier: yobit

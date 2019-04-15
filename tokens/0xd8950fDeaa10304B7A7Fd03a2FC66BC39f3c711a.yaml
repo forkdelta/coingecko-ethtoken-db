@@ -27,6 +27,21 @@ symbol: wys
 tickers:
 - base: WYS
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WYS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WYS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: WYS
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
@@ -35,13 +50,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: WYS
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: WYS
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

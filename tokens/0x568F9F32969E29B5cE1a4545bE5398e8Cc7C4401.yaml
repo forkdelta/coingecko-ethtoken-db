@@ -32,6 +32,16 @@ tickers:
   target: ETH
 - base: FBN
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: FBN
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: FBN
+  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
@@ -40,13 +50,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: FBN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: FBN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

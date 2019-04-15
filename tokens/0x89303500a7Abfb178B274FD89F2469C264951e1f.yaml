@@ -26,14 +26,19 @@ symbol: ref
 tickers:
 - base: REF
   market:
-    identifier: okex
-    name: OKEx
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: REF
   market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: OUSD
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: REF
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: REF
   market:
     identifier: okex
@@ -46,11 +51,6 @@ tickers:
   target: ETH
 - base: REF
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: REF
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: orderbook
+    name: Orderbook.io
+  target: OUSD

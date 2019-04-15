@@ -30,33 +30,8 @@ symbol: bnty
 tickers:
 - base: BNTY
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: BNTY
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: BNTY
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: BNTY
-  market:
     identifier: airswap
     name: AirSwap
-  target: ETH
-- base: BNTY
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: BNTY
-  market:
-    identifier: ethex
-    name: Ethex
   target: ETH
 - base: BNTY
   market:
@@ -65,34 +40,24 @@ tickers:
   target: BTC
 - base: BNTY
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: BNTY
-  market:
     identifier: bit_z
     name: Bit-Z
   target: ETH
 - base: BNTY
   market:
-    identifier: thetokenstore
-    name: Token Store
+    identifier: ddex
+    name: DDEX
   target: ETH
 - base: BNTY
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: ddex
+    name: DDEX
   target: WETH
 - base: BNTY
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BNTY
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: ethex
+    name: Ethex
+  target: ETH
 - base: BNTY
   market:
     identifier: everbloom
@@ -100,6 +65,41 @@ tickers:
   target: ETH
 - base: BNTY
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BNTY
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: BNTY
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: BNTY
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: BNTY
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: BNTY
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: BNTY
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: BNTY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -29,9 +29,29 @@ symbol: air
 tickers:
 - base: AIR
   market:
+    identifier: dobitrade
+    name: Dobitrade
+  target: BTC
+- base: AIR
+  market:
+    identifier: dobitrade
+    name: Dobitrade
+  target: ETH
+- base: AIR
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: AIR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: AIR
+  market:
     identifier: hitbtc
     name: HitBTC
-  target: USD
+  target: BTC
 - base: AIR
   market:
     identifier: hitbtc
@@ -41,7 +61,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: USD
 - base: AIR
   market:
     identifier: idex
@@ -54,11 +74,6 @@ tickers:
   target: DAI
 - base: AIR
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: AIR
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
@@ -67,18 +82,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: AIR
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: AIR
-  market:
-    identifier: dobitrade
-    name: Dobitrade
-  target: BTC
-- base: AIR
-  market:
-    identifier: dobitrade
-    name: Dobitrade
-  target: ETH

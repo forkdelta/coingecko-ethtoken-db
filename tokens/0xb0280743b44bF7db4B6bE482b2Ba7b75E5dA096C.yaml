@@ -25,6 +25,16 @@ symbol: tns
 tickers:
 - base: TNS
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: TNS
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: TNS
+  market:
     identifier: lbank
     name: Lbank
   target: BTC
@@ -33,16 +43,6 @@ tickers:
     identifier: lbank
     name: Lbank
   target: LBCN
-- base: TNS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: TNS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: TNS
   market:
     identifier: tokenjar
@@ -57,9 +57,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR
 - base: TNS
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
+    identifier: yobit
+    name: YoBit
+  target: WAVES

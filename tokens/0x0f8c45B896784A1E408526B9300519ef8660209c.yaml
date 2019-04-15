@@ -42,22 +42,17 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
-  target: WETH
+  target: ETH
 - base: XMX
   market:
     identifier: ddex
     name: DDEX
-  target: ETH
+  target: WETH
 - base: XMX
   market:
     identifier: fcoin
     name: FCoin
   target: ETH
-- base: XMX
-  market:
-    identifier: syex
-    name: Shangya Exchange
-  target: USDT
 - base: XMX
   market:
     identifier: idex
@@ -68,6 +63,11 @@ tickers:
     identifier: joyso
     name: Joyso
   target: ETH
+- base: XMX
+  market:
+    identifier: syex
+    name: Shangya Exchange
+  target: USDT
 - base: XMX
   market:
     identifier: tokenjar

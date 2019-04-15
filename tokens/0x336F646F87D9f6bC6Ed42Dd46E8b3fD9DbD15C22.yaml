@@ -21,9 +21,14 @@ symbol: cct
 tickers:
 - base: CCT
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: CCT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: CCT
   market:
     identifier: hitbtc
@@ -38,14 +43,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: CCT
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
-- base: CCT
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: CCT
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

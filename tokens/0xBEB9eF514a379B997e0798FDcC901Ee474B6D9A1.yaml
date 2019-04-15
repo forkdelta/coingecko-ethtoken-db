@@ -54,13 +54,28 @@ symbol: mln
 tickers:
 - base: MLN
   market:
+    identifier: bitsane
+    name: Bitsane
+  target: ETH
+- base: MLN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: MLN
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
 - base: MLN
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: MLN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: MLN
   market:
@@ -69,13 +84,8 @@ tickers:
   target: ETH
 - base: MLN
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: MLN
-  market:
-    identifier: bitsane
-    name: Bitsane
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: MLN
   market:
@@ -94,11 +104,11 @@ tickers:
   target: DAI
 - base: MLN
   market:
-    identifier: tokenjar
-    name: TokenJar
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
 - base: MLN
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -46,39 +46,29 @@ symbol: snm
 tickers:
 - base: SNM
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: SNM
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: SNM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: SNM
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
 - base: SNM
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: SNM
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: blockonix
+    name: Blockonix
   target: USDT
 - base: SNM
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: SNM
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: SNM
+  market:
     identifier: cryptaldash
     name: CryptalDash
-  target: ETH
+  target: BTC
 - base: SNM
   market:
     identifier: cryptaldash
@@ -86,14 +76,34 @@ tickers:
   target: CRD
 - base: SNM
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: SNM
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: USDT
 - base: SNM
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: SNM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: SNM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 832E5053-5ECB-4AD5-AD8F-1588E57004ED
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
 - base: 832E5053-5ECB-4AD5-AD8F-1588E57004ED
   market:
     identifier: lykke
@@ -101,29 +111,9 @@ tickers:
   target: ETH
 - base: SNM
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SNM
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: SNM
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: SNM
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: SNM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: SNM
   market:
     identifier: radar_relay
@@ -131,11 +121,21 @@ tickers:
   target: WETH
 - base: SNM
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SNM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: SNM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: SNM
+  market:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: 832E5053-5ECB-4AD5-AD8F-1588E57004ED
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC

@@ -34,26 +34,6 @@ symbol: icnq
 tickers:
 - base: ICNQ
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: ICNQ
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ICNQ
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: ICNQ
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: USD
-- base: ICNQ
-  market:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: BTC
@@ -62,3 +42,23 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: ETH
+- base: ICNQ
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
+- base: ICNQ
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ICNQ
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: ICNQ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

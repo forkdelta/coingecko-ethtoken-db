@@ -30,11 +30,6 @@ links:
 name: Streamity
 symbol: stm
 tickers:
-- base: STM0
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: STM
   market:
     identifier: mercatox
@@ -45,3 +40,13 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
+- base: STM0
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: STM
+  market:
+    identifier: zgtop
+    name: ZG.TOP
+  target: USDT

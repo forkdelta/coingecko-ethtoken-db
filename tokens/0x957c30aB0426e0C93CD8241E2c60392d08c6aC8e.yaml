@@ -30,16 +30,6 @@ tickers:
   target: ETH
 - base: MOD
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: MOD
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: MOD
-  market:
     identifier: binance
     name: Binance
   target: BTC
@@ -48,21 +38,6 @@ tickers:
     identifier: binance
     name: Binance
   target: ETH
-- base: MOD
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: MOD
-  market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: MOD
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
 - base: MOD
   market:
     identifier: everbloom
@@ -70,13 +45,8 @@ tickers:
   target: ETH
 - base: MOD
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MOD
-  market:
-    identifier: saturn_network
-    name: Saturn Network
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: MOD
   market:
@@ -85,16 +55,36 @@ tickers:
   target: USDT
 - base: MOD
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: MOD
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: MOD
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: MOD
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
+- base: MOD
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: MOD
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: MOD
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: MOD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

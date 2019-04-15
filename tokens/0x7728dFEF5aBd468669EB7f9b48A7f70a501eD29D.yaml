@@ -21,9 +21,19 @@ symbol: prg
 tickers:
 - base: PRG
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: PRG
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: PRG
+  market:
     identifier: hitbtc
     name: HitBTC
-  target: USD
+  target: BTC
 - base: PRG
   market:
     identifier: hitbtc
@@ -33,11 +43,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: USD
 - base: PRG
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: idex
+    name: Idex
   target: ETH
 - base: PRG
   market:
@@ -49,8 +59,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: PRG
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

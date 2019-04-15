@@ -23,6 +23,21 @@ symbol: dcto
 tickers:
 - base: DCTO
   market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: DCTO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: DCTO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: DCTO
+  market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
@@ -31,8 +46,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: DCTO
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH

@@ -53,11 +53,6 @@ symbol: cst
 tickers:
 - base: CST
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: ETH
-- base: CST
-  market:
     identifier: coinall
     name: CoinAll
   target: BTC
@@ -68,11 +63,16 @@ tickers:
   target: BTC
 - base: CST
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: digifinex
+    name: Digifinex
+  target: ETH
 - base: CST
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: CST
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

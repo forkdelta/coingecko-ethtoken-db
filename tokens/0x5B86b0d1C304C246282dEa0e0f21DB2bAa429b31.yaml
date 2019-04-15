@@ -34,21 +34,6 @@ symbol: rai
 tickers:
 - base: RAI
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: RAI
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
-- base: RAI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: RAI
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -57,3 +42,18 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: RAI
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: RAI
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: RAI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -19,45 +19,15 @@ symbol: credo
 tickers:
 - base: CREDO
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: CREDO
-  market:
     identifier: coinbene
     name: CoinBene
   target: ETH
+- base: XRP
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: EOS
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: CREDO
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: CREDO
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: LTC
-- base: GNO
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: CREDO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: CREDO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: DAI
   market:
     identifier: credoex
     name: CredoEx
@@ -69,14 +39,29 @@ tickers:
   target: USD
 - base: CREDO
   market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: CREDO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: CREDO
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: CREDO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CREDO
+  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: XRP
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
 - base: CREDO
   market:
     identifier: tokenjar

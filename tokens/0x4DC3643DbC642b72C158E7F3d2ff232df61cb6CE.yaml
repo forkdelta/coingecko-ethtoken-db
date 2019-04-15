@@ -44,14 +44,24 @@ symbol: amb
 tickers:
 - base: AMB
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: blockonix
+    name: Blockonix
   target: ETH
 - base: AMB
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: AMB
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: AMB
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: AMB
   market:
     identifier: idex
@@ -64,41 +74,6 @@ tickers:
   target: ETH
 - base: AMB
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: AMB
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: AMB
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: AMB
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: AMB
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: AMB
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: AMB
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: AMB
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -107,3 +82,23 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: RUR
+- base: AMB
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: AMB
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: AMB
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: AMB
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

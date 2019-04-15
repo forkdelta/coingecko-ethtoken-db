@@ -25,6 +25,21 @@ tickers:
   target: BTC
 - base: SKB
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: SKB
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: SKB
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: SKB
+  market:
     identifier: stocks_exchange
     name: STEX
   target: USDT
@@ -33,13 +48,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: SKB
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: SKB
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH

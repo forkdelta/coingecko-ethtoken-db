@@ -22,6 +22,16 @@ symbol: exbt
 tickers:
 - base: EXBT
   market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: BINS
+- base: EXBT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: ETH
+- base: EXBT
+  market:
     identifier: coinchangex
     name: Coinchangex
   target: ETH
@@ -32,16 +42,6 @@ tickers:
   target: ETH
 - base: EXBT
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: ETH
-- base: EXBT
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: EXBT
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: BINS

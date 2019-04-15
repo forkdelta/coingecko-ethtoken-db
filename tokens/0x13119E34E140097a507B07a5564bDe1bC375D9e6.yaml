@@ -36,18 +36,28 @@ tickers:
   target: BTC
 - base: IMT
   market:
-    identifier: idex
-    name: Idex
+    identifier: coinsuper
+    name: Coinsuper
   target: ETH
 - base: IMT
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: IMT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: IMT
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: IMT
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: BTC
 - base: IMT
   market:
@@ -59,18 +69,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: IMT
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: IMT
-  market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: ETH
-- base: IMT
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT

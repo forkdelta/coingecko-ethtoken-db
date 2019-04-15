@@ -26,9 +26,14 @@ symbol: spf
 tickers:
 - base: SPF
   market:
-    identifier: okex
-    name: OKEx
-  target: BTC
+    identifier: chaoex
+    name: CHAOEX
+  target: ETH
+- base: SPF
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: SPF
   market:
     identifier: livecoin
@@ -38,7 +43,7 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: USDT
+  target: BTC
 - base: SPF
   market:
     identifier: okex
@@ -46,16 +51,11 @@ tickers:
   target: ETH
 - base: SPF
   market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: SPF
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: SPF
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: SPF
-  market:
-    identifier: chaoex
-    name: CHAOEX
-  target: ETH

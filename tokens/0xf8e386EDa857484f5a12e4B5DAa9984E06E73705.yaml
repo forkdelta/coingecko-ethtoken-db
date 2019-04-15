@@ -28,38 +28,38 @@ symbol: ind
 tickers:
 - base: IND
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: IND
+  market:
     identifier: coinchangex
     name: Coinchangex
+  target: ETH
+- base: IND
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: IND
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: IND
+  market:
+    identifier: ddex
+    name: DDEX
   target: ETH
 - base: IND
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: 2D74C10A-F9C7-4678-9EAF-CEB5BB38998A
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
 - base: IND
   market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: IND
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: IND
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: IND
-  market:
-    identifier: coss
-    name: COSS
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: IND
   market:
@@ -68,9 +68,34 @@ tickers:
   target: ETH
 - base: IND
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 2D74C10A-F9C7-4678-9EAF-CEB5BB38998A
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 2D74C10A-F9C7-4678-9EAF-CEB5BB38998A
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: IND
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: IND
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: IND
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: IND
   market:
     identifier: yobit
@@ -80,29 +105,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: IND
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
-- base: IND
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC
-- base: IND
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: 2D74C10A-F9C7-4678-9EAF-CEB5BB38998A
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
-- base: IND
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: IND
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

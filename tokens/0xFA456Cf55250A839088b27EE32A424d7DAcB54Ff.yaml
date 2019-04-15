@@ -29,19 +29,9 @@ symbol: btt
 tickers:
 - base: BTT
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: BTT
-  market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: BTT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+  target: BTC
 - base: BTT
   market:
     identifier: radar_relay
@@ -49,6 +39,6 @@ tickers:
   target: DAI
 - base: BTT
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

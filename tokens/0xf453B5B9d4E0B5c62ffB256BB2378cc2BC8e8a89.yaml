@@ -33,6 +33,21 @@ symbol: mrk
 tickers:
 - base: MRK
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: MRK
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: MRK
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MRK
+  market:
     identifier: orderbook
     name: Orderbook.io
   target: ETH
@@ -41,11 +56,6 @@ tickers:
     identifier: orderbook
     name: Orderbook.io
   target: OUSD
-- base: MRK
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: MRK
   market:
     identifier: quoine

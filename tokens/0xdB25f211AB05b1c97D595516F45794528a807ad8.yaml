@@ -23,6 +23,21 @@ symbol: eurs
 tickers:
 - base: EURS
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: EURS
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTC
+- base: EURS
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: ETH
+- base: EURS
+  market:
     identifier: bitibu
     name: Bitibu
   target: USD
@@ -38,31 +53,6 @@ tickers:
   target: WETH
 - base: EURS
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: EURS
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: EURS
-  market:
-    identifier: bitibu
-    name: Bitibu
-  target: BTC
-- base: EURS
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: EURS
-  market:
-    identifier: bitibu
-    name: Bitibu
-  target: ETH
-- base: EURS
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT

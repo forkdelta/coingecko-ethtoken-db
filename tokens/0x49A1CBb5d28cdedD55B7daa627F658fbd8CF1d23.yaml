@@ -37,14 +37,9 @@ tickers:
   target: ETH
 - base: XBASE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: XBASE
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: XBASE
   market:
     identifier: latoken
@@ -57,6 +52,11 @@ tickers:
   target: ETH
 - base: XBASE
   market:
-    identifier: idex
-    name: Idex
-  target: WBTC
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: XBASE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

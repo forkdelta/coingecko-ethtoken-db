@@ -32,9 +32,9 @@ tickers:
   target: ETH
 - base: EVE
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: EVE
   market:
     identifier: everbloom
@@ -42,14 +42,24 @@ tickers:
   target: ETH
 - base: EVE
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: EVE
   market:
     identifier: hotbit
     name: Hotbit
+  target: BTC
+- base: EVE
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
+- base: EVE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: EVE
   market:
     identifier: radar_relay
@@ -62,16 +72,6 @@ tickers:
   target: ETH
 - base: EVE
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: EVE
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: EVE
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

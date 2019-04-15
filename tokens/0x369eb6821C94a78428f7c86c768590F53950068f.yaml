@@ -41,28 +41,8 @@ symbol: atfs
 tickers:
 - base: ATFS
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: ATFS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ATFS
-  market:
     identifier: btc_alpha
     name: BTC-Alpha
-  target: ETH
-- base: ATFS
-  market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: USD
-- base: ATFS
-  market:
-    identifier: mercatox
-    name: Mercatox
   target: ETH
 - base: ATFS
   market:
@@ -74,3 +54,18 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: ATFS
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: ATFS
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: ATFS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

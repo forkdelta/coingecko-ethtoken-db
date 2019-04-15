@@ -27,19 +27,9 @@ symbol: gnx
 tickers:
 - base: GNX
   market:
-    identifier: coinmex
-    name: CoinMex
-  target: ETH
-- base: GNX
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: GNX
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
+    identifier: allcoin
+    name: Allcoin
+  target: CKUSD
 - base: GNX
   market:
     identifier: bigone
@@ -47,9 +37,9 @@ tickers:
   target: BTC
 - base: GNX
   market:
-    identifier: allcoin
-    name: Allcoin
-  target: CKUSD
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
 - base: GNX
   market:
     identifier: blockonix
@@ -57,14 +47,9 @@ tickers:
   target: USDT
 - base: GNX
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: GNX
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: USDT
+    identifier: coinmex
+    name: CoinMex
+  target: ETH
 - base: GNX
   market:
     identifier: cybex
@@ -72,11 +57,31 @@ tickers:
   target: BTC
 - base: GNX
   market:
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
+- base: GNX
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: USDT
+- base: GNX
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
 - base: GNX
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: gate-io
+    name: Gate.io
   target: ETH
+- base: GNX
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: GNX
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT

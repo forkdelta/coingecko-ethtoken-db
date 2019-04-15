@@ -48,32 +48,32 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: ETH
 - base: CBT
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: USD
+- base: CBT
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: CBT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: CBT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: CBT
-  market:
-    identifier: okex
-    name: OKEx
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: CBT
   market:
     identifier: okex
     name: OKEx
   target: BTC
+- base: CBT
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: CBT
   market:
     identifier: okex
@@ -86,6 +86,11 @@ tickers:
   target: DAI
 - base: CBT
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: CBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

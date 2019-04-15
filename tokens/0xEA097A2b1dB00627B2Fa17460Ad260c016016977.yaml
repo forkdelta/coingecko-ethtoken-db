@@ -26,16 +26,6 @@ symbol: ufr
 tickers:
 - base: UFR
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: UFR
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: BTC
-- base: UFR
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -49,6 +39,21 @@ tickers:
     identifier: coss
     name: COSS
   target: BTC
+- base: UFR
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: UFR
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: UFR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: UFR
   market:
     identifier: idex
@@ -56,9 +61,14 @@ tickers:
   target: ETH
 - base: UFR
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: UFR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: UFR
   market:
     identifier: tokenjar
@@ -76,21 +86,6 @@ tickers:
   target: RUR
 - base: UFR
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: UFR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: UFR
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: UFR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: WAVES

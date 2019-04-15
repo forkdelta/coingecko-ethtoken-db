@@ -28,14 +28,19 @@ symbol: cnct
 tickers:
 - base: CNCT
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: CNCT
   market:
     identifier: ddex
     name: DDEX
   target: ETH
+- base: CNCT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: CNCT
   market:
     identifier: thetokenstore
@@ -46,8 +51,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: CNCT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC

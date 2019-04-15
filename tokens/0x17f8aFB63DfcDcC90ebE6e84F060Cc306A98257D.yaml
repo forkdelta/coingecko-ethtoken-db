@@ -53,11 +53,6 @@ symbol: nbai
 tickers:
 - base: NBAI
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: NBAI
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -66,6 +61,21 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: NBAI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: NBAI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: NBAI
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: ETH
 - base: NBAI
   market:
     identifier: orderbook
@@ -73,16 +83,6 @@ tickers:
   target: OUSD
 - base: NBAI
   market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: ETH
-- base: NBAI
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: NBAI
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

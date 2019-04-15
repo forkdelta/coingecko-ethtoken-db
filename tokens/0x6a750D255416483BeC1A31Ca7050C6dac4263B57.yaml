@@ -25,6 +25,16 @@ symbol: mxm
 tickers:
 - base: MXM
   market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: MXM
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: MXM
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -32,6 +42,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: MXM
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: MXM
   market:
@@ -43,13 +58,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: MXM
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: MXM
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH

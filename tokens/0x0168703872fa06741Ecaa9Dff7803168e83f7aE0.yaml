@@ -21,9 +21,14 @@ symbol: miro
 tickers:
 - base: MIRO
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MIRO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: MIRO
   market:
     identifier: yobit
@@ -33,14 +38,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: MIRO
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
-- base: MIRO
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: MIRO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

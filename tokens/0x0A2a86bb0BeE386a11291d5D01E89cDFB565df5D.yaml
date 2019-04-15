@@ -21,6 +21,11 @@ symbol: bitb
 tickers:
 - base: BITB
   market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: BITB
+  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
@@ -28,9 +33,4 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: ETH
-- base: BITB
-  market:
-    identifier: crex24
-    name: CREX24
   target: ETH

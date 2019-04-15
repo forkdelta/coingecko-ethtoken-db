@@ -53,34 +53,14 @@ symbol: ost
 tickers:
 - base: OST
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: OST
+  market:
+    identifier: fcoin
+    name: FCoin
   target: USDT
-- base: OST
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: OST
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: OST
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: OST
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: USD
-- base: OST
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: ST
   market:
     identifier: forkdelta
@@ -88,19 +68,19 @@ tickers:
   target: ETH
 - base: OST
   market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
-- base: OST
-  market:
-    identifier: fcoin
-    name: FCoin
+    identifier: gate-io
+    name: Gate.io
   target: ETH
 - base: OST
   market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: BTC
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: OST
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
 - base: ST
   market:
     identifier: idex
@@ -108,6 +88,21 @@ tickers:
   target: ETH
 - base: OST
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: OST
+  market:
     identifier: okex
     name: OKEx
   target: BTC
+- base: OST
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: OST
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT

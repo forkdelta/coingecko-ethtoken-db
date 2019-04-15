@@ -21,24 +21,14 @@ symbol: rebl
 tickers:
 - base: REBL
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: REBL
-  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
 - base: REBL
   market:
-    identifier: idex
-    name: Idex
+    identifier: bit_z
+    name: Bit-Z
   target: ETH
-- base: REBL
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: REBL
   market:
     identifier: everbloom
@@ -49,3 +39,18 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: REBL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: REBL
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: REBL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

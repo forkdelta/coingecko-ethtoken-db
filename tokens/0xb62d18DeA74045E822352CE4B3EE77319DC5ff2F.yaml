@@ -20,14 +20,9 @@ symbol: evc
 tickers:
 - base: EVC
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: everbloom
+    name: Everbloom
   target: ETH
-- base: EVC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: EVC
   market:
     identifier: forkdelta
@@ -40,14 +35,19 @@ tickers:
   target: ETH
 - base: EVC
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: EVC
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: EVC
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: EVC
   market:
     identifier: tokenjar

@@ -36,14 +36,14 @@ symbol: mcw
 tickers:
 - base: MCW
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
-- base: MCW
-  market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
+- base: MCW
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: MCW
   market:
     identifier: trade_satoshi
@@ -53,7 +53,7 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: BTC
+  target: ETH
 - base: MCW
   market:
     identifier: trade_satoshi

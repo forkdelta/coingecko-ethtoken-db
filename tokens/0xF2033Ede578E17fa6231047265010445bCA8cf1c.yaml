@@ -8,17 +8,17 @@ links:
 name: Qcash
 symbol: qc
 tickers:
-- base: BCC
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
 - base: BCH
   market:
     identifier: zb
     name: ZB
   target: QC
-- base: MCO
+- base: BCC
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
+- base: SBTC
   market:
     identifier: zb
     name: ZB
@@ -28,17 +28,27 @@ tickers:
     identifier: zbg
     name: ZBG
   target: QC
-- base: BAT
-  market:
-    identifier: zbmega
-    name: ZB Mega
-  target: QC
-- base: AIDT
+- base: CCY
   market:
     identifier: zbg
     name: ZBG
   target: QC
 - base: ETH
+  market:
+    identifier: zbg
+    name: ZBG
+  target: QC
+- base: SSO
+  market:
+    identifier: zbg
+    name: ZBG
+  target: QC
+- base: SCT
+  market:
+    identifier: zbg
+    name: ZBG
+  target: QC
+- base: MTM
   market:
     identifier: zbg
     name: ZBG
@@ -53,8 +63,8 @@ tickers:
     identifier: zbmega
     name: ZB Mega
   target: QC
-- base: CCY
+- base: BAT
   market:
-    identifier: zbg
-    name: ZBG
+    identifier: zbmega
+    name: ZB Mega
   target: QC

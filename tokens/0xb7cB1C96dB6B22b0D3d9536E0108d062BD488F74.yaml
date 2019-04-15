@@ -49,13 +49,48 @@ symbol: wtc
 tickers:
 - base: WTC
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: WTC
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
 - base: WTC
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: axnet
+    name: AXNET
+  target: ETH
+- base: WTC
+  market:
+    identifier: axnet
+    name: AXNET
+  target: TUSD
+- base: WTC
+  market:
+    identifier: axnet
+    name: AXNET
+  target: USDT
+- base: WTC
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: WTC
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: WTC
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: WTC
+  market:
+    identifier: cobinhood
+    name: Cobinhood
   target: ETH
 - base: WTC
   market:
@@ -64,99 +99,9 @@ tickers:
   target: ETH
 - base: WTC
   market:
-    identifier: vebitcoin
-    name: Vebitcoin
-  target: TRY
-- base: WTC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: WTC
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: WTC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: WTC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: WTC
-  market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: WTC
-  market:
-    identifier: hb_top
-    name: Hb.top
-  target: USDE
-- base: WTC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: WTC
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: WTC
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: WTC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: WTC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: 168F13BF-BFEA-4931-91FF-E449850D694E
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
-- base: WTC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: WTC
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: ETH
-- base: WTC
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
-- base: WTC
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: WTC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: WTC
-  market:
-    identifier: axnet
-    name: AXNET
-  target: USDT
+    identifier: coinnest
+    name: CoinNest
+  target: KRW
 - base: WTC
   market:
     identifier: cryptaldash
@@ -169,24 +114,74 @@ tickers:
   target: CRD
 - base: WTC
   market:
-    identifier: simex
-    name: Simex
-  target: BTC
-- base: WTC
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: WTC
-  market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
 - base: WTC
   market:
-    identifier: coinnest
-    name: CoinNest
-  target: KRW
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: WTC
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: WTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: WTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: WTC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: WTC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: WTC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: WTC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: WTC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WTC
+  market:
+    identifier: hb_top
+    name: Hb.top
+  target: USDE
+- base: WTC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WTC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: WTC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: WTC
   market:
     identifier: livecoin
@@ -196,17 +191,17 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
+  target: BTC
+- base: 168F13BF-BFEA-4931-91FF-E449850D694E
+  market:
+    identifier: lykke
+    name: Lykke
   target: ETH
 - base: WTC
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
-- base: WTC
-  market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
+    identifier: simex
+    name: Simex
+  target: BTC
 - base: WTC
   market:
     identifier: simex
@@ -219,6 +214,11 @@ tickers:
   target: USD
 - base: WTC
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: WTC
+  market:
+    identifier: vebitcoin
+    name: Vebitcoin
+  target: TRY

@@ -16,6 +16,16 @@ symbol: ntk
 tickers:
 - base: NTK
   market:
+    identifier: bcex
+    name: BCEX
+  target: ETH
+- base: NTK
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: NTK
+  market:
     identifier: cobinhood
     name: Cobinhood
   target: ETH
@@ -26,9 +36,9 @@ tickers:
   target: ETH
 - base: NTK
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: NTK
   market:
     identifier: yobit
@@ -39,13 +49,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: NTK
-  market:
-    identifier: bcex
-    name: BCEX
-  target: ETH
-- base: NTK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE

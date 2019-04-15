@@ -30,13 +30,28 @@ symbol: lnd
 tickers:
 - base: LND
   market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
+- base: LND
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LND
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: LND
   market:
-    identifier: dextop
-    name: DEx.top
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: LND
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
   target: ETH
 - base: LND
   market:
@@ -48,18 +63,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: LND
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: LND
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: LND
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC

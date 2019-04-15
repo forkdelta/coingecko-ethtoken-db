@@ -33,32 +33,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: BTC
 - base: COIN
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: COINV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: COIN
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
-- base: COINV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: COINV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: COIN
   market:
     identifier: hitbtc
@@ -69,3 +49,18 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: COINV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: COINV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: COINV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

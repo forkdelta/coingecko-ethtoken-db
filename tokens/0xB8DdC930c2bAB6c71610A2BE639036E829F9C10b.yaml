@@ -27,17 +27,7 @@ tickers:
   market:
     identifier: bitfex
     name: Bitfex
-  target: LTC
-- base: KWH
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: KWH
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+  target: BTC
 - base: KWH
   market:
     identifier: bitfex
@@ -47,4 +37,19 @@ tickers:
   market:
     identifier: bitfex
     name: Bitfex
-  target: BTC
+  target: ETH
+- base: KWH
+  market:
+    identifier: bitfex
+    name: Bitfex
+  target: LTC
+- base: KWH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KWH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

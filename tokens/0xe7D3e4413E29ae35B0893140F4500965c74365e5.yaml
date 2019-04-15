@@ -25,6 +25,21 @@ symbol: bbc
 tickers:
 - base: BBC
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: BBC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: BBC
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: BBC
+  market:
     identifier: coinbit
     name: Coinbit
   target: KRW
@@ -32,17 +47,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: BTC
 - base: BBC
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: BBC
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
+  target: ETH
 - base: BBC
   market:
     identifier: secondbtc
@@ -53,8 +63,3 @@ tickers:
     identifier: secondbtc
     name: SecondBTC
   target: USDT
-- base: BBC
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: ETH

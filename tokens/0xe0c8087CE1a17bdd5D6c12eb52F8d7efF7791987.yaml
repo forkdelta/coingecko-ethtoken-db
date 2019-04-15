@@ -17,6 +17,21 @@ symbol: lft
 tickers:
 - base: LFT
   market:
+    identifier: bitmax
+    name: BitMax
+  target: BTC
+- base: LFT
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: ETH
+- base: LFT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BCH
+- base: LFT
+  market:
     identifier: coinex
     name: CoinEx
   target: BTC
@@ -32,21 +47,6 @@ tickers:
   target: USDT
 - base: LFT
   market:
-    identifier: coinex
-    name: CoinEx
-  target: BCH
-- base: LFT
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
-- base: LFT
-  market:
-    identifier: bitmax
-    name: BitMax
-  target: ETH
-- base: LFT
-  market:
-    identifier: bitmax
-    name: BitMax
-  target: BTC

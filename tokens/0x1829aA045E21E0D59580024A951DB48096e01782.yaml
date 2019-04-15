@@ -22,9 +22,19 @@ symbol: fxt
 tickers:
 - base: FXT
   market:
-    identifier: cpdax
-    name: CPDax
-  target: KRW
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: FXT
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: FXT
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
 - base: FXT
   market:
     identifier: coinex
@@ -42,18 +52,23 @@ tickers:
   target: ETH
 - base: FXT
   market:
-    identifier: cobinhood
-    name: Cobinhood
+    identifier: coss
+    name: COSS
   target: BTC
+- base: FXT
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: FXT
+  market:
+    identifier: cpdax
+    name: CPDax
+  target: KRW
 - base: FXT
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: FXT
-  market:
-    identifier: thetokenstore
-    name: Token Store
   target: ETH
 - base: FXT
   market:
@@ -62,31 +77,16 @@ tickers:
   target: ETH
 - base: FXT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: FXT
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
 - base: FXT
   market:
-    identifier: coss
-    name: COSS
+    identifier: thetokenstore
+    name: Token Store
   target: ETH
 - base: FXT
   market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
-- base: FXT
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: FXT
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

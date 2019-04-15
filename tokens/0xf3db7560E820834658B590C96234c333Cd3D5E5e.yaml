@@ -27,11 +27,6 @@ symbol: chp
 tickers:
 - base: CHP
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: CHP
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -42,14 +37,14 @@ tickers:
   target: WETH
 - base: CHP
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: CHP
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: CHP
   market:
     identifier: joyso
@@ -60,6 +55,16 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: CHP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: CHP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: CHP
   market:
     identifier: yobit

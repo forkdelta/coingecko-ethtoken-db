@@ -22,16 +22,16 @@ links:
 name: B2BX
 symbol: b2b
 tickers:
+- base: B2BX
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: ADA
 - base: NEO
   market:
     identifier: b2bx
     name: B2BX
   target: B2BX
-- base: B2BX
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: NEO
 - base: ADA
   market:
     identifier: b2bx
@@ -42,16 +42,6 @@ tickers:
     identifier: b2bx
     name: B2BX
   target: B2BX
-- base: B2BX
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: LTC
-- base: B2BX
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: XEM
 - base: OMG
   market:
     identifier: b2bx
@@ -61,7 +51,7 @@ tickers:
   market:
     identifier: b2bx
     name: B2BX
-  target: ADA
+  target: BCH
 - base: B2BX
   market:
     identifier: b2bx
@@ -71,12 +61,12 @@ tickers:
   market:
     identifier: b2bx
     name: B2BX
-  target: XRP
+  target: LTC
 - base: B2BX
   market:
     identifier: b2bx
     name: B2BX
-  target: XMR
+  target: NEO
 - base: B2BX
   market:
     identifier: b2bx
@@ -86,7 +76,17 @@ tickers:
   market:
     identifier: b2bx
     name: B2BX
-  target: BCH
+  target: XEM
+- base: B2BX
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: XMR
+- base: B2BX
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: XRP
 - base: B2B
   market:
     identifier: coin_exchange
@@ -94,18 +94,18 @@ tickers:
   target: BTC
 - base: B2B
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: B2B
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: B2B
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
-- base: B2B
-  market:
-    identifier: everbloom
-    name: Everbloom
   target: ETH
 - base: B2B
   market:
@@ -116,14 +116,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: B2B
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
 - base: B2B
   market:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: B2B
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

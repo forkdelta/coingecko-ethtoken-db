@@ -42,16 +42,21 @@ tickers:
   target: ETH
 - base: BEE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BEE
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: BEE
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: BEE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: BEE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

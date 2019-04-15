@@ -21,12 +21,12 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
-  target: ETH
+  target: BTC
 - base: UCASH
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
 - base: UCASH
   market:
     identifier: btc_alpha
@@ -34,14 +34,14 @@ tickers:
   target: USD
 - base: UCASH
   market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: BTC
-- base: UCASH
-  market:
     identifier: chainex
     name: ChainEX
   target: BTC
+- base: UCASH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: UCASH
   market:
     identifier: yobit
@@ -49,9 +49,9 @@ tickers:
   target: DOGE
 - base: UCASH
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: UCASH
   market:
     identifier: yobit

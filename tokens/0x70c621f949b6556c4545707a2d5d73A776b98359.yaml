@@ -43,11 +43,16 @@ symbol: skch
 tickers:
 - base: SKCH
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: SKCH
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: SKCH
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: SKCH
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

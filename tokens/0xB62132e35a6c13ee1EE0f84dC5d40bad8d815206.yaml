@@ -35,59 +35,29 @@ symbol: nexo
 tickers:
 - base: NEXO
   market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: NEXO
+  market:
     identifier: bitinfi
     name: Bitinfi
   target: ETH
 - base: NEXO
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
+    identifier: catex
+    name: Catex
+  target: BTC
 - base: NEXO
   market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: NEXO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NEXO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: NEXO
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: NEXO
-  market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: NEXO
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
-- base: NEXO
-  market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
-- base: NEXO
-  market:
-    identifier: fatbtc
-    name: FatBTC
+    identifier: catex
+    name: Catex
   target: ETH
 - base: NEXO
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: USDT
+  target: BTC
 - base: NEXO
   market:
     identifier: cryptaldash
@@ -95,13 +65,28 @@ tickers:
   target: CRD
 - base: NEXO
   market:
-    identifier: saturn_network
-    name: Saturn Network
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
 - base: NEXO
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: NEXO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: NEXO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: NEXO
+  market:
+    identifier: fatbtc
+    name: FatBTC
   target: ETH
 - base: NEXO
   market:
@@ -110,21 +95,36 @@ tickers:
   target: ETH
 - base: NEXO
   market:
-    identifier: allbit
-    name: Allbit
+    identifier: joyso
+    name: Joyso
   target: ETH
 - base: NEXO
   market:
-    identifier: catex
-    name: Catex
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: NEXO
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: NEXO
   market:
-    identifier: catex
-    name: Catex
-  target: BTC
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: NEXO
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
+- base: NEXO
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: NEXO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

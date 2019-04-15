@@ -54,29 +54,9 @@ symbol: drop
 tickers:
 - base: DROP
   market:
-    identifier: idax
-    name: Idax
+    identifier: cryptaldash
+    name: CryptalDash
   target: BTC
-- base: DROP
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: DROP
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: DROP
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
-- base: DROP
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: DROP
   market:
     identifier: cryptaldash
@@ -86,6 +66,16 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: ETH
+- base: DROP
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: DROP
+  market:
+    identifier: idax
+    name: Idax
   target: BTC
 - base: DROP
   market:
@@ -94,6 +84,16 @@ tickers:
   target: USDT
 - base: DROP
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DROP
+  market:
     identifier: joyso
     name: Joyso
   target: ETH
+- base: DROP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

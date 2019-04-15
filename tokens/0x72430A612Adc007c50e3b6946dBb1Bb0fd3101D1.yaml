@@ -24,33 +24,23 @@ symbol: tic
 tickers:
 - base: TIC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: TIC
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: TIC
-  market:
-    identifier: raisex
-    name: Raisex
-  target: ETH
-- base: TIC
-  market:
     identifier: allbit
     name: Allbit
   target: ETH
 - base: TIC
   market:
-    identifier: raisex
-    name: Raisex
+    identifier: exrates
+    name: Exrates
   target: BTC
 - base: TIC
   market:
     identifier: exrates
     name: Exrates
+  target: ETH
+- base: TIC
+  market:
+    identifier: idax
+    name: Idax
   target: BTC
 - base: TIC
   market:
@@ -59,6 +49,16 @@ tickers:
   target: ETH
 - base: TIC
   market:
-    identifier: idax
-    name: Idax
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TIC
+  market:
+    identifier: raisex
+    name: Raisex
   target: BTC
+- base: TIC
+  market:
+    identifier: raisex
+    name: Raisex
+  target: ETH

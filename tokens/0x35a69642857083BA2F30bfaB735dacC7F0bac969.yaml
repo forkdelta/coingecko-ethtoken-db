@@ -37,6 +37,11 @@ tickers:
   target: ETH
 - base: BBN
   market:
+    identifier: bitker
+    name: BITKER
+  target: USDT
+- base: BBN
+  market:
     identifier: coinex
     name: CoinEx
   target: BCH
@@ -47,9 +52,9 @@ tickers:
   target: BTC
 - base: BBN
   market:
-    identifier: bitker
-    name: BITKER
-  target: USDT
+    identifier: coinex
+    name: CoinEx
+  target: ETH
 - base: BBN
   market:
     identifier: ethfinex
@@ -57,9 +62,9 @@ tickers:
   target: ETH
 - base: BBN
   market:
-    identifier: coinex
-    name: CoinEx
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: BBN
   market:
     identifier: forkdelta
@@ -67,11 +72,11 @@ tickers:
   target: ETH
 - base: BBN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BBN
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: BBN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

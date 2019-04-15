@@ -27,34 +27,14 @@ symbol: hqx
 tickers:
 - base: HQX
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: HQX
-  market:
     identifier: btc_alpha
     name: BTC-Alpha
   target: USDT
 - base: HQX
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: HQX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: HQX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: HQX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
 - base: HQX
   market:
     identifier: everbloom
@@ -67,6 +47,26 @@ tickers:
   target: ETH
 - base: HQX
   market:
-    identifier: cobinhood
-    name: Cobinhood
+    identifier: idex
+    name: Idex
   target: ETH
+- base: HQX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: HQX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: HQX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: HQX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

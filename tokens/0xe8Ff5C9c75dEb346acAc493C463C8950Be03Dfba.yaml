@@ -22,19 +22,24 @@ symbol: vibe
 tickers:
 - base: VIBE
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: VIBE
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
 - base: VIBE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: VIBE
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: VIBE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: VIBE
   market:
     identifier: idax
@@ -42,11 +47,6 @@ tickers:
   target: BTC
 - base: VIBE
   market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
-- base: VIBE
-  market:
     identifier: idax
     name: Idax
   target: ETH
@@ -55,11 +55,6 @@ tickers:
     identifier: idax
     name: Idax
   target: USDT
-- base: VIBE
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: VIBE
   market:
     identifier: idex
@@ -67,6 +62,11 @@ tickers:
   target: ETH
 - base: VIBE
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: VIBE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

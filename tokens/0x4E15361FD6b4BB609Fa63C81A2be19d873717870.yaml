@@ -41,19 +41,19 @@ symbol: ftm
 tickers:
 - base: FTM
   market:
-    identifier: tokok
-    name: TOKOK
-  target: ETH
-- base: FTM
-  market:
-    identifier: bgogo
-    name: Bgogo
+    identifier: airswap
+    name: AirSwap
   target: ETH
 - base: FTM
   market:
     identifier: bgogo
     name: Bgogo
   target: BTC
+- base: FTM
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: ETH
 - base: FTM
   market:
     identifier: coineal
@@ -76,9 +76,14 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: FTM
+  market:
+    identifier: dflow
+    name: Dflow
+  target: BTC
 - base: 'FTM '
   market:
     identifier: oax
@@ -86,34 +91,14 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: coinall
-    name: CoinAll
+    identifier: okex
+    name: OKEx
   target: BTC
-- base: FTM
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
 - base: FTM
   market:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
-- base: FTM
-  market:
-    identifier: dflow
-    name: Dflow
-  target: BTC
 - base: FTM
   market:
     identifier: switcheo
@@ -126,11 +111,21 @@ tickers:
   target: WETH
 - base: FTM
   market:
+    identifier: tokok
+    name: TOKOK
+  target: ETH
+- base: FTM
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
 - base: FTM
   market:
-    identifier: okex
-    name: OKEx
-  target: BTC
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -27,21 +27,6 @@ symbol: rntb
 tickers:
 - base: RNTB
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: ETH
-- base: RNTB
-  market:
-    identifier: exrates
-    name: Exrates
-  target: USD
-- base: RNTB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: RNTB
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -52,6 +37,11 @@ tickers:
   target: ETH
 - base: RNTB
   market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: RNTB
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
@@ -59,9 +49,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: DOGE
 - base: RNTB
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: RUR
+- base: RNTB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

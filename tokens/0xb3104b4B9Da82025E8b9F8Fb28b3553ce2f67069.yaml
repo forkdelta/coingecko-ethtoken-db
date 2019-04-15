@@ -90,11 +90,11 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: BIX
+- base: ONT
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: bibox
+    name: Bibox
+  target: BIX
 - base: SGC
   market:
     identifier: bibox
@@ -117,13 +117,18 @@ tickers:
   target: BTC
 - base: BIX
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: BIX
+  market:
     identifier: joyso
     name: Joyso
   target: ETH
 - base: BIX
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: BIX
   market:

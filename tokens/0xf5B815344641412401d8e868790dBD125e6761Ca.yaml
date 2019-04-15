@@ -39,6 +39,11 @@ symbol: pco
 tickers:
 - base: PCO
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PCO
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
@@ -52,8 +57,3 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: TIO
-- base: PCO
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

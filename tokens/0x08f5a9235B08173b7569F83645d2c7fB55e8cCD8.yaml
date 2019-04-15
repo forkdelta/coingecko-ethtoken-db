@@ -27,8 +27,33 @@ symbol: tnt
 tickers:
 - base: TNT
   market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: TNT
+  market:
     identifier: coinchangex
     name: Coinchangex
+  target: ETH
+- base: TNT
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: TNT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: TNT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TNT
+  market:
+    identifier: gate-io
+    name: Gate.io
   target: ETH
 - base: TNT
   market:
@@ -37,19 +62,9 @@ tickers:
   target: USDT
 - base: TNT
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: idex
+    name: Idex
   target: ETH
-- base: TNT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: TNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: TNT
   market:
     identifier: tokenjar
@@ -57,31 +72,16 @@ tickers:
   target: WETH
 - base: TNT
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: TNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: TNT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: TNT
-  market:
     identifier: yobit
     name: YoBit
   target: DOGE
 - base: TNT
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: TNT
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
+    identifier: yobit
+    name: YoBit
+  target: WAVES

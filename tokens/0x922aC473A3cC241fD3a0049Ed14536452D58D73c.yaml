@@ -27,13 +27,13 @@ symbol: vld
 tickers:
 - base: VLD
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: VLD
-  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: VLD
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: 31454D19-9820-423B-9EC3-1FC19B1FA346
   market:
@@ -47,6 +47,6 @@ tickers:
   target: ETH
 - base: VLD
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

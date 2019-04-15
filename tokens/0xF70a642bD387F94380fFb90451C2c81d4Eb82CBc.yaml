@@ -24,23 +24,18 @@ symbol: star
 tickers:
 - base: STAR
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: STAR
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: STAR
-  market:
     identifier: bkex
     name: Bkex
   target: ETH
 - base: STAR
   market:
-    identifier: idex
-    name: Idex
+    identifier: bkex
+    name: Bkex
+  target: USDT
+- base: STAR
+  market:
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: STAR
   market:
@@ -49,6 +44,11 @@ tickers:
   target: ETH
 - base: STAR
   market:
-    identifier: bkex
-    name: Bkex
-  target: USDT
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: STAR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -26,6 +26,16 @@ symbol: nox
 tickers:
 - base: NOX
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: NOX
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: NOX
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -34,13 +44,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: NOX
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: NOX
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC

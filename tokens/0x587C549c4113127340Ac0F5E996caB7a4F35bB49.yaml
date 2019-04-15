@@ -23,6 +23,11 @@ symbol: socx
 tickers:
 - base: SOCX
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: SOCX
+  market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
@@ -31,8 +36,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: SOCX
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

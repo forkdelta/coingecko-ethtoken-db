@@ -45,9 +45,14 @@ symbol: auc
 tickers:
 - base: AUC
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: AUC
+  market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: BTC
 - base: AUC
   market:
     identifier: ethfinex
@@ -57,17 +62,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: USD
 - base: AUC
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: AUC
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: AUC
   market:
     identifier: radar_relay
@@ -75,9 +80,9 @@ tickers:
   target: DAI
 - base: AUC
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: AUC
   market:
     identifier: tokenjar

@@ -27,6 +27,31 @@ symbol: pareto
 tickers:
 - base: PARETO
   market:
+    identifier: credoex
+    name: CredoEx
+  target: USDC
+- base: PARETO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: PARETO
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: PARETO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: PARETO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PARETO
+  market:
     identifier: kucoin
     name: KuCoin
   target: BTC
@@ -37,8 +62,13 @@ tickers:
   target: ETH
 - base: PARETO
   market:
-    identifier: ddex
-    name: DDEX
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: PARETO
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: PARETO
   market:
@@ -47,36 +77,11 @@ tickers:
   target: LA
 - base: PARETO
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: PARETO
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: USDC
-- base: PARETO
-  market:
     identifier: latoken
     name: LATOKEN
   target: USDT
 - base: PARETO
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: PARETO
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: PARETO
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: PARETO
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC

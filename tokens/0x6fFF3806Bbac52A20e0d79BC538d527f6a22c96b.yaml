@@ -18,11 +18,6 @@ symbol: cdx
 tickers:
 - base: CDX
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: CDX
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -35,6 +30,16 @@ tickers:
   market:
     identifier: everbloom
     name: Everbloom
+  target: ETH
+- base: CDX
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CDX
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: CDX
   market:

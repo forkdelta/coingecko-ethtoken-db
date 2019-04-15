@@ -27,6 +27,11 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
+  target: BTC
+- base: EXY
+  market:
+    identifier: bitbay
+    name: BitBay
   target: EUR
 - base: EXY
   market:
@@ -35,16 +40,21 @@ tickers:
   target: FTO
 - base: EXY
   market:
+    identifier: coinhub
+    name: Coinhub
+  target: ETH
+- base: EXY
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: EXY
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: EXY
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: EXY
-  market:
-    identifier: coinhub
-    name: Coinhub
-  target: ETH

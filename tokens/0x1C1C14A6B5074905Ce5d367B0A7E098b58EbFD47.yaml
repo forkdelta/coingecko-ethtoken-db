@@ -27,24 +27,19 @@ symbol: fex
 tickers:
 - base: FEX
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: bitker
+    name: BITKER
   target: ETH
-- base: FEX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: FEX
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
 - base: FEX
   market:
     identifier: crex24
     name: CREX24
   target: ETH
+- base: FEX
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: FEX
   market:
     identifier: idax
@@ -57,11 +52,16 @@ tickers:
   target: USDT
 - base: FEX
   market:
-    identifier: bitker
-    name: BITKER
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: FEX
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: FEX
   market:
-    identifier: idax
-    name: Idax
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

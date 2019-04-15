@@ -37,21 +37,6 @@ symbol: ten
 tickers:
 - base: TEN
   market:
-    identifier: lbank
-    name: Lbank
-  target: DAX
-- base: PXG
-  market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: TEN
-- base: TEN
-  market:
-    identifier: lbank
-    name: Lbank
-  target: USDT
-- base: TEN
-  market:
     identifier: bitsten
     name: Bitsten
   target: ETH
@@ -60,31 +45,6 @@ tickers:
     identifier: coinbene
     name: CoinBene
   target: BTC
-- base: TEN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: APPC
-  market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: TEN
-- base: LRC
-  market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: TEN
-- base: TRX
-  market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: TEN
-- base: TEN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: TEN
   market:
     identifier: coinbene
@@ -97,9 +57,14 @@ tickers:
   target: ETH
 - base: TEN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TEN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: TEN
   market:
     identifier: latoken
@@ -107,9 +72,39 @@ tickers:
   target: ETH
 - base: TEN
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: TEN
+  market:
+    identifier: lbank
+    name: Lbank
+  target: DAX
+- base: TEN
+  market:
+    identifier: lbank
+    name: Lbank
+  target: USDT
+- base: TEN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: PXG
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
+- base: TRX
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
+- base: LRC
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
 - base: ONT
   market:
     identifier: tokenomy
@@ -131,6 +126,11 @@ tickers:
     name: Tokenomy
   target: TEN
 - base: CMT
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
+- base: APPC
   market:
     identifier: tokenomy
     name: Tokenomy

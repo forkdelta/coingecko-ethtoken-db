@@ -23,14 +23,24 @@ symbol: stq
 tickers:
 - base: STQ
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TL
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
 - base: STQ
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: STQ
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: STQ
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: STQ
   market:
     identifier: idex
@@ -38,14 +48,29 @@ tickers:
   target: ETH
 - base: STQ
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: STQ
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
+  target: LA
+- base: STQ
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TL
+- base: STQ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: STQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: STQ
   market:
     identifier: yobit
@@ -55,49 +80,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: STQ
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: STQ
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: STQ
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: STQ
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: STQ
-  market:
-    identifier: coinfalcon
-    name: Coinfalcon
-  target: BTC
-- base: STQ
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: STQ
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: STQ
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: STQ
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
+  target: WAVES

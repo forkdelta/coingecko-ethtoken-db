@@ -28,8 +28,13 @@ symbol: cbc
 tickers:
 - base: CBC
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: CBC
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: CBC
   market:
@@ -38,21 +43,16 @@ tickers:
   target: USD
 - base: CBC
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CBC
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: CBC
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: CBC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: CBC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC

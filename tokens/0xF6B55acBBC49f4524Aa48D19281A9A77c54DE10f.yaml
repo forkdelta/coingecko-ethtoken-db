@@ -20,9 +20,34 @@ symbol: wlk
 tickers:
 - base: WLK
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: WLK
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WLK
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: WLK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: WLK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: WLK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: WLK
   market:
     identifier: radar_relay
@@ -33,28 +58,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: WLK
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: WLK
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: WLK
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: WLK
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: WLK
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD

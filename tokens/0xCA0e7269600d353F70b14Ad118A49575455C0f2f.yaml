@@ -24,26 +24,11 @@ tickers:
     identifier: bitbay
     name: BitBay
   target: BTC
-- base: 08750191-E464-4B00-8169-12415D5406CA
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
 - base: AMLT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: AMLT
-  market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: OUSD
-- base: 08750191-E464-4B00-8169-12415D5406CA
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
+    identifier: bitbay
+    name: BitBay
+  target: PLN
 - base: AMLT
   market:
     identifier: latoken
@@ -51,14 +36,29 @@ tickers:
   target: BTC
 - base: AMLT
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: 08750191-E464-4B00-8169-12415D5406CA
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 08750191-E464-4B00-8169-12415D5406CA
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: AMLT
+  market:
     identifier: orderbook
     name: Orderbook.io
   target: ETH
 - base: AMLT
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
+    identifier: orderbook
+    name: Orderbook.io
+  target: OUSD
 - base: AMLT
   market:
     identifier: quoine
@@ -68,4 +68,14 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
+  target: ETH
+- base: AMLT
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
   target: QASH
+- base: AMLT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

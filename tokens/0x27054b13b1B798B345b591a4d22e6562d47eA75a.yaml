@@ -23,16 +23,6 @@ symbol: ast
 tickers:
 - base: AST
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: AST
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: AST
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -53,18 +43,13 @@ tickers:
   target: ETH
 - base: AST
   market:
-    identifier: okex
-    name: OKEx
-  target: BTC
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: AST
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: AST
-  market:
-    identifier: okex
-    name: OKEx
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: AST
   market:
@@ -73,21 +58,26 @@ tickers:
   target: ETH
 - base: AST
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: AST
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: AST
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: AST
   market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: AST
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: AST
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

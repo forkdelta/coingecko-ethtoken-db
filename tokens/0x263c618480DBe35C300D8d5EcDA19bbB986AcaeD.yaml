@@ -34,6 +34,16 @@ symbol: mot
 tickers:
 - base: MOT
   market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: MOT
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: MOT
+  market:
     identifier: coinchangex
     name: Coinchangex
   target: ETH
@@ -44,53 +54,13 @@ tickers:
   target: ETH
 - base: MOT
   market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
-- base: MOT
-  market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: MOT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: MOT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: MOT
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: MOT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MOT
-  market:
     identifier: fcoin
     name: FCoin
-  target: ETH
-- base: MOT
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: MOT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MOT
-  market:
-    identifier: mercatox
-    name: Mercatox
   target: ETH
 - base: MOT
   market:
@@ -104,6 +74,36 @@ tickers:
   target: ETH
 - base: MOT
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: MOT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: MOT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: MOT
+  market:
     identifier: okex
     name: OKEx
   target: ETH
+- base: MOT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: MOT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: MOT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

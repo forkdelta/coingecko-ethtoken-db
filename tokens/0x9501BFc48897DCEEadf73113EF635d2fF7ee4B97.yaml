@@ -18,16 +18,6 @@ symbol: emt
 tickers:
 - base: EMT
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: EMT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: EMT
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -38,11 +28,21 @@ tickers:
   target: ETH
 - base: EMT
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EMT
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
 - base: EMT
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: EMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

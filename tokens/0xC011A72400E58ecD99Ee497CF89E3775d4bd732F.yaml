@@ -53,19 +53,9 @@ symbol: snx
 tickers:
 - base: HAV
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
-- base: HAV
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: HAV
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
 - base: HAV
   market:
     identifier: gate-io
@@ -73,8 +63,8 @@ tickers:
   target: ETH
 - base: HAV
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: gate-io
+    name: Gate.io
   target: USDT
 - base: SNX
   market:
@@ -88,9 +78,19 @@ tickers:
   target: ETH
 - base: HAV
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: HAV
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
+- base: HAV
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
 - base: HAV
   market:
     identifier: quoine
@@ -100,12 +100,12 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: QASH
+  target: ETH
 - base: HAV
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
 - base: HAV
   market:
     identifier: tokenjar

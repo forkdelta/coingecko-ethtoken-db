@@ -21,23 +21,13 @@ symbol: adt
 tickers:
 - base: ADT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ADT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: ADT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: ADT
-  market:
     identifier: airswap
     name: AirSwap
+  target: ETH
+- base: ADT
+  market:
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: ADT
   market:
@@ -51,9 +41,19 @@ tickers:
   target: ETH
 - base: ADT
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: ADT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: ADT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: ADT
   market:
     identifier: yobit

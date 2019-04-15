@@ -26,14 +26,9 @@ symbol: tbx
 tickers:
 - base: TBX
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: TBX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: TBX
   market:
     identifier: tokenjar
@@ -46,6 +41,11 @@ tickers:
   target: DOGE
 - base: TBX
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: TBX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

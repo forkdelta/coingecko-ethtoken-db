@@ -24,18 +24,13 @@ symbol: ptoy
 tickers:
 - base: PTOY
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: PTOY
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: PTOY
-  market:
     identifier: everbloom
     name: Everbloom
+  target: ETH
+- base: PTOY
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: PTOY
   market:
@@ -49,14 +44,14 @@ tickers:
   target: BTC
 - base: PTOY
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: PTOY
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: PTOY
   market:
     identifier: radar_relay
@@ -64,6 +59,11 @@ tickers:
   target: DAI
 - base: PTOY
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: PTOY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

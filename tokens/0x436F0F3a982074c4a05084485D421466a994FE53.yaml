@@ -27,38 +27,13 @@ symbol: rte
 tickers:
 - base: RTE
   market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: RTE
-  market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: RTE
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: RTE
-  market:
-    identifier: dcoin
-    name: Dcoin
-  target: ETH
-- base: RTE
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: RTE
-  market:
     identifier: abcc
     name: ABCC
   target: BTC
 - base: RTE
   market:
-    identifier: dextop
-    name: DEx.top
+    identifier: abcc
+    name: ABCC
   target: ETH
 - base: RTE
   market:
@@ -67,13 +42,48 @@ tickers:
   target: BIX
 - base: RTE
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: RTE
+  market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH
+- base: RTE
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: RTE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: RTE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: RTE
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
+- base: RTE
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
 - base: RTE
   market:
-    identifier: coinchangex
-    name: Coinchangex
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: RTE
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: RTE
   market:
@@ -82,16 +92,6 @@ tickers:
   target: ETH
 - base: RTE
   market:
-    identifier: abcc
-    name: ABCC
-  target: ETH
-- base: RTE
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: RTE
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

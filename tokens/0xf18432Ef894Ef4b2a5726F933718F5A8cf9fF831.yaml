@@ -21,14 +21,24 @@ symbol: bio
 tickers:
 - base: BIO
   market:
+    identifier: coinlim
+    name: Coinlim
+  target: ETH
+- base: BIO
+  market:
     identifier: exrates
     name: Exrates
   target: BTC
 - base: BIO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: BIO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: BIO
   market:
     identifier: saturn_network
@@ -36,11 +46,6 @@ tickers:
   target: ETH
 - base: BIO
   market:
-    identifier: coinlim
-    name: Coinlim
-  target: ETH
-- base: BIO
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -27,22 +27,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
+  target: BTC
 - base: VTM
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: VTM
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+  target: ETH
 - base: VTM
   market:
     identifier: p2pb2b
     name: P2PB2B
   target: BTC
+- base: VTM
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
 - base: VTM
   market:
     identifier: p2pb2b
@@ -50,6 +50,6 @@ tickers:
   target: USD
 - base: VTM
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

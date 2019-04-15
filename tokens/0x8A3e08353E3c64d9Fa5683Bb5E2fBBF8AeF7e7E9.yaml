@@ -20,16 +20,6 @@ symbol: cnmc
 tickers:
 - base: CNMC
   market:
-    identifier: exx
-    name: EXX
-  target: CNYT
-- base: CNMC
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: CNMC
-  market:
     identifier: bcex
     name: BCEX
   target: BTC
@@ -38,3 +28,13 @@ tickers:
     identifier: exx
     name: EXX
   target: BTC
+- base: CNMC
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: CNMC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH

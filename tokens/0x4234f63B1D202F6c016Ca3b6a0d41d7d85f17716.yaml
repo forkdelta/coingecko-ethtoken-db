@@ -23,21 +23,6 @@ symbol: qntu
 tickers:
 - base: QNTU
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: QNTU
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: 335C9DDA-A26B-4C31-96DF-925B3E7FB671
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
-- base: QNTU
-  market:
     identifier: bitopro
     name: BitoPro
   target: ETH
@@ -45,9 +30,24 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: QNTU
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: 335C9DDA-A26B-4C31-96DF-925B3E7FB671
   market:
     identifier: lykke
     name: Lykke
+  target: BTC
+- base: 335C9DDA-A26B-4C31-96DF-925B3E7FB671
+  market:
+    identifier: lykke
+    name: Lykke
   target: ETH
+- base: QNTU
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

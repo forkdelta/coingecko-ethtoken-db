@@ -24,18 +24,8 @@ symbol: mbrs
 tickers:
 - base: MBRS
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: MBRS
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MBRS
-  market:
-    identifier: idex
-    name: Idex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: MBRS
   market:
@@ -44,9 +34,19 @@ tickers:
   target: ETH
 - base: MBRS
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: idex
+    name: Idex
   target: ETH
+- base: MBRS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: MBRS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: MBRS
   market:
     identifier: tokenjar

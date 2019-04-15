@@ -24,6 +24,11 @@ symbol: mzi
 tickers:
 - base: MZI
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: MZI
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -37,8 +42,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: MZI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

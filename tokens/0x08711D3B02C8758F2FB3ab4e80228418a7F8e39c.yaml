@@ -22,8 +22,13 @@ symbol: edg
 tickers:
 - base: EDG
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: EDG
+  market:
+    identifier: abcc
+    name: ABCC
   target: ETH
 - base: EDG
   market:
@@ -32,19 +37,9 @@ tickers:
   target: ETH
 - base: EDG
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: EDG
-  market:
-    identifier: abcc
-    name: ABCC
-  target: ETH
-- base: EDG
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: EDG
   market:
     identifier: everbloom
@@ -57,9 +52,14 @@ tickers:
   target: ETH
 - base: EDG
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: EDG
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: EDG
   market:
     identifier: radar_relay
@@ -67,11 +67,11 @@ tickers:
   target: DAI
 - base: EDG
   market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: EDG
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

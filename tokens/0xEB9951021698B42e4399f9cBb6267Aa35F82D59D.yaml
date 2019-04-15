@@ -22,9 +22,19 @@ symbol: lif
 tickers:
 - base: LIF
   market:
-    identifier: idex
-    name: Idex
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
+- base: LIF
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LIF
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: LIF
   market:
     identifier: yobit
@@ -35,18 +45,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: LIF
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: LIF
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: LIF
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE

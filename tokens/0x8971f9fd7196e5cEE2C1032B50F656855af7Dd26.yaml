@@ -45,8 +45,13 @@ symbol: lamb
 tickers:
 - base: LAMB
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: LAMB
+  market:
+    identifier: coineal
+    name: Coineal
   target: BTC
 - base: LAMB
   market:
@@ -60,11 +65,6 @@ tickers:
   target: USDT
 - base: LAMB
   market:
-    identifier: zgtop
-    name: ZG.TOP
-  target: ETH
-- base: LAMB
-  market:
     identifier: hotbit
     name: Hotbit
   target: HTB
@@ -73,3 +73,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
+- base: LAMB
+  market:
+    identifier: zgtop
+    name: ZG.TOP
+  target: ETH

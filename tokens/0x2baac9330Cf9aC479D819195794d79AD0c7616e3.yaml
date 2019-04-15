@@ -30,16 +30,26 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: USD
-- base: ADB
-  market:
-    identifier: exrates
-    name: Exrates
   target: BTC
 - base: ADB
   market:
     identifier: exrates
     name: Exrates
+  target: ETH
+- base: ADB
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: ADB
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ADB
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: ADB
   market:
@@ -56,13 +66,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ADB
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: ADB
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

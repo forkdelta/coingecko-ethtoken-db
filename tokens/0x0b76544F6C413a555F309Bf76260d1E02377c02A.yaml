@@ -56,6 +56,11 @@ symbol: int
 tickers:
 - base: INT
   market:
+    identifier: allcoin
+    name: Allcoin
+  target: BTC
+- base: INT
+  market:
     identifier: dcoin
     name: Dcoin
   target: USDT
@@ -63,16 +68,21 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: ETH
 - base: INT
   market:
-    identifier: allcoin
-    name: Allcoin
-  target: BTC
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: INT
   market:
     identifier: everbloom
     name: Everbloom
+  target: ETH
+- base: INT
+  market:
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: INT
   market:

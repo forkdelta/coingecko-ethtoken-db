@@ -55,34 +55,39 @@ symbol: aion
 tickers:
 - base: AION
   market:
+    identifier: axnet
+    name: AXNET
+  target: ETH
+- base: AION
+  market:
+    identifier: axnet
+    name: AXNET
+  target: TUSD
+- base: AION
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: AION
+  market:
     identifier: bcex
     name: BCEX
   target: BTC
 - base: AION
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: blockonix
+    name: Blockonix
   target: ETH
 - base: AION
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
 - base: AION
   market:
     identifier: chainex
     name: ChainEX
   target: BTC
-- base: AION
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: AION
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: AION
   market:
     identifier: coineal
@@ -92,12 +97,37 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: BTC
+- base: AION
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: CRD
 - base: AION
   market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: AION
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: AION
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: AION
+  market:
+    identifier: dragonex
+    name: DragonEx
+  target: USDT
+- base: AION
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: AION
   market:
     identifier: fcoin
@@ -105,39 +135,24 @@ tickers:
   target: ETH
 - base: AION
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: AION
-  market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: AION
-  market:
-    identifier: dragonex
-    name: DragonEx
-  target: USDT
-- base: A1800D28-1DE4-41D9-8AF6-95BDAEFA523D
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
-- base: AION
-  market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
-- base: AION
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: AION
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: A1800D28-1DE4-41D9-8AF6-95BDAEFA523D
   market:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: A1800D28-1DE4-41D9-8AF6-95BDAEFA523D
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: ETH
   market:
     identifier: purcow
@@ -145,46 +160,26 @@ tickers:
   target: AION
 - base: AION
   market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: AION
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: AION
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: AION
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: AION
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: AION
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: thetokenstore
+    name: Token Store
   target: ETH
 - base: AION
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: AION
-  market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: AION
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: AION
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT

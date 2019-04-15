@@ -53,19 +53,24 @@ symbol: dadi
 tickers:
 - base: DADI
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: DADI
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
 - base: DADI
   market:
     identifier: dcoin
     name: Dcoin
   target: ETH
-- base: DADI
+- base: DAD
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: DAD
   market:
     identifier: ethfinex
@@ -73,29 +78,14 @@ tickers:
   target: USD
 - base: DADI
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
-- base: DADI
-  market:
-    identifier: idex
-    name: Idex
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: DADI
   market:
     identifier: fcoin
     name: FCoin
   target: USDT
-- base: DADI
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: ETH
-- base: DADI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: DADI
   market:
     identifier: forkdelta
@@ -103,11 +93,21 @@ tickers:
   target: ETH
 - base: DADI
   market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: DADI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: DADI
+  market:
     identifier: kucoin
     name: KuCoin
   target: USDT
 - base: DADI
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

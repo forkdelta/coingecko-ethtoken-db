@@ -23,6 +23,11 @@ symbol: fnkos
 tickers:
 - base: FNKOS
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: FNKOS
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -36,8 +41,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: FNKOS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH

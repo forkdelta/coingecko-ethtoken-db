@@ -43,26 +43,6 @@ symbol: gen
 tickers:
 - base: GEN
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: GEN
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC
-- base: GEN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: GEN
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: GEN
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -78,11 +58,6 @@ tickers:
   target: ETH
 - base: GEN
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: GEN
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -93,9 +68,19 @@ tickers:
   target: BTC
 - base: GEN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: GEN
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: GEN
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
 - base: GEN
   market:
     identifier: quoine
@@ -103,6 +88,11 @@ tickers:
   target: QASH
 - base: GEN
   market:
-    identifier: joyso
-    name: Joyso
+    identifier: switcheo
+    name: Switcheo
   target: ETH
+- base: GEN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

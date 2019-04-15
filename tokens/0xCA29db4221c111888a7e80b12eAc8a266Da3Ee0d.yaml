@@ -22,16 +22,6 @@ symbol: bln
 tickers:
 - base: BLN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BLN
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: BLN
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -40,3 +30,13 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: BLN
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: BLN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

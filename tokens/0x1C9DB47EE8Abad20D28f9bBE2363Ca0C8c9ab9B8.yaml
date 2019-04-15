@@ -21,6 +21,11 @@ links:
 name: Bitsense
 symbol: bins
 tickers:
+- base: BINS
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: BIB
 - base: EXBT
   market:
     identifier: bitbegin
@@ -31,17 +36,22 @@ tickers:
     identifier: bitbegin
     name: Bitbegin
   target: BINS
-- base: BINS
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: BIB
-- base: BINS
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: NGN
 - base: BAT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: BINS
+- base: GVT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: BINS
+- base: SHEL
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: BINS
+- base: OMG
   market:
     identifier: bitbegin
     name: Bitbegin
@@ -56,23 +66,13 @@ tickers:
     identifier: bitbegin
     name: Bitbegin
   target: ETH
-- base: GVT
+- base: BINS
   market:
     identifier: bitbegin
     name: Bitbegin
-  target: BINS
-- base: SHEL
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: BINS
+  target: NGN
 - base: BINS
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: OMG
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: BINS

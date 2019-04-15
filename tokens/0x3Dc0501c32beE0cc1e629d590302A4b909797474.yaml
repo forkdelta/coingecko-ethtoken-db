@@ -25,21 +25,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: DIVI
-  market:
-    identifier: vinex
-    name: Vinex
-  target: TVND
-- base: MAS
-  market:
-    identifier: vinex
-    name: Vinex
-  target: TVND
-- base: TVND
-  market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: TEN
 - base: TVND
   market:
     identifier: tokenomy
@@ -50,12 +35,27 @@ tickers:
     identifier: tokenomy
     name: Tokenomy
   target: ETH
-- base: TOMO
+- base: TVND
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
+- base: DIVI
+  market:
+    identifier: vinex
+    name: Vinex
+  target: TVND
+- base: MAS
   market:
     identifier: vinex
     name: Vinex
   target: TVND
 - base: USDT
+  market:
+    identifier: vinex
+    name: Vinex
+  target: TVND
+- base: TOMO
   market:
     identifier: vinex
     name: Vinex

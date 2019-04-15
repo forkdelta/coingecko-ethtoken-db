@@ -32,16 +32,6 @@ symbol: ihf
 tickers:
 - base: IHF
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: IHF
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: IHF
-  market:
     identifier: dflow
     name: Dflow
   target: BTC
@@ -52,11 +42,16 @@ tickers:
   target: ETH
 - base: IHF
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
 - base: IHF
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: BTC
+  target: ETH
+- base: IHF
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -24,11 +24,16 @@ symbol: lxmt
 tickers:
 - base: LXMT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: LXMT
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
+  target: ETH
+- base: LXMT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -50,13 +50,8 @@ symbol: dag
 tickers:
 - base: DAG
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: DAG
-  market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: ddex
+    name: DDEX
   target: ETH
 - base: DAG
   market:
@@ -65,14 +60,14 @@ tickers:
   target: WETH
 - base: DAG
   market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: DAG
-  market:
     identifier: hotbit
     name: Hotbit
   target: BTC
+- base: DAG
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: DAG
   market:
     identifier: tokenjar

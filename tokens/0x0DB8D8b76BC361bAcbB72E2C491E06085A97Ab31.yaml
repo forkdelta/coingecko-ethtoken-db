@@ -41,16 +41,6 @@ tickers:
   target: USD
 - base: IQN
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: IQN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: IQN
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -61,6 +51,16 @@ tickers:
   target: ETH
 - base: IQN
   market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: IQN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: IQN
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -68,9 +68,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR
 - base: IQN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: WAVES

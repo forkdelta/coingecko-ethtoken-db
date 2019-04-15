@@ -24,34 +24,44 @@ symbol: poe
 tickers:
 - base: POE
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: POE
+  market:
+    identifier: axnet
+    name: AXNET
+  target: ETH
+- base: POE
+  market:
+    identifier: axnet
+    name: AXNET
+  target: TUSD
+- base: POE
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: POE
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: POE
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: POE
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
 - base: POE
   market:
     identifier: dcoin
     name: Dcoin
   target: ETH
-- base: POE
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: POE
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: POE
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: POE
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
 - base: POE
   market:
     identifier: ddex
@@ -69,23 +79,8 @@ tickers:
   target: ETH
 - base: POE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: POE
-  market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: POE
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: POE
-  market:
-    identifier: coss
-    name: COSS
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: POE
   market:
@@ -94,14 +89,29 @@ tickers:
   target: ETH
 - base: POE
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: idex
+    name: Idex
   target: ETH
 - base: POE
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: POE
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: POE
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: POE
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
 - base: POE
   market:
     identifier: radar_relay
@@ -109,21 +119,11 @@ tickers:
   target: DAI
 - base: POE
   market:
-    identifier: coss
-    name: COSS
-  target: BTC
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: POE
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: POE
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: POE
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

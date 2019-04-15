@@ -54,73 +54,33 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TL
-- base: MKR
-  market:
-    identifier: coinmex
-    name: CoinMex
+    identifier: allbit
+    name: Allbit
   target: ETH
 - base: MKR
   market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: blockonix
+    name: Blockonix
   target: ETH
 - base: MKR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: USDC
-- base: MKR
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MKR
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: blockonix
+    name: Blockonix
   target: USDT
 - base: MKR
   market:
-    identifier: gdax
-    name: Coinbase Pro
+    identifier: chainex
+    name: ChainEX
   target: BTC
 - base: MKR
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
+    identifier: codex
+    name: CODEX
+  target: BTC
 - base: MKR
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: MKR
-  market:
-    identifier: airswap
-    name: AirSwap
+    identifier: codex
+    name: CODEX
   target: ETH
 - base: MKR
   market:
@@ -129,59 +89,34 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: coinmex
+    name: CoinMex
+  target: ETH
 - base: MKR
   market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: coinplace
+    name: Coinplace
   target: BTC
 - base: MKR
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: MKR
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: MKR
-  market:
-    identifier: gopax
-    name: GoPax
+    identifier: coss
+    name: COSS
   target: BTC
 - base: MKR
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
+    identifier: coss
+    name: COSS
   target: ETH
 - base: MKR
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTS
-- base: MKR
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BITEUR
-- base: MKR
-  market:
-    identifier: nexybit
-    name: Nexybit
+    identifier: coss
+    name: COSS
   target: USDT
-- base: MKR
-  market:
-    identifier: nexybit
-    name: Nexybit
-  target: BTC
 - base: MKR
   market:
     identifier: cryptaldash
@@ -196,51 +131,66 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: USDT
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: PAX
-- base: MKR
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: MKR
-  market:
-    identifier: codex
-    name: CODEX
-  target: ETH
-- base: MKR
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: MKR
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
   target: ETH
 - base: MKR
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: ETH
+  target: USDT
 - base: MKR
   market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: cybex
+    name: Cybex DEX
   target: BTC
 - base: MKR
   market:
-    identifier: coss
-    name: COSS
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
+- base: MKR
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: USDT
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
   target: ETH
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: MKR
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: MKR
+  market:
+    identifier: gopax
+    name: GoPax
+  target: BTC
+- base: MKR
+  market:
+    identifier: gopax
+    name: GoPax
   target: ETH
 - base: MKR
   market:
@@ -249,14 +199,24 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: nexybit
+    name: Nexybit
+  target: BTC
+- base: MKR
+  market:
+    identifier: nexybit
+    name: Nexybit
   target: ETH
 - base: MKR
   market:
-    identifier: codex
-    name: CODEX
-  target: BTC
+    identifier: nexybit
+    name: Nexybit
+  target: USDT
+- base: MKR
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BITEUR
 - base: MKR
   market:
     identifier: openledger
@@ -269,31 +229,46 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTS
 - base: MKR
   market:
-    identifier: allbit
-    name: Allbit
+    identifier: openledger
+    name: OpenLedger DEX
   target: ETH
 - base: MKR
   market:
-    identifier: nexybit
-    name: Nexybit
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TL
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: PAX
+- base: MKR
+  market:
+    identifier: thetokenstore
+    name: Token Store
   target: ETH
 - base: MKR
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: USDT
-- base: MKR
-  market:
-    identifier: cybex
-    name: Cybex DEX
+    identifier: tokenize
+    name: Tokenize
   target: BTC
 - base: MKR
   market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: MKR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

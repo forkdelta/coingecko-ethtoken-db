@@ -22,28 +22,28 @@ symbol: rfr
 tickers:
 - base: RFR
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: RFR
-  market:
     identifier: bibox
     name: Bibox
   target: BIX
 - base: RFR
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: RFR
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: RFR
+  market:
+    identifier: cobinhood
+    name: Cobinhood
   target: ETH
 - base: RFR
   market:
     identifier: ddex
     name: DDEX
-  target: ETH
-- base: RFR
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: RFR
   market:
@@ -52,28 +52,28 @@ tickers:
   target: WETH
 - base: RFR
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: RFR
-  market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
-- base: RFR
-  market:
-    identifier: nexybit
-    name: Nexybit
-  target: TUSD
-- base: RFR
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
 - base: RFR
   market:
-    identifier: cobinhood
-    name: Cobinhood
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: RFR
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: RFR
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: RFR
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: RFR
   market:
@@ -82,9 +82,14 @@ tickers:
   target: BTC
 - base: RFR
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
+    identifier: nexybit
+    name: Nexybit
+  target: ETH
+- base: RFR
+  market:
+    identifier: nexybit
+    name: Nexybit
+  target: TUSD
 - base: RFR
   market:
     identifier: tokenjar

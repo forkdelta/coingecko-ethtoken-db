@@ -21,29 +21,14 @@ symbol: grid
 tickers:
 - base: GRID
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: GRID
-  market:
     identifier: airswap
     name: AirSwap
   target: ETH
 - base: GRID
   market:
-    identifier: idex
-    name: Idex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
-- base: GRID
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: GRID
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: GRID
   market:
     identifier: radar_relay
@@ -59,3 +44,8 @@ tickers:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
+- base: GRID
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

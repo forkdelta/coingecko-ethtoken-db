@@ -23,11 +23,6 @@ symbol: cmct
 tickers:
 - base: CMCT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: CMCT
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -40,9 +35,14 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: QASH
+  target: ETH
 - base: CMCT
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: ETH
+  target: QASH
+- base: CMCT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

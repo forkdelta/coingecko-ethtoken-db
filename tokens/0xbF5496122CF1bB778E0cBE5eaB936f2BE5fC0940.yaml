@@ -26,6 +26,16 @@ symbol: fundz
 tickers:
 - base: FUNDZ
   market:
+    identifier: coinhub
+    name: Coinhub
+  target: BTC
+- base: FUNDZ
+  market:
+    identifier: coinhub
+    name: Coinhub
+  target: ETH
+- base: FUNDZ
+  market:
     identifier: idax
     name: Idax
   target: BTC
@@ -33,19 +43,9 @@ tickers:
   market:
     identifier: idax
     name: Idax
-  target: ETH
-- base: FUNDZ
-  market:
-    identifier: coinhub
-    name: Coinhub
   target: ETH
 - base: FUNDZ
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: FUNDZ
-  market:
-    identifier: coinhub
-    name: Coinhub
-  target: BTC

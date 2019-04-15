@@ -23,49 +23,24 @@ symbol: xnk
 tickers:
 - base: XNK
   market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: XNK
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: XNK
+  market:
     identifier: coss
     name: COSS
   target: BTC
 - base: XNK
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: XNK
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: XNK
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: XNK
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC
-- base: XNK
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: XNK
-  market:
     identifier: coss
     name: COSS
   target: ETH
-- base: XNK
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: XNK
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
 - base: XNK
   market:
     identifier: dobitrade
@@ -73,11 +48,41 @@ tickers:
   target: ETH
 - base: XNK
   market:
-    identifier: tokenjar
-    name: TokenJar
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: XNK
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: XNK
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: XNK
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: XNK
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: XNK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: XNK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
 - base: XNK
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

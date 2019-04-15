@@ -27,16 +27,6 @@ symbol: latx
 tickers:
 - base: LATX
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: LATX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: LATX
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -47,9 +37,14 @@ tickers:
   target: ETH
 - base: LATX
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LATX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: LATX
   market:
     identifier: latoken
@@ -62,14 +57,19 @@ tickers:
   target: ETH
 - base: LATX
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: LATX
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: LATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: LATX
   market:
     identifier: yobit

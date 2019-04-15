@@ -51,16 +51,6 @@ symbol: fsn
 tickers:
 - base: FSN
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: FSN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: FSN
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -71,9 +61,9 @@ tickers:
   target: ETH
 - base: FSN
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: coinall
+    name: CoinAll
+  target: BTC
 - base: FSN
   market:
     identifier: coinall
@@ -81,39 +71,14 @@ tickers:
   target: ETH
 - base: FSN
   market:
-    identifier: dflow
-    name: Dflow
-  target: BTC
-- base: FSN
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: FSN
-  market:
     identifier: coinall
     name: CoinAll
-  target: BTC
-- base: FSN
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: FSN
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
+  target: USDT
 - base: FSN
   market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
-- base: FSN
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: FSN
   market:
     identifier: cryptaldash
@@ -123,7 +88,32 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: ETH
+- base: FSN
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: USDT
+- base: FSN
+  market:
+    identifier: dflow
+    name: Dflow
+  target: BTC
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: FSN
   market:
     identifier: joyso
@@ -131,9 +121,19 @@ tickers:
   target: ETH
 - base: FSN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: FSN
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: FSN
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
 - base: FSN
   market:
     identifier: quoine
@@ -146,11 +146,21 @@ tickers:
   target: ETH
 - base: FSN
   market:
-    identifier: okex
-    name: OKEx
-  target: ETH
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
 - base: FSN
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: FSN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: FSN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

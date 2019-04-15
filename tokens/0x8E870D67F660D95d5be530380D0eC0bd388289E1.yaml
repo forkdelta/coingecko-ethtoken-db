@@ -57,14 +57,14 @@ symbol: pax
 tickers:
 - base: PAX
   market:
-    identifier: coinmex
-    name: CoinMex
+    identifier: axnet
+    name: AXNET
   target: BTC
 - base: PAX
   market:
     identifier: axnet
     name: AXNET
-  target: BTC
+  target: ETH
 - base: PAX
   market:
     identifier: bcex
@@ -72,19 +72,19 @@ tickers:
   target: USDT
 - base: PAX
   market:
-    identifier: uex
-    name: UEX
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: PAX
+  market:
+    identifier: bitmesh
+    name: Bitmesh
+  target: USDT
+- base: PAX
+  market:
+    identifier: bitrue
+    name: Bitrue
   target: BTC
-- base: PAX
-  market:
-    identifier: zgtop
-    name: ZG.TOP
-  target: USDT
-- base: PAX
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
 - base: SKY
   market:
     identifier: c2cx
@@ -92,19 +92,29 @@ tickers:
   target: PAX
 - base: PAX
   market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: PAX
-  market:
-    identifier: uex
-    name: UEX
-  target: USDT
+    identifier: coinmex
+    name: CoinMex
+  target: BTC
 - base: PAX
   market:
     identifier: digifinex
     name: Digifinex
   target: USDT
+- base: PAX
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: PAX
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: BTC
+- base: PAX
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: ETH
 - base: BTC
   market:
     identifier: gbx
@@ -112,38 +122,38 @@ tickers:
   target: PAX
 - base: PAX
   market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
+- base: PAX
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
 - base: PAX
   market:
-    identifier: upbit
-    name: Upbit
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: ETH
   market:
     identifier: kucoin
     name: KuCoin
   target: PAX
-- base: PAX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: PAX
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
 - base: BTC
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: PAX
+- base: ETH
   market:
     identifier: south_xchange
     name: SouthXchange
   target: PAX
 - base: PAX
   market:
-    identifier: bit_z
-    name: Bit-Z
+    identifier: switcheo
+    name: Switcheo
   target: ETH
 - base: PAX
   market:
@@ -152,19 +162,19 @@ tickers:
   target: BTC
 - base: PAX
   market:
-    identifier: bitrue
-    name: Bitrue
-  target: BTC
-- base: ETH
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: PAX
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
 - base: PAX
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: uex
+    name: UEX
+  target: BTC
+- base: PAX
+  market:
+    identifier: uex
+    name: UEX
+  target: USDT
 - base: PAX
   market:
     identifier: yobit
@@ -174,29 +184,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: PAX
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
 - base: PAX
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: ETH
-- base: PAX
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
-- base: PAX
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: LTC
-- base: PAX
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: USD
-- base: PAX
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: BTC
+    identifier: zgtop
+    name: ZG.TOP
+  target: USDT

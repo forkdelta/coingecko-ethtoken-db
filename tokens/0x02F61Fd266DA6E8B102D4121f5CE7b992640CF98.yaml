@@ -29,11 +29,6 @@ symbol: like
 tickers:
 - base: LIKE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: LIKE
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -41,4 +36,19 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
+  target: BTC
+- base: LIKE
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: LIKE
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
   target: QASH
+- base: LIKE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -24,9 +24,9 @@ symbol: shel
 tickers:
 - base: SHEL
   market:
-    identifier: catex
-    name: Catex
-  target: BTC
+    identifier: bitbegin
+    name: Bitbegin
+  target: BINS
 - base: SHEL
   market:
     identifier: bitbegin
@@ -36,7 +36,22 @@ tickers:
   market:
     identifier: bitker
     name: BITKER
+  target: BTC
+- base: SHEL
+  market:
+    identifier: bitker
+    name: BITKER
+  target: ETH
+- base: SHEL
+  market:
+    identifier: bitker
+    name: BITKER
   target: USDT
+- base: SHEL
+  market:
+    identifier: catex
+    name: Catex
+  target: BTC
 - base: SHEL
   market:
     identifier: catex
@@ -51,22 +66,7 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: USDT
-- base: SHEL
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: BINS
-- base: SHEL
-  market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
-- base: SHEL
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
+  target: BTC
 - base: SHEL
   market:
     identifier: cryptaldash
@@ -76,9 +76,4 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: BTC
-- base: SHEL
-  market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
+  target: ETH

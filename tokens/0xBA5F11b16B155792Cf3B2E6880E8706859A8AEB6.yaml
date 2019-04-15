@@ -53,13 +53,18 @@ symbol: arn
 tickers:
 - base: ARN
   market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
 - base: ARN
   market:
-    identifier: purcow
-    name: Purcow
+    identifier: chaince
+    name: Chaince
+  target: EOS
+- base: ARN
+  market:
+    identifier: crex24
+    name: CREX24
   target: BTC
 - base: ARN
   market:
@@ -68,13 +73,23 @@ tickers:
   target: ETH
 - base: ARN
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: ddex
+    name: DDEX
   target: ETH
 - base: ARN
   market:
-    identifier: ddex
-    name: DDEX
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: ARN
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: ARN
+  market:
+    identifier: exrates
+    name: Exrates
   target: ETH
 - base: ARN
   market:
@@ -83,84 +98,9 @@ tickers:
   target: USD
 - base: ARN
   market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
-- base: ARN
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: ARN
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: ARN
-  market:
-    identifier: chaince
-    name: Chaince
-  target: EOS
-- base: ARN
-  market:
-    identifier: raisex
-    name: Raisex
-  target: ETH
-- base: ARN
-  market:
-    identifier: raisex
-    name: Raisex
-  target: BTC
-- base: ARN
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: ARN
-  market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
-- base: ARN
-  market:
-    identifier: newdex
-    name: Newdex
-  target: EOS
-- base: ARN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: ARN
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
-- base: BTS
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: ARN
-- base: ARN
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: ARN
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ARN
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: ARN
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
 - base: ARN
   market:
     identifier: fcoin
@@ -173,6 +113,61 @@ tickers:
   target: ETH
 - base: ARN
   market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: ARN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ARN
+  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
+- base: ARN
+  market:
+    identifier: newdex
+    name: Newdex
+  target: EOS
+- base: BTS
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: ARN
+- base: ARN
+  market:
+    identifier: purcow
+    name: Purcow
+  target: BTC
+- base: ARN
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: ARN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ARN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ARN
+  market:
+    identifier: raisex
+    name: Raisex
+  target: BTC
+- base: ARN
+  market:
+    identifier: raisex
+    name: Raisex
+  target: ETH
+- base: ARN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

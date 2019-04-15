@@ -44,14 +44,9 @@ symbol: herb
 tickers:
 - base: HERB
   market:
-    identifier: probit
-    name: Probit
-  target: ETH
-- base: HERB
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: HERB
   market:
     identifier: stocks_exchange
@@ -59,6 +54,6 @@ tickers:
   target: ETH
 - base: HERB
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

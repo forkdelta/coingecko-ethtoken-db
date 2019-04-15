@@ -48,33 +48,13 @@ symbol: eosdac
 tickers:
 - base: EOSDAC
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: EOSDAC
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: EOSDAC
-  market:
     identifier: bigone
     name: BigONE
   target: BTC
 - base: EOSDAC
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTS
-- base: EOSDAC
-  market:
     identifier: bigone
     name: BigONE
-  target: ETH
-- base: EOSDAC
-  market:
-    identifier: codex
-    name: CODEX
   target: ETH
 - base: EOSDAC
   market:
@@ -86,6 +66,31 @@ tickers:
     identifier: codex
     name: CODEX
   target: EOS
+- base: EOSDAC
+  market:
+    identifier: codex
+    name: CODEX
+  target: ETH
+- base: EOSDAC
+  market:
+    identifier: coinmex
+    name: CoinMex
+  target: ETH
+- base: EOSDAC
+  market:
+    identifier: daybit
+    name: Daybit
+  target: EOS
+- base: EOSDAC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: EOSDAC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: EOSDAC
   market:
     identifier: idax
@@ -93,24 +98,24 @@ tickers:
   target: ETH
 - base: EOSDAC
   market:
-    identifier: zb
-    name: ZB
-  target: BTC
-- base: EOSDAC
-  market:
     identifier: k_kex
     name: KKEX
   target: EOS
 - base: EOSDAC
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: EOSDAC
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: BITCNY
+- base: EOSDAC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTC
 - base: ETH
   market:
     identifier: openledger
@@ -123,21 +128,16 @@ tickers:
   target: EOSDAC
 - base: EOSDAC
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BITUSD
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: EOSDAC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: EOSDAC
-  market:
-    identifier: coinmex
-    name: CoinMex
-  target: ETH
-- base: EOSDAC
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
+    identifier: zb
+    name: ZB
   target: BTC
+- base: EOSDAC
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

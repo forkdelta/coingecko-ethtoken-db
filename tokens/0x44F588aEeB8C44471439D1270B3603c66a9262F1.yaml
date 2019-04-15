@@ -36,28 +36,18 @@ symbol: snip
 tickers:
 - base: SNIP
   market:
-    identifier: idex
-    name: Idex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
-- base: SNIP
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: SNIP
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: SNIP
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: SNIP
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: SNIP
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: SNIP
   market:
@@ -71,6 +61,16 @@ tickers:
   target: ETH
 - base: SNIP
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: SNIP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SNIP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

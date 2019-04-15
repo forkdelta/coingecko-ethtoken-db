@@ -27,6 +27,11 @@ symbol: pmd
 tickers:
 - base: PMD
   market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: PMD
+  market:
     identifier: zbg
     name: ZBG
   target: USDT
@@ -35,8 +40,3 @@ tickers:
     identifier: zbg
     name: ZBG
   target: ZT
-- base: PMD
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH

@@ -36,29 +36,9 @@ symbol: iotx
 tickers:
 - base: IOTX
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: IOTX
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: IOTX
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: IOTX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: IOTX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: allbit
+    name: Allbit
+  target: APOT
 - base: IOTX
   market:
     identifier: coinplace
@@ -66,8 +46,13 @@ tickers:
   target: BTC
 - base: IOTX
   market:
-    identifier: tokenjar
-    name: TokenJar
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: IOTX
+  market:
+    identifier: ddex
+    name: DDEX
   target: WETH
 - base: IOTX
   market:
@@ -76,6 +61,16 @@ tickers:
   target: ETH
 - base: IOTX
   market:
-    identifier: allbit
-    name: Allbit
-  target: APOT
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: IOTX
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: IOTX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -74,13 +74,18 @@ symbol: spn
 tickers:
 - base: SPN
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: SPN
-  market:
     identifier: ethex
     name: Ethex
+  target: ETH
+- base: SPN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SPN
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: SPN
   market:
@@ -89,21 +94,16 @@ tickers:
   target: LA
 - base: SPN
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SPN
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: SPN
   market:
-    identifier: tokenjar
-    name: TokenJar
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
 - base: SPN
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

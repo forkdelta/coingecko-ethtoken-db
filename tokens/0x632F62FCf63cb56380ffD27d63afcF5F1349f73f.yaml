@@ -41,18 +41,13 @@ tickers:
   target: USD
 - base: CHE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: CHE
-  market:
-    identifier: stocks_exchange
-    name: STEX
+    identifier: mercatox
+    name: Mercatox
   target: BTC
 - base: CHE
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: p2pb2b
+    name: P2PB2B
   target: BTC
 - base: CHE
   market:
@@ -61,6 +56,11 @@ tickers:
   target: ETH
 - base: CHE
   market:
-    identifier: p2pb2b
-    name: P2PB2B
+    identifier: stocks_exchange
+    name: STEX
   target: BTC
+- base: CHE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -42,53 +42,8 @@ symbol: qsp
 tickers:
 - base: QSP
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: QSP
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: QSP
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: QSP
-  market:
-    identifier: gopax
-    name: GoPax
-  target: BTC
-- base: QSP
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: QSP
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: QSP
-  market:
-    identifier: gopax
-    name: GoPax
-  target: ETH
-- base: QSP
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: QSP
-  market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
-- base: QSP
-  market:
-    identifier: idex
-    name: Idex
+    identifier: bitbox
+    name: BITBOX
   target: ETH
 - base: QSP
   market:
@@ -97,34 +52,14 @@ tickers:
   target: ETH
 - base: QSP
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: QSP
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: blockonix
+    name: Blockonix
   target: USDT
 - base: QSP
   market:
-    identifier: bitbox
-    name: BITBOX
-  target: ETH
-- base: QSP
-  market:
     identifier: cryptaldash
     name: CryptalDash
-  target: ETH
-- base: QSP
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: QSP
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+  target: BTC
 - base: QSP
   market:
     identifier: cryptaldash
@@ -132,19 +67,34 @@ tickers:
   target: CRD
 - base: QSP
   market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: QSP
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: QSP
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: QSP
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: QSP
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
 - base: QSP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: QSP
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: QSP
   market:
     identifier: fcoin
@@ -155,3 +105,53 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: QSP
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: QSP
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: QSP
+  market:
+    identifier: gopax
+    name: GoPax
+  target: BTC
+- base: QSP
+  market:
+    identifier: gopax
+    name: GoPax
+  target: ETH
+- base: QSP
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: QSP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: QSP
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: QSP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: QSP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: QSP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -67,44 +67,39 @@ symbol: arb
 tickers:
 - base: ARB
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: LTC
-- base: ARB
-  market:
-    identifier: raisex
-    name: Raisex
+    identifier: latoken
+    name: LATOKEN
   target: BTC
 - base: ARB
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: ARB
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: USDT
 - base: ARB
   market:
     identifier: raisex
     name: Raisex
-  target: ETH
-- base: ARB
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: ARB
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: BTC
+- base: ARB
+  market:
+    identifier: raisex
+    name: Raisex
+  target: ETH
+- base: ARB
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: ARB
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: BTC
-- base: ARB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
 - base: ARB
   market:
     identifier: trade_satoshi
@@ -112,11 +107,16 @@ tickers:
   target: DOGE
 - base: ARB
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: USDT
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
 - base: ARB
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: LTC
+- base: ARB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT

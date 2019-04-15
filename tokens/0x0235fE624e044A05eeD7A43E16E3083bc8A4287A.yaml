@@ -27,33 +27,33 @@ links:
 name: Original Crypto Coin
 symbol: occ1
 tickers:
-- base: OCC1
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: OCC
   market:
     identifier: ddex
     name: DDEX
-  target: ETH
-- base: OCC
-  market:
-    identifier: forkdelta
-    name: ForkDelta
   target: ETH
 - base: OCC
   market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: OCC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: OCC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: OCC1
   market:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: OCC
+- base: OCC1
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: mercatox
+    name: Mercatox
   target: ETH

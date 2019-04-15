@@ -26,6 +26,11 @@ symbol: qch
 tickers:
 - base: QCH
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BCH
+- base: QCH
+  market:
     identifier: bitker
     name: BITKER
   target: ETH
@@ -36,26 +41,11 @@ tickers:
   target: WETH
 - base: QCH
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: QCH
-  market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
 - base: QCH
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: QCH
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: QCH
-  market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: BCH

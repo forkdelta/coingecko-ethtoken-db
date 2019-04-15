@@ -18,13 +18,8 @@ symbol: dock
 tickers:
 - base: DOCK
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: DOCK
-  market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: coinbene
+    name: CoinBene
   target: ETH
 - base: DOCK
   market:
@@ -38,9 +33,14 @@ tickers:
   target: ETH
 - base: DOCK
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: DOCK
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: DOCK
   market:
     identifier: idex
@@ -48,11 +48,11 @@ tickers:
   target: ETH
 - base: DOCK
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: DOCK
-  market:
     identifier: kucoin
     name: KuCoin
   target: USDT
+- base: DOCK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

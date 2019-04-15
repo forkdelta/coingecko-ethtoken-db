@@ -25,9 +25,9 @@ tickers:
   target: ETH
 - base: HBT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: HBT
   market:
     identifier: idex
@@ -35,11 +35,16 @@ tickers:
   target: ETH
 - base: HBT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: HBT
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
+  target: WETH
+- base: HBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

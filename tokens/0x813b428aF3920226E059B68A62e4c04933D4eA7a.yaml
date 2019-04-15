@@ -24,6 +24,21 @@ links:
 name: Decentralized Asset Trading Platform
 symbol: datp
 tickers:
+- base: DATP
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: DATP
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: DATP
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: ETH
   market:
     identifier: purcow
@@ -34,21 +49,6 @@ tickers:
     identifier: purcow
     name: Purcow
   target: ETH
-- base: DATP
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: DATP
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: DATP
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: DATP
   market:
     identifier: tokenjar

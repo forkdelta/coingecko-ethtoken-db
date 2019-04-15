@@ -23,8 +23,13 @@ symbol: gtc
 tickers:
 - base: GTC
   market:
-    identifier: coinchangex
-    name: Coinchangex
+    identifier: bitexlive
+    name: Bitexlive
+  target: BTC
+- base: GTC
+  market:
+    identifier: bitexlive
+    name: Bitexlive
   target: ETH
 - base: GTC
   market:
@@ -33,11 +38,6 @@ tickers:
   target: USDT
 - base: GTC
   market:
-    identifier: bitexlive
-    name: Bitexlive
+    identifier: coinchangex
+    name: Coinchangex
   target: ETH
-- base: GTC
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: BTC

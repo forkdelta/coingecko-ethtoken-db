@@ -22,33 +22,13 @@ symbol: dbet
 tickers:
 - base: DBET
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: DBET
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: DBET
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: DBET
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DBET
-  market:
     identifier: bancor
     name: Bancor Network
   target: BNT
 - base: DBET
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: DBET
   market:
@@ -57,16 +37,26 @@ tickers:
   target: BTC
 - base: DBET
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: DBET
-  market:
     identifier: latoken
     name: LATOKEN
   target: LA
 - base: DBET
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: DBET
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: DBET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: DBET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -22,19 +22,9 @@ symbol: guess
 tickers:
 - base: GUESS
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: GUESS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: GUESS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: GUESS
   market:
     identifier: idex
@@ -47,6 +37,16 @@ tickers:
   target: ETH
 - base: GUESS
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: GUESS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: GUESS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

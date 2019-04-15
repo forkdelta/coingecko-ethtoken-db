@@ -42,14 +42,19 @@ symbol: hydro
 tickers:
 - base: HYDRO
   market:
-    identifier: idex
-    name: Idex
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: catex
+    name: Catex
   target: ETH
 - base: HYDRO
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: coinex
+    name: CoinEx
+  target: BCH
 - base: HYDRO
   market:
     identifier: dextop
@@ -62,18 +67,8 @@ tickers:
   target: ETH
 - base: HYDRO
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: HYDRO
-  market:
-    identifier: idax
-    name: Idax
-  target: ETH
-- base: HYDRO
-  market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: HYDRO
   market:
@@ -82,18 +77,8 @@ tickers:
   target: BTC
 - base: HYDRO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: HYDRO
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: HYDRO
-  market:
-    identifier: raisex
-    name: Raisex
+    identifier: idax
+    name: Idax
   target: ETH
 - base: HYDRO
   market:
@@ -102,9 +87,14 @@ tickers:
   target: ETH
 - base: HYDRO
   market:
-    identifier: catex
-    name: Catex
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: HYDRO
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: HYDRO
   market:
     identifier: raisex
@@ -112,6 +102,21 @@ tickers:
   target: BTC
 - base: HYDRO
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: raisex
+    name: Raisex
+  target: ETH
+- base: HYDRO
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: HYDRO
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: HYDRO
+  market:
+    identifier: tokenjar
+    name: TokenJar
   target: WETH

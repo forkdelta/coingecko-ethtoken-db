@@ -24,11 +24,6 @@ symbol: upp
 tickers:
 - base: UPP
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: UPP
-  market:
     identifier: bitforex
     name: Bitforex
   target: USDT
@@ -47,6 +42,16 @@ tickers:
     identifier: dextop
     name: DEx.top
   target: ETH
+- base: UPP
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: UPP
+  market:
+    identifier: gdac
+    name: GDAC
+  target: KRW
 - base: UPP
   market:
     identifier: idex

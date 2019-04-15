@@ -23,6 +23,11 @@ tickers:
   target: BTC
 - base: DXT
   market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: DXT
+  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -33,34 +38,14 @@ tickers:
   target: ETH
 - base: DXT
   market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: DXT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
 - base: DXT
   market:
     identifier: idex
     name: Idex
   target: ETH
-- base: DXT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DXT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: DXT
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
 - base: DXT
   market:
     identifier: orderbook
@@ -71,3 +56,18 @@ tickers:
     identifier: orderbook
     name: Orderbook.io
   target: OUSD
+- base: DXT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DXT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DXT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

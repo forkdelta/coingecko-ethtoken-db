@@ -28,23 +28,8 @@ symbol: fnd
 tickers:
 - base: FND
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: FND
-  market:
     identifier: ethex
     name: Ethex
-  target: ETH
-- base: FND
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: FND
-  market:
-    identifier: coinbene
-    name: CoinBene
   target: ETH
 - base: FND
   market:
@@ -53,11 +38,21 @@ tickers:
   target: ETH
 - base: FND
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: FND
   market:
     identifier: radar_relay
     name: Radar Relay
+  target: DAI
+- base: FND
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: FND
+  market:
+    identifier: tokenjar
+    name: TokenJar
   target: WETH

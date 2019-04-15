@@ -22,34 +22,14 @@ symbol: atm
 tickers:
 - base: ATM
   market:
-    identifier: rfinex
-    name: Rfinex
-  target: ETH
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
 - base: ATM
   market:
     identifier: bit_z
     name: Bit-Z
   target: ETH
-- base: ATM
-  market:
-    identifier: nexybit
-    name: Nexybit
-  target: ETH
-- base: ATM
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
-- base: ATM
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: ATM
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
 - base: ATM
   market:
     identifier: forkdelta
@@ -59,17 +39,22 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: USD
+  target: BTC
 - base: ATM
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: BITUSD
+  target: ETH
+- base: ATM
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: ATM
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: ATM
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: ATM
   market:
     identifier: mercatox
@@ -77,9 +62,19 @@ tickers:
   target: ETH
 - base: ATM
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: nexybit
+    name: Nexybit
+  target: BTC
+- base: ATM
+  market:
+    identifier: nexybit
+    name: Nexybit
   target: ETH
+- base: BITUSD
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: ATM
 - base: BTC
   market:
     identifier: openledger
@@ -97,11 +92,6 @@ tickers:
   target: ATM
 - base: ATM
   market:
-    identifier: nexybit
-    name: Nexybit
-  target: BTC
-- base: ATM
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
+    identifier: rfinex
+    name: Rfinex
+  target: ETH

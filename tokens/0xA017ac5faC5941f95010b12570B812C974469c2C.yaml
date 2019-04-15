@@ -24,28 +24,13 @@ symbol: xes
 tickers:
 - base: XES
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: XES
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: XES
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: XES
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: XES
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
+    identifier: idex
+    name: Idex
   target: ETH
 - base: XES
   market:
@@ -56,9 +41,24 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
+  target: ETH
+- base: XES
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
   target: QASH
 - base: XES
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: XES
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: XES
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

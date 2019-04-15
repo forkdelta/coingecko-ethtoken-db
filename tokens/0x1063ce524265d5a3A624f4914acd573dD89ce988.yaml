@@ -22,14 +22,9 @@ symbol: aix
 tickers:
 - base: AIX
   market:
-    identifier: orderbook
-    name: Orderbook.io
+    identifier: everbloom
+    name: Everbloom
   target: ETH
-- base: AIX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: AIX
   market:
     identifier: forkdelta
@@ -37,19 +32,14 @@ tickers:
   target: ETH
 - base: AIX
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: AIX
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: AIX
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: orderbook
+    name: Orderbook.io
+  target: ETH
 - base: AIX
   market:
     identifier: orderbook
@@ -57,9 +47,14 @@ tickers:
   target: OUSD
 - base: AIX
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: AIX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: AIX
   market:
     identifier: tokenjar

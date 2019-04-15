@@ -21,9 +21,14 @@ symbol: fund
 tickers:
 - base: FUND
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: bkex
+    name: Bkex
+  target: USDT
+- base: FUND
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
 - base: FUND
   market:
     identifier: tokenjar
@@ -33,24 +38,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: FUND
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+  target: DOGE
 - base: FUND
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: RUR
 - base: FUND
   market:
-    identifier: crex24
-    name: CREX24
-  target: ETH
-- base: FUND
-  market:
-    identifier: bkex
-    name: Bkex
-  target: USDT
+    identifier: yobit
+    name: YoBit
+  target: WAVES

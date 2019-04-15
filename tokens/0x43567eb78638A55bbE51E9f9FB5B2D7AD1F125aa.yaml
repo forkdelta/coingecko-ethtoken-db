@@ -20,9 +20,14 @@ symbol: hac
 tickers:
 - base: HAC
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: iqfinex
+    name: IQFinex
+  target: ETH
+- base: HAC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: HAC
   market:
     identifier: tokenjar
@@ -37,14 +42,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: HAC
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
-- base: HAC
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: HAC
-  market:
-    identifier: iqfinex
-    name: IQFinex
-  target: ETH

@@ -27,14 +27,24 @@ symbol: horse
 tickers:
 - base: HORSE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: HORSE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: HORSE
   market:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
+- base: HORSE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: HORSE
   market:
     identifier: yobit
@@ -50,13 +60,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: HORSE
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: HORSE
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

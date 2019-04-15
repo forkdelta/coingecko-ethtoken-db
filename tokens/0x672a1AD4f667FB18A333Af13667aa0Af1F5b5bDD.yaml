@@ -25,6 +25,36 @@ symbol: cred
 tickers:
 - base: CRED
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: CRED
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: CRED
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: CRED
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CRED
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CRED
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CRED
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
@@ -35,14 +65,9 @@ tickers:
   target: ETH
 - base: CRED
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: CRED
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: CRED
   market:
     identifier: yobit
@@ -50,36 +75,11 @@ tickers:
   target: DOGE
 - base: CRED
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: CRED
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: CRED
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: CRED
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: CRED
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: CRED
-  market:
     identifier: yobit
     name: YoBit
   target: RUR
 - base: CRED
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: WAVES

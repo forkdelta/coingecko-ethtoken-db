@@ -23,24 +23,19 @@ symbol: ift
 tickers:
 - base: IFT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: IFT
-  market:
     identifier: bleutrade
     name: bleutrade
   target: BTC
 - base: IFT
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: BTC
+    identifier: bleutrade
+    name: bleutrade
+  target: ETH
 - base: IFT
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: bleutrade
+    name: bleutrade
+  target: USDT
 - base: IFT
   market:
     identifier: everbloom
@@ -53,34 +48,9 @@ tickers:
   target: ETH
 - base: IFT
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
-- base: IFT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: IFT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: IFT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: IFT
-  market:
-    identifier: bleutrade
-    name: bleutrade
-  target: ETH
-- base: IFT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: IFT
   market:
     identifier: idex
@@ -88,14 +58,24 @@ tickers:
   target: ETH
 - base: IFT
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: IFT
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: IFT
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: IFT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: IFT
   market:
     identifier: radar_relay
@@ -103,6 +83,21 @@ tickers:
   target: DAI
 - base: IFT
   market:
-    identifier: bleutrade
-    name: bleutrade
-  target: USDT
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: IFT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: IFT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: IFT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

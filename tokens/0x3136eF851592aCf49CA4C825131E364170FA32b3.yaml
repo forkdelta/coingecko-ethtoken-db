@@ -40,16 +40,6 @@ symbol: cofi
 tickers:
 - base: COFI
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: COFI
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: COFI
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -58,6 +48,16 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: COFI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: COFI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: COFI
   market:
     identifier: idex

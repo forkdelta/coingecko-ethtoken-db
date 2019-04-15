@@ -22,50 +22,20 @@ symbol: coss
 tickers:
 - base: COSS
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: coss
+    name: COSS
+  target: BCH
 - base: LTC
   market:
     identifier: coss
     name: COSS
   target: COSS
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: EUR
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: USD
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: USDC
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: USDT
 - base: ARK
   market:
     identifier: coss
     name: COSS
   target: COSS
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
 - base: ICX
-  market:
-    identifier: coss
-    name: COSS
-  target: COSS
-- base: USDC
   market:
     identifier: coss
     name: COSS
@@ -80,7 +50,17 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
+- base: USDC
+  market:
+    identifier: coss
+    name: COSS
+  target: COSS
 - base: ZEN
+  market:
+    identifier: coss
+    name: COSS
+  target: COSS
+- base: DASH
   market:
     identifier: coss
     name: COSS
@@ -95,6 +75,26 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
+- base: NEO
+  market:
+    identifier: coss
+    name: COSS
+  target: COSS
+- base: GUSD
+  market:
+    identifier: coss
+    name: COSS
+  target: COSS
+- base: COSS
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
+- base: COSS
+  market:
+    identifier: coss
+    name: COSS
+  target: EUR
 - base: COSS
   market:
     identifier: coss
@@ -104,27 +104,17 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: BCH
-- base: COSS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+  target: GUSD
 - base: COSS
   market:
     identifier: coss
     name: COSS
   target: TUSD
-- base: GUSD
+- base: COSS
   market:
     identifier: coss
     name: COSS
-  target: COSS
-- base: COSS
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+  target: USDT
 - base: COSS
   market:
     identifier: everbloom
@@ -132,6 +122,21 @@ tickers:
   target: ETH
 - base: COSS
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: COSS
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: COSS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: COSS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

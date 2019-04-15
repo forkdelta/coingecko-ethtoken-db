@@ -26,9 +26,9 @@ tickers:
   target: BTC
 - base: POLL
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: POLL
   market:
     identifier: forkdelta
@@ -36,14 +36,19 @@ tickers:
   target: ETH
 - base: POLL
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: POLL
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: POLL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: POLL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: POLL
   market:
     identifier: yobit
@@ -54,8 +59,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: POLL
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH

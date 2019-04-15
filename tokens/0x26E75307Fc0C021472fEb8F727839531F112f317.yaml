@@ -24,24 +24,24 @@ symbol: c20
 tickers:
 - base: C20
   market:
-    identifier: dflow
-    name: Dflow
-  target: BTC
-- base: C20
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
 - base: C20
   market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: C20
+  market:
+    identifier: dflow
+    name: Dflow
+  target: BTC
+- base: C20
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
-- base: C20
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: C20
   market:
     identifier: forkdelta
@@ -54,6 +54,6 @@ tickers:
   target: ETH
 - base: C20
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -39,13 +39,8 @@ symbol: ntk
 tickers:
 - base: NTK
   market:
-    identifier: topbtc
-    name: TopBTC
-  target: ETH
-- base: NTK2
-  market:
-    identifier: idex
-    name: Idex
+    identifier: ddex
+    name: DDEX
   target: ETH
 - base: NTK
   market:
@@ -54,11 +49,21 @@ tickers:
   target: WETH
 - base: NTK
   market:
-    identifier: ddex
-    name: DDEX
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: NTK
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: NTK
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: NTK
+  market:
+    identifier: topbtc
+    name: TopBTC
+  target: ETH

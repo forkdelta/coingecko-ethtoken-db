@@ -42,4 +42,14 @@ links:
     - https://github.com/GemVaultCoin/wallet
 name: GemVault Coin
 symbol: gvc
-tickers: []
+tickers:
+- base: GVC
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: GVC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

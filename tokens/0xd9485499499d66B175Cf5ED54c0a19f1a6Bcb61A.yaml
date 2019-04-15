@@ -31,11 +31,6 @@ links:
 name: Usechain
 symbol: use
 tickers:
-- base: USE
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: USDT
 - base: UST
   market:
     identifier: bilaxy
@@ -46,18 +41,23 @@ tickers:
     identifier: coineal
     name: Coineal
   target: ETH
-- base: UST0
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: USE
-  market:
-    identifier: oax
-    name: OAX
-  target: ETH
 - base: USE
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: USE
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
+- base: USE
+  market:
+    identifier: oax
+    name: OAX
+  target: ETH
+- base: UST0
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

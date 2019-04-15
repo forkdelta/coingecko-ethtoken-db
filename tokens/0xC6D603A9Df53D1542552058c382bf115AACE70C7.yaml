@@ -39,9 +39,9 @@ symbol: tret
 tickers:
 - base: TRET
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: bitexlive
+    name: Bitexlive
+  target: DOGE
 - base: TRET
   market:
     identifier: bitrabbit
@@ -49,11 +49,16 @@ tickers:
   target: ETH
 - base: TRET
   market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: DOGE
-- base: TRET
-  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: TRET
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: TRET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -25,14 +25,19 @@ symbol: prix
 tickers:
 - base: PRIX
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: coss
+    name: COSS
+  target: BTC
 - base: PRIX
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: PRIX
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: PRIX
   market:
     identifier: forkdelta
@@ -40,23 +45,8 @@ tickers:
   target: ETH
 - base: PRIX
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: PRIX
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: PRIX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: PRIX
-  market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: idex
+    name: Idex
   target: ETH
 - base: PRIX
   market:
@@ -65,6 +55,16 @@ tickers:
   target: WETH
 - base: PRIX
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: PRIX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: PRIX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

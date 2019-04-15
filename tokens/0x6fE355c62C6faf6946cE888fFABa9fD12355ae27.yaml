@@ -31,24 +31,9 @@ tickers:
   target: THB
 - base: HBX
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
-- base: HBX
-  market:
-    identifier: instantbitex
-    name: Instant Bitex
-  target: USDT
-- base: HBX
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
-- base: HBX
-  market:
-    identifier: instantbitex
-    name: Instant Bitex
-  target: ETH
 - base: HBX
   market:
     identifier: cryptaldash
@@ -59,8 +44,23 @@ tickers:
     identifier: instantbitex
     name: Instant Bitex
   target: BTC
+- base: HBX
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
 - base: HBX
   market:
     identifier: instantbitex
     name: Instant Bitex
   target: USDC
+- base: HBX
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: USDT
+- base: HBX
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

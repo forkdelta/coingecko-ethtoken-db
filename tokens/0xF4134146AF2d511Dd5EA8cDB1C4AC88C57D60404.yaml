@@ -23,19 +23,24 @@ symbol: snc
 tickers:
 - base: SNC
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: SNC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: SNC
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: SNC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SNC
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
 - base: SNC
   market:
     identifier: yobit
@@ -48,11 +53,6 @@ tickers:
   target: RUR
 - base: SNC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SNC
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: WAVES

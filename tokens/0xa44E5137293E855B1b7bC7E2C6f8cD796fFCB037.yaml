@@ -28,11 +28,6 @@ symbol: sent
 tickers:
 - base: SENT
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SENT
-  market:
     identifier: coinall
     name: CoinAll
   target: BTC
@@ -43,11 +38,6 @@ tickers:
   target: ETH
 - base: SENT
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: SENT
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -58,9 +48,9 @@ tickers:
   target: WETH
 - base: SENT
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: SENT
   market:
     identifier: yobit
@@ -68,6 +58,11 @@ tickers:
   target: DOGE
 - base: SENT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: SENT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

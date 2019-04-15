@@ -53,9 +53,14 @@ symbol: vra
 tickers:
 - base: VRA
   market:
-    identifier: probit
-    name: Probit
+    identifier: exrates
+    name: Exrates
   target: BTC
+- base: VRA
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
 - base: VRA
   market:
     identifier: exrates
@@ -65,16 +70,6 @@ tickers:
   market:
     identifier: probit
     name: Probit
-  target: KRW
-- base: VRA
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: VRA
-  market:
-    identifier: exrates
-    name: Exrates
   target: BTC
 - base: VRA
   market:
@@ -83,11 +78,16 @@ tickers:
   target: ETH
 - base: VRA
   market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: VRA
   market:
     identifier: probit
     name: Probit
   target: USDT
+- base: VRA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

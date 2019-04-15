@@ -23,19 +23,14 @@ symbol: sms
 tickers:
 - base: SMS
   market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DASH
-- base: SMS
-  market:
     identifier: bitsane
     name: Bitsane
   target: BTC
 - base: SMS
   market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: USD
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: SMS
   market:
     identifier: forkdelta
@@ -48,6 +43,11 @@ tickers:
   target: BTC
 - base: SMS
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: south_xchange
+    name: SouthXchange
+  target: DASH
+- base: SMS
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: USD

@@ -23,6 +23,21 @@ links:
 name: Humaniq
 symbol: hmq
 tickers:
+- base: HMQ
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: HMQ
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: HMQ
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: B72B24C8-6A13-4C64-A0CB-ED68B55C92AD
   market:
     identifier: lykke
@@ -30,8 +45,13 @@ tickers:
   target: BTC
 - base: HMQ
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: simex
+    name: Simex
+  target: BTC
+- base: HMQ
+  market:
+    identifier: simex
+    name: Simex
   target: ETH
 - base: HMQ
   market:
@@ -40,14 +60,9 @@ tickers:
   target: USD
 - base: HMQ
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: HMQ
-  market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: DOGE
 - base: HMQ
   market:
     identifier: yobit
@@ -57,19 +72,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: HMQ
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: HMQ
-  market:
-    identifier: simex
-    name: Simex
-  target: BTC
-- base: HMQ
-  market:
-    identifier: simex
-    name: Simex
-  target: ETH
+  target: WAVES

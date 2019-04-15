@@ -40,6 +40,16 @@ symbol: stacs
 tickers:
 - base: STACS
   market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: EUR
+- base: STACS
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: GBP
+- base: STACS
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -48,13 +58,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: STACS
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: GBP
-- base: STACS
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: EUR

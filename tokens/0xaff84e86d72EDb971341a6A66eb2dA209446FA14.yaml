@@ -23,24 +23,14 @@ symbol: tcat
 tickers:
 - base: TCAT
   market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USD
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: TCAT
   market:
     identifier: latoken
     name: LATOKEN
   target: USDT
-- base: TCAT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: TCAT
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
 - base: TCAT
   market:
     identifier: localtrade
@@ -48,11 +38,21 @@ tickers:
   target: IDR
 - base: TCAT
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
 - base: TCAT
   market:
     identifier: localtrade
     name: LocalTrade
   target: USDT
+- base: TCAT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: TCAT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

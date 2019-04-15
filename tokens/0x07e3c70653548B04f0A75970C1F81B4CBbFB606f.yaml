@@ -24,9 +24,34 @@ symbol: dlt
 tickers:
 - base: DLT
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: DLT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: DLT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: DLT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DLT
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: DLT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: DLT
   market:
     identifier: yobit
@@ -36,34 +61,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR
 - base: DLT
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: DLT
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DLT
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
-- base: DLT
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: DLT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DLT
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+  target: WAVES

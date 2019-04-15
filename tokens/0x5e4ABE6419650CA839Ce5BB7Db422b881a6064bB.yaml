@@ -16,9 +16,19 @@ symbol: wic
 tickers:
 - base: WIC
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: WIC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: WIC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: WIC
   market:
     identifier: yobit
@@ -28,19 +38,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: WIC
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
-- base: WIC
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: WIC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: WIC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC

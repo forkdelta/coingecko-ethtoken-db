@@ -57,33 +57,38 @@ symbol: qash
 tickers:
 - base: QASH
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: QASH
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: QASH
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: QASH
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: QASH
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: QASH
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: USDT
 - base: QASH
   market:
     identifier: ddex
     name: DDEX
-  target: ETH
-- base: QASH
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: QSH
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: QSH
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: QASH
-  market:
-    identifier: gopax
-    name: GoPax
   target: ETH
 - base: QASH
   market:
@@ -97,9 +102,59 @@ tickers:
   target: BTC
 - base: QASH
   market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: QASH
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: QASH
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
+- base: QASH
+  market:
+    identifier: gopax
+    name: GoPax
+  target: ETH
+- base: QASH
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: QASH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: QASH
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: QASH
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: EUR
+- base: XRP
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: FSN
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
 - base: FLIXX
   market:
     identifier: quoine
@@ -140,11 +195,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: QASH
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
 - base: FLP
   market:
     identifier: quoine
@@ -155,11 +205,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: QASH
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: XNK
   market:
     identifier: quoine
@@ -185,16 +230,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: QASH
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: QASH
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
 - base: FTX
   market:
     identifier: quoine
@@ -265,11 +300,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: QASH
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
 - base: MRK
   market:
     identifier: quoine
@@ -290,16 +320,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: QASH
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
-- base: QASH
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
 - base: FLUZ
   market:
     identifier: quoine
@@ -365,11 +385,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: QASH
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: EUR
 - base: EARTH
   market:
     identifier: quoine
@@ -410,16 +425,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: QASH
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: QASH
-  market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
 - base: EZT
   market:
     identifier: quoine
@@ -450,3 +455,8 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: USD

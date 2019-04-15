@@ -31,16 +31,6 @@ symbol: capp
 tickers:
 - base: CAPP
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: CAPP
-  market:
-    identifier: idax
-    name: Idax
-  target: USDT
-- base: CAPP
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -51,11 +41,21 @@ tickers:
   target: ETH
 - base: CAPP
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: idax
+    name: Idax
+  target: ETH
 - base: CAPP
   market:
     identifier: idax
     name: Idax
+  target: USDT
+- base: CAPP
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
+- base: CAPP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -22,16 +22,11 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: ETH
+  target: BTC
 - base: FDX
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: FDX
-  market:
-    identifier: idex
-    name: Idex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: FDX
   market:
@@ -40,19 +35,19 @@ tickers:
   target: ETH
 - base: FDX
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: FDX
-  market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: idex
+    name: Idex
   target: ETH
 - base: FDX
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: FDX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
 - base: FDX
   market:
     identifier: quoine
@@ -60,16 +55,16 @@ tickers:
   target: QASH
 - base: FDX
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC
-- base: FDX
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: FDX
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
+  target: WETH
+- base: FDX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

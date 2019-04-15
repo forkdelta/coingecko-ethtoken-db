@@ -51,34 +51,14 @@ symbol: rhoc
 tickers:
 - base: RHOC
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: RHOC
-  market:
     identifier: airswap
     name: AirSwap
   target: ETH
 - base: RHOC
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: RHOC
-  market:
-    identifier: coinex
-    name: CoinEx
+    identifier: chainex
+    name: ChainEX
   target: BTC
-- base: RHOC
-  market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: RHOC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: RHOC
   market:
     identifier: chaoex
@@ -86,13 +66,18 @@ tickers:
   target: BTC
 - base: RHOC
   market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
+    identifier: coinex
+    name: CoinEx
+  target: BCH
 - base: RHOC
   market:
-    identifier: cybex
-    name: Cybex DEX
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: RHOC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: BTC
 - base: RHOC
   market:
@@ -103,37 +88,52 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: ETH
+- base: RHOC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: RHOC
+  market:
+    identifier: cybex
+    name: Cybex DEX
   target: BTC
-- base: RHOC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: RHOC
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: USDT
-- base: RHOC
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: ETH
-- base: RHOC
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: BCH
-- base: RHOC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
 - base: RHOC
   market:
     identifier: cybex
     name: Cybex DEX
   target: CYB
+- base: RHOC
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
+- base: RHOC
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: USDT
+- base: RHOC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: RHOC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: RHOC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: RHOC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
 - base: RHOC
   market:
     identifier: radar_relay
@@ -146,11 +146,11 @@ tickers:
   target: WETH
 - base: RHOC
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: thetokenstore
+    name: Token Store
   target: ETH
 - base: RHOC
   market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

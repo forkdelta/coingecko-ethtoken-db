@@ -24,6 +24,11 @@ symbol: drp
 tickers:
 - base: DRP
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: DRP
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -37,8 +42,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: DRP
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH

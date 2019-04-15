@@ -49,27 +49,12 @@ links:
 name: APOT
 symbol: apot
 tickers:
-- base: APOT
-  market:
-    identifier: idax
-    name: Idax
-  target: BTC
-- base: APOT
-  market:
-    identifier: idax
-    name: Idax
-  target: USDT
-- base: APOT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: ETH
-- base: IOTX
+- base: PIB
   market:
     identifier: allbit
     name: Allbit
   target: APOT
-- base: PIB
+- base: IOTX
   market:
     identifier: allbit
     name: Allbit
@@ -81,6 +66,26 @@ tickers:
   target: APOT
 - base: APOT
   market:
+    identifier: allbit
+    name: Allbit
+  target: BTC
+- base: APOT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: APOT
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: APOT
+  market:
     identifier: idax
     name: Idax
   target: ETH
+- base: APOT
+  market:
+    identifier: idax
+    name: Idax
+  target: USDT

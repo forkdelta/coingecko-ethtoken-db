@@ -38,9 +38,14 @@ symbol: adx
 tickers:
 - base: ADX
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: airswap
+    name: AirSwap
   target: ETH
+- base: ADX
+  market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: ADX
   market:
     identifier: dcoin
@@ -48,18 +53,18 @@ tickers:
   target: BTC
 - base: ADX
   market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: ADX
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
 - base: ADX
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: ADX
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: ADX
   market:
@@ -78,16 +83,11 @@ tickers:
   target: ETH
 - base: ADX
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: ADX
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ADX
-  market:
-    identifier: bigone
-    name: BigONE
-  target: BTC

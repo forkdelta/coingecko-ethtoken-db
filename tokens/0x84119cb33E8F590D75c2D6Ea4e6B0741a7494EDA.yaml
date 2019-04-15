@@ -26,9 +26,19 @@ tickers:
   target: ETH
 - base: WTT
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WTT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WTT
+  market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: DOGE
 - base: WTT
   market:
     identifier: yobit
@@ -38,9 +48,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: WTT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+  target: WAVES

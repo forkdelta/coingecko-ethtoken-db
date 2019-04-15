@@ -30,18 +30,13 @@ tickers:
   target: ETH
 - base: REAL
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: REAL
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: REAL
-  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: REAL
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: REAL
   market:
@@ -50,6 +45,11 @@ tickers:
   target: DAI
 - base: REAL
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: REAL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

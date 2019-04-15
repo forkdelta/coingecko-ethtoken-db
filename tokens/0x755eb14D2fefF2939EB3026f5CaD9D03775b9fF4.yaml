@@ -39,6 +39,16 @@ symbol: bunny
 tickers:
 - base: BUNNY
   market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: BUNNY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BUNNY
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -52,13 +62,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: BUNNY
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BUNNY
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH

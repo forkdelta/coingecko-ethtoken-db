@@ -26,16 +26,6 @@ symbol: ejob
 tickers:
 - base: EJOB
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
-- base: EJOB
-  market:
-    identifier: bleutrade
-    name: bleutrade
-  target: USDT
-- base: EJOB
-  market:
     identifier: bleutrade
     name: bleutrade
   target: DOGE
@@ -44,3 +34,18 @@ tickers:
     identifier: bleutrade
     name: bleutrade
   target: ETH
+- base: EJOB
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: USDT
+- base: EJOB
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: EJOB
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

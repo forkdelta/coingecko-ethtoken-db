@@ -32,9 +32,29 @@ symbol: amm
 tickers:
 - base: AMM
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: AMM
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: AMM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: AMM
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: AMM
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: AMM
   market:
     identifier: okex
@@ -47,19 +67,14 @@ tickers:
   target: ETH
 - base: AMM
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: AMM
+  market:
+    identifier: orderbook
+    name: Orderbook.io
   target: ETH
-- base: AMM
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: AMM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: AMM
   market:
     identifier: orderbook
@@ -67,31 +82,16 @@ tickers:
   target: OUSD
 - base: AMM
   market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: AMM
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: AMM
   market:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: AMM
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: AMM
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: AMM
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

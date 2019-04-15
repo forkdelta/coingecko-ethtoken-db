@@ -30,19 +30,9 @@ symbol: wco
 tickers:
 - base: WCO
   market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: BTC
-- base: WCO
-  market:
     identifier: simex
     name: Simex
   target: BTC
-- base: WCO
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: USNBT
 - base: WCO
   market:
     identifier: simex
@@ -52,7 +42,22 @@ tickers:
   market:
     identifier: south_xchange
     name: SouthXchange
+  target: BCH
+- base: WCO
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC
+- base: WCO
+  market:
+    identifier: south_xchange
+    name: SouthXchange
   target: DASH
+- base: WCO
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: LTC
 - base: WCO
   market:
     identifier: south_xchange
@@ -62,9 +67,4 @@ tickers:
   market:
     identifier: south_xchange
     name: SouthXchange
-  target: BCH
-- base: WCO
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: LTC
+  target: USNBT

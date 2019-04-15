@@ -75,11 +75,6 @@ symbol: onl
 tickers:
 - base: ONL
   market:
-    identifier: raisex
-    name: Raisex
-  target: BTC
-- base: ONL
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -88,6 +83,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: ONL
+  market:
+    identifier: raisex
+    name: Raisex
+  target: BTC
 - base: ONL
   market:
     identifier: tokenjar

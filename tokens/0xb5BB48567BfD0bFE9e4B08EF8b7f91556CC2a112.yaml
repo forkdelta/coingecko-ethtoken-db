@@ -21,11 +21,31 @@ symbol: bcash
 tickers:
 - base: BCASH
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: BCASH
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: BCASH
+  market:
     identifier: instantbitex
     name: Instant Bitex
-  target: USDT
+  target: BTC
+- base: BCASH
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
 - base: BCASH
   market:
     identifier: instantbitex
     name: Instant Bitex
   target: USDC
+- base: BCASH
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: USDT

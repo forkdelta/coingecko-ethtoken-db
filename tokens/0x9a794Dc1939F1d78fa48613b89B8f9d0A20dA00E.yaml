@@ -17,31 +17,6 @@ links:
 name: Arbidex
 symbol: abx
 tickers:
-- base: ABX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: ABX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: ABX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ABX
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: ABX
-  market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: ETH
 - base: ETH
   market:
     identifier: coinplace
@@ -54,11 +29,36 @@ tickers:
   target: BTC
 - base: ABX
   market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH
+- base: ABX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: ABX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ABX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ABX
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: ETH
+- base: ABX
+  market:
     identifier: orderbook
     name: Orderbook.io
   target: OUSD
 - base: ABX
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

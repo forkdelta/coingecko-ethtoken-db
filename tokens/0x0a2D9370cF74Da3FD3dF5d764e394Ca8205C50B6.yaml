@@ -26,17 +26,22 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: SET
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: SET
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: DOGE
+  target: BTC
 - base: SET
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: USDT
+  target: DOGE
 - base: SET
   market:
     identifier: trade_satoshi
@@ -49,11 +54,6 @@ tickers:
   target: LTC
 - base: SET
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: SET
-  market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: BTC
+  target: USDT

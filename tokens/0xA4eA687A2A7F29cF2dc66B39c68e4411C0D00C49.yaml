@@ -58,6 +58,16 @@ symbol: ivy
 tickers:
 - base: IVY
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: IVY
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: IVY
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -68,21 +78,11 @@ tickers:
   target: ETH
 - base: IVY
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: idex
+    name: Idex
   target: ETH
 - base: IVY
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: IVY
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: IVY
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

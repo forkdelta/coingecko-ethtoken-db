@@ -22,34 +22,24 @@ symbol: jnt
 tickers:
 - base: JNT
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: JNT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: BTC
+- base: JNT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: JNT
+  market:
     identifier: gate-io
     name: Gate.io
   target: USDT
-- base: JNT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: JNT
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: JNT
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: JNT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: BTC
-- base: JNT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: JNT
   market:
     identifier: idex
@@ -57,14 +47,24 @@ tickers:
   target: ETH
 - base: JNT
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: JNT
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: JNT
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: JNT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: JNT
   market:
     identifier: tokenjar

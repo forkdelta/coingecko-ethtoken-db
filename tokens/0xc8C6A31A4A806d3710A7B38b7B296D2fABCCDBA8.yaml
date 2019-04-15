@@ -23,16 +23,6 @@ symbol: elix
 tickers:
 - base: ELIX
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: ELIX
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: ELIX
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -43,9 +33,14 @@ tickers:
   target: ETH
 - base: ELIX
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: ELIX
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: ELIX
   market:
     identifier: idex
@@ -53,6 +48,16 @@ tickers:
   target: ETH
 - base: ELIX
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: ELIX
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
+- base: ELIX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

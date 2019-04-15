@@ -44,13 +44,8 @@ symbol: senc
 tickers:
 - base: SENC
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: SENC
-  market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: coinbene
+    name: CoinBene
   target: ETH
 - base: SENC
   market:
@@ -64,18 +59,23 @@ tickers:
   target: ETH
 - base: SENC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SENC
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: SENC
-  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: SENC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: SENC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: SENC
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: SENC
   market:

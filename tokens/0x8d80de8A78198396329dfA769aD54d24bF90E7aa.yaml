@@ -49,9 +49,9 @@ symbol: nac
 tickers:
 - base: NAC
   market:
-    identifier: financex
-    name: FinanceX
-  target: VND
+    identifier: exrates
+    name: Exrates
+  target: BTC
 - base: NAC
   market:
     identifier: exrates
@@ -61,7 +61,7 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: BTC
+  target: USD
 - base: NAC
   market:
     identifier: financex
@@ -74,16 +74,16 @@ tickers:
   target: IDR
 - base: NAC
   market:
-    identifier: exrates
-    name: Exrates
-  target: USD
-- base: NAC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: financex
+    name: FinanceX
+  target: VND
 - base: NAC
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: NAC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

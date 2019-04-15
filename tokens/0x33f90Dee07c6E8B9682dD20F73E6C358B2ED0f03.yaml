@@ -30,16 +30,6 @@ symbol: trdt
 tickers:
 - base: TRDT
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: TRDT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: TRDT
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -48,3 +38,13 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
+- base: TRDT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TRDT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

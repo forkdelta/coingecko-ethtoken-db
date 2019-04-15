@@ -43,11 +43,6 @@ symbol: sol
 tickers:
 - base: SOL
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: SOL
-  market:
     identifier: openledger
     name: OpenLedger DEX
   target: BITCNY
@@ -76,3 +71,8 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: ETH
+- base: SOL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

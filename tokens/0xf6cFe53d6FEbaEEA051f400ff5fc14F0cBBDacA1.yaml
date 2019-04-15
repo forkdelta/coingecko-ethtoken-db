@@ -22,14 +22,24 @@ symbol: dgpt
 tickers:
 - base: DGPT
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: DGPT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DGPT
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: DGPT
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: DGPT
   market:
     identifier: radar_relay
@@ -40,13 +50,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: DGPT
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DGPT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI

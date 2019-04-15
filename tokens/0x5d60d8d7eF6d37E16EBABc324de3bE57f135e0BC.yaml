@@ -24,24 +24,9 @@ symbol: myb
 tickers:
 - base: MYB
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: MYB
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: MYB
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
-- base: MYB
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: MYB
   market:
     identifier: forkdelta
@@ -52,3 +37,18 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: MYB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: MYB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: MYB
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

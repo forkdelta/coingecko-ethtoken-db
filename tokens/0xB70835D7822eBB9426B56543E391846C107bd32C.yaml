@@ -44,49 +44,24 @@ symbol: gtc
 tickers:
 - base: GTC
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: GTC
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: BTC
-- base: GTC
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: GTC
-  market:
     identifier: bibox
     name: Bibox
   target: BIX
 - base: GTC
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: blockonix
+    name: Blockonix
   target: ETH
+- base: GTC
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
 - base: GTC
   market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
-- base: GTC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: GTC
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: GTC
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
 - base: GTC
   market:
     identifier: cryptaldash
@@ -97,6 +72,31 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
+- base: GTC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: GTC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: GTC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: BTC
+- base: GTC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: GTC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: GTC
   market:
     identifier: joyso

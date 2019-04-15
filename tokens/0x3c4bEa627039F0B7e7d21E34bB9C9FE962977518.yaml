@@ -27,6 +27,11 @@ symbol: uct
 tickers:
 - base: UCT
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: UCT
+  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
@@ -34,14 +39,9 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: USDT
+  target: BTC
 - base: UCT
   market:
     identifier: okex
     name: OKEx
-  target: BTC
-- base: UCT
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
+  target: USDT

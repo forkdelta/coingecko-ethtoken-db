@@ -26,16 +26,6 @@ symbol: viu
 tickers:
 - base: VIU
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: VIU
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
-- base: VIU
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -46,26 +36,36 @@ tickers:
   target: ETH
 - base: VIU
   market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: VIU
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: VIU
   market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: VIU
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: VIU
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: VIU
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: VIU
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: VIU
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: VIU
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

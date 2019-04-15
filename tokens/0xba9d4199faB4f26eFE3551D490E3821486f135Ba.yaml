@@ -24,9 +24,9 @@ symbol: chsb
 tickers:
 - base: CHSB
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: dextop
+    name: DEx.top
+  target: ETH
 - base: CHSB
   market:
     identifier: forkdelta
@@ -34,34 +34,14 @@ tickers:
   target: ETH
 - base: CHSB
   market:
-    identifier: dextop
-    name: DEx.top
+    identifier: idex
+    name: Idex
   target: ETH
 - base: CHSB
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: CHSB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: CHSB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: CHSB
-  market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: ETH
-- base: CHSB
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: CHSB
   market:
     identifier: okex
@@ -74,11 +54,31 @@ tickers:
   target: USDT
 - base: CHSB
   market:
-    identifier: idex
-    name: Idex
+    identifier: orderbook
+    name: Orderbook.io
   target: ETH
 - base: CHSB
   market:
     identifier: orderbook
     name: Orderbook.io
   target: OUSD
+- base: CHSB
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -21,23 +21,33 @@ symbol: san
 tickers:
 - base: SAN
   market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: SAN
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: SAN
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
 - base: SAN
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: SAN
-  market:
-    identifier: joyso
-    name: Joyso
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: SAN
   market:
     identifier: everbloom
     name: Everbloom
+  target: ETH
+- base: SAN
+  market:
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: SAN
   market:
@@ -51,24 +61,19 @@ tickers:
   target: ETH
 - base: SAN
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: SAN
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: SAN
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
+    identifier: joyso
+    name: Joyso
+  target: ETH
 - base: SAN
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: SAN
   market:
     identifier: latoken
@@ -76,9 +81,14 @@ tickers:
   target: LA
 - base: SAN
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: SAN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: SAN
   market:
     identifier: yobit
@@ -88,14 +98,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: SAN
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
-- base: SAN
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: SAN
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT

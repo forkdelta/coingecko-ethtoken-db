@@ -22,44 +22,14 @@ symbol: wbtc
 tickers:
 - base: WBTC
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: XENC
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: WBTC
-  market:
     identifier: airswap
     name: AirSwap
   target: ETH
-- base: GET
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: PKG
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: SNT
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: WBTC
   market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: DAI
 - base: WBTC
   market:
     identifier: idex
@@ -70,11 +40,31 @@ tickers:
     identifier: idex
     name: Idex
   target: USDC
-- base: WBTC
+- base: SNT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: GET
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: PKG
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: XBASE
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: XENC
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: LINK
   market:
     identifier: idex
@@ -95,31 +85,16 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: WBTC
-  market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
 - base: STASH
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: WBTC
-  market:
-    identifier: idex
-    name: Idex
-  target: DAI
 - base: HOT
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: WBTC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: ALTX
   market:
     identifier: idex
@@ -130,8 +105,23 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: XBASE
+- base: WBTC
   market:
-    identifier: idex
-    name: Idex
-  target: WBTC
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: WBTC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: WBTC
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: WBTC
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC

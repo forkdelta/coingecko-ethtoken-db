@@ -28,9 +28,9 @@ symbol: stu
 tickers:
 - base: STU
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: STU
   market:
     identifier: forkdelta
@@ -38,29 +38,9 @@ tickers:
   target: ETH
 - base: STU
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: STU
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: STU
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: STU
-  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: STU
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: STU
   market:
     identifier: quoine
@@ -73,9 +53,24 @@ tickers:
   target: ETH
 - base: STU
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: STU
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: STU
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: STU
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: STU
   market:
     identifier: yobit
@@ -83,6 +78,11 @@ tickers:
   target: DOGE
 - base: STU
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: STU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

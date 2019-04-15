@@ -31,24 +31,14 @@ symbol: dgx
 tickers:
 - base: DGX
   market:
-    identifier: probit
-    name: Probit
-  target: USDT
-- base: DGX
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH
 - base: DGX
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DGX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: DGX
   market:
     identifier: radar_relay
@@ -56,6 +46,11 @@ tickers:
   target: DAI
 - base: DGX
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DGX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

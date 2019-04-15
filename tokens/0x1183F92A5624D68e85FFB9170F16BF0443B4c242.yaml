@@ -27,26 +27,6 @@ symbol: qvt
 tickers:
 - base: QVT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: QVT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: QVT
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: QVT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: QVT
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -55,3 +35,23 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: QVT
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: QVT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: QVT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: QVT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

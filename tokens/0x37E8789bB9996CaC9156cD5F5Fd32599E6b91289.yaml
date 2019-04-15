@@ -32,19 +32,14 @@ symbol: aid
 tickers:
 - base: AID
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: AID
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: AID
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: AID
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: AID
   market:
     identifier: idex
@@ -55,3 +50,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: AID
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

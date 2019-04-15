@@ -29,6 +29,16 @@ tickers:
   target: BTC
 - base: FLUZ
   market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
+- base: FLUZ
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: FLUZ
+  market:
     identifier: quoine
     name: Liquid (Quoine)
   target: ETH
@@ -42,13 +52,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: FLUZ
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: ETH
-- base: FLUZ
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC

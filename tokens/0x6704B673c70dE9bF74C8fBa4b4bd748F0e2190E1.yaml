@@ -27,31 +27,6 @@ symbol: ubex
 tickers:
 - base: UBEX
   market:
-    identifier: lbank
-    name: Lbank
-  target: BTC
-- base: UBEX
-  market:
-    identifier: probit
-    name: Probit
-  target: ETH
-- base: UBEX
-  market:
-    identifier: probit
-    name: Probit
-  target: USDT
-- base: UBEX
-  market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: UBEX
-  market:
-    identifier: probit
-    name: Probit
-  target: BTC
-- base: UBEX
-  market:
     identifier: btc_alpha
     name: BTC-Alpha
   target: USDT
@@ -59,7 +34,17 @@ tickers:
   market:
     identifier: catex
     name: Catex
+  target: BTC
+- base: UBEX
+  market:
+    identifier: catex
+    name: Catex
   target: DOGE
+- base: UBEX
+  market:
+    identifier: catex
+    name: Catex
+  target: ETH
 - base: UBEX
   market:
     identifier: fatbtc
@@ -67,14 +52,24 @@ tickers:
   target: ETH
 - base: UBEX
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: iqfinex
+    name: IQFinex
+  target: ETH
 - base: UBEX
   market:
-    identifier: catex
-    name: Catex
+    identifier: probit
+    name: Probit
   target: BTC
+- base: UBEX
+  market:
+    identifier: probit
+    name: Probit
+  target: ETH
+- base: UBEX
+  market:
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: UBEX
   market:
     identifier: saturn_network
@@ -82,6 +77,6 @@ tickers:
   target: ETH
 - base: UBEX
   market:
-    identifier: iqfinex
-    name: IQFinex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -22,9 +22,19 @@ symbol: molk
 tickers:
 - base: MOLK
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: instantbitex
+    name: Instant Bitex
+  target: BCH
+- base: MOLK
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: BTC
+- base: MOLK
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
 - base: MOLK
   market:
     identifier: instantbitex
@@ -32,29 +42,14 @@ tickers:
   target: USDT
 - base: MOLK
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: MOLK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: MOLK
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: MOLK
-  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
 - base: MOLK
   market:
-    identifier: instantbitex
-    name: Instant Bitex
-  target: BCH
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: MOLK
   market:
     identifier: tokenjar
@@ -62,11 +57,16 @@ tickers:
   target: WETH
 - base: MOLK
   market:
-    identifier: instantbitex
-    name: Instant Bitex
-  target: BTC
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: MOLK
   market:
-    identifier: instantbitex
-    name: Instant Bitex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: MOLK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

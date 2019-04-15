@@ -25,11 +25,6 @@ symbol: xwo
 tickers:
 - base: XWO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: XWO
-  market:
     identifier: altilly
     name: Altilly
   target: LTC
@@ -38,3 +33,13 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: XWO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: XWO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

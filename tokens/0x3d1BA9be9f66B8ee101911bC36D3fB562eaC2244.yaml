@@ -22,24 +22,9 @@ symbol: rvt
 tickers:
 - base: RVT
   market:
-    identifier: idex
-    name: Idex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
-- base: RVT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: RVT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: RVT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: RVT
   market:
     identifier: forkdelta
@@ -47,11 +32,26 @@ tickers:
   target: ETH
 - base: RVT
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: idex
+    name: Idex
   target: ETH
+- base: RVT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: RVT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: RVT
   market:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
+- base: RVT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

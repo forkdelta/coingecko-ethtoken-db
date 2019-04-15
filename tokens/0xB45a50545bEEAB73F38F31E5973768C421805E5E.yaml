@@ -36,6 +36,16 @@ symbol: tkr
 tickers:
 - base: TKR
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: TKR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TKR
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
@@ -48,24 +58,14 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
+  target: DAI
+- base: TKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
 - base: TKR
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: TKR
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: TKR
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: TKR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI

@@ -25,41 +25,6 @@ symbol: oax
 tickers:
 - base: OAX
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: OAX
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: OAX
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: BTC
-- base: OAX
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: OAX
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: OAX
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: OAX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: OAX
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -67,6 +32,31 @@ tickers:
   market:
     identifier: fcoin
     name: FCoin
+  target: ETH
+- base: OAX
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: OAX
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: OAX
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: BTC
+- base: OAX
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: OAX
+  market:
+    identifier: gate-io
+    name: Gate.io
   target: USDT
 - base: OAX
   market:
@@ -75,14 +65,9 @@ tickers:
   target: ETH
 - base: OAX
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: OAX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: OAX
   market:
     identifier: latoken
@@ -90,6 +75,26 @@ tickers:
   target: USDT
 - base: OAX
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: OAX
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: OAX
+  market:
     identifier: quoine
     name: Liquid (Quoine)
   target: BTC
+- base: OAX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: OAX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

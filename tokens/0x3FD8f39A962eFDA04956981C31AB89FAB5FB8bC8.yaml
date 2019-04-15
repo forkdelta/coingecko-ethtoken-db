@@ -26,7 +26,7 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: USD
+  target: BTC
 - base: RTH
   market:
     identifier: exrates
@@ -36,7 +36,12 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: BTC
+  target: USD
+- base: RTH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: RTH
   market:
     identifier: yobit
@@ -47,8 +52,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: RTH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE

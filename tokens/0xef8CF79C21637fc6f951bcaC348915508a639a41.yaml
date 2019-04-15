@@ -26,17 +26,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
+  target: BTC
 - base: SRCOIN
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: SRCOIN
+  market:
+    identifier: okex
+    name: OKEx
   target: BTC
 - base: SRCOIN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: SRCOIN
   market:
     identifier: okex
@@ -44,11 +49,6 @@ tickers:
   target: USDT
 - base: SRCOIN
   market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: SRCOIN
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

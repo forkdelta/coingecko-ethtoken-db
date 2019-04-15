@@ -120,19 +120,19 @@ symbol: cvt
 tickers:
 - base: CVT
   market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: CVT
-  market:
-    identifier: dcoin
-    name: Dcoin
-  target: ETH
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
 - base: CVT
   market:
     identifier: bit_z
     name: Bit-Z
-  target: BTC
+  target: ETH
+- base: CVT
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
 - base: CVT
   market:
     identifier: blockonix
@@ -140,13 +140,8 @@ tickers:
   target: USDT
 - base: CVT
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: CVT
-  market:
-    identifier: okex
-    name: OKEx
+    identifier: dcoin
+    name: Dcoin
   target: ETH
 - base: CVT
   market:
@@ -160,9 +155,14 @@ tickers:
   target: ETH
 - base: CVT
   market:
-    identifier: bit_z
-    name: Bit-Z
+    identifier: okex
+    name: OKEx
   target: ETH
+- base: CVT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: CVT
   market:
     identifier: tokenjar

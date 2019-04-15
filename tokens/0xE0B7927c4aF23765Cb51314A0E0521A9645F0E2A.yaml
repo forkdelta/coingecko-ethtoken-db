@@ -65,68 +65,13 @@ symbol: dgd
 tickers:
 - base: DGD
   market:
-    identifier: fex
-    name: FEX
-  target: ETH
-- base: DGD
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: DGD
-  market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
-- base: DGD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: DGD
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: DGD
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
-- base: DGD
-  market:
     identifier: airswap
     name: AirSwap
   target: ETH
 - base: DGD
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: DGD
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DGD
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: DGD
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: DGD
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
-- base: DGD
-  market:
-    identifier: cobinhood
-    name: Cobinhood
+    identifier: axnet
+    name: AXNET
   target: ETH
 - base: DGD
   market:
@@ -135,34 +80,39 @@ tickers:
   target: TUSD
 - base: DGD
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: GRC
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: ETH
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: USDT
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: DGD
   market:
-    identifier: axnet
-    name: AXNET
+    identifier: blockonix
+    name: Blockonix
   target: ETH
 - base: DGD
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BITEUR
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: DGD
+  market:
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: DGD
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: DGD
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
+- base: DGD
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
 - base: DGD
   market:
     identifier: cryptaldash
@@ -177,6 +127,11 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: ETH
+- base: DGD
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: USDT
 - base: DGD
   market:
@@ -185,39 +140,24 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BITCNY
-- base: DGD
-  market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: fex
+    name: FEX
   target: ETH
-- base: STEEM
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
 - base: DGD
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BITUSD
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DGD
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
 - base: DGD
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTS
-- base: DGD
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTC
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: DGD
   market:
     identifier: idex
@@ -225,6 +165,66 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: bigone
-    name: BigONE
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: DGD
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: DGD
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BITCNY
+- base: DGD
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BITEUR
+- base: DGD
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BITUSD
+- base: DGD
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
   target: BTC
+- base: DGD
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTS
+- base: STEEM
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: USDT
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: ETH
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: GRC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: DGD
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DGD
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

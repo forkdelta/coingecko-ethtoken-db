@@ -27,19 +27,9 @@ symbol: crc
 tickers:
 - base: CRC
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: CRC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: EUR
-- base: CRC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: CRC
   market:
     identifier: livecoin
@@ -49,7 +39,22 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: EUR
+- base: CRC
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: USD
+- base: CRC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: CRC
   market:
     identifier: yobit
@@ -60,8 +65,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: CRC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

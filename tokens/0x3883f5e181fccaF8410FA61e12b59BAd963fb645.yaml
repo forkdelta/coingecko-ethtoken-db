@@ -57,24 +57,14 @@ symbol: theta
 tickers:
 - base: THETA
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: blockonix
+    name: Blockonix
   target: ETH
 - base: THETA
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: blockonix
+    name: Blockonix
   target: USDT
-- base: THETA
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: THETA
-  market:
-    identifier: coineal
-    name: Coineal
-  target: ETH
 - base: THETA
   market:
     identifier: chainex
@@ -82,14 +72,49 @@ tickers:
   target: BTC
 - base: THETA
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: coineal
+    name: Coineal
   target: ETH
 - base: THETA
   market:
-    identifier: idex
-    name: Idex
+    identifier: coinplace
+    name: Coinplace
   target: ETH
+- base: THETA
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: THETA
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: THETA
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: THETA
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: THETA
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: THETA
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: THETA
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: USDT
 - base: THETA
   market:
     identifier: ddex
@@ -97,14 +122,19 @@ tickers:
   target: ETH
 - base: THETA
   market:
-    identifier: financex
-    name: FinanceX
-  target: VND
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: THETA
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
+- base: THETA
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: THETA
   market:
     identifier: financex
@@ -117,9 +147,9 @@ tickers:
   target: IDR
 - base: THETA
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: ETH
+    identifier: financex
+    name: FinanceX
+  target: VND
 - base: THETA
   market:
     identifier: forkdelta
@@ -127,49 +157,19 @@ tickers:
   target: ETH
 - base: THETA
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: THETA
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: THETA
-  market:
-    identifier: fatbtc
-    name: FatBTC
+    identifier: gate-io
+    name: Gate.io
   target: ETH
 - base: THETA
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: gate-io
+    name: Gate.io
   target: USDT
 - base: THETA
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: idex
+    name: Idex
   target: ETH
-- base: THETA
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
-- base: THETA
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: THETA
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: THETA
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: THETA
   market:
     identifier: livecoin
@@ -177,9 +177,14 @@ tickers:
   target: ETH
 - base: THETA
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: THETA
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: THETA
   market:
     identifier: saturn_network
@@ -189,11 +194,6 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
-  target: ETH
-- base: THETA
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
   target: ETH
 - base: THETA
   market:

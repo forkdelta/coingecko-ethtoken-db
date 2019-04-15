@@ -31,11 +31,6 @@ symbol: oio
 tickers:
 - base: OIO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: OIO
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -44,3 +39,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: OIO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

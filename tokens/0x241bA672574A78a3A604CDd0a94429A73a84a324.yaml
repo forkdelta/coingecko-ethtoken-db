@@ -27,41 +27,6 @@ symbol: kwatt
 tickers:
 - base: KWATT
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: ETH
-- base: KWATT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: KWATT
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: KWATT
-  market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
-- base: KWATT
-  market:
-    identifier: exrates
-    name: Exrates
-  target: USD
-- base: KWATT
-  market:
-    identifier: simex
-    name: Simex
-  target: BTC
-- base: KWATT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: KWATT
-  market:
     identifier: bitker
     name: BITKER
   target: BTC
@@ -72,19 +37,44 @@ tickers:
   target: USDT
 - base: KWATT
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: cobinhood
+    name: Cobinhood
   target: ETH
 - base: KWATT
   market:
-    identifier: simex
-    name: Simex
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: KWATT
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: KWATT
+  market:
+    identifier: exrates
+    name: Exrates
   target: USD
+- base: KWATT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: KWATT
   market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: KWATT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: KWATT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: KWATT
   market:
     identifier: saturn_network
@@ -94,4 +84,14 @@ tickers:
   market:
     identifier: simex
     name: Simex
+  target: BTC
+- base: KWATT
+  market:
+    identifier: simex
+    name: Simex
   target: ETH
+- base: KWATT
+  market:
+    identifier: simex
+    name: Simex
+  target: USD

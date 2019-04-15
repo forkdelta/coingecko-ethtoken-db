@@ -25,9 +25,14 @@ symbol: tie
 tickers:
 - base: TIE
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: TIE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: TIE
   market:
     identifier: idex
@@ -35,26 +40,21 @@ tickers:
   target: ETH
 - base: TIE
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: TIE
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: TIE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: TIE
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: TIE
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: TIE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: TIE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

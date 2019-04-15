@@ -22,9 +22,19 @@ symbol: baas
 tickers:
 - base: BAAS
   market:
-    identifier: idax
-    name: Idax
+    identifier: coinbene
+    name: CoinBene
   target: BTC
+- base: BAAS
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: BTC
+- base: BAAS
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: ETH
 - base: BAAS
   market:
     identifier: coinzest
@@ -32,26 +42,11 @@ tickers:
   target: KRW
 - base: BAAS
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BAAS
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: BTC
-- base: BAAS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: BAAS
-  market:
     identifier: idax
     name: Idax
   target: USDT
 - base: BAAS
   market:
-    identifier: coinzest
-    name: Coinzest
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

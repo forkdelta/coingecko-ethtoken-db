@@ -23,24 +23,49 @@ symbol: wab
 tickers:
 - base: WAB
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: WAB
+  market:
     identifier: coinbit
     name: Coinbit
   target: KRW
 - base: WAB
   market:
-    identifier: idax
-    name: Idax
+    identifier: fatbtc
+    name: FatBTC
   target: ETH
 - base: WAB
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
 - base: WAB
   market:
     identifier: idax
     name: Idax
   target: BTC
+- base: WAB
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
+- base: WAB
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WAB
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: WAB
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: WAB
   market:
     identifier: tokenjar
@@ -50,39 +75,19 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
+  target: BTC
+- base: WAB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
+- base: WAB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: LTC
 - base: WAB
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: DOGE
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
   target: USDT
-- base: WAB
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
-- base: WAB
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: ETH
-- base: WAB
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

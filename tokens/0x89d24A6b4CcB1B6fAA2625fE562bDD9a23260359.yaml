@@ -87,41 +87,26 @@ links:
 name: Dai
 symbol: dai
 tickers:
-- base: XLM
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: DAI
 - base: DAI
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TL
-- base: BTC
+    identifier: bisq
+    name: Bisq
+  target: BTC
+- base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: OMG
+    identifier: codex
+    name: CODEX
+  target: BTC
+- base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: GVT
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: ETH
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: BAT
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
 - base: DAI
   market:
     identifier: coinchangex
@@ -132,136 +117,91 @@ tickers:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
-- base: FAT
+- base: COSS
   market:
-    identifier: fatbtc
-    name: FatBTC
+    identifier: coss
+    name: COSS
   target: DAI
-- base: ICX
+- base: BTC
   market:
-    identifier: bitbegin
-    name: Bitbegin
+    identifier: coss
+    name: COSS
   target: DAI
-- base: WETH
+- base: MKR
   market:
-    identifier: ddex
-    name: DDEX
+    identifier: coss
+    name: COSS
   target: DAI
-- base: DAI
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
 - base: OMG
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: DAI
-  market:
-    identifier: codex
-    name: CODEX
-  target: BTC
 - base: MKR
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: DAI
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
 - base: TUSD
   market:
     identifier: ddex
     name: DDEX
-  target: DAI
-- base: ZRX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: DAI
 - base: USDC
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
 - base: ZRX
   market:
     identifier: ddex
     name: DDEX
+  target: DAI
+- base: DAI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: DAI
+  market:
+    identifier: ethex
+    name: Ethex
+  target: ETH
+- base: ZRX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: DAI
 - base: OMG
   market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: ZRX
+- base: XLM
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: fatbtc
+    name: FatBTC
   target: DAI
+- base: FAT
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: DAI
+- base: DAI
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
+- base: DAI
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: DAI
   market:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
-  target: ETH
-- base: DNN
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: DAI
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: SPANK
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: DAI
-  market:
-    identifier: coinbene
-    name: CoinBene
   target: BTC
-- base: DAI
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: USD
-- base: MANA
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: DAI
-  market:
-    identifier: bisq
-    name: Bisq
-  target: BTC
-- base: FOAM
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: ETH
   market:
     identifier: gbx
@@ -276,17 +216,62 @@ tickers:
   market:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
-  target: BTC
-- base: DAI
-  market:
-    identifier: ethex
-    name: Ethex
   target: ETH
 - base: DAI
   market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
+- base: ETH
+  market:
+    identifier: idex
+    name: Idex
+  target: DAI
+- base: DNN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SPANK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: FOAM
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: MANA
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TL
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USD
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: BNB
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
 - base: DAI
   market:
     identifier: thetokenstore

@@ -21,9 +21,14 @@ symbol: torq
 tickers:
 - base: TORQ
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TORQ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: TORQ
   market:
     identifier: yobit
@@ -33,14 +38,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: TORQ
+  market:
+    identifier: yobit
+    name: YoBit
   target: WAVES
-- base: TORQ
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: TORQ
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

@@ -43,28 +43,38 @@ symbol: cmt
 tickers:
 - base: CMT
   market:
-    identifier: lbank
-    name: Lbank
+    identifier: axnet
+    name: AXNET
   target: ETH
 - base: CMT
   market:
-    identifier: lbank
-    name: Lbank
-  target: BTC
+    identifier: axnet
+    name: AXNET
+  target: TUSD
 - base: CMT
   market:
-    identifier: zgtop
-    name: ZG.TOP
-  target: USDT
+    identifier: bcex
+    name: BCEX
+  target: CKUSD
 - base: CMT
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: bitker
+    name: BITKER
+  target: ECR20
+- base: CMT
+  market:
+    identifier: bitker
+    name: BITKER
   target: ETH
 - base: CMT
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: CMT
+  market:
+    identifier: blockonix
+    name: Blockonix
   target: USDT
 - base: CMT
   market:
@@ -73,16 +83,21 @@ tickers:
   target: ETH
 - base: CMT
   market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
+- base: CMT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BCH
+- base: CMT
+  market:
     identifier: coinex
     name: CoinEx
   target: BTC
 - base: CMT
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: CMT
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -90,12 +105,47 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: USDT
+  target: CRD
 - base: CMT
   market:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
+- base: CMT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: CMT
+  market:
+    identifier: dragonex
+    name: DragonEx
+  target: ETH
+- base: CMT
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: CMT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: CMT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: CMT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CMT
+  market:
+    identifier: gdac
+    name: GDAC
+  target: KRW
 - base: CMT
   market:
     identifier: joyso
@@ -103,9 +153,9 @@ tickers:
   target: ETH
 - base: CMT
   market:
-    identifier: rfinex
-    name: Rfinex
-  target: ETH
+    identifier: koinex
+    name: Koinex
+  target: INR
 - base: CMT
   market:
     identifier: koinex
@@ -113,24 +163,19 @@ tickers:
   target: XRP
 - base: CMT
   market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
+    identifier: lbank
+    name: Lbank
+  target: BTC
 - base: CMT
   market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: TEN
+    identifier: lbank
+    name: Lbank
+  target: ETH
 - base: CMT
   market:
     identifier: purcow
     name: Purcow
   target: BTC
-- base: CMT
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: ETH
   market:
     identifier: purcow
@@ -143,24 +188,9 @@ tickers:
   target: CMT
 - base: CMT
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: purcow
+    name: Purcow
   target: ETH
-- base: CMT
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
-- base: CMT
-  market:
-    identifier: dragonex
-    name: DragonEx
-  target: ETH
-- base: CMT
-  market:
-    identifier: bcex
-    name: BCEX
-  target: CKUSD
 - base: CMT
   market:
     identifier: rfinex
@@ -168,44 +198,14 @@ tickers:
   target: CNYR
 - base: CMT
   market:
-    identifier: zebpay
-    name: Zebpay
-  target: INR
-- base: CMT
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
-- base: CMT
-  market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: rfinex
+    name: Rfinex
   target: ETH
 - base: CMT
   market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
-- base: CMT
-  market:
-    identifier: bitker
-    name: BITKER
-  target: ECR20
-- base: CMT
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
-- base: CMT
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: CMT
-  market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
 - base: CMT
   market:
     identifier: zebpay
@@ -213,11 +213,11 @@ tickers:
   target: BTC
 - base: CMT
   market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
+    identifier: zebpay
+    name: Zebpay
+  target: INR
 - base: CMT
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
+    identifier: zgtop
+    name: ZG.TOP
+  target: USDT

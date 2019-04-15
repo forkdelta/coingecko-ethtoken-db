@@ -68,14 +68,14 @@ symbol: vite
 tickers:
 - base: VITE
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: bitker
+    name: BITKER
   target: ETH
 - base: VITE
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: coinex
+    name: CoinEx
+  target: BCH
 - base: VITE
   market:
     identifier: coinex
@@ -85,6 +85,11 @@ tickers:
   market:
     identifier: coinex
     name: CoinEx
+  target: ETH
+- base: VITE
+  market:
+    identifier: dcoin
+    name: Dcoin
   target: ETH
 - base: VITE
   market:
@@ -98,16 +103,11 @@ tickers:
   target: ETH
 - base: VITE
   market:
-    identifier: coinex
-    name: CoinEx
-  target: BCH
-- base: VITE
-  market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
-- base: VITE
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: VITE
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

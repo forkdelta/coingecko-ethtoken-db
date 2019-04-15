@@ -25,9 +25,29 @@ symbol: tix
 tickers:
 - base: TIX
   market:
-    identifier: upbit
-    name: Upbit
-  target: KRW
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: TIX
+  market:
+    identifier: chainex
+    name: ChainEX
+  target: ZAR
+- base: TIX
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: TIX
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TIX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: TIX
   market:
     identifier: radar_relay
@@ -40,31 +60,6 @@ tickers:
   target: WETH
 - base: TIX
   market:
-    identifier: chainex
-    name: ChainEX
-  target: USDT
-- base: TIX
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: TIX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: TIX
-  market:
-    identifier: chainex
-    name: ChainEX
-  target: ZAR
-- base: TIX
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: TIX
-  market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
+    identifier: upbit
+    name: Upbit
+  target: KRW

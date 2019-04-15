@@ -23,28 +23,13 @@ symbol: mda
 tickers:
 - base: MDA
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: coinbene
+    name: CoinBene
   target: USDT
 - base: MDA
   market:
     identifier: coinpark
     name: Coinpark
-  target: ETH
-- base: MDA
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: MDA
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: MDA
-  market:
-    identifier: okex
-    name: OKEx
   target: ETH
 - base: MDA
   market:
@@ -58,21 +43,36 @@ tickers:
   target: ETH
 - base: MDA
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MDA
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
-- base: MDA
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: MDA
   market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: MDA
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: MDA
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: MDA
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: MDA
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: MDA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

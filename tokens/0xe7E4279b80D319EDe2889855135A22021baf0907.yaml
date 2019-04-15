@@ -22,34 +22,24 @@ symbol: zeus
 tickers:
 - base: ZEUS
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: LTC
-- base: ZEUS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ZEUS
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
-- base: ZEUS
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
-- base: ZEUS
-  market:
-    identifier: bleutrade
-    name: bleutrade
+    identifier: bitker
+    name: BITKER
   target: BTC
 - base: ZEUS
   market:
     identifier: bitker
     name: BITKER
+  target: ETH
+- base: ZEUS
+  market:
+    identifier: bitker
+    name: BITKER
   target: USDT
+- base: ZEUS
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: BTC
 - base: ZEUS
   market:
     identifier: bleutrade
@@ -72,11 +62,21 @@ tickers:
   target: BTC
 - base: ZEUS
   market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: ZEUS
   market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
+    identifier: stocks_exchange
+    name: STEX
+  target: LTC
+- base: ZEUS
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
+- base: ZEUS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

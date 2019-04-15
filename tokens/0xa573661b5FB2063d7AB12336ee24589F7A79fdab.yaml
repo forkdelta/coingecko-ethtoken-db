@@ -25,6 +25,11 @@ symbol: ichx
 tickers:
 - base: ICHX
   market:
+    identifier: coinlim
+    name: Coinlim
+  target: BTC
+- base: ICHX
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -40,6 +45,6 @@ tickers:
   target: USDT
 - base: ICHX
   market:
-    identifier: coinlim
-    name: Coinlim
-  target: BTC
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

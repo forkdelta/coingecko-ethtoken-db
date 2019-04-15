@@ -26,6 +26,11 @@ symbol: atl
 tickers:
 - base: ATL
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: ATL
+  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -41,13 +46,8 @@ tickers:
   target: ETH
 - base: ATL
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: ATL
-  market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: ATL
   market:
@@ -58,14 +58,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
-- base: ATL
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
+  target: DOGE
 - base: ATL
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: RUR
+- base: ATL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

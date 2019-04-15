@@ -33,11 +33,6 @@ tickers:
   target: ETH
 - base: IXE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: IXE
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -45,9 +40,14 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
+  target: BTC
 - base: IXE
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
+  target: ETH
+- base: IXE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

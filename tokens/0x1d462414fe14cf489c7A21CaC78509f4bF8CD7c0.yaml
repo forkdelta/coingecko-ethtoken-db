@@ -25,11 +25,6 @@ links:
 name: CanYaCoin
 symbol: can
 tickers:
-- base: FBC734C9-5E25-419C-A184-283EF76F58C6
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
 - base: CAN
   market:
     identifier: coss
@@ -37,38 +32,13 @@ tickers:
   target: BTC
 - base: CAN
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: FBC734C9-5E25-419C-A184-283EF76F58C6
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
-- base: CAN
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: CAN
-  market:
-    identifier: idax
-    name: Idax
-  target: ETH
-- base: CAN
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: CAN
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: CAN
-  market:
     identifier: coss
     name: COSS
+  target: ETH
+- base: CAN
+  market:
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: CAN
   market:
@@ -77,19 +47,34 @@ tickers:
   target: ETH
 - base: CAN
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
+    identifier: idax
+    name: Idax
   target: BTC
 - base: CAN
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: idax
+    name: Idax
   target: ETH
 - base: CAN
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: FBC734C9-5E25-419C-A184-283EF76F58C6
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: FBC734C9-5E25-419C-A184-283EF76F58C6
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: CAN
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
 - base: CAN
   market:
     identifier: quoine
@@ -97,6 +82,21 @@ tickers:
   target: ETH
 - base: CAN
   market:
-    identifier: idax
-    name: Idax
-  target: BTC
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: CAN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CAN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: CAN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

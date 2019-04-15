@@ -40,6 +40,16 @@ symbol: wt
 tickers:
 - base: WT
   market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: WT
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
+- base: WT
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -48,8 +58,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: WT
-  market:
-    identifier: idax
-    name: Idax
-  target: ETH

@@ -27,11 +27,6 @@ symbol: light
 tickers:
 - base: LIGHT
   market:
-    identifier: kkcoin
-    name: KKCoin
-  target: ETH
-- base: LIGHT
-  market:
     identifier: idax
     name: Idax
   target: BTC
@@ -39,7 +34,17 @@ tickers:
   market:
     identifier: idax
     name: Idax
+  target: ETH
+- base: LIGHT
+  market:
+    identifier: idax
+    name: Idax
   target: USDT
+- base: LIGHT
+  market:
+    identifier: kkcoin
+    name: KKCoin
+  target: ETH
 - base: LIGHT
   market:
     identifier: tokenjar

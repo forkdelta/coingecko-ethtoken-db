@@ -24,19 +24,19 @@ symbol: itl
 tickers:
 - base: ITL
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: DOGE
-- base: ITL
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
-- base: ITL
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
+- base: ITL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ITL
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: LTC
 - base: ITL
   market:
     identifier: thetokenstore
@@ -46,14 +46,14 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: USDT
+  target: BTC
 - base: ITL
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: BTC
+  target: LTC
 - base: ITL
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT

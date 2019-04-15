@@ -28,6 +28,11 @@ symbol: mitx
 tickers:
 - base: MITX
   market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH
+- base: MITX
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -35,24 +40,14 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: BTC
-- base: MITX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MITX
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: MITX
-  market:
-    identifier: coinsuper
-    name: Coinsuper
   target: ETH
 - base: MITX
   market:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
+- base: MITX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -23,11 +23,6 @@ symbol: ero
 tickers:
 - base: ERO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: ERO
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -36,6 +31,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: ERO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: ERO
   market:
     identifier: livecoin

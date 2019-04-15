@@ -54,6 +54,16 @@ tickers:
   target: ETH
 - base: BM
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: BM
+  market:
     identifier: yobit
     name: YoBit
   target: RUR
@@ -62,13 +72,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: BM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: BM
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

@@ -35,37 +35,47 @@ tickers:
   market:
     identifier: bitforex
     name: Bitforex
-  target: USDT
+  target: ETH
 - base: MET
   market:
     identifier: bitforex
     name: Bitforex
-  target: ETH
-- base: MET
-  market:
-    identifier: gate-io
-    name: Gate.io
   target: USDT
-- base: MET
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
 - base: MET
   market:
     identifier: ddex
     name: DDEX
   target: ETH
-- base: MET
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: MET
   market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: MET
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: MET
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: MET
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: MET
   market:
     identifier: yobit
@@ -76,13 +86,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: MET
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MET
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

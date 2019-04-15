@@ -19,14 +19,14 @@ symbol: cms
 tickers:
 - base: CMS
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: CMS
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: CMS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: CMS
   market:
     identifier: yobit
@@ -36,9 +36,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR
 - base: CMS
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: WAVES

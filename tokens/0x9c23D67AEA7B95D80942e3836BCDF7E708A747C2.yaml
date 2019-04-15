@@ -49,28 +49,8 @@ symbol: loci
 tickers:
 - base: LOCI
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: LOCI
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: LOCI
-  market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: LOCI
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTC
-- base: LOCI
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: ETH
 - base: LOCI
   market:
@@ -79,6 +59,16 @@ tickers:
   target: ETH
 - base: LOCI
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: LOCI
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: LOCI
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -86,7 +76,17 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: LOCI
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
+- base: LOCI
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTC
 - base: LOCI
   market:
     identifier: tokenjar

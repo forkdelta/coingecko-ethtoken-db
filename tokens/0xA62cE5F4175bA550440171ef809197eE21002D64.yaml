@@ -27,13 +27,8 @@ symbol: scavo
 tickers:
 - base: SCAVO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: SCAVO
-  market:
-    identifier: raisex
-    name: Raisex
+    identifier: coinchangex
+    name: Coinchangex
   target: ETH
 - base: SCAVO
   market:
@@ -42,6 +37,11 @@ tickers:
   target: BTC
 - base: SCAVO
   market:
-    identifier: coinchangex
-    name: Coinchangex
+    identifier: raisex
+    name: Raisex
   target: ETH
+- base: SCAVO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

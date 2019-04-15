@@ -36,19 +36,9 @@ symbol: agvc
 tickers:
 - base: AGVC
   market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: BTC
-- base: AGVC
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: AGVC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: AGVC
   market:
     identifier: raisex
@@ -64,3 +54,8 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: LTC
+- base: AGVC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

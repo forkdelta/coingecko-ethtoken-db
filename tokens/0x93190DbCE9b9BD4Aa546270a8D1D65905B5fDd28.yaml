@@ -27,9 +27,9 @@ symbol: daps
 tickers:
 - base: DAPS
   market:
-    identifier: txbit
-    name: Txbit
-  target: ETH
+    identifier: catex
+    name: Catex
+  target: BTC
 - base: DAPS
   market:
     identifier: catex
@@ -39,16 +39,6 @@ tickers:
   market:
     identifier: catex
     name: Catex
-  target: BTC
-- base: DAPS
-  market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: DAPS
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: DAPS
   market:
@@ -57,9 +47,19 @@ tickers:
   target: USDT
 - base: DAPS
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DAPS
+  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: DAPS
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: DAPS
   market:
     identifier: txbit
@@ -67,8 +67,8 @@ tickers:
   target: BTC
 - base: DAPS
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: txbit
+    name: Txbit
   target: ETH
 - base: DAPS
   market:

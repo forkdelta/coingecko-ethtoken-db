@@ -28,39 +28,14 @@ symbol: cnn
 tickers:
 - base: CNN
   market:
-    identifier: uex
-    name: UEX
+    identifier: axnet
+    name: AXNET
   target: ETH
 - base: CNN
   market:
-    identifier: uex
-    name: UEX
-  target: USDT
-- base: CNN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: CNN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: CNN
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: ETH
-- base: CNN
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: CNN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: axnet
+    name: AXNET
+  target: TUSD
 - base: CNN
   market:
     identifier: coinbene
@@ -73,8 +48,28 @@ tickers:
   target: ETH
 - base: CNN
   market:
-    identifier: axnet
-    name: AXNET
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: CNN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: CNN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: CNN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CNN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: CNN
   market:
@@ -83,11 +78,11 @@ tickers:
   target: WETH
 - base: CNN
   market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
+    identifier: uex
+    name: UEX
+  target: ETH
 - base: CNN
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: uex
+    name: UEX
+  target: USDT

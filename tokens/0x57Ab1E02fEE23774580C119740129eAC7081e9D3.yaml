@@ -35,8 +35,18 @@ symbol: susd
 tickers:
 - base: NUSD
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: cryptology
+    name: Cryptology
+  target: BTC
+- base: NUSD
+  market:
+    identifier: cryptology
+    name: Cryptology
+  target: ETH
+- base: NUSD
+  market:
+    identifier: cryptology
+    name: Cryptology
   target: USDT
 - base: NUSD
   market:
@@ -55,16 +65,6 @@ tickers:
   target: ETH
 - base: NUSD
   market:
-    identifier: cryptology
-    name: Cryptology
-  target: BTC
-- base: NUSD
-  market:
-    identifier: cryptology
-    name: Cryptology
-  target: ETH
-- base: NUSD
-  market:
-    identifier: cryptology
-    name: Cryptology
+    identifier: kucoin
+    name: KuCoin
   target: USDT

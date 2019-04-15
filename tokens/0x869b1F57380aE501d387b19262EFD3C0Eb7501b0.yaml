@@ -29,6 +29,11 @@ symbol: oxy
 tickers:
 - base: OXY
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: OXY
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -37,6 +42,21 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: OXY
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: OXY
+  market:
+    identifier: purcow
+    name: Purcow
+  target: BTC
+- base: OXY
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
 - base: BTC
   market:
     identifier: purcow
@@ -44,21 +64,6 @@ tickers:
   target: OXY
 - base: OXY
   market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
-- base: OXY
-  market:
-    identifier: purcow
-    name: Purcow
-  target: BTC
-- base: OXY
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: OXY
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC

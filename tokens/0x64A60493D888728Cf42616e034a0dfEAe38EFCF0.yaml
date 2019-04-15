@@ -51,19 +51,19 @@ symbol: olt
 tickers:
 - base: OLT
   market:
-    identifier: coinex
-    name: CoinEx
-  target: ETH
-- base: OLT
-  market:
-    identifier: coinex
-    name: CoinEx
+    identifier: bitmax
+    name: BitMax
   target: BTC
 - base: OLT
   market:
-    identifier: uex
-    name: UEX
+    identifier: bitmax
+    name: BitMax
   target: ETH
+- base: OLT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BCH
 - base: OLT
   market:
     identifier: coinex
@@ -71,23 +71,13 @@ tickers:
   target: USDT
 - base: OLT
   market:
-    identifier: bitmax
-    name: BitMax
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: OLT
   market:
-    identifier: bitmax
-    name: BitMax
-  target: BTC
-- base: OLT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: OLT
-  market:
-    identifier: fcoin
-    name: FCoin
+    identifier: idex
+    name: Idex
   target: ETH
 - base: OLT
   market:
@@ -96,11 +86,21 @@ tickers:
   target: USDT
 - base: OLT
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: OLT
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: OLT
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: OLT
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: uex
+    name: UEX
   target: ETH

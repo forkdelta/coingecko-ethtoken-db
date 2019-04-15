@@ -27,9 +27,14 @@ symbol: ebc
 tickers:
 - base: EBC
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
+    identifier: coinbene
+    name: CoinBene
   target: BTC
+- base: EBC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: EBC
   market:
     identifier: tokenjar
@@ -39,9 +44,9 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: DOGE
+  target: BTC
 - base: EBC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE

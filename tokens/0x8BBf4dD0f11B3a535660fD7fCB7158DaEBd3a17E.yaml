@@ -15,11 +15,6 @@ symbol: egas
 tickers:
 - base: EGAS
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: EGAS
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -28,3 +23,8 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: EGAS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -20,21 +20,6 @@ symbol: lnk
 tickers:
 - base: LNK
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: NXT
-- base: LNK
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: LNK
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: LNK
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -43,3 +28,18 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: LNK
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: LNK
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: NXT
+- base: LNK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

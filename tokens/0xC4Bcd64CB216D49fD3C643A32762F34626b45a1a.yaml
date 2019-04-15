@@ -64,13 +64,23 @@ symbol: cosm
 tickers:
 - base: COSM
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: coinall
+    name: CoinAll
   target: BTC
 - base: COSM
   market:
-    identifier: uex
-    name: UEX
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: COSM
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: BTC
+- base: COSM
+  market:
+    identifier: coinzest
+    name: Coinzest
   target: ETH
 - base: COSM
   market:
@@ -79,29 +89,19 @@ tickers:
   target: KRW
 - base: COSM
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: dcoin
+    name: Dcoin
   target: BTC
-- base: COSM
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: BTC
-- base: COSM
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: BTC
-- base: COSM
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
 - base: COSM
   market:
     identifier: fcoin
     name: FCoin
   target: ETH
+- base: COSM
+  market:
+    identifier: gdac
+    name: GDAC
+  target: KRW
 - base: COSM
   market:
     identifier: idex
@@ -114,11 +114,11 @@ tickers:
   target: ETH
 - base: COSM
   market:
-    identifier: coinzest
-    name: Coinzest
-  target: ETH
-- base: COSM
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: COSM
+  market:
+    identifier: uex
+    name: UEX
+  target: ETH

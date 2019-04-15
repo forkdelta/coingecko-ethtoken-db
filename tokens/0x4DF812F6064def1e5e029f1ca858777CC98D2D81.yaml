@@ -28,24 +28,14 @@ symbol: xaur
 tickers:
 - base: XAUR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: XAUR
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: XAUR
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
 - base: XAUR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: XAUR
   market:
     identifier: idex
@@ -56,3 +46,13 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: XAUR
+- base: XAUR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: XAUR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

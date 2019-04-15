@@ -22,11 +22,6 @@ symbol: nmr
 tickers:
 - base: NMR
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: NMR
-  market:
     identifier: airswap
     name: AirSwap
   target: ETH
@@ -37,14 +32,14 @@ tickers:
   target: ETH
 - base: NMR
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: ddex
+    name: DDEX
   target: WETH
 - base: NMR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: NMR
   market:
     identifier: forkdelta
@@ -52,19 +47,49 @@ tickers:
   target: ETH
 - base: NMR
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NMR
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: NMR
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: paroexchange
+    name: Paro Exchange
+  target: ATCC
+- base: NMR
+  market:
+    identifier: paroexchange
+    name: Paro Exchange
+  target: BTC
+- base: NMR
+  market:
+    identifier: paroexchange
+    name: Paro Exchange
   target: ETH
+- base: NMR
+  market:
+    identifier: paroexchange
+    name: Paro Exchange
+  target: LMX
+- base: NMR
+  market:
+    identifier: paroexchange
+    name: Paro Exchange
+  target: TUSD
+- base: NMR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: NMR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: NMR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: NMR
   market:
     identifier: yobit
@@ -80,28 +105,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: NMR
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: ATCC
-- base: NMR
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: LMX
-- base: NMR
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: BTC
-- base: NMR
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: TUSD
-- base: NMR
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: ETH

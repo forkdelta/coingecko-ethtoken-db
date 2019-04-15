@@ -20,44 +20,29 @@ symbol: elec
 tickers:
 - base: ELEC
   market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: ELEC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ELEC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ELEC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: ELEC
+  market:
     identifier: gate-io
     name: Gate.io
   target: USDT
-- base: ELEC
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: ELEC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: ELEC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: ELEC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: ELEC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ELEC
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: ELEC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: ELEC
   market:
     identifier: idax
@@ -70,11 +55,26 @@ tickers:
   target: ETH
 - base: ELEC
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: ELEC
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: ELEC
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: ELEC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ELEC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ELEC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

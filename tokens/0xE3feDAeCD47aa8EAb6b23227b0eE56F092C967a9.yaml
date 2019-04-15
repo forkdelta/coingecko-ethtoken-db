@@ -49,9 +49,9 @@ symbol: pst
 tickers:
 - base: PST
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
+    identifier: bcex
+    name: BCEX
+  target: ETH
 - base: PST
   market:
     identifier: coinmex
@@ -59,38 +59,8 @@ tickers:
   target: ETH
 - base: PST
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: PST
-  market:
     identifier: ethex
     name: Ethex
-  target: ETH
-- base: PST
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: PST
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: PST
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: PST
-  market:
-    identifier: bcex
-    name: BCEX
-  target: ETH
-- base: PST
-  market:
-    identifier: forkdelta
-    name: ForkDelta
   target: ETH
 - base: PST
   market:
@@ -104,6 +74,26 @@ tickers:
   target: ETH
 - base: PST
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: PST
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: PST
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: PST
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PST
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
@@ -111,4 +101,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: PST
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: PST
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

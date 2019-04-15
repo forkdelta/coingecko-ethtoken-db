@@ -20,14 +20,19 @@ symbol: pro
 tickers:
 - base: PRO
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: PRO
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
+- base: PRO
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: PRO
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: PRO
   market:
     identifier: forkdelta
@@ -35,14 +40,9 @@ tickers:
   target: ETH
 - base: PRO
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: livecoin
+    name: Livecoin
   target: ETH
-- base: PRO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: PRO
   market:
     identifier: livecoin
@@ -50,6 +50,6 @@ tickers:
   target: USD
 - base: PRO
   market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

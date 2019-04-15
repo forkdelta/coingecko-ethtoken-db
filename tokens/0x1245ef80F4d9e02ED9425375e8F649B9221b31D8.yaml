@@ -24,24 +24,14 @@ symbol: arct
 tickers:
 - base: ARCT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: ARCT
-  market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bitker
+    name: BITKER
   target: BTC
-- base: ARCT
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: ARCT
   market:
     identifier: bitker
     name: BITKER
-  target: BTC
+  target: ETH
 - base: ARCT
   market:
     identifier: everbloom
@@ -49,19 +39,24 @@ tickers:
   target: ETH
 - base: ARCT
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: ARCT
-  market:
-    identifier: bitker
-    name: BITKER
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: ARCT
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: ARCT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: ARCT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: ARCT
   market:
     identifier: yobit
@@ -72,3 +67,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: ARCT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -28,13 +28,18 @@ symbol: blo
 tickers:
 - base: BLO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: altilly
+    name: Altilly
+  target: BTC
 - base: BLO
   market:
-    identifier: idex
-    name: Idex
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: BLO
+  market:
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: BLO
   market:
@@ -43,16 +48,11 @@ tickers:
   target: ETH
 - base: BLO
   market:
-    identifier: altilly
-    name: Altilly
-  target: BTC
-- base: BLO
-  market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: idex
+    name: Idex
   target: ETH
 - base: BLO
   market:
-    identifier: altilly
-    name: Altilly
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -23,8 +23,28 @@ symbol: dpy
 tickers:
 - base: DPY
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: DPY
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: DPY
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: BTC
+- base: DPY
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
+- base: DPY
+  market:
+    identifier: cybex
+    name: Cybex DEX
   target: USDT
 - base: DPY
   market:
@@ -38,26 +58,6 @@ tickers:
   target: ETH
 - base: DPY
   market:
-    identifier: cybex
-    name: Cybex DEX
+    identifier: gate-io
+    name: Gate.io
   target: USDT
-- base: DPY
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
-- base: DPY
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: BTC
-- base: DPY
-  market:
-    identifier: abcc
-    name: ABCC
-  target: ETH
-- base: DPY
-  market:
-    identifier: abcc
-    name: ABCC
-  target: BTC

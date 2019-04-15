@@ -45,9 +45,29 @@ symbol: zco
 tickers:
 - base: ZCO
   market:
+    identifier: bitker
+    name: BITKER
+  target: BTC
+- base: ZCO
+  market:
+    identifier: bitker
+    name: BITKER
+  target: USDT
+- base: ZCO
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
+- base: ZCO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ZCO
+  market:
+    identifier: koinex
+    name: Koinex
+  target: BTC
 - base: ZCO
   market:
     identifier: koinex
@@ -60,19 +80,9 @@ tickers:
   target: XRP
 - base: ZCO
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: ZCO
-  market:
-    identifier: koinex
-    name: Koinex
-  target: BTC
-- base: ZCO
-  market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: ZCO
   market:
     identifier: latoken
@@ -80,13 +90,13 @@ tickers:
   target: LA
 - base: ZCO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: ZCO
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: quoine
+    name: Liquid (Quoine)
   target: ETH
 - base: ZCO
   market:
@@ -95,16 +105,6 @@ tickers:
   target: QASH
 - base: ZCO
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: ZCO
-  market:
-    identifier: bitker
-    name: BITKER
-  target: USDT
-- base: ZCO
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -22,11 +22,6 @@ symbol: zpay
 tickers:
 - base: ZPAY
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ZPAY
-  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
@@ -35,3 +30,8 @@ tickers:
     identifier: coinplace
     name: Coinplace
   target: ETH
+- base: ZPAY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

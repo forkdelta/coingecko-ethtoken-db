@@ -20,11 +20,6 @@ links:
 name: Primebank Coin
 symbol: pmc
 tickers:
-- base: PMC2
-  market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
 - base: PMC
   market:
     identifier: ddex
@@ -35,6 +30,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: PMC2
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
 - base: PMC
   market:
     identifier: thetokenstore

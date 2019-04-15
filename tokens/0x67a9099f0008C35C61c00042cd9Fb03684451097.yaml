@@ -60,19 +60,14 @@ symbol: gst
 tickers:
 - base: GST
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: GST
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: GST
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: GST
   market:
     identifier: tokenjar
@@ -80,6 +75,16 @@ tickers:
   target: WETH
 - base: GST
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: GST
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: GST
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

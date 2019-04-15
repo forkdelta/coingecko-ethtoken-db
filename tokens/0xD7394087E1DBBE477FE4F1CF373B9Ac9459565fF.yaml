@@ -27,13 +27,18 @@ symbol: ret
 tickers:
 - base: RET
   market:
-    identifier: idax
-    name: Idax
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: RET
+  market:
+    identifier: exrates
+    name: Exrates
   target: BTC
 - base: RET
   market:
-    identifier: dcoin
-    name: Dcoin
+    identifier: exrates
+    name: Exrates
   target: ETH
 - base: RET
   market:
@@ -42,28 +47,13 @@ tickers:
   target: USD
 - base: RET
   market:
-    identifier: exrates
-    name: Exrates
+    identifier: idax
+    name: Idax
   target: BTC
 - base: RET
   market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: RET
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: RET
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: RET
-  market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: idax
+    name: Idax
   target: ETH
 - base: RET
   market:
@@ -75,3 +65,18 @@ tickers:
     identifier: idcm
     name: IDCM
   target: BTC
+- base: RET
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: RET
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: RET
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

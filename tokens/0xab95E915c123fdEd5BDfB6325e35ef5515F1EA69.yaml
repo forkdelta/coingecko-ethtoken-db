@@ -22,9 +22,9 @@ tickers:
   target: ETH
 - base: XNN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: XNN
   market:
     identifier: idex
@@ -32,16 +32,16 @@ tickers:
   target: ETH
 - base: XNN
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: XNN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: XNN
-  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: XNN
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: XNN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

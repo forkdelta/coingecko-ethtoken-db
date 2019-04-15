@@ -31,13 +31,8 @@ symbol: mt
 tickers:
 - base: MT
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: MT
-  market:
-    identifier: bitforex
-    name: Bitforex
+    identifier: bcex
+    name: BCEX
   target: ETH
 - base: MT
   market:
@@ -46,14 +41,14 @@ tickers:
   target: BIX
 - base: MT
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: bitforex
+    name: Bitforex
   target: ETH
 - base: MT
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: ETH
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
 - base: MT
   market:
     identifier: coinbene
@@ -61,19 +56,24 @@ tickers:
   target: ETH
 - base: MT
   market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: MT
+  market:
     identifier: cpdax
     name: CPDax
   target: KRW
 - base: MT
   market:
-    identifier: coineal
-    name: Coineal
-  target: ETH
+    identifier: cybex
+    name: Cybex DEX
+  target: BTC
 - base: MT
   market:
     identifier: cybex
     name: Cybex DEX
-  target: BTC
+  target: CYB
 - base: MT
   market:
     identifier: cybex
@@ -86,8 +86,8 @@ tickers:
   target: ETH
 - base: MT
   market:
-    identifier: bcex
-    name: BCEX
+    identifier: digifinex
+    name: Digifinex
   target: ETH
 - base: MT
   market:
@@ -104,8 +104,3 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: MT
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB

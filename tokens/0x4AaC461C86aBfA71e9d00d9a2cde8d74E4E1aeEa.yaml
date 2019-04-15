@@ -33,6 +33,16 @@ symbol: zinc
 tickers:
 - base: ZINC
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: ZINC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ZINC
+  market:
     identifier: kucoin
     name: KuCoin
   target: BTC
@@ -43,26 +53,16 @@ tickers:
   target: ETH
 - base: ZINC
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ZINC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: ZINC
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ZINC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: ZINC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: ZINC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI

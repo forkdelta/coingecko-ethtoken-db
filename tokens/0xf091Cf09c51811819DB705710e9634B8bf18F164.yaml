@@ -27,8 +27,23 @@ symbol: cou
 tickers:
 - base: COU
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: COU
+  market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: COU
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: COU
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: COU
   market:
@@ -40,18 +55,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: COU
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: COU
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: COU
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC

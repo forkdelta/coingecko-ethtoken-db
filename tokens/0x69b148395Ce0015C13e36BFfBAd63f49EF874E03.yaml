@@ -28,8 +28,48 @@ symbol: dta
 tickers:
 - base: DTA
   market:
-    identifier: uex
-    name: UEX
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: DTA
+  market:
+    identifier: bigone
+    name: BigONE
+  target: ETH
+- base: DTA
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: DTA
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: DTA
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: DTA
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: DTA
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DTA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: DTA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: DTA
   market:
@@ -38,33 +78,8 @@ tickers:
   target: USD
 - base: DTA
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: DTA
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: DTA
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: DTA
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: DTA
-  market:
-    identifier: bigone
-    name: BigONE
-  target: ETH
-- base: DTA
-  market:
-    identifier: ddex
-    name: DDEX
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: DTA
   market:
@@ -73,31 +88,11 @@ tickers:
   target: ETH
 - base: DTA
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
-- base: DTA
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: DTA
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: DTA
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: DTA
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: uex
+    name: UEX
   target: ETH
-- base: DTA
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT

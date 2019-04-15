@@ -67,6 +67,11 @@ symbol: link
 tickers:
 - base: LINK
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: LINK
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -75,66 +80,6 @@ tickers:
     identifier: axnet
     name: AXNET
   target: ETH
-- base: LINK
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: LINK
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: LINK
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: LINK
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: LINK
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: LINK
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LINK
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: LINK
-  market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: LINK
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: LINK
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: LINK
-  market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
-- base: LINK
-  market:
-    identifier: codex
-    name: CODEX
-  target: EOS
 - base: LINK
   market:
     identifier: axnet
@@ -147,14 +92,69 @@ tickers:
   target: USDT
 - base: LINK
   market:
-    identifier: txbit
-    name: Txbit
+    identifier: bigone
+    name: BigONE
   target: BTC
 - base: LINK
   market:
-    identifier: txbit
-    name: Txbit
+    identifier: blockonix
+    name: Blockonix
   target: ETH
+- base: LINK
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: LINK
+  market:
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: LINK
+  market:
+    identifier: codex
+    name: CODEX
+  target: BTC
+- base: LINK
+  market:
+    identifier: codex
+    name: CODEX
+  target: EOS
+- base: LINK
+  market:
+    identifier: codex
+    name: CODEX
+  target: ETH
+- base: LINK
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BCH
+- base: LINK
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: LINK
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: LINK
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: LINK
+  market:
+    identifier: coss
+    name: COSS
+  target: USD
+- base: LINK
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
 - base: LINK
   market:
     identifier: cryptaldash
@@ -164,17 +164,62 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: USDT
+  target: ETH
 - base: LINK
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: BTC
+  target: USDT
 - base: LINK
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: ddex
+    name: DDEX
   target: ETH
+- base: LINK
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LINK
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: LINK
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: LINK
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: LINK
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LINK
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: LINK
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: LINK
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: LINK
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: LINK
   market:
     identifier: joyso
@@ -182,23 +227,8 @@ tickers:
   target: ETH
 - base: LINK
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
-- base: LINK
-  market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: LINK
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: DOGE
-- base: LINK
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: LINK
   market:
@@ -207,23 +237,8 @@ tickers:
   target: ETH
 - base: LINK
   market:
-    identifier: txbit
-    name: Txbit
-  target: XLR
-- base: LINK
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: LINK
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: LINK
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: LINK
   market:
@@ -232,9 +247,39 @@ tickers:
   target: DAI
 - base: LINK
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: LINK
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: LINK
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: LINK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LINK
+  market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: USDT
+  target: BTC
+- base: LINK
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
+- base: LINK
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
 - base: LINK
   market:
     identifier: trade_satoshi
@@ -244,44 +289,19 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: BTC
-- base: LINK
-  market:
-    identifier: fcoin
-    name: FCoin
   target: USDT
 - base: LINK
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: LINK
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: LINK
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: LINK
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: LINK
-  market:
-    identifier: coss
-    name: COSS
-  target: USD
-- base: LINK
-  market:
-    identifier: codex
-    name: CODEX
+    identifier: txbit
+    name: Txbit
   target: BTC
 - base: LINK
   market:
-    identifier: codex
-    name: CODEX
+    identifier: txbit
+    name: Txbit
   target: ETH
+- base: LINK
+  market:
+    identifier: txbit
+    name: Txbit
+  target: XLR

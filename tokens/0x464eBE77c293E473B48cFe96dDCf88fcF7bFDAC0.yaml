@@ -53,8 +53,13 @@ tickers:
   target: WETH
 - base: KRL
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: KRL
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: KRL
   market:
@@ -63,14 +68,9 @@ tickers:
   target: BTC
 - base: KRL
   market:
-    identifier: idex
-    name: Idex
+    identifier: mercatox
+    name: Mercatox
   target: ETH
-- base: KRL
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: KRL
   market:
     identifier: quoine
@@ -78,6 +78,6 @@ tickers:
   target: QASH
 - base: KRL
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

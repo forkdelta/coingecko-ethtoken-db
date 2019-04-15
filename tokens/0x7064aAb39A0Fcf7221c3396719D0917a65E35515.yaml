@@ -29,13 +29,13 @@ symbol: cplo
 tickers:
 - base: CPLO
   market:
-    identifier: stocks_exchange
-    name: STEX
+    identifier: bitker
+    name: BITKER
   target: BTC
 - base: CPLO
   market:
-    identifier: instantbitex
-    name: Instant Bitex
+    identifier: bleutrade
+    name: bleutrade
   target: BTC
 - base: CPLO
   market:
@@ -49,13 +49,13 @@ tickers:
   target: ETH
 - base: CPLO
   market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
-- base: CPLO
-  market:
     identifier: bleutrade
     name: bleutrade
+  target: USDT
+- base: CPLO
+  market:
+    identifier: coinbene
+    name: CoinBene
   target: BTC
 - base: CPLO
   market:
@@ -64,8 +64,8 @@ tickers:
   target: BTC
 - base: CPLO
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: instantbitex
+    name: Instant Bitex
   target: BTC
 - base: CPLO
   market:
@@ -74,6 +74,6 @@ tickers:
   target: BTC
 - base: CPLO
   market:
-    identifier: bleutrade
-    name: bleutrade
-  target: USDT
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC

@@ -50,6 +50,11 @@ symbol: plcn
 tickers:
 - base: PLCN
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: PLCN
+  market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
@@ -58,8 +63,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: PLCN
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

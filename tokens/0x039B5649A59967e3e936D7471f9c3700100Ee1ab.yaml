@@ -45,22 +45,7 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: ETH
-- base: ETC
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: KCS
-- base: KCS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: KCS
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
+  target: BTC
 - base: KCS
   market:
     identifier: cryptaldash
@@ -70,7 +55,17 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: BTC
+  target: ETH
+- base: KCS
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: ETC
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
 - base: GAS
   market:
     identifier: kucoin
@@ -91,3 +86,8 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: KCS
+- base: KCS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

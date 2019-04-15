@@ -30,12 +30,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: BTC
 - base: PCL
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: ETH
 - base: PCL
   market:
     identifier: idex
@@ -46,11 +46,6 @@ tickers:
     identifier: lykke
     name: Lykke
   target: BTC
-- base: PCL
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: 200A21DA-1F3E-42A7-B967-BC97B8810D12
   market:
     identifier: lykke
@@ -60,9 +55,14 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: WETH
+  target: DAI
 - base: PCL
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
+  target: WETH
+- base: PCL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

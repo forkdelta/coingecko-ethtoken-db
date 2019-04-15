@@ -32,14 +32,24 @@ tickers:
   target: ETH
 - base: XCEL
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTS
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: XCEL
   market:
     identifier: mercatox
     name: Mercatox
   target: ETH
+- base: XCEL
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTC
+- base: XCEL
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTS
 - base: XCEL
   market:
     identifier: openledger
@@ -50,13 +60,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: XCEL
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: XCEL
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTC

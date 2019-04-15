@@ -38,33 +38,18 @@ symbol: mvl
 tickers:
 - base: MVL
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
-- base: MVL
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
-- base: MVL
-  market:
-    identifier: uex
-    name: UEX
-  target: BTC
-- base: MVL
-  market:
     identifier: cryptology
     name: Cryptology
   target: BTC
 - base: MVL
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MVL
-  market:
     identifier: idcm
     name: IDCM
+  target: ETH
+- base: MVL
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: MVL
   market:
@@ -73,6 +58,21 @@ tickers:
   target: ETH
 - base: MVL
   market:
-    identifier: idex
-    name: Idex
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: MVL
+  market:
+    identifier: tokenize
+    name: Tokenize
   target: ETH
+- base: MVL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: MVL
+  market:
+    identifier: uex
+    name: UEX
+  target: BTC

@@ -25,14 +25,9 @@ symbol: ctx
 tickers:
 - base: CTX
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bitker
+    name: BITKER
   target: BTC
-- base: CTX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: CTX
   market:
     identifier: bitker
@@ -40,11 +35,26 @@ tickers:
   target: ETH
 - base: CTX
   market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: CTX
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
 - base: CTX
   market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CTX
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
+- base: CTX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH

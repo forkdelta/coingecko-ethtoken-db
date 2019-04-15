@@ -21,8 +21,13 @@ symbol: show
 tickers:
 - base: SHOW
   market:
-    identifier: okex
-    name: OKEx
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: SHOW
+  market:
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: SHOW
   market:
@@ -31,6 +36,6 @@ tickers:
   target: BTC
 - base: SHOW
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: okex
+    name: OKEx
   target: ETH

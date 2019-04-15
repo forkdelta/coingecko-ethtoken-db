@@ -61,29 +61,49 @@ symbol: rlc
 tickers:
 - base: RLC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: RLC
-  market:
     identifier: bittrex
     name: Bittrex
   target: ETH
 - base: RLC
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: blockonix
+    name: Blockonix
   target: ETH
 - base: RLC
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
+- base: RLC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
 - base: RLC
   market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: RLC
+  market:
+    identifier: ethex
+    name: Ethex
+  target: ETH
 - base: RLC
   market:
     identifier: ethfinex
@@ -96,39 +116,14 @@ tickers:
   target: USD
 - base: RLC
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: RLC
-  market:
-    identifier: ethex
-    name: Ethex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: RLC
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: RLC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: fcoin
+    name: FCoin
   target: ETH
-- base: RLC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: RLC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: RLC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: RLC
   market:
     identifier: fcoin
@@ -141,9 +136,14 @@ tickers:
   target: ETH
 - base: RLC
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: gate-io
+    name: Gate.io
   target: ETH
+- base: RLC
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: RLC
   market:
     identifier: idex
@@ -156,14 +156,9 @@ tickers:
   target: ETH
 - base: RLC
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: livecoin
+    name: Livecoin
   target: ETH
-- base: RLC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
 - base: RLC
   market:
     identifier: livecoin
@@ -176,16 +171,16 @@ tickers:
   target: DAI
 - base: RLC
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: RLC
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: RLC
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: upbit
+    name: Upbit
   target: ETH

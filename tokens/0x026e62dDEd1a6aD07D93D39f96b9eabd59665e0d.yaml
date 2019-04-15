@@ -24,16 +24,6 @@ symbol: bird
 tickers:
 - base: BIRD
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BIRD
-  market:
-    identifier: novaexchange
-    name: Nova Exchange
-  target: DOGE
-- base: BIRD
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -41,4 +31,14 @@ tickers:
   market:
     identifier: novaexchange
     name: Nova Exchange
+  target: DOGE
+- base: BIRD
+  market:
+    identifier: novaexchange
+    name: Nova Exchange
   target: MOON
+- base: BIRD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

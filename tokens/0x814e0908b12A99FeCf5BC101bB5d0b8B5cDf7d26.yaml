@@ -40,21 +40,6 @@ symbol: mdt
 tickers:
 - base: MDT
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: MDT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: MDT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: BTC
-- base: MDT
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -65,11 +50,26 @@ tickers:
   target: ETH
 - base: MDT
   market:
-    identifier: joyso
-    name: Joyso
+    identifier: gate-io
+    name: Gate.io
+  target: BTC
+- base: MDT
+  market:
+    identifier: gate-io
+    name: Gate.io
   target: ETH
+- base: MDT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
 - base: MDT
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MDT
+  market:
+    identifier: joyso
+    name: Joyso
   target: ETH

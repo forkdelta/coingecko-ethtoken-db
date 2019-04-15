@@ -29,6 +29,16 @@ symbol: avinoc
 tickers:
 - base: AVINOC
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: AVINOC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: AVINOC
+  market:
     identifier: latoken
     name: LATOKEN
   target: LA
@@ -37,8 +47,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: AVINOC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

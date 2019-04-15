@@ -33,8 +33,13 @@ symbol: mtn
 tickers:
 - base: MTN
   market:
-    identifier: kkcoin
-    name: KKCoin
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: MTN
+  market:
+    identifier: bigone
+    name: BigONE
   target: ETH
 - base: MTN
   market:
@@ -45,4 +50,9 @@ tickers:
   market:
     identifier: cobinhood
     name: Cobinhood
+  target: ETH
+- base: MTN
+  market:
+    identifier: kkcoin
+    name: KKCoin
   target: ETH

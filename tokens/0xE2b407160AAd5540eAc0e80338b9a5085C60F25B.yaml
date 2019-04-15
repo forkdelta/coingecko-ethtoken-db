@@ -41,11 +41,6 @@ symbol: gpn
 tickers:
 - base: GPN
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: GPN
-  market:
     identifier: raisex
     name: Raisex
   target: BTC
@@ -53,11 +48,16 @@ tickers:
   market:
     identifier: raisex
     name: Raisex
-  target: USD
+  target: ETH
 - base: GPN
   market:
     identifier: raisex
     name: Raisex
+  target: USD
+- base: GPN
+  market:
+    identifier: thetokenstore
+    name: Token Store
   target: ETH
 - base: GPN
   market:

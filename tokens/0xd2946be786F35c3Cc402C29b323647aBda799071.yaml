@@ -57,21 +57,6 @@ symbol: vikky
 tickers:
 - base: VIKKY
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: VIKKY
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: VIKKY
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: VIKKY
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -79,4 +64,24 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: VIKKY
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
+- base: VIKKY
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: VIKKY
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: VIKKY
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

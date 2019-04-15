@@ -21,44 +21,39 @@ symbol: dcc
 tickers:
 - base: DCC
   market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: DCC
+  market:
     identifier: bibox
     name: Bibox
   target: BIX
 - base: DCC
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: bibox
+    name: Bibox
   target: BTC
-- base: DCC
-  market:
-    identifier: dextop
-    name: DEx.top
-  target: ETH
-- base: DCC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: DCC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: DCC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DCC
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: DCC
   market:
     identifier: bitforex
     name: Bitforex
   target: USDT
+- base: DCC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: DCC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DCC
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
 - base: DCC
   market:
     identifier: fcoin
@@ -71,6 +66,11 @@ tickers:
   target: ETH
 - base: DCC
   market:
-    identifier: allbit
-    name: Allbit
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
+- base: DCC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

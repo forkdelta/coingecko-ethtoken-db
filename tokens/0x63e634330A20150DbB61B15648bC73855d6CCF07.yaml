@@ -24,16 +24,6 @@ symbol: lnc
 tickers:
 - base: LNC
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TL
-- base: LNC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: LNC
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -41,14 +31,19 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
-  target: WETH
-- base: LNC
-  market:
-    identifier: tokenjar
-    name: TokenJar
   target: WETH
 - base: LNC
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: LNC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TL
+- base: LNC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

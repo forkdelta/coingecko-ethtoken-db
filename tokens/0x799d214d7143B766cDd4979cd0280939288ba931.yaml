@@ -26,11 +26,6 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
-  target: WETH
-- base: CHT
-  market:
-    identifier: ddex
-    name: DDEX
   target: ETH
 - base: CHT
   market:
@@ -39,13 +34,8 @@ tickers:
   target: TUSD
 - base: CHT
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: CHT
-  market:
-    identifier: tokenjar
-    name: TokenJar
+    identifier: ddex
+    name: DDEX
   target: WETH
 - base: CHT
   market:
@@ -57,3 +47,13 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: CHT
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: CHT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

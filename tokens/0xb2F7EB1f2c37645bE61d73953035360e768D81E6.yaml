@@ -48,8 +48,13 @@ symbol: cob
 tickers:
 - base: COB
   market:
-    identifier: idex
-    name: Idex
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
+- base: COB
+  market:
+    identifier: cryptology
+    name: Cryptology
   target: ETH
 - base: COB
   market:
@@ -58,8 +63,13 @@ tickers:
   target: ETH
 - base: COB
   market:
-    identifier: cryptology
-    name: Cryptology
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: COB
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: COB
   market:
@@ -71,13 +81,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: COB
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: COB
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT

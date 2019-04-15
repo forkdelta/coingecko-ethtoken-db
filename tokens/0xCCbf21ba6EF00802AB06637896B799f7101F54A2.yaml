@@ -28,11 +28,6 @@ symbol: bubo
 tickers:
 - base: BUBO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BUBO
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -41,3 +36,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: BUBO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -22,19 +22,14 @@ symbol: read
 tickers:
 - base: READ
   market:
-    identifier: hb_top
-    name: Hb.top
+    identifier: bigone
+    name: BigONE
   target: BTC
 - base: READ
   market:
-    identifier: hb_top
-    name: Hb.top
-  target: ETH
-- base: READ
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: coin_egg
+    name: CoinEgg
+  target: BTC
 - base: READ
   market:
     identifier: dobitrade
@@ -44,4 +39,19 @@ tickers:
   market:
     identifier: everbloom
     name: Everbloom
+  target: ETH
+- base: READ
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: READ
+  market:
+    identifier: hb_top
+    name: Hb.top
+  target: BTC
+- base: READ
+  market:
+    identifier: hb_top
+    name: Hb.top
   target: ETH

@@ -35,26 +35,26 @@ symbol: cymt
 tickers:
 - base: CYMT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: CYMT
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: CYMT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: CYMT
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: CYMT
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: CYMT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: CYMT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: CYMT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC

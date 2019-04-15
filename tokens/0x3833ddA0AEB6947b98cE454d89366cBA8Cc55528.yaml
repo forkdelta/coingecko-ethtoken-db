@@ -30,19 +30,24 @@ symbol: sphtx
 tickers:
 - base: SPHTX
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: SPHTX
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
+    identifier: bit_z
+    name: Bit-Z
   target: BTC
 - base: SPHTX
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: blockonix
+    name: Blockonix
   target: ETH
+- base: SPHTX
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: SPHTX
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
 - base: SPHTX
   market:
     identifier: cryptaldash
@@ -50,14 +55,14 @@ tickers:
   target: CRD
 - base: SPHTX
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
 - base: SPHTX
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
 - base: SPHTX
   market:
     identifier: everbloom
@@ -65,31 +70,16 @@ tickers:
   target: ETH
 - base: SPHTX
   market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
+- base: SPHTX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
 - base: SPHTX
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: SPHTX
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: SPHTX
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: SPHTX
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: SPHTX
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH

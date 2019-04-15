@@ -29,9 +29,44 @@ symbol: nbc
 tickers:
 - base: NBC
   market:
+    identifier: bitker
+    name: BITKER
+  target: BTC
+- base: NBC
+  market:
+    identifier: bitker
+    name: BITKER
+  target: ETH
+- base: NBC
+  market:
+    identifier: bitker
+    name: BITKER
+  target: USDT
+- base: NBC
+  market:
     identifier: bleutrade
     name: bleutrade
+  target: DOGE
+- base: NBC
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: ETH
+- base: NBC
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: USDT
+- base: NBC
+  market:
+    identifier: exrates
+    name: Exrates
   target: BTC
+- base: NBC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
 - base: NBC
   market:
     identifier: exrates
@@ -44,31 +79,6 @@ tickers:
   target: DOGE
 - base: NBC
   market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
-- base: NBC
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: NBC
-  market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
-- base: NBC
-  market:
-    identifier: bleutrade
-    name: bleutrade
-  target: ETH
-- base: NBC
-  market:
-    identifier: bitker
-    name: BITKER
-  target: USDT
-- base: NBC
-  market:
     identifier: yobit
     name: YoBit
   target: RUR
@@ -77,18 +87,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: NBC
-  market:
-    identifier: bleutrade
-    name: bleutrade
-  target: DOGE
-- base: NBC
-  market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
-- base: NBC
-  market:
-    identifier: bleutrade
-    name: bleutrade
-  target: USDT

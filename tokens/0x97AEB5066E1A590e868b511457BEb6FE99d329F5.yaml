@@ -24,29 +24,9 @@ symbol: atmi
 tickers:
 - base: ATMI
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: ATM
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: ATM
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: ATMI
-  market:
-    identifier: zgtop
-    name: ZG.TOP
+    identifier: bitforex
+    name: Bitforex
   target: USDT
-- base: ATMI
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
 - base: ATMI
   market:
     identifier: dextop
@@ -57,16 +37,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
-- base: ATMI
+- base: ATM
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: ATMI
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: ATMI
   market:
     identifier: everbloom
@@ -74,8 +49,28 @@ tickers:
   target: ETH
 - base: ATMI
   market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: ATMI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ATMI
+  market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: ATMI
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: ATMI
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: ETH
 - base: ATMI
   market:
@@ -84,6 +79,6 @@ tickers:
   target: WETH
 - base: ATMI
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: zgtop
+    name: ZG.TOP
+  target: USDT

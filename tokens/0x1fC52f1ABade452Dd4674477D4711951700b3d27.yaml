@@ -39,6 +39,16 @@ tickers:
   target: ETH
 - base: NOKU
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: NOKU
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: EURN
+- base: NOKU
+  market:
     identifier: therocktrading
     name: TheRockTrading
   target: EURN
@@ -47,13 +57,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: NOKU
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: EURN
-- base: NOKU
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

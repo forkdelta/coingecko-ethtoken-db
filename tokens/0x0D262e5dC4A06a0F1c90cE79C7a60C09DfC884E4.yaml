@@ -31,19 +31,9 @@ symbol: j8t
 tickers:
 - base: J8T
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: J8T
-  market:
     identifier: bancor
     name: Bancor Network
   target: BNT
-- base: J8T
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: J8T
   market:
     identifier: forkdelta
@@ -54,3 +44,13 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: J8T
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: J8T
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

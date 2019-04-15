@@ -18,6 +18,26 @@ symbol: bq
 tickers:
 - base: BQ
   market:
+    identifier: ccex
+    name: C-CEX
+  target: BTC
+- base: BQ
+  market:
+    identifier: ccex
+    name: C-CEX
+  target: DOGE
+- base: BQ
+  market:
+    identifier: ccex
+    name: C-CEX
+  target: LTC
+- base: BQ
+  market:
+    identifier: ccex
+    name: C-CEX
+  target: USD
+- base: BQ
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
@@ -28,26 +48,6 @@ tickers:
   target: ETH
 - base: BQ
   market:
-    identifier: ccex
-    name: C-CEX
-  target: USD
-- base: BQ
-  market:
-    identifier: ccex
-    name: C-CEX
-  target: BTC
-- base: BQ
-  market:
-    identifier: ccex
-    name: C-CEX
-  target: LTC
-- base: BQ
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: BQ
-  market:
-    identifier: ccex
-    name: C-CEX
-  target: DOGE

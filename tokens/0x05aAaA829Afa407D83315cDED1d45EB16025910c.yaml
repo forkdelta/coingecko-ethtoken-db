@@ -30,19 +30,14 @@ symbol: spx
 tickers:
 - base: SPX
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: SPX
-  market:
-    identifier: bleutrade
-    name: bleutrade
-  target: USDT
-- base: SPX
-  market:
     identifier: bleutrade
     name: bleutrade
   target: BTC
+- base: SPX
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: DOGE
 - base: SPX
   market:
     identifier: bleutrade
@@ -52,7 +47,12 @@ tickers:
   market:
     identifier: bleutrade
     name: bleutrade
-  target: DOGE
+  target: USDT
+- base: SPX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: SPX
   market:
     identifier: tokenjar

@@ -50,14 +50,14 @@ symbol: ins
 tickers:
 - base: INS
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: INS
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: INS
   market:
     identifier: idex
@@ -70,21 +70,21 @@ tickers:
   target: ETH
 - base: INS
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: INS
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: INS
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: INS
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
+  target: WETH
+- base: INS
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: INS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

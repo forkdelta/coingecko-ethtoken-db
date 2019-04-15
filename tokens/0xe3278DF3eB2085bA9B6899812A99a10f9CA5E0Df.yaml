@@ -39,9 +39,14 @@ symbol: toto
 tickers:
 - base: TOTO
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: TOTO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: TOTO
   market:
     identifier: idex
@@ -49,24 +54,19 @@ tickers:
   target: ETH
 - base: TOTO
   market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: TOTO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: TOTO
-  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
 - base: TOTO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: TOTO
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
 - base: ETH
   market:
     identifier: purcow
@@ -74,6 +74,6 @@ tickers:
   target: TOTO
 - base: TOTO
   market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

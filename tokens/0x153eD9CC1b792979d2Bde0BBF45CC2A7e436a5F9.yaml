@@ -23,11 +23,6 @@ symbol: xov
 tickers:
 - base: XOV
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: XOV
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -36,6 +31,11 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: TUSD
+- base: XOV
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
 - base: XOV
   market:
     identifier: tokenjar

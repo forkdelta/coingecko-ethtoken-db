@@ -45,9 +45,14 @@ symbol: sen
 tickers:
 - base: SEN
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: blockonix
+    name: Blockonix
   target: ETH
+- base: SEN
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
 - base: SEN
   market:
     identifier: ethfinex
@@ -57,19 +62,14 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: ETH
 - base: SEN
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: SEN
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: SEN
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT

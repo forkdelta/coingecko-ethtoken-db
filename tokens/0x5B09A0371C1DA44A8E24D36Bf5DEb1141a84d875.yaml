@@ -60,19 +60,9 @@ symbol: mad
 tickers:
 - base: MAD
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MAD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: MAD
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
+    identifier: cybex
+    name: Cybex DEX
+  target: BTC
 - base: MAD
   market:
     identifier: cybex
@@ -82,16 +72,21 @@ tickers:
   market:
     identifier: cybex
     name: Cybex DEX
-  target: BTC
+  target: ETH
 - base: MAD
   market:
     identifier: cybex
     name: Cybex DEX
+  target: USDT
+- base: MAD
+  market:
+    identifier: ddex
+    name: DDEX
   target: ETH
 - base: MAD
   market:
-    identifier: tokenjar
-    name: TokenJar
+    identifier: ddex
+    name: DDEX
   target: WETH
 - base: MAD
   market:
@@ -105,11 +100,11 @@ tickers:
   target: DAI
 - base: MAD
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: MAD
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: USDT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

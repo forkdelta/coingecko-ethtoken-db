@@ -25,12 +25,22 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: BTC
 - base: HIRE
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: ETH
+- base: HIRE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: HIRE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: HIRE
   market:
     identifier: thetokenstore
@@ -38,16 +48,6 @@ tickers:
   target: ETH
 - base: HIRE
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: HIRE
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: HIRE
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI

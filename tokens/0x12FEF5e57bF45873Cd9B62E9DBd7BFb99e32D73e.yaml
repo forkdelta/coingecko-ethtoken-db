@@ -23,22 +23,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: CFI
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: CFI
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: CFI
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: CFI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: CFI
   market:
     identifier: everbloom
@@ -51,11 +46,16 @@ tickers:
   target: ETH
 - base: CFI
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CFI
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: CFI
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

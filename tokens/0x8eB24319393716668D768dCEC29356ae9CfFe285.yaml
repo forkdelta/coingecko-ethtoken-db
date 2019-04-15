@@ -59,24 +59,14 @@ symbol: agi
 tickers:
 - base: AGI
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: blockonix
+    name: Blockonix
   target: ETH
 - base: AGI
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: AGI
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: AGI
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
 - base: AGI
   market:
     identifier: ddex
@@ -86,11 +76,6 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
-  target: WETH
-- base: AGI
-  market:
-    identifier: tokenjar
-    name: TokenJar
   target: WETH
 - base: AGI
   market:
@@ -99,14 +84,24 @@ tickers:
   target: ETH
 - base: AGI
   market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
-- base: AGI
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
+- base: AGI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: AGI
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: 5EDFC49B-F3F6-4827-A2EC-0B40F301973B
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
 - base: 5EDFC49B-F3F6-4827-A2EC-0B40F301973B
   market:
     identifier: lykke
@@ -119,21 +114,11 @@ tickers:
   target: DAI
 - base: AGI
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: 5EDFC49B-F3F6-4827-A2EC-0B40F301973B
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
-- base: AGI
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: AGI
-  market:
     identifier: radar_relay
     name: Radar Relay
+  target: WETH
+- base: AGI
+  market:
+    identifier: tokenjar
+    name: TokenJar
   target: WETH

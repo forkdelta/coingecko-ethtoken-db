@@ -19,19 +19,39 @@ symbol: tct
 tickers:
 - base: TCT
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: TCT
-  market:
     identifier: bigone
     name: BigONE
   target: BTC
 - base: TCT
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: bigone
+    name: BigONE
   target: ETH
+- base: TCT
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: TCT
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: BTC
+- base: TCT
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
+- base: TCT
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
+- base: TCT
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: USDT
 - base: TCT
   market:
     identifier: dcoin
@@ -44,36 +64,21 @@ tickers:
   target: ETH
 - base: TCT
   market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: TCT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: TCT
+  market:
     identifier: okex
     name: OKEx
   target: ETH
 - base: TCT
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: ETH
-- base: TCT
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
-- base: TCT
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: TCT
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: TCT
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: BTC
-- base: TCT
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: USDT

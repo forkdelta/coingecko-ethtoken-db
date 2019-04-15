@@ -23,11 +23,16 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
-  target: WETH
+  target: ETH
 - base: DML
   market:
     identifier: ddex
     name: DDEX
+  target: WETH
+- base: DML
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: DML
   market:
@@ -39,8 +44,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: DML
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

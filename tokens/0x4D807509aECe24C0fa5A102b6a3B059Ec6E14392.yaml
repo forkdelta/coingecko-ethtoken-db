@@ -38,6 +38,16 @@ symbol: one
 tickers:
 - base: ONE
   market:
+    identifier: eosex
+    name: EOSex
+  target: ETH
+- base: ONE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ONE
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
@@ -46,8 +56,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ONE
-  market:
-    identifier: eosex
-    name: EOSex
-  target: ETH

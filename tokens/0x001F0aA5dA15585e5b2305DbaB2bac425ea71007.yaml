@@ -28,6 +28,21 @@ symbol: ipsx
 tickers:
 - base: IPSX
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: IPSX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
+- base: IPSX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
+- base: IPSX
+  market:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
@@ -36,18 +51,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: IPSX
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: IPSX
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: ETH
-- base: IPSX
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC

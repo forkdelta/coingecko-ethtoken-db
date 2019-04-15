@@ -26,24 +26,9 @@ symbol: bbt
 tickers:
 - base: BBT
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: BBT
-  market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: ETH
-- base: BBT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: BBT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: BBT
   market:
     identifier: everbloom
@@ -56,11 +41,31 @@ tickers:
   target: ETH
 - base: BBT
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: BBT
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: ETH
+- base: BBT
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: BBT
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: BBT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: BBT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

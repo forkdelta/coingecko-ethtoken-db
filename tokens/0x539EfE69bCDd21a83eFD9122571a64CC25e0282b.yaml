@@ -22,14 +22,14 @@ symbol: blue
 tickers:
 - base: BLUE
   market:
-    identifier: idex
-    name: Idex
+    identifier: coin_exchange
+    name: Coinexchange
   target: ETH
 - base: BLUE
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: BTC
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: BLUE
   market:
     identifier: forkdelta
@@ -37,16 +37,11 @@ tickers:
   target: ETH
 - base: BLUE
   market:
-    identifier: coin_exchange
-    name: Coinexchange
+    identifier: idex
+    name: Idex
   target: ETH
 - base: BLUE
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: BLUE
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH

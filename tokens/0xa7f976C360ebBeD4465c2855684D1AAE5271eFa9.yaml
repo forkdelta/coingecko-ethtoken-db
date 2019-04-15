@@ -21,18 +21,18 @@ symbol: tfl
 tickers:
 - base: TFL
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: TFL
-  market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: everbloom
+    name: Everbloom
   target: ETH
 - base: TFL
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TFL
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: TFL
   market:
@@ -48,7 +48,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: DOGE
 - base: TFL
   market:
     identifier: yobit
@@ -56,11 +56,6 @@ tickers:
   target: RUR
 - base: TFL
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: TFL
-  market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: WAVES

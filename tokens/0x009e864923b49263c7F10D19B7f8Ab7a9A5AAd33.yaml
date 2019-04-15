@@ -24,9 +24,9 @@ symbol: fkx
 tickers:
 - base: FKX
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: FKX
   market:
     identifier: everbloom
@@ -34,11 +34,11 @@ tickers:
   target: ETH
 - base: FKX
   market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: FKX
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: FKX
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

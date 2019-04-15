@@ -47,6 +47,26 @@ symbol: zap
 tickers:
 - base: ZAP
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: ZAP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ZAP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ZAP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ZAP
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
@@ -55,18 +75,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ZAP
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: ZAP
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: ZAP
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH

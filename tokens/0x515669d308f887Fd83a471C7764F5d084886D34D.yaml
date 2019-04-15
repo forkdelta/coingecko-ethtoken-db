@@ -30,11 +30,11 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: ETH
+  target: CRD
 - base: MUXE
   market:
-    identifier: idex
-    name: Idex
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
 - base: MUXE
   market:
@@ -43,11 +43,11 @@ tickers:
   target: USDT
 - base: MUXE
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MUXE
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: MUXE
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD

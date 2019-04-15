@@ -56,6 +56,16 @@ symbol: xclr
 tickers:
 - base: XCLR
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: XCLR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: XCLR
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -64,8 +74,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: XCLR
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

@@ -26,19 +26,9 @@ symbol: bto
 tickers:
 - base: BTO
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: USDT
-  market:
-    identifier: lbank
-    name: Lbank
-  target: BTO
-- base: BTO
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
+    identifier: bibox
+    name: Bibox
+  target: BIX
 - base: BTO
   market:
     identifier: bibox
@@ -46,9 +36,69 @@ tickers:
   target: BTC
 - base: BTO
   market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: BTO
+  market:
+    identifier: bigone
+    name: BigONE
+  target: ETH
+- base: BTO
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: BTO
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: BTO
+  market:
+    identifier: coin_egg
+    name: CoinEgg
+  target: ETH
+- base: BTO
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: BTO
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: BTO
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: BTO
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: BTO
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: BTO
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: BTO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: USDT
+  market:
+    identifier: lbank
+    name: Lbank
+  target: BTO
 - base: BTC
   market:
     identifier: lbank
@@ -61,56 +111,6 @@ tickers:
   target: BTO
 - base: BTO
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
-- base: BTO
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: BTO
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: BTO
-  market:
-    identifier: bigone
-    name: BigONE
-  target: ETH
-- base: BTO
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
-- base: BTO
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: BTO
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: BTO
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
-- base: BTO
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: ETH
-- base: BTO
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
-- base: BTO
-  market:
-    identifier: coin_egg
-    name: CoinEgg
-  target: ETH

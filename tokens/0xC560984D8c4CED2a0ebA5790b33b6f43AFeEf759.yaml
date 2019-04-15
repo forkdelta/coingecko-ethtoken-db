@@ -38,9 +38,9 @@ symbol: sprtz
 tickers:
 - base: SPRTZ
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: SPRTZ
   market:
     identifier: latoken
@@ -51,3 +51,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: SPRTZ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

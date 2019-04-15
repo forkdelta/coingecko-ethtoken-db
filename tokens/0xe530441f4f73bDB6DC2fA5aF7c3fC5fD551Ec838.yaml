@@ -72,16 +72,6 @@ symbol: gse
 tickers:
 - base: GSE
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: GSE
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: GSE
-  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
@@ -90,3 +80,13 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: ETH
+- base: GSE
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: GSE
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT

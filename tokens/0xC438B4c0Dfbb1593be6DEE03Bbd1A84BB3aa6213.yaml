@@ -28,16 +28,6 @@ symbol: eqc
 tickers:
 - base: EQC
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: EQC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: EQC
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -51,6 +41,16 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: EQC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: EQC
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
 - base: EQC
   market:
     identifier: tokenjar

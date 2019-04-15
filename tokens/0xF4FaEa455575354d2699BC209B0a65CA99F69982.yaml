@@ -18,14 +18,9 @@ symbol: nobs
 tickers:
 - base: NOBS
   market:
-    identifier: coinex
-    name: CoinEx
+    identifier: coinbene
+    name: CoinBene
   target: BTC
-- base: NOBS
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: ETH
 - base: NOBS
   market:
     identifier: coinex
@@ -33,9 +28,19 @@ tickers:
   target: BCH
 - base: NOBS
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: NOBS
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: NOBS
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: NOBS
   market:
     identifier: stocks_exchange
@@ -43,6 +48,6 @@ tickers:
   target: BTC
 - base: NOBS
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

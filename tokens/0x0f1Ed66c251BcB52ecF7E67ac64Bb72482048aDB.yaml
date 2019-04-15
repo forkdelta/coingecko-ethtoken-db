@@ -32,14 +32,14 @@ symbol: seer
 tickers:
 - base: SEER
   market:
-    identifier: qbtc
-    name: QBTC
-  target: CNYT
+    identifier: coinex
+    name: CoinEx
+  target: BCH
 - base: SEER
   market:
     identifier: coinex
     name: CoinEx
-  target: BCH
+  target: BTC
 - base: SEER
   market:
     identifier: coinex
@@ -49,19 +49,19 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: BTC
 - base: SEE
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: SEER
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: BTC
+  target: ETH
 - base: SEER
   market:
     identifier: lbank
     name: Lbank
   target: LBCN
+- base: SEER
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: CNYT

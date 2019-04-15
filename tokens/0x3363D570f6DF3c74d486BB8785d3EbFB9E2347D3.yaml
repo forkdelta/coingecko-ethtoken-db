@@ -32,14 +32,19 @@ symbol: hedg
 tickers:
 - base: HEDG
   market:
-    identifier: cointiger
-    name: CoinTiger
-  target: ETH
-- base: HEDG
-  market:
     identifier: bancor
     name: Bancor Network
   target: BNT
+- base: HEDG
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: HEDG
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: ETH
 - base: HEDG
   market:
     identifier: hotbit
@@ -49,14 +54,9 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: USDC
+  target: BTC
 - base: HEDG
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
-- base: HEDG
-  market:
-    identifier: cointiger
-    name: CoinTiger
-  target: BTC
+  target: USDC

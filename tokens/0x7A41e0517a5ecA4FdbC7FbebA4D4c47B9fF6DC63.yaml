@@ -18,19 +18,9 @@ symbol: zsc
 tickers:
 - base: ZSC
   market:
-    identifier: lbank
-    name: Lbank
+    identifier: everbloom
+    name: Everbloom
   target: ETH
-- base: ZSC
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: ZSC
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
 - base: ZSC
   market:
     identifier: fcoin
@@ -43,11 +33,21 @@ tickers:
   target: ETH
 - base: ZSC
   market:
-    identifier: syex
-    name: Shangya Exchange
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: ZSC
+  market:
+    identifier: gate-io
+    name: Gate.io
   target: USDT
 - base: ZSC
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: lbank
+    name: Lbank
   target: ETH
+- base: ZSC
+  market:
+    identifier: syex
+    name: Shangya Exchange
+  target: USDT

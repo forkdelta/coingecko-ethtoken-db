@@ -29,14 +29,19 @@ symbol: mrph
 tickers:
 - base: MRPH
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: MRPH
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: MRPH
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: MRPH
   market:
     identifier: switcheo
@@ -47,8 +52,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: MRPH
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH

@@ -37,14 +37,19 @@ tickers:
   target: ETH
 - base: UUU
   market:
-    identifier: dextop
-    name: DEx.top
+    identifier: ddex
+    name: DDEX
   target: ETH
 - base: UUU
   market:
-    identifier: tokenjar
-    name: TokenJar
+    identifier: ddex
+    name: DDEX
   target: WETH
+- base: UUU
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
 - base: UUU
   market:
     identifier: idex
@@ -52,11 +57,6 @@ tickers:
   target: ETH
 - base: UUU
   market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: UUU
-  market:
-    identifier: ddex
-    name: DDEX
+    identifier: tokenjar
+    name: TokenJar
   target: WETH

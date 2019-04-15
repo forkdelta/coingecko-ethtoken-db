@@ -25,8 +25,8 @@ symbol: pkg
 tickers:
 - base: PKG
   market:
-    identifier: thetokenstore
-    name: Token Store
+    identifier: idex
+    name: Idex
   target: ETH
 - base: PKG
   market:
@@ -35,11 +35,21 @@ tickers:
   target: WBTC
 - base: PKG
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: PKG
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
+  target: ETH
+- base: PKG
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: PKG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

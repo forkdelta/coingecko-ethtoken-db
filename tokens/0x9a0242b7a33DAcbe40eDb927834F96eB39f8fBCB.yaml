@@ -24,11 +24,6 @@ symbol: bax
 tickers:
 - base: BAX
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: BAX
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -37,6 +32,21 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: BAX
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BAX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: BAX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: BAX
   market:
     identifier: latoken
@@ -46,29 +56,14 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: WETH
+  target: DAI
 - base: BAX
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: BAX
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: BAX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: BAX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: BAX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC

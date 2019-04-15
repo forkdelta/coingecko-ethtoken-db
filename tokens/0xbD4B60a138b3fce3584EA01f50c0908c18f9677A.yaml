@@ -52,9 +52,19 @@ symbol: fntb
 tickers:
 - base: FNTB
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: FNTB
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: FNTB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: FNTB
   market:
     identifier: yobit
@@ -65,13 +75,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: FNTB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: FNTB
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH

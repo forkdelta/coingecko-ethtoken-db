@@ -26,14 +26,19 @@ symbol: hkn
 tickers:
 - base: HKN
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
+    identifier: cybex
+    name: Cybex DEX
+  target: BTC
 - base: HKN
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
+- base: HKN
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
 - base: HKN
   market:
     identifier: cybex
@@ -46,34 +51,19 @@ tickers:
   target: ETH
 - base: HKN
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
-- base: HKN
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: BTC
-- base: HKN
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: ETH
-- base: HKN
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: HKN
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: HKN
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: orderbook
+    name: Orderbook.io
+  target: ETH
 - base: HKN
   market:
     identifier: orderbook
@@ -81,16 +71,21 @@ tickers:
   target: OUSD
 - base: HKN
   market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: ETH
-- base: HKN
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: HKN
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: HKN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: HKN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

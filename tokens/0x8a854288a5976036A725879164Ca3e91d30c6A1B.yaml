@@ -30,16 +30,21 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
-  target: WETH
+  target: ETH
 - base: GET
   market:
     identifier: ddex
     name: DDEX
-  target: ETH
+  target: WETH
 - base: GET
   market:
     identifier: everbloom
     name: Everbloom
+  target: ETH
+- base: GET
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: GET
   market:
@@ -48,19 +53,14 @@ tickers:
   target: WBTC
 - base: GET
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: GET
-  market:
     identifier: quoine
     name: Liquid (Quoine)
   target: BTC
 - base: GET
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
 - base: GET
   market:
     identifier: radar_relay
@@ -68,11 +68,11 @@ tickers:
   target: DAI
 - base: GET
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: GET
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

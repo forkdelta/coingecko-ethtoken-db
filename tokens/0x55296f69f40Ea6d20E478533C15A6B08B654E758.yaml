@@ -47,16 +47,6 @@ symbol: xyo
 tickers:
 - base: XYO
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: XYO
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: XYO
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -72,14 +62,24 @@ tickers:
   target: ETH
 - base: XYO
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: XYO
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: XYO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: XYO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: XYO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
 - base: XYO
   market:
     identifier: saturn_network
@@ -87,6 +87,6 @@ tickers:
   target: ETH
 - base: XYO
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: USDT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -33,19 +33,14 @@ symbol: nrp
 tickers:
 - base: NRP
   market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
-- base: NRP
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NRP
-  market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: bitker
+    name: BITKER
   target: BTC
+- base: NRP
+  market:
+    identifier: bitker
+    name: BITKER
+  target: ETH
 - base: NRP
   market:
     identifier: bitker
@@ -58,11 +53,16 @@ tickers:
   target: ETH
 - base: NRP
   market:
-    identifier: bitker
-    name: BITKER
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: NRP
+  market:
+    identifier: purcow
+    name: Purcow
   target: ETH
 - base: NRP
   market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

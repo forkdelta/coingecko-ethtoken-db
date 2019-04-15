@@ -24,33 +24,13 @@ symbol: blt
 tickers:
 - base: BLT
   market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
-- base: BLT
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: BLT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: BLT
-  market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: BLT
-  market:
     identifier: bibox
     name: Bibox
   target: BTC
 - base: BLT
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: bibox
+    name: Bibox
   target: ETH
 - base: BLT
   market:
@@ -59,14 +39,14 @@ tickers:
   target: ETH
 - base: BLT
   market:
-    identifier: topbtc
-    name: TopBTC
-  target: BTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: BLT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: BLT
   market:
     identifier: radar_relay
@@ -74,6 +54,21 @@ tickers:
   target: DAI
 - base: BLT
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: BLT
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: BLT
+  market:
+    identifier: topbtc
+    name: TopBTC
+  target: BTC
+- base: BLT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH

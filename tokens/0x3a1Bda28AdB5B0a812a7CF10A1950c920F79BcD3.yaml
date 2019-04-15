@@ -29,18 +29,18 @@ symbol: flp
 tickers:
 - base: FLP
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: FLP
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
 - base: FLP
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: FLP
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: FLP
   market:
@@ -49,9 +49,14 @@ tickers:
   target: BTC
 - base: FLP
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: quoine
+    name: Liquid (Quoine)
   target: ETH
+- base: FLP
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
 - base: FLP
   market:
     identifier: tokenjar

@@ -28,11 +28,6 @@ symbol: snov
 tickers:
 - base: SNOV
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: SNOV
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -43,21 +38,26 @@ tickers:
   target: ETH
 - base: SNOV
   market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
-- base: SNOV
-  market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: SNOV
-  market:
-    identifier: thetokenstore
-    name: Token Store
   target: ETH
 - base: SNOV
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: SNOV
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: SNOV
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: SNOV
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH

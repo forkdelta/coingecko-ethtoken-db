@@ -21,21 +21,21 @@ symbol: tig
 tickers:
 - base: TIG
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: TIG
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: TIG
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: TIG
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
+  target: WETH
+- base: TIG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

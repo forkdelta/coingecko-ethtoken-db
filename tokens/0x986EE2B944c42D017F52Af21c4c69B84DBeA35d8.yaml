@@ -23,6 +23,11 @@ links:
 name: BitMart Token
 symbol: bmx
 tickers:
+- base: ZRX
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
 - base: BMX
   market:
     identifier: ddex
@@ -33,8 +38,3 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: ZRX
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX

@@ -28,21 +28,21 @@ symbol: lcd
 tickers:
 - base: LCD
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: 33482C9F-175F-434E-A04F-2B9DC52E36EF
-  market:
-    identifier: lykke
-    name: Lykke
+    identifier: idex
+    name: Idex
   target: ETH
 - base: 33482C9F-175F-434E-A04F-2B9DC52E36EF
   market:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: 33482C9F-175F-434E-A04F-2B9DC52E36EF
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: LCD
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

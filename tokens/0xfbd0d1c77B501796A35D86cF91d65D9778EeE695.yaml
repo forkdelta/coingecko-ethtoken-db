@@ -20,9 +20,19 @@ symbol: twnkl
 tickers:
 - base: TWNKL
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: TWNKL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TWNKL
+  market:
     identifier: south_xchange
     name: SouthXchange
-  target: DOGE
+  target: BCH
 - base: TWNKL
   market:
     identifier: south_xchange
@@ -32,12 +42,7 @@ tickers:
   market:
     identifier: south_xchange
     name: SouthXchange
-  target: USNBT
-- base: TWNKL
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+  target: DASH
 - base: TWNKL
   market:
     identifier: south_xchange
@@ -47,14 +52,9 @@ tickers:
   market:
     identifier: south_xchange
     name: SouthXchange
-  target: BCH
+  target: USNBT
 - base: TWNKL
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: TWNKL
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH

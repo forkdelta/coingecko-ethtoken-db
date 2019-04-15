@@ -22,8 +22,33 @@ symbol: smt
 tickers:
 - base: SMT
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: SMT
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: SMT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
+- base: SMT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
+- base: SMT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: SMT
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: USDT
 - base: SMT
   market:
@@ -32,54 +57,34 @@ tickers:
   target: USDT
 - base: SMT
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: SMT
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: SMT
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: SMT
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: SMT
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: SMT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: SMT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: SMT
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
-- base: SMT
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
 - base: SMT
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: gate-io
+    name: Gate.io
+  target: ETH
+- base: SMT
+  market:
+    identifier: gate-io
+    name: Gate.io
+  target: USDT
+- base: SMT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: SMT
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
+- base: SMT
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
 - base: SMT
   market:
     identifier: trade_satoshi
@@ -94,19 +99,19 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: BTC
-- base: SMT
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: DOGE
-- base: SMT
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
   target: USDT
 - base: SMT
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: SMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: SMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

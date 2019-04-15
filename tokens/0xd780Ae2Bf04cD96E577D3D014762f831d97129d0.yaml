@@ -28,9 +28,19 @@ symbol: evn
 tickers:
 - base: EVN
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: EVN
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: EVN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: EVN
   market:
     identifier: yobit
@@ -40,19 +50,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR
 - base: EVN
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: EVN
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: EVN
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+  target: WAVES

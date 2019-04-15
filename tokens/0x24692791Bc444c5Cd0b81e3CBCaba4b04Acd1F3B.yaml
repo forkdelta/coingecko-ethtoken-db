@@ -25,29 +25,9 @@ symbol: ukg
 tickers:
 - base: UKG
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: UKG
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
-- base: UKG
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
-- base: UKG
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: UKG
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: UKG
   market:
     identifier: ddex
@@ -60,28 +40,38 @@ tickers:
   target: ETH
 - base: UKG
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: UKG
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: UKG
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: UKG
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: UKG
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: UKG
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: UKG
   market:
     identifier: okex
     name: OKEx
-  target: ETH
-- base: UKG
-  market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: OUSD
-- base: UKG
-  market:
-    identifier: orderbook
-    name: Orderbook.io
   target: ETH
 - base: UKG
   market:
@@ -90,39 +80,14 @@ tickers:
   target: USDT
 - base: UKG
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: orderbook
+    name: Orderbook.io
   target: ETH
 - base: UKG
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: UKG
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: UKG
-  market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
-- base: UKG
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: UKG
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: UKG
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC
+    identifier: orderbook
+    name: Orderbook.io
+  target: OUSD
 - base: UKG
   market:
     identifier: quoine
@@ -135,11 +100,36 @@ tickers:
   target: QASH
 - base: UKG
   market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: UKG
   market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: UKG
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: UKG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: UKG
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: UKG
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: UKG
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

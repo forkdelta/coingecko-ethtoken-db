@@ -30,26 +30,26 @@ symbol: udoo
 tickers:
 - base: UDOO
   market:
-    identifier: exrates
-    name: Exrates
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: UDOO
+  market:
+    identifier: coinbene
+    name: CoinBene
   target: ETH
 - base: UDOO
   market:
     identifier: exrates
     name: Exrates
   target: BTC
+- base: UDOO
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
 - base: UDOO
   market:
     identifier: exrates
     name: Exrates
   target: USD
-- base: UDOO
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: UDOO
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC

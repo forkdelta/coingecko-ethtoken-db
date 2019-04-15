@@ -29,8 +29,13 @@ tickers:
   target: USD
 - base: UTK
   market:
-    identifier: orderbook
-    name: Orderbook.io
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: UTK
+  market:
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: UTK
   market:
@@ -39,8 +44,8 @@ tickers:
   target: USDT
 - base: UTK
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: UTK
   market:
@@ -49,9 +54,9 @@ tickers:
   target: ETH
 - base: UTK
   market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: OUSD
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: UTK
   market:
     identifier: latoken
@@ -59,21 +64,16 @@ tickers:
   target: LA
 - base: UTK
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: orderbook
+    name: Orderbook.io
   target: ETH
+- base: UTK
+  market:
+    identifier: orderbook
+    name: Orderbook.io
+  target: OUSD
 - base: UTK
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: UTK
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: UTK
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH

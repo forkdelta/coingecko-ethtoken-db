@@ -21,16 +21,11 @@ links:
 name: Dovu
 symbol: dov
 tickers:
-- base: DOV
+- base: DOVU
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DOV
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DOV
   market:
     identifier: idex
@@ -48,11 +43,21 @@ tickers:
   target: ETH
 - base: DOV
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: DOV
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: DOVU
+- base: DOV
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DOV
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

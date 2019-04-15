@@ -24,16 +24,6 @@ symbol: entrp
 tickers:
 - base: ENTRP
   market:
-    identifier: thetokenstore
-    name: Token Store
-  target: ETH
-- base: ENTRP
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ENTRP
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -51,4 +41,14 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
+  target: WETH
+- base: ENTRP
+  market:
+    identifier: thetokenstore
+    name: Token Store
+  target: ETH
+- base: ENTRP
+  market:
+    identifier: tokenjar
+    name: TokenJar
   target: WETH

@@ -27,14 +27,14 @@ symbol: cov
 tickers:
 - base: COV
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: everbloom
+    name: Everbloom
   target: ETH
-- base: COVX
+- base: COV
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: COV
   market:
     identifier: livecoin
@@ -42,31 +42,21 @@ tickers:
   target: ETH
 - base: COV
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: COVX
   market:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: COV
+- base: COVX
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: COV
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: COVX
   market:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: COV
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH

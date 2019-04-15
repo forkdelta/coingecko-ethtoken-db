@@ -21,14 +21,19 @@ symbol: vio
 tickers:
 - base: VIO
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: VIO
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
 - base: VIO
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
 - base: VIO
   market:
     identifier: quoine
@@ -44,8 +49,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: VIO
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC

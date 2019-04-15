@@ -38,6 +38,26 @@ symbol: bnc
 tickers:
 - base: BNC
   market:
+    identifier: axnet
+    name: AXNET
+  target: ETH
+- base: BNC
+  market:
+    identifier: axnet
+    name: AXNET
+  target: TUSD
+- base: BNC
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: BNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: BNC
+  market:
     identifier: exrates
     name: Exrates
   target: ETH
@@ -48,14 +68,24 @@ tickers:
   target: USD
 - base: BNC
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: BNC
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: BNC
   market:
-    identifier: exrates
-    name: Exrates
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: BTC
+- base: BNC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
 - base: BNC
   market:
     identifier: trade_satoshi
@@ -66,33 +96,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: LTC
-- base: BNC
-  market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: BNC
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
-- base: BNC
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: BNC
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: BNC
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: DOGE
-- base: BNC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

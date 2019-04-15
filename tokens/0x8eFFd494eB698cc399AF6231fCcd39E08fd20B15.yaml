@@ -24,16 +24,16 @@ symbol: pix
 tickers:
 - base: PIX
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
-- base: PIX
-  market:
     identifier: bigone
     name: BigONE
   target: BTC
 - base: PIX
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: PIX
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -46,26 +46,11 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: ETH
-- base: PIX
-  market:
-    identifier: idax
-    name: Idax
   target: BTC
 - base: PIX
   market:
     identifier: coss
     name: COSS
-  target: BTC
-- base: PIX
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: PIX
-  market:
-    identifier: idax
-    name: Idax
   target: ETH
 - base: PIX
   market:
@@ -74,11 +59,26 @@ tickers:
   target: ETH
 - base: PIX
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: PIX
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: PIX
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: PIX
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
+- base: PIX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PIX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

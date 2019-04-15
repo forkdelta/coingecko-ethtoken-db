@@ -50,6 +50,21 @@ symbol: shp
 tickers:
 - base: SHP
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: SHP
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: SHP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: SHP
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -60,24 +75,9 @@ tickers:
   target: BTC
 - base: SHP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: SHP
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: SHP
-  market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: quoine
+    name: Liquid (Quoine)
   target: ETH
-- base: SHP
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: SHP
   market:
     identifier: quoine
@@ -85,11 +85,16 @@ tickers:
   target: QASH
 - base: SHP
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: SHP
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: SHP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

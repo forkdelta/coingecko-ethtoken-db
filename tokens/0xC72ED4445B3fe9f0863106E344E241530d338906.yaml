@@ -22,11 +22,16 @@ symbol: mlc
 tickers:
 - base: MLC
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
 - base: MLC
   market:
     identifier: simex
     name: Simex
   target: BTC
+- base: MLC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
