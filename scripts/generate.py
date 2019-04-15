@@ -80,7 +80,9 @@ def make_token_entry(coin_details):
         description = clean_text(description)
 
     tickers = list(
-        map(extract_ticker, filter(not_stale, coin_details["tickers"])))
+        sorted(
+            map(extract_ticker, filter(not_stale, coin_details["tickers"])),
+            key=lambda t: [t["market"]["identifier"], t["target"]]))
     return dict(
         address=checksum_address,
         description=LiteralString(description),
