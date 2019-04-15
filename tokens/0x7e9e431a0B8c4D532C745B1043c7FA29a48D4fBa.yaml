@@ -83,16 +83,6 @@ tickers:
   target: EOS
 - base: EOSDAC
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: EOSDAC
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: EOSDAC
-  market:
     identifier: idax
     name: Idax
   target: ETH
@@ -115,13 +105,23 @@ tickers:
   market:
     identifier: openledger
     name: OpenLedger DEX
+  target: BITUSD
+- base: EOSDAC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
   target: BTC
-- base: ETH
+- base: EOSDAC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTS
+- base: EOS
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: EOSDAC
-- base: EOS
+- base: ETH
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -136,8 +136,3 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
-- base: EOSDAC
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

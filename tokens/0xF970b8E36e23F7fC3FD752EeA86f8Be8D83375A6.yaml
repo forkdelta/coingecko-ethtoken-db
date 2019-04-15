@@ -53,6 +53,16 @@ tickers:
   target: USDT
 - base: RCN
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: RCN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: RCN
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -73,18 +83,13 @@ tickers:
   target: ETH
 - base: RCN
   market:
-    identifier: gate-io
-    name: Gate.io
+    identifier: idex
+    name: Idex
   target: ETH
 - base: RCN
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: RCN
-  market:
-    identifier: idex
-    name: Idex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: RCN
   market:
@@ -116,6 +121,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: RCN
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC
 - base: RCN
   market:
     identifier: zb

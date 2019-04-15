@@ -84,8 +84,13 @@ tickers:
   target: USD
 - base: ABYSS
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: ABYSS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: ABYSS
   market:
@@ -112,8 +117,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ABYSS
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT

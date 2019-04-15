@@ -87,6 +87,16 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: RDN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: RDN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: RDN
   market:
@@ -110,14 +120,9 @@ tickers:
   target: ETH
 - base: RDN
   market:
-    identifier: gate-io
+    identifier: gate
     name: Gate.io
   target: ETH
-- base: RDN
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
 - base: RDN
   market:
     identifier: gdac
@@ -193,11 +198,6 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: RDN
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
 - base: RDN
   market:
     identifier: tokenize

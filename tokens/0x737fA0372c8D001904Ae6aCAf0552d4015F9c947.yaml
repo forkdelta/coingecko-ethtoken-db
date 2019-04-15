@@ -24,14 +24,14 @@ symbol: medibit
 tickers:
 - base: MEDIBIT
   market:
-    identifier: idax
-    name: Idax
+    identifier: hotbit
+    name: Hotbit
   target: BTC
 - base: MEDIBIT
   market:
     identifier: idax
     name: Idax
-  target: ETH
+  target: BTC
 - base: MEDIBIT
   market:
     identifier: idax
@@ -42,6 +42,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: MEDIBIT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: MEDIBIT
   market:
     identifier: tokenjar

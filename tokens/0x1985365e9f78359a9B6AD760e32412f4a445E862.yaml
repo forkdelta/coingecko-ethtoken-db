@@ -53,11 +53,6 @@ symbol: rep
 tickers:
 - base: REP
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: REP
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -90,12 +85,17 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
+  target: PLN
+- base: REP
+  market:
+    identifier: bitbay
+    name: BitBay
   target: USD
 - base: REP
   market:
     identifier: bitsane
     name: Bitsane
-  target: BTC
+  target: USDT
 - base: REP
   market:
     identifier: blockonix
@@ -158,6 +158,11 @@ tickers:
   target: ETH
 - base: REP
   market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: REP
+  market:
     identifier: daybit
     name: Daybit
   target: BTC
@@ -175,16 +180,6 @@ tickers:
   market:
     identifier: ethex
     name: Ethex
-  target: ETH
-- base: REP
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: REP
-  market:
-    identifier: gate-io
-    name: Gate.io
   target: ETH
 - base: REP
   market:
@@ -208,24 +203,9 @@ tickers:
   target: BTC
 - base: REP
   market:
-    identifier: gopax
-    name: GoPax
-  target: ETH
-- base: REP
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: REP
-  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: REP
-  market:
-    identifier: koinex
-    name: Koinex
-  target: INR
 - base: REP
   market:
     identifier: koinex
@@ -248,24 +228,14 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
-- base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: REP
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
+  target: WETH
 - base: REP
   market:
     identifier: simex
@@ -273,11 +243,16 @@ tickers:
   target: BTC
 - base: REP
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: simex
+    name: Simex
   target: ETH
 - base: REP
   market:
     identifier: tradeio
     name: Trade.io
   target: TIO
+- base: REP
+  market:
+    identifier: zebpay
+    name: Zebpay
+  target: INR

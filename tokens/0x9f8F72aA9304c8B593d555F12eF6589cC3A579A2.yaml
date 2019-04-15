@@ -54,8 +54,18 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: MKR
+  market:
     identifier: allbit
     name: Allbit
+  target: ETH
+- base: MKR
+  market:
+    identifier: bitebtc
+    name: BiteBTC
   target: ETH
 - base: MKR
   market:
@@ -174,14 +184,14 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
+    identifier: gdax
+    name: Coinbase Pro
+  target: BTC
 - base: MKR
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
+    identifier: gdax
+    name: Coinbase Pro
+  target: USDC
 - base: MKR
   market:
     identifier: gopax
@@ -191,6 +201,11 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
+  target: ETH
+- base: MKR
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: MKR
   market:
@@ -241,12 +256,32 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
+  target: DAI
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
 - base: MKR
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: MKR
   market:
     identifier: switcheo

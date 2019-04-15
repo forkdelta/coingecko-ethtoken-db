@@ -25,6 +25,11 @@ tickers:
   market:
     identifier: biki
     name: Biki
+  target: BTC
+- base: MNC
+  market:
+    identifier: biki
+    name: Biki
   target: ETH
 - base: MNC
   market:
@@ -53,19 +58,9 @@ tickers:
   target: ETH
 - base: MNC
   market:
-    identifier: bitker
-    name: BITKER
-  target: USDT
-- base: MNC
-  market:
     identifier: btc_alpha
     name: BTC-Alpha
   target: ETH
-- base: MNC
-  market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: USD
 - base: MNC
   market:
     identifier: btc_alpha
@@ -110,11 +105,6 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: BTC
-- base: MNC
-  market:
-    identifier: exrates
-    name: Exrates
   target: ETH
 - base: MNC
   market:
@@ -123,19 +113,19 @@ tickers:
   target: USD
 - base: MNC
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: fubt
+    name: FUBT
+  target: BTC
+- base: MNC
+  market:
+    identifier: fubt
+    name: FUBT
   target: ETH
 - base: MNC
   market:
     identifier: livecoin
     name: Livecoin
   target: EUR
-- base: MNC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: RUR
 - base: MNC
   market:
     identifier: localtrade
@@ -145,17 +135,22 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
-- base: MNC
-  market:
-    identifier: mercatox
-    name: Mercatox
   target: ETH
 - base: MNC
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: MNC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
+- base: MNC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
 - base: MNC
   market:
     identifier: stocks_exchange

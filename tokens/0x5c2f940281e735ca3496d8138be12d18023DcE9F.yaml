@@ -23,6 +23,11 @@ symbol: bnana
 tickers:
 - base: BNANA
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: BNANA
+  market:
     identifier: instantbitex
     name: Instant Bitex
   target: BTC
@@ -31,11 +36,6 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: BNANA
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: BNANA
   market:
     identifier: mercatox

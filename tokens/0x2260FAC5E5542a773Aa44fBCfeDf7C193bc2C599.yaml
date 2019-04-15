@@ -40,6 +40,16 @@ tickers:
     identifier: idex
     name: Idex
   target: USDC
+- base: ETH
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: PKG
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: SNT
   market:
     identifier: idex
@@ -50,27 +60,12 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: PKG
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: XBASE
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: XENC
   market:
     identifier: idex
     name: Idex
   target: WBTC
 - base: LINK
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: ETH
   market:
     identifier: idex
     name: Idex
@@ -105,6 +100,16 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
+- base: XBASE
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: WBTC
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: WBTC
   market:
     identifier: radar_relay
@@ -125,3 +130,13 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: BTC
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

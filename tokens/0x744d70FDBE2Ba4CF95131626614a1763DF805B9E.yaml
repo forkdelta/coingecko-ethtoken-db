@@ -67,11 +67,6 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: coinbit
-    name: Coinbit
-  target: KRW
-- base: SNT
-  market:
     identifier: coinmex
     name: CoinMex
   target: ETH
@@ -80,6 +75,11 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: KRW
+- base: SNT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: SNT
   market:
     identifier: ddex
@@ -92,39 +92,14 @@ tickers:
   target: WETH
 - base: SNT
   market:
-    identifier: dextop
-    name: DEx.top
-  target: ETH
-- base: SNT
-  market:
-    identifier: exx
-    name: EXX
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
-- base: SNT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: BTC
-- base: SNT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: SNT
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
 - base: SNT
   market:
     identifier: gopax
     name: GoPax
   target: ETH
-- base: SNT
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: SNT
   market:
     identifier: idex
@@ -135,11 +110,6 @@ tickers:
     identifier: jex
     name: JEX
   target: USDT
-- base: SNT
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
 - base: SNT
   market:
     identifier: livecoin

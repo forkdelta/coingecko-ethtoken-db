@@ -23,4 +23,14 @@ links:
   twitter_screen_name: VegaWallet
 name: VegaWallet Token
 symbol: vgw
-tickers: []
+tickers:
+- base: VGW
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: VGW
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC

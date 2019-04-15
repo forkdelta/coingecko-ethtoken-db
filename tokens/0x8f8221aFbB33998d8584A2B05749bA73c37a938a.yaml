@@ -115,6 +115,11 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: BTC
+- base: REQ
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: CRD
 - base: REQ
   market:
@@ -183,16 +188,6 @@ tickers:
   target: ETH
 - base: REQ
   market:
-    identifier: gate-io
-    name: Gate.io
-  target: ETH
-- base: REQ
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
-- base: REQ
-  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -201,11 +196,6 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
-- base: REQ
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: REQ
   market:
     identifier: idex
@@ -225,12 +215,12 @@ tickers:
   market:
     identifier: koinex
     name: Koinex
-  target: INR
+  target: XRP
 - base: REQ
   market:
-    identifier: koinex
-    name: Koinex
-  target: XRP
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: 297A7368-9428-4AAC-98A5-A28A217E7A99
   market:
     identifier: lykke

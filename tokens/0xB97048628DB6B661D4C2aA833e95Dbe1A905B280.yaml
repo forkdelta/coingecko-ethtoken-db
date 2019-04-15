@@ -76,11 +76,6 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: PLN
-- base: PAY
-  market:
-    identifier: bitbay
-    name: BitBay
   target: USD
 - base: PAY
   market:
@@ -189,19 +184,14 @@ tickers:
   target: ETH
 - base: PAY
   market:
-    identifier: gate-io
+    identifier: gate
     name: Gate.io
   target: BTC
 - base: PAY
   market:
-    identifier: gate-io
+    identifier: gate
     name: Gate.io
   target: ETH
-- base: PAY
-  market:
-    identifier: gate-io
-    name: Gate.io
-  target: USDT
 - base: PAY
   market:
     identifier: idex
@@ -267,6 +257,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: PAY
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
 - base: PAY
   market:
     identifier: vebitcoin

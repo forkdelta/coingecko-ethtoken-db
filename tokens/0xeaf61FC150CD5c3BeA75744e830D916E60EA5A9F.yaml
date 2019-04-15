@@ -51,19 +51,9 @@ symbol: type
 tickers:
 - base: TYPE
   market:
-    identifier: coin_exchange
-    name: Coinexchange
+    identifier: latoken
+    name: LATOKEN
   target: BTC
-- base: TYPE
-  market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: ETH
-- base: TYPE
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: TYPE
   market:
     identifier: latoken
@@ -89,6 +79,16 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: DOGE
+- base: TYPE
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
+- base: TYPE
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: LTC
 - base: TYPE
   market:
     identifier: trade_satoshi

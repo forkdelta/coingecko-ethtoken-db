@@ -36,6 +36,11 @@ symbol: mcw
 tickers:
 - base: MCW
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MCW
+  market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
@@ -49,11 +54,6 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: DOGE
-- base: MCW
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
 - base: MCW
   market:
     identifier: trade_satoshi

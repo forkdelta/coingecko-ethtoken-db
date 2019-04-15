@@ -88,14 +88,9 @@ tickers:
   target: USDT
 - base: CMT
   market:
-    identifier: coinex
-    name: CoinEx
-  target: BCH
-- base: CMT
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: BTC
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
 - base: CMT
   market:
     identifier: cryptaldash
@@ -155,11 +150,6 @@ tickers:
   market:
     identifier: koinex
     name: Koinex
-  target: INR
-- base: CMT
-  market:
-    identifier: koinex
-    name: Koinex
   target: XRP
 - base: CMT
   market:
@@ -176,12 +166,12 @@ tickers:
     identifier: purcow
     name: Purcow
   target: BTC
-- base: ETH
+- base: BTC
   market:
     identifier: purcow
     name: Purcow
   target: CMT
-- base: BTC
+- base: ETH
   market:
     identifier: purcow
     name: Purcow
