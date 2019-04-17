@@ -32,11 +32,6 @@ tickers:
   target: TUSD
 - base: DATA
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: DATA
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -55,6 +50,11 @@ tickers:
     identifier: dragonex
     name: DragonEx
   target: USDT
+- base: DAT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: DATA
   market:
     identifier: everbloom
@@ -64,6 +64,11 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: DATA
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: DATA
   market:

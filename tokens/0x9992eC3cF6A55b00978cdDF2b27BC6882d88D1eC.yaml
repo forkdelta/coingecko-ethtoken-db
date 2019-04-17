@@ -149,7 +149,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: POY
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: POY
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: POLY
   market:
     identifier: everbloom
@@ -167,6 +177,11 @@ tickers:
   target: USDT
 - base: POLY
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: POLY
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -180,6 +195,11 @@ tickers:
     identifier: koinex
     name: Koinex
   target: XRP
+- base: POLY
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: POLY
   market:
     identifier: kyber_network
@@ -225,8 +245,3 @@ tickers:
     identifier: uex
     name: UEX
   target: USDT
-- base: POLY
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH

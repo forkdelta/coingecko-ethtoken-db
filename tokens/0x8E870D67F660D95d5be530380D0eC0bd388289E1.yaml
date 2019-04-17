@@ -77,6 +77,11 @@ tickers:
   target: ETH
 - base: PAX
   market:
+    identifier: bitmesh
+    name: Bitmesh
+  target: USDT
+- base: PAX
+  market:
     identifier: bitrue
     name: Bitrue
   target: BTC
@@ -97,16 +102,6 @@ tickers:
   target: USDT
 - base: PAX
   market:
-    identifier: fex
-    name: FEX
-  target: USDT
-- base: PAX
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: PAX
-  market:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: BTC
@@ -115,11 +110,6 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: ETH
-- base: BTC
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: PAX
 - base: PAX
   market:
     identifier: gbx
@@ -135,11 +125,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: ETH
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: PAX
 - base: BTC
   market:
     identifier: south_xchange

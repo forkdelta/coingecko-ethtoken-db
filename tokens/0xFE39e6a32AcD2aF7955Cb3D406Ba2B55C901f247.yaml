@@ -15,7 +15,12 @@ links:
 name: ZTCoin
 symbol: zt
 tickers:
-- base: PMD
+- base: ZT
+  market:
+    identifier: exx
+    name: EXX
+  target: USDT
+- base: ACG
   market:
     identifier: zbg
     name: ZBG
@@ -26,11 +31,6 @@ tickers:
     name: ZBG
   target: ZT
 - base: DAG
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: BCAC
   market:
     identifier: zbg
     name: ZBG
@@ -60,7 +60,17 @@ tickers:
     identifier: zbg
     name: ZBG
   target: ZT
-- base: XWC
+- base: EHC
+  market:
+    identifier: zbg
+    name: ZBG
+  target: ZT
+- base: VSYS
+  market:
+    identifier: zbg
+    name: ZBG
+  target: ZT
+- base: HMK
   market:
     identifier: zbg
     name: ZBG
@@ -75,37 +85,7 @@ tickers:
     identifier: zbg
     name: ZBG
   target: ZT
-- base: UL
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: LAC
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: EHC
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: YUN
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: BOX
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: BTC
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: VSYS
+- base: GDCT
   market:
     identifier: zbg
     name: ZBG
@@ -120,12 +100,27 @@ tickers:
     identifier: zbg
     name: ZBG
   target: ZT
-- base: HMK
+- base: ABYSS
   market:
     identifier: zbg
     name: ZBG
   target: ZT
-- base: WHC
+- base: LAC
+  market:
+    identifier: zbg
+    name: ZBG
+  target: ZT
+- base: BTC
+  market:
+    identifier: zbg
+    name: ZBG
+  target: ZT
+- base: BOX
+  market:
+    identifier: zbg
+    name: ZBG
+  target: ZT
+- base: YUN
   market:
     identifier: zbg
     name: ZBG

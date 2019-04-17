@@ -23,6 +23,11 @@ symbol: wab
 tickers:
 - base: WAB
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: WAB
+  market:
     identifier: coinbit
     name: Coinbit
   target: KRW
@@ -61,6 +66,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: WAB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: WAB
   market:
     identifier: trade_satoshi

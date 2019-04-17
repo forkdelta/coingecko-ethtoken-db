@@ -92,11 +92,6 @@ tickers:
   target: USDT
 - base: KNC
   market:
-    identifier: codex
-    name: CODEX
-  target: ETH
-- base: KNC
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
@@ -105,6 +100,11 @@ tickers:
     identifier: cpdax
     name: CPDax
   target: KRW
+- base: KNC
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: KNC
   market:
     identifier: cryptaldash
@@ -130,6 +130,11 @@ tickers:
     identifier: cybex
     name: Cybex DEX
   target: BTC
+- base: KNC
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
 - base: KNC
   market:
     identifier: cybex
@@ -169,6 +174,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: KNC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: KNC
   market:
@@ -187,6 +197,11 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: KNC
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -194,6 +209,21 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
+  target: ETH
+- base: KNC
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: KNC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KNC
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: KNC
   market:
@@ -217,14 +247,19 @@ tickers:
   target: LMX
 - base: KNC
   market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: TUSD
+    identifier: purcow
+    name: Purcow
+  target: ETH
 - base: KNC
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: KNC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: KNC
   market:
     identifier: satang-pro
@@ -260,11 +295,6 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
-- base: KNC
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT
 - base: KNC
   market:
     identifier: zebpay

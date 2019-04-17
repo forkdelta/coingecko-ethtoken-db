@@ -140,11 +140,6 @@ tickers:
   target: ETH
 - base: DRGN
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: DRGN
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -165,6 +160,11 @@ tickers:
   target: USDT
 - base: DRGN
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: DRGN
+  market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
@@ -173,3 +173,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: DRGN
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

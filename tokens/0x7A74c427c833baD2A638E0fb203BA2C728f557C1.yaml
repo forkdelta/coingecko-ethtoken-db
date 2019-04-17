@@ -31,6 +31,16 @@ symbol: rdc
 tickers:
 - base: RDC
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: RDC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: RDC
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH

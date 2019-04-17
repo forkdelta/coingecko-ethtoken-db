@@ -92,16 +92,41 @@ tickers:
     identifier: bisq
     name: Bisq
   target: BTC
+- base: BTC
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: ETH
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: ICX
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: BAT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: OMG
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: GVT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
 - base: DAI
   market:
     identifier: codex
     name: CODEX
   target: BTC
-- base: DAI
-  market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: ETH
 - base: DAI
   market:
     identifier: coinbene
@@ -122,21 +147,16 @@ tickers:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: ETH
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
 - base: DAI
   market:
     identifier: credoex
     name: CredoEx
   target: CREDO
+- base: WETH
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: OMG
   market:
     identifier: ddex
@@ -177,6 +197,11 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
 - base: ZRX
   market:
     identifier: ethfinex
@@ -187,11 +212,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: DAI
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: DAI
   market:
     identifier: gbx
@@ -217,16 +237,6 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: USD
-- base: ETH
-  market:
-    identifier: idex
-    name: Idex
-  target: DAI
-- base: MKR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: DNN
   market:
     identifier: radar_relay
@@ -247,7 +257,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: NPXS
+- base: CVC
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -272,6 +282,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: ART
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: CRED
   market:
     identifier: radar_relay
@@ -283,11 +298,6 @@ tickers:
     name: Radar Relay
   target: DAI
 - base: CAG
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: ART
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -306,17 +316,22 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: ETH
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
 - base: DAI
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: MKR
+- base: DAI
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USD
 - base: ETH
   market:
     identifier: switcheo
@@ -342,3 +357,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: DAI
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

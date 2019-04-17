@@ -28,9 +28,19 @@ symbol: edr
 tickers:
 - base: EDR
   market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: EDR
+  market:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
+- base: EDR
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: USDT
 - base: EDR
   market:
     identifier: ddex
@@ -56,6 +66,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: EDR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: EDR
   market:
     identifier: latoken

@@ -85,11 +85,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: AAA
-- base: XRP
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: AAA
 - base: XEM
   market:
     identifier: bigmarkets
@@ -136,6 +131,11 @@ tickers:
     name: BIG markets
   target: AAA
 - base: MIN
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
+- base: XRP
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -365,11 +365,6 @@ tickers:
     identifier: bitibu
     name: Bitibu
   target: BTB
-- base: ABULABA
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: AAA
   market:
     identifier: instantbitex
@@ -384,9 +379,9 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
-  target: BTC
-- base: AAA
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: USD
+- base: ABULABA
+  market:
+    identifier: zbg
+    name: ZBG
+  target: USDT
