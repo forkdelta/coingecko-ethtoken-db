@@ -105,7 +105,7 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: BTC
+  target: ETH
 - base: REQ
   market:
     identifier: cryptaldash
@@ -150,6 +150,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: REQ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: REQ
   market:
@@ -173,11 +178,6 @@ tickers:
   target: USDT
 - base: REQ
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: REQ
-  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -186,6 +186,11 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
+- base: REQ
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: REQ
   market:
     identifier: idex
@@ -206,11 +211,6 @@ tickers:
     identifier: koinex
     name: Koinex
   target: XRP
-- base: REQ
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: 297A7368-9428-4AAC-98A5-A28A217E7A99
   market:
     identifier: lykke
@@ -241,11 +241,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: REQ
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: REQ
   market:
     identifier: switcheo

@@ -14,12 +14,17 @@ links:
 name: Fatcoin
 symbol: fat
 tickers:
-- base: KIN
+- base: FAT
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: DAI
+- base: BTK
   market:
     identifier: fatbtc
     name: FatBTC
   target: FAT
-- base: BTK
+- base: KIN
   market:
     identifier: fatbtc
     name: FatBTC

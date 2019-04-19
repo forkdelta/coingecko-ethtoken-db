@@ -92,6 +92,11 @@ tickers:
   target: USDT
 - base: KNC
   market:
+    identifier: codex
+    name: CODEX
+  target: ETH
+- base: KNC
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
@@ -99,12 +104,12 @@ tickers:
   market:
     identifier: cpdax
     name: CPDax
-  target: KRW
+  target: BTC
 - base: KNC
   market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
+    identifier: cpdax
+    name: CPDax
+  target: KRW
 - base: KNC
   market:
     identifier: cryptaldash
@@ -130,16 +135,6 @@ tickers:
     identifier: cybex
     name: Cybex DEX
   target: BTC
-- base: KNC
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
-- base: KNC
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: ETH
 - base: KNC
   market:
     identifier: dcoin
@@ -197,11 +192,6 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: KNC
-  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -209,21 +199,6 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
-  target: ETH
-- base: KNC
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: KNC
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: KNC
-  market:
-    identifier: kucoin
-    name: KuCoin
   target: ETH
 - base: KNC
   market:
@@ -247,19 +222,14 @@ tickers:
   target: LMX
 - base: KNC
   market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
+    identifier: paroexchange
+    name: Paro Exchange
+  target: TUSD
 - base: KNC
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: KNC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: KNC
   market:
     identifier: satang-pro
@@ -294,7 +264,7 @@ tickers:
   market:
     identifier: zb
     name: ZB
-  target: BTC
+  target: USDT
 - base: KNC
   market:
     identifier: zebpay

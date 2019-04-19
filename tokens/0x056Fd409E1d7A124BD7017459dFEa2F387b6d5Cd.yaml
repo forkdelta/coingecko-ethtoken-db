@@ -115,6 +115,11 @@ tickers:
   target: XRP
 - base: GUSD
   market:
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
+- base: GUSD
+  market:
     identifier: cex
     name: CEX.IO
   target: BTC
@@ -148,26 +153,11 @@ tickers:
     identifier: coinex
     name: CoinEx
   target: GUSD
-- base: ETH
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: GUSD
-- base: GUSD
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: USDT
 - base: GUSD
   market:
     identifier: coinmex
     name: CoinMex
   target: BTC
-- base: GUSD
-  market:
-    identifier: coinpark
-    name: Coinpark
-  target: USDT
 - base: GUSD
   market:
     identifier: coss
@@ -178,22 +168,22 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
-- base: BWT
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
-- base: ETH
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
 - base: XRP
   market:
     identifier: coss
     name: COSS
   target: GUSD
 - base: EOS
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
+- base: BWT
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
+- base: ETH
   market:
     identifier: coss
     name: COSS
@@ -210,24 +200,9 @@ tickers:
   target: XRP
 - base: GUSD
   market:
-    identifier: cpdax
-    name: CPDax
-  target: BTC
-- base: GUSD
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: GUSD
-  market:
     identifier: dcoin
     name: Dcoin
   target: USDT
-- base: GUSD
-  market:
-    identifier: dextop
-    name: DEx.top
-  target: ETH
 - base: GUSD
   market:
     identifier: digifinex
@@ -323,11 +298,21 @@ tickers:
     identifier: oax
     name: OAX
   target: USDT
+- base: BTC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: GUSD
 - base: ETH
   market:
     identifier: quoine
     name: Liquid (Quoine)
   target: GUSD
+- base: GUSD
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: GUSD
   market:
     identifier: radar_relay
@@ -338,11 +323,6 @@ tickers:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
-- base: BTC
-  market:
-    identifier: therocktrading
-    name: TheRockTrading
-  target: GUSD
 - base: GUSD
   market:
     identifier: tokenize
@@ -357,17 +337,17 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: BTC
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
   target: DOGE
 - base: GUSD
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: LTC
 - base: GUSD
   market:
     identifier: trade_satoshi

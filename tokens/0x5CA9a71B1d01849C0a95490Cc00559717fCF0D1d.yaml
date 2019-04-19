@@ -63,6 +63,11 @@ tickers:
   target: ETH
 - base: AE
   market:
+    identifier: axnet
+    name: AXNET
+  target: TUSD
+- base: AE
+  market:
     identifier: bigone
     name: BigONE
   target: BTC
@@ -93,16 +98,6 @@ tickers:
   target: ETH
 - base: AE
   market:
-    identifier: coinpark
-    name: Coinpark
-  target: ETH
-- base: AE
-  market:
-    identifier: coinpark
-    name: Coinpark
-  target: USDT
-- base: AE
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -123,14 +118,14 @@ tickers:
   target: WETH
 - base: AE
   market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: AE
+  market:
     identifier: koinex
     name: Koinex
   target: XRP
-- base: AE
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: AE
   market:
     identifier: latoken
@@ -151,16 +146,6 @@ tickers:
     identifier: oax
     name: OAX
   target: ETH
-- base: AE
-  market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
-- base: AE
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: AE
   market:
     identifier: sistemkoin
@@ -211,8 +196,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: AE
-  market:
-    identifier: zebpay
-    name: Zebpay
-  target: INR

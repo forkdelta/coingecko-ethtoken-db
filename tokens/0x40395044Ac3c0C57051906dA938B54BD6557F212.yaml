@@ -57,6 +57,11 @@ tickers:
   target: ETH
 - base: MGO
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
+- base: MGO
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -90,11 +95,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: MGO
-  market:
-    identifier: idax
-    name: Idax
-  target: BTC
 - base: MGO
   market:
     identifier: idax
@@ -140,12 +140,17 @@ tickers:
     identifier: waves
     name: Waves Platform
   target: ETH
-- base: WCT
+- base: MGO
+  market:
+    identifier: waves
+    name: Waves Platform
+  target: EUR
+- base: ETH
   market:
     identifier: waves
     name: Waves Platform
   target: MGO
-- base: ETH
+- base: WCT
   market:
     identifier: waves
     name: Waves Platform

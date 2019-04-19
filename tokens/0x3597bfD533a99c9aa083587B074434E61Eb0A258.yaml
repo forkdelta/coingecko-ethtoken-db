@@ -49,16 +49,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
-- base: AAA
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: ETH
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
 - base: GVT
   market:
     identifier: bigmarkets
@@ -150,6 +140,11 @@ tickers:
     name: BIG markets
   target: DENT
 - base: DASH
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: BCN
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -281,11 +276,6 @@ tickers:
   target: ETH
 - base: DENT
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: DENT
-  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
@@ -299,11 +289,6 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: ETH
-- base: DENT
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
 - base: DENT
   market:
     identifier: cpdax
@@ -341,9 +326,9 @@ tickers:
   target: ETH
 - base: DENT
   market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DENT
   market:
     identifier: idex
@@ -424,6 +409,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: DENT
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
 - base: DENT
   market:
     identifier: thetokenstore

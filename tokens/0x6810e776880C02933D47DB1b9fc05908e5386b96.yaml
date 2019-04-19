@@ -94,11 +94,6 @@ tickers:
   target: USDT
 - base: GNO
   market:
-    identifier: bx_thailand
-    name: BX Thailand
-  target: THB
-- base: GNO
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -176,22 +171,12 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: GNO
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: LA
 - base: GNO
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: GNO
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
 - base: 65998168-6996-4EF1-88AD-246591316C7D
   market:
     identifier: lykke
@@ -202,6 +187,11 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
+- base: GNO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: GNO
   market:
     identifier: orderbook
@@ -232,16 +222,6 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: GNO
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: GNO
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
 - base: GNO
   market:
     identifier: yobit

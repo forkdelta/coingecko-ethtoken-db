@@ -101,6 +101,11 @@ tickers:
   target: BTC
 - base: GTO
   market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BITCNY
+- base: GTO
+  market:
     identifier: cpdax
     name: CPDax
   target: BTC
@@ -186,19 +191,9 @@ tickers:
   target: ETH
 - base: GTO
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: GTO
-  market:
     identifier: nexybit
     name: Nexybit
   target: BTC
-- base: GTO
-  market:
-    identifier: nexybit
-    name: Nexybit
-  target: ETH
 - base: GTO
   market:
     identifier: nexybit
@@ -209,11 +204,6 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: BTC
-- base: GTO
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
 - base: GTO
   market:
     identifier: tokenjar

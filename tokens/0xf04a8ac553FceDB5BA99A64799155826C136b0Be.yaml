@@ -25,6 +25,11 @@ symbol: flixx
 tickers:
 - base: FLIXX
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: FLIXX
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -40,11 +45,6 @@ tickers:
   target: ETH
 - base: FLIXX
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: FLIXX
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -53,6 +53,11 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: BTC
+- base: FLIXX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
 - base: FLIXX
   market:
     identifier: quoine

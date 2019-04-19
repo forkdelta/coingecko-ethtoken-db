@@ -80,11 +80,6 @@ tickers:
   target: TUSD
 - base: DGD
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
-- base: DGD
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -155,16 +150,6 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: DGD
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: DGD
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -178,11 +163,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: DGD
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
 - base: DGD
   market:
     identifier: openledger
@@ -208,12 +188,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: STEEM
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: USDT
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -223,28 +198,18 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: GRC
+- base: USDT
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: STEEM
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
 - base: DGD
   market:
-    identifier: purcow
-    name: Purcow
-  target: BTC
-- base: DGD
-  market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
-- base: DGD
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: DGD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH

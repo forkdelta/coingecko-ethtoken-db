@@ -39,7 +39,9 @@ links:
   - https://enigma.co/
   repos_url:
     github:
-    - https://github.com/enigmampc/catalyst
+    - https://github.com/enigmampc/enigma-contract
+    - https://github.com/enigmampc/enigma-core
+    - https://github.com/enigmampc/enigma-p2p
   subreddit_url: https://www.reddit.com/r/EnigmaProject/
   telegram_channel_identifier: enigmacatalyst
   twitter_screen_name: enigmampc
@@ -93,8 +95,18 @@ tickers:
   target: ETH
 - base: ENG
   market:
+    identifier: coineal
+    name: Coineal
+  target: ETH
+- base: ENG
+  market:
     identifier: coinplace
     name: Coinplace
+  target: BTC
+- base: ENG
+  market:
+    identifier: crex24
+    name: CREX24
   target: BTC
 - base: ENG
   market:
@@ -181,11 +193,6 @@ tickers:
     identifier: joyso
     name: Joyso
   target: ETH
-- base: ENG
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: 81FF816D-4CA6-4C88-A454-3F7A1B80F472
   market:
     identifier: lykke
@@ -216,3 +223,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: ENG
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH

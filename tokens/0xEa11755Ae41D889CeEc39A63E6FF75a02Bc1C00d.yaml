@@ -89,6 +89,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
+- base: DASH
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: CTXC
 - base: DENT
   market:
     identifier: bigmarkets
@@ -100,11 +105,6 @@ tickers:
     name: BIG markets
   target: CTXC
 - base: ZEC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: CTXC
-- base: TXC
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -139,7 +139,7 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
-- base: DASH
+- base: TXC
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -195,6 +195,11 @@ tickers:
     name: BIG markets
   target: CTXC
 - base: EOS
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: CTXC
+- base: ETC
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -341,11 +346,6 @@ tickers:
   target: ZIL
 - base: CTXC
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: CTXC
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: CRD
@@ -354,11 +354,6 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
-- base: CTXC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
 - base: CTXC
   market:
     identifier: dcoin
@@ -434,8 +429,3 @@ tickers:
     identifier: uex
     name: UEX
   target: ETH
-- base: CTXC
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC

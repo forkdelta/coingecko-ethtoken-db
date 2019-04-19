@@ -49,11 +49,6 @@ symbol: wtc
 tickers:
 - base: WTC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: WTC
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -137,6 +132,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: WTC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: WTC
   market:
     identifier: everbloom
