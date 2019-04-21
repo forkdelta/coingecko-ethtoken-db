@@ -80,6 +80,11 @@ tickers:
   target: TUSD
 - base: DGD
   market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: DGD
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -103,11 +108,6 @@ tickers:
     identifier: cobinhood
     name: Cobinhood
   target: ETH
-- base: DGD
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
 - base: DGD
   market:
     identifier: coinplace
@@ -150,6 +150,16 @@ tickers:
   target: ETH
 - base: DGD
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DGD
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: DGD
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -188,6 +198,11 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
+- base: STEEM
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
 - base: GRC
   market:
     identifier: openledger
@@ -199,11 +214,6 @@ tickers:
     name: OpenLedger DEX
   target: DGD
 - base: USDT
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: STEEM
   market:
     identifier: openledger
     name: OpenLedger DEX

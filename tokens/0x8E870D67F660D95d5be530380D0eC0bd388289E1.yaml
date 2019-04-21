@@ -67,19 +67,39 @@ tickers:
   target: ETH
 - base: PAX
   market:
+    identifier: axnet
+    name: AXNET
+  target: USDT
+- base: PAX
+  market:
     identifier: bcex
     name: BCEX
   target: USDT
 - base: PAX
   market:
-    identifier: bit_z
-    name: Bit-Z
+    identifier: binance
+    name: Binance
+  target: BNB
+- base: PAX
+  market:
+    identifier: binance
+    name: Binance
+  target: BTC
+- base: PAX
+  market:
+    identifier: binance
+    name: Binance
   target: ETH
 - base: PAX
   market:
-    identifier: bitmesh
-    name: Bitmesh
-  target: USDT
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: PAX
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
 - base: PAX
   market:
     identifier: bitrue
@@ -97,35 +117,35 @@ tickers:
   target: BTC
 - base: PAX
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
+    identifier: cpdax
+    name: CPDax
   target: BTC
 - base: PAX
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PAX
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: PAX
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
+    identifier: hitbtc
+    name: HitBTC
   target: USD
-- base: PAX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: PAX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: BTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: PAX
 - base: ETH
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: PAX
+- base: DASH
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -144,12 +164,7 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: ETH
-- base: PAX
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: LTC
+  target: USDT
 - base: PAX
   market:
     identifier: uex
@@ -162,24 +177,9 @@ tickers:
   target: USDT
 - base: PAX
   market:
-    identifier: upbit
-    name: Upbit
-  target: USDT
-- base: PAX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: PAX
-  market:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: PAX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
 - base: PAX
   market:
     identifier: zgtop

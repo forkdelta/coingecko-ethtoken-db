@@ -60,7 +60,17 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
+- base: SGC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
 - base: CARD
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: AC3
   market:
     identifier: bibox
     name: Bibox
@@ -90,16 +100,6 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: SGC
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
-- base: AC3
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
 - base: RTE
   market:
     identifier: bibox
@@ -107,14 +107,14 @@ tickers:
   target: BIX
 - base: BIX
   market:
+    identifier: coinpark
+    name: Coinpark
+  target: USDT
+- base: BIX
+  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
-- base: BIX
-  market:
-    identifier: dextop
-    name: DEx.top
-  target: ETH
 - base: BIX
   market:
     identifier: everbloom

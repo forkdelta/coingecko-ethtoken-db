@@ -81,20 +81,25 @@ tickers:
   target: USDT
 - base: BTO
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: BTO
+  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: USDT
-  market:
-    identifier: lbank
-    name: Lbank
-  target: BTO
 - base: BTC
   market:
     identifier: lbank
     name: Lbank
   target: BTO
 - base: ETH
+  market:
+    identifier: lbank
+    name: Lbank
+  target: BTO
+- base: USDT
   market:
     identifier: lbank
     name: Lbank

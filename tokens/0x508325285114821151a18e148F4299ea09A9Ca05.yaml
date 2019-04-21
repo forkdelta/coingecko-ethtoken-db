@@ -42,7 +42,12 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: USDT
+- base: BTC
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: HKDT
+- base: VOLLAR
   market:
     identifier: qbtc
     name: QBTC
@@ -57,17 +62,12 @@ tickers:
     identifier: qbtc
     name: QBTC
   target: HKDT
-- base: VOLLAR
+- base: USDT
   market:
     identifier: qbtc
     name: QBTC
   target: HKDT
 - base: CNYT
-  market:
-    identifier: qbtc
-    name: QBTC
-  target: HKDT
-- base: BTC
   market:
     identifier: qbtc
     name: QBTC

@@ -33,6 +33,11 @@ symbol: mrk
 tickers:
 - base: MRK
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
+- base: MRK
+  market:
     identifier: coss
     name: COSS
   target: BTC
@@ -61,6 +66,11 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: BTC
+- base: MRK
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: ETH
 - base: MRK
   market:
     identifier: quoine

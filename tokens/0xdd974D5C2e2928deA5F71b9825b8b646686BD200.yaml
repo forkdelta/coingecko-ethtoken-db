@@ -57,11 +57,6 @@ symbol: knc
 tickers:
 - base: KNC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: KNC
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -72,14 +67,19 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: bitbox
-    name: BITBOX
-  target: ETH
+    identifier: axnet
+    name: AXNET
+  target: TUSD
 - base: KNC
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
+    identifier: axnet
+    name: AXNET
+  target: USDT
+- base: KNC
+  market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: KNC
   market:
     identifier: bytex
@@ -94,7 +94,12 @@ tickers:
   market:
     identifier: codex
     name: CODEX
-  target: ETH
+  target: BTC
+- base: KNC
+  market:
+    identifier: codex
+    name: CODEX
+  target: EOS
 - base: KNC
   market:
     identifier: coin_exchange
@@ -104,37 +109,17 @@ tickers:
   market:
     identifier: cpdax
     name: CPDax
-  target: BTC
-- base: KNC
-  market:
-    identifier: cpdax
-    name: CPDax
   target: KRW
-- base: KNC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: KNC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
-- base: KNC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
-- base: KNC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
 - base: KNC
   market:
     identifier: cybex
     name: Cybex DEX
   target: BTC
+- base: KNC
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
 - base: KNC
   market:
     identifier: dcoin
@@ -169,26 +154,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: KNC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
 - base: KNC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: KNC
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: KNC
-  market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: fcoin
+    name: FCoin
   target: ETH
 - base: KNC
   market:
@@ -200,6 +170,21 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
+- base: KNC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KNC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: KNC
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: TWDT
 - base: KNC
   market:
     identifier: okex
@@ -219,17 +204,22 @@ tickers:
   market:
     identifier: paroexchange
     name: Paro Exchange
-  target: LMX
+  target: ETH
 - base: KNC
   market:
     identifier: paroexchange
     name: Paro Exchange
-  target: TUSD
+  target: LMX
 - base: KNC
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: KNC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: KNC
   market:
     identifier: satang-pro
@@ -247,8 +237,8 @@ tickers:
   target: THB
 - base: KNC
   market:
-    identifier: saturn_network
-    name: Saturn Network
+    identifier: switcheo
+    name: Switcheo
   target: ETH
 - base: KNC
   market:
@@ -262,14 +252,9 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: zb
-    name: ZB
-  target: USDT
-- base: KNC
-  market:
-    identifier: zebpay
-    name: Zebpay
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: KNC
   market:
     identifier: zebpay

@@ -115,11 +115,6 @@ tickers:
   target: XRP
 - base: GUSD
   market:
-    identifier: bx_thailand
-    name: BX Thailand
-  target: THB
-- base: GUSD
-  market:
     identifier: cex
     name: CEX.IO
   target: BTC
@@ -138,11 +133,11 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
-- base: GUSD
+- base: ETH
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
+    identifier: coinex
+    name: CoinEx
+  target: GUSD
 - base: BTC
   market:
     identifier: coinex
@@ -155,35 +150,35 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
+    identifier: coinex
+    name: CoinEx
+  target: USDT
+- base: GUSD
+  market:
     identifier: coinmex
     name: CoinMex
   target: BTC
 - base: GUSD
   market:
-    identifier: coss
-    name: COSS
-  target: COSS
-- base: BTC
+    identifier: coinpark
+    name: Coinpark
+  target: USDT
+- base: GUSD
   market:
     identifier: coss
     name: COSS
-  target: GUSD
+  target: COSS
 - base: XRP
   market:
     identifier: coss
     name: COSS
   target: GUSD
-- base: EOS
+- base: ETH
   market:
     identifier: coss
     name: COSS
   target: GUSD
 - base: BWT
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
-- base: ETH
   market:
     identifier: coss
     name: COSS
@@ -195,14 +190,24 @@ tickers:
   target: USD
 - base: GUSD
   market:
-    identifier: coss
-    name: COSS
-  target: XRP
+    identifier: cpdax
+    name: CPDax
+  target: BTC
+- base: GUSD
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: GUSD
   market:
     identifier: dcoin
     name: Dcoin
   target: USDT
+- base: GUSD
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
 - base: GUSD
   market:
     identifier: digifinex
@@ -223,6 +228,11 @@ tickers:
     identifier: eosex
     name: EOSex
   target: USDT
+- base: EOS
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: GUSD
 - base: FAT
   market:
     identifier: fatbtc
@@ -243,11 +253,6 @@ tickers:
     identifier: fatbtc
     name: FatBTC
   target: GUSD
-- base: EOS
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: GUSD
 - base: GUSD
   market:
     identifier: gbx
@@ -258,12 +263,12 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: ETH
-- base: BTC
+- base: ETH
   market:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: GUSD
-- base: ETH
+- base: BTC
   market:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
@@ -312,11 +317,6 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
-- base: GUSD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
   target: WETH
 - base: GUSD
   market:
@@ -333,6 +333,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: GUSD
   market:
     identifier: trade_satoshi

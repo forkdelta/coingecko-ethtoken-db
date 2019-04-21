@@ -96,17 +96,22 @@ tickers:
   market:
     identifier: bigone
     name: BigONE
-  target: BTC
-- base: HOT
-  market:
-    identifier: bigone
-    name: BigONE
   target: ETH
 - base: HOLO
   market:
     identifier: bigone
     name: BigONE
   target: USDT
+- base: HOT
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: BTC
+- base: HOT
+  market:
+    identifier: catex
+    name: Catex
+  target: ETH
 - base: HOT
   market:
     identifier: chainrift
@@ -139,6 +144,16 @@ tickers:
   target: BTC
 - base: HOT
   market:
+    identifier: coinex
+    name: CoinEx
+  target: BCH
+- base: HOT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: HOT
+  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
@@ -147,11 +162,6 @@ tickers:
     identifier: coinplace
     name: Coinplace
   target: ETH
-- base: HOT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: HOT
   market:
     identifier: cryptaldash
@@ -301,17 +311,7 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: HOT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: TL
-- base: HOT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
 - base: HOT
   market:
     identifier: switcheo

@@ -61,7 +61,12 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
-- base: GAS
+- base: TKY
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
+- base: PRL
   market:
     identifier: kucoin
     name: KuCoin
@@ -71,17 +76,12 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: KCS
+- base: GAS
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
 - base: ETC
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: KCS
-- base: TKY
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: KCS
-- base: PRL
   market:
     identifier: kucoin
     name: KuCoin

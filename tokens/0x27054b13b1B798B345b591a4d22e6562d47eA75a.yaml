@@ -23,6 +23,11 @@ symbol: ast
 tickers:
 - base: AST
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: AST
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -55,11 +60,6 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: AST
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: AST
   market:

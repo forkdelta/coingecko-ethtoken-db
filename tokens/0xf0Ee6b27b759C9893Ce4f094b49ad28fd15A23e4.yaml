@@ -105,11 +105,6 @@ tickers:
   target: BTC
 - base: ENG
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: ENG
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -185,6 +180,11 @@ tickers:
   target: ETH
 - base: ENG
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: ENG
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -192,6 +192,11 @@ tickers:
   market:
     identifier: joyso
     name: Joyso
+  target: ETH
+- base: ENG
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 81FF816D-4CA6-4C88-A454-3F7A1B80F472
   market:
@@ -223,8 +228,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ENG
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH

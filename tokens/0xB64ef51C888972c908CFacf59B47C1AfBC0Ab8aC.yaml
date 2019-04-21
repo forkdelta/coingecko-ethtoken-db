@@ -89,6 +89,11 @@ tickers:
   target: BTC
 - base: STORJ
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: STORJ
+  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
@@ -146,6 +151,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: STORJ
   market:
@@ -156,16 +166,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: STORJ
   market:

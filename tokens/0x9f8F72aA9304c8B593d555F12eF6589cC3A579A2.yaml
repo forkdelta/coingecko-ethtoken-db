@@ -54,11 +54,6 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
-- base: MKR
-  market:
     identifier: bitebtc
     name: BiteBTC
   target: ETH
@@ -169,14 +164,29 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MKR
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: MKR
   market:
     identifier: gdax
     name: Coinbase Pro
   target: BTC
+- base: MKR
+  market:
+    identifier: gdax
+    name: Coinbase Pro
+  target: USDC
 - base: MKR
   market:
     identifier: gopax
@@ -242,11 +252,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TL
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
 - base: MKR
   market:
     identifier: switcheo

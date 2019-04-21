@@ -89,8 +89,8 @@ symbol: dai
 tickers:
 - base: DAI
   market:
-    identifier: bisq
-    name: Bisq
+    identifier: bitbegin
+    name: Bitbegin
   target: BTC
 - base: BTC
   market:
@@ -102,41 +102,46 @@ tickers:
     identifier: bitbegin
     name: Bitbegin
   target: DAI
-- base: BAT
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
 - base: ICX
   market:
     identifier: bitbegin
     name: Bitbegin
   target: DAI
+- base: BAT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: OMG
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: GVT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: DAI
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: ETH
+- base: DAI
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: DAI
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
 - base: DAI
   market:
     identifier: codex
     name: CODEX
   target: BTC
-- base: DAI
-  market:
-    identifier: codex
-    name: CODEX
-  target: USDT
-- base: DAI
-  market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: ETH
-- base: DAI
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: DAI
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
 - base: DAI
   market:
     identifier: coinchangex
@@ -152,10 +157,10 @@ tickers:
     identifier: coss
     name: COSS
   target: DAI
-- base: BTC
+- base: WETH
   market:
-    identifier: coss
-    name: COSS
+    identifier: ddex
+    name: DDEX
   target: DAI
 - base: OMG
   market:
@@ -224,64 +229,49 @@ tickers:
   target: USDT
 - base: DAI
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: DAI
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: BTC
-- base: BTC
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: DAI
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: ETH
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
+    identifier: idex
+    name: Idex
   target: DAI
-- base: DAI
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: ETH
-- base: DAI
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: USD
-- base: DNN
+- base: AGI
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: SPANK
+- base: SS
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: MANA
+- base: EBTC
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: FOAM
+- base: XNK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CVC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: TAU
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: DAI
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: DAI
   market:
     identifier: sistemkoin
@@ -289,26 +279,16 @@ tickers:
   target: TL
 - base: DAI
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USD
-- base: WBTC
-  market:
     identifier: switcheo
     name: Switcheo
-  target: DAI
-- base: BNB
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
+  target: ETH
 - base: DAI
   market:
     identifier: thetokenstore
     name: Token Store
   target: ETH
+- base: DAI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

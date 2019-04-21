@@ -23,6 +23,21 @@ symbol: tcat
 tickers:
 - base: TCAT
   market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: TCAT
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: TCAT
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: TCAT
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
@@ -46,16 +61,6 @@ tickers:
     identifier: localtrade
     name: LocalTrade
   target: USDT
-- base: TCAT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: TCAT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: TCAT
   market:
     identifier: p2pb2b
