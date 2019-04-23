@@ -47,11 +47,6 @@ symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: SNT
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -72,6 +67,11 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
+- base: SNT
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -82,59 +82,19 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: exx
+    name: EXX
   target: BTC
 - base: SNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
+    identifier: financex
+    name: FinanceX
+  target: IDR
 - base: SNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: SNT
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: SNT
-  market:
-    identifier: gopax
-    name: GoPax
-  target: BTC
-- base: SNT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SNT
-  market:
-    identifier: jex
-    name: JEX
-  target: USDT
-- base: SNT
-  market:
-    identifier: koinex
-    name: Koinex
-  target: INR
-- base: SNT
-  market:
-    identifier: koinex
-    name: Koinex
-  target: XRP
-- base: SNT
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: SNT
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: gdac
+    name: GDAC
+  target: KRW
 - base: SNT
   market:
     identifier: ninecoin
@@ -152,11 +112,6 @@ tickers:
   target: USDT
 - base: SNT
   market:
-    identifier: poloniex
-    name: Poloniex
-  target: ETH
-- base: SNT
-  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -164,19 +119,9 @@ tickers:
   market:
     identifier: tokenize
     name: Tokenize
-  target: ETH
-- base: SNT
-  market:
-    identifier: upbit
-    name: Upbit
   target: ETH
 - base: SNT
   market:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
-- base: SNT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC

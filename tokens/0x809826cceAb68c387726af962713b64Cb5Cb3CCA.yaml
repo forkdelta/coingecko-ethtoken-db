@@ -62,11 +62,6 @@ tickers:
   target: BTC
 - base: NCASH
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: NCASH
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -104,7 +99,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: NCA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: NCA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: NCASH
   market:
     identifier: fcoin
@@ -125,11 +130,6 @@ tickers:
     identifier: koinex
     name: Koinex
   target: XRP
-- base: NCASH
-  market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
 - base: NCASH
   market:
     identifier: tokenjar

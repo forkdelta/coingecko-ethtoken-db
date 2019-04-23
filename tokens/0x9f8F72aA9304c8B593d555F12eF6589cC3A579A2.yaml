@@ -54,6 +54,16 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: MKR
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: MKR
+  market:
     identifier: bitebtc
     name: BiteBTC
   target: ETH
@@ -106,11 +116,6 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: DAI
-- base: MKR
-  market:
-    identifier: coss
-    name: COSS
   target: ETH
 - base: MKR
   market:
@@ -146,11 +151,6 @@ tickers:
   market:
     identifier: cybex
     name: Cybex DEX
-  target: CYB
-- base: MKR
-  market:
-    identifier: cybex
-    name: Cybex DEX
   target: USDT
 - base: MKR
   market:
@@ -172,21 +172,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: MKR
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MKR
-  market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: BTC
-- base: MKR
-  market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: USDC
 - base: MKR
   market:
     identifier: gopax
@@ -216,6 +201,11 @@ tickers:
   market:
     identifier: nexybit
     name: Nexybit
+  target: USDT
+- base: MKR
+  market:
+    identifier: okex
+    name: OKEx
   target: USDT
 - base: MKR
   market:
@@ -251,12 +241,22 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
 - base: MKR
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: PAX
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: MKR
   market:
     identifier: thetokenstore

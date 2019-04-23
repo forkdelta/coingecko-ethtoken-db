@@ -22,7 +22,12 @@ tickers:
     identifier: coinbene
     name: CoinBene
   target: ETH
-- base: PARETO
+- base: CREDO
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: BTC
+- base: EOS
   market:
     identifier: credoex
     name: CredoEx
@@ -32,7 +37,7 @@ tickers:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: DAI
+- base: PARETO
   market:
     identifier: credoex
     name: CredoEx
@@ -42,7 +47,12 @@ tickers:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: EOS
+- base: BAT
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: BCH
   market:
     identifier: credoex
     name: CredoEx
@@ -51,17 +61,7 @@ tickers:
   market:
     identifier: credoex
     name: CredoEx
-  target: TUSD
-- base: CREDO
-  market:
-    identifier: credoex
-    name: CredoEx
   target: USD
-- base: CREDO
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: USDC
 - base: CREDO
   market:
     identifier: ddex

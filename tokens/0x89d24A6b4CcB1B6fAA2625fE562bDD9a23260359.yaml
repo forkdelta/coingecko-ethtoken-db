@@ -89,9 +89,9 @@ symbol: dai
 tickers:
 - base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: BTC
+    identifier: allbit
+    name: Allbit
+  target: ETH
 - base: BTC
   market:
     identifier: bitbegin
@@ -124,24 +124,19 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: ETH
+    identifier: codex
+    name: CODEX
+  target: BTC
 - base: DAI
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: DAI
-  market:
-    identifier: cobinhood
-    name: Cobinhood
+    identifier: codex
+    name: CODEX
   target: ETH
 - base: DAI
   market:
     identifier: codex
     name: CODEX
-  target: BTC
+  target: USDT
 - base: DAI
   market:
     identifier: coinchangex
@@ -152,27 +147,22 @@ tickers:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
-- base: MKR
+- base: COSS
   market:
     identifier: coss
     name: COSS
-  target: DAI
-- base: WETH
-  market:
-    identifier: ddex
-    name: DDEX
   target: DAI
 - base: OMG
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: MKR
+- base: TUSD
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: TUSD
+- base: MKR
   market:
     identifier: ddex
     name: DDEX
@@ -202,12 +192,12 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: OMG
+- base: ZRX
   market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: ZRX
+- base: OMG
   market:
     identifier: ethfinex
     name: Ethfinex
@@ -232,37 +222,37 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: DAI
+  market:
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: ETH
 - base: ETH
   market:
     identifier: idex
     name: Idex
   target: DAI
-- base: AGI
+- base: AURA
+  market:
+    identifier: idex
+    name: Idex
+  target: DAI
+- base: ABT
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: SS
+- base: ART
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: EBTC
+- base: PCL
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: XNK
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: CVC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: TAU
+- base: SNT
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -276,12 +266,27 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
 - base: DAI
   market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USD
+- base: BNB
+  market:
     identifier: switcheo
     name: Switcheo
-  target: ETH
+  target: DAI
 - base: DAI
   market:
     identifier: thetokenstore

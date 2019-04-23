@@ -24,6 +24,11 @@ symbol: utk
 tickers:
 - base: UTK
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: UTK
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -44,24 +49,19 @@ tickers:
   target: ETH
 - base: UTK
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: idex
+    name: Idex
   target: ETH
 - base: UTK
   market:
     identifier: latoken
     name: LATOKEN
-  target: LA
-- base: UTK
-  market:
-    identifier: orderbook
-    name: Orderbook.io
   target: ETH
 - base: UTK
   market:
     identifier: orderbook
     name: Orderbook.io
-  target: OUSD
+  target: ETH
 - base: UTK
   market:
     identifier: tokenjar

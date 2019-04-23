@@ -23,19 +23,14 @@ symbol: eurs
 tickers:
 - base: EURS
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: EURS
+  market:
     identifier: airswap
     name: AirSwap
   target: ETH
-- base: BTC
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: EURS
-- base: ETH
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: EURS
 - base: LTC
   market:
     identifier: bitexlive

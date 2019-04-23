@@ -60,16 +60,6 @@ tickers:
   target: ETH
 - base: RDN
   market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: RDN
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: RDN
-  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
@@ -88,6 +78,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: RDN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: RDN
   market:
     identifier: ethfinex
@@ -123,11 +118,6 @@ tickers:
     identifier: gdac
     name: GDAC
   target: KRW
-- base: ETH
-  market:
-    identifier: gdac
-    name: GDAC
-  target: RDN
 - base: RDN
   market:
     identifier: idex

@@ -78,14 +78,19 @@ tickers:
   target: USDT
 - base: DCN
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: DOGE
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
 - base: DCN
   market:
     identifier: coin_exchange
     name: Coinexchange
-  target: ETH
+  target: BTC
+- base: DCN
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: DOGE
 - base: DCN
   market:
     identifier: coinhub
@@ -101,6 +106,11 @@ tickers:
     identifier: coinhub
     name: Coinhub
   target: USD
+- base: DCN
+  market:
+    identifier: cryptopia
+    name: Cryptopia
+  target: BTC
 - base: DCN
   market:
     identifier: everbloom
@@ -126,11 +136,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: DCN
-  market:
-    identifier: koinok
-    name: Koinok
-  target: BTC
 - base: DCN
   market:
     identifier: koinok

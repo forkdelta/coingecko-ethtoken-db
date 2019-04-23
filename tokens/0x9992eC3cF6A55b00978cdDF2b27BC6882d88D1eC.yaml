@@ -69,11 +69,6 @@ tickers:
   market:
     identifier: axnet
     name: AXNET
-  target: TUSD
-- base: POLY
-  market:
-    identifier: axnet
-    name: AXNET
   target: USDT
 - base: POLY
   market:
@@ -144,12 +139,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
 - base: POY
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: USD
 - base: POLY
   market:
     identifier: everbloom
@@ -167,6 +162,11 @@ tickers:
   target: USDT
 - base: POLY
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: POLY
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -175,11 +175,6 @@ tickers:
     identifier: joyso
     name: Joyso
   target: ETH
-- base: POLY
-  market:
-    identifier: koinex
-    name: Koinex
-  target: INR
 - base: POLY
   market:
     identifier: koinex

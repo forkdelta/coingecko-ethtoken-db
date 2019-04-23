@@ -90,6 +90,11 @@ tickers:
     identifier: binance
     name: Binance
   target: ETH
+- base: BCHSV
+  market:
+    identifier: binance
+    name: Binance
+  target: PAX
 - base: PAX
   market:
     identifier: bit_z
@@ -117,9 +122,14 @@ tickers:
   target: BTC
 - base: PAX
   market:
-    identifier: cpdax
-    name: CPDax
+    identifier: crex24
+    name: CREX24
   target: BTC
+- base: PAX
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
 - base: PAX
   market:
     identifier: hitbtc
@@ -140,16 +150,6 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: PAX
-- base: ETH
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: PAX
-- base: DASH
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: PAX
 - base: PAX
   market:
     identifier: switcheo
@@ -157,16 +157,6 @@ tickers:
   target: ETH
 - base: PAX
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
-- base: PAX
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT
-- base: PAX
-  market:
     identifier: uex
     name: UEX
   target: BTC
@@ -177,9 +167,9 @@ tickers:
   target: USDT
 - base: PAX
   market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+    identifier: upbit
+    name: Upbit
+  target: USDT
 - base: PAX
   market:
     identifier: zgtop

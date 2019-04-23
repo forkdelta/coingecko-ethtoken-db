@@ -38,6 +38,11 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
+  target: BCN
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
   target: BTC
 - base: DENT
   market:
@@ -54,11 +59,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DASH
-- base: DOGE
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
 - base: AAA
   market:
     identifier: bigmarkets
@@ -154,12 +154,17 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
-- base: MIN
+- base: DASH
   market:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
-- base: DASH
+- base: BCN
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: XDCE
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -203,6 +208,11 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
+  target: FXC
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
   target: GNT
 - base: DENT
   market:
@@ -213,12 +223,12 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: LTC
+  target: LBOT
 - base: DENT
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: MIN
+  target: LTC
 - base: DENT
   market:
     identifier: bigmarkets
@@ -249,16 +259,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: USDT
-- base: DENT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: WAVES
-- base: DENT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: XDCE
 - base: DENT
   market:
     identifier: bigmarkets
@@ -301,11 +301,6 @@ tickers:
   target: ETH
 - base: DENT
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: DENT
-  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
@@ -319,6 +314,11 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: ETH
+- base: DENT
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: DENT
   market:
     identifier: cpdax
@@ -353,12 +353,12 @@ tickers:
   market:
     identifier: fcoin
     name: FCoin
-  target: USDT
+  target: ETH
 - base: DENT
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: DENT
   market:
     identifier: idex
@@ -384,11 +384,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: DENT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
     identifier: lykke

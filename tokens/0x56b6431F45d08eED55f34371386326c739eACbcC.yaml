@@ -26,6 +26,11 @@ symbol: ethm
 tickers:
 - base: ETHM
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: ETHM
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -34,6 +39,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: ETHM
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
 - base: ETHM
   market:
     identifier: stocks_exchange

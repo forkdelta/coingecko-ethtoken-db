@@ -110,11 +110,6 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: ANT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
 - base: ANT
   market:
@@ -143,6 +138,11 @@ tickers:
   target: KRW
 - base: ANT
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ANT
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -161,11 +161,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: ANT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: ANT
   market:
     identifier: tokenjar

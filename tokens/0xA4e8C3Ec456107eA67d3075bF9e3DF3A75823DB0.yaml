@@ -47,16 +47,6 @@ symbol: loom
 tickers:
 - base: LOOM
   market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: LOOM
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: LOOM
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -127,6 +117,11 @@ tickers:
   target: ETH
 - base: LOOM
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LOOM
+  market:
     identifier: dextop
     name: DEx.top
   target: ETH
@@ -149,21 +144,6 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
-  target: ETH
-- base: LOOM
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: LOOM
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LOOM
-  market:
-    identifier: joyso
-    name: Joyso
   target: ETH
 - base: LOOM
   market:
@@ -190,11 +170,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: LOOM
-  market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
 - base: LOOM
   market:
     identifier: switcheo

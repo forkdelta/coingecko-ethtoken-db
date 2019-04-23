@@ -43,6 +43,11 @@ links:
 name: WaykiChain
 symbol: wicc
 tickers:
+- base: WICC
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: WIC
   market:
     identifier: bcex
@@ -88,16 +93,6 @@ tickers:
     identifier: idax
     name: Idax
   target: USDT
-- base: WICC
-  market:
-    identifier: jex
-    name: JEX
-  target: USDT
-- base: WICC
-  market:
-    identifier: lbank
-    name: Lbank
-  target: ETH
 - base: WICC
   market:
     identifier: ninecoin

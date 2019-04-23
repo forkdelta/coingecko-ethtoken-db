@@ -53,6 +53,11 @@ symbol: arn
 tickers:
 - base: ARN
   market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: ARN
+  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
@@ -121,16 +126,6 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: ARN
-  market:
-    identifier: newdex
-    name: Newdex
-  target: EOS
-- base: BTS
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: ARN
 - base: ARN
   market:
     identifier: purcow

@@ -43,24 +43,9 @@ symbol: cmt
 tickers:
 - base: CMT
   market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: CMT
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: CMT
-  market:
     identifier: bcex
     name: BCEX
   target: CKUSD
-- base: CMT
-  market:
-    identifier: bitker
-    name: BITKER
-  target: ECR20
 - base: CMT
   market:
     identifier: bitker
@@ -91,6 +76,11 @@ tickers:
     identifier: coinbene
     name: CoinBene
   target: ETH
+- base: CMT
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
 - base: CMT
   market:
     identifier: cryptaldash
@@ -186,11 +176,6 @@ tickers:
     identifier: purcow
     name: Purcow
   target: ETH
-- base: CMT
-  market:
-    identifier: rfinex
-    name: Rfinex
-  target: CNYR
 - base: CMT
   market:
     identifier: rfinex

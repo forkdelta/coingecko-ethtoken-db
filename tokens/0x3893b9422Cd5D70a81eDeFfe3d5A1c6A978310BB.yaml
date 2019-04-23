@@ -61,16 +61,6 @@ symbol: mith
 tickers:
 - base: MITH
   market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: MITH
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: MITH
-  market:
     identifier: bitrabbit
     name: BitRabbit
   target: ETH
@@ -143,7 +133,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: MIT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: MIT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MITH
   market:
     identifier: everbloom
@@ -151,14 +151,14 @@ tickers:
   target: ETH
 - base: MITH
   market:
+    identifier: exx
+    name: EXX
+  target: USDT
+- base: MITH
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
-- base: MITH
-  market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
 - base: MITH
   market:
     identifier: instantbitex
@@ -208,16 +208,6 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: ETH
-- base: MITH
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: MITH
-  market:
-    identifier: saturn_network
-    name: Saturn Network
   target: ETH
 - base: MITH
   market:

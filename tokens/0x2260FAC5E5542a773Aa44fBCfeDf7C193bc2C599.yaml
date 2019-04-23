@@ -27,30 +27,10 @@ tickers:
   target: ETH
 - base: WBTC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: WBTC
-  market:
     identifier: idex
     name: Idex
   target: DAI
-- base: WBTC
-  market:
-    identifier: idex
-    name: Idex
-  target: TUSD
-- base: WBTC
-  market:
-    identifier: idex
-    name: Idex
-  target: USDC
-- base: GET
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: STASH
+- base: XBASE
   market:
     identifier: idex
     name: Idex
@@ -70,6 +50,11 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
+- base: SNT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: CAJ
   market:
     identifier: idex
@@ -80,27 +65,27 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
+- base: CYFM
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: STASH
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: XENC
   market:
     identifier: idex
     name: Idex
   target: WBTC
+- base: GET
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: LINK
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: SNT
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: XBASE
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: CYFM
   market:
     identifier: idex
     name: Idex
@@ -111,6 +96,11 @@ tickers:
     name: Idex
   target: WBTC
 - base: FTM
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: ETH
   market:
     identifier: idex
     name: Idex
@@ -127,16 +117,6 @@ tickers:
   target: WETH
 - base: WBTC
   market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
-- base: WBTC
-  market:
     identifier: south_xchange
     name: SouthXchange
   target: BTC
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH

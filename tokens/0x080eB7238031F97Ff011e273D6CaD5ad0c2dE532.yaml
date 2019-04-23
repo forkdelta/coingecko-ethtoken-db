@@ -26,6 +26,11 @@ symbol: kit
 tickers:
 - base: KIT
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KIT
+  market:
     identifier: instantbitex
     name: Instant Bitex
   target: BTC
@@ -44,8 +49,3 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: KIT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH

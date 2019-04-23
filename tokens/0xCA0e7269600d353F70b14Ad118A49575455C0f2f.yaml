@@ -26,6 +26,11 @@ tickers:
   target: BTC
 - base: AMLT
   market:
+    identifier: bitbay
+    name: BitBay
+  target: PLN
+- base: AMLT
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -49,11 +54,6 @@ tickers:
     identifier: orderbook
     name: Orderbook.io
   target: ETH
-- base: AMLT
-  market:
-    identifier: orderbook
-    name: Orderbook.io
-  target: OUSD
 - base: AMLT
   market:
     identifier: quoine

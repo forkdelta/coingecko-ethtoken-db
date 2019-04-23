@@ -75,11 +75,6 @@ links:
 name: FCoin Token
 symbol: ft
 tickers:
-- base: BCH
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: FT
 - base: XRP
   market:
     identifier: fcoin
@@ -100,23 +95,18 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: FT
-- base: ETC
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: FT
 - base: IOTA
   market:
     identifier: fcoin
     name: FCoin
   target: FT
-- base: FT
+- base: ETC
   market:
     identifier: fcoin
     name: FCoin
-  target: FT1808
-- base: FT
+  target: FT
+- base: BCH
   market:
     identifier: fcoin
     name: FCoin
-  target: FT1810_I
+  target: FT

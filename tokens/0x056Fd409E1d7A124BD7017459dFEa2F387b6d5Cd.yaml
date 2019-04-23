@@ -115,6 +115,11 @@ tickers:
   target: XRP
 - base: GUSD
   market:
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
+- base: GUSD
+  market:
     identifier: cex
     name: CEX.IO
   target: BTC
@@ -168,7 +173,7 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
-- base: XRP
+- base: COSS
   market:
     identifier: coss
     name: COSS
@@ -183,16 +188,16 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
+- base: XRP
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
 - base: GUSD
   market:
     identifier: coss
     name: COSS
   target: USD
-- base: GUSD
-  market:
-    identifier: cpdax
-    name: CPDax
-  target: BTC
 - base: GUSD
   market:
     identifier: crex24
@@ -263,16 +268,6 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: ETH
-- base: ETH
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: GUSD
-- base: BTC
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: GUSD
 - base: GUSD
   market:
     identifier: gbx
@@ -317,12 +312,12 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: WETH
+  target: DAI
 - base: GUSD
   market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: GUSD
   market:
     identifier: tokenize

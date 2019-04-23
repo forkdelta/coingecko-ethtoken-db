@@ -38,6 +38,11 @@ symbol: dgtx
 tickers:
 - base: DGTX
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: DGTX
+  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -55,11 +60,6 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
-- base: DGTX
-  market:
-    identifier: saturn_network
-    name: Saturn Network
   target: ETH
 - base: DGTX
   market:

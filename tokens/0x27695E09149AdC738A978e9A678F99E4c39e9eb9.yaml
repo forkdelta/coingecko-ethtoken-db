@@ -22,16 +22,6 @@ symbol: kick
 tickers:
 - base: KICK
   market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: KICK
-  market:
-    identifier: axnet
-    name: AXNET
-  target: TUSD
-- base: KICK
-  market:
     identifier: bibox
     name: Bibox
   target: BTC
@@ -57,11 +47,6 @@ tickers:
   target: ETH
 - base: KICK
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: KICK
-  market:
     identifier: kucoin
     name: KuCoin
   target: USDT
@@ -75,6 +60,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: RUR
+- base: KICK
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: KICK
   market:
     identifier: p2pb2b

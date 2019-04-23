@@ -164,11 +164,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
-- base: MIN
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: CTXC
 - base: TRX
   market:
     identifier: bigmarkets
@@ -209,11 +204,21 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
+- base: BTC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: CTXC
 - base: CTXC
   market:
     identifier: bigmarkets
     name: BIG markets
   target: DASH
+- base: CTXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: CTXC
   market:
     identifier: bigmarkets
@@ -253,7 +258,7 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: MIN
+  target: LBOT
 - base: CTXC
   market:
     identifier: bigmarkets
@@ -284,6 +289,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: USDT
+- base: CTXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: WAVES
 - base: CTXC
   market:
     identifier: bigmarkets
@@ -328,16 +338,6 @@ tickers:
   market:
     identifier: cybex
     name: Cybex DEX
-  target: CYB
-- base: CTXC
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: ETH
-- base: CTXC
-  market:
-    identifier: cybex
-    name: Cybex DEX
   target: USDT
 - base: CTXC
   market:
@@ -364,11 +364,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
-- base: CTX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: CTX
   market:
     identifier: ethfinex
