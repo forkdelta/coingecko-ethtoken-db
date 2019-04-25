@@ -168,6 +168,11 @@ tickers:
   target: USDT
 - base: REQ
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: REQ
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -226,11 +231,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: REQ
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: REQ
   market:
     identifier: switcheo

@@ -21,6 +21,11 @@ symbol: dcc
 tickers:
 - base: DCC
   market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: DCC
+  market:
     identifier: bibox
     name: Bibox
   target: BIX
@@ -54,6 +59,16 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: DCC
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: DCC
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
 - base: DCC
   market:
     identifier: kyber_network

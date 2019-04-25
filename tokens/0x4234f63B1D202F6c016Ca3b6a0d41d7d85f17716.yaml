@@ -23,6 +23,11 @@ symbol: qntu
 tickers:
 - base: QNTU
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: QNTU
+  market:
     identifier: bitopro
     name: BitoPro
   target: ETH
@@ -30,7 +35,17 @@ tickers:
   market:
     identifier: cryptopia
     name: Cryptopia
+  target: BTC
+- base: QNTU
+  market:
+    identifier: cryptopia
+    name: Cryptopia
   target: DOGE
+- base: QNTU
+  market:
+    identifier: cryptopia
+    name: Cryptopia
+  target: LTC
 - base: QNTU
   market:
     identifier: latoken

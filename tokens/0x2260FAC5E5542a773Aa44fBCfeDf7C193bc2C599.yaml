@@ -22,19 +22,9 @@ symbol: wbtc
 tickers:
 - base: WBTC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: WBTC
-  market:
     identifier: idex
     name: Idex
   target: DAI
-- base: XBASE
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: HOT
   market:
     identifier: idex
@@ -65,12 +55,7 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: CYFM
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: STASH
+- base: XBASE
   market:
     identifier: idex
     name: Idex
@@ -80,7 +65,7 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: GET
+- base: STASH
   market:
     identifier: idex
     name: Idex
@@ -90,17 +75,22 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
+- base: GET
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: OMG
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: FTM
+- base: CYFM
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: ETH
+- base: FTM
   market:
     identifier: idex
     name: Idex

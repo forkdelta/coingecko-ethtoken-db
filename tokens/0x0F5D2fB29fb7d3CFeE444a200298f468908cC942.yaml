@@ -100,11 +100,6 @@ tickers:
   target: USDT
 - base: MANA
   market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: MANA
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -137,6 +132,16 @@ tickers:
   market:
     identifier: coin_exchange
     name: Coinexchange
+  target: ETH
+- base: MANA
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: BTC
+- base: MANA
+  market:
+    identifier: coineal
+    name: Coineal
   target: ETH
 - base: MANA
   market:
@@ -210,6 +215,11 @@ tickers:
   target: BTC
 - base: MANA
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MANA
+  market:
     identifier: joyso
     name: Joyso
   target: ETH
@@ -263,3 +273,8 @@ tickers:
     identifier: uex
     name: UEX
   target: ETH
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC

@@ -84,11 +84,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CNX
-- base: XDCE
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: CTXC
 - base: ETH
   market:
     identifier: bigmarkets
@@ -205,6 +200,11 @@ tickers:
     name: BIG markets
   target: CTXC
 - base: BTC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: CTXC
+- base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -363,7 +363,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
 - base: CTX
   market:
     identifier: ethfinex

@@ -72,6 +72,11 @@ tickers:
   target: LTC
 - base: MGO
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
+- base: MGO
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -95,12 +100,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: EMGO
+- base: WMGO
   market:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: WMGO
+- base: EMGO
   market:
     identifier: hitbtc
     name: HitBTC
@@ -149,27 +154,17 @@ tickers:
   market:
     identifier: waves
     name: Waves Platform
-  target: BTC
-- base: MGO
-  market:
-    identifier: waves
-    name: Waves Platform
   target: EUR
-- base: WCT
-  market:
-    identifier: waves
-    name: Waves Platform
-  target: MGO
 - base: ETH
   market:
     identifier: waves
     name: Waves Platform
   target: MGO
-- base: MGO
+- base: WCT
   market:
     identifier: waves
     name: Waves Platform
-  target: USD
+  target: MGO
 - base: MGO
   market:
     identifier: waves

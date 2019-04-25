@@ -76,6 +76,11 @@ tickers:
   target: USDT
 - base: KEY
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: KEY
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -124,11 +129,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDT
-- base: KEY
-  market:
-    identifier: probit
-    name: Probit
-  target: BTC
 - base: KEY
   market:
     identifier: tokenjar

@@ -51,29 +51,29 @@ symbol: fsn
 tickers:
 - base: FSN
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
+- base: FSN
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: ETH
+- base: FSN
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: FSN
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: FSN
+  market:
+    identifier: coinall
+    name: CoinAll
   target: USDT
-- base: FSN
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
-- base: FSN
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: ETH
-- base: FSN
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: BTC
-- base: FSN
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: ETH
 - base: FSN
   market:
     identifier: cryptaldash
@@ -103,6 +103,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: FSN
   market:
@@ -114,11 +119,6 @@ tickers:
     identifier: hotbit
     name: Hotbit
   target: BTC
-- base: FSN
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
 - base: FSN
   market:
     identifier: okex

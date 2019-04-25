@@ -61,6 +61,11 @@ tickers:
   target: INR
 - base: CVC
   market:
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: CVC
+  market:
     identifier: codex
     name: CODEX
   target: BTC
@@ -126,11 +131,6 @@ tickers:
   target: ETH
 - base: CVC
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: CVC
-  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -156,8 +156,8 @@ tickers:
   target: INR
 - base: CVC
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: CVC
   market:

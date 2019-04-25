@@ -61,6 +61,11 @@ symbol: mith
 tickers:
 - base: MITH
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: MITH
+  market:
     identifier: bitrabbit
     name: BitRabbit
   target: ETH
@@ -133,17 +138,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: MIT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
-- base: MIT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: MITH
   market:
     identifier: everbloom

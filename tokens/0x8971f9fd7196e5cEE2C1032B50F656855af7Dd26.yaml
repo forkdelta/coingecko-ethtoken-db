@@ -45,6 +45,11 @@ symbol: lamb
 tickers:
 - base: LAMB
   market:
+    identifier: biki
+    name: Biki
+  target: BTC
+- base: LAMB
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -77,12 +82,17 @@ tickers:
   market:
     identifier: hotbit
     name: Hotbit
-  target: ETH
+  target: BTC
 - base: LAMB
   market:
     identifier: hotbit
     name: Hotbit
   target: HTB
+- base: LAMB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: LAMB
   market:
     identifier: okex

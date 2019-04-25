@@ -16,6 +16,11 @@ symbol: topc
 tickers:
 - base: TOPC
   market:
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
+- base: TOPC
+  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
@@ -24,3 +29,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
+- base: TOPC
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: USDT

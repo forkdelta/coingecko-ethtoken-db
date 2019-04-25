@@ -120,16 +120,11 @@ tickers:
     identifier: coinmex
     name: CoinMex
   target: BTC
-- base: PAX
+- base: BTC
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: PAX
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: PAX
 - base: PAX
   market:
     identifier: hitbtc
@@ -145,6 +140,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: XRP
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: PAX
 - base: BTC
   market:
     identifier: south_xchange

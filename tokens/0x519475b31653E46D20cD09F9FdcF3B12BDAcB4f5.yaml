@@ -26,6 +26,11 @@ symbol: viu
 tickers:
 - base: VIU
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: VIU
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -43,17 +48,7 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
-- base: VIU
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: DOGE
-- base: VIU
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
 - base: VIU
   market:
     identifier: livecoin

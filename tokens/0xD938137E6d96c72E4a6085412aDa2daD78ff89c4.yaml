@@ -25,6 +25,11 @@ links:
 name: Abulaba
 symbol: aaa
 tickers:
+- base: ZIL
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
 - base: WAVES
   market:
     identifier: bigmarkets
@@ -135,12 +140,12 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: AAA
-- base: GNT
+- base: LTC
   market:
     identifier: bigmarkets
     name: BIG markets
   target: AAA
-- base: LTC
+- base: GNT
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -166,11 +171,6 @@ tickers:
     name: BIG markets
   target: AAA
 - base: CNX
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: AAA
-- base: ZIL
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -364,11 +364,6 @@ tickers:
   market:
     identifier: instantbitex
     name: Instant Bitex
-  target: BTC
-- base: AAA
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: BTC
 - base: AAA
   market:
