@@ -25,6 +25,21 @@ links:
 name: Abulaba
 symbol: aaa
 tickers:
+- base: TXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
+- base: ZEC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
+- base: CNX
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
 - base: ZIL
   market:
     identifier: bigmarkets
@@ -156,21 +171,6 @@ tickers:
     name: BIG markets
   target: AAA
 - base: EOS
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: AAA
-- base: TXC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: AAA
-- base: ZEC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: AAA
-- base: CNX
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -352,18 +352,43 @@ tickers:
   target: BCH
 - base: AAA
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BCHABC
+- base: AAA
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: AAA
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: DOGE
+- base: AAA
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: AAA
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: LTC
+- base: AAA
+  market:
     identifier: bitibu
     name: Bitibu
   target: BTB
-- base: ABULABA
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: AAA
   market:
     identifier: instantbitex
     name: Instant Bitex
+  target: BTC
+- base: AAA
+  market:
+    identifier: lbank
+    name: Lbank
   target: BTC
 - base: AAA
   market:

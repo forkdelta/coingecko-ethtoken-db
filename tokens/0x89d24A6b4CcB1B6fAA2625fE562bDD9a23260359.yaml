@@ -89,19 +89,9 @@ symbol: dai
 tickers:
 - base: DAI
   market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
-- base: DAI
-  market:
     identifier: codex
     name: CODEX
   target: BTC
-- base: DAI
-  market:
-    identifier: codex
-    name: CODEX
-  target: ETH
 - base: DAI
   market:
     identifier: codex
@@ -109,24 +99,9 @@ tickers:
   target: USDT
 - base: DAI
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: DAI
-  market:
-    identifier: coinchangex
-    name: Coinchangex
-  target: ETH
-- base: DAI
-  market:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
-- base: WETH
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
 - base: OMG
   market:
     identifier: ddex
@@ -172,11 +147,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: OMG
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
 - base: XLM
   market:
     identifier: fatbtc
@@ -194,20 +164,20 @@ tickers:
   target: USDT
 - base: DAI
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: DAI
   market:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
-  target: USD
+  target: ETH
 - base: AURA
   market:
     identifier: idex
     name: Idex
   target: DAI
-- base: SPANK
+- base: USDC
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -217,22 +187,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: BAT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: ABT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: ART
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MWAT
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -252,16 +207,46 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: REP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SNT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: POE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: IFT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: FUEL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DGD
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DCL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: DAI
   market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
 - base: DAI
   market:
     identifier: sistemkoin

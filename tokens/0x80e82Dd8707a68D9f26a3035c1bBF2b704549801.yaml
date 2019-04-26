@@ -31,14 +31,19 @@ symbol: tdc
 tickers:
 - base: TDC
   market:
-    identifier: idex
-    name: Idex
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: TDC
+  market:
+    identifier: bitebtc
+    name: BiteBTC
   target: ETH
 - base: TDC
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: TDC
   market:
     identifier: mercatox

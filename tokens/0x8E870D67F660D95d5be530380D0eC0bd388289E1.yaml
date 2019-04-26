@@ -120,11 +120,11 @@ tickers:
     identifier: coinmex
     name: CoinMex
   target: BTC
-- base: BTC
+- base: PAX
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: PAX
+    identifier: gate
+    name: Gate.io
+  target: CNYX
 - base: PAX
   market:
     identifier: hitbtc
@@ -140,12 +140,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: XRP
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: PAX
 - base: BTC
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: PAX
+- base: ETH
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: PAX
+- base: DASH
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -164,11 +169,6 @@ tickers:
   market:
     identifier: uex
     name: UEX
-  target: USDT
-- base: PAX
-  market:
-    identifier: upbit
-    name: Upbit
   target: USDT
 - base: PAX
   market:

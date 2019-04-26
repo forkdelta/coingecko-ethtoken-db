@@ -104,6 +104,16 @@ tickers:
   target: USDT
 - base: HOT
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: HOT
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: HOT
+  market:
     identifier: chainrift
     name: Chainrift
   target: BTC
@@ -127,16 +137,6 @@ tickers:
     identifier: coinasset
     name: CoinAsset
   target: BTC
-- base: HOT
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: BCH
-- base: HOT
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: ETH
 - base: HOT
   market:
     identifier: coinplace
@@ -214,11 +214,6 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
-- base: HOT
-  market:
     identifier: gobaba
     name: Gobaba
   target: BTC
@@ -252,6 +247,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: HOT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: HOT
   market:
     identifier: livecoin

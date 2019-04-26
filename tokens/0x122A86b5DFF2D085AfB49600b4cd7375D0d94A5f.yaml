@@ -24,6 +24,21 @@ symbol: itl
 tickers:
 - base: ITL
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: ITL
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: ITL
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: LTC
+- base: ITL
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -32,11 +47,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: ITL
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: LTC
 - base: ITL
   market:
     identifier: thetokenstore

@@ -38,6 +38,11 @@ symbol: btb
 tickers:
 - base: BTB
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: BTB
+  market:
     identifier: instantbitex
     name: Instant Bitex
   target: BTC
@@ -45,7 +50,7 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: ETH
+  target: BTC
 - base: BTB
   market:
     identifier: tokenjar

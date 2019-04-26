@@ -23,11 +23,16 @@ symbol: kbc
 tickers:
 - base: KBC
   market:
+    identifier: lbank
+    name: Lbank
+  target: BTC
+- base: KBC
+  market:
+    identifier: lbank
+    name: Lbank
+  target: USDT
+- base: KBC
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: KBC
-  market:
-    identifier: zgtop
-    name: ZG.TOP
-  target: ETH

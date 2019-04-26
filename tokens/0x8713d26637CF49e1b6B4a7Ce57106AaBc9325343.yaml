@@ -33,11 +33,6 @@ tickers:
   target: BTC
 - base: CNN
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: CNN
-  market:
     identifier: coinex
     name: CoinEx
   target: BTC
@@ -51,6 +46,16 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: CNN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: CNN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: CNN
   market:
     identifier: idex

@@ -73,11 +73,6 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: KIN
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -88,8 +83,13 @@ tickers:
   target: USDT
 - base: KIN
   market:
-    identifier: coinall
-    name: CoinAll
+    identifier: coinfalcon
+    name: Coinfalcon
+  target: BTC
+- base: KIN
+  market:
+    identifier: coinfalcon
+    name: Coinfalcon
   target: ETH
 - base: KIN
   market:
@@ -126,6 +126,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: ETH
+- base: KIN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: KIN
   market:
     identifier: everbloom

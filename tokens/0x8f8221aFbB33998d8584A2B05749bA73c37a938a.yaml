@@ -143,16 +143,6 @@ tickers:
   target: BTC
 - base: REQ
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: REQ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: REQ
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -186,11 +176,6 @@ tickers:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: REQ
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: REQ
   market:
     identifier: koinex
@@ -231,6 +216,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: REQ
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: REQ
   market:
     identifier: switcheo

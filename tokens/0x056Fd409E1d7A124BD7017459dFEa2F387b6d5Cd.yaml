@@ -115,11 +115,6 @@ tickers:
   target: XRP
 - base: GUSD
   market:
-    identifier: bw
-    name: BW.com
-  target: USDT
-- base: GUSD
-  market:
     identifier: cex
     name: CEX.IO
   target: BTC
@@ -138,26 +133,6 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
-- base: ETH
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: GUSD
-- base: BTC
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: GUSD
-- base: BCH
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: GUSD
-- base: GUSD
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: USDT
 - base: GUSD
   market:
     identifier: coinmex
@@ -173,6 +148,11 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
+- base: COSS
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
 - base: ETH
   market:
     identifier: coss

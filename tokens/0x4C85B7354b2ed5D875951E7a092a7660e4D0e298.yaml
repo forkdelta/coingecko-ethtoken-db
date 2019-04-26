@@ -9,4 +9,14 @@ links:
   - https://www.tdcoin.io
 name: TourDataChain
 symbol: tdc
-tickers: []
+tickers:
+- base: TDC
+  market:
+    identifier: fubt
+    name: FUBT
+  target: ETH
+- base: TDC
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: USDT

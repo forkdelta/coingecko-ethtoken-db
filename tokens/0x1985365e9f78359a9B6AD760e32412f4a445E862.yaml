@@ -65,21 +65,16 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: EUR
+  target: BTC
 - base: REP
   market:
     identifier: bitbay
     name: BitBay
-  target: PLN
+  target: EUR
 - base: REP
   market:
-    identifier: bitsane
-    name: Bitsane
-  target: USDT
-- base: REP
-  market:
-    identifier: blockonix
-    name: Blockonix
+    identifier: bitbox
+    name: BITBOX
   target: ETH
 - base: REP
   market:
@@ -88,8 +83,8 @@ tickers:
   target: USDT
 - base: REP
   market:
-    identifier: cobinhood
-    name: Cobinhood
+    identifier: chainex
+    name: ChainEX
   target: BTC
 - base: REP
   market:
@@ -101,6 +96,11 @@ tickers:
     identifier: codex
     name: CODEX
   target: BTC
+- base: REP
+  market:
+    identifier: codex
+    name: CODEX
+  target: EOS
 - base: REP
   market:
     identifier: codex
@@ -118,14 +118,24 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: coinzest
-    name: Coinzest
+    identifier: coinplace
+    name: Coinplace
   target: BTC
 - base: REP
   market:
     identifier: coinzest
     name: Coinzest
-  target: ETH
+  target: BTC
+- base: REP
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: REP
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
 - base: REP
   market:
     identifier: cryptaldash
@@ -143,16 +153,6 @@ tickers:
   target: USDT
 - base: REP
   market:
-    identifier: daybit
-    name: Daybit
-  target: BTC
-- base: REP
-  market:
-    identifier: daybit
-    name: Daybit
-  target: ETH
-- base: REP
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -163,9 +163,9 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: REP
   market:
     identifier: fcoin
@@ -178,9 +178,9 @@ tickers:
   target: USDT
 - base: REP
   market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: EUR
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: REP
   market:
     identifier: gobaba
@@ -203,11 +203,6 @@ tickers:
   target: XRP
 - base: REP
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: REP
-  market:
     identifier: latoken
     name: LATOKEN
   target: LA
@@ -220,17 +215,22 @@ tickers:
   market:
     identifier: paroexchange
     name: Paro Exchange
-  target: ATCC
+  target: BTC
 - base: REP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: paroexchange
+    name: Paro Exchange
+  target: ETH
 - base: REP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: paroexchange
+    name: Paro Exchange
+  target: TUSD
+- base: REP
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: BTC
 - base: REP
   market:
     identifier: simex
@@ -240,12 +240,17 @@ tickers:
   market:
     identifier: simex
     name: Simex
-  target: ETH
+  target: USD
 - base: REP
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: REP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: REP
   market:
     identifier: tradeio
@@ -256,6 +261,11 @@ tickers:
     identifier: vindax
     name: Vindax
   target: ETH
+- base: REP
+  market:
+    identifier: zebpay
+    name: Zebpay
+  target: BTC
 - base: REP
   market:
     identifier: zebpay

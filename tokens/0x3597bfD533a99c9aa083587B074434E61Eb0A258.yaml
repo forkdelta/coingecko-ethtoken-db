@@ -59,6 +59,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DASH
+- base: DOGE
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: AAA
   market:
     identifier: bigmarkets
@@ -374,11 +379,6 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: USDT
-- base: DENT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
     identifier: lykke
@@ -403,7 +403,7 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: ETH
+  target: BTC
 - base: DENT
   market:
     identifier: quoine
@@ -424,11 +424,6 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: BTC
-- base: DENT
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
 - base: DENT
   market:
     identifier: tokenjar

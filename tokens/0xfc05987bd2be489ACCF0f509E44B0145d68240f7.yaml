@@ -21,6 +21,16 @@ symbol: ess
 tickers:
 - base: ESS
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
+- base: ESS
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: ESS
+  market:
     identifier: coinbene
     name: CoinBene
   target: USDT
@@ -34,11 +44,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: ESS
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: ESS
   market:
     identifier: idex

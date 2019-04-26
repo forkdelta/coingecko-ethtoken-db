@@ -61,6 +61,11 @@ symbol: enj
 tickers:
 - base: ENJ
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ENJ
+  market:
     identifier: bigmarkets
     name: BIG markets
   target: AAA
@@ -68,17 +73,7 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: AXPR
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: BCN
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: BTC
+  target: BCH
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -88,47 +83,7 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: DASH
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
   target: DENT
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DGB
-- base: EOS
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
-- base: BCN
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
-- base: CNX
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
-- base: PYN
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
-- base: ETH
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
-- base: XDCE
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
 - base: ZIL
   market:
     identifier: bigmarkets
@@ -169,11 +124,81 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: ENJ
-- base: ENJ
+- base: BTC
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: EOS
+  target: ENJ
+- base: GVT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: TXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: TRX
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: NEO
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: GNT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: DOGE
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: AAA
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: CTXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: BCH
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: OMG
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: XEM
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: LTC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: ETC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -183,47 +208,52 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: ETH
+  target: GVT
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: EUR
+  target: LBOT
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: GNT
+  target: LTC
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: TRX
+  target: NEO
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: TXC
+  target: OMG
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: USD
+  target: PYN
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: XDCE
+  target: USDT
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: WAVES
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: XEM
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
   target: XRP
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: XVG
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -236,33 +266,28 @@ tickers:
   target: ZIL
 - base: ENJ
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: ENJ
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: ENJ
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
-- base: ENJ
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: ETH
-- base: ENJ
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
 - base: ENJ
   market:
     identifier: codex
     name: CODEX
+  target: EOS
+- base: ENJ
+  market:
+    identifier: codex
+    name: CODEX
+  target: ETH
+- base: ENJ
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: ENJ
+  market:
+    identifier: coinplace
+    name: Coinplace
   target: BTC
 - base: ENJ
   market:
@@ -273,27 +298,17 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: CRD
-- base: ENJ
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
   target: ETH
 - base: ENJ
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: ENJ
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: ENJ
   market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: DOGE
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: ENJ
   market:
     identifier: everbloom
@@ -306,9 +321,24 @@ tickers:
   target: ETH
 - base: ENJ
   market:
+    identifier: gdac
+    name: GDAC
+  target: KRW
+- base: ENJ
+  market:
+    identifier: gopax
+    name: GoPax
+  target: ETH
+- base: ENJ
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: ENJ
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: ENJ
   market:
     identifier: okex
@@ -328,9 +358,14 @@ tickers:
   market:
     identifier: quoine
     name: Liquid (Quoine)
-  target: QASH
+  target: BTC
 - base: ENJ
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: ENJ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

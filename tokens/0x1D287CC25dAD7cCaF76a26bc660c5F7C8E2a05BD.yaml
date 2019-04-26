@@ -36,6 +36,16 @@ symbol: fet
 tickers:
 - base: FET
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: FET
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: FET
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -49,6 +59,11 @@ tickers:
     identifier: crypto_bridge
     name: CryptoBridge
   target: ETH
+- base: FET
+  market:
+    identifier: dflow
+    name: Dflow
+  target: USDT
 - base: FET
   market:
     identifier: idex
