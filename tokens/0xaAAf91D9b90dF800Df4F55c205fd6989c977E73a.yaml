@@ -22,6 +22,16 @@ symbol: tkn
 tickers:
 - base: TKN
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: TKN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: TKN
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -40,11 +50,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: TKN
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
 - base: TKN
   market:
     identifier: tokenjar

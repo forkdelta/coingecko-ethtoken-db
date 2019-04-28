@@ -42,16 +42,6 @@ symbol: lend
 tickers:
 - base: LEND
   market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: BTC
-- base: LEND
-  market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: ETH
-- base: LEND
-  market:
     identifier: bleutrade
     name: bleutrade
   target: BTC
@@ -109,6 +99,11 @@ tickers:
   market:
     identifier: kucoin
     name: KuCoin
+  target: ETH
+- base: LEND
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: LEND
   market:

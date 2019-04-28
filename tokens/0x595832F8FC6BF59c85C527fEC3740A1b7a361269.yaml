@@ -112,11 +112,6 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
-- base: POWR
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -135,6 +130,11 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
+- base: POWR
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
 - base: POWR
   market:
     identifier: crypto_bridge
@@ -197,16 +197,6 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
-- base: POWR
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: POWR
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -215,11 +205,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: POWR
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
 - base: 3B743C8B-7090-4DED-A6CA-106238084075
   market:
     identifier: lykke

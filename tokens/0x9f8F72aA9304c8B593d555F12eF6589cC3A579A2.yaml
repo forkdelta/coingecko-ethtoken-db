@@ -54,6 +54,11 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: MKR
+  market:
     identifier: allbit
     name: Allbit
   target: ETH
@@ -119,16 +124,6 @@ tickers:
   target: USDT
 - base: MKR
   market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
-- base: MKR
-  market:
-    identifier: codex
-    name: CODEX
-  target: BTC
-- base: MKR
-  market:
     identifier: codex
     name: CODEX
   target: ETH
@@ -152,6 +147,11 @@ tickers:
     identifier: coss
     name: COSS
   target: BTC
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: MKR
   market:
     identifier: coss
@@ -199,6 +199,16 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
+- base: MKR
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -209,9 +219,19 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: MKR
+  market:
     identifier: gdax
     name: Coinbase Pro
   target: BTC
+- base: MKR
+  market:
+    identifier: gdax
+    name: Coinbase Pro
+  target: USDC
 - base: MKR
   market:
     identifier: gopax
@@ -224,9 +244,9 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MKR
   market:
     identifier: joyso
@@ -276,7 +296,7 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: WETH
+  target: DAI
 - base: MKR
   market:
     identifier: sistemkoin
@@ -284,9 +304,9 @@ tickers:
   target: TL
 - base: MKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
 - base: MKR
   market:
     identifier: thetokenstore

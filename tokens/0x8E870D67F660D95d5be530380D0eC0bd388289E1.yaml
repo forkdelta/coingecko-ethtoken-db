@@ -120,11 +120,11 @@ tickers:
     identifier: coinmex
     name: CoinMex
   target: BTC
-- base: PAX
+- base: BTC
   market:
-    identifier: gate
-    name: Gate.io
-  target: CNYX
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: PAX
 - base: PAX
   market:
     identifier: hitbtc
@@ -162,6 +162,11 @@ tickers:
   target: ETH
 - base: PAX
   market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
+- base: PAX
+  market:
     identifier: uex
     name: UEX
   target: BTC
@@ -170,6 +175,16 @@ tickers:
     identifier: uex
     name: UEX
   target: USDT
+- base: PAX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: BTC
+  market:
+    identifier: zb
+    name: ZB
+  target: PAX
 - base: PAX
   market:
     identifier: zgtop

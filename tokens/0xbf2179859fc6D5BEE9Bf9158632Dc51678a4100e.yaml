@@ -99,16 +99,6 @@ tickers:
   target: USDT
 - base: ELF
   market:
-    identifier: coinbig
-    name: COINBIG
-  target: USDT
-- base: ELF
-  market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: ELF
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -149,6 +139,16 @@ tickers:
   target: WETH
 - base: ELF
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: ELF
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: ELF
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -161,6 +161,11 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: ELF
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: ELF
   market:
@@ -189,9 +194,24 @@ tickers:
   target: ETH
 - base: ELF
   market:
+    identifier: jex
+    name: JEX
+  target: USDT
+- base: ELF
+  market:
+    identifier: koinex
+    name: Koinex
+  target: INR
+- base: ELF
+  market:
     identifier: koinex
     name: Koinex
   target: XRP
+- base: ELF
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: ELF
   market:
     identifier: livecoin
@@ -227,11 +247,6 @@ tickers:
     identifier: uex
     name: UEX
   target: USDT
-- base: ELF
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
 - base: ELF
   market:
     identifier: vebitcoin

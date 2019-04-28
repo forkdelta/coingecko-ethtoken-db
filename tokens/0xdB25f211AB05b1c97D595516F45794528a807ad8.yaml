@@ -31,7 +31,17 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: BTC
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
 - base: LTC
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
+- base: ETH
   market:
     identifier: bitexlive
     name: Bitexlive
@@ -61,6 +71,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: EURS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: EURS
   market:
     identifier: tokenjar

@@ -60,11 +60,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: EBTC2
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: EBTC
   market:
     identifier: radar_relay
@@ -75,6 +70,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: EBTC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: EBTC
   market:
     identifier: tokenjar

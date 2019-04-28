@@ -94,14 +94,24 @@ tickers:
   target: BTC
 - base: DAI
   market:
-    identifier: codex
-    name: CODEX
-  target: USDT
-- base: DAI
-  market:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
+- base: BTC
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
+- base: WETH
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: OMG
   market:
     identifier: ddex
@@ -142,7 +152,17 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
 - base: ZRX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
+- base: OMG
   market:
     identifier: ethfinex
     name: Ethfinex
@@ -167,22 +187,12 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: DAI
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: ETH
 - base: AURA
   market:
     identifier: idex
     name: Idex
   target: DAI
-- base: USDC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: DGX
+- base: ZRX
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -202,6 +212,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: XSC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: HYDRO
   market:
     identifier: radar_relay
@@ -212,22 +227,12 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: SNT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: POE
+- base: XRL
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: IFT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: FUEL
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -238,6 +243,36 @@ tickers:
     name: Radar Relay
   target: DAI
 - base: DCL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SALT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: VEE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: BAT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: FUEL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: RLC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: NPXS
   market:
     identifier: radar_relay
     name: Radar Relay

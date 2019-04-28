@@ -67,6 +67,11 @@ symbol: link
 tickers:
 - base: LINK
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: LINK
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -97,11 +102,6 @@ tickers:
   target: USDT
 - base: LINK
   market:
-    identifier: catex
-    name: Catex
-  target: BTC
-- base: LINK
-  market:
     identifier: codex
     name: CODEX
   target: BTC
@@ -120,11 +120,6 @@ tickers:
     identifier: coinplace
     name: Coinplace
   target: BTC
-- base: LINK
-  market:
-    identifier: coss
-    name: COSS
-  target: USD
 - base: LINK
   market:
     identifier: cryptaldash
@@ -167,16 +162,6 @@ tickers:
   target: ETH
 - base: LINK
   market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
-- base: LINK
-  market:
-    identifier: financex
-    name: FinanceX
-  target: IDR
-- base: LINK
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -195,6 +180,11 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
+- base: LINK
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: LINK
   market:
     identifier: livecoin

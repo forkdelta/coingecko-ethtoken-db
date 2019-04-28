@@ -83,7 +83,17 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
+  target: CTXC
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
   target: DENT
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DOGE
 - base: ZIL
   market:
     identifier: bigmarkets
@@ -129,6 +139,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: ENJ
+- base: DOGE
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
 - base: GVT
   market:
     identifier: bigmarkets
@@ -150,11 +165,6 @@ tickers:
     name: BIG markets
   target: ENJ
 - base: GNT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
-- base: DOGE
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -281,16 +291,6 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: ETH
-- base: ENJ
-  market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: ENJ
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -299,6 +299,11 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
+- base: ENJ
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
 - base: ENJ
   market:
     identifier: ethfinex
@@ -321,11 +326,6 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
-- base: ENJ
-  market:
     identifier: gopax
     name: GoPax
   target: ETH
@@ -334,11 +334,6 @@ tickers:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: ENJ
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: ENJ
   market:
     identifier: okex

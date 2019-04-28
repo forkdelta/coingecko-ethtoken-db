@@ -116,12 +116,12 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: ETH
+- base: EOS
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: EOSDAC
-- base: EOS
+- base: ETH
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -131,3 +131,13 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: EOSDAC
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC
+- base: EOSDAC
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

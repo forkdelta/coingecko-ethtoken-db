@@ -95,11 +95,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: QASH
+- base: QSH
   market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: QASH
   market:
     identifier: gopax
@@ -117,6 +117,11 @@ tickers:
   target: KRW
 - base: QASH
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: QASH
+  market:
     identifier: latoken
     name: LATOKEN
   target: LA
@@ -125,6 +130,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: AUD
 - base: QASH
   market:
     identifier: quoine
@@ -150,7 +160,92 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: PHP
+- base: ONG
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
 - base: ETN
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: ADH
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: BRC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: PLC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: PWV
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: THRT
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: GAT
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: WIN
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: HERO
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: XES
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: UBT
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: SNIP
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: SER
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: RBLX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: FLIXX
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: BMC
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: SAL
   market:
     identifier: quoine
     name: Liquid (Quoine)
@@ -280,11 +375,6 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: ONG
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
 - base: FLUZ
   market:
     identifier: quoine
@@ -301,6 +391,11 @@ tickers:
     name: Liquid (Quoine)
   target: QASH
 - base: SGN
+  market:
+    identifier: quoine
+    name: Liquid (Quoine)
+  target: QASH
+- base: RKT
   market:
     identifier: quoine
     name: Liquid (Quoine)
@@ -330,7 +425,7 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: TPAY
+- base: 1WO
   market:
     identifier: quoine
     name: Liquid (Quoine)
@@ -345,27 +440,7 @@ tickers:
     identifier: quoine
     name: Liquid (Quoine)
   target: QASH
-- base: DRG
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: RKT
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: SHP
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: GAT
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: 1WO
+- base: TPAY
   market:
     identifier: quoine
     name: Liquid (Quoine)
@@ -376,66 +451,6 @@ tickers:
     name: Liquid (Quoine)
   target: QASH
 - base: FSN
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: LIKE
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: ZCO
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: GZE
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: ADH
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: BRC
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: PLC
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: PWV
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: THRT
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: WIN
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: HERO
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: XES
-  market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
-- base: UBT
   market:
     identifier: quoine
     name: Liquid (Quoine)

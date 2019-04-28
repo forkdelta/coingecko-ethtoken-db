@@ -53,6 +53,11 @@ symbol: rep
 tickers:
 - base: REP
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: REP
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -61,6 +66,11 @@ tickers:
     identifier: axnet
     name: AXNET
   target: ETH
+- base: REP
+  market:
+    identifier: axnet
+    name: AXNET
+  target: USDT
 - base: REP
   market:
     identifier: bitbay
@@ -78,13 +88,23 @@ tickers:
   target: ETH
 - base: REP
   market:
+    identifier: bitsane
+    name: Bitsane
+  target: USDT
+- base: REP
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: ETH
+- base: REP
+  market:
     identifier: blockonix
     name: Blockonix
   target: USDT
 - base: REP
   market:
-    identifier: chainex
-    name: ChainEX
+    identifier: cobinhood
+    name: Cobinhood
   target: BTC
 - base: REP
   market:
@@ -93,39 +113,14 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: codex
-    name: CODEX
-  target: BTC
-- base: REP
-  market:
-    identifier: codex
-    name: CODEX
-  target: EOS
-- base: REP
-  market:
-    identifier: codex
-    name: CODEX
-  target: ETH
-- base: REP
-  market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: ETH
-- base: REP
-  market:
     identifier: coinmex
     name: CoinMex
   target: ETH
 - base: REP
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: REP
-  market:
     identifier: coinzest
     name: Coinzest
-  target: BTC
+  target: ETH
 - base: REP
   market:
     identifier: crex24
@@ -153,6 +148,16 @@ tickers:
   target: USDT
 - base: REP
   market:
+    identifier: daybit
+    name: Daybit
+  target: BTC
+- base: REP
+  market:
+    identifier: daybit
+    name: Daybit
+  target: ETH
+- base: REP
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -168,19 +173,9 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: REP
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
-- base: REP
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
+    identifier: gdax
+    name: Coinbase Pro
+  target: EUR
 - base: REP
   market:
     identifier: gobaba
@@ -208,9 +203,9 @@ tickers:
   target: LA
 - base: REP
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
+    identifier: paroexchange
+    name: Paro Exchange
+  target: ATCC
 - base: REP
   market:
     identifier: paroexchange
@@ -220,7 +215,7 @@ tickers:
   market:
     identifier: paroexchange
     name: Paro Exchange
-  target: ETH
+  target: LMX
 - base: REP
   market:
     identifier: paroexchange
@@ -228,14 +223,24 @@ tickers:
   target: TUSD
 - base: REP
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: BTC
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: REP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: REP
   market:
     identifier: simex
     name: Simex
   target: BTC
+- base: REP
+  market:
+    identifier: simex
+    name: Simex
+  target: ETH
 - base: REP
   market:
     identifier: simex
@@ -248,24 +253,19 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: REP
-  market:
     identifier: tradeio
     name: Trade.io
   target: TIO
 - base: REP
   market:
-    identifier: vindax
-    name: Vindax
+    identifier: upbit
+    name: Upbit
   target: ETH
 - base: REP
   market:
-    identifier: zebpay
-    name: Zebpay
-  target: BTC
+    identifier: vindax
+    name: Vindax
+  target: ETH
 - base: REP
   market:
     identifier: zebpay

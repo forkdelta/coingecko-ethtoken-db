@@ -128,6 +128,11 @@ tickers:
   target: USDT
 - base: FUN
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: FUN
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -208,6 +213,11 @@ tickers:
   target: DAI
 - base: FUN
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: FUN
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
@@ -216,3 +226,8 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
+- base: FUN
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

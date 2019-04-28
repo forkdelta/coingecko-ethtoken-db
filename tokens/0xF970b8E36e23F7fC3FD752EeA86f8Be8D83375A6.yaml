@@ -88,8 +88,18 @@ tickers:
   target: ETH
 - base: RCN
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: RCN
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: RCN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: RCN
   market:
@@ -121,8 +131,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: RCN
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

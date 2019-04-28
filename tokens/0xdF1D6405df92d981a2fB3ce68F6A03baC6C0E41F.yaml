@@ -53,11 +53,6 @@ symbol: vra
 tickers:
 - base: VRA
   market:
-    identifier: coinall
-    name: CoinAll
-  target: ETH
-- base: VRA
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -81,6 +76,11 @@ tickers:
     identifier: probit
     name: Probit
   target: ETH
+- base: VRA
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: VRA
   market:
     identifier: probit

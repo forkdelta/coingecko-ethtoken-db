@@ -115,6 +115,11 @@ tickers:
   target: XRP
 - base: GUSD
   market:
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
+- base: GUSD
+  market:
     identifier: cex
     name: CEX.IO
   target: BTC
@@ -135,6 +140,16 @@ tickers:
   target: ETH
 - base: GUSD
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: GUSD
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: USDT
+- base: GUSD
+  market:
     identifier: coinmex
     name: CoinMex
   target: BTC
@@ -148,7 +163,7 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
-- base: COSS
+- base: BWT
   market:
     identifier: coss
     name: COSS
@@ -158,12 +173,7 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
-- base: BWT
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
-- base: BTC
+- base: COSS
   market:
     identifier: coss
     name: COSS
@@ -173,11 +183,21 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
+- base: BTC
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
 - base: GUSD
   market:
     identifier: coss
     name: COSS
   target: USD
+- base: GUSD
+  market:
+    identifier: cpdax
+    name: CPDax
+  target: BTC
 - base: GUSD
   market:
     identifier: crex24
@@ -298,6 +318,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: BTC
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: GUSD
 - base: GUSD
   market:
     identifier: tokenize

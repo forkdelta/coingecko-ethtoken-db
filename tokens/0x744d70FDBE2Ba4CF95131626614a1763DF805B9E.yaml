@@ -57,6 +57,11 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: bitbox
+    name: BITBOX
+  target: ETH
+- base: SNT
+  market:
     identifier: coinmex
     name: CoinMex
   target: ETH
@@ -74,12 +79,32 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: SNT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: SNT
+  market:
+    identifier: gopax
+    name: GoPax
   target: BTC
 - base: SNT
   market:
-    identifier: exx
-    name: EXX
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SNT
+  market:
+    identifier: jex
+    name: JEX
+  target: USDT
+- base: SNT
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: SNT
   market:
     identifier: ninecoin
@@ -105,3 +130,8 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
+- base: SNT
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC

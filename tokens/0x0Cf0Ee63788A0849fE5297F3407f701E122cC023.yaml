@@ -40,6 +40,11 @@ tickers:
     identifier: dragonex
     name: DragonEx
   target: USDT
+- base: DAT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: DATA
   market:
     identifier: everbloom
@@ -54,7 +59,7 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
+  target: USDT
 - base: DATA
   market:
     identifier: idex
@@ -65,11 +70,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: DATA
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: DATA
   market:
     identifier: tokenjar

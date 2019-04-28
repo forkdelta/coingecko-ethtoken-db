@@ -23,6 +23,11 @@ symbol: wab
 tickers:
 - base: WAB
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: WAB
+  market:
     identifier: coinbit
     name: Coinbit
   target: KRW
@@ -45,16 +50,6 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: WAB
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: WAB
-  market:
-    identifier: mercatox
-    name: Mercatox
   target: ETH
 - base: WAB
   market:
