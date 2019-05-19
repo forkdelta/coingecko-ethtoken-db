@@ -54,11 +54,6 @@ tickers:
   target: ETH
 - base: PIX
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: PIX
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -77,6 +72,21 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: PIX
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
+- base: PIX
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: PIX
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
 - base: PIX
   market:
     identifier: tokenjar

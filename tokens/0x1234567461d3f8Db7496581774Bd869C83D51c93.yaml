@@ -27,6 +27,11 @@ symbol: cat
 tickers:
 - base: CAT
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: CAT
+  market:
     identifier: bibox
     name: Bibox
   target: BTC
@@ -69,12 +74,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: CAT
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: CAT
   market:
     identifier: yobit

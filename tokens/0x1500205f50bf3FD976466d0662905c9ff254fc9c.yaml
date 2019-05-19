@@ -26,6 +26,11 @@ symbol: bbt
 tickers:
 - base: BBT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: BBT
+  market:
     identifier: cryptopia
     name: Cryptopia
   target: BTC
@@ -39,11 +44,6 @@ tickers:
     identifier: cryptopia
     name: Cryptopia
   target: LTC
-- base: BBT
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: BBT
   market:
     identifier: forkdelta
@@ -68,12 +68,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: BBT
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: BBT
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: BBT
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: BBT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: BBT
   market:
     identifier: yobit

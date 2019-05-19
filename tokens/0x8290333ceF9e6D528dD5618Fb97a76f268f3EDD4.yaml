@@ -57,6 +57,11 @@ symbol: ankr
 tickers:
 - base: ANKR
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: ANKR
+  market:
     identifier: bgogo
     name: Bgogo
   target: USDT
@@ -84,11 +89,6 @@ tickers:
   market:
     identifier: coinall
     name: CoinAll
-  target: BTC
-- base: ANKR
-  market:
-    identifier: coinall
-    name: CoinAll
   target: ETH
 - base: ANKR
   market:
@@ -109,6 +109,11 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: ANKR
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: ANKR
   market:

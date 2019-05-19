@@ -20,6 +20,11 @@ symbol: xrpc
 tickers:
 - base: XRPC
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: XRPC
+  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
@@ -36,5 +41,5 @@ tickers:
 - base: XRPC
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH

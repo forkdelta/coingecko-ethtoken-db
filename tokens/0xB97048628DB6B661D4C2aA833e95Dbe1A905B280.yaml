@@ -64,16 +64,6 @@ tickers:
   target: EUR
 - base: PAY
   market:
-    identifier: bitbay
-    name: BitBay
-  target: PLN
-- base: PAY
-  market:
-    identifier: bitbay
-    name: BitBay
-  target: USD
-- base: PAY
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -179,11 +169,6 @@ tickers:
   target: USDT
 - base: PAY
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: PAY
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -192,6 +177,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: PAY
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
 - base: PAY
   market:
     identifier: idex
@@ -204,8 +194,8 @@ tickers:
   target: ETH
 - base: PAY
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: PAY
   market:
@@ -231,11 +221,6 @@ tickers:
   market:
     identifier: paroexchange
     name: Paro Exchange
-  target: ATCC
-- base: PAY
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
   target: BTC
 - base: PAY
   market:
@@ -252,16 +237,6 @@ tickers:
     identifier: paroexchange
     name: Paro Exchange
   target: TUSD
-- base: PAY
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: PAY
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
 - base: PAY
   market:
     identifier: vebitcoin

@@ -22,9 +22,9 @@ symbol: dfs
 tickers:
 - base: DFS
   market:
-    identifier: coindeal
-    name: Coindeal
-  target: BTC
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH
 - base: DFS
   market:
     identifier: idex
@@ -35,6 +35,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: DFS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: DFS
   market:
     identifier: tokenjar

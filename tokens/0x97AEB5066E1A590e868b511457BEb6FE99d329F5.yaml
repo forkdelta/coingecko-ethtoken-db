@@ -24,6 +24,11 @@ symbol: atmi
 tickers:
 - base: ATMI
   market:
+    identifier: bkex
+    name: Bkex
+  target: USDT
+- base: ATMI
+  market:
     identifier: dextop
     name: DEx.top
   target: ETH
@@ -37,25 +42,10 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: ATM
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: ATMI
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: ATMI
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
-- base: ATMI
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: ATMI
   market:

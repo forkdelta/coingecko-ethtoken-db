@@ -117,9 +117,14 @@ tickers:
   target: ETH
 - base: LINK
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
+    identifier: coss
+    name: COSS
+  target: USD
+- base: LINK
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
 - base: LINK
   market:
     identifier: cryptaldash
@@ -142,6 +147,11 @@ tickers:
   target: USDT
 - base: LINK
   market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: LINK
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -150,11 +160,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: LINK
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: LINK
   market:
     identifier: fcoin
@@ -167,24 +172,9 @@ tickers:
   target: ETH
 - base: LINK
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: LINK
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LINK
-  market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: LINK
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: LINK
   market:
     identifier: livecoin
@@ -242,6 +232,11 @@ tickers:
   target: USDT
 - base: LINK
   market:
+    identifier: tradeio
+    name: Trade.io
+  target: TIOX
+- base: LINK
+  market:
     identifier: txbit
     name: Txbit
   target: BTC
@@ -250,13 +245,3 @@ tickers:
     identifier: txbit
     name: Txbit
   target: ETH
-- base: LINK
-  market:
-    identifier: vindax
-    name: Vindax
-  target: ETH
-- base: LINK
-  market:
-    identifier: vindax
-    name: Vindax
-  target: USDT

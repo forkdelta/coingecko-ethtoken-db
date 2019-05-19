@@ -26,18 +26,23 @@ symbol: drt
 tickers:
 - base: DRT
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: DRT
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: DRT
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: DRT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DRT
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: DRT
   market:
@@ -62,8 +67,13 @@ tickers:
 - base: DRT
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
+- base: DRT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: DRT
   market:
     identifier: yobit
@@ -73,7 +83,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: DRT
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: DRT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: DRT
   market:
     identifier: yobit

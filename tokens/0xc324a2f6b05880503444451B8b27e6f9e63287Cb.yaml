@@ -51,6 +51,11 @@ symbol: xuc
 tickers:
 - base: XUC
   market:
+    identifier: bw
+    name: BW.com
+  target: USDT
+- base: XUC
+  market:
     identifier: dcoin
     name: Dcoin
   target: USDT
@@ -58,11 +63,6 @@ tickers:
   market:
     identifier: dextop
     name: DEx.top
-  target: ETH
-- base: XUC
-  market:
-    identifier: everbloom
-    name: Everbloom
   target: ETH
 - base: XUC
   market:
@@ -74,8 +74,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: XUC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

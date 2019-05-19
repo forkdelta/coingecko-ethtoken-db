@@ -75,6 +75,16 @@ tickers:
   target: BTC
 - base: DGD
   market:
+    identifier: bitrue
+    name: Bitrue
+  target: BTC
+- base: DGD
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: ETH
+- base: DGD
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -100,11 +110,6 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: DGD
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -123,11 +128,6 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
-- base: DGD
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: DGD
   market:
     identifier: fex
@@ -178,12 +178,12 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: GRC
+- base: STEEM
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: STEEM
+- base: USDT
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -193,7 +193,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: USDT
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -208,3 +208,8 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: DGD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

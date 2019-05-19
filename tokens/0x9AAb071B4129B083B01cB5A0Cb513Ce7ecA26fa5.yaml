@@ -21,6 +21,7 @@ links:
   repos_url:
     github:
     - https://github.com/Steemhunt/browser-extension
+    - https://github.com/Steemhunt/reviewhunt-pre
     - https://github.com/Steemhunt/token-website
     - https://github.com/Steemhunt/web
     - https://github.com/Steemhunt/whitelist
@@ -29,4 +30,9 @@ links:
   twitter_screen_name: steemhunt
 name: HUNT Token
 symbol: hunt
-tickers: []
+tickers:
+- base: HUNT_ERC20
+  market:
+    identifier: daybit
+    name: Daybit
+  target: BTC

@@ -33,11 +33,6 @@ tickers:
   target: USDT
 - base: AST
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: AST
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -73,11 +68,6 @@ tickers:
   target: ETH
 - base: AST
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: AST
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
@@ -89,10 +79,15 @@ tickers:
 - base: AST
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: AST
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: AST
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

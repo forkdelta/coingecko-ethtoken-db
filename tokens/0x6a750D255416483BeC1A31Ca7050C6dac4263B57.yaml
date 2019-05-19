@@ -25,6 +25,11 @@ symbol: mxm
 tickers:
 - base: MXM
   market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: MXM
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -35,11 +40,6 @@ tickers:
   target: ETH
 - base: MXM
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: MXM
-  market:
-    identifier: rfinex
-    name: Rfinex
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

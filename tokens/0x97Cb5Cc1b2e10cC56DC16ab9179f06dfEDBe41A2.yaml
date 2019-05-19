@@ -42,19 +42,14 @@ tickers:
   target: USDT
 - base: MOLK
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: MOLK
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: MOLK
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: MOLK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: MOLK
   market:
     identifier: yobit
@@ -64,7 +59,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: MOLK
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: MOLK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: MOLK
   market:
     identifier: yobit

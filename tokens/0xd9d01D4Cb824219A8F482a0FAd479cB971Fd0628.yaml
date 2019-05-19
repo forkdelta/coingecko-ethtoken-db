@@ -19,11 +19,6 @@ symbol: entrc
 tickers:
 - base: ENTRC
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: ENTRC
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -32,3 +27,8 @@ tickers:
     identifier: instantbitex
     name: Instant Bitex
   target: BTC
+- base: ENTRC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

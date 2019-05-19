@@ -47,9 +47,24 @@ tickers:
   target: LA
 - base: HUR
   market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: HUR
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: HUR
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: HUR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: HUR
   market:
     identifier: yobit
@@ -59,14 +74,19 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: HUR
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
 - base: HUR
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD
 - base: HUR
   market:
-    identifier: zgtop
-    name: ZG.TOP
-  target: USDT
+    identifier: yobit
+    name: YoBit
+  target: WAVES

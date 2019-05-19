@@ -52,6 +52,11 @@ symbol: lba
 tickers:
 - base: LBA
   market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: LBA
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -64,11 +69,6 @@ tickers:
   market:
     identifier: fcoin
     name: FCoin
-  target: ETH
-- base: LBA
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: LBA
   market:
@@ -92,6 +92,16 @@ tickers:
   target: ETH
 - base: LBA
   market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: LBA
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -99,7 +109,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: LBA
   market:
     identifier: yobit

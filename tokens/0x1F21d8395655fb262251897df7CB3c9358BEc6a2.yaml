@@ -11,7 +11,7 @@ links:
   blockchain_site:
   - https://etherscan.io/token/0x1f21d8395655fb262251897df7cb3c9358bec6a2
   homepage:
-  - https://www.ironcoin.net/
+  - http://ironcoin.org/
   repos_url:
     github:
     - https://github.com/myironcoin/IronCoin
@@ -21,6 +21,26 @@ links:
 name: IronCoin
 symbol: irc
 tickers:
+- base: IRC
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: IRC
+  market:
+    identifier: altilly
+    name: Altilly
+  target: DOGE
+- base: IRC
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: IRC
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: IRC
   market:
     identifier: everbloom

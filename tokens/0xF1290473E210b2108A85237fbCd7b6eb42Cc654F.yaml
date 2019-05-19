@@ -32,11 +32,6 @@ symbol: hedg
 tickers:
 - base: HEDG
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: HEDG
-  market:
     identifier: hotbit
     name: Hotbit
   target: BTC
@@ -50,3 +45,8 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: USDC
+- base: HEDG
+  market:
+    identifier: oex
+    name: OEX
+  target: BTC

@@ -15,14 +15,14 @@ symbol: atx
 tickers:
 - base: ATX
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: ATX
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: ATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: ATX
   market:
     identifier: yobit
@@ -32,7 +32,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: ATX
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: ATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: ATX
   market:
     identifier: yobit

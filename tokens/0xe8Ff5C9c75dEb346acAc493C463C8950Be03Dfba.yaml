@@ -22,11 +22,6 @@ symbol: vibe
 tickers:
 - base: VIBE
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: VIBE
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -64,9 +59,14 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: LA
+  target: BTC
 - base: VIBE
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: VIBE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA

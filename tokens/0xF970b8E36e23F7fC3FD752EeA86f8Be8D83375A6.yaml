@@ -48,8 +48,28 @@ symbol: rcn
 tickers:
 - base: RCN
   market:
+    identifier: c2cx
+    name: C2CX
+  target: LONG
+- base: RCN
+  market:
+    identifier: c2cx
+    name: C2CX
+  target: USDT
+- base: RCN
+  market:
     identifier: chaoex
     name: CHAOEX
+  target: USDT
+- base: RCN
+  market:
+    identifier: dragonex
+    name: DragonEx
+  target: ETH
+- base: RCN
+  market:
+    identifier: dragonex
+    name: DragonEx
   target: USDT
 - base: RCN
   market:
@@ -68,11 +88,6 @@ tickers:
   target: USD
 - base: RCN
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: RCN
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -85,11 +100,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: RCN
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: RCN
   market:
@@ -131,3 +141,13 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: RCN
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: RCN
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

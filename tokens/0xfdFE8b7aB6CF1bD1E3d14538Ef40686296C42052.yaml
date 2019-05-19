@@ -22,6 +22,11 @@ symbol: skrp
 tickers:
 - base: SKRP
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: SKRP
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -39,12 +44,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: SKRP
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: SKRP
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: SKRP
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: SKRP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: SKRP
   market:
     identifier: yobit

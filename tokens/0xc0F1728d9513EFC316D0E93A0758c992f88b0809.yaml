@@ -22,6 +22,21 @@ symbol: swat
 tickers:
 - base: SWAT
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: SWAT
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: FAT
+- base: SWAT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: SWAT
+  market:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
@@ -30,8 +45,3 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: SWAT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

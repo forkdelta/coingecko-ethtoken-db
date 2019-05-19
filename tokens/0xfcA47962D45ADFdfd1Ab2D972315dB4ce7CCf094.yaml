@@ -37,8 +37,13 @@ symbol: ixt
 tickers:
 - base: IXT
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: IXT
+  market:
+    identifier: bit_z
+    name: Bit-Z
   target: ETH
 - base: IXT
   market:
@@ -47,26 +52,26 @@ tickers:
   target: ETH
 - base: IXT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: IXT
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: IXT
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: IXT
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
 - base: IXT
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: QASH
-- base: IXT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

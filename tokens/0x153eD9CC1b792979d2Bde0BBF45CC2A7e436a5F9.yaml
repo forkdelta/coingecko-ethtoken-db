@@ -23,6 +23,11 @@ symbol: xov
 tickers:
 - base: XOV
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: XOV
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -34,10 +39,5 @@ tickers:
 - base: XOV
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
-- base: XOV
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

@@ -23,6 +23,21 @@ symbol: mnc
 tickers:
 - base: MNC
   market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: MNC
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
+- base: MNC
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: USD
+- base: MNC
+  market:
     identifier: biki
     name: Biki
   target: BTC
@@ -36,6 +51,11 @@ tickers:
     identifier: biki
     name: Biki
   target: USDT
+- base: MNC
+  market:
+    identifier: bitfex
+    name: Bitfex
+  target: BTC
 - base: MNC
   market:
     identifier: bitfex
@@ -93,21 +113,6 @@ tickers:
   target: USDT
 - base: MNC
   market:
-    identifier: dobitrade
-    name: Dobitrade
-  target: BTC
-- base: MNC
-  market:
-    identifier: dobitrade
-    name: Dobitrade
-  target: ETH
-- base: MNC
-  market:
-    identifier: dobitrade
-    name: Dobitrade
-  target: USDT
-- base: MNC
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -123,8 +128,13 @@ tickers:
   target: USD
 - base: MNC
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: fubt
+    name: FUBT
+  target: BTC
+- base: MNC
+  market:
+    identifier: fubt
+    name: FUBT
   target: ETH
 - base: MNC
   market:
@@ -136,11 +146,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: RUR
-- base: MNC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
 - base: MNC
   market:
     identifier: localtrade

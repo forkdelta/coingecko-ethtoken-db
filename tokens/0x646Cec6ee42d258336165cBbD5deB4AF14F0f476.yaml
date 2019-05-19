@@ -21,9 +21,24 @@ symbol: sdao
 tickers:
 - base: SDAO
   market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: SDAO
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: SDAO
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: SDAO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: SDAO
   market:
     identifier: yobit
@@ -33,7 +48,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: SDAO
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: SDAO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: SDAO
   market:
     identifier: yobit

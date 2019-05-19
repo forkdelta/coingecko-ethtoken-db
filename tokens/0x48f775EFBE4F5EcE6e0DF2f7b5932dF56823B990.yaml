@@ -39,6 +39,16 @@ symbol: r
 tickers:
 - base: R
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: R
+  market:
+    identifier: abcc
+    name: ABCC
+  target: USDT
+- base: R
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -99,8 +109,8 @@ tickers:
   target: USDT
 - base: R
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: digifinex
+    name: Digifinex
   target: ETH
 - base: R
   market:
@@ -124,6 +134,11 @@ tickers:
   target: ETH
 - base: R
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: R
+  market:
     identifier: kuna
     name: Kuna Exchange
   target: BTC
@@ -131,6 +146,11 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: R
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: R
   market:
@@ -151,12 +171,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: R
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: R
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: R
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: R
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: R
   market:
     identifier: yobit

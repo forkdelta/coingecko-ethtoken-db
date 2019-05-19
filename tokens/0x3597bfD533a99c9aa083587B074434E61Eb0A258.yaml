@@ -164,12 +164,37 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
+- base: FXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: BCN
   market:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
 - base: XDCE
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: PYN
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: ZEC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: ZIL
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: CNX
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -316,19 +341,9 @@ tickers:
   target: ETH
 - base: DENT
   market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: coinbene
+    name: CoinBene
   target: BTC
-- base: DENT
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: BTC
-- base: DENT
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: ETH
 - base: DENT
   market:
     identifier: coinzest
@@ -336,28 +351,13 @@ tickers:
   target: KRW
 - base: DENT
   market:
-    identifier: cpdax
-    name: CPDax
-  target: KRW
-- base: DENT
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
-- base: DENT
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: DENT
   market:
     identifier: ethex
     name: Ethex
-  target: ETH
-- base: DENT
-  market:
-    identifier: everbloom
-    name: Everbloom
   target: ETH
 - base: DENT
   market:
@@ -374,11 +374,6 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
-- base: DENT
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: DENT
   market:
     identifier: joyso
@@ -398,12 +393,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: DENT
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: 63564C71-A5B2-4223-80CA-40FA22770E66
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: DENT
   market:
     identifier: okex
@@ -421,9 +426,9 @@ tickers:
   target: USDT
 - base: DENT
   market:
-    identifier: quoine
-    name: Liquid (Quoine)
-  target: QASH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: DENT
   market:
     identifier: radar_relay

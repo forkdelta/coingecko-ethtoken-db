@@ -62,13 +62,13 @@ tickers:
 - base: IQN
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: IQN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: IQN
   market:
     identifier: yobit
@@ -78,7 +78,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: IQN
   market:
     identifier: yobit

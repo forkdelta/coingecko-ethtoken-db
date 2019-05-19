@@ -64,9 +64,19 @@ tickers:
   target: OUSD
 - base: CHSB
   market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH
+- base: CHSB
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: CHSB
   market:
     identifier: yobit
@@ -76,7 +86,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: CHSB
   market:
     identifier: yobit

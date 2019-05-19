@@ -16,14 +16,14 @@ symbol: btcs
 tickers:
 - base: BTCS
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: BTCS
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: BTCS
   market:
     identifier: yobit
@@ -33,7 +33,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: BTCS
   market:
     identifier: yobit

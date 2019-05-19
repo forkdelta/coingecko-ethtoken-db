@@ -86,6 +86,11 @@ tickers:
   market:
     identifier: bitbox
     name: BITBOX
+  target: BTC
+- base: ELF
+  market:
+    identifier: bitbox
+    name: BITBOX
   target: ETH
 - base: ELF
   market:
@@ -149,23 +154,18 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: ELF
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
 - base: ELF
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: ELF
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: ELF
   market:
@@ -194,14 +194,9 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: jex
-    name: JEX
-  target: USDT
-- base: ELF
-  market:
-    identifier: koinex
-    name: Koinex
-  target: INR
+    identifier: k_kex
+    name: KKEX
+  target: BTC
 - base: ELF
   market:
     identifier: koinex
@@ -237,11 +232,6 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: ELF
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: ELF
   market:
     identifier: uex

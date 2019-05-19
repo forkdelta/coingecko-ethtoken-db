@@ -30,6 +30,11 @@ symbol: sphtx
 tickers:
 - base: SPHTX
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: SPHTX
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -60,31 +65,21 @@ tickers:
   target: USDT
 - base: SPHTX
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: SPHTX
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: SPHTX
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: SPHTX
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
 - base: SPHTX
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: QASH
-- base: SPHTX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

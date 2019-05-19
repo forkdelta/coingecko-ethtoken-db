@@ -20,11 +20,6 @@ symbol: ieth
 tickers:
 - base: IETH
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: IETH
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -35,9 +30,9 @@ tickers:
   target: BTC
 - base: IETH
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: IETH
   market:
     identifier: yobit
@@ -47,7 +42,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: IETH
   market:
     identifier: yobit

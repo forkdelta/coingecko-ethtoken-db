@@ -23,9 +23,34 @@ symbol: kbc
 tickers:
 - base: KBC
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: KBC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: KBC
+  market:
     identifier: coinall
     name: CoinAll
   target: BTC
+- base: KBC
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: KBC
+  market:
+    identifier: coinbe
+    name: Coinbe
+  target: BTC
+- base: KBC
+  market:
+    identifier: coinbe
+    name: Coinbe
+  target: ETH
 - base: KBC
   market:
     identifier: coineal
@@ -43,8 +68,13 @@ tickers:
   target: ETH
 - base: KBC
   market:
-    identifier: digifinex
-    name: Digifinex
+    identifier: hubi
+    name: Hubi
+  target: BTC
+- base: KBC
+  market:
+    identifier: hubi
+    name: Hubi
   target: USDT
 - base: KBC
   market:
@@ -53,9 +83,14 @@ tickers:
   target: BTC
 - base: KBC
   market:
-    identifier: lbank
-    name: Lbank
-  target: USDT
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: KBC
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: KBC
   market:
     identifier: p2pb2b
@@ -71,8 +106,3 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: KBC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

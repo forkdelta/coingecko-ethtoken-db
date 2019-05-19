@@ -28,6 +28,16 @@ symbol: cs
 tickers:
 - base: CS
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: CS
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: CS
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -40,6 +50,16 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
+  target: ETH
+- base: CS
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: CS
+  market:
+    identifier: cointiger
+    name: CoinTiger
   target: ETH
 - base: CS
   market:
@@ -83,11 +103,6 @@ tickers:
   target: USD
 - base: CS
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: CS
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -119,10 +134,30 @@ tickers:
 - base: CS
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
+  target: ETH
+- base: CS
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: CS
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH
 - base: CS
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: CS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
+- base: CS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

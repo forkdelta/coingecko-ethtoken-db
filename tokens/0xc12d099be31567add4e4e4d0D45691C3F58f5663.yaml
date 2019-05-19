@@ -45,6 +45,11 @@ symbol: auc
 tickers:
 - base: AUC
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: AUC
+  market:
     identifier: coinbene
     name: CoinBene
   target: BTC
@@ -70,6 +75,11 @@ tickers:
   target: ETH
 - base: AUC
   market:
+    identifier: probit
+    name: Probit
+  target: KRW
+- base: AUC
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
@@ -83,3 +93,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: AUC
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

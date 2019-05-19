@@ -61,11 +61,6 @@ tickers:
   target: WETH
 - base: DMT
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: DMT
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -76,14 +71,24 @@ tickers:
   target: ETH
 - base: DMT
   market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: DMT
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: DMT
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: DMT
   market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: DMT
   market:
     identifier: yobit
@@ -93,7 +98,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: DMT
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: DMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: DMT
   market:
     identifier: yobit

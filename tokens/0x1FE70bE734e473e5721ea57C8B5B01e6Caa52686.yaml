@@ -47,9 +47,29 @@ tickers:
   target: USD
 - base: RNTB
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: RNTB
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: BTC
+- base: RNTB
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
+- base: RNTB
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: RNTB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: RNTB
   market:
     identifier: yobit
@@ -59,7 +79,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: RNTB
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: RNTB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: RNTB
   market:
     identifier: yobit

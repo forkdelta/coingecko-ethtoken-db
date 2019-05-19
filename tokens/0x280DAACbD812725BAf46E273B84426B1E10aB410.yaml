@@ -28,9 +28,14 @@ links:
   - https://www.cbex.exchange/
   telegram_channel_identifier: cryptobexchange
   twitter_screen_name: cbexexchange
-name: Cryptobexchange
+name: CBEX Token
 symbol: cbex
 tickers:
+- base: CBEX
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: CBEX
   market:
     identifier: sistemkoin
@@ -41,8 +46,3 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: DEEX
-- base: CBEX
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY

@@ -26,26 +26,6 @@ symbol: hkn
 tickers:
 - base: HKN
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: BTC
-- base: HKN
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: ETH
-- base: HKN
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: USDT
-- base: HKN
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: HKN
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -54,6 +34,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: HKN
+  market:
+    identifier: kuna
+    name: Kuna Exchange
+  target: BTC
 - base: HKN
   market:
     identifier: orderbook
@@ -66,9 +51,24 @@ tickers:
   target: OUSD
 - base: HKN
   market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: HKN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: HKN
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: HKN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: HKN
   market:
     identifier: yobit
@@ -78,7 +78,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: HKN
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: HKN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: HKN
   market:
     identifier: yobit

@@ -70,6 +70,16 @@ symbol: gusd
 tickers:
 - base: GUSD
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: GUSD
+  market:
+    identifier: abcc
+    name: ABCC
+  target: USDT
+- base: GUSD
+  market:
     identifier: bcex
     name: BCEX
   target: USDT
@@ -115,19 +125,29 @@ tickers:
   target: XRP
 - base: GUSD
   market:
-    identifier: bx_thailand
-    name: BX Thailand
-  target: THB
-- base: GUSD
-  market:
     identifier: cex
     name: CEX.IO
   target: BTC
 - base: GUSD
   market:
+    identifier: cex
+    name: CEX.IO
+  target: EUR
+- base: GUSD
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USD
+- base: GUSD
+  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
+- base: GUSD
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
 - base: GUSD
   market:
     identifier: coin_exchange
@@ -138,11 +158,11 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
-- base: GUSD
+- base: BCH
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
+    identifier: coinex
+    name: CoinEx
+  target: GUSD
 - base: GUSD
   market:
     identifier: coinex
@@ -158,6 +178,11 @@ tickers:
     identifier: coinpark
     name: Coinpark
   target: USDT
+- base: ETH
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: GUSD
 - base: GUSD
   market:
     identifier: coss
@@ -168,22 +193,22 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
-- base: ETH
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
 - base: COSS
   market:
     identifier: coss
     name: COSS
   target: GUSD
-- base: XRP
+- base: ETH
   market:
     identifier: coss
     name: COSS
   target: GUSD
 - base: BTC
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
+- base: XRP
   market:
     identifier: coss
     name: COSS
@@ -196,7 +221,7 @@ tickers:
 - base: GUSD
   market:
     identifier: cpdax
-    name: CPDax
+    name: CPDAX
   target: BTC
 - base: GUSD
   market:
@@ -233,6 +258,11 @@ tickers:
     identifier: eosex
     name: EOSex
   target: USDT
+- base: GUSD
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: EOS
   market:
     identifier: fatbtc
@@ -273,6 +303,11 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: USD
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
 - base: GUSD
   market:
     identifier: latoken
@@ -301,12 +336,12 @@ tickers:
 - base: BTC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: GUSD
 - base: ETH
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: GUSD
 - base: GUSD
   market:
@@ -318,11 +353,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: BTC
-  market:
-    identifier: therocktrading
-    name: TheRockTrading
-  target: GUSD
 - base: GUSD
   market:
     identifier: tokenize
@@ -358,3 +388,8 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
+- base: GUSD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

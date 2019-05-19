@@ -1,11 +1,8 @@
 ---
 address: '0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206'
 description: >-
-  The NEXO Token is the World’s First US SEC-compliant Asset-backed Token and is backed by the underlying
-  assets of Nexo’s loan portfolio.
-
-  NEXO Tokens are a safe haven as they provide passive income in the form of 30% from the company’s profits,
-  distributed monthly to NEXO Token Holders.
+  The NEXO Token is an asset-backed token and is backed by the underlying assets of Nexo’s loan portfolio.
+  NEXO Tokens Holders will get 30% of the company’s profits.
 
   NEXO Tokens offer additional utility features such as discounted interest rates on the Nexo Instant
   Crypto-backed Loans and are also accepted as collateral on the Nexo Platform.
@@ -105,13 +102,18 @@ tickers:
   target: ETH
 - base: NEXO
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: NEXO
+  market:
     identifier: stocks_exchange
     name: STEX
   target: USDT
 - base: NEXO
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: NEXO
   market:

@@ -13,10 +13,15 @@ links:
   - https://discordapp.com/invite/KKUgZbv
   homepage:
   - https://www.thoreexchange.com/
-  telegram_channel_identifier: Thoregroup
+  telegram_channel_identifier: Thoreexchange
 name: Thore Exchange
 symbol: thex
 tickers:
+- base: THE
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
 - base: THE
   market:
     identifier: crex24
@@ -25,7 +30,7 @@ tickers:
 - base: THE
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: THE
   market:

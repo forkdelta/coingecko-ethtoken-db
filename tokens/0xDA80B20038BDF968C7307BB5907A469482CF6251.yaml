@@ -35,6 +35,16 @@ tickers:
   target: BCH
 - base: BNN
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BCHABC
+- base: BNN
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: BNN
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -55,16 +65,6 @@ tickers:
   target: BTC
 - base: BNN
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: BNN
-  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: BNN
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

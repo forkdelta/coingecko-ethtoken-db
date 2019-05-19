@@ -96,11 +96,6 @@ tickers:
   market:
     identifier: bigone
     name: BigONE
-  target: BTC
-- base: HOT
-  market:
-    identifier: bigone
-    name: BigONE
   target: ETH
 - base: HOLO
   market:
@@ -109,14 +104,19 @@ tickers:
   target: USDT
 - base: HOT
   market:
-    identifier: catex
-    name: Catex
+    identifier: bitebtc
+    name: BiteBTC
   target: BTC
 - base: HOT
   market:
-    identifier: chainrift
-    name: Chainrift
-  target: BTC
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: HOT
+  market:
+    identifier: bkex
+    name: Bkex
+  target: USDT
 - base: HOT
   market:
     identifier: codex
@@ -144,23 +144,8 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: coinex
-    name: CoinEx
-  target: BCH
-- base: HOT
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: BTC
-- base: HOT
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: ETH
-- base: HOT
-  market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: coinbig
+    name: COINBIG
   target: BTC
 - base: HOT
   market:
@@ -209,11 +194,6 @@ tickers:
   target: WETH
 - base: HOT
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: HOT
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -259,16 +239,6 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: HOT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: HOT
-  market:
     identifier: idex
     name: Idex
   target: WBTC
@@ -286,17 +256,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: HOT
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
 - base: HOT
   market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
+  target: ETH
 - base: HOT
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: ooobtc
+    name: OOOBTC
+  target: BTC
 - base: HOT
   market:
     identifier: orderbook
@@ -342,3 +317,13 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: HOT
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: BTC
+- base: HOT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

@@ -33,11 +33,6 @@ tickers:
   target: BTC
 - base: TIME
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: TIME
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -88,9 +83,24 @@ tickers:
   target: USD
 - base: TIME
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USD
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WEUR
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WUSD
 - base: TIME
   market:
     identifier: tokenjar
@@ -100,12 +110,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: TIME
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: TIME
   market:
     identifier: yobit

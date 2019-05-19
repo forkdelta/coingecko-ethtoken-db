@@ -84,6 +84,11 @@ tickers:
   target: USDT
 - base: GNO
   market:
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
+- base: GNO
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -137,11 +142,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: GNO
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: GNO
   market:
     identifier: forkdelta
@@ -246,12 +246,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: GNO
   market:
     identifier: yobit

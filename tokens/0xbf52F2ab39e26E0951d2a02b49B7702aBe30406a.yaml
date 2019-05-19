@@ -66,6 +66,16 @@ tickers:
   target: ETH
 - base: ODE
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: ODE
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: ODE
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -73,6 +83,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: Coinexchange
+  target: ETH
+- base: ODE
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: ODEM
   market:
@@ -98,12 +113,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: ODEM
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: ODEM
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: ODEM
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: ODEM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: ODEM
   market:
     identifier: yobit

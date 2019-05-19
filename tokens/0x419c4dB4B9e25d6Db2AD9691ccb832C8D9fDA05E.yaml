@@ -55,11 +55,6 @@ symbol: drgn
 tickers:
 - base: DRGN
   market:
-    identifier: bitibu
-    name: Bitibu
-  target: BTB
-- base: DRGN
-  market:
     identifier: chainex
     name: ChainEX
   target: BTC
@@ -113,6 +108,16 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
+- base: DRGN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DRN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: DRN
   market:
     identifier: ethfinex
@@ -120,18 +125,13 @@ tickers:
   target: USD
 - base: DRGN
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: DRGN
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: DRGN
   market:
-    identifier: idex
-    name: Idex
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: DRGN
   market:
@@ -151,10 +151,20 @@ tickers:
 - base: DRGN
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: DRGN
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: DRGN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: DRGN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: USDT

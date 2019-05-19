@@ -28,11 +28,6 @@ symbol: snov
 tickers:
 - base: SNOV
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: SNOV
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -40,6 +35,11 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: SNOV
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: SNOV
   market:
@@ -51,3 +51,18 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: SNOV
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: SNOV
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: SNOV
+  market:
+    identifier: tidex
+    name: Tidex
+  target: USDT

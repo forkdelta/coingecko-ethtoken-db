@@ -7,6 +7,8 @@ description: >-
   with dApps while helping developers create an enhanced user experience.
 id: matic-network
 links:
+  announcement_url:
+  - https://medium.com/matic-network
   blockchain_site:
   - https://etherscan.io/token/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0
   chat_url:
@@ -24,4 +26,9 @@ links:
   twitter_screen_name: maticnetwork
 name: Matic Network
 symbol: matic
-tickers: []
+tickers:
+- base: MATIC
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH

@@ -37,16 +37,21 @@ description: >-
   of Nuls.
 id: nuls
 links:
+  bitcointalk_thread_identifier: 2831034
   blockchain_site:
-  - https://enjinx.io/eth/token/0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c
-  - https://etherscan.io/token/0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c
-  - https://ethplorer.io/address/0xb91318f35bdb262e9423bc7c7c2a3a93dd93c92c
+  - https://nuls.world/
+  - https://nulscan.io/
+  chat_url:
+  - https://discordapp.com/invite/uZ3QcxW
+  facebook_username: nulscommunity
   homepage:
   - https://nuls.io/
   repos_url:
     github:
     - https://github.com/nuls-io/nuls
-  twitter_screen_name: nulsservice
+  subreddit_url: https://www.reddit.com/r/nulsservice/
+  telegram_channel_identifier: Nulsio
+  twitter_screen_name: Nuls
 name: Nuls
 symbol: nuls
 tickers:
@@ -87,8 +92,8 @@ tickers:
   target: USDT
 - base: NULS
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: etherflyer
+    name: EtherFlyer
   target: ETH
 - base: NULS
   market:
@@ -100,3 +105,13 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: NULS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: NULS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

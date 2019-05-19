@@ -32,11 +32,6 @@ symbol: amm
 tickers:
 - base: AMM
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: AMM
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -84,12 +79,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: AMM
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: AMM
   market:
     identifier: yobit

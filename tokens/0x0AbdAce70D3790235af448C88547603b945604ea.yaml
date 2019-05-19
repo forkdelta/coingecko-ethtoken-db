@@ -67,6 +67,16 @@ symbol: dnt
 tickers:
 - base: DNT
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: DNT
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: DNT
+  market:
     identifier: airswap
     name: AirSwap
   target: ETH
@@ -87,18 +97,8 @@ tickers:
   target: ETH
 - base: DNT
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: DNT
-  market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: DNT
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: DNT
   market:
@@ -133,10 +133,15 @@ tickers:
 - base: DNT
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: DNT
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: DNT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

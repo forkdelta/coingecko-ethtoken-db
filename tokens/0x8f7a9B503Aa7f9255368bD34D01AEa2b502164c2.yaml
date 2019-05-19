@@ -23,8 +23,13 @@ symbol: brc
 tickers:
 - base: BRC
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: coinzest
+    name: Coinzest
+  target: BTC
+- base: BRC
+  market:
+    identifier: coinzest
+    name: Coinzest
   target: ETH
 - base: BRC
   market:
@@ -34,25 +39,20 @@ tickers:
 - base: BRC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BCH
 - base: BRC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: BRC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
 - base: BRC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: QASH
-- base: BRC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

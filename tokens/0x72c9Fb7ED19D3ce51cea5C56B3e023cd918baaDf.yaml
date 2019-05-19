@@ -43,9 +43,24 @@ symbol: aglt
 tickers:
 - base: AGLT
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: AGLT
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: AGLT
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: AGLT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: AGLT
   market:
     identifier: latoken

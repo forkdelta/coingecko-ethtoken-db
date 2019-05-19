@@ -26,8 +26,13 @@ symbol: ufr
 tickers:
 - base: UFR
   market:
-    identifier: coin_exchange
-    name: Coinexchange
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: UFR
+  market:
+    identifier: altilly
+    name: Altilly
   target: BTC
 - base: UFR
   market:
@@ -61,11 +66,6 @@ tickers:
   target: LTC
 - base: UFR
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: UFR
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -86,14 +86,14 @@ tickers:
   target: WETH
 - base: UFR
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: BTC
-- base: UFR
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: UFR
   market:
     identifier: yobit
@@ -103,7 +103,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: UFR
   market:
     identifier: yobit

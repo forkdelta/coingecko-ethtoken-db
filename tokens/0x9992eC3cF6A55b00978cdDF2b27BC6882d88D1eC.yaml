@@ -72,6 +72,11 @@ tickers:
   target: USDT
 - base: POLY
   market:
+    identifier: bkex
+    name: Bkex
+  target: USDT
+- base: POLY
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -134,22 +139,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
 - base: POY
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: POLY
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: POLY
   market:
     identifier: fcoin
@@ -185,6 +180,11 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: POLY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: POLY
   market:
     identifier: latoken
@@ -225,3 +225,8 @@ tickers:
     identifier: uex
     name: UEX
   target: USDT
+- base: POLY
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

@@ -20,14 +20,14 @@ symbol: ecash
 tickers:
 - base: ECASH
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: ECASH
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: ECASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: ECASH
   market:
     identifier: yobit
@@ -37,7 +37,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: ECASH
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: ECASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: ECASH
   market:
     identifier: yobit

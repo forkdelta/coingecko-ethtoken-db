@@ -66,6 +66,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: PI
+  market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
 - base: PAI
   market:
     identifier: dextop
@@ -73,10 +78,10 @@ tickers:
   target: ETH
 - base: PAI
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: idex
+    name: Idex
   target: ETH
-- base: PAI
+- base: PI
   market:
     identifier: idex
     name: Idex
@@ -89,13 +94,23 @@ tickers:
 - base: PAI
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: PAI
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: PAI
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: PAI
   market:
     identifier: yobit
@@ -105,7 +120,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: PAI
   market:
     identifier: yobit

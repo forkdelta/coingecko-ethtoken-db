@@ -14,8 +14,23 @@ links:
   facebook_username: concertvr
   homepage:
   - https://www.concertvr.io/
-  telegram_channel_identifier: concertVR
+  telegram_channel_identifier: concertVR1
   twitter_screen_name: simplybethere
 name: concertVR
 symbol: cvt
-tickers: []
+tickers:
+- base: CVT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: CVT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
+- base: CVT
+  market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH

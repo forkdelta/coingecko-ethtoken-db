@@ -20,6 +20,16 @@ symbol: eph
 tickers:
 - base: EPH
   market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: EPH
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: EPH
+  market:
     identifier: altmarkets
     name: Altmarkets
   target: BTC
@@ -30,16 +40,26 @@ tickers:
   target: ETH
 - base: EPH
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: EPH
+  market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH
+- base: EPH
+  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
 - base: EPH
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: EPH
+  market:
     identifier: raisex
     name: Raisex
   target: BTC
-- base: EPH
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

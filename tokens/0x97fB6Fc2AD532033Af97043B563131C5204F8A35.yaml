@@ -50,33 +50,38 @@ links:
 name: Plus Coin
 symbol: nplc
 tickers:
+- base: NPLC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: PLC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: NPLC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: PLC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
 - base: NPLC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
-- base: NPLC
+- base: PLC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: QASH
-- base: PLC
+- base: NPLC
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: QASH

@@ -30,7 +30,9 @@ description: >-
   and burn Synths in the appropriate amount based solely on supply and demand.
 id: havven
 links:
-  bitcointalk_thread_identifier: 2617571
+  announcement_url:
+  - https://blog.synthetix.io/
+  - https://t.me/havven_news
   blockchain_site:
   - https://enjinx.io/eth/token/0xc011a72400e58ecd99ee497cf89e3775d4bd732f
   - https://etherscan.io/token/0xc011a72400e58ecd99ee497cf89e3775d4bd732f
@@ -44,17 +46,17 @@ links:
   - https://blog.havven.io/
   repos_url:
     github:
-    - https://github.com/havven/havven
-  subreddit_url: https://www.reddit.com/r/havven/
+    - https://github.com/Synthetixio/synthetix
+  subreddit_url: https://www.reddit.com/r/synthetix_io/
   telegram_channel_identifier: havven_official1
   twitter_screen_name: synthetix_io
 name: Synthetix
 symbol: snx
 tickers:
-- base: HAV
+- base: SNX
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: idex
+    name: Idex
   target: ETH
 - base: HAV
   market:
@@ -79,20 +81,35 @@ tickers:
 - base: HAV
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: HAV
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
 - base: HAV
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: QASH
+- base: HAV
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: HAV
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
 - base: HAV
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: SNX
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

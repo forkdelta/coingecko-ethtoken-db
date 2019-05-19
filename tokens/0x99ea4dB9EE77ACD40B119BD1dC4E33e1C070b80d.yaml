@@ -44,6 +44,11 @@ tickers:
   market:
     identifier: bitbox
     name: BITBOX
+  target: BTC
+- base: QSP
+  market:
+    identifier: bitbox
+    name: BITBOX
   target: ETH
 - base: QSP
   market:
@@ -87,11 +92,6 @@ tickers:
   target: WETH
 - base: QSP
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: QSP
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -100,11 +100,6 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
-- base: QSP
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: QSP
   market:
     identifier: gopax

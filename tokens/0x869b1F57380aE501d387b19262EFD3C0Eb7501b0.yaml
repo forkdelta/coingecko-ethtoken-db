@@ -29,9 +29,14 @@ symbol: oxy
 tickers:
 - base: OXY
   market:
-    identifier: bit_z
-    name: Bit-Z
+    identifier: altilly
+    name: Altilly
   target: BTC
+- base: OXY
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
 - base: OXY
   market:
     identifier: cryptopia
@@ -59,11 +64,6 @@ tickers:
   target: USD
 - base: OXY
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USD
-- base: OXY
-  market:
     identifier: purcow
     name: Purcow
   target: BTC
@@ -77,8 +77,3 @@ tickers:
     identifier: purcow
     name: Purcow
   target: OXY
-- base: OXY
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

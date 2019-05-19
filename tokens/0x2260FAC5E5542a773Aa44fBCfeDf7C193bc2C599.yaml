@@ -22,14 +22,9 @@ symbol: wbtc
 tickers:
 - base: WBTC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: WBTC
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: WBTC
   market:
     identifier: hitbtc
@@ -40,32 +35,7 @@ tickers:
     identifier: idex
     name: Idex
   target: DAI
-- base: CYFM
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: GET
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: STASH
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: HOT
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: ALTX
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: BAT
   market:
     identifier: idex
     name: Idex
@@ -75,17 +45,17 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: CAJ
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: PKG
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: XENC
+- base: OMG
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: CAJ
   market:
     identifier: idex
     name: Idex
@@ -95,12 +65,47 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
+- base: HOT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: CYFM
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: ALTX
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: XENC
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: GET
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: ETH
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: XBASE
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: OMG
+- base: BAT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: RC20
   market:
     identifier: idex
     name: Idex

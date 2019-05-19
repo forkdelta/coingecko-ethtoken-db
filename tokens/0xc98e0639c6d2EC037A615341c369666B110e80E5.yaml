@@ -32,6 +32,21 @@ symbol: exmr
 tickers:
 - base: EXMR
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: EXMR
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: EXMR
+  market:
+    identifier: bitrabbit
+    name: BitRabbit
+  target: ETH
+- base: EXMR
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -50,11 +65,6 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
-- base: EXMR
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: EXMR
   market:
     identifier: idex
@@ -84,12 +94,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: EXMR
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: EXMR
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: EXMR
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: EXMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: EXMR
   market:
     identifier: yobit

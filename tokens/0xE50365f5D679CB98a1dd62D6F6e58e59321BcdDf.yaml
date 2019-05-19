@@ -68,13 +68,18 @@ tickers:
   target: ETH
 - base: LA
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: LA
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: AGLT
   market:
@@ -116,22 +121,22 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: SAN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: SNT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: SCT
+- base: SAN
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
 - base: BAT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: SCT
   market:
     identifier: latoken
     name: LATOKEN
@@ -147,6 +152,21 @@ tickers:
     name: LATOKEN
   target: LA
 - base: SYC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: REP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: WTC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: POWR
   market:
     identifier: latoken
     name: LATOKEN
@@ -176,12 +196,42 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: FUN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: RMT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: REP
+- base: MTRC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: BNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: FOUR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: ICX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: PAY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: GNO
   market:
     identifier: latoken
     name: LATOKEN
@@ -192,16 +242,6 @@ tickers:
     name: LATOKEN
   target: LA
 - base: MANA
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: PAY
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: POWR
   market:
     identifier: latoken
     name: LATOKEN
@@ -221,31 +261,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: WTC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: ICX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: GNO
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: FUN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: BNT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: AION
   market:
     identifier: latoken
@@ -256,17 +271,17 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: MTRC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: OLT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
 - base: ZCO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: BEZ
   market:
     identifier: latoken
     name: LATOKEN
@@ -282,11 +297,6 @@ tickers:
     name: LATOKEN
   target: LA
 - base: DPP
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: BEZ
   market:
     identifier: latoken
     name: LATOKEN
@@ -351,7 +361,7 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: PARETO
+- base: MCO
   market:
     identifier: latoken
     name: LATOKEN
@@ -371,11 +381,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: AVINOC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: CHT
   market:
     identifier: latoken
@@ -386,12 +391,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: NPXS
+- base: KON
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: MCO
+- base: PARETO
   market:
     identifier: latoken
     name: LATOKEN
@@ -426,12 +431,32 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: CPT
+- base: AVINOC
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
 - base: USAT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: KNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: EVY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: CPT
   market:
     identifier: latoken
     name: LATOKEN

@@ -54,6 +54,16 @@ symbol: drop
 tickers:
 - base: DROP
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: DROP
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: DROP
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -82,6 +92,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: DROP
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
 - base: DROP
   market:
     identifier: tokenjar

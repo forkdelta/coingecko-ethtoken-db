@@ -60,6 +60,21 @@ symbol: npxs
 tickers:
 - base: NPXS
   market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: NPXS
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
+- base: NPXS
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: USD
+- base: NPXS
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -73,11 +88,6 @@ tickers:
     identifier: axnet
     name: AXNET
   target: USDT
-- base: NPXS
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
 - base: NPXS
   market:
     identifier: bit_z
@@ -100,24 +110,9 @@ tickers:
   target: USDT
 - base: NPXS
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: ETH
-- base: NPXS
-  market:
     identifier: coinnest
     name: CoinNest
   target: KRW
-- base: NPXS
-  market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: NPXS
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: BTC
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -135,14 +130,24 @@ tickers:
   target: WETH
 - base: NPXS
   market:
-    identifier: digifinex
-    name: Digifinex
+    identifier: dextrade
+    name: Dextrade
   target: BTC
 - base: NPXS
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: dextrade
+    name: Dextrade
   target: ETH
+- base: NPXS
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: USD
+- base: NPXS
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
 - base: NPXS
   market:
     identifier: exrates
@@ -165,19 +170,29 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: idex
-    name: Idex
+    identifier: graviex
+    name: Graviex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: graviex
+    name: Graviex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
 - base: NPXS
   market:
     identifier: livecoin
@@ -193,6 +208,11 @@ tickers:
     identifier: nexybit
     name: Nexybit
   target: BTC
+- base: NPXS
+  market:
+    identifier: nexybit
+    name: Nexybit
+  target: ETH
 - base: NPXS
   market:
     identifier: nexybit
@@ -221,10 +241,30 @@ tickers:
 - base: NPXS
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
+  target: ETH
+- base: NPXS
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH
 - base: NPXS
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: NPXS
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: BTC
+- base: NPXS
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: ETH
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

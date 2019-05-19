@@ -42,9 +42,24 @@ symbol: egt
 tickers:
 - base: EGT
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: EGT
+  market:
     identifier: coinex
     name: CoinEx
   target: BCH
+- base: EGT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: EGT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
 - base: EGT
   market:
     identifier: fcoin
@@ -55,8 +70,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: EGT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

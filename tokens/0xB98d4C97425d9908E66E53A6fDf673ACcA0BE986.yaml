@@ -39,6 +39,11 @@ symbol: abt
 tickers:
 - base: ABT
   market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: ABT
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -64,11 +69,6 @@ tickers:
   target: ETH
 - base: ABT
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
-- base: ABT
-  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
@@ -89,8 +89,8 @@ tickers:
   target: ETH
 - base: ABT
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: etherflyer
+    name: EtherFlyer
   target: ETH
 - base: ABT
   market:
@@ -109,16 +109,11 @@ tickers:
   target: ETH
 - base: ABT
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: lbank
+    name: Lbank
+  target: BTC
+- base: ABT
+  market:
+    identifier: lbank
+    name: Lbank
   target: ETH
-- base: ABT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: ABT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH

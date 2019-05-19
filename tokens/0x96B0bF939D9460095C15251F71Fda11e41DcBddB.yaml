@@ -40,6 +40,11 @@ symbol: s
 tickers:
 - base: S
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: S
+  market:
     identifier: simex
     name: Simex
   target: BTC
@@ -48,8 +53,3 @@ tickers:
     identifier: simex
     name: Simex
   target: RUB
-- base: S
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

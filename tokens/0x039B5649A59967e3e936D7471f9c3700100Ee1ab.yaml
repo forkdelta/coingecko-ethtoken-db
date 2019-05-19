@@ -43,6 +43,11 @@ symbol: kcs
 tickers:
 - base: KCS
   market:
+    identifier: biki
+    name: Biki
+  target: BTC
+- base: KCS
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -66,12 +71,12 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: KCS
-- base: GAS
+- base: TKY
   market:
     identifier: kucoin
     name: KuCoin
   target: KCS
-- base: PRL
+- base: GAS
   market:
     identifier: kucoin
     name: KuCoin
@@ -81,7 +86,7 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: KCS
-- base: TKY
+- base: PRL
   market:
     identifier: kucoin
     name: KuCoin
@@ -91,8 +96,3 @@ tickers:
     identifier: oex
     name: OEX
   target: BTC
-- base: KCS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

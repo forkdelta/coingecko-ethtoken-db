@@ -58,14 +58,14 @@ tickers:
   target: USD
 - base: MET
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: MET
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: MET
   market:
     identifier: yobit
@@ -75,7 +75,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: MET
   market:
     identifier: yobit

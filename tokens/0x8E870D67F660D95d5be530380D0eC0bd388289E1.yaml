@@ -57,6 +57,11 @@ symbol: pax
 tickers:
 - base: PAX
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: PAX
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -75,41 +80,6 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: PAX
-  market:
-    identifier: binance
-    name: Binance
-  target: BNB
-- base: PAX
-  market:
-    identifier: binance
-    name: Binance
-  target: BTC
-- base: PAX
-  market:
-    identifier: binance
-    name: Binance
-  target: ETH
-- base: BCHSV
-  market:
-    identifier: binance
-    name: Binance
-  target: PAX
-- base: PAX
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
-- base: PAX
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: ETH
-- base: PAX
-  market:
-    identifier: bitrue
-    name: Bitrue
-  target: BTC
 - base: SKY
   market:
     identifier: c2cx
@@ -120,11 +90,26 @@ tickers:
     identifier: coinmex
     name: CoinMex
   target: BTC
-- base: BTC
+- base: PAX
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: PAX
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: PAX
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDC
+- base: PAX
+  market:
+    identifier: ethex
+    name: Ethex
+  target: ETH
+- base: PAX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: PAX
   market:
     identifier: hitbtc
@@ -140,31 +125,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: BTC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: PAX
-- base: ETH
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: PAX
-- base: DASH
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: PAX
 - base: PAX
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: PAX
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
 - base: PAX
   market:
     identifier: uex
@@ -175,16 +140,6 @@ tickers:
     identifier: uex
     name: UEX
   target: USDT
-- base: PAX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: BTC
-  market:
-    identifier: zb
-    name: ZB
-  target: PAX
 - base: PAX
   market:
     identifier: zgtop

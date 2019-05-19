@@ -21,12 +21,27 @@ links:
 name: AXNET Token
 symbol: axn
 tickers:
+- base: LTC
+  market:
+    identifier: axnet
+    name: AXNET
+  target: AXN
 - base: BTC
   market:
     identifier: axnet
     name: AXNET
   target: AXN
 - base: ZEC
+  market:
+    identifier: axnet
+    name: AXNET
+  target: AXN
+- base: ETH
+  market:
+    identifier: axnet
+    name: AXNET
+  target: AXN
+- base: ADA
   market:
     identifier: axnet
     name: AXNET
@@ -56,17 +71,12 @@ tickers:
     identifier: axnet
     name: AXNET
   target: AXN
-- base: LTC
+- base: DASH
   market:
     identifier: axnet
     name: AXNET
   target: AXN
 - base: QTUM
-  market:
-    identifier: axnet
-    name: AXNET
-  target: AXN
-- base: DASH
   market:
     identifier: axnet
     name: AXNET
@@ -82,16 +92,6 @@ tickers:
     name: AXNET
   target: AXN
 - base: EOS
-  market:
-    identifier: axnet
-    name: AXNET
-  target: AXN
-- base: ETH
-  market:
-    identifier: axnet
-    name: AXNET
-  target: AXN
-- base: ADA
   market:
     identifier: axnet
     name: AXNET

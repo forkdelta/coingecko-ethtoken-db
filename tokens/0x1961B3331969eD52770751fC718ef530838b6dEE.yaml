@@ -26,6 +26,16 @@ symbol: bdg
 tickers:
 - base: BDG
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: BDG
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: BDG
+  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -41,18 +51,18 @@ tickers:
   target: USDT
 - base: BDG
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: BDG
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: BDG
   market:
-    identifier: idex
-    name: Idex
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: BDG
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH
 - base: BDG
   market:

@@ -54,6 +54,11 @@ symbol: storj
 tickers:
 - base: STORJ
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: STORJ
+  market:
     identifier: bigone
     name: BigONE
   target: BTC
@@ -92,11 +97,6 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
-- base: STORJ
-  market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
 - base: STORJ
   market:
     identifier: coss
@@ -142,21 +142,11 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: STORJ
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: financex
+    name: FinanceX
+  target: IDR
 - base: STORJ
   market:
     identifier: forkdelta
@@ -164,13 +154,8 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: STORJ
   market:
@@ -205,12 +190,12 @@ tickers:
 - base: STORJ
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: STORJ
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
 - base: STORJ
   market:
@@ -231,12 +216,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: STORJ
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: STORJ
   market:
     identifier: yobit

@@ -32,6 +32,26 @@ symbol: bob
 tickers:
 - base: BOB
   market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: BOB
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: BOB
+  market:
+    identifier: altilly
+    name: Altilly
+  target: LTC
+- base: BOB
+  market:
+    identifier: altilly
+    name: Altilly
+  target: USDT
+- base: BOB
+  market:
     identifier: bitbay
     name: BitBay
   target: BTC
@@ -44,12 +64,22 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: PLN
+  target: USD
 - base: BOB
   market:
-    identifier: bitbay
-    name: BitBay
-  target: USD
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: BOB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: BOB
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: BOB
   market:
     identifier: latoken

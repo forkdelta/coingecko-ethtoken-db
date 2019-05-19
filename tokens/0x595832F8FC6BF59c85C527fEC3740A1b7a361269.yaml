@@ -57,6 +57,11 @@ symbol: powr
 tickers:
 - base: POWR
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: POWR
+  market:
     identifier: airswap
     name: AirSwap
   target: ETH
@@ -87,6 +92,11 @@ tickers:
   target: USDT
 - base: POWR
   market:
+    identifier: btcmarkets
+    name: BTCMarkets
+  target: BTC
+- base: POWR
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -97,11 +107,6 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: POWR
-  market:
     identifier: coinzest
     name: Coinzest
   target: BTC
@@ -110,6 +115,11 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: ETH
+- base: POWR
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: POWR
   market:
     identifier: cryptaldash
@@ -177,11 +187,6 @@ tickers:
   target: WETH
 - base: POWR
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: POWR
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -204,7 +209,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: POWR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: POWR
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
+- base: POWR
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: 3B743C8B-7090-4DED-A6CA-106238084075
   market:
     identifier: lykke
@@ -227,21 +247,6 @@ tickers:
   target: WETH
 - base: POWR
   market:
-    identifier: satang-pro
-    name: Satang Pro
-  target: BTC
-- base: POWR
-  market:
-    identifier: satang-pro
-    name: Satang Pro
-  target: ETH
-- base: POWR
-  market:
-    identifier: satang-pro
-    name: Satang Pro
-  target: THB
-- base: POWR
-  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -255,3 +260,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: POWR
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

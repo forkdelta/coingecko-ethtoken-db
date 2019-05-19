@@ -53,6 +53,11 @@ symbol: ost
 tickers:
 - base: OST
   market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: OST
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -66,11 +71,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: OST
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: OST
   market:
     identifier: gbx

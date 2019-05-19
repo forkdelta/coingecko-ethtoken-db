@@ -60,9 +60,9 @@ id: loopring
 links:
   bitcointalk_thread_identifier: 2069498
   blockchain_site:
-  - https://enjinx.io/eth/token/0xef68e7c694f40c8202821edf525de3782458639f
-  - https://etherscan.io/token/0xEF68e7C694F40c8202821eDF525dE3782458639f
-  - https://ethplorer.io/address/0xef68e7c694f40c8202821edf525de3782458639f
+  - https://enjinx.io/eth/token/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd
+  - https://etherscan.io/token/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd
+  - https://ethplorer.io/address/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd
   homepage:
   - https://loopring.org/
   repos_url:
@@ -115,6 +115,16 @@ tickers:
   target: ETH
 - base: LRC
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: LRC
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: LRC
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -150,33 +160,18 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: LRC
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: LRC
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
 - base: LRC
   market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: LRC
+  market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: LRC
-  market:
-    identifier: idax
-    name: Idax
-  target: BTC
-- base: LRC
-  market:
-    identifier: idax
-    name: Idax
   target: ETH
 - base: LRC
   market:
@@ -205,6 +200,11 @@ tickers:
   target: ETH
 - base: LRC
   market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
+- base: LRC
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
@@ -220,9 +220,19 @@ tickers:
   target: BTC
 - base: LRC
   market:
+    identifier: tokok
+    name: TOKOK
+  target: ETH
+- base: LRC
+  market:
     identifier: upbit
     name: Upbit
   target: ETH
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: LRC
   market:
     identifier: yobit
@@ -232,7 +242,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: LRC
   market:
     identifier: yobit

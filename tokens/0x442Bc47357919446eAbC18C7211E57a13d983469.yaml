@@ -28,6 +28,16 @@ symbol: chat
 tickers:
 - base: CHAT
   market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: CHAT
+  market:
+    identifier: bigone
+    name: BigONE
+  target: ETH
+- base: CHAT
+  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
@@ -53,6 +63,16 @@ tickers:
   target: USDT
 - base: CHAT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: CHAT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: CHAT
+  market:
     identifier: lbank
     name: Lbank
   target: QTUM
@@ -65,7 +85,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: CHAT
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
+- base: CHAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: CHAT
   market:
     identifier: yobit
@@ -75,9 +105,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD
 - base: CHAT
   market:
-    identifier: zb
-    name: ZB
-  target: BTC
+    identifier: yobit
+    name: YoBit
+  target: WAVES

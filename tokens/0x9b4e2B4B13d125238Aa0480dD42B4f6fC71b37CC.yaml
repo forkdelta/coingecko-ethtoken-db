@@ -51,6 +51,11 @@ tickers:
   target: USDT
 - base: MT
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: MT
+  market:
     identifier: coineal
     name: Coineal
   target: ETH
@@ -58,11 +63,21 @@ tickers:
   market:
     identifier: coinex
     name: CoinEx
+  target: BCH
+- base: MT
+  market:
+    identifier: coinex
+    name: CoinEx
   target: BTC
 - base: MT
   market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: MT
+  market:
     identifier: cpdax
-    name: CPDax
+    name: CPDAX
   target: KRW
 - base: MT
   market:
@@ -86,11 +101,21 @@ tickers:
   target: ETH
 - base: MT
   market:
+    identifier: neraex
+    name: Neraex
+  target: ETH
+- base: MT
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
+- base: MT
+  market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: MT
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH

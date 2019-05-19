@@ -83,11 +83,6 @@ tickers:
   target: ETH
 - base: ARN
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: ARN
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -121,6 +116,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: ARN
+  market:
+    identifier: kuna
+    name: Kuna Exchange
+  target: BTC
 - base: ARN
   market:
     identifier: mercatox
@@ -161,6 +161,21 @@ tickers:
     identifier: raisex
     name: Raisex
   target: ETH
+- base: ARN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: ARN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: ARN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
 - base: ARN
   market:
     identifier: tokenjar

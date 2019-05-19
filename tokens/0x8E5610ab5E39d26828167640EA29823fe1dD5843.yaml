@@ -49,14 +49,19 @@ symbol: kndc
 tickers:
 - base: KNDC
   market:
-    identifier: coin_exchange
-    name: Coinexchange
+    identifier: bitebtc
+    name: BiteBTC
   target: BTC
+- base: KNDC
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
 - base: KNDC
   market:
     identifier: coin_exchange
     name: Coinexchange
-  target: ETH
+  target: BTC
 - base: KNDC
   market:
     identifier: mercatox
@@ -67,8 +72,3 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: KNDC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

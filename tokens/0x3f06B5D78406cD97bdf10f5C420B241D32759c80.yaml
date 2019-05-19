@@ -25,6 +25,11 @@ symbol: cyfm
 tickers:
 - base: CYFM
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: CYFM
+  market:
     identifier: idax
     name: Idax
   target: BTC
@@ -32,11 +37,6 @@ tickers:
   market:
     identifier: idax
     name: Idax
-  target: ETH
-- base: CYFM
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: CYFM
   market:
@@ -60,8 +60,13 @@ tickers:
   target: BTC
 - base: CYFM
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: CYFM
+  market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: CYFM
   market:

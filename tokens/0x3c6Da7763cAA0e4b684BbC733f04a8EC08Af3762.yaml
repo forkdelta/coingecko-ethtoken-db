@@ -23,8 +23,18 @@ symbol: modx
 tickers:
 - base: MODX
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: MODX
+  market:
     identifier: idax
     name: Idax
+  target: BTC
+- base: MODX
+  market:
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: MODX
   market:
@@ -35,7 +45,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: MODX
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: MODX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: MODX
   market:
     identifier: yobit

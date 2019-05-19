@@ -22,24 +22,24 @@ symbol: plbt
 tickers:
 - base: PLBT
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: PLBT
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: PLBT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: PLBT
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: PLBT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: EMC
+- base: PLBT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: PLBT
   market:
     identifier: mercatox
@@ -50,18 +50,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: PLBT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: PLBT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: PLBT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

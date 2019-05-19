@@ -39,14 +39,19 @@ tickers:
   target: USDT
 - base: POE
   market:
-    identifier: coss
-    name: COSS
+    identifier: coineal
+    name: Coineal
   target: BTC
+- base: POE
+  market:
+    identifier: coineal
+    name: Coineal
+  target: ETH
 - base: POE
   market:
     identifier: coss
     name: COSS
-  target: ETH
+  target: BTC
 - base: POE
   market:
     identifier: dcoin
@@ -64,11 +69,6 @@ tickers:
   target: WETH
 - base: POE
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: POE
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -81,11 +81,6 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: POE
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: POE
   market:

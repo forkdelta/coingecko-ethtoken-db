@@ -47,6 +47,16 @@ tickers:
   target: USDT
 - base: TNB
   market:
+    identifier: c2cx
+    name: C2CX
+  target: LONG
+- base: TNB
+  market:
+    identifier: c2cx
+    name: C2CX
+  target: USDT
+- base: TNB
+  market:
     identifier: coinbene
     name: CoinBene
   target: USDT
@@ -79,7 +89,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: TNB
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: TNB
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: TNB
   market:
     identifier: fcoin
@@ -112,6 +132,6 @@ tickers:
   target: USDT
 - base: TNB
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH

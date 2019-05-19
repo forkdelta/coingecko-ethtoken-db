@@ -90,11 +90,6 @@ tickers:
   target: ETH
 - base: MTL
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: MTL
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -180,19 +175,29 @@ tickers:
   target: WETH
 - base: MTL
   market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: MTL
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: MTL
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: MTL
+  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
 - base: MTL
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: MTL
-  market:
     identifier: zb
     name: ZB
-  target: BTC
+  target: QC
 - base: MTL
   market:
     identifier: zb

@@ -27,13 +27,18 @@ symbol: cov
 tickers:
 - base: COV
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: COV
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: COV
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: COV
   market:
@@ -54,12 +59,27 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: COVX
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: COVX
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: COVX
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: COVX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: COVX
   market:
     identifier: yobit

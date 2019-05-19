@@ -77,16 +77,6 @@ tickers:
   target: BTC
 - base: MGO
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: MGO
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: MGO
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -100,16 +90,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: WMGO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: EMGO
   market:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: WMGO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: MGO
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: MGO
   market:
     identifier: idax
@@ -128,18 +123,63 @@ tickers:
 - base: MGO
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: BTC
 - base: MGO
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: ETH
 - base: MGO
   market:
     identifier: quoine
-    name: Liquid (Quoine)
+    name: Liquid
   target: QASH
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WEUR
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WEUR
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WUSD
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WUSD
 - base: MGO
   market:
     identifier: tokenjar
@@ -149,32 +189,12 @@ tickers:
   market:
     identifier: waves
     name: Waves Platform
-  target: BTC
-- base: MGO
-  market:
-    identifier: waves
-    name: Waves Platform
-  target: ETH
-- base: MGO
-  market:
-    identifier: waves
-    name: Waves Platform
-  target: EUR
-- base: WCT
-  market:
-    identifier: waves
-    name: Waves Platform
-  target: MGO
-- base: MGO
-  market:
-    identifier: waves
-    name: Waves Platform
-  target: USD
-- base: MGO
-  market:
-    identifier: waves
-    name: Waves Platform
   target: WAVES
+- base: MGO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: MGO
   market:
     identifier: yobit
@@ -184,7 +204,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: MGO
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: MGO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: MGO
   market:
     identifier: yobit

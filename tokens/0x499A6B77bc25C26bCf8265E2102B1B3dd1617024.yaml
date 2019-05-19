@@ -37,6 +37,11 @@ tickers:
   target: USDT
 - base: BTR
   market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH
+- base: BTR
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -45,6 +50,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: BTR
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: BTR
   market:
     identifier: mercatox
@@ -53,10 +63,5 @@ tickers:
 - base: BTR
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
-- base: BTR
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

@@ -53,11 +53,6 @@ symbol: rep
 tickers:
 - base: REP
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: REP
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -71,11 +66,6 @@ tickers:
     identifier: axnet
     name: AXNET
   target: USDT
-- base: REP
-  market:
-    identifier: bitbay
-    name: BitBay
-  target: BTC
 - base: REP
   market:
     identifier: bitbay
@@ -103,6 +93,11 @@ tickers:
   target: USDT
 - base: REP
   market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: REP
+  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -110,6 +105,21 @@ tickers:
   market:
     identifier: cobinhood
     name: Cobinhood
+  target: ETH
+- base: REP
+  market:
+    identifier: codex
+    name: CODEX
+  target: BTC
+- base: REP
+  market:
+    identifier: codex
+    name: CODEX
+  target: EOS
+- base: REP
+  market:
+    identifier: codex
+    name: CODEX
   target: ETH
 - base: REP
   market:
@@ -121,11 +131,6 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: ETH
-- base: REP
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: REP
   market:
     identifier: cryptaldash
@@ -158,19 +163,19 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: REP
-  market:
     identifier: ethex
     name: Ethex
   target: ETH
 - base: REP
   market:
-    identifier: everbloom
-    name: Everbloom
+    identifier: fcoin
+    name: FCoin
   target: ETH
+- base: REP
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: REP
   market:
     identifier: gdax
@@ -195,7 +200,22 @@ tickers:
   market:
     identifier: koinex
     name: Koinex
+  target: INR
+- base: REP
+  market:
+    identifier: koinex
+    name: Koinex
   target: XRP
+- base: REP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: REP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: REP
   market:
     identifier: latoken
@@ -203,14 +223,29 @@ tickers:
   target: LA
 - base: REP
   market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: ATCC
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: REP
+  market:
+    identifier: omgfin
+    name: Omgfin
+  target: BTC
+- base: REP
+  market:
+    identifier: omgfin
+    name: Omgfin
+  target: USDT
 - base: REP
   market:
     identifier: paroexchange
     name: Paro Exchange
   target: BTC
+- base: REP
+  market:
+    identifier: paroexchange
+    name: Paro Exchange
+  target: ETH
 - base: REP
   market:
     identifier: paroexchange
@@ -228,11 +263,6 @@ tickers:
   target: DAI
 - base: REP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: REP
-  market:
     identifier: simex
     name: Simex
   target: BTC
@@ -248,26 +278,11 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: REP
-  market:
     identifier: tradeio
     name: Trade.io
   target: TIO
 - base: REP
   market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
-- base: REP
-  market:
     identifier: vindax
     name: Vindax
-  target: ETH
-- base: REP
-  market:
-    identifier: zebpay
-    name: Zebpay
-  target: INR
+  target: BTC

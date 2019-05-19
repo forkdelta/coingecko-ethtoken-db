@@ -23,6 +23,11 @@ symbol: seele
 tickers:
 - base: SEELE
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: SEELE
+  market:
     identifier: bitmax
     name: BitMax
   target: BTC
@@ -35,6 +40,21 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
+  target: ETH
+- base: SEELE
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BCH
+- base: SEELE
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: SEELE
+  market:
+    identifier: coinex
+    name: CoinEx
   target: ETH
 - base: SEELE
   market:
@@ -58,9 +78,19 @@ tickers:
   target: WETH
 - base: SEELE
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: BTC
+- base: SEELE
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: MAX
+- base: SEELE
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: USDT
 - base: SEELE
   market:
     identifier: saturn_network

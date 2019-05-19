@@ -69,6 +69,11 @@ tickers:
   target: USDT
 - base: WTC
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: WTC
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -94,9 +99,14 @@ tickers:
   target: ETH
 - base: WTC
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: coinnest
+    name: CoinNest
+  target: KRW
+- base: WTC
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: WTC
   market:
     identifier: cryptaldash
@@ -134,24 +144,24 @@ tickers:
   target: WETH
 - base: WTC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
+    identifier: dragonex
+    name: DragonEx
+  target: USDT
 - base: WTC
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
-- base: WTC
-  market:
-    identifier: everbloom
-    name: Everbloom
   target: ETH
 - base: WTC
   market:
     identifier: fcoin
     name: FCoin
   target: ETH
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
 - base: WTC
   market:
     identifier: forkdelta
@@ -217,13 +227,3 @@ tickers:
     identifier: simex
     name: Simex
   target: USD
-- base: WTC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: WTC
-  market:
-    identifier: vebitcoin
-    name: Vebitcoin
-  target: TRY

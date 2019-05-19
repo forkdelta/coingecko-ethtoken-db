@@ -42,6 +42,11 @@ symbol: hydro
 tickers:
 - base: HYDRO
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: HYDRO
+  market:
     identifier: catex
     name: Catex
   target: BTC
@@ -57,16 +62,6 @@ tickers:
   target: BCH
 - base: HYDRO
   market:
-    identifier: coinex
-    name: CoinEx
-  target: BTC
-- base: HYDRO
-  market:
-    identifier: coinex
-    name: CoinEx
-  target: ETH
-- base: HYDRO
-  market:
     identifier: dextop
     name: DEx.top
   target: ETH
@@ -74,11 +69,6 @@ tickers:
   market:
     identifier: fatbtc
     name: FatBTC
-  target: ETH
-- base: HYDRO
-  market:
-    identifier: forkdelta
-    name: ForkDelta
   target: ETH
 - base: HYDRO
   market:
@@ -95,11 +85,6 @@ tickers:
     identifier: joyso
     name: Joyso
   target: ETH
-- base: HYDRO
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
 - base: HYDRO
   market:
     identifier: radar_relay
@@ -128,7 +113,7 @@ tickers:
 - base: HYDRO
   market:
     identifier: thetokenstore
-    name: Token Store
+    name: Token.Store
   target: ETH
 - base: HYDRO
   market:

@@ -42,6 +42,26 @@ symbol: lend
 tickers:
 - base: LEND
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: LEND
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: LEND
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: LEND
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: LEND
+  market:
     identifier: bleutrade
     name: bleutrade
   target: BTC
@@ -60,11 +80,6 @@ tickers:
     identifier: bleutrade
     name: bleutrade
   target: USDT
-- base: LEND
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: LEND
   market:
     identifier: extstock

@@ -21,4 +21,19 @@ links:
   twitter_screen_name: SACchain
 name: Smart Application Coin
 symbol: sac
-tickers: []
+tickers:
+- base: SAC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: SAC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: SAC
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH

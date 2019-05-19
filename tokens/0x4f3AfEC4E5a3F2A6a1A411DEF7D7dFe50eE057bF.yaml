@@ -31,21 +31,16 @@ symbol: dgx
 tickers:
 - base: DGX
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: DGX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: DGX
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: DGX
   market:
+    identifier: kryptono
+    name: Kryptono
+  target: ETH
+- base: DGX
+  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -54,16 +49,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: DGX
-  market:
-    identifier: probit
-    name: Probit
-  target: BTC
-- base: DGX
-  market:
-    identifier: probit
-    name: Probit
-  target: USDT
 - base: DGX
   market:
     identifier: radar_relay

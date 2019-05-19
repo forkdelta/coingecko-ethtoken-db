@@ -31,11 +31,6 @@ tickers:
   target: USDT
 - base: SAN
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
-- base: SAN
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -48,6 +43,11 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: SAN
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: SAN
   market:
@@ -76,6 +76,16 @@ tickers:
   target: WETH
 - base: SAN
   market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: SAN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: SAN
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -83,7 +93,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: SAN
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: SAN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: SAN
   market:
     identifier: yobit

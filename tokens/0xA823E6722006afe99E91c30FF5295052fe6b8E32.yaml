@@ -38,12 +38,12 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: USD
+  target: PLN
 - base: NEU
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: bitbay
+    name: BitBay
+  target: USD
 - base: NEU
   market:
     identifier: idex
@@ -56,6 +56,16 @@ tickers:
   target: WETH
 - base: NEU
   market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: NEU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: NEU
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -63,7 +73,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: NEU
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: NEU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: NEU
   market:
     identifier: yobit
