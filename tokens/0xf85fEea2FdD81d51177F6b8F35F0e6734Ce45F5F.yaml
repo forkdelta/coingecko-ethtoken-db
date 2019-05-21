@@ -48,6 +48,16 @@ tickers:
   target: CKUSD
 - base: CMT
   market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: CMT
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: CMT
+  market:
     identifier: bitker
     name: BITKER
   target: ETH
@@ -61,11 +71,6 @@ tickers:
     identifier: blockonix
     name: Blockonix
   target: USDT
-- base: CMT
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: COB
 - base: CMT
   market:
     identifier: cobinhood
@@ -166,12 +171,12 @@ tickers:
     identifier: purcow
     name: Purcow
   target: BTC
-- base: BTC
+- base: ETH
   market:
     identifier: purcow
     name: Purcow
   target: CMT
-- base: ETH
+- base: BTC
   market:
     identifier: purcow
     name: Purcow

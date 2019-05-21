@@ -48,11 +48,6 @@ tickers:
   target: ETH
 - base: MNC
   market:
-    identifier: biki
-    name: Biki
-  target: USDT
-- base: MNC
-  market:
     identifier: bitfex
     name: Bitfex
   target: BTC
@@ -85,7 +80,17 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: BTC
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: ETH
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
 - base: MNC
   market:
     identifier: btc_alpha
@@ -140,12 +145,22 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: EUR
 - base: MNC
   market:
     identifier: livecoin
     name: Livecoin
   target: RUR
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: MNC
   market:
     identifier: localtrade
@@ -166,6 +181,11 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TL
+- base: MNC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT
 - base: MNC
   market:
     identifier: stocks_exchange

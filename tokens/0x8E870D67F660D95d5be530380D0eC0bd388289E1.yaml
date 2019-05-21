@@ -80,6 +80,16 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
+- base: PAX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USD
+- base: PAX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: SKY
   market:
     identifier: c2cx
@@ -105,11 +115,11 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: PAX
+- base: BTC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: PAX
 - base: PAX
   market:
     identifier: hitbtc
@@ -139,6 +149,11 @@ tickers:
   market:
     identifier: uex
     name: UEX
+  target: USDT
+- base: PAX
+  market:
+    identifier: upbit
+    name: Upbit
   target: USDT
 - base: PAX
   market:

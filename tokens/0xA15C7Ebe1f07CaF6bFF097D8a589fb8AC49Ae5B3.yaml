@@ -60,6 +60,16 @@ symbol: npxs
 tickers:
 - base: NPXS
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: NPXS
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: NPXS
+  market:
     identifier: alterdice
     name: AlterDice
   target: BTC
@@ -92,11 +102,26 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
+  target: BTC
+- base: NPXS
+  market:
+    identifier: bit_z
+    name: Bit-Z
   target: ETH
 - base: NPXS
   market:
     identifier: bitopro
     name: BitoPro
+  target: ETH
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: NPXS
+  market:
+    identifier: bkex
+    name: Bkex
   target: ETH
 - base: NPXS
   market:
@@ -110,9 +135,29 @@ tickers:
   target: USDT
 - base: NPXS
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: NPXS
+  market:
     identifier: coinnest
     name: CoinNest
   target: KRW
+- base: NPXS
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -150,11 +195,6 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
-- base: NPXS
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -177,16 +217,6 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
-  target: ETH
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: ETH
 - base: NPXS
   market:
@@ -267,4 +297,4 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
-  target: INR
+  target: BTC

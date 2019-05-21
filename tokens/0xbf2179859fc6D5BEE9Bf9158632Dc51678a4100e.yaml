@@ -79,6 +79,16 @@ tickers:
   target: CKUSD
 - base: ELF
   market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: ELF
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: ELF
+  market:
     identifier: bigone
     name: BigONE
   target: BTC
@@ -92,6 +102,16 @@ tickers:
     identifier: bitbox
     name: BITBOX
   target: ETH
+- base: ELF
+  market:
+    identifier: bkex
+    name: Bkex
+  target: ETH
+- base: ELF
+  market:
+    identifier: bkex
+    name: Bkex
+  target: USDT
 - base: ELF
   market:
     identifier: blockonix
@@ -146,12 +166,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
 - base: ELF
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: USD
 - base: ELF
   market:
     identifier: fcoin
@@ -166,6 +186,11 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: ELF
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: ELF
   market:
@@ -189,6 +214,11 @@ tickers:
   target: KRW
 - base: ELF
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: ELF
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -201,12 +231,12 @@ tickers:
   market:
     identifier: koinex
     name: Koinex
-  target: XRP
+  target: INR
 - base: ELF
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: koinex
+    name: Koinex
+  target: XRP
 - base: ELF
   market:
     identifier: livecoin

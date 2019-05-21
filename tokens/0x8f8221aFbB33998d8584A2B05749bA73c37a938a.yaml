@@ -85,6 +85,11 @@ tickers:
   market:
     identifier: coss
     name: COSS
+  target: BTC
+- base: REQ
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
 - base: REQ
   market:
@@ -158,6 +163,11 @@ tickers:
   target: ETH
 - base: REQ
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: REQ
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -166,11 +176,6 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
-- base: REQ
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: REQ
   market:
     identifier: idex
@@ -231,6 +236,16 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: REQ
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: REQ
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: REQ
   market:
     identifier: wazirx

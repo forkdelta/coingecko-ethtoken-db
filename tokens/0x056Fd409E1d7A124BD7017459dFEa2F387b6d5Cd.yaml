@@ -72,16 +72,41 @@ tickers:
   market:
     identifier: abcc
     name: ABCC
-  target: BTC
-- base: GUSD
-  market:
-    identifier: abcc
-    name: ABCC
   target: USDT
 - base: GUSD
   market:
     identifier: bcex
     name: BCEX
+  target: USDT
+- base: ETH
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: GUSD
+- base: BTC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: BIX1901
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: ETH
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: BIX
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: GUSD
+  market:
+    identifier: bibox
+    name: Bibox
   target: USDT
 - base: GUSD
   market:
@@ -165,11 +190,6 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: coinex
-    name: CoinEx
-  target: USDT
-- base: GUSD
-  market:
     identifier: coinmex
     name: CoinMex
   target: BTC
@@ -188,22 +208,22 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
-- base: BWT
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
 - base: COSS
   market:
     identifier: coss
     name: COSS
   target: GUSD
-- base: ETH
+- base: BTC
   market:
     identifier: coss
     name: COSS
   target: GUSD
-- base: BTC
+- base: BWT
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
+- base: ETH
   market:
     identifier: coss
     name: COSS
@@ -388,8 +408,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
-- base: GUSD
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

@@ -154,14 +154,14 @@ tickers:
   target: ETH
 - base: WTC
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: WTC
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
-- base: WTC
-  market:
-    identifier: financex
-    name: FinanceX
-  target: VND
 - base: WTC
   market:
     identifier: forkdelta
@@ -182,11 +182,6 @@ tickers:
     identifier: joyso
     name: Joyso
   target: ETH
-- base: WTC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
 - base: WTC
   market:
     identifier: latoken
@@ -212,6 +207,11 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
+- base: WTC
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: WTC
   market:
     identifier: simex

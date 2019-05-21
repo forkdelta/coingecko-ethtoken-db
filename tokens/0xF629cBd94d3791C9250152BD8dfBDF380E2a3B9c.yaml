@@ -61,6 +61,11 @@ symbol: enj
 tickers:
 - base: ENJ
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ENJ
+  market:
     identifier: bigmarkets
     name: BIG markets
   target: AAA
@@ -69,6 +74,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: BCH
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: BCN
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -286,11 +296,6 @@ tickers:
   target: ZIL
 - base: ENJ
   market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: ETH
-- base: ENJ
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: ETH
@@ -306,28 +311,13 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: ETH
-- base: ENJ
-  market:
-    identifier: coss
-    name: COSS
-  target: USDT
-- base: ENJ
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
 - base: ENJ
   market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: BTC
-- base: ENJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
 - base: ENJ
   market:
@@ -336,13 +326,18 @@ tickers:
   target: USD
 - base: ENJ
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: ENJ
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: ENJ
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: ENJ
   market:
@@ -379,6 +374,11 @@ tickers:
     identifier: omgfin
     name: Omgfin
   target: USDT
+- base: ENJ
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
 - base: ENJ
   market:
     identifier: radar_relay

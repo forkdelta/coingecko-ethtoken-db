@@ -26,7 +26,12 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: EOS
+- base: OTB
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: BTC
+- base: ADA
   market:
     identifier: otcbtc
     name: OTCBTC
@@ -41,11 +46,6 @@ tickers:
     identifier: otcbtc
     name: OTCBTC
   target: OTB
-- base: ADA
-  market:
-    identifier: otcbtc
-    name: OTCBTC
-  target: OTB
 - base: NEO
   market:
     identifier: otcbtc
@@ -56,3 +56,8 @@ tickers:
     identifier: otcbtc
     name: OTCBTC
   target: OTB
+- base: OTB
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: USDT

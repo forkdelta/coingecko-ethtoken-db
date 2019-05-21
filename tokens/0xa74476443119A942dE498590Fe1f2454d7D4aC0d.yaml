@@ -86,14 +86,34 @@ tickers:
   target: BTC
 - base: GNT
   market:
+    identifier: coinbe
+    name: Coinbe
+  target: BTC
+- base: GNT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: GNT
+  market:
     identifier: coinmex
     name: CoinMex
   target: ETH
 - base: GNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: AUD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: NZD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: USD
 - base: GNT
   market:
     identifier: omgfin
@@ -109,6 +129,16 @@ tickers:
     identifier: omgfin
     name: Omgfin
   target: UQC
+- base: GNT
+  market:
+    identifier: omgfin
+    name: Omgfin
+  target: USDT
+- base: GNT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
 - base: GNT
   market:
     identifier: sistemkoin
@@ -139,13 +169,3 @@ tickers:
     identifier: vindax
     name: Vindax
   target: ETH
-- base: GNT
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT
-- base: GNT
-  market:
-    identifier: zg
-    name: ZG.com
-  target: CNZ

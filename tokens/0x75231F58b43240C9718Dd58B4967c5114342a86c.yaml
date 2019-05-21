@@ -38,7 +38,22 @@ links:
 name: OKB
 symbol: okb
 tickers:
-- base: DCR
+- base: OKB
+  market:
+    identifier: bkex
+    name: Bkex
+  target: USDT
+- base: WAVES
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: NAS
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: XAS
   market:
     identifier: okex
     name: OKEx
@@ -53,12 +68,17 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: MVP
+- base: DCR
   market:
     identifier: okex
     name: OKEx
   target: OKB
 - base: CVT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: MVP
   market:
     identifier: okex
     name: OKEx

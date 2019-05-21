@@ -29,11 +29,6 @@ symbol: cro
 tickers:
 - base: CRO
   market:
-    identifier: cpdax
-    name: CPDAX
-  target: KRW
-- base: CRO
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -47,6 +42,11 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
+- base: CRO
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: CRO
   market:
     identifier: idex

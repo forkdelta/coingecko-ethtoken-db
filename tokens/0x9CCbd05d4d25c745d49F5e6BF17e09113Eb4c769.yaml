@@ -23,8 +23,8 @@ symbol: dcto
 tickers:
 - base: DCTO
   market:
-    identifier: coinlim
-    name: Coinlim
+    identifier: crex24
+    name: CREX24
   target: ETH
 - base: DCTO
   market:
@@ -50,12 +50,22 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: DCTO
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: DCTO
   market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: DCTO
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: DCTO
   market:
     identifier: thetokenstore

@@ -22,6 +22,11 @@ symbol: wbtc
 tickers:
 - base: WBTC
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: WBTC
+  market:
     identifier: ddex
     name: DDEX
   target: DAI
@@ -35,6 +40,11 @@ tickers:
     identifier: idex
     name: Idex
   target: DAI
+- base: WBTC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: STASH
   market:
     identifier: idex
@@ -45,7 +55,7 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: PKG
+- base: GET
   market:
     identifier: idex
     name: Idex
@@ -80,12 +90,12 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: XENC
+- base: PKG
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: GET
+- base: XENC
   market:
     identifier: idex
     name: Idex
@@ -95,12 +105,12 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: XBASE
+- base: FTM
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: BAT
+- base: XBASE
   market:
     identifier: idex
     name: Idex
@@ -110,7 +120,7 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: FTM
+- base: BAT
   market:
     identifier: idex
     name: Idex
@@ -130,11 +140,6 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: BTC
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
 - base: WBTC
   market:
     identifier: switcheo

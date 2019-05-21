@@ -65,11 +65,6 @@ tickers:
   target: BTC
 - base: ZCO
   market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
-- base: ZCO
-  market:
     identifier: coineal
     name: Coineal
   target: BTC
@@ -107,11 +102,6 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: ZCO
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: LA
 - base: ZCO
   market:
@@ -128,3 +118,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: ZCO
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

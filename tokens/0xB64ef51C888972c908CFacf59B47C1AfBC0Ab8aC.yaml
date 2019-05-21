@@ -54,11 +54,6 @@ symbol: storj
 tickers:
 - base: STORJ
   market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
-- base: STORJ
-  market:
     identifier: bigone
     name: BigONE
   target: BTC
@@ -142,11 +137,21 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: STORJ
+- base: STJ
   market:
-    identifier: financex
-    name: FinanceX
-  target: IDR
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: STORJ
   market:
     identifier: forkdelta

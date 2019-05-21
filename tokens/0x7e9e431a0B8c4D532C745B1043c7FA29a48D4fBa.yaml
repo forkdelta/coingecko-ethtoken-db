@@ -48,6 +48,21 @@ symbol: eosdac
 tickers:
 - base: EOSDAC
   market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: EOSDAC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: EOSDAC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: EOSDAC
+  market:
     identifier: bigone
     name: BigONE
   target: BTC
@@ -88,6 +103,11 @@ tickers:
   target: ETH
 - base: EOSDAC
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: EOSDAC
+  market:
     identifier: idax
     name: Idax
   target: ETH
@@ -121,12 +141,12 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: EOS
+- base: ETH
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: EOSDAC
-- base: ETH
+- base: EOS
   market:
     identifier: openledger
     name: OpenLedger DEX

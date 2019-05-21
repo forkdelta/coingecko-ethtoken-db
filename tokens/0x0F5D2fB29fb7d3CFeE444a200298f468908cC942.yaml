@@ -80,6 +80,16 @@ tickers:
   target: USDT
 - base: MANA
   market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: MANA
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: MANA
+  market:
     identifier: bigone
     name: BigONE
   target: BTC
@@ -122,11 +132,6 @@ tickers:
   market:
     identifier: codex
     name: CODEX
-  target: ETH
-- base: MANA
-  market:
-    identifier: coin_exchange
-    name: Coinexchange
   target: ETH
 - base: MANA
   market:
@@ -195,6 +200,11 @@ tickers:
   target: ETH
 - base: MANA
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MANA
+  market:
     identifier: gobaba
     name: Gobaba
   target: BTC
@@ -207,7 +217,7 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
+  target: BTC
 - base: MANA
   market:
     identifier: latoken
@@ -260,11 +270,6 @@ tickers:
   target: DAI
 - base: MANA
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: MANA
-  market:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
@@ -278,3 +283,18 @@ tickers:
     identifier: uex
     name: UEX
   target: ETH
+- base: MANA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

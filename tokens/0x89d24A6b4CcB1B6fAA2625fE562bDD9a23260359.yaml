@@ -89,34 +89,24 @@ symbol: dai
 tickers:
 - base: BTC
   market:
-    identifier: bitbegin
-    name: Bitbegin
+    identifier: bibox
+    name: Bibox
+  target: DAI
+- base: ETH
+  market:
+    identifier: bibox
+    name: Bibox
   target: DAI
 - base: ETH
   market:
     identifier: bitbegin
     name: Bitbegin
   target: DAI
-- base: ICX
+- base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: BAT
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: OMG
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: GVT
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
 - base: DAI
   market:
     identifier: codex
@@ -126,16 +116,31 @@ tickers:
   market:
     identifier: codex
     name: CODEX
+  target: USDT
+- base: DAI
+  market:
+    identifier: coinchangex
+    name: Coinchangex
   target: ETH
 - base: DAI
   market:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
-- base: ETH
+- base: MKR
   market:
     identifier: coss
     name: COSS
+  target: DAI
+- base: DAI
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: USDC
+  market:
+    identifier: ddex
+    name: DDEX
   target: DAI
 - base: TUSD
   market:
@@ -148,11 +153,6 @@ tickers:
     name: DDEX
   target: DAI
 - base: OMG
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
-- base: USDC
   market:
     identifier: ddex
     name: DDEX
@@ -182,22 +182,12 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: DAI
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: OMG
+- base: ZRX
   market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
 - base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
-- base: ZRX
   market:
     identifier: ethfinex
     name: Ethfinex
@@ -212,12 +202,12 @@ tickers:
     identifier: fatbtc
     name: FatBTC
   target: USDT
-- base: NEO
+- base: DAI
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: EURS
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
@@ -227,37 +217,57 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USDC
-- base: MKR
+- base: ETH
+  market:
+    identifier: idex
+    name: Idex
+  target: DAI
+- base: DAI
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: USDC
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: ENTRP
+- base: XRL
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: NEWB
+- base: VEE
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: RLC
+- base: FND
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: DPP
+- base: PCL
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: HOT
+- base: MOT
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: ANT
+- base: SALT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: AXPR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: BERRY
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -267,7 +277,17 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: CRED
+- base: NPXS
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: NEWB
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: NVT
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -292,6 +312,16 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
+- base: ETH
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: DAI
+  market:
+    identifier: three_xbit
+    name: 3XBIT
+  target: USD
 - base: DAI
   market:
     identifier: tokenjar

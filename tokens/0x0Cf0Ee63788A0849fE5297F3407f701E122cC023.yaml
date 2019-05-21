@@ -22,6 +22,11 @@ symbol: data
 tickers:
 - base: DATA
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: DATA
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -40,6 +45,11 @@ tickers:
     identifier: dragonex
     name: DragonEx
   target: USDT
+- base: DAT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: DATA
   market:
     identifier: forkdelta
@@ -65,3 +75,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: DATA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
