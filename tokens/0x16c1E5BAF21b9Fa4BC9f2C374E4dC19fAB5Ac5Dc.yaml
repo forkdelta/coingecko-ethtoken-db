@@ -49,17 +49,7 @@ links:
 name: APOT
 symbol: apot
 tickers:
-- base: VNT
-  market:
-    identifier: allbit
-    name: Allbit
-  target: APOT
 - base: IOTX
-  market:
-    identifier: allbit
-    name: Allbit
-  target: APOT
-- base: CNUS
   market:
     identifier: allbit
     name: Allbit
@@ -94,3 +84,8 @@ tickers:
     identifier: idax
     name: Idax
   target: USDT
+- base: APOT
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW

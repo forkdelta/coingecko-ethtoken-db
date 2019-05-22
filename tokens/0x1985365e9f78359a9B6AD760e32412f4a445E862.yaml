@@ -53,6 +53,11 @@ symbol: rep
 tickers:
 - base: REP
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: REP
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -78,9 +83,9 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
+    identifier: bitsane
+    name: Bitsane
+  target: USDT
 - base: REP
   market:
     identifier: blockonix
@@ -91,11 +96,6 @@ tickers:
     identifier: buyucoin
     name: BuyUcoin
   target: INR
-- base: REP
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: BTC
 - base: REP
   market:
     identifier: cobinhood
@@ -123,14 +123,19 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: REP
+  market:
+    identifier: crex24
+    name: CREX24
   target: BTC
 - base: REP
   market:
     identifier: cryptaldash
     name: CryptalDash
-  target: CRD
+  target: BTC
 - base: REP
   market:
     identifier: cryptaldash
@@ -143,29 +148,19 @@ tickers:
   target: USDT
 - base: REP
   market:
-    identifier: daybit
-    name: Daybit
-  target: BTC
-- base: REP
-  market:
-    identifier: daybit
-    name: Daybit
-  target: ETH
-- base: REP
-  market:
     identifier: ethex
     name: Ethex
   target: ETH
 - base: REP
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: REP
   market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: EUR
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: REP
   market:
     identifier: gobaba
@@ -183,14 +178,24 @@ tickers:
   target: BTC
 - base: REP
   market:
-    identifier: idex
-    name: Idex
+    identifier: gopax
+    name: GoPax
+  target: ETH
+- base: REP
+  market:
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
 - base: REP
   market:
     identifier: koinex
     name: Koinex
   target: XRP
+- base: REP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: REP
   market:
     identifier: latoken
@@ -210,6 +215,16 @@ tickers:
   market:
     identifier: omgfin
     name: Omgfin
+  target: ETH
+- base: REP
+  market:
+    identifier: omgfin
+    name: Omgfin
+  target: UQC
+- base: REP
+  market:
+    identifier: omgfin
+    name: Omgfin
   target: USDT
 - base: REP
   market:
@@ -225,17 +240,17 @@ tickers:
   market:
     identifier: paroexchange
     name: Paro Exchange
-  target: LMX
-- base: REP
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
   target: TUSD
 - base: REP
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: REP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: REP
   market:
     identifier: simex
@@ -251,6 +266,11 @@ tickers:
     identifier: simex
     name: Simex
   target: USD
+- base: REP
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: REP
   market:
     identifier: tradeio
