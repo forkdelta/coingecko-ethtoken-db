@@ -115,11 +115,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: NCA
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: NCASH
   market:
     identifier: fcoin
@@ -145,6 +140,11 @@ tickers:
     identifier: purcow
     name: Purcow
   target: BTC
+- base: NCASH
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
 - base: NCASH
   market:
     identifier: tokenjar

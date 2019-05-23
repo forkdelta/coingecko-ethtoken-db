@@ -44,6 +44,11 @@ symbol: herb
 tickers:
 - base: HERB
   market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: HERB
+  market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
@@ -54,11 +59,6 @@ tickers:
   target: BTC
 - base: HERB
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: HERB
-  market:
     identifier: probit
     name: Probit
   target: ETH
@@ -67,6 +67,11 @@ tickers:
     identifier: probit
     name: Probit
   target: KRW
+- base: HERB
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: HERB
   market:
     identifier: tokenjar

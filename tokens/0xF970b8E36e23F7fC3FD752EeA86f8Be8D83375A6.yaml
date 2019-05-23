@@ -48,16 +48,6 @@ symbol: rcn
 tickers:
 - base: RCN
   market:
-    identifier: c2cx
-    name: C2CX
-  target: LONG
-- base: RCN
-  market:
-    identifier: c2cx
-    name: C2CX
-  target: USDT
-- base: RCN
-  market:
     identifier: chaoex
     name: CHAOEX
   target: USDT
@@ -103,8 +93,33 @@ tickers:
   target: ETH
 - base: RCN
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: RCN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: RCN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: RCN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: RCN
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: RCN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: RCN
   market:

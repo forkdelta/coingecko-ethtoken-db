@@ -159,11 +159,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
-- base: GVT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: CTXC
 - base: OMG
   market:
     identifier: bigmarkets
@@ -175,6 +170,11 @@ tickers:
     name: BIG markets
   target: CTXC
 - base: GNT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: CTXC
+- base: GVT
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -346,21 +346,6 @@ tickers:
   target: ZIL
 - base: CTXC
   market:
-    identifier: bkex
-    name: Bkex
-  target: ETH
-- base: CTXC
-  market:
-    identifier: bkex
-    name: Bkex
-  target: USDT
-- base: CTXC
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: CTXC
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -404,6 +389,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
+- base: CTX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: CTXC
   market:
     identifier: fcoin

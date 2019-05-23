@@ -70,9 +70,14 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: DGD
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
 - base: DGD
   market:
     identifier: bigone
@@ -123,6 +128,16 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
+- base: DGD
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: BTC
+- base: DGD
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: ETH
 - base: DGD
   market:
     identifier: fex
@@ -178,12 +193,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: STEEM
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: USDT
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -193,11 +203,26 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: GRC
+- base: USDT
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
+- base: STEEM
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: DGD
+  market:
+    identifier: purcow
+    name: Purcow
+  target: BTC
+- base: DGD
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
 - base: DGD
   market:
     identifier: radar_relay

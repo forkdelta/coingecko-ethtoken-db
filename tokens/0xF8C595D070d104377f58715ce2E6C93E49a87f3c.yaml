@@ -32,11 +32,6 @@ symbol: dacc
 tickers:
 - base: DACC
   market:
-    identifier: abcc
-    name: ABCC
-  target: ETH
-- base: DACC
-  market:
     identifier: bgogo
     name: Bgogo
   target: USDT
@@ -50,6 +45,11 @@ tickers:
     identifier: coinbig
     name: COINBIG
   target: BTC
+- base: DACC
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
 - base: DACC
   market:
     identifier: coinex
@@ -92,6 +92,6 @@ tickers:
   target: ETH
 - base: DACC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: KRW

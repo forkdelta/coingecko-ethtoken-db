@@ -72,6 +72,11 @@ tickers:
   market:
     identifier: abcc
     name: ABCC
+  target: BTC
+- base: GUSD
+  market:
+    identifier: abcc
+    name: ABCC
   target: USDT
 - base: GUSD
   market:
@@ -83,31 +88,11 @@ tickers:
     identifier: bgogo
     name: Bgogo
   target: GUSD
-- base: BTC
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
-- base: BIX1901
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
-- base: ETH
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
 - base: BIX
   market:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: GUSD
-  market:
-    identifier: bibox
-    name: Bibox
-  target: USDT
 - base: GUSD
   market:
     identifier: bilaxy
@@ -117,6 +102,11 @@ tickers:
   market:
     identifier: bilaxy
     name: Bilaxy
+  target: USDT
+- base: GUSD
+  market:
+    identifier: bitmart
+    name: BitMart
   target: USDT
 - base: GUSD
   market:
@@ -283,6 +273,11 @@ tickers:
     identifier: everbloom
     name: Everbloom
   target: ETH
+- base: GUSD
+  market:
+    identifier: exmo
+    name: EXMO
+  target: RUB
 - base: EOS
   market:
     identifier: fatbtc
@@ -324,6 +319,11 @@ tickers:
     name: Gibraltar Blockchain Exchange
   target: USD
 - base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
+- base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -373,6 +373,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: BTC
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: GUSD
 - base: GUSD
   market:
     identifier: tokenize
@@ -408,3 +413,8 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
+- base: GUSD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

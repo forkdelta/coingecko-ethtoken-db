@@ -42,6 +42,16 @@ symbol: lend
 tickers:
 - base: LEND
   market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: LEND
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
+- base: LEND
+  market:
     identifier: bibox
     name: Bibox
   target: BTC
@@ -82,6 +92,16 @@ tickers:
   target: USDT
 - base: LEND
   market:
+    identifier: dextrade
+    name: Dextrade
+  target: BTC
+- base: LEND
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: ETH
+- base: LEND
+  market:
     identifier: extstock
     name: ExtStock
   target: ETH
@@ -117,6 +137,11 @@ tickers:
   target: ETH
 - base: LEND
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: LEND
+  market:
     identifier: okex
     name: OKEx
   target: BTC
@@ -145,3 +170,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: LEND
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

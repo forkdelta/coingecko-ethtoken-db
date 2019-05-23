@@ -27,6 +27,26 @@ symbol: ubex
 tickers:
 - base: UBEX
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: UBEX
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: UBEX
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: UBEX
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
+- base: UBEX
+  market:
     identifier: btc_alpha
     name: BTC-Alpha
   target: USDT
@@ -52,19 +72,19 @@ tickers:
   target: ETH
 - base: UBEX
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: UBEX
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: UBEX
-  market:
     identifier: iqfinex
     name: IQFinex
   target: ETH
+- base: UBEX
+  market:
+    identifier: lbank
+    name: Lbank
+  target: BTC
+- base: UBEX
+  market:
+    identifier: lbank
+    name: Lbank
+  target: USDT
 - base: UBEX
   market:
     identifier: probit
@@ -75,6 +95,11 @@ tickers:
     identifier: probit
     name: Probit
   target: ETH
+- base: UBEX
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: UBEX
   market:
     identifier: probit

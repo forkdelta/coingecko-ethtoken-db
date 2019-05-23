@@ -47,11 +47,6 @@ symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: SNT
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -82,24 +77,24 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: SNT
+  market:
     identifier: exx
     name: EXX
   target: BTC
 - base: SNT
   market:
-    identifier: gopax
-    name: GoPax
+    identifier: gate
+    name: Gate.io
   target: BTC
 - base: SNT
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SNT
-  market:
-    identifier: koinex
-    name: Koinex
-  target: INR
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: SNT
   market:
     identifier: latoken
@@ -107,8 +102,8 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: SNT
   market:
@@ -122,9 +117,9 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: ooobtc
-    name: OOOBTC
-  target: USDT
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
 - base: SNT
   market:
     identifier: tokenize
@@ -140,3 +135,18 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
+- base: SNT
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC

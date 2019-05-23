@@ -28,6 +28,16 @@ symbol: cnn
 tickers:
 - base: CNN
   market:
+    identifier: bgogo
+    name: Bgogo
+  target: BTC
+- base: CNN
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: CNN
+  market:
     identifier: coinex
     name: CoinEx
   target: BCH
@@ -61,6 +71,11 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: CNN
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: CNN
   market:
     identifier: tokenjar

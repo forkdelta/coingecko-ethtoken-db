@@ -23,6 +23,11 @@ symbol: zdr
 tickers:
 - base: ZDR
   market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: ZDR
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -50,7 +55,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: ZDR
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
+- base: ZDR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: ZDR
   market:
     identifier: yobit

@@ -24,11 +24,6 @@ symbol: wings
 tickers:
 - base: WINGS
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: WINGS
-  market:
     identifier: binance
     name: Binance
   target: BTC
@@ -87,3 +82,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: WINGS
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

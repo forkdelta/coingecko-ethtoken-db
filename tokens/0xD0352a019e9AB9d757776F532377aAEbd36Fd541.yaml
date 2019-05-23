@@ -51,21 +51,6 @@ symbol: fsn
 tickers:
 - base: FSN
   market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
-- base: FSN
-  market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: FSN
-  market:
-    identifier: bibox
-    name: Bibox
-  target: USDT
-- base: FSN
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -134,6 +119,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: FSN
   market:
     identifier: okex

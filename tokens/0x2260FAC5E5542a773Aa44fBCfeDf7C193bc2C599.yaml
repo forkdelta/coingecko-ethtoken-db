@@ -55,7 +55,7 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: GET
+- base: PKG
   market:
     identifier: idex
     name: Idex
@@ -90,22 +90,17 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: PKG
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: XENC
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: ETH
+- base: GET
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: FTM
+- base: ETH
   market:
     identifier: idex
     name: Idex
@@ -121,6 +116,11 @@ tickers:
     name: Idex
   target: WBTC
 - base: BAT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: FTM
   market:
     identifier: idex
     name: Idex
@@ -144,4 +144,9 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
+  target: DAI
+- base: WBTC
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

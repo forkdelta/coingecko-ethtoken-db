@@ -52,6 +52,11 @@ symbol: poly
 tickers:
 - base: POLY
   market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: POLY
+  market:
     identifier: axnet
     name: AXNET
   target: AXN
@@ -69,16 +74,6 @@ tickers:
   market:
     identifier: axnet
     name: AXNET
-  target: USDT
-- base: POLY
-  market:
-    identifier: bkex
-    name: Bkex
-  target: ETH
-- base: POLY
-  market:
-    identifier: bkex
-    name: Bkex
   target: USDT
 - base: POLY
   market:
@@ -140,6 +135,16 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: POLY
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: BTC
+- base: POY
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: POY
   market:
     identifier: ethfinex
@@ -167,6 +172,11 @@ tickers:
   target: ETH
 - base: POLY
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: POLY
+  market:
     identifier: joyso
     name: Joyso
   target: ETH
@@ -174,12 +184,12 @@ tickers:
   market:
     identifier: koinex
     name: Koinex
-  target: INR
+  target: XRP
 - base: POLY
   market:
-    identifier: koinex
-    name: Koinex
-  target: XRP
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: POLY
   market:
     identifier: latoken

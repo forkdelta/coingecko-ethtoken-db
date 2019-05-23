@@ -67,9 +67,8 @@ links:
   - https://loopring.org/
   repos_url:
     github:
-    - https://github.com/Loopring/LRC
-    - https://github.com/Loopring/loopr-ios
     - https://github.com/Loopring/protocol2
+    - https://github.com/Loopring/protocols
     - https://github.com/Loopring/relay
     - https://github.com/Loopring/sidechain
   subreddit_url: https://www.reddit.com/r/loopring
@@ -180,14 +179,14 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: LRC
   market:
     identifier: idax
     name: Idax
-  target: BTC
+  target: ETH
 - base: LRC
   market:
     identifier: idax
@@ -217,6 +216,11 @@ tickers:
   market:
     identifier: otcbtc
     name: OTCBTC
+  target: ETH
+- base: LRC
+  market:
+    identifier: purcow
+    name: Purcow
   target: ETH
 - base: LRC
   market:

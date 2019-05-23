@@ -65,28 +65,23 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: axnet
-    name: AXNET
+    identifier: alterdice
+    name: AlterDice
   target: BTC
 - base: MANA
   market:
-    identifier: axnet
-    name: AXNET
+    identifier: alterdice
+    name: AlterDice
   target: ETH
 - base: MANA
   market:
     identifier: axnet
     name: AXNET
-  target: USDT
-- base: MANA
-  market:
-    identifier: bibox
-    name: Bibox
   target: BTC
 - base: MANA
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: axnet
+    name: AXNET
   target: ETH
 - base: MANA
   market:
@@ -135,6 +130,11 @@ tickers:
   target: ETH
 - base: MANA
   market:
+    identifier: coinbig
+    name: COINBIG
+  target: BTC
+- base: MANA
+  market:
     identifier: coineal
     name: Coineal
   target: BTC
@@ -168,16 +168,31 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: MANA
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: BTC
+- base: MANA
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: ETH
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: MNA
   market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: MANA
+- base: MNA
   market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MANA
   market:
     identifier: exrates
@@ -193,16 +208,6 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
-- base: MANA
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: MANA
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: MANA
   market:
     identifier: gobaba
@@ -222,12 +227,12 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: LA
+  target: ETH
 - base: MANA
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: 7D6F7AD2-DF80-4328-8EAF-093743B70F30
   market:
     identifier: lykke
@@ -252,17 +257,22 @@ tickers:
   market:
     identifier: omgfin
     name: Omgfin
-  target: ETH
-- base: MANA
-  market:
-    identifier: omgfin
-    name: Omgfin
   target: UQC
 - base: MANA
   market:
     identifier: omgfin
     name: Omgfin
   target: USDT
+- base: MANA
+  market:
+    identifier: purcow
+    name: Purcow
+  target: BTC
+- base: MANA
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
 - base: MANA
   market:
     identifier: radar_relay
@@ -283,18 +293,3 @@ tickers:
     identifier: uex
     name: UEX
   target: ETH
-- base: MANA
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: MANA
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
-- base: MANA
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

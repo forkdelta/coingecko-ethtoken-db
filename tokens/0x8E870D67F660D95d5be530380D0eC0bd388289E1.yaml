@@ -57,11 +57,6 @@ symbol: pax
 tickers:
 - base: PAX
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: PAX
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -82,9 +77,9 @@ tickers:
   target: USDT
 - base: PAX
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USD
+    identifier: bitmart
+    name: BitMart
+  target: USDT
 - base: PAX
   market:
     identifier: bittrex
@@ -107,6 +102,11 @@ tickers:
   target: BTC
 - base: PAX
   market:
+    identifier: cpdax
+    name: CPDAX
+  target: BTC
+- base: PAX
+  market:
     identifier: digifinex
     name: Digifinex
   target: USDC
@@ -115,31 +115,26 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: BTC
+- base: PAX
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: PAX
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: PAX
   market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: PAX
+- base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: PAX
+  target: PAX
+- base: BSV
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: PAX
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+    identifier: south_xchange
+    name: SouthXchange
+  target: PAX
 - base: PAX
   market:
     identifier: uex

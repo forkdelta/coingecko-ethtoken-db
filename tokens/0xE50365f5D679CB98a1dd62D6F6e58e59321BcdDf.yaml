@@ -71,12 +71,32 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: AGLT
+- base: LA
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: LA
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: EVY
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: SPN
+- base: AGLT
   market:
     identifier: latoken
     name: LATOKEN
@@ -86,7 +106,17 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: SPN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: AVINOC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: NRVE
   market:
     identifier: latoken
     name: LATOKEN
@@ -346,7 +376,7 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: PARETO
+- base: MCO
   market:
     identifier: latoken
     name: LATOKEN
@@ -376,12 +406,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: MCO
+- base: KON
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: KON
+- base: PARETO
   market:
     identifier: latoken
     name: LATOKEN
@@ -426,17 +456,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: NRVE
+- base: USAT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
 - base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: USAT
   market:
     identifier: latoken
     name: LATOKEN

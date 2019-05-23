@@ -116,11 +116,6 @@ tickers:
   market:
     identifier: bkex
     name: Bkex
-  target: ETH
-- base: HOT
-  market:
-    identifier: bkex
-    name: Bkex
   target: USDT
 - base: HOT
   market:
@@ -146,6 +141,11 @@ tickers:
   market:
     identifier: coinasset
     name: CoinAsset
+  target: BTC
+- base: HOT
+  market:
+    identifier: coinbig
+    name: COINBIG
   target: BTC
 - base: HOT
   market:
@@ -234,11 +234,6 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: HOT
-  market:
     identifier: idex
     name: Idex
   target: WBTC
@@ -251,7 +246,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: HOT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: HOT
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
+- base: HOT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: HOT
   market:
     identifier: livecoin
@@ -272,6 +282,11 @@ tickers:
     identifier: orderbook
     name: Orderbook.io
   target: OUSD
+- base: HOT
+  market:
+    identifier: purcow
+    name: Purcow
+  target: BTC
 - base: HOT
   market:
     identifier: radar_relay
@@ -312,3 +327,13 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: BTC
+- base: HOT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: HOT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
