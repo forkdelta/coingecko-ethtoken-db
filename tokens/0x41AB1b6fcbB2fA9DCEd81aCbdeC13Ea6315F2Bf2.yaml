@@ -385,7 +385,7 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: BTC
+  target: ETH
 - base: XDCE
   market:
     identifier: coss
@@ -435,7 +435,22 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: XDCE
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: USDC
+- base: XDCE
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: XDCE
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
 - base: XDCE
   market:
     identifier: p2pb2b
@@ -451,8 +466,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: XDCE
-  market:
-    identifier: topbtc
-    name: TopBTC
-  target: ETH

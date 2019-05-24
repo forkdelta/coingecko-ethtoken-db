@@ -17,4 +17,14 @@ links:
   twitter_screen_name: etheroll
 name: Etheroll
 symbol: dice
-tickers: []
+tickers:
+- base: DICE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DICE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC

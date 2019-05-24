@@ -89,6 +89,16 @@ symbol: qkc
 tickers:
 - base: QKC
   market:
+    identifier: bitasset
+    name: BitAsset
+  target: CNYT
+- base: QKC
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
+- base: QKC
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -161,6 +171,11 @@ tickers:
   market:
     identifier: koinex
     name: Koinex
+  target: INR
+- base: QKC
+  market:
+    identifier: koinex
+    name: Koinex
   target: XRP
 - base: QKC
   market:
@@ -207,3 +222,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: QKC
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

@@ -165,11 +165,6 @@ tickers:
   target: USD
 - base: DGD
   market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: DGD
-  market:
     identifier: openledger
     name: OpenLedger DEX
   target: BITCNY
@@ -193,22 +188,22 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: GRC
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
 - base: ETH
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: USDT
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
 - base: STEEM
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: USDT
   market:
     identifier: openledger
     name: OpenLedger DEX

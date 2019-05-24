@@ -45,21 +45,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: STASH
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: SNT
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: PKG
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: OMG
   market:
     identifier: idex
@@ -95,12 +80,27 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
+- base: SNT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: PKG
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: STASH
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: GET
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: ETH
+- base: BAT
   market:
     identifier: idex
     name: Idex
@@ -110,12 +110,12 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: RC20
+- base: ETH
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: BAT
+- base: RC20
   market:
     identifier: idex
     name: Idex
@@ -145,8 +145,3 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: WBTC
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

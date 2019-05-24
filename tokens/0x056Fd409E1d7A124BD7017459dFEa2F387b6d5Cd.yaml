@@ -83,16 +83,6 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: ETH
-  market:
-    identifier: bgogo
-    name: Bgogo
-  target: GUSD
-- base: BIX
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
 - base: GUSD
   market:
     identifier: bilaxy
@@ -102,11 +92,6 @@ tickers:
   market:
     identifier: bilaxy
     name: Bilaxy
-  target: USDT
-- base: GUSD
-  market:
-    identifier: bitmart
-    name: BitMart
   target: USDT
 - base: GUSD
   market:
@@ -138,6 +123,11 @@ tickers:
     identifier: bitrue
     name: Bitrue
   target: XRP
+- base: GUSD
+  market:
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
 - base: GUSD
   market:
     identifier: cex
@@ -173,11 +163,11 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
-- base: BCH
+- base: GUSD
   market:
-    identifier: coinex
-    name: CoinEx
-  target: GUSD
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
 - base: GUSD
   market:
     identifier: coinmex
@@ -273,11 +263,6 @@ tickers:
     identifier: everbloom
     name: Everbloom
   target: ETH
-- base: GUSD
-  market:
-    identifier: exmo
-    name: EXMO
-  target: RUB
 - base: EOS
   market:
     identifier: fatbtc

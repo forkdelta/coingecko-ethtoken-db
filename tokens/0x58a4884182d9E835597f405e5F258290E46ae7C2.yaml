@@ -36,6 +36,11 @@ tickers:
   target: USDT
 - base: NOAH
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: NOAH
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -44,6 +49,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: NOAH
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: NOAH
   market:
     identifier: fcoin
@@ -58,12 +68,22 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: BTC
+- base: NOAH
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: DOGE
 - base: NOAH
   market:
     identifier: livecoin
     name: Livecoin
   target: TRX
+- base: NOAH
+  market:
+    identifier: raisex
+    name: Raisex
+  target: BTC
 - base: NOAH
   market:
     identifier: tokenjar

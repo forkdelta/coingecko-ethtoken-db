@@ -38,6 +38,16 @@ symbol: req
 tickers:
 - base: REQ
   market:
+    identifier: bitasset
+    name: BitAsset
+  target: CNYT
+- base: REQ
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
+- base: REQ
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -155,11 +165,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: REQ
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: REQ
   market:

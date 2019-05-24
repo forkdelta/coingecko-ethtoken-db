@@ -25,6 +25,11 @@ links:
 name: Abulaba
 symbol: aaa
 tickers:
+- base: EOS
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
 - base: TXC
   market:
     identifier: bigmarkets
@@ -171,11 +176,6 @@ tickers:
     name: BIG markets
   target: AAA
 - base: ETH
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: AAA
-- base: EOS
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -389,6 +389,11 @@ tickers:
   market:
     identifier: lbank
     name: Lbank
+  target: BTC
+- base: AAA
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
   target: BTC
 - base: AAA
   market:

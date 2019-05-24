@@ -67,10 +67,11 @@ links:
   - https://loopring.org/
   repos_url:
     github:
+    - https://github.com/Loopring/lightcone
+    - https://github.com/Loopring/loopr
     - https://github.com/Loopring/protocol2
     - https://github.com/Loopring/protocols
     - https://github.com/Loopring/relay
-    - https://github.com/Loopring/sidechain
   subreddit_url: https://www.reddit.com/r/loopring
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
@@ -82,6 +83,16 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: LRC
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: CNYT
+- base: LRC
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
 - base: LRC
   market:
     identifier: bitker
@@ -147,11 +158,6 @@ tickers:
     identifier: dragonex
     name: DragonEx
   target: ETH
-- base: LRC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
 - base: LRC
   market:
     identifier: ethfinex

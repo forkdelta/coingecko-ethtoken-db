@@ -33,11 +33,6 @@ links:
 name: sUSD
 symbol: susd
 tickers:
-- base: SUSD
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
 - base: NUSD
   market:
     identifier: cryptology
@@ -55,19 +50,9 @@ tickers:
   target: USDT
 - base: NUSD
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: NUSD
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: NUSD
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: USDT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: SUSD
   market:
     identifier: uniswap

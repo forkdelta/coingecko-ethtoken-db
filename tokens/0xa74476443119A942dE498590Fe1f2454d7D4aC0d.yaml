@@ -76,6 +76,11 @@ symbol: gnt
 tickers:
 - base: GNT
   market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: GNT
+  market:
     identifier: buyucoin
     name: BuyUcoin
   target: INR
@@ -91,11 +96,6 @@ tickers:
   target: ETH
 - base: GNT
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
-- base: GNT
-  market:
     identifier: omgfin
     name: Omgfin
   target: BTC
@@ -109,11 +109,6 @@ tickers:
     identifier: omgfin
     name: Omgfin
   target: UQC
-- base: GNT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
 - base: GNT
   market:
     identifier: sistemkoin

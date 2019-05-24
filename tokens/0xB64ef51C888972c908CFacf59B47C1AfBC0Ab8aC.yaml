@@ -59,6 +59,16 @@ tickers:
   target: BTC
 - base: STORJ
   market:
+    identifier: bitasset
+    name: BitAsset
+  target: CNYT
+- base: STORJ
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
+- base: STORJ
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -146,11 +156,6 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
 - base: STORJ
   market:
@@ -161,17 +166,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: STORJ
   market:
     identifier: idax

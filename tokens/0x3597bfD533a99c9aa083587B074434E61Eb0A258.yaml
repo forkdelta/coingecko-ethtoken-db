@@ -69,6 +69,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DASH
+- base: AAA
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: ETH
   market:
     identifier: bigmarkets
@@ -155,11 +160,6 @@ tickers:
     name: BIG markets
   target: DENT
 - base: GNT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: AAA
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -273,11 +273,6 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: XDCE
-- base: DENT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
   target: XRP
 - base: DENT
   market:
@@ -366,6 +361,16 @@ tickers:
   target: USDT
 - base: DENT
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DENT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DENT
+  market:
     identifier: joyso
     name: Joyso
   target: ETH
@@ -416,11 +421,6 @@ tickers:
   target: USDT
 - base: DENT
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
-- base: DENT
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
@@ -449,8 +449,3 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
-- base: DENT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

@@ -61,11 +61,6 @@ tickers:
   market:
     identifier: alterdice
     name: AlterDice
-  target: BTC
-- base: MKR
-  market:
-    identifier: alterdice
-    name: AlterDice
   target: ETH
 - base: MKR
   market:
@@ -82,6 +77,11 @@ tickers:
     identifier: bitebtc
     name: BiteBTC
   target: ETH
+- base: MKR
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
 - base: MKR
   market:
     identifier: bitsane
@@ -161,6 +161,11 @@ tickers:
   market:
     identifier: coss
     name: COSS
+  target: BTC
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
   target: DAI
 - base: MKR
   market:
@@ -187,11 +192,6 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
-- base: MKR
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
 - base: MKR
   market:
     identifier: cybex
@@ -221,22 +221,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: DAI
-- base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: MKR
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: MKR
   market:
     identifier: forkdelta
@@ -244,6 +229,11 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: MKR
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -254,9 +244,9 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MKR
   market:
     identifier: joyso
@@ -306,11 +296,6 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
   target: WETH
 - base: MKR
   market:
@@ -322,11 +307,6 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
 - base: MKR
   market:
     identifier: thetokenstore
