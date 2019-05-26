@@ -41,6 +41,16 @@ tickers:
   target: BIX
 - base: MT
   market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: MT
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: MT
+  market:
     identifier: bitforex
     name: Bitforex
   target: ETH
@@ -49,11 +59,6 @@ tickers:
     identifier: bitforex
     name: Bitforex
   target: USDT
-- base: MT
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BTC
 - base: MT
   market:
     identifier: bitmart
@@ -94,6 +99,11 @@ tickers:
     identifier: cybex
     name: Cybex DEX
   target: BTC
+- base: MT
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
 - base: MT
   market:
     identifier: cybex

@@ -28,6 +28,11 @@ symbol: cbc
 tickers:
 - base: CBC
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: CBC
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -45,6 +50,11 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: CBC
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: CBC
   market:

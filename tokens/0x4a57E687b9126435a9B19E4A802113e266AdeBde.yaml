@@ -207,11 +207,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: FXC
-- base: TXC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: FXC
 - base: LTC
   market:
     identifier: bigmarkets
@@ -252,6 +247,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: FXC
+- base: GVT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: FXC
 - base: OMG
   market:
     identifier: bigmarkets
@@ -262,7 +262,7 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: FXC
-- base: GVT
+- base: TXC
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -357,3 +357,8 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: ZIL
+- base: FXC
+  market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH

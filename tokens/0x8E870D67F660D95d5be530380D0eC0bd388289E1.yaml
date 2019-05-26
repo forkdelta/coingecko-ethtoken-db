@@ -57,6 +57,11 @@ symbol: pax
 tickers:
 - base: PAX
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: PAX
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -120,7 +125,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: BSV
+- base: BTC
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -134,11 +139,6 @@ tickers:
   market:
     identifier: uex
     name: UEX
-  target: USDT
-- base: PAX
-  market:
-    identifier: upbit
-    name: Upbit
   target: USDT
 - base: PAX
   market:

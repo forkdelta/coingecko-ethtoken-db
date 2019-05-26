@@ -73,11 +73,6 @@ tickers:
   target: BTC
 - base: FDZ
   market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
-- base: FDZ
-  market:
     identifier: dragonex
     name: DragonEx
   target: ETH
@@ -90,7 +85,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: FDZ
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: FDZ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: FDZ
   market:
     identifier: idex

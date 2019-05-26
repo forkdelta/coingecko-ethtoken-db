@@ -27,6 +27,11 @@ tickers:
   target: ETH
 - base: WBTC
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: WBTC
+  market:
     identifier: ddex
     name: DDEX
   target: DAI
@@ -55,31 +60,6 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: LINK
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: HOT
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: CYFM
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: ALTX
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: XENC
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: SNT
   market:
     identifier: idex
@@ -100,12 +80,32 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: BAT
+- base: XENC
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: XBASE
+- base: LINK
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: HOT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: CYFM
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: ALTX
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: FTM
   market:
     identifier: idex
     name: Idex
@@ -120,7 +120,12 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: FTM
+- base: BAT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: XBASE
   market:
     identifier: idex
     name: Idex
@@ -140,8 +145,3 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: BTC
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI

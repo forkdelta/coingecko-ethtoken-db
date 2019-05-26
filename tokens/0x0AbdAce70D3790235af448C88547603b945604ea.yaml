@@ -92,6 +92,11 @@ tickers:
   target: ETH
 - base: DNT
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DNT
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -117,6 +122,11 @@ tickers:
   target: DAI
 - base: DNT
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DNT
+  market:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
@@ -125,3 +135,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: DNT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

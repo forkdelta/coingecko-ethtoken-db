@@ -72,16 +72,31 @@ tickers:
   market:
     identifier: abcc
     name: ABCC
-  target: BTC
-- base: GUSD
-  market:
-    identifier: abcc
-    name: ABCC
   target: USDT
 - base: GUSD
   market:
     identifier: bcex
     name: BCEX
+  target: USDT
+- base: BIX
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: BTC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: ETH
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: GUSD
+  market:
+    identifier: bibox
+    name: Bibox
   target: USDT
 - base: GUSD
   market:
@@ -188,12 +203,12 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
-- base: COSS
+- base: BTC
   market:
     identifier: coss
     name: COSS
   target: GUSD
-- base: BTC
+- base: COSS
   market:
     identifier: coss
     name: COSS
@@ -308,11 +323,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
-- base: ETH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
 - base: GUSD
   market:
     identifier: latoken
@@ -358,6 +368,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: GUSD
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: EUR
 - base: BTC
   market:
     identifier: therocktrading

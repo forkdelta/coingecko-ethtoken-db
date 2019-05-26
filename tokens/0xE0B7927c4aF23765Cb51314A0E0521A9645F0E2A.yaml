@@ -165,6 +165,11 @@ tickers:
   target: USD
 - base: DGD
   market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: DGD
+  market:
     identifier: openledger
     name: OpenLedger DEX
   target: BITCNY
@@ -188,6 +193,11 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
+- base: USDT
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
 - base: ETH
   market:
     identifier: openledger
@@ -199,11 +209,6 @@ tickers:
     name: OpenLedger DEX
   target: DGD
 - base: STEEM
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: USDT
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -228,8 +233,3 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: DGD
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

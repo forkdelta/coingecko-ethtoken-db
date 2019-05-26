@@ -184,6 +184,16 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
+- base: PYN
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: ZEC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: DENT
   market:
     identifier: bigmarkets
@@ -219,6 +229,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: EUR
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: FXC
 - base: DENT
   market:
     identifier: bigmarkets
@@ -301,16 +316,6 @@ tickers:
   target: USDT
 - base: DENT
   market:
-    identifier: btcexa
-    name: BTCEXA
-  target: BTC
-- base: DENT
-  market:
-    identifier: btcexa
-    name: BTCEXA
-  target: ETH
-- base: DENT
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -361,21 +366,6 @@ tickers:
   target: USDT
 - base: DENT
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DENT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: DENT
-  market:
-    identifier: joyso
-    name: Joyso
-  target: ETH
-- base: DENT
-  market:
     identifier: kucoin
     name: KuCoin
   target: NEO
@@ -388,16 +378,6 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: DENT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: DENT
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: BTC
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
@@ -423,11 +403,6 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
-- base: DENT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
   target: WETH
 - base: DENT
   market:
@@ -449,3 +424,8 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
+- base: DENT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

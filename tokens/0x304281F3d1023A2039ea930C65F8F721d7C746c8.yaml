@@ -21,6 +21,11 @@ links:
 name: AXNET Token
 symbol: axn
 tickers:
+- base: XMR
+  market:
+    identifier: axnet
+    name: AXNET
+  target: AXN
 - base: LTC
   market:
     identifier: axnet
@@ -42,11 +47,6 @@ tickers:
     name: AXNET
   target: AXN
 - base: ADA
-  market:
-    identifier: axnet
-    name: AXNET
-  target: AXN
-- base: XMR
   market:
     identifier: axnet
     name: AXNET

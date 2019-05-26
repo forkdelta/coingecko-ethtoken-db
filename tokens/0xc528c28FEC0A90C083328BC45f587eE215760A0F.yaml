@@ -43,16 +43,6 @@ tickers:
   target: USDT
 - base: EDR
   market:
-    identifier: bitmart
-    name: BitMart
-  target: BTC
-- base: EDR
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
-- base: EDR
-  market:
     identifier: bittrex
     name: Bittrex
   target: USD
@@ -116,6 +106,11 @@ tickers:
     identifier: oex
     name: OEX
   target: BTC
+- base: ENDOR
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
 - base: EDR
   market:
     identifier: tokenjar

@@ -38,7 +38,7 @@ links:
 name: OKB
 symbol: okb
 tickers:
-- base: BCH
+- base: SC
   market:
     identifier: okex
     name: OKEx
@@ -48,12 +48,27 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: MVP
+- base: BCH
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: WAVES
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: DCR
   market:
     identifier: okex
     name: OKEx
   target: OKB
 - base: CVT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: MVP
   market:
     identifier: okex
     name: OKEx

@@ -61,6 +61,11 @@ symbol: enj
 tickers:
 - base: ENJ
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ENJ
+  market:
     identifier: bigmarkets
     name: BIG markets
   target: AAA
@@ -73,7 +78,17 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
+  target: BCN
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
   target: CNX
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: CTXC
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -83,17 +98,7 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: DGB
-- base: ZIL
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
-- base: AXPR
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: ENJ
+  target: DOGE
 - base: WAVES
   market:
     identifier: bigmarkets
@@ -159,27 +164,52 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: ENJ
-- base: ETH
+- base: AAA
   market:
     identifier: bigmarkets
     name: BIG markets
   target: ENJ
-- base: PYN
+- base: DENT
   market:
     identifier: bigmarkets
     name: BIG markets
   target: ENJ
-- base: CNX
+- base: CTXC
   market:
     identifier: bigmarkets
     name: BIG markets
   target: ENJ
-- base: BCN
+- base: FXC
   market:
     identifier: bigmarkets
     name: BIG markets
   target: ENJ
-- base: EOS
+- base: BCH
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: OMG
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: XEM
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: LTC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: ETC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: ENJ
+- base: DGB
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -188,12 +218,22 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: ETC
+  target: FXC
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: GNT
+  target: GVT
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: LBOT
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: LTC
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -213,32 +253,22 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: TRX
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: TXC
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
   target: USDT
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: XDCE
+  target: WAVES
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: XEM
 - base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
   target: XRP
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: XVG
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -253,22 +283,7 @@ tickers:
   market:
     identifier: cobinhood
     name: Cobinhood
-  target: BTC
-- base: ENJ
-  market:
-    identifier: cobinhood
-    name: Cobinhood
   target: ETH
-- base: ENJ
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
-- base: ENJ
-  market:
-    identifier: codex
-    name: CODEX
-  target: BTC
 - base: ENJ
   market:
     identifier: codex
@@ -286,33 +301,18 @@ tickers:
   target: BTC
 - base: ENJ
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: ETH
-- base: ENJ
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
 - base: ENJ
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: ENJ
   market:
     identifier: gopax
     name: GoPax
-  target: KRW
-- base: ENJ
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: ENJ
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: ETH
 - base: ENJ
   market:
@@ -354,11 +354,6 @@ tickers:
     identifier: omgfin
     name: Omgfin
   target: USDT
-- base: ENJ
-  market:
-    identifier: quoine
-    name: Liquid
-  target: ETH
 - base: ENJ
   market:
     identifier: tokenjar

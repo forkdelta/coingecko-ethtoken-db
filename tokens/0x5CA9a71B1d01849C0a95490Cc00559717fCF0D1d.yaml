@@ -63,9 +63,9 @@ tickers:
   target: ETH
 - base: AE
   market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: AE
   market:
     identifier: bitrue
@@ -75,6 +75,11 @@ tickers:
   market:
     identifier: bitrue
     name: Bitrue
+  target: ETH
+- base: AE
+  market:
+    identifier: bw
+    name: BW.com
   target: ETH
 - base: AE
   market:
@@ -88,23 +93,8 @@ tickers:
   target: ETH
 - base: AE
   market:
-    identifier: coineal
-    name: Coineal
-  target: BTC
-- base: AE
-  market:
-    identifier: coineal
-    name: Coineal
-  target: ETH
-- base: AE
-  market:
     identifier: coinmex
     name: CoinMex
-  target: ETH
-- base: AE
-  market:
-    identifier: coinpark
-    name: Coinpark
   target: ETH
 - base: AE
   market:
@@ -115,7 +105,17 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: BTC
+- base: AE
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: CRD
+- base: AE
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
 - base: AE
   market:
     identifier: cryptaldash
@@ -136,16 +136,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: AE
-  market:
-    identifier: dragonex
-    name: DragonEx
-  target: BTC
-- base: AE
-  market:
-    identifier: dragonex
-    name: DragonEx
-  target: ETH
 - base: AE
   market:
     identifier: fubt
@@ -171,6 +161,11 @@ tickers:
     identifier: k_kex
     name: KKEX
   target: BTC
+- base: AE
+  market:
+    identifier: koinex
+    name: Koinex
+  target: INR
 - base: AE
   market:
     identifier: koinex
@@ -205,12 +200,27 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: AE
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: AE
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
 - base: AE
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
+- base: AE
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT
 - base: AE
   market:
     identifier: uex
@@ -221,8 +231,3 @@ tickers:
     identifier: uex
     name: UEX
   target: USDT
-- base: AE
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC

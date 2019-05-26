@@ -27,11 +27,6 @@ tickers:
   target: ETH
 - base: PLBT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: PLBT
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -45,6 +40,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: PLBT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: PLBT
   market:
     identifier: mercatox

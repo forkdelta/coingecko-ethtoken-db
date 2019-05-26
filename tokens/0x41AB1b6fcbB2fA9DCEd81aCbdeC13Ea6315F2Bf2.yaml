@@ -45,11 +45,6 @@ tickers:
   market:
     identifier: abcc
     name: ABCC
-  target: ETH
-- base: XDCE
-  market:
-    identifier: abcc
-    name: ABCC
   target: USDT
 - base: XDCE
   market:
@@ -201,6 +196,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: XDCE
+- base: ZEC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: XDCE
 - base: XVG
   market:
     identifier: bigmarkets
@@ -271,7 +271,7 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: XDCE
-- base: ZEC
+- base: GVT
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -302,11 +302,6 @@ tickers:
     name: BIG markets
   target: XDCE
 - base: GNT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: XDCE
-- base: GVT
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -383,33 +378,8 @@ tickers:
   target: USDT
 - base: XDCE
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: XDCE
-  market:
-    identifier: coss
-    name: COSS
-  target: TUSD
-- base: XDCE
-  market:
-    identifier: coss
-    name: COSS
-  target: USD
-- base: XDCE
-  market:
-    identifier: coss
-    name: COSS
-  target: USDT
-- base: XDCE
-  market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: XDCE
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: XDCE
   market:
@@ -441,11 +411,6 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: USDC
-- base: XDCE
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
 - base: XDCE
   market:
     identifier: p2pb2b
