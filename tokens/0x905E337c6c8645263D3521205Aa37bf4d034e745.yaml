@@ -83,11 +83,6 @@ tickers:
   target: USDT
 - base: MTC
   market:
-    identifier: coinall
-    name: CoinAll
-  target: BTC
-- base: MTC
-  market:
     identifier: coinbene
     name: CoinBene
   target: BTC
@@ -111,6 +106,11 @@ tickers:
     identifier: exrates
     name: Exrates
   target: USD
+- base: MTC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MTC
   market:
     identifier: latoken
@@ -145,19 +145,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: MTC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: MTC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: TL
-- base: MTC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT

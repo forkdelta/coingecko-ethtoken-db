@@ -45,6 +45,11 @@ symbol: celr
 tickers:
 - base: CELR
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: CELR
+  market:
     identifier: coinall
     name: CoinAll
   target: BTC
@@ -68,13 +73,3 @@ tickers:
     identifier: hpx
     name: HPX
   target: CNYT
-- base: CELR
-  market:
-    identifier: mxc
-    name: MXC
-  target: ETH
-- base: CELR
-  market:
-    identifier: mxc
-    name: MXC
-  target: USDT

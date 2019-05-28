@@ -153,11 +153,6 @@ tickers:
   target: ETH
 - base: REQ
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: REQ
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -183,6 +178,11 @@ tickers:
   target: ETH
 - base: REQ
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: REQ
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -196,6 +196,11 @@ tickers:
     identifier: koinex
     name: Koinex
   target: XRP
+- base: REQ
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 297A7368-9428-4AAC-98A5-A28A217E7A99
   market:
     identifier: lykke

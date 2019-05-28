@@ -97,6 +97,11 @@ tickers:
   target: USDT
 - base: POWR
   market:
+    identifier: btcmarkets
+    name: BTCMarkets
+  target: BTC
+- base: POWR
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -115,6 +120,11 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: ETH
+- base: POWR
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: POWR
   market:
     identifier: cryptaldash
@@ -202,14 +212,9 @@ tickers:
   target: USDT
 - base: POWR
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: POWR
-  market:
     identifier: gate
     name: Gate.io
-  target: ETH
+  target: BTC
 - base: POWR
   market:
     identifier: hitbtc
@@ -222,9 +227,9 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: POWR
   market:
     identifier: latoken

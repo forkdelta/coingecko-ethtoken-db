@@ -81,6 +81,11 @@ tickers:
   target: BTC
 - base: RLC
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: RLC
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -113,17 +118,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: RLC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
-- base: RLC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: RLC
   market:
     identifier: fcoin

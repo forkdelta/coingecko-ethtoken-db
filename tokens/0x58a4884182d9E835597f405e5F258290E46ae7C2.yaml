@@ -38,6 +38,11 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: ETH
+- base: NOAH
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: USD
 - base: NOAH
   market:
@@ -51,6 +56,16 @@ tickers:
   target: WETH
 - base: NOAH
   market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: NOAH
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: NOAH
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -61,19 +76,14 @@ tickers:
   target: DOGE
 - base: NOAH
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: TRX
-- base: NOAH
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: NOAH
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: NOAH
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
 - base: NOAH
   market:
     identifier: yobit

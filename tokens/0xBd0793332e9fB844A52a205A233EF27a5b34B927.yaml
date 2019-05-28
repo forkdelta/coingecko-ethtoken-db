@@ -44,14 +44,14 @@ tickers:
   target: BTC
 - base: ZB
   market:
+    identifier: exx
+    name: EXX
+  target: ET
+- base: ZB
+  market:
     identifier: oex
     name: OEX
   target: BTC
-- base: HC
-  market:
-    identifier: zb
-    name: ZB
-  target: ZB
 - base: ETH
   market:
     identifier: zb
@@ -88,6 +88,11 @@ tickers:
     name: ZB
   target: ZB
 - base: QTUM
+  market:
+    identifier: zb
+    name: ZB
+  target: ZB
+- base: HC
   market:
     identifier: zb
     name: ZB

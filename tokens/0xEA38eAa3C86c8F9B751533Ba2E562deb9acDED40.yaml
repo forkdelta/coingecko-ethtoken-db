@@ -32,6 +32,11 @@ tickers:
   target: BTC
 - base: FUEL
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: FUEL
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -39,11 +44,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: FUEL
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: FUEL
   market:
@@ -70,11 +70,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: FUEL
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: FUEL
   market:
     identifier: radar_relay

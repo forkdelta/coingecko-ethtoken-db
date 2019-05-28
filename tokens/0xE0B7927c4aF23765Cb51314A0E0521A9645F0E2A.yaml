@@ -110,6 +110,11 @@ tickers:
   target: ETH
 - base: DGD
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: DGD
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -165,11 +170,6 @@ tickers:
   target: USD
 - base: DGD
   market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: DGD
-  market:
     identifier: openledger
     name: OpenLedger DEX
   target: BITCNY
@@ -193,7 +193,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: USDT
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -203,7 +203,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: GRC
+- base: USDT
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -233,3 +233,8 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: DGD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

@@ -20,6 +20,11 @@ symbol: eql
 tickers:
 - base: EQL
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: EQL
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -32,6 +37,11 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: EQL
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: EQL
   market:

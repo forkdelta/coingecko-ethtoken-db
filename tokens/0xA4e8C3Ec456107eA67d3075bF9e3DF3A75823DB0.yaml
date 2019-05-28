@@ -47,6 +47,16 @@ symbol: loom
 tickers:
 - base: LOOM
   market:
+    identifier: allbit
+    name: Allbit
+  target: BTC
+- base: LOOM
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: LOOM
+  market:
     identifier: alterdice
     name: AlterDice
   target: BTC
@@ -115,6 +125,16 @@ tickers:
     identifier: coinbe
     name: Coinbe
   target: BTC
+- base: LOOM
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: BTC
+- base: LOOM
+  market:
+    identifier: coineal
+    name: Coineal
+  target: ETH
 - base: LOOM
   market:
     identifier: coinex
@@ -224,17 +244,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: LOOM
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: LA
 - base: LOOM
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: LOOM
+  market:
+    identifier: prixbit
+    name: Prixbit
+  target: BTC
+- base: LOOM
+  market:
+    identifier: prixbit
+    name: Prixbit
+  target: PAX
 - base: LOOM
   market:
     identifier: radar_relay

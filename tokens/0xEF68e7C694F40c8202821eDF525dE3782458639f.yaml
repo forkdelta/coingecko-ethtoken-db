@@ -85,6 +85,16 @@ tickers:
   target: ETH
 - base: LRC
   market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: LRC
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
+- base: LRC
+  market:
     identifier: bitasset
     name: BitAsset
   target: CNYT
@@ -98,11 +108,6 @@ tickers:
     identifier: bitker
     name: BITKER
   target: BTC
-- base: LRC
-  market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
 - base: LRC
   market:
     identifier: bittrex
@@ -160,14 +165,19 @@ tickers:
   target: USDT
 - base: LRC
   market:
-    identifier: dragonex
-    name: DragonEx
+    identifier: dextrade
+    name: Dextrade
+  target: BTC
+- base: LRC
+  market:
+    identifier: dextrade
+    name: Dextrade
   target: ETH
 - base: LRC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: dragonex
+    name: DragonEx
+  target: ETH
 - base: LRC
   market:
     identifier: ethfinex
@@ -193,11 +203,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: LRC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: LRC
   market:
     identifier: idax

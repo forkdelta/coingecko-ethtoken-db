@@ -61,6 +61,11 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
+  target: EUR
+- base: PAY
+  market:
+    identifier: bitbay
+    name: BitBay
   target: USD
 - base: PAY
   market:
@@ -72,11 +77,6 @@ tickers:
     identifier: blockonix
     name: Blockonix
   target: USDT
-- base: PAY
-  market:
-    identifier: buyucoin
-    name: BuyUcoin
-  target: INR
 - base: PAY
   market:
     identifier: chainex
@@ -179,6 +179,16 @@ tickers:
   target: ETH
 - base: PAY
   market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: PAY
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: PAY
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -186,11 +196,6 @@ tickers:
   market:
     identifier: joyso
     name: Joyso
-  target: ETH
-- base: PAY
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: PAY
   market:
@@ -232,6 +237,11 @@ tickers:
     identifier: paroexchange
     name: Paro Exchange
   target: TUSD
+- base: PAY
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: PAY
   market:
     identifier: vebitcoin

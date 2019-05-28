@@ -49,6 +49,11 @@ links:
 name: APOT
 symbol: apot
 tickers:
+- base: VNT
+  market:
+    identifier: allbit
+    name: Allbit
+  target: APOT
 - base: CNUS
   market:
     identifier: allbit
@@ -74,11 +79,6 @@ tickers:
     identifier: allbit
     name: Allbit
   target: BTC
-- base: APOT
-  market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
 - base: APOT
   market:
     identifier: crex24

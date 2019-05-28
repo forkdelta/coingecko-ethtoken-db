@@ -65,6 +65,11 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: NPXS
+  market:
     identifier: alterdice
     name: AlterDice
   target: BTC
@@ -122,7 +127,7 @@ tickers:
   market:
     identifier: catex
     name: Catex
-  target: ETH
+  target: BTC
 - base: NPXS
   market:
     identifier: coin_exchange
@@ -132,6 +137,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: Coinexchange
+  target: ETH
+- base: NPXS
+  market:
+    identifier: coinbene
+    name: CoinBene
   target: ETH
 - base: NPXS
   market:
@@ -147,7 +157,17 @@ tickers:
   market:
     identifier: coss
     name: COSS
+  target: BTC
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
+- base: NPXS
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -207,17 +227,22 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: graviex
+    name: Graviex
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
-  target: LA
+  target: BTC
 - base: NPXS
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: NPXS
   market:
     identifier: livecoin
@@ -273,11 +298,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TL
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
 - base: NPXS
   market:
     identifier: thetokenstore

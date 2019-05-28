@@ -23,12 +23,17 @@ links:
 name: BitMart Token
 symbol: bmx
 tickers:
+- base: XLM
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
 - base: LPK
   market:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: XRP
+- base: NAT
   market:
     identifier: bitmart
     name: BitMart
@@ -48,47 +53,12 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: ZRX
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: XLM
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
 - base: WEB
   market:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: DAN
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: NEO
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: HYDRO
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: OAS
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: SKM
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: OMG
+- base: ZRX
   market:
     identifier: bitmart
     name: BitMart
@@ -98,11 +68,21 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: BMX
+- base: SKM
   market:
     identifier: bitmart
     name: BitMart
-  target: USDT
+  target: BMX
+- base: OAS
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: DAN
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
 - base: BMX
   market:
     identifier: ddex

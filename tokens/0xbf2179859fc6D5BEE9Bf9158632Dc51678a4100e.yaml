@@ -69,6 +69,16 @@ tickers:
   target: ETH
 - base: ELF
   market:
+    identifier: allbit
+    name: Allbit
+  target: BTC
+- base: ELF
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: ELF
+  market:
     identifier: bcex
     name: BCEX
   target: BTC
@@ -159,29 +169,9 @@ tickers:
   target: WETH
 - base: ELF
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: ELF
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: ELF
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: ELF
-  market:
     identifier: fcoin
     name: FCoin
   target: ETH
-- base: ELF
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
 - base: ELF
   market:
     identifier: forkdelta
@@ -204,11 +194,6 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: ELF
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -217,6 +202,11 @@ tickers:
     identifier: k_kex
     name: KKEX
   target: BTC
+- base: ELF
+  market:
+    identifier: koinex
+    name: Koinex
+  target: INR
 - base: ELF
   market:
     identifier: koinex
@@ -232,26 +222,6 @@ tickers:
     identifier: oax
     name: OAX
   target: ETH
-- base: ELF
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: BTC
-- base: ELF
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: ETH
-- base: ELF
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: UQC
-- base: ELF
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: USDT
 - base: ELF
   market:
     identifier: purcow

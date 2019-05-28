@@ -78,26 +78,16 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: BIX
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
 - base: BTC
   market:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: ETH
+- base: BIX1901
   market:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: GUSD
-  market:
-    identifier: bibox
-    name: Bibox
-  target: USDT
 - base: GUSD
   market:
     identifier: bilaxy
@@ -140,11 +130,6 @@ tickers:
   target: XRP
 - base: GUSD
   market:
-    identifier: bx_thailand
-    name: BX Thailand
-  target: THB
-- base: GUSD
-  market:
     identifier: cex
     name: CEX.IO
   target: BTC
@@ -163,11 +148,6 @@ tickers:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
-- base: GUSD
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
 - base: GUSD
   market:
     identifier: coin_exchange
@@ -208,17 +188,17 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
+- base: ETH
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
 - base: COSS
   market:
     identifier: coss
     name: COSS
   target: GUSD
 - base: BWT
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
-- base: ETH
   market:
     identifier: coss
     name: COSS
@@ -263,11 +243,6 @@ tickers:
     identifier: digifinex
     name: Digifinex
   target: ETH
-- base: GUSD
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
 - base: GUSD
   market:
     identifier: eosex
@@ -318,16 +293,6 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: USD
-- base: EOS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
-- base: GUSD
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
 - base: GUSD
   market:
     identifier: latoken
@@ -370,16 +335,6 @@ tickers:
   target: WETH
 - base: GUSD
   market:
-    identifier: therocktrading
-    name: TheRockTrading
-  target: EUR
-- base: BTC
-  market:
-    identifier: therocktrading
-    name: TheRockTrading
-  target: GUSD
-- base: GUSD
-  market:
     identifier: tokenize
     name: Tokenize
   target: USD
@@ -388,11 +343,6 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
 - base: GUSD
   market:
     identifier: trade_satoshi
@@ -408,11 +358,6 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: LTC
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT
 - base: GUSD
   market:
     identifier: uniswap

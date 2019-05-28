@@ -25,6 +25,11 @@ symbol: stx
 tickers:
 - base: STX
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: STX
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -47,11 +52,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: STX
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: STX
   market:

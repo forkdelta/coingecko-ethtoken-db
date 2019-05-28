@@ -25,6 +25,11 @@ symbol: tns
 tickers:
 - base: TNS
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: TNS
+  market:
     identifier: bancor
     name: Bancor Network
   target: BNT
@@ -37,11 +42,6 @@ tickers:
   market:
     identifier: coinplace
     name: Coinplace
-  target: BTC
-- base: TNS
-  market:
-    identifier: lbank
-    name: Lbank
   target: BTC
 - base: TNS
   market:

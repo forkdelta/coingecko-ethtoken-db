@@ -22,6 +22,11 @@ symbol: data
 tickers:
 - base: DATA
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: DATA
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -65,3 +70,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: DATA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

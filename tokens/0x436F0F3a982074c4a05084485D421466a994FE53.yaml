@@ -42,11 +42,6 @@ tickers:
   target: BIX
 - base: RTE
   market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: RTE
-  market:
     identifier: bitforex
     name: Bitforex
   target: USDT
@@ -85,6 +80,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: RTE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: RTE
   market:
     identifier: tokenjar

@@ -33,7 +33,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: ETH
 - base: DGX
   market:
     identifier: idex
@@ -46,11 +46,6 @@ tickers:
   target: ETH
 - base: DGX
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: DGX
-  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -59,6 +54,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: DGX
+  market:
+    identifier: probit
+    name: Probit
+  target: BTC
 - base: DGX
   market:
     identifier: radar_relay

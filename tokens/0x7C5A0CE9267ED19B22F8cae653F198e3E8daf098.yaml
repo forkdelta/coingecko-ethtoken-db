@@ -21,6 +21,11 @@ symbol: san
 tickers:
 - base: SAN
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: SAN
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -29,6 +34,11 @@ tickers:
     identifier: blockonix
     name: Blockonix
   target: USDT
+- base: SAN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: SAN
   market:
     identifier: fcoin
@@ -43,11 +53,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: SAN
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
 - base: SAN
   market:

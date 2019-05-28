@@ -29,6 +29,11 @@ tickers:
   target: USDT
 - base: EDO
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: EDO
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -57,8 +62,3 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
-- base: EDO
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

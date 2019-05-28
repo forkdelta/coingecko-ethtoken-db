@@ -48,6 +48,11 @@ symbol: rcn
 tickers:
 - base: RCN
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: RCN
+  market:
     identifier: c2cx
     name: C2CX
   target: LONG
@@ -98,28 +103,8 @@ tickers:
   target: ETH
 - base: RCN
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: RCN
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: RCN
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: RCN
-  market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: RCN
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: RCN
   market:
@@ -151,18 +136,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: RCN
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: RCN
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
-- base: RCN
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT
