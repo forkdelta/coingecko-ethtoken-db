@@ -137,6 +137,11 @@ tickers:
   target: ETH
 - base: POLY
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: POLY
+  market:
     identifier: dextrade
     name: Dextrade
   target: BTC
@@ -150,11 +155,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: POLY
   market:
     identifier: fcoin
@@ -172,11 +172,6 @@ tickers:
   target: ETH
 - base: POLY
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: POLY
-  market:
     identifier: joyso
     name: Joyso
   target: ETH
@@ -185,6 +180,16 @@ tickers:
     identifier: koinex
     name: Koinex
   target: XRP
+- base: POLY
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
+- base: POLY
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: POLY
   market:
     identifier: latoken

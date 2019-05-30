@@ -66,16 +66,6 @@ tickers:
   target: ETH
 - base: GTO
   market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: BTC
-- base: GTO
-  market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: ETH
-- base: GTO
-  market:
     identifier: bittrex
     name: Bittrex
   target: ETH
@@ -119,6 +109,11 @@ tickers:
     identifier: cpdax
     name: CPDAX
   target: KRW
+- base: GTO
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: GTO
   market:
     identifier: cryptaldash

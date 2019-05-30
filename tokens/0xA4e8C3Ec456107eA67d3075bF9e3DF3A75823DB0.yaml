@@ -127,11 +127,6 @@ tickers:
   target: BTC
 - base: LOOM
   market:
-    identifier: coinbig
-    name: COINBIG
-  target: BTC
-- base: LOOM
-  market:
     identifier: coineal
     name: Coineal
   target: ETH
@@ -180,11 +175,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: ETH
-- base: LOOM
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: LOOM
   market:
     identifier: dextop
@@ -237,6 +227,11 @@ tickers:
   target: ETH
 - base: LOOM
   market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
+- base: LOOM
+  market:
     identifier: kucoin
     name: KuCoin
   target: NEO
@@ -259,6 +254,11 @@ tickers:
   market:
     identifier: prixbit
     name: Prixbit
+  target: KRW
+- base: LOOM
+  market:
+    identifier: prixbit
+    name: Prixbit
   target: PAX
 - base: LOOM
   market:
@@ -270,11 +270,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: LOOM
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
 - base: LOOM
   market:
     identifier: tidex

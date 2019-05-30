@@ -33,11 +33,6 @@ tickers:
   target: ETH
 - base: EURS
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: EURS
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -46,11 +41,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: EURS
-  market:
-    identifier: dsx
-    name: DSX
-  target: EUR
 - base: LTC
   market:
     identifier: dsx
@@ -61,16 +51,6 @@ tickers:
     identifier: dsx
     name: DSX
   target: EURS
-- base: ETH
-  market:
-    identifier: dsx
-    name: DSX
-  target: EURS
-- base: EURS
-  market:
-    identifier: dsx
-    name: DSX
-  target: USD
 - base: EURS
   market:
     identifier: hitbtc
@@ -86,12 +66,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: BOX
+- base: MESSE
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: NEO
+- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC
@@ -101,16 +81,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: ZEC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: MESSE
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EURS
+  target: TUSD
 - base: BTC
   market:
     identifier: kuna
@@ -121,11 +106,6 @@ tickers:
     identifier: kuna
     name: Kuna Exchange
   target: UAH
-- base: EURS
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: BTC
   market:
     identifier: livecoin

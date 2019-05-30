@@ -87,40 +87,15 @@ links:
 name: Dai
 symbol: dai
 tickers:
-- base: BTC
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
 - base: ETH
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: ICX
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: BAT
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: GVT
-  market:
-    identifier: bitbegin
-    name: Bitbegin
+    identifier: bibox
+    name: Bibox
   target: DAI
 - base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: ETH
-- base: DAI
-  market:
-    identifier: bitrabbit
-    name: BitRabbit
+    identifier: cobinhood
+    name: Cobinhood
   target: USDT
 - base: DAI
   market:
@@ -129,9 +104,9 @@ tickers:
   target: BTC
 - base: DAI
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: BTC
+    identifier: codex
+    name: CODEX
+  target: ETH
 - base: DAI
   market:
     identifier: coinchangex
@@ -142,22 +117,12 @@ tickers:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
-- base: TUSD
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: DAI
-  market:
-    identifier: crex24
-    name: CREX24
-  target: USD
-- base: TUSD
+- base: WBTC
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: WBTC
+- base: TUSD
   market:
     identifier: ddex
     name: DDEX
@@ -189,9 +154,19 @@ tickers:
   target: ETH
 - base: DAI
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DAI
+  market:
     identifier: ethex
     name: Ethex
   target: ETH
+- base: DAI
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: ZRX
   market:
     identifier: ethfinex
@@ -202,11 +177,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: DAI
+- base: OMG
   market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
 - base: FAT
   market:
     identifier: fatbtc
@@ -219,50 +194,55 @@ tickers:
   target: USDT
 - base: DAI
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: LTC
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
+- base: POA20
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EOSDT
 - base: MKR
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: STORM
+- base: NEWB
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: TOMO
+- base: IFT
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: THETA
+- base: HOT
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: POE
+- base: SNIP
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: DGPT
+- base: CRED
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: AMB
+- base: AIR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: GET
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: AION
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -276,21 +256,26 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TL
+  target: BTC
 - base: DAI
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: USD
-- base: MANNA
+  target: TL
+- base: LTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: ETH
+- base: BTC
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
+- base: MANNA
+  market:
+    identifier: south_xchange
+    name: SouthXchange
   target: DAI
 - base: WBTC
   market:
@@ -299,9 +284,9 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+    identifier: three_xbit
+    name: 3XBIT
+  target: USD
 - base: DAI
   market:
     identifier: tokenjar

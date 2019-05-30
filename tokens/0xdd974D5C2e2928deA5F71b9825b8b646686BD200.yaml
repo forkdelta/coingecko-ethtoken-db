@@ -87,6 +87,11 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: KNC
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -149,6 +154,16 @@ tickers:
   market:
     identifier: cybex
     name: Cybex DEX
+  target: BTC
+- base: KNC
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
+- base: KNC
+  market:
+    identifier: cybex
+    name: Cybex DEX
   target: USDT
 - base: KNC
   market:
@@ -177,34 +192,14 @@ tickers:
   target: WETH
 - base: KNC
   market:
-    identifier: dextop
-    name: DEx.top
-  target: ETH
-- base: KNC
-  market:
-    identifier: dragonex
-    name: DragonEx
-  target: ETH
-- base: KNC
-  market:
     identifier: ethex
     name: Ethex
   target: ETH
 - base: KNC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: KNC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: fcoin
+    name: FCoin
   target: ETH
-- base: KNC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: KNC
   market:
     identifier: gopax
@@ -217,14 +212,19 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: KNC
   market:
     identifier: joyso
     name: Joyso
   target: ETH
+- base: KNC
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: KNC
   market:
     identifier: max_maicoin
@@ -235,11 +235,6 @@ tickers:
     identifier: oax
     name: OAX
   target: ETH
-- base: KNC
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
 - base: KNC
   market:
     identifier: p2pb2b
@@ -309,7 +304,7 @@ tickers:
   market:
     identifier: zb
     name: ZB
-  target: BTC
+  target: USDT
 - base: KNC
   market:
     identifier: zgtop

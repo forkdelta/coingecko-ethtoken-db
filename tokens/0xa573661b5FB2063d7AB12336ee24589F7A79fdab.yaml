@@ -25,11 +25,6 @@ symbol: ichx
 tickers:
 - base: ICHX
   market:
-    identifier: coinlim
-    name: Coinlim
-  target: BTC
-- base: ICHX
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -53,6 +48,11 @@ tickers:
     identifier: graviex
     name: Graviex
   target: ETH
+- base: ICHX
+  market:
+    identifier: secondbtc
+    name: SecondBTC
+  target: BTC
 - base: ICHX
   market:
     identifier: switcheo

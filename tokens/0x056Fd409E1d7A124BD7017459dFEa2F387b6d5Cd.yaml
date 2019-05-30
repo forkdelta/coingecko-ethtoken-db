@@ -78,16 +78,26 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
+- base: ETH
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
+- base: BIX
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD
 - base: BTC
   market:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: BIX1901
+- base: GUSD
   market:
     identifier: bibox
     name: Bibox
-  target: GUSD
+  target: USDT
 - base: GUSD
   market:
     identifier: bilaxy
@@ -150,6 +160,11 @@ tickers:
   target: BTC
 - base: GUSD
   market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
+- base: GUSD
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -158,11 +173,6 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
-- base: GUSD
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
 - base: GUSD
   market:
     identifier: coinmex
@@ -188,6 +198,11 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
+- base: BWT
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
 - base: ETH
   market:
     identifier: coss
@@ -198,21 +213,11 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
-- base: BWT
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
 - base: XRP
   market:
     identifier: coss
     name: COSS
   target: GUSD
-- base: GUSD
-  market:
-    identifier: coss
-    name: COSS
-  target: USD
 - base: GUSD
   market:
     identifier: cpdax
@@ -253,6 +258,11 @@ tickers:
     identifier: everbloom
     name: Everbloom
   target: ETH
+- base: GUSD
+  market:
+    identifier: exmo
+    name: EXMO
+  target: RUB
 - base: EOS
   market:
     identifier: fatbtc
@@ -313,6 +323,11 @@ tickers:
     identifier: oax
     name: OAX
   target: USDT
+- base: GUSD
+  market:
+    identifier: okcoin
+    name: OKCoin
+  target: USD
 - base: BTC
   market:
     identifier: quoine
@@ -333,6 +348,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: BTC
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: GUSD
 - base: GUSD
   market:
     identifier: tokenize
@@ -343,6 +363,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: GUSD
   market:
     identifier: trade_satoshi
@@ -358,6 +383,11 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: LTC
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT
 - base: GUSD
   market:
     identifier: uniswap

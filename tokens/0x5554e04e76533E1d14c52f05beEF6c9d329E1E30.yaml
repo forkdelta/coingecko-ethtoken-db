@@ -28,22 +28,12 @@ tickers:
   market:
     identifier: crypto_bridge
     name: CryptoBridge
-  target: BTC
-- base: NIO
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
   target: ETH
 - base: ETH
   market:
     identifier: crypto_bridge
     name: CryptoBridge
   target: NIO
-- base: BTC
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: NIO
 - base: NIO
   market:
     identifier: ethfinex
@@ -51,13 +41,28 @@ tickers:
   target: ETH
 - base: NIO
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: NIO
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: NIO
+  market:
+    identifier: exrates
+    name: Exrates
   target: USD
 - base: NIO
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: NIO
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: NIO
   market:

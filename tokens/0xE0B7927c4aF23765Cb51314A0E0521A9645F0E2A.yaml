@@ -80,11 +80,6 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
-- base: DGD
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -193,12 +188,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: GRC
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: ETH
+- base: STEEM
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -208,7 +198,12 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: STEEM
+- base: ETH
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX

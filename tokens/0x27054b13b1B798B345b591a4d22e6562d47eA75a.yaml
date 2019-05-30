@@ -33,6 +33,16 @@ tickers:
   target: USDT
 - base: AST
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: AST
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: AST
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -45,6 +55,16 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: AST
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: AST
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: AST
   market:
@@ -76,3 +96,13 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: AST
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: AST
+  market:
+    identifier: velic
+    name: Velic
+  target: VELT

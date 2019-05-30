@@ -67,11 +67,6 @@ symbol: lpt
 tickers:
 - base: LPT
   market:
-    identifier: biki
-    name: Biki
-  target: USDT
-- base: LPT
-  market:
     identifier: dcoin
     name: Dcoin
   target: BTC
@@ -90,6 +85,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: LPT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: LPT
   market:
     identifier: tokenjar

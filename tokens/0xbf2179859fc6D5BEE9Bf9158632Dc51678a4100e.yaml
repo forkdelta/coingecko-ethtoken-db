@@ -74,11 +74,6 @@ tickers:
   target: BTC
 - base: ELF
   market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
-- base: ELF
-  market:
     identifier: bcex
     name: BCEX
   target: BTC
@@ -172,6 +167,11 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: ETH
+- base: ELF
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: ELF
   market:
     identifier: forkdelta

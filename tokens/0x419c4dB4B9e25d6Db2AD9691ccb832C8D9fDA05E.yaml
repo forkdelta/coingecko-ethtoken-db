@@ -72,22 +72,7 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: BTC
-- base: DRGN
-  market:
-    identifier: coss
-    name: COSS
   target: ETH
-- base: DRGN
-  market:
-    identifier: coss
-    name: COSS
-  target: USD
-- base: DRGN
-  market:
-    identifier: coss
-    name: COSS
-  target: USDT
 - base: DRGN
   market:
     identifier: cryptaldash
@@ -117,7 +102,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: USD
 - base: DRGN
   market:
     identifier: forkdelta
@@ -125,8 +110,8 @@ tickers:
   target: ETH
 - base: DRGN
   market:
-    identifier: idex
-    name: Idex
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: DRGN
   market:
@@ -142,7 +127,17 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: DRGN
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
+- base: DRGN
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: DRGN
   market:
     identifier: livecoin
@@ -153,6 +148,11 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
+- base: DRGN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
 - base: DRGN
   market:
     identifier: tidex

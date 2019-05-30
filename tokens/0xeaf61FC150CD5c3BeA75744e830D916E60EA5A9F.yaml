@@ -68,17 +68,22 @@ tickers:
   market:
     identifier: coin_exchange
     name: Coinexchange
-  target: DOGE
+  target: LTC
 - base: TYPE
   market:
-    identifier: coin_exchange
-    name: Coinexchange
+    identifier: coinlim
+    name: Coinlim
+  target: BTC
+- base: TYPE
+  market:
+    identifier: coinlim
+    name: Coinlim
   target: ETH
 - base: TYPE
   market:
-    identifier: coin_exchange
-    name: Coinexchange
-  target: LTC
+    identifier: coinlim
+    name: Coinlim
+  target: USDT
 - base: TYPE
   market:
     identifier: idex

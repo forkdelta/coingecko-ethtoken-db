@@ -38,6 +38,11 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
+  target: AXPR
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
   target: BCH
 - base: DENT
   market:
@@ -150,11 +155,6 @@ tickers:
     name: BIG markets
   target: DENT
 - base: GNT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: AAA
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -341,11 +341,6 @@ tickers:
   target: ETH
 - base: DENT
   market:
-    identifier: ethex
-    name: Ethex
-  target: ETH
-- base: DENT
-  market:
     identifier: fatbtc
     name: FatBTC
   target: ETH
@@ -359,6 +354,16 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
+- base: DENT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DENT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: DENT
   market:
     identifier: joyso
@@ -399,11 +404,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDT
-- base: DENT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: DENT
   market:
     identifier: radar_relay

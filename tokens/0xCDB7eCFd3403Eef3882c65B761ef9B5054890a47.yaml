@@ -29,6 +29,11 @@ tickers:
   market:
     identifier: coinmex
     name: CoinMex
+  target: ETH
+- base: HUR
+  market:
+    identifier: coinmex
+    name: CoinMex
   target: USDT
 - base: HUR
   market:
@@ -50,11 +55,6 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: HUR
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH
 - base: HUR
   market:
     identifier: tokenjar
@@ -90,8 +90,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: HUR
-  market:
-    identifier: zgtop
-    name: ZG.TOP
-  target: USDT

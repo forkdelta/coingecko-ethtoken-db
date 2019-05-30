@@ -38,11 +38,6 @@ tickers:
   target: USDT
 - base: WAX
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: WAX
-  market:
     identifier: bibox
     name: Bibox
   target: BTC
@@ -61,6 +56,11 @@ tickers:
     identifier: blockonix
     name: Blockonix
   target: USDT
+- base: WAX
+  market:
+    identifier: c2cx
+    name: C2CX
+  target: BTC
 - base: WAX
   market:
     identifier: c2cx
@@ -115,21 +115,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: WAX
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
 - base: WAX
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: WAX
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: WAX
   market:

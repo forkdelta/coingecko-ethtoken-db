@@ -71,13 +71,18 @@ tickers:
   target: LTC
 - base: UFR
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: UFR
   market:
-    identifier: idex
-    name: Idex
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: UFR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: UFR
   market:
@@ -89,6 +94,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: UFR
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
 - base: UFR
   market:
     identifier: tokenjar

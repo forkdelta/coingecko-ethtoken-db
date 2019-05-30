@@ -34,9 +34,19 @@ symbol: dtrc
 tickers:
 - base: DTRC
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: DTRC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: DTRC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: DTRC
   market:
     identifier: idex

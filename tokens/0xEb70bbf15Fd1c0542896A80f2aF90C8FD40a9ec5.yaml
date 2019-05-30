@@ -21,6 +21,11 @@ symbol: innbc
 tickers:
 - base: INNBC
   market:
+    identifier: ccx
+    name: CCX Canada
+  target: ETH
+- base: INNBC
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -29,6 +34,11 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: INNBC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: INNBC
   market:
     identifier: thetokenstore

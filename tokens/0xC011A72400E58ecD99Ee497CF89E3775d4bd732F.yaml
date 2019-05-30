@@ -47,6 +47,7 @@ links:
   repos_url:
     github:
     - https://github.com/Synthetixio/synthetix
+    - https://github.com/Synthetixio/synthetix-js
   subreddit_url: https://www.reddit.com/r/synthetix_io/
   telegram_channel_identifier: havven_official1
   twitter_screen_name: synthetix_io
@@ -54,11 +55,6 @@ name: Synthetix
 symbol: snx
 tickers:
 - base: HAV
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SNX
   market:
     identifier: idex
     name: Idex
@@ -74,11 +70,6 @@ tickers:
     name: KuCoin
   target: ETH
 - base: HAV
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: USDT
-- base: SNX
   market:
     identifier: kucoin
     name: KuCoin

@@ -104,11 +104,6 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: NCA
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
 - base: NCA
   market:
@@ -150,6 +145,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: NCASH
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: NCASH
   market:
     identifier: wazirx

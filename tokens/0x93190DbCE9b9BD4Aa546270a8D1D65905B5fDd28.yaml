@@ -27,11 +27,6 @@ symbol: daps
 tickers:
 - base: DAPS
   market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
-- base: DAPS
-  market:
     identifier: catex
     name: Catex
   target: BTC
@@ -50,6 +45,11 @@ tickers:
     identifier: catex
     name: Catex
   target: USDT
+- base: DAPS
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
 - base: DAPS
   market:
     identifier: cryptopia

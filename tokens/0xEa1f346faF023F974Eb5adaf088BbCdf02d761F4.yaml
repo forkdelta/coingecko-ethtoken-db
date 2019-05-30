@@ -25,8 +25,8 @@ symbol: tix
 tickers:
 - base: TIX
   market:
-    identifier: chainex
-    name: ChainEX
+    identifier: bittrex
+    name: Bittrex
   target: BTC
 - base: TIX
   market:
@@ -60,11 +60,6 @@ tickers:
   target: ETH
 - base: TIX
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: TIX
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
@@ -78,6 +73,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: TIX
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: TIX
   market:
     identifier: upbit

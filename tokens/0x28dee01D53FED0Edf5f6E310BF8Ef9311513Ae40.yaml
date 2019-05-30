@@ -27,11 +27,6 @@ symbol: xbp
 tickers:
 - base: XBP
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: XBP
-  market:
     identifier: cryptopia
     name: Cryptopia
   target: BTC
@@ -55,6 +50,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: XBP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: XBP
   market:
     identifier: tokenjar
