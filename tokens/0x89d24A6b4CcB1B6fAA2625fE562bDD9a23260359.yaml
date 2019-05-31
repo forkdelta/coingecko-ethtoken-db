@@ -92,21 +92,41 @@ tickers:
     identifier: bibox
     name: Bibox
   target: DAI
-- base: DAI
+- base: BTC
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
+    identifier: bibox
+    name: Bibox
+  target: DAI
+- base: BTC
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: ICX
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: GVT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: BAT
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: ETH
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
 - base: DAI
   market:
     identifier: codex
     name: CODEX
   target: BTC
-- base: DAI
-  market:
-    identifier: codex
-    name: CODEX
-  target: ETH
 - base: DAI
   market:
     identifier: coinchangex
@@ -117,17 +137,7 @@ tickers:
     identifier: coinsuper
     name: Coinsuper
   target: ETH
-- base: WBTC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
-- base: TUSD
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
-- base: OMG
+- base: USDC
   market:
     identifier: ddex
     name: DDEX
@@ -137,12 +147,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: USDC
+- base: WBTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
+- base: OMG
   market:
     identifier: ddex
     name: DDEX
   target: DAI
 - base: ZRX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
+- base: TUSD
   market:
     identifier: ddex
     name: DDEX
@@ -162,17 +182,12 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: DAI
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: ZRX
+- base: MKR
   market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: MKR
+- base: ZRX
   market:
     identifier: ethfinex
     name: Ethfinex
@@ -182,6 +197,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
+- base: DAI
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: FAT
   market:
     identifier: fatbtc
@@ -194,55 +214,40 @@ tickers:
   target: USDT
 - base: DAI
   market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: USD
-- base: POA20
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: MKR
+- base: THETA
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: NEWB
+- base: CL
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: IFT
+- base: INS
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: HOT
+- base: SNM
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: SNIP
+- base: FSN
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: CRED
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: AIR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: GET
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: AION
+- base: LEND
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -256,12 +261,12 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
+  target: TL
 - base: DAI
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TL
+  target: USD
 - base: LTC
   market:
     identifier: south_xchange
@@ -277,16 +282,11 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: WBTC
+- base: SDUSD
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: DAI
-  market:
-    identifier: three_xbit
-    name: 3XBIT
-  target: USD
 - base: DAI
   market:
     identifier: tokenjar

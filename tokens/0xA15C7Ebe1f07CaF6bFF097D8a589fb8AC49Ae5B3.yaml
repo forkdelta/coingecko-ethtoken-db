@@ -130,11 +130,6 @@ tickers:
   target: USDT
 - base: NPXS
   market:
-    identifier: catex
-    name: Catex
-  target: BTC
-- base: NPXS
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
@@ -153,6 +148,11 @@ tickers:
     identifier: coss
     name: COSS
   target: ETH
+- base: NPXS
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -183,11 +183,6 @@ tickers:
     identifier: dextrade
     name: Dextrade
   target: USD
-- base: NPXS
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: BTC
 - base: NPXS
   market:
     identifier: exrates
@@ -225,11 +220,6 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: indodax
-    name: Indodax (Bitcoin Indonesia)
-  target: IDR
-- base: NPXS
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -237,7 +227,17 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
+- base: NPXS
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: NPXS
   market:
     identifier: livecoin
@@ -287,12 +287,22 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
 - base: NPXS
   market:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
+- base: NPXS
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
 - base: NPXS
   market:
     identifier: tidex

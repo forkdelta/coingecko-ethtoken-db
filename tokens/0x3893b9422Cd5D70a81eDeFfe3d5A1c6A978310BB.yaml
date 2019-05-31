@@ -84,11 +84,6 @@ tickers:
     identifier: altilly
     name: Altilly
   target: USDT
-- base: MITH-C76
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
 - base: MITH
   market:
     identifier: bitrabbit
@@ -174,6 +169,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: MIT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MITH
   market:
     identifier: fcoin
@@ -213,6 +213,11 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: MITH
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: MITH
   market:
@@ -229,11 +234,6 @@ tickers:
     identifier: max_maicoin
     name: Max Maicoin
   target: ETH
-- base: MITH
-  market:
-    identifier: max_maicoin
-    name: Max Maicoin
-  target: MAX
 - base: MITH
   market:
     identifier: max_maicoin
@@ -264,3 +264,8 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
+- base: MITH
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

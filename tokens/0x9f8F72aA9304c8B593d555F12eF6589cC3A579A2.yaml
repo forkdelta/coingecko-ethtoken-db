@@ -59,19 +59,19 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: alterdice
+    name: AlterDice
   target: BTC
+- base: MKR
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
 - base: MKR
   market:
     identifier: bibox
     name: Bibox
   target: ETH
-- base: MKR
-  market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: BTC
 - base: MKR
   market:
     identifier: bitebtc
@@ -124,6 +124,11 @@ tickers:
   target: USDT
 - base: MKR
   market:
+    identifier: c_patex
+    name: C-Patex
+  target: BTC
+- base: MKR
+  market:
     identifier: codex
     name: CODEX
   target: ETH
@@ -144,11 +149,6 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: coss
-    name: COSS
-  target: USDT
-- base: MKR
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -162,6 +162,11 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
+- base: MKR
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
 - base: MKR
   market:
     identifier: cybex
@@ -182,11 +187,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: ETH
-- base: MKR
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: MKR
   market:
     identifier: ethfinex
@@ -204,9 +204,9 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: BTC
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: MKR
   market:
     identifier: gopax
@@ -217,6 +217,11 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
+- base: MKR
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: MKR
   market:
     identifier: idex
@@ -264,11 +269,6 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
@@ -277,6 +277,11 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TL
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: MKR
   market:
     identifier: thetokenstore

@@ -37,6 +37,11 @@ symbol: zcn
 tickers:
 - base: ZCN
   market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: ZCN
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
@@ -44,12 +49,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: ETH
 - base: ZCN
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: ZCN
   market:
     identifier: tokenjar

@@ -15,7 +15,17 @@ links:
 name: Bitsten Token
 symbol: bst
 tickers:
+- base: LTC
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
 - base: BCHIP
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
+- base: GFN
   market:
     identifier: bitsten
     name: Bitsten
@@ -24,7 +34,7 @@ tickers:
   market:
     identifier: bitsten
     name: Bitsten
-  target: BTC
+  target: ETH
 - base: BST
   market:
     identifier: bitsten

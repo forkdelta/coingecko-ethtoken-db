@@ -150,11 +150,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: POLY
   market:
     identifier: fcoin
@@ -182,11 +177,6 @@ tickers:
   target: XRP
 - base: POLY
   market:
-    identifier: korbit
-    name: Korbit
-  target: KRW
-- base: POLY
-  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -195,6 +185,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: POLY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: POLY
   market:
     identifier: latoken

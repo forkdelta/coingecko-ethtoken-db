@@ -78,12 +78,12 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: ETH
+- base: BIX1901
   market:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: BIX
+- base: ETH
   market:
     identifier: bibox
     name: Bibox
@@ -175,6 +175,11 @@ tickers:
   target: ETH
 - base: GUSD
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: GUSD
+  market:
     identifier: coinmex
     name: CoinMex
   target: BTC
@@ -183,11 +188,6 @@ tickers:
     identifier: coinpark
     name: Coinpark
   target: USDT
-- base: ETH
-  market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: GUSD
 - base: GUSD
   market:
     identifier: coss
@@ -208,11 +208,6 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
 - base: XRP
   market:
     identifier: coss
@@ -220,9 +215,9 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: cpdax
-    name: CPDAX
-  target: BTC
+    identifier: coss
+    name: COSS
+  target: USD
 - base: GUSD
   market:
     identifier: crex24
@@ -303,6 +298,11 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: USD
+- base: GUSD
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: GUSD
   market:
     identifier: latoken

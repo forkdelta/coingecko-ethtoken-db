@@ -75,6 +75,16 @@ tickers:
   target: ETH
 - base: DRGN
   market:
+    identifier: coss
+    name: COSS
+  target: USD
+- base: DRGN
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
+- base: DRGN
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -102,17 +112,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: DRN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
-- base: DRGN
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DRGN
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: DRGN
   market:
     identifier: kucoin

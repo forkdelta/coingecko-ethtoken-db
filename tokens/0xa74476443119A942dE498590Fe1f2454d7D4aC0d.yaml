@@ -76,6 +76,11 @@ symbol: gnt
 tickers:
 - base: GNT
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: GNT
+  market:
     identifier: buyucoin
     name: BuyUcoin
   target: INR
@@ -91,11 +96,6 @@ tickers:
   target: ETH
 - base: GNT
   market:
-    identifier: jex
-    name: JEX
-  target: USDT
-- base: GNT
-  market:
     identifier: sistemkoin
     name: Sistemkoin
   target: TL
@@ -109,6 +109,11 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
+- base: GNT
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: TIO
 - base: GNT
   market:
     identifier: vebitcoin

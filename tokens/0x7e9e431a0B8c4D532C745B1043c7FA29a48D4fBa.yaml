@@ -53,11 +53,6 @@ tickers:
   target: BIX
 - base: EOSDAC
   market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: EOSDAC
-  market:
     identifier: bigone
     name: BigONE
   target: BTC
@@ -131,18 +126,23 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: EOSDAC
-- base: EOSDAC
+- base: EOS
   market:
-    identifier: otcbtc
-    name: OTCBTC
-  target: ETH
-- base: EOSDAC
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
+    identifier: openledger
+    name: OpenLedger DEX
+  target: EOSDAC
 - base: EOSDAC
   market:
     identifier: six_x
     name: 6x
   target: USDX
+- base: EOSDAC
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC
+- base: EOSDAC
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

@@ -23,9 +23,34 @@ symbol: kbc
 tickers:
 - base: KBC
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: KBC
+  market:
     identifier: coinall
     name: CoinAll
   target: ETH
+- base: KBC
+  market:
+    identifier: coinbe
+    name: Coinbe
+  target: BTC
+- base: KBC
+  market:
+    identifier: coinbe
+    name: Coinbe
+  target: ETH
+- base: KBC
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: KBC
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
 - base: KBC
   market:
     identifier: coineal
@@ -51,6 +76,11 @@ tickers:
     identifier: lbank
     name: Lbank
   target: USDT
+- base: KBC
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: KBC
   market:
     identifier: okex

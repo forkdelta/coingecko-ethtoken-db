@@ -41,6 +41,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: EURS
+  market:
+    identifier: dsx
+    name: DSX
+  target: EUR
 - base: LTC
   market:
     identifier: dsx
@@ -51,6 +56,16 @@ tickers:
     identifier: dsx
     name: DSX
   target: EURS
+- base: ETH
+  market:
+    identifier: dsx
+    name: DSX
+  target: EURS
+- base: EURS
+  market:
+    identifier: dsx
+    name: DSX
+  target: USD
 - base: EURS
   market:
     identifier: hitbtc
@@ -61,7 +76,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: XRP
+- base: ZEC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -71,22 +91,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: BOX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: ZEC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: DASH
+- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC

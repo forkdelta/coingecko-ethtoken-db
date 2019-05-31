@@ -53,6 +53,7 @@ links:
   - https://enjinx.io/eth/token/0x514910771af9ca656af840dff83e8264ecf986ca
   - https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca
   - https://ethplorer.io/address/0x514910771af9ca656af840dff83e8264ecf986ca
+  - https://explorer.chain.link
   homepage:
   - https://chain.link/
   repos_url:
@@ -65,11 +66,6 @@ links:
 name: ChainLink
 symbol: link
 tickers:
-- base: LINK
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
 - base: LINK
   market:
     identifier: axnet
@@ -172,9 +168,19 @@ tickers:
   target: ETH
 - base: LINK
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: LINK
+  market:
     identifier: idex
     name: Idex
   target: WBTC
+- base: LINK
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: LINK
   market:
     identifier: oax

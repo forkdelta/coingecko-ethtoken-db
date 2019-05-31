@@ -177,6 +177,11 @@ tickers:
   target: ETH
 - base: LOOM
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LOOM
+  market:
     identifier: dextop
     name: DEx.top
   target: ETH
@@ -227,14 +232,19 @@ tickers:
   target: ETH
 - base: LOOM
   market:
-    identifier: korbit
-    name: Korbit
-  target: KRW
-- base: LOOM
-  market:
     identifier: kucoin
     name: KuCoin
   target: NEO
+- base: LOOM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LOOM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: LOOM
   market:
     identifier: latoken
@@ -270,6 +280,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: LOOM
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: LOOM
   market:
     identifier: tidex

@@ -84,11 +84,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CNX
-- base: BCH
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: CTXC
 - base: ETC
   market:
     identifier: bigmarkets
@@ -225,11 +220,6 @@ tickers:
     name: BIG markets
   target: CTXC
 - base: BTC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: CTXC
-- base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -393,6 +383,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: CTX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: CTX
   market:
@@ -424,6 +419,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: CTXC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: CTXC
   market:
     identifier: thinkbit

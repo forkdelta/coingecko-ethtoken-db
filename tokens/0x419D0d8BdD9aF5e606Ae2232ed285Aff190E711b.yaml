@@ -78,11 +78,6 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: FUN
-  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -153,13 +148,18 @@ tickers:
   target: BTC
 - base: FUN
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: FUN
-  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: FUN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: FUN
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: FUN
   market:
@@ -221,6 +221,11 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
+- base: FUN
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: FUN
   market:
     identifier: zb

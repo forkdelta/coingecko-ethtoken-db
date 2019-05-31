@@ -65,11 +65,6 @@ symbol: dgd
 tickers:
 - base: DGD
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: DGD
-  market:
     identifier: alterdice
     name: AlterDice
   target: BTC
@@ -188,12 +183,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: STEEM
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: DGD
-- base: USDT
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -203,7 +193,12 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: GRC
+- base: USDT
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: DGD
+- base: STEEM
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -228,8 +223,3 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: DGD
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
