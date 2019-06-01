@@ -22,16 +22,16 @@ symbol: wbtc
 tickers:
 - base: WBTC
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: WBTC
+  market:
     identifier: ddex
     name: DDEX
   target: DAI
 - base: WBTC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: WBTC
-  market:
     identifier: idex
     name: Idex
   target: DAI
@@ -40,6 +40,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: GET
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: XENC
   market:
     identifier: idex
@@ -60,12 +65,12 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: GET
+- base: OMG
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: OMG
+- base: CAJ
   market:
     identifier: idex
     name: Idex
@@ -90,16 +95,6 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: CAJ
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: FTM
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: BAT
   market:
     identifier: idex
@@ -110,12 +105,17 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: RC20
+- base: FTM
   market:
     identifier: idex
     name: Idex
   target: WBTC
 - base: ETH
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: RC20
   market:
     identifier: idex
     name: Idex
@@ -135,3 +135,13 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: BTC
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

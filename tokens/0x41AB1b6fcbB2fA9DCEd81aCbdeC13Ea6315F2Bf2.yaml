@@ -261,7 +261,12 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: XDCE
-- base: AXPR
+- base: GVT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: XDCE
+- base: ZEC
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -291,12 +296,7 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: XDCE
-- base: GVT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: XDCE
-- base: ZEC
+- base: AXPR
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -383,11 +383,6 @@ tickers:
   target: ETH
 - base: XDCE
   market:
-    identifier: indodax
-    name: Indodax (Bitcoin Indonesia)
-  target: IDR
-- base: XDCE
-  market:
     identifier: koinok
     name: Koinok
   target: INR
@@ -406,6 +401,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: USDT
+- base: XDCE
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: USDC
 - base: XDCE
   market:
     identifier: p2pb2b
