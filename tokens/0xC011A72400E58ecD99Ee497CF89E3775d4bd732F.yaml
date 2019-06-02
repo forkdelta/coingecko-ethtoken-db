@@ -54,6 +54,11 @@ links:
 name: Synthetix Network Token
 symbol: snx
 tickers:
+- base: SNX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: HAV
   market:
     identifier: idex
@@ -70,6 +75,11 @@ tickers:
     name: KuCoin
   target: ETH
 - base: HAV
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: USDT
+- base: SNX
   market:
     identifier: kucoin
     name: KuCoin

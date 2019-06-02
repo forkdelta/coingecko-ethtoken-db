@@ -41,21 +41,21 @@ tickers:
     identifier: coin_exchange
     name: Coinexchange
   target: ETH
-- base: SPANK
+- base: SPK
   market:
-    identifier: cryptopia
-    name: Cryptopia
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
+- base: SPK
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: SPANK
   market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: DOGE
-- base: SPANK
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: LTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: SPANK
   market:
     identifier: idex

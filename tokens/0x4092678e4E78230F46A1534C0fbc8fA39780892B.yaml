@@ -45,6 +45,11 @@ tickers:
   target: BTC
 - base: OCN
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: OCN
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -72,11 +77,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: OCN
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
 - base: OCN
   market:
@@ -113,3 +113,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDT
+- base: OCN
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

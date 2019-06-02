@@ -73,8 +73,13 @@ tickers:
   target: ETH
 - base: LA
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: LA
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: LA
   market:
@@ -86,11 +91,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: EVY
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: AGLT
   market:
     identifier: latoken
@@ -106,7 +106,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: USAT
+- base: HUR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: NRVE
   market:
     identifier: latoken
     name: LATOKEN
@@ -436,17 +441,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: HUR
+- base: EVY
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: NRVE
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: KNT
+- base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
@@ -456,12 +456,17 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: CPT
+- base: USAT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: NPXS
+- base: KNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: CPT
   market:
     identifier: latoken
     name: LATOKEN

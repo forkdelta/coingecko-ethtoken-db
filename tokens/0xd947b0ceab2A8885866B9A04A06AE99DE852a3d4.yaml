@@ -34,7 +34,22 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: BCH
+- base: TIOX
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: BTC
+- base: REP
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: TIOX
+- base: PCO
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: TIOX
+- base: ZRX
   market:
     identifier: tradeio
     name: Trade.io
@@ -59,11 +74,6 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: TIOX
-- base: REP
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: TIOX
 - base: LTC
   market:
     identifier: tradeio
@@ -79,12 +89,12 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: TIOX
-- base: MITH
+- base: BCH
   market:
     identifier: tradeio
     name: Trade.io
   target: TIOX
-- base: PCO
+- base: MITH
   market:
     identifier: tradeio
     name: Trade.io
@@ -94,13 +104,13 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: TIOX
-- base: ZRX
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: TIOX
 - base: TIOX
   market:
     identifier: tradeio
     name: Trade.io
   target: TUSD
+- base: TIOX
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: USDT

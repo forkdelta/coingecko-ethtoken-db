@@ -58,11 +58,6 @@ symbol: iost
 tickers:
 - base: IOST
   market:
-    identifier: abcc
-    name: ABCC
-  target: ETH
-- base: IOST
-  market:
     identifier: airswap
     name: AirSwap
   target: ETH
@@ -78,9 +73,9 @@ tickers:
   target: ETH
 - base: IOST
   market:
-    identifier: axnet
-    name: AXNET
-  target: USDT
+    identifier: bleutrade
+    name: bleutrade
+  target: BTC
 - base: IOST
   market:
     identifier: bleutrade
@@ -90,17 +85,22 @@ tickers:
   market:
     identifier: bleutrade
     name: bleutrade
-  target: ETH
-- base: IOST
-  market:
-    identifier: bleutrade
-    name: bleutrade
   target: USDT
 - base: IOST
   market:
-    identifier: catex
-    name: Catex
+    identifier: blockonix
+    name: Blockonix
   target: ETH
+- base: IOST
+  market:
+    identifier: blockonix
+    name: Blockonix
+  target: USDT
+- base: IOST
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: BTC
 - base: IOST
   market:
     identifier: cobinhood
@@ -113,19 +113,19 @@ tickers:
   target: USDT
 - base: IOST
   market:
-    identifier: coinpark
-    name: Coinpark
-  target: ETH
-- base: IOST
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
 - base: IOST
   market:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
+- base: IOST
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
 - base: IOST
   market:
     identifier: ddex
@@ -146,6 +146,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: IOS
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: IOST
   market:
     identifier: fex
@@ -153,13 +158,13 @@ tickers:
   target: ETH
 - base: IOST
   market:
-    identifier: gopax
-    name: GoPax
-  target: ETH
+    identifier: gbx
+    name: Gibraltar Blockchain Exchange
+  target: USD
 - base: IOST
   market:
-    identifier: joyso
-    name: Joyso
+    identifier: gopax
+    name: GoPax
   target: ETH
 - base: IOST
   market:
@@ -168,16 +173,11 @@ tickers:
   target: XRP
 - base: IOST
   market:
+    identifier: oceanex
+    name: Oceanex
+  target: BTC
+- base: IOST
+  market:
     identifier: purcow
     name: Purcow
   target: ETH
-- base: IOST
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: IOST
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH

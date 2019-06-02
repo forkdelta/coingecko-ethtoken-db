@@ -34,16 +34,6 @@ symbol: omx
 tickers:
 - base: OMX
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: OMX
-  market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: BTC
-- base: OMX
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -51,6 +41,16 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: OMX
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: OMX
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: OMX
   market:

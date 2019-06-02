@@ -57,26 +57,6 @@ tickers:
   target: ETH
 - base: MGO
   market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: BTC
-- base: MGO
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: DOGE
-- base: MGO
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: LTC
-- base: MGO
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: BTC
-- base: MGO
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -95,16 +75,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: WMGO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: EMGO
   market:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: WMGO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: MGO
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: MGO
   market:
     identifier: idax

@@ -31,6 +31,11 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: LTC
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
 - base: EURS
   market:
     identifier: ddex
@@ -76,12 +81,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: ZEC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: DASH
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -91,7 +91,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: XMR
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -106,6 +116,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: TUSD
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: BTC
   market:
     identifier: kuna
@@ -116,6 +131,11 @@ tickers:
     identifier: kuna
     name: Kuna Exchange
   target: UAH
+- base: EURS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: BTC
   market:
     identifier: livecoin

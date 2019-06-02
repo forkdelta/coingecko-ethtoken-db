@@ -45,11 +45,6 @@ tickers:
   target: ETH
 - base: CYMT
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: CYMT
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -58,6 +53,11 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: CYMT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: CYMT
   market:
     identifier: tokenjar
