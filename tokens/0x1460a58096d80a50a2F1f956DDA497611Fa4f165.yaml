@@ -43,6 +43,11 @@ symbol: chx
 tickers:
 - base: CHX
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: CHX
+  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -66,6 +71,21 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: CHX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: CHX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: CHX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: CHX
   market:
     identifier: idex

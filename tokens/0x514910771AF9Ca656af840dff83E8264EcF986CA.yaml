@@ -68,6 +68,11 @@ symbol: link
 tickers:
 - base: LINK
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: LINK
+  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -163,16 +168,6 @@ tickers:
   target: ETH
 - base: LINK
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: LINK
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: LINK
-  market:
     identifier: idex
     name: Idex
   target: WBTC
@@ -191,6 +186,16 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: LINK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: LINK-GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR
+  market:
+    identifier: stellar_term
+    name: StellarTerm
+  target: XLM
 - base: LINK
   market:
     identifier: switcheo

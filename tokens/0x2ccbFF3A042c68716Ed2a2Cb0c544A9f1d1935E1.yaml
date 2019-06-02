@@ -51,6 +51,11 @@ symbol: dmt
 tickers:
 - base: DMT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: DMT
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -84,6 +89,11 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: DMT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
 - base: DMT
   market:
     identifier: yobit

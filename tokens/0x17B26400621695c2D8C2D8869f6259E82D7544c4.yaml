@@ -28,6 +28,11 @@ symbol: ccn
 tickers:
 - base: CCN
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CCN
+  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
@@ -35,4 +40,9 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: ETH
+- base: CCN
+  market:
+    identifier: stocks_exchange
+    name: STEX
   target: ETH

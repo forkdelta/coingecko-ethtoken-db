@@ -35,4 +35,14 @@ links:
   twitter_screen_name: OrigoNetwork
 name: Origo
 symbol: ogo
-tickers: []
+tickers:
+- base: OGO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: OGO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

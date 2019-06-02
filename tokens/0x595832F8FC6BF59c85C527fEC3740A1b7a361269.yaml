@@ -107,6 +107,11 @@ tickers:
   target: BTC
 - base: POWR
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: ETH
+- base: POWR
+  market:
     identifier: coinzest
     name: Coinzest
   target: BTC
@@ -139,27 +144,7 @@ tickers:
   market:
     identifier: crypto_bridge
     name: CryptoBridge
-  target: BTC
-- base: POWR
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
   target: ETH
-- base: POWR
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: BTC
-- base: POWR
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: DOGE
-- base: POWR
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: LTC
 - base: POWR
   market:
     identifier: daybit
@@ -204,6 +189,16 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: POWR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: POWR
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: POWR
   market:

@@ -70,6 +70,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: DAD
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: DAD
   market:
@@ -93,9 +98,29 @@ tickers:
   target: ETH
 - base: DADI
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DADI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DADI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DADI
+  market:
     identifier: kucoin
     name: KuCoin
   target: USDT
+- base: DADI
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: DADI
   market:
     identifier: tokenjar

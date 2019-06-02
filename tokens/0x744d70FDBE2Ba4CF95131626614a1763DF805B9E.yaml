@@ -57,6 +57,11 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: bitbox
+    name: BITBOX
+  target: ETH
+- base: SNT
+  market:
     identifier: coinmex
     name: CoinMex
   target: ETH
@@ -65,11 +70,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: ETH
-- base: SNT
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: SNT
   market:
     identifier: ethex
@@ -87,9 +87,34 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: SNT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: SNT
+  market:
     identifier: gopax
     name: GoPax
-  target: KRW
+  target: BTC
+- base: SNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SNT
+  market:
+    identifier: iqfinex
+    name: IQFinex
+  target: BTC
+- base: SNT
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: SNT
   market:
     identifier: latoken
@@ -127,6 +152,11 @@ tickers:
   target: TRY
 - base: SNT
   market:
-    identifier: zb
-    name: ZB
+    identifier: wazirx
+    name: WazirX
   target: BTC
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

@@ -57,11 +57,6 @@ symbol: knc
 tickers:
 - base: KNC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: KNC
-  market:
     identifier: axnet
     name: AXNET
   target: BTC
@@ -122,6 +117,11 @@ tickers:
   target: KRW
 - base: KNC
   market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: KNC
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: CRD
@@ -135,16 +135,6 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
-- base: KNC
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: DOGE
-- base: KNC
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: LTC
 - base: KNC
   market:
     identifier: cybex
@@ -187,9 +177,24 @@ tickers:
   target: WETH
 - base: KNC
   market:
+    identifier: dextop
+    name: DEx.top
+  target: ETH
+- base: KNC
+  market:
+    identifier: dragonex
+    name: DragonEx
+  target: ETH
+- base: KNC
+  market:
     identifier: ethex
     name: Ethex
   target: ETH
+- base: KNC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: KNC
   market:
     identifier: ethfinex
@@ -204,6 +209,11 @@ tickers:
   market:
     identifier: fcoin
     name: FCoin
+  target: ETH
+- base: KNC
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: KNC
   market:
@@ -227,6 +237,11 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: KNC
+  market:
     identifier: max_maicoin
     name: Max Maicoin
   target: TWDT
@@ -235,6 +250,11 @@ tickers:
     identifier: oax
     name: OAX
   target: ETH
+- base: KNC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
 - base: KNC
   market:
     identifier: p2pb2b
@@ -272,13 +292,13 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: KNC
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: saturn_network
+    name: Saturn Network
   target: ETH
 - base: KNC
   market:

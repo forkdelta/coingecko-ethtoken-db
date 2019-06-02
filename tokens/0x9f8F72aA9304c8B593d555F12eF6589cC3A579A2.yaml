@@ -61,12 +61,17 @@ tickers:
   market:
     identifier: alterdice
     name: AlterDice
-  target: BTC
+  target: ETH
 - base: MKR
   market:
     identifier: alterdice
     name: AlterDice
-  target: ETH
+  target: USD
+- base: MKR
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: MKR
   market:
     identifier: bibox
@@ -114,6 +119,11 @@ tickers:
   target: USDT
 - base: MKR
   market:
+    identifier: bitsane
+    name: Bitsane
+  target: XRP
+- base: MKR
+  market:
     identifier: blockonix
     name: Blockonix
   target: ETH
@@ -122,11 +132,6 @@ tickers:
     identifier: blockonix
     name: Blockonix
   target: USDT
-- base: MKR
-  market:
-    identifier: c_patex
-    name: C-Patex
-  target: BTC
 - base: MKR
   market:
     identifier: codex
@@ -142,11 +147,6 @@ tickers:
     identifier: coinmex
     name: CoinMex
   target: ETH
-- base: MKR
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
 - base: MKR
   market:
     identifier: cryptaldash
@@ -189,6 +189,11 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MKR
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
@@ -209,6 +214,11 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: gdax
+    name: Coinbase Pro
+  target: BTC
+- base: MKR
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -222,6 +232,11 @@ tickers:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: MKR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: MKR
   market:
     identifier: idex
@@ -281,7 +296,7 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: USDT
 - base: MKR
   market:
     identifier: thetokenstore

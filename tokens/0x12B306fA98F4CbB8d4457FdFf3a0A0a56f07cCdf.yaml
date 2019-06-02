@@ -24,6 +24,11 @@ symbol: sxdt
 tickers:
 - base: SXDT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: SXDT
+  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -32,6 +37,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: SXDT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: SXDT
   market:
     identifier: thetokenstore

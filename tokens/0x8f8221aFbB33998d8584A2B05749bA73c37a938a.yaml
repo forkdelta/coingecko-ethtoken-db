@@ -93,11 +93,6 @@ tickers:
   target: BTC
 - base: REQ
   market:
-    identifier: coineal
-    name: Coineal
-  target: ETH
-- base: REQ
-  market:
     identifier: coss
     name: COSS
   target: BTC
@@ -153,6 +148,11 @@ tickers:
   target: BTC
 - base: REQ
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: REQ
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -161,11 +161,6 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
-- base: REQ
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: REQ
   market:
     identifier: gopax
@@ -228,6 +223,11 @@ tickers:
   target: DAI
 - base: REQ
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: REQ
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
@@ -240,7 +240,7 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
-  target: BTC
+  target: INR
 - base: REQ
   market:
     identifier: yobit

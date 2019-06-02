@@ -72,13 +72,18 @@ tickers:
   market:
     identifier: abcc
     name: ABCC
+  target: BTC
+- base: GUSD
+  market:
+    identifier: abcc
+    name: ABCC
   target: USDT
 - base: GUSD
   market:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: BIX1901
+- base: BIX
   market:
     identifier: bibox
     name: Bibox
@@ -93,11 +98,6 @@ tickers:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: GUSD
-  market:
-    identifier: bibox
-    name: Bibox
-  target: USDT
 - base: GUSD
   market:
     identifier: bilaxy
@@ -150,11 +150,6 @@ tickers:
   target: EUR
 - base: GUSD
   market:
-    identifier: cex
-    name: CEX.IO
-  target: USD
-- base: GUSD
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
@@ -175,11 +170,6 @@ tickers:
   target: ETH
 - base: GUSD
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
-- base: GUSD
-  market:
     identifier: coinmex
     name: CoinMex
   target: BTC
@@ -188,11 +178,21 @@ tickers:
     identifier: coinpark
     name: Coinpark
   target: USDT
+- base: ETH
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: GUSD
 - base: GUSD
   market:
     identifier: coss
     name: COSS
   target: COSS
+- base: COSS
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
 - base: BTC
   market:
     identifier: coss
@@ -218,6 +218,11 @@ tickers:
     identifier: coss
     name: COSS
   target: USD
+- base: GUSD
+  market:
+    identifier: cpdax
+    name: CPDAX
+  target: BTC
 - base: GUSD
   market:
     identifier: crex24
@@ -248,11 +253,6 @@ tickers:
     identifier: eosex
     name: EOSex
   target: USDT
-- base: GUSD
-  market:
-    identifier: everbloom
-    name: Everbloom
-  target: ETH
 - base: GUSD
   market:
     identifier: exmo
@@ -298,6 +298,11 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: USD
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
 - base: GUSD
   market:
     identifier: latoken
@@ -348,6 +353,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: GUSD
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: EUR
 - base: BTC
   market:
     identifier: therocktrading

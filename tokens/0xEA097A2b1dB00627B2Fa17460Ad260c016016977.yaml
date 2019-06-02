@@ -26,6 +26,11 @@ symbol: ufr
 tickers:
 - base: UFR
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: UFR
+  market:
     identifier: altilly
     name: Altilly
   target: BTC
@@ -36,29 +41,14 @@ tickers:
   target: BTC
 - base: UFR
   market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: UFR
-  market:
-    identifier: coss
-    name: COSS
+    identifier: coin_exchange
+    name: Coinexchange
   target: ETH
 - base: UFR
   market:
-    identifier: cryptopia
-    name: Cryptopia
+    identifier: coss
+    name: COSS
   target: BTC
-- base: UFR
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: DOGE
-- base: UFR
-  market:
-    identifier: cryptopia
-    name: Cryptopia
-  target: LTC
 - base: UFR
   market:
     identifier: ethfinex

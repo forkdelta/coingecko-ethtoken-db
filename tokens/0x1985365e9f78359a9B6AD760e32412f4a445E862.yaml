@@ -68,9 +68,29 @@ tickers:
   target: ETH
 - base: REP
   market:
+    identifier: axnet
+    name: AXNET
+  target: USDT
+- base: REP
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
+- base: REP
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: EUR
+- base: REP
+  market:
     identifier: bitbay
     name: BitBay
   target: USD
+- base: REP
+  market:
+    identifier: bitbox
+    name: BITBOX
+  target: ETH
 - base: REP
   market:
     identifier: blockonix
@@ -93,19 +113,19 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: codex
-    name: CODEX
-  target: EOS
-- base: REP
-  market:
     identifier: coinmex
     name: CoinMex
   target: ETH
 - base: REP
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: coinzest
+    name: Coinzest
   target: BTC
+- base: REP
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: ETH
 - base: REP
   market:
     identifier: cryptaldash
@@ -128,29 +148,14 @@ tickers:
   target: USDT
 - base: REP
   market:
-    identifier: daybit
-    name: Daybit
-  target: BTC
-- base: REP
-  market:
-    identifier: daybit
-    name: Daybit
-  target: ETH
-- base: REP
-  market:
     identifier: ethex
     name: Ethex
   target: ETH
 - base: REP
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: REP
-  market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: EUR
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: REP
   market:
     identifier: gobaba
@@ -168,14 +173,19 @@ tickers:
   target: BTC
 - base: REP
   market:
-    identifier: idex
-    name: Idex
+    identifier: gopax
+    name: GoPax
   target: ETH
 - base: REP
   market:
     identifier: koinex
     name: Koinex
   target: XRP
+- base: REP
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: REP
   market:
     identifier: latoken
@@ -195,7 +205,7 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: WETH
+  target: DAI
 - base: REP
   market:
     identifier: simex
@@ -206,6 +216,11 @@ tickers:
     identifier: simex
     name: Simex
   target: ETH
+- base: REP
+  market:
+    identifier: simex
+    name: Simex
+  target: USD
 - base: REP
   market:
     identifier: switcheo
