@@ -51,7 +51,6 @@ def fetch_coin_details(cid,
 
     if cache:
         with open(cache_file, "w") as f:
-            print("json.dump", type(json_content), f)
             json.dump(json_content, f)
     return json_content
 

@@ -83,16 +83,25 @@ def make_token_entry(coin_details):
         sorted(
             map(extract_ticker, filter(not_stale, coin_details["tickers"])),
             key=lambda t: [t["market"]["identifier"], t["target"]]))
-    return dict(
+
+    entry = dict(
         address=checksum_address,
         description=LiteralString(description),
         links=clean_links_value(coin_details["links"]),
         tickers=tickers,
         **{
             k: v
-            for (k, v) in coin_details.items()
-            if k in ["id", "symbol", "name"]
+            for (k, v) in coin_details.items() if k in [
+                "id", "symbol", "name", "market_cap_rank", "coingecko_rank",
+                "coingecko_score", "developer_score", "community_score",
+                "liquidity_score", "public_interest_score"
+            ]
         })
+
+    if coin_details.get("image"):
+        entry["image"] = coin_details["image"]
+
+    return entry
 
 
 def main(listings):
