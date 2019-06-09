@@ -1,11 +1,11 @@
 ---
 address: '0x42d6622deCe394b54999Fbd73D108123806f6a18'
-coingecko_rank: 724
-coingecko_score: 27.64
-community_score: 31.432
+coingecko_rank: 714
+coingecko_score: 27.455
+community_score: 31.201
 description: >-
   A ​cryptoeconomic ​powered ​adult ​entertainment ​ecosystem built ​on ​the ​Ethereum ​network.
-developer_score: 15.215
+developer_score: 14.814
 id: spankchain
 image:
   large: https://assets.coingecko.com/coins/images/1226/large/spankchain.png?1548610811
@@ -26,8 +26,8 @@ links:
     - https://github.com/spankchain/token-vault
   subreddit_url: https://www.reddit.com/r/SpankChain
   twitter_screen_name: spankchain
-liquidity_score: 5.472
-market_cap_rank: 350
+liquidity_score: 4.505
+market_cap_rank: 334
 name: SpankChain
 public_interest_score: 26.567
 symbol: spank
@@ -39,11 +39,6 @@ tickers:
   target: ETH
 - base: SPANK
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: SPANK
-  market:
     identifier: coin_exchange
     name: Coinexchange
   target: BTC
@@ -62,6 +57,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: SPK
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: SPANK
   market:
     identifier: forkdelta

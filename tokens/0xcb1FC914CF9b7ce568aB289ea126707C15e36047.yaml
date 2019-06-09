@@ -1,8 +1,8 @@
 ---
 address: '0xcb1FC914CF9b7ce568aB289ea126707C15e36047'
-coingecko_rank: 2524
-coingecko_score: 11.335
-community_score: 34.458
+coingecko_rank: 1991
+coingecko_score: 15.194
+community_score: 35.003
 description: >-
   BIX1901 is a bond contract based on Bibox platform token. The first issue of 4,030 bonds, each with
   a face value of 1000BIX, was officially issued by the decentralized financial contract ecosystem platform-
@@ -24,9 +24,19 @@ links:
   subreddit_url: https://www.reddit.com/r/Bibox/
   telegram_channel_identifier: biboxglobal
   twitter_screen_name: Bibox365
-liquidity_score: 1.0
-market_cap_rank: 2202
+liquidity_score: 19.615
+market_cap_rank: 2215
 name: Bibox bond
 public_interest_score: 25.202
 symbol: bix1901
-tickers: []
+tickers:
+- base: BIX1901
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: BIX1901
+  market:
+    identifier: bibox
+    name: Bibox
+  target: GUSD

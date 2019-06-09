@@ -1,14 +1,14 @@
 ---
 address: '0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e'
-coingecko_rank: 319
-coingecko_score: 36.373
-community_score: 32.424
+coingecko_rank: 317
+coingecko_score: 36.347
+community_score: 33.034
 description: >-
   SwftCoin based on Ethereum, is a new decentralized blockchain asset. Following ERC-20 token standard,
   SwftCoin has similar function with Bitcoin, LiteCoin, Ethereum, which means SwftCoin will never disappear
   when it was sent out as token. The goal that we launched SwftCoin is to make it a new standard for service
   fee in the currency exchange.
-developer_score: 16.177
+developer_score: 15.502
 id: swftcoin
 image:
   large: https://assets.coingecko.com/coins/images/2346/large/swftcoin.png?1548611434
@@ -28,8 +28,8 @@ links:
     - https://github.com/SwftCoins/SwftCoin
   subreddit_url: https://www.reddit.com/r/SwftCoin
   twitter_screen_name: SwftCoin
-liquidity_score: 43.509
-market_cap_rank: 245
+liquidity_score: 43.763
+market_cap_rank: 304
 name: SwftCoin
 public_interest_score: 27.363
 symbol: swftc
@@ -56,6 +56,11 @@ tickers:
   target: USDT
 - base: SWFTC
   market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: SWFTC
+  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
@@ -69,3 +74,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: SWFTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

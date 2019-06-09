@@ -1,7 +1,7 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 3921
-coingecko_score: 5.59
+coingecko_rank: 3943
+coingecko_score: 5.604
 community_score: 0.0
 description: >-
   Wrapped Bitcoin Tokens (WBTC) is an ERC20 token fully backed by real BTC. The proof of reserves is on-chain,
@@ -25,8 +25,8 @@ links:
     github:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
-liquidity_score: 9.185
-market_cap_rank: 2283
+liquidity_score: 9.253
+market_cap_rank: 3512
 name: Wrapped Bitcoin
 public_interest_score: 37.533
 symbol: wbtc
@@ -38,9 +38,19 @@ tickers:
   target: ETH
 - base: WBTC
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: WBTC
+  market:
     identifier: ddex
     name: DDEX
   target: DAI
+- base: WBTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: WBTC
   market:
     identifier: idex
@@ -51,6 +61,16 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: CAJ
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: SNT
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
 - base: PKG
   market:
     identifier: idex
@@ -71,7 +91,7 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: CAJ
+- base: XENC
   market:
     identifier: idex
     name: Idex
@@ -86,37 +106,12 @@ tickers:
     identifier: idex
     name: Idex
   target: WBTC
-- base: ALTX
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
 - base: CYFM
   market:
     identifier: idex
     name: Idex
   target: WBTC
-- base: XENC
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: SNT
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: RC20
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: ETH
-  market:
-    identifier: idex
-    name: Idex
-  target: WBTC
-- base: XBASE
+- base: ALTX
   market:
     identifier: idex
     name: Idex
@@ -127,6 +122,21 @@ tickers:
     name: Idex
   target: WBTC
 - base: FTM
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: RC20
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: XBASE
+  market:
+    identifier: idex
+    name: Idex
+  target: WBTC
+- base: ETH
   market:
     identifier: idex
     name: Idex

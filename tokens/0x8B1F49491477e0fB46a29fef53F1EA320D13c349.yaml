@@ -1,8 +1,8 @@
 ---
 address: '0x8B1F49491477e0fB46a29fef53F1EA320D13c349'
-coingecko_rank: 1357
-coingecko_score: 20.938
-community_score: 10.459
+coingecko_rank: 1383
+coingecko_score: 20.619
+community_score: 11.315
 description: >-
   MicroMoney A.I. platform uses complex algorithms to predict creditworthiness of all customers and in
   just 15 minutes a borrower can get their very first loan in his/her life just from their smartphone.
@@ -10,7 +10,7 @@ description: >-
   platform more often . All aggregated Big Data and Credit Histories are stored on the Blockchain. Thousands
   of existing businesses will get access to millions of new customers which we will bring to the global
   economy.
-developer_score: 21.063
+developer_score: 19.542
 id: micromoney
 image:
   large: https://assets.coingecko.com/coins/images/1356/large/micromoney.png?1548085045
@@ -35,8 +35,8 @@ links:
     - https://github.com/micro-money/prime
   telegram_channel_identifier: micromoneyico
   twitter_screen_name: MicromoneyIO
-liquidity_score: 4.339
-market_cap_rank: 1251
+liquidity_score: 4.118
+market_cap_rank: 1280
 name: MicroMoney
 public_interest_score: 27.34
 symbol: amm
@@ -48,6 +48,11 @@ tickers:
   target: ETH
 - base: AMM
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: AMM
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -56,6 +61,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: AMM
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: AMM
   market:
     identifier: okex

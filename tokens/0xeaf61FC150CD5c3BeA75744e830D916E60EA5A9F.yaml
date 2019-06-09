@@ -1,8 +1,8 @@
 ---
 address: '0xeaf61FC150CD5c3BeA75744e830D916E60EA5A9F'
-coingecko_rank: 1464
-coingecko_score: 20.007
-community_score: 16.712
+coingecko_rank: 1243
+coingecko_score: 21.925
+community_score: 17.326
 description: >-
   Protect Your Content
 
@@ -54,8 +54,8 @@ links:
     - https://github.com/Typerium/TYPEProtocol
   telegram_channel_identifier: typerium
   twitter_screen_name: Typerium_io
-liquidity_score: 1.538
-market_cap_rank: 1129
+liquidity_score: 10.673
+market_cap_rank: 1140
 name: Typerium
 public_interest_score: 27.255
 symbol: type
@@ -87,6 +87,11 @@ tickers:
   target: ETH
 - base: TYPE
   market:
+    identifier: coin_exchange
+    name: Coinexchange
+  target: LTC
+- base: TYPE
+  market:
     identifier: coinlim
     name: Coinlim
   target: BTC
@@ -110,11 +115,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: TYPE
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: TYPE
   market:
     identifier: latoken
