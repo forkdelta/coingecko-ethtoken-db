@@ -1,12 +1,12 @@
 ---
 address: '0x0Cf0Ee63788A0849fE5297F3407f701E122cC023'
-coingecko_rank: 111
-coingecko_score: 47.738
-community_score: 33.318
+coingecko_rank: 112
+coingecko_score: 47.194
+community_score: 33.596
 description: >-
   Streamr tokenizes streaming data to enable a new way for machines & people to trade it on a decentralised
   P2P network.
-developer_score: 67.548
+developer_score: 67.152
 id: streamr-datacoin
 image:
   large: https://assets.coingecko.com/coins/images/1115/large/streamr.png?1547035101
@@ -25,12 +25,17 @@ links:
   subreddit_url: https://www.reddit.com/r/streamr
   telegram_channel_identifier: streamrdata
   twitter_screen_name: streamr
-liquidity_score: 34.198
-market_cap_rank: 214
+liquidity_score: 31.327
+market_cap_rank: 207
 name: Streamr DATAcoin
 public_interest_score: 27.735
 symbol: data
 tickers:
+- base: DATA
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
 - base: DATA
   market:
     identifier: blockonix
@@ -51,10 +56,25 @@ tickers:
     identifier: dragonex
     name: DragonEx
   target: USDT
+- base: DAT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: DATA
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: DATA
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DATA
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: DATA
   market:

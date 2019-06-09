@@ -1,8 +1,8 @@
 ---
 address: '0xD938137E6d96c72E4a6085412aDa2daD78ff89c4'
-coingecko_rank: 3445
-coingecko_score: 7.129
-community_score: 4.438
+coingecko_rank: 3265
+coingecko_score: 7.754
+community_score: 4.801
 description: >-
   Abulaba.Capital
       1.Chip Miner
@@ -30,8 +30,8 @@ links:
     - https://github.com/abulaba/aaa
   telegram_channel_identifier: Abulaba_coin
   twitter_screen_name: AbulabaCapital
-liquidity_score: 1.511
-market_cap_rank: 4353
+liquidity_score: 4.184
+market_cap_rank: 2143
 name: Abulaba
 public_interest_score: 27.172
 symbol: aaa
@@ -57,11 +57,6 @@ tickers:
     name: BIG markets
   target: AAA
 - base: ZIL
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: AAA
-- base: WAVES
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -177,6 +172,11 @@ tickers:
     name: BIG markets
   target: AAA
 - base: GNT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
+- base: WAVES
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -393,6 +393,16 @@ tickers:
   target: LTC
 - base: AAA
   market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTC
+- base: ABULABA
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: AAA
+  market:
     identifier: instantbitex
     name: Instant Bitex
   target: BTC
@@ -405,9 +415,9 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
-  target: BTC
-- base: AAA
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: USD
+- base: ABULABA
+  market:
+    identifier: zbg
+    name: ZBG
+  target: USDT

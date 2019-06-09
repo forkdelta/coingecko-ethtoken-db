@@ -1,8 +1,8 @@
 ---
 address: '0xB97048628DB6B661D4C2aA833e95Dbe1A905B280'
-coingecko_rank: 339
-coingecko_score: 35.656
-community_score: 48.738
+coingecko_rank: 335
+coingecko_score: 35.848
+community_score: 49.474
 description: >-
   TenX is a payment platform that facilitates digital and physical modes of transaction for cryptocurrencies
   to any merchant, even if they don’t accept cryptocurrencies. Physical and digital modes of course, include
@@ -47,8 +47,8 @@ links:
     - https://github.com/comit-network/comit-rs
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
-liquidity_score: 35.956
-market_cap_rank: 138
+liquidity_score: 35.545
+market_cap_rank: 140
 name: TenX
 public_interest_score: 29.187
 symbol: pay
@@ -63,6 +63,16 @@ tickers:
     identifier: bit_z
     name: Bit-Z
   target: BTC
+- base: PAY
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
+- base: PAY
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: EUR
 - base: PAY
   market:
     identifier: bitbay
@@ -115,11 +125,6 @@ tickers:
   target: BTC
 - base: PAY
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: PAY
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -162,6 +167,11 @@ tickers:
   market:
     identifier: fcoin
     name: FCoin
+  target: ETH
+- base: PAY
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: PAY
   market:

@@ -1,8 +1,8 @@
 ---
 address: '0x8E870D67F660D95d5be530380D0eC0bd388289E1'
-coingecko_rank: 237
-coingecko_score: 39.466
-community_score: 7.008
+coingecko_rank: 192
+coingecko_score: 41.137
+community_score: 7.016
 description: >-
   Paxos Standard (PAX) was created by Paxos, a financial technology company on a mission to modernize
   finance by mobilizing assets at the speed of the internet. Paxos was the first virtual currency company
@@ -41,7 +41,7 @@ description: >-
   fully secured by the U.S. dollar. While other similar stablecoins have existed, there has been no proof
   of full U.S. dollar reserves, nor have these earlier assets been issued by a financial institution.
   The Paxos team has been fairly clear in declaring the different base that PAX is working from.
-developer_score: 22.219
+developer_score: 20.528
 id: paxos-standard
 image:
   large: https://assets.coingecko.com/coins/images/6013/large/paxos_standard.png?1548386291
@@ -60,8 +60,8 @@ links:
     github:
     - https://github.com/paxosglobal/pax-contracts
   twitter_screen_name: PaxosStandard
-liquidity_score: 73.007
-market_cap_rank: 55
+liquidity_score: 83.15
+market_cap_rank: 51
 name: Paxos Standard
 public_interest_score: 28.542
 symbol: pax
@@ -71,11 +71,6 @@ tickers:
     identifier: axnet
     name: AXNET
   target: BTC
-- base: PAX
-  market:
-    identifier: axnet
-    name: AXNET
-  target: USDT
 - base: PAX
   market:
     identifier: bcex
@@ -91,13 +86,13 @@ tickers:
     identifier: coinsuper
     name: Coinsuper
   target: BTC
-- base: PAX
+- base: BTC
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDC
-- base: PAX
+    identifier: zb
+    name: ZB
+  target: PAX
+- base: ETH
   market:
-    identifier: uex
-    name: UEX
-  target: BTC
+    identifier: zb
+    name: ZB
+  target: PAX

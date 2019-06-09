@@ -1,8 +1,8 @@
 ---
 address: '0x3597bfD533a99c9aa083587B074434E61Eb0A258'
-coingecko_rank: 248
-coingecko_score: 38.838
-community_score: 49.774
+coingecko_rank: 225
+coingecko_score: 39.569
+community_score: 51.405
 description: >-
   Our vision is to create a global exchange using Ethereum blockchain, where everyone on this planet has
   the opportunity to buy and sell mobile bandwidth in any country just like you buy foreign currencies
@@ -24,8 +24,8 @@ links:
   subreddit_url: https://www.reddit.com/r/dentcoin
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
-liquidity_score: 43.294
-market_cap_rank: 60
+liquidity_score: 44.701
+market_cap_rank: 58
 name: Dent
 public_interest_score: 32.294
 symbol: dent
@@ -80,11 +80,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DASH
-- base: AAA
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
 - base: ETH
   market:
     identifier: bigmarkets
@@ -175,6 +170,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
+- base: AAA
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: DASH
   market:
     identifier: bigmarkets
@@ -235,6 +235,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: ETH
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: EUR
 - base: DENT
   market:
     identifier: bigmarkets
@@ -310,11 +315,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: ZIL
-- base: DENT
-  market:
-    identifier: bitbox
-    name: BITBOX
-  target: BTC
 - base: DENT
   market:
     identifier: blockonix
@@ -402,9 +402,9 @@ tickers:
   target: BTC
 - base: DENT
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
     identifier: lykke
@@ -425,16 +425,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDT
-- base: DENT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
-- base: DENT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: ETH
 - base: DENT
   market:
     identifier: radar_relay
@@ -460,8 +450,3 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
-- base: DENT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: INR

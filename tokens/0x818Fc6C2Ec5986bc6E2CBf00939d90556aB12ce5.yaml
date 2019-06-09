@@ -1,8 +1,8 @@
 ---
 address: '0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5'
-coingecko_rank: 355
-coingecko_score: 35.169
-community_score: 46.067
+coingecko_rank: 326
+coingecko_score: 36.132
+community_score: 53.041
 description: >-
   Kin is a decentralized cryptocurrency token issued on Ethereum, an open-source public blockchain. It
   was created by Kik Interactive in September 2017 in a token distribution event, raising over $98 million
@@ -71,8 +71,8 @@ links:
     - https://github.com/kinecosystem/kin-ecosystem-android-sdk
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
-liquidity_score: 35.93
-market_cap_rank: 196
+liquidity_score: 34.055
+market_cap_rank: 264
 name: Kin
 public_interest_score: 34.076
 symbol: kin
@@ -101,7 +101,22 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
+  target: BTC
+- base: KIN
+  market:
+    identifier: bit_z
+    name: Bit-Z
   target: ETH
+- base: KIN
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
+- base: KIN
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
 - base: KIN
   market:
     identifier: blockonix
@@ -112,6 +127,11 @@ tickers:
     identifier: blockonix
     name: Blockonix
   target: USDT
+- base: KIN
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
 - base: KIN
   market:
     identifier: coinall
@@ -184,6 +204,16 @@ tickers:
   target: PAX
 - base: KIN
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: KIN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: KIN
+  market:
     identifier: idax
     name: Idax
   target: BTC
@@ -202,11 +232,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: KIN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: KIN
   market:
     identifier: latoken
@@ -252,6 +277,11 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
+- base: KIN
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
 - base: KIN
   market:
     identifier: satoexchange

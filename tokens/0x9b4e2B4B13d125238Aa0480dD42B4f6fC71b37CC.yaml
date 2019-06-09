@@ -1,8 +1,8 @@
 ---
 address: '0x9b4e2B4B13d125238Aa0480dD42B4f6fC71b37CC'
-coingecko_rank: 1188
-coingecko_score: 22.491
-community_score: 3.792
+coingecko_rank: 1228
+coingecko_score: 22.045
+community_score: 4.102
 description: >-
   MyToken focuses on providing aggregate exchange market information and has become a market-watching
   application with the largest market share and the highest number of active users in China.
@@ -34,8 +34,8 @@ links:
   - https://mytoken.io/en/
   telegram_channel_identifier: mytoken_en
   twitter_screen_name: mytokenio
-liquidity_score: 32.039
-market_cap_rank: 405
+liquidity_score: 29.541
+market_cap_rank: 416
 name: MyToken
 public_interest_score: 30.134
 symbol: mt
@@ -55,6 +55,11 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BTC
+- base: MT
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
 - base: MT
   market:
     identifier: bitforex
@@ -82,6 +87,16 @@ tickers:
   target: ETH
 - base: MT
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: MT
+  market:
+    identifier: coineal
+    name: Coineal
+  target: ETH
+- base: MT
+  market:
     identifier: coinex
     name: CoinEx
   target: BCH
@@ -95,6 +110,11 @@ tickers:
     identifier: coinex
     name: CoinEx
   target: ETH
+- base: MT
+  market:
+    identifier: cpdax
+    name: CPDAX
+  target: KRW
 - base: MT
   market:
     identifier: cybex
@@ -114,11 +134,6 @@ tickers:
   market:
     identifier: dextop
     name: DEx.top
-  target: ETH
-- base: MT
-  market:
-    identifier: etherflyer
-    name: EtherFlyer
   target: ETH
 - base: MT
   market:

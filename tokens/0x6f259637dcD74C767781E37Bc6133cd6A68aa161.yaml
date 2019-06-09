@@ -1,8 +1,8 @@
 ---
 address: '0x6f259637dcD74C767781E37Bc6133cd6A68aa161'
-coingecko_rank: 249
-coingecko_score: 38.801
-community_score: 30.944
+coingecko_rank: 243
+coingecko_score: 38.905
+community_score: 30.871
 description: >-
   Huobi, the third-largest cryptocurrency exchange in the world, recently announced and launched a new
   currency. The Huobi Token (HT) rewards exchange users for their loyalty with lowered transaction fees
@@ -54,8 +54,8 @@ links:
   subreddit_url: https://www.reddit.com/r/huobi/
   telegram_channel_identifier: huobiglobalofficial
   twitter_screen_name: HuobiGlobal
-liquidity_score: 66.308
-market_cap_rank: 63
+liquidity_score: 66.941
+market_cap_rank: 64
 name: Huobi Token
 public_interest_score: 32.878
 symbol: ht
@@ -69,27 +69,32 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
-  target: ETH
+  target: BTC
 - base: HT
   market:
     identifier: bibox
     name: Bibox
-  target: USDT
+  target: ETH
 - base: HT
   market:
-    identifier: coinbig
-    name: COINBIG
+    identifier: bitasset
+    name: BitAsset
+  target: CNYT
+- base: HT
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
+- base: HT
+  market:
+    identifier: bitasset
+    name: BitAsset
   target: USDT
 - base: HT
   market:
     identifier: ddex
     name: DDEX
   target: ETH
-- base: HT
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: HT
   market:
     identifier: exrates
@@ -105,11 +110,6 @@ tickers:
     identifier: exrates
     name: Exrates
   target: USD
-- base: HPT
-  market:
-    identifier: huobi
-    name: Huobi Global
-  target: HT
 - base: HT
   market:
     identifier: joyso
@@ -120,6 +120,11 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: HT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: HT
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 50
-coingecko_score: 56.559
-community_score: 44.517
+coingecko_rank: 51
+coingecko_score: 55.917
+community_score: 45.296
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 81.46
+developer_score: 78.593
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -57,8 +57,8 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 42.907
-market_cap_rank: 119
+liquidity_score: 42.233
+market_cap_rank: 122
 name: Storj
 public_interest_score: 28.932
 symbol: storj
@@ -78,6 +78,11 @@ tickers:
     identifier: bitasset
     name: BitAsset
   target: TWD
+- base: STORJ
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: USDT
 - base: STORJ
   market:
     identifier: blockonix
@@ -158,16 +163,6 @@ tickers:
     identifier: ethex
     name: Ethex
   target: ETH
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: STORJ
   market:
     identifier: forkdelta
@@ -175,29 +170,9 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
+    identifier: idax
+    name: Idax
   target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: STORJ
   market:
     identifier: idex
