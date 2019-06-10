@@ -93,7 +93,7 @@ links:
   telegram_channel_identifier: quarkchainio
   twitter_screen_name: Quark_Chain
 liquidity_score: 52.226
-market_cap_rank: 97
+market_cap_rank: 104
 name: QuarkChain
 public_interest_score: 27.832
 symbol: qkc
@@ -165,6 +165,11 @@ tickers:
   target: WETH
 - base: QKC
   market:
+    identifier: dragonex
+    name: DragonEx
+  target: USDT
+- base: QKC
+  market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
@@ -175,8 +180,18 @@ tickers:
   target: ETH
 - base: QKC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: QKC
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: QKC
+  market:
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
 - base: QKC
   market:

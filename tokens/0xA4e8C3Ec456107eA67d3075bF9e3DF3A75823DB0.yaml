@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 41.606
-market_cap_rank: 91
+market_cap_rank: 98
 name: Loom Network
 public_interest_score: 30.631
 symbol: loom
@@ -71,6 +71,11 @@ tickers:
     identifier: altilly
     name: Altilly
   target: BTC
+- base: LOOM
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
 - base: LOOM
   market:
     identifier: altilly
@@ -114,12 +119,12 @@ tickers:
 - base: LOOM
   market:
     identifier: coin_exchange
-    name: Coinexchange
+    name: CoinExchange.io
   target: BTC
 - base: LOOM
   market:
     identifier: coin_exchange
-    name: Coinexchange
+    name: CoinExchange.io
   target: ETH
 - base: LOOM
   market:
@@ -228,9 +233,19 @@ tickers:
   target: ETH
 - base: LOOM
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: LOOM
+  market:
     identifier: kucoin
     name: KuCoin
   target: NEO
+- base: LOOM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: LOOM
   market:
     identifier: latoken
@@ -246,11 +261,6 @@ tickers:
     identifier: prixbit
     name: Prixbit
   target: BTC
-- base: LOOM
-  market:
-    identifier: prixbit
-    name: Prixbit
-  target: KRW
 - base: LOOM
   market:
     identifier: prixbit

@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: huobiglobalofficial
   twitter_screen_name: HuobiGlobal
 liquidity_score: 66.941
-market_cap_rank: 64
+market_cap_rank: 65
 name: Huobi Token
 public_interest_score: 32.878
 symbol: ht
@@ -69,12 +69,7 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
-  target: BTC
-- base: HT
-  market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
+  target: USDT
 - base: HT
   market:
     identifier: bitasset
@@ -95,6 +90,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: ETH
+- base: HT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: HT
   market:
     identifier: exrates

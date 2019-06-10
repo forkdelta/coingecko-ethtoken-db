@@ -24,11 +24,16 @@ links:
   homepage:
   - https://weth.io/
 liquidity_score: 20.625
-market_cap_rank: 2745
+market_cap_rank: 2669
 name: WETH
 public_interest_score: 28.658
 symbol: weth
 tickers:
+- base: WETH
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: WETH
   market:
     identifier: ddex
@@ -44,12 +49,17 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: XBASE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: TRIO
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: MOT
+- base: MKR
   market:
     identifier: ddex
     name: DDEX
@@ -59,7 +69,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: RXE
+- base: HOT
   market:
     identifier: ddex
     name: DDEX
@@ -84,7 +94,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: BAT
+- base: GET
   market:
     identifier: ddex
     name: DDEX
@@ -104,11 +114,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: DACC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: SEELE
   market:
     identifier: ddex
@@ -119,22 +124,12 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: QBIT
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MESSE
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: DRGN
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: PPI
+- base: QBIT
   market:
     identifier: ddex
     name: DDEX
@@ -149,22 +144,12 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: LOOM
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: FTM
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: LINK
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: RFR
+- base: BOX
   market:
     identifier: ddex
     name: DDEX
@@ -229,7 +214,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: EMPR
+- base: BAT
   market:
     identifier: ddex
     name: DDEX
@@ -264,11 +249,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: XBASE
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: TOMO
   market:
     identifier: ddex
@@ -294,12 +274,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: PPT
+- base: EMPR
   market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: CNCT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LOOM
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: NEXO
   market:
     identifier: ddex
     name: DDEX
@@ -310,6 +300,16 @@ tickers:
     name: DDEX
   target: WETH
 - base: REQ
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: RTE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DOOH
   market:
     identifier: ddex
     name: DDEX
@@ -325,6 +325,11 @@ tickers:
     name: DDEX
   target: WETH
 - base: REN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LESS
   market:
     identifier: ddex
     name: DDEX
@@ -460,11 +465,6 @@ tickers:
     name: TokenJar
   target: WETH
 - base: XYO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MFTU
   market:
     identifier: tokenjar
     name: TokenJar

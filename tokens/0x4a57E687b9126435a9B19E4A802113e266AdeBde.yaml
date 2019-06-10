@@ -38,7 +38,7 @@ links:
   telegram_channel_identifier: flexa
   twitter_screen_name: FlexaHQ
 liquidity_score: 10.586
-market_cap_rank: 3581
+market_cap_rank: 3170
 name: Flexacoin
 public_interest_score: 27.258
 symbol: fxc
@@ -223,11 +223,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: FXC
-- base: LTC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: FXC
 - base: XVG
   market:
     identifier: bigmarkets
@@ -263,6 +258,11 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: FXC
+- base: GVT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: FXC
 - base: OMG
   market:
     identifier: bigmarkets
@@ -273,7 +273,7 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: FXC
-- base: GVT
+- base: LTC
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -371,5 +371,10 @@ tickers:
 - base: FXC
   market:
     identifier: coin_exchange
-    name: Coinexchange
+    name: CoinExchange
+  target: BTC
+- base: FXC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange
   target: ETH

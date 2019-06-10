@@ -67,11 +67,16 @@ links:
   telegram_channel_identifier: BitKan
   twitter_screen_name: BitKanOfficial
 liquidity_score: 40.282
-market_cap_rank: 165
+market_cap_rank: 168
 name: BitKan
 public_interest_score: 27.144
 symbol: kan
 tickers:
+- base: KAN
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
 - base: KAN
   market:
     identifier: coinex
@@ -92,8 +97,3 @@ tickers:
     identifier: k_kex
     name: KKEX
   target: BTC
-- base: KAN
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

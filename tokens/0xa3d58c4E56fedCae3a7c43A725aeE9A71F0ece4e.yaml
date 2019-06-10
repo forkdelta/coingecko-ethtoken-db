@@ -37,7 +37,7 @@ links:
   telegram_channel_identifier: metronometoken
   twitter_screen_name: MTNToken
 liquidity_score: 27.763
-market_cap_rank: 255
+market_cap_rank: 258
 name: Metronome
 public_interest_score: 28.355
 symbol: met
@@ -72,6 +72,16 @@ tickers:
     identifier: exrates
     name: Exrates
   target: USD
+- base: MET
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MET
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MET
   market:
     identifier: tokenjar

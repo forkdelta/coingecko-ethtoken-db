@@ -47,6 +47,11 @@ tickers:
     identifier: bitexlive
     name: Bitexlive
   target: EURS
+- base: UBN
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
 - base: EURS
   market:
     identifier: ddex
@@ -86,8 +91,38 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: DAI
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: EOSDT
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: ZEC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: MESSE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -97,17 +132,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: MESSE
+- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC
@@ -122,6 +152,11 @@ tickers:
     identifier: kuna
     name: Kuna Exchange
   target: EURS
+- base: EURS
+  market:
+    identifier: kuna
+    name: Kuna Exchange
+  target: UAH
 - base: BTC
   market:
     identifier: livecoin

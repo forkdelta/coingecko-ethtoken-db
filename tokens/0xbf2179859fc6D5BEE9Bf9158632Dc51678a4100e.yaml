@@ -68,7 +68,7 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 55.076
-market_cap_rank: 77
+market_cap_rank: 75
 name: aelf
 public_interest_score: 28.59
 symbol: elf
@@ -205,11 +205,6 @@ tickers:
   target: KRW
 - base: ELF
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: ELF
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -218,6 +213,11 @@ tickers:
     identifier: k_kex
     name: KKEX
   target: BTC
+- base: ELF
+  market:
+    identifier: koinex
+    name: Koinex
+  target: INR
 - base: ELF
   market:
     identifier: koinex

@@ -45,7 +45,7 @@ links:
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
 liquidity_score: 42.693
-market_cap_rank: 120
+market_cap_rank: 116
 name: Fantom
 public_interest_score: 32.114
 symbol: ftm
@@ -87,11 +87,6 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: coinpark
-    name: Coinpark
-  target: USDT
-- base: FTM
-  market:
     identifier: ddex
     name: DDEX
   target: ETH
@@ -110,6 +105,11 @@ tickers:
     identifier: oax
     name: OAX
   target: ETH
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: FTM
   market:
     identifier: saturn_network

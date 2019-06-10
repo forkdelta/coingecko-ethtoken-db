@@ -32,11 +32,21 @@ links:
   telegram_channel_identifier: snowballproject
   twitter_screen_name: snowball_coin
 liquidity_score: 1.0
-market_cap_rank: 1094
+market_cap_rank: 1118
 name: Snowball
 public_interest_score: 36.024
 symbol: snbl
 tickers:
+- base: SNBL
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: SNBL
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: SNBL
   market:
     identifier: mercatox

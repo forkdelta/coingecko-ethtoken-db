@@ -53,7 +53,7 @@ links:
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
 liquidity_score: 45.453
-market_cap_rank: 89
+market_cap_rank: 91
 name: Waltonchain
 public_interest_score: 30.71
 symbol: wtc
@@ -185,6 +185,11 @@ tickers:
   target: ETH
 - base: WTC
   market:
+    identifier: dragonex
+    name: DragonEx
+  target: USDT
+- base: WTC
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -203,11 +208,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: WTC
-  market:
-    identifier: hb_top
-    name: Hb.top
-  target: CNYE
 - base: WTC
   market:
     identifier: hb_top

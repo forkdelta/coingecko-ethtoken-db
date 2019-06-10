@@ -32,11 +32,16 @@ links:
   homepage:
   - http://www.openchat.co/
 liquidity_score: 32.398
-market_cap_rank: 470
+market_cap_rank: 466
 name: ChatCoin
 public_interest_score: 28.43
 symbol: chat
 tickers:
+- base: CHAT
+  market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: CHAT
   market:
     identifier: bigone
@@ -67,6 +72,21 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
+- base: CHAT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: CHAT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: CHAT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: CHAT
   market:
     identifier: lbank
@@ -107,8 +127,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: CHAT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC

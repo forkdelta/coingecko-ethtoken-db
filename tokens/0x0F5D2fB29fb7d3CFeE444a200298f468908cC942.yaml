@@ -96,6 +96,11 @@ tickers:
   target: ETH
 - base: MANA
   market:
+    identifier: axnet
+    name: AXNET
+  target: USDT
+- base: MANA
+  market:
     identifier: bibox
     name: Bibox
   target: BTC
@@ -121,19 +126,9 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: MANA
-  market:
     identifier: cobinhood
     name: Cobinhood
   target: BTC
-- base: MANA
-  market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: ETH
 - base: MANA
   market:
     identifier: codex
@@ -198,7 +193,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: BTC
 - base: MANA
   market:
     identifier: exrates
@@ -206,9 +201,9 @@ tickers:
   target: USD
 - base: MANA
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: MANA
   market:
     identifier: gobaba
@@ -241,11 +236,6 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: prixbit
-    name: Prixbit
-  target: KRW
-- base: MANA
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
@@ -269,3 +259,8 @@ tickers:
     identifier: uex
     name: UEX
   target: ETH
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC

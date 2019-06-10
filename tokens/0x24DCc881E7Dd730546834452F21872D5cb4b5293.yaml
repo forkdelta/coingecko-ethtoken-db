@@ -10,9 +10,9 @@ description: >-
 developer_score: 0.0
 id: scroll-token
 image:
-  large: https://assets.coingecko.com/coins/images/3460/large/scrl.png?1557107621
-  small: https://assets.coingecko.com/coins/images/3460/small/scrl.png?1557107621
-  thumb: https://assets.coingecko.com/coins/images/3460/thumb/scrl.png?1557107621
+  large: https://assets.coingecko.com/coins/images/3460/large/xd_01.png?1560142295
+  small: https://assets.coingecko.com/coins/images/3460/small/xd_01.png?1560142295
+  thumb: https://assets.coingecko.com/coins/images/3460/thumb/xd_01.png?1560142295
 links:
   announcement_url:
   - https://medium.com/@solutech.scrolla
@@ -23,15 +23,25 @@ links:
   - https://ethplorer.io/address/0x24dcc881e7dd730546834452f21872d5cb4b5293
   facebook_username: OfficialScroll
   homepage:
-  - https://www.scroll.network/
+  - https://datatxtoken.com/
   subreddit_url: https://www.reddit.com/r/ScrollNetwork
-  twitter_screen_name: OfficialScroll
+  twitter_screen_name: datatxtoken
 liquidity_score: 20.423
-market_cap_rank: 184
+market_cap_rank: 180
 name: Scroll Token
 public_interest_score: 39.119
-symbol: scrl
+symbol: xd
 tickers:
+- base: SCR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: SCRL
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
 - base: SCRL
   market:
     identifier: idex

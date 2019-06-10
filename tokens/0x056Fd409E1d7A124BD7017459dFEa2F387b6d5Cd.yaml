@@ -74,7 +74,7 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 56.547
-market_cap_rank: 184
+market_cap_rank: 183
 name: Gemini Dollar
 public_interest_score: 38.495
 symbol: gusd
@@ -89,17 +89,7 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: BIX1901
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
 - base: BTC
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
-- base: BIX
   market:
     identifier: bibox
     name: Bibox
@@ -109,11 +99,11 @@ tickers:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: GUSD
+- base: BIX
   market:
     identifier: bibox
     name: Bibox
-  target: USDT
+  target: GUSD
 - base: GUSD
   market:
     identifier: bilaxy
@@ -163,7 +153,7 @@ tickers:
   market:
     identifier: cex
     name: CEX.IO
-  target: EUR
+  target: USD
 - base: GUSD
   market:
     identifier: cobinhood
@@ -177,12 +167,12 @@ tickers:
 - base: GUSD
   market:
     identifier: coin_exchange
-    name: Coinexchange
+    name: CoinExchange.io
   target: BTC
 - base: GUSD
   market:
     identifier: coin_exchange
-    name: Coinexchange
+    name: CoinExchange.io
   target: ETH
 - base: GUSD
   market:
@@ -229,16 +219,16 @@ tickers:
     identifier: coss
     name: COSS
   target: GUSD
+- base: COSS
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
 - base: GUSD
   market:
     identifier: coss
     name: COSS
   target: USD
-- base: GUSD
-  market:
-    identifier: cpdax
-    name: CPDAX
-  target: BTC
 - base: GUSD
   market:
     identifier: dcoin
@@ -309,12 +299,12 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: USD
-- base: EOS
+- base: BTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
-- base: ETH
+- base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
@@ -344,11 +334,6 @@ tickers:
     identifier: okcoin
     name: OKCoin
   target: USD
-- base: GUSD
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
 - base: BTC
   market:
     identifier: quoine
@@ -369,6 +354,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: GUSD
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: EUR
 - base: BTC
   market:
     identifier: therocktrading
@@ -404,6 +394,11 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: LTC
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT
 - base: GUSD
   market:
     identifier: uniswap

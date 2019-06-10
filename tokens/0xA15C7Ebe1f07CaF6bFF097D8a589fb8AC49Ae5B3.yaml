@@ -64,16 +64,11 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 52.752
-market_cap_rank: 45
+market_cap_rank: 46
 name: Pundi X
 public_interest_score: 29.419
 symbol: npxs
 tickers:
-- base: NPXS
-  market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
 - base: NPXS
   market:
     identifier: alterdice
@@ -106,6 +101,16 @@ tickers:
   target: USDT
 - base: NPXS
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: NPXS
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: NPXS
+  market:
     identifier: bitasset
     name: BitAsset
   target: USDT
@@ -114,6 +119,11 @@ tickers:
     identifier: bitopro
     name: BitoPro
   target: ETH
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: NPXS
   market:
     identifier: blockonix
@@ -127,7 +137,7 @@ tickers:
 - base: NPXS
   market:
     identifier: coin_exchange
-    name: Coinexchange
+    name: CoinExchange.io
   target: ETH
 - base: NPXS
   market:
@@ -181,11 +191,6 @@ tickers:
   target: USD
 - base: NPXS
   market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
-- base: NPXS
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -213,12 +218,32 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: graviex
+    name: Graviex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
+- base: NPXS
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: NPXS
   market:
     identifier: livecoin
@@ -268,7 +293,17 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: ETH
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TL
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: NPXS
   market:
     identifier: thetokenstore
@@ -296,6 +331,6 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: ETH
+    identifier: wazirx
+    name: WazirX
+  target: INR

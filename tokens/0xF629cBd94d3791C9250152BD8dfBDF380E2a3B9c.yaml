@@ -65,11 +65,21 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 50.4
-market_cap_rank: 59
+market_cap_rank: 61
 name: Enjin Coin
 public_interest_score: 35.787
 symbol: enj
 tickers:
+- base: ENJ
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ENJ
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -80,11 +90,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CNX
-- base: ENJ
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: CTXC
 - base: ENJ
   market:
     identifier: bigmarkets
@@ -292,11 +297,6 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: ENJ
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -307,18 +307,23 @@ tickers:
   target: BTC
 - base: ENJ
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: ENJ
+  market:
     identifier: gopax
     name: GoPax
   target: ETH
 - base: ENJ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ENJ
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: idex
+    name: Idex
   target: ETH
 - base: ENJ
   market:
@@ -357,24 +362,9 @@ tickers:
   target: USDT
 - base: ENJ
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
-- base: ENJ
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: ENJ
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ENJ
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
 - base: ENJ
   market:
     identifier: vindax
