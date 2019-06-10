@@ -65,7 +65,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Cortex_Official/
   twitter_screen_name: CTXCBlockchain
 liquidity_score: 46.285
-market_cap_rank: 2724
+market_cap_rank: 4106
 name: Cortex
 public_interest_score: 41.042
 symbol: ctxc
@@ -165,7 +165,7 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
-- base: GVT
+- base: NEO
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -185,7 +185,7 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: CTXC
-- base: NEO
+- base: GVT
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -236,6 +236,11 @@ tickers:
     name: BIG markets
   target: CTXC
 - base: BTC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: CTXC
+- base: ENJ
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -349,6 +354,11 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
+  target: ZEC
+- base: CTXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
   target: ZIL
 - base: CTXC
   market:
@@ -395,16 +405,6 @@ tickers:
     identifier: dextop
     name: DEx.top
   target: ETH
-- base: CTX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: CTX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: CTXC
   market:
     identifier: fcoin
@@ -430,11 +430,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: CTXC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: CTXC
   market:
     identifier: thinkbit

@@ -49,11 +49,16 @@ links:
   telegram_channel_identifier: mxcfoundation
   twitter_screen_name: MXCfoundation
 liquidity_score: 21.763
-market_cap_rank: 1947
+market_cap_rank: 4748
 name: Machine Xchange Coin
 public_interest_score: 28.757
 symbol: mxc
 tickers:
+- base: MXC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: MXC
   market:
     identifier: dcoin
@@ -64,3 +69,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: MXC
+  market:
+    identifier: piexgo
+    name: Piexgo
+  target: USDT

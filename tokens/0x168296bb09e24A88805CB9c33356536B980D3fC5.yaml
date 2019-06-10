@@ -55,7 +55,7 @@ links:
   subreddit_url: https://www.reddit.com/r/RChain
   twitter_screen_name: rchain_coop
 liquidity_score: 10.399
-market_cap_rank: 135
+market_cap_rank: 134
 name: RChain
 public_interest_score: 27.874
 symbol: rhoc
@@ -64,6 +64,11 @@ tickers:
   market:
     identifier: airswap
     name: AirSwap
+  target: ETH
+- base: RHOC
+  market:
+    identifier: bilaxy
+    name: Bilaxy
   target: ETH
 - base: RHOC
   market:
@@ -112,11 +117,6 @@ tickers:
   target: USDT
 - base: RHOC
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: RHOC
-  market:
     identifier: hotbit
     name: Hotbit
   target: BTC
@@ -157,11 +157,6 @@ tickers:
   target: ETH
 - base: RHOC
   market:
-    identifier: ooobtc
-    name: OOOBTC
-  target: BTC
-- base: RHOC
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
@@ -180,3 +175,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: RHOC
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

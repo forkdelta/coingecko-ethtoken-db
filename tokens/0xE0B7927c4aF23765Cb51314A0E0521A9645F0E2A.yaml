@@ -69,7 +69,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 44.527
-market_cap_rank: 86
+market_cap_rank: 90
 name: DigixDAO
 public_interest_score: 30.122
 symbol: dgd
@@ -98,11 +98,6 @@ tickers:
   market:
     identifier: bigone
     name: BigONE
-  target: BTC
-- base: DGD
-  market:
-    identifier: bittrex
-    name: Bittrex
   target: BTC
 - base: DGD
   market:
@@ -176,11 +171,6 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: DGD
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -194,6 +184,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: DGD
   market:
     identifier: openledger
@@ -219,7 +214,7 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: BTS
-- base: GRC
+- base: USDT
   market:
     identifier: openledger
     name: OpenLedger DEX
@@ -229,12 +224,12 @@ tickers:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: USDT
+- base: STEEM
   market:
     identifier: openledger
     name: OpenLedger DEX
   target: DGD
-- base: STEEM
+- base: GRC
   market:
     identifier: openledger
     name: OpenLedger DEX
