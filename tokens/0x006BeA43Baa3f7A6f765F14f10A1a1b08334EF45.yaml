@@ -29,7 +29,7 @@ links:
   subreddit_url: https://www.reddit.com/r/STOX
   twitter_screen_name: stx_coin
 liquidity_score: 14.529
-market_cap_rank: 770
+market_cap_rank: 772
 name: Stox
 public_interest_score: 28.298
 symbol: stx
@@ -61,11 +61,6 @@ tickers:
   target: ETH
 - base: STX
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: STX
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -89,3 +84,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: STX
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

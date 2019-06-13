@@ -42,7 +42,7 @@ links:
   telegram_channel_identifier: latoken
   twitter_screen_name: latokens
 liquidity_score: 48.141
-market_cap_rank: 321
+market_cap_rank: 317
 name: LATOKEN
 public_interest_score: 31.211
 symbol: la
@@ -97,7 +97,22 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: ETH
-- base: KNT
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: EVY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: IGG
   market:
     identifier: latoken
     name: LATOKEN
@@ -117,17 +132,42 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: TEN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: GTA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: QKC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: RDN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: MCO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: XPAT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: HUR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: NRVE
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: OAX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: SRN
   market:
     identifier: latoken
     name: LATOKEN
@@ -162,16 +202,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: JOYS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: SYC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: REP
   market:
     identifier: latoken
@@ -183,11 +213,6 @@ tickers:
     name: LATOKEN
   target: LA
 - base: POWR
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: VIBE
   market:
     identifier: latoken
     name: LATOKEN
@@ -213,11 +238,6 @@ tickers:
     name: LATOKEN
   target: LA
 - base: FUN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: RMT
   market:
     identifier: latoken
     name: LATOKEN
@@ -312,22 +332,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: DPP
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: ATMI
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: XPST
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: MCO
+- base: SCRL
   market:
     identifier: latoken
     name: LATOKEN
@@ -338,11 +348,6 @@ tickers:
     name: LATOKEN
   target: LA
 - base: VIKKY
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: MYST
   market:
     identifier: latoken
     name: LATOKEN
@@ -387,37 +392,7 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: MTC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: HOT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: CHT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: KON
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: SCRL
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: TEN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: QKC
+- base: XPST
   market:
     identifier: latoken
     name: LATOKEN
@@ -427,27 +402,37 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: GTA
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: RDN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: WELL
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: XPAT
+- base: SRN
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: HUR
+- base: PCO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: MYST
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: MTC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: KON
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: DPP
   market:
     identifier: latoken
     name: LATOKEN
@@ -457,12 +442,42 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: VIBE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: OAX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: JOYS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: RMT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: SYC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: S4F
+- base: CHT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: KNT
   market:
     identifier: latoken
     name: LATOKEN
@@ -472,7 +487,17 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: HOT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
 - base: TYPE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: S4F
   market:
     identifier: latoken
     name: LATOKEN

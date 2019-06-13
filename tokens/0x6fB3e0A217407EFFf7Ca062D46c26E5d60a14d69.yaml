@@ -40,7 +40,7 @@ links:
   telegram_channel_identifier: IoTeXGroup
   twitter_screen_name: iotex_io
 liquidity_score: 32.167
-market_cap_rank: 178
+market_cap_rank: 128
 name: IoTeX
 public_interest_score: 27.897
 symbol: iotx
@@ -82,6 +82,11 @@ tickers:
   target: ETH
 - base: IOTX
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: IOTX
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -94,7 +99,7 @@ tickers:
   market:
     identifier: piexgo
     name: Piexgo
-  target: USDT
+  target: ETH
 - base: IOTX
   market:
     identifier: tokenjar

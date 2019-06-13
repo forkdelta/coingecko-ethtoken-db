@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 44.69
-market_cap_rank: 111
+market_cap_rank: 117
 name: Kyber Network
 public_interest_score: 30.633
 symbol: knc
@@ -83,9 +83,9 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
+    identifier: axnet
+    name: AXNET
+  target: USDT
 - base: KNC
   market:
     identifier: bitasset
@@ -133,6 +133,11 @@ tickers:
   target: KRW
 - base: KNC
   market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: KNC
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: CRD
@@ -156,11 +161,6 @@ tickers:
     identifier: cybex
     name: Cybex DEX
   target: ETH
-- base: KNC
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: USDT
 - base: KNC
   market:
     identifier: daybit
@@ -188,8 +188,13 @@ tickers:
   target: WETH
 - base: KNC
   market:
-    identifier: ethex
-    name: Ethex
+    identifier: dextop
+    name: DEx.top
+  target: ETH
+- base: KNC
+  market:
+    identifier: dragonex
+    name: DragonEx
   target: ETH
 - base: KNC
   market:
@@ -206,11 +211,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: KNC
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
 - base: KNC
   market:
     identifier: forkdelta
@@ -233,11 +233,6 @@ tickers:
   target: KRW
 - base: KNC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: KNC
-  market:
     identifier: joyso
     name: Joyso
   target: ETH
@@ -250,6 +245,16 @@ tickers:
   market:
     identifier: oax
     name: OAX
+  target: ETH
+- base: KNC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: KNC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
   target: ETH
 - base: KNC
   market:
@@ -288,29 +293,14 @@ tickers:
   target: DAI
 - base: KNC
   market:
-    identifier: saturn_network
-    name: Saturn Network
+    identifier: switcheo
+    name: Switcheo
   target: ETH
 - base: KNC
   market:
     identifier: tokenize
     name: Tokenize
   target: BTC
-- base: KNC
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
-- base: KNC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: KNC
-  market:
-    identifier: vindax
-    name: Vindax
-  target: ETH
 - base: KNC
   market:
     identifier: zb

@@ -58,11 +58,16 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 42.233
-market_cap_rank: 122
+market_cap_rank: 123
 name: Storj
 public_interest_score: 28.932
 symbol: storj
 tickers:
+- base: STORJ
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
 - base: STORJ
   market:
     identifier: bigone
@@ -167,46 +172,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
+  target: USD
 - base: STORJ
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: STORJ
-  market:
-    identifier: idax
-    name: Idax
   target: ETH
 - base: STORJ
   market:

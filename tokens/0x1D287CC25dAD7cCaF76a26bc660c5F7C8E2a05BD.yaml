@@ -62,14 +62,29 @@ tickers:
   target: USDT
 - base: FET
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: FET
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: FET
+  market:
     identifier: bitmax
     name: BitMax
   target: ETH
 - base: FET
   market:
     identifier: coin_exchange
-    name: CoinExchange
+    name: CoinExchange.io
   target: BTC
+- base: FET
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: DOGE
 - base: FET
   market:
     identifier: coinbit
@@ -92,6 +107,6 @@ tickers:
   target: ETH
 - base: FET
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: dflow
+    name: Dflow
+  target: USDT

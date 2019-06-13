@@ -27,11 +27,16 @@ links:
   subreddit_url: https://www.reddit.com/r/suncontract
   twitter_screen_name: sun_contract
 liquidity_score: 28.728
-market_cap_rank: 442
+market_cap_rank: 443
 name: SunContract
 public_interest_score: 27.54
 symbol: snc
 tickers:
+- base: SNC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: CRD
 - base: SNC
   market:
     identifier: cryptaldash
@@ -49,8 +54,23 @@ tickers:
   target: ETH
 - base: SNC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: SNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SNC
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: SNC
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: SNC
   market:

@@ -40,7 +40,7 @@ links:
     - https://github.com/NANJ-COIN/token
   twitter_screen_name: nanjcoin
 liquidity_score: 4.562
-market_cap_rank: 546
+market_cap_rank: 543
 name: NANJCOIN
 public_interest_score: 30.192
 symbol: nanj
@@ -72,6 +72,11 @@ tickers:
   target: USDT
 - base: NANJ
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: NANJ
+  market:
     identifier: kuna
     name: Kuna Exchange
   target: BTC
@@ -79,11 +84,6 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
-- base: NANJ
-  market:
-    identifier: satoexchange
-    name: SatoExchange
   target: BTC
 - base: NANJ
   market:

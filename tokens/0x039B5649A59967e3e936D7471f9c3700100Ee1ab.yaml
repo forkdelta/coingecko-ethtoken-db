@@ -47,7 +47,7 @@ links:
   subreddit_url: https://www.reddit.com/r/kucoin
   twitter_screen_name: kucoincom
 liquidity_score: 52.982
-market_cap_rank: 70
+market_cap_rank: 69
 name: KuCoin Shares
 public_interest_score: 34.151
 symbol: kcs
@@ -77,17 +77,7 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
-- base: PRL
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: KCS
-- base: DRGN
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: KCS
-- base: TKY
+- base: ETC
   market:
     identifier: kucoin
     name: KuCoin
@@ -97,7 +87,17 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: KCS
-- base: ETC
+- base: TKY
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
+- base: DRGN
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: KCS
+- base: PRL
   market:
     identifier: kucoin
     name: KuCoin
@@ -107,3 +107,13 @@ tickers:
     identifier: oex
     name: OEX
   target: BTC
+- base: KCS
+  market:
+    identifier: sato_wallet_ex
+    name: Sato Wallet Ex
+  target: DOGE
+- base: KCS
+  market:
+    identifier: sato_wallet_ex
+    name: Sato Wallet Ex
+  target: USDT

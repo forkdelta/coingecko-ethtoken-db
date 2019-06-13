@@ -61,11 +61,16 @@ links:
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
 liquidity_score: 40.656
-market_cap_rank: 102
+market_cap_rank: 104
 name: Power Ledger
 public_interest_score: 25.476
 symbol: powr
 tickers:
+- base: POWR
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: POWR
   market:
     identifier: airswap
@@ -131,6 +136,11 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: ETH
+- base: POWR
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: POWR
   market:
     identifier: cryptaldash
@@ -208,8 +218,23 @@ tickers:
   target: ETH
 - base: POWR
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: POWR
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: POWR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: POWR
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: POWR
   market:
@@ -266,11 +291,6 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: BTC
-- base: POWR
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
 - base: POWR
   market:
     identifier: tokenjar

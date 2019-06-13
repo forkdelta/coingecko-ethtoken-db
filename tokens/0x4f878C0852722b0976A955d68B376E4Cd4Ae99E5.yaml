@@ -49,7 +49,7 @@ links:
     - https://github.com/WaykiChain/WaykiChain
   twitter_screen_name: wayki_chain
 liquidity_score: 45.613
-market_cap_rank: 799
+market_cap_rank: 820
 name: WaykiChain
 public_interest_score: 27.58
 symbol: wicc
@@ -69,11 +69,6 @@ tickers:
     identifier: bcex
     name: BCEX
   target: CKUSD
-- base: WICC
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: USDT
 - base: WICC
   market:
     identifier: bitebtc
@@ -126,11 +121,6 @@ tickers:
   target: ETH
 - base: WICC
   market:
-    identifier: idax
-    name: Idax
-  target: USDT
-- base: WICC
-  market:
     identifier: lbank
     name: Lbank
   target: ETH
@@ -144,6 +134,16 @@ tickers:
     identifier: ninecoin
     name: 9coin
   target: ETH
+- base: WICC
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: ETH
+  market:
+    identifier: purcow
+    name: Purcow
+  target: WICC
 - base: WICC
   market:
     identifier: qbtc

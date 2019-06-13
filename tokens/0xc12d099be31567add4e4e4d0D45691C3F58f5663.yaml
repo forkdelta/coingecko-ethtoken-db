@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: auctusproject
   twitter_screen_name: AuctusProject
 liquidity_score: 2.181
-market_cap_rank: 1176
+market_cap_rank: 1170
 name: Auctus
 public_interest_score: 27.448
 symbol: auc
@@ -68,12 +68,32 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: AUC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: AUC
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: AUC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: AUC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: AUC
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: AUC
   market:
     identifier: radar_relay
