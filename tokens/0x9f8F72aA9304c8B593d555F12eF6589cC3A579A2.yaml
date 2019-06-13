@@ -58,7 +58,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 34.89
-market_cap_rank: 22
+market_cap_rank: 23
 name: Maker
 public_interest_score: 28.401
 symbol: mkr
@@ -150,16 +150,6 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: MKR
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: MKR
-  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -173,6 +163,11 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
+- base: MKR
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
 - base: MKR
   market:
     identifier: cybex
@@ -205,38 +200,38 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: MKR
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: MKR
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: gopax
+    name: GoPax
+  target: BTC
+- base: MKR
+  market:
+    identifier: gopax
+    name: GoPax
   target: ETH
 - base: MKR
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: MKR
-  market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: BTC
-- base: MKR
-  market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: USDC
-- base: MKR
-  market:
     identifier: gopax
     name: GoPax
-  target: BTC
+  target: KRW
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: MKR
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: MKR
   market:
@@ -252,11 +247,6 @@ tickers:
   market:
     identifier: nexybit
     name: Nexybit
-  target: USDT
-- base: MKR
-  market:
-    identifier: okex
-    name: OKEx
   target: USDT
 - base: MKR
   market:
@@ -292,11 +282,6 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: ETH
 - base: MKR
   market:
@@ -307,22 +292,12 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
-  target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: ETH
 - base: MKR
   market:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
-- base: MKR
-  market:
-    identifier: three_xbit
-    name: 3XBIT
-  target: BTC
 - base: MKR
   market:
     identifier: tokenize

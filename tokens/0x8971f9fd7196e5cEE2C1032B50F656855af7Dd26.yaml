@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: HelloLambda
   twitter_screen_name: Lambdaim
 liquidity_score: 47.571
-market_cap_rank: 80
+market_cap_rank: 85
 name: Lambda
 public_interest_score: 34.181
 symbol: lamb
@@ -58,16 +58,26 @@ tickers:
   market:
     identifier: abcc
     name: ABCC
-  target: USDT
+  target: BTC
 - base: LAMB
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: abcc
+    name: ABCC
   target: ETH
+- base: LAMB
+  market:
+    identifier: abcc
+    name: ABCC
+  target: USDT
 - base: LAMB
   market:
     identifier: biki
     name: Biki
+  target: BTC
+- base: LAMB
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: BTC
 - base: LAMB
   market:
@@ -124,6 +134,11 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
+- base: LAMB
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: LAMB
   market:
     identifier: tokenjar

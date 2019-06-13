@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: PumaPay
   twitter_screen_name: PumaPay
 liquidity_score: 27.472
-market_cap_rank: 232
+market_cap_rank: 231
 name: PumaPay
 public_interest_score: 27.754
 symbol: pma
 tickers:
+- base: PMA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: PMA
   market:
     identifier: coin_exchange
@@ -50,6 +55,11 @@ tickers:
   target: BTC
 - base: PMA
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: PMA
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -58,16 +68,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
-- base: PMA
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
-- base: PMA
-  market:
-    identifier: quoine
-    name: Liquid
-  target: ETH
 - base: PMA
   market:
     identifier: tokenjar

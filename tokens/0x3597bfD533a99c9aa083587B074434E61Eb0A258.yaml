@@ -25,26 +25,21 @@ links:
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
 liquidity_score: 44.701
-market_cap_rank: 62
+market_cap_rank: 65
 name: Dent
 public_interest_score: 32.294
 symbol: dent
 tickers:
 - base: DENT
   market:
-    identifier: alterdice
-    name: AlterDice
-  target: BTC
-- base: DENT
-  market:
-    identifier: alterdice
-    name: AlterDice
-  target: ETH
+    identifier: bigmarkets
+    name: BIG markets
+  target: AAA
 - base: DENT
   market:
     identifier: bigmarkets
     name: BIG markets
-  target: AAA
+  target: AXPR
 - base: DENT
   market:
     identifier: bigmarkets
@@ -75,6 +70,61 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DASH
+- base: DASH
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: FXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: XDCE
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: PYN
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: ZEC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: ZIL
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: CNX
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: CTXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: NEO
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: XRP
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: DOGE
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: AAA
   market:
     identifier: bigmarkets
@@ -115,6 +165,16 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
+- base: TXC
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
+- base: BCN
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: DENT
 - base: XVG
   market:
     identifier: bigmarkets
@@ -145,11 +205,6 @@ tickers:
     identifier: bigmarkets
     name: BIG markets
   target: DENT
-- base: TXC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
 - base: TRX
   market:
     identifier: bigmarkets
@@ -166,31 +221,6 @@ tickers:
     name: BIG markets
   target: DENT
 - base: GNT
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: DASH
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: FXC
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: BCN
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: XDCE
-  market:
-    identifier: bigmarkets
-    name: BIG markets
-  target: DENT
-- base: PYN
   market:
     identifier: bigmarkets
     name: BIG markets
@@ -284,7 +314,27 @@ tickers:
   market:
     identifier: bigmarkets
     name: BIG markets
+  target: USD
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
   target: USDT
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: WAVES
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: XDCE
+- base: DENT
+  market:
+    identifier: bigmarkets
+    name: BIG markets
+  target: XEM
 - base: DENT
   market:
     identifier: bigmarkets
@@ -342,38 +392,13 @@ tickers:
   target: WETH
 - base: DENT
   market:
-    identifier: dextrade
-    name: Dextrade
-  target: BTC
-- base: DENT
-  market:
-    identifier: dextrade
-    name: Dextrade
-  target: ETH
-- base: DENT
-  market:
     identifier: fatbtc
     name: FatBTC
   target: ETH
 - base: DENT
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: DENT
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
-- base: DENT
-  market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: DENT
-  market:
-    identifier: joyso
-    name: Joyso
   target: ETH
 - base: DENT
   market:
@@ -389,12 +414,7 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: 63564C71-A5B2-4223-80CA-40FA22770E66
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
+  target: ETH
 - base: DENT
   market:
     identifier: okex
@@ -412,29 +432,9 @@ tickers:
   target: USDT
 - base: DENT
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
-- base: DENT
-  market:
     identifier: quoine
     name: Liquid
   target: BTC
-- base: DENT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: DENT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: DENT
-  market:
-    identifier: satoexchange
-    name: SatoExchange
-  target: DOGE
 - base: DENT
   market:
     identifier: tokenize
@@ -445,11 +445,6 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
-- base: DENT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: DENT
   market:
     identifier: vebitcoin

@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 25.407
-market_cap_rank: 234
+market_cap_rank: 243
 name: STASIS EURS
 public_interest_score: 28.052
 symbol: eurs
@@ -42,16 +42,46 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: ETH
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
 - base: LTC
   market:
     identifier: bitexlive
     name: Bitexlive
   target: EURS
-- base: UBN
+- base: BTB
   market:
-    identifier: bitexlive
-    name: Bitexlive
+    identifier: bitibu
+    name: Bitibu
   target: EURS
+- base: ETH
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: EURS
+- base: BTC
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: EURS
+- base: DASH
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: EURS
+- base: LTC
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: EURS
+- base: EURS
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: USDT
 - base: EURS
   market:
     identifier: ddex
@@ -97,32 +127,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: EOS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: ZEC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: MESSE
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: DASH
+- base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -132,7 +137,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -142,11 +157,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: EURS
+- base: MESSE
   market:
     identifier: hitbtc
     name: HitBTC
-  target: TUSD
+  target: EURS
 - base: BTC
   market:
     identifier: kuna
@@ -167,6 +182,16 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: EURS
+- base: EURS
+  market:
+    identifier: sato_wallet_ex
+    name: Sato Wallet Ex
+  target: DOGE
+- base: EURS
+  market:
+    identifier: sato_wallet_ex
+    name: Sato Wallet Ex
+  target: USDT
 - base: EURS
   market:
     identifier: tokenjar

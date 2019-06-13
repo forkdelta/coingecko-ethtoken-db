@@ -68,7 +68,7 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 55.076
-market_cap_rank: 75
+market_cap_rank: 76
 name: aelf
 public_interest_score: 28.59
 symbol: elf
@@ -125,6 +125,11 @@ tickers:
   target: USDT
 - base: ELF
   market:
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
+- base: ELF
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
@@ -170,6 +175,11 @@ tickers:
   target: BTC
 - base: ELF
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: ELF
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -200,11 +210,6 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: ELF
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -213,11 +218,6 @@ tickers:
     identifier: k_kex
     name: KKEX
   target: BTC
-- base: ELF
-  market:
-    identifier: koinex
-    name: Koinex
-  target: INR
 - base: ELF
   market:
     identifier: koinex
@@ -232,6 +232,11 @@ tickers:
   market:
     identifier: oax
     name: OAX
+  target: ETH
+- base: ELF
+  market:
+    identifier: purcow
+    name: Purcow
   target: ETH
 - base: ELF
   market:

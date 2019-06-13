@@ -51,7 +51,7 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 54.511
-market_cap_rank: 69
+market_cap_rank: 70
 name: Status
 public_interest_score: 42.499
 symbol: SNT
@@ -61,6 +61,11 @@ tickers:
     identifier: axnet
     name: AXNET
   target: BTC
+- base: SNT
+  market:
+    identifier: axnet
+    name: AXNET
+  target: ETH
 - base: SNT
   market:
     identifier: bitasset
@@ -73,6 +78,31 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: ddex
+    name: DDEX
+  target: ETH
+- base: SNT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: SNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SNT
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: SNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: SNT
+  market:
     identifier: ninecoin
     name: 9coin
   target: BTC
@@ -83,11 +113,16 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
+    identifier: vebitcoin
+    name: Vebitcoin
+  target: TRY
 - base: SNT
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
+    identifier: zg
+    name: ZG.com
+  target: CNZ
+- base: SNT
+  market:
+    identifier: zg
+    name: ZG.com
+  target: USDT

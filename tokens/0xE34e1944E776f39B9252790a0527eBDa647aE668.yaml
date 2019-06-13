@@ -33,7 +33,7 @@ links:
   subreddit_url: https://www.reddit.com/r/helbiz/
   twitter_screen_name: HbZcoin
 liquidity_score: 14.859
-market_cap_rank: 1015
+market_cap_rank: 999
 name: HBZ
 public_interest_score: 27.461
 symbol: hbz
@@ -95,6 +95,11 @@ tickers:
   target: BTC
 - base: HBZ
   market:
+    identifier: exmo
+    name: EXMO
+  target: ETH
+- base: HBZ
+  market:
     identifier: idax
     name: Idax
   target: BTC
@@ -118,6 +123,11 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
+- base: HBZ
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: HBZ
   market:
     identifier: sistemkoin

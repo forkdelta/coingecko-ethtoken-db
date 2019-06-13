@@ -46,7 +46,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Quantstamp
   twitter_screen_name: Quantstamp
 liquidity_score: 26.724
-market_cap_rank: 3448
+market_cap_rank: 2540
 name: Quantstamp
 public_interest_score: 28.137
 symbol: qsp
@@ -118,6 +118,16 @@ tickers:
   target: ETH
 - base: QSP
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: QSP
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: QSP
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -126,11 +136,6 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
-- base: QSP
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: QSP
   market:
     identifier: idex
@@ -151,3 +156,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: QSP
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

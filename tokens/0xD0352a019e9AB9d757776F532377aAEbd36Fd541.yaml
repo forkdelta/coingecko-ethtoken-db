@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: FUSIONFoundation
   twitter_screen_name: FUSIONProtocol
 liquidity_score: 36.716
-market_cap_rank: 123
+market_cap_rank: 118
 name: FUSION
 public_interest_score: 41.994
 symbol: fsn
@@ -122,6 +122,16 @@ tickers:
   target: BTC
 - base: FSN
   market:
+    identifier: dflow
+    name: Dflow
+  target: USDT
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: FSN
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -145,16 +155,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDT
-- base: FSN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
-- base: FSN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: ETH
 - base: FSN
   market:
     identifier: quoine
