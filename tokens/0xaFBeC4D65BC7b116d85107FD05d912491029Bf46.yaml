@@ -71,13 +71,23 @@ links:
   telegram_channel_identifier: arbofficial
   twitter_screen_name: arbitragingco
 liquidity_score: 29.777
-market_cap_rank: 849
+market_cap_rank: 899
 name: ARBITRAGE
 public_interest_score: 31.52
 symbol: arb
 tickers:
 - base: ARB
   market:
+    identifier: abcc
+    name: ABCC
+  target: USDT
+- base: ARB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: ARB
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -91,43 +101,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: USDT
-- base: ARB
-  market:
-    identifier: raisex
-    name: Raisex
-  target: BTC
-- base: ARB
-  market:
-    identifier: raisex
-    name: Raisex
-  target: ETH
 - base: ARB
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ARB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
-- base: ARB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: DOGE
-- base: ARB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
-- base: ARB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: LTC
-- base: ARB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT

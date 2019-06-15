@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
 liquidity_score: 52.534
-market_cap_rank: 47
+market_cap_rank: 48
 name: Augur
 public_interest_score: 34.617
 symbol: rep
@@ -69,23 +69,8 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: axnet
-    name: AXNET
-  target: BTC
-- base: REP
-  market:
-    identifier: axnet
-    name: AXNET
-  target: ETH
-- base: REP
-  market:
-    identifier: axnet
-    name: AXNET
-  target: USDT
-- base: REP
-  market:
-    identifier: bitasset
-    name: BitAsset
+    identifier: bitbay
+    name: BitBay
   target: BTC
 - base: REP
   market:
@@ -99,176 +84,146 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: bitbox
-    name: BITBOX
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: REP
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: REP
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: BTC
+- base: REP
+  market:
+    identifier: bitexlive
+    name: Bitexlive
   target: ETH
 - base: REP
   market:
     identifier: bitsane
     name: Bitsane
-  target: USDT
-- base: REP
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: REP
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: REP
-  market:
-    identifier: cobinhood
-    name: Cobinhood
   target: BTC
 - base: REP
   market:
-    identifier: cobinhood
-    name: Cobinhood
+    identifier: bitsane
+    name: Bitsane
   target: ETH
 - base: REP
   market:
-    identifier: codex
-    name: CODEX
+    identifier: chainex
+    name: ChainEX
   target: BTC
 - base: REP
   market:
-    identifier: codex
-    name: CODEX
-  target: EOS
-- base: REP
-  market:
-    identifier: codex
-    name: CODEX
-  target: ETH
-- base: REP
-  market:
-    identifier: coinmex
-    name: CoinMex
-  target: ETH
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: REP
   market:
     identifier: coinzest
     name: Coinzest
-  target: ETH
-- base: REP
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
   target: BTC
 - base: REP
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: CRD
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: REP
   market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: ethex
+    name: Ethex
   target: ETH
 - base: REP
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
-- base: REP
-  market:
-    identifier: daybit
-    name: Daybit
-  target: BTC
-- base: REP
-  market:
-    identifier: daybit
-    name: Daybit
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: REP
   market:
-    identifier: dragonex
-    name: DragonEx
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: REP
+  market:
+    identifier: fcoin
+    name: FCoin
   target: USDT
 - base: REP
   market:
-    identifier: gdax
-    name: Coinbase Pro
-  target: EUR
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: REP
   market:
-    identifier: gobaba
-    name: Gobaba
-  target: EUR
-- base: REP
-  market:
-    identifier: gobaba
-    name: Gobaba
-  target: TRY
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: REP
   market:
     identifier: gopax
     name: GoPax
-  target: BTC
+  target: KRW
 - base: REP
   market:
-    identifier: gopax
-    name: GoPax
-  target: ETH
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: AUD
+- base: REP
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: NZD
+- base: REP
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: USD
 - base: REP
   market:
     identifier: koinex
     name: Koinex
-  target: XRP
+  target: INR
 - base: REP
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: REP
-  market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: REP
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: REP
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
+    identifier: quoine
+    name: Liquid
   target: BTC
-- base: REP
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: ETH
-- base: REP
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: LMX
-- base: REP
-  market:
-    identifier: paroexchange
-    name: Paro Exchange
-  target: TUSD
-- base: REP
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: REP
   market:
     identifier: simex
     name: Simex
-  target: USD
+  target: BTC
+- base: REP
+  market:
+    identifier: simex
+    name: Simex
+  target: ETH
+- base: REP
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: REP
   market:
     identifier: tradeio
     name: Trade.io
-  target: TIO
+  target: BTC
 - base: REP
   market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
+    identifier: tradeio
+    name: Trade.io
+  target: ETH
+- base: REP
+  market:
+    identifier: tradeio
+    name: Trade.io
+  target: TIOX

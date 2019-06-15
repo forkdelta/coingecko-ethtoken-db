@@ -74,7 +74,7 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 56.547
-market_cap_rank: 187
+market_cap_rank: 190
 name: Gemini Dollar
 public_interest_score: 38.495
 symbol: gusd
@@ -94,56 +94,16 @@ tickers:
     identifier: bibox
     name: Bibox
   target: GUSD
-- base: ETH
+- base: GUSD
   market:
     identifier: bibox
     name: Bibox
-  target: GUSD
-- base: GUSD
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
-- base: GUSD
-  market:
-    identifier: bilaxy
-    name: Bilaxy
   target: USDT
 - base: GUSD
   market:
-    identifier: bitmesh
-    name: Bitmesh
-  target: USDT
-- base: GUSD
-  market:
-    identifier: bitrabbit
-    name: BitRabbit
-  target: USDT
-- base: GUSD
-  market:
-    identifier: bitrue
-    name: Bitrue
-  target: BTC
-- base: GUSD
-  market:
-    identifier: bitrue
-    name: Bitrue
-  target: ETH
-- base: GUSD
-  market:
-    identifier: bitrue
-    name: Bitrue
-  target: USDT
-- base: GUSD
-  market:
-    identifier: bitrue
-    name: Bitrue
-  target: XRP
-- base: GUSD
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: BTC
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
 - base: GUSD
   market:
     identifier: cex
@@ -158,11 +118,6 @@ tickers:
   market:
     identifier: cobinhood
     name: Cobinhood
-  target: BTC
-- base: GUSD
-  market:
-    identifier: cobinhood
-    name: Cobinhood
   target: USDT
 - base: GUSD
   market:
@@ -171,124 +126,54 @@ tickers:
   target: BTC
 - base: GUSD
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: GUSD
+  market:
     identifier: coinbene
     name: CoinBene
   target: USDT
-- base: GUSD
+- base: BTC
   market:
-    identifier: coinmex
-    name: CoinMex
-  target: BTC
+    identifier: coinex
+    name: CoinEx
+  target: GUSD
+- base: ETH
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: GUSD
+- base: BCH
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: GUSD
 - base: GUSD
   market:
     identifier: coinpark
     name: Coinpark
   target: USDT
-- base: ETH
-  market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: GUSD
-- base: GUSD
-  market:
-    identifier: coss
-    name: COSS
-  target: COSS
 - base: BTC
   market:
     identifier: coss
     name: COSS
   target: GUSD
-- base: BWT
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
-- base: ETH
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
-- base: XRP
+- base: COSS
   market:
     identifier: coss
     name: COSS
   target: GUSD
 - base: GUSD
   market:
-    identifier: coss
-    name: COSS
-  target: USD
-- base: GUSD
-  market:
-    identifier: dcoin
-    name: Dcoin
-  target: USDT
-- base: GUSD
-  market:
-    identifier: dextop
-    name: DEx.top
-  target: ETH
-- base: GUSD
-  market:
-    identifier: digifinex
-    name: Digifinex
+    identifier: cpdax
+    name: CPDAX
   target: BTC
-- base: GUSD
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: ETH
-- base: GUSD
-  market:
-    identifier: eosex
-    name: EOSex
-  target: USDT
 - base: GUSD
   market:
     identifier: everbloom
     name: Everbloom
   target: ETH
-- base: EOS
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: GUSD
-- base: FAT
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: GUSD
-- base: DOGE
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: GUSD
-- base: ETH
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: GUSD
-- base: KIN
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: GUSD
-- base: GUSD
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: BTC
-- base: GUSD
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: ETH
-- base: GUSD
-  market:
-    identifier: gbx
-    name: Gibraltar Blockchain Exchange
-  target: USD
 - base: EOS
   market:
     identifier: hitbtc
@@ -298,22 +183,7 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: GUSD
-  market:
-    identifier: lbank
-    name: Lbank
-  target: BTC
-- base: GUSD
-  market:
-    identifier: oax
-    name: OAX
   target: ETH
-- base: GUSD
-  market:
-    identifier: oax
-    name: OAX
-  target: USDT
 - base: BTC
   market:
     identifier: okcoin
@@ -336,24 +206,29 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: GUSD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: GUSD
-  market:
     identifier: sato_wallet_ex
-    name: Sato Wallet Ex
+    name: SatowalletEx
   target: DOGE
 - base: GUSD
   market:
     identifier: sato_wallet_ex
-    name: Sato Wallet Ex
+    name: SatowalletEx
+  target: SATOS
+- base: GUSD
+  market:
+    identifier: sato_wallet_ex
+    name: SatowalletEx
   target: USDT
+- base: GUSD
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: EUR
+- base: BTC
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: GUSD
 - base: GUSD
   market:
     identifier: tokenize
@@ -361,24 +236,14 @@ tickers:
   target: USD
 - base: GUSD
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: GUSD
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: DOGE
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: LTC
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT
 - base: GUSD
   market:
     identifier: uniswap

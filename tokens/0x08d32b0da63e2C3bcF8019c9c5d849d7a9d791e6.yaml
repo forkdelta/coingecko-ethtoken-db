@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Dentacoin
   twitter_screen_name: dentacoin
 liquidity_score: 12.945
-market_cap_rank: 232
+market_cap_rank: 227
 name: Dentacoin
 public_interest_score: 28.503
 symbol: dcn
@@ -69,16 +69,6 @@ tickers:
   target: BTC
 - base: DCN
   market:
-    identifier: blockonix
-    name: Blockonix
-  target: ETH
-- base: DCN
-  market:
-    identifier: blockonix
-    name: Blockonix
-  target: USDT
-- base: DCN
-  market:
     identifier: buyucoin
     name: BuyUcoin
   target: INR
@@ -87,6 +77,11 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: DCN
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: DOGE
 - base: DCN
   market:
     identifier: coin_exchange
@@ -114,26 +109,11 @@ tickers:
   target: ETH
 - base: DCN
   market:
-    identifier: idax
-    name: Idax
-  target: BTC
-- base: DCN
-  market:
-    identifier: idax
-    name: Idax
-  target: ETH
-- base: DCN
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: DCN
   market:
-    identifier: koinok
-    name: Koinok
-  target: INR
-- base: DCN
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -152,11 +132,6 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: DCN
-  market:
-    identifier: satoexchange
-    name: SatoExchange
-  target: BTC
 - base: DCN
   market:
     identifier: satoexchange

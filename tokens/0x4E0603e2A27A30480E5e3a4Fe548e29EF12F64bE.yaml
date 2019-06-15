@@ -23,17 +23,27 @@ links:
   - https://bitbounce.com/credo
   twitter_screen_name: bitbounceio
 liquidity_score: 1.0
-market_cap_rank: 463
+market_cap_rank: 645
 name: Credo
 public_interest_score: 29.014
 symbol: credo
 tickers:
-- base: SWFTC
+- base: CREDO
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: ZRX
   market:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: BAT
+- base: REP
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: BNT
   market:
     identifier: credoex
     name: CredoEx
@@ -48,22 +58,17 @@ tickers:
     identifier: credoex
     name: CredoEx
   target: CREDO
+- base: BAT
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: DAI
   market:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: REP
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: OMG
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: BCH
+- base: GNT
   market:
     identifier: credoex
     name: CredoEx
@@ -78,21 +83,21 @@ tickers:
     identifier: credoex
     name: CredoEx
   target: CREDO
+- base: XRP
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: BCH
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: CREDO
   market:
     identifier: credoex
     name: CredoEx
-  target: USD
-- base: CREDO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: ETH
-- base: CREDO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+  target: TUSD
 - base: CREDO
   market:
     identifier: forkdelta
@@ -100,21 +105,6 @@ tickers:
   target: ETH
 - base: CREDO
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: CREDO
-  market:
     identifier: otcbtc
     name: OTCBTC
   target: ETH
-- base: CREDO
-  market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: CREDO
-  market:
-    identifier: tidex
-    name: Tidex
-  target: WAVES

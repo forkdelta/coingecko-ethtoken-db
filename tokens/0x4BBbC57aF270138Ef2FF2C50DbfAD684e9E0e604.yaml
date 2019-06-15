@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: WABgroup
   twitter_screen_name: WABnetwork
 liquidity_score: 1.0
-market_cap_rank: 975
+market_cap_rank: 945
 name: WAB Network
 public_interest_score: 32.964
 symbol: wab
 tickers:
+- base: WAB
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
 - base: WAB
   market:
     identifier: bitmart
@@ -41,16 +46,6 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
-  target: ETH
-- base: WAB
-  market:
-    identifier: coinbit
-    name: Coinbit
-  target: KRW
-- base: WAB
-  market:
-    identifier: fatbtc
-    name: FatBTC
   target: ETH
 - base: WAB
   market:
@@ -61,54 +56,9 @@ tickers:
   market:
     identifier: idax
     name: Idax
-  target: BTC
-- base: WAB
-  market:
-    identifier: idax
-    name: Idax
-  target: ETH
-- base: WAB
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: WAB
   market:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: WAB
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: WAB
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: DOGE
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: LTC
-- base: WAB
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT

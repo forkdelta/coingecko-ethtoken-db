@@ -38,7 +38,7 @@ links:
   telegram_channel_identifier: kleros
   twitter_screen_name: kleros_io
 liquidity_score: 1.0
-market_cap_rank: 575
+market_cap_rank: 599
 name: Kleros
 public_interest_score: 27.267
 symbol: pnk
@@ -50,11 +50,16 @@ tickers:
   target: ETH
 - base: PNK
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: PNK
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: PNK
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
