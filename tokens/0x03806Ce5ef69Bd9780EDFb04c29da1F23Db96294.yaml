@@ -23,16 +23,26 @@ links:
   - http://www.energolabs.com/#/
   twitter_screen_name: EnergoLabs
 liquidity_score: 14.53
-market_cap_rank: 812
+market_cap_rank: 797
 name: Tesla
 public_interest_score: 35.73
 symbol: tsl
 tickers:
 - base: TSL
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: TSL
+  market:
     identifier: coinnest
     name: CoinNest
   target: KRW
+- base: TSL
+  market:
+    identifier: exx
+    name: EXX
+  target: BTC
 - base: TSL
   market:
     identifier: exx
@@ -43,8 +53,3 @@ tickers:
     identifier: gate
     name: Gate.io
   target: QTUM
-- base: TSL
-  market:
-    identifier: syex
-    name: Shangya Exchange
-  target: USDT

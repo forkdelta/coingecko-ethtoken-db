@@ -53,16 +53,16 @@ links:
   subreddit_url: https://www.reddit.com/r/loci_io/
   twitter_screen_name: Loci_io
 liquidity_score: 1.0
-market_cap_rank: 1319
+market_cap_rank: 1345
 name: LOCIcoin
 public_interest_score: 28.374
 symbol: loci
 tickers:
 - base: LOCI
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: LOCI
   market:
     identifier: idex
@@ -70,16 +70,6 @@ tickers:
   target: ETH
 - base: LOCI
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: LOCI
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: LOCI
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -88,13 +78,3 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: LOCI
-  market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTC
-- base: LOCI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

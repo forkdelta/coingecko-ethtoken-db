@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: UbexAI
   twitter_screen_name: ubex_ai
 liquidity_score: 25.627
-market_cap_rank: 677
+market_cap_rank: 598
 name: Ubex
 public_interest_score: 27.733
 symbol: ubex
 tickers:
+- base: UBEX
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: UBEX
   market:
     identifier: btc_alpha
@@ -48,28 +53,8 @@ tickers:
   target: BTC
 - base: UBEX
   market:
-    identifier: catex
-    name: Catex
-  target: DOGE
-- base: UBEX
-  market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: UBEX
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: ETH
-- base: UBEX
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
-- base: UBEX
-  market:
-    identifier: iqfinex
-    name: IQFinex
+    identifier: idex
+    name: Idex
   target: ETH
 - base: UBEX
   market:
@@ -78,6 +63,11 @@ tickers:
   target: BTC
 - base: UBEX
   market:
+    identifier: lbank
+    name: Lbank
+  target: USDT
+- base: UBEX
+  market:
     identifier: probit
     name: Probit
   target: BTC
@@ -85,22 +75,7 @@ tickers:
   market:
     identifier: probit
     name: Probit
-  target: ETH
-- base: UBEX
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
-- base: UBEX
-  market:
-    identifier: probit
-    name: Probit
   target: USDT
-- base: UBEX
-  market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
 - base: UBEX
   market:
     identifier: tokenjar

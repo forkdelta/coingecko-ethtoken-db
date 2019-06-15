@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 51.097
-market_cap_rank: 26
+market_cap_rank: 28
 name: Crypto.com Chain
 public_interest_score: 36.737
 symbol: cro
 tickers:
+- base: CRO
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: CRO
   market:
     identifier: bitebtc
@@ -47,6 +52,16 @@ tickers:
   market:
     identifier: bitebtc
     name: BiteBTC
+  target: ETH
+- base: CRO
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: BTC
+- base: CRO
+  market:
+    identifier: bitexlive
+    name: Bitexlive
   target: ETH
 - base: CRO
   market:
@@ -55,26 +70,11 @@ tickers:
   target: KRW
 - base: CRO
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: CRO
-  market:
     identifier: gopax
     name: GoPax
-  target: BTC
-- base: CRO
-  market:
-    identifier: gopax
-    name: GoPax
-  target: ETH
+  target: KRW
 - base: CRO
   market:
     identifier: idex
     name: Idex
   target: ETH
-- base: CRO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

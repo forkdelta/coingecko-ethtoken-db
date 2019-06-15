@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: breezecoin
   twitter_screen_name: breezecoinio
 liquidity_score: 1.0
-market_cap_rank: 888
+market_cap_rank: 879
 name: Breezecoin
 public_interest_score: 27.255
 symbol: brzc
 tickers:
+- base: BRZC
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: BRZC
   market:
     identifier: sistemkoin
@@ -48,24 +53,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: EURO
-- base: BRZC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TL
-- base: BRZC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: BRZC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: USD
-- base: BRZC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
