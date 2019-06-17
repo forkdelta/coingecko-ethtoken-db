@@ -44,8 +44,18 @@ links:
     - https://github.com/measurabledatatoken/-
   twitter_screen_name: MeasurableData
 liquidity_score: 32.038
-market_cap_rank: 451
+market_cap_rank: 449
 name: Measurable Data Token
 public_interest_score: 37.052
 symbol: mdt
-tickers: []
+tickers:
+- base: MDT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: MDT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC

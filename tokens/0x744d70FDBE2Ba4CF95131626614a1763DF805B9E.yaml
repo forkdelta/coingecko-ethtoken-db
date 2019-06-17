@@ -51,7 +51,7 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 54.511
-market_cap_rank: 71
+market_cap_rank: 72
 name: Status
 public_interest_score: 42.499
 symbol: SNT
@@ -63,24 +63,19 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: SNT
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
 - base: SNT
   market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
-- base: SNT
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: SNT
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: SNT
   market:
     identifier: idex
@@ -98,39 +93,19 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: otcbtc
+    name: OTCBTC
   target: ETH
+- base: SNT
+  market:
+    identifier: prixbit
+    name: Prixbit
+  target: KRW
 - base: SNT
   market:
     identifier: tokenize
     name: Tokenize
-  target: BTC
-- base: SNT
-  market:
-    identifier: tokenize
-    name: Tokenize
   target: ETH
-- base: SNT
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: BTC
-- base: SNT
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: ETH
-- base: SNT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
-- base: SNT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
 - base: SNT
   market:
     identifier: zg

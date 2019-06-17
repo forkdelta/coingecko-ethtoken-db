@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: mftudotnet
   twitter_screen_name: mftu_currency
 liquidity_score: 1.0
-market_cap_rank: 3510
+market_cap_rank: 3507
 name: CyberFM
 public_interest_score: 25.883
 symbol: cyfm
 tickers:
+- base: CYFM
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: CYFM
   market:
     identifier: fatbtc
@@ -46,11 +51,6 @@ tickers:
   target: ETH
 - base: CYFM
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: CYFM
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -64,11 +64,6 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: CYFM
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: CYFM
   market:
     identifier: purcow

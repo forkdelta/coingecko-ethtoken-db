@@ -58,7 +58,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 34.89
-market_cap_rank: 23
+market_cap_rank: 24
 name: Maker
 public_interest_score: 28.401
 symbol: mkr
@@ -95,16 +95,6 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
-- base: MKR
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
@@ -117,17 +107,7 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
-- base: MKR
-  market:
-    identifier: gate
-    name: Gate.io
   target: USDT
-- base: MKR
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: MKR
   market:
     identifier: hitbtc
@@ -135,19 +115,29 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: MKR
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: USDT
+  target: ETH
 - base: MKR
   market:
     identifier: switcheo
     name: Switcheo
-  target: DAI
+  target: ETH
+- base: MKR
+  market:
+    identifier: three_xbit
+    name: 3XBIT
+  target: BTC
+- base: MKR
+  market:
+    identifier: three_xbit
+    name: 3XBIT
+  target: USD
 - base: MKR
   market:
     identifier: tokenize

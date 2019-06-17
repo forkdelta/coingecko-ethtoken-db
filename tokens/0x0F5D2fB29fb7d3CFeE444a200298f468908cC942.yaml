@@ -76,9 +76,19 @@ tickers:
   target: ETH
 - base: MANA
   market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: MANA
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: MANA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: MANA
   market:
     identifier: coineal
@@ -94,15 +104,15 @@ tickers:
     identifier: dextrade
     name: Dextrade
   target: ETH
-- base: MNA
+- base: MANA
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: etherflyer
+    name: EtherFlyer
   target: ETH
 - base: MANA
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: MANA
   market:
@@ -116,6 +126,11 @@ tickers:
   target: INR
 - base: MANA
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: MANA
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -126,6 +141,11 @@ tickers:
   target: BTC
 - base: MANA
   market:
+    identifier: prixbit
+    name: Prixbit
+  target: KRW
+- base: MANA
+  market:
     identifier: purcow
     name: Purcow
   target: BTC
@@ -134,11 +154,6 @@ tickers:
     identifier: purcow
     name: Purcow
   target: ETH
-- base: MANA
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: MANA
   market:
     identifier: tradeio

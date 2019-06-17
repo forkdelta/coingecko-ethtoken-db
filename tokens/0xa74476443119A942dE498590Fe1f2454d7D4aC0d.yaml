@@ -80,11 +80,26 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 48.388
-market_cap_rank: 75
+market_cap_rank: 77
 name: Golem
 public_interest_score: 31.126
 symbol: gnt
 tickers:
+- base: GNT
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: PLN
 - base: GNT
   market:
     identifier: bitexlive
@@ -95,6 +110,11 @@ tickers:
     identifier: bitexlive
     name: Bitexlive
   target: ETH
+- base: GNT
+  market:
+    identifier: braziliex
+    name: Braziliex
+  target: BTC
 - base: GNT
   market:
     identifier: buyucoin
@@ -102,44 +122,34 @@ tickers:
   target: INR
 - base: GNT
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: GNT
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
 - base: GNT
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: GNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: GNT
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
-- base: GNT
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
-- base: GNT
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
+- base: GNT
+  market:
+    identifier: exmo
+    name: EXMO
+  target: ETH
 - base: GNT
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: USDT
+  target: BTC
+- base: GNT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
 - base: GNT
   market:
     identifier: tokenize
@@ -154,17 +164,12 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
-  target: BTC
+  target: USDT
 - base: GNT
   market:
     identifier: zb
     name: ZB
   target: BTC
-- base: GNT
-  market:
-    identifier: zg
-    name: ZG.com
-  target: CNZ
 - base: GNT
   market:
     identifier: zg
