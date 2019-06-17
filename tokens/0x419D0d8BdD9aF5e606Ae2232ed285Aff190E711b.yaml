@@ -57,16 +57,16 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 33.017
-market_cap_rank: 134
+market_cap_rank: 131
 name: FunFair
 public_interest_score: 30.517
 symbol: fun
 tickers:
 - base: FUN
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: FUN
   market:
     identifier: altilly
@@ -111,16 +111,26 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: FUN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: FUN
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: FUN
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: FUN
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: FUN
   market:
@@ -147,3 +157,13 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
+- base: FUN
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
+- base: FUN
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

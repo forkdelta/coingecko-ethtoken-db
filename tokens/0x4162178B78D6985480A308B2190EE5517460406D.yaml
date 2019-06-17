@@ -30,16 +30,26 @@ links:
   subreddit_url: https://www.reddit.com/r/ColuLocalNetwork/
   twitter_screen_name: colunetwork
 liquidity_score: 1.0
-market_cap_rank: 848
+market_cap_rank: 849
 name: Colu Local Network
 public_interest_score: 41.733
 symbol: cln
 tickers:
 - base: CLN
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: CLN
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: CLN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: CLN
   market:
     identifier: idex

@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 34.055
-market_cap_rank: 352
+market_cap_rank: 371
 name: Kin
 public_interest_score: 34.076
 symbol: kin
@@ -89,19 +89,24 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
+    identifier: altilly
+    name: Altilly
+  target: ETH
 - base: KIN
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: ETH
+    identifier: altilly
+    name: Altilly
+  target: LTC
+- base: KIN
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: KIN
   market:
     identifier: bitforex
     name: Bitforex
-  target: USDT
+  target: ETH
 - base: KIN
   market:
     identifier: coinall
@@ -114,19 +119,14 @@ tickers:
   target: BTC
 - base: KIN
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: KIN
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: KIN
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: KIN
   market:
     identifier: latoken
@@ -146,27 +146,22 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
-  target: BTC
-- base: 568637D4-2B03-4F66-972E-B947A40F2771
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
-- base: KIN
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
-- base: KIN
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
-- base: KIN
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: USD
+- base: KIN
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: KIN
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: KIN
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
 - base: KIN
   market:
     identifier: satoexchange

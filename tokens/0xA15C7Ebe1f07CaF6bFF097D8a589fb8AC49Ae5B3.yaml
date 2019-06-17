@@ -71,16 +71,6 @@ symbol: npxs
 tickers:
 - base: NPXS
   market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
-- base: NPXS
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
-- base: NPXS
-  market:
     identifier: bit_z
     name: Bit-Z
   target: ETH
@@ -91,9 +81,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: NPXS
   market:
     identifier: coin_exchange
@@ -101,9 +91,19 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: NPXS
+  market:
     identifier: coinnest
     name: CoinNest
   target: KRW
+- base: NPXS
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
 - base: NPXS
   market:
     identifier: coss
@@ -114,6 +114,11 @@ tickers:
     identifier: crypto_bridge
     name: CryptoBridge
   target: BTC
+- base: NPXS
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: ETH
 - base: NPXS
   market:
     identifier: ddex
@@ -136,6 +141,11 @@ tickers:
   target: USD
 - base: NPXS
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: NPXS
+  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -146,19 +156,14 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: graviex
-    name: Graviex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
 - base: NPXS
   market:
     identifier: livecoin
@@ -171,9 +176,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
+    identifier: omgfin
+    name: Omgfin
+  target: BTC
 - base: NPXS
   market:
     identifier: purcow
@@ -188,7 +193,7 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: ETH
 - base: NPXS
   market:
     identifier: thetokenstore
@@ -213,4 +218,4 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
-  target: BTC
+  target: INR

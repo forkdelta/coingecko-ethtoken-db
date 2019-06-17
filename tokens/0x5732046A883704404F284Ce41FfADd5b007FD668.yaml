@@ -51,11 +51,16 @@ links:
   telegram_channel_identifier: bluzelle
   twitter_screen_name: BluzelleHQ
 liquidity_score: 29.697
-market_cap_rank: 259
+market_cap_rank: 256
 name: Bluzelle
 public_interest_score: 27.762
 symbol: blz
 tickers:
+- base: BLZ
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
 - base: BLZ
   market:
     identifier: coss
@@ -70,9 +75,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: BLZ
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH

@@ -53,7 +53,7 @@ links:
   subreddit_url: https://www.reddit.com/r/breadwallet
   twitter_screen_name: breadapp
 liquidity_score: 20.348
-market_cap_rank: 159
+market_cap_rank: 161
 name: Bread
 public_interest_score: 37.464
 symbol: brd
@@ -67,6 +67,21 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: BTC
+- base: BRD
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: BRD
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: BRD
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: BRD
   market:
