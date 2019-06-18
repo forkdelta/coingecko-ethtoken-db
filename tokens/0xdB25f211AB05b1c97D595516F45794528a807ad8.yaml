@@ -1,12 +1,12 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
 coingecko_rank: 683
-coingecko_score: 27.983
-community_score: 14.707
+coingecko_score: 27.866
+community_score: 14.749
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
-developer_score: 14.427
+developer_score: 14.426
 id: stasis-eurs
 image:
   large: https://assets.coingecko.com/coins/images/5164/large/EURS_300x300.png?1550571779
@@ -26,68 +26,43 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 25.407
-market_cap_rank: 246
+liquidity_score: 25.116
+market_cap_rank: 249
 name: STASIS EURS
-public_interest_score: 28.052
+public_interest_score: 28.03
 symbol: eurs
 tickers:
-- base: BTC
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: EURS
-- base: ETH
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: EURS
-- base: LTC
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: EURS
-- base: BTB
-  market:
-    identifier: bitibu
-    name: Bitibu
-  target: EURS
-- base: BTC
-  market:
-    identifier: bitibu
-    name: Bitibu
-  target: EURS
-- base: DASH
-  market:
-    identifier: bitibu
-    name: Bitibu
-  target: EURS
-- base: LTC
-  market:
-    identifier: bitibu
-    name: Bitibu
-  target: EURS
-- base: ETH
-  market:
-    identifier: bitibu
-    name: Bitibu
-  target: EURS
 - base: EURS
   market:
-    identifier: bitibu
-    name: Bitibu
-  target: USDT
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: BTC
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
+- base: ETH
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
+- base: LTC
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: EURS
 - base: EURS
   market:
     identifier: dsx
     name: DSX
   target: EUR
-- base: LTC
+- base: BTC
   market:
     identifier: dsx
     name: DSX
   target: EURS
-- base: BTC
+- base: LTC
   market:
     identifier: dsx
     name: DSX
@@ -99,25 +74,20 @@ tickers:
   target: EURS
 - base: EURS
   market:
-    identifier: dsx
-    name: DSX
-  target: USD
-- base: EURS
-  market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EOSDT
 - base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -187,8 +157,3 @@ tickers:
     identifier: sato_wallet_ex
     name: SatowalletEx
   target: USDT
-- base: EURS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

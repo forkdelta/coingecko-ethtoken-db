@@ -1,8 +1,8 @@
 ---
 address: '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2'
-coingecko_rank: 60
-coingecko_score: 54.027
-community_score: 38.985
+coingecko_rank: 59
+coingecko_score: 54.725
+community_score: 40.683
 description: >-
   MKR is a cryptocurrency depicted as a smart contract platform and works alongside the Dai coin and aims
   to act as a hedge currency that provides traders with a stable alternative to the majority of coins
@@ -39,7 +39,7 @@ description: >-
   the equivalent of $25.41 today, and even $1 in 1993 is worth the equivalent of $1.74 today. Stablecoins
   don’t negate these basic economic principles of value. Instead, both Tether and Dai have values pegged
   to the U.S. dollar. This is done to stabilize the price.
-developer_score: 74.254
+developer_score: 74.257
 id: maker
 image:
   large: https://assets.coingecko.com/coins/images/1364/large/maker.png?1547035390
@@ -57,27 +57,12 @@ links:
     - https://github.com/makerdao/dai.js
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 34.89
+liquidity_score: 37.049
 market_cap_rank: 24
 name: Maker
-public_interest_score: 28.401
+public_interest_score: 27.664
 symbol: mkr
 tickers:
-- base: MKR
-  market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
-- base: MKR
-  market:
-    identifier: bitsane
-    name: Bitsane
-  target: XRP
-- base: MKR
-  market:
-    identifier: c_patex
-    name: C-Patex
-  target: BTC
 - base: MKR
   market:
     identifier: chainex
@@ -87,12 +72,32 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: BTC
+  target: DAI
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: MKR
   market:
     identifier: ddex
     name: DDEX
   target: DAI
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: MKR
   market:
     identifier: ethfinex
@@ -115,19 +120,14 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: BTC
 - base: MKR
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+  target: BTC
 - base: MKR
   market:
     identifier: three_xbit
@@ -147,14 +147,4 @@ tickers:
   market:
     identifier: tokenize
     name: Tokenize
-  target: ETH
-- base: MKR
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: BTC
-- base: MKR
-  market:
-    identifier: tradeio
-    name: Trade.io
   target: ETH
