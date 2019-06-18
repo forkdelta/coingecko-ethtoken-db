@@ -1,8 +1,8 @@
 ---
 address: '0xd806A880aa56D25A7a03C621E05F5D31519a0D2b'
-coingecko_rank: 4499
-coingecko_score: 3.766
-community_score: 4.345
+coingecko_rank: 4601
+coingecko_score: 3.714
+community_score: 4.13
 description: >-
   The first multichain-based marketplace for the issuance of crypto assets for business
 developer_score: 0.0
@@ -20,8 +20,18 @@ links:
   - http://cabico.io/
   twitter_screen_name: CryptoAssetBox
 liquidity_score: 1.0
-market_cap_rank: 4274
+market_cap_rank: 4277
 name: CABox
-public_interest_score: 24.799
+public_interest_score: 24.816
 symbol: cab
-tickers: []
+tickers:
+- base: CAB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: DOGE
+- base: CAB
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC

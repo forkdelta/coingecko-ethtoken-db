@@ -1,7 +1,7 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 3507
-coingecko_score: 6.991
+coingecko_rank: 3216
+coingecko_score: 8.034
 community_score: 0.0
 description: >-
   W-ETH is "wrapped ETH" but let's start by introducing the players. First, there's Ether token. Ether
@@ -23,12 +23,17 @@ links:
   - https://ethplorer.io/address/0xecf8f87f810ecf450940c9f60066b4a7a501d6a7
   homepage:
   - https://weth.io/
-liquidity_score: 20.625
-market_cap_rank: 4907
+liquidity_score: 26.745
+market_cap_rank: 2706
 name: WETH
-public_interest_score: 28.658
+public_interest_score: 26.851
 symbol: weth
 tickers:
+- base: WETH
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: WETH
   market:
     identifier: ddex
@@ -39,17 +44,17 @@ tickers:
     identifier: ddex
     name: DDEX
   target: USDT
-- base: LINK
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: BCO
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: BAT
+- base: LINK
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MKR
   market:
     identifier: ddex
     name: DDEX
@@ -64,7 +69,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: ZRX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: DENT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DACC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LOOM
   market:
     identifier: ddex
     name: DDEX
@@ -74,12 +94,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: ZRX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: HOT
+- base: BAT
   market:
     identifier: ddex
     name: DDEX
@@ -114,27 +129,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: SXDT
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: EMPR
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: NEXO
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: CHT
+- base: SXDT
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: PPI
+- base: XBASE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: CHT
   market:
     identifier: ddex
     name: DDEX
@@ -149,12 +159,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: RXE
+- base: PPI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: BITOX
   market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: POLY
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: RXE
   market:
     identifier: ddex
     name: DDEX
@@ -169,7 +189,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: HT
+- base: ERC20
   market:
     identifier: ddex
     name: DDEX
@@ -179,12 +199,17 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: REQ
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: POWR
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: OCC
+- base: BMX
   market:
     identifier: ddex
     name: DDEX
@@ -204,7 +229,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: SNTR
+- base: QSP
   market:
     identifier: ddex
     name: DDEX
@@ -220,6 +245,11 @@ tickers:
     name: DDEX
   target: WETH
 - base: KIN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: HT
   market:
     identifier: ddex
     name: DDEX
@@ -244,16 +274,6 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: MXM
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: PDI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
 - base: REQ
   market:
     identifier: tokenjar
@@ -270,201 +290,6 @@ tickers:
     name: TokenJar
   target: WETH
 - base: GRWT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: HOT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: XBASE
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: OMG
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NIO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BIRD
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NEXO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: GRID
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: XES
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DAI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ZXC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: FUN
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: GROO
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NOBS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: FTM
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: EXBT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: CNC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: SNM
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: APPC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: GZR
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: KEY
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: CGC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ARY
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: ELTCOIN
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: IOTX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: TMT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: UTT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: MZI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: SNT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: GMBC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: TTU
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: AVINOC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: POE
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: BITCAR
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NPX
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: KNC
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: YEED
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: NCT
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: PTM
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: FMF
   market:
     identifier: tokenjar
     name: TokenJar

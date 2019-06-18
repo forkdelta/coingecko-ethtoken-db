@@ -1,8 +1,8 @@
 ---
 address: '0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359'
-coingecko_rank: 53
-coingecko_score: 55.277
-community_score: 39.141
+coingecko_rank: 50
+coingecko_score: 56.748
+community_score: 40.716
 description: >-
   Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD — every Dai is worth $1,
   and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority
@@ -72,7 +72,7 @@ description: >-
   to be created.
 
   These three reasons are enough to ensure that Dai is continually created.
-developer_score: 68.564
+developer_score: 71.156
 id: dai
 image:
   large: https://assets.coingecko.com/coins/images/1442/large/dai.png?1547035520
@@ -92,18 +92,13 @@ links:
     - https://github.com/makerdao/market-maker-keeper
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 52.527
+liquidity_score: 56.028
 market_cap_rank: 80
 name: Dai
-public_interest_score: 36.472
+public_interest_score: 34.383
 symbol: dai
 tickers:
 - base: BTC
-  market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: ICX
   market:
     identifier: bitbegin
     name: Bitbegin
@@ -113,12 +108,17 @@ tickers:
     identifier: bitbegin
     name: Bitbegin
   target: DAI
-- base: BAT
+- base: OMG
   market:
     identifier: bitbegin
     name: Bitbegin
   target: DAI
-- base: OMG
+- base: ICX
+  market:
+    identifier: bitbegin
+    name: Bitbegin
+  target: DAI
+- base: DAIX
   market:
     identifier: bitbegin
     name: Bitbegin
@@ -128,7 +128,7 @@ tickers:
     identifier: bitbegin
     name: Bitbegin
   target: DAI
-- base: DAIX
+- base: BAT
   market:
     identifier: bitbegin
     name: Bitbegin
@@ -145,6 +145,11 @@ tickers:
   target: USDT
 - base: DAI
   market:
+    identifier: codex
+    name: CODEX
+  target: USDT
+- base: DAI
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -153,16 +158,21 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: ETH
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: DAI
 - base: DAI
   market:
     identifier: coinchangex
     name: Coinchangex
   target: ETH
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
+- base: COSS
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: TUSD
   market:
     identifier: coss
@@ -170,20 +180,20 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: DAI
-  market:
     identifier: crex24
     name: CREX24
   target: USD
+- base: WETH
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: MKR
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: USDC
+- base: BOMB
   market:
     identifier: ddex
     name: DDEX
@@ -198,37 +208,47 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: DAI
-  market:
-    identifier: ethex
-    name: Ethex
-  target: ETH
 - base: MKR
   market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: ZRX
+- base: DAI
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: DAI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: DAI
-- base: OMG
+- base: XMR
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: POA20
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: DAI
 - base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: MKR
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: POA20
+- base: MKR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -242,13 +262,13 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EOSDT
-- base: DAI
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USDC
 - base: ETH
+  market:
+    identifier: okex
+    name: OKEx
+  target: DAI
+- base: BTC
   market:
     identifier: okex
     name: OKEx
@@ -258,22 +278,7 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
 - base: BTC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
-- base: LTC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
-- base: DOGE
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -283,10 +288,10 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: ETH
+- base: DOGE
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: south_xchange
+    name: SouthXchange
   target: DAI
 - base: PAX
   market:
@@ -294,6 +299,11 @@ tickers:
     name: Switcheo
   target: DAI
 - base: USDC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: ETH
   market:
     identifier: switcheo
     name: Switcheo
@@ -308,23 +318,3 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
-- base: DAI
-  market:
-    identifier: three_xbit
-    name: 3XBIT
-  target: USD
-- base: DAI
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: DAI
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: ETH
-- base: DAI
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: USDT
