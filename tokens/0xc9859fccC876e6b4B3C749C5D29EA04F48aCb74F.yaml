@@ -1,8 +1,8 @@
 ---
 address: '0xc9859fccC876e6b4B3C749C5D29EA04F48aCb74F'
-coingecko_rank: 1849
-coingecko_score: 16.259
-community_score: 11.95
+coingecko_rank: 1865
+coingecko_score: 15.942
+community_score: 10.977
 description: >-
   InoCoin is a decentralized cryptocurrency built with the sole purpose of helping prospective new businesses
   find funding. Our aim is to draw in a large pool of funding applicants and pick the ones who prove they
@@ -52,9 +52,19 @@ links:
     - https://github.com/InoCoin/ino-client
   telegram_channel_identifier: IniCoin
   twitter_screen_name: inocoin2018
-liquidity_score: 35.451
-market_cap_rank: 2277
+liquidity_score: 35.082
+market_cap_rank: 3523
 name: Ino Coin
 public_interest_score: 31.815
 symbol: ino
-tickers: []
+tickers:
+- base: INO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: INO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH

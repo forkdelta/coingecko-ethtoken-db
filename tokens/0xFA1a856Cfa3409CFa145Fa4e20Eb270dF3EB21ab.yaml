@@ -1,8 +1,8 @@
 ---
 address: '0xFA1a856Cfa3409CFa145Fa4e20Eb270dF3EB21ab'
-coingecko_rank: 35
-coingecko_score: 60.341
-community_score: 53.442
+coingecko_rank: 34
+coingecko_score: 60.157
+community_score: 53.198
 description: >-
   IOST is building an ultra-high TPS blockchain infrastructure to meet the security and scalability needs
   of a decentralized economy. Led by a team of proven founders and backed by $40 million from world-class
@@ -61,8 +61,8 @@ links:
   subreddit_url: https://www.reddit.com/r/IOStoken/
   telegram_channel_identifier: officialios
   twitter_screen_name: iostoken
-liquidity_score: 59.589
-market_cap_rank: 54
+liquidity_score: 58.941
+market_cap_rank: 55
 name: IOST
 public_interest_score: 28.92
 symbol: iost
@@ -72,11 +72,16 @@ tickers:
     identifier: abcc
     name: ABCC
   target: ETH
-- base: IOS
+- base: IOST
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: bigone
+    name: BigONE
+  target: ETH
+- base: IOST
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
 - base: IOS
   market:
     identifier: ethfinex
@@ -96,6 +101,16 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
+  target: ETH
+- base: IOST
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: IOST
+  market:
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
 - base: IOST
   market:

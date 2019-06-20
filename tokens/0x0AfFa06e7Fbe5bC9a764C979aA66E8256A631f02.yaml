@@ -1,7 +1,7 @@
 ---
 address: '0x0AfFa06e7Fbe5bC9a764C979aA66E8256A631f02'
-coingecko_rank: 2032
-coingecko_score: 14.748
+coingecko_rank: 2022
+coingecko_score: 14.718
 community_score: 0.0
 description: >-
   Polybius Bank project will operate on the principles of an Open API, employing reputable innovations
@@ -25,9 +25,19 @@ links:
   homepage:
   - https://polybius.io/
   twitter_screen_name: PolybiusBank
-liquidity_score: 0.34
-market_cap_rank: 430
+liquidity_score: 0.568
+market_cap_rank: 444
 name: Polybius
 public_interest_score: 26.35
 symbol: plbt
-tickers: []
+tickers:
+- base: PLBT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PLBT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH

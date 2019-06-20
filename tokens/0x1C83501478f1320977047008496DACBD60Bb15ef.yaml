@@ -1,8 +1,8 @@
 ---
 address: '0x1C83501478f1320977047008496DACBD60Bb15ef'
-coingecko_rank: 394
-coingecko_score: 34.124
-community_score: 41.561
+coingecko_rank: 389
+coingecko_score: 34.112
+community_score: 40.417
 description: >-
   Digitex is a cryptocurrency futures exchange where traders can buy and sell futures contracts on Bitcoin,
   Ethereum and Litecoin with no trading fees. Commission-free trading is made possible by the creation
@@ -41,12 +41,17 @@ links:
   subreddit_url: https://www.reddit.com/r/DigitexFutures/
   telegram_channel_identifier: digitexfutureschat
   twitter_screen_name: DigitexFutures
-liquidity_score: 37.067
-market_cap_rank: 114
+liquidity_score: 37.715
+market_cap_rank: 116
 name: Digitex Futures Exchange
 public_interest_score: 26.93
 symbol: dgtx
 tickers:
+- base: DGTX
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
 - base: DGTX
   market:
     identifier: coin_exchange
@@ -61,9 +66,4 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: ETH
-- base: DGTX
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH

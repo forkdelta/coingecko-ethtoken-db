@@ -1,8 +1,8 @@
 ---
 address: '0x47da42696A866CDC61A4C809A515500a242909C1'
-coingecko_rank: 2150
-coingecko_score: 13.854
-community_score: 29.31
+coingecko_rank: 2159
+coingecko_score: 13.679
+community_score: 28.609
 description: >-
   BitRewards is a blockchain rewards and loyalty system for e-commerce businesses. It enables online stores
   to reward their shoppers with a cryptocurrency “BIT”, which helps to increase sales by an average of
@@ -40,8 +40,18 @@ links:
   telegram_channel_identifier: bitrewards
   twitter_screen_name: bitrewards
 liquidity_score: 1.0
-market_cap_rank: 2498
+market_cap_rank: 2522
 name: BitRewards Token
 public_interest_score: 25.742
 symbol: bit
-tickers: []
+tickers:
+- base: BIT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: BIT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
