@@ -1,8 +1,8 @@
 ---
 address: '0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6'
-coingecko_rank: 83
-coingecko_score: 51.44
-community_score: 37.077
+coingecko_rank: 65
+coingecko_score: 53.061
+community_score: 38.03
 description: >-
   The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments.
   It’s complementary to the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> blockchain
@@ -35,7 +35,7 @@ description: >-
 
   Raiden can be used for a wide variety of applications and purposes such as Micropayments For Content
   Distribution, Decentralized M2M Markets, API Access and Fast Decentralized Exchanges."
-developer_score: 81.473
+developer_score: 81.468
 id: raiden-network
 image:
   large: https://assets.coingecko.com/coins/images/1132/large/raiden-logo.jpg?1547035131
@@ -58,12 +58,17 @@ links:
     - https://github.com/raiden-network/raiden/
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
-liquidity_score: 29.727
-market_cap_rank: 193
+liquidity_score: 36.414
+market_cap_rank: 208
 name: Raiden Network Token
 public_interest_score: 29.17
 symbol: rdn
 tickers:
+- base: RDN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: RDN
   market:
     identifier: ethfinex
@@ -73,11 +78,21 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: RDN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: RDN
   market:
     identifier: gate
     name: Gate.io
+  target: ETH
+- base: RDN
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: RDN
   market:

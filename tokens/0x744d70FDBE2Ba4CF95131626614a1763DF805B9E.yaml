@@ -1,8 +1,8 @@
 ---
 address: '0x744d70FDBE2Ba4CF95131626614a1763DF805B9E'
-coingecko_rank: 24
-coingecko_score: 61.917
-community_score: 47.481
+coingecko_rank: 23
+coingecko_score: 61.883
+community_score: 46.892
 description: >-
   Status is a mobile operating system that will completely change the way the world interacts with the
   <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> network.  Designed as a decentralized
@@ -27,7 +27,7 @@ description: >-
 
   SNT is currently available for trade on many online exchanges, including <a href="https://www.coingecko.com/en/exchanges/huobi">Huobi</a>,
   <a href="https://www.coingecko.com/en/exchanges/binance">Binance</a>, and <a href="https://www.coingecko.com/en/exchanges/bittrex">Bittrex</a>.
-developer_score: 82.469
+developer_score: 82.471
 id: status
 image:
   large: https://assets.coingecko.com/coins/images/779/large/status.png?1548610778
@@ -50,27 +50,37 @@ links:
     - https://github.com/status-im/swarms
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
-liquidity_score: 54.265
-market_cap_rank: 72
+liquidity_score: 54.924
+market_cap_rank: 74
 name: Status
 public_interest_score: 42.837
 symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: SNT
   market:
-    identifier: gopax
-    name: GoPax
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: SNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SNT
+  market:
+    identifier: prixbit
+    name: Prixbit
   target: KRW
 - base: SNT
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: SNT
   market:
     identifier: tokenize
@@ -78,11 +88,6 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: zg
-    name: ZG.com
-  target: CNZ
-- base: SNT
-  market:
-    identifier: zg
-    name: ZG.com
-  target: USDT
+    identifier: zb
+    name: ZB
+  target: BTC

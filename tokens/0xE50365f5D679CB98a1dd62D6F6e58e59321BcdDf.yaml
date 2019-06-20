@@ -1,8 +1,8 @@
 ---
 address: '0xE50365f5D679CB98a1dd62D6F6e58e59321BcdDf'
-coingecko_rank: 166
-coingecko_score: 42.909
-community_score: 38.767
+coingecko_rank: 171
+coingecko_score: 42.252
+community_score: 37.585
 description: >-
   LATOKEN is a blockchain protocol and platform for creating and trading asset tokens. The LATOKEN protocol
   transforms access to capital, and enables cryptocurrencies to be widely used in the real economy by
@@ -41,8 +41,8 @@ links:
   subreddit_url: https://www.reddit.com/r/LAToken
   telegram_channel_identifier: latoken
   twitter_screen_name: latokens
-liquidity_score: 40.117
-market_cap_rank: 366
+liquidity_score: 38.612
+market_cap_rank: 339
 name: LATOKEN
 public_interest_score: 30.445
 symbol: la
@@ -54,25 +54,30 @@ tickers:
   target: BTC
 - base: LA
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: LA
+  market:
     identifier: coss
     name: COSS
+  target: ETH
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: KNT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: IGG
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: EVY
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: S4F
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: IGG
   market:
     identifier: latoken
     name: LATOKEN

@@ -1,6 +1,6 @@
 ---
 address: '0x9CEc686ba6f07D6135B2091140c795166Ef5b761'
-coingecko_rank: null
+coingecko_rank: 4982
 coingecko_score: 0.0
 community_score: 0.0
 description: >-
@@ -21,11 +21,21 @@ links:
   telegram_channel_identifier: GiveToServices
   twitter_screen_name: GiveServices
 liquidity_score: 0.0
-market_cap_rank: null
+market_cap_rank: 3613
 name: GivingToServices
 public_interest_score: 0.0
 symbol: svsc
 tickers:
+- base: SVCS
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: SVCS
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: SVCS
   market:
     identifier: mercatox
@@ -36,8 +46,3 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: USDC
-- base: SVCS
-  market:
-    identifier: thetokenstore
-    name: Token.Store
-  target: ETH

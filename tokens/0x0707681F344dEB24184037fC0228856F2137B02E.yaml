@@ -1,8 +1,8 @@
 ---
 address: '0x0707681F344dEB24184037fC0228856F2137B02E'
-coingecko_rank: 923
-coingecko_score: 24.838
-community_score: 4.429
+coingecko_rank: 909
+coingecko_score: 24.906
+community_score: 4.67
 description: >-
   FNKOS is a fog computing-based blockchain operating system designed to make the best use of the edge
   computing resources such as idle hardware network and storage resources. The fog blockchain was built
@@ -26,9 +26,19 @@ links:
     - https://github.com/foglink/fnkcore
   telegram_channel_identifier: fnkofficialfnkofficial
   twitter_screen_name: FNKOSofficial
-liquidity_score: 8.583
-market_cap_rank: 484
+liquidity_score: 8.647
+market_cap_rank: 490
 name: FNKOS
 public_interest_score: 25.662
 symbol: fnkos
-tickers: []
+tickers:
+- base: FNKOS
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: FNKOS
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
