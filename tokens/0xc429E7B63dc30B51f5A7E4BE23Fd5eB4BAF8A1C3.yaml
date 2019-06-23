@@ -1,12 +1,12 @@
 ---
 address: '0xc429E7B63dc30B51f5A7E4BE23Fd5eB4BAF8A1C3'
-coingecko_rank: 2821
-coingecko_score: 9.607
-community_score: 6.675
+coingecko_rank: 2973
+coingecko_score: 9.048
+community_score: 6.673
 description: >-
   Bitibu is the simple and secure exchange platform to trade Bitcoin, Ethereum, Litecoin and other altcoins
   easily.
-developer_score: 17.528
+developer_score: 18.628
 id: bitibu-coin
 image:
   large: https://assets.coingecko.com/coins/images/5121/large/bitibucoin.png?1547040512
@@ -25,9 +25,34 @@ links:
     - https://github.com/bitibu/bitibucoin
   subreddit_url: https://www.reddit.com/r/bitibu
   twitter_screen_name: bitibuofficial
-liquidity_score: 5.169
-market_cap_rank: 4669
+liquidity_score: 1.0
+market_cap_rank: 4737
 name: Bitibu Coin
 public_interest_score: 25.225
 symbol: btb
-tickers: []
+tickers:
+- base: BTB
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: SHMN
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTB
+- base: VIA
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTB
+- base: ONION
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTB
+- base: ZIL
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTB

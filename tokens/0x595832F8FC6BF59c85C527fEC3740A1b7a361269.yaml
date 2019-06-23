@@ -1,8 +1,8 @@
 ---
 address: '0x595832F8FC6BF59c85C527fEC3740A1b7a361269'
 coingecko_rank: 290
-coingecko_score: 37.192
-community_score: 49.668
+coingecko_score: 37.145
+community_score: 50.611
 description: >-
   Power Ledger (POWR) is an Australian blockchain-based cryptocurrency and energy trading platform that
   allows for decentralized selling and buying of renewable energy. The platform provides consumers with
@@ -60,8 +60,8 @@ links:
   subreddit_url: https://www.reddit.com/r/PowerLedger/
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
-liquidity_score: 42.096
-market_cap_rank: 112
+liquidity_score: 41.416
+market_cap_rank: 117
 name: Power Ledger
 public_interest_score: 25.771
 symbol: powr
@@ -98,18 +98,33 @@ tickers:
   target: ETH
 - base: POWR
   market:
+    identifier: dextrade
+    name: Dextrade
+  target: BTC
+- base: POWR
+  market:
+    identifier: dextrade
+    name: Dextrade
+  target: ETH
+- base: POWR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: POWR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: POWR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: POWR
+  market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: POWR
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: POWR
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: ETH
 - base: POWR
   market:
@@ -121,6 +136,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: POWR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
 - base: POWR
   market:
     identifier: tokenize

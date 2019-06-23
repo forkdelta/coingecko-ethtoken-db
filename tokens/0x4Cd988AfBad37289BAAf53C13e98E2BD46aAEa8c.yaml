@@ -1,7 +1,7 @@
 ---
 address: '0x4Cd988AfBad37289BAAf53C13e98E2BD46aAEa8c'
-coingecko_rank: 662
-coingecko_score: 28.154
+coingecko_rank: 687
+coingecko_score: 27.755
 community_score: 0.0
 description: >-
   Bihu consists of two main components: an identity system and a community for crypto investors. Bihu
@@ -34,9 +34,19 @@ links:
   repos_url:
     github:
     - https://github.com/bihu-id/bihu-contracts
-liquidity_score: 22.02
-market_cap_rank: 273
+liquidity_score: 20.301
+market_cap_rank: 283
 name: Key
 public_interest_score: 25.758
 symbol: key
-tickers: []
+tickers:
+- base: KEY
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: BTC
+- base: KEY
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
