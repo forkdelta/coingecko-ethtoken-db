@@ -1,8 +1,8 @@
 ---
 address: '0x63f584FA56E60e4D0fE8802b27C7e6E3b33E007f'
-coingecko_rank: 405
-coingecko_score: 33.737
-community_score: 34.028
+coingecko_rank: 396
+coingecko_score: 33.958
+community_score: 34.01
 description: ""
 developer_score: 12.0
 id: contentbox
@@ -26,8 +26,8 @@ links:
   subreddit_url: https://www.reddit.com/r/ContentBoxOfficial/
   telegram_channel_identifier: BoxCommunity
   twitter_screen_name: Contentbox_one
-liquidity_score: 29.79
-market_cap_rank: 385
+liquidity_score: 29.602
+market_cap_rank: 237
 name: ContentBox
 public_interest_score: 41.294
 symbol: box
@@ -39,11 +39,16 @@ tickers:
   target: KRW
 - base: BOX
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: BOX
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: BOX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

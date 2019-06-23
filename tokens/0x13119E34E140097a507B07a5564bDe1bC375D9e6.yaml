@@ -1,8 +1,8 @@
 ---
 address: '0x13119E34E140097a507B07a5564bDe1bC375D9e6'
-coingecko_rank: 699
-coingecko_score: 27.501
-community_score: 39.715
+coingecko_rank: 685
+coingecko_score: 27.766
+community_score: 40.186
 description: >-
   The MoneyToken platform allows you to receive liquid funds right now, based on the current value of
   your cryptocurrency asset holdings:
@@ -34,16 +34,21 @@ links:
   subreddit_url: https://www.reddit.com/r/MoneyToken/
   telegram_channel_identifier: moneytoken
   twitter_screen_name: MoneyToken
-liquidity_score: 0.44
-market_cap_rank: 646
+liquidity_score: 1.0
+market_cap_rank: 641
 name: MoneyToken
 public_interest_score: 27.46
 symbol: imt
 tickers:
 - base: IMT
   market:
-    identifier: bitforex
-    name: Bitforex
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: IMT
+  market:
+    identifier: coinsuper
+    name: Coinsuper
   target: ETH
 - base: IMT
   market:
@@ -60,8 +65,3 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: IMT
-  market:
-    identifier: thetokenstore
-    name: Token.Store
-  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0xc11551BB497875050b69A2FDCCC20A53a9a70263'
-coingecko_rank: 3855
-coingecko_score: 5.938
-community_score: 12.068
+coingecko_rank: 3799
+coingecko_score: 6.067
+community_score: 12.586
 description: >-
   TenXcoin aims to connect blockchain technology to the real world by providing a robust economic model
   bringing a fair and user-oriented model for digital services to the market.
@@ -21,8 +21,18 @@ links:
   - https://tenxcoin.eu/
   twitter_screen_name: 10xcoin
 liquidity_score: 1.0
-market_cap_rank: 2759
+market_cap_rank: 4045
 name: TenXCoin
 public_interest_score: 27.206
 symbol: txc
-tickers: []
+tickers:
+- base: TXC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: TXC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
