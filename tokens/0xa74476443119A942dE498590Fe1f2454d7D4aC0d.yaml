@@ -80,16 +80,61 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 50.867
-market_cap_rank: 77
+market_cap_rank: 80
 name: Golem
 public_interest_score: 31.008
 symbol: gnt
 tickers:
 - base: GNT
   market:
+    identifier: bitbay
+    name: BitBay
+  target: PLN
+- base: GNT
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: GNT
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: GNT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: GNT
+  market:
+    identifier: exmo
+    name: EXMO
+  target: ETH
+- base: GNT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: GNT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: AUD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: NZD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: USD
 - base: GNT
   market:
     identifier: koinex
@@ -102,11 +147,6 @@ tickers:
   target: TRY
 - base: GNT
   market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: GNT
-  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -117,6 +157,6 @@ tickers:
   target: ETH
 - base: GNT
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: zb
+    name: ZB
   target: BTC

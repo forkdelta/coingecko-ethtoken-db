@@ -61,16 +61,11 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 44.946
-market_cap_rank: 126
+market_cap_rank: 122
 name: Kyber Network
 public_interest_score: 30.448
 symbol: knc
 tickers:
-- base: KNC
-  market:
-    identifier: bw
-    name: BW.com
-  target: QC
 - base: KNC
   market:
     identifier: coin_exchange
@@ -83,9 +78,14 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: cpdax
-    name: CPDAX
+    identifier: coss
+    name: COSS
   target: BTC
+- base: KNC
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: KNC
   market:
     identifier: ethfinex
@@ -103,14 +103,14 @@ tickers:
   target: USD
 - base: KNC
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: KNC
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: KNC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: KNC
   market:
     identifier: hitbtc
@@ -128,9 +128,9 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: TWD
 - base: KNC
   market:
     identifier: radar_relay
@@ -143,29 +143,19 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: KNC
-  market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: tidex
+    name: Tidex
   target: BTC
 - base: KNC
   market:
     identifier: tokenize
     name: Tokenize
+  target: BTC
+- base: KNC
+  market:
+    identifier: tokenize
+    name: Tokenize
   target: ETH
-- base: KNC
-  market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
-- base: KNC
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
 - base: KNC
   market:
     identifier: zb

@@ -26,8 +26,18 @@ links:
   telegram_channel_identifier: rivet_group
   twitter_screen_name: rivetzcorp
 liquidity_score: 1.0
-market_cap_rank: 839
+market_cap_rank: 835
 name: Rivetz
 public_interest_score: 26.057
 symbol: rvt
-tickers: []
+tickers:
+- base: RVT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: RVT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

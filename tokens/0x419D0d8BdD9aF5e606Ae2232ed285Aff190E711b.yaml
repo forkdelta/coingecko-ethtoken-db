@@ -57,11 +57,16 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 40.771
-market_cap_rank: 139
+market_cap_rank: 136
 name: FunFair
 public_interest_score: 30.323
 symbol: fun
 tickers:
+- base: FUN
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: FUN
   market:
     identifier: airswap
@@ -84,6 +89,11 @@ tickers:
   target: ETH
 - base: FUN
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: FUN
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -94,26 +104,11 @@ tickers:
   target: USD
 - base: FUN
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: FUN
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: FUN
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
-- base: FUN
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
-- base: FUN
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
-- base: FUN
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

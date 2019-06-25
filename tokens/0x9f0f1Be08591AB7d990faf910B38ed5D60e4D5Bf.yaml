@@ -27,7 +27,7 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 9.269
-market_cap_rank: 1014
+market_cap_rank: 1032
 name: MainCoin
 public_interest_score: 28.137
 symbol: mnc
@@ -49,14 +49,9 @@ tickers:
   target: USD
 - base: MNC
   market:
-    identifier: biki
-    name: Biki
-  target: ETH
-- base: MNC
-  market:
     identifier: bitfex
     name: Bitfex
-  target: USD
+  target: RUR
 - base: MNC
   market:
     identifier: bitker
@@ -76,7 +71,17 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: BTC
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: ETH
+- base: MNC
+  market:
+    identifier: bw
+    name: BW.com
+  target: BTC
 - base: MNC
   market:
     identifier: bw
@@ -87,6 +92,11 @@ tickers:
     identifier: bw
     name: BW.com
   target: ETH
+- base: MNC
+  market:
+    identifier: bw
+    name: BW.com
+  target: USDT
 - base: MNC
   market:
     identifier: exrates
@@ -109,9 +119,29 @@ tickers:
   target: ETH
 - base: MNC
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: MNC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: MNC
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: RUR
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: MNC
   market:
     identifier: mercatox
@@ -137,11 +167,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: USDT
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
 - base: MNC
   market:
     identifier: stocks_exchange

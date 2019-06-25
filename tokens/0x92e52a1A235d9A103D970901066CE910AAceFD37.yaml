@@ -23,7 +23,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ucash/
   twitter_screen_name: udotcash
 liquidity_score: 1.0
-market_cap_rank: 552
+market_cap_rank: 538
 name: U.CASH
 public_interest_score: 32.343
 symbol: ucash
@@ -32,4 +32,19 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: BTC
+- base: UCASH
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: ETH
+- base: UCASH
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: UCASH
+  market:
+    identifier: c2cx
+    name: C2CX
+  target: USDT

@@ -78,8 +78,18 @@ links:
   telegram_channel_identifier: SapienNetwork
   twitter_screen_name: sapien_network
 liquidity_score: 1.0
-market_cap_rank: 882
+market_cap_rank: 859
 name: Sapien
 public_interest_score: 26.799
 symbol: spn
-tickers: []
+tickers:
+- base: SPN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SPN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
 liquidity_score: 28.943
-market_cap_rank: 113
+market_cap_rank: 111
 name: QASH
 public_interest_score: 27.802
 symbol: qash
@@ -71,11 +71,26 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: QSH
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: QSH
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: QASH
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
 - base: QASH
   market:
     identifier: gopax
     name: GoPax
-  target: BTC
+  target: KRW
 - base: QASH
   market:
     identifier: idex
@@ -86,12 +101,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: CRPT
+- base: QASH
   market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: RFOX
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: CHI
   market:
     identifier: quoine
     name: Liquid
@@ -101,17 +116,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: MRK
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: TPAY
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: BRC
   market:
     identifier: quoine
     name: Liquid
@@ -136,27 +141,17 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: FTT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: KRL
   market:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: IPSX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: FSN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: SPHTX
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: CHI
   market:
     identifier: quoine
     name: Liquid
@@ -176,7 +171,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: IPSX
+- base: MITX
   market:
     identifier: quoine
     name: Liquid
@@ -187,6 +182,11 @@ tickers:
     name: Liquid
   target: QASH
 - base: UKG
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: MRK
   market:
     identifier: quoine
     name: Liquid

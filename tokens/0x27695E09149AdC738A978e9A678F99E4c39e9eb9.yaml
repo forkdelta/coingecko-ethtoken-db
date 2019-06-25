@@ -26,16 +26,31 @@ links:
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKICOplatform
 liquidity_score: 30.696
-market_cap_rank: 498
+market_cap_rank: 512
 name: KickCoin
 public_interest_score: 26.665
 symbol: kick
 tickers:
 - base: KICK
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: KICK
+  market:
     identifier: bilaxy
     name: Bilaxy
   target: BTC
+- base: KICK
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: KICK
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: KICK
   market:
     identifier: coinbene
@@ -56,6 +71,11 @@ tickers:
     identifier: coss
     name: COSS
   target: USDT
+- base: KICK
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: KICK
   market:
     identifier: crex24
@@ -90,4 +110,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: BTC
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH

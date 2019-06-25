@@ -64,11 +64,26 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 47.797
-market_cap_rank: 45
+market_cap_rank: 46
 name: Pundi X
 public_interest_score: 28.776
 symbol: npxs
 tickers:
+- base: NPXS
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: NPXS
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: NPXS
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
 - base: NPXS
   market:
     identifier: bit_z
@@ -76,14 +91,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: bitsten
-    name: Bitsten
-  target: IDR
-- base: NPXS
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: bitopro
+    name: BitoPro
+  target: ETH
 - base: NPXS
   market:
     identifier: coin_exchange
@@ -106,6 +116,16 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: NPXS
+  market:
     identifier: graviex
     name: Graviex
   target: BTC
@@ -119,16 +139,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
 - base: NPXS
   market:
     identifier: livecoin
@@ -161,11 +171,6 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: NPXS
-  market:
     identifier: tokenomy
     name: Tokenomy
   target: BTC
@@ -174,11 +179,6 @@ tickers:
     identifier: tokenomy
     name: Tokenomy
   target: ETH
-- base: NPXS
-  market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
 - base: NPXS
   market:
     identifier: vindax

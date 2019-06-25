@@ -28,11 +28,21 @@ links:
   telegram_channel_identifier: wingschat
   twitter_screen_name: wingsplatform
 liquidity_score: 9.449
-market_cap_rank: 529
+market_cap_rank: 568
 name: Wings
 public_interest_score: 40.386
 symbol: wings
 tickers:
+- base: WINGS
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: BTC
+- base: WINGS
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: ETH
 - base: WINGS
   market:
     identifier: forkdelta
@@ -40,6 +50,6 @@ tickers:
   target: ETH
 - base: WINGS
   market:
-    identifier: idex
-    name: Idex
+    identifier: gate
+    name: Gate.io
   target: ETH

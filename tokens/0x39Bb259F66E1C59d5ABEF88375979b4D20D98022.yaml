@@ -34,6 +34,26 @@ symbol: wax
 tickers:
 - base: WAX
   market:
+    identifier: c2cx
+    name: C2CX
+  target: BTC
+- base: WAX
+  market:
+    identifier: c2cx
+    name: C2CX
+  target: LONG
+- base: WAX
+  market:
+    identifier: c2cx
+    name: C2CX
+  target: USDT
+- base: WAX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: WAX
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -41,9 +61,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: WAX
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH

@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: UbexAI
   twitter_screen_name: ubex_ai
 liquidity_score: 25.085
-market_cap_rank: 575
+market_cap_rank: 581
 name: Ubex
 public_interest_score: 26.656
 symbol: ubex
 tickers:
+- base: UBEX
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
 - base: UBEX
   market:
     identifier: btc_alpha
@@ -55,12 +60,22 @@ tickers:
   market:
     identifier: lbank
     name: Lbank
+  target: BTC
+- base: UBEX
+  market:
+    identifier: lbank
+    name: Lbank
   target: USDT
 - base: UBEX
   market:
     identifier: probit
     name: Probit
   target: ETH
+- base: UBEX
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: UBEX
   market:
     identifier: probit

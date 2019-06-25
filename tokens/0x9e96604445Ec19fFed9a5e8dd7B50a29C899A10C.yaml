@@ -26,12 +26,17 @@ links:
   - https://coss.io/
   twitter_screen_name: cosscrypto
 liquidity_score: 9.316
-market_cap_rank: 625
+market_cap_rank: 583
 name: COSS
 public_interest_score: 32.098
 symbol: coss
 tickers:
-- base: ZEN
+- base: LTC
+  market:
+    identifier: coss
+    name: COSS
+  target: COSS
+- base: NEO
   market:
     identifier: coss
     name: COSS
@@ -41,16 +46,26 @@ tickers:
     identifier: coss
     name: COSS
   target: COSS
+- base: ZEN
+  market:
+    identifier: coss
+    name: COSS
+  target: COSS
 - base: OMG
   market:
     identifier: coss
     name: COSS
   target: COSS
-- base: DASH
+- base: LSK
   market:
     identifier: coss
     name: COSS
   target: COSS
+- base: COSS
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: COSS
   market:
     identifier: coss
@@ -60,19 +75,9 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: GBP
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
-  target: GUSD
-- base: COSS
-  market:
-    identifier: coss
-    name: COSS
   target: TUSD
 - base: COSS
   market:
     identifier: coss
     name: COSS
-  target: USDC
+  target: USD
