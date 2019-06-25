@@ -1,8 +1,8 @@
 ---
 address: '0x37E8789bB9996CaC9156cD5F5Fd32599E6b91289'
-coingecko_rank: 624
-coingecko_score: 28.93
-community_score: 28.084
+coingecko_rank: 627
+coingecko_score: 28.592
+community_score: 27.857
 description: >-
   AidCoin is the ERC20 token that aims to become the preferred method to donate transparently through
   the Ethereum blockchain. The AID token will power AIDChain, a platform that provides an ecosystem of
@@ -14,7 +14,7 @@ description: >-
   wallet to store and donate easily, an explorer to track donations transparently, tools to connect donors
   with all the actors involved in the non-profit sector and templates of smart contracts to run fundraising
   campaigns.
-developer_score: 15.373
+developer_score: 14.857
 id: aidcoin
 image:
   large: https://assets.coingecko.com/coins/images/2144/large/aid.png?1547036449
@@ -35,9 +35,19 @@ links:
   subreddit_url: https://www.reddit.com/r/AidCoin/
   telegram_channel_identifier: aidcoincommunity
   twitter_screen_name: aid_coin
-liquidity_score: 20.607
-market_cap_rank: 670
+liquidity_score: 20.27
+market_cap_rank: 677
 name: AidCoin
 public_interest_score: 27.537
 symbol: aid
-tickers: []
+tickers:
+- base: AID
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: AID
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH

@@ -77,14 +77,19 @@ tickers:
   target: DOGE
 - base: MITH
   market:
-    identifier: altilly
-    name: Altilly
-  target: ETH
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
 - base: MITH
   market:
     identifier: bitebtc
     name: BiteBTC
   target: ETH
+- base: MITH
+  market:
+    identifier: bitopro
+    name: BitoPro
+  target: TWD
 - base: MITH
   market:
     identifier: bitrabbit
@@ -100,26 +105,21 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: MIT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: MIT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: MITH
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MITH
-  market:
-    identifier: gdac
-    name: GDAC
+    identifier: coinzest
+    name: Coinzest
   target: KRW
+- base: MIT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: MIT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: MITH
   market:
     identifier: latoken
@@ -130,6 +130,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: MITH
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: BTC
 - base: MITH
   market:
     identifier: max_maicoin
@@ -155,18 +160,3 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: ETH
-- base: MITH
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: TIOX
-- base: MITH
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
-- base: MITH
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

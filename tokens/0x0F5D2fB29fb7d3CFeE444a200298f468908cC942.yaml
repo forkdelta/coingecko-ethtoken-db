@@ -64,7 +64,7 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 51.094
-market_cap_rank: 84
+market_cap_rank: 87
 name: Decentraland
 public_interest_score: 28.079
 symbol: mana
@@ -74,6 +74,11 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: MANA
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
 - base: MANA
   market:
     identifier: coin_exchange
@@ -91,8 +96,23 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MANA
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MANA
+  market:
+    identifier: koinex
+    name: Koinex
+  target: INR
+- base: MANA
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: MANA
   market:
@@ -129,3 +149,8 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

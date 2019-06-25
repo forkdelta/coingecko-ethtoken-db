@@ -65,6 +65,16 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: MKR
+  market:
+    identifier: codex
+    name: CODEX
+  target: BTC
+- base: MKR
+  market:
     identifier: coss
     name: COSS
   target: USDT
@@ -75,29 +85,29 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
-- base: MKR
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MKR
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: MKR
   market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: MKR
+  market:
+    identifier: probit
+    name: Probit
+  target: BTC
+- base: MKR
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: MKR
   market:
     identifier: sistemkoin
@@ -133,3 +143,13 @@ tickers:
     identifier: three_xbit
     name: 3XBIT
   target: USD
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH

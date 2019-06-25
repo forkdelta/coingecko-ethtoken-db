@@ -42,7 +42,7 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 33.112
-market_cap_rank: 230
+market_cap_rank: 232
 name: Request
 public_interest_score: 43.968
 symbol: req
@@ -59,29 +59,19 @@ tickers:
   target: ETH
 - base: REQ
   market:
-    identifier: coineal
-    name: Coineal
-  target: ETH
-- base: REQ
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: REQ
-  market:
     identifier: coss
     name: COSS
   target: ETH
-- base: REQ
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: REQ
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: BTC
+- base: REQ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: REQ
   market:
     identifier: forkdelta
@@ -89,8 +79,13 @@ tickers:
   target: ETH
 - base: REQ
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: REQ
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: REQ
   market:
@@ -102,3 +97,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: REQ
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

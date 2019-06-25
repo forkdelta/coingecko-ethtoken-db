@@ -72,14 +72,19 @@ tickers:
   target: USDT
 - base: FSN
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
 - base: FSN
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: BTC
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: FSN
   market:
     identifier: okex
@@ -90,11 +95,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDT
-- base: FSN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
 - base: FSN
   market:
     identifier: quoine

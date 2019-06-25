@@ -23,12 +23,17 @@ links:
   - https://max.maicoin.com/max-token
   telegram_channel_identifier: MAXexchangeglobal
 liquidity_score: 10.161
-market_cap_rank: 3364
+market_cap_rank: 3375
 name: MAX Token
 public_interest_score: 41.416
 symbol: max
 tickers:
-- base: XRP
+- base: MAX
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: ETH
+- base: TRX
   market:
     identifier: max_maicoin
     name: Max Maicoin
@@ -43,7 +48,7 @@ tickers:
     identifier: max_maicoin
     name: Max Maicoin
   target: MAX
-- base: TRX
+- base: XRP
   market:
     identifier: max_maicoin
     name: Max Maicoin

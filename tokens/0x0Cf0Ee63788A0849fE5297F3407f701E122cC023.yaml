@@ -26,8 +26,23 @@ links:
   telegram_channel_identifier: streamrdata
   twitter_screen_name: streamr
 liquidity_score: 29.547
-market_cap_rank: 220
+market_cap_rank: 224
 name: Streamr DATAcoin
 public_interest_score: 26.427
 symbol: data
-tickers: []
+tickers:
+- base: DATA
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DATA
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DATA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

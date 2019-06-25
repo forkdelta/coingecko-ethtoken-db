@@ -1,8 +1,8 @@
 ---
 address: '0x514910771AF9Ca656af840dff83E8264EcF986CA'
 coingecko_rank: 33
-coingecko_score: 61.305
-community_score: 37.48
+coingecko_score: 60.291
+community_score: 37.723
 description: >-
   ChainLink is a decentralized oracle service, the first of its kind. When <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   went live in 2015, it revolutionized what blockchain could bring to enterprise solution and traditional
@@ -48,7 +48,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/chainlink-link/">CoinBureau</a> for the complete
   review on Chainlink.
-developer_score: 81.128
+developer_score: 78.341
 id: chainlink
 image:
   large: https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1547034700
@@ -71,12 +71,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Chainlink/
   telegram_channel_identifier: chainlinkofficial
   twitter_screen_name: chainlink
-liquidity_score: 63.994
-market_cap_rank: 26
+liquidity_score: 62.051
+market_cap_rank: 24
 name: ChainLink
 public_interest_score: 32.41
 symbol: link
 tickers:
+- base: LINK
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: LINK
   market:
     identifier: bitebtc
@@ -86,6 +91,21 @@ tickers:
   market:
     identifier: bitebtc
     name: BiteBTC
+  target: ETH
+- base: LINK
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH
+- base: LINK
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: LINK
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
 - base: LINK
   market:
@@ -99,21 +119,11 @@ tickers:
   target: USDT
 - base: LINK
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: LINK
-  market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: LINK
   market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: LINK
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: TIOX

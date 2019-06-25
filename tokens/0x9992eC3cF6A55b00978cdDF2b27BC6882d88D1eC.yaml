@@ -63,6 +63,21 @@ symbol: poly
 tickers:
 - base: POLY
   market:
+    identifier: boa
+    name: BOA Exchange
+  target: BTC
+- base: POLY
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: ETH
+- base: POLY
+  market:
+    identifier: daybit
+    name: Daybit
+  target: ETH
+- base: POLY
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -76,10 +91,15 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: POY
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: POLY
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: POLY
   market:
@@ -88,11 +108,31 @@ tickers:
   target: ETH
 - base: POLY
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: POLY
+  market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: POLY
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: POLY
   market:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: POLY
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
+- base: POLY
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

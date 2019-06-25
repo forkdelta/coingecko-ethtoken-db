@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Dentacoin
   twitter_screen_name: dentacoin
 liquidity_score: 16.817
-market_cap_rank: 227
+market_cap_rank: 250
 name: Dentacoin
 public_interest_score: 27.66
 symbol: dcn
@@ -69,6 +69,16 @@ tickers:
   target: BTC
 - base: DCN
   market:
+    identifier: boa
+    name: BOA Exchange
+  target: BTC
+- base: DCN
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: ETH
+- base: DCN
+  market:
     identifier: buyucoin
     name: BuyUcoin
   target: INR
@@ -76,7 +86,7 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: ETH
+  target: BTC
 - base: DCN
   market:
     identifier: forkdelta
@@ -91,6 +101,11 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: DCN
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: BTC
 - base: DCN
   market:
