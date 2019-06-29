@@ -1,6 +1,6 @@
 ---
 address: '0xCFAc2916Ec118a0252A7766C513eE7c71b384b5E'
-coingecko_rank: 2556
+coingecko_rank: 2555
 coingecko_score: 10.949
 community_score: 32.08
 description: >-
@@ -43,7 +43,7 @@ links:
   telegram_channel_identifier: HoryouToken
   twitter_screen_name: horyoutoken
 liquidity_score: 1.0
-market_cap_rank: 3781
+market_cap_rank: 3468
 name: HoryouToken
 public_interest_score: 27.293
 symbol: hyt
@@ -52,7 +52,17 @@ tickers:
   market:
     identifier: cointiger
     name: CoinTiger
+  target: BTC
+- base: HYT
+  market:
+    identifier: cointiger
+    name: CoinTiger
   target: ETH
+- base: HYT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: HYT
   market:
     identifier: latoken

@@ -1,6 +1,6 @@
 ---
 address: '0x1234567461d3f8Db7496581774Bd869C83D51c93'
-coingecko_rank: 1154
+coingecko_rank: 1153
 coingecko_score: 22.417
 community_score: 28.554
 description: >-
@@ -31,18 +31,28 @@ links:
   telegram_channel_identifier: Bitclave
   twitter_screen_name: bitclave
 liquidity_score: 1.0
-market_cap_rank: 2290
+market_cap_rank: 2294
 name: BitClave
 public_interest_score: 26.586
 symbol: cat
 tickers:
 - base: CAT
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: CAT
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: yobit
+    name: YoBit
   target: ETH
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

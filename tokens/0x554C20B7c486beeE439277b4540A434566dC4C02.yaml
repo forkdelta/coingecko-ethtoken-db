@@ -31,13 +31,23 @@ links:
   telegram_channel_identifier: HorizonState/
   twitter_screen_name: horizonstate
 liquidity_score: 16.417
-market_cap_rank: 636
+market_cap_rank: 639
 name: Decision Token
 public_interest_score: 39.485
 symbol: hst
 tickers:
 - base: HST
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: HST
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: HST
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD

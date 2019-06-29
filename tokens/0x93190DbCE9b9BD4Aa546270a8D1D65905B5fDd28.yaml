@@ -23,13 +23,13 @@ links:
   - https://ethplorer.io/address/0x93190dbce9b9bd4aa546270a8d1d65905b5fdd28
   facebook_username: dapscoinofficial
   homepage:
-  - https://dapscoin.com/
+  - https://officialdapscoin.com/
   repos_url:
     github:
     - https://github.com/DAPScoin/DAPSBot
   subreddit_url: https://www.reddit.com/r/DAPSCoin/
   telegram_channel_identifier: dapscoin
-  twitter_screen_name: DAPSproject
+  twitter_screen_name: DAPScoin
 liquidity_score: 14.483
 market_cap_rank: 165
 name: DAPS Token
@@ -41,6 +41,11 @@ tickers:
     identifier: citex
     name: CITEX
   target: BTC
+- base: DAPS
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
 - base: DAPS
   market:
     identifier: fcoin
@@ -56,3 +61,8 @@ tickers:
     identifier: txbit
     name: Txbit
   target: BTC
+- base: DAPS
+  market:
+    identifier: txbit
+    name: Txbit
+  target: ETH

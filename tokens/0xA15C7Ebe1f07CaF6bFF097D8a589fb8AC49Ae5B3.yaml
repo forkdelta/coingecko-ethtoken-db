@@ -71,14 +71,9 @@ symbol: npxs
 tickers:
 - base: NPXS
   market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
-- base: NPXS
-  market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
+    identifier: alterdice
+    name: AlterDice
+  target: USD
 - base: NPXS
   market:
     identifier: bit_z
@@ -98,6 +93,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: BTC
+- base: NPXS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: ETH
 - base: NPXS
   market:
@@ -106,9 +106,14 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: BTC
+    identifier: coss
+    name: COSS
+  target: COS
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -116,9 +121,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: BTC
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: NPXS
   market:
     identifier: exrates
@@ -136,9 +141,9 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: NPXS
   market:
     identifier: livecoin
@@ -146,39 +151,19 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: omgfin
-    name: Omgfin
-  target: ETH
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: localtrade
+    name: LocalTrade
   target: BTC
 - base: NPXS
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: NPXS
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: NPXS
-  market:
-    identifier: thetokenstore
-    name: Token.Store
-  target: ETH
-- base: NPXS
-  market:
-    identifier: tokenomy
-    name: Tokenomy
+    identifier: tidex
+    name: Tidex
   target: BTC
-- base: NPXS
-  market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: ETH
 - base: NPXS
   market:
     identifier: vindax

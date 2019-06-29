@@ -21,9 +21,9 @@ description: >-
 developer_score: 12.0
 id: spendcoin
 image:
-  large: https://assets.coingecko.com/coins/images/6076/large/Spend-Coin-logo.png?1547042050
-  small: https://assets.coingecko.com/coins/images/6076/small/Spend-Coin-logo.png?1547042050
-  thumb: https://assets.coingecko.com/coins/images/6076/thumb/Spend-Coin-logo.png?1547042050
+  large: https://assets.coingecko.com/coins/images/6076/large/spend.png?1561607507
+  small: https://assets.coingecko.com/coins/images/6076/small/spend.png?1561607507
+  thumb: https://assets.coingecko.com/coins/images/6076/thumb/spend.png?1561607507
 links:
   announcement_url:
   - https://medium.com/Spend
@@ -33,7 +33,7 @@ links:
   - https://ethplorer.io/address/0xddd460bbd9f79847ea08681563e8a9696867210c
   facebook_username: SpendFoundation
   homepage:
-  - https://spendcoin.org
+  - https://spend.org
   repos_url:
     github:
     - https://github.com/Spend/Spend-Business
@@ -41,8 +41,13 @@ links:
   telegram_channel_identifier: SpendChat
   twitter_screen_name: SpendFoundation
 liquidity_score: 38.891
-market_cap_rank: 304
+market_cap_rank: 367
 name: Spendcoin
 public_interest_score: 27.343
 symbol: spnd
-tickers: []
+tickers:
+- base: SPND
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH

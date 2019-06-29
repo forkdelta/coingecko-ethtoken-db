@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 46.612
-market_cap_rank: 71
+market_cap_rank: 74
 name: Enjin Coin
 public_interest_score: 35.895
 symbol: enj
@@ -82,16 +82,6 @@ tickers:
   target: BTC
 - base: ENJ
   market:
-    identifier: altilly
-    name: Altilly
-  target: ETH
-- base: ENJ
-  market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: ETH
-- base: ENJ
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -109,7 +99,22 @@ tickers:
   market:
     identifier: coss
     name: COSS
+  target: COS
+- base: ENJ
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
+- base: ENJ
+  market:
+    identifier: coss
+    name: COSS
+  target: USD
+- base: ENJ
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
 - base: ENJ
   market:
     identifier: crypto_bridge
@@ -122,13 +127,13 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: ENJ
-  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: ENJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: ENJ
   market:
@@ -142,9 +147,9 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: ENJ
   market:
     identifier: quoine

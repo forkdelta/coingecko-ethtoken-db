@@ -61,16 +61,11 @@ links:
     - https://github.com/Ankr-network/dccn-ui
   telegram_channel_identifier: ankrnetwork
 liquidity_score: 44.637
-market_cap_rank: 195
+market_cap_rank: 209
 name: Ankr Network
 public_interest_score: 28.116
 symbol: ankr
 tickers:
-- base: ANKR
-  market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
 - base: ANKR
   market:
     identifier: bgogo
@@ -83,9 +78,14 @@ tickers:
   target: ETH
 - base: ANKR
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: ANKR
+  market:
     identifier: coinall
     name: CoinAll
-  target: ETH
+  target: BTC
 - base: ANKR
   market:
     identifier: coinsuper
@@ -96,11 +96,6 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
-- base: ANKR
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
 - base: ANKR
   market:
     identifier: idex
@@ -118,16 +113,6 @@ tickers:
   target: ETH
 - base: ANKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: ANKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: zgtop
+    name: ZG.TOP
   target: ETH
-- base: ANKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY

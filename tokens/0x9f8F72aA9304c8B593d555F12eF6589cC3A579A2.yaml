@@ -58,21 +58,31 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 35.713
-market_cap_rank: 25
+market_cap_rank: 26
 name: Maker
 public_interest_score: 27.664
 symbol: mkr
 tickers:
 - base: MKR
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: airswap
+    name: AirSwap
   target: ETH
 - base: MKR
   market:
-    identifier: codex
-    name: CODEX
+    identifier: chainex
+    name: ChainEX
   target: BTC
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: COS
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: MKR
   market:
     identifier: coss
@@ -85,14 +95,54 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: MKR
   market:
-    identifier: okex
-    name: OKEx
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: MKR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: BTC
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USDT
 - base: MKR
   market:
     identifier: probit
@@ -110,29 +160,9 @@ tickers:
   target: WETH
 - base: MKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
-- base: MKR
-  market:
     identifier: switcheo
     name: Switcheo
-  target: ETH
+  target: DAI
 - base: MKR
   market:
     identifier: three_xbit

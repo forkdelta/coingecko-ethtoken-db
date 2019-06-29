@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: HelloLambda
   twitter_screen_name: Lambdaim
 liquidity_score: 51.158
-market_cap_rank: 44
+market_cap_rank: 42
 name: Lambda
 public_interest_score: 35.215
 symbol: lamb
@@ -71,6 +71,16 @@ tickers:
   target: BTC
 - base: LAMB
   market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: LAMB
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: LAMB
+  market:
     identifier: coineal
     name: Coineal
   target: BTC
@@ -81,21 +91,26 @@ tickers:
   target: ETH
 - base: LAMB
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
-- base: LAMB
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: LAMB
-  market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: coineal
+    name: Coineal
   target: USDT
+- base: LAMB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: LAMB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
 - base: LAMB
   market:
     identifier: okex
     name: OKEx
   target: BTC
+- base: LAMB
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH

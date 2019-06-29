@@ -89,12 +89,27 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
   target: PLN
 - base: GNT
   market:
-    identifier: bitkub
-    name: Bitkub
-  target: THB
+    identifier: bitbay
+    name: BitBay
+  target: USD
+- base: GNT
+  market:
+    identifier: braziliex
+    name: Braziliex
+  target: BTC
+- base: GNT
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
 - base: GNT
   market:
     identifier: crex24
@@ -104,12 +119,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
 - base: GNT
   market:
-    identifier: exmo
-    name: EXMO
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: GNT
   market:
     identifier: gate
@@ -117,34 +132,24 @@ tickers:
   target: ETH
 - base: GNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: hubi
+    name: Hubi
+  target: BTC
 - base: GNT
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
+    identifier: hubi
+    name: Hubi
+  target: ETH
 - base: GNT
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: GNT
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
-- base: GNT
-  market:
-    identifier: koinex
-    name: Koinex
-  target: INR
-- base: GNT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+    identifier: secondbtc
+    name: SecondBTC
+  target: BTC
 - base: GNT
   market:
     identifier: tokenize
@@ -155,8 +160,3 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
-- base: GNT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC

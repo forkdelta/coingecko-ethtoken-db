@@ -40,14 +40,19 @@ symbol: cro
 tickers:
 - base: CRO
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: abcc
+    name: ABCC
   target: BTC
 - base: CRO
   market:
-    identifier: cpdax
-    name: CPDAX
-  target: KRW
+    identifier: bitexlive
+    name: Bitexlive
+  target: BTC
+- base: CRO
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: ETH
 - base: CRO
   market:
     identifier: ddex
@@ -58,11 +63,6 @@ tickers:
     identifier: gopax
     name: GoPax
   target: BTC
-- base: CRO
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: CRO
   market:
     identifier: idex

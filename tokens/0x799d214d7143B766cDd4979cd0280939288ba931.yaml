@@ -1,6 +1,6 @@
 ---
 address: '0x799d214d7143B766cDd4979cd0280939288ba931'
-coingecko_rank: 4080
+coingecko_rank: 4078
 coingecko_score: 5.356
 community_score: 12.596
 description: >-
@@ -28,8 +28,18 @@ links:
     - https://github.com/Countinghouse
   twitter_screen_name: CountinghouseFd
 liquidity_score: 1.0
-market_cap_rank: 2905
+market_cap_rank: 2920
 name: Countinghouse Fund
 public_interest_score: 20.065
 symbol: cht
-tickers: []
+tickers:
+- base: CHT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: TUSD
+- base: CHT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

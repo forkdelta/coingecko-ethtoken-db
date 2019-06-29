@@ -74,26 +74,31 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 55.529
-market_cap_rank: 200
+market_cap_rank: 227
 name: Gemini Dollar
 public_interest_score: 38.399
 symbol: gusd
 tickers:
-- base: BIX
-  market:
-    identifier: bibox
-    name: Bibox
-  target: GUSD
 - base: GUSD
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: abcc
+    name: ABCC
   target: USDT
 - base: GUSD
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: cex
+    name: CEX.IO
+  target: EUR
+- base: GUSD
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USD
+- base: GUSD
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
 - base: GUSD
   market:
     identifier: coin_exchange
@@ -101,15 +106,25 @@ tickers:
   target: ETH
 - base: GUSD
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: GUSD
+  market:
     identifier: coinpark
     name: Coinpark
   target: USDT
-- base: XRP
+- base: BTC
   market:
     identifier: coss
     name: COSS
   target: GUSD
 - base: ETH
+  market:
+    identifier: coss
+    name: COSS
+  target: GUSD
+- base: XRP
   market:
     identifier: coss
     name: COSS
@@ -121,9 +136,9 @@ tickers:
   target: BTC
 - base: GUSD
   market:
-    identifier: exmo
-    name: EXMO
-  target: RUB
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
 - base: EOS
   market:
     identifier: hitbtc
@@ -149,26 +164,16 @@ tickers:
     identifier: quoine
     name: Liquid
   target: GUSD
-- base: ETH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: GUSD
 - base: GUSD
   market:
     identifier: therocktrading
     name: TheRockTrading
   target: EUR
-- base: BTC
-  market:
-    identifier: therocktrading
-    name: TheRockTrading
-  target: GUSD
 - base: GUSD
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: USD
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
 - base: GUSD
   market:
     identifier: trade_satoshi

@@ -26,11 +26,21 @@ links:
   subreddit_url: https://www.reddit.com/r/eBTC
   twitter_screen_name: eBTCFoundation
 liquidity_score: 10.589
-market_cap_rank: 959
+market_cap_rank: 1041
 name: eBitcoin
 public_interest_score: 26.106
 symbol: ebtc
 tickers:
+- base: EBTC
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: BTC
+- base: EBTC
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: ETH
 - base: EBTC
   market:
     identifier: coin_exchange
@@ -40,6 +50,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: ETH
+- base: EBTC
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: EBTC2
   market:
