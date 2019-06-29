@@ -1,6 +1,6 @@
 ---
 address: '0xd96b9fd7586d9Ea24C950d24399be4fB65372FDD'
-coingecko_rank: 3910
+coingecko_rank: 3908
 coingecko_score: 5.795
 community_score: 7.336
 description: >-
@@ -20,8 +20,23 @@ links:
   - https://bitcoinsilver.io/
   twitter_screen_name: BitcoinSilver1
 liquidity_score: 1.0
-market_cap_rank: 2278
+market_cap_rank: 2284
 name: Bitcoin Silver
 public_interest_score: 37.608
 symbol: btcs
-tickers: []
+tickers:
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
 liquidity_score: 41.785
-market_cap_rank: 156
+market_cap_rank: 170
 name: Civic
 public_interest_score: 35.182
 symbol: cvc
@@ -45,6 +45,16 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: CVC
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: CVC
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
 - base: CVC
   market:
     identifier: coss
@@ -57,18 +67,28 @@ tickers:
   target: ETH
 - base: CVC
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CVC
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
 - base: CVC
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: CVC
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: CVC
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: CVC
   market:
@@ -85,11 +105,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: CVC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: CVC
   market:
     identifier: tokenize

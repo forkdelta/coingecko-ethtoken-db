@@ -83,21 +83,26 @@ links:
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
 liquidity_score: 52.666
-market_cap_rank: 36
+market_cap_rank: 37
 name: Holo
 public_interest_score: 32.151
 symbol: hot
 tickers:
 - base: HOT
   market:
-    identifier: bitebtc
-    name: BiteBTC
+    identifier: bitexlive
+    name: Bitexlive
   target: BTC
 - base: HOT
   market:
-    identifier: bitebtc
-    name: BiteBTC
+    identifier: bitexlive
+    name: Bitexlive
   target: ETH
+- base: HOT
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: TRY
 - base: HOT
   market:
     identifier: coin_exchange
@@ -108,11 +113,11 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: HOLO
+- base: HOT
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: daybit
+    name: Daybit
+  target: BTC
 - base: HOT
   market:
     identifier: forkdelta
@@ -135,14 +140,9 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: HOT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: HOT
   market:
     identifier: wazirx

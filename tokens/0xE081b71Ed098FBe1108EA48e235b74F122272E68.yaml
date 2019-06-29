@@ -1,6 +1,6 @@
 ---
 address: '0xE081b71Ed098FBe1108EA48e235b74F122272E68'
-coingecko_rank: 4172
+coingecko_rank: 4170
 coingecko_score: 4.989
 community_score: 3.131
 description: >-
@@ -21,16 +21,26 @@ links:
   - https://www.gold-coin.money/Gold_Coin/
   twitter_screen_name: BobMoneyGold1
 liquidity_score: 5.833
-market_cap_rank: 1975
+market_cap_rank: 1980
 name: GOLD
 public_interest_score: 30.396
 symbol: gold
 tickers:
 - base: GOLD
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: GOLD
+  market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: BTC
+- base: GOLD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
 - base: GOLD
   market:
     identifier: trade_satoshi
@@ -41,3 +51,8 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: LTC
+- base: GOLD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT

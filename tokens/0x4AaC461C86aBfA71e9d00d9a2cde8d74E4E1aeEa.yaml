@@ -1,6 +1,6 @@
 ---
 address: '0x4AaC461C86aBfA71e9d00d9a2cde8d74E4E1aeEa'
-coingecko_rank: 2814
+coingecko_rank: 2812
 coingecko_score: 9.598
 community_score: 7.887
 description: >-
@@ -37,8 +37,18 @@ links:
   telegram_channel_identifier: zinc_work
   twitter_screen_name: zinc_work
 liquidity_score: 1.0
-market_cap_rank: 3503
+market_cap_rank: 4048
 name: ZINC
 public_interest_score: 41.572
 symbol: zinc
-tickers: []
+tickers:
+- base: ZINC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: ZINC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

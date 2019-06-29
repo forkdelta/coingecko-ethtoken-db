@@ -28,11 +28,21 @@ links:
   subreddit_url: https://www.reddit.com/r/syncfab/
   twitter_screen_name: syncfab
 liquidity_score: 21.017
-market_cap_rank: 1062
+market_cap_rank: 1066
 name: SyncFab
 public_interest_score: 25.813
 symbol: mfg
 tickers:
+- base: MFG
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: MFG
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: MFG
   market:
     identifier: digifinex
@@ -48,3 +58,13 @@ tickers:
     identifier: digifinex
     name: Digifinex
   target: USDT
+- base: MFG
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MFG
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

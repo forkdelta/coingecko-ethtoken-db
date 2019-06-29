@@ -28,7 +28,7 @@ links:
   subreddit_url: https://www.reddit.com/r/internxt
   twitter_screen_name: internxt_io
 liquidity_score: 11.515
-market_cap_rank: 665
+market_cap_rank: 643
 name: Internxt
 public_interest_score: 27.561
 symbol: inxt
@@ -38,6 +38,11 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: INXT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: INXT
   market:
     identifier: idex
@@ -50,19 +55,19 @@ tickers:
   target: BTC
 - base: INXT
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: INXT
-  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
 - base: INXT
   market:
-    identifier: south_xchange
-    name: SouthXchange
+    identifier: yobit
+    name: YoBit
   target: BTC
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: INXT
   market:
     identifier: yobit

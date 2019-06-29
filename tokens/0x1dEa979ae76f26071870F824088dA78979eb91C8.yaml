@@ -34,8 +34,28 @@ links:
   telegram_channel_identifier: spindlezone
   twitter_screen_name: spindlezone
 liquidity_score: 10.654
-market_cap_rank: 475
+market_cap_rank: 467
 name: SPINDLE
 public_interest_score: 24.136
 symbol: spd
-tickers: []
+tickers:
+- base: SPD
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: SPD
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: SPD
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: SPD
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

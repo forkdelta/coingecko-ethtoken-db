@@ -36,7 +36,7 @@ links:
   telegram_channel_identifier: veros_coin
   twitter_screen_name: Veros_currency
 liquidity_score: 8.595
-market_cap_rank: 1325
+market_cap_rank: 1288
 name: Veros
 public_interest_score: 35.054
 symbol: vrs
@@ -45,9 +45,19 @@ tickers:
   market:
     identifier: bitebtc
     name: BiteBTC
+  target: BTC
+- base: VRS
+  market:
+    identifier: bitebtc
+    name: BiteBTC
   target: ETH
 - base: VRS
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: idax
+    name: Idax
   target: BTC
+- base: VRS
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH

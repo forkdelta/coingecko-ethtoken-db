@@ -1,6 +1,6 @@
 ---
 address: '0x6af406c781Dba39F71184a53155e94393a0DAFc8'
-coingecko_rank: 3512
+coingecko_rank: 3510
 coingecko_score: 7.046
 community_score: 15.107
 description: ""
@@ -20,8 +20,18 @@ links:
   - https://www.messengerbank.io/
   twitter_screen_name: messengerbank1
 liquidity_score: 4.496
-market_cap_rank: 4179
+market_cap_rank: 2360
 name: MessengerBank Metals Token
 public_interest_score: 23.694
 symbol: mbmt
-tickers: []
+tickers:
+- base: MBMT
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: MBMT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

@@ -75,9 +75,19 @@ symbol: mco
 tickers:
 - base: MCO
   market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: MCO
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: MCO
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
 - base: MCO
   market:
     identifier: ddex
@@ -95,14 +105,19 @@ tickers:
   target: ETH
 - base: MCO
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: hubi
+    name: Hubi
+  target: BTC
+- base: MCO
+  market:
+    identifier: hubi
+    name: Hubi
   target: ETH
 - base: MCO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MCO
   market:
     identifier: livecoin

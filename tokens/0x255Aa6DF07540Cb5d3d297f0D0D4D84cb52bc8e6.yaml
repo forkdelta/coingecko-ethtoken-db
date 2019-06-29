@@ -59,31 +59,11 @@ links:
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
 liquidity_score: 36.261
-market_cap_rank: 193
+market_cap_rank: 217
 name: Raiden Network Token
 public_interest_score: 29.17
 symbol: rdn
 tickers:
-- base: RDN
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: RDN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: RDN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: RDN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: RDN
   market:
     identifier: fcoin
@@ -91,6 +71,21 @@ tickers:
   target: USDT
 - base: RDN
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: RDN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: RDN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: RDN
+  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -98,9 +93,4 @@ tickers:
   market:
     identifier: tokenize
     name: Tokenize
-  target: ETH
-- base: RDN
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH
