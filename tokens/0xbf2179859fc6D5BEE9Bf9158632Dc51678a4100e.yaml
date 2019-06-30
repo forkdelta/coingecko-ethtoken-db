@@ -85,6 +85,11 @@ tickers:
   target: ETH
 - base: ELF
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: ELF
+  market:
     identifier: fcoin
     name: FCoin
   target: ETH
@@ -93,11 +98,6 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
-- base: ELF
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: ELF
   market:
     identifier: hitbtc
@@ -110,16 +110,11 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: k_kex
-    name: KKEX
-  target: BTC
-- base: ELF
-  market:
     identifier: koinex
     name: Koinex
   target: INR
 - base: ELF
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: purcow
+    name: Purcow
+  target: ETH
