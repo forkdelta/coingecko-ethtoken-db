@@ -13,7 +13,7 @@ description: >-
   Ampleforth is the only asset in the world with this elastic supply property, and therefore has counter-cyclical
   trading pressure and is uncorrelated with other digital assets such as Bitcoin.
 developer_score: 54.474
-id: fragments
+id: ampleforth
 image:
   large: https://assets.coingecko.com/coins/images/4708/large/Ampleforth.png?1561684250
   small: https://assets.coingecko.com/coins/images/4708/small/Ampleforth.png?1561684250
@@ -31,8 +31,13 @@ links:
   telegram_channel_identifier: Ampleforth
   twitter_screen_name: ampleforthorg
 liquidity_score: 1.0
-market_cap_rank: 331
+market_cap_rank: 318
 name: Ampleforth
 public_interest_score: 34.059
 symbol: ampl
-tickers: []
+tickers:
+- base: AMPL
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH

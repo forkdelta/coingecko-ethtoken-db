@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: metalpay
   twitter_screen_name: metalpaysme
 liquidity_score: 39.842
-market_cap_rank: 176
+market_cap_rank: 168
 name: Metal
 public_interest_score: 34.231
 symbol: mtl
@@ -51,16 +51,26 @@ tickers:
   target: BTC
 - base: MTL
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: MTL
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: MTL
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: MTL
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: MTL
+  market:
     identifier: tidex
     name: Tidex
   target: BTC
+- base: MTL
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH

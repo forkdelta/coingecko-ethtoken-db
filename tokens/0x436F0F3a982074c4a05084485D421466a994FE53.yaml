@@ -38,6 +38,11 @@ symbol: rte
 tickers:
 - base: RTE
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: RTE
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -46,13 +51,3 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: RTE
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
-- base: RTE
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

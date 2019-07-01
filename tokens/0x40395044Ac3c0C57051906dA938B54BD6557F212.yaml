@@ -46,7 +46,7 @@ links:
   telegram_channel_identifier: mobilegochat
   twitter_screen_name: Mobilegooff
 liquidity_score: 10.78
-market_cap_rank: 448
+market_cap_rank: 449
 name: MobileGo
 public_interest_score: 29.196
 symbol: mgo
@@ -68,6 +68,11 @@ tickers:
   target: BTC
 - base: MGO
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: MGO
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -83,11 +88,6 @@ tickers:
   target: ETH
 - base: MGO
   market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
-- base: MGO
-  market:
     identifier: waves
     name: Waves Platform
   target: WAVES
@@ -96,8 +96,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: MGO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH

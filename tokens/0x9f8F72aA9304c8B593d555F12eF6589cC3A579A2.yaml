@@ -70,14 +70,14 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: MKR
+  market:
     identifier: chainex
     name: ChainEX
   target: BTC
-- base: MKR
-  market:
-    identifier: coss
-    name: COSS
-  target: COS
 - base: MKR
   market:
     identifier: coss
@@ -87,7 +87,7 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: USDT
+  target: ETH
 - base: MKR
   market:
     identifier: ddex
@@ -105,9 +105,9 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
 - base: MKR
   market:
     identifier: gate
@@ -115,9 +115,14 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: MKR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: MKR
   market:
     identifier: idex
@@ -145,16 +150,6 @@ tickers:
   target: USDT
 - base: MKR
   market:
-    identifier: probit
-    name: Probit
-  target: BTC
-- base: MKR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
@@ -165,6 +160,11 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: MKR
+  market:
     identifier: three_xbit
     name: 3XBIT
   target: BTC
@@ -173,13 +173,3 @@ tickers:
     identifier: three_xbit
     name: 3XBIT
   target: USD
-- base: MKR
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
-- base: MKR
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH

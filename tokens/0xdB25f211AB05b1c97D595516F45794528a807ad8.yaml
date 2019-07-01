@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 29.6
-market_cap_rank: 232
+market_cap_rank: 239
 name: STASIS EURS
 public_interest_score: 28.03
 symbol: eurs
@@ -47,6 +47,16 @@ tickers:
     identifier: bitexlive
     name: Bitexlive
   target: EURS
+- base: EURS
+  market:
+    identifier: dsx
+    name: DSX
+  target: EUR
+- base: BTC
+  market:
+    identifier: dsx
+    name: DSX
+  target: EURS
 - base: ETH
   market:
     identifier: dsx
@@ -57,17 +67,37 @@ tickers:
     identifier: dsx
     name: DSX
   target: USD
-- base: XRP
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EURS
+  target: DAI
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EOSDT
 - base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: NEO
+- base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: ZEC
   market:
     identifier: hitbtc
     name: HitBTC
@@ -82,12 +112,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: XMR
+- base: MESSE
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: MESSE
+- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC
@@ -97,6 +127,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: TUSD
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: BTC
   market:
     identifier: kuna
@@ -107,3 +142,8 @@ tickers:
     identifier: kuna
     name: Kuna Exchange
   target: UAH
+- base: EURS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH

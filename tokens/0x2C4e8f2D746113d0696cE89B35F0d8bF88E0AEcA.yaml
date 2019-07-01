@@ -57,11 +57,16 @@ links:
   telegram_channel_identifier: ostdotcom
   twitter_screen_name: OSTdotcom
 liquidity_score: 35.145
-market_cap_rank: 247
+market_cap_rank: 236
 name: OST
 public_interest_score: 42.587
 symbol: ost
 tickers:
+- base: OST
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: OST
   market:
     identifier: coinsuper
@@ -69,6 +74,26 @@ tickers:
   target: BTC
 - base: OST
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: OST
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: ETH
+- base: OST
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: OST
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: OST
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

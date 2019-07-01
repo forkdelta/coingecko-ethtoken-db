@@ -65,21 +65,16 @@ links:
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
 liquidity_score: 52.392
-market_cap_rank: 199
+market_cap_rank: 207
 name: Mithril
 public_interest_score: 32.823
 symbol: mith
 tickers:
 - base: MITH
   market:
-    identifier: bitexlive
-    name: Bitexlive
+    identifier: bitebtc
+    name: BiteBTC
   target: BTC
-- base: MITH
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: ETH
 - base: MITH
   market:
     identifier: bitopro
@@ -117,11 +112,6 @@ tickers:
   target: USD
 - base: MITH
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: MITH
-  market:
     identifier: max_maicoin
     name: Max Maicoin
   target: BTC
@@ -129,7 +119,12 @@ tickers:
   market:
     identifier: max_maicoin
     name: Max Maicoin
-  target: ETH
+  target: MAX
+- base: MITH
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: USDT
 - base: MITH
   market:
     identifier: quoine

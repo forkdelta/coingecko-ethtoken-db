@@ -62,14 +62,39 @@ symbol: ht
 tickers:
 - base: HT
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: HT
+  market:
+    identifier: localtrade
+    name: LocalTrade
   target: BTC
+- base: HT
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
+- base: HT
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: HT
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USDT
+- base: HT
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: HT
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: BTC
 - base: HT
   market:
     identifier: yobit
