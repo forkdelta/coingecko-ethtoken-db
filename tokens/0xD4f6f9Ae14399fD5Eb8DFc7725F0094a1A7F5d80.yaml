@@ -21,12 +21,22 @@ links:
   telegram_channel_identifier: coinsteneum
   twitter_screen_name: SteneumCoin
 liquidity_score: 6.215
-market_cap_rank: 4443
+market_cap_rank: 2448
 name: Bitsten Token
 public_interest_score: 24.936
 symbol: bst
 tickers:
+- base: DOGE
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
 - base: BCHIP
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
+- base: GFN
   market:
     identifier: bitsten
     name: Bitsten
@@ -35,9 +45,9 @@ tickers:
   market:
     identifier: bitsten
     name: Bitsten
-  target: ETH
+  target: BTC
 - base: BST
   market:
-    identifier: etherflyer
-    name: EtherFlyer
+    identifier: bitsten
+    name: Bitsten
   target: ETH

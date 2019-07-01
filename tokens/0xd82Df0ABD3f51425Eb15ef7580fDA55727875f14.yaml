@@ -39,8 +39,23 @@ links:
   telegram_channel_identifier: DAVNetwork
   twitter_screen_name: DavNetwork
 liquidity_score: 8.347
-market_cap_rank: 947
+market_cap_rank: 926
 name: DAV Network
 public_interest_score: 27.516
 symbol: dav
-tickers: []
+tickers:
+- base: DAV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DAV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DAV
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -58,14 +58,9 @@ symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
-- base: SNT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: SNT
   market:
     identifier: gate
@@ -73,11 +68,11 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: SNT
   market:
-    identifier: zb
-    name: ZB
-  target: BTC
+    identifier: korbit
+    name: Korbit
+  target: KRW

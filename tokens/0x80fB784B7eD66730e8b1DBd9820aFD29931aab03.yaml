@@ -53,16 +53,21 @@ symbol: lend
 tickers:
 - base: LEND
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: LEND
+  market:
     identifier: bleutrade
     name: bleutrade
   target: ETH
 - base: LEND
   market:
-    identifier: idex
-    name: Idex
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: LEND
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH

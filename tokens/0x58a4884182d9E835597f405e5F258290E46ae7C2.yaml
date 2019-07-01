@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: noahproject_community
   twitter_screen_name: NOAHCOIN_Proj
 liquidity_score: 26.837
-market_cap_rank: 164
+market_cap_rank: 173
 name: Noah Coin
 public_interest_score: 37.953
 symbol: noah
@@ -42,8 +42,23 @@ tickers:
   target: ETH
 - base: NOAH
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: NOAH
+  market:
     identifier: btcnext
     name: BTCNEXT
+  target: BTC
+- base: NOAH
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: NOAH
+  market:
+    identifier: fcoin
+    name: FCoin
   target: USDT
 - base: NOAH
   market:
@@ -60,8 +75,3 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: NOAH
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: INR

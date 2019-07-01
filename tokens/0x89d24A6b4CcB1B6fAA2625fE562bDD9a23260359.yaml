@@ -93,36 +93,46 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 55.788
-market_cap_rank: 81
+market_cap_rank: 85
 name: Dai
 public_interest_score: 34.383
 symbol: dai
 tickers:
-- base: ETH
+- base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: BAT
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: BTC
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: DAI
   market:
-    identifier: bitbegin
-    name: Bitbegin
-  target: DAI
-- base: ETH
+    identifier: codex
+    name: CODEX
+  target: USDT
+- base: DAI
   market:
-    identifier: coinall
-    name: CoinAll
-  target: DAI
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: DAI
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: DAI
   market:
     identifier: coinchangex
     name: Coinchangex
   target: ETH
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: DAI
   market:
     identifier: crex24
@@ -138,11 +148,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: USDC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
 - base: MKR
   market:
     identifier: ddex
@@ -154,11 +159,6 @@ tickers:
     name: DDEX
   target: DAI
 - base: WBTC
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
-- base: ZRX
   market:
     identifier: ddex
     name: DDEX
@@ -185,6 +185,11 @@ tickers:
   target: DAI
 - base: DAI
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: DAI
+  market:
     identifier: fcoin
     name: FCoin
   target: USDT
@@ -193,17 +198,27 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: MKR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: POA
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XMR
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
@@ -213,25 +228,20 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XCHF
+- base: USDS
   market:
     identifier: idex
     name: Idex
   target: DAI
-- base: BTC
-  market:
-    identifier: quoine
-    name: Liquid
-  target: DAI
 - base: ETH
   market:
-    identifier: quoine
-    name: Liquid
+    identifier: idex
+    name: Idex
   target: DAI
-- base: ZRX
+- base: XCHF
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: idex
+    name: Idex
   target: DAI
 - base: TUSD
   market:
@@ -243,7 +253,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: MKR
+- base: ZRX
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -258,17 +268,17 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: MANNA
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
 - base: BTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: DOGE
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
-- base: BCH
+- base: IOTA
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -278,17 +288,27 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
+- base: DOGE
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
 - base: BSV
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: SDUSD
+- base: BCH
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
+- base: USDC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: USDC
+- base: WBTC
   market:
     identifier: switcheo
     name: Switcheo

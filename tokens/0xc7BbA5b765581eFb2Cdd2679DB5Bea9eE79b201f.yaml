@@ -42,8 +42,18 @@ links:
   telegram_channel_identifier: gemsorg
   twitter_screen_name: gems
 liquidity_score: 18.014
-market_cap_rank: 992
+market_cap_rank: 994
 name: Gems
 public_interest_score: 37.575
 symbol: gem
-tickers: []
+tickers:
+- base: GEM
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: GEM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
