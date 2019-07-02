@@ -41,11 +41,16 @@ links:
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
 liquidity_score: 52.069
-market_cap_rank: 100
+market_cap_rank: 110
 name: Fantom
 public_interest_score: 32.387
 symbol: ftm
 tickers:
+- base: FTM
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
 - base: FTM
   market:
     identifier: bitebtc
@@ -63,11 +68,6 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: coinpark
-    name: Coinpark
-  target: USDT
-- base: FTM
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -76,3 +76,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK

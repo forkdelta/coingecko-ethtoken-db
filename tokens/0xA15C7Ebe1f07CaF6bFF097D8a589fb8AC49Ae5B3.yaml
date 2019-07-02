@@ -81,6 +81,11 @@ tickers:
   target: USD
 - base: NPXS
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: NPXS
+  market:
     identifier: bitopro
     name: BitoPro
   target: ETH
@@ -94,11 +99,6 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
 - base: NPXS
   market:
     identifier: coss
@@ -118,22 +118,7 @@ tickers:
   market:
     identifier: crypto_bridge
     name: CryptoBridge
-  target: BTC
-- base: NPXS
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
   target: ETH
-- base: NPXS
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: NPXS
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: BTC
 - base: NPXS
   market:
     identifier: exrates
@@ -141,14 +126,14 @@ tickers:
   target: USD
 - base: NPXS
   market:
+    identifier: graviex
+    name: Graviex
+  target: BTC
+- base: NPXS
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
 - base: NPXS
   market:
     identifier: livecoin
@@ -159,16 +144,6 @@ tickers:
     identifier: localtrade
     name: LocalTrade
   target: BTC
-- base: NPXS
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USD
-- base: NPXS
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USDT
 - base: NPXS
   market:
     identifier: probit

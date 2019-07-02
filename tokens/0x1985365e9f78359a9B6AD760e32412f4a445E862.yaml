@@ -84,11 +84,6 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: bitbox
-    name: BITBOX
-  target: BTC
-- base: REP
-  market:
     identifier: bitebtc
     name: BiteBTC
   target: BTC
@@ -96,6 +91,16 @@ tickers:
   market:
     identifier: bitebtc
     name: BiteBTC
+  target: ETH
+- base: REP
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: BTC
+- base: REP
+  market:
+    identifier: bitexlive
+    name: Bitexlive
   target: ETH
 - base: REP
   market:
@@ -111,6 +116,11 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: BTC
+- base: REP
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
 - base: REP
   market:
@@ -139,29 +149,9 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: REP
-  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
 - base: REP
   market:
     identifier: koinex
@@ -171,16 +161,6 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
-- base: REP
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
-  market:
-    identifier: lykke
-    name: Lykke
   target: ETH
 - base: REP
   market:

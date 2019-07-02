@@ -31,11 +31,21 @@ links:
   telegram_channel_identifier: covesting
   twitter_screen_name: covesting
 liquidity_score: 1.0
-market_cap_rank: 639
+market_cap_rank: 665
 name: Covesting
 public_interest_score: 26.477
 symbol: cov
 tickers:
+- base: COV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: COV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: COV
   market:
     identifier: idex
@@ -43,6 +53,6 @@ tickers:
   target: ETH
 - base: COV
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: kucoin
+    name: KuCoin
   target: ETH
