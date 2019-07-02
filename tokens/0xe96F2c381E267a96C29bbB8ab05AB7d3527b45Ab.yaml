@@ -1,6 +1,6 @@
 ---
 address: '0xe96F2c381E267a96C29bbB8ab05AB7d3527b45Ab'
-coingecko_rank: 3548
+coingecko_rank: 3547
 coingecko_score: 6.917
 community_score: 15.501
 description: >-
@@ -25,6 +25,11 @@ name: SatoExchange Token
 public_interest_score: 24.436
 symbol: satx
 tickers:
+- base: SATX
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: BTC
 - base: BTCG
   market:
     identifier: satoexchange
@@ -40,12 +45,17 @@ tickers:
     identifier: satoexchange
     name: SatoExchange
   target: SATX
-- base: STQ
+- base: BRAT
   market:
     identifier: satoexchange
     name: SatoExchange
   target: SATX
 - base: XRT
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX
+- base: STQ
   market:
     identifier: satoexchange
     name: SatoExchange

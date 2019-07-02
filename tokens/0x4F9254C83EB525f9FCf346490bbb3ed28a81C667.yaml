@@ -49,11 +49,16 @@ links:
   telegram_channel_identifier: celernetwork
   twitter_screen_name: CelerNetwork
 liquidity_score: 58.042
-market_cap_rank: 104
+market_cap_rank: 101
 name: Celer Network
 public_interest_score: 30.39
 symbol: celr
 tickers:
+- base: CELR
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
 - base: CELR
   market:
     identifier: coinall
@@ -69,3 +74,8 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: CELR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH

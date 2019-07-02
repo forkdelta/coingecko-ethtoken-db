@@ -46,7 +46,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ETHLend
   twitter_screen_name: AaveAave
 liquidity_score: 39.225
-market_cap_rank: 335
+market_cap_rank: 331
 name: Aave
 public_interest_score: 25.519
 symbol: lend
@@ -56,6 +56,11 @@ tickers:
     identifier: bitebtc
     name: BiteBTC
   target: BTC
+- base: LEND
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
 - base: LEND
   market:
     identifier: bleutrade
@@ -70,4 +75,9 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: LEND
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH

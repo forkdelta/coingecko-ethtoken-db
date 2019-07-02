@@ -69,7 +69,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 41.149
-market_cap_rank: 108
+market_cap_rank: 110
 name: DigixDAO
 public_interest_score: 29.391
 symbol: dgd
@@ -83,11 +83,6 @@ tickers:
   market:
     identifier: bigone
     name: BigONE
-  target: BTC
-- base: DGD
-  market:
-    identifier: bittrex
-    name: Bittrex
   target: BTC
 - base: DGD
   market:
@@ -113,4 +108,14 @@ tickers:
   market:
     identifier: okex
     name: OKEx
+  target: ETH
+- base: DGD
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DGD
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
 liquidity_score: 21.78
-market_cap_rank: 208
+market_cap_rank: 199
 name: Aragon
 public_interest_score: 33.814
 symbol: ant
@@ -81,6 +81,11 @@ tickers:
   market:
     identifier: cryptaldash
     name: CryptalDash
+  target: BTC
+- base: ANT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
 - base: ANT
   market:
@@ -104,6 +109,6 @@ tickers:
   target: ETH
 - base: ANT
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

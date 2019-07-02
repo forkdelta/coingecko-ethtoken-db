@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: telcoincommunity
   twitter_screen_name: telcoin_team
 liquidity_score: 23.273
-market_cap_rank: 227
+market_cap_rank: 223
 name: Telcoin
 public_interest_score: 26.652
 symbol: tel
@@ -41,6 +41,11 @@ tickers:
   target: ETH
 - base: TEL
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: TEL
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -49,11 +54,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: TEL
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
 - base: TEL
   market:
     identifier: livecoin
