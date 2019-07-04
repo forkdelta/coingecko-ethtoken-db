@@ -1,8 +1,8 @@
 ---
 address: '0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC'
-coingecko_rank: 67
-coingecko_score: 52.692
-community_score: 46.989
+coingecko_rank: 71
+coingecko_score: 52.018
+community_score: 46.016
 description: >-
   Polymath simplifies the legal process of creating and selling security tokens. It makes a new token
   standard, the ST20, and enforces government compliance. Only a “list of authorized investors and their
@@ -30,7 +30,7 @@ description: >-
 
   A wide array of security tokens that will be listed on Polymath at some point will require investors
   to be accredited, or to be from specific countries.
-developer_score: 61.42
+developer_score: 62.678
 id: polymath-network
 image:
   large: https://assets.coingecko.com/coins/images/2784/large/polymath-network.png?1548331592
@@ -55,12 +55,17 @@ links:
   subreddit_url: https://www.reddit.com/r/PolymathNetwork/
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
-liquidity_score: 45.456
-market_cap_rank: 127
+liquidity_score: 42.351
+market_cap_rank: 131
 name: Polymath Network
-public_interest_score: 29.404
+public_interest_score: 29.327
 symbol: poly
 tickers:
+- base: POLY
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: POY
   market:
     identifier: ethfinex
@@ -83,6 +88,26 @@ tickers:
   target: ETH
 - base: POLY
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: POLY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: POLY
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: ETH
+- base: POLY
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: POLY
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -93,9 +118,9 @@ tickers:
   target: INR
 - base: POLY
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: POLY
   market:
     identifier: latoken

@@ -1,14 +1,14 @@
 ---
 address: '0x26E75307Fc0C021472fEb8F727839531F112f317'
 coingecko_rank: 781
-coingecko_score: 26.261
-community_score: 16.127
+coingecko_score: 26.141
+community_score: 15.556
 description: >-
   CRYPTO20 is an autonomous crypto-only index fund that tracks the top 20 cryptocurrencies in the same
   way the S&P500 tracks the top 500 US company stocks. C20 is the fund’s token, and represents an investor’s
   share in the fund. Token-holders are able to liquidate the C20 token for their share of the underlying
   assets via the smart contract.
-developer_score: 22.287
+developer_score: 23.217
 id: crypto20
 image:
   large: https://assets.coingecko.com/coins/images/2097/large/c20.png?1547036413
@@ -27,12 +27,27 @@ links:
     - https://github.com/cryptotwenty/smartcontracts
   telegram_channel_identifier: crypto20
   twitter_screen_name: CRYPTOtwenty
-liquidity_score: 2.761
-market_cap_rank: 155
+liquidity_score: 1.669
+market_cap_rank: 157
 name: CRYPTO20
-public_interest_score: 28.259
+public_interest_score: 29.766
 symbol: c20
 tickers:
+- base: C20
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: C20
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: C20
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
 - base: C20
   market:
     identifier: p2pb2b

@@ -1,8 +1,8 @@
 ---
 address: '0x4092678e4E78230F46A1534C0fbc8fA39780892B'
-coingecko_rank: 694
-coingecko_score: 27.613
-community_score: 15.557
+coingecko_rank: 698
+coingecko_score: 27.412
+community_score: 15.199
 description: >-
   Odyssey is primarily a decentralized sharing economy and peer-to-peer ecosystem, aiming to compete with
   and replace the likes of Airbnb and Uber. Odyssey dreams big - aiming to completely replace the concept
@@ -38,14 +38,19 @@ links:
   - http://www.ocnex.net/
   telegram_channel_identifier: OdysseyOfficial
   twitter_screen_name: OdysseyOCN
-liquidity_score: 36.606
-market_cap_rank: 180
+liquidity_score: 36.087
+market_cap_rank: 190
 name: Odyssey
-public_interest_score: 33.009
+public_interest_score: 34.22
 symbol: ocn
 tickers:
 - base: OCN
   market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: OCN
+  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
@@ -56,26 +61,16 @@ tickers:
   target: ETH
 - base: OCN
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
-- base: OCN
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: OCN
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: OCN
-  market:
-    identifier: upbit
-    name: Upbit
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: OCN
   market:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: OCN
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
