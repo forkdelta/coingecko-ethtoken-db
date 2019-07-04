@@ -1,7 +1,7 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 3107
-coingecko_score: 8.391
+coingecko_rank: 3031
+coingecko_score: 8.714
 community_score: 0.0
 description: >-
   W-ETH is "wrapped ETH" but let's start by introducing the players. First, there's Ether token. Ether
@@ -23,12 +23,17 @@ links:
   - https://ethplorer.io/address/0xecf8f87f810ecf450940c9f60066b4a7a501d6a7
   homepage:
   - https://weth.io/
-liquidity_score: 28.53
-market_cap_rank: 1927
+liquidity_score: 30.059
+market_cap_rank: 2579
 name: WETH
-public_interest_score: 26.851
+public_interest_score: 27.023
 symbol: weth
 tickers:
+- base: WETH
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: WETH
   market:
     identifier: ddex
@@ -49,7 +54,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: BCO
+- base: NPXS
   market:
     identifier: ddex
     name: DDEX
@@ -69,22 +74,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: BCO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: RDN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: HOT
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: RTE
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: PPT
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: IMVR
+- base: OMG
   market:
     identifier: ddex
     name: DDEX
@@ -94,7 +99,17 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: MCW
+- base: IMVR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: XBASE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: EMPR
   market:
     identifier: ddex
     name: DDEX
@@ -105,11 +120,6 @@ tickers:
     name: DDEX
   target: WETH
 - base: DOOH
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: PPI
   market:
     identifier: ddex
     name: DDEX
@@ -129,12 +139,27 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: PPI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: XYO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: QCH
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: CRO
+- base: IHT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MRO
   market:
     identifier: ddex
     name: DDEX
@@ -144,7 +169,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: JNB
+- base: MATIC
   market:
     identifier: ddex
     name: DDEX
@@ -154,12 +179,12 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: CELR
+- base: POWR
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: POWR
+- base: CELR
   market:
     identifier: ddex
     name: DDEX
@@ -174,22 +199,12 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: CTXC
+- base: BOX
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: BAX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MRO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: IND
+- base: ETHPLO
   market:
     identifier: ddex
     name: DDEX
@@ -199,12 +214,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: MATIC
+- base: SCOI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: IND
   market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: GEN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: HOLO
   market:
     identifier: ddex
     name: DDEX
@@ -219,22 +244,17 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: BOX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: OMX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: FTM
   market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: NTK
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: POLY
   market:
     identifier: ddex
     name: DDEX
@@ -249,7 +269,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: PETC
+- base: SNTR
   market:
     identifier: ddex
     name: DDEX
@@ -259,32 +279,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: LINK
+- base: ZRX
   market:
-    identifier: ddex
-    name: DDEX
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: BAT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
 - base: OMG
   market:
-    identifier: ddex
-    name: DDEX
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
-- base: KIN
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: DAI
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: DOS
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: REP
+- base: LINK
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -294,12 +304,57 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: LPT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DATA
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: MKR
   market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: BNTY
+- base: TUSD
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: SNT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: HYDRO
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ENJ
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ENTRP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: REP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ELF
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DNT
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -314,52 +369,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: ANT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: LPT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: DGX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: TUSD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: OMG
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: WBTC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: SNT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: DNT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: ENTRP
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: REQ
+- base: STORM
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -369,7 +379,12 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: FOAM
+- base: WBTC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ANT
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -384,7 +399,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: RDN
+- base: DGX
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -409,12 +424,12 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: ZRX
+- base: KSS
   market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: MXM
+- base: ZRX
   market:
     identifier: tokenjar
     name: TokenJar

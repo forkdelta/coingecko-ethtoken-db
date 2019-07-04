@@ -1,12 +1,12 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 626
-coingecko_score: 28.594
-community_score: 14.354
+coingecko_rank: 570
+coingecko_score: 29.542
+community_score: 13.856
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
-developer_score: 14.426
+developer_score: 14.672
 id: stasis-eurs
 image:
   large: https://assets.coingecko.com/coins/images/5164/large/EURS_300x300.png?1550571779
@@ -26,10 +26,10 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 29.6
-market_cap_rank: 234
+liquidity_score: 34.907
+market_cap_rank: 243
 name: STASIS EURS
-public_interest_score: 28.03
+public_interest_score: 27.951
 symbol: eurs
 tickers:
 - base: BTC
@@ -82,7 +82,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: XRP
+- base: MESSE
   market:
     identifier: hitbtc
     name: HitBTC
@@ -92,12 +92,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: ETH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XMR
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -107,7 +102,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: DASH
+- base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -127,8 +127,3 @@ tickers:
     identifier: kuna
     name: Kuna Exchange
   target: UAH
-- base: EURS
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH

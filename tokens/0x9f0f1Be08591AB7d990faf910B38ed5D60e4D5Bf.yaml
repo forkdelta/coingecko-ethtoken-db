@@ -1,8 +1,8 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1480
-coingecko_score: 19.148
-community_score: 17.896
+coingecko_rank: 1605
+coingecko_score: 17.984
+community_score: 15.837
 description: >-
   Use MainCoin for instant and private payments on the Internet and in the real world using secure open
   source software that runs on Ethereum, supported by hundreds of thousands of users around the world.
@@ -26,10 +26,10 @@ links:
     github:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
-liquidity_score: 9.269
-market_cap_rank: 1027
+liquidity_score: 6.466
+market_cap_rank: 1088
 name: MainCoin
-public_interest_score: 28.137
+public_interest_score: 28.189
 symbol: mnc
 tickers:
 - base: MNC
@@ -51,11 +51,6 @@ tickers:
   market:
     identifier: biki
     name: Biki
-  target: BTC
-- base: MNC
-  market:
-    identifier: biki
-    name: Biki
   target: ETH
 - base: MNC
   market:
@@ -97,6 +92,11 @@ tickers:
     identifier: btc_alpha
     name: BTC-Alpha
   target: ETH
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
 - base: MNC
   market:
     identifier: bw
@@ -106,6 +106,11 @@ tickers:
   market:
     identifier: dobitrade
     name: Dobitrade
+  target: BTC
+- base: MNC
+  market:
+    identifier: dobitrade
+    name: Dobitrade
   target: ETH
 - base: MNC
   market:
@@ -122,6 +127,11 @@ tickers:
     identifier: exrates
     name: Exrates
   target: ETH
+- base: MNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: MNC
   market:
     identifier: latoken
@@ -146,16 +156,6 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
-- base: MNC
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
   target: ETH
 - base: MNC
   market:
