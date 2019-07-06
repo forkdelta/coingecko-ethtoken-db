@@ -1,8 +1,8 @@
 ---
 address: '0x419c4dB4B9e25d6Db2AD9691ccb832C8D9fDA05E'
-coingecko_rank: 114
-coingecko_score: 46.373
-community_score: 35.362
+coingecko_rank: 115
+coingecko_score: 46.294
+community_score: 36.281
 description: >-
   Dragonchain is one of the newly launched cryptocurrencies that is attracting crypto enthusiasts following
   its relaunch. The coin seems to be leading on the technology front irrespective of its market capitalisation
@@ -37,7 +37,7 @@ description: >-
   platform’s ability to scale; an issue that Ethereum has been notorious for. As of January 2018, the
   DragonChain team is raising funds and finishing development of the platform. Although the exact date
   is currently unannounced, the DRGN platform is expected to fully launch sometime this year.
-developer_score: 64.533
+developer_score: 63.162
 id: dragonchain
 image:
   large: https://assets.coingecko.com/coins/images/1289/large/dragonchain.png?1547957761
@@ -58,12 +58,22 @@ links:
   subreddit_url: https://www.reddit.com/r/Dragonchainblockchain
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
-liquidity_score: 28.059
-market_cap_rank: 171
+liquidity_score: 28.597
+market_cap_rank: 185
 name: Dragonchain
 public_interest_score: 27.187
 symbol: drgn
 tickers:
+- base: DRGN
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: DRGN
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: DRGN
   market:
     identifier: coss
@@ -74,11 +84,6 @@ tickers:
     identifier: coss
     name: COSS
   target: ETH
-- base: DRGN
-  market:
-    identifier: coss
-    name: COSS
-  target: USDT
 - base: DRN
   market:
     identifier: ethfinex
@@ -96,6 +101,11 @@ tickers:
   target: ETH
 - base: DRGN
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DRGN
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
@@ -103,4 +113,9 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: BTC
+- base: DRGN
+  market:
+    identifier: tidex
+    name: Tidex
   target: BTC

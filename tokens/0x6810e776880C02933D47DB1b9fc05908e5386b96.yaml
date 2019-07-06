@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 146
-coingecko_score: 44.098
-community_score: 42.026
+coingecko_rank: 147
+coingecko_score: 44.228
+community_score: 44.251
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -42,7 +42,7 @@ description: >-
   in a vault and have promised not to dump them on the market. They’ll give at least a three-month warning
   before selling any of the tokens. The team includes quite a list of reputable advisors including Joseph
   Lubin (Ethereum co-founder and ConsenSys founder) and Vitalik Buterin (Ethereum founder and chief scientist).
-developer_score: 52.558
+developer_score: 51.778
 id: gnosis
 image:
   large: https://assets.coingecko.com/coins/images/662/large/gnosis-logo.png?1547034401
@@ -62,17 +62,32 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 18.101
-market_cap_rank: 159
+liquidity_score: 16.962
+market_cap_rank: 160
 name: Gnosis
 public_interest_score: 37.229
 symbol: gno
 tickers:
 - base: GNO
   market:
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
+- base: GNO
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: BTC
+- base: GNO
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: GNO
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: GNO
   market:
     identifier: hitbtc
@@ -85,11 +100,36 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

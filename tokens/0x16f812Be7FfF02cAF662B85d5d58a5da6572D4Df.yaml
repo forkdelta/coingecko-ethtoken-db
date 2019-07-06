@@ -1,13 +1,13 @@
 ---
 address: '0x16f812Be7FfF02cAF662B85d5d58a5da6572D4Df'
-coingecko_rank: 1973
-coingecko_score: 14.947
-community_score: 15.303
+coingecko_rank: 1942
+coingecko_score: 15.189
+community_score: 16.371
 description: >-
   United Traders, found online at UnitedTraders.com, is a financial services company based in Moscow.
   The company was launched in 2009. Today, it offers an investment marketplace, access to multiple exchanges,
   and online financial education materials.
-developer_score: 27.857
+developer_score: 27.758
 id: united-traders-token
 image:
   large: https://assets.coingecko.com/coins/images/1741/large/utt.png?1547036018
@@ -27,8 +27,23 @@ links:
     - https://github.com/UnitedTraders/uttoken
   twitter_screen_name: Uttoken
 liquidity_score: 1.0
-market_cap_rank: 3058
+market_cap_rank: 3418
 name: United Traders Token
 public_interest_score: 39.569
 symbol: utt
-tickers: []
+tickers:
+- base: UTT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: UTT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: UTT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

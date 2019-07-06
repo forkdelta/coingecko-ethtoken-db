@@ -1,14 +1,14 @@
 ---
 address: '0xa8006C4ca56F24d6836727D106349320dB7fEF82'
-coingecko_rank: 721
-coingecko_score: 26.982
-community_score: 25.251
+coingecko_rank: 730
+coingecko_score: 26.947
+community_score: 25.671
 description: >-
   Internxt is a Peer-To-Peer cloud computing network that allows users from all over the globe to cooperate
   in the creation of a distributed internet. Users can sell the resources of their machines to those looking
   to host their data in a more private, secure and efficient network. Make the transition to the most
   intuitive and complete distributed cloud platform.
-developer_score: 18.101
+developer_score: 17.601
 id: internxt
 image:
   large: https://assets.coingecko.com/coins/images/986/large/internxt.png?1547974318
@@ -27,12 +27,22 @@ links:
     - https://github.com/internxt/INXT
   subreddit_url: https://www.reddit.com/r/internxt
   twitter_screen_name: internxt_io
-liquidity_score: 11.529
-market_cap_rank: 750
+liquidity_score: 11.638
+market_cap_rank: 707
 name: Internxt
 public_interest_score: 27.325
 symbol: inxt
 tickers:
+- base: INXT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: INXT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: INXT
   market:
     identifier: idex
@@ -40,6 +50,31 @@ tickers:
   target: ETH
 - base: INXT
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: latoken
+    name: LATOKEN
   target: ETH
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

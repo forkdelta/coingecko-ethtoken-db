@@ -1,8 +1,8 @@
 ---
 address: '0x5Ca381bBfb58f0092df149bD3D243b08B9a8386e'
-coingecko_rank: 2058
-coingecko_score: 14.256
-community_score: 26.024
+coingecko_rank: 2131
+coingecko_score: 13.863
+community_score: 26.034
 description: >-
   The MXC vision is to introduce a systematic process to both simplify and increase IoT data transactions
 
@@ -48,9 +48,19 @@ links:
   subreddit_url: https://www.reddit.com/r/MXCFoundation/
   telegram_channel_identifier: mxcfoundation
   twitter_screen_name: MXCfoundation
-liquidity_score: 24.987
-market_cap_rank: 4998
+liquidity_score: 23.009
+market_cap_rank: 3934
 name: Machine Xchange Coin
 public_interest_score: 27.528
 symbol: mxc
-tickers: []
+tickers:
+- base: MXC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MXC
+  market:
+    identifier: piexgo
+    name: Piexgo
+  target: USDT
