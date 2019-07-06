@@ -1,8 +1,8 @@
 ---
 address: '0xB70835D7822eBB9426B56543E391846C107bd32C'
-coingecko_rank: 1809
-coingecko_score: 16.307
-community_score: 4.601
+coingecko_rank: 1828
+coingecko_score: 16.056
+community_score: 5.283
 description: >-
   GameCoin (GMC) is a digital currency targeted towards the gaming community. GMC tokens go on sale at
   the end of September through the GameCoin ICO.
@@ -27,7 +27,7 @@ description: >-
   currency. It appears that these cryptocurrencies will operate as forks on the GameCoin blockchain. Each
   developer will be able to make their own fork – so gamers can easily apply their GWC tokens to any game
   of their choice (the GameCoin wallet will support all forks).
-developer_score: 13.732
+developer_score: 13.62
 id: game
 image:
   large: https://assets.coingecko.com/coins/images/2046/large/game.png?1547742459
@@ -47,9 +47,19 @@ links:
     - https://github.com/GameLeLe/trade-addr-tx-service
   telegram_channel_identifier: gameico
   twitter_screen_name: gamecom666
-liquidity_score: 36.672
-market_cap_rank: 2587
+liquidity_score: 34.706
+market_cap_rank: 4032
 name: Game
 public_interest_score: 43.89
 symbol: gtc
-tickers: []
+tickers:
+- base: GTC
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: GTC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH

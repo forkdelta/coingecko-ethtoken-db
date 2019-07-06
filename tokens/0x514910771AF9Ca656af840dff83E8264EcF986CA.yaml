@@ -1,8 +1,8 @@
 ---
 address: '0x514910771AF9Ca656af840dff83E8264EcF986CA'
 coingecko_rank: 20
-coingecko_score: 63.192
-community_score: 39.496
+coingecko_score: 62.919
+community_score: 39.732
 description: >-
   ChainLink is a decentralized oracle service, the first of its kind. When <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   went live in 2015, it revolutionized what blockchain could bring to enterprise solution and traditional
@@ -48,7 +48,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/chainlink-link/">CoinBureau</a> for the complete
   review on Chainlink.
-developer_score: 79.843
+developer_score: 78.591
 id: chainlink
 image:
   large: https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1547034700
@@ -71,12 +71,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Chainlink/
   telegram_channel_identifier: chainlinkofficial
   twitter_screen_name: chainlink
-liquidity_score: 69.672
+liquidity_score: 69.655
 market_cap_rank: 17
 name: ChainLink
 public_interest_score: 32.64
 symbol: link
 tickers:
+- base: LINK
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: LINK
   market:
     identifier: bitebtc
@@ -101,11 +106,6 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: ETH
-- base: LINK
-  market:
-    identifier: coss
-    name: COSS
   target: USD
 - base: LINK
   market:
@@ -119,9 +119,34 @@ tickers:
   target: WETH
 - base: LINK
   market:
+    identifier: eterbase
+    name: Eterbase
+  target: ETH
+- base: LINK
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
+- base: LINK
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: USDT
+- base: LINK
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: LINK
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: LINK
+  market:
+    identifier: shortex
+    name: Shortex
+  target: USDC
 - base: LINK
   market:
     identifier: switcheo

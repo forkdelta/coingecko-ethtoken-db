@@ -1,8 +1,8 @@
 ---
 address: '0xFb2f26F266Fb2805a387230f2aa0a331b4d96Fba'
-coingecko_rank: 105
-coingecko_score: 47.881
-community_score: 37.808
+coingecko_rank: 106
+coingecko_score: 47.899
+community_score: 39.302
 description: >-
   DADI stands for Decentralized Architecture for a Democratic Internet. It’s a cryptocurrency which aims
   to decentralize cloud computing and Web Services. It’s an enterprise-grade web services stack built
@@ -33,7 +33,7 @@ description: >-
   Jaxx is a versatile wallet, compatible with Windows, Mac and Linux desktops, iOS and Android smartphones,
   and Chrome and Firefox web extensions. MyEtherWallet is its most popular Web wallet, and ETHAdress is
   one of the paper wallets.
-developer_score: 75.657
+developer_score: 74.707
 id: dadi
 image:
   large: https://assets.coingecko.com/coins/images/1848/large/dadi.png?1547036165
@@ -56,8 +56,8 @@ links:
     - https://github.com/dadi/web
   subreddit_url: https://www.reddit.com/r/DADI
   twitter_screen_name: dadi
-liquidity_score: 18.739
-market_cap_rank: 428
+liquidity_score: 18.362
+market_cap_rank: 438
 name: DADI
 public_interest_score: 38.041
 symbol: dadi
@@ -66,9 +66,24 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: DAD
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
+- base: DADI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DADI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: DADI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DADI
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
