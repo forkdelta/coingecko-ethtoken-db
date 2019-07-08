@@ -1,8 +1,8 @@
 ---
 address: '0xeaf61FC150CD5c3BeA75744e830D916E60EA5A9F'
-coingecko_rank: 1090
-coingecko_score: 22.807
-community_score: 18.155
+coingecko_rank: 1048
+coingecko_score: 23.299
+community_score: 18.171
 description: >-
   Protect Your Content
 
@@ -54,8 +54,8 @@ links:
     - https://github.com/Typerium/TYPEProtocol
   telegram_channel_identifier: typerium
   twitter_screen_name: Typerium_io
-liquidity_score: 12.573
-market_cap_rank: 969
+liquidity_score: 13.93
+market_cap_rank: 873
 name: Typerium
 public_interest_score: 27.205
 symbol: type
@@ -92,14 +92,19 @@ tickers:
   target: ETH
 - base: TYPE
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: LTC
+- base: TYPE
+  market:
     identifier: coinlim
     name: Coinlim
   target: ETH
 - base: TYPE
   market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
+    identifier: coinlim
+    name: Coinlim
+  target: USDT
 - base: TYPE
   market:
     identifier: idex
@@ -114,17 +119,12 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: TYPE
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: USDT
 - base: TYPE
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
 - base: TYPE
   market:
     identifier: trade_satoshi
@@ -135,8 +135,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
-- base: TYPE
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT

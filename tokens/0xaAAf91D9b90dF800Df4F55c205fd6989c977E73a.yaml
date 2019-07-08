@@ -1,11 +1,11 @@
 ---
 address: '0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a'
-coingecko_rank: 746
-coingecko_score: 26.742
-community_score: 31.156
+coingecko_rank: 740
+coingecko_score: 26.832
+community_score: 31.05
 description: >-
   Non-custodial contract wallet paired with a debit card to spend your ETH & ERC-20 in real life.
-developer_score: 13.076
+developer_score: 13.154
 id: tokencard
 image:
   large: https://assets.coingecko.com/coins/images/675/large/tokencard.png?1548758701
@@ -27,7 +27,7 @@ links:
   subreddit_url: https://www.reddit.com/r/tokencard
   twitter_screen_name: tokencard_io
 liquidity_score: 1.0
-market_cap_rank: 224
+market_cap_rank: 222
 name: TokenCard
 public_interest_score: 27.971
 symbol: tkn
@@ -37,6 +37,16 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: TKN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: TKN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: TKN
   market:
     identifier: idex
@@ -52,8 +62,3 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: TKN
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

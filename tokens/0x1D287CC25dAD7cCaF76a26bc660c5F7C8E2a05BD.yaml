@@ -1,8 +1,8 @@
 ---
 address: '0x1D287CC25dAD7cCaF76a26bc660c5F7C8E2a05BD'
-coingecko_rank: 441
-coingecko_score: 32.568
-community_score: 25.462
+coingecko_rank: 447
+coingecko_score: 32.583
+community_score: 25.754
 description: >-
   Fetch.AI ("the Project") brings together machine learning ("ML"), artificial intelligence ("AI"), multi-agent
   systems and decentralized ledger technology to create an economic internet — an environment where digital
@@ -39,12 +39,17 @@ links:
   subreddit_url: https://www.reddit.com/r/FetchAI_Community/
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
-liquidity_score: 49.259
-market_cap_rank: 129
+liquidity_score: 48.982
+market_cap_rank: 132
 name: Fetch.AI
 public_interest_score: 29.181
 symbol: fet
 tickers:
+- base: FET
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: FET
   market:
     identifier: citex
@@ -52,11 +57,11 @@ tickers:
   target: BTC
 - base: FET
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: FET
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: FET
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
