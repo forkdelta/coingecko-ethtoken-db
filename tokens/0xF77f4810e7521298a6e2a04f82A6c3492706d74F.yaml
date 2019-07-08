@@ -1,8 +1,8 @@
 ---
 address: '0xF77f4810e7521298a6e2a04f82A6c3492706d74F'
-coingecko_rank: 2665
-coingecko_score: 10.357
-community_score: 7.274
+coingecko_rank: 2674
+coingecko_score: 10.335
+community_score: 7.273
 description: >-
   CoinMeet is a revolutionary multi-asset management social wallet. Based on cross-chain adaptor, COINMEET
   can fulfill deposit, transfer, payment and democratic listing a wide range of digital assets. CoinMeet
@@ -21,9 +21,19 @@ links:
   - https://coinmeet.io/
   telegram_channel_identifier: coinmeet
   twitter_screen_name: CoinMeetCoin
-liquidity_score: 30.053
-market_cap_rank: 3460
+liquidity_score: 29.94
+market_cap_rank: 3756
 name: CoinMeet
 public_interest_score: 25.282
 symbol: meet
-tickers: []
+tickers:
+- base: MEET
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: ETH
+- base: MEET
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH

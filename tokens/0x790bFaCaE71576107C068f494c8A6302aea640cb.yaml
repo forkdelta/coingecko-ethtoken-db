@@ -1,6 +1,6 @@
 ---
 address: '0x790bFaCaE71576107C068f494c8A6302aea640cb'
-coingecko_rank: 4370
+coingecko_rank: 4372
 coingecko_score: 4.51
 community_score: 7.002
 description: >-
@@ -21,26 +21,26 @@ links:
   telegram_channel_identifier: Mernes
   twitter_screen_name: CBCCOIN
 liquidity_score: 1.0
-market_cap_rank: 2737
+market_cap_rank: 2730
 name: CryptoBossCoin
 public_interest_score: 25.596
 symbol: cbc
 tickers:
+- base: CB
+  market:
+    identifier: graviex
+    name: Graviex
+  target: BTC
 - base: CBC
   market:
-    identifier: graviex
-    name: Graviex
+    identifier: yobit
+    name: YoBit
   target: BTC
-- base: CB
+- base: CBC
   market:
-    identifier: graviex
-    name: Graviex
-  target: BTC
-- base: CB
-  market:
-    identifier: graviex
-    name: Graviex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: CBC
   market:
     identifier: yobit
@@ -56,3 +56,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: CBC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

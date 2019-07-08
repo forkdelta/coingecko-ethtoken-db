@@ -1,11 +1,11 @@
 ---
 address: '0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd'
-coingecko_rank: 144
-coingecko_score: 44.278
-community_score: 41.257
+coingecko_rank: 156
+coingecko_score: 43.934
+community_score: 39.536
 description: >-
   Cornerstone Of The Decentralized Web
-developer_score: 50.619
+developer_score: 51.276
 id: blockmason-credit-protocol
 image:
   large: https://assets.coingecko.com/coins/images/1022/large/mason.jpg?1547034948
@@ -24,8 +24,8 @@ links:
     - https://github.com/blockmason/credit-protocol
   subreddit_url: https://www.reddit.com/r/blockmason
   twitter_screen_name: blockmasonio
-liquidity_score: 28.578
-market_cap_rank: 403
+liquidity_score: 28.256
+market_cap_rank: 409
 name: BlockMason Credit Protocol
 public_interest_score: 35.44
 symbol: bcpt
@@ -34,7 +34,17 @@ tickers:
   market:
     identifier: binance
     name: Binance
+  target: PAX
+- base: BCPT
+  market:
+    identifier: binance
+    name: Binance
   target: TUSD
+- base: BCPT
+  market:
+    identifier: binance
+    name: Binance
+  target: USDC
 - base: BCPT
   market:
     identifier: coin_exchange
@@ -42,11 +52,6 @@ tickers:
   target: ETH
 - base: BCPT
   market:
-    identifier: xt
-    name: XT
-  target: BTC
-- base: BCPT
-  market:
-    identifier: xt
-    name: XT
-  target: SXC
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH

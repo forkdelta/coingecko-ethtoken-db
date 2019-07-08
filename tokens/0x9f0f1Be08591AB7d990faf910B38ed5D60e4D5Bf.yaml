@@ -1,8 +1,8 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1564
-coingecko_score: 18.373
-community_score: 16.497
+coingecko_rank: 1437
+coingecko_score: 19.533
+community_score: 16.387
 description: >-
   Use MainCoin for instant and private payments on the Internet and in the real world using secure open
   source software that runs on Ethereum, supported by hundreds of thousands of users around the world.
@@ -26,8 +26,8 @@ links:
     github:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
-liquidity_score: 7.138
-market_cap_rank: 948
+liquidity_score: 11.802
+market_cap_rank: 930
 name: MainCoin
 public_interest_score: 28.189
 symbol: mnc
@@ -49,6 +49,11 @@ tickers:
   target: USD
 - base: MNC
   market:
+    identifier: biki
+    name: Biki
+  target: ETH
+- base: MNC
+  market:
     identifier: bitfex
     name: Bitfex
   target: BTC
@@ -56,7 +61,7 @@ tickers:
   market:
     identifier: bitfex
     name: Bitfex
-  target: USD
+  target: RUR
 - base: MNC
   market:
     identifier: bitker
@@ -66,11 +71,21 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
-  target: BTC
+  target: ETH
 - base: MNC
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: USDT
+- base: MNC
+  market:
+    identifier: bw
+    name: BW.com
+  target: BTC
+- base: MNC
+  market:
+    identifier: bw
+    name: BW.com
   target: ETH
 - base: MNC
   market:
@@ -91,6 +106,16 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
+  target: BTC
+- base: MNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: MNC
+  market:
+    identifier: exrates
+    name: Exrates
   target: USD
 - base: MNC
   market:
@@ -102,6 +127,16 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: RUR
 - base: MNC
   market:
     identifier: mercatox

@@ -1,15 +1,15 @@
 ---
 address: '0x56b6431F45d08eED55f34371386326c739eACbcC'
-coingecko_rank: 1636
-coingecko_score: 17.787
-community_score: 10.427
+coingecko_rank: 1633
+coingecko_score: 17.893
+community_score: 10.429
 description: >-
   Ethereum Meta addresses a major weakness in Ethereum: the lack of privacy. Ethereum Meta enables smart
   contracts where no friend, family, nor foe can see what you bought or for how much. We are working on
   Smart Contract Mixer. After Ethereum platform implements Zero-Knowledge Snarks, we will add this feature
   to our system. Moreover, Ethereum Meta token is a foundation of the Anonymous E-Market Place that we
   are building to be accessible by Tor Browser and provide fully anonymous experience.
-developer_score: 13.102
+developer_score: 13.226
 id: ethereum-meta
 image:
   large: https://assets.coingecko.com/coins/images/6586/large/ethereum-meta.png?1548125409
@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: ethereummeta
   twitter_screen_name: EthereumMeta
 liquidity_score: 1.0
-market_cap_rank: 1497
+market_cap_rank: 1516
 name: Ethereum Meta
 public_interest_score: 35.402
 symbol: ethm
-tickers: []
+tickers:
+- base: ETHM
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: ETHM
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

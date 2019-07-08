@@ -1,8 +1,8 @@
 ---
 address: '0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0'
-coingecko_rank: 150
-coingecko_score: 43.899
-community_score: 9.543
+coingecko_rank: 146
+coingecko_score: 44.336
+community_score: 9.544
 description: >-
   The Next-Generation Blockchain Application Platform for Ethereum.
 
@@ -31,7 +31,7 @@ description: >-
 
   We built the world’s first Plasma Cash implementation, which allows Ethereum-based tokens to be used
   on Loom sidechains with the full security guarantees of Ethereum.
-developer_score: 67.173
+developer_score: 69.214
 id: loom-network
 image:
   large: https://assets.coingecko.com/coins/images/3387/large/1_K76UVoLq-FOL7l-_Fag-Qw_2x.png?1547038040
@@ -50,8 +50,8 @@ links:
     - https://github.com/loomnetwork/loom-js
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
-liquidity_score: 40.356
-market_cap_rank: 123
+liquidity_score: 40.165
+market_cap_rank: 115
 name: Loom Network
 public_interest_score: 30.924
 symbol: loom
@@ -65,17 +65,22 @@ tickers:
   market:
     identifier: bitebtc
     name: BiteBTC
-  target: BTC
-- base: LOOM
-  market:
-    identifier: bitebtc
-    name: BiteBTC
   target: ETH
 - base: LOOM
   market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: LOOM
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: LOOM
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
 - base: LOOM
   market:
     identifier: cryptaldash
@@ -105,16 +110,21 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
+  target: BTC
+- base: LOOM
+  market:
+    identifier: gopax
+    name: GoPax
   target: KRW
+- base: LOOM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: LOOM
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: LOOM
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: ETH
 - base: LOOM
   market:

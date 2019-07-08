@@ -1,7 +1,7 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
 coingecko_rank: 463
-coingecko_score: 32.056
+coingecko_score: 32.216
 community_score: 4.693
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
@@ -55,7 +55,7 @@ description: >-
   Starting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini
   dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD
   back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon.
-developer_score: 20.048
+developer_score: 20.777
 id: gemini-dollar
 image:
   large: https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278
@@ -73,8 +73,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 47.373
-market_cap_rank: 279
+liquidity_score: 47.493
+market_cap_rank: 285
 name: Gemini Dollar
 public_interest_score: 38.689
 symbol: gusd
@@ -91,16 +91,6 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: bibox
-    name: Bibox
-  target: USDT
-- base: GUSD
-  market:
-    identifier: bx_thailand
-    name: BX Thailand
-  target: THB
-- base: GUSD
-  market:
     identifier: cex
     name: CEX.IO
   target: EUR
@@ -109,6 +99,11 @@ tickers:
     identifier: cex
     name: CEX.IO
   target: USD
+- base: GUSD
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
 - base: BTC
   market:
     identifier: coinsuper
@@ -124,18 +119,28 @@ tickers:
     identifier: crytrex
     name: CryTrEx
   target: USDT
-- base: EOS
+- base: BTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
-- base: BTC
+- base: ETH
   market:
-    identifier: quoine
-    name: Liquid
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: GUSD
 - base: GUSD
   market:
     identifier: therocktrading
     name: TheRockTrading
   target: EUR
+- base: BTC
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: GUSD

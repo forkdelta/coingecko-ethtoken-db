@@ -1,8 +1,8 @@
 ---
 address: '0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a'
-coingecko_rank: 595
-coingecko_score: 29.192
-community_score: 9.694
+coingecko_rank: 499
+coingecko_score: 31.42
+community_score: 9.695
 description: >-
   Populous is a peer-to-peer invoice platform founded in 2017 at a high point in the blockchain and cryptocurrency
   craze. It makes use of blockchain's distributed ledger technology to provide a global trading platform
@@ -45,8 +45,8 @@ links:
     github:
     - https://github.com/bitpopulous/populous-smartcontracts
   twitter_screen_name: bitpopulous
-liquidity_score: 35.226
-market_cap_rank: 160
+liquidity_score: 44.373
+market_cap_rank: 141
 name: Populous
 public_interest_score: 37.042
 symbol: ppt
@@ -78,9 +78,14 @@ tickers:
   target: ETH
 - base: PPT
   market:
-    identifier: idex
-    name: Idex
+    identifier: etherflyer
+    name: EtherFlyer
   target: ETH
+- base: PPT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: PPT
   market:
     identifier: latoken
@@ -91,11 +96,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: PPT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: PPT
   market:
     identifier: yobit
@@ -111,6 +111,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: PPT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: PPT
   market:
     identifier: yobit
