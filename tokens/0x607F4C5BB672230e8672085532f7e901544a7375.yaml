@@ -65,11 +65,16 @@ links:
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
 liquidity_score: 28.766
-market_cap_rank: 168
+market_cap_rank: 165
 name: iExec RLC
 public_interest_score: 26.662
 symbol: rlc
 tickers:
+- base: RLC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: RLC
   market:
     identifier: ethfinex
@@ -82,16 +87,16 @@ tickers:
   target: USD
 - base: RLC
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: idex
+    name: Idex
   target: ETH
 - base: RLC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: RLC
   market:
-    identifier: idex
-    name: Idex
+    identifier: livecoin
+    name: Livecoin
   target: ETH

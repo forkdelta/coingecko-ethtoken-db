@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 40.165
-market_cap_rank: 115
+market_cap_rank: 126
 name: Loom Network
 public_interest_score: 30.924
 symbol: loom
@@ -63,6 +63,21 @@ tickers:
   target: BTC
 - base: LOOM
   market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: LOOM
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: LOOM
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: LOOM
+  market:
     identifier: bitebtc
     name: BiteBTC
   target: ETH
@@ -70,16 +85,6 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
-- base: LOOM
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: LOOM
-  market:
-    identifier: coinex
-    name: CoinEx
   target: ETH
 - base: LOOM
   market:
@@ -101,11 +106,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: LOO
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: LOOM
   market:
     identifier: gopax
@@ -118,13 +118,28 @@ tickers:
   target: KRW
 - base: LOOM
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: idex
+    name: Idex
   target: ETH
 - base: LOOM
   market:
-    identifier: idex
-    name: Idex
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LOOM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: LOOM
+  market:
+    identifier: purcow
+    name: Purcow
+  target: BTC
+- base: LOOM
+  market:
+    identifier: purcow
+    name: Purcow
   target: ETH
 - base: LOOM
   market:

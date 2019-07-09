@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKICOplatform
 liquidity_score: 25.306
-market_cap_rank: 598
+market_cap_rank: 618
 name: KickCoin
 public_interest_score: 26.508
 symbol: kick
@@ -73,8 +73,23 @@ tickers:
   target: USDT
 - base: KICK
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: KICK
+  market:
+    identifier: crex24
+    name: CREX24
+  target: RUB
+- base: KICK
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: KICK
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: KICK
   market:
@@ -100,6 +115,11 @@ tickers:
   market:
     identifier: ooobtc
     name: OOOBTC
+  target: ETH
+- base: KICK
+  market:
+    identifier: tradeio
+    name: Trade.io
   target: ETH
 - base: KICK
   market:

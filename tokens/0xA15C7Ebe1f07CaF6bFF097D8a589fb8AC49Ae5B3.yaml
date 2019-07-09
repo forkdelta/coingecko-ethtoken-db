@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 44.364
-market_cap_rank: 49
+market_cap_rank: 47
 name: Pundi X
 public_interest_score: 29.015
 symbol: npxs
@@ -91,9 +91,19 @@ tickers:
   target: USDT
 - base: NPXS
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: NPXS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: NPXS
+  market:
     identifier: coinbene
     name: CoinBene
-  target: ETH
+  target: USDT
 - base: NPXS
   market:
     identifier: coss
@@ -116,18 +126,13 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: graviex
+    name: Graviex
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: BTC
 - base: NPXS
   market:
@@ -154,3 +159,8 @@ tickers:
     identifier: tokenomy
     name: Tokenomy
   target: ETH
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

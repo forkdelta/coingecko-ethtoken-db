@@ -100,65 +100,25 @@ symbol: dai
 tickers:
 - base: DAI
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: DAI
-  market:
     identifier: bitrabbit
     name: BitRabbit
   target: USDT
 - base: DAI
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: DAI
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
-- base: DAI
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: DAI
-  market:
-    identifier: codex
-    name: CODEX
-  target: USDT
-- base: BTC
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: DAI
-- base: DAI
-  market:
     identifier: coinchangex
     name: Coinchangex
   target: ETH
-- base: BTC
+- base: MKR
   market:
-    identifier: coinhub
-    name: Coinhub
+    identifier: coss
+    name: COSS
   target: DAI
 - base: ETH
   market:
     identifier: coss
     name: COSS
   target: DAI
-- base: BTC
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
 - base: LTC
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: MKR
   market:
     identifier: coss
     name: COSS
@@ -173,16 +133,6 @@ tickers:
     identifier: crex24
     name: CREX24
   target: USD
-- base: WETH
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
-- base: MKR
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
 - base: USDC
   market:
     identifier: ddex
@@ -203,12 +153,12 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: DAI
-- base: BTC
+- base: USDC
   market:
     identifier: eterbase
     name: Eterbase
   target: DAI
-- base: MITX
+- base: BTC
   market:
     identifier: eterbase
     name: Eterbase
@@ -219,6 +169,11 @@ tickers:
     name: Eterbase
   target: EUR
 - base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
+- base: OMG
   market:
     identifier: ethfinex
     name: Ethfinex
@@ -238,17 +193,12 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: MKR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -258,32 +208,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: ETH
-  market:
-    identifier: idex
-    name: Idex
-  target: DAI
 - base: WBTC
   market:
     identifier: idex
     name: Idex
   target: DAI
-- base: USDS
-  market:
-    identifier: idex
-    name: Idex
-  target: DAI
-- base: BTC
+- base: ETH
   market:
     identifier: quoine
     name: Liquid
   target: DAI
-- base: ETH
+- base: BTC
   market:
     identifier: quoine
     name: Liquid
@@ -293,12 +228,12 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: TUSD
+- base: MKR
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: MKR
+- base: TUSD
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -333,6 +268,11 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
+- base: DOGE
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
 - base: BCH
   market:
     identifier: south_xchange
@@ -353,27 +293,7 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
 - base: USDC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: USDT
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: LEO
   market:
     identifier: switcheo
     name: Switcheo
@@ -383,8 +303,3 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: DAI
-  market:
-    identifier: three_xbit
-    name: 3XBIT
-  target: USD
