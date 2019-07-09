@@ -64,11 +64,16 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 51.555
-market_cap_rank: 95
+market_cap_rank: 90
 name: Decentraland
 public_interest_score: 27.976
 symbol: mana
 tickers:
+- base: MANA
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: MANA
   market:
     identifier: altilly
@@ -86,24 +91,19 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: coss
-    name: COSS
+    identifier: coinbig
+    name: COINBIG
   target: BTC
-- base: MNA
+- base: MANA
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: MNA
   market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: MNA
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: MANA
   market:
     identifier: exx
@@ -119,6 +119,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: MANA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: MANA
   market:
     identifier: latoken
@@ -139,13 +144,3 @@ tickers:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
-- base: MANA
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
-- base: MANA
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

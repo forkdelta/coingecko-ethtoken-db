@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 45.445
-market_cap_rank: 74
+market_cap_rank: 75
 name: Enjin Coin
 public_interest_score: 36.117
 symbol: enj
@@ -79,11 +79,6 @@ tickers:
   market:
     identifier: bitebtc
     name: BiteBTC
-  target: BTC
-- base: ENJ
-  market:
-    identifier: bitebtc
-    name: BiteBTC
   target: ETH
 - base: ENJ
   market:
@@ -92,14 +87,14 @@ tickers:
   target: BTC
 - base: ENJ
   market:
-    identifier: coss
-    name: COSS
-  target: BTC
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: ENJ
   market:
-    identifier: coss
-    name: COSS
-  target: COS
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
 - base: ENJ
   market:
     identifier: coss
@@ -117,14 +112,9 @@ tickers:
   target: BTC
 - base: ENJ
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: ENJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
 - base: ENJ
   market:
     identifier: forkdelta
@@ -137,13 +127,13 @@ tickers:
   target: KRW
 - base: ENJ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: ENJ
   market:
-    identifier: idex
-    name: Idex
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: ENJ
   market:
@@ -169,4 +159,9 @@ tickers:
   market:
     identifier: stocks_exchange
     name: STEX
+  target: ETH
+- base: ENJ
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: ETH

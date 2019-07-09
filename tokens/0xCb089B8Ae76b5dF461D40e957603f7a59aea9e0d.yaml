@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: ARROUND_world
   twitter_screen_name: ArroundPlatform
 liquidity_score: 2.576
-market_cap_rank: 4028
+market_cap_rank: 4037
 name: Arround.io
 public_interest_score: 37.218
 symbol: arr
-tickers: []
+tickers:
+- base: ARR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ARR
+  market:
+    identifier: simex
+    name: Simex
+  target: USD

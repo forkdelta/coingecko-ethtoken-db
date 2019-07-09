@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: WePowerNetwork
   twitter_screen_name: WePowerN
 liquidity_score: 27.782
-market_cap_rank: 399
+market_cap_rank: 407
 name: WePower
 public_interest_score: 30.413
 symbol: wpr
@@ -51,6 +51,16 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: WPR
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: ETH
+- base: WPR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: WPR
   market:
     identifier: idex
