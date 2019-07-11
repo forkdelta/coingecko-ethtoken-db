@@ -40,8 +40,18 @@ links:
   telegram_channel_identifier: bitrewards
   twitter_screen_name: bitrewards
 liquidity_score: 1.0
-market_cap_rank: 2643
+market_cap_rank: 2654
 name: BitRewards Token
 public_interest_score: 25.338
 symbol: bit
-tickers: []
+tickers:
+- base: BIT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: BIT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

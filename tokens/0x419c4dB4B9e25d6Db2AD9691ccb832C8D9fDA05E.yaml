@@ -59,13 +59,23 @@ links:
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
 liquidity_score: 28.827
-market_cap_rank: 166
+market_cap_rank: 177
 name: Dragonchain
 public_interest_score: 27.187
 symbol: drgn
 tickers:
 - base: DRGN
   market:
+    identifier: beaxy
+    name: Beaxy
+  target: BTC
+- base: DRGN
+  market:
+    identifier: bitibu
+    name: Bitibu
+  target: BTC
+- base: DRGN
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -79,11 +89,6 @@ tickers:
     identifier: coss
     name: COSS
   target: BTC
-- base: DRGN
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
 - base: DRN
   market:
     identifier: ethfinex
@@ -98,11 +103,6 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
-- base: DRGN
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: DRGN
   market:

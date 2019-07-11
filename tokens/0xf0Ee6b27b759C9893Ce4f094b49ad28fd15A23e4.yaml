@@ -54,11 +54,26 @@ links:
   telegram_channel_identifier: enigmacatalyst
   twitter_screen_name: enigmampc
 liquidity_score: 34.544
-market_cap_rank: 113
+market_cap_rank: 109
 name: Enigma
 public_interest_score: 31.385
 symbol: eng
 tickers:
+- base: ENG
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: ENG
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: ENG
+  market:
+    identifier: coineal
+    name: Coineal
+  target: ETH
 - base: ENG
   market:
     identifier: crex24
@@ -76,16 +91,26 @@ tickers:
   target: ETH
 - base: ENG
   market:
-    identifier: idex
-    name: Idex
+    identifier: huobi
+    name: Huobi Global
   target: ETH
 - base: ENG
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: ENG
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: ENG
   market:
     identifier: livecoin
     name: Livecoin
   target: BTC
+- base: ENG
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH

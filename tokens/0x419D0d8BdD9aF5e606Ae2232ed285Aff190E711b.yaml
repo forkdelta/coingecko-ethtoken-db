@@ -57,16 +57,11 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 37.94
-market_cap_rank: 174
+market_cap_rank: 179
 name: FunFair
 public_interest_score: 30.276
 symbol: fun
 tickers:
-- base: FUN
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
 - base: FUN
   market:
     identifier: altilly
@@ -84,9 +79,19 @@ tickers:
   target: ETH
 - base: FUN
   market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: FUN
+  market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
+- base: FUN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: FUN
   market:
     identifier: gate
@@ -94,34 +99,19 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: FUN
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: FUN
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: FUN
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: FUN
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: FUN
-  market:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: FUN
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: FUN
   market:
     identifier: wazirx

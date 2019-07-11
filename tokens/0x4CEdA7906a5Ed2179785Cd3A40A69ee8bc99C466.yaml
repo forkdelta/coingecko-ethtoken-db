@@ -57,13 +57,23 @@ links:
   telegram_channel_identifier: aion_blockchain
   twitter_screen_name: Aion_Network
 liquidity_score: 33.967
-market_cap_rank: 122
+market_cap_rank: 130
 name: Aion
 public_interest_score: 33.657
 symbol: aion
 tickers:
 - base: AION
   market:
+    identifier: beaxy
+    name: Beaxy
+  target: BTC
+- base: AION
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: BTC
+- base: AION
+  market:
     identifier: bitbox
     name: BITBOX
   target: BTC
@@ -82,6 +92,16 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: AIO
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: AION
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
 - base: AION
   market:
     identifier: coinplace

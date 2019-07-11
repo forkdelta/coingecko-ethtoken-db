@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: tronipaycard
   twitter_screen_name: tronipay
 liquidity_score: 1.0
-market_cap_rank: 2036
+market_cap_rank: 2968
 name: Tronipay
 public_interest_score: 25.165
 symbol: trp
@@ -35,16 +35,6 @@ tickers:
     identifier: bitker
     name: BITKER
   target: BTC
-- base: TRP
-  market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
-- base: TRP
-  market:
-    identifier: bitker
-    name: BITKER
-  target: USDT
 - base: TRP
   market:
     identifier: fatbtc
@@ -57,9 +47,19 @@ tickers:
   target: BTC
 - base: TRP
   market:
+    identifier: fubt
+    name: FUBT
+  target: ETH
+- base: TRP
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: TRP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: TRP
   market:
     identifier: latoken
@@ -80,8 +80,3 @@ tickers:
     identifier: probit
     name: Probit
   target: KRW
-- base: TRP
-  market:
-    identifier: sato_wallet_ex
-    name: SatowalletEx
-  target: USDT

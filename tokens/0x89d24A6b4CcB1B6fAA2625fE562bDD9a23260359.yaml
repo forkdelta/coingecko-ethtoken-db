@@ -93,27 +93,32 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 53.43
-market_cap_rank: 84
+market_cap_rank: 77
 name: Dai
 public_interest_score: 35.342
 symbol: dai
 tickers:
 - base: DAI
   market:
-    identifier: bitrabbit
-    name: BitRabbit
-  target: USDT
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: DAI
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: DAI
   market:
     identifier: coinchangex
     name: Coinchangex
   target: ETH
-- base: MKR
+- base: ETH
   market:
     identifier: coss
     name: COSS
   target: DAI
-- base: ETH
+- base: TUSD
   market:
     identifier: coss
     name: COSS
@@ -125,14 +130,19 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: DAI
-  market:
     identifier: crex24
     name: CREX24
   target: USD
+- base: OMG
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: USDC
   market:
     identifier: ddex
@@ -143,17 +153,12 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: DAI
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: ETH
   market:
     identifier: eterbase
     name: Eterbase
   target: DAI
-- base: USDC
+- base: MITX
   market:
     identifier: eterbase
     name: Eterbase
@@ -180,11 +185,6 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: DAI
-  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -193,12 +193,7 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: EURS
+- base: MKR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -208,37 +203,37 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: DAI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EOSDT
 - base: WBTC
   market:
     identifier: idex
     name: Idex
-  target: DAI
-- base: ETH
-  market:
-    identifier: quoine
-    name: Liquid
   target: DAI
 - base: BTC
   market:
     identifier: quoine
     name: Liquid
   target: DAI
-- base: USDC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MKR
+- base: OMG
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: TUSD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: OMG
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -253,22 +248,12 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: BNT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: LTC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
 - base: BTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: DOGE
+- base: LTC
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -283,6 +268,16 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
+- base: IOTA
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
+- base: DOGE
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
 - base: BSV
   market:
     identifier: south_xchange
@@ -293,13 +288,23 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: USDC
+- base: WBTC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: SDUSD
+- base: MKR
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: LEO
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: DAI
+  market:
+    identifier: three_xbit
+    name: 3XBIT
+  target: USD

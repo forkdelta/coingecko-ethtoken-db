@@ -43,7 +43,7 @@ links:
   telegram_channel_identifier: bethereum
   twitter_screen_name: bethereumteam
 liquidity_score: 8.362
-market_cap_rank: 1023
+market_cap_rank: 995
 name: Bethereum
 public_interest_score: 39.017
 symbol: bether
@@ -55,6 +55,11 @@ tickers:
   target: ETH
 - base: BETHER
   market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: BETHER
+  market:
     identifier: eterbase
     name: Eterbase
   target: ETH
@@ -62,9 +67,4 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
-  target: XBASE
-- base: BETHER
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+  target: EUR

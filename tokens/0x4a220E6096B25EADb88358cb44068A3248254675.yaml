@@ -43,7 +43,7 @@ links:
   telegram_channel_identifier: quantnetworkannouncements
   twitter_screen_name: quant_network
 liquidity_score: 47.127
-market_cap_rank: 66
+market_cap_rank: 65
 name: Quant
 public_interest_score: 35.168
 symbol: qnt
@@ -52,17 +52,27 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
+  target: ETH
 - base: QNT
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
 - base: QNT
   market:
     identifier: eterbase
     name: Eterbase
   target: BTC
+- base: QNT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: ETH
+- base: QNT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
 - base: QNT
   market:
     identifier: eterbase
@@ -72,4 +82,4 @@ tickers:
   market:
     identifier: idax
     name: Idax
-  target: ETH
+  target: BTC
