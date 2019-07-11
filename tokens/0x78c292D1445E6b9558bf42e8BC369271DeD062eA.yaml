@@ -39,11 +39,16 @@ links:
   telegram_channel_identifier: cymtofficial
   twitter_screen_name: CyberMusicIO
 liquidity_score: 1.0
-market_cap_rank: 1665
+market_cap_rank: 1663
 name: CyberMusic
 public_interest_score: 25.23
 symbol: cymt
 tickers:
+- base: CYMT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: CYMT
   market:
     identifier: fatbtc
@@ -59,8 +64,3 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: CYMT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH

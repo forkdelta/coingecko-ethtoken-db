@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: Kubo_coin
   twitter_screen_name: KuboCoin
 liquidity_score: 1.0
-market_cap_rank: 941
+market_cap_rank: 900
 name: KuboCoin
 public_interest_score: 27.136
 symbol: kubo
@@ -42,8 +42,18 @@ tickers:
     identifier: crex24
     name: CREX24
   target: EUR
+- base: KUBO
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
 - base: KUBOC
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: USDT
+  target: DOGE
+- base: KUBOC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH

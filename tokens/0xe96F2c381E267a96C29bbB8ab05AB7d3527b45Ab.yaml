@@ -20,12 +20,22 @@ links:
   telegram_channel_identifier: satoexchange_official
   twitter_screen_name: satoexchange
 liquidity_score: 2.958
-market_cap_rank: 2668
+market_cap_rank: 4038
 name: SatoExchange Token
 public_interest_score: 24.839
 symbol: satx
 tickers:
-- base: BTCA
+- base: SATX
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: BTC
+- base: SATX
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: ETH
+- base: POINT
   market:
     identifier: satoexchange
     name: SatoExchange
@@ -45,11 +55,6 @@ tickers:
     identifier: satoexchange
     name: SatoExchange
   target: SATX
-- base: XQR
-  market:
-    identifier: satoexchange
-    name: SatoExchange
-  target: SATX
 - base: NANJ
   market:
     identifier: satoexchange
@@ -61,6 +66,11 @@ tickers:
     name: SatoExchange
   target: SATX
 - base: STQ
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX
+- base: DASH
   market:
     identifier: satoexchange
     name: SatoExchange

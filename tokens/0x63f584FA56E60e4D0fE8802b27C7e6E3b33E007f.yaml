@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: BoxCommunity
   twitter_screen_name: Contentbox_one
 liquidity_score: 29.559
-market_cap_rank: 177
+market_cap_rank: 157
 name: ContentBox
 public_interest_score: 41.74
 symbol: box
 tickers:
+- base: BOX
+  market:
+    identifier: cpdax
+    name: CPDAX
+  target: KRW
 - base: BOX
   market:
     identifier: ddex
@@ -42,6 +47,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: BOX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: BOX
   market:
     identifier: yobit
@@ -57,6 +67,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: BOX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: BOX
   market:
     identifier: yobit

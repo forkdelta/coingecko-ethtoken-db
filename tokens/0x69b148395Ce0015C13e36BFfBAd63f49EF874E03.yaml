@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: blockchainDATA
   twitter_screen_name: Blockchain_Data
 liquidity_score: 27.071
-market_cap_rank: 276
+market_cap_rank: 295
 name: DATA
 public_interest_score: 44.232
 symbol: dta
 tickers:
+- base: DTA
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
 - base: DTA
   market:
     identifier: coinbene
@@ -44,14 +49,19 @@ tickers:
   target: ETH
 - base: DTA
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: DTA
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: USD
+- base: DTA
+  market:
+    identifier: fubt
+    name: FUBT
+  target: BTC
 - base: DTA
   market:
     identifier: idex

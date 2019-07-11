@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 40.165
-market_cap_rank: 126
+market_cap_rank: 130
 name: Loom Network
 public_interest_score: 30.924
 symbol: loom
@@ -73,19 +73,24 @@ tickers:
   target: ETH
 - base: LOOM
   market:
-    identifier: bitebtc
-    name: BiteBTC
+    identifier: bitsdaq
+    name: Bitsdaq
   target: BTC
 - base: LOOM
   market:
-    identifier: bitebtc
-    name: BiteBTC
-  target: ETH
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: LOOM
   market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: LOOM
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: BTC
 - base: LOOM
   market:
     identifier: cryptaldash
@@ -96,26 +101,21 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: LOOM
-  market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
 - base: LOO
   market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: LOO
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: LOOM
   market:
     identifier: gopax
     name: GoPax
   target: BTC
-- base: LOOM
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: LOOM
   market:
     identifier: idex
@@ -123,23 +123,18 @@ tickers:
   target: ETH
 - base: LOOM
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: purcow
+    name: Purcow
   target: BTC
 - base: LOOM
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: purcow
+    name: Purcow
   target: ETH
 - base: LOOM
   market:
-    identifier: purcow
-    name: Purcow
-  target: BTC
-- base: LOOM
-  market:
-    identifier: purcow
-    name: Purcow
+    identifier: switcheo
+    name: Switcheo
   target: ETH
 - base: LOOM
   market:

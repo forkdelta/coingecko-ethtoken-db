@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: mytoken_en
   twitter_screen_name: mytokenio
 liquidity_score: 29.664
-market_cap_rank: 443
+market_cap_rank: 429
 name: MyToken
 public_interest_score: 29.499
 symbol: mt
@@ -52,11 +52,6 @@ tickers:
   target: ETH
 - base: MT
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: MT
-  market:
     identifier: coineal
     name: Coineal
   target: ETH
@@ -65,6 +60,11 @@ tickers:
     identifier: cpdax
     name: CPDAX
   target: KRW
+- base: MT
+  market:
+    identifier: fubt
+    name: FUBT
+  target: ETH
 - base: MT
   market:
     identifier: neraex
