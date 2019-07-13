@@ -58,11 +58,21 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 34.092
-market_cap_rank: 27
+market_cap_rank: 29
 name: Maker
 public_interest_score: 28.269
 symbol: mkr
 tickers:
+- base: MKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: MKR
+  market:
+    identifier: codex
+    name: CODEX
+  target: BTC
 - base: MKR
   market:
     identifier: coss
@@ -77,6 +87,11 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
+  target: DAI
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
   target: WETH
 - base: MKR
   market:
@@ -85,19 +100,54 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: exnce
+    name: EXNCE
+  target: BTB
+- base: MKR
+  market:
+    identifier: exnce
+    name: EXNCE
   target: DAI
 - base: MKR
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: exnce
+    name: EXNCE
   target: ETH
 - base: MKR
   market:
-    identifier: three_xbit
-    name: 3XBIT
-  target: USD
+    identifier: exnce
+    name: EXNCE
+  target: XLM
+- base: MKR
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: MKR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MKR
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
 - base: MKR
   market:
     identifier: tokenize

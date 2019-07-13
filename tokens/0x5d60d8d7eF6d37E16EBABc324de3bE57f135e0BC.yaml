@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: mybitio
   twitter_screen_name: MyBit_DApp
 liquidity_score: 1.0
-market_cap_rank: 1189
+market_cap_rank: 1227
 name: MyBit Token
 public_interest_score: 25.596
 symbol: myb
 tickers:
+- base: MYB
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: MYB
   market:
     identifier: hitbtc
@@ -42,6 +47,11 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MYB
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: MYB
   market:

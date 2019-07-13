@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: refereum
   twitter_screen_name: refereum
 liquidity_score: 23.081
-market_cap_rank: 364
+market_cap_rank: 354
 name: Refereum
 public_interest_score: 28.838
 symbol: rfr
 tickers:
+- base: RFR
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
 - base: RFR
   market:
     identifier: bitmart
@@ -38,14 +43,14 @@ tickers:
   target: BTC
 - base: RFR
   market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
-- base: RFR
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: RFR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: RFR
   market:
     identifier: idex

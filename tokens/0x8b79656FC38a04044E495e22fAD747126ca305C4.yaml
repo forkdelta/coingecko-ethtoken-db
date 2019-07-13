@@ -47,14 +47,14 @@ symbol: agvc
 tickers:
 - base: AGVC
   market:
-    identifier: coinlim
-    name: Coinlim
-  target: ETH
-- base: AGVC
-  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
+- base: AGVC
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC
 - base: AGVC
   market:
     identifier: south_xchange
@@ -65,11 +65,6 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: LTC
-- base: AGVC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: TUSD
 - base: AGVC
   market:
     identifier: south_xchange
