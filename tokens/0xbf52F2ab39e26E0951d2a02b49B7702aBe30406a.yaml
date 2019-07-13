@@ -65,21 +65,21 @@ links:
   telegram_channel_identifier: odem_io
   twitter_screen_name: ODEM_IO
 liquidity_score: 35.883
-market_cap_rank: 101
+market_cap_rank: 103
 name: ODEM
 public_interest_score: 37.499
 symbol: ode
 tickers:
 - base: ODE
   market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
-- base: ODE
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: ODE
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: ODEM
   market:
     identifier: yobit
@@ -94,19 +94,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: ODEM
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: ODEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: ODEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -80,13 +80,13 @@ tickers:
   target: BTC
 - base: MCO
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MCO
-  market:
     identifier: exx
     name: EXX
+  target: ETH
+- base: MCO
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: MCO
   market:
@@ -97,6 +97,16 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MCO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: MCO
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: MCO
   market:
@@ -113,3 +123,13 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: MCO
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
+- base: MCO
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

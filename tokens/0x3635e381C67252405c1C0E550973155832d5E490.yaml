@@ -58,8 +58,18 @@ links:
   - https://blockchainneo.io/
   twitter_screen_name: BlockchainNeo1
 liquidity_score: 1.0
-market_cap_rank: 3564
+market_cap_rank: 3575
 name: Japan Brand Coin
 public_interest_score: 30.842
 symbol: jbc
-tickers: []
+tickers:
+- base: JBC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: JBC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

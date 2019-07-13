@@ -36,8 +36,18 @@ links:
   telegram_channel_identifier: airbloc
   twitter_screen_name: AirblocOfficial
 liquidity_score: 34.681
-market_cap_rank: 482
+market_cap_rank: 493
 name: Airbloc
 public_interest_score: 25.596
 symbol: abl
-tickers: []
+tickers:
+- base: ABL
+  market:
+    identifier: cpdax
+    name: CPDAX
+  target: KRW
+- base: ABL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

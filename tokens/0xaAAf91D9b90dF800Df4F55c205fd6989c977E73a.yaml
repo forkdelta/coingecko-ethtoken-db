@@ -27,11 +27,26 @@ links:
   subreddit_url: https://www.reddit.com/r/tokencard
   twitter_screen_name: tokencard_io
 liquidity_score: 1.0
-market_cap_rank: 219
+market_cap_rank: 209
 name: TokenCard
 public_interest_score: 27.971
 symbol: tkn
 tickers:
+- base: TKN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: TKN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: TKN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: TKN
   market:
     identifier: idex
@@ -47,3 +62,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: TKN
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

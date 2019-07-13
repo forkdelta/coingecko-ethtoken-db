@@ -28,11 +28,21 @@ links:
   telegram_channel_identifier: ait_cn
   twitter_screen_name: AICHAIN1
 liquidity_score: 2.021
-market_cap_rank: 814
+market_cap_rank: 834
 name: AICHAIN
 public_interest_score: 23.694
 symbol: ait
 tickers:
+- base: AIT
+  market:
+    identifier: allcoin
+    name: Allcoin
+  target: ETH
+- base: AIT
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH
 - base: AIT
   market:
     identifier: bigone
@@ -40,9 +50,9 @@ tickers:
   target: ETH
 - base: AIT
   market:
-    identifier: coin_egg
-    name: CoinEgg
-  target: BTC
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH
 - base: AIT
   market:
     identifier: dobitrade
@@ -53,3 +63,8 @@ tickers:
     identifier: dobitrade
     name: Dobitrade
   target: ETH
+- base: AIT
+  market:
+    identifier: dobitrade
+    name: Dobitrade
+  target: USDT

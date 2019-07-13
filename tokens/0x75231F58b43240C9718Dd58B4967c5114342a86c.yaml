@@ -44,12 +44,22 @@ links:
   telegram_channel_identifier: okexofficial_en
   twitter_screen_name: okex_
 liquidity_score: 60.155
-market_cap_rank: 29
+market_cap_rank: 27
 name: OKB
 public_interest_score: 33.211
 symbol: okb
 tickers:
-- base: WAVES
+- base: OKB
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: SDA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: LET
   market:
     identifier: okex
     name: OKEx

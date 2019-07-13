@@ -27,7 +27,7 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 11.802
-market_cap_rank: 917
+market_cap_rank: 939
 name: MainCoin
 public_interest_score: 28.189
 symbol: mnc
@@ -51,6 +51,11 @@ tickers:
   market:
     identifier: biki
     name: Biki
+  target: BTC
+- base: MNC
+  market:
+    identifier: biki
+    name: Biki
   target: ETH
 - base: MNC
   market:
@@ -59,11 +64,6 @@ tickers:
   target: RUR
 - base: MNC
   market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
-- base: MNC
-  market:
     identifier: btc_alpha
     name: BTC-Alpha
   target: BTC
@@ -87,11 +87,6 @@ tickers:
     identifier: bw
     name: BW.com
   target: ETH
-- base: MNC
-  market:
-    identifier: bw
-    name: BW.com
-  target: USDT
 - base: MNC
   market:
     identifier: dobitrade
@@ -112,11 +107,6 @@ tickers:
     identifier: exrates
     name: Exrates
   target: BTC
-- base: MNC
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
 - base: MNC
   market:
     identifier: exrates
@@ -149,6 +139,16 @@ tickers:
   target: RUR
 - base: MNC
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: MNC
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: MNC
+  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
@@ -156,6 +156,21 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: ETH
+- base: MNC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: MNC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: MNC
+  market:
+    identifier: stocks_exchange
+    name: STEX
   target: ETH
 - base: MNC
   market:

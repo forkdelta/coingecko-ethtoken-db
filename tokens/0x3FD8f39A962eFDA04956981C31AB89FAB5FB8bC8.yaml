@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: rothariumplatform
   twitter_screen_name: Rotharium
 liquidity_score: 1.0
-market_cap_rank: 2439
+market_cap_rank: 4111
 name: Rotharium
 public_interest_score: 28.169
 symbol: rth
 tickers:
+- base: RTH
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: RTH
   market:
     identifier: yobit
@@ -53,11 +58,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: RTH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: RTH
   market:
     identifier: yobit

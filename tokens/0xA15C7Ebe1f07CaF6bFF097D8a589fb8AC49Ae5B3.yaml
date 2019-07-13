@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 44.364
-market_cap_rank: 47
+market_cap_rank: 49
 name: Pundi X
 public_interest_score: 29.015
 symbol: npxs
@@ -76,11 +76,6 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: alterdice
-    name: AlterDice
-  target: BTC
-- base: NPXS
-  market:
     identifier: beaxy
     name: Beaxy
   target: BTC
@@ -88,7 +83,7 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
-  target: ETH
+  target: BTC
 - base: NPXS
   market:
     identifier: bitsten
@@ -98,17 +93,12 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
-- base: NPXS
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
   target: ETH
 - base: NPXS
   market:
     identifier: coinbene
     name: CoinBene
-  target: ETH
+  target: USDT
 - base: NPXS
   market:
     identifier: coss
@@ -116,19 +106,29 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: BTC
+    identifier: exnce
+    name: EXNCE
+  target: BTB
 - base: NPXS
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: exnce
+    name: EXNCE
+  target: DAI
 - base: NPXS
   market:
-    identifier: dextrade
-    name: Dextrade
-  target: BTC
+    identifier: exnce
+    name: EXNCE
+  target: ETH
+- base: NPXS
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XLM
+- base: NPXS
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: NPXS
   market:
     identifier: graviex
@@ -138,6 +138,16 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: NPXS
   market:
@@ -178,11 +188,6 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
-  target: ETH
-- base: NPXS
-  market:
-    identifier: tokenomy
-    name: Tokenomy
   target: ETH
 - base: NPXS
   market:

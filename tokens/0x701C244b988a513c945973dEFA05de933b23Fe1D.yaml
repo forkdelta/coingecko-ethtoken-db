@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: openanxteam
   twitter_screen_name: oax_foundation
 liquidity_score: 30.311
-market_cap_rank: 397
+market_cap_rank: 391
 name: OpenANX
 public_interest_score: 25.778
 symbol: oax
 tickers:
+- base: OAX
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
 - base: OAX
   market:
     identifier: gate
@@ -43,4 +48,24 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: OAX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: OAX
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: USDT
+- base: OAX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: OAX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
