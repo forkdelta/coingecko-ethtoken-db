@@ -57,6 +57,11 @@ symbol: ae
 tickers:
 - base: AE
   market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: AE
+  market:
     identifier: bitmart
     name: BitMart
   target: BTC
@@ -72,9 +77,19 @@ tickers:
   target: CNYT
 - base: AE
   market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: AE
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: AE
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: AE
   market:
     identifier: otcbtc
@@ -99,19 +114,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: AE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: AE
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
 - base: AE
   market:
     identifier: yobit
     name: YoBit
   target: USD
+- base: AE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -32,8 +32,18 @@ links:
   telegram_channel_identifier: burncoinExa
   twitter_screen_name: coinburn
 liquidity_score: 8.501
-market_cap_rank: 3495
+market_cap_rank: 3512
 name: Burn Coin
 public_interest_score: 41.336
 symbol: brn
-tickers: []
+tickers:
+- base: BRN
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
+- base: BRN
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
