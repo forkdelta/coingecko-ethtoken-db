@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: storiqa_en
   twitter_screen_name: storiqa
 liquidity_score: 12.56
-market_cap_rank: 752
+market_cap_rank: 745
 name: Storiqa
 public_interest_score: 28.727
 symbol: stq
 tickers:
+- base: STQ
+  market:
+    identifier: exmo
+    name: EXMO
+  target: EUR
 - base: STQ
   market:
     identifier: idex
@@ -59,6 +64,11 @@ tickers:
   target: BTC
 - base: STQ
   market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
+- base: STQ
+  market:
     identifier: wazirx
     name: WazirX
   target: INR
@@ -67,6 +77,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: STQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: STQ
   market:
     identifier: yobit
@@ -81,4 +96,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD

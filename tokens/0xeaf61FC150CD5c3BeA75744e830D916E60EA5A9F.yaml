@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: typerium
   twitter_screen_name: Typerium_io
 liquidity_score: 13.93
-market_cap_rank: 955
+market_cap_rank: 928
 name: Typerium
 public_interest_score: 27.205
 symbol: type
@@ -84,6 +84,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: DOGE
+- base: TYPE
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: ETH
 - base: TYPE
   market:
@@ -107,11 +112,6 @@ tickers:
   target: USDT
 - base: TYPE
   market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
-- base: TYPE
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -130,6 +130,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: USDT
+- base: TYPE
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: TYPE
   market:
     identifier: trade_satoshi

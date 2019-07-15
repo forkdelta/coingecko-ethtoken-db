@@ -56,7 +56,7 @@ links:
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
 liquidity_score: 40.988
-market_cap_rank: 141
+market_cap_rank: 144
 name: Polymath Network
 public_interest_score: 29.327
 symbol: poly
@@ -76,21 +76,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: POLY
   market:
     identifier: forkdelta
@@ -101,11 +86,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: POLY
-  market:
-    identifier: korbit
-    name: Korbit
-  target: KRW
 - base: POLY
   market:
     identifier: kyber_network
@@ -125,4 +105,14 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
+  target: BTC
+- base: POLY
+  market:
+    identifier: wazirx
+    name: WazirX
   target: INR
+- base: POLY
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
