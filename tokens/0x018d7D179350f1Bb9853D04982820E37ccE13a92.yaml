@@ -39,7 +39,7 @@ links:
   telegram_channel_identifier: inmax_exchange
   twitter_screen_name: inmax_exchange
 liquidity_score: 9.521
-market_cap_rank: 610
+market_cap_rank: 662
 name: InMax
 public_interest_score: 25.238
 symbol: inx
@@ -48,9 +48,14 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: ETH
+  target: BTC
 - base: INX
   market:
-    identifier: graviex
-    name: Graviex
-  target: BTC
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: DOGE
+- base: INX
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH

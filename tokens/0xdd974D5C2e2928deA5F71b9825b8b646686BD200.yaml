@@ -61,11 +61,21 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 43.725
-market_cap_rank: 126
+market_cap_rank: 129
 name: Kyber Network
 public_interest_score: 30.453
 symbol: knc
 tickers:
+- base: KNC
+  market:
+    identifier: bitinfi
+    name: Bitinfi
+  target: BTC
+- base: KNC
+  market:
+    identifier: bitinfi
+    name: Bitinfi
+  target: ETH
 - base: KNC
   market:
     identifier: coin_exchange
@@ -93,9 +103,9 @@ tickers:
   target: USD
 - base: KNC
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: KNC
   market:
     identifier: hitbtc
@@ -103,19 +113,9 @@ tickers:
   target: USD
 - base: KNC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: KNC
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
+    identifier: idex
+    name: Idex
   target: ETH
-- base: KNC
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: USDT
 - base: KNC
   market:
     identifier: purcow
@@ -133,6 +133,11 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: KNC
+  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -141,6 +146,16 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
+- base: KNC
+  market:
+    identifier: xt
+    name: XT
+  target: SXC
+- base: KNC
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
 - base: KNC
   market:
     identifier: zb

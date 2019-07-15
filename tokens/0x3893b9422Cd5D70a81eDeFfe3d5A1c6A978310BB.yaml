@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
 liquidity_score: 44.264
-market_cap_rank: 215
+market_cap_rank: 227
 name: Mithril
 public_interest_score: 33.279
 symbol: mith
@@ -75,11 +75,6 @@ tickers:
     identifier: altilly
     name: Altilly
   target: DOGE
-- base: MITH
-  market:
-    identifier: bitopro
-    name: BitoPro
-  target: TWD
 - base: MITH
   market:
     identifier: bitrabbit
@@ -95,6 +90,11 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: MITH
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: MIT
   market:
     identifier: ethfinex
@@ -105,21 +105,16 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: MITH
+- base: MIT
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MITH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: MITH
-  market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
+- base: MITH
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: USDT
 - base: MITH
   market:
     identifier: quoine
@@ -129,4 +124,4 @@ tickers:
   market:
     identifier: tradeio
     name: Trade.io
-  target: BTC
+  target: ETH

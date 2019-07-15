@@ -55,11 +55,16 @@ links:
   telegram_channel_identifier: huobiglobalofficial
   twitter_screen_name: HuobiGlobal
 liquidity_score: 62.47
-market_cap_rank: 19
+market_cap_rank: 17
 name: Huobi Token
 public_interest_score: 32.868
 symbol: ht
 tickers:
+- base: HT
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
 - base: HT
   market:
     identifier: ddex
@@ -67,14 +72,14 @@ tickers:
   target: WETH
 - base: HT
   market:
+    identifier: finexbox
+    name: FinexBox
+  target: BTC
+- base: HT
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: HT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: HT
   market:
     identifier: yobit
@@ -90,11 +95,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: HT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: HT
   market:
     identifier: yobit

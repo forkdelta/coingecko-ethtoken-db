@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKICOplatform
 liquidity_score: 25.306
-market_cap_rank: 645
+market_cap_rank: 616
 name: KickCoin
 public_interest_score: 26.508
 symbol: kick
@@ -40,16 +40,16 @@ tickers:
   market:
     identifier: bilaxy
     name: Bilaxy
+  target: BTC
+- base: KICK
+  market:
+    identifier: bilaxy
+    name: Bilaxy
   target: USDT
 - base: KICK
   market:
     identifier: bitmart
     name: BitMart
-  target: BTC
-- base: KICK
-  market:
-    identifier: bitmart
-    name: BitMart
   target: ETH
 - base: KICK
   market:
@@ -68,14 +68,19 @@ tickers:
   target: USDT
 - base: KICK
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: KICK
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: crex24
+    name: CREX24
+  target: RUB
+- base: KICK
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: KICK
   market:
     identifier: idex
@@ -83,6 +88,11 @@ tickers:
   target: ETH
 - base: KICK
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: KICK
+  market:
     identifier: ooobtc
     name: OOOBTC
   target: BTC
@@ -91,6 +101,21 @@ tickers:
     identifier: ooobtc
     name: OOOBTC
   target: ETH
+- base: KICK
+  market:
+    identifier: probit
+    name: Probit
+  target: BTC
+- base: KICK
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
+- base: KICK
+  market:
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: KICK
   market:
     identifier: yobit
@@ -116,8 +141,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: KICK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -27,21 +27,26 @@ links:
   telegram_channel_identifier: Kubo_coin
   twitter_screen_name: KuboCoin
 liquidity_score: 1.0
-market_cap_rank: 824
+market_cap_rank: 759
 name: KuboCoin
 public_interest_score: 27.136
 symbol: kubo
 tickers:
 - base: KUBO
   market:
+    identifier: altmarkets
+    name: Altmarkets
+  target: BTC
+- base: KUBO
+  market:
+    identifier: altmarkets
+    name: Altmarkets
+  target: DOGE
+- base: KUBO
+  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
-- base: KUBOC
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: DOGE
 - base: KUBOC
   market:
     identifier: trade_satoshi

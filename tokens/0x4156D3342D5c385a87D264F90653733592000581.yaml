@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: SALTLendingDiscussion
   twitter_screen_name: SALTLending
 liquidity_score: 28.199
-market_cap_rank: 397
+market_cap_rank: 388
 name: SALT
 public_interest_score: 39.1
 symbol: salt
@@ -42,6 +42,11 @@ tickers:
   target: BTC
 - base: SALT
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: SALT
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -49,9 +54,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: SALT
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH

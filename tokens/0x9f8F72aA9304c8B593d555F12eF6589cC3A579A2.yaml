@@ -65,11 +65,6 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
-- base: MKR
-  market:
     identifier: codex
     name: CODEX
   target: BTC
@@ -78,6 +73,11 @@ tickers:
     identifier: coss
     name: COSS
   target: BTC
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: COS
 - base: MKR
   market:
     identifier: coss
@@ -120,19 +120,14 @@ tickers:
   target: XLM
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: MKR
   market:
     identifier: idex
     name: Idex
   target: ETH
-- base: MKR
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
 - base: MKR
   market:
     identifier: radar_relay
@@ -147,7 +142,7 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
-  target: DAI
+  target: ETH
 - base: MKR
   market:
     identifier: tokenize

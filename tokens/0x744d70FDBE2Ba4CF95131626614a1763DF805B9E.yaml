@@ -51,16 +51,26 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 50.994
-market_cap_rank: 79
+market_cap_rank: 80
 name: Status
 public_interest_score: 43.31
 symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: bitkub
-    name: Bitkub
-  target: THB
+    identifier: bitinfi
+    name: Bitinfi
+  target: BTC
+- base: SNT
+  market:
+    identifier: bitinfi
+    name: Bitinfi
+  target: ETH
+- base: SNT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: SNT
   market:
     identifier: ethfinex
@@ -68,16 +78,6 @@ tickers:
   target: USD
 - base: SNT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: SNT
-  market:
     identifier: korbit
     name: Korbit
   target: KRW
-- base: SNT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
