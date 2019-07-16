@@ -51,8 +51,18 @@ links:
   telegram_channel_identifier: https://t.me/Bitpakcoin_Offical
   twitter_screen_name: bitpakcoin/
 liquidity_score: 1.0
-market_cap_rank: 2367
+market_cap_rank: 4919
 name: BitpakcoinToken
 public_interest_score: 30.282
 symbol: bpakc
-tickers: []
+tickers:
+- base: BPAKC
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: BTC
+- base: BPAKC
+  market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH

@@ -72,7 +72,7 @@ links:
   telegram_channel_identifier: chainlinkofficial
   twitter_screen_name: chainlink
 liquidity_score: 68.232
-market_cap_rank: 16
+market_cap_rank: 17
 name: ChainLink
 public_interest_score: 32.64
 symbol: link
@@ -84,9 +84,14 @@ tickers:
   target: BTC
 - base: LINK
   market:
-    identifier: bitebtc
-    name: BiteBTC
+    identifier: bitexlive
+    name: Bitexlive
   target: BTC
+- base: LINK
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: ETH
 - base: LINK
   market:
     identifier: coss
@@ -96,7 +101,7 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: USDT
+  target: ETH
 - base: LINK
   market:
     identifier: cryptaldash
@@ -119,6 +124,21 @@ tickers:
   target: XBASE
 - base: LINK
   market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
+- base: LINK
+  market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: LINK
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
+- base: LINK
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -127,3 +147,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: LINK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

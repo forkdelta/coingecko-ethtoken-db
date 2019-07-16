@@ -63,10 +63,10 @@ name: Storj
 public_interest_score: 28.947
 symbol: storj
 tickers:
-- base: STJ
+- base: STORJ
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
 - base: STJ
   market:
@@ -78,6 +78,21 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: STORJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
+- base: STORJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: STORJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
 - base: STORJ
   market:
     identifier: gate

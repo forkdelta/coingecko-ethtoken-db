@@ -62,7 +62,7 @@ links:
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankrnetwork
 liquidity_score: 41.651
-market_cap_rank: 157
+market_cap_rank: 161
 name: Ankr Network
 public_interest_score: 28.728
 symbol: ankr
@@ -72,6 +72,16 @@ tickers:
     identifier: bgogo
     name: Bgogo
   target: BTC
+- base: ANKR-E97
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BTCB-1DE
+- base: ANKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: ANKR
   market:
     identifier: coin_exchange
@@ -84,6 +94,11 @@ tickers:
   target: BTC
 - base: ANKR
   market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: ANKR
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -91,4 +106,4 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: ETH
+  target: BTC

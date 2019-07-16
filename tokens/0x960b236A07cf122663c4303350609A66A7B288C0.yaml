@@ -72,16 +72,11 @@ links:
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
 liquidity_score: 15.32
-market_cap_rank: 160
+market_cap_rank: 150
 name: Aragon
 public_interest_score: 33.515
 symbol: ant
 tickers:
-- base: ANT
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
 - base: ANT
   market:
     identifier: ethfinex
@@ -97,6 +92,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: ANT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ANT
   market:
     identifier: livecoin

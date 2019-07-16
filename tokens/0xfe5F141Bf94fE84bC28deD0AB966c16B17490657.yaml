@@ -59,7 +59,7 @@ links:
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
 liquidity_score: 50.856
-market_cap_rank: 200
+market_cap_rank: 206
 name: Cred
 public_interest_score: 29.964
 symbol: lba
@@ -81,6 +81,11 @@ tickers:
   target: BNB
 - base: LBA
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: LBA
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -94,11 +99,6 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: LBA
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
 - base: LBA
   market:
     identifier: yobit
