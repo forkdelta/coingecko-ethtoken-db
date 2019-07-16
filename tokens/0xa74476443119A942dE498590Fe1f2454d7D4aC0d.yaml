@@ -87,6 +87,11 @@ symbol: gnt
 tickers:
 - base: GNT
   market:
+    identifier: bitbay
+    name: BitBay
+  target: USD
+- base: GNT
+  market:
     identifier: bitinfi
     name: Bitinfi
   target: BTC
@@ -95,6 +100,21 @@ tickers:
     identifier: bitinfi
     name: Bitinfi
   target: ETH
+- base: GNT
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: GNT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: GNT
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: GNT
   market:
     identifier: crex24
@@ -114,4 +134,19 @@ tickers:
   market:
     identifier: tokenize
     name: Tokenize
+  target: BTC
+- base: GNT
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: GNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: GNT
+  market:
+    identifier: zb
+    name: ZB
   target: BTC

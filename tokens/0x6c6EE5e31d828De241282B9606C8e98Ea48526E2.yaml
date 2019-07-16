@@ -95,6 +95,21 @@ tickers:
   target: BTC
 - base: HOT
   market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: BTC
+- base: HOT
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: ETH
+- base: HOT
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: TRY
+- base: HOT
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -103,11 +118,16 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: HOLO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: HOT
   market:
-    identifier: coinbig
-    name: COINBIG
-  target: USDT
+    identifier: fatbtc
+    name: FatBTC
+  target: USDC
 - base: HOT
   market:
     identifier: forkdelta
@@ -140,16 +160,11 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: ooobtc
-    name: OOOBTC
-  target: BTC
-- base: HOT
-  market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
-- base: HOT
-  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: HOT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

@@ -48,16 +48,6 @@ symbol: ftm
 tickers:
 - base: FTM
   market:
-    identifier: coinfinit
-    name: Coinfinit
-  target: KRW
-- base: FTM
-  market:
-    identifier: coinpark
-    name: Coinpark
-  target: ETH
-- base: FTM
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -76,6 +66,16 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EUR
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: FTM
   market:
     identifier: yobit

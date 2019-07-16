@@ -66,11 +66,6 @@ name: QASH
 public_interest_score: 28.742
 symbol: qash
 tickers:
-- base: QASH
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: QSH
   market:
     identifier: ethfinex
@@ -83,45 +78,35 @@ tickers:
   target: CNYT
 - base: QASH
   market:
-    identifier: exx
-    name: EXX
-  target: ETH
-- base: QASH
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: QASH
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: QASH
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: QASH
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: XRP
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: CRPT
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: NPLC
+- base: XRP
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: MRK
+- base: ECH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: STAC
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: NPLC
   market:
     identifier: quoine
     name: Liquid
@@ -137,16 +122,6 @@ tickers:
     name: Liquid
   target: QASH
 - base: DENT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ADH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ECH
   market:
     identifier: quoine
     name: Liquid
@@ -187,6 +162,11 @@ tickers:
     name: Liquid
   target: QASH
 - base: ENJ
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: MRK
   market:
     identifier: quoine
     name: Liquid

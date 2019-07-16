@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 45.445
-market_cap_rank: 72
+market_cap_rank: 74
 name: Enjin Coin
 public_interest_score: 36.117
 symbol: enj
@@ -85,11 +85,6 @@ tickers:
     identifier: coss
     name: COSS
   target: BTC
-- base: ENJ
-  market:
-    identifier: coss
-    name: COSS
-  target: COS
 - base: ENJ
   market:
     identifier: coss
@@ -115,6 +110,21 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
 - base: ENJ
   market:
     identifier: forkdelta
@@ -162,16 +172,6 @@ tickers:
   target: WETH
 - base: ENJ
   market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
-- base: ENJ
-  market:
     identifier: stocks_exchange
     name: STEX
-  target: ETH
-- base: ENJ
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: ETH

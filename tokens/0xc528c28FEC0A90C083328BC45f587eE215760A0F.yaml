@@ -39,11 +39,6 @@ symbol: edr
 tickers:
 - base: EDR
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: EDR
-  market:
     identifier: bitmart
     name: BitMart
   target: ETH
@@ -66,7 +61,22 @@ tickers:
   market:
     identifier: digifinex
     name: Digifinex
+  target: BTC
+- base: EDR
+  market:
+    identifier: digifinex
+    name: Digifinex
   target: USDT
+- base: EDR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: EDR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: EDR
   market:
     identifier: idex

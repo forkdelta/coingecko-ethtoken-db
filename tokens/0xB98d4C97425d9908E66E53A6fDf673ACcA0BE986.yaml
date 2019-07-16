@@ -43,11 +43,16 @@ links:
   telegram_channel_identifier: ArcBlock
   twitter_screen_name: ArcBlock_io
 liquidity_score: 41.565
-market_cap_rank: 142
+market_cap_rank: 151
 name: Arcblock
 public_interest_score: 28.541
 symbol: abt
 tickers:
+- base: ABT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: ABT
   market:
     identifier: coinbene
@@ -58,16 +63,6 @@ tickers:
     identifier: coinbene
     name: CoinBene
   target: USDT
-- base: ABT
-  market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
-- base: ABT
-  market:
-    identifier: fubt
-    name: FUBT
-  target: BTC
 - base: ABT
   market:
     identifier: idex

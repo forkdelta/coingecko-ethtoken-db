@@ -53,11 +53,16 @@ links:
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
 liquidity_score: 51.313
-market_cap_rank: 87
+market_cap_rank: 91
 name: Waltonchain
 public_interest_score: 30.843
 symbol: wtc
 tickers:
+- base: WTC
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH
 - base: WTC
   market:
     identifier: coss
@@ -65,14 +70,29 @@ tickers:
   target: ETH
 - base: WTC
   market:
-    identifier: dragonex
-    name: DragonEx
-  target: USDT
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: WTC
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
 - base: WTC
   market:
     identifier: idex

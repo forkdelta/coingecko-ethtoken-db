@@ -59,11 +59,16 @@ links:
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
 liquidity_score: 28.219
-market_cap_rank: 240
+market_cap_rank: 235
 name: Raiden Network Token
 public_interest_score: 29.052
 symbol: rdn
 tickers:
+- base: RDN
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
 - base: RDN
   market:
     identifier: ethfinex
@@ -76,23 +81,13 @@ tickers:
   target: USD
 - base: RDN
   market:
-    identifier: fubt
-    name: FUBT
-  target: BTC
-- base: RDN
-  market:
-    identifier: fubt
-    name: FUBT
-  target: ETH
-- base: RDN
-  market:
     identifier: gate
     name: Gate.io
   target: ETH
 - base: RDN
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH
 - base: RDN
   market:

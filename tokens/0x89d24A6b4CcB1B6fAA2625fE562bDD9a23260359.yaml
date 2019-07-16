@@ -93,26 +93,41 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 53.43
-market_cap_rank: 77
+market_cap_rank: 75
 name: Dai
 public_interest_score: 35.342
 symbol: dai
 tickers:
+- base: DAI
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: DAI
+  market:
+    identifier: cobinhood
+    name: Cobinhood
+  target: USDT
+- base: DAI
+  market:
+    identifier: codex
+    name: CODEX
+  target: USDT
+- base: DAI
+  market:
+    identifier: coinchangex
+    name: Coinchangex
+  target: ETH
 - base: BTC
   market:
     identifier: coss
     name: COSS
   target: DAI
-- base: LTC
+- base: DAI
   market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: WETH
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
+    identifier: crex24
+    name: CREX24
+  target: USD
 - base: USDC
   market:
     identifier: ddex
@@ -128,21 +143,6 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: XBASE
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: DAI
-- base: DAI
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: ZRX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
 - base: MKR
   market:
     identifier: ethfinex
@@ -153,12 +153,22 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: HUBBS
+- base: ZRX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
+- base: DAI
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: MKR
   market:
     identifier: exnce
     name: EXNCE
   target: DAI
-- base: ETHPLO
+- base: HUBBS
   market:
     identifier: exnce
     name: EXNCE
@@ -178,17 +188,7 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: DAI
-- base: MKR
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: DAI
-- base: XRP
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: DAI
-- base: NPXS
+- base: GZM
   market:
     identifier: exnce
     name: EXNCE
@@ -198,7 +198,17 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: DAI
-- base: GZM
+- base: XRP
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: DAI
+- base: ETHPLO
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: DAI
+- base: NPXS
   market:
     identifier: exnce
     name: EXNCE
@@ -207,13 +217,28 @@ tickers:
   market:
     identifier: exnce
     name: EXNCE
-  target: ETH
+  target: XLM
 - base: DAI
   market:
-    identifier: exnce
-    name: EXNCE
-  target: XLM
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: POA20
   market:
     identifier: hitbtc
     name: HitBTC
@@ -223,22 +248,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: EURS
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
@@ -248,76 +263,66 @@ tickers:
     identifier: idex
     name: Idex
   target: DAI
-- base: WBTC
+- base: XCHF
   market:
     identifier: idex
     name: Idex
   target: DAI
+- base: DAI
+  market:
+    identifier: idex
+    name: Idex
+  target: USDC
 - base: BTC
   market:
     identifier: quoine
     name: Liquid
   target: DAI
-- base: ZRX
+- base: ETH
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: quoine
+    name: Liquid
   target: DAI
 - base: OMG
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: MKR
+- base: ZRX
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
-- base: LTC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
   target: DAI
 - base: BTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: IOTA
+- base: LTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: WBTC
+- base: DOGE
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: USDT
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: LEO
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: SDUSD
-  market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: south_xchange
+    name: SouthXchange
   target: DAI
 - base: USDC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: PAX
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: DAI
+  market:
+    identifier: three_xbit
+    name: 3XBIT
+  target: USD
 - base: DAI
   market:
     identifier: tokens_net
