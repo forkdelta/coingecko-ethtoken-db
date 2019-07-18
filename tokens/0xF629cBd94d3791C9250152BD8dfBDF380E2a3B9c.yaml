@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 66
-coingecko_score: 52.78
-community_score: 54.933
+coingecko_rank: 72
+coingecko_score: 51.329
+community_score: 52.111
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -43,7 +43,7 @@ description: >-
   list. Enjin Coin is an ambitious project that aims to integrate online virtual gaming with decentralized
   technologies. Enjin Coin project promises a lot, and it is only with the passage of time that we will
   able to see if it can deliver on those promises.
-developer_score: 48.416
+developer_score: 47.527
 id: enjincoin
 image:
   large: https://assets.coingecko.com/coins/images/1102/large/enjin-coin-logo.png?1547035078
@@ -64,10 +64,10 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 45.445
-market_cap_rank: 74
+liquidity_score: 44.005
+market_cap_rank: 75
 name: Enjin Coin
-public_interest_score: 36.117
+public_interest_score: 36.194
 symbol: enj
 tickers:
 - base: ENJ
@@ -77,14 +77,29 @@ tickers:
   target: ETH
 - base: ENJ
   market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: BTC
+- base: ENJ
+  market:
+    identifier: bitebtc
+    name: BiteBTC
+  target: ETH
+- base: ENJ
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
 - base: ENJ
   market:
-    identifier: coss
-    name: COSS
-  target: BTC
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: ENJ
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
 - base: ENJ
   market:
     identifier: coss
@@ -94,7 +109,7 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: USDT
+  target: USD
 - base: ENJ
   market:
     identifier: crypto_bridge
@@ -105,11 +120,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: ENJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: ENJ
   market:
     identifier: financex
@@ -132,24 +142,9 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: idex
-    name: Idex
+    identifier: livecoin
+    name: Livecoin
   target: ETH
-- base: ENJ
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: ENJ
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: ENJ
-  market:
-    identifier: litebiteu
-    name: LiteBit
-  target: EUR
 - base: ENJ
   market:
     identifier: quoine
@@ -174,4 +169,9 @@ tickers:
   market:
     identifier: stocks_exchange
     name: STEX
+  target: ETH
+- base: ENJ
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: ETH

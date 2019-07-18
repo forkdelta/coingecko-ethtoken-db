@@ -1,8 +1,8 @@
 ---
 address: '0x0DB8D8b76BC361bAcbB72E2C491E06085A97Ab31'
-coingecko_rank: 1241
-coingecko_score: 21.413
-community_score: 31.258
+coingecko_rank: 1246
+coingecko_score: 21.127
+community_score: 30.198
 description: >-
   IQeon is the first platform where players can earn money thanks to their intelligence and achievements.
   This will be realized by using the internal currency in the IQeon ecosystem, which at any time can be
@@ -42,16 +42,31 @@ links:
 liquidity_score: 1.0
 market_cap_rank: 711
 name: IQeon
-public_interest_score: 25.256
+public_interest_score: 25.23
 symbol: iqn
 tickers:
 - base: IQN
   market:
-    identifier: exrates
-    name: Exrates
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
   target: USD
 - base: IQN
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: WAVES

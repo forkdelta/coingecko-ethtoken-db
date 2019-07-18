@@ -1,8 +1,8 @@
 ---
 address: '0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b'
-coingecko_rank: 365
-coingecko_score: 34.825
-community_score: 44.557
+coingecko_rank: 455
+coingecko_score: 31.89
+community_score: 43.697
 description: >-
   FunFair is an <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based platform for
   online casino gaming. Targeting the $47B online gambling market, FunFair isn’t actually a casino. Instead,
@@ -56,10 +56,10 @@ links:
   - https://funfair.io/
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
-liquidity_score: 37.94
-market_cap_rank: 178
+liquidity_score: 25.276
+market_cap_rank: 183
 name: FunFair
-public_interest_score: 30.276
+public_interest_score: 30.346
 symbol: fun
 tickers:
 - base: FUN
@@ -67,11 +67,6 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
-- base: FUN
-  market:
-    identifier: altilly
-    name: Altilly
-  target: BTC
 - base: FUN
   market:
     identifier: altilly
@@ -86,6 +81,11 @@ tickers:
   market:
     identifier: c2cx
     name: C2CX
+  target: BTC
+- base: FUN
+  market:
+    identifier: c2cx
+    name: C2CX
   target: LONG
 - base: FUN
   market:
@@ -94,8 +94,13 @@ tickers:
   target: USDT
 - base: FUN
   market:
-    identifier: cybex
-    name: Cybex DEX
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: FUN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: FUN
   market:
@@ -104,31 +109,36 @@ tickers:
   target: ETH
 - base: FUN
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: FUN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: FUN
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: FUN
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: livecoin
+    name: Livecoin
   target: BTC
 - base: FUN
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: FUN
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: FUN
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: FUN
   market:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: FUN
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

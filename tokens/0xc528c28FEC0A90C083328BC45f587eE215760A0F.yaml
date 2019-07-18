@@ -1,8 +1,8 @@
 ---
 address: '0xc528c28FEC0A90C083328BC45f587eE215760A0F'
-coingecko_rank: 387
-coingecko_score: 34.043
-community_score: 26.208
+coingecko_rank: 385
+coingecko_score: 33.694
+community_score: 25.133
 description: >-
   Endor.coin is reinventing predictive analytics by democratizing access to Artificial Intelligence data
   analysis, making it accessible, trustless, censorship-resistance and useful for all. This is achieved
@@ -11,7 +11,7 @@ description: >-
   and obtain high-quality results in minutes. This aims to democratize the field of Data Science, that
   today is reserved mostly for Fortune500 companies. Endor.coin is based on the novel science of Social
   Physics developed at MIT by the project’s team members Prof. Alex Pentland and Dr. Yaniv Altshuler
-developer_score: 23.963
+developer_score: 23.809
 id: endor
 image:
   large: https://assets.coingecko.com/coins/images/3683/large/0b805574-ef0d-41dc-b518-8d6148bf4716.png?1547038680
@@ -31,12 +31,17 @@ links:
     - https://github.com/EndorCoin/endor-blockchain-data-pipeline
   subreddit_url: https://www.reddit.com/r/EndorCoin/
   twitter_screen_name: endorscience
-liquidity_score: 32.626
-market_cap_rank: 333
+liquidity_score: 33.782
+market_cap_rank: 340
 name: Endor Protocol Token
-public_interest_score: 25.529
+public_interest_score: 25.506
 symbol: edr
 tickers:
+- base: EDR
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
 - base: EDR
   market:
     identifier: bitmart
@@ -44,9 +49,9 @@ tickers:
   target: ETH
 - base: EDR
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: BTC
+    identifier: bittrex
+    name: Bittrex
+  target: USD
 - base: EDR
   market:
     identifier: coinbene
@@ -62,11 +67,6 @@ tickers:
     identifier: digifinex
     name: Digifinex
   target: BTC
-- base: EDR
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
 - base: EDR
   market:
     identifier: huobi_korea
@@ -87,3 +87,13 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: EDR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: EDR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
