@@ -1,8 +1,8 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1437
-coingecko_score: 19.533
-community_score: 16.387
+coingecko_rank: 1517
+coingecko_score: 18.618
+community_score: 15.823
 description: >-
   Use MainCoin for instant and private payments on the Internet and in the real world using secure open
   source software that runs on Ethereum, supported by hundreds of thousands of users around the world.
@@ -26,10 +26,10 @@ links:
     github:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
-liquidity_score: 11.802
-market_cap_rank: 934
+liquidity_score: 9.149
+market_cap_rank: 962
 name: MainCoin
-public_interest_score: 28.189
+public_interest_score: 27.93
 symbol: mnc
 tickers:
 - base: MNC
@@ -44,11 +44,6 @@ tickers:
   target: ETH
 - base: MNC
   market:
-    identifier: alterdice
-    name: AlterDice
-  target: USD
-- base: MNC
-  market:
     identifier: biki
     name: Biki
   target: BTC
@@ -59,19 +54,24 @@ tickers:
   target: ETH
 - base: MNC
   market:
-    identifier: biki
-    name: Biki
+    identifier: bitfex
+    name: Bitfex
+  target: RUR
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: USDT
-- base: MNC
-  market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: BTC
-- base: MNC
-  market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: ETH
 - base: MNC
   market:
     identifier: bw
@@ -121,17 +121,17 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: MNC
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: MNC
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: MNC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: RUR
 - base: MNC
   market:
     identifier: livecoin
@@ -157,3 +157,18 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
+- base: MNC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT
+- base: MNC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: MNC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

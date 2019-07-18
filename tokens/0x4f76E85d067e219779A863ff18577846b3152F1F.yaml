@@ -1,8 +1,8 @@
 ---
 address: '0x4f76E85d067e219779A863ff18577846b3152F1F'
-coingecko_rank: 1348
-coingecko_score: 20.379
-community_score: 27.892
+coingecko_rank: 1302
+coingecko_score: 20.638
+community_score: 28.003
 description: >-
   A payment processing system for effortless transfer of crypto funds into fiat or other crypto assets.
 developer_score: 0.0
@@ -27,16 +27,31 @@ links:
   telegram_channel_identifier: Kubo_coin
   twitter_screen_name: KuboCoin
 liquidity_score: 1.0
-market_cap_rank: 745
+market_cap_rank: 728
 name: KuboCoin
-public_interest_score: 27.136
+public_interest_score: 27.053
 symbol: kubo
 tickers:
 - base: KUBO
   market:
     identifier: altmarkets
     name: Altmarkets
+  target: BTC
+- base: KUBO
+  market:
+    identifier: altmarkets
+    name: Altmarkets
   target: DOGE
+- base: KUBO
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: KUBOC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
 - base: KUBOC
   market:
     identifier: trade_satoshi

@@ -1,13 +1,13 @@
 ---
 address: '0x58a4884182d9E835597f405e5F258290E46ae7C2'
-coingecko_rank: 492
-coingecko_score: 31.522
-community_score: 18.013
+coingecko_rank: 465
+coingecko_score: 31.654
+community_score: 16.791
 description: >-
   NOAH PROJECT seeks to bring about social innovation through blockchain technology and work to solve
   the economic disparities around the world. A portion of the project’s proceeds will be donated to charity
   by our parent organization, NOAH FOUNDATION.
-developer_score: 18.433
+developer_score: 17.887
 id: noah-coin
 image:
   large: https://assets.coingecko.com/coins/images/3442/large/noah-coin.png?1548329230
@@ -29,8 +29,8 @@ links:
     - https://github.com/NoahFoundation/NoahCoin
   telegram_channel_identifier: noahproject_community
   twitter_screen_name: NOAHCOIN_Proj
-liquidity_score: 27.865
-market_cap_rank: 162
+liquidity_score: 29.937
+market_cap_rank: 164
 name: Noah Coin
 public_interest_score: 38.579
 symbol: noah
@@ -39,12 +39,17 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
-  target: ETH
+  target: BTC
 - base: NOAH
   market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: USD
+    identifier: btcnext
+    name: BTCNEXT
+  target: BTC
+- base: NOAH
+  market:
+    identifier: btcnext
+    name: BTCNEXT
+  target: ETH
 - base: NOAH
   market:
     identifier: btcnext
@@ -57,9 +62,9 @@ tickers:
   target: ETH
 - base: NOAH
   market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: NOAH
   market:
     identifier: livecoin
@@ -90,16 +95,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: NOAH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: NOAH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: NOAH
   market:
     identifier: yobit
