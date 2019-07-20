@@ -1,8 +1,8 @@
 ---
 address: '0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374'
-coingecko_rank: 277
-coingecko_score: 36.903
-community_score: 36.306
+coingecko_rank: 266
+coingecko_score: 37.453
+community_score: 37.878
 description: ""
 developer_score: 16.222
 id: veritaseum
@@ -23,16 +23,36 @@ links:
     - https://github.com/veritaseum/Veritaseum
   subreddit_url: https://www.reddit.com/r/Veritasium/
   twitter_screen_name: Veritaseuminc
-liquidity_score: 36.935
-market_cap_rank: 137
+liquidity_score: 37.045
+market_cap_rank: 123
 name: Veritaseum
 public_interest_score: 31.86
 symbol: veri
 tickers:
 - base: VERI
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: VERI
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: VERI
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: VERI
+  market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: VERI
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: VERI
   market:
@@ -44,8 +64,3 @@ tickers:
     identifier: uniswap
     name: Uniswap
   target: ETH
-- base: VERI
-  market:
-    identifier: whitebit
-    name: Whitebit
-  target: BTC

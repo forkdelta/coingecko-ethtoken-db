@@ -1,12 +1,12 @@
 ---
 address: '0x27695E09149AdC738A978e9A678F99E4c39e9eb9'
-coingecko_rank: 480
-coingecko_score: 31.438
-community_score: 36.528
+coingecko_rank: 452
+coingecko_score: 32.058
+community_score: 37.785
 description: >-
   KICKICO helps innovators, game developers, blockchain leaders, entrepreneurs, designers, and other creators
   find the resources and support they need to make their ideas a reality.
-developer_score: 19.889
+developer_score: 19.888
 id: kickico
 image:
   large: https://assets.coingecko.com/coins/images/981/large/kickcoin.png?1547975165
@@ -25,8 +25,8 @@ links:
     - https://github.com/kickico/contracts
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKICOplatform
-liquidity_score: 17.391
-market_cap_rank: 615
+liquidity_score: 19.161
+market_cap_rank: 622
 name: KickCoin
 public_interest_score: 26.504
 symbol: kick
@@ -38,19 +38,9 @@ tickers:
   target: BTC
 - base: KICK
   market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: BTC
-- base: KICK
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: USDT
-- base: KICK
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: KICK
   market:
     identifier: coss
@@ -65,12 +55,7 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
-  target: BTC
-- base: KICK
-  market:
-    identifier: crex24
-    name: CREX24
-  target: RUB
+  target: USD
 - base: KICK
   market:
     identifier: forkdelta
@@ -78,24 +63,29 @@ tickers:
   target: ETH
 - base: KICK
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: KICK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: KICK
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: KICK
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
-- base: KICK
-  market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: ooobtc
+    name: OOOBTC
   target: BTC
 - base: KICK
   market:
     identifier: ooobtc
     name: OOOBTC
-  target: BTC
+  target: ETH
 - base: KICK
   market:
     identifier: tradeio

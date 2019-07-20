@@ -1,8 +1,8 @@
 ---
 address: '0x0235fE624e044A05eeD7A43E16E3083bc8A4287A'
-coingecko_rank: 1843
-coingecko_score: 15.835
-community_score: 17.915
+coingecko_rank: 1838
+coingecko_score: 16.019
+community_score: 18.651
 description: >-
   "Original Crypto Coin (OCC) is registered as “low profit” L3C corporation in the state of Utah, USA.
   Our stated mission is to educate people about using crypto currency.
@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: OrigCryptoCoin
   twitter_screen_name: origcryptocoin
 liquidity_score: 1.0
-market_cap_rank: 4321
+market_cap_rank: 4362
 name: Original Crypto Coin
 public_interest_score: 39.078
 symbol: occ1
 tickers:
+- base: OCC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: OCC
   market:
     identifier: forkdelta
@@ -48,8 +53,3 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: OCC1
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH

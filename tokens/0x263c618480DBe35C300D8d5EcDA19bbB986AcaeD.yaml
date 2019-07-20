@@ -1,8 +1,8 @@
 ---
 address: '0x263c618480DBe35C300D8d5EcDA19bbB986AcaeD'
-coingecko_rank: 433
-coingecko_score: 32.408
-community_score: 29.133
+coingecko_rank: 437
+coingecko_score: 32.492
+community_score: 29.86
 description: >-
   Olympus is a groundbreaking financial ecosystem that defines the protocol for cryptocurrency-based financial
   products. The Olympus ecosystem provides investors with a comprehensive financial marketplace filled
@@ -38,13 +38,23 @@ links:
   telegram_channel_identifier: olympuslabs
   twitter_screen_name: olympuslabsbc
 liquidity_score: 1.0
-market_cap_rank: 900
+market_cap_rank: 954
 name: Olympus Labs
 public_interest_score: 25.894
 symbol: mot
 tickers:
 - base: MOT
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MOT
+  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
+- base: MOT
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT

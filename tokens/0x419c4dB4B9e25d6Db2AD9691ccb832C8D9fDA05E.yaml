@@ -1,8 +1,8 @@
 ---
 address: '0x419c4dB4B9e25d6Db2AD9691ccb832C8D9fDA05E'
 coingecko_rank: 116
-coingecko_score: 45.734
-community_score: 35.324
+coingecko_score: 45.876
+community_score: 36.25
 description: >-
   Dragonchain is one of the newly launched cryptocurrencies that is attracting crypto enthusiasts following
   its relaunch. The coin seems to be leading on the technology front irrespective of its market capitalisation
@@ -37,7 +37,7 @@ description: >-
   platform’s ability to scale; an issue that Ethereum has been notorious for. As of January 2018, the
   DragonChain team is raising funds and finishing development of the platform. Although the exact date
   is currently unannounced, the DRGN platform is expected to fully launch sometime this year.
-developer_score: 63.166
+developer_score: 63.165
 id: dragonchain
 image:
   large: https://assets.coingecko.com/coins/images/1289/large/dragonchain.png?1547957761
@@ -58,8 +58,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Dragonchainblockchain
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
-liquidity_score: 27.231
-market_cap_rank: 173
+liquidity_score: 26.732
+market_cap_rank: 168
 name: Dragonchain
 public_interest_score: 27.193
 symbol: drgn
@@ -68,17 +68,7 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
-- base: DRGN
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
   target: ETH
-- base: DRGN
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
 - base: DRGN
   market:
     identifier: coss
@@ -94,6 +84,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: DRN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: DRGN
   market:
     identifier: forkdelta
@@ -103,11 +98,6 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
-- base: DRGN
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: DRGN
   market:
@@ -129,3 +119,8 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
+- base: DRGN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH

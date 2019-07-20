@@ -1,8 +1,8 @@
 ---
 address: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03'
-coingecko_rank: 125
-coingecko_score: 44.843
-community_score: 46.931
+coingecko_rank: 122
+coingecko_score: 45.219
+community_score: 48.313
 description: "Aave is a decentralized lending platform that runs on <a href=\"https://www.coingecko.com/en/coins/ethereum\"\
   >Ethereum</a> Network which offers secure, peer-to-peer lending Smart Contracts. Aave strives to break\
   \ through the traditional bank loans system with a more efficient solution. Aave also uniquely allows\
@@ -45,12 +45,22 @@ links:
     - https://github.com/ETHLend/DAPP
   subreddit_url: https://www.reddit.com/r/ETHLend
   twitter_screen_name: AaveAave
-liquidity_score: 31.089
-market_cap_rank: 395
+liquidity_score: 31.196
+market_cap_rank: 407
 name: Aave
 public_interest_score: 25.406
 symbol: lend
 tickers:
+- base: LEND
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: LEND
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: LEND
   market:
     identifier: bitebtc
@@ -68,11 +78,6 @@ tickers:
   target: ETH
 - base: LEND
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: LEND
-  market:
-    identifier: idex
-    name: Idex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH

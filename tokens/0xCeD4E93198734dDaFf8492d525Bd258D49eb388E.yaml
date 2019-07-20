@@ -1,8 +1,8 @@
 ---
 address: '0xCeD4E93198734dDaFf8492d525Bd258D49eb388E'
-coingecko_rank: 426
-coingecko_score: 32.582
-community_score: 36.688
+coingecko_rank: 419
+coingecko_score: 32.865
+community_score: 38.258
 description: >-
   eidoo is your blockchain asset experience Fast, easy, and not only a Multicurrency Wallet:it's a Hybrid
   Exchange too. It's Eidoo
@@ -22,9 +22,34 @@ links:
   - https://eidoo.io/
   subreddit_url: https://www.reddit.com/r/eidoo
   twitter_screen_name: eidoo_io
-liquidity_score: 37.681
-market_cap_rank: 144
+liquidity_score: 37.314
+market_cap_rank: 152
 name: Eidoo
 public_interest_score: 27.079
 symbol: edo
-tickers: []
+tickers:
+- base: EDO
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: EDO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EDO
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: EDO
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: EDO
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

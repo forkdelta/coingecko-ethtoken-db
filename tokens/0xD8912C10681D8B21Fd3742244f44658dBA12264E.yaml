@@ -1,8 +1,8 @@
 ---
 address: '0xD8912C10681D8B21Fd3742244f44658dBA12264E'
-coingecko_rank: 1607
-coingecko_score: 17.786
-community_score: 15.612
+coingecko_rank: 1603
+coingecko_score: 18.02
+community_score: 16.333
 description: >-
   Plutons are digital tokens issued to users on the Ethereum blockchain, these are native to the Plutus
   app. To provide an analogy, these tokens are similar to cash back or frequent flier miles. As a user,
@@ -28,13 +28,28 @@ links:
   subreddit_url: https://www.reddit.com/r/Plutonstrader
   twitter_screen_name: PlutusIT
 liquidity_score: 1.0
-market_cap_rank: 775
+market_cap_rank: 785
 name: Pluton
 public_interest_score: 30.352
 symbol: plu
 tickers:
 - base: PLU
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: PLU
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: ETH
+- base: PLU
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PLU
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH

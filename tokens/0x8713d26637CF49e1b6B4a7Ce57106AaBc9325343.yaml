@@ -1,7 +1,7 @@
 ---
 address: '0x8713d26637CF49e1b6B4a7Ce57106AaBc9325343'
-coingecko_rank: 509
-coingecko_score: 30.716
+coingecko_rank: 518
+coingecko_score: 30.662
 community_score: 10.866
 description: >-
   Content Neutrality Network (CNN) Platform introduces several mechanisms/protocols related to content
@@ -31,7 +31,7 @@ links:
     - https://github.com/cnntoken/CNNApplication
   telegram_channel_identifier: cnn_blockchain_official
   twitter_screen_name: CNN_Blockchain
-liquidity_score: 24.466
+liquidity_score: 24.263
 market_cap_rank: 318
 name: Content Neutrality Network
 public_interest_score: 37.165
@@ -44,19 +44,24 @@ tickers:
   target: BTC
 - base: CNN
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: CNN
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: BTC
+- base: CNN
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: CNN
+  market:
     identifier: coinbene
     name: CoinBene
   target: ETH
-- base: CNN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: CNN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: CNN
   market:
     identifier: idex

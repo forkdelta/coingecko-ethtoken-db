@@ -1,8 +1,8 @@
 ---
 address: '0xe25bCec5D3801cE3a794079BF94adF1B8cCD802D'
-coingecko_rank: 425
-coingecko_score: 32.587
-community_score: 15.827
+coingecko_rank: 418
+coingecko_score: 32.867
+community_score: 16.744
 description: >-
   MATRIX AI Network (MAN) is a global open-source, public, intelligent blockchain-based distributed computing
   platform and operating system that combines artificial intelligence (AI) and blockchain. MATRIX was
@@ -47,12 +47,17 @@ links:
   subreddit_url: https://www.reddit.com/r/MatrixAINetwork/
   telegram_channel_identifier: matrixainetwork
   twitter_screen_name: matrixainetwork
-liquidity_score: 30.123
-market_cap_rank: 313
+liquidity_score: 29.939
+market_cap_rank: 291
 name: Matrix AI Network
 public_interest_score: 41.789
 symbol: man
 tickers:
+- base: MAN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: MAN
   market:
     identifier: ethfinex
@@ -63,13 +68,3 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: MAN
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MAN
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC

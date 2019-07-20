@@ -1,8 +1,8 @@
 ---
 address: '0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7'
-coingecko_rank: 175
-coingecko_score: 41.744
-community_score: 7.483
+coingecko_rank: 231
+coingecko_score: 38.849
+community_score: 7.491
 description: >-
   Akropolis is building a domain-specific financial protocol dedicated to the needs of the informal economy.
   It is designed to:
@@ -17,7 +17,7 @@ description: >-
 
 
   - Reduce instances of fraud and misuse of funds
-developer_score: 44.606
+developer_score: 41.6
 id: akropolis
 image:
   large: https://assets.coingecko.com/coins/images/3328/large/Akropolis.png?1547037929
@@ -39,9 +39,19 @@ links:
     - https://github.com/akropolisio/akropolis-polkadot
   telegram_channel_identifier: akropolis_official
   twitter_screen_name: akropolisio
-liquidity_score: 63.517
-market_cap_rank: 206
+liquidity_score: 56.209
+market_cap_rank: 204
 name: Akropolis
 public_interest_score: 28.012
 symbol: akro
-tickers: []
+tickers:
+- base: AKRO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: AKRO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH

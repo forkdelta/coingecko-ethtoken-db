@@ -1,8 +1,8 @@
 ---
 address: '0x514910771AF9Ca656af840dff83E8264EcF986CA'
 coingecko_rank: 21
-coingecko_score: 61.304
-community_score: 38.306
+coingecko_score: 61.371
+community_score: 38.124
 description: >-
   ChainLink is a decentralized oracle service, the first of its kind. When <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   went live in 2015, it revolutionized what blockchain could bring to enterprise solution and traditional
@@ -48,7 +48,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/chainlink-link/">CoinBureau</a> for the complete
   review on Chainlink.
-developer_score: 78.705
+developer_score: 78.718
 id: chainlink
 image:
   large: https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1547034700
@@ -71,17 +71,22 @@ links:
   subreddit_url: https://www.reddit.com/r/Chainlink/
   telegram_channel_identifier: chainlinkofficial
   twitter_screen_name: chainlink
-liquidity_score: 63.746
-market_cap_rank: 18
+liquidity_score: 64.097
+market_cap_rank: 17
 name: ChainLink
 public_interest_score: 34.116
 symbol: link
 tickers:
 - base: LINK
   market:
-    identifier: alterdice
-    name: AlterDice
-  target: BTC
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: LINK
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: LINK
   market:
     identifier: bitebtc
@@ -96,21 +101,6 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: BTC
-- base: LINK
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: LINK
-  market:
-    identifier: coss
-    name: COSS
-  target: USDT
-- base: LINK
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
   target: USDT
 - base: LINK
   market:
@@ -134,23 +124,13 @@ tickers:
   target: XBASE
 - base: LINK
   market:
-    identifier: financex
-    name: FinanceX
-  target: BTC
-- base: LINK
-  market:
-    identifier: financex
-    name: FinanceX
-  target: IDR
-- base: LINK
-  market:
-    identifier: financex
-    name: FinanceX
-  target: VND
-- base: LINK
-  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: LINK
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: LINK
   market:
@@ -162,3 +142,8 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: LINK
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

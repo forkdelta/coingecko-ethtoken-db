@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 283
-coingecko_score: 36.667
-community_score: 44.144
+coingecko_rank: 268
+coingecko_score: 37.31
+community_score: 46.377
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -63,22 +63,22 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 41.339
-market_cap_rank: 52
+liquidity_score: 41.608
+market_cap_rank: 50
 name: Pundi X
 public_interest_score: 29.158
 symbol: npxs
 tickers:
 - base: NPXS
   market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
-- base: NPXS
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: NPXC
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: NPXS
   market:
     identifier: bit_z
@@ -91,43 +91,18 @@ tickers:
   target: IDR
 - base: NPXS
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: NPXS
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: ETH
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
-- base: NPXS
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: NPXS
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
   target: BTC
+- base: NPXS
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: NPXS
   market:
     identifier: exnce
     name: EXNCE
-  target: ETH
-- base: NPXS
-  market:
-    identifier: exrates
-    name: Exrates
-  target: USD
-- base: NPXS
-  market:
-    identifier: graviex
-    name: Graviex
   target: ETH
 - base: NPXS
   market:
@@ -148,16 +123,11 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH
 - base: NPXS
   market:
-    identifier: localtrade
-    name: LocalTrade
+    identifier: sistemkoin
+    name: Sistemkoin
   target: BTC
 - base: NPXS
   market:
@@ -166,6 +136,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH
+- base: NPXS
+  market:
     identifier: tidex
     name: Tidex
   target: BTC
@@ -174,3 +149,8 @@ tickers:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

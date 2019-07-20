@@ -1,8 +1,8 @@
 ---
 address: '0x607F4C5BB672230e8672085532f7e901544a7375'
-coingecko_rank: 101
-coingecko_score: 47.408
-community_score: 42.453
+coingecko_rank: 102
+coingecko_score: 47.325
+community_score: 43.826
 description: >-
   iExec is an open-source, decentralized cloud computing platform, running on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain. iExec allows decentralized applications (dApps) an on-demand access to computing resources
@@ -42,7 +42,7 @@ description: >-
   decentralized supercomputer on blockchain technology, while iExec is targeting dApp development and
   sustainability.  Both look towards a future of a blockchain-powered, decentralized internet, but their
   functions, while sometimes similar, are more complementary than conflicting.
-developer_score: 64.455
+developer_score: 64.454
 id: iexec-rlc
 image:
   large: https://assets.coingecko.com/coins/images/646/large/iExec_RLC.png?1547034373
@@ -64,17 +64,27 @@ links:
     - https://github.com/iExecBlockchainComputing/iexec-stack
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
-liquidity_score: 25.326
-market_cap_rank: 175
+liquidity_score: 23.309
+market_cap_rank: 174
 name: iExec RLC
 public_interest_score: 26.834
 symbol: rlc
 tickers:
 - base: RLC
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RLC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: RLC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: RLC
   market:
     identifier: gate
@@ -97,6 +107,6 @@ tickers:
   target: ETH
 - base: RLC
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: uniswap
+    name: Uniswap
   target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0xA0cCa3Cf5c64152883f4c947c404E46996593fA7'
-coingecko_rank: 4593
+coingecko_rank: 4637
 coingecko_score: 4.152
-community_score: 7.087
+community_score: 7.086
 description: >-
   BRAPPER is an Ethereum based token designed to help facilitate overall adoption of cryptocurrency into
   currently used platforms. Giving users the power of cryptocurrency by having them include their Ethereum
@@ -25,18 +25,23 @@ links:
   telegram_channel_identifier: BrapperToken
   twitter_screen_name: BrapperToken
 liquidity_score: 1.0
-market_cap_rank: 2529
+market_cap_rank: 2552
 name: BrapperToken
 public_interest_score: 21.807
 symbol: brap
 tickers:
 - base: BRAP
   market:
-    identifier: ddex
-    name: DDEX
+    identifier: altmarkets
+    name: Altmarkets
+  target: BTC
+- base: BRAP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
   target: WETH
 - base: BRAP
   market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
+    identifier: ddex
+    name: DDEX
+  target: WETH

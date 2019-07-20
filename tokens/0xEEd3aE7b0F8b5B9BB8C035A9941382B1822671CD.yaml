@@ -1,7 +1,7 @@
 ---
 address: '0xEEd3aE7b0F8b5B9BB8C035A9941382B1822671CD'
-coingecko_rank: 2865
-coingecko_score: 9.432
+coingecko_rank: 2906
+coingecko_score: 9.413
 community_score: 6.255
 description: >-
   The Aaron Platform is a new financial platform that combines stable coin(TabiPay) with fluid value coin(EveryCoin)
@@ -31,17 +31,37 @@ links:
     - https://github.com/aaron-platform/everycoin
   telegram_channel_identifier: aaron_platform
   twitter_screen_name: AaronJin20
-liquidity_score: 25.814
-market_cap_rank: 2704
+liquidity_score: 25.722
+market_cap_rank: 4077
 name: EveryCoin
 public_interest_score: 27.053
 symbol: evy
 tickers:
 - base: EVY
   market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: EVY
+  market:
+    identifier: idcm
+    name: IDCM
+  target: BTC
+- base: EVY
+  market:
+    identifier: idcm
+    name: IDCM
+  target: USDT
+- base: EVY
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: EVY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: EVY
   market:
     identifier: latoken
@@ -56,4 +76,19 @@ tickers:
   market:
     identifier: oex
     name: OEX
+  target: BTC
+- base: EVY
+  market:
+    identifier: oex
+    name: OEX
+  target: ETH
+- base: EVY
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: EVY
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: BTC
