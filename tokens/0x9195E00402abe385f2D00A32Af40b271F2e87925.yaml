@@ -1,8 +1,8 @@
 ---
 address: '0x9195E00402abe385f2D00A32Af40b271F2e87925'
-coingecko_rank: 2654
-coingecko_score: 10.377
-community_score: 13.991
+coingecko_rank: 2642
+coingecko_score: 10.634
+community_score: 15.021
 description: >-
   The Etheera project was established initially in 2017 by IZ Immobilien Kriens GmbH.
 
@@ -19,7 +19,7 @@ description: >-
   longer period of time, or whether you are looking anything else. Etheera also thinks about the real
   estate brokers and professionals of the industry and offers a complete software tool which has integrated
   possibilities and will match all needs. Simply the ALL IN ONE solution for everyone!
-developer_score: 15.878
+developer_score: 15.877
 id: etheera
 image:
   large: https://assets.coingecko.com/coins/images/2304/large/Etheera-logo-200-200.png?1547036522
@@ -42,11 +42,16 @@ links:
   telegram_channel_identifier: etheera
   twitter_screen_name: Etheera1
 liquidity_score: 1.0
-market_cap_rank: 3854
+market_cap_rank: 3517
 name: Etheera
 public_interest_score: 27.095
 symbol: eta
 tickers:
+- base: ETA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ETA
   market:
     identifier: bitebtc
@@ -59,11 +64,6 @@ tickers:
   target: LTC
 - base: ETA
   market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
-- base: ETA
-  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -72,6 +72,11 @@ tickers:
     identifier: exrates
     name: Exrates
   target: ETH
+- base: ETA
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: ETA
   market:
     identifier: thetokenstore

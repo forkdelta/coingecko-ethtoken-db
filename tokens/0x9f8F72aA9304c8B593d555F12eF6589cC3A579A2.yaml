@@ -1,8 +1,8 @@
 ---
 address: '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2'
-coingecko_rank: 57
-coingecko_score: 53.923
-community_score: 39.851
+coingecko_rank: 56
+coingecko_score: 54.498
+community_score: 40.88
 description: >-
   MKR is a cryptocurrency depicted as a smart contract platform and works alongside the Dai coin and aims
   to act as a hedge currency that provides traders with a stable alternative to the majority of coins
@@ -39,7 +39,7 @@ description: >-
   the equivalent of $25.41 today, and even $1 in 1993 is worth the equivalent of $1.74 today. Stablecoins
   don’t negate these basic economic principles of value. Instead, both Tether and Dai have values pegged
   to the U.S. dollar. This is done to stabilize the price.
-developer_score: 74.345
+developer_score: 74.4
 id: maker
 image:
   large: https://assets.coingecko.com/coins/images/1364/large/maker.png?1547035390
@@ -57,12 +57,27 @@ links:
     - https://github.com/makerdao/dai.js
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 36.575
-market_cap_rank: 30
+liquidity_score: 37.95
+market_cap_rank: 29
 name: Maker
 public_interest_score: 28.058
 symbol: mkr
 tickers:
+- base: MKR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
 - base: MKR
   market:
     identifier: coss
@@ -85,24 +100,34 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: MKR
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MKR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MKR
   market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
 - base: MKR
   market:
     identifier: sistemkoin
@@ -118,6 +143,11 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: MKR
   market:
     identifier: three_xbit

@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 50
-coingecko_score: 55.2
-community_score: 44.49
+coingecko_rank: 48
+coingecko_score: 55.367
+community_score: 45.536
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 78.839
+developer_score: 78.838
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -57,12 +57,17 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 41.89
-market_cap_rank: 152
+liquidity_score: 41.449
+market_cap_rank: 154
 name: Storj
 public_interest_score: 28.805
 symbol: storj
 tickers:
+- base: STORJ
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: STORJ
   market:
     identifier: bitebtc
@@ -80,18 +85,43 @@ tickers:
   target: BTC
 - base: STORJ
   market:
-    identifier: financex
-    name: FinanceX
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: STORJ
+  market:
+    identifier: gate
+    name: Gate.io
   target: BTC
 - base: STORJ
   market:
-    identifier: financex
-    name: FinanceX
-  target: IDR
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: STORJ
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: STORJ
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: STORJ
   market:

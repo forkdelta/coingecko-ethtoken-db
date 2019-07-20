@@ -1,8 +1,8 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 649
-coingecko_score: 27.849
-community_score: 13.881
+coingecko_rank: 656
+coingecko_score: 27.956
+community_score: 14.782
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
@@ -26,28 +26,23 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 26.395
-market_cap_rank: 212
+liquidity_score: 25.967
+market_cap_rank: 218
 name: STASIS EURS
 public_interest_score: 27.93
 symbol: eurs
 tickers:
 - base: EURS
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: EURS
   market:
     identifier: dsx
     name: DSX
   target: EUR
 - base: BTC
-  market:
-    identifier: dsx
-    name: DSX
-  target: EURS
-- base: LTC
   market:
     identifier: dsx
     name: DSX
@@ -72,12 +67,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XRP
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -87,12 +77,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: NEO
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: DASH
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
@@ -112,6 +102,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: TUSD
 - base: BTC
   market:
     identifier: kuna
@@ -142,12 +137,17 @@ tickers:
     identifier: okcoin
     name: OKCoin
   target: USD
+- base: XRP
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
 - base: LTC
   market:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: XRP
+- base: TUSD
   market:
     identifier: tokens_net
     name: TokensNet

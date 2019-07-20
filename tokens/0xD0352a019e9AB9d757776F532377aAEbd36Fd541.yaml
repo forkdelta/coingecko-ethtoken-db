@@ -1,8 +1,8 @@
 ---
 address: '0xD0352a019e9AB9d757776F532377aAEbd36Fd541'
 coingecko_rank: 288
-coingecko_score: 36.438
-community_score: 34.147
+coingecko_score: 36.701
+community_score: 35.162
 description: >-
   Fusion is a project which consists of an all-inclusive blockchain-based financial platform that offers
   cross-chain, cross-organization, and cross-data source services through smart contract employment.  FUSION
@@ -54,17 +54,32 @@ links:
   subreddit_url: https://www.reddit.com/r/FusionFoundation/
   telegram_channel_identifier: FUSIONFoundation
   twitter_screen_name: FUSIONProtocol
-liquidity_score: 35.527
-market_cap_rank: 107
+liquidity_score: 35.556
+market_cap_rank: 109
 name: FUSION
 public_interest_score: 42.005
 symbol: fsn
 tickers:
 - base: FSN
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: FSN
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: FSN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: FSN
   market:
     identifier: quoine

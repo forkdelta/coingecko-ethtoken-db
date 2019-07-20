@@ -1,8 +1,8 @@
 ---
 address: '0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A'
 coingecko_rank: 134
-coingecko_score: 44.297
-community_score: 37.315
+coingecko_score: 44.361
+community_score: 37.885
 description: >-
   Digix makes it possible to buy gold in an efficient manner via cryptocurrency by providing investors
   with a tokenized version of gold so you don’t have to physically own or store it. Digix has two cryptocurrencies,
@@ -68,8 +68,8 @@ links:
     - https://github.com/DigixGlobal/dijix
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
-liquidity_score: 36.418
-market_cap_rank: 120
+liquidity_score: 35.818
+market_cap_rank: 112
 name: DigixDAO
 public_interest_score: 28.945
 symbol: dgd
@@ -79,6 +79,11 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: DGD
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: DGD
   market:
     identifier: bigone
@@ -104,8 +109,3 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: DGD
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

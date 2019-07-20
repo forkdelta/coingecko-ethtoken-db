@@ -1,8 +1,8 @@
 ---
 address: '0x4D13d624a87baa278733c068A174412AfA9ca6C8'
-coingecko_rank: 506
-coingecko_score: 30.792
-community_score: 30.82
+coingecko_rank: 497
+coingecko_score: 31.179
+community_score: 31.916
 description: >-
   There is clearly an underserved market for a reliable cryptocurrency exchange with a robust operational
   and technological infrastructure on par with the large banks and Wall Street firms. ETERBASE is engaged
@@ -36,8 +36,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Eterbase/
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: ETERBASE
-liquidity_score: 31.503
-market_cap_rank: 541
+liquidity_score: 31.588
+market_cap_rank: 570
 name: Eterbase Coin
 public_interest_score: 25.198
 symbol: xbase
@@ -61,12 +61,17 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
+  target: DAI
+- base: XBASE
+  market:
+    identifier: eterbase
+    name: Eterbase
   target: EUR
 - base: XBASE
   market:
     identifier: eterbase
     name: Eterbase
-  target: PAX
+  target: TUSD
 - base: XBASE
   market:
     identifier: eterbase
@@ -77,17 +82,32 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: USDT
-- base: LIT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
 - base: BETHER
   market:
     identifier: eterbase
     name: Eterbase
   target: XBASE
+- base: FREE
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: LOTEU
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
 - base: MITX
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: LIT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: QNT
   market:
     identifier: eterbase
     name: Eterbase
@@ -102,16 +122,11 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: XBASE
-- base: VIDT
+- base: XBASE
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
-- base: QNT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
 - base: XBASE
   market:
     identifier: latoken
@@ -122,8 +137,3 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: XBASE
-  market:
-    identifier: ooobtc
-    name: OOOBTC
-  target: BTC

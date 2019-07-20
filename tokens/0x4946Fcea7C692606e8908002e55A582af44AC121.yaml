@@ -1,8 +1,8 @@
 ---
 address: '0x4946Fcea7C692606e8908002e55A582af44AC121'
-coingecko_rank: 761
-coingecko_score: 26.186
-community_score: 35.215
+coingecko_rank: 749
+coingecko_score: 26.47
+community_score: 36.272
 description: >-
   FOAM is an open protocol for proof of location on Ethereum. Our mission is to build a consensus driven
   map of the world, empowering a fully decentralized web3 economy with verifiable location data. FOAM
@@ -76,17 +76,17 @@ links:
   subreddit_url: https://www.reddit.com/r/foamprotocol/
   telegram_channel_identifier: foamspace
   twitter_screen_name: foamspace
-liquidity_score: 6.405
-market_cap_rank: 197
+liquidity_score: 6.247
+market_cap_rank: 182
 name: FOAM
 public_interest_score: 33.453
 symbol: foam
 tickers:
-- base: FOA
+- base: FOAM
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: FOA
   market:
     identifier: ethfinex
@@ -94,6 +94,11 @@ tickers:
   target: USD
 - base: FOAM
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: idex
+    name: Idex
   target: ETH
+- base: FOAM
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDC

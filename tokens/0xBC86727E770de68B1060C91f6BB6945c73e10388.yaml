@@ -1,8 +1,8 @@
 ---
 address: '0xBC86727E770de68B1060C91f6BB6945c73e10388'
-coingecko_rank: 363
-coingecko_score: 34.166
-community_score: 23.774
+coingecko_rank: 390
+coingecko_score: 33.745
+community_score: 23.777
 description: >-
   Decentralized reputation and payments for peer-to-peer marketplaces.
 developer_score: 47.982
@@ -26,12 +26,17 @@ links:
   subreddit_url: https://www.reddit.com/r/PayWithInk/
   telegram_channel_identifier: paywithink
   twitter_screen_name: PayWithInk
-liquidity_score: 14.673
-market_cap_rank: 795
+liquidity_score: 12.499
+market_cap_rank: 822
 name: Ink Protocol
 public_interest_score: 27.865
 symbol: xnk
 tickers:
+- base: XNK
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: XNK
   market:
     identifier: coss
@@ -41,4 +46,9 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: XNK
+  market:
+    identifier: quoine
+    name: Liquid
   target: ETH
