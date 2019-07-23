@@ -1,11 +1,11 @@
 ---
 address: '0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a'
-coingecko_rank: 732
-coingecko_score: 26.734
-community_score: 31.147
+coingecko_rank: 728
+coingecko_score: 26.571
+community_score: 30.443
 description: >-
   Non-custodial contract wallet paired with a debit card to spend your ETH & ERC-20 in real life.
-developer_score: 13.076
+developer_score: 13.154
 id: tokencard
 image:
   large: https://assets.coingecko.com/coins/images/675/large/tokencard.png?1548758701
@@ -19,24 +19,22 @@ links:
   - https://enjinx.io/eth/token/0xaaaf91d9b90df800df4f55c205fd6989c977e73a
   - https://etherscan.io/token/0xaaaf91d9b90df800df4f55c205fd6989c977e73a
   - https://ethplorer.io/address/0xaaaf91d9b90df800df4f55c205fd6989c977e73a
+  chat_url:
+  - https://discord.gg/YrrFpFd
   homepage:
   - https://tokencard.io/
   repos_url:
     github:
     - https://github.com/tokencard/MultiSigWallet
   subreddit_url: https://www.reddit.com/r/tokencard
+  telegram_channel_identifier: TokenCard
   twitter_screen_name: tokencard_io
 liquidity_score: 1.0
-market_cap_rank: 212
+market_cap_rank: 221
 name: TokenCard
 public_interest_score: 28.012
 symbol: tkn
 tickers:
-- base: TKN
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: TKN
   market:
     identifier: ethfinex
@@ -49,11 +47,11 @@ tickers:
   target: USD
 - base: TKN
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: TKN
-  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: TKN
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

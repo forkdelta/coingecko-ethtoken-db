@@ -1,8 +1,8 @@
 ---
 address: '0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A'
-coingecko_rank: 134
-coingecko_score: 44.361
-community_score: 37.885
+coingecko_rank: 131
+coingecko_score: 44.73
+community_score: 38.237
 description: >-
   Digix makes it possible to buy gold in an efficient manner via cryptocurrency by providing investors
   with a tokenized version of gold so you don’t have to physically own or store it. Digix has two cryptocurrencies,
@@ -41,7 +41,7 @@ description: >-
   2018, DGD reached an all-time high of over 400 dollars. When Digix finally delivers the DGX tokens and
   the rewards to DGD participants start rolling in, we might see an even higher demand for DigixDAO. When
   DGX goes live, it will be available for purchase with Ether on the Digix marketplace.
-developer_score: 45.792
+developer_score: 46.113
 id: digixdao
 image:
   large: https://assets.coingecko.com/coins/images/397/large/dgd.png?1547034124
@@ -68,7 +68,7 @@ links:
     - https://github.com/DigixGlobal/dijix
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
-liquidity_score: 35.818
+liquidity_score: 36.37
 market_cap_rank: 112
 name: DigixDAO
 public_interest_score: 28.945
@@ -98,6 +98,11 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: DGD
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: USD
 - base: DGD
   market:
@@ -109,3 +114,8 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: DGD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

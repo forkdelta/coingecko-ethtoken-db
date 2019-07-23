@@ -1,8 +1,8 @@
 ---
 address: '0xDf6Ef343350780BF8C3410BF062e0C015B1DD671'
-coingecko_rank: 1664
-coingecko_score: 17.506
-community_score: 37.51
+coingecko_rank: 1679
+coingecko_score: 17.32
+community_score: 36.769
 description: >-
   Blackmoon Crypto is a platform for the creation and management of tokenized investment funds. The platform
   aims to bridge the gap between the crypto investment world and the real world economy, allowing the
@@ -28,8 +28,18 @@ links:
   subreddit_url: https://www.reddit.com/r/BlackMoonCrypto
   twitter_screen_name: BlackmoonFG
 liquidity_score: 1.0
-market_cap_rank: 3676
+market_cap_rank: 3679
 name: Blackmoon Crypto
 public_interest_score: 31.447
 symbol: bmc
-tickers: []
+tickers:
+- base: BMC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: BMC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
