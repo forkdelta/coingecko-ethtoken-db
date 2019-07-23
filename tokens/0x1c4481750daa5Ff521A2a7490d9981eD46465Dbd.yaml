@@ -1,8 +1,8 @@
 ---
 address: '0x1c4481750daa5Ff521A2a7490d9981eD46465Dbd'
-coingecko_rank: 150
-coingecko_score: 43.307
-community_score: 42.885
+coingecko_rank: 163
+coingecko_score: 42.157
+community_score: 39.325
 description: >-
   Cornerstone Of The Decentralized Web
 developer_score: 50.616
@@ -24,8 +24,8 @@ links:
     - https://github.com/blockmason/credit-protocol
   subreddit_url: https://www.reddit.com/r/blockmason
   twitter_screen_name: blockmasonio
-liquidity_score: 22.554
-market_cap_rank: 426
+liquidity_score: 21.19
+market_cap_rank: 419
 name: BlockMason Credit Protocol
 public_interest_score: 35.556
 symbol: bcpt
@@ -40,6 +40,16 @@ tickers:
     identifier: binance
     name: Binance
   target: PAX
+- base: BCPT
+  market:
+    identifier: binance
+    name: Binance
+  target: USDC
+- base: BCPT-95A
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: BCPT
   market:
     identifier: coin_exchange

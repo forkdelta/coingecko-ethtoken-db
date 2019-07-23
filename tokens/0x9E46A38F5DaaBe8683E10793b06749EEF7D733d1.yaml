@@ -1,8 +1,8 @@
 ---
 address: '0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1'
-coingecko_rank: 310
-coingecko_score: 36.044
-community_score: 31.654
+coingecko_rank: 314
+coingecko_score: 35.781
+community_score: 30.285
 description: >-
   PolySwarm in 60 Seconds.
 
@@ -33,7 +33,7 @@ description: >-
   from the sale of ERC20-compatible Nectar (“NCT”) utility tokens. As a utility token, PolySwarm economically
   disincentivizes Nectar speculation by rewarding honest market participation through the collection and
   distribution of Fees (details on page 6) to valueadding, active participants.
-developer_score: 38.847
+developer_score: 39.673
 id: polyswarm
 image:
   large: https://assets.coingecko.com/coins/images/2843/large/polyswarm.png?1548331600
@@ -54,17 +54,27 @@ links:
   subreddit_url: https://www.reddit.com/r/PolySwarm
   telegram_channel_identifier: polyswarm
   twitter_screen_name: polyswarm
-liquidity_score: 21.394
-market_cap_rank: 580
+liquidity_score: 20.571
+market_cap_rank: 577
 name: PolySwarm
 public_interest_score: 27.908
 symbol: nct
 tickers:
 - base: NCT
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: NCT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: NCT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: NCT
   market:
     identifier: idex

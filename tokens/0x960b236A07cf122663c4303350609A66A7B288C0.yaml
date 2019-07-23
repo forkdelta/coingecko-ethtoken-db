@@ -1,8 +1,8 @@
 ---
 address: '0x960b236A07cf122663c4303350609A66A7B288C0'
-coingecko_rank: 112
-coingecko_score: 46.332
-community_score: 36.243
+coingecko_rank: 111
+coingecko_score: 46.298
+community_score: 36.61
 description: >-
   Aragon is a decentralized app (dApp) on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain that allows anyone to create and manage a decentralized organization. The Aragon project
@@ -71,8 +71,8 @@ links:
     - https://github.com/aragon/aragon-core
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
-liquidity_score: 16.176
-market_cap_rank: 150
+liquidity_score: 15.591
+market_cap_rank: 153
 name: Aragon
 public_interest_score: 33.345
 symbol: ant
@@ -84,6 +84,11 @@ tickers:
   target: WETH
 - base: ANT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: ANT
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
@@ -91,7 +96,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: ANT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
+- base: ANT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ANT
   market:
     identifier: idex
@@ -107,3 +122,13 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: ANT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: ANT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH

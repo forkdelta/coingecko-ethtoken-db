@@ -1,8 +1,8 @@
 ---
 address: '0x0778Cc2E8bBAd3d483E82371606D100cc8604522'
-coingecko_rank: 3029
-coingecko_score: 8.877
-community_score: 4.94
+coingecko_rank: 2990
+coingecko_score: 8.896
+community_score: 4.342
 description: >-
   This project is based on an existing Forex broker (in the market since 2004). The startup is designed
   to transfer the existing business model into the crypto environment. According to the Roadmap, the current
@@ -11,7 +11,7 @@ description: >-
   will be called LH-CRYPTO, it will be distinct from the main brand legally and financially. #LHCoin will
   be used as margin requirement for trading on Forex, CFDs and crypto markets. Also, it will be used as
   agent’s commission for LH-Crypto partners.
-developer_score: 18.955
+developer_score: 19.628
 id: lhcoin
 image:
   large: https://assets.coingecko.com/coins/images/6709/large/lhcoin.jpg?1547042926
@@ -33,7 +33,7 @@ links:
     - https://github.com/LHCrypto/LHToken
   telegram_channel_identifier: LHCrypto
 liquidity_score: 1.0
-market_cap_rank: 2500
+market_cap_rank: 2548
 name: LHCoin
 public_interest_score: 27.038
 symbol: lhcoin
@@ -43,6 +43,11 @@ tickers:
     identifier: btc_alpha
     name: BTC-Alpha
   target: BTC
+- base: LHCOIN
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
 - base: LHCOIN
   market:
     identifier: btc_alpha
@@ -57,14 +62,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: LHCOIN
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: LHCOIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
