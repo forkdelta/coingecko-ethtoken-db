@@ -26,20 +26,25 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 2.147
-market_cap_rank: 150
+market_cap_rank: 142
 name: Numeraire
 public_interest_score: 26.297
 symbol: nmr
 tickers:
 - base: NMR
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: NMR
+  market:
+    identifier: poloniex
+    name: Poloniex
   target: BTC
 - base: NMR
   market:
-    identifier: idex
-    name: Idex
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: NMR
   market:

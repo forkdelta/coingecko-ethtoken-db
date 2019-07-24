@@ -58,7 +58,7 @@ links:
   telegram_channel_identifier: melonport
   twitter_screen_name: melonport
 liquidity_score: 18.355
-market_cap_rank: 519
+market_cap_rank: 508
 name: Melon
 public_interest_score: 36.563
 symbol: mln
@@ -70,6 +70,16 @@ tickers:
   target: ETH
 - base: MLN
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: MLN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: MLN
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -78,3 +88,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: MLN
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

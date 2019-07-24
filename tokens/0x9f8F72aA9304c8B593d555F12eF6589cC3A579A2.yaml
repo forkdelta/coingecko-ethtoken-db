@@ -70,14 +70,19 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: MKR
+  market:
     identifier: coss
     name: COSS
   target: BTC
 - base: MKR
   market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: MKR
   market:
     identifier: ddex
@@ -100,19 +105,9 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: MKR
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: MKR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: MKR
   market:
     identifier: probit
@@ -122,26 +117,6 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: DAI
 - base: MKR
   market:
@@ -157,4 +132,9 @@ tickers:
   market:
     identifier: tokenize
     name: Tokenize
+  target: ETH
+- base: MKR
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

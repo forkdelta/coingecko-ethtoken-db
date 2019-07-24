@@ -58,13 +58,18 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 41.501
-market_cap_rank: 143
+market_cap_rank: 151
 name: Storj
 public_interest_score: 28.805
 symbol: storj
 tickers:
 - base: STORJ
   market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: STORJ
+  market:
     identifier: bitebtc
     name: BiteBTC
   target: BTC
@@ -77,12 +82,12 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
-- base: STORJ
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
   target: ETH
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: STJ
   market:
     identifier: ethfinex
@@ -93,6 +98,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: STORJ
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: STORJ
   market:
     identifier: idex
@@ -122,12 +132,22 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: STORJ
   market:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: STORJ
   market:
     identifier: yobit

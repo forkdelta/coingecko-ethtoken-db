@@ -36,9 +36,19 @@ symbol: stx
 tickers:
 - base: STX
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: STX
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: STX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: STX
   market:
     identifier: hitbtc

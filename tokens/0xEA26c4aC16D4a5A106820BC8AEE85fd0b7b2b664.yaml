@@ -100,11 +100,6 @@ symbol: qkc
 tickers:
 - base: QKC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: QKC
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -112,6 +107,11 @@ tickers:
   market:
     identifier: kyber_network
     name: Kyber Network
+  target: ETH
+- base: QKC
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: QKC
   market:
@@ -123,8 +123,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
-- base: QKC
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

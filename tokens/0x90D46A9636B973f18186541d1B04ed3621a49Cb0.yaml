@@ -40,8 +40,18 @@ links:
   telegram_channel_identifier: NatminPureEscrow
   twitter_screen_name: NatminPE
 liquidity_score: 1.0
-market_cap_rank: 1508
+market_cap_rank: 1444
 name: Natmin
 public_interest_score: 25.063
 symbol: nat
-tickers: []
+tickers:
+- base: NAT
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: NAT
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
