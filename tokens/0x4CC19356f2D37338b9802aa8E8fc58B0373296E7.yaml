@@ -60,16 +60,26 @@ links:
   telegram_channel_identifier: selfkeyfoundation
   twitter_screen_name: SelfKey
 liquidity_score: 16.851
-market_cap_rank: 403
+market_cap_rank: 411
 name: SelfKey
 public_interest_score: 27.11
 symbol: key
 tickers:
 - base: KEY
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: latoken
+    name: LATOKEN
   target: BTC
+- base: KEY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: KEY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
 - base: KEY
   market:
     identifier: tidex

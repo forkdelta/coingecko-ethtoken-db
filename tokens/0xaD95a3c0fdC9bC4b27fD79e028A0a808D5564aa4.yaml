@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: dynamitetoken
   twitter_screen_name: dynamitetoken
 liquidity_score: 1.0
-market_cap_rank: 1522
+market_cap_rank: 1638
 name: Dynamite
 public_interest_score: 28.112
 symbol: dyt
 tickers:
+- base: DYT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: DYT
   market:
     identifier: txbit
@@ -47,4 +52,9 @@ tickers:
   market:
     identifier: txbit
     name: Txbit
+  target: ETH
+- base: DYT
+  market:
+    identifier: vindax
+    name: Vindax
   target: ETH

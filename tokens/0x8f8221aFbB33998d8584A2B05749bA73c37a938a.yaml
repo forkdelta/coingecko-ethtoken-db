@@ -42,7 +42,7 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 18.642
-market_cap_rank: 259
+market_cap_rank: 263
 name: Request
 public_interest_score: 44.256
 symbol: req
@@ -61,17 +61,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: REQ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
-- base: REQ
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: REQ
   market:
     identifier: gate
@@ -84,6 +74,11 @@ tickers:
   target: KRW
 - base: REQ
   market:
+    identifier: huobi
+    name: Huobi Global
+  target: BTC
+- base: REQ
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -92,6 +87,11 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: REQ
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: REQ
   market:
     identifier: uniswap

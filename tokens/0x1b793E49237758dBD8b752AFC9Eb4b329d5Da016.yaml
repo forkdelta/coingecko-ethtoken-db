@@ -72,8 +72,23 @@ links:
     - https://github.com/vitelabs/go-vite
   telegram_channel_identifier: vite_en
 liquidity_score: 17.539
-market_cap_rank: 261
+market_cap_rank: 257
 name: Vite
 public_interest_score: 32.962
 symbol: vite
-tickers: []
+tickers:
+- base: VITE
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: VITE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: VITE
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB

@@ -26,11 +26,16 @@ links:
   subreddit_url: https://www.reddit.com/r/SubstratumNetwork
   twitter_screen_name: SubstratumNet
 liquidity_score: 10.519
-market_cap_rank: 451
+market_cap_rank: 421
 name: Substratum
 public_interest_score: 27.778
 symbol: sub
 tickers:
+- base: SUB
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
 - base: SUB
   market:
     identifier: coss
@@ -41,6 +46,16 @@ tickers:
     identifier: coss
     name: COSS
   target: USDT
+- base: SUB
+  market:
+    identifier: exx
+    name: EXX
+  target: USDT
+- base: SUB
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: SUB
   market:
     identifier: tidex
