@@ -1,6 +1,6 @@
 ---
 address: '0x9B1E1FC958B83e801d1342F9f9BA7dA3A55bA1eF'
-coingecko_rank: 3767
+coingecko_rank: 3757
 coingecko_score: 6.407
 community_score: 14.799
 description: >-
@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: tronipaycard
   twitter_screen_name: tronipay
 liquidity_score: 1.0
-market_cap_rank: 1996
+market_cap_rank: 2003
 name: Tronipay
 public_interest_score: 25.077
 symbol: trp
@@ -37,9 +37,24 @@ tickers:
   target: ETH
 - base: TRP
   market:
+    identifier: fubt
+    name: FUBT
+  target: BTC
+- base: TRP
+  market:
+    identifier: fubt
+    name: FUBT
+  target: ETH
+- base: TRP
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: TRP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: TRP
   market:
     identifier: latoken
@@ -60,3 +75,8 @@ tickers:
     identifier: probit
     name: Probit
   target: KRW
+- base: TRP
+  market:
+    identifier: sato_wallet_ex
+    name: SatowalletEx
+  target: USDT

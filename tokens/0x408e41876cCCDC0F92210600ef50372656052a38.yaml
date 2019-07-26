@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 42.329
-market_cap_rank: 63
+market_cap_rank: 65
 name: REN
 public_interest_score: 41.864
 symbol: ren
@@ -48,11 +48,16 @@ tickers:
   target: ETH
 - base: REN
   market:
-    identifier: tidex
-    name: Tidex
-  target: ETH
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: REN
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: REN
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH

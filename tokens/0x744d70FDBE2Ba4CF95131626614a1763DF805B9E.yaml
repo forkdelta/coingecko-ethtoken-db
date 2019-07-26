@@ -51,7 +51,7 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 51.047
-market_cap_rank: 80
+market_cap_rank: 78
 name: Status
 public_interest_score: 43.197
 symbol: SNT
@@ -73,23 +73,13 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: exx
+    name: EXX
   target: BTC
 - base: SNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: SNT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: SNT
-  market:
-    identifier: exx
-    name: EXX
+    identifier: gate
+    name: Gate.io
   target: BTC
 - base: SNT
   market:
@@ -103,9 +93,29 @@ tickers:
   target: KRW
 - base: SNT
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: SNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: SNT
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
+- base: SNT
+  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
 - base: SNT
   market:
     identifier: zb
