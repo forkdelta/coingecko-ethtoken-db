@@ -117,7 +117,7 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: ETH
+  target: BTC
 - base: DAI
   market:
     identifier: cobinhood
@@ -135,14 +135,9 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: coinchangex
-    name: Coinchangex
-  target: ETH
-- base: BTC
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: DAI
   market:
     identifier: crex24
@@ -158,26 +153,21 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: DAI
+- base: XBASE
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
-- base: ZRX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: eterbase
+    name: Eterbase
   target: DAI
 - base: DAI
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: everbloom
+    name: Everbloom
   target: ETH
+- base: DAI
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: DAI
   market:
     identifier: forkdelta
@@ -193,12 +183,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XMR
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
+- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -208,11 +198,16 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
-  target: USDC
+  target: DAI
+- base: POA20
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: XCHF
   market:
     identifier: idex
@@ -238,22 +233,12 @@ tickers:
     identifier: quoine
     name: Liquid
   target: DAI
-- base: BTC
-  market:
-    identifier: quoine
-    name: Liquid
-  target: DAI
 - base: MKR
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: ZRX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: TUSD
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -278,12 +263,17 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: LTC
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USD
+- base: BTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: DOGE
+- base: LTC
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -293,17 +283,17 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
+- base: BSV
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
+- base: DOGE
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
 - base: USDC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: USDT
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: LEO
   market:
     identifier: switcheo
     name: Switcheo
@@ -313,3 +303,13 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: LEO
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: DAI
+  market:
+    identifier: three_xbit
+    name: 3XBIT
+  target: USD

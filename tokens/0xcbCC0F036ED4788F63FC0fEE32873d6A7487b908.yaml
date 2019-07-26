@@ -36,6 +36,21 @@ symbol: hmq
 tickers:
 - base: HMQ
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: HMQ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: HMQ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: HMQ
+  market:
     identifier: hotbit
     name: Hotbit
   target: BTC
@@ -43,12 +58,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
-- base: HMQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
+  target: ETH
 - base: HMQ
   market:
     identifier: yobit

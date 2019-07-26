@@ -1,6 +1,6 @@
 ---
 address: '0x56eE8C9BD1d445a3324ad83E86D8be309Db8f85d'
-coingecko_rank: 2924
+coingecko_rank: 2921
 coingecko_score: 9.145
 community_score: 12.513
 description: >-
@@ -34,8 +34,18 @@ links:
   telegram_channel_identifier: solareumclub
   twitter_screen_name: solareumclub
 liquidity_score: 1.0
-market_cap_rank: 2114
+market_cap_rank: 2120
 name: Solareum
 public_interest_score: 28.169
 symbol: slrm
-tickers: []
+tickers:
+- base: SLRM
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: SLRM
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: LTC

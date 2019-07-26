@@ -34,6 +34,11 @@ symbol: wax
 tickers:
 - base: WAX
   market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: WAX
+  market:
     identifier: c2cx
     name: C2CX
   target: LONG
@@ -42,16 +47,6 @@ tickers:
     identifier: c2cx
     name: C2CX
   target: USDT
-- base: WAX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: WAX
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: WAX
   market:
     identifier: forkdelta

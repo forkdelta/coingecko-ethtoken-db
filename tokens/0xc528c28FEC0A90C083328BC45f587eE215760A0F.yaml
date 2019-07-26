@@ -46,12 +46,17 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
-  target: BTC
+  target: ETH
 - base: EDR
   market:
-    identifier: bitmart
-    name: BitMart
-  target: ETH
+    identifier: bittrex
+    name: Bittrex
+  target: USD
+- base: EDR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: EDR
   market:
     identifier: huobi_korea
@@ -72,8 +77,3 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: EDR
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: USDT
