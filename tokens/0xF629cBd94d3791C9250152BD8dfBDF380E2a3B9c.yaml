@@ -65,20 +65,30 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 42.767
-market_cap_rank: 77
+market_cap_rank: 78
 name: Enjin Coin
 public_interest_score: 36.194
 symbol: enj
 tickers:
 - base: ENJ
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ENJ
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: ENJ
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: BTC
+- base: ENJ
+  market:
+    identifier: coss
+    name: COSS
   target: BTC
 - base: ENJ
   market:
@@ -107,18 +117,13 @@ tickers:
   target: KRW
 - base: ENJ
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: ENJ
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: ENJ
-  market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: idex
+    name: Idex
   target: ETH
 - base: ENJ
   market:
@@ -127,9 +132,9 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: ENJ
   market:
     identifier: stocks_exchange

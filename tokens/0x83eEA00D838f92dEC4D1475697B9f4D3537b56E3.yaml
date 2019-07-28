@@ -62,7 +62,7 @@ links:
   telegram_channel_identifier: voiseANN
   twitter_screen_name: voisecom
 liquidity_score: 1.0
-market_cap_rank: 1203
+market_cap_rank: 1163
 name: VOISE
 public_interest_score: 26.047
 symbol: voise
@@ -74,6 +74,11 @@ tickers:
   target: ETH
 - base: VOISE
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: VOISE
+  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -82,3 +87,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: VOISE
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD

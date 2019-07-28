@@ -79,6 +79,16 @@ symbol: ant
 tickers:
 - base: ANT
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ANT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: ANT
+  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
@@ -97,3 +107,13 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: ANT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ANT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH

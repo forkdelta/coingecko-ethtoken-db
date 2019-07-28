@@ -28,11 +28,16 @@ links:
   subreddit_url: https://www.reddit.com/r/agrello
   twitter_screen_name: AgrelloOfficial
 liquidity_score: 22.272
-market_cap_rank: 424
+market_cap_rank: 433
 name: Agrello
 public_interest_score: 26.186
 symbol: dlt
 tickers:
+- base: DLT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: DLT
   market:
     identifier: yobit
@@ -42,19 +47,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: DLT
-  market:
-    identifier: yobit
-    name: YoBit
   target: ETH
-- base: DLT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: DLT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

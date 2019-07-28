@@ -72,16 +72,11 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 31.633
-market_cap_rank: 427
+market_cap_rank: 426
 name: Kin
 public_interest_score: 34.587
 symbol: kin
 tickers:
-- base: KIN
-  market:
-    identifier: abcc
-    name: ABCC
-  target: ETH
 - base: KIN
   market:
     identifier: bancor
@@ -106,7 +101,17 @@ tickers:
   market:
     identifier: bitforex
     name: Bitforex
-  target: USDT
+  target: ETH
+- base: KIN
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: KIN
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
 - base: KIN
   market:
     identifier: coss
@@ -174,6 +179,16 @@ tickers:
   target: ETH
 - base: KIN
   market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: KIN-GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR
+  market:
+    identifier: stellar_term
+    name: StellarTerm
+  target: XLM
+- base: KIN
+  market:
     identifier: uniswap
     name: Uniswap
   target: ETH
@@ -182,6 +197,16 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: KIN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: KIN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: KIN
   market:
     identifier: yobit

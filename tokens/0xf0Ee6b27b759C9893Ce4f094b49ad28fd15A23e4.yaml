@@ -54,11 +54,16 @@ links:
   telegram_channel_identifier: enigmacatalyst
   twitter_screen_name: enigmampc
 liquidity_score: 32.765
-market_cap_rank: 114
+market_cap_rank: 119
 name: Enigma
 public_interest_score: 31.409
 symbol: eng
 tickers:
+- base: ENG
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: ENG
   market:
     identifier: coineal
@@ -71,16 +76,6 @@ tickers:
   target: BTC
 - base: ENG
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: ENG
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: ENG
-  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -88,4 +83,9 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: ENG
+  market:
+    identifier: upbit
+    name: Upbit
   target: ETH

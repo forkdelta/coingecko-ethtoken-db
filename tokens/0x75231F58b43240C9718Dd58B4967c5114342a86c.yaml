@@ -49,12 +49,42 @@ name: OKB
 public_interest_score: 33.238
 symbol: okb
 tickers:
-- base: WAVES
+- base: OKB
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: BTC
+- base: OKB
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: ETH
+- base: OKB
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: USDT
+- base: LET
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: ZCO
   market:
     identifier: okex
     name: OKEx
   target: OKB
 - base: LBA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: WAVES
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: DCR
   market:
     identifier: okex
     name: OKEx

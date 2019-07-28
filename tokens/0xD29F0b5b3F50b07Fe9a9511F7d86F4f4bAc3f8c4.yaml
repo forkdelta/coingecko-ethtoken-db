@@ -31,11 +31,21 @@ links:
   telegram_channel_identifier: liquiditynetwork
   twitter_screen_name: liquiditynet
 liquidity_score: 23.383
-market_cap_rank: 1326
+market_cap_rank: 699
 name: Liquidity Network
 public_interest_score: 40.263
 symbol: lqd
 tickers:
+- base: LQD
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: LQD
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: LQD
   market:
     identifier: idex
@@ -45,9 +55,4 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: LQD
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH
