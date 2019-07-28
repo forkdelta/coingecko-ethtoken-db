@@ -24,11 +24,16 @@ links:
   subreddit_url: https://www.reddit.com/r/EthereumCash
   twitter_screen_name: EthereumCash_
 liquidity_score: 1.0
-market_cap_rank: 1340
+market_cap_rank: 1375
 name: Ethereum Cash
 public_interest_score: 39.743
 symbol: ecash
 tickers:
+- base: ECASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: ECASH
   market:
     identifier: yobit
@@ -43,14 +48,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: ECASH
-  market:
-    identifier: yobit
-    name: YoBit
   target: USD
-- base: ECASH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

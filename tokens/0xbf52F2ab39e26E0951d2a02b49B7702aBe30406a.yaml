@@ -70,6 +70,11 @@ name: ODEM
 public_interest_score: 37.432
 symbol: ode
 tickers:
+- base: ODE
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: ODEM
   market:
     identifier: yobit
@@ -85,8 +90,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: ODEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

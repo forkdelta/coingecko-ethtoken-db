@@ -70,19 +70,19 @@ symbol: gno
 tickers:
 - base: GNO
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: GNO
-  market:
     identifier: bittrex
     name: Bittrex
-  target: BTC
+  target: ETH
 - base: GNO
   market:
     identifier: bx_thailand
     name: BX Thailand
   target: THB
+- base: GNO
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: GNO
   market:
     identifier: forkdelta
@@ -92,22 +92,27 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: BTC
 - base: GNO
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: GNO
   market:
     identifier: upbit
     name: Upbit
-  target: BTC
+  target: ETH
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: GNO
   market:
     identifier: yobit
@@ -117,9 +122,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: GNO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+  target: USD

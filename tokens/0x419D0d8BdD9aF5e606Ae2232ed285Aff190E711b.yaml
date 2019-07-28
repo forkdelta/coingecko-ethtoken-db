@@ -57,16 +57,16 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 26.423
-market_cap_rank: 179
+market_cap_rank: 184
 name: FunFair
 public_interest_score: 30.346
 symbol: fun
 tickers:
 - base: FUN
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: FUN
   market:
     identifier: c2cx
@@ -79,6 +79,11 @@ tickers:
   target: USDT
 - base: FUN
   market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
+- base: FUN
+  market:
     identifier: exx
     name: EXX
   target: ETH
@@ -87,11 +92,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: FUN
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: FUN
   market:
     identifier: idex
@@ -104,26 +104,16 @@ tickers:
   target: BTC
 - base: FUN
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: FUN
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: FUN
-  market:
     identifier: okex
     name: OKEx
   target: BTC
 - base: FUN
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: FUN
   market:
     identifier: wazirx
     name: WazirX
-  target: BTC
+  target: USDT

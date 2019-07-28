@@ -41,18 +41,23 @@ links:
   subreddit_url: https://www.reddit.com/r/Bibox
   twitter_screen_name: Bibox365
 liquidity_score: 46.137
-market_cap_rank: 133
+market_cap_rank: 131
 name: Bibox Token
 public_interest_score: 28.411
 symbol: bix
 tickers:
-- base: FOR
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
 - base: IX
   market:
     identifier: bibox
     name: Bibox
   target: BIX
+- base: FOR
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: BIX
+  market:
+    identifier: oex
+    name: OEX
+  target: BTC

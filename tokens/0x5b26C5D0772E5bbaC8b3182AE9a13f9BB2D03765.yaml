@@ -26,13 +26,23 @@ links:
   telegram_channel_identifier: ledu_token
   twitter_screen_name: ledu_tokens
 liquidity_score: 1.405
-market_cap_rank: 728
+market_cap_rank: 772
 name: Education Ecosystem
 public_interest_score: 37.827
 symbol: ledu
 tickers:
 - base: LEDU
   market:
+    identifier: dcoin
+    name: Dcoin
+  target: BTC
+- base: LEDU
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: LEDU
+  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -43,11 +53,6 @@ tickers:
   target: ETH
 - base: LEDU
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LEDU
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -55,4 +60,19 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: LEDU
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: LEDU
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: LEDU
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH

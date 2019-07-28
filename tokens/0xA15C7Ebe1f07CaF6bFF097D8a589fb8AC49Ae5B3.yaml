@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 40.93
-market_cap_rank: 50
+market_cap_rank: 51
 name: Pundi X
 public_interest_score: 29.158
 symbol: npxs
@@ -81,14 +81,9 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: ETH
-- base: NPXS
-  market:
-    identifier: bitsten
-    name: Bitsten
-  target: IDR
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: NPXS
   market:
     identifier: coin_exchange
@@ -103,12 +98,22 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
+  target: USDT
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
+  target: COS
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
 - base: NPXS
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
 - base: NPXS
   market:
     identifier: ddex
@@ -131,8 +136,8 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: idex
-    name: Idex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: NPXS
   market:
@@ -143,12 +148,12 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
+  target: LA
 - base: NPXS
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: NPXS
   market:
     identifier: sistemkoin
@@ -174,3 +179,13 @@ tickers:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

@@ -87,13 +87,33 @@ symbol: gnt
 tickers:
 - base: GNT
   market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
+- base: GNT
+  market:
     identifier: bitbay
     name: BitBay
   target: BTC
 - base: GNT
   market:
-    identifier: braziliex
-    name: Braziliex
+    identifier: bitbay
+    name: BitBay
+  target: EUR
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: PLN
+- base: GNT
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: ETH
+- base: GNT
+  market:
+    identifier: bitso
+    name: Bitso
   target: BTC
 - base: GNT
   market:
@@ -102,14 +122,19 @@ tickers:
   target: INR
 - base: GNT
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: GNT
+  market:
     identifier: coinzest
     name: Coinzest
   target: KRW
 - base: GNT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
 - base: GNT
   market:
     identifier: exx
@@ -117,28 +142,13 @@ tickers:
   target: BTC
 - base: GNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: GNT
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
-- base: GNT
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
-- base: GNT
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
-- base: GNT
-  market:
-    identifier: iqfinex
-    name: IQFinex
+    identifier: poloniex
+    name: Poloniex
   target: ETH
 - base: GNT
   market:
@@ -162,11 +172,6 @@ tickers:
   target: USDT
 - base: GNT
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
-- base: GNT
-  market:
     identifier: wazirx
     name: WazirX
   target: BTC
@@ -175,6 +180,16 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: USDT
+- base: GNT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: GNT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
 - base: GNT
   market:
     identifier: zb
