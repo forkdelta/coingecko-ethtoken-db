@@ -58,9 +58,19 @@ symbol: SNT
 tickers:
 - base: SNT
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SNT
+  market:
     identifier: chainex
     name: ChainEX
   target: BTC
+- base: SNT
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
 - base: SNT
   market:
     identifier: coinzest
@@ -83,11 +93,6 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: financex
-    name: FinanceX
-  target: VND
-- base: SNT
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -103,6 +108,36 @@ tickers:
   target: KRW
 - base: SNT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: SNT
+  market:
     identifier: iqfinex
     name: IQFinex
   target: ETH
+- base: SNT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: SNT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
+- base: SNT
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC
+- base: SNT
+  market:
+    identifier: zg
+    name: ZG.com
+  target: BTC

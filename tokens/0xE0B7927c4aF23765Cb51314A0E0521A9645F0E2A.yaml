@@ -69,7 +69,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 36.37
-market_cap_rank: 113
+market_cap_rank: 114
 name: DigixDAO
 public_interest_score: 28.945
 symbol: dgd
@@ -79,6 +79,11 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: DGD
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: DGD
   market:
     identifier: bigone
@@ -91,6 +96,11 @@ tickers:
   target: ETH
 - base: DGD
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: DGD
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -98,4 +108,14 @@ tickers:
   market:
     identifier: okex
     name: OKEx
+  target: BTC
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
+- base: DGD
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

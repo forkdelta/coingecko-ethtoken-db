@@ -29,16 +29,26 @@ links:
   subreddit_url: https://www.reddit.com/r/STOX
   twitter_screen_name: stx_coin
 liquidity_score: 6.659
-market_cap_rank: 797
+market_cap_rank: 801
 name: Stox
 public_interest_score: 27.107
 symbol: stx
 tickers:
 - base: STX
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: STX
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: STX
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: STX
   market:
     identifier: idex

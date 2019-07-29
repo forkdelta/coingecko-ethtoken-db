@@ -28,7 +28,7 @@ links:
   - http://www.freecoin.technology
   twitter_screen_name: THE_FREE_COIN
 liquidity_score: 1.0
-market_cap_rank: 4650
+market_cap_rank: 5148
 name: FREE coin
 public_interest_score: 43.39
 symbol: free
@@ -37,7 +37,12 @@ tickers:
   market:
     identifier: altilly
     name: Altilly
-  target: DOGE
+  target: USDT
+- base: FREE
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: USDT
 - base: FREE
   market:
     identifier: eterbase
@@ -50,11 +55,6 @@ tickers:
   target: XBASE
 - base: FREE
   market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
-- base: FREE
-  market:
     identifier: latoken
     name: LATOKEN
   target: USDT
@@ -62,16 +62,6 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: ETH
-- base: FREE
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: TUSD
-- base: FREE
-  market:
-    identifier: satoexchange
-    name: SatoExchange
   target: ETH
 - base: FREE
   market:
