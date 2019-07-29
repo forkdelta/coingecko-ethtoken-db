@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 31.633
-market_cap_rank: 426
+market_cap_rank: 421
 name: Kin
 public_interest_score: 34.587
 symbol: kin
@@ -109,6 +109,11 @@ tickers:
   target: BTC
 - base: KIN
   market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: KIN
+  market:
     identifier: coinbit
     name: Coinbit
   target: KRW
@@ -119,19 +124,9 @@ tickers:
   target: BTC
 - base: KIN
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: KIN
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: KIN
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: KIN
   market:
     identifier: idax
@@ -189,11 +184,6 @@ tickers:
   target: XLM
 - base: KIN
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: KIN
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -212,6 +202,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: KIN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: KIN
   market:
     identifier: yobit

@@ -29,12 +29,17 @@ links:
   telegram_channel_identifier: BitMartExchange
   twitter_screen_name: BitMartExchange
 liquidity_score: 58.327
-market_cap_rank: 524
+market_cap_rank: 530
 name: BitMart Token
 public_interest_score: 27.098
 symbol: bmx
 tickers:
 - base: LEML
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: XLM
   market:
     identifier: bitmart
     name: BitMart
@@ -49,27 +54,12 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: NEO
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: OMG
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: HYDRO
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
 - base: WEB
   market:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: VET
+- base: DAN
   market:
     identifier: bitmart
     name: BitMart
@@ -84,7 +74,12 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: DAN
+- base: NEO
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: NAT
   market:
     identifier: bitmart
     name: BitMart
