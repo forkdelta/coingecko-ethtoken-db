@@ -27,7 +27,7 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 11.846
-market_cap_rank: 957
+market_cap_rank: 1002
 name: MainCoin
 public_interest_score: 27.93
 symbol: mnc
@@ -51,7 +51,17 @@ tickers:
   market:
     identifier: biki
     name: Biki
+  target: BTC
+- base: MNC
+  market:
+    identifier: biki
+    name: Biki
   target: ETH
+- base: MNC
+  market:
+    identifier: biki
+    name: Biki
+  target: USDT
 - base: MNC
   market:
     identifier: bitfex
@@ -64,11 +74,6 @@ tickers:
   target: RUR
 - base: MNC
   market:
-    identifier: bitfex
-    name: Bitfex
-  target: USD
-- base: MNC
-  market:
     identifier: bitker
     name: BITKER
   target: BTC
@@ -77,11 +82,6 @@ tickers:
     identifier: bitker
     name: BITKER
   target: ETH
-- base: MNC
-  market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: BTC
 - base: MNC
   market:
     identifier: btc_alpha
@@ -97,11 +97,6 @@ tickers:
     identifier: bw
     name: BW.com
   target: BTC
-- base: MNC
-  market:
-    identifier: bw
-    name: BW.com
-  target: BWB
 - base: MNC
   market:
     identifier: bw
@@ -181,14 +176,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: USDT
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
   target: USDT

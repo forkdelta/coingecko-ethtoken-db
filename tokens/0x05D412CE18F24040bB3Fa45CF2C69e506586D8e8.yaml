@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: mftudotnet
   twitter_screen_name: mftu_currency
 liquidity_score: 1.0
-market_cap_rank: 1722
+market_cap_rank: 1680
 name: Mainstream For The Underground
 public_interest_score: 25.307
 symbol: mftu
 tickers:
+- base: MFTU
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: MFTU
   market:
     identifier: fatbtc
@@ -47,16 +52,6 @@ tickers:
   target: ETH
 - base: MFTU
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: MFTU
-  market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: MFTU
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
+  target: BTC

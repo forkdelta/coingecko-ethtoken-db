@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: ZebiData
   twitter_screen_name: ZebidataIndia
 liquidity_score: 24.594
-market_cap_rank: 530
+market_cap_rank: 541
 name: Zebi
 public_interest_score: 28.728
 symbol: zco
@@ -64,6 +64,11 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: ETH
+- base: ZCO
+  market:
+    identifier: coineal
+    name: Coineal
+  target: BTC
 - base: ZCO
   market:
     identifier: cointiger
@@ -83,17 +88,7 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: BTC
-- base: ZCO
-  market:
-    identifier: okex
-    name: OKEx
   target: OKB
-- base: ZCO
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
 - base: ZCO
   market:
     identifier: quoine
@@ -104,8 +99,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
-- base: ZCO
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

@@ -27,16 +27,31 @@ links:
   subreddit_url: https://www.reddit.com/r/AirSwap
   twitter_screen_name: airswap
 liquidity_score: 29.804
-market_cap_rank: 327
+market_cap_rank: 338
 name: AirSwap
 public_interest_score: 28.265
 symbol: ast
 tickers:
 - base: AST
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: AST
+  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: AST
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: AST
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: AST
   market:
     identifier: idex
@@ -57,3 +72,8 @@ tickers:
     identifier: uniswap
     name: Uniswap
   target: ETH
+- base: AST
+  market:
+    identifier: velic
+    name: Velic
+  target: VELT

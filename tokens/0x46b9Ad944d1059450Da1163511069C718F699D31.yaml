@@ -27,25 +27,30 @@ links:
   - https://credits.com
   repos_url:
     github:
-    - https://github.com/NetworkModule/NetworkModule
+    - https://github.com/CREDITSCOM/node
   subreddit_url: https://www.reddit.com/r/CreditsOfficial/
   telegram_channel_identifier: creditscom
   twitter_screen_name: creditscom
 liquidity_score: 31.274
-market_cap_rank: 297
+market_cap_rank: 312
 name: CREDITS
 public_interest_score: 42.887
 symbol: cs
 tickers:
+- base: CSX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: CSX
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: CS
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: CS
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: CS
   market:
@@ -62,3 +67,8 @@ tickers:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: CS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

@@ -47,7 +47,7 @@ links:
   telegram_channel_identifier: xinfintalk
   twitter_screen_name: xinfinf
 liquidity_score: 30.301
-market_cap_rank: 2981
+market_cap_rank: 4296
 name: XinFin
 public_interest_score: 26.807
 symbol: xdce
@@ -57,6 +57,11 @@ tickers:
     identifier: abcc
     name: ABCC
   target: ETH
+- base: XDCE
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: XDCE
   market:
     identifier: coin_exchange
@@ -71,17 +76,22 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: ETH
-- base: XDCE
-  market:
-    identifier: coss
-    name: COSS
   target: TUSD
 - base: XDCE
   market:
     identifier: coss
     name: COSS
+  target: USD
+- base: XDCE
+  market:
+    identifier: coss
+    name: COSS
   target: USDT
+- base: XDCE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: XDCE
   market:
     identifier: latoken
@@ -92,6 +102,16 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: USDT
+- base: XDCE
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: XDCE
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: USDC
 - base: XDCE
   market:
     identifier: topbtc

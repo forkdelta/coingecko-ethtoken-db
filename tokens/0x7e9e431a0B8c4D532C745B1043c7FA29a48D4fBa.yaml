@@ -52,7 +52,7 @@ links:
   subreddit_url: https://www.reddit.com/r/EOSDAC/
   twitter_screen_name: eosdac
 liquidity_score: 19.95
-market_cap_rank: 398
+market_cap_rank: 374
 name: eosDAC
 public_interest_score: 27.36
 symbol: eosdac
@@ -69,9 +69,19 @@ tickers:
   target: ETH
 - base: EOSDAC
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: EOSDAC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BITCNY
+- base: EOSDAC
+  market:
     identifier: otcbtc
     name: OTCBTC
-  target: EOS
+  target: ETH
 - base: EOSDAC
   market:
     identifier: probit

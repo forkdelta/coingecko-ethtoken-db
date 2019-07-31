@@ -31,15 +31,20 @@ links:
   telegram_channel_identifier: hurifyico
   twitter_screen_name: Hurify_hur
 liquidity_score: 1.0
-market_cap_rank: 1508
+market_cap_rank: 1149
 name: Hurify
 public_interest_score: 25.369
 symbol: hur
 tickers:
 - base: HUR
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: coinmex
+    name: CoinMex
+  target: ETH
+- base: HUR
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH
 - base: HUR
   market:
@@ -66,3 +71,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: HUR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -72,18 +72,13 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 31.633
-market_cap_rank: 421
+market_cap_rank: 411
 name: Kin
 public_interest_score: 34.587
 symbol: kin
 tickers:
 - base: KIN
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: KIN
-  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
@@ -91,16 +86,6 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
-  target: ETH
-- base: KIN
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: USDT
-- base: KIN
-  market:
-    identifier: bitforex
-    name: Bitforex
   target: ETH
 - base: KIN
   market:
@@ -112,11 +97,6 @@ tickers:
     identifier: coinall
     name: CoinAll
   target: ETH
-- base: KIN
-  market:
-    identifier: coinbit
-    name: Coinbit
-  target: KRW
 - base: KIN
   market:
     identifier: coss
@@ -124,9 +104,19 @@ tickers:
   target: BTC
 - base: KIN
   market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: KIN
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: KIN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: KIN
   market:
     identifier: idax
@@ -146,22 +136,12 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
-  target: BTC
-- base: 568637D4-2B03-4F66-972E-B947A40F2771
-  market:
-    identifier: lykke
-    name: Lykke
   target: ETH
-- base: 568637D4-2B03-4F66-972E-B947A40F2771
-  market:
-    identifier: lykke
-    name: Lykke
-  target: USD
 - base: KIN
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
+  target: LTC
 - base: KIN
   market:
     identifier: p2pb2b
@@ -174,14 +154,9 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USD
-- base: KIN-GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR
-  market:
-    identifier: stellar_term
-    name: StellarTerm
-  target: XLM
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: KIN
   market:
     identifier: yobit
@@ -192,11 +167,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: KIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: KIN
   market:
     identifier: yobit

@@ -31,16 +31,26 @@ links:
   telegram_channel_identifier: WePowerNetwork
   twitter_screen_name: WePowerN
 liquidity_score: 18.625
-market_cap_rank: 461
+market_cap_rank: 462
 name: WePower
 public_interest_score: 30.465
 symbol: wpr
 tickers:
 - base: WPR
   market:
-    identifier: idex
-    name: Idex
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: WPR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: WPR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: WPR
   market:
     identifier: sistemkoin
