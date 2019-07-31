@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: swissborg
   twitter_screen_name: swissborg
 liquidity_score: 7.895
-market_cap_rank: 3932
+market_cap_rank: 4716
 name: SwissBorg
 public_interest_score: 25.855
 symbol: chsb
 tickers:
+- base: CHSB
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: CHSB
   market:
     identifier: livecoin
@@ -40,19 +45,9 @@ tickers:
   target: ETH
 - base: CHSB
   market:
-    identifier: thetokenstore
-    name: Token.Store
-  target: ETH
-- base: CHSB
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: CHSB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: CHSB
   market:
     identifier: yobit

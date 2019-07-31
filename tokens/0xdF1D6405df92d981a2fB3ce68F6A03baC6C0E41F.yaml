@@ -57,11 +57,16 @@ links:
   telegram_channel_identifier: verasitychat
   twitter_screen_name: verasitytech
 liquidity_score: 29.174
-market_cap_rank: 582
+market_cap_rank: 563
 name: Verasity
 public_interest_score: 37.588
 symbol: vra
 tickers:
+- base: VRA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: VRA
   market:
     identifier: coinall
@@ -77,6 +82,11 @@ tickers:
     identifier: coinsuper
     name: Coinsuper
   target: BTC
+- base: VRA
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH
 - base: VRA
   market:
     identifier: probit

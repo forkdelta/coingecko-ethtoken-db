@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: B2BX_ICO_eng
   twitter_screen_name: b2broker_net
 liquidity_score: 10.613
-market_cap_rank: 265
+market_cap_rank: 259
 name: B2BX
 public_interest_score: 35.467
 symbol: b2b
@@ -38,27 +38,12 @@ tickers:
     identifier: b2bx
     name: B2BX
   target: B2BX
-- base: XRP
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
 - base: LTC
   market:
     identifier: b2bx
     name: B2BX
   target: B2BX
-- base: XLM
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
-- base: ADA
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
-- base: EOS
+- base: XRP
   market:
     identifier: b2bx
     name: B2BX
@@ -73,7 +58,22 @@ tickers:
     identifier: b2bx
     name: B2BX
   target: B2BX
+- base: XLM
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
+- base: ADA
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
 - base: BCH
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
+- base: EOS
   market:
     identifier: b2bx
     name: B2BX
@@ -110,16 +110,6 @@ tickers:
   target: ETH
 - base: B2B
   market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: B2B
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: B2B
-  market:
     identifier: yobit
     name: YoBit
   target: ETH
@@ -133,3 +123,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: B2B
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

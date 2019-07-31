@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: crowdwiz
   twitter_screen_name: Crowdwiz
 liquidity_score: 1.0
-market_cap_rank: 1336
+market_cap_rank: 1324
 name: CrowdWiz
 public_interest_score: 25.282
 symbol: wiz
 tickers:
+- base: WIZ
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
 - base: WIZ
   market:
     identifier: btc_alpha
@@ -56,3 +61,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: WIZ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

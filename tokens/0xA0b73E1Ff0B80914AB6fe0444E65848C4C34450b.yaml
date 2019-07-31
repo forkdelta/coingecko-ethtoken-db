@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 41.65
-market_cap_rank: 27
+market_cap_rank: 26
 name: Crypto.com Chain
 public_interest_score: 37.377
 symbol: cro
@@ -42,6 +42,11 @@ tickers:
   market:
     identifier: abcc
     name: ABCC
+  target: BTC
+- base: CRO
+  market:
+    identifier: bibox
+    name: Bibox
   target: BTC
 - base: CRO
   market:
@@ -55,14 +60,9 @@ tickers:
   target: WETH
 - base: CRO
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: BTC
-- base: CRO
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
 - base: CRO
   market:
     identifier: livecoin

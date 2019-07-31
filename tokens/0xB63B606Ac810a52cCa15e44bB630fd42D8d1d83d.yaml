@@ -75,19 +75,9 @@ symbol: mco
 tickers:
 - base: MCO
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: MCO
-  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
-- base: MCO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: MCO
   market:
     identifier: exx
@@ -100,13 +90,18 @@ tickers:
   target: ETH
 - base: MCO
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: MCO
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: MCO
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: MCO
   market:
@@ -123,11 +118,6 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
-- base: MCO
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
 - base: MCO
   market:
     identifier: zb

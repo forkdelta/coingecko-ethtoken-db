@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: mytoken_en
   twitter_screen_name: mytokenio
 liquidity_score: 27.927
-market_cap_rank: 446
+market_cap_rank: 439
 name: MyToken
 public_interest_score: 29.563
 symbol: mt
@@ -52,9 +52,14 @@ tickers:
   target: ETH
 - base: MT
   market:
-    identifier: cpdax
-    name: CPDAX
-  target: KRW
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
+- base: MT
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
 - base: MT
   market:
     identifier: quoine

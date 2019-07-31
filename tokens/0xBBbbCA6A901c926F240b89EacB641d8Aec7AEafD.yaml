@@ -84,16 +84,26 @@ links:
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
 liquidity_score: 40.174
-market_cap_rank: 109
+market_cap_rank: 103
 name: Loopring
 public_interest_score: 27.844
 symbol: lrc
 tickers:
 - base: LRC
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: LRC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: LRC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: LRC
   market:
     identifier: forkdelta
@@ -101,19 +111,9 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: LRC
-  market:
     identifier: idax
     name: Idax
   target: BTC
-- base: LRC
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: LRC
   market:
     identifier: livecoin
@@ -124,21 +124,6 @@ tickers:
     identifier: otcbtc
     name: OTCBTC
   target: ETH
-- base: LRC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: LRC
   market:
     identifier: yobit

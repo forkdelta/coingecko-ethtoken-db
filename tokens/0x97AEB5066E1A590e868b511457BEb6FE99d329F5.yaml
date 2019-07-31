@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: atonomi_io
   twitter_screen_name: Atonomi
 liquidity_score: 1.0
-market_cap_rank: 3054
+market_cap_rank: 2317
 name: Atonomi
 public_interest_score: 25.269
 symbol: atmi
@@ -37,9 +37,24 @@ tickers:
   market:
     identifier: bitforex
     name: Bitforex
-  target: USDT
+  target: ETH
 - base: ATMI
   market:
-    identifier: idex
-    name: Idex
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
+- base: ATM
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: ATM
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: ATM
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
