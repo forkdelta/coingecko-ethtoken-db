@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 92
-coingecko_score: 48.84
-community_score: 32.046
+coingecko_rank: 84
+coingecko_score: 49.836
+community_score: 32.569
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -59,7 +59,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/loopring-lrc/">CoinBureau</a> for the full review
   of Loopring.
-developer_score: 66.232
+developer_score: 65.584
 id: loopring
 image:
   large: https://assets.coingecko.com/coins/images/913/large/Loopring.png?1558592632
@@ -83,17 +83,27 @@ links:
   subreddit_url: https://www.reddit.com/r/loopring
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
-liquidity_score: 40.174
-market_cap_rank: 103
+liquidity_score: 44.875
+market_cap_rank: 108
 name: Loopring
-public_interest_score: 27.844
+public_interest_score: 27.382
 symbol: lrc
 tickers:
 - base: LRC
   market:
-    identifier: coinbit
-    name: Coinbit
-  target: KRW
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: LRC
+  market:
+    identifier: dragonex
+    name: DragonEx
+  target: USDT
+- base: LRC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: LRC
   market:
     identifier: ethfinex
@@ -104,11 +114,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: LRC
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: LRC
   market:
     identifier: idax
@@ -124,6 +129,11 @@ tickers:
     identifier: otcbtc
     name: OTCBTC
   target: ETH
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: LRC
   market:
     identifier: yobit
