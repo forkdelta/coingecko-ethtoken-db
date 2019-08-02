@@ -1,8 +1,8 @@
 ---
 address: '0x960b236A07cf122663c4303350609A66A7B288C0'
-coingecko_rank: 101
-coingecko_score: 47.218
-community_score: 36.083
+coingecko_rank: 125
+coingecko_score: 44.734
+community_score: 36.364
 description: >-
   Aragon is a decentralized app (dApp) on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain that allows anyone to create and manage a decentralized organization. The Aragon project
@@ -52,7 +52,7 @@ description: >-
   has come to represent a powerful share of the governance on the platform. ANT holders can vote on proposals,
   participate in arbitration and the decentralized court system, and help contribute to the non-profit
   Aragon Foundation or to research and development through the Aragon Nest program.
-developer_score: 71.631
+developer_score: 68.917
 id: aragon
 image:
   large: https://assets.coingecko.com/coins/images/681/large/aragon-logo.png?1547034433
@@ -71,12 +71,17 @@ links:
     - https://github.com/aragon/aragon-core
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
-liquidity_score: 19.212
-market_cap_rank: 139
+liquidity_score: 9.604
+market_cap_rank: 131
 name: Aragon
-public_interest_score: 33.345
+public_interest_score: 32.993
 symbol: ant
 tickers:
+- base: ANT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ANT
   market:
     identifier: ethfinex
@@ -94,11 +99,16 @@ tickers:
   target: USD
 - base: ANT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: ANT
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: ANT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: ANT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

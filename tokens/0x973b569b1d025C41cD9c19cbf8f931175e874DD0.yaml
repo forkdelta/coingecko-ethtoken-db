@@ -1,8 +1,8 @@
 ---
 address: '0x973b569b1d025C41cD9c19cbf8f931175e874DD0'
-coingecko_rank: 3294
-coingecko_score: 7.745
-community_score: 15.496
+coingecko_rank: 3347
+coingecko_score: 7.859
+community_score: 15.943
 description: >-
   For every $BOOM transferred between users, 2% will be burnt automatically. This creates scarcity.
 
@@ -34,8 +34,18 @@ links:
   telegram_channel_identifier: theboomtoken
   twitter_screen_name: theboomtoken
 liquidity_score: 1.0
-market_cap_rank: 2745
+market_cap_rank: 2765
 name: BOOM
-public_interest_score: 36.713
+public_interest_score: 36.735
 symbol: boom
-tickers: []
+tickers:
+- base: BOOM1
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: BOOM
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH

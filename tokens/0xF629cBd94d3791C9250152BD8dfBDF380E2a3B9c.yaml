@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 72
-coingecko_score: 51.692
-community_score: 53.497
+coingecko_rank: 77
+coingecko_score: 50.755
+community_score: 52.006
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -43,7 +43,7 @@ description: >-
   list. Enjin Coin is an ambitious project that aims to integrate online virtual gaming with decentralized
   technologies. Enjin Coin project promises a lot, and it is only with the passage of time that we will
   able to see if it can deliver on those promises.
-developer_score: 48.571
+developer_score: 47.722
 id: enjincoin
 image:
   large: https://assets.coingecko.com/coins/images/1102/large/enjin-coin-logo.png?1547035078
@@ -64,10 +64,10 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 42.767
-market_cap_rank: 73
+liquidity_score: 41.021
+market_cap_rank: 79
 name: Enjin Coin
-public_interest_score: 36.194
+public_interest_score: 36.31
 symbol: enj
 tickers:
 - base: ENJ
@@ -82,6 +82,11 @@ tickers:
   target: WETH
 - base: ENJ
   market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: ENJ
+  market:
     identifier: coss
     name: COSS
   target: BTC
@@ -89,7 +94,17 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: USD
+  target: ETH
+- base: ENJ
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
+- base: ENJ
+  market:
+    identifier: crytrex
+    name: CryTrEx
+  target: BTC
 - base: ENJ
   market:
     identifier: ethfinex
@@ -107,19 +122,14 @@ tickers:
   target: KRW
 - base: ENJ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: ENJ
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: ENJ
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: ENJ
   market:
     identifier: radar_relay
@@ -134,4 +144,14 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
+  target: ETH
+- base: ENJ
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: ENJ
+  market:
+    identifier: tokenize
+    name: Tokenize
   target: ETH

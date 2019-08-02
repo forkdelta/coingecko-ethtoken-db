@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 49
-coingecko_score: 55.462
-community_score: 44.142
+coingecko_rank: 51
+coingecko_score: 54.981
+community_score: 44.577
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 80.192
+developer_score: 78.922
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -57,12 +57,17 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 41.501
-market_cap_rank: 143
+liquidity_score: 41.01
+market_cap_rank: 145
 name: Storj
-public_interest_score: 28.805
+public_interest_score: 27.562
 symbol: storj
 tickers:
+- base: STORJ
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
 - base: STJ
   market:
     identifier: ethfinex
@@ -80,11 +85,6 @@ tickers:
   target: USD
 - base: STORJ
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: STORJ
-  market:
     identifier: gate
     name: Gate.io
   target: BTC
@@ -93,16 +93,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: STORJ
   market:
     identifier: idex
@@ -110,9 +100,19 @@ tickers:
   target: ETH
 - base: STORJ
   market:
+    identifier: poloniex
+    name: Poloniex
+  target: BTC
+- base: STORJ
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: STORJ
   market:
     identifier: yobit

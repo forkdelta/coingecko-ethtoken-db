@@ -1,8 +1,8 @@
 ---
 address: '0xa74476443119A942dE498590Fe1f2454d7D4aC0d'
 coingecko_rank: 31
-coingecko_score: 59.948
-community_score: 51.912
+coingecko_score: 59.659
+community_score: 52.078
 description: >-
   Golem is a decentralized supercomputer that is accessible by anyone. The system is made up of the combined
   power of user’s machines from personal PCs to entire datacenters. Golem is able to compute almost any
@@ -53,7 +53,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/golem-gnt/">CoinBureau</a> for the full review
   of Golem.
-developer_score: 83.136
+developer_score: 81.569
 id: golem
 image:
   large: https://assets.coingecko.com/coins/images/542/large/golem_token.png?1548838076
@@ -79,12 +79,22 @@ links:
     - https://github.com/golemfactory/golem-unlimited
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
-liquidity_score: 45.918
-market_cap_rank: 85
+liquidity_score: 46.19
+market_cap_rank: 86
 name: Golem
-public_interest_score: 31.492
+public_interest_score: 31.349
 symbol: gnt
 tickers:
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: PLN
+- base: GNT
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
 - base: GNT
   market:
     identifier: coinzest
@@ -92,8 +102,8 @@ tickers:
   target: KRW
 - base: GNT
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
 - base: GNT
   market:
@@ -102,44 +112,34 @@ tickers:
   target: ETH
 - base: GNT
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: GNT
+  market:
     identifier: exx
     name: EXX
   target: BTC
 - base: GNT
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: GNT
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: tokenize
+    name: Tokenize
   target: BTC
 - base: GNT
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: tokenize
+    name: Tokenize
   target: ETH
 - base: GNT
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: GNT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
-- base: GNT
-  market:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: GNT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
 - base: GNT
   market:
     identifier: zb
