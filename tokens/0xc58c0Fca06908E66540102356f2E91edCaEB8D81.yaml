@@ -1,8 +1,8 @@
 ---
 address: '0xc58c0Fca06908E66540102356f2E91edCaEB8D81'
-coingecko_rank: 2727
-coingecko_score: 10.332
-community_score: 24.461
+coingecko_rank: 2740
+coingecko_score: 10.331
+community_score: 24.46
 description: >-
   NUKE is a unique experimental ERC20 token, designed with a hyper deflationary life model. The core concept
   revolves around the in-built burning function of NUKE tokens upon any transaction that transfers NUKE
@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: Nuketoken
   twitter_screen_name: NukeToken
 liquidity_score: 1.0
-market_cap_rank: 2154
+market_cap_rank: 2087
 name: Half Life
 public_interest_score: 40.163
 symbol: nuke
 tickers:
+- base: NUKE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: NUKE
   market:
     identifier: mercatox
@@ -49,4 +54,9 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
+  target: ETH
+- base: NUKE
+  market:
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH

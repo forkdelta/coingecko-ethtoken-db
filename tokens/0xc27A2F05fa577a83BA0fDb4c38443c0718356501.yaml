@@ -1,8 +1,8 @@
 ---
 address: '0xc27A2F05fa577a83BA0fDb4c38443c0718356501'
 coingecko_rank: 263
-coingecko_score: 37.258
-community_score: 37.002
+coingecko_score: 37.445
+community_score: 37.499
 description: >-
   Lamden is a suite of developer tools aimed at increasing mass adoption of blockchain technology with
   an agnostic cryptocurrency that ties all projects made with the tools together.
@@ -29,8 +29,18 @@ links:
   telegram_channel_identifier: lamdentau
   twitter_screen_name: LamdenTau
 liquidity_score: 1.0
-market_cap_rank: 636
+market_cap_rank: 629
 name: Lamden
 public_interest_score: 25.118
 symbol: tau
-tickers: []
+tickers:
+- base: TAU
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: TAU
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x1985365e9f78359a9B6AD760e32412f4a445E862'
 coingecko_rank: 52
-coingecko_score: 54.742
-community_score: 48.622
+coingecko_score: 54.804
+community_score: 48.738
 description: >-
   Augur is a trustless, decentralized platform for prediction markets. Augur is an <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
   decentralized prediction market that leverages the wisdom of the crowds to create a search engine for
@@ -33,7 +33,7 @@ description: >-
   Ethereum network and the two largest cryptocurrency exchanges, <a href="https://www.coingecko.com/en/exchanges/poloniex">Poloniex</a>
   and <a href="https://www.coingecko.com/en/exchanges/kraken">Kraken</a>, added support for these tokens
   on their trading platforms. The project was delayed until it was launched in July 2018.
-developer_score: 62.719
+developer_score: 62.718
 id: augur
 image:
   large: https://assets.coingecko.com/coins/images/309/large/Webp.net-resizeimage_%288%29.png?1547034073
@@ -56,8 +56,8 @@ links:
     - https://github.com/AugurProject/augur.js
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
-liquidity_score: 45.466
-market_cap_rank: 59
+liquidity_score: 45.976
+market_cap_rank: 57
 name: Augur
 public_interest_score: 34.145
 symbol: rep
@@ -81,17 +81,17 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: PLN
-- base: REP
-  market:
-    identifier: bitbay
-    name: BitBay
   target: USD
 - base: REP
   market:
     identifier: buyucoin
     name: BuyUcoin
   target: INR
+- base: REP
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: REP
   market:
     identifier: coin_exchange
@@ -131,12 +131,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: REP
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: REP
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: REP
   market:
     identifier: gopax
@@ -144,34 +149,14 @@ tickers:
   target: KRW
 - base: REP
   market:
-    identifier: idex
-    name: Idex
+    identifier: latoken
+    name: LATOKEN
   target: ETH
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
 - base: REP
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: REP
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: USDT
 - base: REP
   market:
     identifier: radar_relay

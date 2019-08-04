@@ -1,8 +1,8 @@
 ---
 address: '0x2C4e8f2D746113d0696cE89B35F0d8bF88E0AEcA'
 coingecko_rank: 123
-coingecko_score: 44.941
-community_score: 35.623
+coingecko_score: 44.872
+community_score: 35.983
 description: >-
   Setting up a blockchain infrastructure is an expensive and complicated ordeal, and many may certainly
   be on the lookout for a solution that handles this for them. Simple Token is that solution.Simple Token
@@ -56,12 +56,17 @@ links:
   subreddit_url: https://www.reddit.com/r/OSTdotcom/
   telegram_channel_identifier: ostdotcom
   twitter_screen_name: OSTdotcom
-liquidity_score: 23.96
-market_cap_rank: 292
+liquidity_score: 23.5
+market_cap_rank: 308
 name: OST
 public_interest_score: 42.676
 symbol: ost
 tickers:
+- base: OST
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: OST
   market:
     identifier: gate
@@ -72,3 +77,13 @@ tickers:
     identifier: gate
     name: Gate.io
   target: USDT
+- base: OST
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: OST
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

@@ -1,8 +1,8 @@
 ---
 address: '0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8'
-coingecko_rank: 650
-coingecko_score: 27.936
-community_score: 33.15
+coingecko_rank: 660
+coingecko_score: 27.888
+community_score: 33.731
 description: >-
   BMX is an ERC20 based token issued by BitMart Exchange with total volume of 1,000,000,000. First issued
   as BMC in December 2017, BitMart changed the name of the token in January 2018 as BMX. You may find
@@ -28,13 +28,23 @@ links:
   subreddit_url: https://www.reddit.com/r/BitMartExchange/
   telegram_channel_identifier: BitMartExchange
   twitter_screen_name: BitMartExchange
-liquidity_score: 27.466
-market_cap_rank: 547
+liquidity_score: 26.512
+market_cap_rank: 541
 name: BitMart Token
-public_interest_score: 26.672
+public_interest_score: 26.673
 symbol: bmx
 tickers:
-- base: LPK
+- base: LEML
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: XLM
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: HYDRO
   market:
     identifier: bitmart
     name: BitMart
@@ -49,17 +59,12 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: XLM
+- base: OMG
   market:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: WEB
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
-- base: HYDRO
+- base: LPK
   market:
     identifier: bitmart
     name: BitMart
@@ -69,7 +74,12 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: DAN
+- base: WEB
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
+- base: VET
   market:
     identifier: bitmart
     name: BitMart
@@ -79,7 +89,7 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BMX
-- base: NAT
+- base: DAN
   market:
     identifier: bitmart
     name: BitMart
