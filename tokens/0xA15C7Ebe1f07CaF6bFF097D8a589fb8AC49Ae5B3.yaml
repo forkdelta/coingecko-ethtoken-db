@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 289
-coingecko_score: 36.374
-community_score: 44.239
+coingecko_rank: 286
+coingecko_score: 36.514
+community_score: 45.094
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -63,12 +63,17 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 39.667
+liquidity_score: 39.504
 market_cap_rank: 51
 name: Pundi X
 public_interest_score: 29.409
 symbol: npxs
 tickers:
+- base: NPXS
+  market:
+    identifier: beaxy
+    name: Beaxy
+  target: BTC
 - base: NPXS
   market:
     identifier: bit_z
@@ -108,7 +113,7 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
-  target: USDT
+  target: ETH
 - base: NPXS
   market:
     identifier: coinplace
@@ -118,7 +123,17 @@ tickers:
   market:
     identifier: coss
     name: COSS
+  target: COS
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
+- base: NPXS
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
 - base: NPXS
   market:
     identifier: ddex
@@ -126,24 +141,49 @@ tickers:
   target: WETH
 - base: NPXS
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
+- base: NPXS
+  market:
     identifier: exnce
     name: EXNCE
   target: BTB
 - base: NPXS
   market:
-    identifier: exnce
-    name: EXNCE
-  target: XLM
+    identifier: graviex
+    name: Graviex
+  target: BTC
 - base: NPXS
   market:
-    identifier: idex
-    name: Idex
+    identifier: graviex
+    name: Graviex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: LA
+- base: NPXS
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: NPXS
   market:
     identifier: thetokenstore
@@ -154,13 +194,3 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: NPXS
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH
-- base: NPXS
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: INR

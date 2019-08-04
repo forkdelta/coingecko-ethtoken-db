@@ -1,8 +1,8 @@
 ---
 address: '0x8f8221aFbB33998d8584A2B05749bA73c37a938a'
-coingecko_rank: 147
-coingecko_score: 42.929
-community_score: 47.268
+coingecko_rank: 140
+coingecko_score: 43.334
+community_score: 47.952
 description: >-
   A decentralized network built on top of Ethereum, which allows anyone, anywhere to request a payment.
   The request can be detected and paid in a secure way, without the need to involve a third party. The
@@ -22,7 +22,7 @@ description: >-
 
   You can check out <a href="https://www.coinbureau.com/review/request-network-req/">CoinBureau</a> for
   the complete review of Request Network.
-developer_score: 42.433
+developer_score: 42.432
 id: request-network
 image:
   large: https://assets.coingecko.com/coins/images/1031/large/Request_icon.png?1550832088
@@ -41,8 +41,8 @@ links:
     - https://github.com/RequestNetwork/Request_SmartContracts
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
-liquidity_score: 18.057
-market_cap_rank: 260
+liquidity_score: 19.131
+market_cap_rank: 257
 name: Request
 public_interest_score: 44.279
 symbol: req
@@ -66,6 +66,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: REQ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: REQ
   market:
@@ -77,11 +82,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: REQ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: REQ
   market:
     identifier: gopax
@@ -97,6 +97,16 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: REQ
+  market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH
+- base: REQ
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: REQ
   market:
     identifier: yobit

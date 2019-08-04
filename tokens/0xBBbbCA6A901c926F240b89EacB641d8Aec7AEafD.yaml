@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 84
-coingecko_score: 49.836
-community_score: 32.569
+coingecko_rank: 78
+coingecko_score: 51.014
+community_score: 32.581
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -59,7 +59,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/loopring-lrc/">CoinBureau</a> for the full review
   of Loopring.
-developer_score: 65.584
+developer_score: 70.996
 id: loopring
 image:
   large: https://assets.coingecko.com/coins/images/913/large/Loopring.png?1558592632
@@ -83,8 +83,8 @@ links:
   subreddit_url: https://www.reddit.com/r/loopring
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
-liquidity_score: 44.875
-market_cap_rank: 108
+liquidity_score: 44.363
+market_cap_rank: 107
 name: Loopring
 public_interest_score: 27.382
 symbol: lrc
@@ -121,6 +121,11 @@ tickers:
   target: BTC
 - base: LRC
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: LRC
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -131,11 +136,16 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: LRC
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: LRC
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: BTC

@@ -1,6 +1,6 @@
 ---
 address: '0x6745fAB6801e376cD24F03572B9C9B0D4EdDDCcf'
-coingecko_rank: 2493
+coingecko_rank: 2504
 coingecko_score: 11.648
 community_score: 16.263
 description: >-
@@ -34,8 +34,18 @@ links:
   telegram_channel_identifier: sensetoken
   twitter_screen_name: SenseToken
 liquidity_score: 1.0
-market_cap_rank: 2471
+market_cap_rank: 2916
 name: Sense
 public_interest_score: 40.429
 symbol: sense
-tickers: []
+tickers:
+- base: SENSE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SENSE
+  market:
+    identifier: newdex
+    name: Newdex
+  target: EOS

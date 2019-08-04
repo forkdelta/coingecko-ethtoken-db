@@ -1,8 +1,8 @@
 ---
 address: '0xE34e1944E776f39B9252790a0527eBDa647aE668'
-coingecko_rank: 1441
-coingecko_score: 19.552
-community_score: 18.468
+coingecko_rank: 1454
+coingecko_score: 19.488
+community_score: 18.46
 description: >-
   "“HBZ | A Mobility Ecosystem set to reshape how we get from A to B.
 
@@ -32,8 +32,8 @@ links:
   - https://www.hbzcoin.com
   subreddit_url: https://www.reddit.com/r/helbiz/
   twitter_screen_name: HbZcoin
-liquidity_score: 12.25
-market_cap_rank: 1013
+liquidity_score: 12.054
+market_cap_rank: 1012
 name: HBZ
 public_interest_score: 25.076
 symbol: hbz
@@ -42,7 +42,17 @@ tickers:
   market:
     identifier: exmo
     name: EXMO
+  target: BTC
+- base: HBZ
+  market:
+    identifier: exmo
+    name: EXMO
   target: ETH
+- base: HBZ
+  market:
+    identifier: exmo
+    name: EXMO
+  target: USD
 - base: HBZ
   market:
     identifier: hitbtc
@@ -50,16 +60,11 @@ tickers:
   target: BTC
 - base: HBZ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: HBZ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: HBZ
-  market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: HBZ
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: BTC
