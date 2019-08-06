@@ -1,15 +1,15 @@
 ---
 address: '0x24692791Bc444c5Cd0b81e3CBCaba4b04Acd1F3B'
-coingecko_rank: 412
-coingecko_score: 32.992
-community_score: 36.916
+coingecko_rank: 444
+coingecko_score: 32.143
+community_score: 36.63
 description: >-
   UnikoinGold is an ERC20 Ethereum-based token that will serve as an entry to a new version of the existing
   Unikrn spectator betting system, and it will also become the exclusive token used on our new skill-based
   betting platform. It will power both wagering and non-wagering experiences throughout the Unikrn platform,
   thus creating a first viable esports eco-system that will reward the players, content-creators and spectators
   alike.
-developer_score: 18.313
+developer_score: 18.312
 id: unikoin-gold
 image:
   large: https://assets.coingecko.com/coins/images/1120/large/unikoin-gold.png?1548759441
@@ -28,12 +28,22 @@ links:
     - https://github.com/unikoingold/UnikoinGold-UKG-Contract
   subreddit_url: https://www.reddit.com/r/unikoingold
   twitter_screen_name: unikoingold
-liquidity_score: 23.887
-market_cap_rank: 398
+liquidity_score: 20.619
+market_cap_rank: 397
 name: Unikoin Gold
 public_interest_score: 25.014
 symbol: ukg
 tickers:
+- base: UKG
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: UKG
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
 - base: UKG
   market:
     identifier: yobit
@@ -44,8 +54,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: UKG
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR

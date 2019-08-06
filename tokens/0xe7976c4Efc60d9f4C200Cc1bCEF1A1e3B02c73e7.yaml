@@ -1,8 +1,8 @@
 ---
 address: '0xe7976c4Efc60d9f4C200Cc1bCEF1A1e3B02c73e7'
-coingecko_rank: 3492
-coingecko_score: 7.481
-community_score: 7.132
+coingecko_rank: 3414
+coingecko_score: 7.617
+community_score: 7.334
 description: >-
   MAX Token is the utility token issued by MaiCoin Asset Exchange (MAX). MAX Exchange is focused on supporting
   its trading community and providing the most secure trading platform. MAX Tokens will be rewarded through
@@ -22,18 +22,33 @@ links:
   homepage:
   - https://max.maicoin.com/max-token
   telegram_channel_identifier: MAXexchangeglobal
-liquidity_score: 7.614
-market_cap_rank: 3269
+liquidity_score: 8.041
+market_cap_rank: 3297
 name: MAX Token
 public_interest_score: 41.753
 symbol: max
 tickers:
-- base: EOS
+- base: MAX
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: BTC
+- base: MAX
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: ETH
+- base: XRP
   market:
     identifier: max_maicoin
     name: Max Maicoin
   target: MAX
-- base: XRP
+- base: LTC
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: MAX
+- base: MITH
   market:
     identifier: max_maicoin
     name: Max Maicoin

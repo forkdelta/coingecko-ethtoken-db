@@ -1,8 +1,8 @@
 ---
 address: '0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d'
-coingecko_rank: 496
-coingecko_score: 31.043
-community_score: 17.955
+coingecko_rank: 498
+coingecko_score: 30.799
+community_score: 17.584
 description: >-
   Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition
   to cryptocurrency. The MCO Token Sale was conducted in May-June 2017 and raised US$26.7 million.
@@ -67,8 +67,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Crypto_com/
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
-liquidity_score: 43.339
-market_cap_rank: 82
+liquidity_score: 42.913
+market_cap_rank: 85
 name: Crypto.com
 public_interest_score: 40.033
 symbol: mco
@@ -90,6 +90,16 @@ tickers:
   target: BTC
 - base: MCO
   market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: MCO
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: MCO
+  market:
     identifier: exx
     name: EXX
   target: ETH
@@ -105,19 +115,24 @@ tickers:
   target: KRW
 - base: MCO
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: MCO
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
 - base: MCO
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
+    identifier: quoine
+    name: Liquid
+  target: BTC
 - base: MCO
   market:
     identifier: quoine
     name: Liquid
-  target: BTC
+  target: ETH
 - base: MCO
   market:
     identifier: zb

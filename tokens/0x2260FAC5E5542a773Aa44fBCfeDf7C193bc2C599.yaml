@@ -1,7 +1,7 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 3767
-coingecko_score: 6.741
+coingecko_rank: 3704
+coingecko_score: 6.884
 community_score: 0.0
 description: >-
   Wrapped Bitcoin Tokens (WBTC) is an ERC20 token fully backed by real BTC. The proof of reserves is on-chain,
@@ -25,19 +25,14 @@ links:
     github:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
-liquidity_score: 14.984
-market_cap_rank: 3818
+liquidity_score: 15.702
+market_cap_rank: 3366
 name: Wrapped Bitcoin
 public_interest_score: 37.44
 symbol: wbtc
 tickers:
 - base: WBTC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: WBTC
-  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: DAI
@@ -48,6 +43,21 @@ tickers:
   target: WETH
 - base: WBTC
   market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
+- base: WBTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: WBTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: WBTC
+  market:
     identifier: idex
     name: Idex
   target: DAI
@@ -56,8 +66,18 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: WBTC
+  market:
+    identifier: idex
+    name: Idex
+  target: USDC
 - base: WBTC
   market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: NEO
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: WBTC
