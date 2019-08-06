@@ -1,8 +1,8 @@
 ---
 address: '0x42d6622deCe394b54999Fbd73D108123806f6a18'
-coingecko_rank: 664
-coingecko_score: 27.774
-community_score: 33.482
+coingecko_rank: 677
+coingecko_score: 27.396
+community_score: 32.985
 description: >-
   A ​cryptoeconomic ​powered ​adult ​entertainment ​ecosystem built ​on ​the ​Ethereum ​network.
 developer_score: 14.812
@@ -26,22 +26,32 @@ links:
     - https://github.com/spankchain/token-vault
   subreddit_url: https://www.reddit.com/r/SpankChain
   twitter_screen_name: spankchain
-liquidity_score: 6.064
-market_cap_rank: 473
+liquidity_score: 4.856
+market_cap_rank: 410
 name: SpankChain
 public_interest_score: 27.57
 symbol: spank
 tickers:
+- base: SPANK
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SPANK
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: SPANK
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: SPK
   market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
-- base: SPK
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: SPK
   market:
     identifier: ethfinex
@@ -54,6 +64,6 @@ tickers:
   target: ETH
 - base: SPANK
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
