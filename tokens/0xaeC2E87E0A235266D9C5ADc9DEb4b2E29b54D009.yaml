@@ -1,8 +1,8 @@
 ---
 address: '0xaeC2E87E0A235266D9C5ADc9DEb4b2E29b54D009'
-coingecko_rank: 259
-coingecko_score: 37.52
-community_score: 36.338
+coingecko_rank: 245
+coingecko_score: 37.746
+community_score: 36.069
 description: >-
   Based on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> network and the ConsenSys
   venture production studio, SingularDTV relies on a tokenized ecosystem using a local cryptocurrency
@@ -59,12 +59,17 @@ links:
     - https://github.com/ConsenSys/singulardtv-contracts
   subreddit_url: https://www.reddit.com/r/SingularDTV
   twitter_screen_name: SingularDTV
-liquidity_score: 17.705
-market_cap_rank: 418
+liquidity_score: 19.153
+market_cap_rank: 425
 name: SingularDTV
 public_interest_score: 25.773
 symbol: sngls
 tickers:
+- base: SNGLS
+  market:
+    identifier: braziliex
+    name: Braziliex
+  target: BTC
 - base: SNG
   market:
     identifier: ethfinex
@@ -75,13 +80,8 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: SNG
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: SNGLS
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC

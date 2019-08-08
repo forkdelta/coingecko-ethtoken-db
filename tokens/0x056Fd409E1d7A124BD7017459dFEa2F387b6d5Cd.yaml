@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 502
-coingecko_score: 30.733
-community_score: 4.508
+coingecko_rank: 513
+coingecko_score: 30.63
+community_score: 4.756
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -55,7 +55,7 @@ description: >-
   Starting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini
   dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD
   back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon.
-developer_score: 20.042
+developer_score: 20.041
 id: gemini-dollar
 image:
   large: https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278
@@ -73,8 +73,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 43.125
-market_cap_rank: 338
+liquidity_score: 42.357
+market_cap_rank: 340
 name: Gemini Dollar
 public_interest_score: 38.735
 symbol: gusd
@@ -91,16 +91,6 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: bitrabbit
-    name: BitRabbit
-  target: USDT
-- base: GUSD
-  market:
-    identifier: bw
-    name: BW.com
-  target: BTC
-- base: GUSD
-  market:
     identifier: cex
     name: CEX.IO
   target: EUR
@@ -111,11 +101,6 @@ tickers:
   target: USD
 - base: GUSD
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
-- base: GUSD
-  market:
     identifier: coinbene
     name: CoinBene
   target: USDT
@@ -124,6 +109,11 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: GUSD
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDT
 - base: ETH
   market:
     identifier: hitbtc
@@ -136,19 +126,34 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: GUSD
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: GUSD
+  market:
+    identifier: okcoin
+    name: OKCoin
+  target: USD
+- base: GUSD
+  market:
     identifier: okex
     name: OKEx
   target: BTC
-- base: BTC
-  market:
-    identifier: quoine
-    name: Liquid
-  target: GUSD
 - base: GUSD
   market:
     identifier: therocktrading
     name: TheRockTrading
   target: EUR
+- base: BTC
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: GUSD
 - base: GUSD
   market:
     identifier: trade_satoshi

@@ -1,8 +1,8 @@
 ---
 address: '0xf0Ee6b27b759C9893Ce4f094b49ad28fd15A23e4'
-coingecko_rank: 456
-coingecko_score: 31.875
-community_score: 39.942
+coingecko_rank: 467
+coingecko_score: 31.521
+community_score: 40.324
 description: >-
   Enigma is a crypto platform that’s trying to solve the problem of privacy on the blockchain by giving
   them access to much-needed storage, privacy, and scalability. Enigma wants to extend Ethereum Smart
@@ -53,8 +53,8 @@ links:
   subreddit_url: https://www.reddit.com/r/EnigmaProject/
   telegram_channel_identifier: enigmacatalyst
   twitter_screen_name: enigmampc
-liquidity_score: 27.249
-market_cap_rank: 115
+liquidity_score: 25.043
+market_cap_rank: 114
 name: Enigma
 public_interest_score: 31.059
 symbol: eng
@@ -66,18 +66,23 @@ tickers:
   target: BTC
 - base: ENG
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ENG
+  market:
     identifier: atomars
     name: Atomars
   target: USDT
 - base: ENG
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: ENG
   market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
 - base: ENG
   market:
@@ -106,11 +111,11 @@ tickers:
   target: ETH
 - base: ENG
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: ENG
-  market:
     identifier: livecoin
     name: Livecoin
+  target: BTC
+- base: ENG
+  market:
+    identifier: upbit
+    name: Upbit
   target: ETH

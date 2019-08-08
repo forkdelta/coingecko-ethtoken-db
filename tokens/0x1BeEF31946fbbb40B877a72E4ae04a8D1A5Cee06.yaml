@@ -1,8 +1,8 @@
 ---
 address: '0x1BeEF31946fbbb40B877a72E4ae04a8D1A5Cee06'
-coingecko_rank: 1259
-coingecko_score: 21.022
-community_score: 26.598
+coingecko_rank: 1260
+coingecko_score: 21.056
+community_score: 26.818
 description: >-
   Parachute was started as a community of people who loved cryptocurrency. Today, we're building the way
   friends and businesses use crypto in their daily lives.
@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: parachutetokengroup
   twitter_screen_name: parachutetoken
 liquidity_score: 1.0
-market_cap_rank: 952
+market_cap_rank: 979
 name: Parachute
 public_interest_score: 41.017
 symbol: par
-tickers: []
+tickers:
+- base: PAR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: PAR
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
