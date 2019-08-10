@@ -63,16 +63,11 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 9.807
-market_cap_rank: 175
+market_cap_rank: 172
 name: Gnosis
 public_interest_score: 37.005
 symbol: gno
 tickers:
-- base: GNO
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
 - base: GNO
   market:
     identifier: bittrex
@@ -100,19 +95,34 @@ tickers:
   target: ETH
 - base: GNO
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: GNO
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: GNO
+  market:
+    identifier: kraken
+    name: Kraken
+  target: USD
+- base: GNO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: GNO
   market:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: GNO
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
 - base: GNO
   market:
     identifier: upbit

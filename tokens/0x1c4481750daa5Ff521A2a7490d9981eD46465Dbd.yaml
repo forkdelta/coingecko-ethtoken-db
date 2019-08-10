@@ -25,7 +25,7 @@ links:
   subreddit_url: https://www.reddit.com/r/blockmason
   twitter_screen_name: blockmasonio
 liquidity_score: 19.172
-market_cap_rank: 462
+market_cap_rank: 477
 name: BlockMason Credit Protocol
 public_interest_score: 35.565
 symbol: bcpt
@@ -35,6 +35,31 @@ tickers:
     identifier: binance
     name: Binance
   target: PAX
+- base: BCPT
+  market:
+    identifier: binance
+    name: Binance
+  target: USDC
+- base: BCPT-95A
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: BCPT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: BCPT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: BCPT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: BCPT
   market:
     identifier: hitbtc

@@ -29,11 +29,16 @@ links:
   subreddit_url: https://www.reddit.com/r/STOX
   twitter_screen_name: stx_coin
 liquidity_score: 1.0
-market_cap_rank: 834
+market_cap_rank: 822
 name: Stox
 public_interest_score: 26.637
 symbol: stx
 tickers:
+- base: STX
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: STX
   market:
     identifier: gate
@@ -41,9 +46,24 @@ tickers:
   target: ETH
 - base: STX
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: STX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: STX
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: STX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: STX
   market:
     identifier: uniswap

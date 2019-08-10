@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
 liquidity_score: 31.115
-market_cap_rank: 135
+market_cap_rank: 134
 name: Power Ledger
 public_interest_score: 25.145
 symbol: powr
@@ -73,14 +73,24 @@ tickers:
   target: USDT
 - base: POWR
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: POWR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: POWR
+  market:
+    identifier: btcmarkets
+    name: BTCMarkets
+  target: BTC
+- base: POWR
+  market:
     identifier: coinzest
     name: Coinzest
   target: KRW
-- base: POWR
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: BTC
 - base: POWR
   market:
     identifier: fcoin
@@ -93,11 +103,6 @@ tickers:
   target: USDT
 - base: POWR
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: POWR
-  market:
     identifier: gate
     name: Gate.io
   target: BTC
@@ -105,6 +110,11 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
+  target: USDT
+- base: POWR
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: POWR
   market:
@@ -113,26 +123,36 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: POWR
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
 - base: POWR
   market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: localtrade
+    name: LocalTrade
   target: BTC
 - base: POWR
   market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: localtrade
+    name: LocalTrade
   target: ETH
+- base: POWR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: POWR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USDT
 - base: POWR
   market:
     identifier: uniswap
     name: Uniswap
+  target: ETH
+- base: POWR
+  market:
+    identifier: upbit
+    name: Upbit
   target: ETH

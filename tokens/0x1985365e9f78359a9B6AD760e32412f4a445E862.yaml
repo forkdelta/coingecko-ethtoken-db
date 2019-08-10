@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
 liquidity_score: 48.054
-market_cap_rank: 56
+market_cap_rank: 55
 name: Augur
 public_interest_score: 34.145
 symbol: rep
@@ -67,6 +67,11 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: REP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: REP
   market:
     identifier: bitbay
@@ -79,16 +84,6 @@ tickers:
   target: PLN
 - base: REP
   market:
-    identifier: bitbay
-    name: BitBay
-  target: USD
-- base: REP
-  market:
-    identifier: buyucoin
-    name: BuyUcoin
-  target: INR
-- base: REP
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -99,14 +94,19 @@ tickers:
   target: ETH
 - base: REP
   market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
+- base: REP
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: REP
+  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: REP
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: REP
   market:
     identifier: ddex
@@ -116,7 +116,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: REP
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: REP
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: REP
   market:
     identifier: fcoin
@@ -137,11 +147,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: REP
-  market:
-    identifier: ovex
-    name: Ovex
-  target: BTC
 - base: REP
   market:
     identifier: radar_relay

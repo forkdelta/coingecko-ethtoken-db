@@ -70,11 +70,11 @@ name: Mithril
 public_interest_score: 33.367
 symbol: mith
 tickers:
-- base: MITH-C76
+- base: MITH
   market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: MITH
   market:
     identifier: coinzest
@@ -85,16 +85,6 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: BTC
-- base: MITH
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: ETH
-- base: MITH
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
 - base: MIT
   market:
     identifier: ethfinex
@@ -122,6 +112,11 @@ tickers:
   target: KRW
 - base: MITH
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: MITH
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -134,9 +129,19 @@ tickers:
   market:
     identifier: max_maicoin
     name: Max Maicoin
+  target: ETH
+- base: MITH
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
   target: MAX
 - base: MITH
   market:
-    identifier: tradeio
-    name: Trade.io
-  target: BTC
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: TWD
+- base: MITH
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
+  target: USDT

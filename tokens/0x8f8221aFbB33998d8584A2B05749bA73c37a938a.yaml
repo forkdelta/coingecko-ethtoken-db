@@ -42,26 +42,16 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 25.025
-market_cap_rank: 260
+market_cap_rank: 277
 name: Request
 public_interest_score: 44.279
 symbol: req
 tickers:
 - base: REQ
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: REQ
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
-- base: REQ
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
 - base: REQ
   market:
     identifier: ethfinex
@@ -92,16 +82,16 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: REQ
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 297A7368-9428-4AAC-98A5-A28A217E7A99
   market:
     identifier: lykke
     name: Lykke
   target: BTC
-- base: REQ
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: REQ
   market:
     identifier: thetokenstore
@@ -111,6 +101,11 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
+  target: BTC
+- base: REQ
+  market:
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: REQ
   market:

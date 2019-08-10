@@ -24,7 +24,9 @@ links:
   announcement_url:
   - https://medium.com/@yottachain
   blockchain_site:
+  - http://yottascan.io/
   - https://etherscan.io/token/0x5edc1a266e8b2c5e8086d373725df0690af7e3ea
+  - https://ethplorer.io/address/0x5edc1a266e8b2c5e8086d373725df0690af7e3ea
   homepage:
   - https://www.yottachain.io/
   repos_url:
@@ -32,11 +34,16 @@ links:
     - https://github.com/yottachain/YTSDK
   telegram_channel_identifier: YottaChain01
 liquidity_score: 40.125
-market_cap_rank: 2546
+market_cap_rank: 2555
 name: YottaChain
 public_interest_score: 0.0
 symbol: yta
 tickers:
+- base: YTA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: YTA
   market:
     identifier: coin_exchange
@@ -46,4 +53,14 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: USDT
+- base: YTA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: USDT-ERC20
+- base: YTA
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT

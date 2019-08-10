@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: auctusproject
   twitter_screen_name: AuctusProject
 liquidity_score: 1.0
-market_cap_rank: 1247
+market_cap_rank: 1271
 name: Auctus
 public_interest_score: 24.727
 symbol: auc
@@ -64,11 +64,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
-- base: AUC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: AUC
   market:
     identifier: ethfinex
@@ -88,4 +83,9 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: AUC
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

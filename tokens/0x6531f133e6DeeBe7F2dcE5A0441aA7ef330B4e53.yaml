@@ -32,21 +32,26 @@ links:
   subreddit_url: https://www.reddit.com/r/ChronoBank
   twitter_screen_name: ChronobankNews
 liquidity_score: 11.563
-market_cap_rank: 714
+market_cap_rank: 734
 name: Chronobank
 public_interest_score: 25.459
 symbol: time
 tickers:
 - base: TIME
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: TIME
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: TIME
+  market:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: TIME
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: TIME
   market:
     identifier: yobit

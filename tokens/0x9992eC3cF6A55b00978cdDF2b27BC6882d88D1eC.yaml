@@ -73,11 +73,6 @@ tickers:
   target: USDT
 - base: POLY
   market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
-- base: POLY
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -90,12 +85,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
-- base: POLY
-  market:
-    identifier: forkdelta
-    name: ForkDelta
   target: ETH
+- base: POY
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: POLY
   market:
     identifier: idex
@@ -108,13 +103,18 @@ tickers:
   target: KRW
 - base: POLY
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: POLY
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
 - base: POLY
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: poloniex
+    name: Poloniex
   target: BTC
 - base: POLY
   market:

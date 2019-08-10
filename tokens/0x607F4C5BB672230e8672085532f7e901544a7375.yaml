@@ -65,7 +65,7 @@ links:
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
 liquidity_score: 25.543
-market_cap_rank: 168
+market_cap_rank: 177
 name: iExec RLC
 public_interest_score: 25.748
 symbol: rlc
@@ -79,22 +79,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: RLC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: RLC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
-- base: RLC
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: RLC
   market:
     identifier: gate
@@ -107,11 +92,16 @@ tickers:
   target: USDT
 - base: RLC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: RLC
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: RLC
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: livecoin
+    name: Livecoin
+  target: USD

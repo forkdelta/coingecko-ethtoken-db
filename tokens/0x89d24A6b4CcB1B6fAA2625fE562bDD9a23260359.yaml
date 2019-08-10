@@ -98,11 +98,6 @@ name: Dai
 public_interest_score: 33.792
 symbol: dai
 tickers:
-- base: WBTC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: DAI
 - base: MKR
   market:
     identifier: bamboo_relay
@@ -110,24 +105,34 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: codex
-    name: CODEX
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: USDC
+- base: DAI
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: DAI
+  market:
+    identifier: cobinhood
+    name: Cobinhood
   target: USDT
 - base: DAI
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: codex
+    name: CODEX
+  target: USDT
 - base: BTC
   market:
     identifier: coinall
     name: CoinAll
   target: DAI
-- base: DAI
+- base: BTC
   market:
-    identifier: coinall
-    name: CoinAll
-  target: USDT
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: DAI
   market:
     identifier: crex24
@@ -153,36 +158,16 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: BOMB
   market:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: ZRX
-  market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
-- base: XBASE
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: DAI
-- base: USDT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: DAI
-- base: OMG
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
-- base: DAI
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: MRCL
   market:
     identifier: exnce
@@ -193,27 +178,12 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
-- base: XMR
+- base: DAI
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: MKR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: POA
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
@@ -223,21 +193,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: EURS
+- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: WBTC
+- base: MKR
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: DAI
-- base: DAI
+- base: POA
   market:
-    identifier: idex
-    name: Idex
-  target: USDC
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: BTC
   market:
     identifier: okex
@@ -258,7 +228,12 @@ tickers:
     identifier: quoine
     name: Liquid
   target: DAI
-- base: MKR
+- base: USDC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ZRX
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -268,11 +243,11 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: ETH
-- base: DAI
+- base: LTC
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USD
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
 - base: BTC
   market:
     identifier: south_xchange
@@ -283,42 +258,22 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
+- base: DASH
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
 - base: BCH
   market:
     identifier: south_xchange
     name: SouthXchange
-  target: DAI
-- base: IOTA
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
-- base: MANNA
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
-- base: ETH
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: USDT
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: DAI
 - base: WBTC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: USDC
+- base: LEO
   market:
     identifier: switcheo
     name: Switcheo

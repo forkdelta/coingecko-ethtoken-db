@@ -34,16 +34,11 @@ links:
   telegram_channel_identifier: lendingblock
   twitter_screen_name: lendingblock
 liquidity_score: 11.278
-market_cap_rank: 394
+market_cap_rank: 396
 name: Lendingblock
 public_interest_score: 24.751
 symbol: lnd
 tickers:
-- base: LND
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: LND
   market:
     identifier: hitbtc
@@ -53,4 +48,14 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: LND
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: LND
+  market:
+    identifier: quoine
+    name: Liquid
   target: ETH

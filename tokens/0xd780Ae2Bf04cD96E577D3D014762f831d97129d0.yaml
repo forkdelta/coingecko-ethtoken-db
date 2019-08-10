@@ -32,16 +32,21 @@ links:
   telegram_channel_identifier: envion
   twitter_screen_name: Envion_org
 liquidity_score: 1.0
-market_cap_rank: 2563
+market_cap_rank: 4286
 name: Envion
 public_interest_score: 25.546
 symbol: evn
 tickers:
 - base: EVN
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: EVN
+  market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: ETH
 - base: EVN
   market:
     identifier: yobit
@@ -52,8 +57,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: EVN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
