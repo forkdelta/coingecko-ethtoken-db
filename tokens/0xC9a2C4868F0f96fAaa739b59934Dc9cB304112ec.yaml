@@ -1,8 +1,8 @@
 ---
 address: '0xC9a2C4868F0f96fAaa739b59934Dc9cB304112ec'
-coingecko_rank: 1670
-coingecko_score: 17.491
-community_score: 13.498
+coingecko_rank: 1660
+coingecko_score: 17.586
+community_score: 13.842
 description: >-
   Binance GBP Stable Coin (BGBP) is a token issued by Binance with the price pegged to the GBP at a rate
   of 1 BGBP = 1 GBP. BGBP is 100% backed by the same amount of GBP held by Binance in a bank account at
@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: Binance_Jersey
   twitter_screen_name: binanceje
 liquidity_score: 1.0
-market_cap_rank: 819
+market_cap_rank: 817
 name: Binance GBP Stable Coin
 public_interest_score: 34.514
 symbol: bgbp
-tickers: []
+tickers:
+- base: BGBP
+  market:
+    identifier: binance
+    name: Binance
+  target: USDC
+- base: BGBP
+  market:
+    identifier: binance_jersey
+    name: Binance Jersey
+  target: GBP

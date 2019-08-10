@@ -1,8 +1,8 @@
 ---
 address: '0x9a0242b7a33DAcbe40eDb927834F96eB39f8fBCB'
-coingecko_rank: 937
-coingecko_score: 24.11
-community_score: 37.322
+coingecko_rank: 882
+coingecko_score: 24.708
+community_score: 37.901
 description: >-
   BABB is the World Bank for the microeconomy; a decentralised banking platform that leverages blockchain,
   AI, and biometrics technologies to offer anyone in the world access to a UK bank account for peer-to-peer
@@ -27,9 +27,19 @@ links:
   subreddit_url: https://www.reddit.com/r/getBABB/
   telegram_channel_identifier: babb_official
   twitter_screen_name: getbabb
-liquidity_score: 2.724
-market_cap_rank: 479
+liquidity_score: 4.695
+market_cap_rank: 602
 name: BABB
 public_interest_score: 26.237
 symbol: bax
-tickers: []
+tickers:
+- base: BAX
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: BAX
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

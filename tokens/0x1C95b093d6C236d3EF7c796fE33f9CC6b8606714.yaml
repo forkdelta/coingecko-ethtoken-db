@@ -1,8 +1,8 @@
 ---
 address: '0x1C95b093d6C236d3EF7c796fE33f9CC6b8606714'
-coingecko_rank: 634
-coingecko_score: 28.146
-community_score: 30.605
+coingecko_rank: 625
+coingecko_score: 28.237
+community_score: 31.056
 description: >-
   The world's first self-destructing currency.
 
@@ -39,8 +39,8 @@ links:
   subreddit_url: https://www.reddit.com/r/bombtoken
   telegram_channel_identifier: bombtoken
   twitter_screen_name: bombtoken
-liquidity_score: 24.812
-market_cap_rank: 432
+liquidity_score: 24.558
+market_cap_rank: 485
 name: BOMB
 public_interest_score: 38.261
 symbol: bomb
@@ -52,6 +52,11 @@ tickers:
   target: WETH
 - base: BOMB
   market:
+    identifier: bitsten
+    name: Bitsten
+  target: BTC
+- base: BOMB
+  market:
     identifier: ddex
     name: DDEX
   target: DAI
@@ -60,8 +65,3 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: BOMB
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH

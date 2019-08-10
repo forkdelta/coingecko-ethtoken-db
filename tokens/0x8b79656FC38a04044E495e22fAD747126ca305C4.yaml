@@ -1,8 +1,8 @@
 ---
 address: '0x8b79656FC38a04044E495e22fAD747126ca305C4'
-coingecko_rank: 2903
-coingecko_score: 9.498
-community_score: 13.883
+coingecko_rank: 2896
+coingecko_score: 9.591
+community_score: 14.102
 description: >-
   The AgaveCoin token (AGVC) is a 100% security token to participate and support the multimillionaire
   business of Agave Industry.  Agave is a succulent genus within the monocot family Agavaceae. The plants
@@ -15,7 +15,7 @@ description: >-
   AgaveCoin SAPI, it´s a Mexican industrial company that aims to become a worldwide reference producer
   of Agave and Agave based Products. More than being just a Agave provider,  AgaveCoin will revolutionize
   the Agave market by introducing his own Agave crypto currency.
-developer_score: 12.262
+developer_score: 12.415
 id: agavecoin
 image:
   large: https://assets.coingecko.com/coins/images/7056/large/G4TML4cb_400x400.jpg?1547043511
@@ -40,11 +40,16 @@ links:
   telegram_channel_identifier: AGAVECOIN1
   twitter_screen_name: agave_coin
 liquidity_score: 1.0
-market_cap_rank: 3804
+market_cap_rank: 3849
 name: AgaveCoin
 public_interest_score: 27.615
 symbol: agvc
 tickers:
+- base: AGVC
+  market:
+    identifier: coinlim
+    name: Coinlim
+  target: ETH
 - base: AGVC
   market:
     identifier: dcoin
@@ -54,12 +59,32 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: ETH
+- base: AGVC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: AGVC
+  market:
+    identifier: south_xchange
+    name: SouthXchange
   target: BTC
 - base: AGVC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DASH
+- base: AGVC
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: LTC
+- base: AGVC
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: TUSD
 - base: AGVC
   market:
     identifier: south_xchange

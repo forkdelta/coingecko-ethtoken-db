@@ -1,8 +1,8 @@
 ---
 address: '0x3d02381563B5a37930b4CFF1A369e2d29F19EFBf'
-coingecko_rank: 2820
-coingecko_score: 9.889
-community_score: 25.668
+coingecko_rank: 2834
+coingecko_score: 9.841
+community_score: 25.475
 description: >-
   SHRINK is a store of value built on the Ethereum blockchain with deflationary characteristics. Whenever
   SHRINK is transferred, 1% of the amount is burned.
@@ -24,8 +24,13 @@ links:
   telegram_channel_identifier: ShrinkAnnouncement
   twitter_screen_name: ShrinkToken
 liquidity_score: 1.0
-market_cap_rank: 3886
+market_cap_rank: 3930
 name: SHRINK
 public_interest_score: 32.72
 symbol: shrink
-tickers: []
+tickers:
+- base: SHRINK
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

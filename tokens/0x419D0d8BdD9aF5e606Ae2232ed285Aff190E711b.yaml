@@ -1,8 +1,8 @@
 ---
 address: '0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b'
-coingecko_rank: 526
-coingecko_score: 30.4
-community_score: 43.487
+coingecko_rank: 532
+coingecko_score: 30.279
+community_score: 43.941
 description: >-
   FunFair is an <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based platform for
   online casino gaming. Targeting the $47B online gambling market, FunFair isn’t actually a casino. Instead,
@@ -56,8 +56,8 @@ links:
   - https://funfair.io/
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
-liquidity_score: 18.635
-market_cap_rank: 192
+liquidity_score: 17.748
+market_cap_rank: 209
 name: FunFair
 public_interest_score: 30.275
 symbol: fun
@@ -84,6 +84,11 @@ tickers:
   target: ETH
 - base: FUN
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: FUN
+  market:
     identifier: c2cx
     name: C2CX
   target: BTC
@@ -99,14 +104,19 @@ tickers:
   target: USDT
 - base: FUN
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
 - base: FUN
   market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
+- base: FUN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: FUN
   market:
     identifier: ethfinex
@@ -119,14 +129,14 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: FUN
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: FUN
   market:
     identifier: wazirx

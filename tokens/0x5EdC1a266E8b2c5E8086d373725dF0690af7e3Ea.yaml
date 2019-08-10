@@ -1,7 +1,7 @@
 ---
 address: '0x5EdC1a266E8b2c5E8086d373725dF0690af7e3Ea'
-coingecko_rank: 3304
-coingecko_score: 8.048
+coingecko_rank: 3302
+coingecko_score: 8.025
 community_score: 0.0
 description: >-
   YottaChain is a blockchain storage public chain built by Wang Donglin, one of China's top ten young
@@ -24,16 +24,43 @@ links:
   announcement_url:
   - https://medium.com/@yottachain
   blockchain_site:
+  - http://yottascan.io/
   - https://etherscan.io/token/0x5edc1a266e8b2c5e8086d373725df0690af7e3ea
+  - https://ethplorer.io/address/0x5edc1a266e8b2c5e8086d373725df0690af7e3ea
   homepage:
   - https://www.yottachain.io/
   repos_url:
     github:
     - https://github.com/yottachain/YTSDK
   telegram_channel_identifier: YottaChain01
-liquidity_score: 40.242
-market_cap_rank: 3690
+liquidity_score: 40.125
+market_cap_rank: 2555
 name: YottaChain
 public_interest_score: 0.0
 symbol: yta
-tickers: []
+tickers:
+- base: YTA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: YTA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: YTA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: USDT
+- base: YTA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: USDT-ERC20
+- base: YTA
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT

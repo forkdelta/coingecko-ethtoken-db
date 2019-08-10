@@ -1,8 +1,8 @@
 ---
 address: '0x2f85E502a988AF76f7ee6D83b7db8d6c0A823bf9'
-coingecko_rank: 821
-coingecko_score: 25.37
-community_score: 38.215
+coingecko_rank: 822
+coingecko_score: 25.408
+community_score: 38.51
 description: >-
   The Latium platform is a paradigm shift in decentralized economics that can bring about real change
   in the way humans work, interact and earn money. Latium provides the opportunity for users to easily
@@ -31,7 +31,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Latium/
   twitter_screen_name: LatiumCoin
 liquidity_score: 1.0
-market_cap_rank: 1055
+market_cap_rank: 1181
 name: LatiumX
 public_interest_score: 28.057
 symbol: latx
@@ -63,6 +63,11 @@ tickers:
   target: USDT
 - base: LATX
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: LATX
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -76,3 +81,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: LATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: LATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

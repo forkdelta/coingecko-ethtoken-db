@@ -1,8 +1,8 @@
 ---
 address: '0x8971f9fd7196e5cEE2C1032B50F656855af7Dd26'
-coingecko_rank: 144
-coingecko_score: 42.696
-community_score: 12.195
+coingecko_rank: 150
+coingecko_score: 42.319
+community_score: 12.519
 description: >-
   Lambda is a fast, safe, and scalable blockchain infrastructure project, which provides decentralized
   applications (DAPPs) data storage capabilities with unlimited scalability and fulfills services such
@@ -48,8 +48,8 @@ links:
     - https://github.com/LambdaIM/token-profile
   telegram_channel_identifier: HelloLambda
   twitter_screen_name: Lambdaim
-liquidity_score: 60.959
-market_cap_rank: 37
+liquidity_score: 58.535
+market_cap_rank: 36
 name: Lambda
 public_interest_score: 34.802
 symbol: lamb
@@ -61,21 +61,31 @@ tickers:
   target: ETH
 - base: LAMB
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: LAMB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: LAMB
+  market:
     identifier: coinall
     name: CoinAll
   target: BTC
 - base: LAMB
   market:
-    identifier: dragonex
-    name: DragonEx
-  target: BTC
-- base: LAMB
-  market:
     identifier: hotbit
     name: Hotbit
-  target: ETH
+  target: BTC
 - base: LAMB
   market:
     identifier: okex
     name: OKEx
   target: BTC
+- base: LAMB
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK

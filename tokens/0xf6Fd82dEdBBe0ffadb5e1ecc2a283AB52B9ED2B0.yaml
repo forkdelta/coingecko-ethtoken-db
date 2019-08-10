@@ -1,8 +1,8 @@
 ---
 address: '0xf6Fd82dEdBBe0ffadb5e1ecc2a283AB52B9ED2B0'
-coingecko_rank: 2017
-coingecko_score: 14.771
-community_score: 27.871
+coingecko_rank: 2016
+coingecko_score: 14.821
+community_score: 28.071
 description: >-
   We are pursuing the opportunity to become the “Booking.com, Steemit and Salesforce of Healthcare”, with
   a model capable of generating $100B+ of potential revenue.
@@ -19,7 +19,7 @@ description: >-
   Taking advantage of the blockchain-based incentive system and the resulting high-quality global database,
   we aim to quickly become a dominant player in rapidly growing markets (medical tourism and pharmaceutical
   communication research and advertisement), currently worth more than $117 billion globally.
-developer_score: 19.095
+developer_score: 19.094
 id: etheal
 image:
   large: https://assets.coingecko.com/coins/images/3267/large/heal.png?1547037807
@@ -39,11 +39,21 @@ links:
   subreddit_url: https://www.reddit.com/r/Etheal
   twitter_screen_name: etheal_com
 liquidity_score: 1.0
-market_cap_rank: 3091
+market_cap_rank: 3125
 name: Etheal
 public_interest_score: 28.299
 symbol: heal
 tickers:
+- base: HEAL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: HEAL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: HEAL
   market:
     identifier: yobit
@@ -54,8 +64,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: HEAL
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

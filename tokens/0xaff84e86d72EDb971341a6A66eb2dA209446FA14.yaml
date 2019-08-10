@@ -1,8 +1,8 @@
 ---
 address: '0xaff84e86d72EDb971341a6A66eb2dA209446FA14'
-coingecko_rank: 2937
-coingecko_score: 9.321
-community_score: 6.94
+coingecko_rank: 2939
+coingecko_score: 9.374
+community_score: 7.329
 description: >-
   TCAT is a Google-verified media platform and community comprised exclusively of the latest stories from
   professional writers that value ethical, authentic journalism.
@@ -26,8 +26,8 @@ links:
     - https://github.com/thecurrencyanalytics/TCAT
   telegram_channel_identifier: TheCurrencyAnalytics
   twitter_screen_name: TheCurrencyA
-liquidity_score: 26.101
-market_cap_rank: 3341
+liquidity_score: 25.877
+market_cap_rank: 3381
 name: The Currency Analytics
 public_interest_score: 23.66
 symbol: tcat
@@ -44,11 +44,16 @@ tickers:
   target: USDT
 - base: TCAT
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: localtrade
+    name: LocalTrade
   target: BTC
+- base: TCAT
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
 - base: TCAT
   market:
     identifier: mercatox
     name: Mercatox
-  target: ETH
+  target: BTC

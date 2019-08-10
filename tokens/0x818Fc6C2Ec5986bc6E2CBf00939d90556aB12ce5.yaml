@@ -1,8 +1,8 @@
 ---
 address: '0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5'
-coingecko_rank: 441
-coingecko_score: 32.17
-community_score: 44.806
+coingecko_rank: 446
+coingecko_score: 32.032
+community_score: 44.544
 description: >-
   Kin is a decentralized cryptocurrency token issued on Ethereum, an open-source public blockchain. It
   was created by Kik Interactive in September 2017 in a token distribution event, raising over $98 million
@@ -71,12 +71,17 @@ links:
     - https://github.com/kinecosystem/kin-ecosystem-android-sdk
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
-liquidity_score: 28.405
-market_cap_rank: 413
+liquidity_score: 28.186
+market_cap_rank: 427
 name: Kin
 public_interest_score: 34.368
 symbol: kin
 tickers:
+- base: KIN
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
 - base: KIN
   market:
     identifier: altilly
@@ -94,9 +99,9 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: ETH
+    identifier: coinall
+    name: CoinAll
+  target: BTC
 - base: KIN
   market:
     identifier: coinall
@@ -104,6 +109,16 @@ tickers:
   target: ETH
 - base: KIN
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: KIN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: KIN
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -122,21 +137,11 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
-- base: 568637D4-2B03-4F66-972E-B947A40F2771
-  market:
-    identifier: lykke
-    name: Lykke
-  target: USD
 - base: KIN
   market:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: KIN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: LTC
 - base: KIN
   market:
     identifier: p2pb2b
@@ -144,26 +149,11 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
 - base: KIN
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: KIN
-  market:
-    identifier: yobit
-    name: YoBit
+    identifier: uniswap
+    name: Uniswap
   target: ETH
-- base: KIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: KIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -1,8 +1,8 @@
 ---
 address: '0xc528c28FEC0A90C083328BC45f587eE215760A0F'
-coingecko_rank: 366
-coingecko_score: 34.051
-community_score: 26.006
+coingecko_rank: 373
+coingecko_score: 33.826
+community_score: 25.722
 description: >-
   Endor.coin is reinventing predictive analytics by democratizing access to Artificial Intelligence data
   analysis, making it accessible, trustless, censorship-resistance and useful for all. This is achieved
@@ -31,12 +31,27 @@ links:
     - https://github.com/EndorCoin/endor-blockchain-data-pipeline
   subreddit_url: https://www.reddit.com/r/EndorCoin/
   twitter_screen_name: endorscience
-liquidity_score: 35.14
+liquidity_score: 34.596
 market_cap_rank: 346
 name: Endor Protocol Token
 public_interest_score: 24.767
 symbol: edr
 tickers:
+- base: EDR
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: EDR
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: EDR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USD
 - base: EDR
   market:
     identifier: coinbene
@@ -46,11 +61,21 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: BTC
+- base: EDR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: EDR
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: EDR
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: EDR
   market:

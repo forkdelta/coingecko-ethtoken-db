@@ -1,8 +1,8 @@
 ---
 address: '0xcbeAEc699431857FDB4d37aDDBBdc20E132D4903'
-coingecko_rank: 1063
-coingecko_score: 22.919
-community_score: 8.129
+coingecko_rank: 1062
+coingecko_score: 22.942
+community_score: 8.586
 description: >-
   yoyow.org is a Blockchain-based social media platform developed by senior members of China Bitshares
   community. yoyow intends to become the blockchain version of Facebook, Quora and Zhihu, it uses a new
@@ -24,9 +24,29 @@ links:
   homepage:
   - https://yoyow.org/
   twitter_screen_name: InfoYoyow
-liquidity_score: 33.731
-market_cap_rank: 563
+liquidity_score: 33.16
+market_cap_rank: 548
 name: YOYOW
 public_interest_score: 28.189
 symbol: yoyow
-tickers: []
+tickers:
+- base: YOYOW
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: YOYO
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: YOYO
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: YOYO
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT

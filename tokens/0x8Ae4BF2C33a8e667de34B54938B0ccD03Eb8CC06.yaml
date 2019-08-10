@@ -1,8 +1,8 @@
 ---
 address: '0x8Ae4BF2C33a8e667de34B54938B0ccD03Eb8CC06'
-coingecko_rank: 1232
-coingecko_score: 21.258
-community_score: 34.614
+coingecko_rank: 1203
+coingecko_score: 21.617
+community_score: 34.93
 description: >-
   Patientory is the leading provider of blockchain solutions for healthcare. Cyber security and the secure
   transfer of patient information from one provider to another is a major threat. Patientory’s mission
@@ -27,9 +27,24 @@ links:
   subreddit_url: https://www.reddit.com/r/PTOY
   telegram_channel_identifier: PatientoryStiftung
   twitter_screen_name: patientory
-liquidity_score: 0.146
-market_cap_rank: 941
+liquidity_score: 1.0
+market_cap_rank: 946
 name: Patientory
 public_interest_score: 25.314
 symbol: ptoy
-tickers: []
+tickers:
+- base: PTOY
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: PTOY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: PTOY
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
