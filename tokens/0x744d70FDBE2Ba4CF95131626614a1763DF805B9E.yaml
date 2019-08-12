@@ -63,9 +63,14 @@ tickers:
   target: THB
 - base: SNT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: SNT
+  market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
 - base: SNT
   market:
     identifier: gopax
@@ -73,21 +78,21 @@ tickers:
   target: KRW
 - base: SNT
   market:
-    identifier: korbit
-    name: Korbit
-  target: KRW
-- base: SNT
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: USDT
-- base: SNT
-  market:
-    identifier: poloniex
-    name: Poloniex
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
 - base: SNT
   market:
-    identifier: poloniex
-    name: Poloniex
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
+- base: SNT
+  market:
+    identifier: zg
+    name: ZG.com
   target: USDT

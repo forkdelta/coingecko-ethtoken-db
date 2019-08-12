@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/DADI
   twitter_screen_name: dadi
 liquidity_score: 4.785
-market_cap_rank: 467
+market_cap_rank: 457
 name: DADI
 public_interest_score: 37.959
 symbol: dadi
@@ -91,12 +91,17 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
+  target: USDT
 - base: DADI
   market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: DADI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: DADI
   market:
     identifier: hitbtc
@@ -107,13 +112,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: DADI
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: DADI
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT

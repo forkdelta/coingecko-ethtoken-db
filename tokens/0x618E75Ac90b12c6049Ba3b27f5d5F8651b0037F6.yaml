@@ -61,11 +61,16 @@ links:
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
 liquidity_score: 36.002
-market_cap_rank: 105
+market_cap_rank: 106
 name: QASH
 public_interest_score: 26.827
 symbol: qash
 tickers:
+- base: QSH
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: QSH
   market:
     identifier: ethfinex
@@ -96,16 +101,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: QASH
+- base: ZCO
   market:
     identifier: quoine
     name: Liquid
-  target: AUD
-- base: QASH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: EUR
+  target: QASH
 - base: CRPT
   market:
     identifier: quoine
@@ -116,22 +116,17 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: FSN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: 1WO
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: IPSX
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ECH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: BTRN
+- base: DRG
   market:
     identifier: quoine
     name: Liquid

@@ -21,12 +21,22 @@ links:
   telegram_channel_identifier: zbg_official
   twitter_screen_name: ZBGofficial
 liquidity_score: 37.998
-market_cap_rank: 2894
+market_cap_rank: 2947
 name: ZTCoin
 public_interest_score: 27.712
 symbol: zt
 tickers:
+- base: ZT
+  market:
+    identifier: exx
+    name: EXX
+  target: USDT
 - base: HPC
+  market:
+    identifier: zbg
+    name: ZBG
+  target: ZT
+- base: ACG
   market:
     identifier: zbg
     name: ZBG
@@ -36,17 +46,12 @@ tickers:
     identifier: zbg
     name: ZBG
   target: ZT
-- base: BCAC
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
-- base: LST
-  market:
-    identifier: zbg
-    name: ZBG
-  target: ZT
 - base: GES
+  market:
+    identifier: zbg
+    name: ZBG
+  target: ZT
+- base: RATING
   market:
     identifier: zbg
     name: ZBG

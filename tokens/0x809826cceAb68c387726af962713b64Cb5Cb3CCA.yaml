@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: NucleusVision
   twitter_screen_name: NucleusVision
 liquidity_score: 23.028
-market_cap_rank: 478
+market_cap_rank: 470
 name: Nucleus Vision
 public_interest_score: 36.464
 symbol: ncash
 tickers:
+- base: NCASH
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: NCASH
   market:
     identifier: coinbene
@@ -48,9 +53,9 @@ tickers:
   target: BTC
 - base: NCASH
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: NCA
   market:
     identifier: ethfinex
@@ -73,6 +78,11 @@ tickers:
   target: ETH
 - base: NCASH
   market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: NCASH
+  market:
     identifier: wazirx
     name: WazirX
   target: BTC
@@ -81,8 +91,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
-- base: NCASH
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
