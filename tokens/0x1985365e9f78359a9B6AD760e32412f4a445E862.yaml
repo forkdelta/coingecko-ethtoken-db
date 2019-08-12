@@ -69,11 +69,6 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: REP
-  market:
     identifier: bitbay
     name: BitBay
   target: BTC
@@ -109,9 +104,9 @@ tickers:
   target: CREDO
 - base: REP
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: REP
   market:
     identifier: ethfinex
@@ -127,6 +122,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: REP
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: REP
   market:
     identifier: fcoin
@@ -149,9 +149,34 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: AUD
+- base: REP
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: NZD
+- base: REP
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: USD
+- base: REP
+  market:
+    identifier: iqfinex
+    name: IQFinex
+  target: ETH
+- base: REP
+  market:
+    identifier: kraken
+    name: Kraken
+  target: ETH
+- base: REP
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: ETH
 - base: REP
   market:
     identifier: switcheo

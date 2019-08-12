@@ -28,13 +28,18 @@ links:
   telegram_channel_identifier: Unibright_IO
   twitter_screen_name: Unibrightio
 liquidity_score: 18.399
-market_cap_rank: 613
+market_cap_rank: 621
 name: Unibright
 public_interest_score: 24.882
 symbol: ubt
 tickers:
 - base: UBT
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: UBT
+  market:
+    identifier: idex
+    name: Idex
   target: ETH

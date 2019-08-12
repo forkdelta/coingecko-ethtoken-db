@@ -64,11 +64,16 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 39.468
-market_cap_rank: 54
+market_cap_rank: 60
 name: Pundi X
 public_interest_score: 29.409
 symbol: npxs
 tickers:
+- base: NPXS
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: NPXS
   market:
     identifier: atomars
@@ -91,9 +96,24 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: bitci
+    name: Bitci
+  target: CHFT
+- base: NPXS
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: NPXS
+  market:
     identifier: bitsten
     name: Bitsten
   target: IDR
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: NPXS
   market:
     identifier: catex
@@ -108,17 +128,12 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: ETH
+  target: BTC
 - base: NPXS
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: ETH
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
 - base: NPXS
   market:
     identifier: coss
@@ -131,6 +146,11 @@ tickers:
   target: COS
 - base: NPXS
   market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: NPXS
+  market:
     identifier: crypto_bridge
     name: CryptoBridge
   target: BTC
@@ -141,8 +161,18 @@ tickers:
   target: WETH
 - base: NPXS
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
+- base: NPXS
+  market:
     identifier: exnce
     name: EXNCE
+  target: ETH
+- base: NPXS
+  market:
+    identifier: graviex
+    name: Graviex
   target: ETH
 - base: NPXS
   market:
@@ -161,19 +191,9 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: localtrade
-    name: LocalTrade
-  target: BTC
-- base: NPXS
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USD
-- base: NPXS
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USDT
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: NPXS
   market:
     identifier: sistemkoin
@@ -186,14 +206,14 @@ tickers:
   target: TRY
 - base: NPXS
   market:
-    identifier: tidex
-    name: Tidex
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH
 - base: NPXS
   market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
+    identifier: tidex
+    name: Tidex
+  target: ETH
 - base: NPXS
   market:
     identifier: wazirx

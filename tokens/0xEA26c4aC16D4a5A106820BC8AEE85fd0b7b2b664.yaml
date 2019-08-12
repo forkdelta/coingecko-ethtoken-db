@@ -100,6 +100,26 @@ symbol: qkc
 tickers:
 - base: QKC
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: QKC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: QKC
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: QKC
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: QKC
+  market:
     identifier: dcoin
     name: Dcoin
   target: BTC
@@ -117,6 +137,11 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: QKC
+  market:
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
 - base: QKC
   market:

@@ -96,6 +96,11 @@ tickers:
   target: USDT
 - base: LRC
   market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: LRC
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
@@ -111,14 +116,19 @@ tickers:
   target: USD
 - base: LRC
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: LRC
   market:
-    identifier: idax
-    name: Idax
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
+- base: LRC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: LRC
   market:
     identifier: otcbtc
@@ -126,9 +136,19 @@ tickers:
   target: ETH
 - base: LRC
   market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: LRC
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: LRC
   market:
     identifier: yobit

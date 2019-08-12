@@ -65,6 +65,16 @@ symbol: storj
 tickers:
 - base: STORJ
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: STORJ
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: STORJ
+  market:
     identifier: dcoin
     name: Dcoin
   target: USDT
@@ -73,11 +83,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: STJ
   market:
     identifier: ethfinex
@@ -105,9 +110,9 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: STORJ
   market:
     identifier: livecoin
@@ -138,6 +143,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: STORJ
   market:
     identifier: yobit

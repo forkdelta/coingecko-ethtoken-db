@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 24.07
-market_cap_rank: 213
+market_cap_rank: 214
 name: STASIS EURS
 public_interest_score: 27.709
 symbol: eurs
@@ -52,37 +52,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: EOS
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EURS
+  target: EOSDT
 - base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: ZEC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: DASH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC
@@ -92,7 +67,42 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: ZEC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: MESSE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC
@@ -104,11 +114,6 @@ tickers:
   target: TUSD
 - base: EURS
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: EURS
-  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -116,12 +121,17 @@ tickers:
   market:
     identifier: okcoin
     name: OKCoin
-  target: USD
-- base: XRP
+  target: EUR
+- base: BTC
   market:
-    identifier: tokens_net
-    name: TokensNet
+    identifier: okcoin
+    name: OKCoin
   target: EURS
+- base: EURS
+  market:
+    identifier: okcoin
+    name: OKCoin
+  target: USD
 - base: LTC
   market:
     identifier: tokens_net

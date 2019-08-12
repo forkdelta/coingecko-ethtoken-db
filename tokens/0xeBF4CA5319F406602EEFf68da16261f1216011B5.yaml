@@ -23,12 +23,22 @@ name: Yobit Token
 public_interest_score: 0.0
 symbol: yo
 tickers:
-- base: ETC
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: SEDO
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: DASH
+- base: ETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BCHABC
   market:
     identifier: yobit
     name: YoBit
@@ -38,7 +48,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BTT
+- base: DASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EOS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ETC
   market:
     identifier: yobit
     name: YoBit
@@ -48,7 +68,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
+- base: XEM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
 - base: EDC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: NOAH
   market:
     identifier: yobit
     name: YoBit

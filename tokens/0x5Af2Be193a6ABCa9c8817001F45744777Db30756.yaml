@@ -23,7 +23,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ethos_io/
   twitter_screen_name: Ethos_io
 liquidity_score: 29.541
-market_cap_rank: 216
+market_cap_rank: 217
 name: Ethos
 public_interest_score: 30.761
 symbol: ethos
@@ -37,7 +37,17 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
+  target: BTC
+- base: ETHOS
+  market:
+    identifier: bitmart
+    name: BitMart
   target: ETH
+- base: ETHOS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: ETHOS
   market:
     identifier: coin_exchange
@@ -47,7 +57,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: BQX
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: BQX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: ETHOS
   market:
     identifier: idex
@@ -57,6 +77,11 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: ETHOS
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: BTC
 - base: ETHOS
   market:
