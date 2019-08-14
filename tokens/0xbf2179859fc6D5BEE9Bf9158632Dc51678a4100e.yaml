@@ -68,11 +68,16 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 50.516
-market_cap_rank: 104
+market_cap_rank: 107
 name: aelf
 public_interest_score: 27.41
 symbol: elf
 tickers:
+- base: ELF
+  market:
+    identifier: bcex
+    name: BCEX
+  target: CKUSD
 - base: ELF
   market:
     identifier: bcex
@@ -90,9 +95,14 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ELF
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: ELF
   market:
     identifier: idex

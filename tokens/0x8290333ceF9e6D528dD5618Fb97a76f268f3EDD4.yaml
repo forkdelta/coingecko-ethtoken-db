@@ -62,7 +62,7 @@ links:
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankrnetwork
 liquidity_score: 43.787
-market_cap_rank: 221
+market_cap_rank: 216
 name: Ankr
 public_interest_score: 27.89
 symbol: ankr
@@ -72,6 +72,11 @@ tickers:
     identifier: bgogo
     name: Bgogo
   target: BTC
+- base: ANKR
+  market:
+    identifier: binance
+    name: Binance
+  target: PAX
 - base: ANKR-E97
   market:
     identifier: binance_dex
@@ -96,16 +101,6 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: BTC
-- base: ANKR
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
-- base: ANKR
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: ANKR
   market:
@@ -127,3 +122,8 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
+- base: ANKR
+  market:
+    identifier: zgtop
+    name: ZG.TOP
+  target: ETH

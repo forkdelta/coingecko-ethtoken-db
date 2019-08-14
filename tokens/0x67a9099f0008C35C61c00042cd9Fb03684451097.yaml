@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: GameStarsChat
   twitter_screen_name: GameStarsCoin
 liquidity_score: 21.418
-market_cap_rank: 1247
+market_cap_rank: 1255
 name: Game Stars
 public_interest_score: 33.038
 symbol: gst
@@ -74,6 +74,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: GST
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
 - base: GST
   market:
     identifier: yobit
@@ -88,7 +93,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: GST
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: GST
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: GST
   market:
     identifier: yobit

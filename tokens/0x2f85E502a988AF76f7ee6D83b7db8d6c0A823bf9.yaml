@@ -31,7 +31,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Latium/
   twitter_screen_name: LatiumCoin
 liquidity_score: 1.0
-market_cap_rank: 1064
+market_cap_rank: 1063
 name: LatiumX
 public_interest_score: 28.057
 symbol: latx
@@ -43,21 +43,6 @@ tickers:
   target: ETH
 - base: LATX
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: LATX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: LATX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: USDT
-- base: LATX
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -66,6 +51,16 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: LATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: LATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: LATX
   market:
     identifier: yobit

@@ -55,11 +55,21 @@ links:
   telegram_channel_identifier: FUSIONFoundation
   twitter_screen_name: FUSIONProtocol
 liquidity_score: 42.013
-market_cap_rank: 124
+market_cap_rank: 125
 name: FUSION
 public_interest_score: 42.081
 symbol: fsn
 tickers:
+- base: FSN
+  market:
+    identifier: citex
+    name: CITEX
+  target: BTC
+- base: FSN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: FSN
   market:
     identifier: ethfinex
@@ -70,11 +80,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: FSN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: FSN
   market:
     identifier: okex
