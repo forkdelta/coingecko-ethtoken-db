@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: farmatrust
   twitter_screen_name: farmatrust
 liquidity_score: 3.134
-market_cap_rank: 950
+market_cap_rank: 942
 name: FarmaTrust
 public_interest_score: 24.711
 symbol: ftt
 tickers:
+- base: FTT
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
 - base: FTT
   market:
     identifier: coinbene
@@ -50,9 +55,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: FTT
-  market:
-    identifier: quoine
-    name: Liquid
   target: ETH

@@ -83,11 +83,16 @@ links:
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
 liquidity_score: 44.519
-market_cap_rank: 42
+market_cap_rank: 43
 name: Holo
 public_interest_score: 32.375
 symbol: hot
 tickers:
+- base: HOT
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
 - base: HOT
   market:
     identifier: bigone
@@ -118,26 +123,16 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: HOLO
+- base: HOT
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
 - base: HOT
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: HOT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: HOT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
 - base: HOT
   market:
     identifier: latoken
@@ -150,8 +145,8 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: saturn_network
+    name: Saturn Network
   target: ETH
 - base: HOT
   market:
@@ -173,8 +168,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
-- base: HOT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

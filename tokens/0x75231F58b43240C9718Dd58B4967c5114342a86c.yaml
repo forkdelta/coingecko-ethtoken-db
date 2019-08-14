@@ -49,12 +49,22 @@ name: OKB
 public_interest_score: 33.08
 symbol: okb
 tickers:
-- base: OKB
+- base: SC
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: ETH
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: AE
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: WAVES
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: DCR
   market:
     identifier: okex
     name: OKEx

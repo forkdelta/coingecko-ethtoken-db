@@ -32,6 +32,11 @@ symbol: 1st
 tickers:
 - base: 1ST
   market:
+    identifier: exx
+    name: EXX
+  target: BTC
+- base: 1ST
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -39,19 +44,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: ETH
 - base: 1ST
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: idex
+    name: Idex
   target: ETH
 - base: FIRSTBLOOD
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: FIRSTBLOOD
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD

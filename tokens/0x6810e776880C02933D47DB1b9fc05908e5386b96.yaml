@@ -63,11 +63,16 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 9.807
-market_cap_rank: 173
+market_cap_rank: 175
 name: Gnosis
 public_interest_score: 37.005
 symbol: gno
 tickers:
+- base: GNO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: GNO
   market:
     identifier: credoex
@@ -75,13 +80,23 @@ tickers:
   target: CREDO
 - base: GNO
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: GNO
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: GNO
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: GNO
   market:
-    identifier: idex
-    name: Idex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: GNO
   market:
@@ -90,6 +105,6 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: yobit
-    name: YoBit
-  target: USD
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

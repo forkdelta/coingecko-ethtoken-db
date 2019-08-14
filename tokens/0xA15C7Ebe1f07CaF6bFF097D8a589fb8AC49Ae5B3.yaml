@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 39.468
-market_cap_rank: 60
+market_cap_rank: 58
 name: Pundi X
 public_interest_score: 29.409
 symbol: npxs
@@ -79,26 +79,16 @@ tickers:
     identifier: atomars
     name: Atomars
   target: BTC
-- base: NPXS
+- base: NPXC
   market:
-    identifier: atomars
-    name: Atomars
-  target: USDT
-- base: NPXS
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: NPXS
   market:
     identifier: bit_z
     name: Bit-Z
   target: ETH
-- base: NPXS
-  market:
-    identifier: bitci
-    name: Bitci
-  target: CHFT
 - base: NPXS
   market:
     identifier: bitsonic
@@ -106,44 +96,24 @@ tickers:
   target: KRW
 - base: NPXS
   market:
-    identifier: bitsten
-    name: Bitsten
-  target: IDR
+    identifier: catex
+    name: Catex
+  target: BTC
 - base: NPXS
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: NPXS
+  market:
+    identifier: coinbene
+    name: CoinBene
   target: USDT
 - base: NPXS
   market:
-    identifier: catex
-    name: Catex
-  target: BTC
-- base: NPXS
-  market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: NPXS
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: NPXS
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: NPXS
-  market:
     identifier: coss
     name: COSS
   target: BTC
-- base: NPXS
-  market:
-    identifier: coss
-    name: COSS
-  target: COS
 - base: NPXS
   market:
     identifier: coss
@@ -159,6 +129,21 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: NPXS
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: BTC
+- base: NPXS
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USD
+- base: NPXS
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: NPXS
   market:
     identifier: digifinex
@@ -178,42 +163,22 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: LA
 - base: NPXS
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
   target: BTC
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: NPXS
-  market:
-    identifier: thetokenstore
-    name: Token.Store
-  target: ETH
-- base: NPXS
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH
 - base: NPXS
   market:
     identifier: wazirx
