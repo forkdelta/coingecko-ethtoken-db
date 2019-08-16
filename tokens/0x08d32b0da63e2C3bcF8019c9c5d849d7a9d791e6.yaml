@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Dentacoin
   twitter_screen_name: dentacoin
 liquidity_score: 18.656
-market_cap_rank: 239
+market_cap_rank: 241
 name: Dentacoin
 public_interest_score: 26.74
 symbol: dcn
@@ -74,9 +74,19 @@ tickers:
   target: DOGE
 - base: DCN
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: DCN
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: DCN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: DCN
   market:
     identifier: mercatox

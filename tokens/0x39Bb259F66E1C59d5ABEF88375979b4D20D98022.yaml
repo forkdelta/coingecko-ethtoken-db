@@ -27,7 +27,7 @@ links:
   subreddit_url: https://www.reddit.com/r/WAXtoken
   twitter_screen_name: WAX_io
 liquidity_score: 31.311
-market_cap_rank: 85
+market_cap_rank: 86
 name: WAX
 public_interest_score: 35.924
 symbol: wax
@@ -36,12 +36,12 @@ tickers:
   market:
     identifier: c2cx
     name: C2CX
-  target: USDT
+  target: LONG
 - base: WAX
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: c2cx
+    name: C2CX
+  target: USDT
 - base: WAX
   market:
     identifier: ethfinex
@@ -59,6 +59,11 @@ tickers:
   target: ETH
 - base: WAX
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: WAX
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -71,6 +76,11 @@ tickers:
   market:
     identifier: kucoin
     name: KuCoin
+  target: ETH
+- base: WAX
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: WAX
   market:

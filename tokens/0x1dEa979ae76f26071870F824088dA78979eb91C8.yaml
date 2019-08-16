@@ -34,11 +34,21 @@ links:
   telegram_channel_identifier: spindlezone
   twitter_screen_name: spindlezone
 liquidity_score: 14.814
-market_cap_rank: 721
+market_cap_rank: 714
 name: SPINDLE
 public_interest_score: 23.814
 symbol: spd
 tickers:
+- base: SPD
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: SPD
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
 - base: SPD
   market:
     identifier: livecoin
@@ -64,8 +74,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: SPD
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

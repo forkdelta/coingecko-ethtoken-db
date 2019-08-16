@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: aidcoincommunity
   twitter_screen_name: aid_coin
 liquidity_score: 1.0
-market_cap_rank: 876
+market_cap_rank: 845
 name: AidCoin
 public_interest_score: 24.743
 symbol: aid
 tickers:
+- base: AID
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: AID
   market:
     identifier: ethfinex
@@ -51,3 +56,8 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: AID
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD

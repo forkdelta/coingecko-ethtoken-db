@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
 liquidity_score: 38.888
-market_cap_rank: 251
+market_cap_rank: 256
 name: Mithril
 public_interest_score: 33.367
 symbol: mith
@@ -82,11 +82,6 @@ tickers:
   target: BTC
 - base: MITH
   market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
-- base: MITH
-  market:
     identifier: dove_wallet
     name: Dove Wallet
   target: TUSD
@@ -95,6 +90,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: MIT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MITH
   market:
     identifier: gate
@@ -105,6 +105,16 @@ tickers:
     identifier: gdac
     name: GDAC
   target: KRW
+- base: MITH
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: MITH
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: MITH
   market:
     identifier: max_maicoin

@@ -26,8 +26,13 @@ links:
   telegram_channel_identifier: REKT_Token
   twitter_screen_name: RektToken
 liquidity_score: 1.0
-market_cap_rank: 2599
+market_cap_rank: 2608
 name: REKT
 public_interest_score: 26.507
 symbol: rekt
-tickers: []
+tickers:
+- base: REKT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

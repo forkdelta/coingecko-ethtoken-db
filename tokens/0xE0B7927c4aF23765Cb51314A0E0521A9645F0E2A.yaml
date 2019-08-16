@@ -69,11 +69,16 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 35.277
-market_cap_rank: 100
+market_cap_rank: 104
 name: DigixDAO
 public_interest_score: 29.474
 symbol: dgd
 tickers:
+- base: DGD
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: DGD
   market:
     identifier: bigone
@@ -101,6 +106,11 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: vindax
-    name: Vindax
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: DGD
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
