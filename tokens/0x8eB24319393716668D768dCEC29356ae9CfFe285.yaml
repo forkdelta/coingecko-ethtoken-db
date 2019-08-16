@@ -63,11 +63,16 @@ links:
   telegram_channel_identifier: singularitynet
   twitter_screen_name: singularity_net
 liquidity_score: 30.827
-market_cap_rank: 148
+market_cap_rank: 143
 name: SingularityNET
 public_interest_score: 25.697
 symbol: agi
 tickers:
+- base: AGI
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: AGI
   market:
     identifier: coinbit
@@ -82,7 +87,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: BTC
 - base: AGI
   market:
     identifier: ethfinex
@@ -93,6 +98,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: AGI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: AGI
   market:
     identifier: idex

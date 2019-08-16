@@ -47,11 +47,16 @@ links:
   telegram_channel_identifier: VITGlobalCommunity
   twitter_screen_name: VITMediaToken
 liquidity_score: 1.0
-market_cap_rank: 2359
+market_cap_rank: 2362
 name: Vice Industry Token
 public_interest_score: 33.928
 symbol: vit
 tickers:
+- base: VIT
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: VIT
   market:
     identifier: idax
@@ -62,13 +67,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: VIT
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: NXT
-- base: VIT
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT

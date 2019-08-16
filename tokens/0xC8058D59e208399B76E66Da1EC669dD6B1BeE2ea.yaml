@@ -37,8 +37,18 @@ links:
   telegram_channel_identifier: goldbitscoinchat
   twitter_screen_name: GoldBitsCoin
 liquidity_score: 1.0
-market_cap_rank: 2058
+market_cap_rank: 2939
 name: Gold Bits Coin
 public_interest_score: 29.302
 symbol: gbc
-tickers: []
+tickers:
+- base: GBC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: GBC
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC

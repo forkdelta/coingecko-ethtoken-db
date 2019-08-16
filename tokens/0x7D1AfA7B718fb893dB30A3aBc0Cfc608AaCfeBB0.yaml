@@ -33,16 +33,16 @@ links:
   telegram_channel_identifier: maticnetwork
   twitter_screen_name: maticnetwork
 liquidity_score: 55.139
-market_cap_rank: 115
+market_cap_rank: 118
 name: Matic Network
 public_interest_score: 30.756
 symbol: matic
 tickers:
-- base: MATIC
+- base: MATIC-84A
   market:
-    identifier: bw
-    name: BW.com
-  target: USDT
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: MATIC
   market:
     identifier: coinbit
@@ -62,4 +62,9 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MATIC
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

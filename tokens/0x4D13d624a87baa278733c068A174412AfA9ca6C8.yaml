@@ -37,11 +37,16 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: ETERBASE
 liquidity_score: 29.613
-market_cap_rank: 2341
+market_cap_rank: 4538
 name: Eterbase Coin
 public_interest_score: 24.655
 symbol: xbase
 tickers:
+- base: XBASE-CD2
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: XBASE
   market:
     identifier: eterbase
@@ -56,7 +61,17 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
+  target: ETH
+- base: XBASE
+  market:
+    identifier: eterbase
+    name: Eterbase
   target: EUR
+- base: XBASE
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EURS
 - base: XBASE
   market:
     identifier: eterbase
@@ -77,21 +92,6 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: USDT
-- base: LIT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
-- base: LOTEU
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
-- base: BETHER
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
 - base: QNT
   market:
     identifier: eterbase
@@ -102,7 +102,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: XBASE
-- base: VIDT
+- base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
@@ -117,3 +117,28 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: XBASE
+- base: BETHER
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: LIT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: XBASE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: XBASE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: XBASE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

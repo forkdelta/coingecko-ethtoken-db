@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: volcanoestoken
   twitter_screen_name: volcanoestoken
 liquidity_score: 1.0
-market_cap_rank: 4942
+market_cap_rank: 4910
 name: Volcanoes
 public_interest_score: 32.901
 symbol: volc
@@ -38,7 +38,12 @@ tickers:
   market:
     identifier: bitsten
     name: Bitsten
-  target: BTC
+  target: ETH
+- base: VOLC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: VOLC
   market:
     identifier: vindax

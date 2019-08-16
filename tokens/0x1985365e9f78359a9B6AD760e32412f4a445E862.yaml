@@ -64,11 +64,6 @@ symbol: rep
 tickers:
 - base: REP
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: REP
-  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
@@ -89,14 +84,9 @@ tickers:
   target: PLN
 - base: REP
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: ETH
-- base: REP
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: bitbay
+    name: BitBay
+  target: USD
 - base: REP
   market:
     identifier: buyucoin
@@ -119,21 +109,6 @@ tickers:
   target: KRW
 - base: REP
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: REP
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
-- base: REP
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: REP
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -152,6 +127,11 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
+- base: REP
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: REP
   market:
     identifier: gopax
@@ -159,29 +139,9 @@ tickers:
   target: KRW
 - base: REP
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
-- base: REP
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
-- base: REP
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: USDT
 - base: REP
   market:
     identifier: radar_relay
@@ -191,9 +151,4 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
-  target: ETH
-- base: REP
-  market:
-    identifier: upbit
-    name: Upbit
   target: ETH

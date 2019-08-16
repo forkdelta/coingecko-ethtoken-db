@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 39.468
-market_cap_rank: 58
+market_cap_rank: 61
 name: Pundi X
 public_interest_score: 29.409
 symbol: npxs
@@ -79,6 +79,11 @@ tickers:
     identifier: atomars
     name: Atomars
   target: BTC
+- base: NPXS
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: NPXC
   market:
     identifier: bamboo_relay
@@ -88,12 +93,12 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
-  target: ETH
+  target: BTC
 - base: NPXS
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: KRW
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
 - base: NPXS
   market:
     identifier: catex
@@ -103,17 +108,22 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: ETH
+  target: BTC
 - base: NPXS
   market:
     identifier: coinbene
     name: CoinBene
-  target: USDT
+  target: ETH
 - base: NPXS
   market:
     identifier: coss
     name: COSS
   target: BTC
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
+  target: COS
 - base: NPXS
   market:
     identifier: coss
@@ -156,9 +166,24 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: NPXS
+  market:
     identifier: graviex
     name: Graviex
   target: ETH
+- base: NPXS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: NPXS
   market:
     identifier: latoken
@@ -168,11 +193,26 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: BTC
+- base: NPXS
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: NPXS
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: ETH
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: NPXS
+  market:
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH
 - base: NPXS
   market:
