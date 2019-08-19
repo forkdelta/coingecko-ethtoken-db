@@ -1,8 +1,8 @@
 ---
 address: '0x75231F58b43240C9718Dd58B4967c5114342a86c'
-coingecko_rank: 384
-coingecko_score: 33.57
-community_score: 7.944
+coingecko_rank: 379
+coingecko_score: 33.552
+community_score: 7.332
 description: >-
   <a href="https://www.coingecko.com/en/exchanges/okex">OKEx</a>, the 2nd most popular cryptocurrency
   exchange by trading volume, launched its platform token ‘OKB‘ today with 10 trading pairs. On its official
@@ -43,13 +43,18 @@ links:
   - https://www.okex.com/pages/products/okb.html
   telegram_channel_identifier: okexofficial_en
   twitter_screen_name: okex_
-liquidity_score: 61.566
+liquidity_score: 62.425
 market_cap_rank: 17
 name: OKB
-public_interest_score: 33.08
+public_interest_score: 33.196
 symbol: okb
 tickers:
-- base: WAVES
+- base: SC
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: AE
   market:
     identifier: okex
     name: OKEx

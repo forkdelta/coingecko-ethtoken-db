@@ -1,8 +1,8 @@
 ---
 address: '0xa74476443119A942dE498590Fe1f2454d7D4aC0d'
-coingecko_rank: 33
-coingecko_score: 58.824
-community_score: 50.4
+coingecko_rank: 36
+coingecko_score: 57.992
+community_score: 50.139
 description: >-
   Golem is a decentralized supercomputer that is accessible by anyone. The system is made up of the combined
   power of user’s machines from personal PCs to entire datacenters. Golem is able to compute almost any
@@ -53,7 +53,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/golem-gnt/">CoinBureau</a> for the full review
   of Golem.
-developer_score: 81.563
+developer_score: 81.562
 id: golem
 image:
   large: https://assets.coingecko.com/coins/images/542/large/golem_token.png?1548838076
@@ -79,16 +79,36 @@ links:
     - https://github.com/golemfactory/golem-unlimited
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
-liquidity_score: 45.191
-market_cap_rank: 93
+liquidity_score: 41.53
+market_cap_rank: 92
 name: Golem
-public_interest_score: 31.349
+public_interest_score: 31.087
 symbol: gnt
 tickers:
 - base: GNT
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: bitbay
+    name: BitBay
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: EUR
+- base: GNT
+  market:
+    identifier: braziliex
+    name: Braziliex
+  target: BTC
+- base: GNT
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: GNT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
 - base: GNT
   market:
@@ -97,14 +117,34 @@ tickers:
   target: ETH
 - base: GNT
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: GNT
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: GNT
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: ETH
+- base: GNT
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: GNT
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: BTC
+- base: GNT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
 - base: GNT
   market:
     identifier: sistemkoin
@@ -127,21 +167,11 @@ tickers:
   target: BTC
 - base: GNT
   market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: GNT
+  market:
     identifier: zb
     name: ZB
   target: BTC
-- base: GNT
-  market:
-    identifier: zg
-    name: ZG.com
-  target: BTC
-- base: GNT
-  market:
-    identifier: zg
-    name: ZG.com
-  target: ETH
-- base: GNT
-  market:
-    identifier: zg
-    name: ZG.com
-  target: USDT
