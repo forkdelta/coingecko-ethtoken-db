@@ -1,8 +1,8 @@
 ---
 address: '0x93190DbCE9b9BD4Aa546270a8D1D65905B5fDd28'
-coingecko_rank: 375
-coingecko_score: 33.81
-community_score: 33.358
+coingecko_rank: 390
+coingecko_score: 33.256
+community_score: 32.906
 description: >-
   DAPS is a planned privacy blockchain with a focus on security, scalability and total obfuscation. DAPS
   is currently hosted on the Ethereum network, pending the DAPS coin main net deployment. The goal of
@@ -30,10 +30,10 @@ links:
   subreddit_url: https://www.reddit.com/r/DAPSCoin/
   telegram_channel_identifier: dapscoin
   twitter_screen_name: DAPScoin
-liquidity_score: 9.55
-market_cap_rank: 155
+liquidity_score: 7.123
+market_cap_rank: 172
 name: DAPS Token
-public_interest_score: 29.935
+public_interest_score: 29.88
 symbol: daps
 tickers:
 - base: DAPS
@@ -43,9 +43,19 @@ tickers:
   target: BTC
 - base: DAPS
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: DAPS
+  market:
     identifier: citex
     name: CITEX
   target: BTC
+- base: DAPS
+  market:
+    identifier: citex
+    name: CITEX
+  target: ETH
 - base: DAPS
   market:
     identifier: fcoin
@@ -56,8 +66,3 @@ tickers:
     identifier: txbit
     name: Txbit
   target: BTC
-- base: DAPS
-  market:
-    identifier: txbit
-    name: Txbit
-  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69'
-coingecko_rank: 492
-coingecko_score: 30.989
-community_score: 35.904
+coingecko_rank: 473
+coingecko_score: 31.081
+community_score: 35.386
 description: >-
   IoTeX is the auto-scalable and privacy-centric blockchain infrastructure for the Internet of Things
   (IoT). IoTeX’s global team is comprised of Ph.Ds in Cryptography, Distributed Systems, and Machine Learning,
@@ -40,12 +40,22 @@ links:
   subreddit_url: https://www.reddit.com/r/IoTeX
   telegram_channel_identifier: IoTeXGroup
   twitter_screen_name: iotex_io
-liquidity_score: 32.186
-market_cap_rank: 159
+liquidity_score: 32.834
+market_cap_rank: 152
 name: IoTeX
-public_interest_score: 25.424
+public_interest_score: 26.951
 symbol: iotx
 tickers:
+- base: IOTX
+  market:
+    identifier: citex
+    name: CITEX
+  target: BTC
+- base: IOTX
+  market:
+    identifier: citex
+    name: CITEX
+  target: ETH
 - base: IOTX
   market:
     identifier: codex
@@ -61,6 +71,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: IOTX
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: IOTX
   market:
     identifier: idex
