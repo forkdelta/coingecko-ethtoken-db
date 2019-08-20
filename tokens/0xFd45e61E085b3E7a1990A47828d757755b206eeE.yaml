@@ -1,8 +1,8 @@
 ---
 address: '0xFd45e61E085b3E7a1990A47828d757755b206eeE'
-coingecko_rank: 1790
-coingecko_score: 16.363
-community_score: 6.345
+coingecko_rank: 1783
+coingecko_score: 16.523
+community_score: 6.005
 description: >-
   Trading on CoinPark is considered as mining and the user is considered as a “miner”. The mining output
   is CP. You only need to trade on CoinPark, and the resulting transaction fees will be automatically
@@ -31,9 +31,24 @@ links:
   - https://www.coinpark.com/
   telegram_channel_identifier: CoinPark_global
   twitter_screen_name: CoinPark2018
-liquidity_score: 12.673
-market_cap_rank: 1034
+liquidity_score: 13.745
+market_cap_rank: 993
 name: CoinPark Token
 public_interest_score: 24.775
 symbol: cp
-tickers: []
+tickers:
+- base: CP
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: BTC
+- base: CP
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: ETH
+- base: CP
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: USDT

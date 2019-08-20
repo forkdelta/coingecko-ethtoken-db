@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 500
-coingecko_score: 30.478
-community_score: 4.763
+coingecko_rank: 533
+coingecko_score: 30.309
+community_score: 4.514
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -73,8 +73,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 41.289
-market_cap_rank: 323
+liquidity_score: 40.798
+market_cap_rank: 320
 name: Gemini Dollar
 public_interest_score: 38.81
 symbol: gusd
@@ -104,6 +104,11 @@ tickers:
     identifier: coinbene
     name: CoinBene
   target: USDT
+- base: GUSD
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: USDT
 - base: ETH
   market:
     identifier: coss
@@ -116,39 +121,14 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
-- base: GUSD
-  market:
-    identifier: floatsv
-    name: Float SV
-  target: USDT
-- base: ETH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
-- base: EOS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
-- base: GUSD
-  market:
-    identifier: okex
-    name: OKEx
+    identifier: crex24
+    name: CREX24
   target: BTC
 - base: GUSD
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: BTC
-  market:
-    identifier: quoine
-    name: Liquid
-  target: GUSD
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: GUSD
   market:
     identifier: therocktrading
@@ -161,9 +141,24 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
+    identifier: tokok
+    name: TOKOK
+  target: USDT
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
+- base: GUSD
+  market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: DOGE
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT
 - base: GUSD
   market:
     identifier: uniswap

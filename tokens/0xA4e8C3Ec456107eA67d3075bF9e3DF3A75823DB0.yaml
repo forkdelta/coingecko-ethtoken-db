@@ -1,8 +1,8 @@
 ---
 address: '0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0'
-coingecko_rank: 139
-coingecko_score: 42.806
-community_score: 9.556
+coingecko_rank: 152
+coingecko_score: 42.272
+community_score: 9.044
 description: >-
   The Next-Generation Blockchain Application Platform for Ethereum.
 
@@ -31,7 +31,7 @@ description: >-
 
   We built the world’s first Plasma Cash implementation, which allows Ethereum-based tokens to be used
   on Loom sidechains with the full security guarantees of Ethereum.
-developer_score: 70.703
+developer_score: 69.802
 id: loom-network
 image:
   large: https://assets.coingecko.com/coins/images/3387/large/1_K76UVoLq-FOL7l-_Fag-Qw_2x.png?1547038040
@@ -50,8 +50,8 @@ links:
     - https://github.com/loomnetwork/loom-js
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
-liquidity_score: 34.303
-market_cap_rank: 166
+liquidity_score: 33.273
+market_cap_rank: 169
 name: Loom Network
 public_interest_score: 30.034
 symbol: loom
@@ -65,17 +65,12 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: ETH
+- base: LOOM
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: BTC
-- base: LOOM
-  market:
-    identifier: coinbit
-    name: Coinbit
-  target: KRW
-- base: LOOM
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: LOOM
   market:
     identifier: dextrade
@@ -126,8 +121,3 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: LOOM
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH
