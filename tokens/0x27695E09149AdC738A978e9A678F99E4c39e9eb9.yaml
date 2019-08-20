@@ -1,12 +1,12 @@
 ---
 address: '0x27695E09149AdC738A978e9A678F99E4c39e9eb9'
-coingecko_rank: 511
-coingecko_score: 30.338
-community_score: 36.423
+coingecko_rank: 500
+coingecko_score: 30.774
+community_score: 37.917
 description: >-
   KICKICO helps innovators, game developers, blockchain leaders, entrepreneurs, designers, and other creators
   find the resources and support they need to make their ideas a reality.
-developer_score: 19.884
+developer_score: 19.883
 id: kickico
 image:
   large: https://assets.coingecko.com/coins/images/981/large/kickcoin.png?1547975165
@@ -25,12 +25,17 @@ links:
     - https://github.com/kickico/contracts
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKecosystem
-liquidity_score: 12.951
-market_cap_rank: 648
+liquidity_score: 13.282
+market_cap_rank: 637
 name: KickCoin
 public_interest_score: 26.519
 symbol: kick
 tickers:
+- base: KICK
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: KICK
   market:
     identifier: bilaxy
@@ -40,17 +45,17 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
-  target: BTC
-- base: KICK
-  market:
-    identifier: bitmart
-    name: BitMart
   target: ETH
 - base: KICK
   market:
-    identifier: crex24
-    name: CREX24
-  target: RUB
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: KICK
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: KICK
   market:
     identifier: crex24
@@ -70,12 +75,22 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: BTC
+- base: KICK
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: KICK
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: ooobtc
+    name: OOOBTC
   target: BTC
+- base: KICK
+  market:
+    identifier: tokok
+    name: TOKOK
+  target: ETH
 - base: KICK
   market:
     identifier: yobit
@@ -86,6 +101,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: KICK
   market:
     identifier: yobit

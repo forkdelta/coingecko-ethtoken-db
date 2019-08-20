@@ -1,8 +1,8 @@
 ---
 address: '0xbf52F2ab39e26E0951d2a02b49B7702aBe30406a'
-coingecko_rank: 305
-coingecko_score: 35.368
-community_score: 32.069
+coingecko_rank: 304
+coingecko_score: 35.658
+community_score: 33.509
 description: >-
   ODEM, or On-Demand Education Marketplace, is a blockchain-based distributed network that allows university
   students to seamlessly interact with their professors and academic partners. Through the creation of
@@ -64,7 +64,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ODEM/
   telegram_channel_identifier: odem_io
   twitter_screen_name: ODEM_IO
-liquidity_score: 31.927
+liquidity_score: 31.9
 market_cap_rank: 106
 name: ODEM
 public_interest_score: 37.363
@@ -77,6 +77,11 @@ tickers:
   target: ETH
 - base: ODE
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: ODE
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
@@ -85,11 +90,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: ODEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: ODEM
   market:
     identifier: yobit
@@ -105,6 +105,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: ODEM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: ODEM
   market:
     identifier: yobit

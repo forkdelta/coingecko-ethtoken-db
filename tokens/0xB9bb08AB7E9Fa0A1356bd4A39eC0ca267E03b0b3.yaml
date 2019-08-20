@@ -1,8 +1,8 @@
 ---
 address: '0xB9bb08AB7E9Fa0A1356bd4A39eC0ca267E03b0b3'
-coingecko_rank: 665
-coingecko_score: 27.381
-community_score: 10.116
+coingecko_rank: 692
+coingecko_score: 27.238
+community_score: 9.573
 description: >-
   NATIVE MULTICHAIN PLATFORM
 
@@ -26,7 +26,7 @@ description: >-
 
   The smart contracts of PCHAIN can be easily invoked with other nonnative Tokens (BCH, ERC20) by using
   the provided toolkit.
-developer_score: 16.589
+developer_score: 16.588
 id: pchain
 image:
   large: https://assets.coingecko.com/coins/images/3463/large/pchainlogo.jpg?1555392068
@@ -46,8 +46,8 @@ links:
     - https://github.com/pchain-org/pchain-pub
   telegram_channel_identifier: pchain_org
   twitter_screen_name: pchain_org
-liquidity_score: 30.92
-market_cap_rank: 349
+liquidity_score: 30.591
+market_cap_rank: 344
 name: Pchain
 public_interest_score: 25.218
 symbol: pi
@@ -56,12 +56,17 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
-  target: BTC
+  target: USDT
+- base: PIBNB-43C
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: PI
   market:
-    identifier: bibox
-    name: Bibox
-  target: USDT
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: PAI
   market:
     identifier: thetokenstore
@@ -76,4 +81,24 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

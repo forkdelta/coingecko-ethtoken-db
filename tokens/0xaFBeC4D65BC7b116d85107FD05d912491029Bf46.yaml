@@ -1,8 +1,8 @@
 ---
 address: '0xaFBeC4D65BC7b116d85107FD05d912491029Bf46'
-coingecko_rank: 1123
-coingecko_score: 22.238
-community_score: 7.278
+coingecko_rank: 1163
+coingecko_score: 21.966
+community_score: 6.89
 description: >-
   ARBITRAGE TRADING
 
@@ -70,9 +70,29 @@ links:
   - https://arbitraging.co/
   telegram_channel_identifier: arbofficial
   twitter_screen_name: arbitragingco
-liquidity_score: 33.356
-market_cap_rank: 825
+liquidity_score: 32.747
+market_cap_rank: 793
 name: ARBITRAGE
 public_interest_score: 32.53
 symbol: arb
-tickers: []
+tickers:
+- base: ARB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: ARB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: ARB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: ARB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
