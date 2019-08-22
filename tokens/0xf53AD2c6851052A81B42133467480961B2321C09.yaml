@@ -1,8 +1,8 @@
 ---
 address: '0xf53AD2c6851052A81B42133467480961B2321C09'
-coingecko_rank: 2271
-coingecko_score: 13.092
-community_score: 40.748
+coingecko_rank: 2280
+coingecko_score: 12.991
+community_score: 41.065
 description: >-
   PETH represents ETH, that you put into Maker DAO smart contract to create DAI debt in the future. It
   has the rate against WETH, equals to
@@ -30,12 +30,22 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO/
   telegram_channel_identifier: makerdaoOfficial
   twitter_screen_name: MakerDAO
-liquidity_score: 1.901
-market_cap_rank: 2173
+liquidity_score: 1.0
+market_cap_rank: 2174
 name: Pooled Ether
 public_interest_score: 25.251
 symbol: peth
 tickers:
+- base: PETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: PETH
   market:
     identifier: hitbtc

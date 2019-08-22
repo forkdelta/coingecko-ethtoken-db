@@ -1,12 +1,12 @@
 ---
 address: '0x27695E09149AdC738A978e9A678F99E4c39e9eb9'
-coingecko_rank: 500
-coingecko_score: 30.774
-community_score: 37.917
+coingecko_rank: 541
+coingecko_score: 30.049
+community_score: 36.767
 description: >-
   KICKICO helps innovators, game developers, blockchain leaders, entrepreneurs, designers, and other creators
   find the resources and support they need to make their ideas a reality.
-developer_score: 19.883
+developer_score: 20.606
 id: kickico
 image:
   large: https://assets.coingecko.com/coins/images/981/large/kickcoin.png?1547975165
@@ -25,21 +25,26 @@ links:
     - https://github.com/kickico/contracts
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKecosystem
-liquidity_score: 13.282
-market_cap_rank: 637
+liquidity_score: 9.819
+market_cap_rank: 648
 name: KickCoin
 public_interest_score: 26.519
 symbol: kick
 tickers:
 - base: KICK
   market:
-    identifier: abcc
-    name: ABCC
+    identifier: bilaxy
+    name: Bilaxy
   target: BTC
 - base: KICK
   market:
     identifier: bilaxy
     name: Bilaxy
+  target: ETH
+- base: KICK
+  market:
+    identifier: bitmart
+    name: BitMart
   target: BTC
 - base: KICK
   market:
@@ -60,12 +65,22 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: RUB
+- base: KICK
+  market:
+    identifier: crex24
+    name: CREX24
   target: USD
 - base: KICK
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: KICK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: KICK
   market:
     identifier: idex
@@ -75,16 +90,21 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
+  target: ETH
 - base: KICK
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
+  target: RUR
 - base: KICK
   market:
     identifier: ooobtc
     name: OOOBTC
+  target: BTC
+- base: KICK
+  market:
+    identifier: probit
+    name: Probit
   target: BTC
 - base: KICK
   market:
@@ -93,6 +113,11 @@ tickers:
   target: ETH
 - base: KICK
   market:
+    identifier: tradeio
+    name: Trade.io
+  target: ETH
+- base: KICK
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -100,14 +125,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: KICK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
+  target: RUR
 - base: KICK
   market:
     identifier: yobit
     name: YoBit
   target: USD
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

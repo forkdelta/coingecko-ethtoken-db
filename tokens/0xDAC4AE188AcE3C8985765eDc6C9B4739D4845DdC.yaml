@@ -1,8 +1,8 @@
 ---
 address: '0xDAC4AE188AcE3C8985765eDc6C9B4739D4845DdC'
-coingecko_rank: 1967
-coingecko_score: 15.184
-community_score: 6.785
+coingecko_rank: 1942
+coingecko_score: 15.294
+community_score: 7.167
 description: >-
   InterValue aims to solve the problems such as low applicability, transaction congestion, high commissions,
   long conƉrmation latency, weak resistance to quantum attacks, poor anonymity in communication and transaction,
@@ -33,9 +33,19 @@ links:
     - https://github.com/intervalue
   telegram_channel_identifier: InterValueProject
   twitter_screen_name: intervaluepro
-liquidity_score: 10.019
-market_cap_rank: 1264
+liquidity_score: 10.048
+market_cap_rank: 1274
 name: InterValue
 public_interest_score: 24.927
 symbol: inve
-tickers: []
+tickers:
+- base: INVE
+  market:
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
+- base: INVE
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
