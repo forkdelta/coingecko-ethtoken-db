@@ -1,8 +1,8 @@
 ---
 address: '0x5c64031C62061865E5FD0F53d3CDaeF80f72E99D'
-coingecko_rank: 694
-coingecko_score: 27.219
-community_score: 33.346
+coingecko_rank: 697
+coingecko_score: 27.152
+community_score: 33.791
 description: >-
   Hashgard is a distributed, trusted asset management protocol and a high functionality next generation
   digital finance public chain.
@@ -31,9 +31,24 @@ links:
   subreddit_url: https://www.reddit.com/r/Hashgard/
   telegram_channel_identifier: hashgardeng
   twitter_screen_name: Hashgard_off
-liquidity_score: 22.773
-market_cap_rank: 480
+liquidity_score: 21.883
+market_cap_rank: 471
 name: Hashgard
 public_interest_score: 27.732
 symbol: gard
-tickers: []
+tickers:
+- base: GARD
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: GARD
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: GARD
+  market:
+    identifier: probit
+    name: Probit
+  target: ETH

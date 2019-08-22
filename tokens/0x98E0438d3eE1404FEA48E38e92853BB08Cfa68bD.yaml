@@ -1,8 +1,8 @@
 ---
 address: '0x98E0438d3eE1404FEA48E38e92853BB08Cfa68bD'
-coingecko_rank: 4816
-coingecko_score: 4.22
-community_score: 4.638
+coingecko_rank: 4778
+coingecko_score: 4.289
+community_score: 4.913
 description: >-
   tvt is a smart contract token on Ethereum platform.  Tvt is used for Reward for contributor who broadcast
   Tvt Messages on a best effort.The tvt token encourage tvt message broadcast. Tvt aims to be the most
@@ -24,7 +24,7 @@ links:
   - https://tvt.io/
   twitter_screen_name: tvtokens
 liquidity_score: 1.0
-market_cap_rank: 2074
+market_cap_rank: 2072
 name: TVT
 public_interest_score: 28.604
 symbol: tvt
@@ -33,12 +33,17 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
+  target: BTC
 - base: TVT
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
+    identifier: livecoin
+    name: Livecoin
+  target: DOGE
+- base: TVT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: TVT
   market:
     identifier: yobit
@@ -48,14 +53,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: TVT
-  market:
-    identifier: yobit
-    name: YoBit
   target: ETH
 - base: TVT
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: RUR

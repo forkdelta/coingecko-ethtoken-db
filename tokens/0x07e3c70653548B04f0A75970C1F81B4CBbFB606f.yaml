@@ -1,13 +1,13 @@
 ---
 address: '0x07e3c70653548B04f0A75970C1F81B4CBbFB606f'
-coingecko_rank: 322
-coingecko_score: 35.134
-community_score: 39.359
+coingecko_rank: 315
+coingecko_score: 35.286
+community_score: 38.527
 description: >-
   Agrello develops an AI powered interface, allowing you to easily create and manage smart-contract-based
   agreements which are legally binding, just like traditional contracts. Agrello is highly end-user oriented
   and enables anyone to create smart-contracts. No coding or legal skills required.
-developer_score: 30.397
+developer_score: 30.74
 id: agrello
 image:
   large: https://assets.coingecko.com/coins/images/900/large/Agrello.png?1558084369
@@ -27,12 +27,22 @@ links:
     - https://github.com/Agrello/Delta-Contracts-API
   subreddit_url: https://www.reddit.com/r/agrello
   twitter_screen_name: AgrelloOfficial
-liquidity_score: 17.445
-market_cap_rank: 459
+liquidity_score: 18.773
+market_cap_rank: 453
 name: Agrello
 public_interest_score: 25.591
 symbol: dlt
 tickers:
+- base: DLT
+  market:
+    identifier: binance
+    name: Binance
+  target: BNB
+- base: DLT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: DLT
   market:
     identifier: yobit
@@ -58,8 +68,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: DLT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
