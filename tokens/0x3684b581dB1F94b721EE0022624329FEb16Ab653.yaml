@@ -1,8 +1,8 @@
 ---
 address: '0x3684b581dB1F94b721EE0022624329FEb16Ab653'
-coingecko_rank: 3918
-coingecko_score: 6.388
-community_score: 6.327
+coingecko_rank: 3930
+coingecko_score: 6.254
+community_score: 6.33
 description: >-
   We build community driven software for trading automation at major crypto exchanges. Trade 24/7, increase
   your profits.
@@ -22,8 +22,8 @@ links:
   official_forum_url:
   - https://gunthy.org/forum/
   twitter_screen_name: gunbot_official
-liquidity_score: 12.019
-market_cap_rank: 3817
+liquidity_score: 11.345
+market_cap_rank: 3933
 name: GUNTHY
 public_interest_score: 24.027
 symbol: gunthy
@@ -33,6 +33,11 @@ tickers:
     identifier: bitker
     name: BITKER
   target: BTC
+- base: GUNTHY
+  market:
+    identifier: bitker
+    name: BITKER
+  target: USDT
 - base: GUNTHY
   market:
     identifier: fubt
@@ -48,3 +53,18 @@ tickers:
     identifier: idax
     name: Idax
   target: USDT
+- base: GUNTHY
+  market:
+    identifier: txbit
+    name: Txbit
+  target: BTC
+- base: GUNTHY
+  market:
+    identifier: txbit
+    name: Txbit
+  target: ETH
+- base: GUNTHY
+  market:
+    identifier: txbit
+    name: Txbit
+  target: XLR

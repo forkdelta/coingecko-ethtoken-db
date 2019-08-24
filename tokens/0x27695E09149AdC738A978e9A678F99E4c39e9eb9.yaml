@@ -1,12 +1,12 @@
 ---
 address: '0x27695E09149AdC738A978e9A678F99E4c39e9eb9'
 coingecko_rank: 541
-coingecko_score: 30.049
-community_score: 36.767
+coingecko_score: 29.767
+community_score: 36.295
 description: >-
   KICKICO helps innovators, game developers, blockchain leaders, entrepreneurs, designers, and other creators
   find the resources and support they need to make their ideas a reality.
-developer_score: 20.606
+developer_score: 19.883
 id: kickico
 image:
   large: https://assets.coingecko.com/coins/images/981/large/kickcoin.png?1547975165
@@ -25,14 +25,19 @@ links:
     - https://github.com/kickico/contracts
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKecosystem
-liquidity_score: 9.819
-market_cap_rank: 648
+liquidity_score: 10.249
+market_cap_rank: 647
 name: KickCoin
 public_interest_score: 26.519
 symbol: kick
 tickers:
 - base: KICK
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: KICK
+  market:
     identifier: bilaxy
     name: Bilaxy
   target: BTC
@@ -61,6 +66,11 @@ tickers:
     identifier: coss
     name: COSS
   target: ETH
+- base: KICK
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: KICK
   market:
     identifier: crex24
@@ -73,19 +83,14 @@ tickers:
   target: USD
 - base: KICK
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: KICK
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: KICK
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: KICK
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: KICK
   market:
     identifier: livecoin
@@ -96,6 +101,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: RUR
+- base: KICK
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: KICK
   market:
     identifier: ooobtc
@@ -125,12 +135,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: DOGE
 - base: KICK
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: ETH
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: KICK
   market:
     identifier: yobit
