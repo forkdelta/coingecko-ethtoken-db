@@ -1,7 +1,7 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 2412
-coingecko_score: 12.108
+coingecko_rank: 2336
+coingecko_score: 12.322
 community_score: 11.553
 description: >-
   Official Token of Yobit.Net Exchange
@@ -17,27 +17,12 @@ links:
   homepage:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
-liquidity_score: 31.214
-market_cap_rank: 2263
+liquidity_score: 32.286
+market_cap_rank: 2328
 name: Yobit Token
 public_interest_score: 29.769
 symbol: yo
 tickers:
-- base: YO
-  market:
-    identifier: coinsbit
-    name: Coinsbit
-  target: ETH
-- base: YO
-  market:
-    identifier: coinsbit
-    name: Coinsbit
-  target: USD
-- base: YO
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: YO
   market:
     identifier: livecoin
@@ -47,8 +32,23 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: YO
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
-- base: LTC
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: SEDO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: DASH
   market:
     identifier: yobit
     name: YoBit
@@ -63,7 +63,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: DASH
+- base: XEM
   market:
     identifier: yobit
     name: YoBit
@@ -73,7 +73,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: XEM
+- base: BCHSV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EOS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ETH
   market:
     identifier: yobit
     name: YoBit
@@ -83,17 +93,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHSV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: BCHABC
+- base: ETC
   market:
     identifier: yobit
     name: YoBit
   target: YO
 - base: NOAH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BCHABC
   market:
     identifier: yobit
     name: YoBit

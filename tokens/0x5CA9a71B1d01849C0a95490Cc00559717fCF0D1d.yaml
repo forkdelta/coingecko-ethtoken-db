@@ -1,8 +1,8 @@
 ---
 address: '0x5CA9a71B1d01849C0a95490Cc00559717fCF0D1d'
-coingecko_rank: 37
-coingecko_score: 58.403
-community_score: 43.631
+coingecko_rank: 38
+coingecko_score: 57.994
+community_score: 43.521
 description: >-
   æternity is a public, open-source blockchain protocol that enables a platform for next-generation decentralized
   applications with high scalability. Its core components are written in the functional programming language
@@ -23,7 +23,7 @@ description: >-
 
   AE tokens, the native cryptocurrency of the æternity platform, is used for both - an economic unit of
   account and as ballots in the community-driven on-chain governance votes.
-developer_score: 80.951
+developer_score: 79.552
 id: aeternity
 image:
   large: https://assets.coingecko.com/coins/images/1091/large/aeternity.png?1547035060
@@ -49,8 +49,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Aeternity
   telegram_channel_identifier: aeternity
   twitter_screen_name: aeternity
-liquidity_score: 52.395
-market_cap_rank: 68
+liquidity_score: 52.219
+market_cap_rank: 67
 name: Aeternity
 public_interest_score: 27.931
 symbol: ae
@@ -62,14 +62,19 @@ tickers:
   target: BTC
 - base: AE
   market:
-    identifier: fcoin
-    name: FCoin
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: AE
+  market:
+    identifier: exx
+    name: EXX
   target: ETH
 - base: AE
   market:
-    identifier: financex
-    name: FinanceX
-  target: VND
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: AE
   market:
     identifier: latoken
@@ -115,6 +120,11 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: ETH
+- base: AE
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: AE
   market:
     identifier: tidex

@@ -1,8 +1,8 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 732
-coingecko_score: 26.613
-community_score: 13.347
+coingecko_rank: 730
+coingecko_score: 26.526
+community_score: 12.937
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
   to <a href="https://www.coingecko.com/en/exchanges/quoine">Liquid</a>. Liquid is a global cryptocurrency
@@ -60,7 +60,7 @@ links:
   subreddit_url: https://www.reddit.com/r/QASH
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
-liquidity_score: 35.492
+liquidity_score: 35.474
 market_cap_rank: 111
 name: QASH
 public_interest_score: 27.709
@@ -75,22 +75,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
 - base: QSH
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: USD
 - base: QASH
   market:
     identifier: gate
     name: Gate.io
   target: BTC
-- base: QASH
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: QASH
   market:
     identifier: gate
@@ -111,6 +106,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: XRP
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: CRPT
   market:
     identifier: quoine
@@ -121,12 +121,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: FDX
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: FLIXX
+- base: ECH
   market:
     identifier: quoine
     name: Liquid
@@ -136,17 +131,22 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: ECH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: DENT
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: BRC
+- base: TPAY
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: FDX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: FLIXX
   market:
     identifier: quoine
     name: Liquid

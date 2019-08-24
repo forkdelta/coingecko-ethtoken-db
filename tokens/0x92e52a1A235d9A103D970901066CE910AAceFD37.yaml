@@ -1,8 +1,8 @@
 ---
 address: '0x92e52a1A235d9A103D970901066CE910AAceFD37'
-coingecko_rank: 859
-coingecko_score: 25.101
-community_score: 27.035
+coingecko_rank: 836
+coingecko_score: 25.102
+community_score: 27.029
 description: ""
 developer_score: 12.0
 id: ucash
@@ -23,7 +23,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ucash/
   twitter_screen_name: udotcash
 liquidity_score: 1.0
-market_cap_rank: 364
+market_cap_rank: 360
 name: U.CASH
 public_interest_score: 31.996
 symbol: ucash
@@ -40,6 +40,11 @@ tickers:
   target: ETH
 - base: UCASH
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: UCASH
+  market:
     identifier: c2cx
     name: C2CX
   target: BTC
@@ -52,19 +57,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
-- base: UCASH
-  market:
-    identifier: yobit
-    name: YoBit
   target: DOGE
 - base: UCASH
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: ETH
 - base: UCASH
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR

@@ -1,8 +1,8 @@
 ---
 address: '0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A'
-coingecko_rank: 121
-coingecko_score: 44.649
-community_score: 38.615
+coingecko_rank: 122
+coingecko_score: 44.406
+community_score: 38.469
 description: >-
   Digix makes it possible to buy gold in an efficient manner via cryptocurrency by providing investors
   with a tokenized version of gold so you don’t have to physically own or store it. Digix has two cryptocurrencies,
@@ -41,7 +41,7 @@ description: >-
   2018, DGD reached an all-time high of over 400 dollars. When Digix finally delivers the DGX tokens and
   the rewards to DGD participants start rolling in, we might see an even higher demand for DigixDAO. When
   DGX goes live, it will be available for purchase with Ether on the Digix marketplace.
-developer_score: 46.966
+developer_score: 46.565
 id: digixdao
 image:
   large: https://assets.coingecko.com/coins/images/397/large/dgd.png?1547034124
@@ -68,17 +68,22 @@ links:
     - https://github.com/DigixGlobal/dijix
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
-liquidity_score: 34.897
-market_cap_rank: 105
+liquidity_score: 34.412
+market_cap_rank: 101
 name: DigixDAO
 public_interest_score: 28.208
 symbol: dgd
 tickers:
 - base: DGD
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: DGD
+  market:
     identifier: atomars
     name: Atomars
-  target: USDT
+  target: ETH
 - base: DGD
   market:
     identifier: bigone
@@ -86,14 +91,19 @@ tickers:
   target: BTC
 - base: DGD
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: DGD
-  market:
     identifier: dextrade
     name: Dex-Trade
+  target: ETH
+- base: DGD
+  market:
+    identifier: gate
+    name: Gate.io
   target: USDT
+- base: DGD
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: DGD
   market:
     identifier: livecoin
@@ -104,3 +114,13 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH

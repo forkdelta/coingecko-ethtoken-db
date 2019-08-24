@@ -1,8 +1,8 @@
 ---
 address: '0x2008e3057BD734e10AD13c9EAe45Ff132aBc1722'
-coingecko_rank: 750
-coingecko_score: 26.406
-community_score: 17.013
+coingecko_rank: 752
+coingecko_score: 26.243
+community_score: 16.631
 description: >-
   Zebi is a young and innovative organization founded, mentored and managed by Oxford, MIT, Stanford,
   and IIT veterans and thought leaders from Silicon Valley with experience in Google, Uber, Amazon, Microsoft,
@@ -29,7 +29,7 @@ description: >-
   critical records, coupled with a central hub called Zebi Data Gateway which enables secure and instant
   data exchange through Data-as-a-Service (DaaS) APIs. Zebi’s innovative, proprietary solution set is
   one of the first in industry and is patent pending.
-developer_score: 16.573
+developer_score: 16.192
 id: zebi
 image:
   large: https://assets.coingecko.com/coins/images/2756/large/zebi.png?1548761131
@@ -48,17 +48,22 @@ links:
     - https://github.com/zebidata/zebicrowdsale
   telegram_channel_identifier: ZebiData
   twitter_screen_name: ZebidataIndia
-liquidity_score: 19.624
-market_cap_rank: 584
+liquidity_score: 19.829
+market_cap_rank: 598
 name: Zebi
 public_interest_score: 28.54
 symbol: zco
 tickers:
-- base: ZEBI-84F
+- base: ZCO
   market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: ZCO
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: ZCO
   market:
     identifier: coineal
@@ -79,6 +84,11 @@ tickers:
     identifier: cointiger
     name: CoinTiger
   target: ETH
+- base: ZCO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: ZCO
   market:
     identifier: latoken
@@ -89,6 +99,11 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: ZCO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
 - base: ZCO
   market:
     identifier: wazirx
