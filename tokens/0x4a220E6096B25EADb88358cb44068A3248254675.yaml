@@ -43,7 +43,7 @@ links:
   telegram_channel_identifier: quantnetworkannouncements
   twitter_screen_name: quant_network
 liquidity_score: 40.048
-market_cap_rank: 79
+market_cap_rank: 73
 name: Quant
 public_interest_score: 34.127
 symbol: qnt
@@ -70,6 +70,16 @@ tickers:
   target: ETH
 - base: QNT
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
+- base: QNT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: USDT
+- base: QNT
+  market:
     identifier: eterbase
     name: Eterbase
   target: XBASE
@@ -77,4 +87,9 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: QNT
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: ETH

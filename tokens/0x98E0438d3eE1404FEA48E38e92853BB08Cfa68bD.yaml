@@ -24,7 +24,7 @@ links:
   - https://tvt.io/
   twitter_screen_name: tvtokens
 liquidity_score: 1.0
-market_cap_rank: 2134
+market_cap_rank: 2099
 name: TVT
 public_interest_score: 28.604
 symbol: tvt
@@ -38,17 +38,22 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
+  target: DOGE
 - base: TVT
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: TVT
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: TVT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: TVT
   market:
     identifier: yobit
@@ -59,3 +64,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: TVT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

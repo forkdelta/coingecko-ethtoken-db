@@ -42,8 +42,23 @@ links:
   telegram_channel_identifier: digitexfutureschat
   twitter_screen_name: DigitexFutures
 liquidity_score: 32.292
-market_cap_rank: 118
+market_cap_rank: 116
 name: Digitex Futures Exchange
 public_interest_score: 25.775
 symbol: dgtx
-tickers: []
+tickers:
+- base: DGTX
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: DGTX
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: DGTX
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
