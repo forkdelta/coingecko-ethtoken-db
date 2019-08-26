@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
 liquidity_score: 25.246
-market_cap_rank: 123
+market_cap_rank: 122
 name: Dent
 public_interest_score: 32.395
 symbol: dent
 tickers:
+- base: DENT
+  market:
+    identifier: bitbox
+    name: BITBOX
+  target: BTC
 - base: DENT
   market:
     identifier: coinzest
@@ -42,8 +47,23 @@ tickers:
   target: ETH
 - base: DENT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: DENT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DENT
+  market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: DENT
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: BTC
 - base: DENT
   market:
@@ -64,14 +84,24 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
+  target: BTC
+- base: DENT
+  market:
+    identifier: quoine
+    name: Liquid
   target: QASH
 - base: DENT
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: BTC
 - base: DENT
   market:
-    identifier: wazirx
-    name: WazirX
-  target: INR
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: DENT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY

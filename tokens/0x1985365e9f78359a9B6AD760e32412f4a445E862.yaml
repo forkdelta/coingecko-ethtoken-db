@@ -104,18 +104,13 @@ tickers:
   target: KRW
 - base: REP
   market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: REP
   market:
     identifier: crex24
     name: CREX24
-  target: BTC
-- base: REP
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: BTC
 - base: REP
   market:
@@ -141,11 +136,6 @@ tickers:
   market:
     identifier: independent_reserve
     name: Independent Reserve
-  target: AUD
-- base: REP
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
   target: NZD
 - base: REP
   market:
@@ -157,6 +147,11 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: REP
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: REP
   market:
     identifier: radar_relay

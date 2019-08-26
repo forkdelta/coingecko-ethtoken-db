@@ -72,6 +72,11 @@ symbol: ode
 tickers:
 - base: ODE
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ODE
+  market:
     identifier: bitmart
     name: BitMart
   target: ETH
@@ -120,13 +125,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: ODEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: ODEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

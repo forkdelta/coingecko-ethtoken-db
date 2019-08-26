@@ -48,7 +48,7 @@ links:
   telegram_channel_identifier: sirinlabs
   twitter_screen_name: sirinlabs
 liquidity_score: 18.638
-market_cap_rank: 354
+market_cap_rank: 352
 name: Sirin Labs Token
 public_interest_score: 28.573
 symbol: srn
@@ -65,23 +65,13 @@ tickers:
   target: BSC
 - base: SRN
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: SRN
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: ETH
-- base: SRN
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SRN
-  market:
-    identifier: kucoin
-    name: KuCoin
   target: ETH
 - base: SRN
   market:
@@ -98,8 +88,3 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: SRN
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH

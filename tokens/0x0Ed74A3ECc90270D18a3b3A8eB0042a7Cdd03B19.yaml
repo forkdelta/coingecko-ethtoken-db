@@ -28,8 +28,18 @@ links:
     - https://github.com/minexcoin/minexcoin
   twitter_screen_name: MINEX_team
 liquidity_score: 1.0
-market_cap_rank: 2473
+market_cap_rank: 2435
 name: Minex
 public_interest_score: 24.999
 symbol: minex
-tickers: []
+tickers:
+- base: MINEX
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: MINEX
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH

@@ -49,11 +49,16 @@ links:
   telegram_channel_identifier: consensus_ai
   twitter_screen_name: consensus_ai
 liquidity_score: 1.0
-market_cap_rank: 927
+market_cap_rank: 910
 name: Consensus
 public_interest_score: 36.122
 symbol: sen
 tickers:
+- base: SEN
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
 - base: SEN
   market:
     identifier: ethfinex
@@ -63,4 +68,14 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: SEN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: SEN
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
