@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: propy
   twitter_screen_name: PropyInc
 liquidity_score: 21.59
-market_cap_rank: 270
+market_cap_rank: 272
 name: Propy
 public_interest_score: 25.776
 symbol: pro
-tickers: []
+tickers:
+- base: PRO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: PRO
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD

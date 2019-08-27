@@ -26,7 +26,7 @@ links:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
 liquidity_score: 18.512
-market_cap_rank: 3248
+market_cap_rank: 4461
 name: Wrapped Bitcoin
 public_interest_score: 37.371
 symbol: wbtc
@@ -40,7 +40,17 @@ tickers:
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
+  target: DAI
+- base: WBTC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
   target: USDC
+- base: WBTC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: WBTC
   market:
     identifier: ddex
@@ -60,11 +70,6 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: DAI
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: DAI
 - base: ETH
   market:

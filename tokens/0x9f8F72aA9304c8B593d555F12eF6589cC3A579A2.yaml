@@ -75,11 +75,6 @@ tickers:
   target: WETH
 - base: MKR
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: MKR
-  market:
     identifier: bitbay
     name: BitBay
   target: BTC
@@ -90,19 +85,14 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: ddex
-    name: DDEX
-  target: DAI
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
 - base: MKR
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: MKR
   market:
     identifier: gate
@@ -130,6 +120,16 @@ tickers:
   target: USDT
 - base: MKR
   market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: MKR
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: MKR
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
@@ -143,11 +143,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
 - base: MKR
   market:
     identifier: sistemkoin
