@@ -42,7 +42,7 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 21.674
-market_cap_rank: 285
+market_cap_rank: 278
 name: Request
 public_interest_score: 44.134
 symbol: req
@@ -89,6 +89,11 @@ tickers:
   target: ETH
 - base: REQ
   market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: REQ
+  market:
     identifier: wazirx
     name: WazirX
   target: BTC
@@ -117,8 +122,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: REQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

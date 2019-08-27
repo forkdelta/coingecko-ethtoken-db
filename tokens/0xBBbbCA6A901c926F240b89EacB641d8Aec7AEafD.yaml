@@ -91,6 +91,11 @@ symbol: lrc
 tickers:
 - base: LRC
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: LRC
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
@@ -106,6 +111,11 @@ tickers:
   target: ETH
 - base: LRC
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: LRC
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
@@ -116,9 +126,24 @@ tickers:
   target: BTC
 - base: LRC
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: LRC
+  market:
     identifier: otcbtc
     name: OTCBTC
   target: ETH
+- base: LRC
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: LRC
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: LRC
   market:
     identifier: yobit

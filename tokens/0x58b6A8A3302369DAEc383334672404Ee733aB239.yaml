@@ -71,11 +71,16 @@ links:
   subreddit_url: https://www.reddit.com/r/livepeer
   twitter_screen_name: LivepeerOrg
 liquidity_score: 13.482
-market_cap_rank: 2870
+market_cap_rank: 2883
 name: Livepeer
 public_interest_score: 27.934
 symbol: lpt
 tickers:
+- base: LPT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: LPT
   market:
     identifier: biki
@@ -85,9 +90,4 @@ tickers:
   market:
     identifier: ddex
     name: DDEX
-  target: WETH
-- base: LPT
-  market:
-    identifier: tokenjar
-    name: TokenJar
   target: WETH

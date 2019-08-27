@@ -63,6 +63,16 @@ symbol: poly
 tickers:
 - base: POLY
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: POLY
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: POLY
+  market:
     identifier: coinzest
     name: Coinzest
   target: KRW
@@ -70,17 +80,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
-- base: POY
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: POLY
   market:
     identifier: idex
@@ -93,8 +93,8 @@ tickers:
   target: ETH
 - base: POLY
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: upbit
+    name: Upbit
   target: ETH
 - base: POLY
   market:
