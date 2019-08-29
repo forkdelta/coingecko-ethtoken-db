@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: orbs_network
   twitter_screen_name: orbs_network
 liquidity_score: 23.802
-market_cap_rank: 4792
+market_cap_rank: 4810
 name: Orbs
 public_interest_score: 29.795
 symbol: orbs
@@ -39,6 +39,11 @@ tickers:
     identifier: bilaxy
     name: Bilaxy
   target: BTC
+- base: ORBS
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: ORBS
   market:
     identifier: bitsonic
@@ -58,9 +63,19 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: BTC
+- base: ORBS
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: ORBS
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: ORBS
+  market:
+    identifier: quoine
+    name: Liquid
   target: ETH

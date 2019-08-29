@@ -67,11 +67,16 @@ links:
   telegram_channel_identifier: relex_core
   twitter_screen_name: RelexTalk
 liquidity_score: 1.0
-market_cap_rank: 936
+market_cap_rank: 1074
 name: Relex
 public_interest_score: 41.122
 symbol: rlx
 tickers:
+- base: RLX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: RLX
   market:
     identifier: latoken
@@ -81,9 +86,4 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: RLX
-  market:
-    identifier: stocks_exchange
-    name: STEX
   target: ETH

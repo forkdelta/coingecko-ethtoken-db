@@ -69,19 +69,34 @@ symbol: storm
 tickers:
 - base: STORM
   market:
-    identifier: airswap
-    name: AirSwap
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: STORM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: STORM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: STORM
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: STORM
+  market:
+    identifier: upbit
+    name: Upbit
   target: ETH
 - base: STORM
   market:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: STORM
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: INR
 - base: STORM
   market:
     identifier: wazirx
@@ -101,14 +116,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: STORM
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: STORM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -1,6 +1,6 @@
 ---
 address: '0x3684b581dB1F94b721EE0022624329FEb16Ab653'
-coingecko_rank: 3929
+coingecko_rank: 3928
 coingecko_score: 6.254
 community_score: 6.33
 description: >-
@@ -23,7 +23,7 @@ links:
   - https://gunthy.org/forum/
   twitter_screen_name: gunbot_official
 liquidity_score: 11.345
-market_cap_rank: 3970
+market_cap_rank: 3986
 name: GUNTHY
 public_interest_score: 24.027
 symbol: gunthy
@@ -32,7 +32,17 @@ tickers:
   market:
     identifier: bitker
     name: BITKER
+  target: BTC
+- base: GUNTHY
+  market:
+    identifier: bitker
+    name: BITKER
   target: USDT
+- base: GUNTHY
+  market:
+    identifier: fubt
+    name: FUBT
+  target: BTC
 - base: GUNTHY
   market:
     identifier: idax

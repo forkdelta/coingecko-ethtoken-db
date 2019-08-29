@@ -29,8 +29,23 @@ links:
   telegram_channel_identifier: cajutel
   twitter_screen_name: cajutel
 liquidity_score: 6.309
-market_cap_rank: 5286
+market_cap_rank: 5308
 name: Cajutel
 public_interest_score: 24.89
 symbol: caj
-tickers: []
+tickers:
+- base: CAJ
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CAJ
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: CAJ
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: USDC

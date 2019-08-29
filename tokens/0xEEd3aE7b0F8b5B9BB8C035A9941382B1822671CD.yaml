@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: aaron_platform
   twitter_screen_name: AaronJin20
 liquidity_score: 22.859
-market_cap_rank: 4517
+market_cap_rank: 4535
 name: EveryCoin
 public_interest_score: 26.941
 symbol: evy
 tickers:
+- base: EVY
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: EVY
   market:
     identifier: idcm
@@ -71,11 +76,6 @@ tickers:
   market:
     identifier: oex
     name: OEX
-  target: BTC
-- base: EVY
-  market:
-    identifier: oex
-    name: OEX
   target: ETH
 - base: EVY
   market:
@@ -92,13 +92,3 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: EVY
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: EVY
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH

@@ -41,11 +41,21 @@ links:
   telegram_channel_identifier: SpendChat
   twitter_screen_name: SpendFoundation
 liquidity_score: 28.15
-market_cap_rank: 609
+market_cap_rank: 644
 name: Spendcoin
 public_interest_score: 26.974
 symbol: spnd
 tickers:
+- base: SPND
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: SPNDB-916
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: SPND
   market:
     identifier: bitsonic
@@ -56,6 +66,11 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: USD
+- base: SPND
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
 - base: SPND
   market:
     identifier: kucoin

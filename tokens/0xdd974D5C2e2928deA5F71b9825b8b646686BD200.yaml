@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 44.774
-market_cap_rank: 125
+market_cap_rank: 132
 name: Kyber Network
 public_interest_score: 31.199
 symbol: knc
@@ -78,19 +78,9 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: bitkub
-    name: Bitkub
-  target: THB
-- base: KNC
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: KNC
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
+    identifier: coinone
+    name: Coinone
+  target: KRW
 - base: KNC
   market:
     identifier: coss
@@ -110,7 +100,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: KNC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
+- base: KNC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: KNC
   market:
     identifier: forkdelta
@@ -118,9 +118,19 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: KNC
   market:
     identifier: idex
@@ -128,9 +138,24 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: KNC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: KNC
+  market:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
+- base: KNC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
 - base: KNC
   market:
     identifier: switcheo
@@ -138,11 +163,6 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: KNC
-  market:
     identifier: zb
     name: ZB
-  target: USDT
+  target: QC

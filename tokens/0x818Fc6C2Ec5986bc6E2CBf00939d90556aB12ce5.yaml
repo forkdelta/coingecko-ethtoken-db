@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 39.862
-market_cap_rank: 342
+market_cap_rank: 380
 name: Kin
 public_interest_score: 34.397
 symbol: kin
@@ -104,8 +104,13 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: bitforex
-    name: Bitforex
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: KIN
+  market:
+    identifier: coss
+    name: COSS
   target: ETH
 - base: KIN
   market:
@@ -122,11 +127,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: KIN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: 568637D4-2B03-4F66-972E-B947A40F2771
   market:
     identifier: lykke
@@ -149,19 +149,9 @@ tickers:
   target: BTC
 - base: KIN
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: LTC
-- base: KIN
-  market:
     identifier: p2pb2b
     name: P2PB2B
   target: BTC
-- base: KIN
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
 - base: KIN
   market:
     identifier: uniswap

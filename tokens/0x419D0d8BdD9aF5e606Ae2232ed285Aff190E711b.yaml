@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 15.477
-market_cap_rank: 170
+market_cap_rank: 182
 name: FunFair
 public_interest_score: 30.228
 symbol: fun
@@ -69,9 +69,14 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
+    identifier: altilly
+    name: Altilly
+  target: DOGE
+- base: FUN
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
 - base: FUN
   market:
     identifier: c2cx
@@ -79,29 +84,14 @@ tickers:
   target: LONG
 - base: FUN
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: FUN
-  market:
     identifier: gate
     name: Gate.io
   target: ETH
 - base: FUN
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: FUN
-  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: FUN
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
 - base: FUN
   market:
     identifier: wazirx

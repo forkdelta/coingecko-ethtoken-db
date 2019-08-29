@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
 liquidity_score: 37.917
-market_cap_rank: 233
+market_cap_rank: 242
 name: Mithril
 public_interest_score: 33.256
 symbol: mith
@@ -77,24 +77,19 @@ tickers:
   target: DOGE
 - base: MITH
   market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: MITH-C76
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: MITH
+  market:
     identifier: bitopro
     name: BitoPro
   target: TWD
-- base: MITH
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: MITH
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: MITH
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: ETH
 - base: MITH
   market:
     identifier: dove_wallet
@@ -114,6 +109,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: MIT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: MIT
   market:
@@ -122,16 +122,6 @@ tickers:
   target: USD
 - base: MITH
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MITH
-  market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
-- base: MITH
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -139,14 +129,4 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
-- base: MITH
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: BTC
-- base: MITH
-  market:
-    identifier: tradeio
-    name: Trade.io
   target: ETH

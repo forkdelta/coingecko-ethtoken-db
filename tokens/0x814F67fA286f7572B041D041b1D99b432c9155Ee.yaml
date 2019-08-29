@@ -29,11 +29,21 @@ links:
   telegram_channel_identifier: DragonOfficialENG
   twitter_screen_name: DragonCoin
 liquidity_score: 4.903
-market_cap_rank: 2254
+market_cap_rank: 2251
 name: Dragon Coin
 public_interest_score: 30.994
 symbol: drg
 tickers:
+- base: DRG
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DRG
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: DRG
   market:
     identifier: quoine
@@ -41,11 +51,6 @@ tickers:
   target: BTC
 - base: DRG
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: DRG
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+    identifier: quoine
+    name: Liquid
+  target: ETH

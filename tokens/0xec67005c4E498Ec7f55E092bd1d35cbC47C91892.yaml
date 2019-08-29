@@ -58,16 +58,11 @@ links:
   telegram_channel_identifier: melonport
   twitter_screen_name: melonport
 liquidity_score: 1.0
-market_cap_rank: 497
+market_cap_rank: 507
 name: Melon
 public_interest_score: 36.535
 symbol: mln
 tickers:
-- base: MLN
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
 - base: MLN
   market:
     identifier: ethfinex
@@ -82,6 +77,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: MLN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: MLN
   market:
