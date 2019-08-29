@@ -23,11 +23,16 @@ links:
   telegram_channel_identifier: comsaio
   twitter_screen_name: comsaglobal
 liquidity_score: 0.0
-market_cap_rank: 3992
+market_cap_rank: 4008
 name: COMSA
 public_interest_score: 26.864
 symbol: cms
 tickers:
+- base: CMS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: CMS
   market:
     identifier: yobit
@@ -37,9 +42,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: CMS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+  target: WAVES

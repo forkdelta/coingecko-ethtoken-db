@@ -51,16 +51,16 @@ tickers:
     identifier: coinbene
     name: CoinBene
   target: BTC
-- base: NCA
+- base: NCASH
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: crex24
+    name: CREX24
   target: BTC
 - base: NCA
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: BTC
 - base: NCA
   market:
     identifier: ethfinex
@@ -86,3 +86,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: NCASH
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

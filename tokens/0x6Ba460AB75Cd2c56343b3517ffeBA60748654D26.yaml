@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: Uptoken
   twitter_screen_name: uptoken
 liquidity_score: 1.0
-market_cap_rank: 977
+market_cap_rank: 991
 name: UpToken
 public_interest_score: 25.062
 symbol: up
-tickers: []
+tickers:
+- base: UP
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: UP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

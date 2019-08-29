@@ -79,34 +79,9 @@ symbol: link
 tickers:
 - base: LINK
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: LINK
-  market:
-    identifier: bitmax
-    name: BitMax
-  target: ETH
-- base: LINK
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: LINK
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LINK
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: LINK
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: bitbay
+    name: BitBay
+  target: BTC
 - base: LINK
   market:
     identifier: sistemkoin
@@ -116,4 +91,9 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: USDT
+- base: LINK
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

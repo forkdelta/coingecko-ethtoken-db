@@ -38,11 +38,16 @@ links:
   telegram_channel_identifier: reservecurrency
   twitter_screen_name: reserveprotocol
 liquidity_score: 39.967
-market_cap_rank: 184
+market_cap_rank: 176
 name: Reserve Rights Token
 public_interest_score: 44.392
 symbol: rsr
 tickers:
+- base: RSR
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: RSR
   market:
     identifier: coin_exchange
@@ -52,4 +57,9 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: ETH
+- base: RSR
+  market:
+    identifier: eterbase
+    name: Eterbase
   target: ETH

@@ -57,8 +57,23 @@ links:
   telegram_channel_identifier: perlinnetworkchat
   twitter_screen_name: PerlinNetwork
 liquidity_score: 0.0
-market_cap_rank: 125
+market_cap_rank: 131
 name: Perlin
 public_interest_score: 0.0
 symbol: perl
-tickers: []
+tickers:
+- base: PERL
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: PERL
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: PERL
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: USDT

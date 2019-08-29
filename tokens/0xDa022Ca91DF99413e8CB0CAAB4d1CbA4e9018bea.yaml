@@ -1,6 +1,6 @@
 ---
 address: '0xDa022Ca91DF99413e8CB0CAAB4d1CbA4e9018bea'
-coingecko_rank: 3767
+coingecko_rank: 3766
 coingecko_score: 6.714
 community_score: 3.202
 description: >-
@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: JMT555
   twitter_screen_name: JMT_Blockchain
 liquidity_score: 17.246
-market_cap_rank: 3710
+market_cap_rank: 3728
 name: JMTIME
 public_interest_score: 24.646
 symbol: jmt
-tickers: []
+tickers:
+- base: JMT
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: JMT
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT

@@ -1,6 +1,6 @@
 ---
 address: '0xe96F2c381E267a96C29bbB8ab05AB7d3527b45Ab'
-coingecko_rank: 3881
+coingecko_rank: 3880
 coingecko_score: 6.418
 community_score: 15.004
 description: >-
@@ -20,22 +20,27 @@ links:
   telegram_channel_identifier: satoexchange_official
   twitter_screen_name: satoexchange
 liquidity_score: 1.0
-market_cap_rank: 3795
+market_cap_rank: 2856
 name: SatoExchange Token
 public_interest_score: 24.672
 symbol: satx
 tickers:
 - base: SATX
   market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: SATX
+  market:
     identifier: altmarkets
     name: Altmarkets
   target: BTC
-- base: BCH
+- base: SATX
   market:
     identifier: satoexchange
     name: SatoExchange
-  target: SATX
-- base: XRT
+  target: BTC
+- base: BCH
   market:
     identifier: satoexchange
     name: SatoExchange
@@ -51,6 +56,16 @@ tickers:
     name: SatoExchange
   target: SATX
 - base: BTCG
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX
+- base: STQ
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX
+- base: XRT
   market:
     identifier: satoexchange
     name: SatoExchange
