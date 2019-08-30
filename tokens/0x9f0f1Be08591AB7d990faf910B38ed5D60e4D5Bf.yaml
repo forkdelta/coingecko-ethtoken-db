@@ -27,7 +27,7 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 10.909
-market_cap_rank: 1019
+market_cap_rank: 1061
 name: MainCoin
 public_interest_score: 27.412
 symbol: mnc
@@ -49,14 +49,9 @@ tickers:
   target: ETH
 - base: MNC
   market:
-    identifier: bitfex
-    name: Bitfex
-  target: RUR
-- base: MNC
-  market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
+    identifier: biki
+    name: Biki
+  target: USDT
 - base: MNC
   market:
     identifier: bitker
@@ -77,11 +72,6 @@ tickers:
     identifier: btc_alpha
     name: BTC-Alpha
   target: ETH
-- base: MNC
-  market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: USD
 - base: MNC
   market:
     identifier: btc_alpha
@@ -156,6 +146,11 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: ETH
+- base: MNC
+  market:
+    identifier: stocks_exchange
+    name: STEX
   target: ETH
 - base: MNC
   market:

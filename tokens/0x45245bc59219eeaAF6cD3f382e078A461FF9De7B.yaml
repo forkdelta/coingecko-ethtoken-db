@@ -38,11 +38,16 @@ links:
   telegram_channel_identifier: bankex
   twitter_screen_name: BANKEX
 liquidity_score: 17.713
-market_cap_rank: 805
+market_cap_rank: 780
 name: BANKEX
 public_interest_score: 26.07
 symbol: bkx
 tickers:
+- base: AUDT
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: BKX
 - base: BKX
   market:
     identifier: forkdelta
@@ -53,8 +58,3 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: BKX
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

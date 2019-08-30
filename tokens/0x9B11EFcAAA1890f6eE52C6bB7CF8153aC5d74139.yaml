@@ -26,18 +26,23 @@ links:
   subreddit_url: https://www.reddit.com/r/ATMChain
   twitter_screen_name: ATMChainDev
 liquidity_score: 1.0
-market_cap_rank: 1317
+market_cap_rank: 1300
 name: ATMChain
 public_interest_score: 25.423
 symbol: atm
 tickers:
 - base: ATM
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: ATM
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: BITCNY
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: ATM
+- base: BTS
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: ATM

@@ -24,7 +24,7 @@ links:
   telegram_channel_identifier: FingerPrintCoin
   twitter_screen_name: fingerprintcoin
 liquidity_score: 1.0
-market_cap_rank: 1975
+market_cap_rank: 1970
 name: FingerPrint
 public_interest_score: 39.381
 symbol: fgp
@@ -61,6 +61,11 @@ tickers:
   target: ETH
 - base: FGP
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: FGP
+  market:
     identifier: satoexchange
     name: SatoExchange
   target: BTC
@@ -69,3 +74,8 @@ tickers:
     identifier: satoexchange
     name: SatoExchange
   target: ETH
+- base: FGP
+  market:
+    identifier: worldcore
+    name: Worldcore
+  target: BTC

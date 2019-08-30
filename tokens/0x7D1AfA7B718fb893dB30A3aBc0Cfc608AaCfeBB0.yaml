@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: maticnetwork
   twitter_screen_name: maticnetwork
 liquidity_score: 52.911
-market_cap_rank: 132
+market_cap_rank: 134
 name: Matic Network
 public_interest_score: 29.911
 symbol: matic
@@ -50,14 +50,24 @@ tickers:
   target: BNB
 - base: MATIC
   market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: MATIC
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH
+- base: MATIC
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: MATIC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: hpx
+    name: HPX
+  target: CNYT
 - base: MATIC
   market:
     identifier: uniswap
