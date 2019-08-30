@@ -40,11 +40,16 @@ links:
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
 liquidity_score: 42.234
-market_cap_rank: 169
+market_cap_rank: 170
 name: Fetch.AI
 public_interest_score: 28.605
 symbol: fet
 tickers:
+- base: FET
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: FET
   market:
     identifier: crypto_bridge
@@ -55,6 +60,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: FET
+  market:
+    identifier: hpx
+    name: HPX
+  target: CNYT
 - base: FET
   market:
     identifier: wazirx

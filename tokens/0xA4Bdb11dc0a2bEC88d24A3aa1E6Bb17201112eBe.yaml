@@ -31,18 +31,23 @@ links:
   - https://www.stably.io/
   twitter_screen_name: StablyCoin
 liquidity_score: 29.961
-market_cap_rank: 431
+market_cap_rank: 429
 name: StableUSD
 public_interest_score: 26.986
 symbol: USDS
 tickers:
-- base: USDSB
+- base: USDS
   market:
     identifier: binance
     name: Binance
-  target: USDS
+  target: PAX
 - base: USDS
   market:
     identifier: bittrex
     name: Bittrex
+  target: USD
+- base: USDS
+  market:
+    identifier: crex24
+    name: CREX24
   target: USD

@@ -1,6 +1,6 @@
 ---
 address: '0xD4f6f9Ae14399fD5Eb8DFc7725F0094a1A7F5d80'
-coingecko_rank: 5267
+coingecko_rank: 5266
 coingecko_score: 2.892
 community_score: 0.0
 description: >-
@@ -26,6 +26,11 @@ name: Bitsten Token
 public_interest_score: 24.759
 symbol: bst
 tickers:
+- base: GOLD
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
 - base: DOGE
   market:
     identifier: bitsten
@@ -51,8 +56,3 @@ tickers:
     identifier: vindax
     name: Vindax
   target: BTC
-- base: BST
-  market:
-    identifier: vindax
-    name: Vindax
-  target: ETH

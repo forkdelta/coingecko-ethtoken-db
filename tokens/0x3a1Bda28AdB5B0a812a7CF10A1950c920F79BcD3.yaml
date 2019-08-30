@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: flip_token
   twitter_screen_name: gameflip
 liquidity_score: 1.0
-market_cap_rank: 918
+market_cap_rank: 900
 name: Gameflip
 public_interest_score: 27.639
 symbol: flp
 tickers:
+- base: FLP
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
 - base: FLP
   market:
     identifier: hitbtc
@@ -58,3 +63,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: FLP
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC

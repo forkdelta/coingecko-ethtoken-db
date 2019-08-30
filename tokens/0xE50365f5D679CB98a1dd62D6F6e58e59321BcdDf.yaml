@@ -42,7 +42,7 @@ links:
   telegram_channel_identifier: latoken
   twitter_screen_name: latokens
 liquidity_score: 37.971
-market_cap_rank: 392
+market_cap_rank: 404
 name: LATOKEN
 public_interest_score: 30.422
 symbol: la
@@ -57,12 +57,22 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: CPT
+- base: FSHN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: AVINOC
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
 - base: EVY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: CPT
   market:
     identifier: latoken
     name: LATOKEN
@@ -77,17 +87,12 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: AVINOC
+- base: KNT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
 - base: HOT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: FSHN
   market:
     identifier: latoken
     name: LATOKEN

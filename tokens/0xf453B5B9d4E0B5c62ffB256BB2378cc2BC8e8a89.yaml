@@ -37,11 +37,16 @@ links:
   telegram_channel_identifier: markspaceio
   twitter_screen_name: markspaceio
 liquidity_score: 8.324
-market_cap_rank: 3246
+market_cap_rank: 3240
 name: MARK.SPACE
 public_interest_score: 39.196
 symbol: mrk
 tickers:
+- base: MRK
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
 - base: MRK
   market:
     identifier: btc_alpha
@@ -56,6 +61,16 @@ tickers:
   market:
     identifier: coss
     name: COSS
+  target: ETH
+- base: MRK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: MRK
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: MRK
   market:
