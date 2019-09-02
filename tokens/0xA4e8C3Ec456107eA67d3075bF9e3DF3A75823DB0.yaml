@@ -1,8 +1,8 @@
 ---
 address: '0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0'
-coingecko_rank: 149
-coingecko_score: 42.272
-community_score: 9.556
+coingecko_rank: 162
+coingecko_score: 42.031
+community_score: 9.559
 description: >-
   The Next-Generation Blockchain Application Platform for Ethereum.
 
@@ -31,7 +31,7 @@ description: >-
 
   We built the world’s first Plasma Cash implementation, which allows Ethereum-based tokens to be used
   on Loom sidechains with the full security guarantees of Ethereum.
-developer_score: 68.664
+developer_score: 67.114
 id: loom-network
 image:
   large: https://assets.coingecko.com/coins/images/3387/large/1_K76UVoLq-FOL7l-_Fag-Qw_2x.png?1547038040
@@ -50,10 +50,10 @@ links:
     - https://github.com/loomnetwork/loom-js
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
-liquidity_score: 33.913
-market_cap_rank: 174
+liquidity_score: 35.185
+market_cap_rank: 171
 name: Loom Network
-public_interest_score: 30.034
+public_interest_score: 29.556
 symbol: loom
 tickers:
 - base: LOOM
@@ -78,24 +78,19 @@ tickers:
   target: ETH
 - base: LOOM
   market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: LOOM
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: LOO
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: LOO
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: LOOM
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: LOOM
   market:
     identifier: hitbtc
@@ -108,11 +103,16 @@ tickers:
   target: ETH
 - base: LOOM
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: LOOM
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: LOOM
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC

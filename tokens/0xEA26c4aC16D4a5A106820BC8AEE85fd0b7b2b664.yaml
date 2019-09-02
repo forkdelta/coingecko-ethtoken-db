@@ -1,8 +1,8 @@
 ---
 address: '0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664'
-coingecko_rank: 60
-coingecko_score: 53.026
-community_score: 36.787
+coingecko_rank: 64
+coingecko_score: 53.977
+community_score: 36.803
 description: >-
   QuarkChain is a secure, permission-less, scalable, and decentralized blockchain. One of the goals of
   QuarkChain is to utilize sharding technology to deliver over 1 million transactions per second (tps).
@@ -66,7 +66,7 @@ description: >-
 
   5. Simple account management: There is only one account needed for the entire blockchain (shards) in
   QuarkChain. All cryptocurrencies from different shards are stored in one smart wallet.
-developer_score: 76.816
+developer_score: 76.235
 id: quark-chain
 image:
   large: https://assets.coingecko.com/coins/images/3849/large/quarkchain.png?1548387524
@@ -92,10 +92,10 @@ links:
   subreddit_url: https://www.reddit.com/r/quarkchainio/
   telegram_channel_identifier: quarkchainio
   twitter_screen_name: Quark_Chain
-liquidity_score: 41.211
+liquidity_score: 46.669
 market_cap_rank: 88
 name: QuarkChain
-public_interest_score: 26.696
+public_interest_score: 26.273
 symbol: qkc
 tickers:
 - base: QKC
@@ -105,6 +105,11 @@ tickers:
   target: ETH
 - base: QKC
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: QKC
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -112,21 +117,11 @@ tickers:
   market:
     identifier: financex
     name: FinanceX
-  target: BTC
-- base: QKC
-  market:
-    identifier: financex
-    name: FinanceX
-  target: IDR
-- base: QKC
-  market:
-    identifier: financex
-    name: FinanceX
   target: VND
 - base: QKC
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: gate
+    name: Gate.io
   target: BTC
 - base: QKC
   market:
@@ -143,11 +138,6 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: QKC
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
 - base: QKC
   market:
     identifier: wazirx

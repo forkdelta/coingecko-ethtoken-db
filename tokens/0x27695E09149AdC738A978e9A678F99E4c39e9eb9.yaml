@@ -1,12 +1,12 @@
 ---
 address: '0x27695E09149AdC738A978e9A678F99E4c39e9eb9'
-coingecko_rank: 541
-coingecko_score: 29.767
-community_score: 36.295
+coingecko_rank: 481
+coingecko_score: 31.12
+community_score: 37.895
 description: >-
   KICKICO helps innovators, game developers, blockchain leaders, entrepreneurs, designers, and other creators
   find the resources and support they need to make their ideas a reality.
-developer_score: 19.883
+developer_score: 19.882
 id: kickico
 image:
   large: https://assets.coingecko.com/coins/images/981/large/kickcoin.png?1547975165
@@ -25,16 +25,26 @@ links:
     - https://github.com/kickico/contracts
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKecosystem
-liquidity_score: 10.249
-market_cap_rank: 604
+liquidity_score: 14.782
+market_cap_rank: 594
 name: KickCoin
-public_interest_score: 26.519
+public_interest_score: 25.747
 symbol: kick
 tickers:
 - base: KICK
   market:
     identifier: abcc
     name: ABCC
+  target: BTC
+- base: KICK
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: KICK
+  market:
+    identifier: bitmart
+    name: BitMart
   target: BTC
 - base: KICK
   market:
@@ -55,11 +65,36 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: RUB
+- base: KICK
+  market:
+    identifier: crex24
+    name: CREX24
   target: USD
+- base: KICK
+  market:
+    identifier: exmo
+    name: EXMO
+  target: RUB
+- base: KICK
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: KICK
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: KICK
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: KICK
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: KICK
   market:
@@ -68,14 +103,14 @@ tickers:
   target: ETH
 - base: KICK
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: tokok
+    name: TOKOK
+  target: ETH
 - base: KICK
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: BTC
 - base: KICK
   market:
     identifier: yobit

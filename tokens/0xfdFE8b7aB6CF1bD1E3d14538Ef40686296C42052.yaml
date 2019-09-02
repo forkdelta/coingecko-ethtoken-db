@@ -1,8 +1,8 @@
 ---
 address: '0xfdFE8b7aB6CF1bD1E3d14538Ef40686296C42052'
-coingecko_rank: 2790
-coingecko_score: 9.813
-community_score: 28.595
+coingecko_rank: 2785
+coingecko_score: 10.152
+community_score: 29.853
 description: >-
   Skraps is a micro-investing platform where users can invest by rounding off their fiat transactions
   & investing that spare change in cryptocurrencies. SKRP token will be used to pay transaction fees.
@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: SkrapsOfficial
   twitter_screen_name: SkrapsApp
 liquidity_score: 1.0
-market_cap_rank: 3915
+market_cap_rank: 4222
 name: Skraps
-public_interest_score: 24.646
+public_interest_score: 24.888
 symbol: skrp
 tickers:
+- base: SKRP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: SKRP
   market:
     identifier: yobit
@@ -45,9 +50,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: SKRP
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
 - base: SKRP
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: WAVES

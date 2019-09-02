@@ -1,8 +1,8 @@
 ---
 address: '0xB97048628DB6B661D4C2aA833e95Dbe1A905B280'
-coingecko_rank: 354
-coingecko_score: 34.018
-community_score: 53.851
+coingecko_rank: 351
+coingecko_score: 34.423
+community_score: 56.095
 description: >-
   TenX is a payment platform that facilitates digital and physical modes of transaction for cryptocurrencies
   to any merchant, even if they don’t accept cryptocurrencies. Physical and digital modes of course, include
@@ -47,17 +47,22 @@ links:
     - https://github.com/comit-network/comit-rs
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
-liquidity_score: 25.275
-market_cap_rank: 214
+liquidity_score: 24.907
+market_cap_rank: 218
 name: TenX
-public_interest_score: 28.076
+public_interest_score: 28.061
 symbol: pay
 tickers:
 - base: PAY
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: PAY
+  market:
     identifier: bitbay
     name: BitBay
-  target: BTC
+  target: EUR
 - base: PAY
   market:
     identifier: bitbay
@@ -65,14 +70,19 @@ tickers:
   target: USD
 - base: PAY
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: PAY
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: PAY
+  market:
     identifier: buyucoin
     name: BuyUcoin
   target: INR
-- base: PAY
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
 - base: PAY
   market:
     identifier: coss
@@ -85,13 +95,18 @@ tickers:
   target: BTC
 - base: PAY
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: PAY
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
 - base: PAY
   market:
-    identifier: idex
-    name: Idex
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: PAY
   market:
@@ -108,11 +123,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: PAY
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
 - base: PAY
   market:
     identifier: localtrade
@@ -133,3 +143,8 @@ tickers:
     identifier: localtrade
     name: LocalTrade
   target: USDT
+- base: PAY
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
