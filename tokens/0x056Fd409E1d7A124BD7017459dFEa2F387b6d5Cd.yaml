@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 495
-coingecko_score: 30.482
-community_score: 4.77
+coingecko_rank: 491
+coingecko_score: 30.952
+community_score: 4.783
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -55,7 +55,7 @@ description: >-
   Starting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini
   dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD
   back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon.
-developer_score: 20.135
+developer_score: 20.134
 id: gemini-dollar
 image:
   large: https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278
@@ -73,10 +73,10 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 41.074
-market_cap_rank: 247
+liquidity_score: 41.715
+market_cap_rank: 246
 name: Gemini Dollar
-public_interest_score: 38.81
+public_interest_score: 39.28
 symbol: gusd
 tickers:
 - base: GUSD
@@ -86,44 +86,29 @@ tickers:
   target: USD
 - base: GUSD
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
-- base: GUSD
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
 - base: GUSD
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: GUSD
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
-- base: GUSD
-  market:
     identifier: coinsuper
     name: Coinsuper
   target: USD
-- base: GUSD
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
 - base: ETH
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: coss
+    name: COSS
   target: GUSD
 - base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
+- base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
 - base: GUSD
   market:
     identifier: latoken
@@ -139,11 +124,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
-- base: GUSD
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
 - base: BTC
   market:
     identifier: quoine
@@ -161,11 +141,6 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: USD
-- base: GUSD
-  market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: BTC
@@ -173,9 +148,9 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: ETH
+  target: DOGE
 - base: GUSD
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x8275eBF521Dc217aa79C88132017A5BCEf001dd9'
-coingecko_rank: 2839
-coingecko_score: 9.617
-community_score: 4.223
+coingecko_rank: 2898
+coingecko_score: 9.707
+community_score: 4.235
 description: >-
   JEWEL (JWL) is a non – government-controlled digital currency that allows you to send money anywhere
   in the world instantly, securely and virtually free of charge. Moreover, the JWL aims to empower people
@@ -31,10 +31,10 @@ links:
     - https://github.com/jeveldev/smartcontracts
   telegram_channel_identifier: jewelpay
   twitter_screen_name: jewelpay_org
-liquidity_score: 16.703
-market_cap_rank: 5454
+liquidity_score: 16.683
+market_cap_rank: 2459
 name: Jewel
-public_interest_score: 22.209
+public_interest_score: 23.114
 symbol: jwl
 tickers:
 - base: JWL
@@ -44,9 +44,19 @@ tickers:
   target: BTC
 - base: JWL
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USDT
+- base: JWL
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: JWL
+  market:
+    identifier: crex24
+    name: CREX24
+  target: USD
 - base: JWL
   market:
     identifier: livecoin

@@ -1,8 +1,8 @@
 ---
 address: '0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d'
-coingecko_rank: 505
-coingecko_score: 30.311
-community_score: 17.487
+coingecko_rank: 484
+coingecko_score: 31.014
+community_score: 18.964
 description: >-
   Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition
   to cryptocurrency. The MCO Token Sale was conducted in May-June 2017 and raised US$26.7 million.
@@ -67,10 +67,10 @@ links:
   subreddit_url: https://www.reddit.com/r/Crypto_com/
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
-liquidity_score: 41.109
+liquidity_score: 42.755
 market_cap_rank: 86
 name: Crypto.com
-public_interest_score: 39.953
+public_interest_score: 39.836
 symbol: mco
 tickers:
 - base: MCO
@@ -85,6 +85,11 @@ tickers:
   target: BTC
 - base: MCO
   market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: MCO
+  market:
     identifier: exx
     name: EXX
   target: BTC
@@ -97,22 +102,32 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
+  target: ETH
+- base: MCO
+  market:
+    identifier: gate
+    name: Gate.io
   target: USDT
 - base: MCO
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: MCO
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: MCO
-  market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: hitbtc
+    name: HitBTC
   target: USD
+- base: MCO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MCO
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: MCO
   market:
     identifier: quoine
@@ -133,6 +148,11 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: BTC
+- base: MCO
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
 - base: MCO
   market:
     identifier: uniswap

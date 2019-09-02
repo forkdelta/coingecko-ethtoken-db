@@ -1,8 +1,8 @@
 ---
 address: '0x744d70FDBE2Ba4CF95131626614a1763DF805B9E'
-coingecko_rank: 24
-coingecko_score: 60.425
-community_score: 45.124
+coingecko_rank: 20
+coingecko_score: 61.311
+community_score: 48.04
 description: >-
   Status is a mobile operating system that will completely change the way the world interacts with the
   <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> network.  Designed as a decentralized
@@ -27,7 +27,7 @@ description: >-
 
   SNT is currently available for trade on many online exchanges, including <a href="https://www.coingecko.com/en/exchanges/huobi">Huobi</a>,
   <a href="https://www.coingecko.com/en/exchanges/binance">Binance</a>, and <a href="https://www.coingecko.com/en/exchanges/bittrex">Bittrex</a>.
-developer_score: 82.476
+developer_score: 82.492
 id: status
 image:
   large: https://assets.coingecko.com/coins/images/779/large/status.png?1548610778
@@ -50,12 +50,22 @@ links:
     - https://github.com/status-im/swarms
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
-liquidity_score: 51.675
-market_cap_rank: 82
+liquidity_score: 52.884
+market_cap_rank: 80
 name: Status
-public_interest_score: 43.089
+public_interest_score: 43.186
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: SNT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: SNT
   market:
     identifier: crex24
@@ -73,11 +83,51 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: SNT
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: SNT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: SNT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: SNT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
 - base: SNT
   market:
     identifier: tokenize
     name: Tokenize
+  target: BTC
+- base: SNT
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: SNT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: SNT
+  market:
+    identifier: zb
+    name: ZB
   target: BTC

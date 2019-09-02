@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 75
-coingecko_score: 50.28
-community_score: 32.518
+coingecko_rank: 78
+coingecko_score: 50.267
+community_score: 32.479
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -83,17 +83,27 @@ links:
   subreddit_url: https://www.reddit.com/r/loopring
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
-liquidity_score: 40.459
-market_cap_rank: 121
+liquidity_score: 40.695
+market_cap_rank: 116
 name: Loopring
-public_interest_score: 27.395
+public_interest_score: 27.364
 symbol: lrc
 tickers:
+- base: LRC
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: LRC
   market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: LRC
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: LRC
   market:
     identifier: ethfinex
@@ -111,18 +121,13 @@ tickers:
   target: USD
 - base: LRC
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
-- base: LRC
+- base: 75DF52AE-008E-47FB-8F1F-8C0D2FDAEAB0
   market:
-    identifier: idax
-    name: Idax
-  target: BTC
-- base: LRC
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: lykke
+    name: Lykke
   target: ETH
 - base: LRC
   market:
@@ -131,36 +136,6 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: LRC
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
