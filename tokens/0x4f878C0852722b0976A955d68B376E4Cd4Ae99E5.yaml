@@ -1,8 +1,8 @@
 ---
 address: '0x4f878C0852722b0976A955d68B376E4Cd4Ae99E5'
-coingecko_rank: 150
-coingecko_score: 42.744
-community_score: 17.449
+coingecko_rank: 144
+coingecko_score: 42.511
+community_score: 15.962
 description: >-
   WaykiChain is a blockchain-based gambling platform that supports Turing devices. Other highlights include
   the fact that it makes use of a <a href="https://www.coingecko.com/en?hashing_algorithm=Delegated+Proof-of-Stake&view=market">DPoS
@@ -28,7 +28,7 @@ description: >-
   WaykiChain Betting provides its users with real-time betting possibilities, in a transparent and open
   way. All the betting data is public, searchable, well organized, and cannot be changed or affected by
   any third-party interests. Any potential illegal actions can be, therefore, easily discovered.
-developer_score: 70.313
+developer_score: 70.312
 id: waykichain
 image:
   large: https://assets.coingecko.com/coins/images/2439/large/WaykiChain.png?1561705992
@@ -48,17 +48,27 @@ links:
     github:
     - https://github.com/WaykiChain/WaykiChain
   twitter_screen_name: wayki_chain
-liquidity_score: 39.884
-market_cap_rank: 899
+liquidity_score: 40.673
+market_cap_rank: 903
 name: WaykiChain
 public_interest_score: 26.709
 symbol: wicc
 tickers:
+- base: WICC
+  market:
+    identifier: bcex
+    name: BCEX
+  target: CKUSD
 - base: WIC
   market:
     identifier: bcex
     name: BCEX
   target: CKUSD
+- base: WICC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: USDT
 - base: WICC
   market:
     identifier: dobitrade
@@ -69,3 +79,8 @@ tickers:
     identifier: dobitrade
     name: Dobitrade
   target: USDT
+- base: WICC
+  market:
+    identifier: hb_top
+    name: Hb.top
+  target: CNYE
