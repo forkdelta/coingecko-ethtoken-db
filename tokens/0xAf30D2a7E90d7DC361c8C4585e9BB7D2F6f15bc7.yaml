@@ -1,8 +1,8 @@
 ---
 address: '0xAf30D2a7E90d7DC361c8C4585e9BB7D2F6f15bc7'
-coingecko_rank: 341
-coingecko_score: 34.738
-community_score: 19.826
+coingecko_rank: 344
+coingecko_score: 34.103
+community_score: 18.048
 description: >-
   A platform that lets eSports players challenge each other in the field and win rewards.
 developer_score: 36.718
@@ -24,12 +24,22 @@ links:
     github:
     - https://github.com/Firstbloodio/token
   twitter_screen_name: firstbloodio
-liquidity_score: 21.198
-market_cap_rank: 251
+liquidity_score: 20.733
+market_cap_rank: 249
 name: First Blood
 public_interest_score: 39.053
 symbol: 1st
 tickers:
+- base: 1ST
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: 1ST
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: 1ST
   market:
     identifier: idex
@@ -40,3 +50,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: FIRSTBLOOD
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD

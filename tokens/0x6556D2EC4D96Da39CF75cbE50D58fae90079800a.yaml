@@ -1,8 +1,8 @@
 ---
 address: '0x6556D2EC4D96Da39CF75cbE50D58fae90079800a'
-coingecko_rank: 1464
-coingecko_score: 19.108
-community_score: 13.719
+coingecko_rank: 1481
+coingecko_score: 18.808
+community_score: 12.484
 description: >-
   Lukki Operating Token (LOT) token is designed especially for Lukki ecosystem and its related products.
   LOT allows you to use the expanded set of services of the platform and application.
@@ -34,9 +34,19 @@ links:
   - https://lukki.io/
   telegram_channel_identifier: lukkichat
   twitter_screen_name: ExchangeLukki
-liquidity_score: 13.391
-market_cap_rank: 901
+liquidity_score: 13.451
+market_cap_rank: 897
 name: Lukki Operating Token
 public_interest_score: 28.504
 symbol: lot
-tickers: []
+tickers:
+- base: LOT
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: LOT
+  market:
+    identifier: whitebit
+    name: Whitebit
+  target: USDT

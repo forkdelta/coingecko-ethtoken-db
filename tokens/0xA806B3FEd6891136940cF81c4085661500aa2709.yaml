@@ -1,8 +1,8 @@
 ---
 address: '0xA806B3FEd6891136940cF81c4085661500aa2709'
-coingecko_rank: 1652
-coingecko_score: 17.64
-community_score: 6.161
+coingecko_rank: 1645
+coingecko_score: 17.46
+community_score: 6.166
 description: >-
   The main problem of today’s crypto industry is the absence of a solid connection with the real economy.
   Crypto markets are very easy to enter, but exiting market is associated with costs, risks and difficulties.
@@ -35,9 +35,24 @@ links:
   - https://www.snltoken.io
   telegram_channel_identifier: snlgroup
   twitter_screen_name: snltoken
-liquidity_score: 9.213
-market_cap_rank: 540
+liquidity_score: 8.245
+market_cap_rank: 533
 name: Sport and Leisure
 public_interest_score: 29.229
 symbol: snl
-tickers: []
+tickers:
+- base: SNL
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: SNL
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: SNL
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH

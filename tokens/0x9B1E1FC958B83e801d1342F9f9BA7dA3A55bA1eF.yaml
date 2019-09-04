@@ -1,8 +1,8 @@
 ---
 address: '0x9B1E1FC958B83e801d1342F9f9BA7dA3A55bA1eF'
-coingecko_rank: 3804
-coingecko_score: 6.854
-community_score: 16.586
+coingecko_rank: 3879
+coingecko_score: 6.515
+community_score: 15.231
 description: >-
   Tronipay (TRP) is already a reality and was created through the technology Ethereum ERC20, which brings
   us scalability and security, and reaches the market with the proposal to revolutionize the means of
@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: tronipaycard
   twitter_screen_name: tronipay
 liquidity_score: 1.0
-market_cap_rank: 2098
+market_cap_rank: 2131
 name: Tronipay
 public_interest_score: 25.073
 symbol: trp
@@ -47,11 +47,6 @@ tickers:
   target: ETH
 - base: TRP
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
-- base: TRP
-  market:
     identifier: fubt
     name: FUBT
   target: BTC
@@ -69,7 +64,17 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: TRP
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: USDT
+- base: TRP
+  market:
+    identifier: probit
+    name: Probit
+  target: BTC
 - base: TRP
   market:
     identifier: probit

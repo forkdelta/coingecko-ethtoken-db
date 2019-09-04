@@ -1,8 +1,8 @@
 ---
 address: '0xd9DB58c0cD8b93906eC87e353d6B1dbe19f3bFed'
-coingecko_rank: 4691
-coingecko_score: 4.549
-community_score: 6.003
+coingecko_rank: 4679
+coingecko_score: 4.553
+community_score: 6.018
 description: >-
   The Shuffle Monster token is an experimental ERC20 token that shuffles 1% of each token transfer, and
   burns another 1%.
@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: shuftoken
   twitter_screen_name: ShuffleToken
 liquidity_score: 1.0
-market_cap_rank: 5261
+market_cap_rank: 5322
 name: Shuffle Monster
 public_interest_score: 28.487
 symbol: shuf
-tickers: []
+tickers:
+- base: SHUF2
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SHUF
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

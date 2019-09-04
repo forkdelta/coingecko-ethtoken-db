@@ -1,8 +1,8 @@
 ---
 address: '0xFb2f26F266Fb2805a387230f2aa0a331b4d96Fba'
-coingecko_rank: 137
-coingecko_score: 43.932
-community_score: 30.855
+coingecko_rank: 133
+coingecko_score: 43.774
+community_score: 29.667
 description: >-
   DADI stands for Decentralized Architecture for a Democratic Internet. It’s a cryptocurrency which aims
   to decentralize cloud computing and Web Services. It’s an enterprise-grade web services stack built
@@ -56,8 +56,8 @@ links:
     - https://github.com/dadi/web
   subreddit_url: https://www.reddit.com/r/DADI
   twitter_screen_name: dadi
-liquidity_score: 10.855
-market_cap_rank: 468
+liquidity_score: 10.468
+market_cap_rank: 419
 name: DADI
 public_interest_score: 37.826
 symbol: dadi
@@ -67,8 +67,48 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
+- base: DAD
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: DAD
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: DADI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DADI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DADI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: DADI
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: DADI
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: DADI
+  market:
+    identifier: okex_korea
+    name: Okex Korea
+  target: BTC
+- base: DADI
+  market:
+    identifier: okex_korea
+    name: Okex Korea
   target: ETH
