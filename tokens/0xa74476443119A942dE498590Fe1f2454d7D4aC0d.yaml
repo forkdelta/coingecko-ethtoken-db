@@ -1,8 +1,8 @@
 ---
 address: '0xa74476443119A942dE498590Fe1f2454d7D4aC0d'
-coingecko_rank: 36
-coingecko_score: 58.502
-community_score: 47.886
+coingecko_rank: 34
+coingecko_score: 60.011
+community_score: 50.279
 description: >-
   Golem is a decentralized supercomputer that is accessible by anyone. The system is made up of the combined
   power of user’s machines from personal PCs to entire datacenters. Golem is able to compute almost any
@@ -53,7 +53,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/golem-gnt/">CoinBureau</a> for the full review
   of Golem.
-developer_score: 81.555
+developer_score: 84.974
 id: golem
 image:
   large: https://assets.coingecko.com/coins/images/542/large/golem_token.png?1548838076
@@ -79,12 +79,27 @@ links:
     - https://github.com/golemfactory/golem-unlimited
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
-liquidity_score: 46.542
-market_cap_rank: 78
+liquidity_score: 46.789
+market_cap_rank: 77
 name: Golem
 public_interest_score: 30.818
 symbol: gnt
 tickers:
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: GNT
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
 - base: GNT
   market:
     identifier: crex24
@@ -92,6 +107,16 @@ tickers:
   target: BTC
 - base: GNT
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: GNT
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
+- base: GNT
+  market:
     identifier: p2pb2b
     name: P2PB2B
   target: BTC
@@ -99,7 +124,7 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
-  target: ETH
+  target: USD
 - base: GNT
   market:
     identifier: sistemkoin
@@ -109,17 +134,7 @@ tickers:
   market:
     identifier: tokenize
     name: Tokenize
-  target: BTC
-- base: GNT
-  market:
-    identifier: tokenize
-    name: Tokenize
   target: ETH
-- base: GNT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
 - base: GNT
   market:
     identifier: wazirx
@@ -135,8 +150,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: GNT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
