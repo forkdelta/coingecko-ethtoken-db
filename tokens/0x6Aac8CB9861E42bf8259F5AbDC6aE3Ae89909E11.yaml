@@ -1,7 +1,7 @@
 ---
 address: '0x6Aac8CB9861E42bf8259F5AbDC6aE3Ae89909E11'
-coingecko_rank: 2458
-coingecko_score: 11.652
+coingecko_rank: 2513
+coingecko_score: 11.629
 community_score: 0.0
 description: >-
   Bitcoin Red is the first cryptocurrency of a brand new family of cryptocurrencies
@@ -33,6 +33,11 @@ tickers:
   target: BTC
 - base: BTCRED
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BTCRED
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -51,11 +56,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: BTCRED
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: BTCRED
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0x4E15361FD6b4BB609Fa63C81A2be19d873717870'
-coingecko_rank: 73
-coingecko_score: 51.18
-community_score: 31.61
+coingecko_rank: 78
+coingecko_score: 51.292
+community_score: 31.627
 description: >-
   FANTOM is a new DAG based Smart Contract platform that intends to solve the scalability issues of existing
   public distributed ledger technologies.
@@ -17,7 +17,7 @@ description: >-
 
   The mission of FANTOM is to provide compatibility between all transaction bodies around the world, and
   create an ecosystem which allows real-time transactions and data sharing with low cost.
-developer_score: 65.967
+developer_score: 67.17
 id: fantom
 image:
   large: https://assets.coingecko.com/coins/images/4001/large/Fantom.png?1558015016
@@ -40,7 +40,7 @@ links:
   subreddit_url: https://www.reddit.com/r/FantomFoundation/
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
-liquidity_score: 50.869
+liquidity_score: 49.692
 market_cap_rank: 98
 name: Fantom
 public_interest_score: 31.709
@@ -53,9 +53,9 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: beaxy
-    name: Beaxy
-  target: BTC
+    identifier: binance
+    name: Binance
+  target: PAX
 - base: FTM
   market:
     identifier: eterbase
@@ -66,6 +66,16 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: USDT
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
 - base: FTM
   market:
     identifier: saturn_network
@@ -86,8 +96,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

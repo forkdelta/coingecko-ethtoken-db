@@ -1,8 +1,8 @@
 ---
 address: '0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359'
-coingecko_rank: 65
-coingecko_score: 53.399
-community_score: 37.893
+coingecko_rank: 68
+coingecko_score: 53.915
+community_score: 37.834
 description: >-
   Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD — every Dai is worth $1,
   and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority
@@ -72,7 +72,7 @@ description: >-
   to be created.
 
   These three reasons are enough to ensure that Dai is continually created.
-developer_score: 63.774
+developer_score: 66.196
 id: dai
 image:
   large: https://assets.coingecko.com/coins/images/1442/large/dai.png?1547035520
@@ -92,18 +92,18 @@ links:
     - https://github.com/makerdao/market-maker-keeper
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 52.926
+liquidity_score: 52.573
 market_cap_rank: 66
 name: Dai
 public_interest_score: 33.929
 symbol: dai
 tickers:
-- base: WBTC
+- base: MKR
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: DAI
-- base: MKR
+- base: WBTC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -122,17 +122,17 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: ETH
+- base: DAI
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: USDT
 - base: DAI
   market:
     identifier: codex
     name: CODEX
   target: USDT
-- base: DAI
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
 - base: DAI
   market:
     identifier: coin_exchange
@@ -153,16 +153,16 @@ tickers:
     identifier: coinall
     name: CoinAll
   target: USDT
+- base: ETH
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: BTC
   market:
     identifier: coss
     name: COSS
   target: DAI
-- base: DAI
-  market:
-    identifier: crex24
-    name: CREX24
-  target: USD
 - base: TUSD
   market:
     identifier: ddex
@@ -183,11 +183,6 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: OMG
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: DAI
 - base: MKR
   market:
     identifier: ethfinex
@@ -198,12 +193,27 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: BCH
+- base: OMG
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: DAI
+- base: BTRS
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: DAI
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -213,12 +223,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: POA20
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: LTC
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
@@ -243,11 +248,6 @@ tickers:
     identifier: idex
     name: Idex
   target: TUSD
-- base: DAI
-  market:
-    identifier: idex
-    name: Idex
-  target: USDC
 - base: ETH
   market:
     identifier: okex
@@ -258,7 +258,22 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDT
-- base: WBTC
+- base: DAI
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: BTC
+  market:
+    identifier: quoine
+    name: Liquid
+  target: DAI
+- base: ETH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: DAI
+- base: MKR
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -268,20 +283,15 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: MKR
+- base: WBTC
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: DAI
+- base: WBTC
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: BTC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
+    identifier: switcheo
+    name: Switcheo
   target: DAI
 - base: USDT
   market:
@@ -289,6 +299,11 @@ tickers:
     name: Switcheo
   target: DAI
 - base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: ETH
   market:
     identifier: switcheo
     name: Switcheo

@@ -1,8 +1,8 @@
 ---
 address: '0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4'
-coingecko_rank: 152
-coingecko_score: 42.094
-community_score: 9.175
+coingecko_rank: 168
+coingecko_score: 42.211
+community_score: 9.173
 description: >-
   Ankr strives to build a resource efficient blockchain framework that truly enables Distributed Cloud
   Computing (DCC) and provides user-friendly infrastucture for business applications. There are indeed
@@ -37,7 +37,7 @@ description: >-
   Native Oracle Service (NOS) provides authenticated data feed by leveraging both cryptographic primitives
   and the trusted execution environment (TEE). Through a standardized API to port data from existing websites,
   NOS enables simple real-world business adoption
-developer_score: 67.674
+developer_score: 68.691
 id: ankr
 image:
   large: https://assets.coingecko.com/coins/images/4324/large/ankr-coin-2.png?1563551350
@@ -61,8 +61,8 @@ links:
     - https://github.com/Ankr-network/dccn-ui
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankrnetwork
-liquidity_score: 38.51
-market_cap_rank: 285
+liquidity_score: 38.187
+market_cap_rank: 264
 name: Ankr
 public_interest_score: 28.489
 symbol: ankr
@@ -72,6 +72,16 @@ tickers:
     identifier: bgogo
     name: Bgogo
   target: BTC
+- base: ANKR
+  market:
+    identifier: binance
+    name: Binance
+  target: PAX
+- base: ANKR
+  market:
+    identifier: binance
+    name: Binance
+  target: TUSD
 - base: ANKR-E97
   market:
     identifier: binance_dex
@@ -82,6 +92,11 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: ETH
+- base: ANKR
+  market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
 - base: ANKR
   market:
     identifier: huobi_korea
@@ -97,11 +112,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: ANKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
 - base: ANKR
   market:
     identifier: sistemkoin
