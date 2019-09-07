@@ -1,8 +1,8 @@
 ---
 address: '0x3597bfD533a99c9aa083587B074434E61Eb0A258'
-coingecko_rank: 299
-coingecko_score: 36.26
-community_score: 54.552
+coingecko_rank: 325
+coingecko_score: 33.642
+community_score: 45.036
 description: >-
   Our vision is to create a global exchange using Ethereum blockchain, where everyone on this planet has
   the opportunity to buy and sell mobile bandwidth in any country just like you buy foreign currencies
@@ -24,8 +24,8 @@ links:
   subreddit_url: https://www.reddit.com/r/dentcoin
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
-liquidity_score: 30.244
-market_cap_rank: 111
+liquidity_score: 29.276
+market_cap_rank: 113
 name: Dent
 public_interest_score: 32.136
 symbol: dent
@@ -42,28 +42,33 @@ tickers:
   target: USDT
 - base: DENT
   market:
+    identifier: bitbox
+    name: BITBOX
+  target: BTC
+- base: DENT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: DENT
+  market:
+    identifier: cashierest
+    name: Cashierest
+  target: KRW
+- base: DENT
+  market:
     identifier: dextrade
     name: Dex-Trade
   target: USDT
 - base: DENT
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DENT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: DENT
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: DENT
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: BTC
 - base: DENT
   market:
@@ -72,36 +77,21 @@ tickers:
   target: KRW
 - base: DENT
   market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: KRW
+- base: DENT
+  market:
     identifier: quoine
     name: Liquid
   target: QASH
 - base: DENT
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: upbit
+    name: Upbit
   target: BTC
-- base: DENT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: DENT
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
-- base: DENT
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
 - base: DENT
   market:
     identifier: wazirx
     name: WazirX
   target: INR
-- base: DENT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

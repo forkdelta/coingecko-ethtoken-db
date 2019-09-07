@@ -1,8 +1,8 @@
 ---
 address: '0x419c4dB4B9e25d6Db2AD9691ccb832C8D9fDA05E'
-coingecko_rank: 124
-coingecko_score: 45.761
-community_score: 37.156
+coingecko_rank: 129
+coingecko_score: 43.096
+community_score: 29.045
 description: >-
   Dragonchain is one of the newly launched cryptocurrencies that is attracting crypto enthusiasts following
   its relaunch. The coin seems to be leading on the technology front irrespective of its market capitalisation
@@ -37,7 +37,7 @@ description: >-
   platform’s ability to scale; an issue that Ethereum has been notorious for. As of January 2018, the
   DragonChain team is raising funds and finishing development of the platform. Although the exact date
   is currently unannounced, the DRGN platform is expected to fully launch sometime this year.
-developer_score: 77.3
+developer_score: 75.728
 id: dragonchain
 image:
   large: https://assets.coingecko.com/coins/images/1289/large/dragonchain.png?1547957761
@@ -58,8 +58,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Dragonchainblockchain
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
-liquidity_score: 9.047
-market_cap_rank: 201
+liquidity_score: 8.105
+market_cap_rank: 208
 name: Dragonchain
 public_interest_score: 26.473
 symbol: drgn
@@ -69,16 +69,21 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
-- base: DRGN
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
 - base: DRN
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: DRGN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DRGN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: DRGN
   market:
     identifier: idex
@@ -104,8 +109,3 @@ tickers:
     identifier: localtrade
     name: LocalTrade
   target: USD
-- base: DRGN
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USDT

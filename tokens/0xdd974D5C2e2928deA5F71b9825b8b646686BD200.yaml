@@ -1,8 +1,8 @@
 ---
 address: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200'
-coingecko_rank: 52
-coingecko_score: 56.701
-community_score: 50.749
+coingecko_rank: 49
+coingecko_score: 54.758
+community_score: 44.691
 description: >-
   Kyber’s on-chain liquidity protocol allows decentralized token swaps to be integrated into any application,
   enabling value exchange to be performed seamlessly between all parties in the ecosystem. Tapping on
@@ -41,7 +41,7 @@ description: >-
   wrong with either the <a href="https://www.coingecko.com/buzz/trezor-model-t-wallet-review">Trezor</a>
   or <a href="https://www.coingecko.com/buzz/ledger-bitcoin-hardware-wallet-review">Ledger</a> wallet
   as both supports KNC.
-developer_score: 73.218
+developer_score: 70.7
 id: kyber-network
 image:
   large: https://assets.coingecko.com/coins/images/947/large/kyber-logo.png?1547034806
@@ -60,8 +60,8 @@ links:
   subreddit_url: https://www.reddit.com/r/kybernetwork/
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
-liquidity_score: 47.059
-market_cap_rank: 134
+liquidity_score: 48.014
+market_cap_rank: 123
 name: Kyber Network
 public_interest_score: 30.659
 symbol: knc
@@ -78,6 +78,11 @@ tickers:
   target: THB
 - base: KNC
   market:
+    identifier: bw
+    name: BW.com
+  target: QC
+- base: KNC
+  market:
     identifier: cashierest
     name: Cashierest
   target: KRW
@@ -86,11 +91,6 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: KNC
-  market:
-    identifier: coinone
-    name: Coinone
-  target: KRW
 - base: KNC
   market:
     identifier: credoex
@@ -108,19 +108,19 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: KNC
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: KNC
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: KNC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KNC
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: KNC
   market:
     identifier: livecoin
@@ -131,6 +131,11 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: BTC
+- base: KNC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
 - base: KNC
   market:
     identifier: p2pb2b
@@ -153,8 +158,13 @@ tickers:
   target: BTC
 - base: KNC
   market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: vindax
+    name: Vindax
+  target: BTC
+- base: KNC
+  market:
+    identifier: vindax
+    name: Vindax
   target: ETH
 - base: KNC
   market:

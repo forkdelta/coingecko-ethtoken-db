@@ -1,8 +1,8 @@
 ---
 address: '0x595832F8FC6BF59c85C527fEC3740A1b7a361269'
-coingecko_rank: 182
-coingecko_score: 41.383
-community_score: 55.534
+coingecko_rank: 193
+coingecko_score: 39.117
+community_score: 46.151
 description: >-
   Power Ledger (POWR) is an Australian blockchain-based cryptocurrency and energy trading platform that
   allows for decentralized selling and buying of renewable energy. The platform provides consumers with
@@ -60,8 +60,8 @@ links:
   subreddit_url: https://www.reddit.com/r/PowerLedger/
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
-liquidity_score: 59.835
-market_cap_rank: 144
+liquidity_score: 60.349
+market_cap_rank: 145
 name: Power Ledger
 public_interest_score: 24.837
 symbol: powr
@@ -73,6 +73,16 @@ tickers:
   target: USDT
 - base: POWR
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: POWR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: POWR
+  market:
     identifier: btcmarkets
     name: BTCMarkets
   target: BTC
@@ -81,11 +91,6 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: POWR
-  market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
 - base: POWR
   market:
     identifier: dextrade
@@ -100,44 +105,54 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: USDT
-- base: POWR
-  market:
-    identifier: localtrade
-    name: LocalTrade
   target: BTC
 - base: POWR
   market:
-    identifier: localtrade
-    name: LocalTrade
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: POWR
   market:
-    identifier: localtrade
-    name: LocalTrade
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: POWR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: POWR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: POWR
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: POWR
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: POWR
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
   target: USD
 - base: POWR
   market:
-    identifier: localtrade
-    name: LocalTrade
+    identifier: p2pb2b
+    name: P2PB2B
   target: USDT
-- base: POWR
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
-- base: POWR
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
-- base: POWR
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
 - base: POWR
   market:
     identifier: uniswap
     name: Uniswap
+  target: ETH
+- base: POWR
+  market:
+    identifier: upbit
+    name: Upbit
   target: ETH

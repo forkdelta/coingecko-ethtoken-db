@@ -1,6 +1,6 @@
 ---
 address: '0xC3d6dda603FC15Fd4Bf9303150fe11c7cd6059dc'
-coingecko_rank: 5423
+coingecko_rank: 5402
 coingecko_score: 2.775
 community_score: 0.0
 description: >-
@@ -29,8 +29,18 @@ links:
   homepage:
   - http://coweye.io/
 liquidity_score: 1.0
-market_cap_rank: 2774
+market_cap_rank: 2775
 name: Coweye
 public_interest_score: 25.746
 symbol: cow
-tickers: []
+tickers:
+- base: COW
+  market:
+    identifier: bitonbay
+    name: BitOnBay
+  target: BTC
+- base: COW
+  market:
+    identifier: probit
+    name: Probit
+  target: USDT
