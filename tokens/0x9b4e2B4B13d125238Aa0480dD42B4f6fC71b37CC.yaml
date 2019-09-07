@@ -1,8 +1,8 @@
 ---
 address: '0x9b4e2B4B13d125238Aa0480dD42B4f6fC71b37CC'
-coingecko_rank: 1293
-coingecko_score: 20.861
-community_score: 4.736
+coingecko_rank: 1243
+coingecko_score: 20.068
+community_score: 0.0
 description: >-
   MyToken focuses on providing aggregate exchange market information and has become a market-watching
   application with the largest market share and the highest number of active users in China.
@@ -34,12 +34,17 @@ links:
   - https://mytoken.io/en/
   telegram_channel_identifier: mytoken_en
   twitter_screen_name: mytokenio
-liquidity_score: 25.84
+liquidity_score: 27.134
 market_cap_rank: 462
 name: MyToken
 public_interest_score: 29.291
 symbol: mt
 tickers:
+- base: MT
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: MT
   market:
     identifier: bilaxy
@@ -49,14 +54,19 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
-  target: ETH
+  target: BTC
 - base: MT
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: MT
   market:
     identifier: coineal
     name: Coineal
+  target: ETH
+- base: MT
+  market:
+    identifier: fubt
+    name: FUBT
   target: ETH

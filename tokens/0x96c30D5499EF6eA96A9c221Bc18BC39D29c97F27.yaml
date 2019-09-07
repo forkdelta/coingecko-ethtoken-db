@@ -1,8 +1,8 @@
 ---
 address: '0x96c30D5499EF6eA96A9c221Bc18BC39D29c97F27'
-coingecko_rank: 4462
+coingecko_rank: 4182
 coingecko_score: 5.167
-community_score: 9.236
+community_score: 9.233
 description: >-
   Thar is a fully audited Ethereum based ERC20 utility token that is used for exchange fees on the Thar
   Exchange. As an ERC20 token, Thar Token can be traded on thar Exchange as well as any cryptocurrency
@@ -33,11 +33,6 @@ symbol: thar
 tickers:
 - base: THAR
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: THAR
-  market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
@@ -45,4 +40,9 @@ tickers:
   market:
     identifier: instantbitex
     name: Instant Bitex
+  target: BTC
+- base: THAR
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: BTC

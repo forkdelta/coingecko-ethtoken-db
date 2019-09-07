@@ -1,8 +1,8 @@
 ---
 address: '0x5CA9a71B1d01849C0a95490Cc00559717fCF0D1d'
-coingecko_rank: 30
-coingecko_score: 60.323
-community_score: 50.71
+coingecko_rank: 32
+coingecko_score: 57.584
+community_score: 43.118
 description: >-
   æternity is a public, open-source blockchain protocol that enables a platform for next-generation decentralized
   applications with high scalability. Its core components are written in the functional programming language
@@ -23,7 +23,7 @@ description: >-
 
   AE tokens, the native cryptocurrency of the æternity platform, is used for both - an economic unit of
   account and as ballots in the community-driven on-chain governance votes.
-developer_score: 82.613
+developer_score: 79.575
 id: aeternity
 image:
   large: https://assets.coingecko.com/coins/images/1091/large/aeternity.png?1547035060
@@ -49,7 +49,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Aeternity
   telegram_channel_identifier: aeternity
   twitter_screen_name: aeternity
-liquidity_score: 51.658
+liquidity_score: 51.301
 market_cap_rank: 71
 name: Aeternity
 public_interest_score: 27.854
@@ -70,6 +70,11 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: BTC
+- base: AE
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: AE
   market:
     identifier: exx
@@ -104,11 +109,6 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: AE
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: ETH
 - base: AE
   market:
@@ -120,13 +120,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: AE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: AE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

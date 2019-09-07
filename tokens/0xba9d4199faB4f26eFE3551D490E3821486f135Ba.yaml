@@ -1,12 +1,12 @@
 ---
 address: '0xba9d4199faB4f26eFE3551D490E3821486f135Ba'
-coingecko_rank: 1256
-coingecko_score: 21.165
-community_score: 41.537
+coingecko_rank: 1447
+coingecko_score: 18.318
+community_score: 31.303
 description: >-
   The SwissBorg project aim to revolutionize wealth management solutions with a community centric approach
   powered by Ethereum.
-developer_score: 25.228
+developer_score: 23.14
 id: swissborg
 image:
   large: https://assets.coingecko.com/coins/images/2117/large/Swissborg.jpeg?1549348960
@@ -27,12 +27,17 @@ links:
   subreddit_url: https://www.reddit.com/r/swissborg/
   telegram_channel_identifier: swissborg
   twitter_screen_name: swissborg
-liquidity_score: 9.615
-market_cap_rank: 2279
+liquidity_score: 10.787
+market_cap_rank: 2280
 name: SwissBorg
 public_interest_score: 25.504
 symbol: chsb
 tickers:
+- base: CHSB
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: CHSB
   market:
     identifier: idex
@@ -48,3 +53,23 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
