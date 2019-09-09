@@ -1,8 +1,8 @@
 ---
 address: '0x8D75959f1E61EC2571aa72798237101F084DE63a'
-coingecko_rank: 511
-coingecko_score: 29.235
-community_score: 39.978
+coingecko_rank: 495
+coingecko_score: 29.594
+community_score: 41.449
 description: >-
   The Substratum Network will bring the decentralized web worldwide without the need of special software
   for the average internet user
@@ -25,8 +25,8 @@ links:
     - https://github.com/substratum-net/smart-contract
   subreddit_url: https://www.reddit.com/r/SubstratumNetwork
   twitter_screen_name: SubstratumNet
-liquidity_score: 1.169
-market_cap_rank: 448
+liquidity_score: 1.999
+market_cap_rank: 398
 name: Substratum
 public_interest_score: 27.286
 symbol: sub
@@ -48,6 +48,11 @@ tickers:
   target: USDT
 - base: SUB
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SUB
+  market:
     identifier: tidex
     name: Tidex
   target: BTC
@@ -61,3 +66,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: SUB
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

@@ -1,8 +1,8 @@
 ---
 address: '0x41AB1b6fcbB2fA9DCEd81aCbdeC13Ea6315F2Bf2'
-coingecko_rank: 1568
-coingecko_score: 17.381
-community_score: 21.065
+coingecko_rank: 1564
+coingecko_score: 17.414
+community_score: 21.06
 description: >-
   XinFin (www.XinFin.org) is a Hybrid Blockchain technology company focused on international trade and
   finance. We have developed a highly scalable, secure, permissioned and commercial grade Blockchain architecture.
@@ -46,8 +46,8 @@ links:
   subreddit_url: https://www.reddit.com/r/xinfin/
   telegram_channel_identifier: xinfintalk
   twitter_screen_name: xinfinf
-liquidity_score: 32.197
-market_cap_rank: 3071
+liquidity_score: 32.367
+market_cap_rank: 3108
 name: XinFin
 public_interest_score: 26.753
 symbol: xdce
@@ -56,12 +56,22 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: ETH
+- base: XDCE
+  market:
+    identifier: coss
+    name: COSS
   target: BTC
 - base: XDCE
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
+    identifier: coss
+    name: COSS
+  target: USD
+- base: XDCE
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
 - base: XDCE
   market:
     identifier: dobitrade
@@ -74,19 +84,9 @@ tickers:
   target: ETH
 - base: XDCE
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: XDCE
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: XDCE
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: USDT
 - base: XDCE
   market:
     identifier: mercatox
@@ -96,9 +96,4 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
-  target: ETH
-- base: XDCE
-  market:
-    identifier: topbtc
-    name: TopBTC
-  target: ETH
+  target: USD

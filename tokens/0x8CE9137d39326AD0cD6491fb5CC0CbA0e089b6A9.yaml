@@ -1,8 +1,8 @@
 ---
 address: '0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9'
-coingecko_rank: 769
-coingecko_score: 25.231
-community_score: 9.989
+coingecko_rank: 765
+coingecko_score: 25.287
+community_score: 9.98
 description: >-
   The Swipe Wallet has been designed to require Swipe Tokens SXP to perform all functions and utility
   of the Wallet including to use the services and to make withdraws. Users on the Swipe Wallet can buy,
@@ -34,12 +34,17 @@ links:
     - https://github.com/SwipeWallet/Wallet-Contract
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
-liquidity_score: 32.222
-market_cap_rank: 158
+liquidity_score: 32.469
+market_cap_rank: 150
 name: Swipe
 public_interest_score: 33.282
 symbol: sxp
 tickers:
+- base: SXP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: SXP
   market:
     identifier: latoken
@@ -59,9 +64,4 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
-  target: USD
-- base: SXP
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USDT
+  target: BTC
