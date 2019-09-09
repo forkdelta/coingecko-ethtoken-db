@@ -1,8 +1,8 @@
 ---
 address: '0xFb8Bf095eBcdAd57D2e37573a505E7d3bAFDD3CC'
-coingecko_rank: 1266
-coingecko_score: 19.817
-community_score: 4.847
+coingecko_rank: 1317
+coingecko_score: 19.371
+community_score: 4.841
 description: >-
   DPN is the digital token symbol of the Industrial Blockchain program “DIPNET”, which can give various
   combination, like Lego does, to the industrial manufacturing in the future.
@@ -32,9 +32,19 @@ links:
   - http://www.dip.network/
   telegram_channel_identifier: dipnetofficial
   twitter_screen_name: DipNetOfficial
-liquidity_score: 23.606
-market_cap_rank: 533
+liquidity_score: 21.585
+market_cap_rank: 514
 name: Dipnet
 public_interest_score: 25.211
 symbol: dpn
-tickers: []
+tickers:
+- base: DPN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DPN
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC

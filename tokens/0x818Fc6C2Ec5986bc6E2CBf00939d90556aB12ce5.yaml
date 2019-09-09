@@ -1,8 +1,8 @@
 ---
 address: '0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5'
-coingecko_rank: 287
-coingecko_score: 35.012
-community_score: 47.373
+coingecko_rank: 293
+coingecko_score: 34.762
+community_score: 47.001
 description: >-
   Kin is a decentralized cryptocurrency token issued on Ethereum, an open-source public blockchain. It
   was created by Kik Interactive in September 2017 in a token distribution event, raising over $98 million
@@ -71,8 +71,8 @@ links:
     - https://github.com/kinecosystem/kin-ecosystem-android-sdk
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
-liquidity_score: 40.123
-market_cap_rank: 410
+liquidity_score: 39.236
+market_cap_rank: 424
 name: Kin
 public_interest_score: 34.131
 symbol: kin
@@ -109,6 +109,11 @@ tickers:
   target: ETH
 - base: KIN
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: KIN
+  market:
     identifier: idax
     name: Idax
   target: BTC
@@ -117,6 +122,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: KIN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: 568637D4-2B03-4F66-972E-B947A40F2771
   market:
     identifier: lykke
@@ -139,14 +149,14 @@ tickers:
   target: BTC
 - base: KIN
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: LTC
-- base: KIN
-  market:
     identifier: p2pb2b
     name: P2PB2B
-  target: BTC
+  target: ETH
+- base: KIN
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: ETH
 - base: KIN
   market:
     identifier: yobit

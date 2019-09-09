@@ -1,8 +1,8 @@
 ---
 address: '0xB6eD7644C69416d67B522e20bC294A9a9B405B31'
-coingecko_rank: 282
-coingecko_score: 35.175
-community_score: 25.92
+coingecko_rank: 286
+coingecko_score: 35.086
+community_score: 25.832
 description: >-
   The first pure mined ERC20 Token for Ethereum, using the soliditySHA3 hashing algorithm. This is a smart
   contract which follows the original Satoshi Nakamoto whitepaper to form a fundamentally sound trustless
@@ -36,12 +36,17 @@ links:
   subreddit_url: https://www.reddit.com/r/0xbitcoin/
   telegram_channel_identifier: ZEROxBTC
   twitter_screen_name: 0xBTC
-liquidity_score: 30.674
-market_cap_rank: 788
+liquidity_score: 30.457
+market_cap_rank: 784
 name: 0xBitcoin
 public_interest_score: 25.173
 symbol: 0xbtc
 tickers:
+- base: 0XBTC
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
 - base: 0XBTC
   market:
     identifier: coin_exchange
@@ -49,21 +54,11 @@ tickers:
   target: BTC
 - base: 0XBTC
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: 0XBTC
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: 0XBTC
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: 0XBTC
-  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: 0XBTC
+  market:
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH

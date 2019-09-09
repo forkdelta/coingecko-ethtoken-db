@@ -1,8 +1,8 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 2273
-coingecko_score: 12.203
-community_score: 11.553
+coingecko_rank: 2278
+coingecko_score: 12.156
+community_score: 11.551
 description: >-
   Official Token of Yobit.Net Exchange
 developer_score: 0.0
@@ -18,8 +18,8 @@ links:
   homepage:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
-liquidity_score: 31.596
-market_cap_rank: 2319
+liquidity_score: 31.364
+market_cap_rank: 2292
 name: Yobit Token
 public_interest_score: 29.955
 symbol: yo
@@ -36,35 +36,40 @@ tickers:
   target: BTC
 - base: YO
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: YO
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: DOGE
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: YO
   market:
     identifier: yobit
     name: YoBit
   target: WAVES
+- base: DOGE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: SEDO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
 - base: LTC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: TRX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETC
   market:
     identifier: yobit
     name: YoBit
@@ -74,12 +79,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHSV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ZEC
+- base: TRX
   market:
     identifier: yobit
     name: YoBit
@@ -99,17 +99,32 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: SEDO
+- base: ETH
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: EOS
+- base: BCHSV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ETC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ZEC
   market:
     identifier: yobit
     name: YoBit
   target: YO
 - base: EDC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EOS
   market:
     identifier: yobit
     name: YoBit

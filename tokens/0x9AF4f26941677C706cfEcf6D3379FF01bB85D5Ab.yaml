@@ -1,7 +1,7 @@
 ---
 address: '0x9AF4f26941677C706cfEcf6D3379FF01bB85D5Ab'
-coingecko_rank: 876
-coingecko_score: 23.751
+coingecko_rank: 875
+coingecko_score: 23.813
 community_score: 8.66
 description: >-
   DomRaider network is an open-source blockchain dedicated to the decentralization of auctions in real
@@ -30,11 +30,16 @@ links:
   subreddit_url: https://www.reddit.com/r/DomRaider
   twitter_screen_name: domraider
 liquidity_score: 1.0
-market_cap_rank: 721
+market_cap_rank: 689
 name: DomRaider
 public_interest_score: 25.485
 symbol: drt
 tickers:
+- base: DRT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: DRT
   market:
     identifier: crex24
@@ -44,14 +49,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: DRT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: DRT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+  target: BTC

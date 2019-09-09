@@ -1,8 +1,8 @@
 ---
 address: '0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E'
-coingecko_rank: 523
-coingecko_score: 28.914
-community_score: 28.971
+coingecko_rank: 518
+coingecko_score: 29.019
+community_score: 28.956
 description: >-
   KICKICO helps innovators, game developers, blockchain leaders, entrepreneurs, designers, and other creators
   find the resources and support they need to make their ideas a reality.
@@ -25,8 +25,8 @@ links:
     - https://github.com/kickico/contracts
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKecosystem
-liquidity_score: 10.384
-market_cap_rank: 331
+liquidity_score: 11.019
+market_cap_rank: 324
 name: Kick Token
 public_interest_score: 25.747
 symbol: kick
@@ -75,17 +75,17 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: BTC
+- base: KICK
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: KICK
   market:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: KICK
-  market:
-    identifier: probit
-    name: Probit
-  target: USDT
 - base: KICK
   market:
     identifier: yobit
@@ -96,6 +96,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: KICK
   market:
     identifier: yobit

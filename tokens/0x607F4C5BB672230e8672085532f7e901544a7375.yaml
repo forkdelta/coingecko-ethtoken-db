@@ -1,8 +1,8 @@
 ---
 address: '0x607F4C5BB672230e8672085532f7e901544a7375'
-coingecko_rank: 136
-coingecko_score: 42.86
-community_score: 34.671
+coingecko_rank: 129
+coingecko_score: 43.075
+community_score: 36.006
 description: >-
   iExec is an open-source, decentralized cloud computing platform, running on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain. iExec allows decentralized applications (dApps) an on-demand access to computing resources
@@ -42,7 +42,7 @@ description: >-
   decentralized supercomputer on blockchain technology, while iExec is targeting dApp development and
   sustainability.  Both look towards a future of a blockchain-powered, decentralized internet, but their
   functions, while sometimes similar, are more complementary than conflicting.
-developer_score: 62.109
+developer_score: 61.441
 id: iexec-rlc
 image:
   large: https://assets.coingecko.com/coins/images/646/large/iExec_RLC.png?1547034373
@@ -64,8 +64,8 @@ links:
     - https://github.com/iExecBlockchainComputing/iexec-stack
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
-liquidity_score: 17.549
-market_cap_rank: 214
+liquidity_score: 17.742
+market_cap_rank: 207
 name: iExec RLC
 public_interest_score: 25.925
 symbol: rlc
@@ -87,13 +87,28 @@ tickers:
   target: ETH
 - base: RLC
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: RLC
+  market:
     identifier: gate
     name: Gate.io
   target: USDT
 - base: RLC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: RLC
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: RLC
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: RLC
   market:
