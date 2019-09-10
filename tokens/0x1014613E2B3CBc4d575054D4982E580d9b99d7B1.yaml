@@ -50,16 +50,26 @@ links:
   telegram_channel_identifier: bitcvglobal
   twitter_screen_name: BCVofficial
 liquidity_score: 41.799
-market_cap_rank: 134
+market_cap_rank: 126
 name: BitCapitalVendor
 public_interest_score: 22.971
 symbol: bcv
 tickers:
 - base: BCV
   market:
+    identifier: aex
+    name: AEX
+  target: ETH
+- base: BCV
+  market:
     identifier: bibox
     name: Bibox
   target: BTC
+- base: BCV
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
 - base: BCV
   market:
     identifier: bit_z

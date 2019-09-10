@@ -80,14 +80,14 @@ tickers:
   target: KRW
 - base: MCO
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: coinplace
+    name: Coinplace
   target: BTC
 - base: MCO
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: MCO
   market:
     identifier: gopax
@@ -100,14 +100,24 @@ tickers:
   target: USD
 - base: MCO
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: MCO
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: MCO
   market:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: MCO
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: MCO
   market:
     identifier: quoine

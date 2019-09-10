@@ -50,19 +50,14 @@ symbol: r
 tickers:
 - base: R
   market:
-    identifier: bitker
-    name: BITKER
-  target: BTC
-- base: R
-  market:
-    identifier: bitker
-    name: BITKER
-  target: USDT
-- base: R
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: R
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: R
   market:
     identifier: okex_korea
@@ -93,3 +88,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: R
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

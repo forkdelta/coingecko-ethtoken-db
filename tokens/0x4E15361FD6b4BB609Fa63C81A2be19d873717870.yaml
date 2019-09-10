@@ -55,22 +55,17 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
-  target: ETH
-- base: FTM-A64
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
-- base: FTM
-  market:
-    identifier: coinall
-    name: CoinAll
   target: BTC
 - base: FTM
   market:
-    identifier: coinzest
-    name: Coinzest
-  target: KRW
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: FTM
+  market:
+    identifier: binance
+    name: Binance
+  target: TUSD
 - base: FTM
   market:
     identifier: eterbase
@@ -91,6 +86,11 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
 - base: FTM
   market:
     identifier: yobit

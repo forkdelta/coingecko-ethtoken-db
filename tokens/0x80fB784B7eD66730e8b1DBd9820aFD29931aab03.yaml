@@ -46,11 +46,16 @@ links:
   subreddit_url: https://www.reddit.com/r/ETHLend
   twitter_screen_name: AaveAave
 liquidity_score: 37.215
-market_cap_rank: 408
+market_cap_rank: 371
 name: Aave
 public_interest_score: 25.232
 symbol: lend
 tickers:
+- base: LEND
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: LEND
   market:
     identifier: airswap
@@ -58,9 +63,9 @@ tickers:
   target: ETH
 - base: LEND
   market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: LEND
   market:
     identifier: uniswap

@@ -40,7 +40,17 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: ORBS
+- base: PMA
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: DOGE
   market:
     identifier: okex
     name: OKEx
@@ -51,11 +61,6 @@ tickers:
     name: OKEx
   target: USDK
 - base: LEO
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: DOGE
   market:
     identifier: okex
     name: OKEx

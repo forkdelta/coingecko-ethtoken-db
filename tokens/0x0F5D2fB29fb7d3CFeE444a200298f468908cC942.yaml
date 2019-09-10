@@ -89,6 +89,11 @@ tickers:
     identifier: bitkub
     name: Bitkub
   target: THB
+- base: MANA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: MNA
   market:
     identifier: ethfinex
@@ -111,28 +116,23 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: MANA
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: MANA
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: MANA
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
+    identifier: latoken
+    name: LATOKEN
   target: BTC
 - base: MANA
   market:
-    identifier: p2pb2b
-    name: P2PB2B
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: MANA
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: MANA
   market:
@@ -146,6 +146,11 @@ tickers:
   target: USDT
 - base: MANA
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: MANA
+  market:
     identifier: zb
     name: ZB
-  target: USDT
+  target: BTC

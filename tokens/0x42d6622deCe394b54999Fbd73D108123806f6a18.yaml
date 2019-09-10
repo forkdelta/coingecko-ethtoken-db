@@ -27,7 +27,7 @@ links:
   subreddit_url: https://www.reddit.com/r/SpankChain
   twitter_screen_name: spankchain
 liquidity_score: 1.0
-market_cap_rank: 438
+market_cap_rank: 423
 name: SpankChain
 public_interest_score: 27.917
 symbol: spank
@@ -42,10 +42,20 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: SPK
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: SPANK
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: SPANK
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: SPANK
   market:

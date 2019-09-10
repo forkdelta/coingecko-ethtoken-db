@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
 liquidity_score: 50.856
-market_cap_rank: 47
+market_cap_rank: 49
 name: Augur
 public_interest_score: 34.055
 symbol: rep
@@ -67,11 +67,6 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
-- base: REP
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: REP
   market:
     identifier: bitbay
@@ -89,14 +84,9 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: BTC
-- base: REP
-  market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: ETH
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
 - base: REP
   market:
     identifier: coinbene
@@ -104,8 +94,8 @@ tickers:
   target: BTC
 - base: REP
   market:
-    identifier: coinzest
-    name: Coinzest
+    identifier: coinone
+    name: Coinone
   target: KRW
 - base: REP
   market:
@@ -116,6 +106,11 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: BTC
+- base: REP
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
 - base: REP
   market:
@@ -167,6 +162,16 @@ tickers:
     identifier: independent_reserve
     name: Independent Reserve
   target: USD
+- base: REP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: REP
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: REP
   market:
     identifier: livecoin

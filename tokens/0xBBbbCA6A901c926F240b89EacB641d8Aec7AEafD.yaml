@@ -91,18 +91,8 @@ symbol: lrc
 tickers:
 - base: LRC
   market:
-    identifier: bitker
-    name: BITKER
-  target: ETH
-- base: LRC
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
-- base: LRC
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
   target: BTC
 - base: LRC
   market:
@@ -121,14 +111,19 @@ tickers:
   target: USD
 - base: LRC
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: gate
+    name: Gate.io
+  target: BTC
 - base: LRC
   market:
     identifier: gate
     name: Gate.io
-  target: BTC
+  target: ETH
+- base: LRC
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: LRC
   market:
     identifier: livecoin
@@ -141,9 +136,14 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: BTC
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: LRC
   market:
     identifier: yobit

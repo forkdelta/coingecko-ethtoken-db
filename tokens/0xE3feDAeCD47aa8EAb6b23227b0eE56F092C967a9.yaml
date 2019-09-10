@@ -53,11 +53,16 @@ links:
   telegram_channel_identifier: primas_official
   twitter_screen_name: PrimasOfficial
 liquidity_score: 39.969
-market_cap_rank: 370
+market_cap_rank: 369
 name: Primas
 public_interest_score: 34.177
 symbol: pst
 tickers:
+- base: PST
+  market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: PST
   market:
     identifier: gate
@@ -68,3 +73,8 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: ETH
+- base: PST
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
