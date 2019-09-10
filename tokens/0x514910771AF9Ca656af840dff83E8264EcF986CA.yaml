@@ -72,7 +72,7 @@ links:
   telegram_channel_identifier: chainlinkofficial
   twitter_screen_name: chainlink
 liquidity_score: 64.306
-market_cap_rank: 21
+market_cap_rank: 22
 name: ChainLink
 public_interest_score: 32.658
 symbol: link
@@ -84,6 +84,11 @@ tickers:
   target: BTC
 - base: LINK
   market:
+    identifier: coss
+    name: COSS
+  target: COS
+- base: LINK
+  market:
     identifier: crytrex
     name: CryTrEx
   target: BTC
@@ -91,14 +96,29 @@ tickers:
   market:
     identifier: financex
     name: FinanceX
-  target: VND
+  target: IDR
 - base: LINK
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: LINK
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: LINK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: LINK
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
+- base: LINK
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: LINK
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT

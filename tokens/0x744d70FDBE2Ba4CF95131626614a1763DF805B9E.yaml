@@ -51,11 +51,16 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 57.387
-market_cap_rank: 80
+market_cap_rank: 79
 name: Status
 public_interest_score: 43.186
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
 - base: SNT
   market:
     identifier: ethfinex
@@ -71,6 +76,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: SNT
+  market:
+    identifier: fubt
+    name: FUBT
+  target: BTC
 - base: SNT
   market:
     identifier: gopax
@@ -83,8 +93,28 @@ tickers:
   target: BTC
 - base: SNT
   market:
+    identifier: jex
+    name: Binance JEX
+  target: USDT
+- base: SNT
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
+- base: SNT
+  market:
     identifier: kucoin
     name: KuCoin
+  target: ETH
+- base: SNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: SNT
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: SNT
   market:
@@ -95,22 +125,7 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
-  target: BTC
-- base: SNT
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
-- base: SNT
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: USDT
-- base: SNT
-  market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
 - base: SNT
   market:
     identifier: zb

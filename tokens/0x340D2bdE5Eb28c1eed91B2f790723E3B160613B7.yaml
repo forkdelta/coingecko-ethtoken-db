@@ -33,8 +33,18 @@ links:
   subreddit_url: https://www.reddit.com/r/blockv
   twitter_screen_name: blockv_io
 liquidity_score: 1.0
-market_cap_rank: 412
+market_cap_rank: 382
 name: BLOCKv
 public_interest_score: 25.915
 symbol: vee
-tickers: []
+tickers:
+- base: VEE
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: VEE
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

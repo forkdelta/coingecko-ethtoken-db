@@ -108,11 +108,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: DAI
-- base: DAI
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: USDC
 - base: ETH
   market:
     identifier: bibox
@@ -128,6 +123,11 @@ tickers:
     identifier: bisq
     name: Bisq
   target: BTC
+- base: DAI
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: DAI
   market:
     identifier: bittrex
@@ -148,12 +148,12 @@ tickers:
     identifier: coinall
     name: CoinAll
   target: USDT
-- base: ETH
+- base: MKR
   market:
     identifier: coss
     name: COSS
   target: DAI
-- base: MKR
+- base: ETH
   market:
     identifier: coss
     name: COSS
@@ -173,12 +173,17 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: MKR
+- base: DAI
+  market:
+    identifier: dydx
+    name: dYdX
+  target: USDC
+- base: OMG
   market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: OMG
+- base: MKR
   market:
     identifier: ethfinex
     name: Ethfinex
@@ -188,27 +193,12 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: BTRS
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: DAI
 - base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: MKR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: EURS
+- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -218,11 +208,26 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
+- base: MKR
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EOSDT
+  target: DAI
+- base: POA
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: POA20
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: ETH
   market:
     identifier: idex
@@ -248,11 +253,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: DAI
-- base: DAI
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
 - base: BTC
   market:
     identifier: quoine
@@ -277,28 +277,33 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: ETH
-- base: DAI
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USD
 - base: DOGE
   market:
     identifier: south_xchange
     name: SouthXchange
+  target: DAI
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: ETH
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: DAI
 - base: USDC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: SDUSD
+- base: USDT
   market:
     identifier: switcheo
     name: Switcheo
