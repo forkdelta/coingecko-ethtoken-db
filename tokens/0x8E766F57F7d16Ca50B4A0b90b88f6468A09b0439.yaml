@@ -29,16 +29,21 @@ links:
   telegram_channel_identifier: maximine
   twitter_screen_name: maximinecoin
 liquidity_score: 41.347
-market_cap_rank: 156
+market_cap_rank: 152
 name: Maximine
 public_interest_score: 28.246
 symbol: mxm
 tickers:
-- base: MXM3
+- base: MXM
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
+- base: MXM
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
 - base: MXM3
   market:
     identifier: livecoin

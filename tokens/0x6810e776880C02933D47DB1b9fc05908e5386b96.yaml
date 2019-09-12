@@ -63,16 +63,26 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 9.19
-market_cap_rank: 187
+market_cap_rank: 189
 name: Gnosis
 public_interest_score: 37.066
 symbol: gno
 tickers:
 - base: GNO
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: GNO
+  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
+- base: GNO
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: GNO
   market:
     identifier: ethfinex
@@ -90,11 +100,6 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: GNO
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -103,3 +108,8 @@ tickers:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: GNO
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH

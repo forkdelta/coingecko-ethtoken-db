@@ -58,7 +58,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 40.198
-market_cap_rank: 151
+market_cap_rank: 147
 name: Storj
 public_interest_score: 28.232
 symbol: storj
@@ -105,14 +105,9 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: STORJ
   market:
     identifier: hitbtc
@@ -130,14 +125,14 @@ tickers:
   target: ETH
 - base: STORJ
   market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
+- base: STORJ
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: STORJ
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
 - base: STORJ
   market:
     identifier: yobit
@@ -153,6 +148,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: STORJ
   market:
     identifier: yobit

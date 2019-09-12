@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KICKICO_Platform
   twitter_screen_name: KICKecosystem
 liquidity_score: 11.019
-market_cap_rank: 321
+market_cap_rank: 341
 name: Kick Coin
 public_interest_score: 25.747
 symbol: kick
@@ -38,6 +38,16 @@ tickers:
   target: BTC
 - base: KICK
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: KICK
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: KICK
+  market:
     identifier: coss
     name: COSS
   target: BTC
@@ -46,6 +56,11 @@ tickers:
     identifier: coss
     name: COSS
   target: ETH
+- base: KICK
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: KICK
   market:
     identifier: crex24
@@ -58,19 +73,14 @@ tickers:
   target: USD
 - base: KICK
   market:
-    identifier: exmo
-    name: EXMO
-  target: BTC
-- base: KICK
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: KICK
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: KICK
   market:
     identifier: livecoin
@@ -83,8 +93,8 @@ tickers:
   target: USD
 - base: KICK
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: probit
+    name: Probit
   target: BTC
 - base: KICK
   market:

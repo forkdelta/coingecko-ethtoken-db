@@ -76,6 +76,11 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: beaxy
+    name: Beaxy
+  target: BTC
+- base: NPXS
+  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
@@ -84,6 +89,11 @@ tickers:
     identifier: bit_z
     name: Bit-Z
   target: ETH
+- base: NPXS
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
 - base: NPXS
   market:
     identifier: bitsten
@@ -91,24 +101,19 @@ tickers:
   target: BST
 - base: NPXS
   market:
+    identifier: bitsten
+    name: Bitsten
+  target: IDR
+- base: NPXS
+  market:
     identifier: bittrex
     name: Bittrex
   target: USDT
 - base: NPXS
   market:
-    identifier: cashierest
-    name: Cashierest
-  target: KRW
-- base: NPXS
-  market:
-    identifier: catex
-    name: Catex
-  target: BTC
-- base: NPXS
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
+  target: ETH
 - base: NPXS
   market:
     identifier: coinbene
@@ -121,23 +126,8 @@ tickers:
   target: USDT
 - base: NPXS
   market:
-    identifier: coss
-    name: COSS
-  target: COS
-- base: NPXS
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: NPXS
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: BTC
-- base: NPXS
-  market:
-    identifier: exrates
-    name: Exrates
+    identifier: crypto_bridge
+    name: CryptoBridge
   target: BTC
 - base: NPXS
   market:
@@ -151,24 +141,19 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: graviex
-    name: Graviex
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: NPXS
   market:
     identifier: livecoin
@@ -213,4 +198,4 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
-  target: INR
+  target: BTC

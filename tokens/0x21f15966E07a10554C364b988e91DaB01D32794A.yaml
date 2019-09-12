@@ -1,6 +1,6 @@
 ---
 address: '0x21f15966E07a10554C364b988e91DaB01D32794A'
-coingecko_rank: 908
+coingecko_rank: 907
 coingecko_score: 23.401
 community_score: 7.744
 description: >-
@@ -26,7 +26,7 @@ links:
     - https://github.com/SmartMeshFoundation/SmartMesh_iOS
   twitter_screen_name: smart_mesh
 liquidity_score: 11.422
-market_cap_rank: 306
+market_cap_rank: 312
 name: SmartMesh
 public_interest_score: 25.427
 symbol: smt
@@ -45,9 +45,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: SMT
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: SMT
   market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

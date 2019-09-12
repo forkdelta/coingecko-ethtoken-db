@@ -26,16 +26,26 @@ links:
   - https://polybius.io/
   twitter_screen_name: PolybiusBank
 liquidity_score: 1.0
-market_cap_rank: 350
+market_cap_rank: 389
 name: Polybius
 public_interest_score: 25.622
 symbol: plbt
 tickers:
 - base: PLBT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PLBT
+  market:
     identifier: livecoin
     name: Livecoin
-  target: USD
+  target: ETH
+- base: PLBT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: PLBT
   market:
     identifier: mercatox

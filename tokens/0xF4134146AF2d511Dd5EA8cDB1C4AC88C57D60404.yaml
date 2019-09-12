@@ -27,7 +27,7 @@ links:
   subreddit_url: https://www.reddit.com/r/suncontract
   twitter_screen_name: sun_contract
 liquidity_score: 24.576
-market_cap_rank: 454
+market_cap_rank: 448
 name: SunContract
 public_interest_score: 25.52
 symbol: snc
@@ -41,12 +41,17 @@ tickers:
   market:
     identifier: kucoin
     name: KuCoin
+  target: BTC
+- base: SNC
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: SNC
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: SNC
   market:
     identifier: okex_korea
@@ -56,9 +61,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: ETH
 - base: SNC
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: USD

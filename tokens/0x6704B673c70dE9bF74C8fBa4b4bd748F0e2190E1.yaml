@@ -1,6 +1,6 @@
 ---
 address: '0x6704B673c70dE9bF74C8fBa4b4bd748F0e2190E1'
-coingecko_rank: 774
+coingecko_rank: 773
 coingecko_score: 25.205
 community_score: 10.2
 description: "At the heart of Ubex’s advertising purchasing algorithms, lie neural networks that process\t\
@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: UbexAI
   twitter_screen_name: ubex_ai
 liquidity_score: 22.211
-market_cap_rank: 563
+market_cap_rank: 564
 name: Ubex
 public_interest_score: 25.684
 symbol: ubex
 tickers:
+- base: UBEX
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT
 - base: UBEX
   market:
     identifier: bitmart
@@ -46,6 +51,16 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: ETH
+- base: UBEX
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: UBEX
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USDT
 - base: UBEX
   market:
     identifier: catex
@@ -55,7 +70,7 @@ tickers:
   market:
     identifier: hotbit
     name: Hotbit
-  target: ETH
+  target: BTC
 - base: UBEX
   market:
     identifier: idex
@@ -63,11 +78,11 @@ tickers:
   target: ETH
 - base: UBEX
   market:
-    identifier: probit
-    name: Probit
-  target: BTC
+    identifier: lbank
+    name: Lbank
+  target: USDT
 - base: UBEX
   market:
     identifier: probit
     name: Probit
-  target: USDT
+  target: BTC

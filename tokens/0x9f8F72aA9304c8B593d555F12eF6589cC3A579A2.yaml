@@ -65,6 +65,11 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: MKR
+  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: DAI
@@ -100,6 +105,11 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: MKR
+  market:
     identifier: everbloom
     name: Everbloom
   target: ETH
@@ -110,6 +120,16 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: MKR
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -118,6 +138,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
+- base: MKR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: MKR
   market:
     identifier: idex
@@ -132,12 +157,7 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
-  target: ETH
-- base: MKR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
+  target: BTC
 - base: MKR
   market:
     identifier: radar_relay
@@ -153,6 +173,16 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: MKR
   market:
     identifier: sistemkoin
@@ -173,3 +203,13 @@ tickers:
     identifier: three_xbit
     name: 3XBIT
   target: USD
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
