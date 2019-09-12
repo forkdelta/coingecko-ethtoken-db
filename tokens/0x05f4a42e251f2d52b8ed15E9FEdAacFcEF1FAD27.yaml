@@ -61,16 +61,21 @@ symbol: zil
 tickers:
 - base: ZIL
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: ZIL
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: ZIL
+  market:
+    identifier: probit
+    name: Probit
+  target: BTC
 - base: ZIL
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: USDT
-- base: ZIL
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC

@@ -60,7 +60,7 @@ links:
   subreddit_url: https://www.reddit.com/r/SingularDTV
   twitter_screen_name: SingularDTV
 liquidity_score: 11.213
-market_cap_rank: 419
+market_cap_rank: 433
 name: SingularDTV
 public_interest_score: 26.064
 symbol: sngls
@@ -79,11 +79,6 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: SNG
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
 - base: SNGLS
   market:
@@ -95,3 +90,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: SNGLS
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD

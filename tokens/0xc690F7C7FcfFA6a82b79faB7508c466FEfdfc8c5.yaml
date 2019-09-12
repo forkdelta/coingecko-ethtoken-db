@@ -1,6 +1,6 @@
 ---
 address: '0xc690F7C7FcfFA6a82b79faB7508c466FEfdfc8c5'
-coingecko_rank: 1234
+coingecko_rank: 1233
 coingecko_score: 20.178
 community_score: 8.63
 description: >-
@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: lympo
   twitter_screen_name: Lympo_io
 liquidity_score: 11.361
-market_cap_rank: 401
+market_cap_rank: 408
 name: Lympo
 public_interest_score: 40.201
 symbol: lym
@@ -43,14 +43,19 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: LYM
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
 - base: LYM
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: LYM
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: LYM
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW

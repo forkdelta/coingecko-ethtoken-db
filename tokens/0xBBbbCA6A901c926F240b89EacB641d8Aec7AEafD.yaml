@@ -84,7 +84,7 @@ links:
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
 liquidity_score: 39.987
-market_cap_rank: 110
+market_cap_rank: 111
 name: Loopring
 public_interest_score: 27.364
 symbol: lrc
@@ -113,16 +113,6 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: BTC
-- base: LRC
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: LRC
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: LRC
   market:
@@ -134,6 +124,11 @@ tickers:
     identifier: otcbtc
     name: OTCBTC
   target: ETH
+- base: LRC
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: BTC
 - base: LRC
   market:
     identifier: uniswap

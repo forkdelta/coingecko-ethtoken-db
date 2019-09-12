@@ -38,21 +38,6 @@ name: Bankera
 public_interest_score: 26.016
 symbol: bnk
 tickers:
-- base: ZEC
-  market:
-    identifier: bankera
-    name: Bankera
-  target: BNK
-- base: LTC
-  market:
-    identifier: bankera
-    name: Bankera
-  target: BNK
-- base: XRP
-  market:
-    identifier: bankera
-    name: Bankera
-  target: BNK
 - base: BNK
   market:
     identifier: bankera
@@ -63,6 +48,16 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: BNK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: BNK
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: BNK
   market:
     identifier: idcm

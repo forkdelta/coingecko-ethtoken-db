@@ -29,16 +29,26 @@ links:
   telegram_channel_identifier: cointorox
   twitter_screen_name: cointoroxtoken
 liquidity_score: 3.858
-market_cap_rank: 1793
+market_cap_rank: 1746
 name: Cointorox
 public_interest_score: 26.948
 symbol: orox
 tickers:
 - base: OROX
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: OROX
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: OROX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: OROX
   market:
     identifier: yobit
@@ -49,6 +59,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: OROX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: OROX
   market:
     identifier: yobit

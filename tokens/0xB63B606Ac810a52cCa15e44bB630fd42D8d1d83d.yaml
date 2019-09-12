@@ -75,19 +75,14 @@ symbol: mco
 tickers:
 - base: MCO
   market:
-    identifier: cashierest
-    name: Cashierest
-  target: KRW
-- base: MCO
-  market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: MCO
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: MCO
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MCO
   market:
     identifier: gopax
@@ -97,16 +92,16 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: MCO
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: USD
 - base: MCO
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: MCO
-  market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: idex
+    name: Idex
   target: ETH
 - base: MCO
   market:
@@ -115,31 +110,11 @@ tickers:
   target: USD
 - base: MCO
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: MCO
-  market:
     identifier: quoine
     name: Liquid
   target: BTC
-- base: MCO
-  market:
-    identifier: quoine
-    name: Liquid
-  target: ETH
 - base: MCO
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: MCO
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
-- base: MCO
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

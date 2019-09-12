@@ -51,7 +51,7 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 57.387
-market_cap_rank: 79
+market_cap_rank: 81
 name: Status
 public_interest_score: 43.186
 symbol: SNT
@@ -63,9 +63,24 @@ tickers:
   target: THB
 - base: SNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: SNT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: SNT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: SNT
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: SNT
   market:
     identifier: ethfinex
@@ -73,13 +88,8 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: SNT
-  market:
-    identifier: fubt
-    name: FUBT
+    identifier: gate
+    name: Gate.io
   target: BTC
 - base: SNT
   market:
@@ -88,14 +98,24 @@ tickers:
   target: BTC
 - base: SNT
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: SNT
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
 - base: SNT
   market:
-    identifier: jex
-    name: Binance JEX
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: SNT
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
 - base: SNT
   market:
     identifier: korbit
@@ -108,26 +128,6 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: SNT
-  market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: upbit
+    name: Upbit
   target: ETH
-- base: SNT
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: SNT
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USDT
-- base: SNT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
