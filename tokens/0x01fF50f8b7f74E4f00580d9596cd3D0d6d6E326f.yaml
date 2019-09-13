@@ -61,11 +61,16 @@ links:
   telegram_channel_identifier: bf_token
   twitter_screen_name: BankToTheFuture
 liquidity_score: 9.735
-market_cap_rank: 305
+market_cap_rank: 307
 name: BnkToTheFuture
 public_interest_score: 25.433
 symbol: bft
 tickers:
+- base: BFT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: BFT
   market:
     identifier: crytrex
@@ -86,3 +91,8 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: BFT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

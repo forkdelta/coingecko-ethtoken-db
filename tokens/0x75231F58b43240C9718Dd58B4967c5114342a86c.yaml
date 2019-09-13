@@ -49,7 +49,17 @@ name: OKB
 public_interest_score: 32.828
 symbol: okb
 tickers:
-- base: QTUM
+- base: ADA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: SC
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: DCR
   market:
     identifier: okex
     name: OKEx
@@ -59,7 +69,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: SC
+- base: AE
   market:
     identifier: okex
     name: OKEx

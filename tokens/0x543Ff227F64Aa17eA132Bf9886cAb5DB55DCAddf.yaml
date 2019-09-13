@@ -54,6 +54,16 @@ symbol: gen
 tickers:
 - base: GEN
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: GEN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: GEN
+  market:
     identifier: hotbit
     name: Hotbit
   target: ETH
@@ -61,9 +71,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: GEN
-  market:
-    identifier: quoine
-    name: Liquid
   target: ETH

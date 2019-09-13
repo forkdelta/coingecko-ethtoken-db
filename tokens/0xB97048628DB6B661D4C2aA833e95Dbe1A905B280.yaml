@@ -48,7 +48,7 @@ links:
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
 liquidity_score: 23.202
-market_cap_rank: 218
+market_cap_rank: 217
 name: TenX
 public_interest_score: 28.061
 symbol: pay
@@ -63,6 +63,11 @@ tickers:
     identifier: bitbay
     name: BitBay
   target: EUR
+- base: PAY
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: PLN
 - base: PAY
   market:
     identifier: bitbay
@@ -83,11 +88,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: PAY
-  market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
 - base: PAY
   market:
     identifier: kyber_network

@@ -29,4 +29,14 @@ market_cap_rank: 103
 name: FTX Token
 public_interest_score: 26.324
 symbol: ftt
-tickers: []
+tickers:
+- base: FTT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC
+- base: FTT
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: BTC
