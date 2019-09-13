@@ -27,21 +27,21 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 30.252
-market_cap_rank: 202
+market_cap_rank: 200
 name: STASIS EURO
 public_interest_score: 27.787
 symbol: eurs
 tickers:
 - base: EURS
   market:
-    identifier: dsx
-    name: DSX
-  target: EUR
-- base: LTC
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: EURS
   market:
     identifier: dsx
     name: DSX
-  target: EURS
+  target: EUR
 - base: ETH
   market:
     identifier: dsx
@@ -67,17 +67,22 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: BTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -102,11 +107,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: BOX
   market:
     identifier: hitbtc
@@ -117,11 +117,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: TUSD
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: EURS
   market:
     identifier: okcoin

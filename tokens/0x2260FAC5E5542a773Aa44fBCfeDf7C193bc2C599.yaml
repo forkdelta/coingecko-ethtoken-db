@@ -1,6 +1,6 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 3401
+coingecko_rank: 3402
 coingecko_score: 7.31
 community_score: 0.0
 description: >-
@@ -26,7 +26,7 @@ links:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
 liquidity_score: 18.0
-market_cap_rank: 4807
+market_cap_rank: 3590
 name: Wrapped Bitcoin
 public_interest_score: 37.101
 symbol: wbtc
@@ -36,6 +36,11 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: WBTC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: DAI
 - base: WBTC
   market:
     identifier: ddex
@@ -72,6 +77,11 @@ tickers:
     name: Switcheo
   target: USDT
 - base: ETH
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: WBTC
+- base: NEO
   market:
     identifier: switcheo
     name: Switcheo

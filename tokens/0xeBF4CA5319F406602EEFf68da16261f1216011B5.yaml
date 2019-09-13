@@ -1,6 +1,6 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 2278
+coingecko_rank: 2279
 coingecko_score: 12.156
 community_score: 11.551
 description: >-
@@ -19,7 +19,7 @@ links:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
 liquidity_score: 31.364
-market_cap_rank: 3010
+market_cap_rank: 2305
 name: Yobit Token
 public_interest_score: 29.955
 symbol: yo
@@ -38,13 +38,18 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: DOGE
+  target: BTC
+- base: YO
   market:
     identifier: yobit
     name: YoBit
-  target: YO
-- base: EDC
+  target: RUR
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: DOGE
   market:
     identifier: yobit
     name: YoBit
@@ -54,17 +59,12 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: LTC
+- base: DASH
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: XEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETC
+- base: ZEC
   market:
     identifier: yobit
     name: YoBit
@@ -74,7 +74,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: DASH
+- base: ETC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: LTC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EDC
   market:
     identifier: yobit
     name: YoBit
@@ -84,7 +94,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ZEC
+- base: XEM
   market:
     identifier: yobit
     name: YoBit

@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: indorseio
   twitter_screen_name: joinindorse
 liquidity_score: 1.974
-market_cap_rank: 1086
+market_cap_rank: 1088
 name: Indorse
 public_interest_score: 25.663
 symbol: ind
 tickers:
+- base: IND
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: IND
   market:
     identifier: coss
@@ -47,11 +52,6 @@ tickers:
     identifier: coss
     name: COSS
   target: ETH
-- base: IND
-  market:
-    identifier: coss
-    name: COSS
-  target: USDT
 - base: IND
   market:
     identifier: forkdelta

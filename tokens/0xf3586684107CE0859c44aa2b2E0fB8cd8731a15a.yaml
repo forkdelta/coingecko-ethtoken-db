@@ -1,6 +1,6 @@
 ---
 address: '0xf3586684107CE0859c44aa2b2E0fB8cd8731a15a'
-coingecko_rank: 1781
+coingecko_rank: 1782
 coingecko_score: 15.683
 community_score: 7.944
 description: >-
@@ -27,7 +27,7 @@ links:
     - https://github.com/karatgold/smartcontract
   twitter_screen_name: karatbarsgmbh
 liquidity_score: 36.886
-market_cap_rank: 3452
+market_cap_rank: 3457
 name: Karatgold Coin
 public_interest_score: 32.539
 symbol: kbc
@@ -36,7 +36,17 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
+  target: BTC
+- base: KBC
+  market:
+    identifier: bit_z
+    name: Bit-Z
   target: ETH
+- base: KBC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: USDT
 - base: KBC
   market:
     identifier: coinall
@@ -44,9 +54,9 @@ tickers:
   target: BTC
 - base: KBC
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
+    identifier: coinall
+    name: CoinAll
+  target: ETH
 - base: KBC
   market:
     identifier: coinbene
