@@ -60,24 +60,9 @@ symbol: wtc
 tickers:
 - base: WTC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: WTC
-  market:
-    identifier: allbit
-    name: Allbit
-  target: ETH
-- base: WTC
-  market:
-    identifier: coss
-    name: COSS
+    identifier: crex24
+    name: CREX24
   target: BTC
-- base: WTC
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
 - base: WTC
   market:
     identifier: ethfinex
@@ -92,6 +77,11 @@ tickers:
   market:
     identifier: financex
     name: FinanceX
+  target: BTC
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
   target: IDR
 - base: WTC
   market:
@@ -102,6 +92,26 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: WTC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: WTC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: WTC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: WTC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
   target: ETH
 - base: WTC
   market:

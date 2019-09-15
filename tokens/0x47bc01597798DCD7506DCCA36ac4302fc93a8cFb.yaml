@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: crowdmachine
   twitter_screen_name: crowd_machine
 liquidity_score: 1.867
-market_cap_rank: 785
+market_cap_rank: 794
 name: Crowd Machine
 public_interest_score: 41.155
 symbol: cmct
@@ -36,6 +36,16 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: BTC
+- base: CMCT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: CMCT
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: CMCT
   market:
@@ -47,3 +57,8 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: CMCT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH

@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: wixlar
   twitter_screen_name: WixlarCoin
 liquidity_score: 26.655
-market_cap_rank: 90
+market_cap_rank: 123
 name: Wixlar
 public_interest_score: 25.514
 symbol: wix
@@ -49,6 +49,16 @@ tickers:
   target: ETH
 - base: WIX
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: WIX
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
+- base: WIX
+  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
@@ -57,6 +67,11 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
+- base: WIX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: WIX
   market:
     identifier: vindax

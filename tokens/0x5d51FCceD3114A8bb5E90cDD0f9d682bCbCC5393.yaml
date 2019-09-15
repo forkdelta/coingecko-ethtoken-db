@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: B2BX_ICO_eng
   twitter_screen_name: b2broker_net
 liquidity_score: 10.071
-market_cap_rank: 227
+market_cap_rank: 228
 name: B2BX
 public_interest_score: 34.437
 symbol: b2b
 tickers:
+- base: B2B
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: B2B
   market:
     identifier: yobit
@@ -42,4 +47,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: B2B
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: B2B
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

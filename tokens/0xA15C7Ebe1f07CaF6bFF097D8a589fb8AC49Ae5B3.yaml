@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 55.908
-market_cap_rank: 60
+market_cap_rank: 61
 name: Pundi X
 public_interest_score: 29.892
 symbol: npxs
@@ -83,17 +83,17 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
-  target: BTC
-- base: NPXS
-  market:
-    identifier: bit_z
-    name: Bit-Z
   target: ETH
 - base: NPXS
   market:
     identifier: bitbay
     name: BitBay
   target: BTC
+- base: NPXS
+  market:
+    identifier: bitopro
+    name: BitoPro
+  target: ETH
 - base: NPXS
   market:
     identifier: bitsten
@@ -103,7 +103,27 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: USDT
+- base: NPXS
+  market:
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: catex
+    name: Catex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: NPXS
   market:
     identifier: coin_exchange
@@ -121,9 +141,9 @@ tickers:
   target: USDT
 - base: NPXS
   market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: BTC
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: NPXS
   market:
     identifier: graviex
@@ -141,6 +161,11 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: NPXS
+  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -154,6 +179,11 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
 - base: NPXS
   market:
     identifier: sistemkoin
@@ -163,11 +193,6 @@ tickers:
   market:
     identifier: thetokenstore
     name: Token.Store
-  target: ETH
-- base: NPXS
-  market:
-    identifier: tidex
-    name: Tidex
   target: ETH
 - base: NPXS
   market:
@@ -183,4 +208,4 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: INR

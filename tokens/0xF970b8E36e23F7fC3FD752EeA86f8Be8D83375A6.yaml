@@ -52,16 +52,11 @@ links:
   telegram_channel_identifier: RCNtalk
   twitter_screen_name: RCN_token
 liquidity_score: 32.601
-market_cap_rank: 321
+market_cap_rank: 313
 name: Ripio Credit Network
 public_interest_score: 26.209
 symbol: rcn
 tickers:
-- base: RCN
-  market:
-    identifier: c2cx
-    name: C2CX
-  target: USDT
 - base: RCN
   market:
     identifier: ethfinex
@@ -82,6 +77,16 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: RCN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: RCN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: RCN
   market:
     identifier: uniswap

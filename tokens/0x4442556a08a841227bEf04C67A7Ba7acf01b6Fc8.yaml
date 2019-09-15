@@ -1,6 +1,6 @@
 ---
 address: '0x4442556a08a841227bEf04C67A7Ba7acf01b6Fc8'
-coingecko_rank: 1965
+coingecko_rank: 1967
 coingecko_score: 14.275
 community_score: 27.431
 description: >-
@@ -33,8 +33,18 @@ links:
   telegram_channel_identifier: monarchtoken
   twitter_screen_name: monarchtoken
 liquidity_score: 15.529
-market_cap_rank: 2311
+market_cap_rank: 2227
 name: Monarch Token
 public_interest_score: 43.112
 symbol: mt
-tickers: []
+tickers:
+- base: MT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: TRX

@@ -72,16 +72,16 @@ links:
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
 liquidity_score: 9.562
-market_cap_rank: 146
+market_cap_rank: 140
 name: Aragon
 public_interest_score: 32.802
 symbol: ant
 tickers:
 - base: ANT
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ANT
   market:
     identifier: credoex
@@ -109,9 +109,24 @@ tickers:
   target: USD
 - base: ANT
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ANT
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: ANT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ANT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: ANT
   market:
     identifier: livecoin
@@ -119,6 +134,6 @@ tickers:
   target: USD
 - base: ANT
   market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

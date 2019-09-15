@@ -32,11 +32,21 @@ links:
   telegram_channel_identifier: PlayChipTokenSale
   twitter_screen_name: teamplayup
 liquidity_score: 1.0
-market_cap_rank: 496
+market_cap_rank: 515
 name: PlayChip
 public_interest_score: 27.013
 symbol: pla
 tickers:
+- base: PLA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: PLA
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: PLA
   market:
     identifier: hitbtc
@@ -44,19 +54,9 @@ tickers:
   target: USD
 - base: PLA
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
-- base: PLA
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
-- base: PLA
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: PLA
   market:
     identifier: latoken

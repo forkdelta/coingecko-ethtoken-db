@@ -64,16 +64,11 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 50.464
-market_cap_rank: 90
+market_cap_rank: 86
 name: Decentraland
 public_interest_score: 28.771
 symbol: mana
 tickers:
-- base: MANA
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
 - base: MANA
   market:
     identifier: bamboo_relay
@@ -86,8 +81,23 @@ tickers:
   target: BTC
 - base: MANA
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: MANA
+  market:
     identifier: bittrex
     name: Bittrex
+  target: ETH
+- base: MANA
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: MANA
+  market:
+    identifier: coineal
+    name: Coineal
   target: ETH
 - base: MNA
   market:
@@ -99,15 +109,15 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MANA
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MANA
-  market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: MANA
   market:
@@ -116,13 +126,18 @@ tickers:
   target: USD
 - base: MANA
   market:
-    identifier: idex
-    name: Idex
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: MANA
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: MANA
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
   target: ETH
 - base: MANA
   market:
@@ -139,6 +154,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: MANA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: MANA
   market:
     identifier: upbit

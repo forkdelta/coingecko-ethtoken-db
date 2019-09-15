@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: nexofinance
   twitter_screen_name: NexoFinance
 liquidity_score: 44.739
-market_cap_rank: 81
+market_cap_rank: 84
 name: NEXO
 public_interest_score: 35.611
 symbol: nexo
 tickers:
+- base: NEXO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: NEXO
   market:
     identifier: coin_exchange
@@ -53,8 +58,8 @@ tickers:
   target: WETH
 - base: NEXO
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: NEXO
   market:
@@ -66,3 +71,8 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: USDT
+- base: NEXO
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

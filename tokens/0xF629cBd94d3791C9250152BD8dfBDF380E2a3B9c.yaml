@@ -65,16 +65,16 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 59.945
-market_cap_rank: 72
+market_cap_rank: 73
 name: Enjin Coin
 public_interest_score: 36.148
 symbol: enj
 tickers:
 - base: ENJ
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: ENJ
   market:
     identifier: coin_exchange
@@ -87,19 +87,9 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: coinfinit
-    name: Coinfinit
-  target: KRW
-- base: ENJ
-  market:
     identifier: coinone
     name: Coinone
   target: KRW
-- base: ENJ
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
 - base: ENJ
   market:
     identifier: coss
@@ -110,6 +100,11 @@ tickers:
     identifier: crytrex
     name: CryTrEx
   target: BTC
+- base: ENJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: ENJ
   market:
     identifier: financex
@@ -142,19 +137,29 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
-- base: ENJ
-  market:
-    identifier: quoine
-    name: Liquid
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: ENJ
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: ENJ
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: ENJ
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: ENJ
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USDT
 - base: ENJ
   market:
     identifier: stocks_exchange
@@ -164,4 +169,9 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
+  target: ETH
+- base: ENJ
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
