@@ -62,26 +62,41 @@ links:
   subreddit_url: https://www.reddit.com/r/stormtoken
   twitter_screen_name: Storm_Token
 liquidity_score: 18.37
-market_cap_rank: 255
+market_cap_rank: 253
 name: Storm
 public_interest_score: 40.817
 symbol: storm
 tickers:
 - base: STORM
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bittrex
+    name: Bittrex
   target: BTC
+- base: STORM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: STORM
+  market:
+    identifier: coineal
+    name: Coineal
+  target: ETH
+- base: STORM
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: STORM
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
 - base: STORM
   market:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: STORM
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: INR
 - base: STORM
   market:
     identifier: wazirx
@@ -92,11 +107,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: STORM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: STORM
   market:
     identifier: yobit

@@ -1,6 +1,6 @@
 ---
 address: '0x5c3a228510D246b78a3765C20221Cbf3082b44a4'
-coingecko_rank: 1598
+coingecko_rank: 1599
 coingecko_score: 16.986
 community_score: 9.19
 description: >-
@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: storiqa_en
   twitter_screen_name: storiqa
 liquidity_score: 7.562
-market_cap_rank: 827
+market_cap_rank: 803
 name: Storiqa
 public_interest_score: 28.172
 symbol: stq
@@ -49,6 +49,11 @@ tickers:
   target: USD
 - base: STQ
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: STQ
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -64,11 +69,6 @@ tickers:
   target: BTC
 - base: STQ
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: STQ
-  market:
     identifier: wazirx
     name: WazirX
   target: INR
@@ -77,6 +77,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: STQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: STQ
   market:
     identifier: yobit

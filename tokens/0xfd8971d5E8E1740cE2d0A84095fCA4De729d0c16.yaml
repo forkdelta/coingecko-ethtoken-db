@@ -27,8 +27,18 @@ links:
   telegram_channel_identifier: zilla_app
   twitter_screen_name: zillatoken
 liquidity_score: 15.215
-market_cap_rank: 745
+market_cap_rank: 747
 name: Zilla
 public_interest_score: 28.781
 symbol: zla
-tickers: []
+tickers:
+- base: ZLA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: ZLA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

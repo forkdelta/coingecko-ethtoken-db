@@ -41,12 +41,22 @@ links:
   subreddit_url: https://www.reddit.com/r/Bibox
   twitter_screen_name: Bibox365
 liquidity_score: 44.361
-market_cap_rank: 144
+market_cap_rank: 145
 name: Bibox Token
 public_interest_score: 27.978
 symbol: bix
 tickers:
 - base: IX
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: BTM
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
+- base: EOSDAC
   market:
     identifier: bibox
     name: Bibox
@@ -61,22 +71,7 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: BTM
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
 - base: ONT
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
-- base: EOSDAC
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
-- base: INSTAR
   market:
     identifier: bibox
     name: Bibox
@@ -86,8 +81,8 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: BIX
+- base: INSTAR
   market:
-    identifier: biki
-    name: Biki
-  target: BTC
+    identifier: bibox
+    name: Bibox
+  target: BIX

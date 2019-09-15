@@ -42,11 +42,21 @@ links:
   telegram_channel_identifier: BitballGroupChat
   twitter_screen_name: BitBall_Erc20
 liquidity_score: 42.109
-market_cap_rank: 861
+market_cap_rank: 904
 name: Bitball
 public_interest_score: 25.079
 symbol: btb
 tickers:
+- base: BTB
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: BTC
+- base: ETHPLO
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: BTB
 - base: ETHMNY
   market:
     identifier: exnce
@@ -57,11 +67,11 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: BTB
-- base: ETHPLO
+- base: BTB
   market:
     identifier: exnce
     name: EXNCE
-  target: BTB
+  target: ETH
 - base: BTB
   market:
     identifier: finexbox
@@ -72,11 +82,6 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: BTB
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: BTB
   market:
     identifier: satoexchange

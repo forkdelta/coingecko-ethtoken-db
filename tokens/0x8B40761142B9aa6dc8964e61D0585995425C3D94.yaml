@@ -42,8 +42,18 @@ links:
   telegram_channel_identifier: tripioglobal
   twitter_screen_name: thetripio
 liquidity_score: 39.569
-market_cap_rank: 259
+market_cap_rank: 252
 name: Tripio
 public_interest_score: 25.256
 symbol: trio
-tickers: []
+tickers:
+- base: TRIO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: TRI
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD

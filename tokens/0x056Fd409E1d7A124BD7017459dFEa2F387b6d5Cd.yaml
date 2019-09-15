@@ -74,7 +74,7 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 41.576
-market_cap_rank: 273
+market_cap_rank: 269
 name: Gemini Dollar
 public_interest_score: 39.28
 symbol: gusd
@@ -91,15 +91,15 @@ tickers:
   target: USD
 - base: GUSD
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: digifinex
+    name: Digifinex
   target: USDT
 - base: GUSD
   market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: USD
-- base: EOS
+    identifier: floatsv
+    name: Float SV
+  target: USDT
+- base: BTC
   market:
     identifier: hitbtc
     name: HitBTC
@@ -109,16 +109,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
-- base: BTC
+- base: EOS
   market:
-    identifier: okcoin
-    name: OKCoin
+    identifier: hitbtc
+    name: HitBTC
   target: GUSD
 - base: GUSD
   market:
-    identifier: okcoin
-    name: OKCoin
-  target: USD
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: GUSD
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: GUSD
   market:
     identifier: okex
@@ -126,9 +131,14 @@ tickers:
   target: BTC
 - base: GUSD
   market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: GUSD
+  market:
     identifier: okex_korea
     name: OKEx Korea
-  target: BTC
+  target: USDT
 - base: BTC
   market:
     identifier: quoine
@@ -158,14 +168,14 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
+  target: DOGE
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: ETH
 - base: GUSD
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
-- base: GUSD
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

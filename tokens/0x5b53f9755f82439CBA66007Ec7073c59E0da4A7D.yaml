@@ -1,6 +1,6 @@
 ---
 address: '0x5b53f9755f82439CBA66007Ec7073c59E0da4A7D'
-coingecko_rank: 3011
+coingecko_rank: 3013
 coingecko_score: 8.375
 community_score: 5.255
 description: >-
@@ -29,8 +29,18 @@ links:
     - https://github.com/flowchain/flowchain-app
   twitter_screen_name: jollen
 liquidity_score: 21.887
-market_cap_rank: 4427
+market_cap_rank: 4409
 name: FlowChainCoin
 public_interest_score: 26.84
 symbol: flc
-tickers: []
+tickers:
+- base: FLC
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: FLC
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH

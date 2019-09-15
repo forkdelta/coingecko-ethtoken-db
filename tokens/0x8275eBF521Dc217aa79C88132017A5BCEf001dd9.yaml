@@ -1,6 +1,6 @@
 ---
 address: '0x8275eBF521Dc217aa79C88132017A5BCEf001dd9'
-coingecko_rank: 2539
+coingecko_rank: 2541
 coingecko_score: 10.596
 community_score: 4.235
 description: >-
@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: jewelpay
   twitter_screen_name: jewelpay_org
 liquidity_score: 21.127
-market_cap_rank: 3540
+market_cap_rank: 3687
 name: Jewel
 public_interest_score: 23.114
 symbol: jwl
 tickers:
+- base: JWL
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
 - base: JWL
   market:
     identifier: btc_alpha
@@ -47,6 +52,11 @@ tickers:
     identifier: btc_alpha
     name: BTC-Alpha
   target: USDT
+- base: JWL
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: JWL
   market:
     identifier: livecoin

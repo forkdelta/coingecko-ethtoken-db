@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: utrustofficial
   twitter_screen_name: UTRUST
 liquidity_score: 30.806
-market_cap_rank: 256
+market_cap_rank: 244
 name: UTRUST
 public_interest_score: 26.243
 symbol: utk
@@ -60,11 +60,16 @@ tickers:
   target: USD
 - base: UTK
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: UTK
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: UTK
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
+  target: BTC

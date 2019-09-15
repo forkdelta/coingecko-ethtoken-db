@@ -64,9 +64,9 @@ symbol: rep
 tickers:
 - base: REP
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: bitbay
+    name: BitBay
+  target: BTC
 - base: REP
   market:
     identifier: bitbay
@@ -74,14 +74,14 @@ tickers:
   target: EUR
 - base: REP
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: ETH
+    identifier: bitbay
+    name: BitBay
+  target: PLN
 - base: REP
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: bitbay
+    name: BitBay
+  target: USD
 - base: REP
   market:
     identifier: buyucoin
@@ -97,6 +97,11 @@ tickers:
     identifier: coinzest
     name: Coinzest
   target: KRW
+- base: REP
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: REP
   market:
     identifier: crex24
@@ -122,11 +127,6 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: ETH
-- base: REP
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: USDT
 - base: REP
   market:
     identifier: forkdelta
@@ -164,11 +164,6 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: iqfinex
-    name: IQFinex
-  target: ETH
-- base: REP
-  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -177,31 +172,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
-- base: REP
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: BTC
-- base: REP
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: ETH
-- base: REP
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: UQC
-- base: REP
-  market:
-    identifier: omgfin
-    name: Omgfin
-  target: USDT
 - base: REP
   market:
     identifier: poloniex
@@ -209,11 +179,11 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: REP
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: switcheo
+    name: Switcheo
   target: ETH

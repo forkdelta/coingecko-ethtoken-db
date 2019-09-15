@@ -62,7 +62,7 @@ links:
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankrnetwork
 liquidity_score: 38.462
-market_cap_rank: 192
+market_cap_rank: 212
 name: Ankr
 public_interest_score: 28.489
 symbol: ankr
@@ -77,16 +77,21 @@ tickers:
     identifier: binance
     name: Binance
   target: TUSD
-- base: ANKR-E97
+- base: ANKR
   market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
+    identifier: binance
+    name: Binance
+  target: USDC
 - base: ANKR-E97
   market:
     identifier: binance_dex
     name: Binance DEX
   target: BTCB-1DE
+- base: ANKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: ANKR
   market:
     identifier: coin_exchange
@@ -99,13 +104,18 @@ tickers:
   target: BTC
 - base: ANKR
   market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
+- base: ANKR
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
 - base: ANKR
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
+    identifier: idex
+    name: Idex
   target: ETH
 - base: ANKR
   market:
@@ -129,6 +139,6 @@ tickers:
   target: ETH
 - base: ANKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+    identifier: zgtop
+    name: ZG.TOP
+  target: ETH
