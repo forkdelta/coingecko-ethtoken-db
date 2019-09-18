@@ -1,8 +1,8 @@
 ---
 address: '0x06e0feB0D74106c7adA8497754074D222Ec6BCDf'
-coingecko_rank: 676
-coingecko_score: 26.255
-community_score: 8.763
+coingecko_rank: 634
+coingecko_score: 26.733
+community_score: 8.804
 description: >-
   BitBall (BTB) - BitBall (BTB) - All in One Decentralized Cryptocurrency.#NoFakePromises
 
@@ -41,10 +41,10 @@ links:
     - https://github.com/BitballErc20/Etherscan-Bitball-Repository
   telegram_channel_identifier: BitballGroupChat
   twitter_screen_name: BitBall_Erc20
-liquidity_score: 42.109
-market_cap_rank: 904
+liquidity_score: 44.356
+market_cap_rank: 896
 name: Bitball
-public_interest_score: 25.079
+public_interest_score: 24.479
 symbol: btb
 tickers:
 - base: BTB
@@ -52,7 +52,17 @@ tickers:
     identifier: boa
     name: BOA Exchange
   target: BTC
-- base: ETHPLO
+- base: BTB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: BTB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: USDT
+- base: STAC
   market:
     identifier: exnce
     name: EXNCE
@@ -62,7 +72,12 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: BTB
-- base: BTRS
+- base: MRCL
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: BTB
+- base: ETHPLO
   market:
     identifier: exnce
     name: EXNCE
@@ -77,13 +92,3 @@ tickers:
     identifier: finexbox
     name: FinexBox
   target: BTC
-- base: BTB
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: BTB
-  market:
-    identifier: satoexchange
-    name: SatoExchange
-  target: ETH

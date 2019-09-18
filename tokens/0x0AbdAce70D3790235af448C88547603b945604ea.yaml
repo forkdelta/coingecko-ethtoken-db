@@ -71,16 +71,26 @@ links:
   subreddit_url: https://www.reddit.com/r/district0x
   twitter_screen_name: district0x
 liquidity_score: 14.734
-market_cap_rank: 377
+market_cap_rank: 390
 name: district0x
 public_interest_score: 26.672
 symbol: dnt
 tickers:
 - base: DNT
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DNT
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: DNT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: DNT
   market:
     identifier: uniswap

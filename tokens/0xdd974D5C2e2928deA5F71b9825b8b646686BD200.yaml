@@ -61,11 +61,21 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 48.172
-market_cap_rank: 95
+market_cap_rank: 99
 name: Kyber Network
 public_interest_score: 30.659
 symbol: knc
 tickers:
+- base: KNC
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: KNC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: KNC
   market:
     identifier: coss
@@ -83,19 +93,39 @@ tickers:
   target: BTC
 - base: KNC
   market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: KNC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: KNC
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
 - base: KNC
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: KNC
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: KNC
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: KNC
   market:
     identifier: livecoin
@@ -106,6 +136,11 @@ tickers:
     identifier: max_maicoin
     name: Max Maicoin
   target: TWD
+- base: KNC
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
 - base: KNC
   market:
     identifier: p2pb2b
@@ -126,3 +161,13 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: KNC
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: KNC
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

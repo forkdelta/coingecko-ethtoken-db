@@ -1,8 +1,8 @@
 ---
 address: '0xeb269732ab75A6fD61Ea60b06fE994cD32a83549'
-coingecko_rank: 4086
-coingecko_score: 5.445
-community_score: 11.092
+coingecko_rank: 4067
+coingecko_score: 5.541
+community_score: 11.202
 description: >-
   USDx is a decentralized and synthetic indexed stablecoin introduced by dForce as the first and cornerstone
   protocol. It is 1:1 pegged to a basket of constituent stablecoins, integrated with interest bearing
@@ -16,9 +16,9 @@ description: >-
 developer_score: 0.0
 id: usdx-stablecoin
 image:
-  large: https://assets.coingecko.com/coins/images/9375/large/52945264.png?1566772965
-  small: https://assets.coingecko.com/coins/images/9375/small/52945264.png?1566772965
-  thumb: https://assets.coingecko.com/coins/images/9375/thumb/52945264.png?1566772965
+  large: https://assets.coingecko.com/coins/images/9375/large/logo_USDx_256x256.png?1568695741
+  small: https://assets.coingecko.com/coins/images/9375/small/logo_USDx_256x256.png?1568695741
+  thumb: https://assets.coingecko.com/coins/images/9375/thumb/logo_USDx_256x256.png?1568695741
 links:
   announcement_url:
   - https://medium.com/dforcenet
@@ -36,8 +36,13 @@ links:
   telegram_channel_identifier: dforcenet
   twitter_screen_name: dForcenet
 liquidity_score: 1.0
-market_cap_rank: null
+market_cap_rank: 2568
 name: USDx stablecoin
-public_interest_score: 24.72
+public_interest_score: 25.409
 symbol: usdx
-tickers: []
+tickers:
+- base: USDX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: USDT

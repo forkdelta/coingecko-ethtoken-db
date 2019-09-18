@@ -65,11 +65,26 @@ links:
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
 liquidity_score: 17.742
-market_cap_rank: 191
+market_cap_rank: 189
 name: iExec RLC
 public_interest_score: 25.925
 symbol: rlc
 tickers:
+- base: RLC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: RLC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: RLC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: RLC
   market:
     identifier: ethfinex
@@ -102,11 +117,11 @@ tickers:
   target: ETH
 - base: RLC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: RLC
-  market:
     identifier: uniswap
     name: Uniswap
   target: ETH
+- base: RLC
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

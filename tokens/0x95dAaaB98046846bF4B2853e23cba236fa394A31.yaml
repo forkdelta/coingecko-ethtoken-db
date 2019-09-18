@@ -58,8 +58,23 @@ links:
   telegram_channel_identifier: myetheremon
   twitter_screen_name: myetheremon
 liquidity_score: 1.0
-market_cap_rank: 4602
+market_cap_rank: 4648
 name: EtheremonToken
 public_interest_score: 26.86
 symbol: emont
-tickers: []
+tickers:
+- base: EMONT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: EMONT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: EMONT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

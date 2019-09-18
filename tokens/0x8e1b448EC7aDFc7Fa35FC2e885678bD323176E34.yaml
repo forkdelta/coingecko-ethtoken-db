@@ -53,6 +53,11 @@ symbol: egt
 tickers:
 - base: EGT
   market:
+    identifier: biki
+    name: Biki
+  target: ETH
+- base: EGT
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -70,4 +75,9 @@ tickers:
   market:
     identifier: okex
     name: OKEx
+  target: KRW
+- base: EGT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
   target: KRW

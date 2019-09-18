@@ -66,9 +66,14 @@ symbol: rdn
 tickers:
 - base: RDN
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: RDN
+  market:
     identifier: bibox
     name: Bibox
-  target: ETH
+  target: BTC
 - base: RDN
   market:
     identifier: ethfinex
@@ -78,17 +83,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
-- base: RDN
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: RDN
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: RDN
   market:
     identifier: kyber_network
