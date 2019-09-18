@@ -51,11 +51,21 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 57.387
-market_cap_rank: 81
+market_cap_rank: 80
 name: Status
 public_interest_score: 43.186
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: SNT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: SNT
   market:
     identifier: ethfinex
@@ -63,19 +73,29 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: SNT
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: SNT
   market:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: SNT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: SNT
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: SNT
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
 - base: SNT
   market:
     identifier: p2pb2b
@@ -83,19 +103,14 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
-- base: SNT
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USD
-- base: SNT
-  market:
     identifier: probit
     name: Probit
   target: KRW
+- base: SNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: SNT
   market:
     identifier: zb

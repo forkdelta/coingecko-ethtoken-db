@@ -26,8 +26,18 @@ links:
     - https://github.com/Bolenum/Boleno
   twitter_screen_name: BolenumPlatform
 liquidity_score: 1.0
-market_cap_rank: 1854
+market_cap_rank: 1856
 name: Bolenum
 public_interest_score: 25.288
 symbol: bln
-tickers: []
+tickers:
+- base: BLN
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: DOGE
+- base: BLN
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC

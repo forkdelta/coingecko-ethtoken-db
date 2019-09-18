@@ -21,8 +21,13 @@ links:
   subreddit_url: https://www.reddit.com/r/compound
   twitter_screen_name: compoundfinance
 liquidity_score: 3.722
-market_cap_rank: 94
+market_cap_rank: 98
 name: Compound Dai
 public_interest_score: 35.615
 symbol: cdai
-tickers: []
+tickers:
+- base: CDAI
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

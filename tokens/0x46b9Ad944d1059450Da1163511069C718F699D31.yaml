@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: creditscom
   twitter_screen_name: creditscom
 liquidity_score: 35.339
-market_cap_rank: 171
+market_cap_rank: 159
 name: CREDITS
 public_interest_score: 42.954
 symbol: cs
@@ -64,11 +64,6 @@ tickers:
   target: ETH
 - base: CS
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: CS
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -77,6 +72,11 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
+- base: CS
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
 - base: CS
   market:
     identifier: wazirx

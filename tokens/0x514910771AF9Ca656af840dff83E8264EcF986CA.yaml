@@ -79,8 +79,23 @@ symbol: link
 tickers:
 - base: LINK
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LINK
+  market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: LINK
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: LINK
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: LINK
   market:

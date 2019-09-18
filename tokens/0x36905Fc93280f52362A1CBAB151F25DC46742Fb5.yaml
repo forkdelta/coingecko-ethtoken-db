@@ -37,6 +37,11 @@ symbol: bto
 tickers:
 - base: BTO
   market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: BTO
+  market:
     identifier: bit_z
     name: Bit-Z
   target: BTC
@@ -44,9 +49,4 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
-  target: ETH
-- base: BTO
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH

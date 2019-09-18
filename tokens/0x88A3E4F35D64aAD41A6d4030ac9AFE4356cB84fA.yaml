@@ -40,14 +40,24 @@ symbol: pre
 tickers:
 - base: PRE
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: PRE
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: PRE
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
 - base: PRE
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: PRS
   market:
     identifier: yobit
@@ -58,11 +68,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: PRS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: PRS
   market:
     identifier: yobit

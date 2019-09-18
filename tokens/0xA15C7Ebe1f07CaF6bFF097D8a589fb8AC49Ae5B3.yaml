@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 55.908
-market_cap_rank: 61
+market_cap_rank: 63
 name: Pundi X
 public_interest_score: 29.892
 symbol: npxs
@@ -76,14 +76,24 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: NPXS
+  market:
     identifier: beaxy
     name: Beaxy
   target: BTC
 - base: NPXS
   market:
+    identifier: binance
+    name: Binance
+  target: USDC
+- base: NPXS
+  market:
     identifier: bit_z
     name: Bit-Z
-  target: ETH
+  target: BTC
 - base: NPXS
   market:
     identifier: bitbay
@@ -96,14 +106,14 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: NPXS
+  market:
     identifier: bitsten
     name: Bitsten
   target: BST
-- base: NPXS
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
 - base: NPXS
   market:
     identifier: bittrex
@@ -119,11 +129,6 @@ tickers:
     identifier: catex
     name: Catex
   target: ETH
-- base: NPXS
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
 - base: NPXS
   market:
     identifier: coin_exchange
@@ -146,9 +151,14 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
+- base: NPXS
+  market:
     identifier: graviex
     name: Graviex
-  target: BTC
+  target: ETH
 - base: NPXS
   market:
     identifier: idex
@@ -171,11 +181,6 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: NPXS
-  market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
@@ -184,11 +189,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: ETH
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
 - base: NPXS
   market:
     identifier: thetokenstore
@@ -196,16 +196,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
-- base: NPXS
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
-- base: NPXS
-  market:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
