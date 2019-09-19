@@ -1,8 +1,8 @@
 ---
 address: '0xC0d9DA090194D62b2027E4009d9123DE399eA7Bf'
-coingecko_rank: 4787
-coingecko_score: 4.222
-community_score: 7.095
+coingecko_rank: 4634
+coingecko_score: 4.422
+community_score: 7.096
 description: >-
   VIPChain is a blockchain-based enterprise investment and financing platform
 
@@ -31,9 +31,19 @@ links:
     - https://github.com/vipchains/code
   telegram_channel_identifier: vipchains
   twitter_screen_name: vipchain
-liquidity_score: 0.0
-market_cap_rank: 3073
+liquidity_score: 1.0
+market_cap_rank: 3089
 name: VIPChain
 public_interest_score: 24.479
 symbol: vip
-tickers: []
+tickers:
+- base: VIP
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: VIP
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH

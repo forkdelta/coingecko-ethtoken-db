@@ -1,8 +1,8 @@
 ---
 address: '0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC'
-coingecko_rank: 61
-coingecko_score: 52.43
-community_score: 42.753
+coingecko_rank: 62
+coingecko_score: 52.09
+community_score: 42.981
 description: >-
   Polymath simplifies the legal process of creating and selling security tokens. It makes a new token
   standard, the ST20, and enforces government compliance. Only a “list of authorized investors and their
@@ -30,7 +30,7 @@ description: >-
 
   A wide array of security tokens that will be listed on Polymath at some point will require investors
   to be accredited, or to be from specific countries.
-developer_score: 69.901
+developer_score: 69.247
 id: polymath-network
 image:
   large: https://assets.coingecko.com/coins/images/2784/large/polymath-network.png?1548331592
@@ -55,10 +55,10 @@ links:
   subreddit_url: https://www.reddit.com/r/PolymathNetwork/
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
-liquidity_score: 43.004
-market_cap_rank: 179
+liquidity_score: 41.754
+market_cap_rank: 184
 name: Polymath Network
-public_interest_score: 28.648
+public_interest_score: 28.284
 symbol: poly
 tickers:
 - base: POLY
@@ -71,10 +71,30 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
+- base: POY
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: POY
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: POLY
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: POLY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: POLY
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: POLY
   market:
@@ -96,8 +116,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
-- base: POLY
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

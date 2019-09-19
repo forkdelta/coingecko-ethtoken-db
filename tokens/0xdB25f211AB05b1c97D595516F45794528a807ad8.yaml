@@ -1,12 +1,12 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 623
-coingecko_score: 27.046
-community_score: 7.839
+coingecko_rank: 618
+coingecko_score: 27.144
+community_score: 7.845
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
-developer_score: 14.422
+developer_score: 14.421
 id: stasis-eurs
 image:
   large: https://assets.coingecko.com/coins/images/5164/large/EURS_300x300.png?1550571779
@@ -26,17 +26,12 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 30.252
-market_cap_rank: 212
+liquidity_score: 30.825
+market_cap_rank: 210
 name: STASIS EURO
-public_interest_score: 27.787
+public_interest_score: 27.51
 symbol: eurs
 tickers:
-- base: EURS
-  market:
-    identifier: dsx
-    name: DSX
-  target: EUR
 - base: ETH
   market:
     identifier: dsx
@@ -49,20 +44,15 @@ tickers:
   target: USD
 - base: EURS
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: EURS
-  market:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: EOS
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -72,41 +62,36 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: DASH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: BCH
+- base: DASH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: EURS
   market:
-    identifier: okcoin
-    name: OKCoin
-  target: EUR
-- base: BTC
+    identifier: hitbtc
+    name: HitBTC
+  target: TUSD
+- base: EURS
   market:
     identifier: okcoin
     name: OKCoin
-  target: EURS
+  target: EUR
 - base: EURS
   market:
     identifier: okcoin
     name: OKCoin
   target: USD
-- base: BCH
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
 - base: LTC
   market:
     identifier: tokens_net
@@ -117,12 +102,7 @@ tickers:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: XTZ
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: XRP
+- base: BCH
   market:
     identifier: tokens_net
     name: TokensNet
