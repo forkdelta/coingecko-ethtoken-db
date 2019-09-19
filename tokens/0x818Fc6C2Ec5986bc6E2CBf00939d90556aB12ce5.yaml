@@ -1,8 +1,8 @@
 ---
 address: '0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5'
-coingecko_rank: 293
-coingecko_score: 34.762
-community_score: 47.001
+coingecko_rank: 321
+coingecko_score: 33.779
+community_score: 47.864
 description: >-
   Kin is a decentralized cryptocurrency token issued on Ethereum, an open-source public blockchain. It
   was created by Kik Interactive in September 2017 in a token distribution event, raising over $98 million
@@ -71,12 +71,22 @@ links:
     - https://github.com/kinecosystem/kin-ecosystem-android-sdk
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
-liquidity_score: 39.236
-market_cap_rank: 414
+liquidity_score: 33.4
+market_cap_rank: 441
 name: Kin
-public_interest_score: 34.131
+public_interest_score: 33.885
 symbol: kin
 tickers:
+- base: KIN
+  market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: KIN
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
 - base: KIN
   market:
     identifier: bit_z
@@ -104,6 +114,11 @@ tickers:
   target: BTC
 - base: KIN
   market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: KIN
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -114,44 +129,9 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: KIN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: 568637D4-2B03-4F66-972E-B947A40F2771
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
-- base: 568637D4-2B03-4F66-972E-B947A40F2771
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
-- base: 568637D4-2B03-4F66-972E-B947A40F2771
-  market:
-    identifier: lykke
-    name: Lykke
-  target: USD
-- base: KIN
-  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: KIN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: KIN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: LTC
 - base: KIN
   market:
     identifier: p2pb2b
@@ -162,11 +142,6 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: KIN
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
 - base: KIN
   market:
     identifier: yobit

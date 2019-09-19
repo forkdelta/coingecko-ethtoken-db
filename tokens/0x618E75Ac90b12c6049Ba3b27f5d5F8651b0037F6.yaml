@@ -1,8 +1,8 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 730
-coingecko_score: 25.559
-community_score: 5.043
+coingecko_rank: 800
+coingecko_score: 24.592
+community_score: 5.053
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
   to <a href="https://www.coingecko.com/en/exchanges/quoine">Liquid</a>. Liquid is a global cryptocurrency
@@ -60,10 +60,10 @@ links:
   subreddit_url: https://www.reddit.com/r/QASH
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
-liquidity_score: 40.624
-market_cap_rank: 119
+liquidity_score: 37.222
+market_cap_rank: 121
 name: QASH
-public_interest_score: 27.542
+public_interest_score: 26.178
 symbol: qash
 tickers:
 - base: QSH
@@ -76,27 +76,42 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: QSH
+- base: QASH
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: QASH
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: QASH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: QASH
   market:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: XRP
+- base: QASH
   market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ONT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: RFOX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: ZCO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: WIN
   market:
     identifier: quoine
     name: Liquid
@@ -107,11 +122,6 @@ tickers:
     name: Liquid
   target: QASH
 - base: DREAM
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ZCO
   market:
     identifier: quoine
     name: Liquid
@@ -127,6 +137,11 @@ tickers:
     name: Liquid
   target: QASH
 - base: SAL
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: THRT
   market:
     identifier: quoine
     name: Liquid
