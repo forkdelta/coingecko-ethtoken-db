@@ -1,8 +1,8 @@
 ---
 address: '0xf6ABff616043C2dA572573dCC583B656297b30e7'
-coingecko_rank: 2694
-coingecko_score: 9.817
-community_score: 4.625
+coingecko_rank: 2700
+coingecko_score: 9.852
+community_score: 4.633
 description: >-
   CUST is developed by the Xtock project, used as a means of secondary verfication and settlement of the
   Xtock custody service, by providing integrated cold wallet to affiliated exchanges in order to improvement
@@ -32,9 +32,19 @@ links:
   - https://www.xtock.io/custody
   telegram_channel_identifier: xtock_en
   twitter_screen_name: xtock_io
-liquidity_score: 26.398
-market_cap_rank: 4429
+liquidity_score: 26.559
+market_cap_rank: 4455
 name: Custody Token
 public_interest_score: 33.816
 symbol: cust
-tickers: []
+tickers:
+- base: CUST
+  market:
+    identifier: bw
+    name: BW.com
+  target: USDT
+- base: CUST
+  market:
+    identifier: idax
+    name: Idax
+  target: USDT

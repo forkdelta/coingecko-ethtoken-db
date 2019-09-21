@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 52
-coingecko_score: 53.971
-community_score: 41.019
+coingecko_rank: 54
+coingecko_score: 53.849
+community_score: 40.47
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 78.97
+developer_score: 78.984
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -57,32 +57,37 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 40.999
-market_cap_rank: 147
+liquidity_score: 40.975
+market_cap_rank: 144
 name: Storj
 public_interest_score: 27.02
 symbol: storj
 tickers:
 - base: STORJ
   market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: coss
+    name: COSS
   target: BTC
 - base: STORJ
   market:
-    identifier: coss
-    name: COSS
+    identifier: cryptaldash
+    name: CryptalDash
+  target: ETH
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
 - base: STJ
   market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: STORJ
+- base: STJ
   market:
-    identifier: financex
-    name: FinanceX
-  target: BTC
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: STORJ
   market:
     identifier: financex
@@ -92,11 +97,11 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: BTC
+  target: ETH
 - base: STORJ
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: STORJ
   market:
@@ -122,6 +127,11 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: STORJ
   market:
@@ -133,6 +143,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: STORJ
   market:
     identifier: yobit

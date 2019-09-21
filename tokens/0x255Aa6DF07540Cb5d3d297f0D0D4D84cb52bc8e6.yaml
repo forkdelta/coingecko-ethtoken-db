@@ -1,8 +1,8 @@
 ---
 address: '0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6'
-coingecko_rank: 68
-coingecko_score: 50.112
-community_score: 42.343
+coingecko_rank: 69
+coingecko_score: 50.611
+community_score: 41.577
 description: >-
   The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments.
   It’s complementary to the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> blockchain
@@ -58,8 +58,8 @@ links:
     - https://github.com/raiden-network/raiden/
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
-liquidity_score: 20.03
-market_cap_rank: 281
+liquidity_score: 23.273
+market_cap_rank: 261
 name: Raiden Network Token
 public_interest_score: 28.552
 symbol: rdn
@@ -76,9 +76,9 @@ tickers:
   target: BTC
 - base: RDN
   market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: RDN
   market:
     identifier: ethfinex
@@ -91,8 +91,18 @@ tickers:
   target: USD
 - base: RDN
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: RDN
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: RDN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: RDN
   market:

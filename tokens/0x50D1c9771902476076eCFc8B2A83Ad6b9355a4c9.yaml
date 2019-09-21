@@ -1,8 +1,8 @@
 ---
 address: '0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9'
-coingecko_rank: 766
-coingecko_score: 25.166
-community_score: 7.681
+coingecko_rank: 764
+coingecko_score: 25.19
+community_score: 7.698
 description: >-
   FTT is FTX's exchange token. Holders get a fraction of exchange fees, a fraction of the liquidation
   insurance fund, and can use the token as collateral and to get togther OTC spreads on FTX.
@@ -24,8 +24,8 @@ links:
   - https://help.ftx.com/hc/en-us/sections/360004460952-FTX-Token-FTT
   telegram_channel_identifier: FTX_Official
   twitter_screen_name: FTX_official
-liquidity_score: 36.429
-market_cap_rank: 94
+liquidity_score: 36.493
+market_cap_rank: 98
 name: FTX Token
 public_interest_score: 25.182
 symbol: ftt
@@ -35,3 +35,13 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: FTT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: UST
+- base: FTT
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: BTC

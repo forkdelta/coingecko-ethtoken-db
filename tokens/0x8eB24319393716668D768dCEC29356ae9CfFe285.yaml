@@ -1,8 +1,8 @@
 ---
 address: '0x8eB24319393716668D768dCEC29356ae9CfFe285'
 coingecko_rank: 136
-coingecko_score: 42.442
-community_score: 19.607
+coingecko_score: 42.756
+community_score: 19.598
 description: >-
   SingularityNET is a decentralized marketplace for Artificial Intelligence (AI). The business value of
   AI is becoming clearer each day; however, there’s a significant gap between the people developing AI
@@ -41,7 +41,7 @@ description: >-
   Robotics built Sophia, the most expressive humanoid robot to date. Sophia is also a proud member of
   the SingularityNET team. The team recently released the alpha version of the platform and is planning
   on launching a public beta sometime in the middle of 2018.
-developer_score: 67.541
+developer_score: 67.54
 id: singularitynet
 image:
   large: https://assets.coingecko.com/coins/images/2138/large/singularitynet.png?1548609559
@@ -62,12 +62,17 @@ links:
   subreddit_url: https://www.reddit.com/r/SingularityNetsub/
   telegram_channel_identifier: singularitynet
   twitter_screen_name: singularity_net
-liquidity_score: 26.034
-market_cap_rank: 178
+liquidity_score: 27.673
+market_cap_rank: 175
 name: SingularityNET
 public_interest_score: 25.272
 symbol: agi
 tickers:
+- base: AGI
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: AGI
   market:
     identifier: ethfinex
@@ -80,6 +85,11 @@ tickers:
   target: USD
 - base: AGI
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: AGI
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -87,16 +97,6 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
-  target: ETH
-- base: AGI
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
-- base: AGI
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: ETH
 - base: AGI
   market:
@@ -113,8 +113,3 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: AGI
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH

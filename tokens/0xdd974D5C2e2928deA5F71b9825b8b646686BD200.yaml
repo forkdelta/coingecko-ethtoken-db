@@ -1,8 +1,8 @@
 ---
 address: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200'
-coingecko_rank: 60
-coingecko_score: 52.143
-community_score: 45.3
+coingecko_rank: 64
+coingecko_score: 51.721
+community_score: 44.29
 description: >-
   Kyber’s on-chain liquidity protocol allows decentralized token swaps to be integrated into any application,
   enabling value exchange to be performed seamlessly between all parties in the ecosystem. Tapping on
@@ -60,8 +60,8 @@ links:
   subreddit_url: https://www.reddit.com/r/kybernetwork/
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
-liquidity_score: 45.725
-market_cap_rank: 97
+liquidity_score: 44.777
+market_cap_rank: 98
 name: Kyber Network
 public_interest_score: 30.31
 symbol: knc
@@ -73,14 +73,19 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
+- base: KNC
+  market:
     identifier: coss
     name: COSS
   target: BTC
 - base: KNC
   market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
+    identifier: cpdax
+    name: CPDAX
+  target: BTC
 - base: KNC
   market:
     identifier: ethfinex
@@ -101,6 +106,21 @@ tickers:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: KNC
   market:
     identifier: livecoin
@@ -125,11 +145,6 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
-  target: BTC
-- base: KNC
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: ETH
 - base: KNC
   market:
@@ -141,3 +156,18 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: KNC
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: KNC
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: KNC
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

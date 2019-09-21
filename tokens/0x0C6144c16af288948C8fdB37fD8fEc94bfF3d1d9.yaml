@@ -1,8 +1,8 @@
 ---
 address: '0x0C6144c16af288948C8fdB37fD8fEc94bfF3d1d9'
-coingecko_rank: 1834
+coingecko_rank: 1842
 coingecko_score: 15.34
-community_score: 8.096
+community_score: 8.093
 description: >-
   Neutral Dollar is an entirely new blockchain-native financial instrument. The on-chain token processes
   revolve around the profit-seeking behavior of rational arbitrageurs and mimics properties of a traditional
@@ -23,13 +23,14 @@ links:
   - https://medium.com/@neutralproject/
   blockchain_site:
   - https://etherscan.io/token/0x0c6144c16af288948c8fdb37fd8fec94bff3d1d9
+  - https://ethplorer.io/address/0x0c6144c16af288948c8fdb37fd8fec94bff3d1d9
   facebook_username: Neutral-Project-391548818084169/
   homepage:
   - https://neutralproject.com/
   telegram_channel_identifier: neutralproject
   twitter_screen_name: neutral_project
 liquidity_score: 1.0
-market_cap_rank: 1226
+market_cap_rank: 1247
 name: Neutral Dollar
 public_interest_score: 41.036
 symbol: nusd
@@ -39,3 +40,13 @@ tickers:
     identifier: ddex
     name: DDEX
   target: USDT
+- base: CHR
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: NUSD
+- base: NUSD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
