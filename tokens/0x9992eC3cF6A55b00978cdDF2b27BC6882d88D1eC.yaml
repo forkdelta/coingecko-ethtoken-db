@@ -1,8 +1,8 @@
 ---
 address: '0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC'
 coingecko_rank: 62
-coingecko_score: 52.09
-community_score: 42.981
+coingecko_score: 51.856
+community_score: 42.081
 description: >-
   Polymath simplifies the legal process of creating and selling security tokens. It makes a new token
   standard, the ST20, and enforces government compliance. Only a “list of authorized investors and their
@@ -30,7 +30,7 @@ description: >-
 
   A wide array of security tokens that will be listed on Polymath at some point will require investors
   to be accredited, or to be from specific countries.
-developer_score: 69.247
+developer_score: 69.261
 id: polymath-network
 image:
   large: https://assets.coingecko.com/coins/images/2784/large/polymath-network.png?1548331592
@@ -55,17 +55,22 @@ links:
   subreddit_url: https://www.reddit.com/r/PolymathNetwork/
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
-liquidity_score: 41.754
-market_cap_rank: 184
+liquidity_score: 41.687
+market_cap_rank: 183
 name: Polymath Network
 public_interest_score: 28.284
 symbol: poly
 tickers:
 - base: POLY
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: binance
+    name: Binance
+  target: BNB
+- base: POLY
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: POY
   market:
     identifier: ethfinex
@@ -98,9 +103,9 @@ tickers:
   target: ETH
 - base: POLY
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: POLY
   market:
     identifier: latoken

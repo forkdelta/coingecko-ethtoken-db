@@ -1,8 +1,8 @@
 ---
 address: '0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A'
-coingecko_rank: 110
-coingecko_score: 45.038
-community_score: 41.447
+coingecko_rank: 113
+coingecko_score: 44.793
+community_score: 40.592
 description: >-
   Digix makes it possible to buy gold in an efficient manner via cryptocurrency by providing investors
   with a tokenized version of gold so you don’t have to physically own or store it. Digix has two cryptocurrencies,
@@ -68,8 +68,8 @@ links:
     - https://github.com/DigixGlobal/dijix
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
-liquidity_score: 34.733
-market_cap_rank: 128
+liquidity_score: 34.554
+market_cap_rank: 123
 name: DigixDAO
 public_interest_score: 27.937
 symbol: dgd
@@ -81,13 +81,13 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: cezex
-    name: Cezex
+    identifier: bittrex
+    name: Bittrex
   target: BTC
 - base: DGD
   market:
-    identifier: coineal
-    name: Coineal
+    identifier: cezex
+    name: Cezex
   target: ETH
 - base: DGD
   market:
@@ -108,12 +108,27 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: ETH
+  target: BTC
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: DGD
   market:
     identifier: okex_korea
     name: OKEx Korea
   target: ETH
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: DGD
   market:
     identifier: uniswap

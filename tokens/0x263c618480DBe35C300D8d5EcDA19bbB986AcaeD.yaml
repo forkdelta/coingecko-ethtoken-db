@@ -1,8 +1,8 @@
 ---
 address: '0x263c618480DBe35C300D8d5EcDA19bbB986AcaeD'
-coingecko_rank: 445
-coingecko_score: 30.548
-community_score: 24.136
+coingecko_rank: 444
+coingecko_score: 30.599
+community_score: 24.127
 description: >-
   Olympus is a groundbreaking financial ecosystem that defines the protocol for cryptocurrency-based financial
   products. The Olympus ecosystem provides investors with a comprehensive financial marketplace filled
@@ -38,8 +38,18 @@ links:
   telegram_channel_identifier: olympuslabs
   twitter_screen_name: olympuslabsbc
 liquidity_score: 1.0
-market_cap_rank: 952
+market_cap_rank: 995
 name: Olympus Labs
 public_interest_score: 24.505
 symbol: mot
-tickers: []
+tickers:
+- base: MOT
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: MOT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT

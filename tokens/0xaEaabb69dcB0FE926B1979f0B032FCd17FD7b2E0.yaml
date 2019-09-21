@@ -1,8 +1,8 @@
 ---
 address: '0xaEaabb69dcB0FE926B1979f0B032FCd17FD7b2E0'
-coingecko_rank: 3004
-coingecko_score: 8.478
-community_score: 8.827
+coingecko_rank: 3075
+coingecko_score: 8.279
+community_score: 8.825
 description: >-
   The CYBR Ecosystem is a holistic, cyber security solution for the blockchain which ensures secure smart
   transactions occur via a portal designed to provide real-time safeguards, countermeasures and threat
@@ -29,9 +29,19 @@ links:
     github:
     - https://github.com/CYBRToken/CYBRToken
   twitter_screen_name: CYBR_Official
-liquidity_score: 18.524
-market_cap_rank: 4887
+liquidity_score: 17.53
+market_cap_rank: 4918
 name: CYBR Token
 public_interest_score: 25.668
 symbol: cybr
-tickers: []
+tickers:
+- base: CYBR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CYBR
+  market:
+    identifier: oceanex
+    name: Oceanex
+  target: USDT

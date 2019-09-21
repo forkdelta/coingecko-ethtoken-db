@@ -1,8 +1,8 @@
 ---
 address: '0xe0c6CE3e73029F201e5C0Bedb97F67572A93711C'
-coingecko_rank: 975
-coingecko_score: 22.754
-community_score: 41.453
+coingecko_rank: 963
+coingecko_score: 22.914
+community_score: 41.444
 description: >-
   ETHplode is a deflationary store of value built on the Ethereum blockchain. Whenever $ETHPLO is transferred,
   0.5% of the amount is burned. This built in self destructive functionality increases the assets scarcity
@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: ethplode
   twitter_screen_name: ETHplode
 liquidity_score: 1.0
-market_cap_rank: 1020
+market_cap_rank: 995
 name: ETHplode
 public_interest_score: 24.479
 symbol: ethplo
@@ -40,6 +40,11 @@ tickers:
   target: ETH
 - base: ETHPLO
   market:
+    identifier: bitsten
+    name: Bitsten
+  target: BTC
+- base: ETHPLO
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -47,17 +52,7 @@ tickers:
   market:
     identifier: exnce
     name: EXNCE
-  target: BTB
-- base: ETHPLO
-  market:
-    identifier: exnce
-    name: EXNCE
   target: ETH
-- base: ETHPLO
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
 - base: ETHPLO
   market:
     identifier: satoexchange
@@ -72,6 +67,11 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: ETH
+- base: ETHPLO
+  market:
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH
 - base: ETHPLO
   market:
