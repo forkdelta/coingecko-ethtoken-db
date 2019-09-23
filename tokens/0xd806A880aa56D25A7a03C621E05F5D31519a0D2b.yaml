@@ -1,6 +1,6 @@
 ---
 address: '0xd806A880aa56D25A7a03C621E05F5D31519a0D2b'
-coingecko_rank: 5087
+coingecko_rank: 5091
 coingecko_score: 3.745
 community_score: 4.387
 description: >-
@@ -20,8 +20,18 @@ links:
   - http://cabico.io/
   twitter_screen_name: CryptoAssetBox
 liquidity_score: 1.0
-market_cap_rank: 4137
+market_cap_rank: 3386
 name: CABox
 public_interest_score: 24.479
 symbol: cab
-tickers: []
+tickers:
+- base: CAB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: DOGE
+- base: CAB
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
