@@ -1,6 +1,6 @@
 ---
 address: '0xe7Bf3aEE922367c10c8acEc3793fE7D809A38eef'
-coingecko_rank: 4052
+coingecko_rank: 4055
 coingecko_score: 5.599
 community_score: 8.167
 description: >-
@@ -25,8 +25,18 @@ links:
   telegram_channel_identifier: bagstoken
   twitter_screen_name: bagstoken
 liquidity_score: 1.0
-market_cap_rank: 4584
+market_cap_rank: 4527
 name: BAGS
 public_interest_score: 33.573
 symbol: bags
-tickers: []
+tickers:
+- base: BAGS
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BAGS
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

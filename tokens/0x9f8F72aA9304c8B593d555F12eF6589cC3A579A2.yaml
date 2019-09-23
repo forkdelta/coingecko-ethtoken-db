@@ -1,8 +1,8 @@
 ---
 address: '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2'
-coingecko_rank: 47
-coingecko_score: 54.831
-community_score: 38.471
+coingecko_rank: 51
+coingecko_score: 54.294
+community_score: 37.938
 description: >-
   MKR is a cryptocurrency depicted as a smart contract platform and works alongside the Dai coin and aims
   to act as a hedge currency that provides traders with a stable alternative to the majority of coins
@@ -39,7 +39,7 @@ description: >-
   the equivalent of $25.41 today, and even $1 in 1993 is worth the equivalent of $1.74 today. Stablecoins
   don’t negate these basic economic principles of value. Instead, both Tether and Dai have values pegged
   to the U.S. dollar. This is done to stabilize the price.
-developer_score: 73.718
+developer_score: 73.582
 id: maker
 image:
   large: https://assets.coingecko.com/coins/images/1364/large/maker.png?1547035390
@@ -57,8 +57,8 @@ links:
     - https://github.com/makerdao/dai.js
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 43.791
-market_cap_rank: 26
+liquidity_score: 41.914
+market_cap_rank: 27
 name: Maker
 public_interest_score: 27.444
 symbol: mkr
@@ -73,6 +73,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: DAI
+- base: MKR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: MKR
   market:
     identifier: bibox
@@ -90,19 +95,14 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: MKR
   market:
     identifier: coss
     name: COSS
   target: COS
-- base: MKR
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: MKR
   market:
     identifier: ethfinex
@@ -120,14 +120,44 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: MKR
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: MKR
   market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
+- base: MKR
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
+- base: MKR
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
+- base: MKR
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: MKR
   market:
     identifier: sistemkoin
@@ -143,11 +173,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
 - base: MKR
   market:
     identifier: switcheo

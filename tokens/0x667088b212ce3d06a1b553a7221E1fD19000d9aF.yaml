@@ -1,8 +1,8 @@
 ---
 address: '0x667088b212ce3d06a1b553a7221E1fD19000d9aF'
-coingecko_rank: 548
-coingecko_score: 28.507
-community_score: 30.852
+coingecko_rank: 534
+coingecko_score: 28.788
+community_score: 30.905
 description: >-
   WINGS combines several concepts, ranging from attention rewards, forecasting markets, smart contracts,
   governance models and federated funds security. The platform places an emphasis on encouraging the WINGS
@@ -27,14 +27,34 @@ links:
   subreddit_url: https://www.reddit.com/r/WingsDAO
   telegram_channel_identifier: wingschat
   twitter_screen_name: wingsplatform
-liquidity_score: 24.876
-market_cap_rank: 463
+liquidity_score: 26.175
+market_cap_rank: 460
 name: Wings
 public_interest_score: 41.753
 symbol: wings
 tickers:
 - base: WINGS
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: WINGS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: WINGS
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: WINGS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: WINGS
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
