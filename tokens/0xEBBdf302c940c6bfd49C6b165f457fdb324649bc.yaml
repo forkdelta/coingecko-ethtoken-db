@@ -1,6 +1,6 @@
 ---
 address: '0xEBBdf302c940c6bfd49C6b165f457fdb324649bc'
-coingecko_rank: 431
+coingecko_rank: 430
 coingecko_score: 30.88
 community_score: 31.992
 description: >-
@@ -46,11 +46,16 @@ links:
   subreddit_url: https://www.reddit.com/r/ProjectHydro/
   twitter_screen_name: HydroBlockchain
 liquidity_score: 39.754
-market_cap_rank: 314
+market_cap_rank: 313
 name: Hydro
 public_interest_score: 27.832
 symbol: hydro
 tickers:
+- base: HYDRO
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BMX
 - base: HYDRO
   market:
     identifier: coin_exchange
@@ -60,6 +65,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: ETH
+- base: HYDRO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: HYDRO
   market:

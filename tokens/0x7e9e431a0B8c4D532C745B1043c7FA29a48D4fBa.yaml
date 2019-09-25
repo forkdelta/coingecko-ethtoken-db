@@ -1,6 +1,6 @@
 ---
 address: '0x7e9e431a0B8c4D532C745B1043c7FA29a48D4fBa'
-coingecko_rank: 602
+coingecko_rank: 601
 coingecko_score: 27.434
 community_score: 25.809
 description: >-
@@ -52,7 +52,7 @@ links:
   subreddit_url: https://www.reddit.com/r/EOSDAC/
   twitter_screen_name: eosdac
 liquidity_score: 33.057
-market_cap_rank: 372
+market_cap_rank: 397
 name: eosDAC
 public_interest_score: 25.433
 symbol: eosdac
@@ -62,6 +62,11 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
+- base: EOSDAC
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: EOS
 - base: EOSDAC
   market:
     identifier: gate
@@ -74,11 +79,6 @@ tickers:
   target: ETH
 - base: EOSDAC
   market:
-    identifier: newdex
-    name: Newdex
-  target: EOS
-- base: EOSDAC
-  market:
     identifier: openledger
     name: OpenLedger DEX
   target: BITCNY
@@ -89,11 +89,16 @@ tickers:
   target: EOS
 - base: EOSDAC
   market:
-    identifier: otcbtc
-    name: OTCBTC
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: EOSDAC
   market:
     identifier: whale_ex
     name: WhaleEx
   target: EOS
+- base: EOSDAC
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

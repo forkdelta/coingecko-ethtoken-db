@@ -1,6 +1,6 @@
 ---
 address: '0x4D13d624a87baa278733c068A174412AfA9ca6C8'
-coingecko_rank: 511
+coingecko_rank: 510
 coingecko_score: 29.255
 community_score: 24.812
 description: >-
@@ -37,27 +37,17 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: ETERBASE
 liquidity_score: 32.707
-market_cap_rank: 609
+market_cap_rank: 613
 name: Eterbase Coin
 public_interest_score: 24.471
 symbol: xbase
 tickers:
-- base: XBASE-B
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: BNB
 - base: XBASE
   market:
     identifier: eterbase
     name: Eterbase
   target: BTC
 - base: XBASE-B
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: XBASE
   market:
     identifier: eterbase
     name: Eterbase
@@ -81,13 +71,18 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
-  target: USDT
+  target: EUR
 - base: XBASE-B
   market:
     identifier: eterbase
     name: Eterbase
   target: USDT
-- base: XBASE-B
+- base: ETH
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
@@ -97,17 +92,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: XBASE
-- base: ETH
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
 - base: BTC
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
-- base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
@@ -122,6 +107,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: XBASE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: XBASE
   market:
     identifier: ooobtc

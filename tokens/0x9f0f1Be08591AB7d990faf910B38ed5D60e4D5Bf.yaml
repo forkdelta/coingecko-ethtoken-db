@@ -1,6 +1,6 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1509
+coingecko_rank: 1508
 coingecko_score: 17.896
 community_score: 10.68
 description: >-
@@ -27,7 +27,7 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 12.42
-market_cap_rank: 950
+market_cap_rank: 974
 name: MainCoin
 public_interest_score: 27.723
 symbol: mnc
@@ -42,16 +42,6 @@ tickers:
     identifier: biki
     name: Biki
   target: BTC
-- base: MNC
-  market:
-    identifier: biki
-    name: Biki
-  target: ETH
-- base: MNC
-  market:
-    identifier: biki
-    name: Biki
-  target: USDT
 - base: MNC
   market:
     identifier: bitfex
@@ -69,6 +59,11 @@ tickers:
   target: ETH
 - base: MNC
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: MNC
+  market:
     identifier: bw
     name: BW.com
   target: USDT
@@ -76,6 +71,11 @@ tickers:
   market:
     identifier: dobitrade
     name: Dobitrade
+  target: BTC
+- base: MNC
+  market:
+    identifier: dobitrade
+    name: Dobitrade
   target: ETH
 - base: MNC
   market:
@@ -111,22 +111,7 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
-- base: MNC
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: RUR
-- base: MNC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: MNC
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: MNC
   market:
     identifier: p2pb2b
@@ -152,11 +137,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: MNC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
 - base: MNC
   market:
     identifier: stocks_exchange

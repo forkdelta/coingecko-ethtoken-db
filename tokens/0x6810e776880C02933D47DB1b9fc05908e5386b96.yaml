@@ -63,7 +63,7 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 11.72
-market_cap_rank: 170
+market_cap_rank: 163
 name: Gnosis
 public_interest_score: 37.034
 symbol: gno
@@ -85,6 +85,11 @@ tickers:
   target: ETH
 - base: GNO
   market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: GNO
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -98,6 +103,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: GNO
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: GNO
   market:
     identifier: kyber_network
@@ -148,3 +158,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

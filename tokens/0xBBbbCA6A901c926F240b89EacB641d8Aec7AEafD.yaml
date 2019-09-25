@@ -84,11 +84,16 @@ links:
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
 liquidity_score: 41.737
-market_cap_rank: 106
+market_cap_rank: 102
 name: Loopring
 public_interest_score: 26.814
 symbol: lrc
 tickers:
+- base: LRC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: LRC
   market:
     identifier: ethfinex
@@ -106,19 +111,14 @@ tickers:
   target: USD
 - base: LRC
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: LRC
-  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
 - base: LRC
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
+    identifier: tokenomy
+    name: Tokenomy
+  target: BTC
 - base: LRC
   market:
     identifier: yobit
@@ -129,3 +129,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR

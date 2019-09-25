@@ -1,6 +1,6 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 616
+coingecko_rank: 615
 coingecko_score: 27.166
 community_score: 7.841
 description: >-
@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 30.923
-market_cap_rank: 214
+market_cap_rank: 190
 name: STASIS EURO
 public_interest_score: 27.51
 symbol: eurs
@@ -38,6 +38,11 @@ tickers:
     name: DSX
   target: EUR
 - base: LTC
+  market:
+    identifier: dsx
+    name: DSX
+  target: EURS
+- base: ETH
   market:
     identifier: dsx
     name: DSX
@@ -56,37 +61,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: DAI
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: EOSDT
-- base: BTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: ETH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: EOS
   market:
     identifier: hitbtc
@@ -97,7 +72,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: ZEC
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
@@ -119,35 +94,20 @@ tickers:
   target: EURS
 - base: EURS
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: TUSD
+    identifier: okcoin
+    name: OKCoin
+  target: EUR
 - base: EURS
   market:
     identifier: okcoin
     name: OKCoin
-  target: EUR
-- base: BTC
-  market:
-    identifier: okcoin
-    name: OKCoin
-  target: EURS
+  target: USD
 - base: XRP
   market:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: XLM
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
 - base: LTC
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: BCH
   market:
     identifier: tokens_net
     name: TokensNet

@@ -47,11 +47,21 @@ links:
   telegram_channel_identifier: daostackcommunity
   twitter_screen_name: daostack
 liquidity_score: 1.0
-market_cap_rank: 482
+market_cap_rank: 473
 name: DAOstack
 public_interest_score: 27.456
 symbol: gen
 tickers:
+- base: GEN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: GEN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: GEN
   market:
     identifier: hotbit
@@ -69,6 +79,6 @@ tickers:
   target: ETH
 - base: GEN
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: quoine
+    name: Liquid
   target: ETH

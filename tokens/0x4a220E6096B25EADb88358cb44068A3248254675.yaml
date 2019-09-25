@@ -43,11 +43,16 @@ links:
   telegram_channel_identifier: quantnetworkannouncements
   twitter_screen_name: quant_network
 liquidity_score: 43.232
-market_cap_rank: 60
+market_cap_rank: 64
 name: Quant
 public_interest_score: 35.114
 symbol: qnt
 tickers:
+- base: QNT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: QNT
   market:
     identifier: coin_exchange
@@ -75,6 +80,6 @@ tickers:
   target: ETH
 - base: QNT
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+    identifier: secondbtc
+    name: SecondBTC
+  target: BTC

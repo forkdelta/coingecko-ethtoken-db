@@ -46,16 +46,26 @@ links:
   subreddit_url: https://www.reddit.com/r/ETHLend
   twitter_screen_name: AaveAave
 liquidity_score: 39.422
-market_cap_rank: 327
+market_cap_rank: 353
 name: Aave
 public_interest_score: 24.54
 symbol: lend
 tickers:
 - base: LEND
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: LEND
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: LEND
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: LEND
   market:
     identifier: hitbtc

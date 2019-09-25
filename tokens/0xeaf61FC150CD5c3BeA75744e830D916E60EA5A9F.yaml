@@ -1,6 +1,6 @@
 ---
 address: '0xeaf61FC150CD5c3BeA75744e830D916E60EA5A9F'
-coingecko_rank: 1487
+coingecko_rank: 1486
 coingecko_score: 18.046
 community_score: 9.838
 description: >-
@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: typerium
   twitter_screen_name: Typerium_io
 liquidity_score: 1.0
-market_cap_rank: 1115
+market_cap_rank: 1114
 name: Typerium
 public_interest_score: 27.188
 symbol: type
@@ -79,17 +79,22 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: DOGE
-- base: TYPE
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
   target: ETH
 - base: TYPE
   market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: LTC
+- base: TYPE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: TYPE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: TYPE
   market:
     identifier: latoken
@@ -105,6 +110,11 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: BTC
+- base: TYPE
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
 - base: TYPE
   market:
     identifier: p2pb2b

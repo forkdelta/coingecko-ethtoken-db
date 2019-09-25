@@ -58,7 +58,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 41.914
-market_cap_rank: 27
+market_cap_rank: 28
 name: Maker
 public_interest_score: 27.444
 symbol: mkr
@@ -100,14 +100,29 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: bkex
+    name: Bkex
+  target: USDT
+- base: MKR
+  market:
     identifier: coss
     name: COSS
   target: COS
 - base: MKR
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MKR
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MKR
   market:
     identifier: fatbtc
@@ -120,9 +135,9 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MKR
   market:
     identifier: idex
@@ -135,44 +150,19 @@ tickers:
   target: KRW
 - base: MKR
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: MKR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: ETH
-- base: MKR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
-- base: MKR
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
 - base: MKR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: secondbtc
+    name: SecondBTC
   target: BTC
 - base: MKR
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: ETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
 - base: MKR
   market:
     identifier: switcheo
