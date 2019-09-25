@@ -1,6 +1,6 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 430
+coingecko_rank: 429
 coingecko_score: 30.899
 community_score: 4.822
 description: >-
@@ -74,11 +74,21 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 41.973
-market_cap_rank: 277
+market_cap_rank: 237
 name: Gemini Dollar
 public_interest_score: 39.281
 symbol: gusd
 tickers:
+- base: GUSD
+  market:
+    identifier: bx_thailand
+    name: BX Thailand
+  target: THB
+- base: GUSD
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: EUR
 - base: GUSD
   market:
     identifier: cex
@@ -91,10 +101,30 @@ tickers:
   target: USDT
 - base: GUSD
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: GUSD
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: USDT
+- base: GUSD
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
+- base: GUSD
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDT
 - base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
+- base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -111,24 +141,34 @@ tickers:
   target: ETH
 - base: GUSD
   market:
+    identifier: okcoin
+    name: OKCoin
+  target: USD
+- base: GUSD
+  market:
     identifier: okex
     name: OKEx
   target: BTC
 - base: GUSD
   market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: GUSD
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
+- base: GUSD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: BTC
   market:
     identifier: quoine
     name: Liquid
   target: GUSD
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
 - base: GUSD
   market:
     identifier: trade_satoshi
@@ -139,8 +179,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
-- base: GUSD
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

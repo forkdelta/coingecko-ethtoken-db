@@ -1,6 +1,6 @@
 ---
 address: '0x5Af2Be193a6ABCa9c8817001F45744777Db30756'
-coingecko_rank: 499
+coingecko_rank: 498
 coingecko_score: 29.488
 community_score: 35.692
 description: >-
@@ -23,7 +23,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ethos_io/
   twitter_screen_name: Ethos_io
 liquidity_score: 25.474
-market_cap_rank: 252
+market_cap_rank: 250
 name: Ethos
 public_interest_score: 30.563
 symbol: ethos
@@ -43,16 +43,36 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: ETHOS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: BQX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: BQX
   market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: BQX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: ETHOS
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: ETHOS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: ETHOS
   market:
     identifier: livecoin

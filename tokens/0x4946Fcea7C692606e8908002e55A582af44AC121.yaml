@@ -1,6 +1,6 @@
 ---
 address: '0x4946Fcea7C692606e8908002e55A582af44AC121'
-coingecko_rank: 920
+coingecko_rank: 919
 coingecko_score: 23.275
 community_score: 28.316
 description: >-
@@ -77,8 +77,28 @@ links:
   telegram_channel_identifier: foamspace
   twitter_screen_name: foamspace
 liquidity_score: 3.106
-market_cap_rank: 257
+market_cap_rank: 253
 name: FOAM
 public_interest_score: 32.795
 symbol: foam
-tickers: []
+tickers:
+- base: FOA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: FOA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: FOAM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: FOAM
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

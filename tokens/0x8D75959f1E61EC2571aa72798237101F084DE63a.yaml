@@ -1,6 +1,6 @@
 ---
 address: '0x8D75959f1E61EC2571aa72798237101F084DE63a'
-coingecko_rank: 540
+coingecko_rank: 539
 coingecko_score: 28.723
 community_score: 40.041
 description: >-
@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/SubstratumNetwork
   twitter_screen_name: SubstratumNet
 liquidity_score: 1.0
-market_cap_rank: 489
+market_cap_rank: 593
 name: Substratum
 public_interest_score: 26.831
 symbol: sub
@@ -48,6 +48,11 @@ tickers:
   target: ETH
 - base: SUB
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SUB
+  market:
     identifier: tidex
     name: Tidex
   target: BTC
@@ -61,8 +66,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: SUB
-  market:
-    identifier: zb
-    name: ZB
-  target: QC

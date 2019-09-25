@@ -68,7 +68,7 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 48.273
-market_cap_rank: 98
+market_cap_rank: 104
 name: aelf
 public_interest_score: 26.284
 symbol: elf
@@ -85,26 +85,21 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: bcex
-    name: BCEX
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: ELF
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: ELF
+  market:
+    identifier: coinbig
+    name: COINBIG
   target: USDT
 - base: ELF
   market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
-- base: ELF
-  market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: ELF
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: ELF
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
@@ -113,11 +108,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: ELF
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: ELF
   market:
     identifier: forkdelta
@@ -135,16 +125,6 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: ELF
-  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: ELF
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC

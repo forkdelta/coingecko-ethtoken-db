@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 39.445
-market_cap_rank: 207
+market_cap_rank: 167
 name: Loom Network
 public_interest_score: 28.95
 symbol: loom
@@ -66,11 +66,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: LOOM
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
 - base: LOOM
   market:
     identifier: coin_exchange
@@ -98,16 +93,6 @@ tickers:
   target: USD
 - base: LOOM
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: LOOM
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: LOOM
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -123,6 +108,11 @@ tickers:
   target: ETH
 - base: LOOM
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: LOOM
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH

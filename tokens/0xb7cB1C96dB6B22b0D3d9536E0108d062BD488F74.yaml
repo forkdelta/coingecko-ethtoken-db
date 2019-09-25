@@ -53,7 +53,7 @@ links:
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
 liquidity_score: 42.98
-market_cap_rank: 131
+market_cap_rank: 138
 name: Waltonchain
 public_interest_score: 30.471
 symbol: wtc
@@ -62,22 +62,22 @@ tickers:
   market:
     identifier: allbit
     name: Allbit
-  target: ETH
-- base: WTC
-  market:
-    identifier: crex24
-    name: CREX24
   target: BTC
 - base: WTC
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: allbit
+    name: Allbit
   target: ETH
 - base: WTC
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
 - base: WTC
   market:
     identifier: financex
@@ -95,6 +95,16 @@ tickers:
   target: ETH
 - base: WTC
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
+    identifier: p2pb2b
+    name: P2PB2B
+  target: ETH
+- base: WTC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: WTC
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USDT

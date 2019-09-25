@@ -1,6 +1,6 @@
 ---
 address: '0x34D6A0F5C2f5D0082141fE73d93B9dd00ca7CE11'
-coingecko_rank: 4099
+coingecko_rank: 4098
 coingecko_score: 5.494
 community_score: 8.465
 description: >-
@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: golden_token
   twitter_screen_name: goldentoken_org
 liquidity_score: 1.0
-market_cap_rank: 4195
+market_cap_rank: 4199
 name: Golden Token
 public_interest_score: 31.78
 symbol: gold
 tickers:
+- base: GOLD
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
 - base: GOLD
   market:
     identifier: bitsten
@@ -47,9 +52,9 @@ tickers:
   target: ETH
 - base: GOLD
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: bitsten
+    name: Bitsten
+  target: IDR
 - base: GOLD
   market:
     identifier: vindax

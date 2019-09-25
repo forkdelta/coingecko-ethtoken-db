@@ -1,6 +1,6 @@
 ---
 address: '0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9'
-coingecko_rank: 1299
+coingecko_rank: 1298
 coingecko_score: 19.549
 community_score: 28.159
 description: >-
@@ -25,11 +25,21 @@ links:
   telegram_channel_identifier: clearpoll_clearify
   twitter_screen_name: voteclearpoll
 liquidity_score: 1.0
-market_cap_rank: 1066
+market_cap_rank: 1089
 name: ClearPoll
 public_interest_score: 24.615
 symbol: poll
 tickers:
+- base: POLL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: POLL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: POLL
   market:
     identifier: yobit
@@ -50,8 +60,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: POLL
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

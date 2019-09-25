@@ -61,6 +61,11 @@ name: Polymath Network
 public_interest_score: 28.284
 symbol: poly
 tickers:
+- base: POLY
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
 - base: POY
   market:
     identifier: ethfinex
@@ -78,14 +83,14 @@ tickers:
   target: USD
 - base: POLY
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: POLY
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: POLY
+  market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: POLY
   market:
     identifier: kyber_network

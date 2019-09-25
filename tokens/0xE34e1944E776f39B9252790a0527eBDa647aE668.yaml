@@ -1,6 +1,6 @@
 ---
 address: '0xE34e1944E776f39B9252790a0527eBDa647aE668'
-coingecko_rank: 1541
+coingecko_rank: 1540
 coingecko_score: 17.616
 community_score: 18.46
 description: >-
@@ -33,7 +33,7 @@ links:
   subreddit_url: https://www.reddit.com
   twitter_screen_name: HbZcoin
 liquidity_score: 4.924
-market_cap_rank: 1104
+market_cap_rank: 1139
 name: HBZ
 public_interest_score: 24.813
 symbol: hbz
@@ -45,9 +45,19 @@ tickers:
   target: ETH
 - base: HBZ
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: HBZ
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: HBZ
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: HBZ
   market:
     identifier: sistemkoin
