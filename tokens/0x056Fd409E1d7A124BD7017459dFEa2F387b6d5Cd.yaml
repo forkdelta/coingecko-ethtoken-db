@@ -74,7 +74,7 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 41.973
-market_cap_rank: 237
+market_cap_rank: 227
 name: Gemini Dollar
 public_interest_score: 39.281
 symbol: gusd
@@ -96,11 +96,6 @@ tickers:
   target: USD
 - base: GUSD
   market:
-    identifier: cobinhood
-    name: Cobinhood
-  target: USDT
-- base: GUSD
-  market:
     identifier: coinbene
     name: CoinBene
   target: USDT
@@ -109,22 +104,7 @@ tickers:
     identifier: coinpark
     name: Coinpark
   target: USDT
-- base: GUSD
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
-- base: GUSD
-  market:
-    identifier: floatsv
-    name: Float SV
-  target: USDT
 - base: EOS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
-- base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -139,6 +119,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: BTC
+  market:
+    identifier: okcoin
+    name: OKCoin
+  target: GUSD
 - base: GUSD
   market:
     identifier: okcoin
@@ -151,23 +136,18 @@ tickers:
   target: BTC
 - base: GUSD
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: GUSD
-  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
-- base: GUSD
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
 - base: BTC
   market:
     identifier: quoine
     name: Liquid
+  target: GUSD
+- base: BTC
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
   target: GUSD
 - base: GUSD
   market:

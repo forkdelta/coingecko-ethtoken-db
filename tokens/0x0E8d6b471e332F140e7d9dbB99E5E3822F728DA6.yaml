@@ -53,7 +53,7 @@ links:
   telegram_channel_identifier: theabyss
   twitter_screen_name: theabyss
 liquidity_score: 13.748
-market_cap_rank: 501
+market_cap_rank: 489
 name: Abyss Token
 public_interest_score: 31.952
 symbol: abyss
@@ -62,11 +62,6 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: BTC
-- base: ABYSS
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
   target: BTC
 - base: ABYSS
   market:
@@ -85,6 +80,11 @@ tickers:
   target: USD
 - base: ABYSS
   market:
-    identifier: idex
-    name: Idex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
+- base: ABYSS
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES

@@ -92,14 +92,19 @@ tickers:
   target: BTC
 - base: ENJ
   market:
-    identifier: coinone
-    name: Coinone
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: ENJ
+  market:
+    identifier: coinfinit
+    name: Coinfinit
   target: KRW
 - base: ENJ
   market:
-    identifier: coss
-    name: COSS
-  target: COS
+    identifier: coinone
+    name: Coinone
+  target: KRW
 - base: ENJ
   market:
     identifier: coss
@@ -117,16 +122,6 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: crytrex
-    name: CryTrEx
-  target: BTC
-- base: ENJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: ENJ
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
@@ -137,14 +132,29 @@ tickers:
   target: BTC
 - base: ENJ
   market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
+- base: ENJ
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: ENJ
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: ENJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: ENJ
   market:
     identifier: idex
@@ -155,6 +165,21 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: ENJ
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: ENJ
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: ENJ
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USDT
 - base: ENJ
   market:
     identifier: quoine
@@ -170,11 +195,6 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: ENJ
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
 - base: ENJ
   market:
     identifier: uniswap

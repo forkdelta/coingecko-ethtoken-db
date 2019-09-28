@@ -49,11 +49,16 @@ name: OKB
 public_interest_score: 32.613
 symbol: okb
 tickers:
-- base: OKB
+- base: AE
   market:
-    identifier: lbank
-    name: Lbank
-  target: USDT
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: EGT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: WAVES
   market:
     identifier: okex

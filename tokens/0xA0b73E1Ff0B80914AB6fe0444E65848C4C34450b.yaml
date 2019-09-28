@@ -40,9 +40,19 @@ symbol: cro
 tickers:
 - base: CRO
   market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: CRO
+  market:
     identifier: biki
     name: Biki
   target: BTC
+- base: CRO
+  market:
+    identifier: biki
+    name: Biki
+  target: USDT
 - base: CRO
   market:
     identifier: gopax
@@ -55,16 +65,6 @@ tickers:
   target: USD
 - base: CRO
   market:
-    identifier: oceanex
-    name: Oceanex
-  target: BTC
-- base: CRO
-  market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: CRO
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC

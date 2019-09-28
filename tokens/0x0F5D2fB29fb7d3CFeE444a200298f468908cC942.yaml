@@ -64,7 +64,7 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 49.608
-market_cap_rank: 92
+market_cap_rank: 91
 name: Decentraland
 public_interest_score: 27.471
 symbol: mana
@@ -86,24 +86,34 @@ tickers:
   target: BTC
 - base: MANA
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: MANA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: MANA
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
 - base: MANA
   market:
-    identifier: coss
-    name: COSS
-  target: ETH
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: MANA
   market:
     identifier: dextrade
     name: Dex-Trade
   target: USDT
-- base: MNA
+- base: MANA
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: MNA
   market:
     identifier: ethfinex
@@ -116,19 +126,24 @@ tickers:
   target: USD
 - base: MANA
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: MANA
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH
 - base: MANA
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: MANA
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
 - base: MANA
   market:
     identifier: p2pb2b
@@ -144,6 +159,21 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: MANA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: MANA
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC
 - base: MANA
   market:
     identifier: zb

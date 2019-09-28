@@ -57,13 +57,23 @@ links:
   telegram_channel_identifier: MainframeCommunity
   twitter_screen_name: Mainframe_HQ
 liquidity_score: 24.175
-market_cap_rank: 255
+market_cap_rank: 257
 name: Mainframe
 public_interest_score: 30.337
 symbol: mft
 tickers:
 - base: MFT
   market:
-    identifier: idex
-    name: Idex
+    identifier: omnitrade
+    name: OmniTrade
+  target: BTC
+- base: MFT
+  market:
+    identifier: omnitrade
+    name: OmniTrade
+  target: ETH
+- base: MFT
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

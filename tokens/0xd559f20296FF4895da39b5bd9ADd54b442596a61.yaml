@@ -1,6 +1,6 @@
 ---
 address: '0xd559f20296FF4895da39b5bd9ADd54b442596a61'
-coingecko_rank: 899
+coingecko_rank: 898
 coingecko_score: 23.453
 community_score: 24.879
 description: >-
@@ -31,16 +31,26 @@ links:
   telegram_channel_identifier: FintruX
   twitter_screen_name: FintruX
 liquidity_score: 1.0
-market_cap_rank: 733
+market_cap_rank: 724
 name: FintruX
 public_interest_score: 27.274
 symbol: ftx
 tickers:
 - base: FTX
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: FTX
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: FTX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: FTX
   market:
     identifier: idex
@@ -51,11 +61,6 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
-- base: FTX
-  market:
-    identifier: quoine
-    name: Liquid
-  target: ETH
 - base: FTX
   market:
     identifier: uniswap

@@ -46,7 +46,7 @@ links:
   telegram_channel_identifier: Egretia
   twitter_screen_name: Egretia_io
 liquidity_score: 49.934
-market_cap_rank: 272
+market_cap_rank: 256
 name: Egretia
 public_interest_score: 25.246
 symbol: egt
@@ -60,14 +60,19 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
-- base: EGT
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
   target: ETH
 - base: EGT
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: EGT
+  market:
+    identifier: okex
+    name: OKEx
+  target: KRW
+- base: EGT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: KRW

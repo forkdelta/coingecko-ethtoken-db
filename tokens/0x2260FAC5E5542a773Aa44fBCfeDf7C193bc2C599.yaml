@@ -1,6 +1,6 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 3350
+coingecko_rank: 3348
 coingecko_score: 7.483
 community_score: 0.0
 description: >-
@@ -26,7 +26,7 @@ links:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
 liquidity_score: 18.785
-market_cap_rank: 3623
+market_cap_rank: 2389
 name: Wrapped Bitcoin
 public_interest_score: 37.258
 symbol: wbtc
@@ -48,6 +48,11 @@ tickers:
   target: WETH
 - base: WBTC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: WBTC
+  market:
     identifier: idex
     name: Idex
   target: DAI
@@ -66,6 +71,16 @@ tickers:
     identifier: idex
     name: Idex
   target: USDC
+- base: WBTC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: WBTC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: WBTC
   market:
     identifier: switcheo

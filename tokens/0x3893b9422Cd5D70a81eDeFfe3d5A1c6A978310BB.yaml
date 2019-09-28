@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
 liquidity_score: 35.836
-market_cap_rank: 257
+market_cap_rank: 264
 name: Mithril
 public_interest_score: 33.039
 symbol: mith
@@ -80,21 +80,11 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: ETH
-- base: MITH
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
 - base: MIT
   market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
-- base: MIT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: MIT
   market:
     identifier: ethfinex
@@ -124,7 +114,17 @@ tickers:
   market:
     identifier: max_maicoin
     name: Max Maicoin
+  target: MAX
+- base: MITH
+  market:
+    identifier: max_maicoin
+    name: Max Maicoin
   target: USDT
+- base: MITH
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: KRW
 - base: MITH
   market:
     identifier: quoine
