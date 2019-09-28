@@ -51,11 +51,16 @@ links:
   telegram_channel_identifier: bluzelle
   twitter_screen_name: BluzelleHQ
 liquidity_score: 23.009
-market_cap_rank: 324
+market_cap_rank: 320
 name: Bluzelle
 public_interest_score: 25.067
 symbol: blz
 tickers:
+- base: BLZ
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
 - base: BLZ
   market:
     identifier: coss
@@ -65,6 +70,11 @@ tickers:
   market:
     identifier: fcoin
     name: FCoin
+  target: ETH
+- base: BLZ
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: BLZ
   market:

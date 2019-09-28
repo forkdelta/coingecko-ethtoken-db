@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
 liquidity_score: 42.518
-market_cap_rank: 129
+market_cap_rank: 114
 name: Civic
 public_interest_score: 34.739
 symbol: cvc
 tickers:
+- base: CVC
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: CVC
   market:
     identifier: gate
@@ -62,11 +67,6 @@ tickers:
   target: ETH
 - base: CVC
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: CVC
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -75,11 +75,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: CVC
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
 - base: CVC
   market:
     identifier: uniswap

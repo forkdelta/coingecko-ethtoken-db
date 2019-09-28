@@ -56,11 +56,16 @@ links:
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
 liquidity_score: 42.633
-market_cap_rank: 185
+market_cap_rank: 192
 name: Polymath Network
 public_interest_score: 28.284
 symbol: poly
 tickers:
+- base: POLY
+  market:
+    identifier: beaxy
+    name: Beaxy
+  target: BTC
 - base: POLY
   market:
     identifier: coinzest
@@ -83,18 +88,13 @@ tickers:
   target: USD
 - base: POLY
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: POLY
   market:
-    identifier: korbit
-    name: Korbit
-  target: KRW
-- base: POLY
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH
 - base: POLY
   market:
@@ -106,8 +106,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: POLY
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

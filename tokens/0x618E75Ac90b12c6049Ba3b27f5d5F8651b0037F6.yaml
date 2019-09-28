@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
 liquidity_score: 37.838
-market_cap_rank: 117
+market_cap_rank: 119
 name: QASH
 public_interest_score: 26.178
 symbol: qash
@@ -76,11 +76,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
-- base: QSH
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: QASH
   market:
     identifier: gate
@@ -88,14 +83,14 @@ tickers:
   target: BTC
 - base: QASH
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: QASH
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: QASH
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: QASH
   market:
     identifier: latoken
@@ -103,15 +98,15 @@ tickers:
   target: ETH
 - base: QASH
   market:
-    identifier: quoine
-    name: Liquid
-  target: EUR
-- base: XRP
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: QASH
   market:
     identifier: quoine
     name: Liquid
-  target: QASH
-- base: TPAY
+  target: AUD
+- base: XRP
   market:
     identifier: quoine
     name: Liquid
@@ -121,22 +116,32 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: 1WO
+- base: ONT
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: WIN
+- base: FDX
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: RFOX
+- base: ONG
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: ZCO
+- base: MRK
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: MCO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: XNK
   market:
     identifier: quoine
     name: Liquid
@@ -151,7 +156,27 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: MRK
+- base: ZCO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: 1WO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: TPAY
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: FSN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: WIN
   market:
     identifier: quoine
     name: Liquid
@@ -161,7 +186,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: THRT
+- base: DREAM
   market:
     identifier: quoine
     name: Liquid

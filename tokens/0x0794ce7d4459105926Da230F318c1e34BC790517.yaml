@@ -1,6 +1,6 @@
 ---
 address: '0x0794ce7d4459105926Da230F318c1e34BC790517'
-coingecko_rank: 3247
+coingecko_rank: 3246
 coingecko_score: 7.739
 community_score: 20.364
 description: >-
@@ -18,8 +18,10 @@ links:
   bitcointalk_thread_identifier: 3122116
   blockchain_site:
   - https://etherscan.io/token/0x0794ce7d4459105926Da230F318c1e34BC790517
+  - https://ethplorer.io/address/0x0794ce7d4459105926da230f318c1e34bc790517
   chat_url:
   - https://discordapp.com/invite/dUYjsam
+  - https://play.rankingball.com/sports#notice
   homepage:
   - http://jp.rankingball.io/
   - http://www.rankingball.io/
@@ -31,8 +33,23 @@ links:
   telegram_channel_identifier: RankingBallPublic
   twitter_screen_name: RankingBall
 liquidity_score: 1.0
-market_cap_rank: 4488
+market_cap_rank: 3776
 name: RankingBall Gold
 public_interest_score: 24.479
 symbol: rbg
-tickers: []
+tickers:
+- base: RBG
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: RBG
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: RBG
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT

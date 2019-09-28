@@ -45,7 +45,7 @@ links:
     - https://github.com/GIFTO-io/GiftoSmartContract
   twitter_screen_name: GIFTO_io
 liquidity_score: 44.092
-market_cap_rank: 231
+market_cap_rank: 237
 name: Gifto
 public_interest_score: 25.515
 symbol: gto
@@ -62,9 +62,19 @@ tickers:
   target: BTC
 - base: GTO
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: BSC
+    identifier: binance
+    name: Binance
+  target: PAX
+- base: GTO
+  market:
+    identifier: binance
+    name: Binance
+  target: TUSD
+- base: GTO-908
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: GTO
   market:
     identifier: coin_exchange
@@ -75,23 +85,3 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
-- base: GTO
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: GTO
-  market:
-    identifier: iqfinex
-    name: IQFinex
-  target: BTC
-- base: GTO
-  market:
-    identifier: iqfinex
-    name: IQFinex
-  target: ETH
-- base: GTO
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC

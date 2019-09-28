@@ -43,11 +43,16 @@ links:
   telegram_channel_identifier: quantnetworkannouncements
   twitter_screen_name: quant_network
 liquidity_score: 43.232
-market_cap_rank: 64
+market_cap_rank: 67
 name: Quant
 public_interest_score: 35.114
 symbol: qnt
 tickers:
+- base: QNT
+  market:
+    identifier: beaxy
+    name: Beaxy
+  target: BTC
 - base: QNT
   market:
     identifier: coin_exchange
@@ -58,6 +63,21 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: QNT
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: QNT
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: QNT
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
 - base: QNT
   market:
     identifier: eterbase
@@ -75,11 +95,11 @@ tickers:
   target: USDT
 - base: QNT
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: QNT
-  market:
     identifier: secondbtc
     name: SecondBTC
   target: BTC
+- base: QNT
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

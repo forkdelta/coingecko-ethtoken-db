@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: Ampleforth
   twitter_screen_name: ampleforthorg
 liquidity_score: 7.665
-market_cap_rank: 663
+market_cap_rank: 659
 name: Ampleforth
 public_interest_score: 33.369
 symbol: ampl
 tickers:
+- base: AMPL
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: AMP
   market:
     identifier: bitfinex
@@ -44,6 +49,6 @@ tickers:
   target: BTC
 - base: AMPL
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

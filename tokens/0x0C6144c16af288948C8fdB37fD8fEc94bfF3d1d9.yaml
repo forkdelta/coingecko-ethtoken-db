@@ -1,6 +1,6 @@
 ---
 address: '0x0C6144c16af288948C8fdB37fD8fEc94bfF3d1d9'
-coingecko_rank: 1828
+coingecko_rank: 1827
 coingecko_score: 15.347
 community_score: 8.092
 description: >-
@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: neutralproject
   twitter_screen_name: neutral_project
 liquidity_score: 1.0
-market_cap_rank: 1209
+market_cap_rank: 1208
 name: Neutral Dollar
 public_interest_score: 41.036
 symbol: nusd
@@ -40,6 +40,16 @@ tickers:
     identifier: ddex
     name: DDEX
   target: USDT
+- base: USDT
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: NUSD
+- base: CHR
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: NUSD
 - base: TOMO
   market:
     identifier: kucoin

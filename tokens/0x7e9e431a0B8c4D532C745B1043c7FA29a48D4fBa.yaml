@@ -69,11 +69,6 @@ tickers:
   target: EOS
 - base: EOSDAC
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: EOSDAC
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -87,6 +82,11 @@ tickers:
     identifier: otcbtc
     name: OTCBTC
   target: EOS
+- base: EOSDAC
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
 - base: EOSDAC
   market:
     identifier: probit

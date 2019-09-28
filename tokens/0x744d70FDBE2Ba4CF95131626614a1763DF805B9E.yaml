@@ -58,11 +58,6 @@ symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: bitkub
-    name: Bitkub
-  target: THB
-- base: SNT
-  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
@@ -71,6 +66,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: SNT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: SNT
   market:
     identifier: gate
@@ -80,11 +80,16 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: USD
+  target: ETH
 - base: SNT
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: SNT
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: SNT
   market:
@@ -93,6 +98,6 @@ tickers:
   target: USD
 - base: SNT
   market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: zb
+    name: ZB
   target: BTC
