@@ -27,7 +27,7 @@ links:
     - https://github.com/internxt/INXT
   subreddit_url: https://www.reddit.com/r/internxt
 liquidity_score: 12.33
-market_cap_rank: 739
+market_cap_rank: 780
 name: Internxt
 public_interest_score: 27.272
 symbol: inxt
@@ -39,6 +39,16 @@ tickers:
   target: BTC
 - base: INXT
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: INXT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: INXT
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -46,6 +56,11 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: INXT
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: INXT
   market:

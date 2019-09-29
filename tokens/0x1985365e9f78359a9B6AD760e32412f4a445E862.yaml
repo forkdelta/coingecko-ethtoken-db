@@ -84,9 +84,29 @@ tickers:
   target: KRW
 - base: REP
   market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
+- base: REP
+  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
+- base: REP
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: REP
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
+- base: REP
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: REP
   market:
     identifier: ethfinex
@@ -124,6 +144,11 @@ tickers:
   target: USD
 - base: REP
   market:
+    identifier: kraken
+    name: Kraken
+  target: ETH
+- base: REP
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -152,11 +177,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: REP
-  market:
-    identifier: secondbtc
-    name: SecondBTC
-  target: BTC
 - base: REP
   market:
     identifier: switcheo

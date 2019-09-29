@@ -51,11 +51,16 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 52.692
-market_cap_rank: 83
+market_cap_rank: 82
 name: Status
 public_interest_score: 43.225
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: SNT
   market:
     identifier: ethfinex
@@ -73,14 +78,19 @@ tickers:
   target: USD
 - base: SNT
   market:
-    identifier: gate
-    name: Gate.io
-  target: BTC
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: SNT
   market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: SNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: SNT
   market:
     identifier: kucoin
@@ -91,13 +101,3 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: SNT
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: SNT
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC

@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
 liquidity_score: 37.838
-market_cap_rank: 119
+market_cap_rank: 125
 name: QASH
 public_interest_score: 26.178
 symbol: qash
@@ -76,16 +76,16 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: QSH
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: QASH
   market:
     identifier: gate
     name: Gate.io
   target: BTC
-- base: QASH
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: QASH
   market:
     identifier: gopax
@@ -101,11 +101,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: QASH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: AUD
 - base: XRP
   market:
     identifier: quoine
@@ -116,7 +111,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: ONT
+- base: ZCO
   market:
     identifier: quoine
     name: Liquid
@@ -131,7 +126,17 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: DRG
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: MRK
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: ONT
   market:
     identifier: quoine
     name: Liquid
@@ -146,17 +151,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: DRG
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: ECH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ZCO
   market:
     identifier: quoine
     name: Liquid
@@ -167,6 +162,11 @@ tickers:
     name: Liquid
   target: QASH
 - base: TPAY
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: GAT
   market:
     identifier: quoine
     name: Liquid

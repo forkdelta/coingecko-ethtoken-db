@@ -25,12 +25,27 @@ name: USDK
 public_interest_score: 29.186
 symbol: usdk
 tickers:
+- base: ALGO
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: USDK
 - base: BSV
   market:
     identifier: floatsv
     name: Float SV
   target: USDK
-- base: LAMB
+- base: BSV
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: VNT
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: CRO
   market:
     identifier: okex
     name: OKEx
@@ -45,22 +60,17 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: FTM
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: CRO
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
 - base: ORBS
   market:
     identifier: okex
     name: OKEx
   target: USDK
 - base: FSN
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: FTM
   market:
     identifier: okex
     name: OKEx

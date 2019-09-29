@@ -1,6 +1,6 @@
 ---
 address: '0xEA610B1153477720748DC13ED378003941d84fAB'
-coingecko_rank: 1378
+coingecko_rank: 1377
 coingecko_score: 18.875
 community_score: 9.203
 description: >-
@@ -29,7 +29,7 @@ links:
     - https://github.com/AlisProject/ico-contracts
   twitter_screen_name: ALIS_media
 liquidity_score: 1.0
-market_cap_rank: 5513
+market_cap_rank: 5640
 name: ALIS
 public_interest_score: 36.986
 symbol: alis
@@ -38,12 +38,12 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
+  target: ETH
 - base: ALIS
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: ALIS
   market:
     identifier: yobit
@@ -54,3 +54,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: ALIS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -38,11 +38,6 @@ symbol: latx
 tickers:
 - base: LATX
   market:
-    identifier: altilly
-    name: Altilly
-  target: LTC
-- base: LATX
-  market:
     identifier: coinbene
     name: CoinBene
   target: BTC
@@ -71,6 +66,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: LATX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: LATX
   market:
     identifier: yobit

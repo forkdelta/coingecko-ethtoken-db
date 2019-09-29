@@ -53,24 +53,14 @@ symbol: ppt
 tickers:
 - base: PPT
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: PPT
-  market:
     identifier: livecoin
     name: Livecoin
   target: USD
 - base: PPT
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
-- base: PPT
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: PPT
   market:
     identifier: p2pb2b
@@ -86,6 +76,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: PPT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: PPT
   market:
     identifier: yobit

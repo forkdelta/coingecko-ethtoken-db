@@ -58,7 +58,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 41.199
-market_cap_rank: 159
+market_cap_rank: 158
 name: Storj
 public_interest_score: 27.02
 symbol: storj
@@ -77,11 +77,6 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: STJ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
 - base: STORJ
   market:
@@ -90,16 +85,6 @@ tickers:
   target: BTC
 - base: STORJ
   market:
-    identifier: financex
-    name: FinanceX
-  target: IDR
-- base: STORJ
-  market:
-    identifier: financex
-    name: FinanceX
-  target: VND
-- base: STORJ
-  market:
     identifier: gate
     name: Gate.io
   target: BTC
@@ -107,6 +92,16 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
+  target: ETH
+- base: STORJ
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: STORJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: STORJ
   market:
@@ -143,8 +138,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: STORJ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

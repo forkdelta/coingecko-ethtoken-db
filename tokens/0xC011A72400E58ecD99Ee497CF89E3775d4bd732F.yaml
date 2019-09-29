@@ -60,11 +60,16 @@ links:
   telegram_channel_identifier: havven_official1
   twitter_screen_name: synthetix_io
 liquidity_score: 14.781
-market_cap_rank: 86
+market_cap_rank: 85
 name: Synthetix Network Token
 public_interest_score: 27.653
 symbol: snx
 tickers:
+- base: SNX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: HAV
   market:
     identifier: gate
@@ -82,6 +87,6 @@ tickers:
   target: ETH
 - base: SNX
   market:
-    identifier: secondbtc
-    name: SecondBTC
+    identifier: quoine
+    name: Liquid
   target: BTC

@@ -48,11 +48,16 @@ links:
   subreddit_url: https://www.reddit.com/r/Lunyr
   twitter_screen_name: Lunyrinc
 liquidity_score: 23.265
-market_cap_rank: 497
+market_cap_rank: 503
 name: Lunyr
 public_interest_score: 25.439
 symbol: lun
 tickers:
+- base: LUN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: LUNYR
   market:
     identifier: yobit
@@ -68,11 +73,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: LUNYR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: LUNYR
   market:
     identifier: yobit

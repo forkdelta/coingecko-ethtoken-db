@@ -66,6 +66,11 @@ symbol: drgn
 tickers:
 - base: DRGN
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: DRGN
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -96,6 +101,16 @@ tickers:
   target: USD
 - base: DRGN
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DRGN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DRGN
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -124,3 +139,8 @@ tickers:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: DRGN
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
