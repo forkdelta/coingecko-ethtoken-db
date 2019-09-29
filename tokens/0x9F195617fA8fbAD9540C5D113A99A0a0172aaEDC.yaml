@@ -33,11 +33,16 @@ links:
   subreddit_url: https://www.reddit.com/r/NiobiumBomesp/
   twitter_screen_name: NiobiumCoins
 liquidity_score: 1.0
-market_cap_rank: 609
+market_cap_rank: 618
 name: Niobium Coin
 public_interest_score: 27.463
 symbol: nbc
 tickers:
+- base: NBC
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: BTC
 - base: NBC
   market:
     identifier: bleutrade
@@ -63,3 +68,18 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: NBC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: NBC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: NBC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

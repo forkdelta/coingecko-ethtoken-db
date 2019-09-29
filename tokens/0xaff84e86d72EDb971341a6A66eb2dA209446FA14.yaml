@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: TheCurrencyAnalytics
   twitter_screen_name: TheCurrencyA
 liquidity_score: 10.142
-market_cap_rank: 2298
+market_cap_rank: 2313
 name: The Currency Analytics
 public_interest_score: 23.054
 symbol: tcat
 tickers:
+- base: TCAT
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
 - base: TCAT
   market:
     identifier: latoken
@@ -47,11 +52,6 @@ tickers:
     identifier: localtrade
     name: LocalTrade
   target: BTC
-- base: TCAT
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: ETH
 - base: TCAT
   market:
     identifier: localtrade

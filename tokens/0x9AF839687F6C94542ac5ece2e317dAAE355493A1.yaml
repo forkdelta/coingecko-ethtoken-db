@@ -24,11 +24,21 @@ links:
   telegram_channel_identifier: hydroprotocol
   twitter_screen_name: ddex_io
 liquidity_score: 9.735
-market_cap_rank: 538
+market_cap_rank: 549
 name: Hydro Protocol
 public_interest_score: 25.525
 symbol: hot
 tickers:
+- base: HOT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: HOT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: HOT
   market:
     identifier: ethfinex
@@ -44,3 +54,8 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: HOT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

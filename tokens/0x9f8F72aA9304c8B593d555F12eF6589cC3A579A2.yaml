@@ -82,12 +82,17 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: ETH
+  target: BTC
 - base: MKR
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
+    identifier: bkex
+    name: Bkex
+  target: USDT
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: COS
 - base: MKR
   market:
     identifier: ddex
@@ -100,9 +105,9 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MKR
   market:
     identifier: gopax
@@ -112,7 +117,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: DAI
 - base: MKR
   market:
     identifier: idex
@@ -120,19 +125,29 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: korbit
+    name: Korbit
+  target: KRW
+- base: MKR
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: MKR
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: MKR
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: ETH
 - base: MKR
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
-    identifier: secondbtc
-    name: SecondBTC
-  target: BTC
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: MKR
   market:
     identifier: sistemkoin
@@ -143,6 +158,11 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: ETH
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: MKR
   market:
     identifier: switcheo
@@ -153,3 +173,18 @@ tickers:
     identifier: three_xbit
     name: 3XBIT
   target: USD
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: MKR
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

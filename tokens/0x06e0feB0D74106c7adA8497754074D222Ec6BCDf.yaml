@@ -42,7 +42,7 @@ links:
   telegram_channel_identifier: BitballGroupChat
   twitter_screen_name: BitBall_Erc20
 liquidity_score: 43.249
-market_cap_rank: 995
+market_cap_rank: 939
 name: Bitball
 public_interest_score: 24.479
 symbol: btb
@@ -59,24 +59,19 @@ tickers:
   target: ETH
 - base: BTB
   market:
-    identifier: ccx
-    name: CCXCanada
-  target: BTC
-- base: BTB
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: BTB
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: BTB
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: USDT
+- base: BTRS
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: BTB
+- base: ETHPLO
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: BTB
 - base: ETHMNY
   market:
     identifier: exnce
@@ -87,6 +82,11 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: ETH
+- base: BTB
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
 - base: BTB
   market:
     identifier: mercatox

@@ -24,11 +24,21 @@ links:
   telegram_channel_identifier: electrifyasia
   twitter_screen_name: electrifyasia
 liquidity_score: 1.0
-market_cap_rank: 834
+market_cap_rank: 860
 name: Electrify.Asia
 public_interest_score: 28.989
 symbol: elec
 tickers:
+- base: ELEC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: ELEC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: ELEC
   market:
     identifier: hitbtc
@@ -36,16 +46,16 @@ tickers:
   target: ETH
 - base: ELEC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: ELEC
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: ELEC
   market:
-    identifier: sato_wallet_ex
-    name: SatowalletEx
-  target: SATOS
-- base: ELEC
-  market:
-    identifier: sato_wallet_ex
-    name: SatowalletEx
-  target: USDT
+    identifier: kucoin
+    name: KuCoin
+  target: ETH

@@ -45,11 +45,6 @@ symbol: rsr
 tickers:
 - base: RSR
   market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
-- base: RSR
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -58,6 +53,11 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
+- base: RSR
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: ETH
 - base: RSR
   market:
     identifier: eterbase

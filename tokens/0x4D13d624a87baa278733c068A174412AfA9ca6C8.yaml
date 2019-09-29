@@ -37,22 +37,27 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: ETERBASE
 liquidity_score: 32.707
-market_cap_rank: 552
+market_cap_rank: 546
 name: Eterbase Coin
 public_interest_score: 24.471
 symbol: xbase
 tickers:
-- base: XBASE-B
+- base: XBASE
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: BNB
+    identifier: coinlim
+    name: Coinlim
+  target: USDT
 - base: XBASE
   market:
     identifier: eterbase
     name: Eterbase
   target: BTC
-- base: XBASE
+- base: XBASE-B
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: BTC
+- base: XBASE-B
   market:
     identifier: eterbase
     name: Eterbase
@@ -67,12 +72,17 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EUR
+- base: XBASE
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: USDT
 - base: XBASE-B
   market:
     identifier: eterbase
     name: Eterbase
   target: USDT
-- base: ETH
+- base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
@@ -82,12 +92,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: XBASE
-- base: LOTEU
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
-- base: LTC
+- base: ETH
   market:
     identifier: eterbase
     name: Eterbase

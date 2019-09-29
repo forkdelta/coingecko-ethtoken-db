@@ -64,11 +64,16 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 36.321
-market_cap_rank: 65
+market_cap_rank: 64
 name: Pundi X
 public_interest_score: 28.799
 symbol: npxs
 tickers:
+- base: NPXS
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: NPXS
   market:
     identifier: allbit
@@ -96,9 +101,9 @@ tickers:
   target: KRW
 - base: NPXS
   market:
-    identifier: bitsten
-    name: Bitsten
-  target: IDR
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: NPXS
   market:
     identifier: bittrex
@@ -118,11 +123,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
+  target: ETH
 - base: NPXS
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
+    identifier: coinbene
+    name: CoinBene
   target: ETH
 - base: NPXS
   market:
@@ -133,12 +138,12 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: ETH
+  target: COS
 - base: NPXS
   market:
-    identifier: crypto_bridge
-    name: CryptoBridge
-  target: BTC
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: NPXS
   market:
     identifier: digifinex
@@ -166,14 +171,19 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: NPXS
   market:
     identifier: latoken
@@ -189,11 +199,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: NPXS
-  market:
-    identifier: secondbtc
-    name: SecondBTC
-  target: BTC
 - base: NPXS
   market:
     identifier: sistemkoin
@@ -214,11 +219,6 @@ tickers:
     identifier: tidex
     name: Tidex
   target: ETH
-- base: NPXS
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
 - base: NPXS
   market:
     identifier: wazirx
