@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: yggdrash
   twitter_screen_name: YggdrashNews
 liquidity_score: 16.133
-market_cap_rank: 494
+market_cap_rank: 485
 name: Yggdrash
 public_interest_score: 24.497
 symbol: yeed
@@ -39,8 +39,23 @@ tickers:
     identifier: bitsdaq
     name: Bitsdaq
   target: BTC
+- base: YEED
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: YGG
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: YGG
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: YEED
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

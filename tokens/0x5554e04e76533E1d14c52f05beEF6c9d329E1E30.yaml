@@ -1,6 +1,6 @@
 ---
 address: '0x5554e04e76533E1d14c52f05beEF6c9d329E1E30'
-coingecko_rank: 2004
+coingecko_rank: 2005
 coingecko_score: 14.145
 community_score: 8.024
 description: >-
@@ -30,11 +30,31 @@ links:
   - https://auton.io/
   twitter_screen_name: AI_Autonio
 liquidity_score: 0.0
-market_cap_rank: 1039
+market_cap_rank: 1065
 name: Autonio
 public_interest_score: 24.515
 symbol: nio
 tickers:
+- base: NIO
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
+- base: NIO
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: ETH
+- base: BTC
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: NIO
+- base: ETH
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: NIO
 - base: NIO
   market:
     identifier: ethfinex
@@ -47,6 +67,11 @@ tickers:
   target: USD
 - base: NIO
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: NIO
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -55,3 +80,8 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: NIO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

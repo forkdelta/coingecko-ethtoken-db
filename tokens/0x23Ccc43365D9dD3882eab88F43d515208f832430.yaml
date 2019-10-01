@@ -32,16 +32,21 @@ links:
   telegram_channel_identifier: midasprotocolglobal
   twitter_screen_name: MidasProtocol
 liquidity_score: 15.483
-market_cap_rank: 676
+market_cap_rank: 692
 name: Midas Protocol
 public_interest_score: 24.453
 symbol: mas
 tickers:
 - base: MAS
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MAS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: MAS
   market:
     identifier: vinex
@@ -51,4 +56,9 @@ tickers:
   market:
     identifier: vinex
     name: Vinex
-  target: ETH
+  target: TVND
+- base: MAS
+  market:
+    identifier: vinex
+    name: Vinex
+  target: USDT

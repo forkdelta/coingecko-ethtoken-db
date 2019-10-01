@@ -29,11 +29,21 @@ links:
   telegram_channel_identifier: lamdentau
   twitter_screen_name: LamdenTau
 liquidity_score: 1.0
-market_cap_rank: 607
+market_cap_rank: 603
 name: Lamden
 public_interest_score: 24.656
 symbol: tau
 tickers:
+- base: TAU
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: TAU
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: TAU
   market:
     identifier: hitbtc
@@ -43,4 +53,24 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: TAU
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: TAU
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: TAU
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TAU
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

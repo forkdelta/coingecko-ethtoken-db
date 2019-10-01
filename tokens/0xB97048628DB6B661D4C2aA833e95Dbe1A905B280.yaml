@@ -55,6 +55,16 @@ symbol: pay
 tickers:
 - base: PAY
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: PAY
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: PAY
+  market:
     identifier: bitbay
     name: BitBay
   target: BTC
@@ -62,12 +72,52 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
+  target: EUR
+- base: PAY
+  market:
+    identifier: bitbay
+    name: BitBay
   target: PLN
 - base: PAY
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
+    identifier: bitbay
+    name: BitBay
+  target: USD
+- base: PAY
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: PAY
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: PAY
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: PAY
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: PAY
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: PAY
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: PAY
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: PAY
   market:
     identifier: forkdelta
@@ -95,13 +145,18 @@ tickers:
   target: ETH
 - base: PAY
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: idex
+    name: Idex
   target: ETH
 - base: PAY
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: PAY
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: PAY
   market:
@@ -112,4 +167,44 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: PAY
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: USD
+- base: PAY
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: BTC
+- base: PAY
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
+- base: PAY
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: PAY
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USDT
+- base: PAY
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: PAY
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
+- base: PAY
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH

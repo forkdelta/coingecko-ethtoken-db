@@ -1,6 +1,6 @@
 ---
 address: '0x9D9832d1beb29CC949d75D61415FD00279f84Dc2'
-coingecko_rank: 2073
+coingecko_rank: 2074
 coingecko_score: 13.598
 community_score: 22.559
 description: >-
@@ -31,8 +31,28 @@ links:
   telegram_channel_identifier: DNNMedia
   twitter_screen_name: DNN_Blockchain
 liquidity_score: 0.0
-market_cap_rank: 4266
+market_cap_rank: 3064
 name: Decentralized News Network
 public_interest_score: 37.114
 symbol: dnn
-tickers: []
+tickers:
+- base: DNN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DNN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DNN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DNN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

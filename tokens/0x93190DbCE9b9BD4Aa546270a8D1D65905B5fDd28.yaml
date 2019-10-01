@@ -31,16 +31,21 @@ links:
   telegram_channel_identifier: dapscoin
   twitter_screen_name: DAPScoin
 liquidity_score: 8.665
-market_cap_rank: 187
+market_cap_rank: 196
 name: DAPS Token
 public_interest_score: 30.623
 symbol: daps
 tickers:
 - base: DAPS
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: bitmart
+    name: BitMart
   target: BTC
+- base: DAPS
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: DAPS
   market:
     identifier: citex
@@ -53,6 +58,26 @@ tickers:
   target: ETH
 - base: DAPS
   market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: DAPS
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: DAPS
+  market:
     identifier: txbit
     name: Txbit
   target: BTC
+- base: DAPS
+  market:
+    identifier: txbit
+    name: Txbit
+  target: ETH
+- base: DAPS
+  market:
+    identifier: txbit
+    name: Txbit
+  target: XLR

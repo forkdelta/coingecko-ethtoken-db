@@ -61,25 +61,30 @@ links:
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
 liquidity_score: 47.828
-market_cap_rank: 146
+market_cap_rank: 151
 name: Power Ledger
 public_interest_score: 24.777
 symbol: powr
 tickers:
 - base: POWR
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: ETH
-- base: POWR
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: POW
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: POWR
   market:
     identifier: btcmarkets
     name: BTCMarkets
+  target: BTC
+- base: POWR
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
 - base: POWR
   market:
@@ -90,12 +95,62 @@ tickers:
   market:
     identifier: coinzest
     name: Coinzest
+  target: BTC
+- base: POWR
+  market:
+    identifier: coinzest
+    name: Coinzest
+  target: ETH
+- base: POWR
+  market:
+    identifier: coinzest
+    name: Coinzest
   target: KRW
 - base: POWR
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: crypto_bridge
+    name: CryptoBridge
   target: BTC
+- base: POWR
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: ETH
+- base: POWR
+  market:
+    identifier: daybit
+    name: Daybit
+  target: BTC
+- base: POWR
+  market:
+    identifier: daybit
+    name: Daybit
+  target: ETH
+- base: POWR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: POWR
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: POWR
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: POWR
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: POWR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: POWR
   market:
     identifier: gate
@@ -108,18 +163,53 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: POWR
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH
 - base: POWR
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: POWR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: BTC
+- base: POWR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
+- base: POWR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: POWR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USDT
+- base: 3B743C8B-7090-4DED-A6CA-106238084075
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 3B743C8B-7090-4DED-A6CA-106238084075
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: POWR
+  market:
+    identifier: mandala
+    name: Mandala
+  target: BTC
+- base: POWR
+  market:
+    identifier: mandala
+    name: Mandala
   target: ETH
 - base: POWR
   market:
@@ -133,6 +223,31 @@ tickers:
   target: USDT
 - base: POWR
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: POWR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: POWR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: POWR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: POWR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: POWR
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

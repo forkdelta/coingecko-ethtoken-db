@@ -57,7 +57,7 @@ links:
   telegram_channel_identifier: MainframeCommunity
   twitter_screen_name: Mainframe_HQ
 liquidity_score: 24.175
-market_cap_rank: 250
+market_cap_rank: 258
 name: Mainframe
 public_interest_score: 30.337
 symbol: mft
@@ -69,6 +69,26 @@ tickers:
   target: BTC
 - base: MFT
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: MFT
+  market:
+    identifier: coinbe
+    name: Coinbe
+  target: BTC
+- base: MFT
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH
+- base: MFT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MFT
+  market:
     identifier: omnitrade
     name: OmniTrade
   target: BTC
@@ -77,6 +97,11 @@ tickers:
     identifier: omnitrade
     name: OmniTrade
   target: ETH
+- base: MFT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: MFT
   market:
     identifier: uniswap

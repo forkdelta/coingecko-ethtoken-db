@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: openanxteam
   twitter_screen_name: oax_foundation
 liquidity_score: 25.659
-market_cap_rank: 434
+market_cap_rank: 426
 name: OpenANX
 public_interest_score: 24.479
 symbol: oax
 tickers:
+- base: OAX
+  market:
+    identifier: anx
+    name: ANX
+  target: ETH
 - base: OAX
   market:
     identifier: gate
@@ -43,6 +48,11 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
+  target: ETH
+- base: OAX
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: OAX
   market:
@@ -64,3 +74,8 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: OAX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH

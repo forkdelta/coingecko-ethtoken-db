@@ -42,11 +42,21 @@ links:
   telegram_channel_identifier: Menloone
   twitter_screen_name: menloone
 liquidity_score: 22.59
-market_cap_rank: 3698
+market_cap_rank: 4703
 name: Menlo One
 public_interest_score: 39.884
 symbol: one
 tickers:
+- base: ONE
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ONE
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
 - base: ONE
   market:
     identifier: bitmart
@@ -57,3 +67,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: ONE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

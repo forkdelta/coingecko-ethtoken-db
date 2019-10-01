@@ -36,11 +36,31 @@ links:
   telegram_channel_identifier: nexofinance
   twitter_screen_name: NexoFinance
 liquidity_score: 47.671
-market_cap_rank: 79
+market_cap_rank: 78
 name: NEXO
 public_interest_score: 35.582
 symbol: nexo
 tickers:
+- base: NEXO
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: NEXO
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: NEXO
+  market:
+    identifier: atomars
+    name: Atomars
+  target: ETH
+- base: NEXO
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: NEXO
   market:
     identifier: coin_exchange
@@ -53,18 +73,43 @@ tickers:
   target: ETH
 - base: NEXO
   market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: NEXO
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: NEXO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: dextrade
+    name: Dex-Trade
+  target: BTC
+- base: NEXO
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
+- base: NEXO
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: NEXO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: NEXO
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: NEXO
+  market:
+    identifier: joyso
+    name: Joyso
   target: ETH
 - base: NEXO
   market:
@@ -73,6 +118,11 @@ tickers:
   target: ETH
 - base: NEXO
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: NEXO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

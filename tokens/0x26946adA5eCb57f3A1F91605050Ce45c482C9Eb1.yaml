@@ -1,6 +1,6 @@
 ---
 address: '0x26946adA5eCb57f3A1F91605050Ce45c482C9Eb1'
-coingecko_rank: 3513
+coingecko_rank: 3514
 coingecko_score: 7.065
 community_score: 16.62
 description: >-
@@ -26,13 +26,23 @@ links:
   telegram_channel_identifier: BitcoinSoVCommunity
   twitter_screen_name: BSOV_
 liquidity_score: 1.0
-market_cap_rank: 2820
+market_cap_rank: 2095
 name: BitcoinSoV
 public_interest_score: 27.1
 symbol: bsov
 tickers:
 - base: BSOV
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BSOV
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: BSOV
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH

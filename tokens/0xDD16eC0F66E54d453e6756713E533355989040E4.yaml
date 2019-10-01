@@ -41,11 +41,16 @@ links:
   telegram_channel_identifier: tokenomyenglish
   twitter_screen_name: tokenomy
 liquidity_score: 21.804
-market_cap_rank: 546
+market_cap_rank: 552
 name: Tokenomy
 public_interest_score: 27.424
 symbol: ten
 tickers:
+- base: TEN
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
 - base: TEN
   market:
     identifier: bitsten
@@ -63,6 +68,21 @@ tickers:
   target: ETH
 - base: TEN
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TEN
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: VEX
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN
+- base: SIX
+  market:
+    identifier: tokenomy
+    name: Tokenomy
+  target: TEN

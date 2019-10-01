@@ -1,6 +1,6 @@
 ---
 address: '0x84119cb33E8F590D75c2D6Ea4e6B0741a7494EDA'
-coingecko_rank: 2072
+coingecko_rank: 2073
 coingecko_score: 13.6
 community_score: 6.506
 description: >-
@@ -25,11 +25,21 @@ links:
   telegram_channel_identifier: wtt_token
   twitter_screen_name: WTTtoken
 liquidity_score: 1.0
-market_cap_rank: 1207
+market_cap_rank: 1722
 name: Giga Watt Token
 public_interest_score: 24.25
 symbol: wtt
 tickers:
+- base: WTT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: WTT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: WTT
   market:
     identifier: yobit
@@ -39,4 +49,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: ETH
+- base: WTT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: WTT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

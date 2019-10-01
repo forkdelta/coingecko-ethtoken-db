@@ -37,11 +37,16 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: ETERBASE
 liquidity_score: 32.707
-market_cap_rank: 546
+market_cap_rank: 537
 name: Eterbase Coin
 public_interest_score: 24.471
 symbol: xbase
 tickers:
+- base: XBASE
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: XBASE
   market:
     identifier: coinlim
@@ -49,6 +54,21 @@ tickers:
   target: USDT
 - base: XBASE
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: XBASE
+  market:
+    identifier: escodex
+    name: Escodex
+  target: BTC
+- base: XBASE-B
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: BNB
+- base: XBASE
+  market:
     identifier: eterbase
     name: Eterbase
   target: BTC
@@ -56,8 +76,13 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
-  target: BTC
-- base: XBASE-B
+  target: EBASE
+- base: XBASE
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: XBASE
   market:
     identifier: eterbase
     name: Eterbase
@@ -66,23 +91,28 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
-  target: EUR
+  target: ETH
 - base: XBASE
   market:
     identifier: eterbase
     name: Eterbase
   target: EUR
-- base: XBASE
+- base: XBASE-B
   market:
     identifier: eterbase
     name: Eterbase
-  target: USDT
+  target: EUR
 - base: XBASE-B
   market:
     identifier: eterbase
     name: Eterbase
   target: USDT
-- base: LOTEU
+- base: XBASE
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: USDT
+- base: ETH
   market:
     identifier: eterbase
     name: Eterbase
@@ -92,15 +122,65 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: XBASE
-- base: ETH
+- base: LTC
   market:
     identifier: eterbase
     name: Eterbase
   target: XBASE
+- base: PARETO
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: FREE
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: LOTEU
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE
+- base: LTO-BDF
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE-B
 - base: XBASE
   market:
     identifier: fcoin
     name: FCoin
+  target: USDT
+- base: XBASE
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: BTC
+- base: XBASE
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: USDT
+- base: XBASE
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: BTC
+- base: XBASE
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
+- base: XBASE
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: USDC
+- base: XBASE
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
   target: USDT
 - base: XBASE
   market:
@@ -117,3 +197,8 @@ tickers:
     identifier: ooobtc
     name: OOOBTC
   target: BTC
+- base: XBASE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

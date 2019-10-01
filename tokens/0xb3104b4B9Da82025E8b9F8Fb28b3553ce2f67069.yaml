@@ -41,11 +41,16 @@ links:
   subreddit_url: https://www.reddit.com/r/Bibox
   twitter_screen_name: Bibox365
 liquidity_score: 44.969
-market_cap_rank: 162
+market_cap_rank: 163
 name: Bibox Token
 public_interest_score: 27.554
 symbol: bix
 tickers:
+- base: BIX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: FOR
   market:
     identifier: bibox
@@ -66,27 +71,7 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: BTM
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
 - base: RED
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
-- base: ORMEUS
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
-- base: TTC
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
-- base: EOSDAC
   market:
     identifier: bibox
     name: Bibox
@@ -96,8 +81,18 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
+- base: ORMEUS
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
 - base: BIX
   market:
     identifier: biki
     name: Biki
   target: BTC
+- base: BIX
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH

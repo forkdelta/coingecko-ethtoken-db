@@ -32,7 +32,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ChronoBank
   twitter_screen_name: ChronobankNews
 liquidity_score: 9.41
-market_cap_rank: 768
+market_cap_rank: 734
 name: Chronobank
 public_interest_score: 24.791
 symbol: time
@@ -41,7 +41,22 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: TIME
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: TIME
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: TIME
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: TIME
   market:
     identifier: lykke
@@ -94,6 +109,41 @@ tickers:
   target: USD
 - base: TIME
   market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WEUR
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WUSD
+- base: TIME
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: TIME
+  market:
     identifier: yobit
     name: YoBit
   target: ETH
@@ -102,3 +152,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

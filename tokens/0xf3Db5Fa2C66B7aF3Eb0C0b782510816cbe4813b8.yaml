@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: everexio
   twitter_screen_name: everexio
 liquidity_score: 32.081
-market_cap_rank: 263
+market_cap_rank: 259
 name: Everex
 public_interest_score: 25.526
 symbol: evx
 tickers:
+- base: EVX
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: EVX
   market:
     identifier: dextrade
@@ -53,6 +58,21 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: 91960F78-7EA1-49F7-BE27-34221A763B02
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 91960F78-7EA1-49F7-BE27-34221A763B02
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: EVX
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: EVX
   market:
     identifier: p2pb2b
@@ -68,3 +88,18 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
+- base: EVX
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: EVX
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: EVX
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES

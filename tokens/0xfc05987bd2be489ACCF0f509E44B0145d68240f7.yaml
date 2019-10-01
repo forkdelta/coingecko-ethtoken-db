@@ -25,11 +25,21 @@ links:
   telegram_channel_identifier: essentia_one
   twitter_screen_name: essentia_one
 liquidity_score: 14.143
-market_cap_rank: 914
+market_cap_rank: 848
 name: Essentia
 public_interest_score: 24.705
 symbol: ess
 tickers:
+- base: ESS
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: ESS
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
 - base: ESS
   market:
     identifier: ethfinex
@@ -40,3 +50,8 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: ESS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

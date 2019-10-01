@@ -52,11 +52,26 @@ links:
   subreddit_url: https://www.reddit.com/r/SwarmCity
   twitter_screen_name: SwarmCityDApp
 liquidity_score: 1.851
-market_cap_rank: 810
+market_cap_rank: 874
 name: Swarm City
 public_interest_score: 32.249
 symbol: swt
 tickers:
+- base: SWT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SWT
+  market:
+    identifier: coinbe
+    name: Coinbe
+  target: BTC
+- base: SWT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: SWT
   market:
     identifier: hitbtc
@@ -87,6 +102,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: SWT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: SWT
   market:
     identifier: yobit

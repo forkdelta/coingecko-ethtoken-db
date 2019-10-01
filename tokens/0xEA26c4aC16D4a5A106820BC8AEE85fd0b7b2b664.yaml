@@ -93,15 +93,50 @@ links:
   telegram_channel_identifier: quarkchainio
   twitter_screen_name: Quark_Chain
 liquidity_score: 44.675
-market_cap_rank: 143
+market_cap_rank: 144
 name: QuarkChain
 public_interest_score: 25.854
 symbol: qkc
 tickers:
 - base: QKC
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: QKC
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: CNYT
+- base: QKC
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
+- base: QKC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: QKC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: QKC
+  market:
     identifier: coineal
     name: Coineal
+  target: ETH
+- base: QKC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: QKC
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
   target: ETH
 - base: QKC
   market:
@@ -112,17 +147,7 @@ tickers:
   market:
     identifier: financex
     name: FinanceX
-  target: IDR
-- base: QKC
-  market:
-    identifier: financex
-    name: FinanceX
   target: VND
-- base: QKC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: QKC
   market:
     identifier: hitbtc
@@ -140,14 +165,24 @@ tickers:
   target: ETH
 - base: QKC
   market:
-    identifier: piexgo
-    name: Piexgo
-  target: USDT
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: QKC
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: purcow
+    name: Purcow
   target: BTC
+- base: QKC
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: QKC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: QKC
   market:
     identifier: wazirx

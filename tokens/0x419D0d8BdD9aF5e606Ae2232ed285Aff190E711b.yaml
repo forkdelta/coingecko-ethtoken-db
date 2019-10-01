@@ -57,11 +57,16 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 31.423
-market_cap_rank: 150
+market_cap_rank: 126
 name: FunFair
 public_interest_score: 29.997
 symbol: fun
 tickers:
+- base: FUN
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
 - base: FUN
   market:
     identifier: altilly
@@ -74,14 +79,14 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: c2cx
-    name: C2CX
-  target: LONG
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: FUN
   market:
     identifier: c2cx
     name: C2CX
-  target: USDT
+  target: BTC
 - base: FUN
   market:
     identifier: cybex
@@ -104,21 +109,51 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: FUN
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: FUN
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: latoken
+    name: LATOKEN
   target: BTC
+- base: FUN
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: FUN
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: FUN
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: FUN
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: FUN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: FUN
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: FUN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: FUN
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: BTC

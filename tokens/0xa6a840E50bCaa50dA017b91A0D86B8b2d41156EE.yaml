@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: EcholinkOfficial
   twitter_screen_name: EchoLinkInfo1
 liquidity_score: 18.548
-market_cap_rank: 575
+market_cap_rank: 597
 name: EchoLink
 public_interest_score: 24.522
 symbol: eko
 tickers:
+- base: EKO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: EKO
   market:
     identifier: hitbtc
@@ -44,3 +49,13 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: EKO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: EKO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

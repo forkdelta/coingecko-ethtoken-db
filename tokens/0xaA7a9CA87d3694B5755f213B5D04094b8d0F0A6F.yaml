@@ -69,11 +69,16 @@ links:
   telegram_channel_identifier: origintrail
   twitter_screen_name: origin_trail
 liquidity_score: 7.145
-market_cap_rank: 454
+market_cap_rank: 452
 name: OriginTrail
 public_interest_score: 24.705
 symbol: trac
 tickers:
+- base: TRAC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: TRAC
   market:
     identifier: hitbtc
@@ -83,4 +88,14 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: TRAC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: TRAC
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

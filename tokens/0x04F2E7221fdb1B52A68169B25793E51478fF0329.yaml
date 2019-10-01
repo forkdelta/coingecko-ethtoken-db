@@ -35,11 +35,36 @@ links:
   telegram_channel_identifier: artoken
   twitter_screen_name: cappasity
 liquidity_score: 12.042
-market_cap_rank: 777
+market_cap_rank: 778
 name: Cappasity
 public_interest_score: 24.704
 symbol: capp
 tickers:
+- base: CAPP
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: CAPP
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: CAPP
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: CAPP
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
+- base: CAPP
+  market:
+    identifier: idax
+    name: Idax
+  target: USDT
 - base: CAPP
   market:
     identifier: idex
@@ -49,4 +74,9 @@ tickers:
   market:
     identifier: kucoin
     name: KuCoin
-  target: ETH
+  target: BTC
+- base: CAPP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

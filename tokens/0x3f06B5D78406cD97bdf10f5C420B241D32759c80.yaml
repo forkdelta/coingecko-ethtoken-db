@@ -1,6 +1,6 @@
 ---
 address: '0x3f06B5D78406cD97bdf10f5C420B241D32759c80'
-coingecko_rank: 2767
+coingecko_rank: 2768
 coingecko_score: 9.49
 community_score: 27.377
 description: >-
@@ -29,20 +29,30 @@ links:
   telegram_channel_identifier: mftudotnet
   twitter_screen_name: mftu_currency
 liquidity_score: 1.0
-market_cap_rank: 4925
+market_cap_rank: 2087
 name: CyberFM
 public_interest_score: 24.462
 symbol: cyfm
 tickers:
 - base: CYFM
   market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: CYFM
   market:
     identifier: fatbtc
     name: FatBTC
+  target: ETH
+- base: CYFM
+  market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: CYFM
+  market:
+    identifier: idax
+    name: Idax
   target: ETH
 - base: CYFM
   market:
@@ -63,9 +73,19 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: CYFM
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: CYFM
   market:
-    identifier: thetokenstore
-    name: Token.Store
+    identifier: purcow
+    name: Purcow
   target: ETH
+- base: CYFM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

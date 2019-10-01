@@ -35,11 +35,26 @@ links:
   telegram_channel_identifier: Jet8_ecosystem
   twitter_screen_name: jet8app
 liquidity_score: 1.0
-market_cap_rank: 1097
+market_cap_rank: 1101
 name: JET8
 public_interest_score: 24.479
 symbol: j8t
 tickers:
+- base: J8T
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: J8T
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: J8T
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: J8T
   market:
     identifier: idex
@@ -50,3 +65,8 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: ETH
+- base: J8T
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

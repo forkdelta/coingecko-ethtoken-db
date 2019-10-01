@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: ELTCOIN
   twitter_screen_name: officialELTCOIN
 liquidity_score: 1.0
-market_cap_rank: 1461
+market_cap_rank: 1468
 name: Eltcoin
 public_interest_score: 27.022
 symbol: eltcoin
@@ -43,13 +43,13 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
-- base: ELT
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
 - base: ELTCOIN
   market:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: ELTCOIN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

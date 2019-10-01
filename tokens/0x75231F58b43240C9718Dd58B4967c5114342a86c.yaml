@@ -49,12 +49,22 @@ name: OKB
 public_interest_score: 32.613
 symbol: okb
 tickers:
-- base: EGT
+- base: OKB
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: OKB
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: BTC
+- base: HPB
   market:
     identifier: okex
     name: OKEx
   target: OKB
-- base: AE
+- base: DCR
   market:
     identifier: okex
     name: OKEx
@@ -64,7 +74,77 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: DCR
+- base: XAS
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: KAN
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: CAI
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: NAS
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: VITE
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: YOU
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: LBA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: ZCO
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: WIN
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: LET
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: ORS
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: SDA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: MVP
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: CIT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: CVT
   market:
     identifier: okex
     name: OKEx

@@ -38,6 +38,16 @@ symbol: hst
 tickers:
 - base: HST
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: HST
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: HST
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -53,9 +63,14 @@ tickers:
   target: ETH
 - base: HST
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: kucoin
+    name: KuCoin
   target: BTC
+- base: HST
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: HST
   market:
     identifier: livecoin
@@ -66,3 +81,18 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: HST
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: HST
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: HST
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

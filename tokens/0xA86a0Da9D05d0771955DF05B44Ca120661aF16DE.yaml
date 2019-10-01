@@ -34,15 +34,35 @@ symbol: otb
 tickers:
 - base: OTB
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: NEO
+  market:
     identifier: otcbtc
     name: OTCBTC
-  target: BTC
-- base: EOS
+  target: OTB
+- base: XLM
   market:
     identifier: otcbtc
     name: OTCBTC
   target: OTB
 - base: ADA
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: OTB
+- base: EOS
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: OTB
+- base: LTC
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: OTB
+- base: XRP
   market:
     identifier: otcbtc
     name: OTCBTC

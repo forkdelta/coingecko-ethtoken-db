@@ -51,13 +51,43 @@ links:
   telegram_channel_identifier: zapstore
   twitter_screen_name: the_zapstore
 liquidity_score: 3.5
-market_cap_rank: 871
+market_cap_rank: 886
 name: Zap
 public_interest_score: 30.791
 symbol: zap
 tickers:
 - base: ZAP
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ZAP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ZAP
+  market:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: ZAP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ZAP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ZAP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ZAP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -63,16 +63,46 @@ links:
   telegram_channel_identifier: singularitynet
   twitter_screen_name: singularity_net
 liquidity_score: 28.967
-market_cap_rank: 168
+market_cap_rank: 174
 name: SingularityNET
 public_interest_score: 25.272
 symbol: agi
 tickers:
 - base: AGI
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: AGI
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: AGI
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: AGI
+  market:
+    identifier: coss
+    name: COSS
   target: BTC
+- base: AGI
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: AGI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: AGI
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: AGI
   market:
     identifier: ethfinex
@@ -80,14 +110,24 @@ tickers:
   target: ETH
 - base: AGI
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: AGI
-  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: AGI
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 5EDFC49B-F3F6-4827-A2EC-0B40F301973B
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 5EDFC49B-F3F6-4827-A2EC-0B40F301973B
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: AGI
   market:
     identifier: p2pb2b
@@ -100,11 +140,26 @@ tickers:
   target: USDT
 - base: AGI
   market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: AGI
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: AGI
   market:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: AGI
+  market:
+    identifier: tidex
+    name: Tidex
+  target: USDT
+- base: AGI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

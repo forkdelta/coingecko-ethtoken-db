@@ -32,11 +32,21 @@ links:
   telegram_channel_identifier: sentinel_co
   twitter_screen_name: Sentinel_co
 liquidity_score: 15.333
-market_cap_rank: 399
+market_cap_rank: 401
 name: Sentinel
 public_interest_score: 36.963
 symbol: sent
 tickers:
+- base: SENT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SENT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: SENT
   market:
     identifier: coin_exchange
@@ -44,14 +54,19 @@ tickers:
   target: ETH
 - base: SENT
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: coinall
+    name: CoinAll
   target: BTC
 - base: SENT
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: coinall
+    name: CoinAll
   target: ETH
+- base: SENT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: SENT
   market:
     identifier: hitbtc
@@ -59,9 +74,19 @@ tickers:
   target: USD
 - base: SENT
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SENT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SENT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: SENT
   market:
     identifier: yobit
@@ -82,3 +107,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: SENT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -1,6 +1,6 @@
 ---
 address: '0x050508637d2878755CB29B2bE4320aC24d5CE4FF'
-coingecko_rank: 4982
+coingecko_rank: 4983
 coingecko_score: 3.931
 community_score: 5.956
 description: >-
@@ -36,4 +36,14 @@ market_cap_rank: null
 name: Relax Buddy Token
 public_interest_score: 24.417
 symbol: rbpc
-tickers: []
+tickers:
+- base: RBPC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RBPC
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

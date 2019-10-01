@@ -31,8 +31,23 @@ links:
   telegram_channel_identifier: DAGTofficial
   twitter_screen_name: DAGTofficial
 liquidity_score: 31.42
-market_cap_rank: 678
+market_cap_rank: 670
 name: Digital Asset Guarantee Token
 public_interest_score: 37.467
 symbol: dagt
-tickers: []
+tickers:
+- base: DAGT
+  market:
+    identifier: chaoex
+    name: CHAOEX
+  target: ETH
+- base: DAGT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DAGT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -61,16 +61,21 @@ links:
   telegram_channel_identifier: Nulsio
   twitter_screen_name: Nuls
 liquidity_score: 43.036
-market_cap_rank: 123
+market_cap_rank: 116
 name: Nuls
 public_interest_score: 30.27
 symbol: nuls
 tickers:
 - base: NULS
   market:
-    identifier: okex
-    name: OKEx
+    identifier: bitrabbit
+    name: BitRabbit
   target: BTC
+- base: NULS
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: NULS
   market:
     identifier: okex
@@ -78,11 +83,6 @@ tickers:
   target: ETH
 - base: NULS
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: NULS
-  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
@@ -93,6 +93,16 @@ tickers:
   target: ETH
 - base: NULS
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: NULS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: NULS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR

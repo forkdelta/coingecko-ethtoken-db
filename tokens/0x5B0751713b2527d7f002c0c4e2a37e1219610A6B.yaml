@@ -31,16 +31,36 @@ links:
   telegram_channel_identifier: ethorse
   twitter_screen_name: EthorseTeam
 liquidity_score: 1.0
-market_cap_rank: 1107
+market_cap_rank: 976
 name: Ethorse
 public_interest_score: 24.479
 symbol: horse
 tickers:
 - base: HORSE
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: HORSE
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: HORSE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: HORSE
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: HORSE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: HORSE
   market:
     identifier: yobit
@@ -56,3 +76,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: HORSE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -55,8 +55,23 @@ links:
   telegram_channel_identifier: quadrantprotocol
   twitter_screen_name: explorequadrant
 liquidity_score: 28.92
-market_cap_rank: 1056
+market_cap_rank: 1020
 name: Quadrant Protocol
 public_interest_score: 25.767
 symbol: equad
-tickers: []
+tickers:
+- base: EQUAD
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: EQUAD
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EQUAD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

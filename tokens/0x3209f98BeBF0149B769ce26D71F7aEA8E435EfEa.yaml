@@ -33,13 +33,23 @@ links:
   telegram_channel_identifier: traxiafoundation
   twitter_screen_name: traxianetwork
 liquidity_score: 10.474
-market_cap_rank: 802
+market_cap_rank: 803
 name: Traxia
 public_interest_score: 24.607
 symbol: tmt
 tickers:
 - base: TMT
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: TMT
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: TMT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

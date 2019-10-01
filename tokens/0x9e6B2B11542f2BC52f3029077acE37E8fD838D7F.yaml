@@ -30,11 +30,31 @@ links:
   telegram_channel_identifier: 'hacken_enGroup:'
   twitter_screen_name: Hacken_io
 liquidity_score: 1.0
-market_cap_rank: 798
+market_cap_rank: 797
 name: Hacken
 public_interest_score: 25.381
 symbol: hkn
 tickers:
+- base: HKN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: HKN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: HKN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: HKN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: HKN
   market:
     identifier: yobit
@@ -45,3 +65,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: HKN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: HKN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

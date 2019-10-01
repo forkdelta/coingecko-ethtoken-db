@@ -60,13 +60,23 @@ links:
   telegram_channel_identifier: ClearCoin
   twitter_screen_name: clearcoinHQ
 liquidity_score: 0.0
-market_cap_rank: 1500
+market_cap_rank: 1510
 name: ClearCoin
 public_interest_score: 27.197
 symbol: xclr
 tickers:
 - base: XCLR
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: XCLR
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: XCLR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

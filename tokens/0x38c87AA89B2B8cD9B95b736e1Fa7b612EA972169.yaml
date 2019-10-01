@@ -35,13 +35,23 @@ links:
   telegram_channel_identifier: amo_official
   twitter_screen_name: amoblockchain
 liquidity_score: 42.048
-market_cap_rank: 2125
+market_cap_rank: 2917
 name: AMO Coin
 public_interest_score: 39.98
 symbol: amo
 tickers:
 - base: AMO
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: AMO
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: AMO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

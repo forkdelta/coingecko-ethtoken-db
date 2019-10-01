@@ -1,6 +1,6 @@
 ---
 address: '0xDE1E0AE6101b46520cF66fDC0B1059c5cC3d106c'
-coingecko_rank: 2720
+coingecko_rank: 2721
 coingecko_score: 9.728
 community_score: 0.0
 description: >-
@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: deltachaingroup
   twitter_screen_name: deltachain
 liquidity_score: 1.0
-market_cap_rank: 1688
+market_cap_rank: 1702
 name: DeltaChain
 public_interest_score: 24.408
 symbol: delta
 tickers:
+- base: DELTA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: DELTA
   market:
     identifier: hotbit
@@ -49,4 +54,14 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: DELTA
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
+- base: DELTA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

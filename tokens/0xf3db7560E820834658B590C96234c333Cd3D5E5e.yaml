@@ -38,14 +38,34 @@ symbol: chp
 tickers:
 - base: CHP
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: CHP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CHP
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
 - base: CHP
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CHP
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: CHP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: CHP
   market:
     identifier: yobit
@@ -61,3 +81,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: CHP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

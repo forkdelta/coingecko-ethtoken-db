@@ -1,6 +1,6 @@
 ---
 address: '0xdE1289e68aD9e65Ccf50D800C0CEC2D514B80A40'
-coingecko_rank: 3823
+coingecko_rank: 3824
 coingecko_score: 6.128
 community_score: 7.024
 description: >-
@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: KriosToken
   twitter_screen_name: krios_io
 liquidity_score: 9.631
-market_cap_rank: 2042
+market_cap_rank: 2518
 name: Krios
 public_interest_score: 24.462
 symbol: kri
@@ -37,6 +37,16 @@ tickers:
   target: BTC
 - base: KRI
   market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: ETH
+- base: KRI
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: KRI
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

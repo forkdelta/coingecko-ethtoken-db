@@ -1,6 +1,6 @@
 ---
 address: '0x25f735b108B4273fb0aceB87599ED8Bba10065De'
-coingecko_rank: 2665
+coingecko_rank: 2666
 coingecko_score: 9.957
 community_score: 0.0
 description: >-
@@ -25,8 +25,18 @@ links:
   telegram_channel_identifier: LOOMIA
   twitter_screen_name: LoomiaCo
 liquidity_score: 0.0
-market_cap_rank: 4025
+market_cap_rank: 2803
 name: Loomia
 public_interest_score: 24.471
 symbol: tile
-tickers: []
+tickers:
+- base: TILE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TILE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

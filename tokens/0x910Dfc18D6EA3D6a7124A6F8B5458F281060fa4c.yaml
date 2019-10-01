@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: x8Project
   twitter_screen_name: x8currency
 liquidity_score: 1.0
-market_cap_rank: 716
+market_cap_rank: 710
 name: X8X Token
 public_interest_score: 24.497
 symbol: x8x
 tickers:
+- base: X8X
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: X8X
   market:
     identifier: idex
@@ -47,3 +52,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: X8X
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

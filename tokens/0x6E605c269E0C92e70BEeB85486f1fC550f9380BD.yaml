@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: catex_group
   twitter_screen_name: catexofficial
 liquidity_score: 1.0
-market_cap_rank: 1037
+market_cap_rank: 1029
 name: Catex Token
 public_interest_score: 27.748
 symbol: catt
 tickers:
+- base: CATT
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
 - base: XRP
   market:
     identifier: catex
@@ -51,3 +56,13 @@ tickers:
     identifier: catex
     name: Catex
   target: CATT
+- base: CATT
+  market:
+    identifier: catex
+    name: Catex
+  target: TRX
+- base: CATT
+  market:
+    identifier: worldcore
+    name: Worldcore
+  target: BTC

@@ -23,7 +23,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ormeuscoin
   twitter_screen_name: ormeuscoin
 liquidity_score: 14.438
-market_cap_rank: 882
+market_cap_rank: 883
 name: Ormeus Coin
 public_interest_score: 27.052
 symbol: orme
@@ -48,8 +48,23 @@ tickers:
     identifier: bibox
     name: Bibox
   target: USDT
-- base: ORMEUS
+- base: ORME
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: coinbe
+    name: Coinbe
+  target: BTC
+- base: ORME
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: ORME
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
+- base: ORME
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

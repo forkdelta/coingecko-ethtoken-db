@@ -27,7 +27,7 @@ links:
   subreddit_url: https://www.reddit.com/r/AirSwap
   twitter_screen_name: airswap
 liquidity_score: 36.87
-market_cap_rank: 363
+market_cap_rank: 359
 name: AirSwap
 public_interest_score: 27.855
 symbol: ast
@@ -39,6 +39,11 @@ tickers:
   target: ETH
 - base: AST
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: AST
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -47,6 +52,31 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: AST
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: AST
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: AST
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: AST
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: AST
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
 - base: AST
   market:
     identifier: okex
@@ -61,7 +91,22 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
+  target: DAI
+- base: AST
+  market:
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
+- base: AST
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: AST
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: AST
   market:
     identifier: velic

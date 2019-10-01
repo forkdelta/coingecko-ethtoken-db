@@ -23,13 +23,33 @@ links:
   telegram_channel_identifier: arbidex
   twitter_screen_name: arbidextoken
 liquidity_score: 10.668
-market_cap_rank: 1122
+market_cap_rank: 1053
 name: Arbidex
 public_interest_score: 24.444
 symbol: abx
 tickers:
 - base: ABX
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: ABX
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH
+- base: ABX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ABX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ABX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

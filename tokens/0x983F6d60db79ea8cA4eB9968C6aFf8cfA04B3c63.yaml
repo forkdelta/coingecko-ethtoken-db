@@ -50,11 +50,16 @@ links:
   telegram_channel_identifier: sonm_eng
   twitter_screen_name: sonmdevelopment
 liquidity_score: 31.213
-market_cap_rank: 313
+market_cap_rank: 318
 name: SONM
 public_interest_score: 28.037
 symbol: snm
 tickers:
+- base: SNM
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: SNM
   market:
     identifier: coss
@@ -65,6 +70,51 @@ tickers:
     identifier: coss
     name: COSS
   target: ETH
+- base: SNM
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 832E5053-5ECB-4AD5-AD8F-1588E57004ED
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 832E5053-5ECB-4AD5-AD8F-1588E57004ED
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: SNM
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SNM
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: SNM
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: SNM
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: SNM
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: SNM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: SNM
   market:
     identifier: yobit

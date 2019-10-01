@@ -32,18 +32,43 @@ links:
   telegram_channel_identifier: bezant_official
   twitter_screen_name: bezant_io
 liquidity_score: 22.36
-market_cap_rank: 438
+market_cap_rank: 429
 name: Bezant
 public_interest_score: 24.583
 symbol: bznt
 tickers:
 - base: BZNT
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BZNT
+  market:
     identifier: bibox
     name: Bibox
+  target: ETH
+- base: BZNT
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: BZNT
+  market:
+    identifier: bitonbay
+    name: BitOnBay
   target: BTC
+- base: BZNT
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
 - base: BZNT
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: BZNT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

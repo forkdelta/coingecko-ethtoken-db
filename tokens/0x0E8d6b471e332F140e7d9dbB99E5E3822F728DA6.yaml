@@ -53,15 +53,25 @@ links:
   telegram_channel_identifier: theabyss
   twitter_screen_name: theabyss
 liquidity_score: 13.748
-market_cap_rank: 488
+market_cap_rank: 493
 name: Abyss Token
 public_interest_score: 31.952
 symbol: abyss
 tickers:
 - base: ABYSS
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ABYSS
+  market:
     identifier: bittrex
     name: Bittrex
+  target: BTC
+- base: ABYSS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
 - base: ABYSS
   market:
@@ -70,31 +80,31 @@ tickers:
   target: ETH
 - base: ABYSS
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ABYSS
+  market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
-- base: ABS
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: ABYSS
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: ABYSS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: ABYSS
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH
 - base: ABYSS
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
+- base: ABYSS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: ABYSS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

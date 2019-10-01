@@ -41,16 +41,21 @@ links:
   subreddit_url: https://www.reddit.com/r/AdEx
   twitter_screen_name: AdEx_Network
 liquidity_score: 22.718
-market_cap_rank: 303
+market_cap_rank: 306
 name: AdEx
 public_interest_score: 25.917
 symbol: adx
 tickers:
 - base: ADX
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ADX
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: ADX
   market:
     identifier: hitbtc
@@ -66,3 +71,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: ADX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

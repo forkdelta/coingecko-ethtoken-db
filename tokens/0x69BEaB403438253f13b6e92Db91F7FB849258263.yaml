@@ -20,11 +20,16 @@ links:
   subreddit_url: https://www.reddit.com/r/Neuromation/
   twitter_screen_name: neuromation_io
 liquidity_score: 1.0
-market_cap_rank: 726
+market_cap_rank: 661
 name: Neurotoken
 public_interest_score: 27.23
 symbol: ntk
 tickers:
+- base: NTK
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH
 - base: NTK
   market:
     identifier: hitbtc
@@ -42,19 +47,19 @@ tickers:
   target: USD
 - base: NTK
   market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: NTK
-  market:
-    identifier: tidex
-    name: Tidex
+    identifier: idex
+    name: Idex
   target: ETH
 - base: NTK
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: NTK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: NTK
   market:
     identifier: yobit
@@ -65,3 +70,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: NTK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: NTK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

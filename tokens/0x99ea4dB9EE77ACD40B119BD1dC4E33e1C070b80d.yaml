@@ -46,11 +46,26 @@ links:
   subreddit_url: https://www.reddit.com/r/Quantstamp
   twitter_screen_name: Quantstamp
 liquidity_score: 20.83
-market_cap_rank: 4346
+market_cap_rank: 2086
 name: Quantstamp
 public_interest_score: 25.808
 symbol: qsp
 tickers:
+- base: QSP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: QSP
+  market:
+    identifier: bitbox
+    name: BITBOX
+  target: BTC
+- base: QSP
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: QSP
   market:
     identifier: forkdelta
@@ -63,9 +78,14 @@ tickers:
   target: ETH
 - base: QSP
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
+    identifier: gopax
+    name: GoPax
+  target: BTC
+- base: QSP
+  market:
+    identifier: gopax
+    name: GoPax
+  target: ETH
 - base: QSP
   market:
     identifier: gopax
@@ -75,4 +95,24 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: QSP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: QSP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: QSP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: QSP
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

@@ -26,11 +26,21 @@ links:
   subreddit_url: https://www.reddit.com/r/eidooapp/
   twitter_screen_name: eidoo_io
 liquidity_score: 24.486
-market_cap_rank: 208
+market_cap_rank: 200
 name: Eidoo
 public_interest_score: 25.865
 symbol: edo
 tickers:
+- base: EDO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: EDO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: EDO
   market:
     identifier: ethfinex
@@ -38,11 +48,41 @@ tickers:
   target: ETH
 - base: EDO
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: EDO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EDO
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: EDO
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
 - base: EDO
   market:
     identifier: okex_korea
     name: OKEx Korea
+  target: ETH
+- base: EDO
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: EDO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: EDO
+  market:
+    identifier: zb
+    name: ZB
   target: USDT

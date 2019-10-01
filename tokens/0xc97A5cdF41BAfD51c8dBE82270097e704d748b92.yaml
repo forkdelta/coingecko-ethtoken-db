@@ -1,6 +1,6 @@
 ---
 address: '0xc97A5cdF41BAfD51c8dBE82270097e704d748b92'
-coingecko_rank: 4813
+coingecko_rank: 4814
 coingecko_score: 4.197
 community_score: 5.37
 description: >-
@@ -23,7 +23,7 @@ links:
   telegram_channel_identifier: Etherclown
   twitter_screen_name: clownether
 liquidity_score: 1.0
-market_cap_rank: 4234
+market_cap_rank: 3384
 name: Ether Clown
 public_interest_score: 26.541
 symbol: klown
@@ -32,14 +32,19 @@ tickers:
   market:
     identifier: altmarkets
     name: Altmarkets
-  target: ETH
+  target: BTC
 - base: KLOWN
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: altmarkets
+    name: Altmarkets
+  target: ETH
 - base: KLOWN
   market:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
+- base: KLOWN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

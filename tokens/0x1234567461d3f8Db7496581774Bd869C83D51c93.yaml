@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: Bitclave
   twitter_screen_name: bitclave
 liquidity_score: 1.0
-market_cap_rank: 2442
+market_cap_rank: 2124
 name: BitClave
 public_interest_score: 25.715
 symbol: cat
 tickers:
+- base: BCL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: CAT
   market:
     identifier: bancor
@@ -48,6 +53,31 @@ tickers:
   target: BTC
 - base: CAT
   market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BITCNY
+- base: CAT
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTC
+- base: CAT
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTS
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: CAT
+  market:
     identifier: yobit
     name: YoBit
   target: ETH
@@ -56,3 +86,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

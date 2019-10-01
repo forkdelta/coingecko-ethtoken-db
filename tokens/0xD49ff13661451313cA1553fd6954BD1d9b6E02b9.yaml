@@ -24,15 +24,25 @@ links:
   telegram_channel_identifier: electrifyasia
   twitter_screen_name: electrifyasia
 liquidity_score: 1.0
-market_cap_rank: 860
+market_cap_rank: 866
 name: Electrify.Asia
 public_interest_score: 28.989
 symbol: elec
 tickers:
 - base: ELEC
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ELEC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ELEC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: ELEC
   market:
@@ -51,11 +61,21 @@ tickers:
   target: USD
 - base: ELEC
   market:
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: ELEC
+  market:
+    identifier: idax
+    name: Idax
+  target: ETH
+- base: ELEC
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: ELEC
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

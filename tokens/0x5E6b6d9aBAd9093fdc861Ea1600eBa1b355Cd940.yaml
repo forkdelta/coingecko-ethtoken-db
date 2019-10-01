@@ -28,18 +28,38 @@ links:
     - https://github.com/ZhuoAppSofeware/itc-blockchain
   twitter_screen_name: IoT_Chain
 liquidity_score: 40.538
-market_cap_rank: 240
+market_cap_rank: 242
 name: IoT Chain
 public_interest_score: 32.202
 symbol: itc
 tickers:
 - base: ITC
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: ITC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: ITC
+  market:
     identifier: okex
     name: OKEx
-  target: BTC
+  target: ETH
 - base: ITC
   market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
+- base: ITC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
+- base: ITC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

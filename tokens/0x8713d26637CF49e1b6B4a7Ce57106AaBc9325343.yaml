@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: cnn_blockchain_official
   twitter_screen_name: CNN_Blockchain
 liquidity_score: 29.675
-market_cap_rank: 324
+market_cap_rank: 327
 name: Content Neutrality Network
 public_interest_score: 36.839
 symbol: cnn
 tickers:
+- base: CNN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: CNN
   market:
     identifier: coinbene
@@ -54,11 +59,26 @@ tickers:
   target: USDT
 - base: CNN
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: CNN
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
 - base: CNN
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CNN
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
+- base: CNN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

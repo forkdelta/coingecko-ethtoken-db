@@ -1,6 +1,6 @@
 ---
 address: '0x3930E4dDb4d24ef2F4CB54C1f009a3694b708428'
-coingecko_rank: 2149
+coingecko_rank: 2150
 coingecko_score: 13.103
 community_score: 8.595
 description: >-
@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: gamefanz_official
   twitter_screen_name: GameFanzNews
 liquidity_score: 1.0
-market_cap_rank: 1410
+market_cap_rank: 1572
 name: Game Fanz
 public_interest_score: 27.339
 symbol: gfn
 tickers:
+- base: GFN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: GFN
   market:
     identifier: bitsten
@@ -45,6 +50,11 @@ tickers:
   target: TRX
 - base: GFN
   market:
-    identifier: etherflyer
-    name: EtherFlyer
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
+- base: GFN
+  market:
+    identifier: worldcore
+    name: Worldcore
   target: ETH

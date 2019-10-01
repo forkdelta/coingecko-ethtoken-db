@@ -1,6 +1,6 @@
 ---
 address: '0xe81D72D14B1516e68ac3190a46C93302Cc8eD60f'
-coingecko_rank: 2597
+coingecko_rank: 2598
 coingecko_score: 10.29
 community_score: 7.639
 description: >-
@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: https://t.me/Coinlancer
   twitter_screen_name: Coin_Lancer
 liquidity_score: 12.523
-market_cap_rank: 4011
+market_cap_rank: 2679
 name: Coinlancer
 public_interest_score: 24.488
 symbol: cl
 tickers:
+- base: CL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: CL
   market:
     identifier: coin_exchange
@@ -41,6 +46,26 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: CL
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: CL
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: CL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: CL
   market:
     identifier: yobit
@@ -61,6 +86,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: CL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: CL
   market:
     identifier: yobit

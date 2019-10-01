@@ -45,7 +45,7 @@ links:
     - https://github.com/GIFTO-io/GiftoSmartContract
   twitter_screen_name: GIFTO_io
 liquidity_score: 44.092
-market_cap_rank: 235
+market_cap_rank: 243
 name: Gifto
 public_interest_score: 25.515
 symbol: gto
@@ -54,7 +54,17 @@ tickers:
   market:
     identifier: allbit
     name: Allbit
+  target: BTC
+- base: GTO
+  market:
+    identifier: allbit
+    name: Allbit
   target: ETH
+- base: GTO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: GTO
   market:
     identifier: bibox
@@ -75,11 +85,6 @@ tickers:
     identifier: binance
     name: Binance
   target: USDC
-- base: GTO-908
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
 - base: GTO
   market:
     identifier: coin_exchange
@@ -92,9 +97,29 @@ tickers:
   target: ETH
 - base: GTO
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: GTO
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH
+- base: GTO
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BITCNY
+- base: GTO
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: GTO
+  market:
+    identifier: kkcoin
+    name: KKCoin
+  target: ETH
 - base: GTO
   market:
     identifier: kryptono
@@ -105,3 +130,18 @@ tickers:
     identifier: shortex
     name: Shortex
   target: BTC
+- base: GTO
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: GTO
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: GTO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

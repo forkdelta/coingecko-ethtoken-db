@@ -24,11 +24,16 @@ links:
   telegram_channel_identifier: parachutetokengroup
   twitter_screen_name: parachutetoken
 liquidity_score: 1.0
-market_cap_rank: 1085
+market_cap_rank: 1083
 name: Parachute
 public_interest_score: 40.929
 symbol: par
 tickers:
+- base: PAR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: PAR
   market:
     identifier: forkdelta
@@ -41,6 +46,6 @@ tickers:
   target: ETH
 - base: PAR
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH

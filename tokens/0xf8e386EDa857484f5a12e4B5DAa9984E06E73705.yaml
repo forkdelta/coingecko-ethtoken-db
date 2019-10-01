@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: indorseio
   twitter_screen_name: joinindorse
 liquidity_score: 1.0
-market_cap_rank: 1176
+market_cap_rank: 1097
 name: Indorse
 public_interest_score: 24.933
 symbol: ind
 tickers:
+- base: IND
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: IND
   market:
     identifier: bancor
@@ -59,11 +64,31 @@ tickers:
   target: USDT
 - base: IND
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: IND
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: IND
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 2D74C10A-F9C7-4678-9EAF-CEB5BB38998A
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 2D74C10A-F9C7-4678-9EAF-CEB5BB38998A
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: IND
+  market:
     identifier: quoine
     name: Liquid
   target: BTC
@@ -74,9 +99,24 @@ tickers:
   target: ETH
 - base: IND
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: IND
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: IND
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: IND
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: IND
   market:
     identifier: yobit
@@ -87,8 +127,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: IND
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

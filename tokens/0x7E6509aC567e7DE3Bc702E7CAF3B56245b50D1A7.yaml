@@ -1,6 +1,6 @@
 ---
 address: '0x7E6509aC567e7DE3Bc702E7CAF3B56245b50D1A7'
-coingecko_rank: 4273
+coingecko_rank: 4274
 coingecko_score: 5.049
 community_score: 9.319
 description: >-
@@ -24,7 +24,7 @@ links:
   telegram_channel_identifier: swace
   twitter_screen_name: swaceapp
 liquidity_score: 1.0
-market_cap_rank: 3699
+market_cap_rank: 3027
 name: Swace
 public_interest_score: 25.193
 symbol: swace
@@ -33,6 +33,16 @@ tickers:
   market:
     identifier: cointiger
     name: CoinTiger
+  target: BTC
+- base: SWACE
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: ETH
+- base: SWACE
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: SWACE
   market:
@@ -49,8 +59,8 @@ tickers:
     identifier: probit
     name: Probit
   target: USDT
-- base: SWACE
+- base: SWA
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

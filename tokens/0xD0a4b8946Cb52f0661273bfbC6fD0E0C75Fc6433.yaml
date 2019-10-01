@@ -62,11 +62,21 @@ links:
   subreddit_url: https://www.reddit.com/r/stormtoken
   twitter_screen_name: Storm_Token
 liquidity_score: 21.311
-market_cap_rank: 263
+market_cap_rank: 255
 name: Storm
 public_interest_score: 40.911
 symbol: storm
 tickers:
+- base: STM
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: STORM
+  market:
+    identifier: chainex
+    name: ChainEX
+  target: BTC
 - base: STORM
   market:
     identifier: coineal
@@ -74,19 +84,64 @@ tickers:
   target: ETH
 - base: STORM
   market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: STORM
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: STORM
+  market:
+    identifier: fcoin
+    name: FCoin
   target: USDT
 - base: STORM
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: STORM
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: STORM
+  market:
+    identifier: purcow
+    name: Purcow
   target: BTC
+- base: STORM
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: STORM
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: STORM
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: STORM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: STORM
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: STORM
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
 - base: STORM
   market:
     identifier: yobit
@@ -96,4 +151,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

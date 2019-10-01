@@ -1,6 +1,6 @@
 ---
 address: '0x2932746414a6766a2b4A472CB3a2624f5667Fd83'
-coingecko_rank: 4353
+coingecko_rank: 4354
 coingecko_score: 4.909
 community_score: 7.843
 description: >-
@@ -27,11 +27,16 @@ links:
   - https://www.bitball-btb.com/
   twitter_screen_name: BitBallTreasure
 liquidity_score: 1.0
-market_cap_rank: 3511
+market_cap_rank: 4459
 name: Bitball Treasure
 public_interest_score: 27.483
 symbol: btrs
 tickers:
+- base: BTRS
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BTRS
   market:
     identifier: boa
@@ -56,7 +61,17 @@ tickers:
   market:
     identifier: exnce
     name: EXNCE
-  target: BTB
+  target: DAI
+- base: BTRS
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: ETH
+- base: BTRS
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XLM
 - base: BTRS
   market:
     identifier: exnce

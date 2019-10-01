@@ -27,20 +27,40 @@ links:
   telegram_channel_identifier: paywithink
   twitter_screen_name: PayWithInk
 liquidity_score: 4.915
-market_cap_rank: 948
+market_cap_rank: 951
 name: Ink Protocol
 public_interest_score: 26.068
 symbol: xnk
 tickers:
 - base: XNK
   market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: XNK
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: XNK
   market:
     identifier: coinbene
     name: CoinBene
+  target: ETH
+- base: XNK
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: XNK
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: XNK
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: XNK
   market:
@@ -56,4 +76,29 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
+  target: ETH
+- base: XNK
+  market:
+    identifier: quoine
+    name: Liquid
   target: QASH
+- base: XNK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: XNK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: XNK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: XNK
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

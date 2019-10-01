@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: BaaSidOfficial
   twitter_screen_name: baa_sid
 liquidity_score: 4.755
-market_cap_rank: 464
+market_cap_rank: 468
 name: BaaSid
 public_interest_score: 24.479
 symbol: baas
@@ -38,6 +38,11 @@ tickers:
   target: BTC
 - base: BAAS
   market:
+    identifier: coinzest
+    name: Coinzest
+  target: KRW
+- base: BAAS
+  market:
     identifier: idax
     name: Idax
   target: BTC
@@ -46,3 +51,8 @@ tickers:
     identifier: idax
     name: Idax
   target: USDT
+- base: BAAS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -58,7 +58,7 @@ links:
   telegram_channel_identifier: dropil
   twitter_screen_name: dropilcoin
 liquidity_score: 25.064
-market_cap_rank: 378
+market_cap_rank: 374
 name: Dropil
 public_interest_score: 24.577
 symbol: drop
@@ -67,9 +67,29 @@ tickers:
   market:
     identifier: idax
     name: Idax
+  target: ETH
+- base: DROP
+  market:
+    identifier: idax
+    name: Idax
   target: USDT
+- base: DROP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DROP
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
 - base: DROP
   market:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: DROP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

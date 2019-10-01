@@ -1,6 +1,6 @@
 ---
 address: '0x29D75277aC7F0335b2165D0895E8725cbF658d73'
-coingecko_rank: 2281
+coingecko_rank: 2282
 coingecko_score: 12.231
 community_score: 25.39
 description: >-
@@ -29,8 +29,23 @@ links:
   subreddit_url: https://www.reddit.com/r/BitDiceCasino
   twitter_screen_name: bitdice
 liquidity_score: 1.0
-market_cap_rank: 2650
+market_cap_rank: 2174
 name: BitDice
 public_interest_score: 24.481
 symbol: csno
-tickers: []
+tickers:
+- base: CSNO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CSNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: CSNO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

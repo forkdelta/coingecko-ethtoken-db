@@ -1,6 +1,6 @@
 ---
 address: '0x9F599410D207f3D2828a8712e5e543AC2E040382'
-coingecko_rank: 3076
+coingecko_rank: 3077
 coingecko_score: 8.249
 community_score: 8.001
 description: >-
@@ -25,8 +25,18 @@ links:
     - https://github.com/TapProject/tap-project-crowdsale
   twitter_screen_name: Tap_Coin
 liquidity_score: 1.0
-market_cap_rank: 2427
+market_cap_rank: 2001
 name: Tapcoin
 public_interest_score: 27.143
 symbol: ttt
-tickers: []
+tickers:
+- base: TTT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TTT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -29,11 +29,31 @@ links:
   subreddit_url: https://www.reddit.com/r/verifyas
   twitter_screen_name: verif_yas
 liquidity_score: 1.0
-market_cap_rank: 1003
+market_cap_rank: 1008
 name: Verify
 public_interest_score: 44.199
 symbol: cred
 tickers:
+- base: CRED
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: CRED
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: CRED
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: CRED
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
 - base: CRED
   market:
     identifier: forkdelta
@@ -46,9 +66,19 @@ tickers:
   target: ETH
 - base: CRED
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CRED
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: CRED
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: CRED
   market:
     identifier: yobit
@@ -59,3 +89,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: CRED
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: CRED
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

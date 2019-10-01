@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: Sparklemobile
   twitter_screen_name: Sparkletoken
 liquidity_score: 14.426
-market_cap_rank: 1408
+market_cap_rank: 1434
 name: Sparkle
 public_interest_score: 33.553
 symbol: sprkl
@@ -38,8 +38,18 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: SPRKL
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: SPRK
   market:
     identifier: south_xchange
     name: SouthXchange
   target: BTC
+- base: SPRKL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

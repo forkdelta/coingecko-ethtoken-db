@@ -1,6 +1,6 @@
 ---
 address: '0xB83D46598d61a98EDdADDC33ED4adAA0eD496907'
-coingecko_rank: 4376
+coingecko_rank: 4377
 coingecko_score: 4.855
 community_score: 8.83
 description: >-
@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: Bitelectroneum
   twitter_screen_name: betntoken
 liquidity_score: 1.0
-market_cap_rank: 4336
+market_cap_rank: 4035
 name: Bitelectroneum
 public_interest_score: 24.479
 symbol: betn
-tickers: []
+tickers:
+- base: BETN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BETN
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH

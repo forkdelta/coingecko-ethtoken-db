@@ -44,11 +44,16 @@ links:
   telegram_channel_identifier: Ochain
   twitter_screen_name: 0costcloud
 liquidity_score: 1.0
-market_cap_rank: 534
+market_cap_rank: 405
 name: 0chain
 public_interest_score: 24.582
 symbol: zcn
 tickers:
+- base: ZCN
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: ZCN
   market:
     identifier: ethfinex
@@ -64,3 +69,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: ZCN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

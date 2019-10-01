@@ -55,8 +55,23 @@ links:
   telegram_channel_identifier: exchangeunioncoin
   twitter_screen_name: exchange_union
 liquidity_score: 34.281
-market_cap_rank: 2561
+market_cap_rank: 1982
 name: Exchange Union
 public_interest_score: 37.083
 symbol: xuc
-tickers: []
+tickers:
+- base: XUC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: XUC
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: XUC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH

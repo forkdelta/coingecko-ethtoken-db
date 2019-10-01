@@ -51,11 +51,16 @@ links:
   telegram_channel_identifier: xyonetwork
   twitter_screen_name: XYOracleNetwork
 liquidity_score: 1.0
-market_cap_rank: 415
+market_cap_rank: 395
 name: XYO Network
 public_interest_score: 28.538
 symbol: xyo
 tickers:
+- base: XYO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: XYO
   market:
     identifier: bitmart
@@ -68,6 +73,11 @@ tickers:
   target: BTC
 - base: XYO
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: XYO
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -76,3 +86,13 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: XYO
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: XYO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

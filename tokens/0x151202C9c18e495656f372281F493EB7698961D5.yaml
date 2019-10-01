@@ -31,11 +31,16 @@ links:
   subreddit_url: https://www.reddit.com/r/DebitumNetwork/
   twitter_screen_name: DebitumNetwork
 liquidity_score: 1.0
-market_cap_rank: 625
+market_cap_rank: 855
 name: Debitum Network
 public_interest_score: 28.096
 symbol: deb
 tickers:
+- base: DEB
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: DEB
   market:
     identifier: bitoffer
@@ -50,4 +55,14 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
+  target: BTC
+- base: A62FCC73-DC9F-4083-96F9-CA50F8315593
+  market:
+    identifier: lykke
+    name: Lykke
   target: ETH
+- base: DEB
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

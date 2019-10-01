@@ -26,11 +26,16 @@ links:
   subreddit_url: https://www.reddit.com/r/GridPlus/
   twitter_screen_name: gridplus
 liquidity_score: 1.0
-market_cap_rank: 4637
+market_cap_rank: 1971
 name: Grid+
 public_interest_score: 22.336
 symbol: grid
 tickers:
+- base: GRID
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: GRID
   market:
     identifier: forkdelta
@@ -40,4 +45,24 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: GRID
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: GRID
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: GRID
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: GRID
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

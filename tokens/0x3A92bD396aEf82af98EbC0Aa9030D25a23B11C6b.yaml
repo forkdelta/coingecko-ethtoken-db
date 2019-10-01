@@ -30,21 +30,26 @@ links:
   telegram_channel_identifier: Tokenbox
   twitter_screen_name: tokenbox
 liquidity_score: 4.219
-market_cap_rank: 1111
+market_cap_rank: 1083
 name: Tokenbox
 public_interest_score: 26.292
 symbol: tbx
 tickers:
 - base: TBX
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: TBX
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: TBX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: TBX
   market:
     identifier: yobit
@@ -55,6 +60,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: TBX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: TBX
   market:
     identifier: yobit
