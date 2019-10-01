@@ -29,8 +29,18 @@ links:
   telegram_channel_identifier: opusfoundation
   twitter_screen_name: opusfoundation
 liquidity_score: 1.0
-market_cap_rank: 1155
+market_cap_rank: 1157
 name: Opus
 public_interest_score: 30.476
 symbol: opt
-tickers: []
+tickers:
+- base: OPT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: OPT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

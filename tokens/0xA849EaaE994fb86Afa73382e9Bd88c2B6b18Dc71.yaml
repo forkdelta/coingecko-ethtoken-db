@@ -1,6 +1,6 @@
 ---
 address: '0xA849EaaE994fb86Afa73382e9Bd88c2B6b18Dc71'
-coingecko_rank: 2093
+coingecko_rank: 2094
 coingecko_score: 13.478
 community_score: 6.951
 description: >-
@@ -39,11 +39,16 @@ links:
   telegram_channel_identifier: mvlchain_en
   twitter_screen_name: mvlchain
 liquidity_score: 20.256
-market_cap_rank: 4271
+market_cap_rank: 2169
 name: MVL
 public_interest_score: 44.2
 symbol: mvl
 tickers:
+- base: MVL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: MVL
   market:
     identifier: bitsonic
@@ -51,14 +56,19 @@ tickers:
   target: KRW
 - base: MVL
   market:
-    identifier: cryptology
-    name: Cryptology
+    identifier: idcm
+    name: IDCM
   target: BTC
 - base: MVL
   market:
     identifier: idcm
     name: IDCM
-  target: BTC
+  target: ETH
+- base: MVL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MVL
   market:
     identifier: probit
@@ -74,3 +84,8 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
+- base: MVL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

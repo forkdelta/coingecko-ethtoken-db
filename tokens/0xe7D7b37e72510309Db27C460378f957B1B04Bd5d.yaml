@@ -1,6 +1,6 @@
 ---
 address: '0xe7D7b37e72510309Db27C460378f957B1B04Bd5d'
-coingecko_rank: 2225
+coingecko_rank: 2226
 coingecko_score: 12.583
 community_score: 8.194
 description: >-
@@ -33,7 +33,7 @@ links:
   - http://blogs.empowr.com/CommunityAnnouncements
   twitter_screen_name: EmpowrOfficial
 liquidity_score: 1.0
-market_cap_rank: 1621
+market_cap_rank: 1647
 name: empowr Coin
 public_interest_score: 26.408
 symbol: empr
@@ -45,6 +45,16 @@ tickers:
   target: KRW
 - base: EMPR
   market:
+    identifier: coinlim
+    name: Coinlim
+  target: USDT
+- base: EMPR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: EMPRG
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -53,3 +63,8 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
+- base: EMPR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -35,16 +35,16 @@ links:
   telegram_channel_identifier: mytoken_en
   twitter_screen_name: mytokenio
 liquidity_score: 26.647
-market_cap_rank: 476
+market_cap_rank: 463
 name: MyToken
 public_interest_score: 29.526
 symbol: mt
 tickers:
 - base: MT
   market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
+    identifier: bcex
+    name: BCEX
+  target: ETH
 - base: MT
   market:
     identifier: bilaxy
@@ -54,6 +54,16 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
+  target: BTC
+- base: MT
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: MT
+  market:
+    identifier: coinbene
+    name: CoinBene
   target: ETH
 - base: MT
   market:
@@ -62,16 +72,36 @@ tickers:
   target: USDT
 - base: MT
   market:
+    identifier: cybex
+    name: Cybex DEX
+  target: CYB
+- base: MT
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
+- base: MT
+  market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
 - base: MT
   market:
-    identifier: otcbtc
-    name: OTCBTC
+    identifier: neraex
+    name: Neraex
   target: ETH
 - base: MT
   market:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: MT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
+- base: MT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

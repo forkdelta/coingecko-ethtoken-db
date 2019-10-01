@@ -55,11 +55,26 @@ links:
   subreddit_url: https://www.reddit.com/r/RChain
   twitter_screen_name: rchain_coop
 liquidity_score: 10.885
-market_cap_rank: 207
+market_cap_rank: 228
 name: RChain
 public_interest_score: 25.576
 symbol: rhoc
 tickers:
+- base: ROC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RHOC
+  market:
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: RHOC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: RHOC
   market:
     identifier: forkdelta
@@ -67,9 +82,39 @@ tickers:
   target: ETH
 - base: RHOC
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: RHOC
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: RHOC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: RHOC
+  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
+- base: RHOC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: RHOC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: RHOC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: RHOC
   market:
     identifier: uniswap

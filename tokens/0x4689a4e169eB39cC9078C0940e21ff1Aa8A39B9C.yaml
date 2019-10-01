@@ -39,8 +39,18 @@ links:
   telegram_channel_identifier: ProtonToken
   twitter_screen_name: proton_global
 liquidity_score: 29.168
-market_cap_rank: 648
+market_cap_rank: 613
 name: Proton Token
 public_interest_score: 31.608
 symbol: ptt
-tickers: []
+tickers:
+- base: PTT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: PTT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

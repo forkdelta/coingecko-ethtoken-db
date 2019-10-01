@@ -28,11 +28,26 @@ links:
   telegram_channel_identifier: babb_official
   twitter_screen_name: getbabb
 liquidity_score: 12.137
-market_cap_rank: 634
+market_cap_rank: 604
 name: BABB
 public_interest_score: 25.565
 symbol: bax
 tickers:
+- base: BAX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BAX
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: BAX
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: BAX
   market:
     identifier: idex
@@ -42,4 +57,24 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: BAX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: BAX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: BAX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BAX
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

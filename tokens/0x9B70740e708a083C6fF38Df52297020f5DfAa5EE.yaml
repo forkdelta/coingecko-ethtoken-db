@@ -65,18 +65,33 @@ links:
   telegram_channel_identifier: projectdaneel
   twitter_screen_name: daneelproject
 liquidity_score: 1.0
-market_cap_rank: 1269
+market_cap_rank: 1265
 name: Daneel
 public_interest_score: 24.445
 symbol: dan
 tickers:
 - base: DAN
   market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
+    identifier: boa
+    name: BOA Exchange
+  target: BTC
+- base: DAN
+  market:
+    identifier: boa
+    name: BOA Exchange
+  target: ETH
+- base: DAN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: DAN
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: DAN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

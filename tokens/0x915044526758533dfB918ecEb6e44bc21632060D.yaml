@@ -25,8 +25,23 @@ links:
   telegram_channel_identifier: hellochromia
   twitter_screen_name: teamchromia
 liquidity_score: 40.075
-market_cap_rank: 362
+market_cap_rank: 415
 name: Chromia
 public_interest_score: 22.58
 symbol: chr
-tickers: []
+tickers:
+- base: CHR
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: CHR
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: CHR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

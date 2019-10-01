@@ -27,23 +27,53 @@ links:
   subreddit_url: https://www.reddit.com/r/SpankChain
   twitter_screen_name: spankchain
 liquidity_score: 1.0
-market_cap_rank: 403
+market_cap_rank: 389
 name: SpankChain
 public_interest_score: 28.117
 symbol: spank
 tickers:
-- base: SPK
+- base: SPANK
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SPANK
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
+- base: SPANK
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: SPK
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
+  target: ETH
+- base: SPANK
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: SPANK
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: SPANK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SPANK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: SPANK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

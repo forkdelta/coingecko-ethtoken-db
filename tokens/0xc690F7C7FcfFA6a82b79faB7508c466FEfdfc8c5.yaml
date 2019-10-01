@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: lympo
   twitter_screen_name: Lympo_io
 liquidity_score: 17.599
-market_cap_rank: 409
+market_cap_rank: 382
 name: Lympo
 public_interest_score: 40.113
 symbol: lym
 tickers:
+- base: LYM
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
 - base: LYM
   market:
     identifier: coinzest
@@ -48,9 +53,24 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: ETH
+- base: LYM
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: LYM
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: gopax
+    name: GoPax
+  target: BTC
+- base: LYM
+  market:
+    identifier: gopax
+    name: GoPax
+  target: ETH
+- base: LYM
+  market:
+    identifier: saturn_network
+    name: Saturn Network
   target: ETH

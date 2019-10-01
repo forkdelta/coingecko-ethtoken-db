@@ -27,11 +27,16 @@ links:
     - https://github.com/internxt/INXT
   subreddit_url: https://www.reddit.com/r/internxt
 liquidity_score: 12.33
-market_cap_rank: 780
+market_cap_rank: 742
 name: Internxt
 public_interest_score: 27.272
 symbol: inxt
 tickers:
+- base: INXT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: INXT
   market:
     identifier: coin_exchange
@@ -64,6 +69,61 @@ tickers:
   target: ETH
 - base: INXT
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: INXT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: INXT
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC
+- base: INXT
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DASH
+- base: INXT
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: USD
+- base: INXT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: INXT
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: INXT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

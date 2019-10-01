@@ -29,21 +29,36 @@ links:
   telegram_channel_identifier: maximine
   twitter_screen_name: maximinecoin
 liquidity_score: 44.374
-market_cap_rank: 144
+market_cap_rank: 146
 name: Maximine
 public_interest_score: 28.057
 symbol: mxm
 tickers:
 - base: MXM
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: MXM
   market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: MXM
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: MXM
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: USDT
+- base: MXM
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
 - base: MXM
   market:
     identifier: fcoin
@@ -59,3 +74,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: MXM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

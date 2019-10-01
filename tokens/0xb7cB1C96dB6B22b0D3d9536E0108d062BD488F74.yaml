@@ -53,16 +53,11 @@ links:
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
 liquidity_score: 42.98
-market_cap_rank: 140
+market_cap_rank: 142
 name: Waltonchain
 public_interest_score: 30.471
 symbol: wtc
 tickers:
-- base: WTC
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
 - base: WTC
   market:
     identifier: allbit
@@ -73,6 +68,11 @@ tickers:
     identifier: allbit
     name: Allbit
   target: ETH
+- base: WTC
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: WTC
   market:
     identifier: coss
@@ -80,9 +80,24 @@ tickers:
   target: BTC
 - base: WTC
   market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: WTC
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: WTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: WTC
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: WTC
   market:
     identifier: ethfinex
@@ -93,6 +108,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: USD
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
 - base: WTC
   market:
     identifier: financex
@@ -115,11 +135,36 @@ tickers:
   target: CNYE
 - base: WTC
   market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WTC
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: WTC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: 168F13BF-BFEA-4931-91FF-E449850D694E
+  market:
+    identifier: lykke
+    name: Lykke
   target: BTC
+- base: 168F13BF-BFEA-4931-91FF-E449850D694E
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: WTC
   market:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
+- base: WTC
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW

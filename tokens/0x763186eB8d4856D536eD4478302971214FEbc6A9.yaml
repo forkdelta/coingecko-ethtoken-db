@@ -40,11 +40,16 @@ links:
     - https://github.com/BetterBetting/Contracts
   twitter_screen_name: BETRBetting
 liquidity_score: 1.0
-market_cap_rank: 1185
+market_cap_rank: 1173
 name: BetterBetting
 public_interest_score: 38.203
 symbol: betr
 tickers:
+- base: BETR
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: BETR
   market:
     identifier: forkdelta
@@ -52,21 +57,11 @@ tickers:
   target: ETH
 - base: BETR
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: BETR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: BETR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: BETR
-  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: BETR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

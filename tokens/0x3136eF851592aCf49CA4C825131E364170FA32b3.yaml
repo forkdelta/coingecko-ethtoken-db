@@ -44,11 +44,26 @@ links:
   telegram_channel_identifier: coinfi
   twitter_screen_name: coin_fi
 liquidity_score: 9.459
-market_cap_rank: 736
+market_cap_rank: 737
 name: CoinFi
 public_interest_score: 24.682
 symbol: cofi
 tickers:
+- base: COFI
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: COFI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: COFI
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: COFI
   market:
     identifier: idex
@@ -56,6 +71,6 @@ tickers:
   target: ETH
 - base: COFI
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

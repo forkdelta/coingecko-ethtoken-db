@@ -27,16 +27,21 @@ links:
   telegram_channel_identifier: crowdmachine
   twitter_screen_name: crowd_machine
 liquidity_score: 1.671
-market_cap_rank: 775
+market_cap_rank: 812
 name: Crowd Machine
 public_interest_score: 41.253
 symbol: cmct
 tickers:
 - base: CMCT
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: CMCT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: CMCT
   market:
     identifier: hitbtc
@@ -67,3 +72,13 @@ tickers:
     identifier: quoine
     name: Liquid
   target: ETH
+- base: CMCT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: CMCT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

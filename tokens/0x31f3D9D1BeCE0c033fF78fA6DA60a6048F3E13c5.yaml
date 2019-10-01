@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: EBCoinGlobal
   twitter_screen_name: EBCoinGlobal
 liquidity_score: 1.0
-market_cap_rank: 743
+market_cap_rank: 701
 name: EBCoin
 public_interest_score: 27.244
 symbol: ebc
 tickers:
+- base: EBC
+  market:
+    identifier: bitbox
+    name: BITBOX
+  target: BTC
 - base: EBC
   market:
     identifier: bitmart
@@ -55,4 +60,19 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
-  target: USDT
+  target: ETH
+- base: EBC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EBC
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
+- base: EBC
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

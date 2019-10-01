@@ -43,11 +43,16 @@ links:
   telegram_channel_identifier: globaltouristgroup
   twitter_screen_name: tourist_global
 liquidity_score: 5.667
-market_cap_rank: 1532
+market_cap_rank: 1563
 name: Tourist Token
 public_interest_score: 37.952
 symbol: toto
 tickers:
+- base: TOTO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: TOTO
   market:
     identifier: hotbit
@@ -57,4 +62,19 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
+  target: BTC
+- base: TOTO
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
+- base: TOTO
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: TOTO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

@@ -65,14 +65,59 @@ symbol: storj
 tickers:
 - base: STORJ
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: STORJ
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: CNYT
+- base: STORJ
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
+- base: STORJ
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: STORJ
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: STORJ
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: STORJ
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: STORJ
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
+- base: STORJ
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: STJ
   market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
+- base: STJ
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: STJ
   market:
     identifier: ethfinex
@@ -85,24 +130,19 @@ tickers:
   target: BTC
 - base: STORJ
   market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: STORJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
+- base: STORJ
+  market:
     identifier: gate
     name: Gate.io
   target: BTC
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: STORJ
   market:
     identifier: hitbtc
@@ -115,14 +155,74 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: STORJ
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
+  market:
+    identifier: lykke
+    name: Lykke
   target: ETH
+- base: STORJ
+  market:
+    identifier: mandala
+    name: Mandala
+  target: BTC
+- base: STORJ
+  market:
+    identifier: mandala
+    name: Mandala
+  target: ETH
+- base: STORJ
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: STORJ
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: STORJ
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
+- base: STORJ
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: STORJ
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: STORJ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: STORJ
   market:
     identifier: yobit

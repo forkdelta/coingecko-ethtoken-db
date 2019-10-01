@@ -33,11 +33,16 @@ links:
     - https://github.com/InoCoin/ino-client
   twitter_screen_name: Blocktradecom
 liquidity_score: 45.441
-market_cap_rank: 1543
+market_cap_rank: 1546
 name: Blocktrade
 public_interest_score: 24.497
 symbol: btt
 tickers:
+- base: BTT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BTT
   market:
     identifier: idex
@@ -53,3 +58,13 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: BTT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: BTT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

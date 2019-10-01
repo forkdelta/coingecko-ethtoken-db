@@ -28,11 +28,36 @@ links:
     - https://github.com/poetapp/poet-js
   subreddit_url: https://www.reddit.com/r/poetproject
 liquidity_score: 27.136
-market_cap_rank: 296
+market_cap_rank: 289
 name: Po.et
 public_interest_score: 36.057
 symbol: poe
 tickers:
+- base: POE
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: POE
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: POE
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: POE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: POE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: POE
   market:
     identifier: hitbtc
@@ -45,9 +70,29 @@ tickers:
   target: ETH
 - base: POE
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idax
+    name: Idax
+  target: BTC
+- base: POE
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
+- base: POE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: POE
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: POE
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: POE
   market:
     identifier: wazirx

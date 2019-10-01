@@ -58,11 +58,16 @@ links:
   telegram_channel_identifier: BlockcloudTeam
   twitter_screen_name: BlockcloudTeam
 liquidity_score: 31.965
-market_cap_rank: 758
+market_cap_rank: 847
 name: Blockcloud
 public_interest_score: 24.514
 symbol: bloc
 tickers:
+- base: BLOC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: BLOC
   market:
     identifier: coin_exchange
@@ -73,11 +78,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: BLOC
-  market:
-    identifier: lbank
-    name: Lbank
-  target: USDT
 - base: BLOC
   market:
     identifier: okex_korea

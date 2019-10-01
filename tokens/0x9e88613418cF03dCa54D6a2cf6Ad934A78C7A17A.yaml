@@ -28,13 +28,33 @@ links:
   telegram_channel_identifier: swarmfund
   twitter_screen_name: theswarmfund
 liquidity_score: 23.692
-market_cap_rank: 421
+market_cap_rank: 413
 name: Swarm Fund
 public_interest_score: 26.248
 symbol: swm
 tickers:
 - base: SWM
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SWM
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: SWM
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: SWM
+  market:
+    identifier: coinbe
+    name: Coinbe
+  target: BTC
+- base: SWM
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
@@ -60,31 +80,6 @@ tickers:
   target: USD
 - base: SWM
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
-- base: SWM
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: SWM
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: HTB
-- base: SWM
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: SWM
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SWM
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -93,3 +88,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: SWM
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

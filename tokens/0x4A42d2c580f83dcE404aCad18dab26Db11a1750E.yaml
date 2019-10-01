@@ -67,11 +67,16 @@ links:
   telegram_channel_identifier: relex_core
   twitter_screen_name: RelexTalk
 liquidity_score: 1.0
-market_cap_rank: 1079
+market_cap_rank: 784
 name: Relex
 public_interest_score: 41.045
 symbol: rlx
 tickers:
+- base: RLX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: RLX
   market:
     identifier: forkdelta
@@ -87,3 +92,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: RLX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

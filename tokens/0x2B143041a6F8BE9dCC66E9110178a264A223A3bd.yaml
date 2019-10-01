@@ -29,8 +29,18 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 32.72
-market_cap_rank: 4952
+market_cap_rank: 5524
 name: iBTC
 public_interest_score: 33.595
 symbol: ibtc
-tickers: []
+tickers:
+- base: IBTC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: IBTC
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

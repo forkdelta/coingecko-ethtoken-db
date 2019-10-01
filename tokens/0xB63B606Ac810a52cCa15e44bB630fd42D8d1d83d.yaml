@@ -68,16 +68,41 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 42.785
-market_cap_rank: 79
+market_cap_rank: 77
 name: MCO
 public_interest_score: 39.953
 symbol: mco
 tickers:
 - base: MCO
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: abcc
+    name: ABCC
   target: ETH
+- base: MCO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MCO
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: MCO
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: MCO
+  market:
+    identifier: coss
+    name: COSS
+  target: USD
+- base: MCO
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
 - base: MCO
   market:
     identifier: crex24
@@ -85,8 +110,23 @@ tickers:
   target: BTC
 - base: MCO
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MCO
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: MCO
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: MCO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: MCO
   market:
@@ -97,22 +137,27 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
-  target: KRW
-- base: MCO
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: BTC
 - base: MCO
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: gopax
+    name: GoPax
   target: ETH
 - base: MCO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: MCO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MCO
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
 - base: MCO
   market:
     identifier: kyber_network
@@ -128,6 +173,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: 115A60C2-0DA1-40F9-A7F2-41DA723B9074
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
 - base: MCO
   market:
     identifier: quoine
@@ -145,13 +195,28 @@ tickers:
   target: QASH
 - base: MCO
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: MCO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: MCO
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: MCO
+  market:
+    identifier: tokenize
+    name: Tokenize
   target: ETH
 - base: MCO
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: MCO
   market:

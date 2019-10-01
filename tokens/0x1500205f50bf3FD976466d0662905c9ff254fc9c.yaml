@@ -1,6 +1,6 @@
 ---
 address: '0x1500205f50bf3FD976466d0662905c9ff254fc9c'
-coingecko_rank: 3350
+coingecko_rank: 3351
 coingecko_score: 7.477
 community_score: 7.336
 description: >-
@@ -30,7 +30,7 @@ links:
     - https://github.com/Bitboost/-
   twitter_screen_name: bitboosters
 liquidity_score: 1.0
-market_cap_rank: 4444
+market_cap_rank: 3922
 name: BitBoost
 public_interest_score: 24.426
 symbol: bbt
@@ -47,6 +47,16 @@ tickers:
   target: ETH
 - base: BBT
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: BBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: BBT
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -59,4 +69,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: BBT
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: BBT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

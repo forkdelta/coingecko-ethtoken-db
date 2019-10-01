@@ -44,13 +44,28 @@ links:
   telegram_channel_identifier: akropolis_official
   twitter_screen_name: akropolisio
 liquidity_score: 31.029
-market_cap_rank: 389
+market_cap_rank: 393
 name: Akropolis
 public_interest_score: 27.629
 symbol: akro
 tickers:
 - base: AKRO
   market:
+    identifier: bitoffer
+    name: Bitoffer
+  target: USDT
+- base: AKRO
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: AKRO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: AKRO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

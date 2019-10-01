@@ -29,11 +29,16 @@ links:
   subreddit_url: https://www.reddit.com/r/blocktix
   twitter_screen_name: blocktix
 liquidity_score: 1.0
-market_cap_rank: 1207
+market_cap_rank: 1265
 name: Blocktix
 public_interest_score: 24.696
 symbol: tix
 tickers:
+- base: TIX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: TIX
   market:
     identifier: chainex
@@ -49,3 +54,18 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: TIX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: TIX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: TIX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

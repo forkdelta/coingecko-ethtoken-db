@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: telcoincommunity
   twitter_screen_name: telcoin_team
 liquidity_score: 17.306
-market_cap_rank: 179
+market_cap_rank: 173
 name: Telcoin
 public_interest_score: 24.889
 symbol: tel
@@ -41,9 +41,24 @@ tickers:
   target: BTC
 - base: TEL
   market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: TEL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TEL
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: TEL
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: TEL
   market:
     identifier: latoken
@@ -56,6 +71,21 @@ tickers:
   target: BTC
 - base: TEL
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: TEL
+  market:
+    identifier: simex
+    name: Simex
+  target: BTC
+- base: TEL
+  market:
     identifier: simex
     name: Simex
   target: USD
+- base: TEL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

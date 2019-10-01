@@ -1,6 +1,6 @@
 ---
 address: '0x6f72b14383f5eCDAcDD2F761a5C4B070F91C2806'
-coingecko_rank: 3765
+coingecko_rank: 3766
 coingecko_score: 6.273
 community_score: 8.47
 description: >-
@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: meltcommunity
   twitter_screen_name: project_melt
 liquidity_score: 1.0
-market_cap_rank: 3334
+market_cap_rank: 4363
 name: Melt
 public_interest_score: 39.552
 symbol: melt
-tickers: []
+tickers:
+- base: MELT
+  market:
+    identifier: altmarkets
+    name: Altmarkets
+  target: BTC
+- base: MELT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

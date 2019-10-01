@@ -35,26 +35,36 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 19.393
-market_cap_rank: 342
+market_cap_rank: 336
 name: Digix Gold
 public_interest_score: 24.953
 symbol: dgx
 tickers:
 - base: DGX
   market:
-    identifier: airswap
-    name: AirSwap
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DGX
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: DGX
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
+    identifier: kryptono
+    name: Kryptono
+  target: ETH
 - base: DGX
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DGX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: DGX
   market:
     identifier: tokenize
@@ -67,6 +77,6 @@ tickers:
   target: USD
 - base: DGX
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

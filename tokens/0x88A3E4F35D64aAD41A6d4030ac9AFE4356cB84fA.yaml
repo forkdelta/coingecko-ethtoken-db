@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: presearch
   twitter_screen_name: decentralsearch
 liquidity_score: 3.169
-market_cap_rank: 918
+market_cap_rank: 920
 name: Presearch
 public_interest_score: 25.827
 symbol: pre
 tickers:
+- base: PRE
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: PRE
   market:
     identifier: coin_exchange
@@ -48,11 +53,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: PRE
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
 - base: PRS
   market:
     identifier: yobit
@@ -73,3 +73,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: PRS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: PRS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

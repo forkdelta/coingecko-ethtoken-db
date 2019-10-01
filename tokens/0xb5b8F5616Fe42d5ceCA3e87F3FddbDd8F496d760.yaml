@@ -34,11 +34,16 @@ links:
   telegram_channel_identifier: zper_kr_official
   twitter_screen_name: zper_team
 liquidity_score: 4.598
-market_cap_rank: 700
+market_cap_rank: 714
 name: ZPER
 public_interest_score: 24.558
 symbol: zpr
 tickers:
+- base: ZPR
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
 - base: ZPR
   market:
     identifier: bitsonic
@@ -46,9 +51,19 @@ tickers:
   target: KRW
 - base: ZPR
   market:
+    identifier: daybit
+    name: Daybit
+  target: ETH
+- base: ZPR
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: ZPR
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: ZPR
   market:
     identifier: quoine
@@ -59,3 +74,13 @@ tickers:
     identifier: quoine
     name: Liquid
   target: ETH
+- base: ZPR
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: ZPR
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

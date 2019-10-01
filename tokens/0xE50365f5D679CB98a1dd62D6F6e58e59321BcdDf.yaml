@@ -42,7 +42,7 @@ links:
   telegram_channel_identifier: latoken
   twitter_screen_name: latokens
 liquidity_score: 32.998
-market_cap_rank: 390
+market_cap_rank: 380
 name: LATOKEN
 public_interest_score: 29.076
 symbol: la
@@ -54,15 +54,35 @@ tickers:
   target: BTC
 - base: LA
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: LA
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: LA
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: LA
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LA
+  market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: EVY
+  target: ETH
+- base: HOT
   market:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: NPXS
+- base: EVY
   market:
     identifier: latoken
     name: LATOKEN
@@ -97,11 +117,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: HOT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
 - base: FSHN
   market:
     identifier: latoken
@@ -132,3 +147,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT

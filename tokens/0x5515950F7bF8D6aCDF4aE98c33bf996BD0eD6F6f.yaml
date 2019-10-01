@@ -1,6 +1,6 @@
 ---
 address: '0x5515950F7bF8D6aCDF4aE98c33bf996BD0eD6F6f'
-coingecko_rank: 4776
+coingecko_rank: 4777
 coingecko_score: 4.251
 community_score: 6.475
 description: >-
@@ -47,16 +47,41 @@ links:
   telegram_channel_identifier: FinanceX_Vietnam
   twitter_screen_name: FinanceX_Fiat
 liquidity_score: 1.0
-market_cap_rank: 5629
+market_cap_rank: 2950
 name: FinanceX token
 public_interest_score: 24.326
 symbol: fnx
 tickers:
+- base: FNX
+  market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
+- base: BTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: FNX
+- base: ETH
+  market:
+    identifier: financex
+    name: FinanceX
+  target: FNX
+- base: LTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: FNX
 - base: XRP
   market:
     identifier: financex
     name: FinanceX
   target: FNX
+- base: FNX
+  market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
 - base: FNX
   market:
     identifier: financex

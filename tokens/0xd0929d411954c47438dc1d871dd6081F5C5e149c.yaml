@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: refereum
   twitter_screen_name: refereum
 liquidity_score: 23.036
-market_cap_rank: 442
+market_cap_rank: 450
 name: Refereum
 public_interest_score: 28.003
 symbol: rfr
 tickers:
+- base: RFR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: RFR
   market:
     identifier: bibox
@@ -45,12 +50,12 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
-  target: ETH
+  target: BTC
 - base: RFR
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: BTC
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: RFR
   market:
     identifier: bitsonic
@@ -58,9 +63,9 @@ tickers:
   target: BSC
 - base: RFR
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: RFR
   market:
     identifier: gate
@@ -73,16 +78,21 @@ tickers:
   target: USD
 - base: RFR
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: RFR
+  market:
     identifier: okex
     name: OKEx
-  target: BTC
+  target: ETH
 - base: RFR
   market:
     identifier: okex_korea
     name: OKEx Korea
-  target: BTC
+  target: ETH
 - base: RFR
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

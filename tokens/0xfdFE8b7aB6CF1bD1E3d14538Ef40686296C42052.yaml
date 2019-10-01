@@ -1,6 +1,6 @@
 ---
 address: '0xfdFE8b7aB6CF1bD1E3d14538Ef40686296C42052'
-coingecko_rank: 3105
+coingecko_rank: 3106
 coingecko_score: 8.159
 community_score: 22.051
 description: >-
@@ -26,11 +26,26 @@ links:
   telegram_channel_identifier: SkrapsOfficial
   twitter_screen_name: SkrapsApp
 liquidity_score: 1.0
-market_cap_rank: 2825
+market_cap_rank: 5150
 name: Skraps
 public_interest_score: 24.462
 symbol: skrp
 tickers:
+- base: SKRP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SKRP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SKRP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: SKRP
   market:
     identifier: yobit
@@ -46,6 +61,16 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: SKRP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: SKRP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: SKRP
   market:
     identifier: yobit

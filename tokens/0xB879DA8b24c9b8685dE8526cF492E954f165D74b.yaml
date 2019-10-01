@@ -25,8 +25,18 @@ links:
   - http://moviebloc.io/
   telegram_channel_identifier: moviebloc
 liquidity_score: 32.097
-market_cap_rank: 341
+market_cap_rank: 338
 name: MovieBloc
 public_interest_score: 24.496
 symbol: mbl
-tickers: []
+tickers:
+- base: MBL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MBL
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

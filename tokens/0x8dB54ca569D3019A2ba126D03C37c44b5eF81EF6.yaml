@@ -22,23 +22,23 @@ links:
   telegram_channel_identifier: https://t.me/datawallet
   twitter_screen_name: DataWalletHQ
 liquidity_score: 1.0
-market_cap_rank: 819
+market_cap_rank: 832
 name: Datawallet
 public_interest_score: 27.278
 symbol: dxt
 tickers:
 - base: DXT
   market:
-    identifier: bitforex
-    name: Bitforex
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DXT
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: DXT
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: DXT
-  market:
-    identifier: exmo
-    name: EXMO
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

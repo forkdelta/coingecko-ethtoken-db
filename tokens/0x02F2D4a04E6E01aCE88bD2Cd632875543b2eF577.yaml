@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: pokemongopkg
   twitter_screen_name: pokemongopkg
 liquidity_score: 2.979
-market_cap_rank: 1140
+market_cap_rank: 1137
 name: PKG Token
 public_interest_score: 42.991
 symbol: pkg
 tickers:
+- base: PKG
+  market:
+    identifier: coinlim
+    name: Coinlim
+  target: ETH
 - base: PKG
   market:
     identifier: fatbtc
@@ -59,3 +64,8 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
+- base: PKG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

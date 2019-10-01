@@ -1,6 +1,6 @@
 ---
 address: '0x1bF7Fd22709733cCD7c45AB27Dd02C7EC8E50078'
-coingecko_rank: 3998
+coingecko_rank: 3999
 coingecko_score: 5.713
 community_score: 0.0
 description: >-
@@ -24,8 +24,18 @@ links:
   - http://www.quiztok.com/en/index.php
   telegram_channel_identifier: qtcongroup
 liquidity_score: 16.327
-market_cap_rank: 4274
+market_cap_rank: 5061
 name: Quiztok
 public_interest_score: 24.479
 symbol: qtcon
-tickers: []
+tickers:
+- base: QTCON
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: QTCON
+  market:
+    identifier: idax
+    name: Idax
+  target: USDT

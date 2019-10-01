@@ -1,6 +1,6 @@
 ---
 address: '0xb5E62A10c362a479Be1F629f01a7E8146eA7a748'
-coingecko_rank: 4466
+coingecko_rank: 4467
 coingecko_score: 4.671
 community_score: 8.891
 description: >-
@@ -25,8 +25,18 @@ links:
   telegram_channel_identifier: KnoxsterChain
   twitter_screen_name: chain_knoxster
 liquidity_score: 1.0
-market_cap_rank: 3070
+market_cap_rank: 3708
 name: KnoxsterChain
 public_interest_score: 22.481
 symbol: knct
-tickers: []
+tickers:
+- base: KNCT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: KNCT
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH

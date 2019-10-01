@@ -29,11 +29,21 @@ links:
   telegram_channel_identifier: formosafinancial
   twitter_screen_name: formosaofficial
 liquidity_score: 1.0
-market_cap_rank: 1093
+market_cap_rank: 981
 name: Formosa Financial
 public_interest_score: 24.049
 symbol: fmf
 tickers:
+- base: FMF
+  market:
+    identifier: cezex
+    name: Cezex
+  target: BTC
+- base: FMF
+  market:
+    identifier: cezex
+    name: Cezex
+  target: USD
 - base: FMF
   market:
     identifier: idcm
@@ -46,6 +56,11 @@ tickers:
   target: ETH
 - base: FMF
   market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: FMF
+  market:
     identifier: max_maicoin
     name: Max Maicoin
   target: ETH
@@ -54,3 +69,8 @@ tickers:
     identifier: max_maicoin
     name: Max Maicoin
   target: MAX
+- base: FMF
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

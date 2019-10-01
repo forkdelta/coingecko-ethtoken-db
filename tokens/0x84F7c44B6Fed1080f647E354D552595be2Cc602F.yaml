@@ -39,13 +39,23 @@ links:
   telegram_channel_identifier: bigbomicogroup
   twitter_screen_name: bigbomofficial
 liquidity_score: 24.391
-market_cap_rank: 977
+market_cap_rank: 953
 name: Bigbom
 public_interest_score: 24.427
 symbol: bbo
 tickers:
 - base: BBO
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BBO
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: BBO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

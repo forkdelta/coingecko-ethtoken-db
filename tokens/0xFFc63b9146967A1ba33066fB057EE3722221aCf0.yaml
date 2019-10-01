@@ -29,11 +29,21 @@ links:
   telegram_channel_identifier: alpha_token
   twitter_screen_name: Alpha_Token
 liquidity_score: 35.805
-market_cap_rank: 881
+market_cap_rank: 861
 name: Alpha Token
 public_interest_score: 22.503
 symbol: a
 tickers:
+- base: A
+  market:
+    identifier: coinlim
+    name: Coinlim
+  target: ETH
+- base: A
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: A
   market:
     identifier: satoexchange
@@ -41,6 +51,11 @@ tickers:
   target: BTC
 - base: A
   market:
-    identifier: thetokenstore
-    name: Token.Store
+    identifier: satoexchange
+    name: SatoExchange
   target: ETH
+- base: A
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX

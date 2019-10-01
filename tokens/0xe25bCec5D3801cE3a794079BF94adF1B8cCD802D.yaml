@@ -48,18 +48,48 @@ links:
   telegram_channel_identifier: matrixainetwork
   twitter_screen_name: matrixainetwork
 liquidity_score: 25.064
-market_cap_rank: 226
+market_cap_rank: 232
 name: Matrix AI Network
 public_interest_score: 41.973
 symbol: man
 tickers:
 - base: MAN
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MAN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MAN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: MAN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: MAN
+  market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: ETH
 - base: MAN
   market:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: MAN
+  market:
+    identifier: joyso
+    name: Joyso
+  target: ETH
+- base: MAN
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

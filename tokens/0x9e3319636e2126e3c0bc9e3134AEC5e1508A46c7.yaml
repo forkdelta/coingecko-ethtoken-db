@@ -30,16 +30,21 @@ links:
   telegram_channel_identifier: Uplatform
   twitter_screen_name: Universa_News
 liquidity_score: 2.727
-market_cap_rank: 329
+market_cap_rank: 344
 name: Universa
 public_interest_score: 40.087
 symbol: utnp
 tickers:
-- base: UTN
+- base: UTNP
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: cobinhood
+    name: Cobinhood
   target: ETH
+- base: UTNP
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
 - base: UTN
   market:
     identifier: ethfinex
@@ -50,3 +55,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: UTNP
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

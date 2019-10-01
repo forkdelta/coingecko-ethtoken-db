@@ -30,25 +30,20 @@ links:
   telegram_channel_identifier: bitdegree
   twitter_screen_name: bitdegree_org
 liquidity_score: 1.0
-market_cap_rank: 1082
+market_cap_rank: 1070
 name: BitDegree
 public_interest_score: 24.829
 symbol: bdg
 tickers:
 - base: BDG
   market:
-    identifier: bitmart
-    name: BitMart
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BDG
   market:
     identifier: bitmart
     name: BitMart
-  target: ETH
-- base: BDG
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: BTC
 - base: BDG
   market:
@@ -60,3 +55,18 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: BDG
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: BDG
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: BDG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

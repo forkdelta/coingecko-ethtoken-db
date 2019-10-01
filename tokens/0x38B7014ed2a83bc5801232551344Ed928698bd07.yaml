@@ -1,6 +1,6 @@
 ---
 address: '0x38B7014ed2a83bc5801232551344Ed928698bd07'
-coingecko_rank: 5729
+coingecko_rank: 5731
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: IncinerateToken
   twitter_screen_name: IncinerateToken
 liquidity_score: 1.0
-market_cap_rank: 4232
+market_cap_rank: 3230
 name: Incinerate Token
 public_interest_score: 0.0
 symbol: inc8
-tickers: []
+tickers:
+- base: INC8
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: INC8
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

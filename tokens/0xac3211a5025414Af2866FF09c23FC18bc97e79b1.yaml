@@ -27,21 +27,21 @@ links:
   telegram_channel_identifier: dovuofficial
   twitter_screen_name: dovuofficial
 liquidity_score: 1.0
-market_cap_rank: 1169
+market_cap_rank: 1144
 name: Dovu
 public_interest_score: 24.656
 symbol: dov
 tickers:
+- base: DOV
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: DOVU
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: DOV
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: DOV
   market:
     identifier: hitbtc
@@ -57,3 +57,23 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: BTC
+- base: DOV
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: DOV
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DOV
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: DOV
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

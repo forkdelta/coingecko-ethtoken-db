@@ -45,11 +45,16 @@ links:
     - https://github.com/commerceblock/ocean-explorer
   twitter_screen_name: commerceblock
 liquidity_score: 1.0
-market_cap_rank: 239
+market_cap_rank: 228
 name: CommerceBlock Token
 public_interest_score: 24.557
 symbol: cbt
 tickers:
+- base: CBT
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: CBT
   market:
     identifier: ethfinex
@@ -60,3 +65,23 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: CBT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: CBT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CBT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: CBT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

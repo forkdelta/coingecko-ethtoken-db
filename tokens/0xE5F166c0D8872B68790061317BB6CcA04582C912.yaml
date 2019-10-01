@@ -28,11 +28,21 @@ links:
   telegram_channel_identifier: te_food
   twitter_screen_name: TE_FOOD
 liquidity_score: 1.0
-market_cap_rank: 511
+market_cap_rank: 529
 name: TE-FOOD
 public_interest_score: 29.915
 symbol: tfd
 tickers:
+- base: TFD
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: TFD
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: TFD
   market:
     identifier: forkdelta
@@ -45,6 +55,11 @@ tickers:
   target: ETH
 - base: TFD
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: saturn_network
+    name: Saturn Network
   target: ETH
+- base: TFD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

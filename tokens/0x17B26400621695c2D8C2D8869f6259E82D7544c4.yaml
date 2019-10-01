@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: ccntoken
   twitter_screen_name: ccntoken
 liquidity_score: 1.0
-market_cap_rank: 1848
+market_cap_rank: 1847
 name: Custom contract network
 public_interest_score: 44.176
 symbol: ccn
 tickers:
+- base: CCN
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: CCN
   market:
     identifier: coin_exchange
@@ -54,6 +59,11 @@ tickers:
   target: ETH
 - base: CCN
   market:
-    identifier: stocks_exchange
-    name: STEX
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: CCN
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH

@@ -38,11 +38,16 @@ links:
   telegram_channel_identifier: kleros
   twitter_screen_name: kleros_io
 liquidity_score: 1.0
-market_cap_rank: 587
+market_cap_rank: 585
 name: Kleros
 public_interest_score: 24.471
 symbol: pnk
 tickers:
+- base: PNK
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: PNK
   market:
     identifier: ethfinex
@@ -53,6 +58,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: PNK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: PNK
   market:
     identifier: uniswap

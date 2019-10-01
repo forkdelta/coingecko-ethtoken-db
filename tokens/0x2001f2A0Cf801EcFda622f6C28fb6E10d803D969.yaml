@@ -1,6 +1,6 @@
 ---
 address: '0x2001f2A0Cf801EcFda622f6C28fb6E10d803D969'
-coingecko_rank: 4414
+coingecko_rank: 4415
 coingecko_score: 4.781
 community_score: 8.269
 description: >-
@@ -22,8 +22,28 @@ links:
   telegram_channel_identifier: coinloan
   twitter_screen_name: coin_loan
 liquidity_score: 0.0
-market_cap_rank: 2623
+market_cap_rank: 1947
 name: CoinLoan
 public_interest_score: 27.136
 symbol: clt
-tickers: []
+tickers:
+- base: CLT
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: CLT
+  market:
+    identifier: tokpie
+    name: Tokpie
+  target: ETH
+- base: CLT
+  market:
+    identifier: tokpie
+    name: Tokpie
+  target: TKP
+- base: CLT
+  market:
+    identifier: tokpie
+    name: Tokpie
+  target: USDC

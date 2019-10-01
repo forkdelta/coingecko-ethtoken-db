@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: celernetwork
   twitter_screen_name: CelerNetwork
 liquidity_score: 42.517
-market_cap_rank: 172
+market_cap_rank: 164
 name: Celer Network
 public_interest_score: 30.189
 symbol: celr
@@ -68,14 +68,24 @@ tickers:
   market:
     identifier: coinall
     name: CoinAll
+  target: ETH
+- base: CELR
+  market:
+    identifier: coinall
+    name: CoinAll
   target: USDT
 - base: CELR
   market:
-    identifier: coinone
-    name: Coinone
+    identifier: coinbit
+    name: Coinbit
   target: KRW
 - base: CELR
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: CELR
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

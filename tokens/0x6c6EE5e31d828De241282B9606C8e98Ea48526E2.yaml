@@ -83,16 +83,11 @@ links:
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
 liquidity_score: 46.179
-market_cap_rank: 42
+market_cap_rank: 41
 name: Holo
 public_interest_score: 31.801
 symbol: hot
 tickers:
-- base: HOT
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
 - base: HOT
   market:
     identifier: bitci
@@ -115,9 +110,9 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: HOT
   market:
     identifier: daybit
@@ -125,9 +120,24 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: daybit
+    name: Daybit
   target: ETH
+- base: HOLO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: HOT
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: HOT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: BTC
 - base: HOT
   market:
     identifier: gopax
@@ -135,13 +145,8 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: HOT
-  market:
-    identifier: idex
-    name: Idex
+    identifier: joyso
+    name: Joyso
   target: ETH
 - base: HOT
   market:
@@ -165,6 +170,16 @@ tickers:
   target: ETH
 - base: HOT
   market:
+    identifier: purcow
+    name: Purcow
+  target: BTC
+- base: HOT
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: HOT
+  market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
@@ -175,6 +190,11 @@ tickers:
   target: ETH
 - base: HOT
   market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: HOT
+  market:
     identifier: wazirx
     name: WazirX
   target: BTC
@@ -182,4 +202,4 @@ tickers:
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: INR

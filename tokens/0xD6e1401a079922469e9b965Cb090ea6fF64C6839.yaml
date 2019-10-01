@@ -23,13 +23,23 @@ links:
   telegram_channel_identifier: HoldHQ
   twitter_screen_name: HoldHQ
 liquidity_score: 1.0
-market_cap_rank: 691
+market_cap_rank: 665
 name: Hold
 public_interest_score: 41.753
 symbol: hold
 tickers:
 - base: HOLD
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: HOLD
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: HOLD
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

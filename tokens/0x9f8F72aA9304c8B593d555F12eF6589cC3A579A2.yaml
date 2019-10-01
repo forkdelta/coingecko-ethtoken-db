@@ -65,9 +65,39 @@ symbol: mkr
 tickers:
 - base: MKR
   market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: MKR
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: MKR
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
+- base: MKR
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: USD
+- base: MKR
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: MKR
+  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: DAI
+- base: MKR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: MKR
   market:
     identifier: bibox
@@ -80,19 +110,44 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: bitbay
+    name: BitBay
   target: BTC
 - base: MKR
   market:
-    identifier: bkex
-    name: Bkex
-  target: USDT
+    identifier: c_patex
+    name: C-Patex
+  target: BTC
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: BTC
 - base: MKR
   market:
     identifier: coss
     name: COSS
   target: COS
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: USDT
+- base: MKR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
 - base: MKR
   market:
     identifier: ddex
@@ -105,6 +160,21 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: MKR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MKR
+  market:
     identifier: gate
     name: Gate.io
   target: USDT
@@ -112,12 +182,17 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
-  target: KRW
+  target: BTC
 - base: MKR
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
+    identifier: gopax
+    name: GoPax
+  target: ETH
+- base: MKR
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: MKR
   market:
     identifier: idex
@@ -125,29 +200,74 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: korbit
-    name: Korbit
-  target: KRW
-- base: MKR
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: MKR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: MKR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: joyso
+    name: Joyso
   target: ETH
 - base: MKR
   market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: localtrade
+    name: LocalTrade
+  target: BTC
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
   target: USDT
+- base: MKR
+  market:
+    identifier: neblidex
+    name: Neblidex
+  target: BTC
+- base: MKR
+  market:
+    identifier: neblidex
+    name: Neblidex
+  target: LTC
+- base: MKR
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BITUSD
+- base: MKR
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTC
+- base: MKR
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTS
+- base: MKR
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: ETH
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: MKR
+  market:
+    identifier: secondbtc
+    name: SecondBTC
+  target: BTC
 - base: MKR
   market:
     identifier: sistemkoin
@@ -158,16 +278,21 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: ETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
 - base: MKR
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: MKR
+  market:
+    identifier: three_xbit
+    name: 3XBIT
+  target: BTC
 - base: MKR
   market:
     identifier: three_xbit
@@ -185,6 +310,6 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

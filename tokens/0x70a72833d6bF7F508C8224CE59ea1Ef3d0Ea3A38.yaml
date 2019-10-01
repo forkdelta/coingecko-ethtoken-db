@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: utrustofficial
   twitter_screen_name: UTRUST
 liquidity_score: 36.454
-market_cap_rank: 256
+market_cap_rank: 230
 name: UTRUST
 public_interest_score: 25.62
 symbol: utk
@@ -37,32 +37,17 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: ETH
-- base: UTK
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
-- base: UTK
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: BTC
 - base: UTK
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: ETH
 - base: UTK
   market:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: UTK
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: BTC
 - base: UTK
   market:
     identifier: idex
@@ -73,3 +58,13 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: UTK
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: UTK
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

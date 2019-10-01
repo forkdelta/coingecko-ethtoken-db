@@ -24,16 +24,31 @@ links:
     - https://github.com/nelsonic/coin-change
   twitter_screen_name: changefinance
 liquidity_score: 1.992
-market_cap_rank: 495
+market_cap_rank: 492
 name: Change
 public_interest_score: 44.201
 symbol: cag
 tickers:
 - base: CAG
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: CAG
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CAG
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: CAG
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: CAG
   market:
     identifier: yobit
@@ -59,3 +74,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: CAG
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -40,20 +40,30 @@ links:
     - https://github.com/NANJ-COIN/token
   twitter_screen_name: nanjcoin
 liquidity_score: 1.0
-market_cap_rank: 796
+market_cap_rank: 787
 name: NANJCOIN
 public_interest_score: 27.997
 symbol: nanj
 tickers:
 - base: NANJ
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: NANJ
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: NANJ
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: NANJ
+  market:
+    identifier: satoexchange
+    name: SatoExchange
   target: BTC
 - base: NANJ
   market:
@@ -65,3 +75,13 @@ tickers:
     identifier: satoexchange
     name: SatoExchange
   target: SATX
+- base: NANJ
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
+- base: NANJ
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

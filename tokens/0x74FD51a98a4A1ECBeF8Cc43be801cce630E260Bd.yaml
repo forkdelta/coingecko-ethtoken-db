@@ -1,6 +1,6 @@
 ---
 address: '0x74FD51a98a4A1ECBeF8Cc43be801cce630E260Bd'
-coingecko_rank: 2916
+coingecko_rank: 2917
 coingecko_score: 8.836
 community_score: 7.812
 description: >-
@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: SiaCashCoinChat
   twitter_screen_name: Siacashcoin
 liquidity_score: 5.476
-market_cap_rank: 4269
+market_cap_rank: 2257
 name: SiaCashCoin
 public_interest_score: 27.222
 symbol: scc
 tickers:
+- base: SCC
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: BST
 - base: SCC
   market:
     identifier: bitsten
@@ -57,6 +62,11 @@ tickers:
   target: BTC
 - base: SCC
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: SCC
+  market:
+    identifier: topbtc
+    name: TopBTC
   target: ETH

@@ -29,16 +29,31 @@ links:
   telegram_channel_identifier: Privatix
   twitter_screen_name: Privatix1
 liquidity_score: 1.0
-market_cap_rank: 914
+market_cap_rank: 956
 name: Privatix
 public_interest_score: 24.435
 symbol: prix
 tickers:
 - base: PRIX
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: PRIX
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: PRIX
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: PRIX
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: PRIX
   market:
     identifier: yobit

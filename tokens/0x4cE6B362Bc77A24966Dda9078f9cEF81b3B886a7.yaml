@@ -37,11 +37,16 @@ links:
   telegram_channel_identifier: Npereng
   twitter_screen_name: NPERproject
 liquidity_score: 1.0
-market_cap_rank: 1081
+market_cap_rank: 1040
 name: NPER
 public_interest_score: 27.47
 symbol: nper
 tickers:
+- base: NPER
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: NPER
   market:
     identifier: bibox
@@ -52,3 +57,13 @@ tickers:
     identifier: coinfinit
     name: Coinfinit
   target: KRW
+- base: NPER
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: NPER
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

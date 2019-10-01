@@ -1,6 +1,6 @@
 ---
 address: '0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA'
-coingecko_rank: 2469
+coingecko_rank: 2470
 coingecko_score: 11.088
 community_score: 8.201
 description: >-
@@ -39,11 +39,26 @@ links:
   telegram_channel_identifier: orbs_network
   twitter_screen_name: orbs_network
 liquidity_score: 30.316
-market_cap_rank: 3085
+market_cap_rank: 5655
 name: Orbs
 public_interest_score: 29.748
 symbol: orbs
 tickers:
+- base: ORBS
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: BTC
+- base: ORBS
+  market:
+    identifier: bitmesh
+    name: Bitmesh
+  target: BTC
+- base: ORBS
+  market:
+    identifier: bitmesh
+    name: Bitmesh
+  target: ETH
 - base: ORBS
   market:
     identifier: bitsonic
@@ -54,6 +69,16 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: ORBS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: ORBS
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
 - base: ORBS
   market:
     identifier: huobi_korea
@@ -76,11 +101,6 @@ tickers:
   target: USDK
 - base: ORBS
   market:
-    identifier: probit
-    name: Probit
-  target: ETH
-- base: ORBS
-  market:
     identifier: quoine
     name: Liquid
   target: BTC
@@ -89,3 +109,8 @@ tickers:
     identifier: quoine
     name: Liquid
   target: ETH
+- base: ORBS
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH

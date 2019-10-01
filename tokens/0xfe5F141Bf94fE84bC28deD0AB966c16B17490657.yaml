@@ -59,26 +59,21 @@ links:
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
 liquidity_score: 29.749
-market_cap_rank: 272
+market_cap_rank: 279
 name: Cred
 public_interest_score: 29.495
 symbol: lba
 tickers:
 - base: LBA
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: LBA
+  market:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: LBA
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
-- base: LBA
-  market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
 - base: LBA
   market:
     identifier: biki
@@ -98,6 +93,11 @@ tickers:
   market:
     identifier: bitmax
     name: BitMax
+  target: BTC
+- base: LBA
+  market:
+    identifier: bitmax
+    name: BitMax
   target: ETH
 - base: LBA
   market:
@@ -111,19 +111,54 @@ tickers:
   target: BTC
 - base: LBA
   market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: LBA
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: LBA
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
 - base: LBA
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: idex
+    name: Idex
   target: ETH
 - base: LBA
   market:
     identifier: mxc
     name: MXC
   target: USDT
+- base: LBA
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: LBA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: LBA
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
+- base: LBA
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
+- base: LBA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: LBA
   market:
     identifier: yobit
@@ -138,9 +173,19 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
 - base: LBA
   market:
     identifier: yobit
     name: YoBit
   target: USD
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

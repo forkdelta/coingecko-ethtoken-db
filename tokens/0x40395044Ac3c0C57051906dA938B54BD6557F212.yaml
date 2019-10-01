@@ -46,11 +46,26 @@ links:
   telegram_channel_identifier: mobilegochat
   twitter_screen_name: Mobilegooff
 liquidity_score: 1.0
-market_cap_rank: 604
+market_cap_rank: 718
 name: MobileGo
 public_interest_score: 28.137
 symbol: mgo
 tickers:
+- base: MGO
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH
+- base: MGO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: MGO
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: MGO
   market:
     identifier: ethfinex
@@ -58,9 +73,9 @@ tickers:
   target: ETH
 - base: MGO
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: BTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: MGO
   market:
     identifier: idax
@@ -68,14 +83,74 @@ tickers:
   target: BTC
 - base: MGO
   market:
+    identifier: idax
+    name: Idax
+  target: USDT
+- base: MGO
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
 - base: MGO
   market:
-    identifier: waves
-    name: Waves Platform
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: MGO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
+- base: MGO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
   target: WAVES
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WEUR
+- base: MGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WUSD
+- base: EMGO
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WUSD
+- base: MGO
+  market:
+    identifier: tokenjar
+    name: TokenJar
+  target: WETH
 - base: MGO
   market:
     identifier: yobit
@@ -91,6 +166,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: MGO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: MGO
   market:
     identifier: yobit

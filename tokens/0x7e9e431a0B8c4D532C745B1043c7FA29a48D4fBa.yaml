@@ -52,30 +52,20 @@ links:
   subreddit_url: https://www.reddit.com/r/EOSDAC/
   twitter_screen_name: eosdac
 liquidity_score: 33.057
-market_cap_rank: 424
+market_cap_rank: 426
 name: eosDAC
 public_interest_score: 25.433
 symbol: eosdac
 tickers:
 - base: EOSDAC
   market:
-    identifier: aex
-    name: AEX
-  target: USDT
-- base: EOSDAC
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
-- base: EOSDAC
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
-- base: EOSDAC
-  market:
     identifier: bitsonic
     name: Bitsonic
+  target: EOS
+- base: EOSDAC
+  market:
+    identifier: daybit
+    name: Daybit
   target: EOS
 - base: EOSDAC
   market:
@@ -84,9 +74,19 @@ tickers:
   target: ETH
 - base: EOSDAC
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: idax
+    name: Idax
   target: ETH
+- base: EOSDAC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: EOSDAC
+  market:
+    identifier: newdex
+    name: Newdex
+  target: EOS
 - base: EOSDAC
   market:
     identifier: openledger
@@ -96,7 +96,17 @@ tickers:
   market:
     identifier: openledger
     name: OpenLedger DEX
+  target: BITEUR
+- base: EOSDAC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
   target: BITUSD
+- base: EOSDAC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
+  target: BTC
 - base: EOSDAC
   market:
     identifier: openledger
