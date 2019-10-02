@@ -73,7 +73,7 @@ links:
   telegram_channel_identifier: goblockparty
   twitter_screen_name: goblockparty
 liquidity_score: 2.116
-market_cap_rank: 935
+market_cap_rank: 955
 name: Blockparty
 public_interest_score: 25.604
 symbol: boxx
@@ -85,6 +85,11 @@ tickers:
   target: BTC
 - base: BOXX
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: BOXX
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -93,3 +98,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: BOXX
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
