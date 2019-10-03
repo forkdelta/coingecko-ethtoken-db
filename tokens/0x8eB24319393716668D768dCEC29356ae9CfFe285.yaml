@@ -1,8 +1,8 @@
 ---
 address: '0x8eB24319393716668D768dCEC29356ae9CfFe285'
-coingecko_rank: 135
-coingecko_score: 42.963
-community_score: 19.6
+coingecko_rank: 130
+coingecko_score: 43.383
+community_score: 19.054
 description: >-
   SingularityNET is a decentralized marketplace for Artificial Intelligence (AI). The business value of
   AI is becoming clearer each day; however, there’s a significant gap between the people developing AI
@@ -41,7 +41,7 @@ description: >-
   Robotics built Sophia, the most expressive humanoid robot to date. Sophia is also a proud member of
   the SingularityNET team. The team recently released the alpha version of the platform and is planning
   on launching a public beta sometime in the middle of 2018.
-developer_score: 67.539
+developer_score: 70.131
 id: singularitynet
 image:
   large: https://assets.coingecko.com/coins/images/2138/large/singularitynet.png?1548609559
@@ -62,10 +62,10 @@ links:
   subreddit_url: https://www.reddit.com/r/SingularityNetsub/
   telegram_channel_identifier: singularitynet
   twitter_screen_name: singularity_net
-liquidity_score: 28.967
-market_cap_rank: 174
+liquidity_score: 28.572
+market_cap_rank: 178
 name: SingularityNET
-public_interest_score: 25.272
+public_interest_score: 25.523
 symbol: agi
 tickers:
 - base: AGI
@@ -110,6 +110,11 @@ tickers:
   target: ETH
 - base: AGI
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: AGI
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -148,6 +153,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: AGI
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
 - base: AGI
   market:
     identifier: tidex

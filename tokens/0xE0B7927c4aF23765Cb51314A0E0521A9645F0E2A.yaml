@@ -1,8 +1,8 @@
 ---
 address: '0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A'
-coingecko_rank: 114
-coingecko_score: 44.718
-community_score: 40.653
+coingecko_rank: 115
+coingecko_score: 44.771
+community_score: 40.111
 description: >-
   Digix makes it possible to buy gold in an efficient manner via cryptocurrency by providing investors
   with a tokenized version of gold so you don’t have to physically own or store it. Digix has two cryptocurrencies,
@@ -41,7 +41,7 @@ description: >-
   2018, DGD reached an all-time high of over 400 dollars. When Digix finally delivers the DGX tokens and
   the rewards to DGD participants start rolling in, we might see an even higher demand for DigixDAO. When
   DGX goes live, it will be available for purchase with Ether on the Digix marketplace.
-developer_score: 46.678
+developer_score: 47.573
 id: digixdao
 image:
   large: https://assets.coingecko.com/coins/images/397/large/dgd.png?1547034124
@@ -68,10 +68,10 @@ links:
     - https://github.com/DigixGlobal/dijix
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
-liquidity_score: 34.17
-market_cap_rank: 114
+liquidity_score: 34.218
+market_cap_rank: 121
 name: DigixDAO
-public_interest_score: 27.937
+public_interest_score: 27.378
 symbol: dgd
 tickers:
 - base: DGD
@@ -126,6 +126,11 @@ tickers:
   target: ETH
 - base: DGD
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DGD
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -143,12 +148,32 @@ tickers:
   market:
     identifier: okex
     name: OKEx
+  target: BTC
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: DGD
   market:
     identifier: okex_korea
     name: OKEx Korea
   target: ETH
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: DGD
   market:
     identifier: openledger
@@ -184,11 +209,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: DGD
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
 - base: DGD
   market:
     identifier: whitebit

@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 74
-coingecko_score: 49.655
-community_score: 45.699
+coingecko_rank: 71
+coingecko_score: 50.179
+community_score: 46.032
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -43,7 +43,7 @@ description: >-
   list. Enjin Coin is an ambitious project that aims to integrate online virtual gaming with decentralized
   technologies. Enjin Coin project promises a lot, and it is only with the passage of time that we will
   able to see if it can deliver on those promises.
-developer_score: 51.249
+developer_score: 50.44
 id: enjincoin
 image:
   large: https://assets.coingecko.com/coins/images/1102/large/enjin-coin-logo.png?1547035078
@@ -64,10 +64,10 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 39.899
-market_cap_rank: 74
+liquidity_score: 43.45
+market_cap_rank: 76
 name: Enjin Coin
-public_interest_score: 36.056
+public_interest_score: 35.817
 symbol: enj
 tickers:
 - base: ENJ
@@ -100,6 +100,11 @@ tickers:
     identifier: bitasset
     name: BitAsset
   target: TWD
+- base: ENJ
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: ENJ
   market:
     identifier: coin_exchange
@@ -182,6 +187,16 @@ tickers:
   target: BTC
 - base: ENJ
   market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
+- base: ENJ
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -207,8 +222,23 @@ tickers:
   target: KRW
 - base: ENJ
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: ENJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: ENJ
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: ENJ
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: ENJ
   market:
@@ -267,16 +297,11 @@ tickers:
   target: WAVES
 - base: ENJ
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
-- base: ENJ
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
-- base: ENJ
-  market:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: ENJ
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69'
-coingecko_rank: 492
-coingecko_score: 29.584
-community_score: 31.158
+coingecko_rank: 530
+coingecko_score: 28.91
+community_score: 30.754
 description: >-
   IoTeX is the auto-scalable and privacy-centric blockchain infrastructure for the Internet of Things
   (IoT). IoTeX’s global team is comprised of Ph.Ds in Cryptography, Distributed Systems, and Machine Learning,
@@ -40,12 +40,22 @@ links:
   subreddit_url: https://www.reddit.com/r/IoTeX
   telegram_channel_identifier: IoTeXGroup
   twitter_screen_name: iotex_io
-liquidity_score: 31.913
-market_cap_rank: 173
+liquidity_score: 29.168
+market_cap_rank: 176
 name: IoTeX
-public_interest_score: 24.954
+public_interest_score: 25.665
 symbol: iotx
 tickers:
+- base: IOTX
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
+- base: IOTX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: IOTX
   market:
     identifier: codex
@@ -73,6 +83,16 @@ tickers:
   target: WETH
 - base: IOTX
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: IOTX
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: IOTX
+  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -81,25 +101,10 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
-- base: IOTX
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: IOTX
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: IOTX
-  market:
-    identifier: piexgo
-    name: Piexgo
-  target: BTC
-- base: IOTX
-  market:
-    identifier: piexgo
-    name: Piexgo
   target: ETH
 - base: IOTX
   market:
