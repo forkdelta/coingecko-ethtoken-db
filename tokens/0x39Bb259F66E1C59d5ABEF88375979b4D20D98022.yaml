@@ -1,8 +1,8 @@
 ---
 address: '0x39Bb259F66E1C59d5ABEF88375979b4D20D98022'
-coingecko_rank: 595
-coingecko_score: 27.629
-community_score: 28.698
+coingecko_rank: 575
+coingecko_score: 28.022
+community_score: 28.145
 description: >-
   WAX is a decentralized platform that enables anyone to operate a fully functioning virtual marketplace
   with zero investment in security, infrastructure, or payment processing. Developed by the founders of
@@ -27,10 +27,10 @@ links:
   - https://wax.io/
   subreddit_url: https://www.reddit.com/r/WAXtoken
   twitter_screen_name: WAX_io
-liquidity_score: 17.494
-market_cap_rank: 118
+liquidity_score: 21.413
+market_cap_rank: 122
 name: WAX
-public_interest_score: 35.198
+public_interest_score: 34.503
 symbol: waxp
 tickers:
 - base: WAX
@@ -55,6 +55,11 @@ tickers:
   target: WETH
 - base: WAX
   market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: BSC
+- base: WAX
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: ETH
@@ -70,8 +75,23 @@ tickers:
   target: ETH
 - base: WAX
   market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: WAX
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: WAXP
   market:
@@ -128,8 +148,3 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
-- base: WAXP
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH

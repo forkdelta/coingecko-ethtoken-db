@@ -1,11 +1,11 @@
 ---
 address: '0x51DB5Ad35C671a87207d88fC11d593AC0C8415bd'
-coingecko_rank: 496
-coingecko_score: 29.551
-community_score: 17.008
+coingecko_rank: 390
+coingecko_score: 32.002
+community_score: 16.996
 description: >-
   Moeda is a cooperative banking system powered by blockchain, built for everyone
-developer_score: 16.8
+developer_score: 17.659
 id: moeda-loyalty-points
 image:
   large: https://assets.coingecko.com/coins/images/895/large/moeda-loyalty-points.png?1547034720
@@ -26,10 +26,10 @@ links:
     - https://github.com/moedaplatform
   subreddit_url: https://www.reddit.com/r/MoedaBanking
   twitter_screen_name: moedaseeds/
-liquidity_score: 30.101
-market_cap_rank: 144
+liquidity_score: 39.279
+market_cap_rank: 160
 name: Moeda Loyalty Points
-public_interest_score: 25.126
+public_interest_score: 25.117
 symbol: mda
 tickers:
 - base: MDA
@@ -44,6 +44,11 @@ tickers:
   target: ETH
 - base: MDA
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MDA
+  market:
     identifier: okex
     name: OKEx
   target: BTC
@@ -54,11 +59,11 @@ tickers:
   target: ETH
 - base: MDA
   market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: okex
+    name: OKEx
   target: USDT
 - base: MDA
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
