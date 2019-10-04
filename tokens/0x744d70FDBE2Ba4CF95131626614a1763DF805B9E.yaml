@@ -1,8 +1,8 @@
 ---
 address: '0x744d70FDBE2Ba4CF95131626614a1763DF805B9E'
-coingecko_rank: 18
-coingecko_score: 61.113
-community_score: 42.571
+coingecko_rank: 20
+coingecko_score: 60.306
+community_score: 43.236
 description: >-
   Status is a mobile operating system that will completely change the way the world interacts with the
   <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> network.  Designed as a decentralized
@@ -27,7 +27,7 @@ description: >-
 
   SNT is currently available for trade on many online exchanges, including <a href="https://www.coingecko.com/en/exchanges/huobi">Huobi</a>,
   <a href="https://www.coingecko.com/en/exchanges/binance">Binance</a>, and <a href="https://www.coingecko.com/en/exchanges/bittrex">Bittrex</a>.
-developer_score: 86.144
+developer_score: 82.486
 id: status
 image:
   large: https://assets.coingecko.com/coins/images/779/large/status.png?1548610778
@@ -50,12 +50,17 @@ links:
     - https://github.com/status-im/swarms
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
-liquidity_score: 54.675
-market_cap_rank: 84
+liquidity_score: 54.363
+market_cap_rank: 83
 name: Status
 public_interest_score: 43.016
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: SNT
   market:
     identifier: coineal
@@ -70,16 +75,11 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: BTC
 - base: SNT
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: USD
-- base: SNT
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: SNT
   market:
@@ -90,16 +90,31 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: USD
 - base: SNT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: korbit
+    name: Korbit
+  target: KRW
 - base: SNT
   market:
     identifier: kucoin
     name: KuCoin
+  target: ETH
+- base: SNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: SNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: SNT
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: SNT
   market:
@@ -115,4 +130,4 @@ tickers:
   market:
     identifier: zb
     name: ZB
-  target: QC
+  target: BTC

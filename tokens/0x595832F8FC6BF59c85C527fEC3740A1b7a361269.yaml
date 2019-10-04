@@ -1,8 +1,8 @@
 ---
 address: '0x595832F8FC6BF59c85C527fEC3740A1b7a361269'
-coingecko_rank: 257
-coingecko_score: 36.291
-community_score: 45.133
+coingecko_rank: 213
+coingecko_score: 37.705
+community_score: 46.06
 description: >-
   Power Ledger (POWR) is an Australian blockchain-based cryptocurrency and energy trading platform that
   allows for decentralized selling and buying of renewable energy. The platform provides consumers with
@@ -60,8 +60,8 @@ links:
   subreddit_url: https://www.reddit.com/r/PowerLedger/
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
-liquidity_score: 47.526
-market_cap_rank: 149
+liquidity_score: 53.346
+market_cap_rank: 146
 name: Power Ledger
 public_interest_score: 24.415
 symbol: powr
@@ -76,6 +76,16 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: POWR
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: POWR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: POWR
   market:
     identifier: btcmarkets
@@ -178,6 +188,16 @@ tickers:
   target: ETH
 - base: POWR
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: POWR
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: POWR
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -250,4 +270,9 @@ tickers:
   market:
     identifier: uniswap
     name: Uniswap
+  target: ETH
+- base: POWR
+  market:
+    identifier: upbit
+    name: Upbit
   target: ETH

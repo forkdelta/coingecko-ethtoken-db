@@ -1,8 +1,8 @@
 ---
 address: '0xA86a0Da9D05d0771955DF05B44Ca120661aF16DE'
-coingecko_rank: 1535
-coingecko_score: 17.425
-community_score: 19.18
+coingecko_rank: 1519
+coingecko_score: 17.53
+community_score: 19.602
 description: >-
   OTCBTC is a blockchain OTC and crypto exchange platform. We are committed to improve blockchain asset
   liquidity and bring more people to the blockchain industry.
@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: otcbtc_en
   twitter_screen_name: otcbtc
 liquidity_score: 1.0
-market_cap_rank: 948
+market_cap_rank: 947
 name: OTCBTC Token
 public_interest_score: 25.285
 symbol: otb
@@ -37,12 +37,17 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: NEO
+- base: OTB
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: BTC
+- base: XLM
   market:
     identifier: otcbtc
     name: OTCBTC
   target: OTB
-- base: XLM
+- base: NEO
   market:
     identifier: otcbtc
     name: OTCBTC
@@ -57,12 +62,12 @@ tickers:
     identifier: otcbtc
     name: OTCBTC
   target: OTB
-- base: LTC
+- base: EOS
   market:
     identifier: otcbtc
     name: OTCBTC
   target: OTB
-- base: EOS
+- base: LTC
   market:
     identifier: otcbtc
     name: OTCBTC
