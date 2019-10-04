@@ -1,8 +1,8 @@
 ---
 address: '0x1d462414fe14cf489c7A21CaC78509f4bF8CD7c0'
-coingecko_rank: 628
-coingecko_score: 26.956
-community_score: 9.251
+coingecko_rank: 618
+coingecko_score: 27.03
+community_score: 9.249
 description: >-
   CanYa is a peer to peer market of skilled services - where users are instantly connected to service
   providers. Unlike most ICO's we already have a working product, high user growth and an experienced
@@ -10,7 +10,7 @@ description: >-
   to fund expansion into the international market as well as launching CAN token. CanYa has again raised
   the bar for ICOs following a major acquisition of Bountysource and its passionate 46,000 open-source
   developer community.
-developer_score: 17.816
+developer_score: 17.815
 id: canyacoin
 image:
   large: https://assets.coingecko.com/coins/images/2027/large/canyacoin.png?1547564606
@@ -30,12 +30,22 @@ links:
     - https://github.com/CanYaCoinSale/SmartContract
   telegram_channel_identifier: canyacoin
   twitter_screen_name: canyacoin
-liquidity_score: 34.431
-market_cap_rank: 749
+liquidity_score: 35.154
+market_cap_rank: 753
 name: CanYaCoin
-public_interest_score: 27.233
+public_interest_score: 26.441
 symbol: can
 tickers:
+- base: CAN
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: CAN-677
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: CAN
   market:
     identifier: coss
@@ -60,6 +70,11 @@ tickers:
   market:
     identifier: idax
     name: Idax
+  target: ETH
+- base: CAN
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: FBC734C9-5E25-419C-A184-283EF76F58C6
   market:

@@ -1,13 +1,13 @@
 ---
 address: '0xe81D72D14B1516e68ac3190a46C93302Cc8eD60f'
-coingecko_rank: 2600
-coingecko_score: 10.19
-community_score: 7.218
+coingecko_rank: 2619
+coingecko_score: 10.127
+community_score: 7.638
 description: >-
   Coinlancer is an Ethereum based platform where freelancers and clients connect remotely through smart
   contracts. On Coinlancer, clients post job opportunities and job seekers avail the same. Payments for
   a job offer are made in CL token once the rules set in the smart contracts are met.
-developer_score: 14.048
+developer_score: 13.706
 id: coinlancer
 image:
   large: https://assets.coingecko.com/coins/images/2445/large/coinlancer.png?1516072576
@@ -25,8 +25,8 @@ links:
     - https://github.com/Coinlancer/Coinlancer
   telegram_channel_identifier: https://t.me/Coinlancer
   twitter_screen_name: Coin_Lancer
-liquidity_score: 12.247
-market_cap_rank: 3066
+liquidity_score: 11.836
+market_cap_rank: 2561
 name: Coinlancer
 public_interest_score: 24.238
 symbol: cl
@@ -41,6 +41,11 @@ tickers:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
+- base: CL
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: CL
   market:
     identifier: mercatox
@@ -61,11 +66,6 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: CL
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: CL
   market:
     identifier: yobit
