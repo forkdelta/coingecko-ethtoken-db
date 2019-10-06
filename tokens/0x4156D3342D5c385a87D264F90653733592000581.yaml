@@ -1,7 +1,7 @@
 ---
 address: '0x4156D3342D5c385a87D264F90653733592000581'
-coingecko_rank: 738
-coingecko_score: 25.272
+coingecko_rank: 771
+coingecko_score: 24.936
 community_score: 10.214
 description: >-
   The SALT platform is meant to facilitate getting a loan, where the company holds your cryptocoins as
@@ -29,8 +29,8 @@ links:
     - https://github.com/unyo/saltcoin
   telegram_channel_identifier: SALTLendingDiscussion
   twitter_screen_name: SALTLending
-liquidity_score: 18.135
-market_cap_rank: 276
+liquidity_score: 16.516
+market_cap_rank: 277
 name: SALT
 public_interest_score: 38.365
 symbol: salt
@@ -40,11 +40,6 @@ tickers:
     identifier: altilly
     name: Altilly
   target: BTC
-- base: SALT
-  market:
-    identifier: altilly
-    name: Altilly
-  target: ETH
 - base: SALT
   market:
     identifier: bamboo_relay
@@ -60,6 +55,11 @@ tickers:
     identifier: boa
     name: BOA Exchange
   target: ETH
+- base: SALT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: SALT
   market:
     identifier: coin_exchange
@@ -80,6 +80,16 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: SALT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: SALT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: SALT
   market:
     identifier: hitbtc

@@ -1,8 +1,8 @@
 ---
 address: '0xd1D3b662D91faaa4A5d809D804fa70550B2B3E9C'
-coingecko_rank: 4193
+coingecko_rank: 4209
 coingecko_score: 5.299
-community_score: 6.444
+community_score: 6.445
 description: >-
   Mobile accessible ecosystem for pet health. Operated by a not-for-profit organisation.
 developer_score: 0.0
@@ -24,7 +24,7 @@ links:
   telegram_channel_identifier: petcoin_australia
   twitter_screen_name: Petcoin2
 liquidity_score: 1.0
-market_cap_rank: 2921
+market_cap_rank: 3411
 name: Petcoin
 public_interest_score: 34.881
 symbol: petc
@@ -38,7 +38,17 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
+  target: BTC
+- base: PETC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: DOGE
+- base: PETC
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: ETH
 - base: PETC
   market:
     identifier: trade_satoshi

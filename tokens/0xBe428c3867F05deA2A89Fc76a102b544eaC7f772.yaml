@@ -1,7 +1,7 @@
 ---
 address: '0xBe428c3867F05deA2A89Fc76a102b544eaC7f772'
-coingecko_rank: 3604
-coingecko_score: 6.836
+coingecko_rank: 3656
+coingecko_score: 6.68
 community_score: 10.078
 description: >-
   CyberVein was founded at the beginning of a world class structure, and is a public link to open to the
@@ -123,8 +123,8 @@ links:
   - http://www.cybervein.org/
   telegram_channel_identifier: cybervein
   twitter_screen_name: cyberveingroup
-liquidity_score: 9.518
-market_cap_rank: 2496
+liquidity_score: 8.741
+market_cap_rank: 2378
 name: CyberVeinToken
 public_interest_score: 24.128
 symbol: cvt
@@ -148,6 +148,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: CVT
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: CVT
   market:
@@ -158,9 +163,19 @@ tickers:
   market:
     identifier: okex
     name: OKEx
+  target: BTC
+- base: CVT
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: CVT
   market:
     identifier: okex
     name: OKEx
   target: OKB
+- base: CVT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
