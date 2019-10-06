@@ -1,7 +1,7 @@
 ---
 address: '0x75231F58b43240C9718Dd58B4967c5114342a86c'
-coingecko_rank: 418
-coingecko_score: 31.04
+coingecko_rank: 415
+coingecko_score: 31.078
 community_score: 0.0
 description: >-
   <a href="https://www.coingecko.com/en/exchanges/okex">OKEx</a>, the 2nd most popular cryptocurrency
@@ -43,8 +43,8 @@ links:
   - https://www.okex.com/pages/products/okb.html
   telegram_channel_identifier: okexofficial_en
   twitter_screen_name: okex_
-liquidity_score: 60.009
-market_cap_rank: 19
+liquidity_score: 60.266
+market_cap_rank: 21
 name: OKB
 public_interest_score: 32.611
 symbol: okb
@@ -64,17 +64,7 @@ tickers:
     identifier: lbank
     name: Lbank
   target: USDT
-- base: AE
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
 - base: WAVES
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: HPB
   market:
     identifier: okex
     name: OKEx
@@ -84,22 +74,12 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
+- base: HPB
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: DCR
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: ZCO
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: CAI
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: LET
   market:
     identifier: okex
     name: OKEx
@@ -109,17 +89,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: CIT
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: CVT
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: VITE
+- base: LET
   market:
     identifier: okex
     name: OKEx
@@ -129,12 +99,22 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
+- base: XAS
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: CIT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: KAN
   market:
     identifier: okex
     name: OKEx
   target: OKB
-- base: WIN
+- base: ZCO
   market:
     identifier: okex
     name: OKEx
@@ -149,7 +129,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: XAS
+- base: SDA
   market:
     identifier: okex
     name: OKEx
@@ -159,13 +139,23 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: SDA
+- base: VITE
   market:
     identifier: okex
     name: OKEx
   target: OKB
-- base: OKB
+- base: CVT
   market:
     identifier: okex
     name: OKEx
-  target: USDK
+  target: OKB
+- base: CAI
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: WIN
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB

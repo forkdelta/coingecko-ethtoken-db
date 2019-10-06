@@ -1,8 +1,8 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 586
-coingecko_score: 27.681
-community_score: 7.837
+coingecko_rank: 583
+coingecko_score: 27.648
+community_score: 7.836
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
@@ -26,8 +26,8 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 33.173
-market_cap_rank: 194
+liquidity_score: 32.984
+market_cap_rank: 193
 name: STASIS EURO
 public_interest_score: 27.242
 symbol: eurs
@@ -76,28 +76,13 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: DAI
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: EOSDT
-- base: BTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: ETH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -107,17 +92,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: DASH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: ZEC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -132,11 +112,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: TUSD
 - base: EURS
   market:
     identifier: kyber_network
@@ -167,17 +142,7 @@ tickers:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: DAI
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: XMR
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: TUSD
+- base: DOGE
   market:
     identifier: tokens_net
     name: TokensNet
@@ -192,27 +157,7 @@ tickers:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: LTC
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: DOGE
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: XTZ
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: GUSD
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: ADA
+- base: XMR
   market:
     identifier: tokens_net
     name: TokensNet
@@ -222,7 +167,37 @@ tickers:
     identifier: tokens_net
     name: TokensNet
   target: EURS
+- base: DAI
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
+- base: ADA
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
+- base: XTZ
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
 - base: USDC
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
+- base: TUSD
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
+- base: LTC
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
+- base: GUSD
   market:
     identifier: tokens_net
     name: TokensNet

@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 66
-coingecko_score: 50.966
-community_score: 32.458
+coingecko_rank: 67
+coingecko_score: 50.895
+community_score: 32.443
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -59,7 +59,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/loopring-lrc/">CoinBureau</a> for the full review
   of Loopring.
-developer_score: 72.028
+developer_score: 72.168
 id: loopring
 image:
   large: https://assets.coingecko.com/coins/images/913/large/Loopring.png?1569556862
@@ -83,8 +83,8 @@ links:
   subreddit_url: https://www.reddit.com/r/loopring
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
-liquidity_score: 43.595
-market_cap_rank: 100
+liquidity_score: 43.078
+market_cap_rank: 102
 name: Loopring
 public_interest_score: 26.894
 symbol: lrc
@@ -109,6 +109,16 @@ tickers:
     identifier: bitasset
     name: BitAsset
   target: TWD
+- base: LRC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: LRC
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: LRC
   market:
     identifier: coinbit
@@ -154,6 +164,11 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: USDT
+- base: LRC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: LRC
   market:
     identifier: hitbtc
@@ -204,11 +219,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: LRC
   market:
     identifier: yobit

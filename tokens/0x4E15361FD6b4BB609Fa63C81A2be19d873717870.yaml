@@ -1,8 +1,8 @@
 ---
 address: '0x4E15361FD6b4BB609Fa63C81A2be19d873717870'
-coingecko_rank: 98
-coingecko_score: 46.386
-community_score: 31.548
+coingecko_rank: 100
+coingecko_score: 46.312
+community_score: 31.576
 description: >-
   FANTOM is a new DAG based Smart Contract platform that intends to solve the scalability issues of existing
   public distributed ledger technologies.
@@ -17,7 +17,7 @@ description: >-
 
   The mission of FANTOM is to provide compatibility between all transaction bodies around the world, and
   create an ecosystem which allows real-time transactions and data sharing with low cost.
-developer_score: 56.961
+developer_score: 56.978
 id: fantom
 image:
   large: https://assets.coingecko.com/coins/images/4001/large/Fantom.png?1558015016
@@ -40,8 +40,8 @@ links:
   subreddit_url: https://www.reddit.com/r/FantomFoundation/
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
-liquidity_score: 39.797
-market_cap_rank: 137
+liquidity_score: 39.369
+market_cap_rank: 135
 name: Fantom
 public_interest_score: 31.412
 symbol: ftm
@@ -81,6 +81,11 @@ tickers:
     identifier: binance
     name: Binance
   target: TUSD
+- base: FTM
+  market:
+    identifier: binance
+    name: Binance
+  target: USDC
 - base: FTM-A64
   market:
     identifier: binance_dex
@@ -133,9 +138,9 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: FTM
   market:
     identifier: okex
@@ -145,7 +150,7 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: USDK
+  target: USDT
 - base: FTM
   market:
     identifier: okex_korea

@@ -1,8 +1,8 @@
 ---
 address: '0x8f8221aFbB33998d8584A2B05749bA73c37a938a'
 coingecko_rank: 142
-coingecko_score: 41.784
-community_score: 40.515
+coingecko_score: 41.923
+community_score: 40.17
 description: >-
   A decentralized network built on top of Ethereum, which allows anyone, anywhere to request a payment.
   The request can be detected and paid in a secure way, without the need to involve a third party. The
@@ -41,8 +41,8 @@ links:
     - https://github.com/RequestNetwork/Request_SmartContracts
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
-liquidity_score: 21.672
-market_cap_rank: 254
+liquidity_score: 22.595
+market_cap_rank: 258
 name: Request
 public_interest_score: 43.943
 symbol: req
@@ -96,11 +96,6 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: REQ
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
 - base: REQ
   market:
@@ -112,6 +107,11 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: REQ
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: REQ
   market:
     identifier: gopax
@@ -164,19 +164,14 @@ tickers:
   target: WETH
 - base: REQ
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: REQ
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
-- base: REQ
-  market:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: REQ
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
 - base: REQ
   market:
     identifier: yobit

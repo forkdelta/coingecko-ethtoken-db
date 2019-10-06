@@ -1,8 +1,8 @@
 ---
 address: '0xf7B098298f7C69Fc14610bf71d5e02c60792894C'
-coingecko_rank: 535
-coingecko_score: 28.556
-community_score: 30.424
+coingecko_rank: 539
+coingecko_score: 28.55
+community_score: 30.627
 description: >-
   Matchpool is a decentralized matchmaking protocol where it helps people matches with each other. Examples
   include dating applications, membership clubs, business matching, and so on. The matchpool platforms
@@ -36,7 +36,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Matchpool
   twitter_screen_name: matchpool
 liquidity_score: 1.0
-market_cap_rank: 1073
+market_cap_rank: 1076
 name: Guppy
 public_interest_score: 37.735
 symbol: gup
@@ -48,9 +48,19 @@ tickers:
   target: WETH
 - base: GUP
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: GUP
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: GUP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: GUP
   market:
     identifier: livecoin

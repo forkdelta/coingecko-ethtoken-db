@@ -1,8 +1,8 @@
 ---
 address: '0xFFE02ee4C69eDf1b340fCaD64fbd6b37a7b9e265'
-coingecko_rank: 1236
-coingecko_score: 19.855
-community_score: 9.137
+coingecko_rank: 1262
+coingecko_score: 19.628
+community_score: 9.136
 description: >-
   NANJCOIN is an Ethereum token developed and managed by the users of 2ch.sc’s “Nandemo Jikkyou” message
   board, or NanJ for short. The Nandemo Jikkyou board is a place where passionate sports fans (also known
@@ -40,7 +40,7 @@ links:
     - https://github.com/NANJ-COIN/token
   twitter_screen_name: nanjcoin
 liquidity_score: 1.0
-market_cap_rank: 845
+market_cap_rank: 878
 name: NANJCOIN
 public_interest_score: 27.702
 symbol: nanj
@@ -54,6 +54,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: BTC
+- base: NANJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
 - base: NANJ
   market:
@@ -80,6 +85,11 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: USDT
+- base: NANJ
+  market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH
 - base: NANJ
   market:
     identifier: tokenjar

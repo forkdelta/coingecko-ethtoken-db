@@ -1,8 +1,8 @@
 ---
 address: '0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6'
 coingecko_rank: 60
-coingecko_score: 52.231
-community_score: 41.945
+coingecko_score: 52.242
+community_score: 41.805
 description: >-
   The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments.
   It’s complementary to the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> blockchain
@@ -35,7 +35,7 @@ description: >-
 
   Raiden can be used for a wide variety of applications and purposes such as Micropayments For Content
   Distribution, Decentralized M2M Markets, API Access and Fast Decentralized Exchanges."
-developer_score: 81.444
+developer_score: 81.439
 id: raiden-network
 image:
   large: https://assets.coingecko.com/coins/images/1132/large/raiden-logo.jpg?1547035131
@@ -58,8 +58,8 @@ links:
     - https://github.com/raiden-network/raiden/
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
-liquidity_score: 30.297
-market_cap_rank: 221
+liquidity_score: 30.175
+market_cap_rank: 220
 name: Raiden Network Token
 public_interest_score: 28.334
 symbol: rdn
@@ -69,6 +69,16 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: RDN
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: RDN
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
 - base: RDN
   market:
     identifier: ddex
@@ -121,6 +131,11 @@ tickers:
   target: ETH
 - base: RDN
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: RDN
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
@@ -139,3 +154,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: RDN
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

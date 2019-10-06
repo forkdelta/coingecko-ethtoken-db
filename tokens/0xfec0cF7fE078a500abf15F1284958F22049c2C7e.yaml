@@ -1,8 +1,8 @@
 ---
 address: '0xfec0cF7fE078a500abf15F1284958F22049c2C7e'
-coingecko_rank: 1875
-coingecko_score: 14.842
-community_score: 35.107
+coingecko_rank: 1818
+coingecko_score: 15.183
+community_score: 35.038
 description: >-
   Maecenas is the first open blockchain platform that democratises access to Fine Art
 developer_score: 12.0
@@ -24,17 +24,27 @@ links:
     - https://github.com/cofoundit/cfi-maecenas
   subreddit_url: https://www.reddit.com/r/Maecenas
   twitter_screen_name: maecenasart
-liquidity_score: 1.281
-market_cap_rank: 5262
+liquidity_score: 3.074
+market_cap_rank: 2359
 name: Maecenas
 public_interest_score: 28.09
 symbol: art
 tickers:
 - base: ART
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ART
+  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: ART
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: ART
   market:
     identifier: forkdelta
@@ -55,6 +65,11 @@ tickers:
     identifier: gbx
     name: Gibraltar Blockchain Exchange
   target: USD
+- base: ART
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: ART
   market:
     identifier: idex

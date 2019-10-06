@@ -1,8 +1,8 @@
 ---
 address: '0x0F5D2fB29fb7d3CFeE444a200298f468908cC942'
 coingecko_rank: 62
-coingecko_score: 51.616
-community_score: 44.2
+coingecko_score: 51.7
+community_score: 44.021
 description: >-
   Decentraland is an Ethereum-powered virtual reality platform. In this virtual world, you purchase plots
   of land that you can later traverse, build upon, and monetize. There’s no limit to what you can do.
@@ -63,8 +63,8 @@ links:
     - https://github.com/decentraland/marketplace
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
-liquidity_score: 47.61
-market_cap_rank: 88
+liquidity_score: 47.952
+market_cap_rank: 85
 name: Decentraland
 public_interest_score: 27.275
 symbol: mana
@@ -84,11 +84,6 @@ tickers:
     identifier: altilly
     name: Altilly
   target: ETH
-- base: MANA
-  market:
-    identifier: atomars
-    name: Atomars
-  target: USDT
 - base: MANA
   market:
     identifier: bamboo_relay
@@ -146,14 +141,19 @@ tickers:
   target: WETH
 - base: MANA
   market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: USDT
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: MNA
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
+  target: ETH
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MANA
   market:
     identifier: fcoin
@@ -166,8 +166,8 @@ tickers:
   target: USDT
 - base: MANA
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: MANA
   market:
@@ -178,16 +178,6 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: MANA
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: MANA
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: ETH
 - base: MANA
   market:
@@ -204,11 +194,6 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
-- base: MANA
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: USDT
 - base: MANA
   market:
     identifier: radar_relay
@@ -229,3 +214,13 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

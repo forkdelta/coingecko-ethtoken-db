@@ -1,8 +1,8 @@
 ---
 address: '0x3597bfD533a99c9aa083587B074434E61Eb0A258'
-coingecko_rank: 323
-coingecko_score: 33.91
-community_score: 44.879
+coingecko_rank: 324
+coingecko_score: 33.8
+community_score: 44.719
 description: >-
   Our vision is to create a global exchange using Ethereum blockchain, where everyone on this planet has
   the opportunity to buy and sell mobile bandwidth in any country just like you buy foreign currencies
@@ -24,8 +24,8 @@ links:
   subreddit_url: https://www.reddit.com/r/dentcoin
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
-liquidity_score: 32.446
-market_cap_rank: 158
+liquidity_score: 32.128
+market_cap_rank: 157
 name: Dent
 public_interest_score: 31.854
 symbol: dent
@@ -87,11 +87,6 @@ tickers:
   target: KRW
 - base: DENT
   market:
-    identifier: cpdax
-    name: CPDAX
-  target: KRW
-- base: DENT
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -105,6 +100,16 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: DENT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DENT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: DENT
   market:
     identifier: idex
@@ -122,8 +127,13 @@ tickers:
   target: BTC
 - base: DENT
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: DENT
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
@@ -207,11 +217,6 @@ tickers:
   target: ETH
 - base: DENT
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: DENT
-  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -225,8 +230,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
-- base: DENT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

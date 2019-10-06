@@ -1,8 +1,8 @@
 ---
 address: '0x7a0e91c4204355e0A6bBf746dc0B7E32dFEFDecf'
-coingecko_rank: 3271
-coingecko_score: 7.613
-community_score: 8.511
+coingecko_rank: 3441
+coingecko_score: 7.242
+community_score: 8.509
 description: >-
   Stable coin change 1:1 euro
 developer_score: 0.0
@@ -25,8 +25,8 @@ links:
     - https://github.com/SocialRemit/SOL
   telegram_channel_identifier: SocialRemit
   twitter_screen_name: Socialremit_uk
-liquidity_score: 10.421
-market_cap_rank: 2269
+liquidity_score: 8.568
+market_cap_rank: 5521
 name: EURO TOKEN
 public_interest_score: 34.01
 symbol: sreur
@@ -65,9 +65,14 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: USDT
+- base: SREUR
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
   target: ETH
 - base: SREUR
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: USDT
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD

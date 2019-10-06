@@ -1,8 +1,8 @@
 ---
 address: '0x6F919D67967a97EA36195A2346d9244E60FE0dDB'
-coingecko_rank: 1275
-coingecko_score: 19.543
-community_score: 8.78
+coingecko_rank: 1296
+coingecko_score: 19.309
+community_score: 8.781
 description: >-
   Blockcloud, a new approach that combines the advantages of Service-centric Networking (SCN) and blockchain
   to empower IoT. In Blockcloud, SCN forms the underlying physical network that provides connectivity,
@@ -57,12 +57,22 @@ links:
   - https://www.block-cloud.io
   telegram_channel_identifier: BlockcloudTeam
   twitter_screen_name: BlockcloudTeam
-liquidity_score: 23.866
-market_cap_rank: 896
+liquidity_score: 22.69
+market_cap_rank: 867
 name: Blockcloud
 public_interest_score: 24.619
 symbol: bloc
 tickers:
+- base: BLOC
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: BLOC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: BLOC
   market:
     identifier: coin_exchange
@@ -78,3 +88,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: BLOC
+  market:
+    identifier: lbank
+    name: Lbank
+  target: USDT

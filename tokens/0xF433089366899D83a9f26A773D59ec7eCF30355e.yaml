@@ -1,7 +1,7 @@
 ---
 address: '0xF433089366899D83a9f26A773D59ec7eCF30355e'
-coingecko_rank: 514
-coingecko_score: 29.019
+coingecko_rank: 500
+coingecko_score: 29.3
 community_score: 10.039
 description: >-
   Metal (MTL) is a blockchain project that wants to simplify cryptocurrencies and make them more accessible
@@ -28,8 +28,8 @@ links:
   - https://www.metalpay.com/
   telegram_channel_identifier: metalpay
   twitter_screen_name: metalpaysme
-liquidity_score: 49.199
-market_cap_rank: 124
+liquidity_score: 51.223
+market_cap_rank: 151
 name: Metal
 public_interest_score: 33.985
 symbol: mtl
@@ -61,9 +61,29 @@ tickers:
   target: ETH
 - base: MTL
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: MTL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MTL
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: MTL
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: MTL
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: B63076F8-80DD-4649-A570-AE3C9CAE55D6
   market:
     identifier: lykke
@@ -104,3 +124,8 @@ tickers:
     identifier: tokenjar
     name: TokenJar
   target: WETH
+- base: MTL
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

@@ -1,8 +1,8 @@
 ---
 address: '0x168296bb09e24A88805CB9c33356536B980D3fC5'
-coingecko_rank: 87
-coingecko_score: 47.515
-community_score: 39.655
+coingecko_rank: 89
+coingecko_score: 47.133
+community_score: 39.777
 description: >-
   RChain is a fundamentally new blockchain platform rooted in a formal model of concurrent and decentralized
   computation. The RChain Cooperative is leveraging that model through correct-by-construction software
@@ -35,7 +35,7 @@ description: >-
   for the end of 2018), RHOC tokens will convert to REV tokens at a 1:1 ratio. The tokens are used to
   compensate node operators for computing and storing system contracts, along with bandwidth resources.
   They’re also a staking currency used for consensus and validator bonding.
-developer_score: 78.859
+developer_score: 78.858
 id: rchain
 image:
   large: https://assets.coingecko.com/coins/images/985/large/rchain-logo.png?1547034877
@@ -54,8 +54,8 @@ links:
     - https://github.com/rchain/rchain
   subreddit_url: https://www.reddit.com/r/RChain
   twitter_screen_name: rchain_coop
-liquidity_score: 14.123
-market_cap_rank: 217
+liquidity_score: 11.534
+market_cap_rank: 224
 name: RChain
 public_interest_score: 25.876
 symbol: rhoc
@@ -80,6 +80,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: RHOC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: RHOC
   market:
     identifier: hotbit

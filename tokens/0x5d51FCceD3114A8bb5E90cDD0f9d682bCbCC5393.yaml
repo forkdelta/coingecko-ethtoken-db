@@ -1,8 +1,8 @@
 ---
 address: '0x5d51FCceD3114A8bb5E90cDD0f9d682bCbCC5393'
-coingecko_rank: 1223
-coingecko_score: 19.965
-community_score: 7.709
+coingecko_rank: 1214
+coingecko_score: 20.028
+community_score: 7.711
 description: >-
   B2BX is the first official provider of cryptocurrency liquidity, we provide cryptocurrency liquidity
   for brokers, stock exchanges, hedge funds and other institutional clients. B2BX is an aggregator of
@@ -27,8 +27,8 @@ links:
   - https://www.b2bx.pro/
   telegram_channel_identifier: B2BX_ICO_eng
   twitter_screen_name: b2broker_net
-liquidity_score: 10.44
-market_cap_rank: 220
+liquidity_score: 10.577
+market_cap_rank: 225
 name: B2BX
 public_interest_score: 34.211
 symbol: b2b
@@ -43,11 +43,6 @@ tickers:
     identifier: b2bx
     name: B2BX
   target: B2BX
-- base: ZEC
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
 - base: LTC
   market:
     identifier: b2bx
@@ -58,7 +53,17 @@ tickers:
     identifier: b2bx
     name: B2BX
   target: B2BX
+- base: ZEC
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
 - base: XLM
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
+- base: XEM
   market:
     identifier: b2bx
     name: B2BX
@@ -69,11 +74,6 @@ tickers:
     name: B2BX
   target: B2BX
 - base: EOS
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
-- base: XEM
   market:
     identifier: b2bx
     name: B2BX
@@ -95,6 +95,11 @@ tickers:
   target: USDT
 - base: B2B
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: B2B
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -107,12 +112,12 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
-  target: ETH
+  target: WAVES
 - base: B2B
   market:
-    identifier: tidex
-    name: Tidex
-  target: WAVES
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: B2B
   market:
     identifier: yobit

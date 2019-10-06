@@ -1,8 +1,8 @@
 ---
 address: '0x103c3A209da59d3E7C4A89307e66521e081CFDF0'
-coingecko_rank: 372
-coingecko_score: 32.355
-community_score: 34.698
+coingecko_rank: 374
+coingecko_score: 32.421
+community_score: 34.593
 description: >-
   Genesis Vision is the platform for the private trust management market, built on Blockchain technology
   and Smart Contracts. We combine exchanges, brokers, traders and investors into a decentralized, open
@@ -27,8 +27,8 @@ links:
   subreddit_url: https://www.reddit.com/r/genesisvision
   telegram_channel_identifier: genesisvision
   twitter_screen_name: genesis_vision
-liquidity_score: 25.498
-market_cap_rank: 339
+liquidity_score: 25.771
+market_cap_rank: 338
 name: Genesis Vision
 public_interest_score: 29.18
 symbol: gvt
@@ -78,6 +78,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: GVT
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: 74C70FBF-58A3-4072-82F3-B66DB55AE196
   market:
     identifier: lykke
@@ -107,7 +112,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: RUR
+- base: GVT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: GVT
   market:
     identifier: yobit
