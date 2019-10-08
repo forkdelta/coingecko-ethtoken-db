@@ -1,8 +1,8 @@
 ---
 address: '0xd82Df0ABD3f51425Eb15ef7580fDA55727875f14'
-coingecko_rank: 393
-coingecko_score: 31.836
-community_score: 21.978
+coingecko_rank: 394
+coingecko_score: 31.775
+community_score: 21.744
 description: >-
   DAV is an open source software platform that allows anyone to buy or sell autonomous transportation
   services in a decentralized market. DAV integrates into any autonomous vehicle (car, drone, ship), enabling
@@ -39,16 +39,11 @@ links:
   telegram_channel_identifier: DAVNetwork
   twitter_screen_name: DavNetwork
 liquidity_score: 1.0
-market_cap_rank: 1062
+market_cap_rank: 1061
 name: DAV Network
 public_interest_score: 25.145
 symbol: dav
 tickers:
-- base: DAV
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
 - base: DAV
   market:
     identifier: bitforex
@@ -58,14 +53,19 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: DAV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DAV
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: DAV
   market:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: DAV
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

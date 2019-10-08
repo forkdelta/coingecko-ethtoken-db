@@ -1,8 +1,8 @@
 ---
 address: '0x6Ba460AB75Cd2c56343b3517ffeBA60748654D26'
-coingecko_rank: 1189
-coingecko_score: 20.26
-community_score: 30.562
+coingecko_rank: 1188
+coingecko_score: 20.15
+community_score: 30.137
 description: ""
 developer_score: 0.0
 id: uptoken
@@ -23,13 +23,23 @@ links:
   telegram_channel_identifier: Uptoken
   twitter_screen_name: uptoken
 liquidity_score: 1.0
-market_cap_rank: 952
+market_cap_rank: 935
 name: UpToken
 public_interest_score: 24.597
 symbol: up
 tickers:
 - base: UP
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: UP
+  market:
     identifier: bittrex
     name: Bittrex
+  target: BTC
+- base: UP
+  market:
+    identifier: upbit
+    name: Upbit
   target: BTC

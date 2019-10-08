@@ -1,8 +1,8 @@
 ---
 address: '0x846C66cf71C43f80403B51fE3906B3599D63336f'
-coingecko_rank: 358
-coingecko_score: 32.81
-community_score: 24.839
+coingecko_rank: 344
+coingecko_score: 33.214
+community_score: 24.38
 description: >-
   PumaPay is a comprehensive billing protocol that combines the best of traditional payment methods (credit
   cards) with blockchain-based solutions, and enables a more frequent use of cryptocurrencies in online
@@ -32,12 +32,22 @@ links:
   subreddit_url: https://www.reddit.com/r/PumaPay/
   telegram_channel_identifier: PumaPay
   twitter_screen_name: PumaPay
-liquidity_score: 18.661
-market_cap_rank: 311
+liquidity_score: 21.562
+market_cap_rank: 312
 name: PumaPay
 public_interest_score: 25.937
 symbol: pma
 tickers:
+- base: PMA
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: USDT
+- base: PMA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: PMA
   market:
     identifier: coin_exchange
@@ -62,19 +72,4 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
-  target: BTC
-- base: PMA
-  market:
-    identifier: quoine
-    name: Liquid
-  target: ETH
-- base: PMA
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: PMA
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH

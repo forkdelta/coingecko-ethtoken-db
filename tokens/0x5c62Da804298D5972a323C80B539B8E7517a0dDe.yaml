@@ -1,8 +1,8 @@
 ---
 address: '0x5c62Da804298D5972a323C80B539B8E7517a0dDe'
-coingecko_rank: 4898
-coingecko_score: 4.158
-community_score: 3.834
+coingecko_rank: 4385
+coingecko_score: 4.764
+community_score: 3.622
 description: >-
   VENJOCOIN provides a high value asset decentralized marketplace for consumers to buy authenticated assets
   whose provenance is tracked and stored on the blockchain.
@@ -29,9 +29,19 @@ links:
     - https://github.com/venjocoin/VJC
   telegram_channel_identifier: venjocoin
   twitter_screen_name: VenjoCoin
-liquidity_score: 2.927
-market_cap_rank: 5087
+liquidity_score: 6.226
+market_cap_rank: 3438
 name: VENJOCOIN
 public_interest_score: 26.136
 symbol: vjc
-tickers: []
+tickers:
+- base: VJC
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: VJC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC

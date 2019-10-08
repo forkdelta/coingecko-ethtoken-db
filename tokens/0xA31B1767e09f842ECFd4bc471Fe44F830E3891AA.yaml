@@ -1,6 +1,6 @@
 ---
 address: '0xA31B1767e09f842ECFd4bc471Fe44F830E3891AA'
-coingecko_rank: 3804
+coingecko_rank: 3752
 coingecko_score: 6.291
 community_score: 14.11
 description: >-
@@ -37,6 +37,7 @@ links:
   - https://medium.com/@roobee_invest
   blockchain_site:
   - https://etherscan.io/token/0xa31b1767e09f842ecfd4bc471fe44f830e3891aa
+  - https://ethplorer.io/address/0xa31b1767e09f842ecfd4bc471fe44f830e3891aa
   chat_url:
   - https://www.linkedin.com/company/roobee-invest/
   facebook_username: roobee.invest
@@ -48,8 +49,18 @@ links:
   telegram_channel_identifier: roobee_invest
   twitter_screen_name: Roobee_invest
 liquidity_score: 0.0
-market_cap_rank: null
+market_cap_rank: 4417
 name: Roobee Platform
 public_interest_score: 27.64
 symbol: roobee
-tickers: []
+tickers:
+- base: ROOBEE
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
+- base: ROOBEE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

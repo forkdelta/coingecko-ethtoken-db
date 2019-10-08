@@ -1,8 +1,8 @@
 ---
 address: '0xfF18DBc487b4c2E3222d115952bABfDa8BA52F5F'
-coingecko_rank: 3069
-coingecko_score: 8.219
-community_score: 8.378
+coingecko_rank: 3146
+coingecko_score: 7.873
+community_score: 7.915
 description: >-
   LIFE is a blockchain based reward and transactional token. With broad adoption it also helps registered
   charities all over the world.
@@ -22,8 +22,8 @@ links:
   - https://www.lifelabs.io/
   subreddit_url: https://www.reddit.com/r/LIFElabsHQ/
   twitter_screen_name: LIFElabsHQ
-liquidity_score: 9.123
-market_cap_rank: 1993
+liquidity_score: 7.972
+market_cap_rank: 1965
 name: LIFE
 public_interest_score: 42.999
 symbol: life
@@ -35,6 +35,11 @@ tickers:
   target: BTC
 - base: LIFE
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: LIFE
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -43,18 +48,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: LIFE
-  market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: LIFE
-  market:
-    identifier: tidex
-    name: Tidex
-  target: WAVES
-- base: LIFE
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
