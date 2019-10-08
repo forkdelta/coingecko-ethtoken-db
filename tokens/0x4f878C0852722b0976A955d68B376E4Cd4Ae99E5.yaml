@@ -1,8 +1,8 @@
 ---
 address: '0x4f878C0852722b0976A955d68B376E4Cd4Ae99E5'
-coingecko_rank: 164
-coingecko_score: 40.313
-community_score: 9.074
+coingecko_rank: 161
+coingecko_score: 40.382
+community_score: 8.576
 description: >-
   WaykiChain is a blockchain-based gambling platform that supports Turing devices. Other highlights include
   the fact that it makes use of a <a href="https://www.coingecko.com/en?hashing_algorithm=Delegated+Proof-of-Stake&view=market">DPoS
@@ -48,21 +48,26 @@ links:
     github:
     - https://github.com/WaykiChain/WaykiChain
   twitter_screen_name: wayki_chain
-liquidity_score: 38.503
-market_cap_rank: 875
+liquidity_score: 39.399
+market_cap_rank: 867
 name: WaykiChain
 public_interest_score: 25.417
 symbol: wicc
 tickers:
+- base: WIC
+  market:
+    identifier: bcex
+    name: BCEX
+  target: CKUSD
+- base: WICC-01D
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: WICC
   market:
     identifier: bit_z
     name: Bit-Z
-  target: USDT
-- base: WICC
-  market:
-    identifier: bw
-    name: BW.com
   target: USDT
 - base: WICC
   market:
@@ -71,31 +76,6 @@ tickers:
   target: BTC
 - base: WICC
   market:
-    identifier: dragonex
-    name: DragonEx
-  target: USDT
-- base: WICC
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: WICC
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: WICC
-  market:
-    identifier: hb_top
-    name: Hb.top
-  target: CNYE
-- base: WICC
-  market:
     identifier: idax
     name: Idax
-  target: ETH
-- base: WICC
-  market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
+  target: USDT

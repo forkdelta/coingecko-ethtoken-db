@@ -1,8 +1,8 @@
 ---
 address: '0x1961B3331969eD52770751fC718ef530838b6dEE'
-coingecko_rank: 566
-coingecko_score: 27.963
-community_score: 29.908
+coingecko_rank: 580
+coingecko_score: 27.585
+community_score: 29.267
 description: >-
   BitDegree platform will offer students the best online courses with clear and transparent blockchain-based
   reward system and achievement tracking. It is also a unique tool for businesses to recruit tech talent
@@ -30,16 +30,11 @@ links:
   telegram_channel_identifier: bitdegree
   twitter_screen_name: bitdegree_org
 liquidity_score: 1.0
-market_cap_rank: 1120
+market_cap_rank: 1148
 name: BitDegree
 public_interest_score: 25.069
 symbol: bdg
 tickers:
-- base: BDG
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: BDG
   market:
     identifier: bitmart
@@ -49,6 +44,11 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
+  target: ETH
+- base: BDG
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: BDG
   market:
@@ -65,18 +65,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: BDG
-  market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: BDG
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH
-- base: BDG
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH

@@ -1,8 +1,8 @@
 ---
 address: '0x41dBECc1cdC5517C6f76f6a6E836aDbEe2754DE3'
-coingecko_rank: 347
-coingecko_score: 33.197
-community_score: 26.108
+coingecko_rank: 325
+coingecko_score: 33.65
+community_score: 25.609
 description: >-
   Medicalchain uses blockchain technology to securely store health records and maintain a single version
   of the truth. The different organizations such as doctors, hospitals, laboratories, pharmacists and
@@ -54,8 +54,8 @@ links:
   subreddit_url: https://www.reddit.com/r/medicalchain/
   telegram_channel_identifier: medicalchain
   twitter_screen_name: medical_chain
-liquidity_score: 17.772
-market_cap_rank: 605
+liquidity_score: 20.886
+market_cap_rank: 607
 name: Medicalchain
 public_interest_score: 24.814
 symbol: mtn
@@ -82,9 +82,14 @@ tickers:
   target: USD
 - base: MTN
   market:
-    identifier: idex
-    name: Idex
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: MTN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MTN
   market:
     identifier: quoine
@@ -94,19 +99,4 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
-  target: ETH
-- base: MTN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: MTN
-  market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: MTN
-  market:
-    identifier: tidex
-    name: Tidex
   target: ETH

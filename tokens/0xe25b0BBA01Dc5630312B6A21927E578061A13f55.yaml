@@ -1,8 +1,8 @@
 ---
 address: '0xe25b0BBA01Dc5630312B6A21927E578061A13f55'
-coingecko_rank: 4308
-coingecko_score: 5.079
-community_score: 9.766
+coingecko_rank: 4292
+coingecko_score: 4.947
+community_score: 9.238
 description: >-
   The ShipChain platform is based on a simple, yet powerful solution called "Track and Trace."
 
@@ -38,18 +38,23 @@ links:
   telegram_channel_identifier: shipchain
   twitter_screen_name: shipchain
 liquidity_score: 1.0
-market_cap_rank: 2901
+market_cap_rank: 5029
 name: ShipChain
 public_interest_score: 24.375
 symbol: ship
 tickers:
 - base: SHIP
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: SHIP
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: SHIP
   market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: ETH

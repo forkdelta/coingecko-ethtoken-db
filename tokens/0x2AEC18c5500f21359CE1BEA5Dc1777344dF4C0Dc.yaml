@@ -1,8 +1,8 @@
 ---
 address: '0x2AEC18c5500f21359CE1BEA5Dc1777344dF4C0Dc'
 coingecko_rank: 685
-coingecko_score: 25.941
-community_score: 24.442
+coingecko_score: 25.812
+community_score: 24.028
 description: >-
   FarmaTrust uses the blockchain to allow easy monitoring of drug products from the point of manufacture
   to the point of consumption.
@@ -36,7 +36,7 @@ links:
   telegram_channel_identifier: farmatrust
   twitter_screen_name: farmatrust
 liquidity_score: 1.0
-market_cap_rank: 855
+market_cap_rank: 896
 name: FarmaTrust
 public_interest_score: 24.775
 symbol: ftt
@@ -45,19 +45,14 @@ tickers:
   market:
     identifier: bitforex
     name: Bitforex
+  target: ETH
+- base: FTT
+  market:
+    identifier: bitforex
+    name: Bitforex
   target: USDT
 - base: FTT
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: BTC
-- base: FTT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: FTT
-  market:
     identifier: quoine
     name: Liquid
   target: BTC
@@ -66,8 +61,3 @@ tickers:
     identifier: quoine
     name: Liquid
   target: ETH
-- base: FTT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH

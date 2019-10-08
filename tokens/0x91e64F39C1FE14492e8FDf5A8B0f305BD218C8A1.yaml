@@ -1,8 +1,8 @@
 ---
 address: '0x91e64F39C1FE14492e8FDf5A8B0f305BD218C8A1'
-coingecko_rank: 978
-coingecko_score: 22.483
-community_score: 38.063
+coingecko_rank: 975
+coingecko_score: 22.391
+community_score: 37.542
 description: >-
   Vodi X is positioned on the already widely adopted mobile payments application, Vodi, boasting 5+ million
   users in over 200 countries. Vodi X is building a creatively gamified platform - Phase 1 is leveraging
@@ -34,8 +34,8 @@ links:
   subreddit_url: https://www.reddit.com/r/VodiX/
   telegram_channel_identifier: Vodixgroup
   twitter_screen_name: vodi_app
-liquidity_score: 0.958
-market_cap_rank: 825
+liquidity_score: 1.0
+market_cap_rank: 826
 name: Vodi X
 public_interest_score: 24.941
 symbol: vdx
@@ -44,12 +44,22 @@ tickers:
   market:
     identifier: biki
     name: Biki
-  target: USDT
+  target: BTC
 - base: VDX
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
+    identifier: biki
+    name: Biki
+  target: USDT
+- base: VDX-A17
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: VDX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: VDX
   market:
     identifier: coin_exchange

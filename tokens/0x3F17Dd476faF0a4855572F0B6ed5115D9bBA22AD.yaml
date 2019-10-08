@@ -1,8 +1,8 @@
 ---
 address: '0x3F17Dd476faF0a4855572F0B6ed5115D9bBA22AD'
-coingecko_rank: 950
-coingecko_score: 22.751
-community_score: 36.595
+coingecko_rank: 976
+coingecko_score: 22.391
+community_score: 36.097
 description: >-
   Wibson is a blockchain-based, decentralized data marketplace that provides individuals with a way to
   securely and anonymously sell validated private information in a trusted environment.
@@ -29,8 +29,8 @@ links:
   subreddit_url: https://www.reddit.com/r/wibson/
   telegram_channel_identifier: wibsoncommunity
   twitter_screen_name: WibsonOrg
-liquidity_score: 3.72
-market_cap_rank: 805
+liquidity_score: 1.575
+market_cap_rank: 736
 name: WIBSON
 public_interest_score: 24.503
 symbol: wib
@@ -44,9 +44,19 @@ tickers:
   market:
     identifier: bitforex
     name: Bitforex
+  target: ETH
+- base: WIB
+  market:
+    identifier: bitforex
+    name: Bitforex
   target: USDT
 - base: WIB
   market:
     identifier: coinsuper
     name: Coinsuper
   target: BTC
+- base: WIB
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH

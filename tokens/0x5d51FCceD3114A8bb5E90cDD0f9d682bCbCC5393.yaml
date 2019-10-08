@@ -1,8 +1,8 @@
 ---
 address: '0x5d51FCceD3114A8bb5E90cDD0f9d682bCbCC5393'
-coingecko_rank: 1214
-coingecko_score: 20.028
-community_score: 7.711
+coingecko_rank: 1228
+coingecko_score: 19.869
+community_score: 7.285
 description: >-
   B2BX is the first official provider of cryptocurrency liquidity, we provide cryptocurrency liquidity
   for brokers, stock exchanges, hedge funds and other institutional clients. B2BX is an aggregator of
@@ -27,8 +27,8 @@ links:
   - https://www.b2bx.pro/
   telegram_channel_identifier: B2BX_ICO_eng
   twitter_screen_name: b2broker_net
-liquidity_score: 10.577
-market_cap_rank: 225
+liquidity_score: 10.479
+market_cap_rank: 224
 name: B2BX
 public_interest_score: 34.211
 symbol: b2b
@@ -38,27 +38,7 @@ tickers:
     identifier: b2bx
     name: B2BX
   target: B2BX
-- base: BCH
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
 - base: LTC
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
-- base: XRP
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
-- base: ZEC
-  market:
-    identifier: b2bx
-    name: B2BX
-  target: B2BX
-- base: XLM
   market:
     identifier: b2bx
     name: B2BX
@@ -68,12 +48,32 @@ tickers:
     identifier: b2bx
     name: B2BX
   target: B2BX
-- base: ADA
+- base: XLM
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
+- base: XRP
   market:
     identifier: b2bx
     name: B2BX
   target: B2BX
 - base: EOS
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
+- base: ZEC
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
+- base: ADA
+  market:
+    identifier: b2bx
+    name: B2BX
+  target: B2BX
+- base: BCH
   market:
     identifier: b2bx
     name: B2BX
@@ -100,11 +100,6 @@ tickers:
   target: BTC
 - base: B2B
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: B2B
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -112,7 +107,12 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
-  target: WAVES
+  target: BTC
+- base: B2B
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
 - base: B2B
   market:
     identifier: yobit
@@ -138,8 +138,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: B2B
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

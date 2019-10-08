@@ -1,8 +1,8 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 583
-coingecko_score: 27.648
-community_score: 7.836
+coingecko_rank: 582
+coingecko_score: 27.567
+community_score: 7.407
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
@@ -26,52 +26,22 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 32.984
-market_cap_rank: 193
+liquidity_score: 33.014
+market_cap_rank: 195
 name: STASIS EURO
 public_interest_score: 27.242
 symbol: eurs
 tickers:
 - base: EURS
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: EURS
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: EURS
-  market:
     identifier: dsx
     name: DSX
   target: EUR
-- base: BTC
-  market:
-    identifier: dsx
-    name: DSX
-  target: EURS
-- base: LTC
-  market:
-    identifier: dsx
-    name: DSX
-  target: EURS
 - base: EURS
   market:
     identifier: dsx
     name: DSX
   target: USD
-- base: EURS
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: EURS
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: USDT
 - base: EURS
   market:
     identifier: hitbtc
@@ -82,17 +52,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: EOS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: ZEC
+- base: BTC
   market:
     identifier: hitbtc
     name: HitBTC
@@ -102,26 +62,56 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: BCH
+- base: BOX
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: BOX
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: ZEC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: EURS
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: TUSD
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: EURS
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: BTC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: EURS
 - base: EURS
   market:
     identifier: okcoin
@@ -132,78 +122,3 @@ tickers:
     identifier: okcoin
     name: OKCoin
   target: USD
-- base: EURS
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: XRP
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: DOGE
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: XLM
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: BCH
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: XMR
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: TRX
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: DAI
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: ADA
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: XTZ
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: USDC
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: TUSD
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: LTC
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: GUSD
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: EURS
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
