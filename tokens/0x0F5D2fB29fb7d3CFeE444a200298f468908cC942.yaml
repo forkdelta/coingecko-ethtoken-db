@@ -64,11 +64,16 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 47.363
-market_cap_rank: 85
+market_cap_rank: 88
 name: Decentraland
 public_interest_score: 27.275
 symbol: mana
 tickers:
+- base: MANA
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
 - base: MANA
   market:
     identifier: altilly
@@ -86,24 +91,19 @@ tickers:
   target: ETH
 - base: MANA
   market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: MANA
+  market:
     identifier: bibox
     name: Bibox
   target: BTC
 - base: MANA
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: ETH
-- base: MANA
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
-- base: MANA
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
+  target: ETH
 - base: MANA
   market:
     identifier: coineal
@@ -116,18 +116,33 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: MANA
   market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: BTC
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: MANA
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: MANA
   market:
@@ -141,24 +156,9 @@ tickers:
   target: USD
 - base: MANA
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: MANA
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: MANA
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: MANA
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: MANA
   market:
     identifier: zb

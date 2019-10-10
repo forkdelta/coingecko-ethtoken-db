@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 49.537
-market_cap_rank: 72
+market_cap_rank: 75
 name: Enjin Coin
 public_interest_score: 35.817
 symbol: enj
@@ -87,19 +87,24 @@ tickers:
   target: WETH
 - base: ENJ
   market:
-    identifier: coinone
-    name: Coinone
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: ENJ
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: ENJ
+  market:
+    identifier: coinfinit
+    name: Coinfinit
   target: KRW
 - base: ENJ
   market:
     identifier: coss
     name: COSS
   target: BTC
-- base: ENJ
-  market:
-    identifier: coss
-    name: COSS
-  target: COS
 - base: ENJ
   market:
     identifier: coss
@@ -112,9 +117,9 @@ tickers:
   target: BTC
 - base: ENJ
   market:
-    identifier: crytrex
-    name: CryTrEx
-  target: BTC
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: ENJ
   market:
     identifier: financex
@@ -150,6 +155,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: ENJ
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: ENJ
   market:
     identifier: switcheo

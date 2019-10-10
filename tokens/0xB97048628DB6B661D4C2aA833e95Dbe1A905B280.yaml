@@ -48,16 +48,11 @@ links:
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
 liquidity_score: 44.273
-market_cap_rank: 202
+market_cap_rank: 197
 name: TenX
 public_interest_score: 27.381
 symbol: pay
 tickers:
-- base: PAY
-  market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
 - base: PAY
   market:
     identifier: bitbay
@@ -68,6 +63,16 @@ tickers:
     identifier: bitbay
     name: BitBay
   target: PLN
+- base: PAY
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: PAY
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: PAY
   market:
     identifier: coin_exchange
@@ -90,16 +95,6 @@ tickers:
   target: BTC
 - base: PAY
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: PAY
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: PAY
-  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
@@ -115,11 +110,6 @@ tickers:
   target: ETH
 - base: PAY
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: PAY
-  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
@@ -132,4 +122,14 @@ tickers:
   market:
     identifier: localtrade
     name: LocalTrade
+  target: BTC
+- base: PAY
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
+- base: PAY
+  market:
+    identifier: upbit
+    name: Upbit
   target: ETH

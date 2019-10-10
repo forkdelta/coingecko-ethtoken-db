@@ -1,6 +1,6 @@
 ---
 address: '0x442Bc47357919446eAbC18C7211E57a13d983469'
-coingecko_rank: 1239
+coingecko_rank: 1240
 coingecko_score: 19.793
 community_score: 0.0
 description: >-
@@ -32,7 +32,7 @@ links:
   homepage:
   - http://www.openchat.co/
 liquidity_score: 29.862
-market_cap_rank: 563
+market_cap_rank: 560
 name: ChatCoin
 public_interest_score: 26.505
 symbol: chat
@@ -49,9 +49,24 @@ tickers:
   target: ETH
 - base: CHAT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: CHAT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: CHAT
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
+- base: CHAT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: CHAT
   market:
     identifier: yobit
@@ -59,6 +74,6 @@ tickers:
   target: RUR
 - base: CHAT
   market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+    identifier: zb
+    name: ZB
+  target: USDT

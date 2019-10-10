@@ -1,6 +1,6 @@
 ---
 address: '0xf0998FAeBc12188172310403814E0399f7AF3F73'
-coingecko_rank: 2465
+coingecko_rank: 2466
 coingecko_score: 10.982
 community_score: 7.298
 description: >-
@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: HavEther
   twitter_screen_name: HavEther
 liquidity_score: 1.0
-market_cap_rank: 1743
+market_cap_rank: 1726
 name: HavEtherToken
 public_interest_score: 26.355
 symbol: het
 tickers:
+- base: HET
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: ETH
 - base: HET
   market:
     identifier: catex
@@ -46,9 +51,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: HET
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+  target: ETH

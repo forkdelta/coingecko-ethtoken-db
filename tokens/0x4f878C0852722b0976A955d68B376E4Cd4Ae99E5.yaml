@@ -49,21 +49,21 @@ links:
     - https://github.com/WaykiChain/WaykiChain
   twitter_screen_name: wayki_chain
 liquidity_score: 39.399
-market_cap_rank: 867
+market_cap_rank: 869
 name: WaykiChain
 public_interest_score: 25.417
 symbol: wicc
 tickers:
+- base: WICC
+  market:
+    identifier: aex
+    name: AEX
+  target: USDT
 - base: WIC
   market:
     identifier: bcex
     name: BCEX
   target: CKUSD
-- base: WICC-01D
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
 - base: WICC
   market:
     identifier: bit_z
@@ -74,6 +74,11 @@ tickers:
     identifier: coin_egg
     name: CoinEgg
   target: BTC
+- base: WICC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: WICC
   market:
     identifier: idax
