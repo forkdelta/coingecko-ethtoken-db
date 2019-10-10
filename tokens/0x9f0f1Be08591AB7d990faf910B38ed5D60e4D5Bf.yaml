@@ -1,6 +1,6 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1423
+coingecko_rank: 1424
 coingecko_score: 18.203
 community_score: 10.677
 description: >-
@@ -27,11 +27,16 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 14.675
-market_cap_rank: 961
+market_cap_rank: 959
 name: MainCoin
 public_interest_score: 27.246
 symbol: mnc
 tickers:
+- base: MNC
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
 - base: MNC
   market:
     identifier: biki
@@ -39,6 +44,16 @@ tickers:
   target: BTC
 - base: MNC
   market:
+    identifier: biki
+    name: Biki
+  target: ETH
+- base: MNC
+  market:
+    identifier: biki
+    name: Biki
+  target: USDT
+- base: MNC
+  market:
     identifier: btc_alpha
     name: BTC-Alpha
   target: BTC
@@ -47,31 +62,11 @@ tickers:
     identifier: btc_alpha
     name: BTC-Alpha
   target: ETH
-- base: MNC
-  market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: USD
-- base: MNC
-  market:
-    identifier: bw
-    name: BW.com
-  target: BTC
 - base: MNC
   market:
     identifier: bw
     name: BW.com
   target: USDT
-- base: MNC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: MNC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: MNC
   market:
     identifier: livecoin
@@ -82,6 +77,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: RUR
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: MNC
   market:
     identifier: mercatox
@@ -106,17 +106,7 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: MNC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: BTC
+  target: USDT
 - base: MNC
   market:
     identifier: stocks_exchange

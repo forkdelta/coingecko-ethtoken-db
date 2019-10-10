@@ -1,6 +1,6 @@
 ---
 address: '0xd341d1680Eeee3255b8C4c75bCCE7EB57f144dAe'
-coingecko_rank: 1466
+coingecko_rank: 1467
 coingecko_score: 17.872
 community_score: 12.977
 description: >-
@@ -27,8 +27,18 @@ links:
   subreddit_url: https://www.reddit.com/r/onGCoin
   twitter_screen_name: Ong_Social
 liquidity_score: 1.0
-market_cap_rank: 1176
+market_cap_rank: 1162
 name: onG.social
 public_interest_score: 22.065
 symbol: ong
-tickers: []
+tickers:
+- base: ONG
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ONG
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0x24dDFf6D8B8a42d835af3b440De91f3386554Aa4'
-coingecko_rank: 2267
+coingecko_rank: 2268
 coingecko_score: 12.113
 community_score: 23.259
 description: >-
@@ -29,16 +29,31 @@ links:
   telegram_channel_identifier: IUNGO
   twitter_screen_name: IUNGOnetwork
 liquidity_score: 1.0
-market_cap_rank: 2136
+market_cap_rank: 1977
 name: Iungo
 public_interest_score: 24.279
 symbol: ing
 tickers:
 - base: ING
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: ING
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: ING
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: ING
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: ING
   market:
     identifier: yobit
@@ -49,3 +64,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: ING
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -1,6 +1,6 @@
 ---
 address: '0xDB13025b219dB5e4529f48b65Ff009a26B6Ae733'
-coingecko_rank: 4224
+coingecko_rank: 4225
 coingecko_score: 5.125
 community_score: 9.243
 description: >-
@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: ubricoin
   twitter_screen_name: ubricaKE
 liquidity_score: 1.0
-market_cap_rank: 4771
+market_cap_rank: 4971
 name: Ubricoin
 public_interest_score: 26.144
 symbol: ubn
 tickers:
+- base: UBN
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: ETH
 - base: UBN
   market:
     identifier: cashpayz
@@ -49,14 +54,9 @@ tickers:
   target: CPC
 - base: UBN
   market:
-    identifier: cashpayz
-    name: Cashpayz
+    identifier: etherflyer
+    name: EtherFlyer
   target: ETH
-- base: UBN
-  market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: TUSD
 - base: UBN
   market:
     identifier: finexbox
@@ -67,11 +67,6 @@ tickers:
     identifier: finexbox
     name: FinexBox
   target: DOGE
-- base: UBN
-  market:
-    identifier: finexbox
-    name: FinexBox
-  target: ETH
 - base: UBN
   market:
     identifier: finexbox

@@ -72,11 +72,21 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 28.747
-market_cap_rank: 489
+market_cap_rank: 493
 name: Kin
 public_interest_score: 34.035
 symbol: kin
 tickers:
+- base: KIN
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: KIN
+  market:
+    identifier: altilly
+    name: Altilly
+  target: LTC
 - base: KIN
   market:
     identifier: bit_z
@@ -86,6 +96,11 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
+  target: USDT
+- base: KIN
+  market:
+    identifier: bitforex
+    name: Bitforex
   target: ETH
 - base: KIN
   market:
@@ -94,26 +109,6 @@ tickers:
   target: USDT
 - base: KIN
   market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: BTC
-- base: KIN
-  market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: CPC
-- base: KIN
-  market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: ETH
-- base: KIN
-  market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: TUSD
-- base: KIN
-  market:
     identifier: coinall
     name: CoinAll
   target: BTC
@@ -127,16 +122,6 @@ tickers:
     identifier: coss
     name: COSS
   target: BTC
-- base: KIN
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: KIN
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: KIN
   market:
     identifier: forkdelta
@@ -189,11 +174,6 @@ tickers:
   target: SATX
 - base: KIN
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: KIN
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -201,17 +181,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: KIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: KIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+  target: USD
 - base: KIN
   market:
     identifier: yobit

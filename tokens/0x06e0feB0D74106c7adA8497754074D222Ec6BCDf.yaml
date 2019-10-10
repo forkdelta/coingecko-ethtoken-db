@@ -42,7 +42,7 @@ links:
   telegram_channel_identifier: BitballGroupChat
   twitter_screen_name: BitBall_Erc20
 liquidity_score: 43.735
-market_cap_rank: 829
+market_cap_rank: 845
 name: Bitball
 public_interest_score: 23.939
 symbol: btb
@@ -64,16 +64,6 @@ tickers:
   target: CPC
 - base: BTB
   market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: ETH
-- base: BTB
-  market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: TUSD
-- base: BTB
-  market:
     identifier: ccx
     name: CCXCanada
   target: BTC
@@ -84,9 +74,14 @@ tickers:
   target: BTC
 - base: BTB
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: BTB
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: USDT
 - base: ETHMNY
   market:
     identifier: exnce
@@ -97,11 +92,6 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: ETH
-- base: BTB
-  market:
-    identifier: finexbox
-    name: FinexBox
-  target: BTC
 - base: BTB
   market:
     identifier: graviex
@@ -119,6 +109,16 @@ tickers:
   target: USDC
 - base: BTB
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: BTB
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: BTB
+  market:
     identifier: satoexchange
     name: SatoExchange
-  target: ETH
+  target: SATX

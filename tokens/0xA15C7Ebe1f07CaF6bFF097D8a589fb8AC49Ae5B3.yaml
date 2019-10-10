@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 46.983
-market_cap_rank: 77
+market_cap_rank: 78
 name: Pundi X
 public_interest_score: 28.455
 symbol: npxs
@@ -79,6 +79,11 @@ tickers:
     identifier: allbit
     name: Allbit
   target: ETH
+- base: NPXS
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
 - base: NPXS
   market:
     identifier: beaxy
@@ -108,11 +113,6 @@ tickers:
   market:
     identifier: bitrue
     name: Bitrue
-  target: USDT
-- base: NPXS
-  market:
-    identifier: bitrue
-    name: Bitrue
   target: XRP
 - base: NPXS
   market:
@@ -131,21 +131,6 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: CPC
-- base: NPXS
-  market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: ETH
-- base: NPXS
-  market:
-    identifier: cashpayz
-    name: Cashpayz
-  target: TUSD
-- base: NPXS
-  market:
     identifier: catex
     name: Catex
   target: BTC
@@ -154,6 +139,11 @@ tickers:
     identifier: catex
     name: Catex
   target: ETH
+- base: NPXS
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: NPXS
   market:
     identifier: coin_exchange
@@ -171,29 +161,24 @@ tickers:
   target: USDT
 - base: NPXS
   market:
-    identifier: coss
-    name: COSS
+    identifier: crypto_bridge
+    name: CryptoBridge
   target: BTC
 - base: NPXS
   market:
-    identifier: coss
-    name: COSS
-  target: COS
-- base: NPXS
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
-- base: NPXS
-  market:
-    identifier: crypto_bridge
-    name: CryptoBridge
+    identifier: dextrade
+    name: Dex-Trade
   target: BTC
 - base: NPXS
   market:
     identifier: digifinex
     name: Digifinex
   target: BTC
+- base: NPXS
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: NPXS
   market:
     identifier: graviex
@@ -211,8 +196,8 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: idex
+    name: Idex
   target: ETH
 - base: NPXS
   market:
@@ -229,11 +214,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: BTC
-- base: NPXS
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
 - base: NPXS
   market:
     identifier: probit
