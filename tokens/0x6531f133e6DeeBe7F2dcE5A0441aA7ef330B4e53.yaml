@@ -39,6 +39,11 @@ symbol: time
 tickers:
 - base: TIME
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: TIME
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -62,6 +67,16 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: TIME
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
 - base: TIME
   market:
     identifier: yobit

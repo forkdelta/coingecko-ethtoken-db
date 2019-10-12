@@ -50,14 +50,19 @@ symbol: r
 tickers:
 - base: R
   market:
+    identifier: abcc
+    name: ABCC
+  target: USDT
+- base: R
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
 - base: R
   market:
-    identifier: coinlim
-    name: Coinlim
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: R
   market:
     identifier: hitbtc
@@ -65,6 +70,21 @@ tickers:
   target: ETH
 - base: R
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: R
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: R
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: R
+  market:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
@@ -75,21 +95,11 @@ tickers:
   target: USD
 - base: R
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: R
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
+    identifier: probit
+    name: Probit
+  target: KRW
 - base: R
   market:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: R
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD

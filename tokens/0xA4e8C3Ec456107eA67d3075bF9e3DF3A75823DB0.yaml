@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 41.16
-market_cap_rank: 177
+market_cap_rank: 182
 name: Loom Network
 public_interest_score: 29.37
 symbol: loom
@@ -75,11 +75,6 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
-  target: BTC
-- base: LOOM
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
   target: ETH
 - base: LOOM
   market:
@@ -91,6 +86,11 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: LOO
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: LOOM
   market:
     identifier: gopax
@@ -103,19 +103,14 @@ tickers:
   target: BTC
 - base: LOOM
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: LOOM
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: LOOM
   market:
-    identifier: korbit
-    name: Korbit
-  target: KRW
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: LOOM
   market:
     identifier: switcheo

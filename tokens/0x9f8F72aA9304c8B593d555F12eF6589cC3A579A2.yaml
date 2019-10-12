@@ -67,6 +67,11 @@ tickers:
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
+  target: DAI
+- base: MKR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
   target: WETH
 - base: MKR
   market:
@@ -105,9 +110,9 @@ tickers:
   target: KRW
 - base: MKR
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
 - base: MKR
   market:
     identifier: localtrade
@@ -117,17 +122,17 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
-  target: BTC
+  target: ETH
 - base: MKR
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
 - base: MKR
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: BTC
 - base: MKR
   market:
     identifier: sistemkoin
@@ -135,19 +140,9 @@ tickers:
   target: TRY
 - base: MKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
-- base: MKR
-  market:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
 - base: MKR
   market:
     identifier: three_xbit
@@ -163,3 +158,8 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
+- base: MKR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

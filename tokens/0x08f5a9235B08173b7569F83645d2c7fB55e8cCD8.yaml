@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: tierion
   twitter_screen_name: Tierion
 liquidity_score: 35.495
-market_cap_rank: 120
+market_cap_rank: 125
 name: Tierion
 public_interest_score: 27.174
 symbol: tnt
@@ -43,6 +43,11 @@ tickers:
   target: ETH
 - base: TNT
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: TNT
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -50,12 +55,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
-- base: TNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
+  target: DOGE
 - base: TNT
   market:
     identifier: yobit

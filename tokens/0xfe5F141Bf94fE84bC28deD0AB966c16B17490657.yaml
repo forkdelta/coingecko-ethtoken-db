@@ -59,11 +59,16 @@ links:
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
 liquidity_score: 28.887
-market_cap_rank: 301
+market_cap_rank: 300
 name: Cred
 public_interest_score: 30.033
 symbol: lba
 tickers:
+- base: LBA
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
 - base: LBA
   market:
     identifier: bibox
@@ -74,16 +79,16 @@ tickers:
     identifier: bibox
     name: Bibox
   target: ETH
+- base: LBA
+  market:
+    identifier: biki
+    name: Biki
+  target: USDT
 - base: LBA-340
   market:
     identifier: binance_dex
     name: Binance DEX
   target: BNB
-- base: LBA
-  market:
-    identifier: bitmax
-    name: BitMax
-  target: BTC
 - base: LBA
   market:
     identifier: bitmax
@@ -96,23 +101,18 @@ tickers:
   target: USDT
 - base: LBA
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: LBA
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
 - base: LBA
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LBA
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: LBA
-  market:
-    identifier: mxc
-    name: MXC
+    identifier: gate
+    name: Gate.io
   target: USDT
 - base: LBA
   market:
@@ -128,14 +128,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: LBA
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
 - base: LBA
   market:
     identifier: yobit
     name: YoBit
   target: USD
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

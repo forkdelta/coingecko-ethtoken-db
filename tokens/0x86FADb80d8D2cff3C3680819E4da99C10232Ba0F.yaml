@@ -28,22 +28,27 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: eterbase
 liquidity_score: 15.851
-market_cap_rank: 2689
+market_cap_rank: 3118
 name: EURBASE
 public_interest_score: 24.11
 symbol: ebase
 tickers:
 - base: EBASE
   market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: EBASE
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: ETH
+- base: EBASE
+  market:
     identifier: dcoin
     name: Dcoin
   target: USDT
-- base: ETH
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: BTC
+- base: BCH
   market:
     identifier: eterbase
     name: Eterbase
@@ -53,12 +58,12 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: XBASE
+- base: BSV
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BCH
+- base: USDC
   market:
     identifier: eterbase
     name: Eterbase
@@ -68,12 +73,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: DAI
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: TUSD
+- base: QNT
   market:
     identifier: eterbase
     name: Eterbase
@@ -83,17 +83,22 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BNB
+- base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BURST
+- base: DAI
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: LINK
+- base: PAX
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: TUSD
   market:
     identifier: eterbase
     name: Eterbase
@@ -103,27 +108,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: QNT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: BSV
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: LOTEU
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: RSR
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: EVX
+- base: LINK
   market:
     identifier: eterbase
     name: Eterbase
@@ -137,4 +122,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: BTC

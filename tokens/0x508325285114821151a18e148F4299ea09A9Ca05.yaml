@@ -1,6 +1,6 @@
 ---
 address: '0x508325285114821151a18e148F4299ea09A9Ca05'
-coingecko_rank: 4619
+coingecko_rank: 4620
 coingecko_score: 4.406
 community_score: 5.282
 description: >-
@@ -28,13 +28,18 @@ links:
   - http://www.hkdt.org
   twitter_screen_name: hkdt_official
 liquidity_score: 1.0
-market_cap_rank: 4675
+market_cap_rank: 4524
 name: HKD Tether
 public_interest_score: 28.855
 symbol: hkdt
 tickers:
-- base: HKDT-GABSZVZBYEO5F4V5LZKV7GR4SAJ5IKJGGOF43BIN42FNDUG7QPH6IMRQ
+- base: HKDT
   market:
-    identifier: stellar_term
-    name: StellarTerm
-  target: XLM
+    identifier: bcex
+    name: BCEX
+  target: BTC
+- base: HKDT
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH

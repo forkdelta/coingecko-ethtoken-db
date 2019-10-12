@@ -26,8 +26,18 @@ links:
   - http://www.molecular.cc/
   twitter_screen_name: molecular_cc
 liquidity_score: 56.055
-market_cap_rank: 122
+market_cap_rank: 112
 name: Molecular Future
 public_interest_score: 28.42
 symbol: mof
-tickers: []
+tickers:
+- base: MOF
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: MOF
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH

@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
 liquidity_score: 43.46
-market_cap_rank: 114
+market_cap_rank: 112
 name: Civic
 public_interest_score: 34.669
 symbol: cvc
@@ -77,6 +77,11 @@ tickers:
   target: USD
 - base: CVC
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CVC
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -85,6 +90,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: CVC
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: CVC
   market:
     identifier: uniswap
