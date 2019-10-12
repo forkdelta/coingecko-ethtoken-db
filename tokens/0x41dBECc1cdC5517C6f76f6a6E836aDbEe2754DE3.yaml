@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: medicalchain
   twitter_screen_name: medical_chain
 liquidity_score: 20.886
-market_cap_rank: 609
+market_cap_rank: 612
 name: Medicalchain
 public_interest_score: 24.814
 symbol: mtn
@@ -74,17 +74,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: MTN
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
 - base: MTN
   market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: MTN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MTN
   market:
     identifier: quoine
@@ -94,4 +94,14 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
+  target: ETH
+- base: MTN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: BTC
+- base: MTN
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH

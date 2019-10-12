@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Tokensnet
   twitter_screen_name: TokensNet
 liquidity_score: 25.09
-market_cap_rank: 5294
+market_cap_rank: 5123
 name: Dynamic Trading Rights
 public_interest_score: 40.893
 symbol: dtr
@@ -40,9 +40,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: DTR
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: DTR
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: tokens_net
+    name: TokensNet
+  target: BTC

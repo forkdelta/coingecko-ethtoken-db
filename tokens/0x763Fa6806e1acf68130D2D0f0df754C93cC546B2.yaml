@@ -39,7 +39,7 @@ links:
   telegram_channel_identifier: LitionEnergy
   twitter_screen_name: Lition_Block
 liquidity_score: 25.345
-market_cap_rank: 516
+market_cap_rank: 534
 name: Lition
 public_interest_score: 24.562
 symbol: lit
@@ -48,9 +48,24 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
+  target: BTC
+- base: LIT
+  market:
+    identifier: bibox
+    name: Bibox
   target: ETH
+- base: LIT-099
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: LIT
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
+- base: LIT
+  market:
+    identifier: probit
+    name: Probit
+  target: ETH

@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: kickico
   twitter_screen_name: KickEcosystem
 liquidity_score: 12.534
-market_cap_rank: 475
+market_cap_rank: 469
 name: Kick Coin
 public_interest_score: 25.164
 symbol: kick
@@ -47,11 +47,6 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: BTC
-- base: KICK
-  market:
-    identifier: coss
-    name: COSS
   target: ETH
 - base: KICK
   market:
@@ -60,18 +55,8 @@ tickers:
   target: ETH
 - base: KICK
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: KICK
-  market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
-- base: KICK
-  market:
-    identifier: mercatox
-    name: Mercatox
   target: BTC
 - base: KICK
   market:
@@ -92,12 +77,17 @@ tickers:
   market:
     identifier: probit
     name: Probit
+  target: BTC
+- base: KICK
+  market:
+    identifier: probit
+    name: Probit
   target: KRW
 - base: KICK
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: KICK
   market:
     identifier: yobit
@@ -107,4 +97,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: ETH

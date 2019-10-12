@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: Bitclave
   twitter_screen_name: bitclave
 liquidity_score: 1.0
-market_cap_rank: 2278
+market_cap_rank: 2211
 name: BitClave
 public_interest_score: 25.646
 symbol: cat
 tickers:
+- base: CAT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: CAT
   market:
     identifier: coin_exchange
@@ -46,16 +51,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: CAT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: CAT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: CAT
   market:
     identifier: yobit

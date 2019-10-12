@@ -27,7 +27,7 @@ links:
   subreddit_url: https://www.reddit.com/r/AirSwap
   twitter_screen_name: airswap
 liquidity_score: 37.217
-market_cap_rank: 335
+market_cap_rank: 337
 name: AirSwap
 public_interest_score: 27.357
 symbol: ast
@@ -39,9 +39,9 @@ tickers:
   target: ETH
 - base: AST
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: AST
   market:
     identifier: okex
@@ -52,6 +52,11 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
+- base: AST
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: AST
   market:
     identifier: velic

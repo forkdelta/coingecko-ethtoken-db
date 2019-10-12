@@ -27,15 +27,20 @@ links:
     - https://github.com/internxt/INXT
   subreddit_url: https://www.reddit.com/r/internxt
 liquidity_score: 10.999
-market_cap_rank: 841
+market_cap_rank: 845
 name: Internxt
 public_interest_score: 26.493
 symbol: inxt
 tickers:
 - base: INXT
   market:
-    identifier: idex
-    name: Idex
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: INXT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: ETH
 - base: INXT
   market:
@@ -51,4 +56,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: DOGE

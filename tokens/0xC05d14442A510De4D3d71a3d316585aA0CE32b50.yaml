@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: linareviewintl
   twitter_screen_name: lina_network
 liquidity_score: 27.152
-market_cap_rank: 2657
+market_cap_rank: 4718
 name: LINA
 public_interest_score: 25.446
 symbol: lina
@@ -54,9 +54,14 @@ tickers:
   target: ETH
 - base: LINA
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
+    identifier: idcm
+    name: IDCM
+  target: BTC
+- base: LINA
+  market:
+    identifier: idcm
+    name: IDCM
+  target: ETH
 - base: LINA
   market:
     identifier: p2pb2b
@@ -67,11 +72,6 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
-- base: LINA
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USDT
 - base: LINA
   market:
     identifier: simex

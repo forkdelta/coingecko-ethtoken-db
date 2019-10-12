@@ -49,8 +49,18 @@ links:
   telegram_channel_identifier: mxcfoundation
   twitter_screen_name: MXCfoundation
 liquidity_score: 22.688
-market_cap_rank: 5491
+market_cap_rank: 3189
 name: Machine Xchange Coin
 public_interest_score: 30.836
 symbol: mxc
-tickers: []
+tickers:
+- base: MXC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: MXC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH

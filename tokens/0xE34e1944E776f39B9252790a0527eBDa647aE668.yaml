@@ -33,11 +33,16 @@ links:
   subreddit_url: https://www.reddit.com
   twitter_screen_name: HbZcoin
 liquidity_score: 6.194
-market_cap_rank: 1003
+market_cap_rank: 1012
 name: HBZ
 public_interest_score: 25.012
 symbol: hbz
 tickers:
+- base: HBZ
+  market:
+    identifier: bitlish
+    name: Bitlish
+  target: USD
 - base: HBZ
   market:
     identifier: hitbtc
@@ -55,11 +60,6 @@ tickers:
   target: USD
 - base: HBZ
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: HBZ
-  market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: BTC

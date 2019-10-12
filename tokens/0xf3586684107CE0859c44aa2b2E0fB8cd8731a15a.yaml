@@ -27,7 +27,7 @@ links:
     - https://github.com/karatgold/smartcontract
   twitter_screen_name: karatbarsgmbh
 liquidity_score: 36.075
-market_cap_rank: 4052
+market_cap_rank: 2108
 name: Karatgold Coin
 public_interest_score: 31.435
 symbol: kbc
@@ -36,7 +36,32 @@ tickers:
   market:
     identifier: bitforex
     name: Bitforex
+  target: USDT
+- base: KBC
+  market:
+    identifier: coinall
+    name: CoinAll
   target: BTC
+- base: KBC
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: KBC
+  market:
+    identifier: coineal
+    name: Coineal
+  target: BTC
+- base: KBC
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: BTC
+- base: KBC
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
 - base: KBC
   market:
     identifier: hitbtc
@@ -57,3 +82,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
+- base: KBC
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH

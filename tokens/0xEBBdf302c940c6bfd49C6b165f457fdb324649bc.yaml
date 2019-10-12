@@ -46,21 +46,21 @@ links:
   subreddit_url: https://www.reddit.com/r/ProjectHydro/
   twitter_screen_name: HydroBlockchain
 liquidity_score: 41.445
-market_cap_rank: 289
+market_cap_rank: 285
 name: Hydro
 public_interest_score: 25.986
 symbol: hydro
 tickers:
 - base: HYDRO
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: HYDRO
+  market:
     identifier: bitforex
     name: Bitforex
   target: ETH
-- base: HYDRO
-  market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
 - base: HYDRO
   market:
     identifier: catex
@@ -73,11 +73,26 @@ tickers:
   target: BTC
 - base: HYDRO
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: HYDRO
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: HYDRO
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: HYDRO
   market:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: HYDRO
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
