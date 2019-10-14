@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: azbit_com
   twitter_screen_name: azbit_news
 liquidity_score: 19.769
-market_cap_rank: 3423
+market_cap_rank: 5209
 name: Azbit
 public_interest_score: 27.724
 symbol: az
 tickers:
+- base: AZ
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
 - base: AZ
   market:
     identifier: yobit
@@ -45,9 +50,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
-- base: AZ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+  target: ETH

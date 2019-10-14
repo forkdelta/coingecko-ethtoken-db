@@ -32,16 +32,21 @@ links:
   telegram_channel_identifier: morpheuslabs
   twitter_screen_name: morpheus_labs_
 liquidity_score: 32.796
-market_cap_rank: 392
+market_cap_rank: 427
 name: Morpheus Labs
 public_interest_score: 24.048
 symbol: mitx
 tickers:
-- base: MITX-CAA
+- base: MITX
   market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
+    identifier: eterbase
+    name: Eterbase
+  target: ETH
+- base: MITX
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: USDT
 - base: MITX
   market:
     identifier: hitbtc
@@ -57,8 +62,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: MITX
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC

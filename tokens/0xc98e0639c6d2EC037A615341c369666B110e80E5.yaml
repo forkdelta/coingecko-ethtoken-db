@@ -36,7 +36,7 @@ links:
   subreddit_url: https://www.reddit.com/r/exmr/
   twitter_screen_name: eXMRCoin
 liquidity_score: 1.0
-market_cap_rank: 1408
+market_cap_rank: 1413
 name: EXMR
 public_interest_score: 33.478
 symbol: exmr
@@ -45,6 +45,11 @@ tickers:
   market:
     identifier: bitrabbit
     name: BitRabbit
+  target: ETH
+- base: EXMR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: EXMR
   market:
@@ -66,8 +71,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: EXMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -53,7 +53,7 @@ links:
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
 liquidity_score: 39.086
-market_cap_rank: 141
+market_cap_rank: 145
 name: Waltonchain
 public_interest_score: 30.399
 symbol: wtc
@@ -70,9 +70,14 @@ tickers:
   target: ETH
 - base: WTC
   market:
-    identifier: coss
-    name: COSS
+    identifier: bitoffer
+    name: Bitoffer
   target: BTC
+- base: WTC
+  market:
+    identifier: bitoffer
+    name: Bitoffer
+  target: ETH
 - base: WTC
   market:
     identifier: dragonex
@@ -105,14 +110,24 @@ tickers:
   target: VND
 - base: WTC
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: hb_top
+    name: Hb.top
+  target: BTC
 - base: WTC
   market:
     identifier: hb_top
     name: Hb.top
   target: CNYE
+- base: WTC
+  market:
+    identifier: hb_top
+    name: Hb.top
+  target: ETH
+- base: WTC
+  market:
+    identifier: hb_top
+    name: Hb.top
+  target: USDT
 - base: WTC
   market:
     identifier: livecoin

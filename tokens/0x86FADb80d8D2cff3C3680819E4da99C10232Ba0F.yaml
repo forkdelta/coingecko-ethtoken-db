@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: eterbase
 liquidity_score: 15.851
-market_cap_rank: 3118
+market_cap_rank: 2674
 name: EURBASE
 public_interest_score: 24.11
 symbol: ebase
@@ -48,7 +48,17 @@ tickers:
     identifier: dcoin
     name: Dcoin
   target: USDT
-- base: BCH
+- base: DAI
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: ETH
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: XBASE-B
   market:
     identifier: eterbase
     name: Eterbase
@@ -58,7 +68,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BSV
+- base: PAX
   market:
     identifier: eterbase
     name: Eterbase
@@ -68,7 +78,12 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: FTM
+- base: LIT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: XBASE
   market:
     identifier: eterbase
     name: Eterbase
@@ -78,22 +93,22 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
+- base: FTM
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: BCH
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: RSR
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
 - base: VIDT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: LOTEU
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: DAI
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: PAX
   market:
     identifier: eterbase
     name: Eterbase
@@ -103,7 +118,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: LIT
+- base: BSV
   market:
     identifier: eterbase
     name: Eterbase
@@ -113,13 +128,23 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: EBASE
+- base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
-  target: EUR
+  target: EBASE
 - base: EBASE
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
+- base: EBASE
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: EBASE
+  market:
+    identifier: vindax
+    name: Vindax
+  target: VD

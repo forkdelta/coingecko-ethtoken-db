@@ -48,16 +48,16 @@ links:
   telegram_channel_identifier: sirinlabs
   twitter_screen_name: sirinlabs
 liquidity_score: 25.001
-market_cap_rank: 348
+market_cap_rank: 344
 name: Sirin Labs Token
 public_interest_score: 27.853
 symbol: srn
 tickers:
 - base: SRN
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: BSC
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: SRN
   market:
     identifier: coin_exchange
@@ -68,11 +68,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: SRN
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: SRN
   market:
     identifier: idex
@@ -88,6 +83,11 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
+- base: SRN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
 - base: SRN
   market:
     identifier: upbit_indonesia

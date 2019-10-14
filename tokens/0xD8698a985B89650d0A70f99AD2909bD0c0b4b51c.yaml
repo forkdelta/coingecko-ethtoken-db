@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: consentiumofficial
   twitter_screen_name: ConsentiumCoin
 liquidity_score: 13.242
-market_cap_rank: 5133
+market_cap_rank: 5113
 name: Consentium
 public_interest_score: 24.084
 symbol: csm
 tickers:
+- base: CSM
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
 - base: CSM
   market:
     identifier: bitforex
@@ -40,6 +45,11 @@ tickers:
     identifier: bitforex
     name: Bitforex
   target: USDT
+- base: CSM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: CSM
   market:
     identifier: latoken

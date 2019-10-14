@@ -32,8 +32,18 @@ links:
   telegram_channel_identifier: GeneSourceCode
   twitter_screen_name: gsc_chain
 liquidity_score: 1.0
-market_cap_rank: 673
+market_cap_rank: 676
 name: Gene Source Code Token
 public_interest_score: 39.241
 symbol: gene
-tickers: []
+tickers:
+- base: GENE
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: GENE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

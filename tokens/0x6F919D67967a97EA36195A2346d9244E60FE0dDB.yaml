@@ -65,14 +65,14 @@ symbol: bloc
 tickers:
 - base: BLOC
   market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: BLOC
+  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: BLOC
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
 - base: BLOC
   market:
     identifier: okex_korea

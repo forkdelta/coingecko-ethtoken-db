@@ -27,7 +27,7 @@ links:
   subreddit_url: https://www.reddit.com/r/SpankChain
   twitter_screen_name: spankchain
 liquidity_score: 1.0
-market_cap_rank: 381
+market_cap_rank: 380
 name: SpankChain
 public_interest_score: 27.724
 symbol: spank
@@ -56,7 +56,7 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: USD
 - base: SPANK
   market:
     identifier: idex
@@ -67,3 +67,8 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: SPANK
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

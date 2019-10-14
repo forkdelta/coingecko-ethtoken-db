@@ -84,13 +84,18 @@ links:
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
 liquidity_score: 43.133
-market_cap_rank: 107
+market_cap_rank: 111
 name: Loopring
 public_interest_score: 26.894
 symbol: lrc
 tickers:
 - base: LRC
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: LRC
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -98,6 +103,11 @@ tickers:
   market:
     identifier: coin_exchange
     name: CoinExchange.io
+  target: ETH
+- base: LRC
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
 - base: LRC
   market:
@@ -109,11 +119,31 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: ETH
+- base: LRC
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
+- base: LRC
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: LRC
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: LRC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: LRC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: LRC
   market:
     identifier: hitbtc
@@ -126,31 +156,16 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: LRC
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: LRC
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

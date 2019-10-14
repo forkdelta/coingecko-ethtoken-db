@@ -72,11 +72,6 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: BTC
-- base: GNO
-  market:
-    identifier: bittrex
-    name: Bittrex
   target: ETH
 - base: GNO
   market:
@@ -95,6 +90,11 @@ tickers:
   target: USD
 - base: GNO
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: GNO
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -110,19 +110,9 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: GNO
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: GNO
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: GNO
   market:
     identifier: upbit
@@ -143,6 +133,21 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: GNO
   market:
     identifier: yobit

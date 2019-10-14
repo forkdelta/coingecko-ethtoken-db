@@ -20,7 +20,7 @@ links:
     - https://github.com/oklink/demo-net
   twitter_screen_name: OKLink
 liquidity_score: 54.455
-market_cap_rank: 121
+market_cap_rank: 122
 name: USDK
 public_interest_score: 28.998
 symbol: usdk
@@ -30,12 +30,27 @@ tickers:
     identifier: coinall
     name: CoinAll
   target: USDK
-- base: FTM
+- base: BSV
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDK
+- base: ALGO
   market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: FSN
+- base: DOGE
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: LEO
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: VNT
   market:
     identifier: okex
     name: OKEx
@@ -45,7 +60,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: LEO
+- base: FTM
   market:
     identifier: okex
     name: OKEx

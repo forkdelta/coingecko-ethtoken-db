@@ -19,11 +19,16 @@ links:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
 liquidity_score: 27.976
-market_cap_rank: 4949
+market_cap_rank: 3271
 name: Yobit Token
 public_interest_score: 29.176
 symbol: yo
 tickers:
+- base: YO
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
 - base: YO
   market:
     identifier: crex24
@@ -31,24 +36,24 @@ tickers:
   target: BTC
 - base: YO
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: YO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: YO
+  market:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: YO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: YO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: SEDO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: LTC
   market:
     identifier: yobit
@@ -59,12 +64,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ETH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: EOS
+- base: SEDO
   market:
     identifier: yobit
     name: YoBit
@@ -75,6 +75,11 @@ tickers:
     name: YoBit
   target: YO
 - base: EDC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: TRX
   market:
     identifier: yobit
     name: YoBit
@@ -99,17 +104,12 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHABC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: TRX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: DASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ETH
   market:
     identifier: yobit
     name: YoBit

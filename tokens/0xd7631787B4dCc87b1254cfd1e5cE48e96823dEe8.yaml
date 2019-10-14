@@ -23,11 +23,21 @@ links:
   telegram_channel_identifier: sociall_io
   twitter_screen_name: sociall_io
 liquidity_score: 1.0
-market_cap_rank: 2325
+market_cap_rank: 1926
 name: Sociall
 public_interest_score: 29.214
 symbol: scl
 tickers:
+- base: SCL
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
+- base: SCL
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: SCL
   market:
     identifier: hitbtc
@@ -48,6 +58,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: SCL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: SCL
   market:
     identifier: yobit
