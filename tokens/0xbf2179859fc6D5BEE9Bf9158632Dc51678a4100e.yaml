@@ -68,11 +68,21 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 48.49
-market_cap_rank: 95
+market_cap_rank: 93
 name: aelf
 public_interest_score: 26.343
 symbol: elf
 tickers:
+- base: ELF
+  market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: ELF
+  market:
+    identifier: allbit
+    name: Allbit
+  target: BTC
 - base: ELF
   market:
     identifier: allbit
@@ -95,9 +105,9 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: coinbig
-    name: COINBIG
-  target: USDT
+    identifier: bitmax
+    name: BitMax
+  target: ETH
 - base: ELF
   market:
     identifier: ethfinex
@@ -115,14 +125,14 @@ tickers:
   target: USD
 - base: ELF
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: ELF
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: ELF
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: ELF
   market:
     identifier: okex_korea

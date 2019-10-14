@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: upfiring
   twitter_screen_name: upfiringHQ
 liquidity_score: 1.0
-market_cap_rank: 2893
+market_cap_rank: 4701
 name: Upfiring
 public_interest_score: 24.335
 symbol: ufr
@@ -42,9 +42,14 @@ tickers:
   target: BTC
 - base: UFR
   market:
-    identifier: altilly
-    name: Altilly
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
+- base: UFR
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
 - base: UFR
   market:
     identifier: coss
@@ -52,14 +57,14 @@ tickers:
   target: BTC
 - base: UFR
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: coss
+    name: COSS
   target: ETH
 - base: UFR
   market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: UFR
   market:
     identifier: idex
@@ -69,6 +74,11 @@ tickers:
   market:
     identifier: stocks_exchange
     name: STEX
+  target: BTC
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: UFR
   market:

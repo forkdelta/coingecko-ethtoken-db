@@ -40,17 +40,12 @@ tickers:
   market:
     identifier: binance
     name: Binance
-  target: TUSD
+  target: PAX
 - base: USDS
   market:
     identifier: binance
     name: Binance
-  target: USDC
-- base: BTCB-1DE
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: USDSB-1AC
+  target: TUSD
 - base: ONE-5F9
   market:
     identifier: binance_dex
@@ -70,4 +65,14 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: USD
+- base: USDS
+  market:
+    identifier: codex
+    name: CODEX
+  target: USDT
+- base: USDS
+  market:
+    identifier: crex24
+    name: CREX24
   target: USD

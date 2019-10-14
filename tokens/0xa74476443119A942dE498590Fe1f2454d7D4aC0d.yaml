@@ -80,51 +80,71 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 46.919
-market_cap_rank: 79
+market_cap_rank: 78
 name: Golem
 public_interest_score: 30.636
 symbol: gnt
 tickers:
 - base: GNT
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: GNT
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
 - base: GNT
   market:
     identifier: btcmarkets
     name: BTCMarkets
+  target: AUD
+- base: GNT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: BTC
 - base: GNT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: GNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: GNT
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: AUD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: NZD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
   target: USD
 - base: GNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: GNT
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: GNT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: okex
+    name: OKEx
   target: BTC
+- base: GNT
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: GNT
   market:
     identifier: sistemkoin
@@ -132,29 +152,19 @@ tickers:
   target: TRY
 - base: GNT
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: GNT
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
 - base: GNT
   market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
-- base: GNT
-  market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+  target: RUR
 - base: GNT
   market:
     identifier: zb

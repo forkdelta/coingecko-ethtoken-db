@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: blockchainDATA
   twitter_screen_name: Blockchain_Data
 liquidity_score: 19.271
-market_cap_rank: 391
+market_cap_rank: 423
 name: DATA
 public_interest_score: 43.841
 symbol: dta
 tickers:
+- base: DTA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: DTA
   market:
     identifier: etherflyer
@@ -62,3 +67,13 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: DTA
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: DTA
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
