@@ -75,11 +75,6 @@ symbol: elf
 tickers:
 - base: ELF
   market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
-- base: ELF
-  market:
     identifier: allbit
     name: Allbit
   target: BTC
@@ -95,6 +90,16 @@ tickers:
   target: WETH
 - base: ELF
   market:
+    identifier: bcex
+    name: BCEX
+  target: CKUSD
+- base: ELF
+  market:
+    identifier: bcex
+    name: BCEX
+  target: USDT
+- base: ELF
+  market:
     identifier: bibox
     name: Bibox
   target: BTC
@@ -102,11 +107,6 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
-  target: ETH
-- base: ELF
-  market:
-    identifier: bitmax
-    name: BitMax
   target: ETH
 - base: ELF
   market:
@@ -125,19 +125,24 @@ tickers:
   target: USD
 - base: ELF
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: ELF
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: ELF
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: ELF
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: ELF
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
 - base: ELF
   market:
     identifier: radar_relay

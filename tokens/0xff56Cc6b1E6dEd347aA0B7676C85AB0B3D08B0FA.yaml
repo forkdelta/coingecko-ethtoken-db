@@ -39,7 +39,7 @@ links:
   telegram_channel_identifier: orbs_network
   twitter_screen_name: orbs_network
 liquidity_score: 24.337
-market_cap_rank: 3676
+market_cap_rank: 5440
 name: Orbs
 public_interest_score: 28.09
 symbol: orbs
@@ -56,14 +56,9 @@ tickers:
   target: KRW
 - base: ORBS
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: ORBS
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
+    identifier: coinone
+    name: Coinone
+  target: KRW
 - base: ORBS
   market:
     identifier: huobi_korea
@@ -81,9 +76,14 @@ tickers:
   target: USDK
 - base: ORBS
   market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: ORBS
+  market:
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: ORBS
   market:
     identifier: quoine

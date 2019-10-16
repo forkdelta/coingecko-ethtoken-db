@@ -45,7 +45,7 @@ links:
     - https://github.com/GIFTO-io/GiftoSmartContract
   twitter_screen_name: GIFTO_io
 liquidity_score: 45.201
-market_cap_rank: 233
+market_cap_rank: 237
 name: Gifto
 public_interest_score: 25.623
 symbol: gto
@@ -60,6 +60,16 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BTC
+- base: GTO-908
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: GTO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: GTO
   market:
     identifier: coin_exchange
@@ -67,11 +77,16 @@ tickers:
   target: BTC
 - base: GTO
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: GTO
-  market:
     identifier: crex24
     name: CREX24
+  target: BTC
+- base: GTO
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: GTO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC

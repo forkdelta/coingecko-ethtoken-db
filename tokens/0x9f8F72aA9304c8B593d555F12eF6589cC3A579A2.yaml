@@ -67,36 +67,21 @@ tickers:
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
-  target: DAI
-- base: MKR
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
   target: WETH
 - base: MKR
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: MKR
-  market:
     identifier: bibox
     name: Bibox
-  target: BTC
-- base: MKR
-  market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
-- base: MKR
-  market:
-    identifier: bitmart
-    name: BitMart
   target: BTC
 - base: MKR
   market:
     identifier: bittrex
     name: Bittrex
+  target: ETH
+- base: MKR
+  market:
+    identifier: coinplace
+    name: Coinplace
   target: BTC
 - base: MKR
   market:
@@ -108,6 +93,11 @@ tickers:
     identifier: coss
     name: COSS
   target: COS
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
 - base: MKR
   market:
     identifier: coss
@@ -128,11 +118,6 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: DAI
-- base: MKR
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
 - base: MKR
   market:
     identifier: ethfinex
@@ -162,52 +147,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: MKR
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
 - base: MKR
   market:
     identifier: localtrade
     name: LocalTrade
   target: USD
-- base: MKR
+- base: ETH
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+    identifier: shortex
+    name: Shortex
+  target: MKR
 - base: MKR
   market:
     identifier: three_xbit
@@ -223,13 +173,3 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
-- base: MKR
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: MKR
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

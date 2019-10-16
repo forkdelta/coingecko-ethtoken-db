@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 50.624
-market_cap_rank: 102
+market_cap_rank: 103
 name: Kyber Network
 public_interest_score: 30.166
 symbol: knc
@@ -78,11 +78,6 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: coinone
-    name: Coinone
-  target: KRW
-- base: KNC
-  market:
     identifier: coss
     name: COSS
   target: BTC
@@ -95,22 +90,12 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: BTC
-- base: KNC
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: ETH
 - base: KNC
   market:
     identifier: ethfinex
     name: Ethfinex
   target: USD
-- base: KNC
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: KNC
   market:
     identifier: gate
@@ -125,7 +110,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: KNC
   market:
     identifier: idex
@@ -148,6 +143,11 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: KNC
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
@@ -155,7 +155,22 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
+  target: BTC
+- base: KNC
+  market:
+    identifier: tidex
+    name: Tidex
   target: ETH
+- base: KNC
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
+- base: KNC
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
 - base: KNC
   market:
     identifier: zb

@@ -40,11 +40,16 @@ links:
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
 liquidity_score: 41.019
-market_cap_rank: 182
+market_cap_rank: 181
 name: Fetch.AI
 public_interest_score: 27.957
 symbol: fet
 tickers:
+- base: FET
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: BTC
 - base: FET
   market:
     identifier: bitoffer
@@ -57,16 +62,11 @@ tickers:
   target: USDT
 - base: FET
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: FET
-  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
 - base: FET
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC

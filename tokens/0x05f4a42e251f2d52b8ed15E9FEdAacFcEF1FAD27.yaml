@@ -61,8 +61,8 @@ symbol: zil
 tickers:
 - base: ZIL
   market:
-    identifier: coinall
-    name: CoinAll
+    identifier: bitmax
+    name: BitMax
   target: BTC
 - base: ZIL
   market:
@@ -83,7 +83,17 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: BTC
+  target: ETH
+- base: ZIL
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: ZIL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: ZIL
   market:
     identifier: sistemkoin
@@ -93,16 +103,11 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: ETH
 - base: ZIL
   market:
     identifier: tokenize
     name: Tokenize
-  target: BTC
-- base: ZIL
-  market:
-    identifier: wazirx
-    name: WazirX
   target: BTC
 - base: ZIL
   market:

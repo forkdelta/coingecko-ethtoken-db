@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/eidooapp/
   twitter_screen_name: eidoo_io
 liquidity_score: 29.814
-market_cap_rank: 218
+market_cap_rank: 221
 name: Eidoo
 public_interest_score: 26.003
 symbol: edo
@@ -38,9 +38,19 @@ tickers:
   target: ETH
 - base: EDO
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: EDO
+  market:
     identifier: okex
     name: OKEx
-  target: USDT
+  target: BTC
+- base: EDO
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: EDO
   market:
     identifier: okex_korea

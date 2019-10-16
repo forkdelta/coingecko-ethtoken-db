@@ -95,19 +95,29 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: bitexlive
-    name: Bitexlive
-  target: ETH
-- base: HOT
-  market:
     identifier: catex
     name: Catex
-  target: ETH
+  target: BTC
+- base: HOT
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: HOT
   market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: ETH
+- base: HOT
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: ETH
+- base: HOT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: HOLO
   market:
     identifier: ddex
@@ -120,13 +130,23 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: HOT
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: HOT
+  market:
+    identifier: purcow
+    name: Purcow
+  target: ETH
+- base: HOT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: BTC
 - base: HOT
   market:
@@ -143,8 +163,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: HOT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
