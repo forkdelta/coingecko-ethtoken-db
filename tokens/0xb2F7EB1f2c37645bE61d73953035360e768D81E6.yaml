@@ -52,8 +52,18 @@ links:
   telegram_channel_identifier: cobinhood
   twitter_screen_name: cobinhood
 liquidity_score: 1.0
-market_cap_rank: 925
+market_cap_rank: 934
 name: Cobinhood
 public_interest_score: 28.985
 symbol: cob
-tickers: []
+tickers:
+- base: COB
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: COB
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

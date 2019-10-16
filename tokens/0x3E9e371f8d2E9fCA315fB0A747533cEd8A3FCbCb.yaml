@@ -21,11 +21,21 @@ links:
   - https://billionexpro.com/
   twitter_screen_name: billionexpro
 liquidity_score: 1.0
-market_cap_rank: 3338
+market_cap_rank: 3548
 name: BIXCPRO
 public_interest_score: 24.102
 symbol: bixcpro
 tickers:
+- base: BIXCPRO
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: BIXCPRO
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
 - base: BIXCPRO
   market:
     identifier: crex24
@@ -41,8 +51,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
-- base: BIXCPRO
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT

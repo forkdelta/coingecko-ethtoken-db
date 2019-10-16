@@ -59,11 +59,16 @@ links:
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
 liquidity_score: 7.761
-market_cap_rank: 241
+market_cap_rank: 231
 name: Dragonchain
 public_interest_score: 25.825
 symbol: drgn
 tickers:
+- base: DRGN
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: BTC
 - base: DRGN
   market:
     identifier: coin_exchange
@@ -86,6 +91,11 @@ tickers:
   target: ETH
 - base: DRGN
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DRGN
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -99,3 +109,8 @@ tickers:
     identifier: localtrade
     name: LocalTrade
   target: USD
+- base: DRGN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH

@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: bezop
   twitter_screen_name: BezopNetwork
 liquidity_score: 25.756
-market_cap_rank: 954
+market_cap_rank: 957
 name: Bezop
 public_interest_score: 24.781
 symbol: bez
@@ -42,6 +42,11 @@ tickers:
   market:
     identifier: c2cx
     name: C2CX
+  target: BTC
+- base: BEZ
+  market:
+    identifier: exrates
+    name: Exrates
   target: BTC
 - base: BEZ
   market:
@@ -67,14 +72,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: BEZ
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: ETH
-- base: BEZ
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY

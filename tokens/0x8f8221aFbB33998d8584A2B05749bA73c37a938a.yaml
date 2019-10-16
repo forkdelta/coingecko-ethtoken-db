@@ -49,6 +49,11 @@ symbol: req
 tickers:
 - base: REQ
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: REQ
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -89,6 +94,16 @@ tickers:
   target: ETH
 - base: REQ
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: REQ
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: REQ
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -107,6 +122,11 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: REQ
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
 - base: REQ
   market:
     identifier: yobit
