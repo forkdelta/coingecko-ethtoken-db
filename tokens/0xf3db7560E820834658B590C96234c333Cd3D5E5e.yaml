@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: officialcoinpoker
   twitter_screen_name: CoinPoker_OFF
 liquidity_score: 1.0
-market_cap_rank: 621
+market_cap_rank: 635
 name: CoinPoker
 public_interest_score: 24.586
 symbol: chp
@@ -48,6 +48,16 @@ tickers:
   target: ETH
 - base: CHP
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: CHP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: CHP
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -61,3 +71,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: CHP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

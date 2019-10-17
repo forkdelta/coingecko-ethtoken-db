@@ -27,7 +27,7 @@ links:
     - https://github.com/karatgold/smartcontract
   twitter_screen_name: karatbarsgmbh
 liquidity_score: 36.075
-market_cap_rank: 1987
+market_cap_rank: 3564
 name: Karatgold Coin
 public_interest_score: 31.435
 symbol: kbc
@@ -54,8 +54,13 @@ tickers:
   target: USDT
 - base: KBC
   market:
-    identifier: digifinex
-    name: Digifinex
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: KBC
+  market:
+    identifier: coineal
+    name: Coineal
   target: BTC
 - base: KBC
   market:
@@ -82,6 +87,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: KBC
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: KBC
   market:
     identifier: okex

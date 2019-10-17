@@ -75,9 +75,14 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: bibox
+    name: Bibox
   target: ETH
+- base: MKR
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: DAI
 - base: MKR
   market:
     identifier: coinplace
@@ -117,7 +122,17 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: DAI
+- base: MKR
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
 - base: MKR
   market:
     identifier: ethfinex
@@ -153,11 +168,41 @@ tickers:
     identifier: localtrade
     name: LocalTrade
   target: USD
+- base: MKR
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: ETH
   market:
     identifier: shortex
     name: Shortex
   target: MKR
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: MKR
   market:
     identifier: three_xbit

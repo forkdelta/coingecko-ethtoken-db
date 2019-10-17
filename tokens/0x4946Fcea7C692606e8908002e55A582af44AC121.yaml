@@ -77,15 +77,20 @@ links:
   telegram_channel_identifier: foamspace
   twitter_screen_name: foamspace
 liquidity_score: 4.36
-market_cap_rank: 216
+market_cap_rank: 217
 name: FOAM
 public_interest_score: 33.124
 symbol: foam
 tickers:
 - base: FOAM
   market:
-    identifier: bilaxy
-    name: Bilaxy
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: FOA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: ETH
 - base: FOA
   market:
@@ -96,4 +101,9 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: FOAM
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

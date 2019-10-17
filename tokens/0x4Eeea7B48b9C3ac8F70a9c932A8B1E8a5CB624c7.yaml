@@ -57,8 +57,18 @@ links:
   telegram_channel_identifier: membranaplatform
   twitter_screen_name: membrana_io
 liquidity_score: 11.543
-market_cap_rank: 1067
+market_cap_rank: 1074
 name: Membrana
 public_interest_score: 23.872
 symbol: mbn
-tickers: []
+tickers:
+- base: MBN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MBN
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW

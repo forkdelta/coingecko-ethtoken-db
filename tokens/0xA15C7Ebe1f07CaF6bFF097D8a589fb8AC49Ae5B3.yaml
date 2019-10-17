@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 46.983
-market_cap_rank: 80
+market_cap_rank: 83
 name: Pundi X
 public_interest_score: 28.455
 symbol: npxs
@@ -126,19 +126,14 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: coin_exchange
+    name: CoinExchange.io
   target: ETH
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
 - base: NPXS
   market:
     identifier: coss
     name: COSS
-  target: COS
+  target: BTC
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -148,6 +143,11 @@ tickers:
   market:
     identifier: digifinex
     name: Digifinex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: exrates
+    name: Exrates
   target: BTC
 - base: NPXS
   market:
@@ -171,6 +171,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: NPXS
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -183,27 +188,12 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH
 - base: NPXS
   market:
     identifier: localtrade
     name: LocalTrade
   target: USD
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
 - base: NPXS
   market:
     identifier: thetokenstore
@@ -219,11 +209,6 @@ tickers:
     identifier: tidex
     name: Tidex
   target: ETH
-- base: NPXS
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: IDR
 - base: NPXS
   market:
     identifier: wazirx
