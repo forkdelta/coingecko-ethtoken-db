@@ -69,7 +69,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 33.294
-market_cap_rank: 120
+market_cap_rank: 126
 name: DigixDAO
 public_interest_score: 27.378
 symbol: dgd
@@ -116,6 +116,11 @@ tickers:
   target: BTC
 - base: DGD
   market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: DGD
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
@@ -126,11 +131,6 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: purcow
-    name: Purcow
-  target: BTC
-- base: DGD
-  market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT

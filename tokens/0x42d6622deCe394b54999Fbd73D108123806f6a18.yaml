@@ -39,6 +39,26 @@ tickers:
   target: WETH
 - base: SPK
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: SPK
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: SPK
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: SPANK
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: ETH
+- base: SPK
+  market:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
@@ -62,3 +82,8 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: SPANK
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

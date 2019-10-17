@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 30.535
-market_cap_rank: 141
+market_cap_rank: 143
 name: FunFair
 public_interest_score: 30.115
 symbol: fun
@@ -74,6 +74,11 @@ tickers:
   target: DOGE
 - base: FUN
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: FUN
+  market:
     identifier: c2cx
     name: C2CX
   target: BTC
@@ -82,6 +87,16 @@ tickers:
     identifier: ethfinex
     name: Ethfinex
   target: BTC
+- base: FUN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: FUN
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: USD
 - base: FUN
   market:
     identifier: forkdelta
@@ -94,9 +109,9 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: FUN
   market:
     identifier: hitbtc

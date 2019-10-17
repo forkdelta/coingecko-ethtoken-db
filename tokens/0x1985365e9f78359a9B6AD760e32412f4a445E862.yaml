@@ -69,6 +69,11 @@ tickers:
   target: ETH
 - base: REP
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: REP
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -91,6 +96,11 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: BTC
+- base: REP
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: BTC
 - base: REP
   market:
@@ -129,8 +139,13 @@ tickers:
   target: ETH
 - base: REP
   market:
+    identifier: kraken
+    name: Kraken
+  target: USD
+- base: REP
+  market:
     identifier: oasis_trade
-    name: Oasis Trade
+    name: OasisDEX
   target: DAI
 - base: REP
   market:

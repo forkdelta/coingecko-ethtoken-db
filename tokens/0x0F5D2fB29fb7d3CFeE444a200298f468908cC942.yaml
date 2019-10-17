@@ -64,7 +64,7 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 47.363
-market_cap_rank: 85
+market_cap_rank: 87
 name: Decentraland
 public_interest_score: 27.275
 symbol: mana
@@ -79,6 +79,16 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BTC
+- base: MNA
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: MNA
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: MANA
   market:
     identifier: coin_exchange
@@ -93,12 +103,27 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
+  target: BTC
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
+  target: ETH
+- base: MNA
+  market:
+    identifier: ethfinex
+    name: Ethfinex
   target: USD
 - base: MANA
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
+- base: MANA
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: MANA
   market:
     identifier: idex
@@ -109,6 +134,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: MANA
+  market:
+    identifier: zb
+    name: ZB
+  target: BTC
 - base: MANA
   market:
     identifier: zb

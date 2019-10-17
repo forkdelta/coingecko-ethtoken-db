@@ -51,13 +51,23 @@ links:
   telegram_channel_identifier: xyonetwork
   twitter_screen_name: XYOracleNetwork
 liquidity_score: 1.0
-market_cap_rank: 409
+market_cap_rank: 418
 name: XYO Network
 public_interest_score: 28.059
 symbol: xyo
 tickers:
 - base: XYO
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: XYO
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: XYO
+  market:
+    identifier: idex
+    name: Idex
   target: ETH

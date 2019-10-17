@@ -46,7 +46,7 @@ links:
   subreddit_url: https://www.reddit.com/r/ProjectHydro/
   twitter_screen_name: HydroBlockchain
 liquidity_score: 41.445
-market_cap_rank: 259
+market_cap_rank: 266
 name: Hydro
 public_interest_score: 25.986
 symbol: hydro
@@ -58,14 +58,19 @@ tickers:
   target: WETH
 - base: HYDRO
   market:
-    identifier: bitforex
-    name: Bitforex
-  target: ETH
+    identifier: bitmart
+    name: BitMart
+  target: BMX
 - base: HYDRO
   market:
     identifier: bitmart
     name: BitMart
-  target: BMX
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
 - base: HYDRO
   market:
     identifier: catex

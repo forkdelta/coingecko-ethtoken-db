@@ -43,26 +43,21 @@ links:
   subreddit_url: https://www.reddit.com/r/revain
   twitter_screen_name: Revain_org
 liquidity_score: 32.264
-market_cap_rank: 132
+market_cap_rank: 131
 name: Revain
 public_interest_score: 25.684
 symbol: r
 tickers:
 - base: R
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
+    identifier: abcc
+    name: ABCC
+  target: USDT
 - base: R
   market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: R
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
 - base: R
   market:
     identifier: okex_korea
@@ -80,9 +75,19 @@ tickers:
   target: USD
 - base: R
   market:
+    identifier: probit
+    name: Probit
+  target: USDT
+- base: R
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: R
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: R
   market:
     identifier: yobit

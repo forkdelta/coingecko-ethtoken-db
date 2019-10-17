@@ -72,21 +72,26 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 28.747
-market_cap_rank: 529
+market_cap_rank: 534
 name: Kin
 public_interest_score: 34.035
 symbol: kin
 tickers:
 - base: KIN
   market:
-    identifier: altilly
-    name: Altilly
-  target: ETH
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
 - base: KIN
   market:
     identifier: bit_z
     name: Bit-Z
-  target: BTC
+  target: ETH
+- base: KIN
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
 - base: KIN
   market:
     identifier: coinall
@@ -107,6 +112,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: KIN
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: KIN
   market:
     identifier: latoken
@@ -167,8 +177,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: KIN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -62,7 +62,7 @@ links:
   subreddit_url: https://www.reddit.com/r/stormtoken
   twitter_screen_name: Storm_Token
 liquidity_score: 19.679
-market_cap_rank: 252
+market_cap_rank: 249
 name: Storm
 public_interest_score: 39.284
 symbol: storm
@@ -74,8 +74,18 @@ tickers:
   target: WETH
 - base: STORM
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: STORM
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
+- base: STORM
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: STORM
   market:
