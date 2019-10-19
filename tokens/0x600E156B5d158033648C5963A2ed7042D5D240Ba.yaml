@@ -1,11 +1,11 @@
 ---
 address: '0x600E156B5d158033648C5963A2ed7042D5D240Ba'
-coingecko_rank: 3275
-coingecko_score: 7.554
-community_score: 6.693
+coingecko_rank: 3282
+coingecko_score: 7.72
+community_score: 7.098
 description: >-
   The dynamic platform for trading cryptos across multiple global exchanges
-developer_score: 13.077
+developer_score: 13.239
 id: protean
 image:
   large: https://assets.coingecko.com/coins/images/931/large/prn.png?1547034782
@@ -22,8 +22,18 @@ links:
     - https://github.com/longdiete/Proteania
   twitter_screen_name: ProteaniaTech
 liquidity_score: 1.0
-market_cap_rank: 3396
+market_cap_rank: 4657
 name: Proteania
-public_interest_score: 24.11
+public_interest_score: 24.359
 symbol: prn
-tickers: []
+tickers:
+- base: PRN
+  market:
+    identifier: coin_exchange
+    name: CoinExchange.io
+  target: DOGE
+- base: PRN
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
