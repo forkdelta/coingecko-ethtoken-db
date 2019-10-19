@@ -1,8 +1,8 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 806
-coingecko_score: 24.295
-community_score: 4.788
+coingecko_rank: 815
+coingecko_score: 24.559
+community_score: 5.063
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
   to <a href="https://www.coingecko.com/en/exchanges/quoine">Liquid</a>. Liquid is a global cryptocurrency
@@ -60,10 +60,10 @@ links:
   subreddit_url: https://www.reddit.com/r/QASH
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
-liquidity_score: 35.73
-market_cap_rank: 133
+liquidity_score: 36.587
+market_cap_rank: 136
 name: QASH
-public_interest_score: 27.01
+public_interest_score: 27.625
 symbol: qash
 tickers:
 - base: QSH
@@ -90,17 +90,32 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
-- base: QSH
-  market:
-    identifier: ethfinex
-    name: Ethfinex
   target: USD
+- base: QASH
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: QASH
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: QASH
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: QASH
   market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: QASH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: QASH
   market:
     identifier: quoine
@@ -126,6 +141,16 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: RFOX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: SPHTX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: ONT
   market:
     identifier: quoine
@@ -137,11 +162,6 @@ tickers:
     name: Liquid
   target: QASH
 - base: FSN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: RFOX
   market:
     identifier: quoine
     name: Liquid
@@ -171,3 +191,8 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: SGD

@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 70
-coingecko_score: 50.709
-community_score: 45.216
+coingecko_rank: 82
+coingecko_score: 49.061
+community_score: 46.225
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -43,7 +43,7 @@ description: >-
   list. Enjin Coin is an ambitious project that aims to integrate online virtual gaming with decentralized
   technologies. Enjin Coin project promises a lot, and it is only with the passage of time that we will
   able to see if it can deliver on those promises.
-developer_score: 48.248
+developer_score: 50.625
 id: enjincoin
 image:
   large: https://assets.coingecko.com/coins/images/1102/large/enjin-coin-logo.png?1547035078
@@ -64,12 +64,17 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 49.537
-market_cap_rank: 76
+liquidity_score: 37.355
+market_cap_rank: 75
 name: Enjin Coin
-public_interest_score: 35.817
+public_interest_score: 35.852
 symbol: enj
 tickers:
+- base: ENJ
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: ENJ
   market:
     identifier: altilly
@@ -92,6 +97,11 @@ tickers:
   target: USD
 - base: ENJ
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: ENJ
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -110,6 +120,16 @@ tickers:
     identifier: coss
     name: COSS
   target: BTC
+- base: ENJ
+  market:
+    identifier: coss
+    name: COSS
+  target: COS
+- base: ENJ
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: ENJ
   market:
     identifier: coss
@@ -147,29 +167,19 @@ tickers:
   target: VND
 - base: ENJ
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ENJ
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: ENJ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: ENJ
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: ENJ
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: ENJ
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
 - base: ENJ
   market:
     identifier: quoine
@@ -192,11 +202,6 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
-- base: ENJ
-  market:
-    identifier: tidex
-    name: Tidex
+    identifier: uniswap
+    name: Uniswap
   target: ETH

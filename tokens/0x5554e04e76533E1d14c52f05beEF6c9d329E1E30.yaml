@@ -1,8 +1,8 @@
 ---
 address: '0x5554e04e76533E1d14c52f05beEF6c9d329E1E30'
-coingecko_rank: 2058
-coingecko_score: 13.633
-community_score: 7.581
+coingecko_rank: 2037
+coingecko_score: 13.898
+community_score: 8.021
 description: >-
   Autonio is a decentralized artificially intelligent trading system that turns crypto-trading into a
   more rewarding and convenient practice. It's a platform with a user-friendly GUI allowing its users
@@ -30,9 +30,9 @@ links:
   - https://auton.io/
   twitter_screen_name: AI_Autonio
 liquidity_score: 1.0
-market_cap_rank: 1101
+market_cap_rank: 1022
 name: Autonio
-public_interest_score: 24.612
+public_interest_score: 24.756
 symbol: nio
 tickers:
 - base: NIO
@@ -49,11 +49,16 @@ tickers:
   market:
     identifier: ethfinex
     name: Ethfinex
-  target: ETH
+  target: USD
 - base: NIO
   market:
-    identifier: ethfinex
-    name: Ethfinex
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: NIO
+  market:
+    identifier: exrates
+    name: Exrates
   target: USD
 - base: NIO
   market:
@@ -65,8 +70,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: NIO
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC

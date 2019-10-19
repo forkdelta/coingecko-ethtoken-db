@@ -1,8 +1,8 @@
 ---
 address: '0x8f8221aFbB33998d8584A2B05749bA73c37a938a'
-coingecko_rank: 134
-coingecko_score: 42.896
-community_score: 39.763
+coingecko_rank: 142
+coingecko_score: 43.31
+community_score: 40.615
 description: >-
   A decentralized network built on top of Ethereum, which allows anyone, anywhere to request a payment.
   The request can be detected and paid in a secure way, without the need to involve a third party. The
@@ -22,7 +22,7 @@ description: >-
 
   You can check out <a href="https://www.coinbureau.com/review/request-network-req/">CoinBureau</a> for
   the complete review of Request Network.
-developer_score: 42.422
+developer_score: 44.018
 id: request-network
 image:
   large: https://assets.coingecko.com/coins/images/1031/large/Request_icon.png?1550832088
@@ -41,10 +41,10 @@ links:
     - https://github.com/RequestNetwork/Request_SmartContracts
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
-liquidity_score: 27.69
-market_cap_rank: 228
+liquidity_score: 26.329
+market_cap_rank: 230
 name: Request
-public_interest_score: 43.943
+public_interest_score: 44.058
 symbol: req
 tickers:
 - base: REQ
@@ -129,8 +129,13 @@ tickers:
   target: ETH
 - base: REQ
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: REQ
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: REQ
   market:
@@ -151,19 +156,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: REQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: REQ
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: REQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
