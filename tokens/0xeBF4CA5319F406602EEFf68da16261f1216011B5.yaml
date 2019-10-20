@@ -1,7 +1,7 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 2457
-coingecko_score: 11.133
+coingecko_rank: 2473
+coingecko_score: 11.051
 community_score: 11.548
 description: >-
   Official Token of Yobit.Net Exchange
@@ -18,17 +18,12 @@ links:
   homepage:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
-liquidity_score: 26.682
-market_cap_rank: 4816
+liquidity_score: 26.275
+market_cap_rank: 2886
 name: Yobit Token
 public_interest_score: 29.095
 symbol: yo
 tickers:
-- base: YO
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: YO
   market:
     identifier: livecoin
@@ -46,15 +41,30 @@ tickers:
   target: BTC
 - base: YO
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: YO
+  market:
     identifier: yobit
     name: YoBit
-  target: BTC
-- base: DOGE
+  target: DOGE
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: ETC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ETH
+- base: DOGE
   market:
     identifier: yobit
     name: YoBit
@@ -65,11 +75,6 @@ tickers:
     name: YoBit
   target: YO
 - base: TRX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETC
   market:
     identifier: yobit
     name: YoBit

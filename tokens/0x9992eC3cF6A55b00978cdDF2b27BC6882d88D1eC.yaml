@@ -1,8 +1,8 @@
 ---
 address: '0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC'
-coingecko_rank: 61
-coingecko_score: 52.788
-community_score: 42.276
+coingecko_rank: 63
+coingecko_score: 51.801
+community_score: 41.549
 description: >-
   Polymath simplifies the legal process of creating and selling security tokens. It makes a new token
   standard, the ST20, and enforces government compliance. Only a “list of authorized investors and their
@@ -30,7 +30,7 @@ description: >-
 
   A wide array of security tokens that will be listed on Polymath at some point will require investors
   to be accredited, or to be from specific countries.
-developer_score: 72.635
+developer_score: 69.304
 id: polymath-network
 image:
   large: https://assets.coingecko.com/coins/images/2784/large/polymath-network.png?1548331592
@@ -55,17 +55,27 @@ links:
   subreddit_url: https://www.reddit.com/r/PolymathNetwork/
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
-liquidity_score: 42.442
-market_cap_rank: 193
+liquidity_score: 42.51
+market_cap_rank: 194
 name: Polymath Network
 public_interest_score: 27.975
 symbol: poly
 tickers:
+- base: POLY
+  market:
+    identifier: binance
+    name: Binance
+  target: BNB
 - base: POY
   market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
+- base: POY
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: POY
   market:
     identifier: bitfinex
@@ -98,11 +108,11 @@ tickers:
   target: ETH
 - base: POLY
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: POLY
   market:
     identifier: wazirx
     name: WazirX
-  target: BTC
+  target: USDT

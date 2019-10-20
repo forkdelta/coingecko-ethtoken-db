@@ -1,7 +1,7 @@
 ---
 address: '0x1dEa979ae76f26071870F824088dA78979eb91C8'
-coingecko_rank: 1479
-coingecko_score: 17.893
+coingecko_rank: 1458
+coingecko_score: 18.004
 community_score: 9.303
 description: >-
   SPINDLE is the official utility token to be used on the blockchain-based investment / asset management
@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: spindlezone
   twitter_screen_name: spindlezone
 liquidity_score: 1.0
-market_cap_rank: 886
+market_cap_rank: 874
 name: SPINDLE
 public_interest_score: 23.463
 symbol: spd
@@ -43,7 +43,22 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: BTC
+- base: SPD
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: ETH
+- base: SPD
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: SPD
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: SPD
   market:
     identifier: yobit
