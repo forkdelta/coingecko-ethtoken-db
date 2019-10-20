@@ -1,7 +1,7 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 815
-coingecko_score: 24.559
+coingecko_rank: 798
+coingecko_score: 24.594
 community_score: 5.063
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
@@ -60,8 +60,8 @@ links:
   subreddit_url: https://www.reddit.com/r/QASH
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
-liquidity_score: 36.587
-market_cap_rank: 136
+liquidity_score: 36.781
+market_cap_rank: 137
 name: QASH
 public_interest_score: 27.625
 symbol: qash
@@ -81,11 +81,6 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
-- base: QSH
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
 - base: QSH
   market:
     identifier: ethfinex
@@ -118,14 +113,14 @@ tickers:
   target: ETH
 - base: QASH
   market:
-    identifier: quoine
-    name: Liquid
-  target: AUD
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: QASH
   market:
     identifier: quoine
     name: Liquid
-  target: EUR
+  target: AUD
 - base: CRPT
   market:
     identifier: quoine
@@ -136,17 +131,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: XRP
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: RFOX
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: SPHTX
+- base: GET
   market:
     identifier: quoine
     name: Liquid
@@ -177,6 +162,16 @@ tickers:
     name: Liquid
   target: QASH
 - base: STU
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: RFOX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: SPHTX
   market:
     identifier: quoine
     name: Liquid

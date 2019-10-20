@@ -1,14 +1,14 @@
 ---
 address: '0xf3586684107CE0859c44aa2b2E0fB8cd8731a15a'
-coingecko_rank: 1756
-coingecko_score: 15.731
-community_score: 8.029
+coingecko_rank: 1715
+coingecko_score: 15.895
+community_score: 8.031
 description: >-
   We are the first and only world-trading company that has been passionate about bringing physical gold
   as a payment method, including CashGold, to market. This is the way to combine the money with true gold
   with a real value. With over 480,000 affiliates already, the company has a huge community of people
   who believe in this vision and live every single day this way.
-developer_score: 12.294
+developer_score: 12.261
 id: karatgold-coin
 image:
   large: https://assets.coingecko.com/coins/images/4967/large/karatgold-coin.png?1547975141
@@ -26,12 +26,27 @@ links:
     github:
     - https://github.com/karatgold/smartcontract
   twitter_screen_name: karatbarsgmbh
-liquidity_score: 37.637
-market_cap_rank: 1878
+liquidity_score: 38.494
+market_cap_rank: 1907
 name: Karatgold Coin
 public_interest_score: 31.23
 symbol: kbc
 tickers:
+- base: KBC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: KBC
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: BTC
+- base: KBC
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: ETH
 - base: KBC
   market:
     identifier: coinall
@@ -46,6 +61,11 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
+  target: BTC
+- base: KBC
+  market:
+    identifier: coinbene
+    name: CoinBene
   target: USDT
 - base: KBC
   market:
@@ -56,7 +76,17 @@ tickers:
   market:
     identifier: digifinex
     name: Digifinex
+  target: BTC
+- base: KBC
+  market:
+    identifier: digifinex
+    name: Digifinex
   target: ETH
+- base: KBC
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
 - base: KBC
   market:
     identifier: fatbtc
@@ -67,6 +97,21 @@ tickers:
     identifier: fatbtc
     name: FatBTC
   target: USDT
+- base: KBC
+  market:
+    identifier: hubi
+    name: Hubi
+  target: BTC
+- base: KBC
+  market:
+    identifier: hubi
+    name: Hubi
+  target: USDT
+- base: KBC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: KBC
   market:
     identifier: okex

@@ -1,7 +1,7 @@
 ---
 address: '0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F'
-coingecko_rank: 3146
-coingecko_score: 8.106
+coingecko_rank: 3106
+coingecko_score: 8.218
 community_score: 8.415
 description: >-
   EURBASE is a hybrid EUR based stable coin with anti inflationary features. Partially collateralized
@@ -27,8 +27,8 @@ links:
   - https://eurbase.com/
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: eterbase
-liquidity_score: 17.853
-market_cap_rank: 4676
+liquidity_score: 18.409
+market_cap_rank: 4454
 name: EURBASE
 public_interest_score: 24.319
 symbol: ebase
@@ -53,12 +53,32 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: TUSD
+- base: PAX
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: LTC
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: BCH
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
 - base: USDC
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: FTM
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: BSV
   market:
     identifier: eterbase
     name: Eterbase
@@ -73,27 +93,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: RSR
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: BSV
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: FTM
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: LINK
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: PAX
+- base: XCHF
   market:
     identifier: eterbase
     name: Eterbase
@@ -103,23 +103,38 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
+- base: QNT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
 - base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: EBASE
+- base: EVX
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: EBASE
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: BNB
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: EBASE
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: TUSD
   market:
-    identifier: vindax
-    name: Vindax
-  target: VD
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: EURS
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: LINK
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
