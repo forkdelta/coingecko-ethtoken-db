@@ -1,8 +1,8 @@
 ---
 address: '0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e'
-coingecko_rank: 141
-coingecko_score: 42.927
-community_score: 24.095
+coingecko_rank: 139
+coingecko_score: 42.801
+community_score: 23.92
 description: >-
   Metronome, found online at Metronome.io, under the symbol MTN. The cryptocurrency promises to deliver
   “institutional-class endurance” with cross-blockchain compatibility.The currency is being developed
@@ -36,12 +36,22 @@ links:
   subreddit_url: https://www.reddit.com/r/MetronomeToken/
   telegram_channel_identifier: metronometoken
   twitter_screen_name: MTNToken
-liquidity_score: 28.066
-market_cap_rank: 302
+liquidity_score: 27.967
+market_cap_rank: 322
 name: Metronome
 public_interest_score: 27.195
 symbol: met
 tickers:
+- base: MET
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: MET
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: MET
   market:
     identifier: gate
@@ -54,14 +64,14 @@ tickers:
   target: USDT
 - base: MET
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: MET
-  market:
     identifier: saturn_network
     name: Saturn Network
   target: ETC
+- base: MET
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: MET
   market:
     identifier: upbit_indonesia
