@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 53
-coingecko_score: 53.038
-community_score: 38.518
+coingecko_rank: 54
+coingecko_score: 52.889
+community_score: 37.202
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 79.04
+developer_score: 79.041
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -57,17 +57,12 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 39.379
-market_cap_rank: 158
+liquidity_score: 40.263
+market_cap_rank: 159
 name: Storj
 public_interest_score: 27.909
 symbol: storj
 tickers:
-- base: STJ
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
 - base: STJ
   market:
     identifier: bitfinex
@@ -120,8 +115,13 @@ tickers:
   target: BTC
 - base: STORJ
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: STORJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: STORJ
   market:
@@ -140,9 +140,19 @@ tickers:
   target: USD
 - base: STORJ
   market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
+- base: STORJ
+  market:
     identifier: uniswap
     name: Uniswap
   target: ETH
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: STORJ
   market:
     identifier: yobit
@@ -158,3 +168,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

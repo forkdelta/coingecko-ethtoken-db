@@ -1,8 +1,8 @@
 ---
 address: '0x6c6EE5e31d828De241282B9606C8e98Ea48526E2'
-coingecko_rank: 31
-coingecko_score: 58.226
-community_score: 42.055
+coingecko_rank: 27
+coingecko_score: 58.741
+community_score: 42.158
 description: >-
   Holochain enables a distributed web with user autonomy built directly into its architecture and protocols.
   Data is about remembering our lived and shared experiences. Distributing the storage and processing
@@ -82,7 +82,7 @@ links:
   subreddit_url: https://www.reddit.com/r/holochain
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
-liquidity_score: 49.378
+liquidity_score: 51.771
 market_cap_rank: 36
 name: Holo
 public_interest_score: 31.849
@@ -115,6 +115,11 @@ tickers:
   target: ETH
 - base: HOT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: HOT
+  market:
     identifier: exrates
     name: Exrates
   target: BTC
@@ -122,11 +127,6 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: HOT
-  market:
-    identifier: idex
-    name: Idex
   target: ETH
 - base: HOT
   market:
@@ -138,11 +138,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
-- base: HOT
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
 - base: HOT
   market:
     identifier: purcow

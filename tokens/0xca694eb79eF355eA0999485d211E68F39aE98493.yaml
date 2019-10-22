@@ -1,8 +1,8 @@
 ---
 address: '0xca694eb79eF355eA0999485d211E68F39aE98493'
-coingecko_rank: 934
-coingecko_score: 22.92
-community_score: 5.702
+coingecko_rank: 929
+coingecko_score: 22.899
+community_score: 5.387
 description: >-
   Content: We hope to, basing on the technology of block chain, adopting unique non-tamper distributed
   ledger characteristics of the block chain, build the traceability cloud platform, solve the enterprise's
@@ -20,7 +20,7 @@ description: >-
   of the foundation platform, the design and development of the software and hardware products, the development
   of various products and the development and iteration of the commercial landing project, improve the
   industry efficiency, and promote the effective and collaborative development of the society.
-developer_score: 18.552
+developer_score: 18.551
 id: traceability-chain
 image:
   large: https://assets.coingecko.com/coins/images/5813/large/traceability.png?1547041683
@@ -44,9 +44,19 @@ links:
     - https://github.com/TraceabilityChain/TAC
   telegram_channel_identifier: tacchain
   twitter_screen_name: TraceabilityCh1
-liquidity_score: 14.968
-market_cap_rank: 542
+liquidity_score: 16.388
+market_cap_rank: 526
 name: Traceability Chain
 public_interest_score: 26.125
 symbol: tac
-tickers: []
+tickers:
+- base: TAC
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH
+- base: TAC
+  market:
+    identifier: dragonex
+    name: DragonEx
+  target: USDT

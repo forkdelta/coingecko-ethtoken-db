@@ -1,8 +1,8 @@
 ---
 address: '0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e'
-coingecko_rank: 221
-coingecko_score: 37.842
-community_score: 28.033
+coingecko_rank: 222
+coingecko_score: 37.508
+community_score: 27.67
 description: >-
   Bloom is an end-to-end protocol for identity attestation, risk assessment and credit scoring, entirely
   on the blockchain. Bloom allows both traditional and digital currency lenders to serve billions of people
@@ -27,9 +27,19 @@ links:
     - https://github.com/hellobloom/core
   subreddit_url: https://www.reddit.com/r/BloomToken/
   twitter_screen_name: bloomtoken
-liquidity_score: 15.486
-market_cap_rank: 519
+liquidity_score: 14.813
+market_cap_rank: 523
 name: Bloom
 public_interest_score: 35.067
 symbol: blt
-tickers: []
+tickers:
+- base: BLT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: BLT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
