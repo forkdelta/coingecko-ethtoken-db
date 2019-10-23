@@ -1,8 +1,8 @@
 ---
 address: '0x5Af2Be193a6ABCa9c8817001F45744777Db30756'
-coingecko_rank: 498
-coingecko_score: 29.16
-community_score: 35.376
+coingecko_rank: 509
+coingecko_score: 29.155
+community_score: 35.915
 description: >-
   Ethos is a people-powered financial services company that makes it easy and safe for users to interact
   with the new economy.
@@ -22,7 +22,7 @@ links:
   - https://www.ethos.io/
   subreddit_url: https://www.reddit.com/r/ethos_io/
   twitter_screen_name: Ethos_io
-liquidity_score: 24.763
+liquidity_score: 24.068
 market_cap_rank: 275
 name: Ethos
 public_interest_score: 31.096
@@ -30,6 +30,11 @@ symbol: ethos
 tickers:
 - base: ETHOS
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: ETHOS
+  market:
     identifier: coin_exchange
     name: CoinExchange.io
   target: BTC
@@ -42,17 +47,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: BQX
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
-- base: BQX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: ETHOS
   market:
     identifier: livecoin

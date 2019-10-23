@@ -1,8 +1,8 @@
 ---
 address: '0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F'
-coingecko_rank: 3076
-coingecko_score: 8.217
-community_score: 7.946
+coingecko_rank: 3164
+coingecko_score: 8.033
+community_score: 8.418
 description: >-
   EURBASE is a hybrid EUR based stable coin with anti inflationary features. Partially collateralized
   by EUR deposits and partially in Bitcoin and other cryptocurrencies. You can change EBASE to EUR and
@@ -33,18 +33,28 @@ links:
     - https://github.com/eterbase/eurbase
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: eterbase
-liquidity_score: 18.992
-market_cap_rank: 2514
+liquidity_score: 17.481
+market_cap_rank: 4726
 name: EURBASE
 public_interest_score: 24.319
 symbol: ebase
 tickers:
 - base: EBASE
   market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: EBASE
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: ETH
+- base: EBASE
+  market:
     identifier: dcoin
     name: Dcoin
   target: USDT
-- base: PAX
+- base: RSR
   market:
     identifier: eterbase
     name: Eterbase
@@ -54,27 +64,22 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BURST
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: FTM
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: QNT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: USDC
+- base: VIDT
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
 - base: BAT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: PAX
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: QNT
   market:
     identifier: eterbase
     name: Eterbase
@@ -94,12 +99,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BNB
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: EVX
+- base: XCHF
   market:
     identifier: eterbase
     name: Eterbase
@@ -109,12 +109,22 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: XCHF
+- base: LOTEU
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: LOTEU
+- base: USDC
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: FTM
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: EVX
   market:
     identifier: eterbase
     name: Eterbase
@@ -124,28 +134,8 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: RSR
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
 - base: EBASE
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
-- base: EBASE
-  market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
-- base: EBASE
-  market:
-    identifier: vindax
-    name: Vindax
-  target: ETH
-- base: EBASE
-  market:
-    identifier: vindax
-    name: Vindax
-  target: USDT
