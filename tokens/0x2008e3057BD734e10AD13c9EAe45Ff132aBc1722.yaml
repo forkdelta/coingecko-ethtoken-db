@@ -1,8 +1,8 @@
 ---
 address: '0x2008e3057BD734e10AD13c9EAe45Ff132aBc1722'
-coingecko_rank: 886
-coingecko_score: 23.319
-community_score: 8.766
+coingecko_rank: 867
+coingecko_score: 23.652
+community_score: 9.282
 description: >-
   Zebi is a young and innovative organization founded, mentored and managed by Oxford, MIT, Stanford,
   and IIT veterans and thought leaders from Silicon Valley with experience in Google, Uber, Amazon, Microsoft,
@@ -48,21 +48,26 @@ links:
     - https://github.com/zebidata/zebicrowdsale
   telegram_channel_identifier: ZebiData
   twitter_screen_name: ZebidataIndia
-liquidity_score: 16.837
-market_cap_rank: 578
+liquidity_score: 17.29
+market_cap_rank: 615
 name: Zebi
 public_interest_score: 27.871
 symbol: zco
 tickers:
+- base: ZEBI-84F
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: ZEBI
   market:
     identifier: bitmart
     name: BitMart
-  target: ETH
-- base: ZCO
+  target: BTC
+- base: ZEBI
   market:
-    identifier: cointiger
-    name: CoinTiger
+    identifier: bitmart
+    name: BitMart
   target: ETH
 - base: ZCO
   market:
@@ -73,14 +78,14 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
-  target: BTC
-- base: ZCO
-  market:
-    identifier: quoine
-    name: Liquid
   target: ETH
 - base: ZCO
   market:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: ZCO
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
