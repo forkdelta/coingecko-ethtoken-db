@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: nagaico
   twitter_screen_name: naga_coin
 liquidity_score: 12.354
-market_cap_rank: 531
+market_cap_rank: 532
 name: NAGA
 public_interest_score: 29.387
 symbol: ngc
 tickers:
+- base: NGC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: NGC
   market:
     identifier: hitbtc
@@ -52,3 +57,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: NGC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC

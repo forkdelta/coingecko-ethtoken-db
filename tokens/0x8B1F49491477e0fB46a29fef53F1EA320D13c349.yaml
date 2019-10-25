@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: micromoneyico
   twitter_screen_name: MicromoneyIO
 liquidity_score: 2.004
-market_cap_rank: 1325
+market_cap_rank: 1335
 name: MicroMoney
 public_interest_score: 24.768
 symbol: amm
 tickers:
+- base: AMM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: AMM
   market:
     identifier: hitbtc
@@ -56,3 +61,18 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

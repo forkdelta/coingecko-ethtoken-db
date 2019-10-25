@@ -29,11 +29,16 @@ links:
   subreddit_url: https://www.reddit.com/r/unikoingold
   twitter_screen_name: unikoingold
 liquidity_score: 17.354
-market_cap_rank: 527
+market_cap_rank: 513
 name: Unikoin Gold
 public_interest_score: 24.206
 symbol: ukg
 tickers:
+- base: UKG
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: UKG
   market:
     identifier: quoine
@@ -41,6 +46,21 @@ tickers:
   target: BTC
 - base: UKG
   market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
+- base: UKG
+  market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: UKG
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: ETH
+- base: UKG
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH

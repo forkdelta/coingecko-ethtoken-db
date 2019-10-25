@@ -80,14 +80,24 @@ tickers:
   target: ETH
 - base: MCO
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: MCO
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: MCO
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: MCO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: MCO
   market:
     identifier: hitbtc
@@ -123,3 +133,18 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: ETH
+- base: MCO
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: MCO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: ETH
+- base: MCO
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

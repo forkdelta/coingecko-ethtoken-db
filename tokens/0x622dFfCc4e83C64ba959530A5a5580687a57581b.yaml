@@ -20,11 +20,16 @@ links:
   - https://cubeint.io/
   twitter_screen_name: cubeintel
 liquidity_score: 26.055
-market_cap_rank: 346
+market_cap_rank: 395
 name: Cube
 public_interest_score: 44.389
 symbol: auto
 tickers:
+- base: AUTO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: AUTO
   market:
     identifier: idex
@@ -35,3 +40,8 @@ tickers:
     identifier: probit
     name: Probit
   target: KRW
+- base: AUTO
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

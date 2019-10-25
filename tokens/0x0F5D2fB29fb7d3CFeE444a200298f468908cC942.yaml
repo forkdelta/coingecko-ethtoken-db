@@ -64,7 +64,7 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 47.529
-market_cap_rank: 90
+market_cap_rank: 92
 name: Decentraland
 public_interest_score: 27.152
 symbol: mana
@@ -74,6 +74,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: MANA
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: MNA
   market:
     identifier: bitfinex
@@ -81,24 +86,14 @@ tickers:
   target: BTC
 - base: MANA
   market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: MANA
+  market:
     identifier: bw
     name: BW.com
   target: ETH
-- base: MANA
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: MNA
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: BTC
-- base: MNA
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: USD
 - base: MANA
   market:
     identifier: exrates
@@ -111,8 +106,23 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: MANA
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: MANA
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: MANA
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: MANA
   market:
@@ -133,6 +143,11 @@ tickers:
   market:
     identifier: tradeio
     name: Trade.io
+  target: ETH
+- base: MANA
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: MANA
   market:

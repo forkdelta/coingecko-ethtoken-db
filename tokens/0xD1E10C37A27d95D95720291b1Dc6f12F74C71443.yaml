@@ -68,18 +68,23 @@ links:
   telegram_channel_identifier: cosmochain_english
   twitter_screen_name: cosmochain
 liquidity_score: 18.703
-market_cap_rank: 2406
+market_cap_rank: 3061
 name: Cosmo Coin
 public_interest_score: 34.997
 symbol: cosm
 tickers:
 - base: COSM
   market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: COSM
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
+- base: COSM
+  market:
     identifier: coinbene
     name: CoinBene
   target: ETH
-- base: COSM
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

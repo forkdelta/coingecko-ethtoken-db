@@ -28,8 +28,18 @@ links:
   telegram_channel_identifier: te_food
   twitter_screen_name: TE_FOOD
 liquidity_score: 1.0
-market_cap_rank: 504
+market_cap_rank: 503
 name: TE-FOOD
 public_interest_score: 29.397
 symbol: tfd
-tickers: []
+tickers:
+- base: TFD
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: TFD
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH

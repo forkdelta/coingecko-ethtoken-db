@@ -25,16 +25,31 @@ links:
     - https://github.com/santiment/SantimentMobile
   twitter_screen_name: santimentfeed
 liquidity_score: 0.867
-market_cap_rank: 2536
+market_cap_rank: 4190
 name: Santiment Network Token
 public_interest_score: 27.647
 symbol: san
 tickers:
 - base: SAN
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: SAN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: SAN
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: SAN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: SAN
   market:
     identifier: forkdelta

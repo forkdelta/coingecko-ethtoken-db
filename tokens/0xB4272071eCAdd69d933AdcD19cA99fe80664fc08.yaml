@@ -30,11 +30,16 @@ links:
   - https://www.swisscryptotokens.ch/
   twitter_screen_name: SwissTokens
 liquidity_score: 1.0
-market_cap_rank: 1963
+market_cap_rank: 2043
 name: CryptoFranc
 public_interest_score: 23.976
 symbol: xchf
 tickers:
+- base: XCH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: BTC
   market:
     identifier: bitfinex
@@ -50,3 +55,13 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: USDT
+- base: XCHF
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: XCHF
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
