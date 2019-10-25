@@ -56,11 +56,16 @@ links:
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
 liquidity_score: 41.677
-market_cap_rank: 195
+market_cap_rank: 197
 name: Polymath Network
 public_interest_score: 27.975
 symbol: poly
 tickers:
+- base: POLY
+  market:
+    identifier: binance
+    name: Binance
+  target: BNB
 - base: POY
   market:
     identifier: bitfinex
@@ -96,13 +101,3 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: POLY
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
-- base: POLY
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

@@ -83,7 +83,7 @@ links:
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
 liquidity_score: 51.537
-market_cap_rank: 37
+market_cap_rank: 36
 name: Holo
 public_interest_score: 31.849
 symbol: hot
@@ -100,26 +100,6 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: HOT
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
-- base: HOT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: HOT
-  market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
-- base: HOT
-  market:
     identifier: exrates
     name: Exrates
   target: USD
@@ -127,6 +107,11 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: HOT
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: HOT
   market:
@@ -140,14 +125,19 @@ tickers:
   target: LA
 - base: HOT
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: HOT
+  market:
     identifier: lukki
     name: Lukki
   target: ETH
 - base: HOT
   market:
-    identifier: purcow
-    name: Purcow
-  target: ETH
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
 - base: HOT
   market:
     identifier: tradeio
@@ -158,3 +148,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: HOT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

@@ -26,16 +26,11 @@ links:
   telegram_channel_identifier: BitcoinSoVCommunity
   twitter_screen_name: BSOV_
 liquidity_score: 1.0
-market_cap_rank: 1973
+market_cap_rank: 2034
 name: BitcoinSoV
 public_interest_score: 26.363
 symbol: bsov
 tickers:
-- base: BSOV
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: BSOV
   market:
     identifier: ddex
@@ -45,4 +40,9 @@ tickers:
   market:
     identifier: saturn_network
     name: Saturn Network
+  target: ETH
+- base: BSOV
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

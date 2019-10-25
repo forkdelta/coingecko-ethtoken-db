@@ -25,21 +25,16 @@ links:
   telegram_channel_identifier: crypterium
   twitter_screen_name: crypterium
 liquidity_score: 24.838
-market_cap_rank: 79
+market_cap_rank: 78
 name: Crypterium
 public_interest_score: 26.148
 symbol: crpt
 tickers:
-- base: CRPT
+- base: CRPT-8C9
   market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: BTC
-- base: CRPT
-  market:
-    identifier: coin_exchange
-    name: CoinExchange.io
-  target: ETH
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: CRPT
   market:
     identifier: forkdelta
@@ -50,3 +45,13 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: CRPT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
+- base: CRPT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH

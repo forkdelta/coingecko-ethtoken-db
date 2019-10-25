@@ -33,13 +33,18 @@ links:
   - https://electronicenergycoin.com/
   twitter_screen_name: e2coin
 liquidity_score: 27.272
-market_cap_rank: 3722
+market_cap_rank: 3015
 name: Electronic Energy Coin
 public_interest_score: 29.289
 symbol: e2c
 tickers:
 - base: E2C
   market:
-    identifier: stocks_exchange
-    name: STEX
+    identifier: simex
+    name: Simex
+  target: BTC
+- base: E2C
+  market:
+    identifier: simex
+    name: Simex
   target: ETH

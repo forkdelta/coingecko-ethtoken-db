@@ -80,11 +80,16 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 43.934
-market_cap_rank: 81
+market_cap_rank: 85
 name: Golem
 public_interest_score: 30.631
 symbol: gnt
 tickers:
+- base: GNT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: GNT
   market:
     identifier: btcmarkets
@@ -92,26 +97,41 @@ tickers:
   target: BTC
 - base: GNT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: GNT
-  market:
-    identifier: ethfinex
-    name: Ethfinex
-  target: ETH
-- base: GNT
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: GNT
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: GNT
   market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: GNT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USDT
+- base: GNT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
+- base: GNT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: GNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: GNT
+  market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: BTC
+- base: GNT
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT
