@@ -50,16 +50,26 @@ links:
   telegram_channel_identifier: aeternity
   twitter_screen_name: aeternity
 liquidity_score: 57.756
-market_cap_rank: 60
+market_cap_rank: 63
 name: Aeternity
 public_interest_score: 27.834
 symbol: ae
 tickers:
 - base: AE
   market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: AE
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: AE
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: AE
   market:
     identifier: livecoin
@@ -69,19 +79,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
-- base: AE
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: AE
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: TRY
-- base: AE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE

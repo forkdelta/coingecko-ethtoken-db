@@ -84,7 +84,7 @@ links:
   telegram_channel_identifier: loopringorg
   twitter_screen_name: loopringorg
 liquidity_score: 42.121
-market_cap_rank: 117
+market_cap_rank: 116
 name: Loopring
 public_interest_score: 27.177
 symbol: lrc
@@ -111,16 +111,6 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: LRC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: LRC
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -128,4 +118,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: DOGE
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
