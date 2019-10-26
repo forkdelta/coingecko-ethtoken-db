@@ -71,11 +71,6 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: BTC
-- base: REP
-  market:
-    identifier: bitfinex
-    name: Bitfinex
   target: USD
 - base: REP
   market:
@@ -94,6 +89,11 @@ tickers:
   target: KRW
 - base: REP
   market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: REP
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -104,14 +104,14 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: REP
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: REP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: REP
   market:
     identifier: independent_reserve
@@ -146,4 +146,14 @@ tickers:
   market:
     identifier: tradeio
     name: Trade.io
+  target: ETH
+- base: REP
+  market:
+    identifier: upbit
+    name: Upbit
+  target: ETH
+- base: REP
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: ETH

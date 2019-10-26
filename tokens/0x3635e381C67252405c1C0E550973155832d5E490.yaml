@@ -1,6 +1,6 @@
 ---
 address: '0x3635e381C67252405c1C0E550973155832d5E490'
-coingecko_rank: 3986
+coingecko_rank: 3984
 coingecko_score: 5.903
 community_score: 8.964
 description: >-
@@ -58,8 +58,18 @@ links:
   - https://blockchainneo.io/
   twitter_screen_name: BlockchainNeo1
 liquidity_score: 3.059
-market_cap_rank: 5682
+market_cap_rank: 5526
 name: Japan Brand Coin
 public_interest_score: 30.498
 symbol: njbc
-tickers: []
+tickers:
+- base: JBC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: NJBC
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC

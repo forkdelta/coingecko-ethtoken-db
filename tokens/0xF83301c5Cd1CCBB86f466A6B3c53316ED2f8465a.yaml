@@ -1,6 +1,6 @@
 ---
 address: '0xF83301c5Cd1CCBB86f466A6B3c53316ED2f8465a'
-coingecko_rank: 2962
+coingecko_rank: 2961
 coingecko_score: 8.728
 community_score: 23.645
 description: ""
@@ -23,11 +23,16 @@ links:
   telegram_channel_identifier: comsaio
   twitter_screen_name: comsaglobal
 liquidity_score: 1.0
-market_cap_rank: 5433
+market_cap_rank: 5415
 name: COMSA
 public_interest_score: 26.171
 symbol: cms
 tickers:
+- base: CMS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: CMS
   market:
     identifier: yobit
@@ -48,3 +53,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: CMS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

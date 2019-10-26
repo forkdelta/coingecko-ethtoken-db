@@ -55,18 +55,28 @@ links:
   telegram_channel_identifier: dmarket_io
   twitter_screen_name: dmarket_com
 liquidity_score: 27.601
-market_cap_rank: 436
+market_cap_rank: 379
 name: DMarket
 public_interest_score: 24.878
 symbol: dmt
 tickers:
 - base: DMT
   market:
-    identifier: idex
-    name: Idex
+    identifier: upbit
+    name: Upbit
+  target: ETH
+- base: DMT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: ETH
 - base: DMT
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: ETH
+- base: DMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
