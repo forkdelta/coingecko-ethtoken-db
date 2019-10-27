@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: Vodixgroup
   twitter_screen_name: vodi_app
 liquidity_score: 13.739
-market_cap_rank: 749
+market_cap_rank: 800
 name: Vodi X
 public_interest_score: 25.019
 symbol: vdx
@@ -50,13 +50,18 @@ tickers:
     identifier: biki
     name: Biki
   target: USDT
-- base: VDX
+- base: VDX-A17
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: VDX
   market:
     identifier: bittrex
     name: Bittrex
   target: USDT
+- base: VDX
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
