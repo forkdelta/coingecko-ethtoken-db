@@ -59,8 +59,23 @@ links:
   subreddit_url: https://www.reddit.com/r/amark/
   twitter_screen_name: amark_io
 liquidity_score: 1.0
-market_cap_rank: 2925
+market_cap_rank: 3388
 name: General Attention Currency
 public_interest_score: 43.068
 symbol: xac
-tickers: []
+tickers:
+- base: XAC
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: BTC
+- base: XAC
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
+- base: XAC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC

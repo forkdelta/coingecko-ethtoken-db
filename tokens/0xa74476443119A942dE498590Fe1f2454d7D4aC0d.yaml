@@ -80,21 +80,51 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 43.934
-market_cap_rank: 91
+market_cap_rank: 85
 name: Golem
 public_interest_score: 30.631
 symbol: gnt
 tickers:
 - base: GNT
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
   target: ETH
+- base: GNT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: GNT
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: GNT
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: GNT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: GNT
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
 - base: GNT
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: BTC
 - base: GNT
   market:
     identifier: sistemkoin
@@ -105,6 +135,16 @@ tickers:
     identifier: upbit
     name: Upbit
   target: ETH
+- base: GNT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
+- base: GNT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: GNT
   market:
     identifier: yobit

@@ -74,19 +74,19 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: btcexa
-    name: BTCEXA
+    identifier: coinbene
+    name: CoinBene
   target: BTC
-- base: REP
-  market:
-    identifier: btcexa
-    name: BTCEXA
-  target: ETH
 - base: REP
   market:
     identifier: coinone
     name: Coinone
   target: KRW
+- base: REP
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
 - base: REP
   market:
     identifier: credoex
@@ -99,8 +99,23 @@ tickers:
   target: BTC
 - base: REP
   market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: REP
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: REP
+  market:
     identifier: fatbtc
     name: FatBTC
+  target: ETH
+- base: REP
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: REP
   market:
@@ -127,6 +142,11 @@ tickers:
     identifier: independent_reserve
     name: Independent Reserve
   target: USD
+- base: REP
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: REP
   market:
     identifier: oasis_trade

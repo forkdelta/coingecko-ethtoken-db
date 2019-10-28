@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: streamrdata
   twitter_screen_name: streamr
 liquidity_score: 21.312
-market_cap_rank: 238
+market_cap_rank: 245
 name: Streamr DATAcoin
 public_interest_score: 25.218
 symbol: data
@@ -38,6 +38,21 @@ tickers:
   target: WETH
 - base: DATA
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: DATA
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: DATA
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: DATA
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
