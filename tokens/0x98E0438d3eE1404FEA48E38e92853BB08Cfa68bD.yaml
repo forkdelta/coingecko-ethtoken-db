@@ -25,7 +25,7 @@ links:
   subreddit_url: https://www.reddit.com
   twitter_screen_name: tvtokens
 liquidity_score: 1.0
-market_cap_rank: 5056
+market_cap_rank: 3130
 name: TVT
 public_interest_score: 27.903
 symbol: tvt
@@ -37,6 +37,16 @@ tickers:
   target: BTC
 - base: TVT
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: DOGE
+- base: TVT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: TVT
+  market:
     identifier: stocks_exchange
     name: STEX
   target: USDT
@@ -45,11 +55,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: TVT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: TVT
   market:
     identifier: yobit
@@ -65,8 +70,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: TVT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -58,7 +58,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 45.533
-market_cap_rank: 27
+market_cap_rank: 28
 name: Maker
 public_interest_score: 27.432
 symbol: mkr
@@ -85,6 +85,16 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: DAI
+- base: MKR
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
+- base: MKR
+  market:
     identifier: coss
     name: COSS
   target: DAI
@@ -95,9 +105,24 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MKR
+  market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MKR
   market:
     identifier: gopax
@@ -105,8 +130,28 @@ tickers:
   target: KRW
 - base: MKR
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: MKR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: MKR
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MKR
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: MKR
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
   target: ETH
 - base: MKR
   market:
@@ -140,6 +185,21 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: MKR
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: MKR
+  market:
     identifier: tradeio
     name: Trade.io
   target: BTC
@@ -148,3 +208,8 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: ETH
+- base: MKR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

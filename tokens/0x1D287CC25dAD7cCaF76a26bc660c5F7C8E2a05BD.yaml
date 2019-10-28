@@ -21,9 +21,9 @@ description: >-
 developer_score: 0.0
 id: fetch-ai
 image:
-  large: https://assets.coingecko.com/coins/images/5681/large/Fetch.AI-logo.png?1547041552
-  small: https://assets.coingecko.com/coins/images/5681/small/Fetch.AI-logo.png?1547041552
-  thumb: https://assets.coingecko.com/coins/images/5681/thumb/Fetch.AI-logo.png?1547041552
+  large: https://assets.coingecko.com/coins/images/5681/large/Fetch.jpg?1572098136
+  small: https://assets.coingecko.com/coins/images/5681/small/Fetch.jpg?1572098136
+  thumb: https://assets.coingecko.com/coins/images/5681/thumb/Fetch.jpg?1572098136
 links:
   announcement_url:
   - https://medium.com/fetch-ai
@@ -40,11 +40,16 @@ links:
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
 liquidity_score: 43.564
-market_cap_rank: 201
-name: Fetch.AI
+market_cap_rank: 196
+name: Fetch.ai
 public_interest_score: 30.286
 symbol: fet
 tickers:
+- base: FET
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: FET
   market:
     identifier: dflow
@@ -52,6 +57,21 @@ tickers:
   target: USDT
 - base: FET
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: FET
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: FET
+  market:
     identifier: lukki
     name: Lukki
   target: ETH
+- base: FET
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

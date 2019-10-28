@@ -38,11 +38,21 @@ name: Matic Network
 public_interest_score: 26.21
 symbol: matic
 tickers:
+- base: MATIC-84A
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: MATIC
   market:
     identifier: catex
     name: Catex
   target: BTC
+- base: MATIC
+  market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
 - base: MATIC
   market:
     identifier: idex

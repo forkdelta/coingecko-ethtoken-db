@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: ambrosuschat
   twitter_screen_name: AmbrosusAMB
 liquidity_score: 32.091
-market_cap_rank: 382
+market_cap_rank: 384
 name: Ambrosus
 public_interest_score: 25.417
 symbol: amb
@@ -45,6 +45,11 @@ tickers:
   target: ETH
 - base: AMB
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: AMB
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
@@ -53,3 +58,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: AMB
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
