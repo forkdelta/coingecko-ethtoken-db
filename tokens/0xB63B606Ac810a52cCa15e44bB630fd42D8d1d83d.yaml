@@ -68,16 +68,11 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 47.232
-market_cap_rank: 68
+market_cap_rank: 67
 name: MCO
 public_interest_score: 31.447
 symbol: mco
 tickers:
-- base: MCO
-  market:
-    identifier: bigone
-    name: BigONE
-  target: BTC
 - base: MCO
   market:
     identifier: coinplace
@@ -92,12 +87,7 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: BTC
-- base: MCO
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
+  target: USD
 - base: MCO
   market:
     identifier: forkdelta
@@ -112,17 +102,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: MCO
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
-- base: MCO
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: MCO
   market:
     identifier: livecoin
@@ -138,6 +118,11 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: MCO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
 - base: MCO
   market:
     identifier: quoine
@@ -163,11 +148,6 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: ETH
-- base: MCO
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
 - base: MCO
   market:
     identifier: zb

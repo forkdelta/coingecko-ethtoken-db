@@ -59,7 +59,7 @@ links:
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
 liquidity_score: 42.039
-market_cap_rank: 253
+market_cap_rank: 261
 name: Raiden Network Token
 public_interest_score: 28.29
 symbol: rdn
@@ -88,12 +88,7 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: BTC
-- base: RDN
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
+  target: USD
 - base: RDN
   market:
     identifier: forkdelta
@@ -101,11 +96,11 @@ tickers:
   target: ETH
 - base: RDN
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: RDN
   market:
-    identifier: okex
-    name: OKEx
-  target: KRW
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

@@ -58,16 +58,11 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 45.533
-market_cap_rank: 28
+market_cap_rank: 27
 name: Maker
 public_interest_score: 27.432
 symbol: mkr
 tickers:
-- base: MKR
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: DAI
 - base: MKR
   market:
     identifier: bamboo_relay
@@ -80,14 +75,24 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
+    identifier: bitfinex
+    name: Bitfinex
+  target: DAI
 - base: MKR
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: DAI
+  target: USD
+- base: MKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: MKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: MKR
   market:
     identifier: coinplace
@@ -102,6 +107,11 @@ tickers:
   market:
     identifier: coss
     name: COSS
+  target: ETH
+- base: MKR
+  market:
+    identifier: cryptaldash
+    name: CryptalDash
   target: ETH
 - base: MKR
   market:
@@ -132,17 +142,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: DAI
-- base: MKR
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
-- base: MKR
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: MKR
   market:
     identifier: localtrade
@@ -157,39 +157,9 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
-- base: MKR
-  market:
-    identifier: radar_relay
-    name: Radar Relay
   target: WETH
 - base: MKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: MKR
-  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -208,6 +178,11 @@ tickers:
     identifier: tradeio
     name: Trade.io
   target: ETH
+- base: MKR
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: MKR
   market:
     identifier: upbit_indonesia

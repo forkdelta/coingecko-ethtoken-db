@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: FUSIONFoundation
   twitter_screen_name: FUSIONProtocol
 liquidity_score: 34.63
-market_cap_rank: 186
+market_cap_rank: 176
 name: FUSION
 public_interest_score: 44.407
 symbol: fsn
@@ -64,7 +64,7 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
-  target: ETH
+  target: BTC
 - base: FSN
   market:
     identifier: bitfinex
@@ -82,11 +82,6 @@ tickers:
   target: USD
 - base: FSN
   market:
-    identifier: bitmax
-    name: BitMax
-  target: BTC
-- base: FSN
-  market:
     identifier: citex
     name: CITEX
   target: BTC
@@ -102,6 +97,16 @@ tickers:
   target: EBASE
 - base: FSN
   market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: FSN
+  market:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: FSN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH

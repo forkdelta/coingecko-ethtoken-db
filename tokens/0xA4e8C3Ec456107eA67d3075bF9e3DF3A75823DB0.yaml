@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 41.544
-market_cap_rank: 203
+market_cap_rank: 206
 name: Loom Network
 public_interest_score: 29.877
 symbol: loom
@@ -61,6 +61,11 @@ tickers:
     identifier: allbit
     name: Allbit
   target: BTC
+- base: LOOM
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
 - base: LOO
   market:
     identifier: bitfinex
@@ -78,14 +83,14 @@ tickers:
   target: BTC
 - base: LOOM
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: LOOM
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: BTC
 - base: LOOM
   market:
     identifier: idex
@@ -101,8 +106,3 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: LOOM
-  market:
-    identifier: tradeio
-    name: Trade.io
-  target: ETH
