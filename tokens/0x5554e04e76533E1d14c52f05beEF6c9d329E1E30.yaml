@@ -30,7 +30,7 @@ links:
   - https://auton.io/
   twitter_screen_name: AI_Autonio
 liquidity_score: 1.0
-market_cap_rank: 1052
+market_cap_rank: 995
 name: Autonio
 public_interest_score: 24.756
 symbol: nio
@@ -49,14 +49,19 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: USD
+  target: ETH
 - base: NIO
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: NIO
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: NIO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

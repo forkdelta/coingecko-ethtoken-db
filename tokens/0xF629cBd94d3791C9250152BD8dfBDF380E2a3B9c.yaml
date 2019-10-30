@@ -72,6 +72,11 @@ symbol: enj
 tickers:
 - base: ENJ
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: ENJ
+  market:
     identifier: altilly
     name: Altilly
   target: BTC
@@ -137,11 +142,6 @@ tickers:
   target: VND
 - base: ENJ
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: ENJ
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -150,11 +150,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: ENJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: ENJ
   market:
     identifier: idex

@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: upfiring
   twitter_screen_name: upfiringHQ
 liquidity_score: 1.0
-market_cap_rank: 4303
+market_cap_rank: 4277
 name: Upfiring
 public_interest_score: 24.742
 symbol: ufr
@@ -62,11 +62,6 @@ tickers:
   target: ETH
 - base: UFR
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: UFR
-  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
@@ -74,7 +69,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: UFR
   market:
     identifier: yobit

@@ -30,15 +30,30 @@ links:
   subreddit_url: https://www.reddit.com/r/DomRaider
   twitter_screen_name: domraider
 liquidity_score: 1.0
-market_cap_rank: 716
+market_cap_rank: 712
 name: DomRaider
 public_interest_score: 25.036
 symbol: drt
 tickers:
 - base: DRT
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: DRT
+  market:
     identifier: crex24
     name: CREX24
+  target: BTC
+- base: DRT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DRT
+  market:
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: DRT
   market:

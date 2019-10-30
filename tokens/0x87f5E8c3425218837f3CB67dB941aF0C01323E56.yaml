@@ -41,18 +41,23 @@ links:
   telegram_channel_identifier: TheBitCoinONE
   twitter_screen_name: THEBITCOINONE
 liquidity_score: 1.0
-market_cap_rank: 1724
+market_cap_rank: 1723
 name: BitCoin One
 public_interest_score: 40.227
 symbol: btcone
 tickers:
 - base: BTCONE
   market:
+    identifier: cryptaldash
+    name: CryptalDash
+  target: USDT
+- base: BTCONE
+  market:
+    identifier: graviex
+    name: Graviex
+  target: BTC
+- base: BTCONE
+  market:
     identifier: graviex
     name: Graviex
   target: GIO
-- base: BTCONE
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: LTC

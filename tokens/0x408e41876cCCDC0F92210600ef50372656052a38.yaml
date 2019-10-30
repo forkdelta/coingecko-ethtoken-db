@@ -31,21 +31,26 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 40.958
-market_cap_rank: 92
+market_cap_rank: 91
 name: REN
 public_interest_score: 43.885
 symbol: ren
 tickers:
 - base: REN
   market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: REN
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: REN
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: REN
   market:
     identifier: idex
@@ -53,6 +58,11 @@ tickers:
   target: ETH
 - base: REN
   market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: REN
+  market:
     identifier: tidex
     name: Tidex
   target: BTC
@@ -60,4 +70,9 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
+  target: ETH
+- base: REN
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

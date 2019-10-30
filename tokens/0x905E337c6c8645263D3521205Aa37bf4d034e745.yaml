@@ -77,11 +77,16 @@ links:
     - https://github.com/Docademic/MTC
   twitter_screen_name: docademic
 liquidity_score: 23.569
-market_cap_rank: 298
+market_cap_rank: 303
 name: Docademic
 public_interest_score: 33.461
 symbol: mtc
 tickers:
+- base: MTC
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
 - base: MTC
   market:
     identifier: coinbene
@@ -89,9 +94,9 @@ tickers:
   target: BTC
 - base: MTC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: exrates
+    name: Exrates
+  target: BTC
 - base: MTC
   market:
     identifier: kucoin
@@ -122,3 +127,8 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
+- base: MTC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT

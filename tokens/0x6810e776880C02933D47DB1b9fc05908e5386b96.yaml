@@ -92,11 +92,11 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: ETH
+  target: BTC
 - base: GNO
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: GNO
   market:
@@ -110,9 +110,19 @@ tickers:
   target: ETH
 - base: GNO
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: GNO
+  market:
     identifier: uniswap
     name: Uniswap
   target: ETH
+- base: GNO
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: GNO
   market:
     identifier: upbit
@@ -122,9 +132,14 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: GNO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: ETH
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: USD

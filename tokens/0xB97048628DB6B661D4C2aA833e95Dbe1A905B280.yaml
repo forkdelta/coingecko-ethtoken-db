@@ -48,11 +48,16 @@ links:
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
 liquidity_score: 37.002
-market_cap_rank: 230
+market_cap_rank: 246
 name: TenX
 public_interest_score: 27.629
 symbol: pay
 tickers:
+- base: PAY
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
 - base: PAY
   market:
     identifier: coss
@@ -70,6 +75,21 @@ tickers:
   target: ETH
 - base: PAY
   market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: PAY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PAY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: PAY
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -77,6 +97,11 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: PAY
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: PAY
   market:

@@ -1,6 +1,6 @@
 ---
 address: '0xDB13025b219dB5e4529f48b65Ff009a26B6Ae733'
-coingecko_rank: 4261
+coingecko_rank: 4262
 coingecko_score: 5.265
 community_score: 9.77
 description: >-
@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: ubricoin
   twitter_screen_name: ubricaKE
 liquidity_score: 1.0
-market_cap_rank: 3378
+market_cap_rank: 2788
 name: Ubricoin
 public_interest_score: 26.22
 symbol: ubn
@@ -41,7 +41,17 @@ tickers:
   market:
     identifier: finexbox
     name: FinexBox
-  target: DOGE
+  target: BTC
+- base: UBN
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: FNB
+- base: UBN
+  market:
+    identifier: instantbitex
+    name: Instant Bitex
+  target: ETH
 - base: UBN
   market:
     identifier: vindax

@@ -56,7 +56,7 @@ links:
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
 liquidity_score: 21.962
-market_cap_rank: 139
+market_cap_rank: 137
 name: WAX
 public_interest_score: 34.619
 symbol: waxp
@@ -93,13 +93,28 @@ tickers:
   target: USD
 - base: WAX
   market:
-    identifier: idex
-    name: Idex
+    identifier: huobi
+    name: Huobi Global
+  target: BTC
+- base: WAX
+  market:
+    identifier: huobi
+    name: Huobi Global
   target: ETH
 - base: WAX
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: WAX
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: WAX
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: WAXP
   market:

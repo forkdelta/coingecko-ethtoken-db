@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: bankera
   twitter_screen_name: Bankeracom
 liquidity_score: 5.461
-market_cap_rank: 197
+market_cap_rank: 207
 name: Bankera
 public_interest_score: 25.516
 symbol: bnk
@@ -43,16 +43,21 @@ tickers:
     identifier: bankera
     name: Bankera
   target: BNK
-- base: XRP
-  market:
-    identifier: bankera
-    name: Bankera
-  target: BNK
 - base: XLM
   market:
     identifier: bankera
     name: Bankera
   target: BNK
+- base: XRP
+  market:
+    identifier: bankera
+    name: Bankera
+  target: BNK
+- base: ZEC
+  market:
+    identifier: bankera
+    name: Bankera
+  target: BNK
 - base: BNK
   market:
     identifier: bankera
@@ -60,13 +65,18 @@ tickers:
   target: BTC
 - base: BNK
   market:
-    identifier: hanbitco
-    name: Hanbitco
-  target: BTC
+    identifier: bankera
+    name: Bankera
+  target: USDC
 - base: BNK
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bankera
+    name: Bankera
+  target: USDT
+- base: BNK
+  market:
+    identifier: hanbitco
+    name: Hanbitco
   target: BTC
 - base: BNK
   market:

@@ -1,6 +1,6 @@
 ---
 address: '0x39AA39c021dfbaE8faC545936693aC917d5E7563'
-coingecko_rank: 4005
+coingecko_rank: 4006
 coingecko_score: 5.848
 community_score: 9.01
 description: >-
@@ -26,8 +26,13 @@ links:
     - https://github.com/compound-finance/compound-protocol
   twitter_screen_name: compoundfinance
 liquidity_score: 1.0
-market_cap_rank: 3582
+market_cap_rank: 3962
 name: Compound USD Coin
 public_interest_score: 33.956
 symbol: cusdc
-tickers: []
+tickers:
+- base: CUSDC
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
