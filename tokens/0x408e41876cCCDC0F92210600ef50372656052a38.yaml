@@ -1,13 +1,13 @@
 ---
 address: '0x408e41876cCCDC0F92210600ef50372656052a38'
-coingecko_rank: 176
-coingecko_score: 40.473
-community_score: 35.148
+coingecko_rank: 181
+coingecko_score: 40.064
+community_score: 34.552
 description: >-
   Ren is an open protocol that enables the permissionless and private transfer of value between any blockchain.
   Ren's core product, RenVM, is focused on bringing interoperability to decentralized finance (DeFi).
   Ren was founded in 2017 and is headquartered in Singapore.
-developer_score: 21.541
+developer_score: 22.507
 id: republic-protocol
 image:
   large: https://assets.coingecko.com/coins/images/3139/large/ren.png?1548237010
@@ -30,10 +30,10 @@ links:
   subreddit_url: https://www.reddit.com/r/republicprotocol/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 40.958
+liquidity_score: 38.828
 market_cap_rank: 91
 name: REN
-public_interest_score: 43.885
+public_interest_score: 43.945
 symbol: ren
 tickers:
 - base: REN
@@ -53,6 +53,11 @@ tickers:
   target: USD
 - base: REN
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: REN
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -66,13 +71,3 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: REN
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH
-- base: REN
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

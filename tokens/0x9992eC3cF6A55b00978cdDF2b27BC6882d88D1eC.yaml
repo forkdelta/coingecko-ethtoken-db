@@ -1,8 +1,8 @@
 ---
 address: '0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC'
-coingecko_rank: 54
-coingecko_score: 52.85
-community_score: 41.716
+coingecko_rank: 56
+coingecko_score: 52.547
+community_score: 41.385
 description: >-
   Polymath simplifies the legal process of creating and selling security tokens. It makes a new token
   standard, the ST20, and enforces government compliance. Only a “list of authorized investors and their
@@ -30,7 +30,7 @@ description: >-
 
   A wide array of security tokens that will be listed on Polymath at some point will require investors
   to be accredited, or to be from specific countries.
-developer_score: 74.069
+developer_score: 74.946
 id: polymath-network
 image:
   large: https://assets.coingecko.com/coins/images/2784/large/polymath-network.png?1548331592
@@ -55,12 +55,17 @@ links:
   subreddit_url: https://www.reddit.com/r/PolymathNetwork/
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
-liquidity_score: 41.677
-market_cap_rank: 200
+liquidity_score: 39.352
+market_cap_rank: 191
 name: Polymath Network
 public_interest_score: 27.975
 symbol: poly
 tickers:
+- base: POY
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: POY
   market:
     identifier: bitfinex
@@ -81,6 +86,11 @@ tickers:
     identifier: coinplace
     name: Coinplace
   target: BTC
+- base: POLY
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: ETH
 - base: POLY
   market:
     identifier: hitbtc
@@ -106,13 +116,3 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
-- base: POLY
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
-- base: POLY
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

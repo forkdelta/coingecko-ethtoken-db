@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 146
-coingecko_score: 42.446
-community_score: 40.094
+coingecko_rank: 159
+coingecko_score: 41.684
+community_score: 39.691
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -42,7 +42,7 @@ description: >-
   in a vault and have promised not to dump them on the market. They’ll give at least a three-month warning
   before selling any of the tokens. The team includes quite a list of reputable advisors including Joseph
   Lubin (Ethereum co-founder and ConsenSys founder) and Vitalik Buterin (Ethereum founder and chief scientist).
-developer_score: 51.753
+developer_score: 51.748
 id: gnosis
 image:
   large: https://assets.coingecko.com/coins/images/662/large/gnosis-logo.png?1547034401
@@ -62,10 +62,10 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 14.621
-market_cap_rank: 164
+liquidity_score: 11.213
+market_cap_rank: 166
 name: Gnosis
-public_interest_score: 36.497
+public_interest_score: 36.597
 symbol: gno
 tickers:
 - base: GNO
@@ -100,14 +100,19 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: GNO
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: latoken
+    name: LATOKEN
   target: ETH
+- base: 65998168-6996-4EF1-88AD-246591316C7D
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
 - base: GNO
   market:
     identifier: mercatox
@@ -115,19 +120,9 @@ tickers:
   target: BTC
 - base: GNO
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: GNO
-  market:
     identifier: upbit
     name: Upbit
   target: BTC
-- base: GNO
-  market:
-    identifier: upbit
-    name: Upbit
-  target: ETH
 - base: GNO
   market:
     identifier: upbit_indonesia
@@ -135,9 +130,9 @@ tickers:
   target: BTC
 - base: GNO
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: GNO
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0'
-coingecko_rank: 129
-coingecko_score: 43.793
-community_score: 9.57
+coingecko_rank: 149
+coingecko_score: 42.381
+community_score: 9.572
 description: >-
   The Next-Generation Blockchain Application Platform for Ethereum.
 
@@ -31,7 +31,7 @@ description: >-
 
   We built the world’s first Plasma Cash implementation, which allows Ethereum-based tokens to be used
   on Loom sidechains with the full security guarantees of Ethereum.
-developer_score: 69.172
+developer_score: 65.8
 id: loom-network
 image:
   large: https://assets.coingecko.com/coins/images/3387/large/1_K76UVoLq-FOL7l-_Fag-Qw_2x.png?1547038040
@@ -50,8 +50,8 @@ links:
     - https://github.com/loomnetwork/loom-js
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
-liquidity_score: 41.544
-market_cap_rank: 206
+liquidity_score: 39.008
+market_cap_rank: 193
 name: Loom Network
 public_interest_score: 29.877
 symbol: loom
@@ -93,16 +93,26 @@ tickers:
   target: BTC
 - base: LOOM
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: LOOM
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: LOOM
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: LOOM
-  market:
     identifier: tidex
     name: Tidex
+  target: BTC
+- base: LOOM
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: LOOM
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC

@@ -1,8 +1,8 @@
 ---
 address: '0x39Bb259F66E1C59d5ABEF88375979b4D20D98022'
-coingecko_rank: 568
-coingecko_score: 28.217
-community_score: 28.673
+coingecko_rank: 434
+coingecko_score: 30.818
+community_score: 33.094
 description: >-
   "WAX is an all-in-one blockchain platform enabling developers to easily create, sell and trade digital
   goods to empower businesses to profit from the next era of digital commerce.
@@ -55,12 +55,17 @@ links:
   subreddit_url: https://www.reddit.com/r/WAX_io
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
-liquidity_score: 21.962
-market_cap_rank: 137
+liquidity_score: 29.444
+market_cap_rank: 133
 name: WAX
 public_interest_score: 34.619
 symbol: waxp
 tickers:
+- base: WAX
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
 - base: WAX
   market:
     identifier: bitfinex
@@ -78,13 +83,38 @@ tickers:
   target: USD
 - base: WAX
   market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: bitrue
+    name: Bitrue
   target: BTC
+- base: WAX
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: USDT
+- base: WAX
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: XRP
+- base: WAXP
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: WAX
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: WAXP
   market:
@@ -116,13 +146,18 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: WAXP
+- base: WAX
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: kucoin
+    name: KuCoin
   target: ETH
-- base: WAXP
+- base: 6E25E8AB-5779-4543-855B-71F4857B47D5
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 6E25E8AB-5779-4543-855B-71F4857B47D5
+  market:
+    identifier: lykke
+    name: Lykke
   target: ETH
