@@ -1,8 +1,8 @@
 ---
 address: '0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5'
-coingecko_rank: 357
-coingecko_score: 33.016
-community_score: 50.144
+coingecko_rank: 393
+coingecko_score: 32.067
+community_score: 49.281
 description: >-
   Kin is a decentralized cryptocurrency token issued on Ethereum, an open-source public blockchain. It
   was created by Kik Interactive in September 2017 in a token distribution event, raising over $98 million
@@ -71,12 +71,22 @@ links:
     - https://github.com/kinecosystem/kin-ecosystem-android-sdk
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
-liquidity_score: 29.264
-market_cap_rank: 591
+liquidity_score: 26.356
+market_cap_rank: 568
 name: Kin
 public_interest_score: 34.112
 symbol: kin
 tickers:
+- base: KIN
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: KIN
+  market:
+    identifier: altilly
+    name: Altilly
+  target: LTC
 - base: KIN
   market:
     identifier: bit_z
@@ -87,6 +97,11 @@ tickers:
     identifier: bit_z
     name: Bit-Z
   target: ETH
+- base: KIN
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: USDT
 - base: KIN
   market:
     identifier: bitforex
@@ -104,8 +119,23 @@ tickers:
   target: ETH
 - base: KIN
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: KIN
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: KIN
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: KIN
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: KIN
   market:
@@ -127,6 +157,11 @@ tickers:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: 568637D4-2B03-4F66-972E-B947A40F2771
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: 568637D4-2B03-4F66-972E-B947A40F2771
   market:
     identifier: lykke
@@ -157,11 +192,16 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
+- base: KIN-GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR
+  market:
+    identifier: stellar_term
+    name: StellarTerm
+  target: XLM
 - base: KIN
   market:
-    identifier: satoexchange
-    name: SatoExchange
-  target: SATX
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: KIN
   market:
     identifier: yobit
@@ -171,7 +211,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: ETH
 - base: KIN
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0x8B35368cCbaDbfBf2D19e8d3D8e58e3DdB63853a'
-coingecko_rank: 2711
-coingecko_score: 9.742
-community_score: 29.107
+coingecko_rank: 2669
+coingecko_score: 9.931
+community_score: 29.062
 description: >-
   CGCX Exchange Token: CGCX token is an integral part of our exchange and finds extensive utility value
   inside our ecosystem. Exchange platform users get 50% discounts on fees on our platform while paying
@@ -28,9 +28,19 @@ links:
   subreddit_url: https://www.reddit.com/r/CGCXofficial
   telegram_channel_identifier: CGCXio
   twitter_screen_name: CGCXofficial
-liquidity_score: 0.0
-market_cap_rank: 3436
+liquidity_score: 1.0
+market_cap_rank: 3458
 name: CGCX
 public_interest_score: 24.654
 symbol: cgcx
-tickers: []
+tickers:
+- base: CGCX
+  market:
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: CGCX
+  market:
+    identifier: catex
+    name: Catex
+  target: TRX

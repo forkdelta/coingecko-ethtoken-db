@@ -1,12 +1,12 @@
 ---
 address: '0xdA6cb58A0D0C01610a29c5A65c303e13e885887C'
-coingecko_rank: 365
-coingecko_score: 32.878
-community_score: 30.909
+coingecko_rank: 359
+coingecko_score: 32.973
+community_score: 31.027
 description: >-
   carVertical is a blockchain-based vehicle history registry. First of its kind, carVertical will gather
   as much information from di erent sources as possible, and put it into the blockchain registry.
-developer_score: 37.681
+developer_score: 37.678
 id: carvertical
 image:
   large: https://assets.coingecko.com/coins/images/2098/large/carvertical.png?1547738903
@@ -27,9 +27,19 @@ links:
   subreddit_url: https://www.reddit.com/r/carVertical/
   telegram_channel_identifier: carVerticalio
   twitter_screen_name: carVertical_com
-liquidity_score: 11.105
-market_cap_rank: 578
+liquidity_score: 11.099
+market_cap_rank: 575
 name: carVertical
 public_interest_score: 25.045
 symbol: cv
-tickers: []
+tickers:
+- base: CV
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CV
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

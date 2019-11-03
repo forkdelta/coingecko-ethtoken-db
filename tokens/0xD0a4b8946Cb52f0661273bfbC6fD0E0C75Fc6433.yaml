@@ -1,8 +1,8 @@
 ---
 address: '0xD0a4b8946Cb52f0661273bfbC6fD0E0C75Fc6433'
-coingecko_rank: 196
-coingecko_score: 39.029
-community_score: 32.937
+coingecko_rank: 190
+coingecko_score: 39.456
+community_score: 33.153
 description: >-
   STORM is an ERC20-compliant token which operates on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain. CEO, and co-founder, Simon Yu, evolved this digital currency from an app called BitMaker,
@@ -41,7 +41,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/storm-token/">CoinBureau</a> for the complete review
   of Storm Token.
-developer_score: 38.425
+developer_score: 38.422
 id: storm
 image:
   large: https://assets.coingecko.com/coins/images/1369/large/storm.png?1548611119
@@ -61,12 +61,22 @@ links:
     - https://github.com/StormX-Inc/crowdsale
   subreddit_url: https://www.reddit.com/r/stormtoken
   twitter_screen_name: Storm_Token
-liquidity_score: 24.377
-market_cap_rank: 257
+liquidity_score: 26.473
+market_cap_rank: 261
 name: Storm
 public_interest_score: 39.138
 symbol: storm
 tickers:
+- base: STORM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: STORM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: STORM
   market:
     identifier: coinplace
@@ -79,19 +89,29 @@ tickers:
   target: ETH
 - base: STORM
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: STORM
+  market:
     identifier: upbit
     name: Upbit
-  target: ETH
+  target: BTC
 - base: STORM
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: ETH
+  target: BTC
 - base: STORM
   market:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: STORM
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
 - base: STORM
   market:
     identifier: wazirx
@@ -102,3 +122,28 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

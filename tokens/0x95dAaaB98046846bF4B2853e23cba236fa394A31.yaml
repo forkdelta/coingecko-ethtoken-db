@@ -1,8 +1,8 @@
 ---
 address: '0x95dAaaB98046846bF4B2853e23cba236fa394A31'
-coingecko_rank: 1985
-coingecko_score: 14.218
-community_score: 26.67
+coingecko_rank: 1969
+coingecko_score: 14.386
+community_score: 26.527
 description: >-
   ETHEREMON is a decentralized application/blockchain game built on the Ethereum network. It simulates
   a world of ether monsters (Etheremon) where you can capture, trade and evolve Etheremon to defeat others.
@@ -35,7 +35,7 @@ description: >-
 
   Players will earn EMONTs from some game activities (winning battles, tournaments) and can use these
   tokens to perform others (buying eggs, sending monsters on adventures).
-developer_score: 19.657
+developer_score: 19.652
 id: etheremontoken
 image:
   large: https://assets.coingecko.com/coins/images/7272/large/Etheremon.jpg?1547043896
@@ -57,9 +57,19 @@ links:
   subreddit_url: https://www.reddit.com/r/etheremon/
   telegram_channel_identifier: myetheremon
   twitter_screen_name: myetheremon
-liquidity_score: 0.0
-market_cap_rank: 5843
+liquidity_score: 1.0
+market_cap_rank: 4522
 name: EtheremonToken
-public_interest_score: 26.363
+public_interest_score: 26.409
 symbol: emont
-tickers: []
+tickers:
+- base: EMONT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: EMONT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH

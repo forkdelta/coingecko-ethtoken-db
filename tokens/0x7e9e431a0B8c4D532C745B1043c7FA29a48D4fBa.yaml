@@ -1,8 +1,8 @@
 ---
 address: '0x7e9e431a0B8c4D532C745B1043c7FA29a48D4fBa'
-coingecko_rank: 596
-coingecko_score: 27.731
-community_score: 25.828
+coingecko_rank: 571
+coingecko_score: 27.86
+community_score: 25.793
 description: >-
   EosDAC is currently an ERC-20 standard token on the Ethereum blockchain. Once the EOS platform launches,
   the ERC20 token contract will be frozen and the ledger will be transferred over to EOS through a process,
@@ -51,8 +51,8 @@ links:
     - https://github.com/eosdac/
   subreddit_url: https://www.reddit.com/r/EOSDAC/
   twitter_screen_name: eosdac
-liquidity_score: 33.832
-market_cap_rank: 442
+liquidity_score: 35.778
+market_cap_rank: 437
 name: eosDAC
 public_interest_score: 26.679
 symbol: eosdac
@@ -62,6 +62,11 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BTC
+- base: EOSDAC
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: EOS
 - base: EOSDAC
   market:
     identifier: dragonex
@@ -84,21 +89,6 @@ tickers:
   target: BITUSD
 - base: EOSDAC
   market:
-    identifier: openledger
-    name: OpenLedger DEX
-  target: BTS
-- base: EOSDAC
-  market:
     identifier: otcbtc
     name: OTCBTC
   target: ETH
-- base: EOSDAC
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
-- base: EOSDAC
-  market:
-    identifier: whale_ex
-    name: WhaleEx
-  target: EOS
