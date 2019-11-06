@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 342
-coingecko_score: 33.293
-community_score: 35.456
+coingecko_rank: 387
+coingecko_score: 32.03
+community_score: 34.79
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -63,8 +63,8 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 39.901
-market_cap_rank: 89
+liquidity_score: 34.396
+market_cap_rank: 90
 name: Pundi X
 public_interest_score: 28.222
 symbol: npxs
@@ -76,6 +76,16 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: abcc
+    name: ABCC
+  target: ETH
+- base: NPXS
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: NPXS
+  market:
     identifier: atomars
     name: Atomars
   target: BTC
@@ -84,6 +94,11 @@ tickers:
     identifier: bit_z
     name: Bit-Z
   target: BTC
+- base: NPXS
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
 - base: NPXS
   market:
     identifier: bitsonic
@@ -98,17 +113,12 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: USDT
-- base: NPXS
-  market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
 - base: NPXS
   market:
     identifier: coinbene
@@ -116,9 +126,14 @@ tickers:
   target: USDT
 - base: NPXS
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
+    identifier: coss
+    name: COSS
+  target: COS
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -126,24 +141,19 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: ETH
+- base: NPXS
+  market:
     identifier: dextrade
     name: Dex-Trade
   target: BTC
 - base: NPXS
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: BTC
-- base: NPXS
-  market:
-    identifier: etherflyer
-    name: EtherFlyer
-  target: ETH
-- base: NPXS
-  market:
     identifier: exrates
     name: Exrates
-  target: BTC
+  target: USD
 - base: NPXS
   market:
     identifier: graviex
@@ -154,6 +164,11 @@ tickers:
     identifier: graviex
     name: Graviex
   target: ETH
+- base: NPXS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: NPXS
   market:
     identifier: idex
@@ -161,14 +176,14 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
+  target: ETH
 - base: NPXS
   market:
     identifier: latoken
@@ -186,14 +201,14 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: probit
+    name: Probit
   target: KRW
 - base: NPXS
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
+  target: TRY
 - base: NPXS
   market:
     identifier: tidex
@@ -204,6 +219,16 @@ tickers:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: NPXS
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: IDR
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: NPXS
   market:
     identifier: wazirx
