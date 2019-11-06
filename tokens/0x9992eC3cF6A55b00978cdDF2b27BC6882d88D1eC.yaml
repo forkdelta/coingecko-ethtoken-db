@@ -1,8 +1,8 @@
 ---
 address: '0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC'
 coingecko_rank: 56
-coingecko_score: 52.547
-community_score: 41.385
+coingecko_score: 52.446
+community_score: 40.215
 description: >-
   Polymath simplifies the legal process of creating and selling security tokens. It makes a new token
   standard, the ST20, and enforces government compliance. Only a “list of authorized investors and their
@@ -30,7 +30,7 @@ description: >-
 
   A wide array of security tokens that will be listed on Polymath at some point will require investors
   to be accredited, or to be from specific countries.
-developer_score: 74.946
+developer_score: 74.947
 id: polymath-network
 image:
   large: https://assets.coingecko.com/coins/images/2784/large/polymath-network.png?1548331592
@@ -55,12 +55,17 @@ links:
   subreddit_url: https://www.reddit.com/r/PolymathNetwork/
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
-liquidity_score: 39.352
-market_cap_rank: 191
+liquidity_score: 40.364
+market_cap_rank: 189
 name: Polymath Network
 public_interest_score: 27.975
 symbol: poly
 tickers:
+- base: POLY
+  market:
+    identifier: binance
+    name: Binance
+  target: BNB
 - base: POY
   market:
     identifier: bitfinex
@@ -78,19 +83,14 @@ tickers:
   target: USD
 - base: POLY
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: POLY
-  market:
-    identifier: coinplace
-    name: Coinplace
-  target: BTC
-- base: POLY
-  market:
     identifier: dcoin
     name: Dcoin
   target: ETH
+- base: POLY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: POLY
   market:
     identifier: hitbtc
@@ -105,6 +105,11 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: BTC
+- base: POLY
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: POLY
   market:
@@ -115,4 +120,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: POLY
+  market:
+    identifier: wazirx
+    name: WazirX
   target: BTC

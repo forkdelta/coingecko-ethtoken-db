@@ -1,7 +1,7 @@
 ---
 address: '0x8B1F49491477e0fB46a29fef53F1EA320D13c349'
-coingecko_rank: 1687
-coingecko_score: 16.12
+coingecko_rank: 1640
+coingecko_score: 16.333
 community_score: 0.0
 description: >-
   MicroMoney A.I. platform uses complex algorithms to predict creditworthiness of all customers and in
@@ -35,8 +35,8 @@ links:
     - https://github.com/micro-money/prime
   telegram_channel_identifier: micromoneyico
   twitter_screen_name: MicromoneyIO
-liquidity_score: 0.894
-market_cap_rank: 1305
+liquidity_score: 1.453
+market_cap_rank: 1308
 name: MicroMoney
 public_interest_score: 24.768
 symbol: amm
@@ -45,17 +45,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: AMM
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: AMM
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: AMM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: AMM
   market:
     identifier: yobit

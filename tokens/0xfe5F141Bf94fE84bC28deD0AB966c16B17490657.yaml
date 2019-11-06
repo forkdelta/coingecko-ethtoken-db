@@ -1,8 +1,8 @@
 ---
 address: '0xfe5F141Bf94fE84bC28deD0AB966c16B17490657'
-coingecko_rank: 147
-coingecko_score: 42.459
-community_score: 35.456
+coingecko_rank: 127
+coingecko_score: 43.54
+community_score: 34.523
 description: >-
   Libra Credit is a decentralized lending ecosystem that facilitates open access to credit anywhere and
   anytime based on the Ethereum blockchain. Libra Credit is a global initiative with a mission to provide
@@ -34,7 +34,7 @@ description: >-
   well thought out. However, not so much with the crypto-to-fiat part. According to the roadmap, crypto-to-fiat
   lending is scheduled to launch in 2018 Q3. With details lacking in the weekly blog update about crypto-to-fiat
   lending, it is difficult to gauge whether the proposed timeline is reasonable.
-developer_score: 36.117
+developer_score: 36.118
 id: libra-credit
 image:
   large: https://assets.coingecko.com/coins/images/3673/large/libra-credit.png?1547975828
@@ -58,8 +58,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Libra_Credit/
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
-liquidity_score: 44.16
-market_cap_rank: 208
+liquidity_score: 50.59
+market_cap_rank: 214
 name: Cred
 public_interest_score: 30.572
 symbol: lba
@@ -89,16 +89,31 @@ tickers:
     identifier: bilaxy
     name: Bilaxy
   target: ETH
+- base: LBA-340
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: LBA
   market:
     identifier: bitmax
     name: BitMax
-  target: BTC
+  target: ETH
 - base: LBA
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: LBA
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: LBA
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: LBA
   market:
     identifier: uniswap
@@ -106,24 +121,9 @@ tickers:
   target: ETH
 - base: LBA
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: LBA
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
-- base: LBA
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: LBA
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: LBA
   market:
     identifier: yobit
@@ -134,6 +134,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: LBA
   market:
     identifier: yobit
