@@ -1,8 +1,8 @@
 ---
 address: '0xF39f19565B8D937EC30f1db5BD42F558D1E312A6'
-coingecko_rank: 4324
-coingecko_score: 4.989
-community_score: 18.083
+coingecko_rank: 4410
+coingecko_score: 5.026
+community_score: 19.305
 description: >-
   Kappi is a network of independent and decentralized hybrid blockchains.
 developer_score: 0.0
@@ -25,9 +25,19 @@ links:
   subreddit_url: https://www.reddit.com/r/KappiNetwork/
   telegram_channel_identifier: kappi_network
   twitter_screen_name: kappinetwork
-liquidity_score: 2.343
-market_cap_rank: 5823
+liquidity_score: 1.0
+market_cap_rank: 5472
 name: KAPPI TOKEN
 public_interest_score: 0.0
 symbol: kapp
-tickers: []
+tickers:
+- base: KAPP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KAPP
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x7869c4A1a3f6F8684FBCC422a21aD7Abe3167834'
-coingecko_rank: 881
-coingecko_score: 23.37
-community_score: 8.259
+coingecko_rank: 969
+coingecko_score: 22.646
+community_score: 9.591
 description: >-
   Pivot is the world largest blockchain investment, communication and trading platform. It is committed
   to providing one-stop services incorporating cryptocurrency overviews, news and trading. Pivot aims
@@ -28,9 +28,24 @@ links:
   - https://www.pivot.one/
   telegram_channel_identifier: pivotglobal
   twitter_screen_name: pivot_pvt
-liquidity_score: 31.955
-market_cap_rank: 397
+liquidity_score: 26.787
+market_cap_rank: 413
 name: Pivot Token
 public_interest_score: 32.113
 symbol: pvt
-tickers: []
+tickers:
+- base: PVT
+  market:
+    identifier: aex
+    name: AEX
+  target: USDT
+- base: PVT-554
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: PVT
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: USDT

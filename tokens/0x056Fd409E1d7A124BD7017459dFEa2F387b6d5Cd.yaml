@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 467
-coingecko_score: 30.121
-community_score: 4.417
+coingecko_rank: 475
+coingecko_score: 30.228
+community_score: 5.124
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -55,7 +55,7 @@ description: >-
   Starting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini
   dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD
   back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon.
-developer_score: 20.315
+developer_score: 20.316
 id: gemini-dollar
 image:
   large: https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278
@@ -73,8 +73,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 40.129
-market_cap_rank: 356
+liquidity_score: 39.828
+market_cap_rank: 354
 name: Gemini Dollar
 public_interest_score: 40.174
 symbol: gusd
@@ -104,21 +104,21 @@ tickers:
     identifier: floatsv
     name: Float SV
   target: USDT
+- base: BTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
+- base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
 - base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
-- base: GUSD
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: GUSD
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: GUSD
   market:
     identifier: okex
@@ -154,6 +154,11 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: USD
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: GUSD
   market:
     identifier: trade_satoshi

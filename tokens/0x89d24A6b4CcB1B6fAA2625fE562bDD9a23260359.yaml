@@ -1,8 +1,8 @@
 ---
 address: '0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359'
 coingecko_rank: 70
-coingecko_score: 50.174
-community_score: 37.812
+coingecko_score: 50.565
+community_score: 39.387
 description: >-
   Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD — every Dai is worth $1,
   and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority
@@ -92,17 +92,12 @@ links:
     - https://github.com/makerdao/market-maker-keeper
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 42.241
-market_cap_rank: 51
+liquidity_score: 42.064
+market_cap_rank: 49
 name: Dai
 public_interest_score: 33.941
 symbol: dai
 tickers:
-- base: TUSD
-  market:
-    identifier: atomars
-    name: Atomars
-  target: DAI
 - base: MKR
   market:
     identifier: bamboo_relay
@@ -115,6 +110,11 @@ tickers:
   target: DAI
 - base: DAI
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: DAI
+  market:
     identifier: codex
     name: CODEX
   target: USDT
@@ -123,27 +123,17 @@ tickers:
     identifier: coinall
     name: CoinAll
   target: USDT
-- base: USDT
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: MKR
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
 - base: ETH
   market:
     identifier: coss
     name: COSS
   target: DAI
-- base: DAI
-  market:
-    identifier: crex24
-    name: CREX24
-  target: USD
 - base: WETH
+  market:
+    identifier: ddex
+    name: DDEX
+  target: DAI
+- base: USDC
   market:
     identifier: ddex
     name: DDEX
@@ -153,32 +143,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: DAI
-  market:
-    identifier: dydx
-    name: dYdX
-  target: USDC
-- base: DAI
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -188,7 +153,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: BCH
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -202,7 +167,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EOSDT
+  target: USDC
+- base: ETH
+  market:
+    identifier: idex
+    name: Idex
+  target: DAI
 - base: XCHF
   market:
     identifier: idex
@@ -263,12 +233,7 @@ tickers:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: DOGE
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
-- base: DASH
+- base: LTC
   market:
     identifier: south_xchange
     name: SouthXchange
@@ -279,6 +244,11 @@ tickers:
     name: Switcheo
   target: DAI
 - base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: USDT
   market:
     identifier: switcheo
     name: Switcheo
