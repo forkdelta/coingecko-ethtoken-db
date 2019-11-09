@@ -1,8 +1,8 @@
 ---
 address: '0x187D1018E8ef879BE4194d6eD7590987463eAD85'
-coingecko_rank: 3207
-coingecko_score: 7.765
-community_score: 20.163
+coingecko_rank: 3188
+coingecko_score: 8.005
+community_score: 21.122
 description: >-
   What is FUZE?
 
@@ -53,8 +53,18 @@ links:
   telegram_channel_identifier: FUZE_Token
   twitter_screen_name: TokenFuze
 liquidity_score: 0.0
-market_cap_rank: 4858
+market_cap_rank: 5417
 name: FUZE Token
 public_interest_score: 27.241
 symbol: fuze
-tickers: []
+tickers:
+- base: FUZE
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: FUZE
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

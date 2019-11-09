@@ -1,8 +1,8 @@
 ---
 address: '0x05f4a42e251f2d52b8ed15E9FEdAacFcEF1FAD27'
 coingecko_rank: 35
-coingecko_score: 57.292
-community_score: 43.269
+coingecko_score: 57.532
+community_score: 43.844
 description: >-
   Zilliqa (ZIL) is a token developed in the year 2017. Zilliqa is mainly based on the concept of Sharding
   and primarily aims at improving the scalability of the cryptocurrency networks as in case of <a href="https://www.coingecko.com/en/coins/bitcoin">Bitcoin</a>
@@ -28,7 +28,7 @@ description: >-
   in the future of cryptocurrency. Ziliqa has a strong community. The platform has a lot of fans. The
   Zilliqa ICO only happened because there was so much demand for it. The Zilliqa ICO also shows that the
   crypto community is ready to see blockchain technology move to the next phase of its development.
-developer_score: 79.514
+developer_score: 79.522
 id: zilliqa
 image:
   large: https://assets.coingecko.com/coins/images/2687/large/Zilliqa-logo.png?1547036894
@@ -50,12 +50,22 @@ links:
   subreddit_url: https://www.reddit.com/r/zilliqa/
   telegram_channel_identifier: zilliqachat
   twitter_screen_name: zilliqa
-liquidity_score: 48.879
-market_cap_rank: 74
+liquidity_score: 49.279
+market_cap_rank: 80
 name: Zilliqa
 public_interest_score: 29.738
 symbol: zil
 tickers:
+- base: ZIL
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: ETH
+- base: ZIL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ZIL
   market:
     identifier: bitfinex
@@ -73,34 +83,54 @@ tickers:
   target: ETH
 - base: ZIL
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ZIL
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: localtrade
+    name: LocalTrade
+  target: USD
+- base: ZIL
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: USDT
+- base: ZIL
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
 - base: ZIL
   market:
     identifier: okex_korea
     name: OKEx Korea
-  target: BTC
-- base: ZIL
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: ZIL
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: ETH
+- base: ZIL
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ZIL
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
 - base: ZIL
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
+- base: ZIL
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: BTC
+- base: ZIL
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: ZIL
   market:
     identifier: upbit_indonesia
@@ -111,8 +141,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: ZIL
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

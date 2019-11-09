@@ -1,8 +1,8 @@
 ---
 address: '0x608Be0464774A7Be87EC2a1fc7407ce64714d5D2'
-coingecko_rank: 4624
-coingecko_score: 4.472
-community_score: 7.359
+coingecko_rank: 4576
+coingecko_score: 4.762
+community_score: 8.52
 description: >-
   GCG is not part of the regular stock exchange, it only simulates the same mechanism but with different
   specifications and different entities. Its software has been specifically designed for beginners in
@@ -22,8 +22,18 @@ links:
   telegram_channel_identifier: globalcrypto_gate
   twitter_screen_name: GlobalCrypto_
 liquidity_score: 1.0
-market_cap_rank: 4331
+market_cap_rank: 4907
 name: GlobalCryptoGate
 public_interest_score: 24.32
 symbol: gcg
-tickers: []
+tickers:
+- base: GCG
+  market:
+    identifier: coinlim
+    name: Coinlim
+  target: ETH
+- base: GCG1
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH

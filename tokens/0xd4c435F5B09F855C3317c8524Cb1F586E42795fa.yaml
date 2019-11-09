@@ -1,12 +1,12 @@
 ---
 address: '0xd4c435F5B09F855C3317c8524Cb1F586E42795fa'
-coingecko_rank: 283
-coingecko_score: 35.04
-community_score: 34.71
+coingecko_rank: 280
+coingecko_score: 35.489
+community_score: 35.89
 description: >-
   Cindicator creates the social and technological infrastructure needed to make effective decisions under
   the conditions of the high uncertainty of the new economy.
-developer_score: 21.579
+developer_score: 21.58
 id: cindicator
 image:
   large: https://assets.coingecko.com/coins/images/1006/large/cindicator.png?1547034913
@@ -26,8 +26,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Cindicator
   telegram_channel_identifier: cindicator_chat
   twitter_screen_name: Cindicator
-liquidity_score: 28.186
-market_cap_rank: 192
+liquidity_score: 28.948
+market_cap_rank: 207
 name: Cindicator
 public_interest_score: 25.723
 symbol: cnd
@@ -71,11 +71,21 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: CND
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: USD
 - base: CND
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: CND
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: CND
   market:
@@ -86,4 +96,9 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: CND
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

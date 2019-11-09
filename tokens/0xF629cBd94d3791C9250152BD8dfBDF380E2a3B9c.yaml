@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
 coingecko_rank: 66
-coingecko_score: 50.663
-community_score: 43.824
+coingecko_score: 51.045
+community_score: 44.559
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -64,8 +64,8 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 50.78
-market_cap_rank: 75
+liquidity_score: 51.755
+market_cap_rank: 81
 name: Enjin Coin
 public_interest_score: 35.854
 symbol: enj
@@ -92,8 +92,18 @@ tickers:
   target: USD
 - base: ENJ
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: ENJ
+  market:
     identifier: coinfinit
     name: Coinfinit
+  target: KRW
+- base: ENJ
+  market:
+    identifier: coinone
+    name: Coinone
   target: KRW
 - base: ENJ
   market:
@@ -105,6 +115,11 @@ tickers:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
+- base: ENJ
+  market:
+    identifier: crypto_bridge
+    name: CryptoBridge
+  target: BTC
 - base: ENJ
   market:
     identifier: crypto_bridge
@@ -125,11 +140,6 @@ tickers:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: ENJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: ENJ
   market:
     identifier: hitbtc
@@ -157,6 +167,11 @@ tickers:
   target: ETH
 - base: ENJ
   market:
+    identifier: probit
+    name: Probit
+  target: KRW
+- base: ENJ
+  market:
     identifier: quoine
     name: Liquid
   target: BTC
@@ -169,6 +184,11 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
+  target: ETH
+- base: ENJ
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: ENJ
   market:
