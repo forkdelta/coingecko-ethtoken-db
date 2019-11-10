@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: lympo
   twitter_screen_name: Lympo_io
 liquidity_score: 14.056
-market_cap_rank: 392
+market_cap_rank: 386
 name: Lympo
 public_interest_score: 40.151
 symbol: lym
@@ -43,14 +43,19 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: ETH
+- base: LYM
+  market:
+    identifier: bitfinex
+    name: Bitfinex
   target: USD
+- base: LYM
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: LYM
   market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: LYM
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: USDT

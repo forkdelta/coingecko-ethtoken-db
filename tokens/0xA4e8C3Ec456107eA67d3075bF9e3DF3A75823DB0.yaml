@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 37.711
-market_cap_rank: 213
+market_cap_rank: 209
 name: Loom Network
 public_interest_score: 29.877
 symbol: loom
@@ -70,6 +70,11 @@ tickers:
   market:
     identifier: dextrade
     name: Dex-Trade
+  target: BTC
+- base: LOOM
+  market:
+    identifier: dextrade
+    name: Dex-Trade
   target: ETH
 - base: LOOM
   market:
@@ -80,21 +85,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: LOOM
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
 - base: LOOM
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: LOOM
-  market:
-    identifier: kucoin
-    name: KuCoin
   target: ETH
 - base: LOOM
   market:
@@ -110,11 +105,6 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
-  target: BTC
-- base: LOOM
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH
 - base: LOOM
   market:

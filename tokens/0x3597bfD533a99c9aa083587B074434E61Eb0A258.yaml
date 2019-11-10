@@ -32,9 +32,24 @@ symbol: dent
 tickers:
 - base: DENT
   market:
-    identifier: alterdice
-    name: AlterDice
+    identifier: coinbene
+    name: CoinBene
   target: BTC
+- base: DENT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: BTC
+- base: DENT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
+- base: DENT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: DENT
   market:
     identifier: forkdelta
@@ -60,6 +75,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: DENT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
     identifier: lykke
@@ -100,18 +120,3 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: DENT
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: DENT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
-- base: DENT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

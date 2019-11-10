@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 33.801
-market_cap_rank: 92
+market_cap_rank: 93
 name: Pundi X
 public_interest_score: 28.222
 symbol: npxs
@@ -86,6 +86,11 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: NPXS
+  market:
     identifier: binance
     name: Binance
   target: USDC
@@ -101,14 +106,34 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: NPXS
+  market:
     identifier: bitsten
     name: Bitsten
   target: BST
 - base: NPXS
   market:
+    identifier: bitsten
+    name: Bitsten
+  target: ETH
+- base: NPXS
+  market:
     identifier: bittrex
     name: Bittrex
   target: USDT
+- base: NPXS
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: NPXS
+  market:
+    identifier: coss
+    name: COSS
+  target: COS
 - base: NPXS
   market:
     identifier: coss
@@ -131,14 +156,14 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: etherflyer
-    name: EtherFlyer
+    identifier: dextrade
+    name: Dex-Trade
   target: ETH
 - base: NPXS
   market:
-    identifier: exrates
-    name: Exrates
-  target: USD
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: NPXS
   market:
     identifier: graviex
@@ -149,6 +174,11 @@ tickers:
     identifier: graviex
     name: Graviex
   target: ETH
+- base: NPXS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: NPXS
   market:
     identifier: idex
@@ -158,17 +188,7 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: ETH
-- base: NPXS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
 - base: NPXS
   market:
     identifier: localtrade
@@ -183,12 +203,27 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TRY
 - base: NPXS
   market:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: NPXS
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: NPXS
   market:
     identifier: upbit_indonesia
@@ -199,11 +234,6 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: IDR
-- base: NPXS
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
 - base: NPXS
   market:
     identifier: wazirx

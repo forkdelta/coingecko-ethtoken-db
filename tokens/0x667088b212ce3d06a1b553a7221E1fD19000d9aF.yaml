@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: wingschat
   twitter_screen_name: wingsplatform
 liquidity_score: 24.581
-market_cap_rank: 489
+market_cap_rank: 523
 name: Wings
 public_interest_score: 40.16
 symbol: wings
 tickers:
+- base: WINGS
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: WINGS
   market:
     identifier: forkdelta
@@ -43,11 +48,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: WINGS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: WINGS
   market:
     identifier: idex

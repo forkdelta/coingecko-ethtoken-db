@@ -80,7 +80,7 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 44.341
-market_cap_rank: 87
+market_cap_rank: 85
 name: Golem
 public_interest_score: 30.631
 symbol: gnt
@@ -92,9 +92,24 @@ tickers:
   target: ETH
 - base: GNT
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: dextrade
+    name: Dex-Trade
   target: BTC
+- base: GNT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
+- base: GNT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: GNT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: GNT
   market:
     identifier: localtrade
@@ -127,36 +142,11 @@ tickers:
   target: TRY
 - base: GNT
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: GNT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
-- base: GNT
-  market:
     identifier: wazirx
     name: WazirX
   target: BTC
 - base: GNT
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: GNT
-  market:
     identifier: zb
     name: ZB
   target: BTC
-- base: GNT
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

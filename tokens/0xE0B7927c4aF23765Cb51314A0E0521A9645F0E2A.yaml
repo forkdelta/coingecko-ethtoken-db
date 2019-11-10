@@ -69,7 +69,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 38.557
-market_cap_rank: 135
+market_cap_rank: 137
 name: DigixDAO
 public_interest_score: 28.246
 symbol: dgd
@@ -78,16 +78,26 @@ tickers:
   market:
     identifier: atomars
     name: Atomars
+  target: BTC
+- base: DGD
+  market:
+    identifier: atomars
+    name: Atomars
   target: ETH
+- base: DGD
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: DGD
   market:
     identifier: dextrade
     name: Dex-Trade
-  target: ETH
+  target: BTC
 - base: DGD
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: dextrade
+    name: Dex-Trade
   target: ETH
 - base: DGD
   market:
@@ -96,8 +106,8 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: okex
+    name: OKEx
   target: BTC
 - base: DGD
   market:
@@ -106,9 +116,24 @@ tickers:
   target: ETH
 - base: DGD
   market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: DGD
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: ETH
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: DGD
   market:
     identifier: uniswap

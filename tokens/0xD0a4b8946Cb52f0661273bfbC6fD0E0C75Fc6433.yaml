@@ -62,26 +62,21 @@ links:
   subreddit_url: https://www.reddit.com/r/stormtoken
   twitter_screen_name: Storm_Token
 liquidity_score: 32.874
-market_cap_rank: 245
+market_cap_rank: 248
 name: Storm
 public_interest_score: 39.138
 symbol: storm
 tickers:
-- base: STM
+- base: STORM
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: STORM
   market:
     identifier: bittrex
     name: Bittrex
   target: ETH
-- base: STORM
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
 - base: STORM
   market:
     identifier: upbit
@@ -97,6 +92,11 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: STORM
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
 - base: STORM
   market:
     identifier: yobit

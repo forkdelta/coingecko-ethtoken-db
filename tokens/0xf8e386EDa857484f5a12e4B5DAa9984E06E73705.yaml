@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: indorseio
   twitter_screen_name: joinindorse
 liquidity_score: 1.0
-market_cap_rank: 1135
+market_cap_rank: 1061
 name: Indorse
 public_interest_score: 25.096
 symbol: ind
 tickers:
+- base: IND
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: IND
   market:
     identifier: coss
@@ -51,17 +56,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: IND
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: IND
   market:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: IND
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: IND
   market:
     identifier: yobit

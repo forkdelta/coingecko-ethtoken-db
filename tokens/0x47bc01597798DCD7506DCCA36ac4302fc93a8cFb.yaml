@@ -27,18 +27,28 @@ links:
   telegram_channel_identifier: crowdmachine
   twitter_screen_name: crowd_machine
 liquidity_score: 1.0
-market_cap_rank: 677
+market_cap_rank: 681
 name: Crowd Machine
 public_interest_score: 40.652
 symbol: cmct
 tickers:
 - base: CMCT
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: CMCT
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: BTC
 - base: CMCT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: CMCT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
