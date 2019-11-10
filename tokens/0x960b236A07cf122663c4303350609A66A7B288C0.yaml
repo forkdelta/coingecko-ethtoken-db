@@ -79,6 +79,11 @@ symbol: ant
 tickers:
 - base: ANT
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: ANT
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
@@ -86,16 +91,6 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: ETH
-- base: ANT
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
-- base: ANT
-  market:
-    identifier: bittrex
-    name: Bittrex
   target: ETH
 - base: ANT
   market:

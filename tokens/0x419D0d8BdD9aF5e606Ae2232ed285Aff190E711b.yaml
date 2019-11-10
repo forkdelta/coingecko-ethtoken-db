@@ -57,7 +57,7 @@ links:
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
 liquidity_score: 25.811
-market_cap_rank: 146
+market_cap_rank: 145
 name: FunFair
 public_interest_score: 30.087
 symbol: fun
@@ -67,6 +67,21 @@ tickers:
     identifier: altilly
     name: Altilly
   target: DOGE
+- base: FUN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: FUN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: FUN
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
 - base: FUN
   market:
     identifier: forkdelta
@@ -99,11 +114,11 @@ tickers:
   target: BTC
 - base: FUN
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: okex
+    name: OKEx
   target: BTC
 - base: FUN
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: BTC

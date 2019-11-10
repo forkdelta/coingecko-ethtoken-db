@@ -50,7 +50,7 @@ links:
   telegram_channel_identifier: aeternity
   twitter_screen_name: aeternity
 liquidity_score: 57.128
-market_cap_rank: 61
+market_cap_rank: 63
 name: Aeternity
 public_interest_score: 27.834
 symbol: ae
@@ -67,9 +67,19 @@ tickers:
   target: ETH
 - base: AE
   market:
-    identifier: okex
-    name: OKEx
-  target: OKB
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
+- base: AE
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: AE
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: AE
   market:
     identifier: yobit
@@ -80,8 +90,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: AE
-  market:
-    identifier: zb
-    name: ZB
-  target: BTC
