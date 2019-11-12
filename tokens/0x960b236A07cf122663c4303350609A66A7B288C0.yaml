@@ -72,16 +72,11 @@ links:
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
 liquidity_score: 9.194
-market_cap_rank: 140
+market_cap_rank: 145
 name: Aragon
 public_interest_score: 32.681
 symbol: ant
 tickers:
-- base: ANT
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: ANT
   market:
     identifier: bitfinex
@@ -92,6 +87,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: ANT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: ANT
   market:
     identifier: credoex

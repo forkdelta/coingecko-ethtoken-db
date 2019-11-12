@@ -49,26 +49,21 @@ links:
   telegram_channel_identifier: roobee_invest
   twitter_screen_name: Roobee_invest
 liquidity_score: 31.138
-market_cap_rank: 2824
+market_cap_rank: 2228
 name: Roobee
 public_interest_score: 27.12
 symbol: roobee
 tickers:
 - base: ROOBEE
   market:
-    identifier: idex
-    name: Idex
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: ROOBEE
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
-- base: ROOBEE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: ROOBEE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: ROOBEE
   market:
     identifier: yobit
@@ -79,8 +74,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: ROOBEE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO

@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: refereum
   twitter_screen_name: refereum
 liquidity_score: 29.138
-market_cap_rank: 409
+market_cap_rank: 419
 name: Refereum
 public_interest_score: 27.339
 symbol: rfr
@@ -40,7 +40,27 @@ tickers:
   market:
     identifier: bitcoin_com
     name: Bitcoin.com
+  target: BTC
+- base: RFR
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com
   target: USD
+- base: RFR
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: RFR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: RFR
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: RFR
   market:
     identifier: gate
@@ -50,17 +70,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: RFR
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: USD
-- base: RFR
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: RFR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
 - base: RFR
   market:
     identifier: upbit

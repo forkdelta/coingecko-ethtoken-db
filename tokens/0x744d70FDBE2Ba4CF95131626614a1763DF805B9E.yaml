@@ -51,25 +51,40 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 54.263
-market_cap_rank: 89
+market_cap_rank: 91
 name: Status
 public_interest_score: 43.059
 symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: atomars
-    name: Atomars
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: SNT
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: SNT
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
   target: ETH
 - base: SNT
   market:
-    identifier: atomars
-    name: Atomars
-  target: USDT
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: SNT
   market:
-    identifier: bitfinex
-    name: Bitfinex
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: SNT
+  market:
+    identifier: chainex
+    name: ChainEX
   target: BTC
 - base: SNT
   market:
@@ -93,19 +108,9 @@ tickers:
   target: KRW
 - base: SNT
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: idax
+    name: Idax
   target: BTC
-- base: SNT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: SNT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: SNT
   market:
     identifier: livecoin
@@ -113,29 +118,9 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: SNT
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: SNT
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: ETH
-- base: SNT
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: BTC
-- base: SNT
-  market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: SNT
   market:
     identifier: tokenize
@@ -148,19 +133,19 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: SNT
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: SNT
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: BTC
 - base: SNT
   market:
     identifier: zb

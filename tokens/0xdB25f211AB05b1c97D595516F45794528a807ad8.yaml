@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 26.509
-market_cap_rank: 204
+market_cap_rank: 208
 name: STASIS EURO
 public_interest_score: 27.265
 symbol: eurs
 tickers:
+- base: EURS
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: EURS
   market:
     identifier: bitcratic
@@ -57,12 +62,12 @@ tickers:
     identifier: dsx
     name: DSX
   target: EURS
-- base: BTC
+- base: ETH
   market:
     identifier: dsx
     name: DSX
   target: EURS
-- base: ETH
+- base: BTC
   market:
     identifier: dsx
     name: DSX
@@ -77,41 +82,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: BTC
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EURS
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: DASH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: ZEC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: BOX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
+  target: EOSDT
 - base: LTC
   market:
     identifier: hitbtc
@@ -122,16 +97,36 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BOX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: TUSD
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: EURS
   market:
     identifier: okcoin
@@ -147,7 +142,7 @@ tickers:
     identifier: okcoin
     name: OKCoin
   target: USD
-- base: DTR
+- base: XAUR
   market:
     identifier: tokens_net
     name: TokensNet
@@ -162,13 +157,3 @@ tickers:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: XAUR
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: EURS
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
