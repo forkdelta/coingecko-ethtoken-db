@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: ethplode
   twitter_screen_name: ETHplode
 liquidity_score: 1.0
-market_cap_rank: 1018
+market_cap_rank: 1032
 name: ETHplode
 public_interest_score: 24.604
 symbol: ethplo
@@ -40,6 +40,11 @@ tickers:
   target: ETH
 - base: ETHPLO
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ETHPLO
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -47,12 +52,12 @@ tickers:
   market:
     identifier: exnce
     name: EXNCE
-  target: ETH
+  target: HLX
 - base: ETHPLO
   market:
     identifier: exnce
     name: EXNCE
-  target: HLX
+  target: XNC
 - base: ETHPLO
   market:
     identifier: mercatox
@@ -72,6 +77,11 @@ tickers:
   market:
     identifier: thetokenstore
     name: Token.Store
+  target: ETH
+- base: ETHPLO
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: ETHPLO
   market:

@@ -39,7 +39,7 @@ links:
   telegram_channel_identifier: tokpie
   twitter_screen_name: tokpie_io
 liquidity_score: 1.0
-market_cap_rank: 1213
+market_cap_rank: 1186
 name: TOKPIE
 public_interest_score: 24.459
 symbol: tkp
@@ -54,12 +54,12 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
-- base: CLT
+- base: TKP
   market:
     identifier: tokpie
     name: Tokpie
-  target: TKP
-- base: CRAD
+  target: ETH
+- base: CLT
   market:
     identifier: tokpie
     name: Tokpie
@@ -69,3 +69,18 @@ tickers:
     identifier: tokpie
     name: Tokpie
   target: TKP
+- base: CRAD
+  market:
+    identifier: tokpie
+    name: Tokpie
+  target: TKP
+- base: TKP
+  market:
+    identifier: tokpie
+    name: Tokpie
+  target: USDC
+- base: TKP
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH

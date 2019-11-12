@@ -30,13 +30,18 @@ links:
   telegram_channel_identifier: vidtoken
   twitter_screen_name: v_id_blockchain
 liquidity_score: 33.976
-market_cap_rank: 436
+market_cap_rank: 423
 name: V-ID blockchain
 public_interest_score: 27.504
 symbol: vidt
 tickers:
 - base: VIDT
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: VIDT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH

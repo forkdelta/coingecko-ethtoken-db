@@ -33,16 +33,11 @@ links:
   subreddit_url: https://www.reddit.com/r/blockv
   twitter_screen_name: blockv_io
 liquidity_score: 1.0
-market_cap_rank: 406
+market_cap_rank: 457
 name: BLOCKv
 public_interest_score: 26.392
 symbol: vee
 tickers:
-- base: VEE
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: VEE
   market:
     identifier: bitfinex
@@ -60,11 +55,16 @@ tickers:
   target: USD
 - base: VEE
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: VEE
-  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: VEE
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: VEE
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

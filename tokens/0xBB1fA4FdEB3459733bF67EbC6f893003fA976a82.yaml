@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: PangeaBitnation
   twitter_screen_name: mybitnation
 liquidity_score: 1.0
-market_cap_rank: 1313
+market_cap_rank: 1189
 name: Pangea Arbitration Token (Bitnation)
 public_interest_score: 24.598
 symbol: xpat
 tickers:
+- base: XPAT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: XPAT
   market:
     identifier: bitcratic
@@ -47,13 +52,3 @@ tickers:
     identifier: boa
     name: BOA Exchange
   target: BTC
-- base: XPAT
-  market:
-    identifier: boa
-    name: BOA Exchange
-  target: ETH
-- base: XPAT
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH

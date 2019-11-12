@@ -35,8 +35,18 @@ links:
     github:
     - https://github.com/bihu-id/bihu-contracts
 liquidity_score: 29.177
-market_cap_rank: 211
+market_cap_rank: 225
 name: Key
 public_interest_score: 26.379
 symbol: key
-tickers: []
+tickers:
+- base: KEY
+  market:
+    identifier: bibox
+    name: Bibox
+  target: USDT
+- base: KEY
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

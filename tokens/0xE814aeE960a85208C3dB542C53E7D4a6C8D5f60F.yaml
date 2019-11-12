@@ -23,7 +23,7 @@ links:
     github:
     - https://github.com/chronologic/chronologic
 liquidity_score: 1.0
-market_cap_rank: 2200
+market_cap_rank: 1939
 name: Chronologic
 public_interest_score: 24.604
 symbol: day
@@ -37,9 +37,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: USD
+  target: BTC
 - base: DAY
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: DAY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
