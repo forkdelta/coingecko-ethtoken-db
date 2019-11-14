@@ -27,11 +27,21 @@ links:
   telegram_channel_identifier: crowdmachine
   twitter_screen_name: crowd_machine
 liquidity_score: 1.0
-market_cap_rank: 716
+market_cap_rank: 736
 name: Crowd Machine
 public_interest_score: 40.652
 symbol: cmct
 tickers:
+- base: CMCT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: CMCT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: CMCT
   market:
     identifier: hitbtc
@@ -42,3 +52,13 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: CMCT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: CMCT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

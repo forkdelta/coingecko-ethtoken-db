@@ -57,16 +57,31 @@ links:
   telegram_channel_identifier: aeronaero
   twitter_screen_name: aeron_aero
 liquidity_score: 32.728
-market_cap_rank: 408
+market_cap_rank: 404
 name: Aeron
 public_interest_score: 25.6
 symbol: arn
 tickers:
 - base: ARN
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: ARN
+  market:
+    identifier: coinall
+    name: CoinAll
   target: BTC
+- base: ARN
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: ARN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: ARN
   market:
     identifier: gate
@@ -76,11 +91,6 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: ARN
-  market:
-    identifier: idax
-    name: Idax
   target: ETH
 - base: ARN
   market:
@@ -97,8 +107,3 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: ARN
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH

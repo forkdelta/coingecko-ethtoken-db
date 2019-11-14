@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: windingtree
   twitter_screen_name: windingtree
 liquidity_score: 1.0
-market_cap_rank: 4366
+market_cap_rank: 4287
 name: Winding Tree
 public_interest_score: 25.91
 symbol: lif
 tickers:
+- base: LIF
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: LIF
   market:
     identifier: yobit
@@ -46,8 +51,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: LIF
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

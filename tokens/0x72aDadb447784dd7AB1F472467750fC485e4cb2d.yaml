@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: worldcore
   twitter_screen_name: worldcoresocial
 liquidity_score: 1.0
-market_cap_rank: 1336
+market_cap_rank: 1263
 name: Worldcore
 public_interest_score: 25.094
 symbol: wrc
 tickers:
+- base: WRC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: WRC
   market:
     identifier: sistemkoin
@@ -63,3 +68,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: WRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

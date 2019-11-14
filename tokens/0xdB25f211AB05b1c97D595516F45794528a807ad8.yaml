@@ -27,16 +27,11 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 26.509
-market_cap_rank: 208
+market_cap_rank: 207
 name: STASIS EURO
 public_interest_score: 27.265
 symbol: eurs
 tickers:
-- base: EURS
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: EURS
   market:
     identifier: bitcratic
@@ -57,17 +52,17 @@ tickers:
     identifier: dsx
     name: DSX
   target: EUR
+- base: BTC
+  market:
+    identifier: dsx
+    name: DSX
+  target: EURS
 - base: LTC
   market:
     identifier: dsx
     name: DSX
   target: EURS
 - base: ETH
-  market:
-    identifier: dsx
-    name: DSX
-  target: EURS
-- base: BTC
   market:
     identifier: dsx
     name: DSX
@@ -87,32 +82,22 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: XRP
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: ETH
+- base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: DASH
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -129,6 +114,11 @@ tickers:
   target: TUSD
 - base: EURS
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: EURS
+  market:
     identifier: okcoin
     name: OKCoin
   target: EUR
@@ -142,11 +132,6 @@ tickers:
     identifier: okcoin
     name: OKCoin
   target: USD
-- base: XAUR
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
 - base: XRP
   market:
     identifier: tokens_net

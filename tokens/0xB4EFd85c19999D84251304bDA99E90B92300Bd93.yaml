@@ -27,8 +27,18 @@ links:
   subreddit_url: https://www.reddit.com/r/rocketpool
   twitter_screen_name: Rocket_Pool
 liquidity_score: 1.0
-market_cap_rank: 3332
+market_cap_rank: 4138
 name: Rocket Pool
 public_interest_score: 27.484
 symbol: rpl
-tickers: []
+tickers:
+- base: RPL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: RPL
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
