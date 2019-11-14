@@ -47,16 +47,11 @@ links:
   telegram_channel_identifier: kryll_io
   twitter_screen_name: kryll_io
 liquidity_score: 1.0
-market_cap_rank: 746
+market_cap_rank: 752
 name: KRYLL
 public_interest_score: 28.337
 symbol: krl
 tickers:
-- base: KRL
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: KRL
   market:
     identifier: idex
@@ -67,3 +62,18 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: KRL
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: KRL
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
+- base: KRL
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH

@@ -42,11 +42,26 @@ links:
   telegram_channel_identifier: latoken
   twitter_screen_name: latokens
 liquidity_score: 37.394
-market_cap_rank: 360
+market_cap_rank: 356
 name: LATOKEN
 public_interest_score: 28.667
 symbol: la
 tickers:
+- base: LA
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: EVY
   market:
     identifier: latoken
@@ -82,3 +97,8 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: LA
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT

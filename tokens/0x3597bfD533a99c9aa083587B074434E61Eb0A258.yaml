@@ -25,16 +25,26 @@ links:
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
 liquidity_score: 22.11
-market_cap_rank: 166
+market_cap_rank: 164
 name: Dent
 public_interest_score: 31.892
 symbol: dent
 tickers:
 - base: DENT
   market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: DENT
+  market:
     identifier: coinbene
     name: CoinBene
   target: BTC
+- base: DENT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
 - base: DENT
   market:
     identifier: forkdelta
@@ -50,6 +60,11 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: DENT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: DENT
   market:
     identifier: livecoin
@@ -110,8 +125,3 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: DENT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

@@ -53,11 +53,16 @@ links:
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
 liquidity_score: 41.083
-market_cap_rank: 151
+market_cap_rank: 153
 name: Waltonchain
 public_interest_score: 30.429
 symbol: wtc
 tickers:
+- base: WTC
+  market:
+    identifier: atomars
+    name: Atomars
+  target: ETH
 - base: WTC
   market:
     identifier: bitcratic
@@ -75,19 +80,9 @@ tickers:
   target: USD
 - base: WTC
   market:
-    identifier: citex
-    name: CITEX
+    identifier: dextrade
+    name: Dex-Trade
   target: ETH
-- base: WTC
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
-- base: WTC
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
 - base: WTC
   market:
     identifier: financex
@@ -107,4 +102,14 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: WTC
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: WTC
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH

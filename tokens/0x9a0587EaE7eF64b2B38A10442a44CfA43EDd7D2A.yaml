@@ -60,11 +60,16 @@ links:
   telegram_channel_identifier: welltrado
   twitter_screen_name: welltrado
 liquidity_score: 1.0
-market_cap_rank: 1244
+market_cap_rank: 664
 name: Welltrado
 public_interest_score: 24.59
 symbol: wtl
 tickers:
+- base: WTL
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
 - base: WTL
   market:
     identifier: exrates
@@ -75,11 +80,6 @@ tickers:
     identifier: exrates
     name: Exrates
   target: USD
-- base: WTL
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: WTL
   market:
     identifier: yobit

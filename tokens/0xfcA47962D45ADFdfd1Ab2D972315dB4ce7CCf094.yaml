@@ -41,7 +41,7 @@ links:
   telegram_channel_identifier: insurex
   twitter_screen_name: insurextech
 liquidity_score: 1.0
-market_cap_rank: 806
+market_cap_rank: 836
 name: iXledger
 public_interest_score: 24.982
 symbol: ixt
@@ -55,9 +55,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: IXT
+  market:
+    identifier: quoine
+    name: Liquid
   target: BTC
 - base: IXT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: quoine
+    name: Liquid
+  target: QASH

@@ -75,6 +75,11 @@ symbol: mco
 tickers:
 - base: MCO
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: MCO
+  market:
     identifier: cryptaldash
     name: CryptalDash
   target: USDT
@@ -83,11 +88,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: MCO
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: MCO
   market:
     identifier: gopax
@@ -100,8 +100,18 @@ tickers:
   target: ETH
 - base: MCO
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: MCO
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: MCO
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: MCO
   market:

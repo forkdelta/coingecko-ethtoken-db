@@ -93,7 +93,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 42.064
-market_cap_rank: 49
+market_cap_rank: 47
 name: Dai
 public_interest_score: 33.941
 symbol: dai
@@ -103,11 +103,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: DAI
-- base: DAI
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: USDC
 - base: MKR
   market:
     identifier: bitfinex
@@ -125,15 +120,20 @@ tickers:
   target: USDT
 - base: ETH
   market:
-    identifier: coss
-    name: COSS
+    identifier: coinall
+    name: CoinAll
   target: DAI
-- base: MKR
+- base: BTC
   market:
-    identifier: coss
-    name: COSS
+    identifier: coinall
+    name: CoinAll
   target: DAI
-- base: USDT
+- base: DAI
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: USDT
+- base: MKR
   market:
     identifier: coss
     name: COSS
@@ -150,30 +150,10 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: dydx
-    name: dYdX
-  target: USDC
-- base: DAI
-  market:
     identifier: exnce
     name: EXNCE
   target: HLX
-- base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: MKR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: EURS
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -183,36 +163,41 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XMR
+- base: XRP
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: POA20
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EOSDT
-- base: ETH
-  market:
-    identifier: idex
-    name: Idex
   target: DAI
-- base: XCHF
+- base: MKR
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: DAI
 - base: DAI
   market:
     identifier: idex
     name: Idex
   target: USDC
+- base: ETH
+  market:
+    identifier: kraken
+    name: Kraken
+  target: DAI
+- base: ZRX
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: DAI
 - base: BAT
   market:
     identifier: oasis_trade
@@ -223,42 +208,22 @@ tickers:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
-- base: ZRX
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: DAI
-- base: DAI
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
 - base: DAI
   market:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: ETH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: DAI
 - base: BTC
   market:
     identifier: quoine
     name: Liquid
   target: DAI
-- base: USDC
+- base: ETH
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: quoine
+    name: Liquid
   target: DAI
 - base: ZRX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: TUSD
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -278,22 +243,22 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: BTC
-  market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: DAI
 - base: LTC
   market:
     identifier: south_xchange
     name: SouthXchange
   target: DAI
-- base: MKR
+- base: DASH
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: south_xchange
+    name: SouthXchange
   target: DAI
-- base: USDT
+- base: DOGE
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DAI
+- base: SDUSD
   market:
     identifier: switcheo
     name: Switcheo
@@ -303,3 +268,13 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: USDT
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: DAI
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

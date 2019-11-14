@@ -71,14 +71,39 @@ symbol: npxs
 tickers:
 - base: NPXS
   market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
+- base: NPXS
+  market:
     identifier: atomars
     name: Atomars
+  target: BTC
+- base: NPXS
+  market:
+    identifier: atomars
+    name: Atomars
+  target: ETH
+- base: NPXS
+  market:
+    identifier: binance
+    name: Binance
+  target: USDC
+- base: NPXS
+  market:
+    identifier: bit_z
+    name: Bit-Z
   target: BTC
 - base: NPXS
   market:
     identifier: bit_z
     name: Bit-Z
   target: ETH
+- base: NPXS
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
 - base: NPXS
   market:
     identifier: bitsten
@@ -91,9 +116,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
+    identifier: bitsten
+    name: Bitsten
+  target: IDR
 - base: NPXS
   market:
     identifier: catex
@@ -108,17 +133,12 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
-  target: USDT
+  target: ETH
 - base: NPXS
   market:
     identifier: coss
     name: COSS
   target: COS
-- base: NPXS
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
 - base: NPXS
   market:
     identifier: crypto_bridge
@@ -136,14 +156,14 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: etherflyer
-    name: EtherFlyer
+    identifier: dextrade
+    name: Dex-Trade
   target: ETH
 - base: NPXS
   market:
-    identifier: graviex
-    name: Graviex
-  target: BTC
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: NPXS
   market:
     identifier: hitbtc
@@ -151,14 +171,19 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: idex
-    name: Idex
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
 - base: NPXS
   market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: NPXS
   market:
     identifier: livecoin
@@ -171,9 +196,14 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: KRW
+    identifier: probit
+    name: Probit
+  target: USDT
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
 - base: NPXS
   market:
     identifier: sistemkoin
@@ -186,6 +216,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: IDR
+- base: NPXS
+  market:
     identifier: wazirx
     name: WazirX
   target: BTC
@@ -194,3 +229,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: INR
+- base: NPXS
+  market:
+    identifier: zg
+    name: ZG.com
+  target: ETH
