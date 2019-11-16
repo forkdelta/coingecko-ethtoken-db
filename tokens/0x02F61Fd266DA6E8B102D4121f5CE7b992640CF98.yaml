@@ -33,13 +33,28 @@ links:
   telegram_channel_identifier: likecoin
   twitter_screen_name: likecoin_fdn
 liquidity_score: 1.0
-market_cap_rank: 601
+market_cap_rank: 600
 name: LikeCoin
 public_interest_score: 30.109
 symbol: like
 tickers:
 - base: LIKE
   market:
+    identifier: bitasset
+    name: BitAsset
+  target: TWD
+- base: LIKE
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: LIKE
+  market:
     identifier: quoine
     name: Liquid
   target: ETH
+- base: LIKE
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH

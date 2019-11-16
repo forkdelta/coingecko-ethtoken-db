@@ -27,18 +27,23 @@ links:
     - https://github.com/paxosglobal/busd-contract
   twitter_screen_name: PaxosGlobal
 liquidity_score: 47.684
-market_cap_rank: 4266
+market_cap_rank: 2062
 name: Binance USD
 public_interest_score: 37.318
 symbol: busd
 tickers:
 - base: BUSD
   market:
+    identifier: binance
+    name: Binance
+  target: NGN
+- base: BTC
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BUSD
+- base: BUSD
+  market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: ETH
-  market:
-    identifier: graviex
-    name: Graviex
-  target: BUSD

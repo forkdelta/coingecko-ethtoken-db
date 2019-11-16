@@ -24,11 +24,21 @@ links:
   telegram_channel_identifier: swace
   twitter_screen_name: swaceapp
 liquidity_score: 1.0
-market_cap_rank: 5087
+market_cap_rank: 5333
 name: Swace
 public_interest_score: 24.519
 symbol: swace
 tickers:
+- base: SWACE
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: ETH
+- base: SWACE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: SWACE
   market:
     identifier: probit
@@ -39,3 +49,8 @@ tickers:
     identifier: probit
     name: Probit
   target: USDT
+- base: SWACE
+  market:
+    identifier: shortex
+    name: Shortex
+  target: ETH

@@ -27,13 +27,18 @@ links:
   telegram_channel_identifier: kappi_network
   twitter_screen_name: kappinetwork
 liquidity_score: 1.0
-market_cap_rank: 5770
+market_cap_rank: 5955
 name: Kappi Network
 public_interest_score: 0.0
 symbol: kapp
 tickers:
 - base: KAPP
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: KAPP
+  market:
     identifier: vindax
     name: Vindax
-  target: ETH
+  target: BTC
