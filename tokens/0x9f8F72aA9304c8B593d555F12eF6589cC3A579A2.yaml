@@ -58,21 +58,11 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 41.804
-market_cap_rank: 25
+market_cap_rank: 26
 name: Maker
 public_interest_score: 27.433
 symbol: mkr
 tickers:
-- base: MKR
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: MKR
-  market:
-    identifier: atomars
-    name: Atomars
-  target: ETH
 - base: MKR
   market:
     identifier: bamboo_relay
@@ -80,9 +70,9 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: MKR
   market:
     identifier: bibox
@@ -100,24 +90,14 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: MKR
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
+    identifier: chainex
+    name: ChainEX
+  target: BTC
 - base: MKR
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: MKR
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
 - base: MKR
   market:
     identifier: everbloom
@@ -130,21 +110,6 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MKR
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: MKR
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: MKR
-  market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
@@ -152,7 +117,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: USD
 - base: MKR
   market:
     identifier: idex
@@ -160,34 +125,19 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: DAI
-- base: MKR
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: MKR
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: BTC
-- base: MKR
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: ETH
-- base: MKR
-  market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USD
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: MKR
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
+- base: MKR
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: MKR
   market:
     identifier: shortex
@@ -213,11 +163,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
 - base: MKR
   market:
     identifier: tokenize

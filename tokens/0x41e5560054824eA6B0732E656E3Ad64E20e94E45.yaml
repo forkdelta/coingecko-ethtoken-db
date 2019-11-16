@@ -35,16 +35,21 @@ links:
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
 liquidity_score: 39.851
-market_cap_rank: 125
+market_cap_rank: 130
 name: Civic
 public_interest_score: 34.639
 symbol: cvc
 tickers:
 - base: CVC
   market:
-    identifier: chainex
-    name: ChainEX
-  target: BTC
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: CVC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: CVC
   market:
     identifier: credoex
@@ -57,9 +62,9 @@ tickers:
   target: ETH
 - base: CVC
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
+    identifier: gopax
+    name: GoPax
+  target: BTC
 - base: CVC
   market:
     identifier: gopax
@@ -72,19 +77,14 @@ tickers:
   target: USD
 - base: CVC
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: tokenize
+    name: Tokenize
   target: BTC
-- base: CVC
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
 - base: CVC
   market:
     identifier: tokenize
     name: Tokenize
-  target: BTC
+  target: ETH
 - base: CVC
   market:
     identifier: upbit

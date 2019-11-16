@@ -31,16 +31,11 @@ links:
   telegram_channel_identifier: ViberateOfficial
   twitter_screen_name: viberate
 liquidity_score: 25.602
-market_cap_rank: 352
+market_cap_rank: 338
 name: Viberate
 public_interest_score: 32.26
 symbol: vib
 tickers:
-- base: VIB
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
 - base: VIB
   market:
     identifier: bittrex
@@ -65,12 +60,22 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: VIB
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: USD
 - base: VIB
   market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
+- base: VIB
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: VIB
   market:
     identifier: tokens_net

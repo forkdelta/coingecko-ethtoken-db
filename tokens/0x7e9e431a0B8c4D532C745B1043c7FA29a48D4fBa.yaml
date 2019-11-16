@@ -52,7 +52,7 @@ links:
   subreddit_url: https://www.reddit.com/r/EOSDAC/
   twitter_screen_name: eosdac
 liquidity_score: 36.623
-market_cap_rank: 435
+market_cap_rank: 422
 name: eosDAC
 public_interest_score: 26.679
 symbol: eosdac
@@ -69,11 +69,6 @@ tickers:
   target: ETH
 - base: EOSDAC
   market:
-    identifier: newdex
-    name: Newdex
-  target: EOS
-- base: EOSDAC
-  market:
     identifier: openledger
     name: OpenLedger DEX
   target: BITUSD
@@ -81,7 +76,17 @@ tickers:
   market:
     identifier: openledger
     name: OpenLedger DEX
+  target: BTC
+- base: EOSDAC
+  market:
+    identifier: openledger
+    name: OpenLedger DEX
   target: BTS
+- base: EOSDAC
+  market:
+    identifier: otcbtc
+    name: OTCBTC
+  target: ETH
 - base: EOSDAC
   market:
     identifier: probit
@@ -89,9 +94,9 @@ tickers:
   target: KRW
 - base: EOSDAC
   market:
-    identifier: whale_ex
-    name: WhaleEx
-  target: EOS
+    identifier: zb
+    name: ZB
+  target: QC
 - base: EOSDAC
   market:
     identifier: zb

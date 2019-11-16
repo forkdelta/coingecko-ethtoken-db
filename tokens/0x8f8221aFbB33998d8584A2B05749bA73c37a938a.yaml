@@ -51,7 +51,12 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: USD
+  target: BTC
+- base: REQ
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: REQ
   market:
     identifier: coss
@@ -64,11 +69,6 @@ tickers:
   target: ETH
 - base: REQ
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: REQ
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -76,11 +76,6 @@ tickers:
   market:
     identifier: kucoin
     name: KuCoin
-  target: ETH
-- base: REQ
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: REQ
   market:
@@ -97,6 +92,11 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: USDT
+- base: REQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: REQ
   market:
     identifier: yobit

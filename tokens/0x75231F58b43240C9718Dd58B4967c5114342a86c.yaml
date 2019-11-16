@@ -44,11 +44,16 @@ links:
   telegram_channel_identifier: okexofficial_en
   twitter_screen_name: okex_
 liquidity_score: 59.926
-market_cap_rank: 15
+market_cap_rank: 17
 name: OKB
 public_interest_score: 32.77
 symbol: okb
 tickers:
+- base: OKB
+  market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
 - base: OKB
   market:
     identifier: bitfinex
@@ -65,6 +70,11 @@ tickers:
     name: LBank
   target: USDT
 - base: AE
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: SC
   market:
     identifier: okex
     name: OKEx

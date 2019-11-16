@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 33.801
-market_cap_rank: 94
+market_cap_rank: 97
 name: Pundi X
 public_interest_score: 28.222
 symbol: npxs
@@ -101,24 +101,29 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: NPXS
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: BTC
+- base: NPXS
+  market:
     identifier: bitsonic
     name: Bitsonic
   target: KRW
 - base: NPXS
   market:
-    identifier: bitsten
-    name: Bitsten
-  target: BST
-- base: NPXS
-  market:
-    identifier: bitsten
-    name: Bitsten
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: NPXS
   market:
-    identifier: bitsten
-    name: Bitsten
-  target: IDR
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: NPXS
   market:
     identifier: catex
@@ -136,11 +141,6 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: coss
-    name: COSS
-  target: COS
-- base: NPXS
-  market:
     identifier: crypto_bridge
     name: CryptoBridge
   target: BTC
@@ -154,11 +154,6 @@ tickers:
     identifier: dextrade
     name: Dex-Trade
   target: BTC
-- base: NPXS
-  market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: ETH
 - base: NPXS
   market:
     identifier: etherflyer
@@ -166,9 +161,14 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: graviex
+    name: Graviex
   target: BTC
+- base: NPXS
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: NPXS
   market:
     identifier: iqfinex
@@ -191,24 +191,9 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: localtrade
-    name: LocalTrade
-  target: ETH
-- base: NPXS
-  market:
     identifier: probit
     name: Probit
   target: USDT
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: NPXS
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: ETH
 - base: NPXS
   market:
     identifier: tidex
@@ -224,13 +209,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: NPXS
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: INR
-- base: NPXS
-  market:
-    identifier: zg
-    name: ZG.com
-  target: ETH

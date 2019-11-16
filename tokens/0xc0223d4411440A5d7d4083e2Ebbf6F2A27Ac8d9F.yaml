@@ -24,8 +24,18 @@ links:
   subreddit_url: https://www.reddit.com
   twitter_screen_name: trex_token
 liquidity_score: 1.0
-market_cap_rank: 1754
+market_cap_rank: 1837
 name: TREXTOKEN
 public_interest_score: 26.405
 symbol: txt
-tickers: []
+tickers:
+- base: TXT
+  market:
+    identifier: bitexlive
+    name: Bitexlive
+  target: DOGE
+- base: TXT
+  market:
+    identifier: catex
+    name: Catex
+  target: TRX

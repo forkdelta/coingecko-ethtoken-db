@@ -22,15 +22,30 @@ links:
   telegram_channel_identifier: IHTcoin
   twitter_screen_name: ihtcoin
 liquidity_score: 10.649
-market_cap_rank: 507
+market_cap_rank: 518
 name: IHT Real Estate Protocol
 public_interest_score: 26.959
 symbol: iht
 tickers:
 - base: IHT
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: IHT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: IHT
+  market:
     identifier: etherflyer
     name: EtherFlyer
+  target: ETH
+- base: IHT
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: IHT
   market:
@@ -44,6 +59,6 @@ tickers:
   target: ETH
 - base: IHT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: lbank
+    name: LBank
+  target: ETH
