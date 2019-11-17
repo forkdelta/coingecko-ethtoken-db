@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: exncecom
   twitter_screen_name: exncecom
 liquidity_score: 1.0
-market_cap_rank: 3385
+market_cap_rank: 3643
 name: EXNCE
 public_interest_score: 22.285
 symbol: xnc
@@ -43,7 +43,12 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: ETH
-- base: KAASO
+- base: ETHMNY
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
+- base: PDRY
   market:
     identifier: exnce
     name: EXNCE
@@ -53,12 +58,7 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: XNC
-- base: MRCL
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: XNC
-- base: BCP
+- base: KAASO
   market:
     identifier: exnce
     name: EXNCE
@@ -68,7 +68,17 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: XNC
+- base: BCP
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
 - base: ETHPLO
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
+- base: MRCL
   market:
     identifier: exnce
     name: EXNCE
