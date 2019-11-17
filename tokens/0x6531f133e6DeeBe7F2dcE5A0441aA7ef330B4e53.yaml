@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: chronobank
   twitter_screen_name: ChronobankNews
 liquidity_score: 8.144
-market_cap_rank: 694
+market_cap_rank: 730
 name: Chronobank
 public_interest_score: 24.954
 symbol: time
 tickers:
+- base: TIME
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: TIME
   market:
     identifier: livecoin
@@ -71,6 +76,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: TIME
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: TIME
   market:
     identifier: yobit

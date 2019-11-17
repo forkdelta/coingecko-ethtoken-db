@@ -71,8 +71,28 @@ links:
   telegram_channel_identifier: bancor
   twitter_screen_name: BancorNetwork
 liquidity_score: 43.87
-market_cap_rank: 145
+market_cap_rank: 144
 name: Bancor Network Token
 public_interest_score: 29.872
 symbol: bnt
-tickers: []
+tickers:
+- base: BNT
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: ETH
+- base: BNT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: BNT
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: BNT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
