@@ -1,8 +1,8 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 796
-coingecko_score: 24.623
-community_score: 5.303
+coingecko_rank: 751
+coingecko_score: 25.254
+community_score: 5.059
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
   to <a href="https://www.coingecko.com/en/exchanges/quoine">Liquid</a>. Liquid is a global cryptocurrency
@@ -60,17 +60,27 @@ links:
   subreddit_url: https://www.reddit.com/r/QASH
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
-liquidity_score: 37.283
-market_cap_rank: 144
+liquidity_score: 40.563
+market_cap_rank: 149
 name: QASH
 public_interest_score: 27.625
 symbol: qash
 tickers:
-- base: QASH
+- base: QSH
   market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: bitfinex
+    name: Bitfinex
   target: BTC
+- base: QSH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: QSH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: QASH
   market:
     identifier: gopax
@@ -81,7 +91,17 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: RFOX
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: AUD
+- base: ONT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: DENT
   market:
     identifier: quoine
     name: Liquid
@@ -96,12 +116,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: ZCO
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ONT
+- base: DRG
   market:
     identifier: quoine
     name: Liquid
@@ -116,22 +131,22 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: FSN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: NPLC
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: DENT
+- base: RFOX
   market:
     identifier: quoine
     name: Liquid
   target: QASH
 - base: LIKE
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: MGO
   market:
     identifier: quoine
     name: Liquid
