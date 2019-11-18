@@ -1,11 +1,11 @@
 ---
 address: '0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671'
-coingecko_rank: 141
-coingecko_score: 42.732
-community_score: 31.099
+coingecko_rank: 150
+coingecko_score: 42.275
+community_score: 30.619
 description: >-
   A new kind of hedge fund built by a network of data scientists.
-developer_score: 55.537
+developer_score: 55.564
 id: numeraire
 image:
   large: https://assets.coingecko.com/coins/images/752/large/Erasure_Mark_Final.png?1567402035
@@ -25,8 +25,8 @@ links:
     - https://github.com/numerai/numerapi-1
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
-liquidity_score: 26.956
-market_cap_rank: 111
+liquidity_score: 23.973
+market_cap_rank: 113
 name: Numeraire
 public_interest_score: 25.147
 symbol: nmr
@@ -36,6 +36,16 @@ tickers:
     identifier: bihodl
     name: 'BiHODL '
   target: USDT
+- base: NMR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: NMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: NMR
   market:
     identifier: idex
@@ -56,8 +66,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
