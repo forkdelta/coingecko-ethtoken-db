@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 53
-coingecko_score: 53.583
-community_score: 37.514
+coingecko_rank: 52
+coingecko_score: 53.43
+community_score: 36.83
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 79.164
+developer_score: 79.163
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -57,8 +57,8 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 43.019
-market_cap_rank: 155
+liquidity_score: 42.959
+market_cap_rank: 151
 name: Storj
 public_interest_score: 27.909
 symbol: storj
@@ -73,6 +73,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: STORJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
 - base: STORJ
   market:
     identifier: financex
@@ -92,11 +97,6 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
 - base: STORJ
   market:
@@ -110,11 +110,16 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: STORJ
   market:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
