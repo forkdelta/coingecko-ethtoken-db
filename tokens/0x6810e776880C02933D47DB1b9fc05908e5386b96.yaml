@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 161
-coingecko_score: 41.277
-community_score: 39.856
+coingecko_rank: 162
+coingecko_score: 41.424
+community_score: 40.886
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -62,8 +62,8 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 9.032
-market_cap_rank: 168
+liquidity_score: 8.404
+market_cap_rank: 172
 name: Gnosis
 public_interest_score: 36.713
 symbol: gno
@@ -80,11 +80,6 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: bihodl
-    name: 'BiHODL '
-  target: USDT
-- base: GNO
-  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
@@ -93,6 +88,16 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: GNO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: GNO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: GNO
   market:
     identifier: credoex
@@ -102,12 +107,42 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: GNO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: GNO
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: GNO
   market:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: GNO
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: GNO
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: GNO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: GNO
   market:
     identifier: yobit

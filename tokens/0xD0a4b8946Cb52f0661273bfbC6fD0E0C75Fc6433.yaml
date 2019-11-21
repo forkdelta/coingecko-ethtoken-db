@@ -1,8 +1,8 @@
 ---
 address: '0xD0a4b8946Cb52f0661273bfbC6fD0E0C75Fc6433'
-coingecko_rank: 160
-coingecko_score: 41.315
-community_score: 32.171
+coingecko_rank: 159
+coingecko_score: 41.518
+community_score: 32.474
 description: >-
   STORM is an ERC20-compliant token which operates on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain. CEO, and co-founder, Simon Yu, evolved this digital currency from an app called BitMaker,
@@ -61,17 +61,32 @@ links:
     - https://github.com/StormX-Inc/crowdsale
   subreddit_url: https://www.reddit.com/r/stormtoken
   twitter_screen_name: Storm_Token
-liquidity_score: 36.315
-market_cap_rank: 232
+liquidity_score: 36.739
+market_cap_rank: 237
 name: Storm
 public_interest_score: 39.138
 symbol: storm
 tickers:
 - base: STORM
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: STORM
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: STORM
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: STORM
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: STORM
   market:
     identifier: wazirx
@@ -87,6 +102,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: STORM
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC'
-coingecko_rank: 1094
-coingecko_score: 21.162
-community_score: 23.137
+coingecko_rank: 1092
+coingecko_score: 21.221
+community_score: 23.564
 description: >-
   MyBit makes it simple for anyone to design, test, develop, and maintain decentralised wealth management
   applications on Ethereum.
@@ -35,11 +35,16 @@ symbol: myb
 tickers:
 - base: MYB
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: MYB
-  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: MYB
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: MYB
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

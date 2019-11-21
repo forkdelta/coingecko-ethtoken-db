@@ -1,8 +1,8 @@
 ---
 address: '0x69BEaB403438253f13b6e92Db91F7FB849258263'
-coingecko_rank: 1121
-coingecko_score: 20.877
-community_score: 28.161
+coingecko_rank: 1113
+coingecko_score: 21.008
+community_score: 28.623
 description: ""
 developer_score: 0.0
 id: neurotoken
@@ -20,11 +20,21 @@ links:
   subreddit_url: https://www.reddit.com/r/Neuromation/
   twitter_screen_name: neuromation_io
 liquidity_score: 1.0
-market_cap_rank: 630
+market_cap_rank: 633
 name: Neurotoken
 public_interest_score: 27.116
 symbol: ntk
 tickers:
+- base: NTK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: NTK
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: NTK
   market:
     identifier: hitbtc
@@ -37,9 +47,19 @@ tickers:
   target: BTC
 - base: NTK
   market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: NTK
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: NTK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: NTK
   market:
     identifier: yobit
@@ -50,11 +70,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: NTK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: NTK
   market:
     identifier: yobit
