@@ -1,8 +1,8 @@
 ---
 address: '0xa5Fd1A791C4dfcaacC963D4F73c6Ae5824149eA7'
-coingecko_rank: 820
-coingecko_score: 24.203
-community_score: 7.933
+coingecko_rank: 821
+coingecko_score: 24.358
+community_score: 8.406
 description: >-
   The Jibrel Network provides currencies, equities, commodities and other financial assets and instruments
   as standard ERC-20 tokens on the Ethereum blockchain.
@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: jibrel_network
   twitter_screen_name: JibrelNetwork
 liquidity_score: 1.0
-market_cap_rank: 372
+market_cap_rank: 377
 name: Jibrel Network
 public_interest_score: 27.973
 symbol: jnt
@@ -35,7 +35,17 @@ tickers:
   market:
     identifier: bibox
     name: Bibox
+  target: BTC
+- base: JNT
+  market:
+    identifier: bibox
+    name: Bibox
   target: ETH
+- base: JNT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: JNT
   market:
     identifier: gate
@@ -51,13 +61,3 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: JNT
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: JNT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

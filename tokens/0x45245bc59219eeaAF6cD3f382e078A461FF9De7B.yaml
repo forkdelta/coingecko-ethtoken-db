@@ -1,8 +1,8 @@
 ---
 address: '0x45245bc59219eeaAF6cD3f382e078A461FF9De7B'
-coingecko_rank: 268
-coingecko_score: 35.974
-community_score: 35.148
+coingecko_rank: 271
+coingecko_score: 35.773
+community_score: 35.37
 description: >-
   "BANKEX is a fintech company that utilizes blockchain technology to create the infrastructure for the
   decentralization of the world’s capital markets.
@@ -37,9 +37,29 @@ links:
   subreddit_url: https://www.reddit.com/r/bankex/
   telegram_channel_identifier: bankex
   twitter_screen_name: BANKEX
-liquidity_score: 20.962
-market_cap_rank: 610
+liquidity_score: 20.163
+market_cap_rank: 614
 name: BANKEX
 public_interest_score: 25.491
 symbol: bkx
-tickers: []
+tickers:
+- base: BKX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: BKX
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: BKX
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: BKX
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

@@ -1,8 +1,8 @@
 ---
 address: '0x2467AA6B5A2351416fD4C3DeF8462d841feeecEC'
-coingecko_rank: 2028
-coingecko_score: 13.79
-community_score: 7.798
+coingecko_rank: 1992
+coingecko_score: 14.14
+community_score: 8.263
 description: >-
   Through qiibee’s plug & play solutions, businesses worldwide are running and operating loyalty programs
   on the blockchain in a few hours, while reducing costs and maximizing customer lifetime value.
@@ -27,8 +27,23 @@ links:
   telegram_channel_identifier: qiibee
   twitter_screen_name: qiibee
 liquidity_score: 1.0
-market_cap_rank: 960
+market_cap_rank: 838
 name: qiibee
 public_interest_score: 17.043
 symbol: qbx
-tickers: []
+tickers:
+- base: QBX-38C
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: QBX
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: QBX
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH

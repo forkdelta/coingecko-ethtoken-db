@@ -1,8 +1,8 @@
 ---
 address: '0xf3586684107CE0859c44aa2b2E0fB8cd8731a15a'
-coingecko_rank: 1801
-coingecko_score: 15.312
-community_score: 7.599
+coingecko_rank: 1825
+coingecko_score: 15.306
+community_score: 8.057
 description: >-
   We are the first and only world-trading company that has been passionate about bringing physical gold
   as a payment method, including CashGold, to market. This is the way to combine the money with true gold
@@ -26,16 +26,26 @@ links:
     github:
     - https://github.com/karatgold/smartcontract
   twitter_screen_name: karatbarsgmbh
-liquidity_score: 36.118
-market_cap_rank: 5624
+liquidity_score: 35.515
+market_cap_rank: 5818
 name: Karatgold Coin
 public_interest_score: 31.23
 symbol: kbc
 tickers:
 - base: KBC
   market:
-    identifier: bitforex
-    name: Bitforex
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
+- base: KBC
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: ETH
+- base: KBC
+  market:
+    identifier: bit_z
+    name: Bit-Z
   target: USDT
 - base: KBC
   market:
@@ -54,9 +64,9 @@ tickers:
   target: USDT
 - base: KBC
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: ETH
+    identifier: coineal
+    name: Coineal
+  target: BTC
 - base: KBC
   market:
     identifier: dobitrade
@@ -76,17 +86,22 @@ tickers:
   market:
     identifier: fatbtc
     name: FatBTC
+  target: USDT
+- base: KBC
+  market:
+    identifier: hubi
+    name: Hubi
+  target: BTC
+- base: KBC
+  market:
+    identifier: hubi
+    name: Hubi
   target: USDT
 - base: KBC
   market:
     identifier: idex
     name: Idex
   target: ETH
-- base: KBC
-  market:
-    identifier: lbank
-    name: LBank
-  target: USDT
 - base: KBC
   market:
     identifier: okex

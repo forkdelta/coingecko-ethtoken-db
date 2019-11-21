@@ -1,8 +1,8 @@
 ---
 address: '0x0C6E8a8358cBde54F8e4Cd7f07D5ac38aec8C5a4'
-coingecko_rank: 1072
-coingecko_score: 21.397
-community_score: 7.94
+coingecko_rank: 1067
+coingecko_score: 21.523
+community_score: 8.415
 description: >-
   Platon Finance is the first insured crypto-financial ecosystem based on a Ethereum blockchain, connecting
   the classic fiat money market with modern digital currencies via its own ERC-20 standard token, PlatonCoin.
@@ -27,9 +27,14 @@ links:
     github:
     - https://github.com/platonfinance/SmartContracts
   twitter_screen_name: platonfinance
-liquidity_score: 12.952
-market_cap_rank: 554
+liquidity_score: 12.545
+market_cap_rank: 603
 name: PlatonCoin
 public_interest_score: 26.865
 symbol: pltc
-tickers: []
+tickers:
+- base: PLTC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC

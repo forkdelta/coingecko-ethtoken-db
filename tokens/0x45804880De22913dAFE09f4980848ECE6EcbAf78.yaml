@@ -1,8 +1,8 @@
 ---
 address: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
-coingecko_rank: 1996
-coingecko_score: 14.042
-community_score: 7.473
+coingecko_rank: 1950
+coingecko_score: 14.513
+community_score: 7.921
 description: >-
   PAX Gold (PAXG) is an asset-backed token where one token represents one fine troy ounce of a London
   Good Delivery gold bar, stored in professional vault facilities. Anyone who owns PAXG has ownership
@@ -41,8 +41,8 @@ links:
     github:
     - https://github.com/paxosglobal/paxos-gold-contract
   twitter_screen_name: paxosglobal
-liquidity_score: 45.479
-market_cap_rank: 2065
+liquidity_score: 47.275
+market_cap_rank: 2036
 name: PAX Gold
 public_interest_score: 30.777
 symbol: paxg
@@ -57,6 +57,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: PAXG
+  market:
+    identifier: kraken
+    name: Kraken
+  target: XBT
 - base: PAXG
   market:
     identifier: tdax
