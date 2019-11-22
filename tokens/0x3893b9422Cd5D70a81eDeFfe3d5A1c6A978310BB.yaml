@@ -1,8 +1,8 @@
 ---
 address: '0x3893b9422Cd5D70a81eDeFfe3d5A1c6A978310BB'
-coingecko_rank: 354
-coingecko_score: 33.17
-community_score: 26.221
+coingecko_rank: 358
+coingecko_score: 33.063
+community_score: 26.214
 description: >-
   Mithril is a decentralized ecosystem on the ethereum blockchain. It is a system that rewards users who
   engage in “social mining”. Mithril rewards users for the impact their content may have in viewers and
@@ -64,12 +64,17 @@ links:
   subreddit_url: https://www.reddit.com/r/MithrilToken/
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
-liquidity_score: 34.798
-market_cap_rank: 294
+liquidity_score: 34.35
+market_cap_rank: 295
 name: Mithril
 public_interest_score: 33.142
 symbol: mith
 tickers:
+- base: MITH-C76
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: MIT
   market:
     identifier: bitfinex
@@ -85,11 +90,6 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
-- base: MITH
-  market:
-    identifier: bitopro
-    name: BitoPro
-  target: TWD
 - base: MITH
   market:
     identifier: dove_wallet
@@ -145,6 +145,11 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: KRW
+- base: MITH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
 - base: MITH
   market:
     identifier: quoine

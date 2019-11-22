@@ -1,8 +1,8 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1815
-coingecko_score: 15.331
-community_score: 10.636
+coingecko_rank: 1840
+coingecko_score: 15.15
+community_score: 10.633
 description: >-
   Use MainCoin for instant and private payments on the Internet and in the real world using secure open
   source software that runs on Ethereum, supported by hundreds of thousands of users around the world.
@@ -27,7 +27,7 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 1.0
-market_cap_rank: 1093
+market_cap_rank: 1087
 name: MainCoin
 public_interest_score: 29.334
 symbol: mnc
@@ -57,6 +57,11 @@ tickers:
     identifier: btc_alpha
     name: BTC-Alpha
   target: BTC
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
 - base: MNC
   market:
     identifier: bw
@@ -92,6 +97,11 @@ tickers:
     identifier: exmo
     name: EXMO
   target: BTC
+- base: MNC
+  market:
+    identifier: exmo
+    name: EXMO
+  target: ETH
 - base: MNC
   market:
     identifier: exrates
@@ -146,7 +156,12 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: USDT
+  target: BTC
+- base: MNC
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: MNC
   market:
     identifier: stocks_exchange

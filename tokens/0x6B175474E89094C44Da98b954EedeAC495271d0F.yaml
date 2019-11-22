@@ -1,7 +1,7 @@
 ---
 address: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
-coingecko_rank: 1244
-coingecko_score: 19.862
+coingecko_rank: 1247
+coingecko_score: 19.816
 community_score: 0.0
 description: >-
   MakerDAO has launched Multi-collateral DAI (MCD). This token refers to the new DAI that is collaterized
@@ -19,8 +19,8 @@ links:
   - https://makerdao.com/
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 37.655
-market_cap_rank: 240
+liquidity_score: 36.742
+market_cap_rank: 194
 name: Dai
 public_interest_score: 0.0
 symbol: dai
@@ -50,16 +50,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: DAI
-- base: ETH
-  market:
-    identifier: kraken
-    name: Kraken
-  target: DAI
 - base: DAI
   market:
     identifier: kraken
     name: Kraken
-  target: USDT
+  target: EUR
 - base: ZRX
   market:
     identifier: oasis_trade
@@ -120,37 +115,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: REQ
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: DGX
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
 - base: ANT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: LPT
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MANA
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: CND
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: CVC
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -160,7 +125,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: SPANK
+- base: CVC
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -169,6 +134,41 @@ tickers:
   market:
     identifier: radar_relay
     name: Radar Relay
+  target: DAI
+- base: MANA
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: DGX
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: LPT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: SPANK
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: REQ
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: CND
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: ETH
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: DAI
 - base: MKR
   market:
@@ -180,7 +180,7 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: PAX
+- base: LEO
   market:
     identifier: switcheo
     name: Switcheo
@@ -190,22 +190,22 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: PAX
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
 - base: WBTC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: LEO
+- base: NEO
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
 - base: SDUSD
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: ETH
   market:
     identifier: switcheo
     name: Switcheo

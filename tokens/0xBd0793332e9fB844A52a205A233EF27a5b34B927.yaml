@@ -1,7 +1,7 @@
 ---
 address: '0xBd0793332e9fB844A52a205A233EF27a5b34B927'
-coingecko_rank: 398
-coingecko_score: 32.264
+coingecko_rank: 399
+coingecko_score: 32.28
 community_score: 4.823
 description: >-
   ZB is a crypto currency based exchange platform that is centralized out of Southeast Asia. It’s designed
@@ -42,8 +42,8 @@ links:
   - https://www.zb.com/i/blog
   telegram_channel_identifier: ZB_support
   twitter_screen_name: ZbTalk
-liquidity_score: 71.541
-market_cap_rank: 125
+liquidity_score: 71.587
+market_cap_rank: 124
 name: ZB Token
 public_interest_score: 34.785
 symbol: zb
@@ -52,9 +52,14 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: UST
-- base: VSYS
+  target: USD
+- base: ZBT
   market:
-    identifier: zb
-    name: ZB
-  target: ZB
+    identifier: bitfinex
+    name: Bitfinex
+  target: UST
+- base: ZB
+  market:
+    identifier: exx
+    name: EXX
+  target: USDT

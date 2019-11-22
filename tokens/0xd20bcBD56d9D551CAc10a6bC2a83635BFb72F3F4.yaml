@@ -1,6 +1,6 @@
 ---
 address: '0xd20bcBD56d9D551CAc10a6bC2a83635BFb72F3F4'
-coingecko_rank: 4447
+coingecko_rank: 4439
 coingecko_score: 4.918
 community_score: 9.124
 description: >-
@@ -25,11 +25,21 @@ links:
   telegram_channel_identifier: fundchains
   twitter_screen_name: fundchains
 liquidity_score: 1.0
-market_cap_rank: 3033
+market_cap_rank: 3043
 name: FUNDChains
 public_interest_score: 24.374
 symbol: fund
 tickers:
+- base: FUND
+  market:
+    identifier: bione
+    name: Bione
+  target: USDT
+- base: FUND
+  market:
+    identifier: bkex
+    name: BKEX
+  target: ETH
 - base: FUND
   market:
     identifier: crex24
@@ -49,7 +59,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: DOGE
+- base: FUND
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: FUND
   market:
     identifier: yobit

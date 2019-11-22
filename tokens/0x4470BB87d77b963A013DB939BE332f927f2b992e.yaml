@@ -1,8 +1,8 @@
 ---
 address: '0x4470BB87d77b963A013DB939BE332f927f2b992e'
-coingecko_rank: 163
-coingecko_score: 41.391
-community_score: 42.301
+coingecko_rank: 165
+coingecko_score: 41.29
+community_score: 42.226
 description: >-
   AdEx (ADX) stands for “advertising exchange.” AdEx Coin is a blockchain-based marketplace for ads that
   aims to change the existing online advertising landscape and solve its major problems: ad fraud, privacy
@@ -40,12 +40,17 @@ links:
     - https://github.com/AdExBlockchain/adex-core
   subreddit_url: https://www.reddit.com/r/AdEx
   twitter_screen_name: AdEx_Network
-liquidity_score: 24.128
+liquidity_score: 23.843
 market_cap_rank: 278
 name: AdEx
 public_interest_score: 26.486
 symbol: adx
 tickers:
+- base: ADX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: ADX
   market:
     identifier: bittrex
@@ -56,6 +61,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: ADX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: ADX
   market:
     identifier: hitbtc
