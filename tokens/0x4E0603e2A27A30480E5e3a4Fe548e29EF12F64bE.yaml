@@ -1,7 +1,7 @@
 ---
 address: '0x4E0603e2A27A30480E5e3a4Fe548e29EF12F64bE'
-coingecko_rank: 1824
-coingecko_score: 15.308
+coingecko_rank: 1848
+coingecko_score: 15.113
 community_score: 8.39
 description: >-
   Credo is the token you earn when someone you don’t know sends you an unsolicited email. You can use
@@ -23,11 +23,26 @@ links:
   - https://bitbounce.com/credo
   twitter_screen_name: bitbounceio
 liquidity_score: 1.0
-market_cap_rank: 911
+market_cap_rank: 993
 name: Credo
 public_interest_score: 29.297
 symbol: credo
 tickers:
+- base: GNT
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: ZRX
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: BAT
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
 - base: GNO
   market:
     identifier: credoex
@@ -38,17 +53,7 @@ tickers:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: REP
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: ZRX
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: DAI
+- base: PARETO
   market:
     identifier: credoex
     name: CredoEx
@@ -58,23 +63,18 @@ tickers:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: BCH
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
-- base: CREDO
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: LTC
-- base: CREDO
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: TUSD
 - base: CREDO
   market:
     identifier: credoex
     name: CredoEx
   target: USD
+- base: CREDO
+  market:
+    identifier: credoex
+    name: CredoEx
+  target: USDC
+- base: CREDO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

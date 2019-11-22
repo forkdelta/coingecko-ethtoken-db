@@ -1,13 +1,13 @@
 ---
 address: '0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404'
-coingecko_rank: 490
-coingecko_score: 29.879
-community_score: 29.274
+coingecko_rank: 492
+coingecko_score: 29.857
+community_score: 29.256
 description: >-
   SunContract is an energy trading platform that utilizes blockchain technology to create a new business
   model for buying and selling electricity. If you believe that blockchain technology can solve many of
   today's problems and that we are the team to take it to the energy sector, you are welcome to contribute.
-developer_score: 16.003
+developer_score: 16.002
 id: suncontract
 image:
   large: https://assets.coingecko.com/coins/images/1166/large/suncontract.png?1548611174
@@ -26,17 +26,12 @@ links:
     - https://github.com/SunContract/SmartContracts
   subreddit_url: https://www.reddit.com/r/suncontract
   twitter_screen_name: sun_contract
-liquidity_score: 23.348
-market_cap_rank: 507
+liquidity_score: 23.316
+market_cap_rank: 516
 name: SunContract
 public_interest_score: 25.06
 symbol: snc
 tickers:
-- base: SNC
-  market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
 - base: SNC
   market:
     identifier: hitbtc
@@ -52,6 +47,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: SNC
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: SNC
   market:
     identifier: okex
@@ -82,3 +82,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: SNC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
