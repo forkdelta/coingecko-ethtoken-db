@@ -1,8 +1,8 @@
 ---
 address: '0xeB7C20027172E5d143fB030d50f91Cece2D1485D'
-coingecko_rank: 534
-coingecko_score: 28.937
-community_score: 19.691
+coingecko_rank: 532
+coingecko_score: 28.91
+community_score: 19.678
 description: >-
   eBitcoin is a tokenized version of Bitcoin on the Ethereum blockchain.
 developer_score: 48.0
@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/eBTC
   twitter_screen_name: eBTCFoundation
 liquidity_score: 1.0
-market_cap_rank: 1118
+market_cap_rank: 1139
 name: eBitcoin
 public_interest_score: 25.006
 symbol: ebtc
@@ -35,4 +35,14 @@ tickers:
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: EBTC
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: EBTC
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH

@@ -1,7 +1,7 @@
 ---
 address: '0x622CD54dEb2bB7A051515192417109bcF3fe098f'
-coingecko_rank: 1030
-coingecko_score: 21.839
+coingecko_rank: 1033
+coingecko_score: 21.796
 community_score: 0.0
 description: >-
   IPchain is a block chain product for the application in the field of intellectual property. Launched
@@ -28,9 +28,19 @@ links:
   repos_url:
     github:
     - https://github.com/wugeipc/ERC20
-liquidity_score: 26.082
-market_cap_rank: 563
+liquidity_score: 26.185
+market_cap_rank: 571
 name: IPChain
 public_interest_score: 24.667
 symbol: ipc
-tickers: []
+tickers:
+- base: IPC
+  market:
+    identifier: biki
+    name: Biki
+  target: USDT
+- base: IPC
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: USDT

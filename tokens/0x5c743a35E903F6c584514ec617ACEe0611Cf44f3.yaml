@@ -1,8 +1,8 @@
 ---
 address: '0x5c743a35E903F6c584514ec617ACEe0611Cf44f3'
-coingecko_rank: 1154
-coingecko_score: 20.59
-community_score: 9.121
+coingecko_rank: 1159
+coingecko_score: 20.518
+community_score: 9.12
 description: >-
   Experty.io is the first Ethereum powered voice and video application which allows users to monetize
   their time, knowledge, and expertise on a global scale. The Ethereum blockchain allows for automatic
@@ -28,9 +28,19 @@ links:
     - https://github.com/Experty/operations-contract
   telegram_channel_identifier: experty_io
   twitter_screen_name: experty_io
-liquidity_score: 7.29
-market_cap_rank: 960
+liquidity_score: 6.919
+market_cap_rank: 932
 name: Experty
 public_interest_score: 32.003
 symbol: exy
-tickers: []
+tickers:
+- base: EXY
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
+- base: EXY
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
