@@ -1,8 +1,8 @@
 ---
 address: '0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6'
-coingecko_rank: 54
-coingecko_score: 53.336
-community_score: 41.725
+coingecko_rank: 57
+coingecko_score: 52.749
+community_score: 41.354
 description: >-
   The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments.
   It’s complementary to the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> blockchain
@@ -35,7 +35,7 @@ description: >-
 
   Raiden can be used for a wide variety of applications and purposes such as Micropayments For Content
   Distribution, Decentralized M2M Markets, API Access and Fast Decentralized Exchanges."
-developer_score: 81.421
+developer_score: 81.42
 id: raiden-network
 image:
   large: https://assets.coingecko.com/coins/images/1132/large/raiden-logo.jpg?1547035131
@@ -58,12 +58,17 @@ links:
     - https://github.com/raiden-network/raiden/
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
-liquidity_score: 37.042
-market_cap_rank: 268
+liquidity_score: 34.949
+market_cap_rank: 278
 name: Raiden Network Token
 public_interest_score: 28.29
 symbol: rdn
 tickers:
+- base: RDN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: RDN
   market:
     identifier: bitfinex
@@ -89,8 +94,3 @@ tickers:
     identifier: gdac
     name: GDAC
   target: BTC
-- base: RDN
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

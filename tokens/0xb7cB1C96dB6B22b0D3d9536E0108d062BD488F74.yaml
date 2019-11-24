@@ -1,8 +1,8 @@
 ---
 address: '0xb7cB1C96dB6B22b0D3d9536E0108d062BD488F74'
-coingecko_rank: 299
-coingecko_score: 34.942
-community_score: 39.153
+coingecko_rank: 308
+coingecko_score: 34.461
+community_score: 39.121
 description: >-
   Waltonchain is a genuine, trustworthy and traceable business ecosystem with complete data sharing and
   absolute information transparency. It is created by the combination of technologies of RFID and blockchain,
@@ -52,8 +52,8 @@ links:
   - http://www.waltonchain.org/
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
-liquidity_score: 45.451
-market_cap_rank: 161
+liquidity_score: 43.323
+market_cap_rank: 165
 name: Waltonchain
 public_interest_score: 30.429
 symbol: wtc
@@ -75,6 +75,11 @@ tickers:
   target: BTC
 - base: WTC
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: WTC
+  market:
     identifier: financex
     name: FinanceX
   target: BTC
@@ -90,14 +95,14 @@ tickers:
   target: VND
 - base: WTC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: WTC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: WTC
   market:
     identifier: p2pb2b
@@ -108,8 +113,3 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USDT
-- base: WTC
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW

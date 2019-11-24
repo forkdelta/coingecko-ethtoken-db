@@ -1,8 +1,8 @@
 ---
 address: '0xB97048628DB6B661D4C2aA833e95Dbe1A905B280'
-coingecko_rank: 362
-coingecko_score: 32.971
-community_score: 46.927
+coingecko_rank: 359
+coingecko_score: 33.009
+community_score: 47.584
 description: >-
   TenX is a payment platform that facilitates digital and physical modes of transaction for cryptocurrencies
   to any merchant, even if they don’t accept cryptocurrencies. Physical and digital modes of course, include
@@ -47,17 +47,27 @@ links:
     - https://github.com/comit-network/comit-rs
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
-liquidity_score: 30.579
-market_cap_rank: 260
+liquidity_score: 30.079
+market_cap_rank: 258
 name: TenX
 public_interest_score: 27.63
 symbol: pay
 tickers:
 - base: PAY
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: PAY
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: PAY
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: PAY
   market:
     identifier: forkdelta
@@ -70,9 +80,14 @@ tickers:
   target: BTC
 - base: PAY
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: PAY
+  market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: ETH
 - base: PAY
   market:
     identifier: idex
@@ -90,6 +105,16 @@ tickers:
   target: ETH
 - base: PAY
   market:
+    identifier: neraex
+    name: Neraex
+  target: BTC
+- base: PAY
+  market:
     identifier: probit
     name: Probit
   target: KRW
+- base: PAY
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC

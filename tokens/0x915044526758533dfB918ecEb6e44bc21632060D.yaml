@@ -1,8 +1,8 @@
 ---
 address: '0x915044526758533dfB918ecEb6e44bc21632060D'
-coingecko_rank: 657
-coingecko_score: 26.549
-community_score: 7.715
+coingecko_rank: 670
+coingecko_score: 26.341
+community_score: 7.714
 description: ""
 developer_score: 0.0
 id: chromaway
@@ -24,9 +24,19 @@ links:
     - https://bitbucket.org/chromawallet/
   telegram_channel_identifier: hellochromia
   twitter_screen_name: teamchromia
-liquidity_score: 54.835
-market_cap_rank: 513
+liquidity_score: 54.085
+market_cap_rank: 498
 name: Chromia
 public_interest_score: 22.339
 symbol: chr
-tickers: []
+tickers:
+- base: CHR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: CHR
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: NUSD
