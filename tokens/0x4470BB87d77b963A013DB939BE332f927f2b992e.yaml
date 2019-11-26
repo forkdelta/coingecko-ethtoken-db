@@ -41,21 +41,11 @@ links:
   subreddit_url: https://www.reddit.com/r/AdEx
   twitter_screen_name: AdEx_Network
 liquidity_score: 22.914
-market_cap_rank: 275
+market_cap_rank: 269
 name: AdEx
 public_interest_score: 26.486
 symbol: adx
 tickers:
-- base: ADX
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: ADX
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
 - base: ADX
   market:
     identifier: forkdelta
@@ -65,12 +55,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: USD
+  target: BTC
 - base: ADX
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: ADX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: ADX
   market:
     identifier: upbit_indonesia

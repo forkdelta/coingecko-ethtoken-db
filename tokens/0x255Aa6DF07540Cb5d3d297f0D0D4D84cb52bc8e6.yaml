@@ -59,7 +59,7 @@ links:
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
 liquidity_score: 34.949
-market_cap_rank: 278
+market_cap_rank: 273
 name: Raiden Network Token
 public_interest_score: 28.29
 symbol: rdn
@@ -86,11 +86,16 @@ tickers:
   target: ETH
 - base: RDN
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: RDN
-  market:
     identifier: gdac
     name: GDAC
   target: BTC
+- base: RDN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: RDN
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: kickico
   twitter_screen_name: KickEcosystem
 liquidity_score: 13.928
-market_cap_rank: 596
+market_cap_rank: 608
 name: Kick Coin
 public_interest_score: 24.905
 symbol: kick
@@ -45,6 +45,11 @@ tickers:
   target: ETH
 - base: KICK
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: KICK
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -53,11 +58,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: USDT
-- base: KICK
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: KICK
   market:
     identifier: mercatox
@@ -82,7 +82,7 @@ tickers:
   market:
     identifier: probit
     name: Probit
-  target: BTC
+  target: KRW
 - base: KICK
   market:
     identifier: probit
@@ -92,7 +92,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: KICK
   market:
     identifier: yobit

@@ -14,7 +14,7 @@ links:
   blockchain_site:
   - https://explorer.qtum.org/token/f2033ede578e17fa6231047265010445bca8cf1c
 liquidity_score: 74.07
-market_cap_rank: 4505
+market_cap_rank: 4500
 name: Qcash
 public_interest_score: 28.936
 symbol: qc
@@ -24,7 +24,22 @@ tickers:
     identifier: bw
     name: BW.com
   target: QC
-- base: BAT
+- base: FBT
+  market:
+    identifier: bw
+    name: BW.com
+  target: QC
+- base: KNC
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
+- base: SUB
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
+- base: BITCNY
   market:
     identifier: zb
     name: ZB
@@ -34,7 +49,7 @@ tickers:
     identifier: zb
     name: ZB
   target: QC
-- base: KNC
+- base: XMR
   market:
     identifier: zb
     name: ZB

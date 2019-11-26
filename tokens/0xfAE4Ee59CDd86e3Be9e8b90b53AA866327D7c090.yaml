@@ -29,16 +29,21 @@ links:
   telegram_channel_identifier: cpchain
   twitter_screen_name: cpchain_io
 liquidity_score: 25.806
-market_cap_rank: 476
+market_cap_rank: 483
 name: CPChain
 public_interest_score: 37.446
 symbol: cpc
 tickers:
 - base: CPC
   market:
-    identifier: bibox
-    name: Bibox
+    identifier: biki
+    name: Biki
   target: USDT
+- base: CPC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: CPC
   market:
     identifier: idex
@@ -46,16 +51,11 @@ tickers:
   target: ETH
 - base: CPC
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: CPC
-  market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: CPC
   market:
     identifier: latoken
     name: LATOKEN
-  target: USDT
+  target: BTC

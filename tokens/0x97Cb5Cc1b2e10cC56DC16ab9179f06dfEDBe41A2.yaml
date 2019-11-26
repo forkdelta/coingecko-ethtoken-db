@@ -26,11 +26,26 @@ links:
   subreddit_url: https://www.reddit.com/r/mobilinkcoin
   twitter_screen_name: mobilinkcoin
 liquidity_score: 1.0
-market_cap_rank: 3287
+market_cap_rank: 5539
 name: MobilinkToken
 public_interest_score: 22.967
 symbol: molk
 tickers:
+- base: MOLK
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: MOLK
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: MOLK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: MOLK
   market:
     identifier: yobit
@@ -45,14 +60,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: MOLK
-  market:
-    identifier: yobit
-    name: YoBit
   target: USD
-- base: MOLK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

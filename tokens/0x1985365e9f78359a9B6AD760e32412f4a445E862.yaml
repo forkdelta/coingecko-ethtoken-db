@@ -89,8 +89,18 @@ tickers:
   target: CREDO
 - base: REP
   market:
+    identifier: fcoin
+    name: FCoin
+  target: ETH
+- base: REP
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: REP
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: REP
   market:
@@ -112,6 +122,11 @@ tickers:
     identifier: independent_reserve
     name: Independent Reserve
   target: USD
+- base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: REP
   market:
     identifier: oasis_trade
@@ -124,11 +139,6 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: REP
-  market:
     identifier: upbit
     name: Upbit
   target: BTC
@@ -137,3 +147,13 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: REP
+  market:
+    identifier: vindax
+    name: Vindax
+  target: BTC
+- base: REP
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH
