@@ -31,11 +31,6 @@ symbol: cag
 tickers:
 - base: CAG
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: CAG
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -44,3 +39,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: CAG
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

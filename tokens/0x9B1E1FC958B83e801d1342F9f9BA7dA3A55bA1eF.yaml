@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: tronipaycard
   twitter_screen_name: tronipay
 liquidity_score: 1.0
-market_cap_rank: 4961
+market_cap_rank: 5241
 name: Tronipay
 public_interest_score: 24.204
 symbol: trp
 tickers:
+- base: TRP
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
 - base: TRP
   market:
     identifier: latoken
@@ -50,8 +55,3 @@ tickers:
     identifier: probit
     name: Probit
   target: ETH
-- base: TRP
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
