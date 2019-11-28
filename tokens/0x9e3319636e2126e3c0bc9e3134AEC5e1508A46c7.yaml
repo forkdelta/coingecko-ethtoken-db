@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: Uplatform
   twitter_screen_name: Universa_News
 liquidity_score: 1.0
-market_cap_rank: 245
+market_cap_rank: 258
 name: Universa
 public_interest_score: 39.722
 symbol: utnp
 tickers:
+- base: UTN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: UTNP
   market:
     identifier: coinbene
@@ -44,9 +49,9 @@ tickers:
   market:
     identifier: idcm
     name: IDCM
-  target: ETH
+  target: BTC
 - base: UTNP
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: idcm
+    name: IDCM
   target: ETH

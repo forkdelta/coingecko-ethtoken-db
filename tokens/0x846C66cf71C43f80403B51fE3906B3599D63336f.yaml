@@ -33,11 +33,36 @@ links:
   telegram_channel_identifier: PumaPay
   twitter_screen_name: PumaPay
 liquidity_score: 28.002
-market_cap_rank: 311
+market_cap_rank: 301
 name: PumaPay
 public_interest_score: 26.532
 symbol: pma
 tickers:
+- base: PMA
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: PMA
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: USDT
+- base: PMA
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: BSC
+- base: PMA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: PMA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: PMA
   market:
     identifier: coinbene
@@ -63,8 +88,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: PMA
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

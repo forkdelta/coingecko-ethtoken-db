@@ -63,7 +63,7 @@ links:
   telegram_channel_identifier: singularitynet
   twitter_screen_name: singularity_net
 liquidity_score: 31.153
-market_cap_rank: 171
+market_cap_rank: 182
 name: SingularityNET
 public_interest_score: 25.789
 symbol: agi
@@ -78,6 +78,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: AGI
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: AGI
   market:
     identifier: forkdelta
@@ -95,11 +100,11 @@ tickers:
   target: USD
 - base: AGI
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USDT
+    identifier: tidex
+    name: Tidex
+  target: BTC
 - base: AGI
   market:
     identifier: tidex
     name: Tidex
-  target: BTC
+  target: ETH

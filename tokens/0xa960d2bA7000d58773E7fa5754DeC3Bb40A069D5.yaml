@@ -23,7 +23,7 @@ links:
   telegram_channel_identifier: odexproject
   twitter_screen_name: OneDexProject
 liquidity_score: 1.0
-market_cap_rank: 5266
+market_cap_rank: 3377
 name: One DEX
 public_interest_score: 33.289
 symbol: odex
@@ -35,14 +35,14 @@ tickers:
   target: BTC
 - base: ODEX
   market:
+    identifier: crex24
+    name: CREX24
+  target: USD
+- base: ODEX
+  market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
-- base: ODEX
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: ETC
 - base: ODEX
   market:
     identifier: exnce
@@ -58,8 +58,3 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
-- base: ODEX
-  market:
-    identifier: vindax
-    name: Vindax
-  target: VD

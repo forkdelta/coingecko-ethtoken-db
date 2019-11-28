@@ -47,7 +47,7 @@ links:
   telegram_channel_identifier: daostackcommunity
   twitter_screen_name: daostack
 liquidity_score: 1.0
-market_cap_rank: 364
+market_cap_rank: 374
 name: DAOstack
 public_interest_score: 27.179
 symbol: gen
@@ -69,11 +69,21 @@ tickers:
   target: BTC
 - base: GEN
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: GEN
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: GEN
   market:
-    identifier: quoine
-    name: Liquid
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: GEN
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

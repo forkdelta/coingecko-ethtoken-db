@@ -50,11 +50,16 @@ links:
   telegram_channel_identifier: sonm_eng
   twitter_screen_name: sonmdevelopment
 liquidity_score: 23.204
-market_cap_rank: 253
+market_cap_rank: 259
 name: SONM
 public_interest_score: 27.886
 symbol: snm
 tickers:
+- base: SNM
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: SNM
   market:
     identifier: idex
@@ -75,6 +80,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: SNM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: SNM
   market:
     identifier: yobit

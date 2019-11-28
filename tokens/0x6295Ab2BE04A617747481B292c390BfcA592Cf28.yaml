@@ -1,6 +1,6 @@
 ---
 address: '0x6295Ab2BE04A617747481B292c390BfcA592Cf28'
-coingecko_rank: 1947
+coingecko_rank: 1948
 coingecko_score: 14.462
 community_score: 7.825
 description: >-
@@ -20,7 +20,7 @@ links:
   - https://www.tokendesk.io/
   twitter_screen_name: tokendesk
 liquidity_score: 5.683
-market_cap_rank: 1368
+market_cap_rank: 1581
 name: TokenDesk
 public_interest_score: 28.406
 symbol: tds
@@ -29,7 +29,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: TDS
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: TDS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: TDS
   market:
     identifier: yobit
@@ -40,11 +50,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: TDS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: TDS
   market:
     identifier: yobit
