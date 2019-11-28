@@ -37,7 +37,7 @@ links:
   telegram_channel_identifier: webcoin
   twitter_screen_name: webcointoday
 liquidity_score: 8.914
-market_cap_rank: 1289
+market_cap_rank: 1258
 name: Webcoin
 public_interest_score: 26.954
 symbol: web
@@ -61,9 +61,19 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: BTC
+- base: WEB
+  market:
+    identifier: crex24
+    name: CREX24
   target: ETH
 - base: WEB
   market:
     identifier: etherflyer
     name: EtherFlyer
+  target: ETH
+- base: WEB
+  market:
+    identifier: idex
+    name: Idex
   target: ETH

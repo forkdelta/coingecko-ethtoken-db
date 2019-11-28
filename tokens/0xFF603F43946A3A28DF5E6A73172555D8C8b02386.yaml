@@ -27,8 +27,18 @@ links:
   telegram_channel_identifier: OneRootProject
   twitter_screen_name: OneRootNetwork
 liquidity_score: 48.299
-market_cap_rank: 418
+market_cap_rank: 423
 name: OneRoot Network
 public_interest_score: 26.103
 symbol: rnt
-tickers: []
+tickers:
+- base: RNT
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: USDT
+- base: RNT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

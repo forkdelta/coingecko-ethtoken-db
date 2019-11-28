@@ -93,7 +93,7 @@ links:
   telegram_channel_identifier: quarkchainio
   twitter_screen_name: Quark_Chain
 liquidity_score: 48.587
-market_cap_rank: 178
+market_cap_rank: 166
 name: QuarkChain
 public_interest_score: 25.781
 symbol: qkc
@@ -107,11 +107,16 @@ tickers:
   market:
     identifier: financex
     name: FinanceX
+  target: IDR
+- base: QKC
+  market:
+    identifier: financex
+    name: FinanceX
   target: VND
 - base: QKC
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: gate
+    name: Gate.io
   target: BTC
 - base: QKC
   market:
@@ -127,14 +132,24 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
-  target: BTC
-- base: QKC
-  market:
-    identifier: latoken
-    name: LATOKEN
   target: ETH
 - base: QKC
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: QKC
+  market:
+    identifier: lukki
+    name: Lukki
+  target: BTC
+- base: QKC
+  market:
+    identifier: lukki
+    name: Lukki
+  target: ETH
+- base: QKC
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

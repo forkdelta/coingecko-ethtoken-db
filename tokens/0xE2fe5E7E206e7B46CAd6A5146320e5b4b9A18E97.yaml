@@ -48,11 +48,16 @@ links:
   telegram_channel_identifier: adbitcomo
   twitter_screen_name: AdBitcomo
 liquidity_score: 1.0
-market_cap_rank: 1522
+market_cap_rank: 1528
 name: Bitcomo
 public_interest_score: 24.547
 symbol: bm
 tickers:
+- base: BM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: BM
   market:
     identifier: yobit
@@ -68,8 +73,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: BM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
