@@ -32,16 +32,21 @@ links:
   telegram_channel_identifier: cnn_blockchain_official
   twitter_screen_name: CNN_Blockchain
 liquidity_score: 21.67
-market_cap_rank: 436
+market_cap_rank: 427
 name: Content Neutrality Network
 public_interest_score: 36.532
 symbol: cnn
 tickers:
 - base: CNN
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: BSC
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: CNN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: CNN
   market:
     identifier: coinbene
@@ -57,8 +62,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: CNN
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW

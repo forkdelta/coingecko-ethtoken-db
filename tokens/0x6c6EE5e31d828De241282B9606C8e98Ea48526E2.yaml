@@ -95,9 +95,19 @@ tickers:
   target: BTC
 - base: HOT
   market:
+    identifier: catex
+    name: Catex
+  target: ETH
+- base: HOT
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: HOT
+  market:
     identifier: exrates
     name: Exrates
-  target: USD
+  target: BTC
 - base: HOT
   market:
     identifier: gdac
@@ -105,9 +115,14 @@ tickers:
   target: KRW
 - base: HOT
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: HOT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
 - base: HOT
   market:
     identifier: livecoin
@@ -118,36 +133,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: HOT
-  market:
-    identifier: lukki
-    name: Lukki
-  target: BTC
-- base: HOT
-  market:
-    identifier: lukki
-    name: Lukki
-  target: ETH
-- base: HOT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
-- base: HOT
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
 - base: HOT
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: DOGE
-- base: HOT
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
 - base: HOT
   market:
     identifier: wazirx

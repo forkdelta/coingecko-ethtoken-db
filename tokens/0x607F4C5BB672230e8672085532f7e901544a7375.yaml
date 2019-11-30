@@ -72,28 +72,18 @@ symbol: rlc
 tickers:
 - base: RLC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: RLC
   market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
-- base: RLC
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: RLC
   market:
     identifier: forkdelta
     name: ForkDelta
-  target: ETH
-- base: RLC
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: RLC
   market:
@@ -110,13 +100,3 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: RLC
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: RLC
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

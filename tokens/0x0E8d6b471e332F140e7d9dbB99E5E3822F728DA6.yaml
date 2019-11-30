@@ -58,11 +58,21 @@ name: Abyss Token
 public_interest_score: 31.855
 symbol: abyss
 tickers:
+- base: ABYSS
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: ABS
   market:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: ABYSS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: ABYSS
   market:
     identifier: coinbene
@@ -80,11 +90,21 @@ tickers:
   target: BTC
 - base: ABYSS
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: ABYSS
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: ABYSS
   market:
-    identifier: zbg
-    name: ZBG
-  target: USDT
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: ABYSS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY

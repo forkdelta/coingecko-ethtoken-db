@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 32.371
-market_cap_rank: 114
+market_cap_rank: 113
 name: Numeraire
 public_interest_score: 25.147
 symbol: nmr
@@ -38,14 +38,39 @@ tickers:
   target: USDT
 - base: NMR
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: NMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: NMR
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: NMR
   market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: NMR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
+- base: NMR
+  market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: RUR
+- base: NMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: NMR
   market:
     identifier: yobit
