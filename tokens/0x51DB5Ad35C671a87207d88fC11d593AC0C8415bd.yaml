@@ -27,11 +27,16 @@ links:
   subreddit_url: https://www.reddit.com/r/MoedaBanking
   twitter_screen_name: moedaseeds/
 liquidity_score: 30.297
-market_cap_rank: 205
+market_cap_rank: 204
 name: Moeda Loyalty Points
 public_interest_score: 25.928
 symbol: mda
 tickers:
+- base: MDA
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: MDA
   market:
     identifier: hitbtc
@@ -39,11 +44,6 @@ tickers:
   target: BTC
 - base: MDA
   market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: MDA
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
+    identifier: iqfinex
+    name: IQFinex
+  target: ETH

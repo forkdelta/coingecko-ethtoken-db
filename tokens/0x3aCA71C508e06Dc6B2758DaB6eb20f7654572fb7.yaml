@@ -47,6 +47,11 @@ name: Drep
 public_interest_score: 27.287
 symbol: drep
 tickers:
+- base: DREP
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: DREP-7D2
   market:
     identifier: binance_dex
@@ -62,3 +67,8 @@ tickers:
     identifier: bitmax
     name: BitMax
   target: USDT
+- base: DREP
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH

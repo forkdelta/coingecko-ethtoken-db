@@ -26,16 +26,26 @@ links:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
 liquidity_score: 20.723
-market_cap_rank: 5605
+market_cap_rank: 1994
 name: Wrapped Bitcoin
 public_interest_score: 36.951
 symbol: wbtc
 tickers:
+- base: WBTC
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: WBT
   market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: WBT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: WBTC
   market:
     identifier: ddex
@@ -43,6 +53,26 @@ tickers:
   target: USDT
 - base: WBTC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: WBTC
+  market:
     identifier: idex
     name: Idex
   target: USDC
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: USDT
+- base: ETH
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: WBTC
+- base: NEO
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: WBTC

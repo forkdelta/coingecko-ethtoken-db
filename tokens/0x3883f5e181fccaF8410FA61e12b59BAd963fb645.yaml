@@ -71,21 +71,26 @@ tickers:
   target: KRW
 - base: THETA
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: THETA
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
 - base: THETA
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: THETA
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: okex
+    name: OKEx
   target: USDT
 - base: THETA
   market:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: THETA
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

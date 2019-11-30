@@ -56,11 +56,16 @@ links:
   telegram_channel_identifier: kambriaofficial
   twitter_screen_name: KambriaNetwork
 liquidity_score: 9.267
-market_cap_rank: 747
+market_cap_rank: 758
 name: Kambria
 public_interest_score: 24.79
 symbol: kat
 tickers:
+- base: KAT-7BB
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: KAT
   market:
     identifier: bitmart
@@ -76,3 +81,8 @@ tickers:
     identifier: dragonex
     name: DragonEx
   target: USDT
+- base: KAT
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC

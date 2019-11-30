@@ -55,11 +55,16 @@ links:
   telegram_channel_identifier: medicalchain
   twitter_screen_name: medical_chain
 liquidity_score: 10.983
-market_cap_rank: 668
+market_cap_rank: 686
 name: Medicalchain
 public_interest_score: 24.916
 symbol: mtn
 tickers:
+- base: MTN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: MTN
   market:
     identifier: bitfinex
@@ -69,6 +74,11 @@ tickers:
   market:
     identifier: coinbene
     name: CoinBene
+  target: ETH
+- base: MTN
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: MTN
   market:
