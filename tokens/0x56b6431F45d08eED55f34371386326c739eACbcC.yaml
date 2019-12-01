@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: ethereummeta
   twitter_screen_name: EthereumMeta
 liquidity_score: 1.0
-market_cap_rank: 1834
+market_cap_rank: 1778
 name: Ethereum Meta
 public_interest_score: 34.651
 symbol: ethm
 tickers:
+- base: ETHM
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: ETHM
   market:
     identifier: forkdelta
@@ -45,3 +50,8 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: ETHM
+  market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH

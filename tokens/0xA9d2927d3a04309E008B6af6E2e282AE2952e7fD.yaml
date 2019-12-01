@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: ZipperEN
   twitter_screen_name: ZipperInfo
 liquidity_score: 42.561
-market_cap_rank: 479
+market_cap_rank: 485
 name: Zipper Network
 public_interest_score: 40.019
 symbol: zip
@@ -36,6 +36,16 @@ tickers:
     identifier: fcoin
     name: FCoin
   target: ETH
+- base: ZIP
+  market:
+    identifier: idcm
+    name: IDCM
+  target: ETH
+- base: ZIP
+  market:
+    identifier: idcm
+    name: IDCM
+  target: USDT
 - base: ZIP
   market:
     identifier: mxc
@@ -55,6 +65,11 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: ZIP
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: ZIP
   market:
@@ -66,8 +81,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: ZIP
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

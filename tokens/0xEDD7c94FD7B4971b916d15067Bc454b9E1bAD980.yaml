@@ -52,11 +52,6 @@ symbol: zipt
 tickers:
 - base: ZIPT
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: ZIPT
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -65,3 +60,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: ZIPT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

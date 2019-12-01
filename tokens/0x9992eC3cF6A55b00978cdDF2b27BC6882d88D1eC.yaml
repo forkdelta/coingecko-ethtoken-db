@@ -56,7 +56,7 @@ links:
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
 liquidity_score: 41.001
-market_cap_rank: 200
+market_cap_rank: 204
 name: Polymath Network
 public_interest_score: 27.975
 symbol: poly
@@ -78,9 +78,29 @@ tickers:
   target: ETH
 - base: POLY
   market:
+    identifier: idcm
+    name: IDCM
+  target: BTC
+- base: POLY
+  market:
+    identifier: idcm
+    name: IDCM
+  target: ETH
+- base: POLY
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
+- base: POLY
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: POLY
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: POLY
   market:
     identifier: wazirx

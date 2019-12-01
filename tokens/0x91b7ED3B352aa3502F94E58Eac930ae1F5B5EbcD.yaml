@@ -14,15 +14,20 @@ links:
   blockchain_site:
   - https://etherscan.io/token/0x91b7ed3b352aa3502f94e58eac930ae1f5b5ebcd
 liquidity_score: 79.218
-market_cap_rank: 2742
+market_cap_rank: 3179
 name: CNY Tether
 public_interest_score: 30.372
 symbol: cnyt
 tickers:
-- base: LEO
+- base: DZCC
   market:
-    identifier: bitasset
-    name: BitAsset
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: LBT
+  market:
+    identifier: exx
+    name: EXX
   target: CNYT
 - base: LTC
   market:
@@ -30,6 +35,16 @@ tickers:
     name: EXX
   target: CNYT
 - base: XWC
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: LST
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: ABO
   market:
     identifier: exx
     name: EXX
@@ -65,16 +80,6 @@ tickers:
     name: QBTC
   target: CNYT
 - base: RVN
-  market:
-    identifier: qbtc
-    name: QBTC
-  target: CNYT
-- base: GOD
-  market:
-    identifier: qbtc
-    name: QBTC
-  target: CNYT
-- base: TYT
   market:
     identifier: qbtc
     name: QBTC
@@ -139,6 +144,11 @@ tickers:
     identifier: qbtc
     name: QBTC
   target: CNYT
+- base: ELA
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: CNYT
 - base: RRC
   market:
     identifier: qbtc
@@ -149,17 +159,12 @@ tickers:
     identifier: qbtc
     name: QBTC
   target: CNYT
-- base: NRG
-  market:
-    identifier: qbtc
-    name: QBTC
-  target: CNYT
-- base: ELA
-  market:
-    identifier: qbtc
-    name: QBTC
-  target: CNYT
 - base: VSYS
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: CNYT
+- base: NRG
   market:
     identifier: qbtc
     name: QBTC
@@ -215,6 +220,21 @@ tickers:
     name: QBTC
   target: CNYT
 - base: HC
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: CNYT
+- base: PGN
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: CNYT
+- base: NULS
+  market:
+    identifier: qbtc
+    name: QBTC
+  target: CNYT
+- base: JMT
   market:
     identifier: qbtc
     name: QBTC

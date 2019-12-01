@@ -42,7 +42,7 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 27.318
-market_cap_rank: 213
+market_cap_rank: 212
 name: Request
 public_interest_score: 44.058
 symbol: req
@@ -66,11 +66,6 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: ETH
-- base: REQ
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: REQ
   market:
@@ -104,6 +99,11 @@ tickers:
   target: BTC
 - base: REQ
   market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
+- base: REQ
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -111,9 +111,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
-- base: REQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+  target: ETH

@@ -84,6 +84,16 @@ tickers:
   target: USD
 - base: REP
   market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: REP
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: REP
+  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
@@ -97,11 +107,6 @@ tickers:
     identifier: exrates
     name: Exrates
   target: USD
-- base: REP
-  market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
 - base: REP
   market:
     identifier: forkdelta
@@ -134,8 +139,8 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
 - base: REP
   market:
@@ -152,21 +157,6 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
-- base: REP
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: DAI
-- base: REP
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: ETH
-- base: REP
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: USDT
 - base: REP
   market:
     identifier: switcheo

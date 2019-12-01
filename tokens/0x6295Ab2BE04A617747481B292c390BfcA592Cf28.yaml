@@ -20,11 +20,21 @@ links:
   - https://www.tokendesk.io/
   twitter_screen_name: tokendesk
 liquidity_score: 5.683
-market_cap_rank: 1374
+market_cap_rank: 1342
 name: TokenDesk
 public_interest_score: 28.406
 symbol: tds
 tickers:
+- base: TDS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: TDS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: TDS
   market:
     identifier: hitbtc
@@ -40,6 +50,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: TDS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: TDS
   market:
     identifier: yobit

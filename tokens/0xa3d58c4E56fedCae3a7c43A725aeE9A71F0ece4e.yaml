@@ -37,7 +37,7 @@ links:
   telegram_channel_identifier: metronometoken
   twitter_screen_name: MTNToken
 liquidity_score: 26.842
-market_cap_rank: 309
+market_cap_rank: 333
 name: Metronome
 public_interest_score: 27.195
 symbol: met
@@ -52,6 +52,11 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: MET
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: MET
   market:
     identifier: gate
@@ -72,3 +77,8 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR

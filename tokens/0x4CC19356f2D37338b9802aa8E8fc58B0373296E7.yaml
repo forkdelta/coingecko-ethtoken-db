@@ -60,26 +60,21 @@ links:
   telegram_channel_identifier: selfkeyfoundation
   twitter_screen_name: SelfKey
 liquidity_score: 43.804
-market_cap_rank: 284
+market_cap_rank: 299
 name: SelfKey
 public_interest_score: 26.398
 symbol: key
 tickers:
 - base: KEY
   market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: BTC
-- base: KEY
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: SELFKEY
+- base: KEY
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: idcm
+    name: IDCM
+  target: USDT
 - base: 179DE71E-4637-4241-B944-C6DD0F0CD88B
   market:
     identifier: lykke
@@ -110,3 +105,8 @@ tickers:
     identifier: tidex
     name: Tidex
   target: BTC
+- base: KEY
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH

@@ -59,7 +59,7 @@ links:
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
 liquidity_score: 51.26
-market_cap_rank: 183
+market_cap_rank: 176
 name: Cred
 public_interest_score: 30.573
 symbol: lba
@@ -93,17 +93,27 @@ tickers:
   market:
     identifier: bitmax
     name: BitMax
+  target: BTC
+- base: LBA
+  market:
+    identifier: bitmax
+    name: BitMax
   target: ETH
+- base: LBA
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: USDT
 - base: LBA
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
+  target: USDT
 - base: LBA
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: LBA
   market:
     identifier: upbit
@@ -129,11 +139,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: LBA
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: LBA
   market:
     identifier: yobit
