@@ -64,11 +64,16 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 45.333
-market_cap_rank: 100
+market_cap_rank: 101
 name: Decentraland
 public_interest_score: 27.153
 symbol: mana
 tickers:
+- base: MANA
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: MANA
   market:
     identifier: bibox
@@ -91,14 +96,19 @@ tickers:
   target: USD
 - base: MANA
   market:
-    identifier: cryptaldash
-    name: CryptalDash
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: MANA
+  market:
+    identifier: bitso
+    name: Bitso
   target: BTC
 - base: MANA
   market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: USDT
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
 - base: MANA
   market:
     identifier: etherflyer
@@ -106,24 +116,9 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MANA
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: MANA
-  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: MANA
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: MANA
   market:
     identifier: livecoin
@@ -134,6 +129,16 @@ tickers:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: MANA
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD
+- base: MANA
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USDT
 - base: MANA
   market:
     identifier: upbit
