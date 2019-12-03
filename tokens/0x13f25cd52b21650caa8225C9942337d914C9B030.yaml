@@ -1,8 +1,8 @@
 ---
 address: '0x13f25cd52b21650caa8225C9942337d914C9B030'
-coingecko_rank: 1778
-coingecko_score: 15.467
-community_score: 8.796
+coingecko_rank: 1923
+coingecko_score: 14.512
+community_score: 8.296
 description: >-
   RealChain is a new blockchain protocol which is designed specifically for high-end consumer good and
   financial services along it. The protocol will consist of a blockchain based “virtual machine” and defined
@@ -24,9 +24,19 @@ links:
   - http://rcfund.org/en-US
   telegram_channel_identifier: realchain
   twitter_screen_name: RealChainFund
-liquidity_score: 6.101
-market_cap_rank: 1073
+liquidity_score: 2.804
+market_cap_rank: 1068
 name: RealChain
-public_interest_score: 24.653
+public_interest_score: 24.306
 symbol: rct
-tickers: []
+tickers:
+- base: RCT
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: RCT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH

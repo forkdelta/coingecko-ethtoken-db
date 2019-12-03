@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 52
-coingecko_score: 53.61
-community_score: 37.163
+coingecko_rank: 53
+coingecko_score: 53.027
+community_score: 36.439
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 79.167
+developer_score: 79.209
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -57,17 +57,12 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 43.37
-market_cap_rank: 158
+liquidity_score: 41.676
+market_cap_rank: 154
 name: Storj
-public_interest_score: 27.909
+public_interest_score: 27.516
 symbol: storj
 tickers:
-- base: STORJ
-  market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
 - base: STJ
   market:
     identifier: bitfinex
@@ -97,7 +92,17 @@ tickers:
   market:
     identifier: financex
     name: FinanceX
+  target: IDR
+- base: STORJ
+  market:
+    identifier: financex
+    name: FinanceX
   target: VND
+- base: STORJ
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
 - base: STORJ
   market:
     identifier: gate
@@ -120,6 +125,11 @@ tickers:
   target: ETH
 - base: STORJ
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: STORJ
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -140,14 +150,19 @@ tickers:
   target: ETH
 - base: STORJ
   market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: STORJ
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: STORJ
+  market:
     identifier: quoine
     name: Liquid
   target: BTC
-- base: STORJ
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
 - base: STORJ
   market:
     identifier: upbit

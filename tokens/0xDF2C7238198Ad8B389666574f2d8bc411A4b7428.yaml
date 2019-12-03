@@ -1,8 +1,8 @@
 ---
 address: '0xDF2C7238198Ad8B389666574f2d8bc411A4b7428'
-coingecko_rank: 122
-coingecko_score: 44.44
-community_score: 32.189
+coingecko_rank: 125
+coingecko_score: 43.905
+community_score: 31.497
 description: >-
   Mainframe is the platform for decentralized applications. Resistant to censorship, surveillance, and
   disruption, the Mainframe network enables any application to send data, store files, manage payments,
@@ -30,7 +30,7 @@ description: >-
   of exchange in the form of Mainframe tokens (MFT) is also used to improve the developer and user experience.
   Where underlying service layers cannot be retrofitted to accept MFT, we will implement atomic swaps
   between native service-layer tokens and MFT.
-developer_score: 52.016
+developer_score: 52.015
 id: mainframe
 image:
   large: https://assets.coingecko.com/coins/images/3293/large/mainframe.png?1547978270
@@ -56,12 +56,27 @@ links:
   subreddit_url: https://www.reddit.com/r/mainframe/
   telegram_channel_identifier: MainframeCommunity
   twitter_screen_name: Mainframe_HQ
-liquidity_score: 38.16
-market_cap_rank: 222
+liquidity_score: 37.048
+market_cap_rank: 217
 name: Mainframe
-public_interest_score: 30.522
+public_interest_score: 30.093
 symbol: mft
 tickers:
+- base: MFT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: MFT
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: MFT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: MFT
   market:
     identifier: idex
@@ -72,13 +87,3 @@ tickers:
     identifier: uniswap
     name: Uniswap
   target: ETH
-- base: MFT
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: MFT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
