@@ -1,8 +1,8 @@
 ---
 address: '0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38'
-coingecko_rank: 330
-coingecko_score: 33.653
-community_score: 32.587
+coingecko_rank: 349
+coingecko_score: 33.268
+community_score: 33.052
 description: >-
   The Utrust platform allows merchants to accept digital currencies as a means of payment. It brings digital
   currencies to mainstream consumers, while providing a reliable buyer protection, and credibility like
@@ -47,8 +47,8 @@ links:
   subreddit_url: https://www.reddit.com/r/UTRUST_Official
   telegram_channel_identifier: utrustofficial
   twitter_screen_name: UTRUST
-liquidity_score: 34.699
-market_cap_rank: 265
+liquidity_score: 32.142
+market_cap_rank: 271
 name: UTRUST
 public_interest_score: 25.549
 symbol: utk
@@ -60,6 +60,11 @@ tickers:
   target: USD
 - base: UTK
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: UTK
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -67,17 +72,7 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
-- base: UTK
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH
-- base: UTK
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
 - base: UTK
   market:
     identifier: okex_korea
