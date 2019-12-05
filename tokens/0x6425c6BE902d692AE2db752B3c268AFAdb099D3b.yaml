@@ -1,8 +1,8 @@
 ---
 address: '0x6425c6BE902d692AE2db752B3c268AFAdb099D3b'
-coingecko_rank: 629
-coingecko_score: 26.72
-community_score: 31.136
+coingecko_rank: 625
+coingecko_score: 26.882
+community_score: 31.642
 description: >-
   As energy consumption is expected to double until 2030, the world is looking for new distributed energy
   development models to directly connect end users to producers, to allow consumers direct access to accountable,
@@ -48,8 +48,8 @@ links:
   subreddit_url: https://www.reddit.com/r/RestartEnergy/
   telegram_channel_identifier: RestartEnergy
   twitter_screen_name: restartenergyio
-liquidity_score: 0.547
-market_cap_rank: 322
+liquidity_score: 1.0
+market_cap_rank: 328
 name: Restart Energy
 public_interest_score: 34.223
 symbol: mwat
@@ -58,6 +58,11 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MWAT
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: 753FE7FC-7EC6-4AE5-8AA5-4DDE2479597A
   market:
@@ -79,3 +84,8 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
+- base: MWAT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT

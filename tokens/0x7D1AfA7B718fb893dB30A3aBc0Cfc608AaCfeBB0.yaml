@@ -1,14 +1,14 @@
 ---
 address: '0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0'
-coingecko_rank: 47
-coingecko_score: 54.475
-community_score: 29.914
+coingecko_rank: 46
+coingecko_score: 54.788
+community_score: 30.984
 description: >-
   Matic Network provides scalable, secure and instant Ethereum transactions. It is built on an implementation
   of the PLASMA framework and functions as an off chain scaling solution. Matic Network offers scalability
   solutions along with other tools to the developer ecosystem, which enable Matic to seamlessly integrate
   with dApps while helping developers create an enhanced user experience.
-developer_score: 73.434
+developer_score: 73.433
 id: matic-network
 image:
   large: https://assets.coingecko.com/coins/images/4713/large/Matic.png?1553498071
@@ -32,22 +32,42 @@ links:
   subreddit_url: https://www.reddit.com/r/maticnetwork/
   telegram_channel_identifier: maticnetwork
   twitter_screen_name: maticnetwork
-liquidity_score: 59.918
-market_cap_rank: 55
+liquidity_score: 59.635
+market_cap_rank: 51
 name: Matic Network
 public_interest_score: 25.841
 symbol: matic
 tickers:
 - base: MATIC
   market:
-    identifier: coss
-    name: COSS
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: MATIC
+  market:
+    identifier: catex
+    name: Catex
+  target: ETH
+- base: MATIC
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: MATIC
+  market:
+    identifier: coinsuper
+    name: Coinsuper
   target: ETH
 - base: MATIC
   market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: MATIC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MATIC
   market:
     identifier: whitebit

@@ -1,8 +1,8 @@
 ---
 address: '0x08cEeD1e8Db59acBb687a5752f0a7DB815CFdA5e'
-coingecko_rank: 2878
-coingecko_score: 8.844
-community_score: 6.243
+coingecko_rank: 2862
+coingecko_score: 8.988
+community_score: 6.6
 description: >-
   Electronic Energy Coin (E2C) is a blockchain-based trading platform for green technology. E2C is built
   according to the ERC-20 token standards, which is used by the popular Ethereum system. This makes E2C
@@ -32,9 +32,19 @@ links:
   homepage:
   - https://electronicenergycoin.com/
   twitter_screen_name: e2coin
-liquidity_score: 21.988
-market_cap_rank: 3170
+liquidity_score: 22.259
+market_cap_rank: 3224
 name: Electronic Energy Coin
 public_interest_score: 28.859
 symbol: e2c
-tickers: []
+tickers:
+- base: E2C
+  market:
+    identifier: simex
+    name: Simex
+  target: BTC
+- base: E2C
+  market:
+    identifier: simex
+    name: Simex
+  target: ETH

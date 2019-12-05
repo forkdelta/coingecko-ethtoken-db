@@ -1,8 +1,8 @@
 ---
 address: '0xB97048628DB6B661D4C2aA833e95Dbe1A905B280'
-coingecko_rank: 412
-coingecko_score: 31.525
-community_score: 46.379
+coingecko_rank: 422
+coingecko_score: 31.365
+community_score: 45.641
 description: >-
   TenX is a payment platform that facilitates digital and physical modes of transaction for cryptocurrencies
   to any merchant, even if they don’t accept cryptocurrencies. Physical and digital modes of course, include
@@ -47,8 +47,8 @@ links:
     - https://github.com/comit-network/comit-rs
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
-liquidity_score: 24.708
-market_cap_rank: 267
+liquidity_score: 24.843
+market_cap_rank: 269
 name: TenX
 public_interest_score: 27.242
 symbol: pay
@@ -70,6 +70,11 @@ tickers:
   target: ETH
 - base: PAY
   market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: PAY
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -87,6 +92,16 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: PAY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: PAY
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: PAY
   market:
@@ -98,18 +113,3 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: PAY
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: PAY
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
-- base: PAY
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC

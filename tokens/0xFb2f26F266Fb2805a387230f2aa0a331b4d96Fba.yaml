@@ -1,8 +1,8 @@
 ---
 address: '0xFb2f26F266Fb2805a387230f2aa0a331b4d96Fba'
-coingecko_rank: 357
-coingecko_score: 32.962
-community_score: 22.432
+coingecko_rank: 356
+coingecko_score: 33.128
+community_score: 23.013
 description: >-
   Peer-to-peer serverless infrastructure, powered by blockchain technology and built using the spare capacity
   all around us. The future of the cloud is Edge.
@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: edgenetwork
   twitter_screen_name: edgenetwork
 liquidity_score: 1.0
-market_cap_rank: 473
+market_cap_rank: 464
 name: Edge
 public_interest_score: 44.89
 symbol: dadi
@@ -44,6 +44,16 @@ tickers:
   target: USD
 - base: DADI
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DADI
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: DADI
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -57,3 +67,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: DADI
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
