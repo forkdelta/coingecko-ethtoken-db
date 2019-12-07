@@ -1,8 +1,8 @@
 ---
 address: '0x4b7aD3a56810032782Afce12d7d27122bDb96efF'
-coingecko_rank: 1010
-coingecko_score: 21.884
-community_score: 27.623
+coingecko_rank: 999
+coingecko_score: 22.073
+community_score: 27.626
 description: ""
 developer_score: 0.0
 id: sparkle
@@ -27,9 +27,19 @@ links:
   subreddit_url: https://www.reddit.com/r/Sparklemobile/
   telegram_channel_identifier: Sparklemobile
   twitter_screen_name: Sparkletoken
-liquidity_score: 16.844
-market_cap_rank: 1346
+liquidity_score: 16.942
+market_cap_rank: 1387
 name: Sparkle
 public_interest_score: 32.637
 symbol: sprkl
-tickers: []
+tickers:
+- base: SPRKL
+  market:
+    identifier: vindax
+    name: Vindax
+  target: BTC
+- base: SPRKL
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH

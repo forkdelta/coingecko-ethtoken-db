@@ -1,8 +1,8 @@
 ---
 address: '0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF'
-coingecko_rank: 576
-coingecko_score: 27.907
-community_score: 41.525
+coingecko_rank: 574
+coingecko_score: 27.979
+community_score: 42.734
 description: >-
   DIGIX DAO TOKENS. Our vision for the future is a world operating on Smart Contracts. Indeed, we think
   this vision will become a reality very soon.
@@ -34,12 +34,22 @@ links:
     - https://gist.github.com/mrenoon/2582fba7b4d457d80f7d37520aabbc08
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
-liquidity_score: 14.476
-market_cap_rank: 316
+liquidity_score: 13.277
+market_cap_rank: 321
 name: Digix Gold
 public_interest_score: 25.974
 symbol: dgx
 tickers:
+- base: DGX
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: DGX
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: DGX
   market:
     identifier: livecoin
@@ -54,4 +64,9 @@ tickers:
   market:
     identifier: switcheo
     name: Switcheo
+  target: DAI
+- base: DGX
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

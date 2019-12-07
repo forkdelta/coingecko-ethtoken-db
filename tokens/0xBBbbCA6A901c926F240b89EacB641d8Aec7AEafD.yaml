@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 51
-coingecko_score: 53.369
-community_score: 41.601
+coingecko_rank: 54
+coingecko_score: 52.861
+community_score: 39.764
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -59,7 +59,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/loopring-lrc/">CoinBureau</a> for the full review
   of Loopring.
-developer_score: 74.072
+developer_score: 74.036
 id: loopring
 image:
   large: https://assets.coingecko.com/coins/images/913/large/LRC.png?1572852344
@@ -84,8 +84,8 @@ links:
   subreddit_url: https://www.reddit.com/r/loopringorg/
   telegram_channel_identifier: loopring_en
   twitter_screen_name: loopringorg
-liquidity_score: 42.489
-market_cap_rank: 127
+liquidity_score: 42.565
+market_cap_rank: 126
 name: Loopring
 public_interest_score: 26.794
 symbol: lrc
@@ -97,8 +97,38 @@ tickers:
   target: ETH
 - base: LRC
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: LRC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: LRC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: LRC
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
+- base: LRC
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: LRC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: LRC
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: LRC
   market:
@@ -107,16 +137,21 @@ tickers:
   target: BTC
 - base: LRC
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: LRC
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: LRC
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: LRC
   market:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD

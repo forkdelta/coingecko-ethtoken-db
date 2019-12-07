@@ -1,7 +1,7 @@
 ---
 address: '0x584B44853680ee34a0F337B712a8f66d816dF151'
-coingecko_rank: 1197
-coingecko_score: 20.095
+coingecko_rank: 1195
+coingecko_score: 20.115
 community_score: 7.037
 description: >-
   AIDOC uses medical data and smart doctor AI technology to provide you constant health and wellness insight.
@@ -27,8 +27,8 @@ links:
   - http://www.aidoc.me/
   telegram_channel_identifier: AidocMeEn
   twitter_screen_name: AIDOCMe
-liquidity_score: 23.979
-market_cap_rank: 579
+liquidity_score: 23.893
+market_cap_rank: 599
 name: AI Doctor
 public_interest_score: 25.179
 symbol: aidoc
@@ -37,7 +37,12 @@ tickers:
   market:
     identifier: allcoin
     name: Allcoin
-  target: ETH
+  target: CKUSD
+- base: AIDOC
+  market:
+    identifier: bcex
+    name: BCEX
+  target: CKUSD
 - base: AIDOC
   market:
     identifier: bit_z
@@ -50,6 +55,6 @@ tickers:
   target: ETH
 - base: AIDOC
   market:
-    identifier: coinbig
-    name: COINBIG
-  target: USDT
+    identifier: coinbene
+    name: CoinBene
+  target: BTC

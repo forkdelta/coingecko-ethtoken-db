@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 69
-coingecko_score: 50.893
-community_score: 45.19
+coingecko_rank: 65
+coingecko_score: 51.821
+community_score: 44.07
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -43,7 +43,7 @@ description: >-
   list. Enjin Coin is an ambitious project that aims to integrate online virtual gaming with decentralized
   technologies. Enjin Coin project promises a lot, and it is only with the passage of time that we will
   able to see if it can deliver on those promises.
-developer_score: 48.479
+developer_score: 48.478
 id: enjincoin
 image:
   large: https://assets.coingecko.com/coins/images/1102/large/enjin-coin-logo.png?1547035078
@@ -64,8 +64,8 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 50.226
-market_cap_rank: 55
+liquidity_score: 54.249
+market_cap_rank: 52
 name: Enjin Coin
 public_interest_score: 35.35
 symbol: enj
@@ -74,6 +74,11 @@ tickers:
   market:
     identifier: airswap
     name: AirSwap
+  target: ETH
+- base: ENJ
+  market:
+    identifier: altilly
+    name: Altilly
   target: ETH
 - base: ENJ
   market:
@@ -92,11 +97,6 @@ tickers:
   target: USD
 - base: ENJ
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: ENJ
-  market:
     identifier: coinfinit
     name: Coinfinit
   target: KRW
@@ -107,18 +107,43 @@ tickers:
   target: COS
 - base: ENJ
   market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: ENJ
+  market:
     identifier: crypto_bridge
     name: CryptoBridge
   target: BTC
 - base: ENJ
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
+- base: ENJ
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: ENJ
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: ENJ
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: ENJ
+  market:
+    identifier: quoine
+    name: Liquid
   target: ETH
 - base: ENJ
   market:
@@ -134,9 +159,4 @@ tickers:
   market:
     identifier: stocks_exchange
     name: STEX
-  target: ETH
-- base: ENJ
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: ETH

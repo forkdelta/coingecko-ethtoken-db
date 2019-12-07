@@ -1,8 +1,8 @@
 ---
 address: '0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404'
-coingecko_rank: 478
-coingecko_score: 29.738
-community_score: 29.601
+coingecko_rank: 461
+coingecko_score: 30.347
+community_score: 29.262
 description: >-
   SunContract is an energy trading platform that utilizes blockchain technology to create a new business
   model for buying and selling electricity. If you believe that blockchain technology can solve many of
@@ -26,8 +26,8 @@ links:
     - https://github.com/SunContract/SmartContracts
   subreddit_url: https://www.reddit.com/r/suncontract
   twitter_screen_name: sun_contract
-liquidity_score: 22.761
-market_cap_rank: 501
+liquidity_score: 26.289
+market_cap_rank: 516
 name: SunContract
 public_interest_score: 24.707
 symbol: snc
@@ -36,12 +36,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: USD
 - base: SNC
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: SNC
   market:
     identifier: kucoin
@@ -49,8 +49,13 @@ tickers:
   target: ETH
 - base: SNC
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: SNC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
   target: BTC
 - base: SNC
   market:
