@@ -1,7 +1,7 @@
 ---
 address: '0xD4f6f9Ae14399fD5Eb8DFc7725F0094a1A7F5d80'
-coingecko_rank: 5119
-coingecko_score: 3.961
+coingecko_rank: 4943
+coingecko_score: 4.171
 community_score: 0.0
 description: >-
   Bitsten Token, created to support the Bitsten Exchange project, and will be the largest exchange in
@@ -20,8 +20,8 @@ links:
   - https://token.bitsten.com
   telegram_channel_identifier: coinsteneum
   twitter_screen_name: SteneumCoin
-liquidity_score: 7.989
-market_cap_rank: 3768
+liquidity_score: 9.041
+market_cap_rank: 2843
 name: Bitsten Token
 public_interest_score: 23.629
 symbol: bst
@@ -33,6 +33,11 @@ tickers:
   target: BTC
 - base: BST
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: ETH
+- base: BST
+  market:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
@@ -41,8 +46,3 @@ tickers:
     identifier: vindax
     name: Vindax
   target: BTC
-- base: BST
-  market:
-    identifier: vindax
-    name: Vindax
-  target: VD
