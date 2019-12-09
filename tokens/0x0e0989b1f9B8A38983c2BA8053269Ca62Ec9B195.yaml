@@ -1,8 +1,8 @@
 ---
 address: '0x0e0989b1f9B8A38983c2BA8053269Ca62Ec9B195'
-coingecko_rank: 219
-coingecko_score: 37.688
-community_score: 27.554
+coingecko_rank: 218
+coingecko_score: 37.631
+community_score: 27.375
 description: >-
   Po.et is a shared, universal ledger designed to track ownership and attribution for the world's digital
   creative assets.
@@ -27,12 +27,27 @@ links:
     - https://github.com/poetapp/poet
     - https://github.com/poetapp/poet-js
   subreddit_url: https://www.reddit.com/r/poetproject
-liquidity_score: 13.925
-market_cap_rank: 296
+liquidity_score: 13.961
+market_cap_rank: 294
 name: Po.et
 public_interest_score: 35.421
 symbol: poe
 tickers:
+- base: POE
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: POE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: POE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: POE
   market:
     identifier: idex
@@ -40,16 +55,11 @@ tickers:
   target: ETH
 - base: POE
   market:
-    identifier: resfinex
-    name: Resfinex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: POE
   market:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: POE
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

@@ -1,7 +1,7 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 2175
-coingecko_score: 12.725
+coingecko_rank: 2187
+coingecko_score: 12.683
 community_score: 11.547
 description: >-
   Official Token of Yobit.Net Exchange
@@ -18,8 +18,8 @@ links:
   homepage:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
-liquidity_score: 34.858
-market_cap_rank: 5990
+liquidity_score: 34.647
+market_cap_rank: 5534
 name: Yobit Token
 public_interest_score: 28.668
 symbol: yo
@@ -36,25 +36,35 @@ tickers:
   target: BTC
 - base: YO
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: YO
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: DOGE
 - base: YO
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: RUR
 - base: YO
   market:
     identifier: yobit
     name: YoBit
   target: WAVES
 - base: DOGE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: SEDO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: LTC
   market:
     identifier: yobit
     name: YoBit
@@ -69,22 +79,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: SEDO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: BCHABC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ZEC
+- base: DASH
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: LTC
+- base: EOS
   market:
     identifier: yobit
     name: YoBit
@@ -94,17 +99,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ETH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: ROOBEE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: BCHSV
   market:
     identifier: yobit
     name: YoBit
@@ -114,13 +109,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: XEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: YO
-  market:
-    identifier: zg
-    name: ZG.com
-  target: USDT

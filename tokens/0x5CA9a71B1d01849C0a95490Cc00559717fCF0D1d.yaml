@@ -1,8 +1,8 @@
 ---
 address: '0x5CA9a71B1d01849C0a95490Cc00559717fCF0D1d'
 coingecko_rank: 30
-coingecko_score: 57.877
-community_score: 45.229
+coingecko_score: 57.719
+community_score: 43.9
 description: >-
   æternity is a public, open-source blockchain protocol that enables a platform for next-generation decentralized
   applications with high scalability. Its core components are written in the functional programming language
@@ -49,12 +49,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Aeternity
   telegram_channel_identifier: aeternity
   twitter_screen_name: aeternity
-liquidity_score: 50.014
-market_cap_rank: 73
+liquidity_score: 50.835
+market_cap_rank: 72
 name: Aeternity
 public_interest_score: 27.443
 symbol: ae
 tickers:
+- base: AE
+  market:
+    identifier: aex
+    name: AEX
+  target: USDT
 - base: AE
   market:
     identifier: bitmart
@@ -62,19 +67,19 @@ tickers:
   target: BTC
 - base: AE
   market:
+    identifier: bitmart
+    name: BitMart
+  target: ETH
+- base: AE
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
 - base: AE
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: ETH
-- base: AE
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: AE
   market:
     identifier: sistemkoin

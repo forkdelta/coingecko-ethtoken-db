@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 164
-coingecko_score: 41.197
-community_score: 35.819
+coingecko_rank: 173
+coingecko_score: 40.638
+community_score: 33.769
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -62,8 +62,8 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 14.032
-market_cap_rank: 172
+liquidity_score: 13.869
+market_cap_rank: 176
 name: Gnosis
 public_interest_score: 36.06
 symbol: gno
@@ -92,19 +92,44 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: BTC
-- base: GNO
-  market:
-    identifier: bittrex
-    name: Bittrex
   target: ETH
 - base: GNO
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
+    identifier: credoex
+    name: CredoEx
+  target: CREDO
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: GNO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: GNO
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
   target: USD
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

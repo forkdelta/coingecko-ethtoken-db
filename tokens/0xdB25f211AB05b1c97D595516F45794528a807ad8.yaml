@@ -1,8 +1,8 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 599
-coingecko_score: 27.382
-community_score: 7.778
+coingecko_rank: 597
+coingecko_score: 27.435
+community_score: 7.779
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
@@ -26,8 +26,8 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 31.059
-market_cap_rank: 180
+liquidity_score: 31.342
+market_cap_rank: 183
 name: STASIS EURO
 public_interest_score: 26.881
 symbol: eurs
@@ -67,11 +67,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EOSDT
 - base: BTC
   market:
     identifier: hitbtc
@@ -82,17 +77,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XRP
   market:
     identifier: hitbtc
     name: HitBTC
@@ -127,11 +122,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: TUSD
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: BTC
   market:
     identifier: livecoin
@@ -162,12 +152,12 @@ tickers:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: LTC
+- base: XRP
   market:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: XRP
+- base: LTC
   market:
     identifier: tokens_net
     name: TokensNet

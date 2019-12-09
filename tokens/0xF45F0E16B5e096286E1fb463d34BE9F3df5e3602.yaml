@@ -1,8 +1,8 @@
 ---
 address: '0xF45F0E16B5e096286E1fb463d34BE9F3df5e3602'
-coingecko_rank: 403
-coingecko_score: 32.052
-community_score: 30.863
+coingecko_rank: 398
+coingecko_score: 32.066
+community_score: 30.858
 description: >-
   The native digital cryptographically-secured utility token of BitMax (BTMX) is a major component of
   the ecosystem on BitMax, and is designed to be used solely as the primary token on the platform. BTMX
@@ -52,9 +52,19 @@ links:
   subreddit_url: https://www.reddit.com/r/BitMax/
   telegram_channel_identifier: BitMaxioEnglishOfficial
   twitter_screen_name: BitMax_Official
-liquidity_score: 39.002
-market_cap_rank: 89
+liquidity_score: 39.075
+market_cap_rank: 92
 name: Bitmax Token
 public_interest_score: 28.831
 symbol: btmx
-tickers: []
+tickers:
+- base: BTMX
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD
+- base: BTMX
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
