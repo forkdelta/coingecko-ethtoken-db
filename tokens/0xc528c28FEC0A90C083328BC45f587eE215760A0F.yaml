@@ -1,8 +1,8 @@
 ---
 address: '0xc528c28FEC0A90C083328BC45f587eE215760A0F'
-coingecko_rank: 406
-coingecko_score: 31.907
-community_score: 18.35
+coingecko_rank: 405
+coingecko_score: 31.923
+community_score: 18.343
 description: >-
   Endor.coin is reinventing predictive analytics by democratizing access to Artificial Intelligence data
   analysis, making it accessible, trustless, censorship-resistance and useful for all. This is achieved
@@ -31,9 +31,29 @@ links:
     - https://github.com/EndorCoin/endor-blockchain-data-pipeline
   subreddit_url: https://www.reddit.com/r/EndorCoin/
   twitter_screen_name: endorscience
-liquidity_score: 37.649
-market_cap_rank: 485
+liquidity_score: 37.622
+market_cap_rank: 480
 name: Endor Protocol Token
 public_interest_score: 24.522
 symbol: edr
-tickers: []
+tickers:
+- base: EDR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: EDR
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: EDR
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: EDR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

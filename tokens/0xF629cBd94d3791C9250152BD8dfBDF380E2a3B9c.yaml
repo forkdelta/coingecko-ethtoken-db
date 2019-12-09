@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 65
-coingecko_score: 51.821
-community_score: 44.07
+coingecko_rank: 64
+coingecko_score: 51.438
+community_score: 43.298
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -64,8 +64,8 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 54.249
-market_cap_rank: 52
+liquidity_score: 53.742
+market_cap_rank: 56
 name: Enjin Coin
 public_interest_score: 35.35
 symbol: enj
@@ -102,6 +102,11 @@ tickers:
   target: KRW
 - base: ENJ
   market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
+- base: ENJ
+  market:
     identifier: coss
     name: COSS
   target: COS
@@ -114,6 +119,11 @@ tickers:
   market:
     identifier: crypto_bridge
     name: CryptoBridge
+  target: BTC
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
   target: BTC
 - base: ENJ
   market:
@@ -132,8 +142,18 @@ tickers:
   target: ETH
 - base: ENJ
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: ENJ
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: ENJ
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: ENJ
   market:
@@ -147,16 +167,11 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: resfinex
-    name: Resfinex
-  target: ETH
-- base: ENJ
-  market:
-    identifier: resfinex
-    name: Resfinex
-  target: USDT
-- base: ENJ
-  market:
     identifier: stocks_exchange
     name: STEX
   target: ETH
+- base: ENJ
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

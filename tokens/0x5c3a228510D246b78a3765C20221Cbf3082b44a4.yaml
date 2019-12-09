@@ -1,7 +1,7 @@
 ---
 address: '0x5c3a228510D246b78a3765C20221Cbf3082b44a4'
-coingecko_rank: 1752
-coingecko_score: 15.541
+coingecko_rank: 1748
+coingecko_score: 15.566
 community_score: 9.176
 description: >-
   Storiqa is a platform created for buyers and sellers all over the world. With an easy-to-use online
@@ -26,8 +26,8 @@ links:
   - https://ico.storiqa.com
   telegram_channel_identifier: storiqa_en
   twitter_screen_name: storiqa
-liquidity_score: 4.486
-market_cap_rank: 1003
+liquidity_score: 4.259
+market_cap_rank: 1021
 name: Storiqa
 public_interest_score: 27.458
 symbol: stq
@@ -39,19 +39,24 @@ tickers:
   target: BTC
 - base: STQ
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: STQ
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: STQ
+  market:
     identifier: latoken
     name: LATOKEN
   target: ETH
 - base: STQ
   market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
-- base: STQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: STQ
   market:
     identifier: yobit
@@ -61,9 +66,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: USD
 - base: STQ
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: WAVES
