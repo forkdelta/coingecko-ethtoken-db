@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: thartoken
   twitter_screen_name: thartoken
 liquidity_score: 1.0
-market_cap_rank: 2263
+market_cap_rank: 4323
 name: Thar token
 public_interest_score: 26.028
 symbol: thar
 tickers:
+- base: THAR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: THAR
   market:
     identifier: etherflyer
@@ -40,4 +45,4 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: ETH
+  target: BTC

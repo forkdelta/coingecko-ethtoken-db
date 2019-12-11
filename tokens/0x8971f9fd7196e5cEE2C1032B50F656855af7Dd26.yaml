@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: HelloLambda
   twitter_screen_name: Lambdaim
 liquidity_score: 56.268
-market_cap_rank: 81
+market_cap_rank: 82
 name: Lambda
 public_interest_score: 34.115
 symbol: lamb
@@ -61,29 +61,19 @@ tickers:
   target: ETH
 - base: LAMB
   market:
-    identifier: bitmax
-    name: BitMax
-  target: ETH
-- base: LAMB
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: LAMB
-  market:
     identifier: coinone
     name: Coinone
   target: KRW
 - base: LAMB
   market:
+    identifier: dcoin
+    name: Dcoin
+  target: BTC
+- base: LAMB
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: LAMB
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: LAMB
   market:
     identifier: okex
@@ -109,13 +99,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
-- base: LAMB
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: LAMB
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

@@ -41,11 +41,16 @@ links:
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
 liquidity_score: 51.126
-market_cap_rank: 131
+market_cap_rank: 149
 name: Fetch.ai
 public_interest_score: 27.923
 symbol: fet
 tickers:
+- base: FET
+  market:
+    identifier: dcoin
+    name: Dcoin
+  target: USDT
 - base: FET
   market:
     identifier: financex
@@ -61,28 +66,3 @@ tickers:
     identifier: financex
     name: FinanceX
   target: VND
-- base: FET
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: FET
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: FET
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: FET
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: FET
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC

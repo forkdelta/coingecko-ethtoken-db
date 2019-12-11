@@ -90,6 +90,16 @@ symbol: hot
 tickers:
 - base: HOT
   market:
+    identifier: bitci
+    name: Bitci
+  target: CHFT
+- base: HOT
+  market:
+    identifier: bitci
+    name: Bitci
+  target: TRY
+- base: HOT
+  market:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
@@ -105,24 +115,14 @@ tickers:
   target: WETH
 - base: HOT
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: HOT
   market:
     identifier: gdac
     name: GDAC
   target: KRW
-- base: HOT
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: HOT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: HOT
   market:
     identifier: latoken
@@ -140,14 +140,14 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
+    identifier: sistemkoin
+    name: Sistemkoin
   target: BTC
 - base: HOT
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: DOGE
+  target: BTC
 - base: HOT
   market:
     identifier: trade_satoshi

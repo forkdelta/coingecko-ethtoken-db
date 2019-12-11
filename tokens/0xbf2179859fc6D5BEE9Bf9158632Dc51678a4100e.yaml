@@ -75,19 +75,24 @@ symbol: elf
 tickers:
 - base: ELF
   market:
-    identifier: bcex
-    name: BCEX
-  target: CKUSD
+    identifier: bitci
+    name: Bitci
+  target: BTC
 - base: ELF
   market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
+    identifier: bitci
+    name: Bitci
+  target: CHFT
+- base: ELF
+  market:
+    identifier: bitci
+    name: Bitci
+  target: TRY
 - base: ELF
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: BTC
+  target: ETH
 - base: ELF
   market:
     identifier: bitfinex
@@ -95,18 +100,13 @@ tickers:
   target: USD
 - base: ELF
   market:
-    identifier: bitmax
-    name: BitMax
-  target: ETH
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: ELF
   market:
     identifier: coinbig
     name: COINBIG
-  target: USDT
-- base: ELF
-  market:
-    identifier: fcoin
-    name: FCoin
   target: USDT
 - base: ELF
   market:
@@ -117,12 +117,22 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: ELF
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: USD
 - base: ELF
   market:
-    identifier: okex
-    name: OKEx
-  target: KRW
+    identifier: hpx
+    name: HPX
+  target: CNYT
+- base: ELF
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: ELF
   market:
     identifier: upbit_indonesia
