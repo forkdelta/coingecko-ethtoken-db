@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: traderstoken
   twitter_screen_name: TradersToken
 liquidity_score: 1.0
-market_cap_rank: 5841
+market_cap_rank: 3498
 name: Traders Token
 public_interest_score: 0.0
 symbol: trds
@@ -35,7 +35,17 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
+  target: BTC
+- base: TRDS
+  market:
+    identifier: graviex
+    name: Graviex
   target: ETH
+- base: TRDS
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: TRDS
   market:
     identifier: trade_satoshi

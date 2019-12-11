@@ -36,7 +36,7 @@ links:
   telegram_channel_identifier: HyperionOfficialHYN
   twitter_screen_name: HyperionHYN
 liquidity_score: 26.703
-market_cap_rank: 169
+market_cap_rank: 170
 name: Hyperion
 public_interest_score: 27.332
 symbol: hyn
@@ -50,9 +50,14 @@ tickers:
   market:
     identifier: biki
     name: Biki
-  target: ETH
-- base: HYN-F21
+  target: BTC
+- base: HYN
   market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
+    identifier: biki
+    name: Biki
+  target: ETH
+- base: HYN
+  market:
+    identifier: biki
+    name: Biki
+  target: USDT

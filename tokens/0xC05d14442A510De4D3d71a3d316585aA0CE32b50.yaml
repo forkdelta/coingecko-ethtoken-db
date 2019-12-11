@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: linareviewintl
   twitter_screen_name: lina_network
 liquidity_score: 16.567
-market_cap_rank: 2741
+market_cap_rank: 5334
 name: LINA
 public_interest_score: 25.343
 symbol: lina
@@ -41,6 +41,21 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
+  target: BTC
+- base: LINA
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: LINA
+  market:
+    identifier: idcm
+    name: IDCM
+  target: BTC
+- base: LINA
+  market:
+    identifier: idcm
+    name: IDCM
   target: ETH
 - base: LINA
   market:
@@ -56,12 +71,22 @@ tickers:
   market:
     identifier: simex
     name: Simex
+  target: USDT
+- base: LINA
+  market:
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: LINA
   market:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: LINA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: LINA
   market:
     identifier: yobit

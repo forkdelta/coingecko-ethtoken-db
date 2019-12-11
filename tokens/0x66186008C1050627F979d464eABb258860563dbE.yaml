@@ -25,8 +25,18 @@ links:
     - https://github.com/MediShares/MDSToken
   twitter_screen_name: MediShares
 liquidity_score: 27.196
-market_cap_rank: 384
+market_cap_rank: 380
 name: MediShares
 public_interest_score: 24.724
 symbol: mds
-tickers: []
+tickers:
+- base: MDS
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MDS
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT

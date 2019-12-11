@@ -41,16 +41,16 @@ links:
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
 liquidity_score: 41.151
-market_cap_rank: 117
+market_cap_rank: 120
 name: Fantom
 public_interest_score: 30.982
 symbol: ftm
 tickers:
-- base: FTM
+- base: FTM-A64
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: FTM
   market:
     identifier: coinall
@@ -58,24 +58,9 @@ tickers:
   target: BTC
 - base: FTM
   market:
-    identifier: coinfinit
-    name: Coinfinit
-  target: KRW
-- base: FTM
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: FTM
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: FTM
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: okex
+    name: OKEx
+  target: USDK
 - base: FTM
   market:
     identifier: okex_korea
@@ -85,7 +70,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: DOGE
 - base: FTM
   market:
     identifier: yobit
@@ -101,3 +86,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

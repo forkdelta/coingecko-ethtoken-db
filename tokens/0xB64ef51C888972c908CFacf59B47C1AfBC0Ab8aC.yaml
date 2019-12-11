@@ -58,7 +58,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 42.759
-market_cap_rank: 166
+market_cap_rank: 160
 name: Storj
 public_interest_score: 27.516
 symbol: storj
@@ -107,17 +107,12 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
+  target: USDT
 - base: STORJ
   market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: STORJ
   market:
     identifier: hitbtc
@@ -137,6 +132,11 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
+  target: ETH
+- base: STORJ
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: STORJ
   market:

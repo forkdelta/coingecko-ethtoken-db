@@ -25,11 +25,16 @@ links:
   subreddit_url: https://www.reddit.com/r/adChain/
   twitter_screen_name: ad_chain
 liquidity_score: 33.772
-market_cap_rank: 512
+market_cap_rank: 529
 name: adToken
 public_interest_score: 27.197
 symbol: adt
 tickers:
+- base: ADT
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: BSC
 - base: ADT
   market:
     identifier: bittrex
@@ -37,8 +42,8 @@ tickers:
   target: BTC
 - base: ADT
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: huobi_korea
+    name: Huobi Korea
   target: BTC
 - base: ADT
   market:
@@ -50,6 +55,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: ADT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: ADT
   market:
     identifier: yobit

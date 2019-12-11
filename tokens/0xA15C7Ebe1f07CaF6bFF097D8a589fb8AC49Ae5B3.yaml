@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 37.331
-market_cap_rank: 88
+market_cap_rank: 91
 name: Pundi X
 public_interest_score: 27.824
 symbol: npxs
@@ -78,7 +78,17 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
+  target: BTC
+- base: NPXS
+  market:
+    identifier: bit_z
+    name: Bit-Z
   target: ETH
+- base: NPXS
+  market:
+    identifier: bitci
+    name: Bitci
+  target: CHFT
 - base: NPXS
   market:
     identifier: bitcratic
@@ -93,12 +103,17 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: ETH
+  target: USDT
 - base: NPXS
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: catex
+    name: Catex
+  target: ETH
 - base: NPXS
   market:
     identifier: coinbene
@@ -106,9 +121,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
+    identifier: coss
+    name: COSS
+  target: COS
 - base: NPXS
   market:
     identifier: coss
@@ -156,19 +171,19 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: NPXS
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: ETH
 - base: NPXS
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: tidex
+    name: Tidex
+  target: ETH
 - base: NPXS
   market:
     identifier: upbit_indonesia
@@ -176,6 +191,6 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: IDR
