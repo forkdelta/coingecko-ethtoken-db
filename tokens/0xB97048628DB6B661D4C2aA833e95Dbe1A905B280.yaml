@@ -48,21 +48,31 @@ links:
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
 liquidity_score: 25.064
-market_cap_rank: 273
+market_cap_rank: 274
 name: TenX
 public_interest_score: 27.242
 symbol: pay
 tickers:
 - base: PAY
   market:
-    identifier: coss
-    name: COSS
+    identifier: bitsdaq
+    name: Bitsdaq
   target: ETH
 - base: PAY
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: USDT
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: PAY
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: PAY
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: PAY
   market:
     identifier: dcoin
@@ -77,17 +87,7 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: BTC
-- base: PAY
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
-- base: PAY
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: PAY
   market:
     identifier: hitbtc
@@ -100,6 +100,11 @@ tickers:
   target: ETH
 - base: PAY
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: kucoin
+    name: KuCoin
   target: ETH
+- base: PAY
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD

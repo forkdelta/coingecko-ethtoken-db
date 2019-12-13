@@ -43,11 +43,16 @@ links:
   subreddit_url: https://www.reddit.com/r/revain
   twitter_screen_name: Revain_org
 liquidity_score: 23.763
-market_cap_rank: 134
+market_cap_rank: 136
 name: Revain
 public_interest_score: 25.524
 symbol: r
 tickers:
+- base: R
+  market:
+    identifier: abcc
+    name: ABCC
+  target: USDT
 - base: R
   market:
     identifier: btc_alpha
@@ -70,6 +75,16 @@ tickers:
   target: ETH
 - base: R
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: R
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: R
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
@@ -90,19 +105,9 @@ tickers:
   target: USD
 - base: R
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
-- base: R
-  market:
     identifier: whitebit
     name: Whitebit
   target: ETH
-- base: R
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: R
   market:
     identifier: yobit

@@ -27,13 +27,18 @@ links:
   telegram_channel_identifier: xio_network
   twitter_screen_name: xio_network
 liquidity_score: 1.0
-market_cap_rank: 3842
+market_cap_rank: 3563
 name: XIO
 public_interest_score: 0.0
 symbol: xio
 tickers:
 - base: XIO
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: XIO
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: ETH

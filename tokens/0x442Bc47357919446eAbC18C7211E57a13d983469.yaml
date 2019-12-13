@@ -32,7 +32,7 @@ links:
   homepage:
   - http://www.openchat.co/
 liquidity_score: 37.059
-market_cap_rank: 614
+market_cap_rank: 615
 name: ChatCoin
 public_interest_score: 26.903
 symbol: chat
@@ -49,6 +49,16 @@ tickers:
   target: ETH
 - base: CHAT
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: CHAT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: CHAT
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -56,7 +66,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: ETH
+- base: CHAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: CHAT
   market:
     identifier: yobit
@@ -67,3 +82,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
+- base: CHAT
+  market:
+    identifier: zb
+    name: ZB
+  target: USDT

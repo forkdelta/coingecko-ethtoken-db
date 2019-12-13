@@ -48,8 +48,18 @@ name: ZB Token
 public_interest_score: 34.303
 symbol: zb
 tickers:
-- base: VSYS
+- base: ZB
   market:
-    identifier: zb
-    name: ZB
-  target: ZB
+    identifier: biki
+    name: Biki
+  target: BTC
+- base: ZBT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: ZB
+  market:
+    identifier: exx
+    name: EXX
+  target: USDT
