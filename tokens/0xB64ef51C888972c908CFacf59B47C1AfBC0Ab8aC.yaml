@@ -63,11 +63,6 @@ name: Storj
 public_interest_score: 27.516
 symbol: storj
 tickers:
-- base: STORJ
-  market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
 - base: STJ
   market:
     identifier: bitfinex
@@ -78,15 +73,10 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
-- base: STJ
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: STORJ
   market:
-    identifier: financex
-    name: FinanceX
+    identifier: bittrex
+    name: Bittrex
   target: BTC
 - base: STORJ
   market:
@@ -100,6 +90,11 @@ tickers:
   target: VND
 - base: STORJ
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: STORJ
+  market:
     identifier: gate
     name: Gate.io
   target: BTC
@@ -107,12 +102,17 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: USDT
+  target: ETH
 - base: STORJ
   market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: STORJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: STORJ
   market:
     identifier: hitbtc
@@ -147,6 +147,11 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: STORJ
+  market:
+    identifier: vcc
+    name: VCC
   target: BTC
 - base: STORJ
   market:

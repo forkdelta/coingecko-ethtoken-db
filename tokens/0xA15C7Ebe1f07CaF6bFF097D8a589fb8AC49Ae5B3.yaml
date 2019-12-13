@@ -64,16 +64,11 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 37.331
-market_cap_rank: 91
+market_cap_rank: 92
 name: Pundi X
 public_interest_score: 27.824
 symbol: npxs
 tickers:
-- base: NPXS
-  market:
-    identifier: atomars
-    name: Atomars
-  target: BTC
 - base: NPXS
   market:
     identifier: bit_z
@@ -103,6 +98,11 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: USDT
 - base: NPXS
   market:
@@ -121,6 +121,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: NPXS
+  market:
     identifier: coss
     name: COSS
   target: COS
@@ -128,11 +133,6 @@ tickers:
   market:
     identifier: coss
     name: COSS
-  target: ETH
-- base: NPXS
-  market:
-    identifier: etherflyer
-    name: EtherFlyer
   target: ETH
 - base: NPXS
   market:
@@ -161,11 +161,6 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: NPXS
-  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -178,12 +173,27 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: NPXS
+  market:
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH
 - base: NPXS
   market:
     identifier: tidex
     name: Tidex
   target: ETH
+- base: NPXS
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: NPXS
   market:
     identifier: upbit_indonesia
@@ -194,3 +204,23 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: IDR
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC
+  target: BTC
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC
+  target: ETH
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC
+  target: USDT
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

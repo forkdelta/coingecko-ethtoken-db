@@ -40,6 +40,11 @@ symbol: get
 tickers:
 - base: GET
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: GET
+  market:
     identifier: quoine
     name: Liquid
   target: BTC

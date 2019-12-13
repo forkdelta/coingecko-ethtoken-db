@@ -56,6 +56,11 @@ tickers:
   target: USDT
 - base: OKB
   market:
+    identifier: biki
+    name: Biki
+  target: USDT
+- base: OKB
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
@@ -64,7 +69,22 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
-- base: EGT
+- base: OKB
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: OKB
+  market:
+    identifier: lbank
+    name: LBank
+  target: USDT
+- base: IOTA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: SC
   market:
     identifier: okex
     name: OKEx

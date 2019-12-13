@@ -59,7 +59,7 @@ links:
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
 liquidity_score: 9.315
-market_cap_rank: 251
+market_cap_rank: 242
 name: Dragonchain
 public_interest_score: 25.582
 symbol: drgn
@@ -76,14 +76,19 @@ tickers:
   target: USD
 - base: DRGN
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: DRGN
+  market:
     identifier: coss
     name: COSS
   target: ETH
 - base: DRGN
   market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DRGN
   market:
     identifier: gate
@@ -91,9 +96,9 @@ tickers:
   target: ETH
 - base: DRGN
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: DRGN
   market:
     identifier: livecoin
@@ -118,4 +123,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: DRGN
+  market:
+    identifier: vcc
+    name: VCC
   target: BTC

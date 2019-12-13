@@ -71,16 +71,31 @@ links:
   subreddit_url: https://www.reddit.com/r/district0x
   twitter_screen_name: district0x
 liquidity_score: 27.429
-market_cap_rank: 339
+market_cap_rank: 338
 name: district0x
 public_interest_score: 25.655
 symbol: dnt
 tickers:
 - base: DNT
   market:
-    identifier: bitcratic
-    name: Bitcratic
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: DNT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
+- base: DNT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: DNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: DNT
   market:
     identifier: upbit
@@ -90,4 +105,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: DNT
+  market:
+    identifier: vcc
+    name: VCC
   target: BTC
