@@ -56,11 +56,16 @@ links:
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
 liquidity_score: 26.098
-market_cap_rank: 143
+market_cap_rank: 132
 name: WAX
 public_interest_score: 34.13
 symbol: waxp
 tickers:
+- base: WAX
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: WAX
   market:
     identifier: bitfinex
@@ -88,6 +93,21 @@ tickers:
   target: ETH
 - base: WAXP
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: WAXP
+  market:
     identifier: upbit
     name: Upbit
   target: BTC
@@ -99,5 +119,5 @@ tickers:
 - base: WAXP
   market:
     identifier: vcc
-    name: VCC
+    name: VCC Exchange
   target: ETH

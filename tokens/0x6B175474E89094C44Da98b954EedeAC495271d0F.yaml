@@ -31,17 +31,27 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
-- base: DAI
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
 - base: MKR
   market:
     identifier: bitfinex
     name: Bitfinex
   target: DAI
+- base: DAI
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: REP
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: DAI
+- base: ZRX
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: DAI
+- base: BAT
   market:
     identifier: oasis_trade
     name: OasisDEX
@@ -61,7 +71,7 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: ETH
+- base: USDT
   market:
     identifier: switcheo
     name: Switcheo
@@ -71,22 +81,12 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: USDT
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: MKR
+- base: NEO
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
 - base: SDUSD
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: NEO
   market:
     identifier: switcheo
     name: Switcheo

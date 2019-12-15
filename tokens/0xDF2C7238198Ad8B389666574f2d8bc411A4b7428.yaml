@@ -57,11 +57,21 @@ links:
   telegram_channel_identifier: MainframeCommunity
   twitter_screen_name: Mainframe_HQ
 liquidity_score: 35.374
-market_cap_rank: 218
+market_cap_rank: 229
 name: Mainframe
 public_interest_score: 30.093
 symbol: mft
 tickers:
+- base: MFT
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: MFT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: MFT
   market:
     identifier: idex
@@ -85,5 +95,5 @@ tickers:
 - base: MFT
   market:
     identifier: vcc
-    name: VCC
+    name: VCC Exchange
   target: BTC

@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
 liquidity_score: 3.475
-market_cap_rank: 162
+market_cap_rank: 164
 name: Aragon
 public_interest_score: 32.221
 symbol: ant
@@ -81,6 +81,21 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: BTC
+- base: ANT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: ANT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: ANT
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: ANT
   market:
@@ -94,6 +109,11 @@ tickers:
   target: KRW
 - base: ANT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: ANT
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -102,13 +122,3 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: ANT
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: ANT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

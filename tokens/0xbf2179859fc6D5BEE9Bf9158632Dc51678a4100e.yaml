@@ -68,7 +68,7 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 50.605
-market_cap_rank: 115
+market_cap_rank: 117
 name: aelf
 public_interest_score: 26.096
 symbol: elf
@@ -78,16 +78,6 @@ tickers:
     identifier: bcex
     name: BCEX
   target: USDT
-- base: ELF
-  market:
-    identifier: biki
-    name: Biki
-  target: BTC
-- base: ELF
-  market:
-    identifier: biki
-    name: Biki
-  target: ETH
 - base: ELF
   market:
     identifier: bitci
@@ -107,12 +97,17 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: BTC
+- base: ELF
+  market:
+    identifier: bitfinex
+    name: Bitfinex
   target: ETH
 - base: ELF
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: ELF
   market:
     identifier: gopax
@@ -130,19 +125,24 @@ tickers:
   target: USD
 - base: ELF
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: ELF
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: hpx
+    name: HPX
+  target: CNYT
 - base: ELF
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: ELF
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: ELF
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: ELF
   market:
     identifier: upbit_indonesia
@@ -151,5 +151,5 @@ tickers:
 - base: ELF
   market:
     identifier: vcc
-    name: VCC
+    name: VCC Exchange
   target: BTC
