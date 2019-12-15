@@ -71,6 +71,11 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: BTC
+- base: STORM
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: STORM
   market:
@@ -90,13 +95,18 @@ tickers:
 - base: STORM
   market:
     identifier: vcc
-    name: VCC
+    name: VCC Exchange
+  target: BTC
+- base: STORM
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: ETH
 - base: STORM
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: BTC
 - base: STORM
   market:
     identifier: yobit
@@ -107,6 +117,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: STORM
   market:
     identifier: yobit

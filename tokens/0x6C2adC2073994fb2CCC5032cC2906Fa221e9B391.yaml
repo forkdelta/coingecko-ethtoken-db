@@ -27,8 +27,28 @@ links:
     - https://github.com/DelphyProject/ReactNative_Delphy_POC
   twitter_screen_name: Delphy_org
 liquidity_score: 20.125
-market_cap_rank: 607
+market_cap_rank: 609
 name: Delphy
 public_interest_score: 24.792
 symbol: dpy
-tickers: []
+tickers:
+- base: DPY
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: DPY
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: DPY
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: DPY
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT

@@ -53,19 +53,29 @@ tickers:
   target: USDT
 - base: IOTX
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: IOTX
   market:
-    identifier: elitex
-    name: Elitex
-  target: BTC
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: IOTX
   market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: IOTX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: IOTX
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: IOTX
   market:
     identifier: upbit
@@ -75,9 +85,4 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: BTC
-- base: IOTX
-  market:
-    identifier: vcc
-    name: VCC
   target: BTC

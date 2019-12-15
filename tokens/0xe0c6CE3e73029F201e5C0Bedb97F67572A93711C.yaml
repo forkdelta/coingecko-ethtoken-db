@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: ethplode
   twitter_screen_name: ETHplode
 liquidity_score: 1.0
-market_cap_rank: 1226
+market_cap_rank: 1211
 name: ETHplode
 public_interest_score: 24.258
 symbol: ethplo
@@ -40,6 +40,11 @@ tickers:
   target: ETH
 - base: ETHPLO
   market:
+    identifier: bitsten
+    name: Bitsten
+  target: ETH
+- base: ETHPLO
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -47,7 +52,12 @@ tickers:
   market:
     identifier: exnce
     name: EXNCE
-  target: XNC
+  target: ETH
+- base: ETHPLO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: ETHPLO
   market:
     identifier: satoexchange
@@ -57,11 +67,11 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: BTC
 - base: ETHPLO
   market:
-    identifier: thetokenstore
-    name: Token.Store
+    identifier: sistemkoin
+    name: Sistemkoin
   target: ETH
 - base: ETHPLO
   market:

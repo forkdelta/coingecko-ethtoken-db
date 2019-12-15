@@ -28,7 +28,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Spectre_ai/
   twitter_screen_name: SpectreAI
 liquidity_score: 1.0
-market_cap_rank: 5823
+market_cap_rank: 2434
 name: Spectre.ai Dividend Token
 public_interest_score: 25.447
 symbol: sxdt
@@ -38,6 +38,16 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: SXDT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: SXDT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: SXDT
   market:
     identifier: idex

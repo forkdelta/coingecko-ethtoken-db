@@ -63,16 +63,21 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 13.869
-market_cap_rank: 175
+market_cap_rank: 170
 name: Gnosis
 public_interest_score: 36.06
 symbol: gno
 tickers:
 - base: GNO
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: GNO
+  market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
 - base: GNO
   market:
     identifier: bitfinex
@@ -102,6 +107,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: GNO
   market:
@@ -117,17 +127,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: GNO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: GNO
   market:
     identifier: yobit

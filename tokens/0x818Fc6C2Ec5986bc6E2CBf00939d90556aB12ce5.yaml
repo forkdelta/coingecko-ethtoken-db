@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 27.047
-market_cap_rank: 601
+market_cap_rank: 613
 name: Kin
 public_interest_score: 33.632
 symbol: kin
@@ -89,14 +89,14 @@ tickers:
   target: ETH
 - base: KIN
   market:
+    identifier: bit_z
+    name: Bit-Z
+  target: USDT
+- base: KIN
+  market:
     identifier: bitforex
     name: Bitforex
   target: ETH
-- base: KIN
-  market:
-    identifier: coss
-    name: COSS
-  target: BTC
 - base: KIN
   market:
     identifier: coss
@@ -117,11 +117,26 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: USDT
+- base: 568637D4-2B03-4F66-972E-B947A40F2771
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 568637D4-2B03-4F66-972E-B947A40F2771
+  market:
+    identifier: lykke
+    name: Lykke
+  target: USD
 - base: KIN
   market:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: KIN
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: KIN
   market:
     identifier: mercatox
@@ -162,6 +177,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: KIN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: KIN
   market:
     identifier: yobit

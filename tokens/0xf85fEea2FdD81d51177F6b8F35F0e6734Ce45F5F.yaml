@@ -47,11 +47,16 @@ links:
   telegram_channel_identifier: cybermilestoken
   twitter_screen_name: cybermiles
 liquidity_score: 40.786
-market_cap_rank: 213
+market_cap_rank: 214
 name: CyberMiles
 public_interest_score: 25.171
 symbol: cmt
 tickers:
+- base: CMT
+  market:
+    identifier: bcex
+    name: BCEX
+  target: CKUSD
 - base: CMT
   market:
     identifier: bitsonic
@@ -59,6 +64,6 @@ tickers:
   target: KRW
 - base: CMT
   market:
-    identifier: okex
-    name: OKEx
-  target: ETH
+    identifier: gdac
+    name: GDAC
+  target: KRW

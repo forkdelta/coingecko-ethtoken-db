@@ -59,7 +59,7 @@ links:
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
 liquidity_score: 34.696
-market_cap_rank: 276
+market_cap_rank: 279
 name: Raiden Network Token
 public_interest_score: 27.892
 symbol: rdn
@@ -76,9 +76,19 @@ tickers:
   target: USD
 - base: RDN
   market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: RDN
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: RDN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: RDN
   market:
     identifier: uniswap
