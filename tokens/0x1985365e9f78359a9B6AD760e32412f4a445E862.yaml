@@ -94,16 +94,6 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: ETH
-- base: REP
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
-- base: REP
-  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
@@ -129,6 +119,11 @@ tickers:
   target: ETH
 - base: REP
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: REP
+  market:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
@@ -147,6 +142,11 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: REP
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: REP
   market:
     identifier: upbit
