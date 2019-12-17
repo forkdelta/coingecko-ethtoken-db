@@ -65,11 +65,16 @@ links:
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
 liquidity_score: 30.739
-market_cap_rank: 306
+market_cap_rank: 310
 name: Mithril
 public_interest_score: 32.676
 symbol: mith
 tickers:
+- base: MITH
+  market:
+    identifier: altilly
+    name: Altilly
+  target: DOGE
 - base: MIT
   market:
     identifier: bitfinex
@@ -85,16 +90,6 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
-- base: MITH
-  market:
-    identifier: bitopro
-    name: BitoPro
-  target: TWD
-- base: MITH
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: ETH
 - base: MITH
   market:
     identifier: dove_wallet
@@ -102,14 +97,14 @@ tickers:
   target: BTC
 - base: MITH
   market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: MITH
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: MITH
-  market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
 - base: MITH
   market:
     identifier: hitbtc
@@ -124,22 +119,7 @@ tickers:
   market:
     identifier: max_maicoin
     name: Max Maicoin
-  target: TWD
-- base: MITH
-  market:
-    identifier: max_maicoin
-    name: Max Maicoin
   target: USDT
-- base: MITH
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: MITH
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: ETH
 - base: MITH
   market:
     identifier: okex_korea

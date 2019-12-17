@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: maticnetwork
   twitter_screen_name: maticnetwork
 liquidity_score: 61.737
-market_cap_rank: 93
+market_cap_rank: 97
 name: Matic Network
 public_interest_score: 25.841
 symbol: matic
@@ -43,16 +43,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: MATIC-84A
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
-- base: MATIC
-  market:
-    identifier: bitrabbit
-    name: BitRabbit
-  target: USDT
 - base: MATIC
   market:
     identifier: bitsonic
@@ -62,9 +52,14 @@ tickers:
   market:
     identifier: catex
     name: Catex
-  target: BTC
+  target: ETH
 - base: MATIC
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MATIC
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

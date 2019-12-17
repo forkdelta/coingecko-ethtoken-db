@@ -31,7 +31,7 @@ links:
   - https://www.stably.io/
   twitter_screen_name: StablyCoin
 liquidity_score: 29.054
-market_cap_rank: 397
+market_cap_rank: 384
 name: Stably Dollar
 public_interest_score: 26.086
 symbol: USDS
@@ -40,8 +40,13 @@ tickers:
   market:
     identifier: binance
     name: Binance
-  target: USDC
-- base: ONE-5F9
+  target: PAX
+- base: USDS
+  market:
+    identifier: binance
+    name: Binance
+  target: TUSD
+- base: BTCB-1DE
   market:
     identifier: binance_dex
     name: Binance DEX
@@ -55,14 +60,14 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: BTC
-- base: USDS
-  market:
-    identifier: bittrex
-    name: Bittrex
   target: USD
 - base: USDS
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: USDS
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

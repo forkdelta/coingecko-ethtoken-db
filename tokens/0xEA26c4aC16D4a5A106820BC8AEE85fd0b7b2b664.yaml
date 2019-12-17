@@ -100,6 +100,11 @@ symbol: qkc
 tickers:
 - base: QKC
   market:
+    identifier: dragonex
+    name: DragonEx
+  target: USDT
+- base: QKC
+  market:
     identifier: financex
     name: FinanceX
   target: BTC
@@ -110,9 +115,14 @@ tickers:
   target: VND
 - base: QKC
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
+- base: QKC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: QKC
   market:
     identifier: hotbit
@@ -125,11 +135,6 @@ tickers:
   target: ETH
 - base: QKC
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: QKC
-  market:
     identifier: wazirx
     name: WazirX
-  target: BTC
+  target: USDT

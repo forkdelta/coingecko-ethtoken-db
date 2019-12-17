@@ -61,11 +61,6 @@ tickers:
   target: ETH
 - base: LAMB
   market:
-    identifier: bitmax
-    name: BitMax
-  target: ETH
-- base: LAMB
-  market:
     identifier: dcoin
     name: Dcoin
   target: BTC
@@ -79,6 +74,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: LAMB
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
 - base: LAMB
   market:
     identifier: trade_satoshi
@@ -99,11 +99,6 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
-- base: LAMB
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
 - base: LAMB
   market:
     identifier: upbit_indonesia

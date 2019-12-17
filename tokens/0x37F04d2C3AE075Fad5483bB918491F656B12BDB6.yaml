@@ -37,8 +37,18 @@ links:
   telegram_channel_identifier: vestchainio
   twitter_screen_name: vestchain
 liquidity_score: 17.29
-market_cap_rank: 2954
+market_cap_rank: 5163
 name: VestChain
 public_interest_score: 24.815
 symbol: vest
-tickers: []
+tickers:
+- base: VEST
+  market:
+    identifier: btcnext
+    name: BTCNEXT
+  target: BTC
+- base: VEST
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC

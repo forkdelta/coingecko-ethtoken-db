@@ -90,9 +90,9 @@ symbol: hot
 tickers:
 - base: HOT
   market:
-    identifier: bihodl
-    name: 'BiHODL '
-  target: USDT
+    identifier: bitci
+    name: Bitci
+  target: BTC
 - base: HOT
   market:
     identifier: bitci
@@ -110,6 +110,11 @@ tickers:
   target: ETH
 - base: HOT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: HOT
+  market:
     identifier: exrates
     name: Exrates
   target: USD
@@ -118,16 +123,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: HOT
-  market:
-    identifier: gdac
-    name: GDAC
-  target: KRW
-- base: HOT
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: HOT
   market:
     identifier: idex
@@ -152,14 +147,4 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: DOGE
-- base: HOT
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
   target: ETH
-- base: HOT
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT

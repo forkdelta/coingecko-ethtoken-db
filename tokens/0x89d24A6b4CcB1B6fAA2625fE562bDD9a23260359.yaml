@@ -98,6 +98,11 @@ name: Sai
 public_interest_score: 33.464
 symbol: sai
 tickers:
+- base: SAI
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: WETH
   market:
     identifier: bamboo_relay
@@ -130,29 +135,9 @@ tickers:
   target: DAI
 - base: DAI
   market:
-    identifier: coinall
-    name: CoinAll
-  target: USDT
-- base: USDT
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: ETH
-  market:
-    identifier: coss
-    name: COSS
-  target: DAI
-- base: DAI
-  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
-- base: DAI
-  market:
-    identifier: crex24
-    name: CREX24
-  target: USD
 - base: DAI
   market:
     identifier: dydx
@@ -173,22 +158,12 @@ tickers:
     identifier: gate
     name: Gate.io
   target: USDT
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: POA
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
@@ -203,12 +178,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: BCH
+- base: MKR
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: MKR
+- base: POA
   market:
     identifier: hitbtc
     name: HitBTC
@@ -217,7 +192,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EOSDT
+  target: USDC
+- base: SAI
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: USDC
 - base: DAI
   market:
     identifier: p2pb2b
@@ -233,6 +213,11 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
+- base: ETH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: DAI
 - base: BTC
   market:
     identifier: quoine
@@ -247,12 +232,17 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: ETH
 - base: DAI
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: USD
 - base: DAI
   market:
     identifier: upbit

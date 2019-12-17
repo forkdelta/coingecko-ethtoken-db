@@ -6,6 +6,10 @@ community_score: 7.779
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
+
+
+  Download STASIS Stablecoin wallet: Android: https://play.google.com/store/apps/details?id=com.stasis.stasiswallet
+  iOS: https://itunes.apple.com/app/stasis-wallet/id1371949230
 developer_score: 14.872
 id: stasis-eurs
 image:
@@ -27,7 +31,7 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 31.342
-market_cap_rank: 173
+market_cap_rank: 171
 name: STASIS EURO
 public_interest_score: 26.881
 symbol: eurs
@@ -47,11 +51,11 @@ tickers:
     identifier: dsx
     name: DSX
   target: EUR
-- base: BTC
+- base: EURS
   market:
     identifier: dsx
     name: DSX
-  target: EURS
+  target: USD
 - base: EURS
   market:
     identifier: hitbtc
@@ -62,7 +66,7 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: BTC
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
@@ -77,22 +81,22 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: XRP
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: DASH
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -112,12 +116,7 @@ tickers:
     identifier: okcoin
     name: OKCoin
   target: EURS
-- base: DTR
-  market:
-    identifier: tokens_net
-    name: TokensNet
-  target: EURS
-- base: XRP
+- base: XLM
   market:
     identifier: tokens_net
     name: TokensNet

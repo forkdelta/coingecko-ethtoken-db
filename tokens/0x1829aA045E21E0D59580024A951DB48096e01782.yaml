@@ -26,11 +26,16 @@ links:
     - https://github.com/fuzex/smartcontract
   telegram_channel_identifier: FuzeX
 liquidity_score: 1.0
-market_cap_rank: 745
+market_cap_rank: 744
 name: FuzeX
 public_interest_score: 25.673
 symbol: fxt
 tickers:
+- base: FXT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: FXT
   market:
     identifier: hitbtc
@@ -40,9 +45,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: FXT
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH

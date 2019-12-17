@@ -27,13 +27,18 @@ links:
   telegram_channel_identifier: qiibee
   twitter_screen_name: qiibee
 liquidity_score: 1.0
-market_cap_rank: 1059
+market_cap_rank: 1071
 name: qiibee
 public_interest_score: 16.804
 symbol: qbx
 tickers:
-- base: QBX-38C
+- base: QBX
   market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: QBX
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH
