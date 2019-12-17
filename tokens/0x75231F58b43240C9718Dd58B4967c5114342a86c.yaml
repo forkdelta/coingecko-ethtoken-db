@@ -51,8 +51,18 @@ symbol: okb
 tickers:
 - base: OKB
   market:
-    identifier: bihodl
-    name: 'BiHODL '
+    identifier: bgogo
+    name: Bgogo
+  target: BTC
+- base: OKB
+  market:
+    identifier: bgogo
+    name: Bgogo
+  target: ETH
+- base: OKB
+  market:
+    identifier: bgogo
+    name: Bgogo
   target: USDT
 - base: OKB
   market:
@@ -61,25 +71,20 @@ tickers:
   target: ETH
 - base: OKB
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
-- base: OKB
-  market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: KRW
+    identifier: exx
+    name: EXX
+  target: CNYT
 - base: OKB
   market:
     identifier: lbank
     name: LBank
   target: USDT
-- base: SC
+- base: IOTA
   market:
     identifier: okex
     name: OKEx
   target: OKB
-- base: BLOC
+- base: SC
   market:
     identifier: okex
     name: OKEx

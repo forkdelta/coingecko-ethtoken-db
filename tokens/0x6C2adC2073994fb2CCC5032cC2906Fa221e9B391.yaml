@@ -27,11 +27,21 @@ links:
     - https://github.com/DelphyProject/ReactNative_Delphy_POC
   twitter_screen_name: Delphy_org
 liquidity_score: 20.125
-market_cap_rank: 609
+market_cap_rank: 600
 name: Delphy
 public_interest_score: 24.792
 symbol: dpy
 tickers:
+- base: DPY
+  market:
+    identifier: coinmex
+    name: CoinMex
+  target: USDT
+- base: DPY
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: DPY
   market:
     identifier: okex

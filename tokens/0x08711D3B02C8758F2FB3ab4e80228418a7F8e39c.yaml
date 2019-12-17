@@ -26,11 +26,16 @@ links:
   subreddit_url: https://www.reddit.com/r/Edgeless
   twitter_screen_name: edgelessproject
 liquidity_score: 1.0
-market_cap_rank: 654
+market_cap_rank: 677
 name: Edgeless
 public_interest_score: 26.007
 symbol: edg
 tickers:
+- base: EDG
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: EDG
   market:
     identifier: hitbtc
@@ -48,6 +53,11 @@ tickers:
   target: USD
 - base: EDG
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: EDG
+  market:
     identifier: tidex
     name: Tidex
-  target: ETH
+  target: BTC

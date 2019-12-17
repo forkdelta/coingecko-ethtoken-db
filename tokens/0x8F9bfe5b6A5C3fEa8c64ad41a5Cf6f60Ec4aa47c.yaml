@@ -1,6 +1,6 @@
 ---
 address: '0x8F9bfe5b6A5C3fEa8c64ad41a5Cf6f60Ec4aa47c'
-coingecko_rank: 4322
+coingecko_rank: 4321
 coingecko_score: 5.083
 community_score: 8.912
 description: >-
@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: swapcoinzgroup
   twitter_screen_name: swapcoinz
 liquidity_score: 1.0
-market_cap_rank: 4544
+market_cap_rank: 4201
 name: SwapCoinz
 public_interest_score: 26.548
 symbol: spaz
@@ -38,6 +38,11 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: ETH
+- base: SPAZ
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: BTC
 - base: SPAZ
   market:
     identifier: p2pb2b
@@ -52,7 +57,17 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
+  target: DOGE
+- base: SPAZ
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: ETH
+- base: SPAZ
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT
 - base: SPAZ
   market:
     identifier: vindax
