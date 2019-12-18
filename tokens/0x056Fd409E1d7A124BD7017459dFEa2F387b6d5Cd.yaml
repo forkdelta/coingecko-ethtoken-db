@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 448
-coingecko_score: 30.677
-community_score: 4.961
+coingecko_rank: 457
+coingecko_score: 30.521
+community_score: 4.967
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -55,7 +55,7 @@ description: >-
   Starting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini
   dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD
   back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon.
-developer_score: 20.301
+developer_score: 20.308
 id: gemini-dollar
 image:
   large: https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278
@@ -73,8 +73,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 42.595
-market_cap_rank: 346
+liquidity_score: 41.718
+market_cap_rank: 337
 name: Gemini Dollar
 public_interest_score: 39.601
 symbol: gusd
@@ -101,9 +101,9 @@ tickers:
   target: USDT
 - base: GUSD
   market:
-    identifier: finexbox
-    name: FinexBox
-  target: BTC
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
 - base: GUSD
   market:
     identifier: floatsv
@@ -131,6 +131,11 @@ tickers:
   target: BTC
 - base: GUSD
   market:
+    identifier: okex
+    name: OKEx
+  target: USDT
+- base: GUSD
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
@@ -156,9 +161,9 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: BTC
+    identifier: tokenize
+    name: Tokenize
+  target: USD
 - base: GUSD
   market:
     identifier: trade_satoshi
@@ -169,8 +174,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT

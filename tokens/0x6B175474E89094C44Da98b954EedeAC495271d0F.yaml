@@ -1,8 +1,8 @@
 ---
 address: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
-coingecko_rank: 444
-coingecko_score: 30.764
-community_score: 39.491
+coingecko_rank: 425
+coingecko_score: 31.255
+community_score: 38.509
 description: >-
   MakerDAO has launched Multi-collateral DAI (MCD). This token refers to the new DAI that is collaterized
   by multiple assets.
@@ -20,8 +20,8 @@ links:
   - https://makerdao.com/
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 35.692
-market_cap_rank: 72
+liquidity_score: 38.802
+market_cap_rank: 71
 name: Dai
 public_interest_score: 0.014
 symbol: dai
@@ -36,12 +36,12 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
-- base: MKR
+- base: ZRX
   market:
     identifier: bitfinex
     name: Bitfinex
   target: DAI
-- base: ZRX
+- base: MKR
   market:
     identifier: bitfinex
     name: Bitfinex
@@ -66,6 +66,11 @@ tickers:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
+- base: DAI
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: USDC
 - base: USDC
   market:
     identifier: radar_relay

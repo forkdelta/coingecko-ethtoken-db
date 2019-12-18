@@ -1,8 +1,8 @@
 ---
 address: '0xfe5F141Bf94fE84bC28deD0AB966c16B17490657'
 coingecko_rank: 175
-coingecko_score: 40.492
-community_score: 35.388
+coingecko_score: 40.16
+community_score: 35.374
 description: >-
   Libra Credit is a decentralized lending ecosystem that facilitates open access to credit anywhere and
   anytime based on the Ethereum blockchain. Libra Credit is a global initiative with a mission to provide
@@ -58,8 +58,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Libra_Credit/
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
-liquidity_score: 34.271
-market_cap_rank: 194
+liquidity_score: 32.644
+market_cap_rank: 190
 name: Cred
 public_interest_score: 30.143
 symbol: lba
@@ -74,6 +74,11 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BTC
+- base: LBA
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
 - base: LBA-340
   market:
     identifier: binance_dex
@@ -108,6 +113,11 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
 - base: LBA
   market:
@@ -119,3 +129,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

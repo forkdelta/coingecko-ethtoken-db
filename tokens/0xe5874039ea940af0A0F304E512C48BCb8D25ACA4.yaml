@@ -1,8 +1,8 @@
 ---
 address: '0xe5874039ea940af0A0F304E512C48BCb8D25ACA4'
-coingecko_rank: 1424
-coingecko_score: 18.129
-community_score: 5.692
+coingecko_rank: 1602
+coingecko_score: 16.606
+community_score: 5.707
 description: >-
   "OTOCASH (OTO) is a Bitcoin base Token, OTOCASH will be a revolutionary payment platform that enables
   buyers to use their OTO Token in order to pay sellers (private or merchants). We provide sellers with
@@ -60,8 +60,8 @@ links:
     - https://github.com/otocash/OTOCASH
   telegram_channel_identifier: otocashofficial
   twitter_screen_name: otocashofficial
-liquidity_score: 7.983
-market_cap_rank: 206
+liquidity_score: 0.667
+market_cap_rank: 205
 name: OTOCASH
 public_interest_score: 24.137
 symbol: oto
@@ -70,9 +70,14 @@ tickers:
   market:
     identifier: altilly
     name: Altilly
-  target: ETH
+  target: BTC
 - base: OTO
   market:
-    identifier: finexbox
-    name: FinexBox
-  target: USDT
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: OTO
+  market:
+    identifier: crex24
+    name: CREX24
+  target: USDC
