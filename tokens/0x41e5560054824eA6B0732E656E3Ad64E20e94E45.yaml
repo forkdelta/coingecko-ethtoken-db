@@ -1,8 +1,8 @@
 ---
 address: '0x41e5560054824eA6B0732E656E3Ad64E20e94E45'
-coingecko_rank: 319
-coingecko_score: 34.021
-community_score: 40.692
+coingecko_rank: 277
+coingecko_score: 35.262
+community_score: 43.707
 description: >-
   Using blockchain technology in an unprecedented way, Civic is more than just a coin or a cryptocurrency
   to trade. It’s an identity verification platform which is meant to make life easier, not only for the
@@ -34,8 +34,8 @@ links:
   subreddit_url: https://www.reddit.com/r/civicplatform
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
-liquidity_score: 37.093
-market_cap_rank: 168
+liquidity_score: 40.366
+market_cap_rank: 175
 name: Civic
 public_interest_score: 34.15
 symbol: cvc
@@ -47,9 +47,14 @@ tickers:
   target: USDT
 - base: CVC
   market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: CVC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: CVC
   market:
     identifier: forkdelta
@@ -94,6 +99,11 @@ tickers:
   market:
     identifier: tokenize
     name: Tokenize
+  target: BTC
+- base: CVC
+  market:
+    identifier: tokenize
+    name: Tokenize
   target: ETH
 - base: CVC
   market:
@@ -105,3 +115,8 @@ tickers:
     identifier: upbit
     name: Upbit
   target: BTC
+- base: CVC
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH
