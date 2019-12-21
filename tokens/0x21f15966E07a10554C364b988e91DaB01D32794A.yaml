@@ -1,8 +1,8 @@
 ---
 address: '0x21f15966E07a10554C364b988e91DaB01D32794A'
-coingecko_rank: 898
-coingecko_score: 23.045
-community_score: 7.743
+coingecko_rank: 907
+coingecko_score: 22.874
+community_score: 7.741
 description: >-
   We build a mesh network protocol and micropayment in tokens so you will get rewarded for sharing your
   smartphone to build a global mesh. Mesh Network: A network infrastructure with each device acting as
@@ -25,12 +25,22 @@ links:
     github:
     - https://github.com/SmartMeshFoundation/SmartMesh_iOS
   twitter_screen_name: smart_mesh
-liquidity_score: 9.995
-market_cap_rank: 294
+liquidity_score: 9.335
+market_cap_rank: 299
 name: SmartMesh
 public_interest_score: 24.367
 symbol: smt
 tickers:
+- base: SMT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: SMT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: SMT
   market:
     identifier: hitbtc
@@ -61,6 +71,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: SMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: SMT
   market:
     identifier: yobit

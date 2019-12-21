@@ -1,8 +1,8 @@
 ---
 address: '0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A'
-coingecko_rank: 108
-coingecko_score: 45.779
-community_score: 39.234
+coingecko_rank: 110
+coingecko_score: 45.454
+community_score: 39.518
 description: >-
   Digix makes it possible to buy gold in an efficient manner via cryptocurrency by providing investors
   with a tokenized version of gold so you don’t have to physically own or store it. Digix has two cryptocurrencies,
@@ -68,8 +68,8 @@ links:
     - https://github.com/DigixGlobal/dijix
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
-liquidity_score: 39.189
-market_cap_rank: 92
+liquidity_score: 37.522
+market_cap_rank: 93
 name: DigixDAO
 public_interest_score: 28.308
 symbol: dgd
@@ -91,19 +91,14 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DGD
-  market:
     identifier: gate
     name: Gate.io
   target: ETH
 - base: DGD
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: DGD
   market:
     identifier: livecoin
@@ -119,6 +114,11 @@ tickers:
     identifier: okex
     name: OKEx
   target: ETH
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
 - base: DGD
   market:
     identifier: okex_korea
@@ -138,14 +138,4 @@ tickers:
   market:
     identifier: uniswap
     name: Uniswap
-  target: ETH
-- base: DGD
-  market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
-- base: DGD
-  market:
-    identifier: vindax
-    name: Vindax
   target: ETH

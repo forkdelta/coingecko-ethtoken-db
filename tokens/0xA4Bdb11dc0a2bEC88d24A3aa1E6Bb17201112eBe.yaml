@@ -1,8 +1,8 @@
 ---
 address: '0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe'
-coingecko_rank: 753
-coingecko_score: 24.955
-community_score: 7.043
+coingecko_rank: 733
+coingecko_score: 25.262
+community_score: 7.048
 description: >-
   Stably Dollar (USDS) is a fiat-collateralized stablecoin created by Stably, Inc. Each Stably Dollar
   token is legally backed and redeemable for a US Dollar held in FDIC-insured escrow accounts managed
@@ -30,8 +30,8 @@ links:
   homepage:
   - https://www.stably.io/
   twitter_screen_name: StablyCoin
-liquidity_score: 44.335
-market_cap_rank: 381
+liquidity_score: 46.062
+market_cap_rank: 390
 name: Stably Dollar
 public_interest_score: 26.086
 symbol: USDS
@@ -46,16 +46,21 @@ tickers:
     identifier: binance
     name: Binance
   target: PAX
+- base: USDS
+  market:
+    identifier: binance
+    name: Binance
+  target: TUSD
+- base: BNB
+  market:
+    identifier: binance
+    name: Binance
+  target: USDS
 - base: BTCB-1DE
   market:
     identifier: binance_dex
     name: Binance DEX
   target: USDSB-1AC
-- base: USDS
-  market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: KRW
 - base: USDS
   market:
     identifier: bittrex
@@ -76,8 +81,3 @@ tickers:
     identifier: vcc
     name: VCC Exchange
   target: BTC
-- base: USDS
-  market:
-    identifier: vindax
-    name: Vindax
-  target: USDT

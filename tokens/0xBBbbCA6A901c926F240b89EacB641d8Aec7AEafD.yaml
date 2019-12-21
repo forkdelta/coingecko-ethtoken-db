@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 57
-coingecko_score: 53.081
-community_score: 42.938
+coingecko_rank: 58
+coingecko_score: 52.712
+community_score: 42.79
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -59,7 +59,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/loopring-lrc/">CoinBureau</a> for the full review
   of Loopring.
-developer_score: 74.118
+developer_score: 74.117
 id: loopring
 image:
   large: https://assets.coingecko.com/coins/images/913/large/LRC.png?1572852344
@@ -84,8 +84,8 @@ links:
   subreddit_url: https://www.reddit.com/r/loopringorg/
   telegram_channel_identifier: loopring_en
   twitter_screen_name: loopringorg
-liquidity_score: 39.678
-market_cap_rank: 128
+liquidity_score: 38.345
+market_cap_rank: 127
 name: Loopring
 public_interest_score: 26.794
 symbol: lrc
@@ -94,7 +94,22 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: BTC
+- base: LRC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: LRC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
   target: USD
+- base: LRC
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
 - base: LRC
   market:
     identifier: forkdelta
@@ -105,6 +120,11 @@ tickers:
     identifier: gate
     name: Gate.io
   target: BTC
+- base: LRC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: LRC
   market:
     identifier: hitbtc
@@ -122,11 +142,6 @@ tickers:
   target: BTC
 - base: LRC
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: LRC
-  market:
     identifier: upbit
     name: Upbit
   target: BTC
@@ -140,6 +155,16 @@ tickers:
     identifier: vcc
     name: VCC Exchange
   target: BTC
+- base: LRC
+  market:
+    identifier: xt
+    name: XT
+  target: SXC
+- base: LRC
+  market:
+    identifier: xt
+    name: XT
+  target: USDT
 - base: LRC
   market:
     identifier: yobit
@@ -159,4 +184,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: RUR

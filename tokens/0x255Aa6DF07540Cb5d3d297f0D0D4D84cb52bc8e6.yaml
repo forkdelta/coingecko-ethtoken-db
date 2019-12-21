@@ -1,8 +1,8 @@
 ---
 address: '0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6'
-coingecko_rank: 55
-coingecko_score: 53.148
-community_score: 41.615
+coingecko_rank: 59
+coingecko_score: 52.68
+community_score: 39.848
 description: >-
   The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments.
   It’s complementary to the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> blockchain
@@ -35,7 +35,7 @@ description: >-
 
   Raiden can be used for a wide variety of applications and purposes such as Micropayments For Content
   Distribution, Decentralized M2M Markets, API Access and Fast Decentralized Exchanges."
-developer_score: 81.415
+developer_score: 81.409
 id: raiden-network
 image:
   large: https://assets.coingecko.com/coins/images/1132/large/raiden-logo.jpg?1547035131
@@ -58,12 +58,22 @@ links:
     - https://github.com/raiden-network/raiden/
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
-liquidity_score: 36.868
-market_cap_rank: 279
+liquidity_score: 37.027
+market_cap_rank: 280
 name: Raiden Network Token
 public_interest_score: 27.892
 symbol: rdn
 tickers:
+- base: RDN
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: RDN
+  market:
+    identifier: binance
+    name: Binance
+  target: BNB
 - base: RDN
   market:
     identifier: bitfinex
@@ -83,6 +93,16 @@ tickers:
   market:
     identifier: fcoin
     name: FCoin
+  target: USDT
+- base: RDN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: RDN
+  market:
+    identifier: gate
+    name: Gate.io
   target: USDT
 - base: RDN
   market:
