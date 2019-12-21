@@ -1,8 +1,8 @@
 ---
 address: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
-coingecko_rank: 425
-coingecko_score: 31.255
-community_score: 38.509
+coingecko_rank: 388
+coingecko_score: 32.185
+community_score: 40.535
 description: >-
   MakerDAO has launched Multi-collateral DAI (MCD). This token refers to the new DAI that is collaterized
   by multiple assets.
@@ -20,8 +20,8 @@ links:
   - https://makerdao.com/
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 38.802
-market_cap_rank: 71
+liquidity_score: 41.01
+market_cap_rank: 82
 name: Dai
 public_interest_score: 0.014
 symbol: dai
@@ -36,12 +36,12 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
-- base: ZRX
+- base: MKR
   market:
     identifier: bitfinex
     name: Bitfinex
   target: DAI
-- base: MKR
+- base: ZRX
   market:
     identifier: bitfinex
     name: Bitfinex
@@ -56,6 +56,21 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: DAI
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: XBT
+  market:
+    identifier: kraken
+    name: Kraken
+  target: DAI
+- base: BAT
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: DAI
 - base: REP
   market:
     identifier: oasis_trade
@@ -66,22 +81,42 @@ tickers:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
-- base: DAI
+- base: WBTC
   market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: USDC
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: DGX
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: USDT
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
 - base: USDC
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: switcheo
+    name: Switcheo
   target: DAI
-- base: WETH
+- base: LEO
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: switcheo
+    name: Switcheo
   target: DAI
-- base: MKR
+- base: ETH
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: NEO
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: SDUSD
   market:
     identifier: switcheo
     name: Switcheo
