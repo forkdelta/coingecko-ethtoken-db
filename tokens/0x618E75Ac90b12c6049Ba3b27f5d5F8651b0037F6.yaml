@@ -1,8 +1,8 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 920
-coingecko_score: 22.748
-community_score: 5.076
+coingecko_rank: 939
+coingecko_score: 22.462
+community_score: 5.085
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
   to <a href="https://www.coingecko.com/en/exchanges/quoine">Liquid</a>. Liquid is a global cryptocurrency
@@ -60,7 +60,7 @@ links:
   subreddit_url: https://www.reddit.com/r/QASH
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
-liquidity_score: 28.674
+liquidity_score: 27.371
 market_cap_rank: 149
 name: QASH
 public_interest_score: 27.236
@@ -83,25 +83,30 @@ tickers:
   target: USD
 - base: QASH
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: QASH
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: QASH
   market:
-    identifier: idex
-    name: Idex
+    identifier: latoken
+    name: LATOKEN
   target: ETH
-- base: KMD
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: AUD
+- base: ETN
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: DENT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ONT
+- base: CHI
   market:
     identifier: quoine
     name: Liquid
@@ -116,12 +121,12 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: WIN
+- base: KMD
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: AMLT
+- base: WIN
   market:
     identifier: quoine
     name: Liquid

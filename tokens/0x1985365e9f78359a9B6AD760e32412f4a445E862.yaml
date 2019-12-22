@@ -1,8 +1,8 @@
 ---
 address: '0x1985365e9f78359a9B6AD760e32412f4a445E862'
-coingecko_rank: 63
-coingecko_score: 52.359
-community_score: 38.699
+coingecko_rank: 59
+coingecko_score: 52.605
+community_score: 39.948
 description: >-
   Augur is a trustless, decentralized platform for prediction markets. Augur is an <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
   decentralized prediction market that leverages the wisdom of the crowds to create a search engine for
@@ -56,7 +56,7 @@ links:
     - https://github.com/AugurProject/augur.js
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
-liquidity_score: 46.277
+liquidity_score: 45.853
 market_cap_rank: 42
 name: Augur
 public_interest_score: 33.371
@@ -84,13 +84,13 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: btcexa
-    name: BTCEXA
-  target: BTC
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
 - base: REP
   market:
-    identifier: btcexa
-    name: BTCEXA
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: REP
   market:
@@ -139,6 +139,11 @@ tickers:
   target: USD
 - base: REP
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: REP
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -149,9 +154,14 @@ tickers:
   target: DAI
 - base: REP
   market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: ETH
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
+- base: REP
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: REP
   market:
     identifier: switcheo
@@ -167,3 +177,8 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: REP
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH

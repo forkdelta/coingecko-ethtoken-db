@@ -1,7 +1,7 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 590
-coingecko_score: 27.397
+coingecko_rank: 593
+coingecko_score: 27.352
 community_score: 7.798
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
@@ -30,12 +30,17 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 30.999
-market_cap_rank: 171
+liquidity_score: 30.805
+market_cap_rank: 169
 name: STASIS EURO
 public_interest_score: 26.881
 symbol: eurs
 tickers:
+- base: EURS
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: EUS
   market:
     identifier: bitfinex
@@ -76,12 +81,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: DASH
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: LTC
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -116,6 +121,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: BTC
+  market:
+    identifier: okcoin
+    name: OKCoin
+  target: EURS
 - base: TRX
   market:
     identifier: tokens_net
