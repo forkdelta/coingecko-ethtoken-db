@@ -1,8 +1,8 @@
 ---
 address: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200'
-coingecko_rank: 35
-coingecko_score: 56.586
-community_score: 44.615
+coingecko_rank: 34
+coingecko_score: 56.729
+community_score: 44.406
 description: >-
   Kyber’s on-chain liquidity protocol allows decentralized token swaps to be integrated into any application,
   enabling value exchange to be performed seamlessly between all parties in the ecosystem. Tapping on
@@ -60,8 +60,8 @@ links:
   subreddit_url: https://www.reddit.com/r/kybernetwork/
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
-liquidity_score: 48.632
-market_cap_rank: 94
+liquidity_score: 49.688
+market_cap_rank: 97
 name: Kyber Network
 public_interest_score: 29.618
 symbol: knc
@@ -78,13 +78,18 @@ tickers:
   target: ETH
 - base: KNC
   market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: KNC
+  market:
     identifier: coinone
     name: Coinone
   target: KRW
 - base: KNC
   market:
-    identifier: coss
-    name: COSS
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: KNC
   market:
@@ -118,11 +123,6 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: KNC
-  market:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
@@ -146,13 +146,3 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
-- base: KNC
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
-- base: KNC
-  market:
-    identifier: zb
-    name: ZB
-  target: USDT

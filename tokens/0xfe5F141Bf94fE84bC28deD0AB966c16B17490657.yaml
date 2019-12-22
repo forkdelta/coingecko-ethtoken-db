@@ -1,8 +1,8 @@
 ---
 address: '0xfe5F141Bf94fE84bC28deD0AB966c16B17490657'
-coingecko_rank: 179
-coingecko_score: 40.094
-community_score: 35.365
+coingecko_rank: 173
+coingecko_score: 40.336
+community_score: 35.368
 description: >-
   Libra Credit is a decentralized lending ecosystem that facilitates open access to credit anywhere and
   anytime based on the Ethereum blockchain. Libra Credit is a global initiative with a mission to provide
@@ -34,7 +34,7 @@ description: >-
   well thought out. However, not so much with the crypto-to-fiat part. According to the roadmap, crypto-to-fiat
   lending is scheduled to launch in 2018 Q3. With details lacking in the weekly blog update about crypto-to-fiat
   lending, it is difficult to gauge whether the proposed timeline is reasonable.
-developer_score: 36.117
+developer_score: 36.118
 id: libra-credit
 image:
   large: https://assets.coingecko.com/coins/images/3673/large/libra-credit.png?1547975828
@@ -58,8 +58,8 @@ links:
   subreddit_url: https://www.reddit.com/r/Libra_Credit/
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
-liquidity_score: 32.481
-market_cap_rank: 193
+liquidity_score: 33.53
+market_cap_rank: 188
 name: Cred
 public_interest_score: 30.143
 symbol: lba
@@ -86,14 +86,24 @@ tickers:
   target: BNB
 - base: LBA
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: bitmax
+    name: BitMax
   target: ETH
+- base: LBA
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: USDT
+- base: LBA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: LBA
   market:
     identifier: gate
     name: Gate.io
-  target: USDT
+  target: ETH
 - base: LBA
   market:
     identifier: idex
@@ -106,13 +116,8 @@ tickers:
   target: USDT
 - base: LBA
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: LBA
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
+    identifier: vcc
+    name: VCC Exchange
   target: BTC
 - base: LBA
   market:
@@ -124,11 +129,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: LBA
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: LBA
   market:
     identifier: yobit

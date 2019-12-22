@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 432
-coingecko_score: 31.054
-community_score: 4.972
+coingecko_rank: 434
+coingecko_score: 31.04
+community_score: 4.983
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -73,8 +73,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 44.678
-market_cap_rank: 354
+liquidity_score: 44.614
+market_cap_rank: 358
 name: Gemini Dollar
 public_interest_score: 39.601
 symbol: gusd
@@ -99,11 +99,6 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: GUSD
-  market:
-    identifier: floatsv
-    name: Float SV
-  target: USDT
 - base: ETH
   market:
     identifier: hitbtc
@@ -116,11 +111,6 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: GUSD
-  market:
     identifier: okex
     name: OKEx
   target: BTC
@@ -129,11 +119,6 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
-- base: GUSD
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
 - base: BTC
   market:
     identifier: quoine
@@ -163,4 +148,19 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
+  target: BTC
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: ETH
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT

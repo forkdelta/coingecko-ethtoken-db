@@ -1,7 +1,7 @@
 ---
 address: '0x48f775EFBE4F5EcE6e0DF2f7b5932dF56823B990'
-coingecko_rank: 405
-coingecko_score: 31.86
+coingecko_rank: 403
+coingecko_score: 31.884
 community_score: 24.663
 description: >-
   Revain is one of the new alternative currencies to be introduced in the already hyper crypto market.
@@ -42,8 +42,8 @@ links:
     - https://github.com/Revain/Token
   subreddit_url: https://www.reddit.com/r/revain
   twitter_screen_name: Revain_org
-liquidity_score: 26.189
-market_cap_rank: 130
+liquidity_score: 26.275
+market_cap_rank: 128
 name: Revain
 public_interest_score: 25.524
 symbol: r
@@ -55,9 +55,34 @@ tickers:
   target: USDT
 - base: R
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
+- base: R
+  market:
+    identifier: dragonex
+    name: DragonEx
+  target: USDT
+- base: R
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: R
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: R
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: R
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
 - base: R
   market:
     identifier: okex_korea
@@ -80,24 +105,14 @@ tickers:
   target: USD
 - base: R
   market:
+    identifier: probit
+    name: Probit
+  target: KRW
+- base: R
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: R
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: R
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: R
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: R
   market:
     identifier: yobit
