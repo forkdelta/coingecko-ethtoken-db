@@ -1,7 +1,7 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 593
-coingecko_score: 27.352
+coingecko_rank: 597
+coingecko_score: 27.493
 community_score: 7.798
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
@@ -10,7 +10,7 @@ description: >-
 
   Download STASIS Stablecoin wallet: Android: https://play.google.com/store/apps/details?id=com.stasis.stasiswallet
   iOS: https://itunes.apple.com/app/stasis-wallet/id1371949230
-developer_score: 14.871
+developer_score: 15.496
 id: stasis-eurs
 image:
   large: https://assets.coingecko.com/coins/images/5164/large/EURS_300x300.png?1550571779
@@ -30,17 +30,12 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 30.805
-market_cap_rank: 169
+liquidity_score: 30.704
+market_cap_rank: 171
 name: STASIS EURO
 public_interest_score: 26.881
 symbol: eurs
 tickers:
-- base: EURS
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: EUS
   market:
     identifier: bitfinex
@@ -86,12 +81,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: EOS
+- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -102,11 +102,6 @@ tickers:
     name: HitBTC
   target: EURS
 - base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -126,12 +121,12 @@ tickers:
     identifier: okcoin
     name: OKCoin
   target: EURS
-- base: TRX
+- base: LTC
   market:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: XLM
+- base: DTR
   market:
     identifier: tokens_net
     name: TokensNet
@@ -141,12 +136,17 @@ tickers:
     identifier: tokens_net
     name: TokensNet
   target: EURS
+- base: XLM
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
 - base: XAUR
   market:
     identifier: tokens_net
     name: TokensNet
   target: EURS
-- base: LTC
+- base: TRX
   market:
     identifier: tokens_net
     name: TokensNet

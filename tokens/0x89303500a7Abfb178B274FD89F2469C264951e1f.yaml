@@ -1,14 +1,14 @@
 ---
 address: '0x89303500a7Abfb178B274FD89F2469C264951e1f'
-coingecko_rank: 1152
-coingecko_score: 20.343
-community_score: 21.735
+coingecko_rank: 1165
+coingecko_score: 20.367
+community_score: 21.734
 description: >-
   RefToken is a performance marketing (aka affiliate marketing) tracking platform that independently tracks,
   attributes, and pays affiliates for promoting online businesses in a transparent and decentralised manner.
   RefToken will primarily target merchants and affiliates in the casino, poker, prediction market, ICO,
   trading and other high user value verticals. The platform is being built in a product agnostic manner.
-developer_score: 12.679
+developer_score: 12.783
 id: reftoken
 image:
   large: https://assets.coingecko.com/coins/images/2575/large/reftoken.png?1548608011
@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: RefToken
   twitter_screen_name: RefToken
 liquidity_score: 0.0
-market_cap_rank: 1169
+market_cap_rank: 1260
 name: RefToken
 public_interest_score: 26.8
 symbol: ref
-tickers: []
+tickers:
+- base: REF
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: REF
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH

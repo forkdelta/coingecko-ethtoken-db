@@ -1,7 +1,7 @@
 ---
 address: '0x4290563C2D7c255B5EEC87f2D3bD10389f991d68'
-coingecko_rank: 816
-coingecko_score: 23.971
+coingecko_rank: 843
+coingecko_score: 23.743
 community_score: 0.0
 description: >-
   UIP (short for UnlimitedIP ) is a recreational copyright intelligent trading platform created by Link
@@ -28,8 +28,8 @@ links:
     - https://github.com/linkentertainments/UnlimitedIP-Token
   telegram_channel_identifier: UIPworld
   twitter_screen_name: IPStock_ips
-liquidity_score: 28.637
-market_cap_rank: 221
+liquidity_score: 28.158
+market_cap_rank: 227
 name: UnlimitedIP
 public_interest_score: 25.661
 symbol: uip
@@ -43,12 +43,17 @@ tickers:
   market:
     identifier: bigone
     name: BigONE
+  target: BTC
+- base: UIP
+  market:
+    identifier: bigone
+    name: BigONE
   target: ETH
 - base: UIP
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: KRW
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: BTC
 - base: UIP
   market:
     identifier: otcbtc

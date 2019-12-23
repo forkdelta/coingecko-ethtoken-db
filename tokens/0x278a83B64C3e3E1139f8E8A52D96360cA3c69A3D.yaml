@@ -1,8 +1,8 @@
 ---
 address: '0x278a83B64C3e3E1139f8E8A52D96360cA3c69A3D'
-coingecko_rank: 3777
-coingecko_score: 6.38
-community_score: 5.119
+coingecko_rank: 3770
+coingecko_score: 6.405
+community_score: 5.124
 description: >-
   NEXXO is building the NEXT generation, blockchain-powered, banking platform for under-banked micro and
   small businesses. There are more than 260 million micro and small businesses world-wide that are under-banked
@@ -27,9 +27,19 @@ links:
   - https://nexxo.io/
   telegram_channel_identifier: nexxoio
   twitter_screen_name: nexxoio
-liquidity_score: 13.328
-market_cap_rank: 6128
+liquidity_score: 13.449
+market_cap_rank: 4291
 name: Nexxo
 public_interest_score: 24.347
 symbol: nexxo
-tickers: []
+tickers:
+- base: NEXXO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: NEXXO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
