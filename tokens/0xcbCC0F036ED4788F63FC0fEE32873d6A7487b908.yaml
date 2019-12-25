@@ -29,16 +29,26 @@ links:
   subreddit_url: https://www.reddit.com/r/Humaniq
   twitter_screen_name: Humaniq_co
 liquidity_score: 14.46
-market_cap_rank: 615
+market_cap_rank: 595
 name: Humaniq
 public_interest_score: 25.112
 symbol: hmq
 tickers:
 - base: HMQ
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: bittrex
+    name: Bittrex
   target: BTC
+- base: HMQ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: HMQ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: HMQ
   market:
     identifier: upbit_indonesia
@@ -54,8 +64,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: HMQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

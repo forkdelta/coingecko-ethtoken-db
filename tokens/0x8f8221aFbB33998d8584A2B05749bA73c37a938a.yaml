@@ -56,6 +56,11 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: ETH
+- base: REQ
+  market:
+    identifier: bitfinex
+    name: Bitfinex
   target: USD
 - base: REQ
   market:
@@ -79,19 +84,29 @@ tickers:
   target: KRW
 - base: REQ
   market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: REQ
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: REQ
+  market:
     identifier: uniswap
     name: Uniswap
   target: ETH
 - base: REQ
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: REQ
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: BTC
 - base: REQ
   market:
     identifier: yobit

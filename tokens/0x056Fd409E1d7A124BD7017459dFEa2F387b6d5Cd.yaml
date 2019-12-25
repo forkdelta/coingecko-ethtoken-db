@@ -65,6 +65,7 @@ links:
   announcement_url:
   - https://gemini.com/blog/
   blockchain_site:
+  - https://blockchair.com/ethereum/erc-20/token/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd
   - https://etherscan.io/token/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd
   - https://ethplorer.io/address/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd
   homepage:
@@ -74,7 +75,7 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 44.538
-market_cap_rank: 363
+market_cap_rank: 351
 name: Gemini Dollar
 public_interest_score: 39.601
 symbol: gusd
@@ -88,17 +89,17 @@ tickers:
   market:
     identifier: cex
     name: CEX.IO
-  target: EUR
-- base: GUSD
-  market:
-    identifier: cex
-    name: CEX.IO
   target: USD
 - base: GUSD
   market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: BTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
 - base: ETH
   market:
     identifier: hitbtc
@@ -111,14 +112,9 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
-    identifier: okex
-    name: OKEx
-  target: BTC
-- base: GUSD
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: BTC
   market:
     identifier: quoine
@@ -148,9 +144,19 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
+  target: BTC
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: DOGE
 - base: GUSD
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
+- base: GUSD
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT

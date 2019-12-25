@@ -55,13 +55,33 @@ symbol: pay
 tickers:
 - base: PAY
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
 - base: PAY
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: PAY
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: PAY
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: PAY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: PAY
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: PAY
   market:
@@ -73,6 +93,16 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: PAY
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: BTC
+- base: PAY
+  market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
 - base: PAY
   market:
     identifier: probit

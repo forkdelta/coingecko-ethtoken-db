@@ -68,7 +68,7 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 50.369
-market_cap_rank: 117
+market_cap_rank: 118
 name: aelf
 public_interest_score: 26.096
 symbol: elf
@@ -105,9 +105,14 @@ tickers:
   target: BTC
 - base: ELF
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: fatbtc
+    name: FatBTC
   target: ETH
+- base: ELF
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ELF
   market:
     identifier: hitbtc
@@ -120,21 +125,6 @@ tickers:
   target: USD
 - base: ELF
   market:
-    identifier: hpx
-    name: HPX
-  target: CNYT
-- base: ELF
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: ELF
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: ELF
-  market:
     identifier: upbit
     name: Upbit
   target: BTC
@@ -142,4 +132,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: ELF
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

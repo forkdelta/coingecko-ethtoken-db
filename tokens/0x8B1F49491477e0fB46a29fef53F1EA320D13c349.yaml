@@ -36,7 +36,7 @@ links:
   telegram_channel_identifier: micromoneyico
   twitter_screen_name: MicromoneyIO
 liquidity_score: 1.533
-market_cap_rank: 1298
+market_cap_rank: 1283
 name: MicroMoney
 public_interest_score: 24.42
 symbol: amm
@@ -45,6 +45,26 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: AMM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: AMM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: AMM
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: AMM
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: USD
 - base: AMM
   market:
@@ -61,6 +81,16 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: AMM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: AMM
   market:
     identifier: yobit

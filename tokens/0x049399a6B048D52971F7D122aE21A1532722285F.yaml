@@ -37,6 +37,11 @@ symbol: flot
 tickers:
 - base: FLOT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: FLOT
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -45,11 +50,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: FLOT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: FLOT
   market:
     identifier: yobit

@@ -68,11 +68,21 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 55.247
-market_cap_rank: 60
+market_cap_rank: 61
 name: MCO
 public_interest_score: 31.007
 symbol: mco
 tickers:
+- base: MCO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: MCO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: MCO
   market:
     identifier: crex24
@@ -93,6 +103,11 @@ tickers:
     identifier: gate
     name: Gate.io
   target: USDT
+- base: MCO
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: MCO
   market:
     identifier: hitbtc
@@ -153,8 +168,3 @@ tickers:
     identifier: vcc
     name: VCC Exchange
   target: ETH
-- base: MCO
-  market:
-    identifier: zb
-    name: ZB
-  target: QC

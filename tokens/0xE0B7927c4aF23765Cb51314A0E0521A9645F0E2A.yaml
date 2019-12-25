@@ -76,6 +76,16 @@ symbol: dgd
 tickers:
 - base: DGD
   market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: BTC
+- base: DGD
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
+- base: DGD
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -84,11 +94,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: USDT
-- base: DGD
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: DGD
   market:
     identifier: livecoin
@@ -98,9 +103,29 @@ tickers:
   market:
     identifier: okex
     name: OKEx
-  target: USDT
+  target: BTC
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: DGD
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
 - base: DGD
   market:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
+- base: DGD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

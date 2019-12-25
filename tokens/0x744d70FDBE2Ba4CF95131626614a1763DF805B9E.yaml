@@ -51,7 +51,7 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 53.877
-market_cap_rank: 94
+market_cap_rank: 92
 name: Status
 public_interest_score: 42.454
 symbol: SNT
@@ -83,6 +83,21 @@ tickers:
   target: USD
 - base: SNT
   market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: SNT
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: SNT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: SNT
+  market:
     identifier: chaoex
     name: CHAOEX
   target: ETH
@@ -91,11 +106,6 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: SNT
-  market:
-    identifier: cybex
-    name: Cybex DEX
-  target: CYB
 - base: SNT
   market:
     identifier: forkdelta
@@ -113,6 +123,11 @@ tickers:
   target: ETH
 - base: SNT
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: SNT
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -120,11 +135,16 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: SNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: USD
 - base: SNT
   market:
-    identifier: iqfinex
-    name: IQFinex
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: SNT
   market:
@@ -146,6 +166,11 @@ tickers:
     identifier: uniswap
     name: Uniswap
   target: ETH
+- base: SNT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: SNT
   market:
     identifier: wazirx
