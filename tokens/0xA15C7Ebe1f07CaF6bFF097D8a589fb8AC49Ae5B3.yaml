@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 41.331
-market_cap_rank: 101
+market_cap_rank: 99
 name: Pundi X
 public_interest_score: 27.823
 symbol: npxs
@@ -76,13 +76,13 @@ tickers:
   target: USD
 - base: NPXS
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: BTC
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
 - base: NPXS
   market:
-    identifier: bit_z
-    name: Bit-Z
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: NPXS
   market:
@@ -121,6 +121,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: NPXS
+  market:
     identifier: graviex
     name: Graviex
   target: BTC
@@ -129,6 +134,11 @@ tickers:
     identifier: graviex
     name: Graviex
   target: ETH
+- base: NPXS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: NPXS
   market:
     identifier: idex
@@ -151,9 +161,34 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: localtrade
+    name: LocalTrade
+  target: ETH
+- base: NPXS
+  market:
+    identifier: lukki
+    name: Lukki
+  target: ETH
+- base: NPXS
+  market:
+    identifier: probit
+    name: Probit
+  target: USDT
+- base: NPXS
+  market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH
 - base: NPXS
   market:
     identifier: vcc
@@ -164,8 +199,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: NPXS
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

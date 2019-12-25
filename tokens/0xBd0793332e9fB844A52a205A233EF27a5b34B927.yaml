@@ -30,7 +30,7 @@ links:
   - https://www.zb.com/i/blog?item=396&type=proclamation
   - https://www.zb.com/i/rate
   blockchain_site:
-  - https://enjinx.io/eth/token/0xbd0793332e9fb844a52a205a233ef27a5b34b927
+  - https://blockchair.com/ethereum/erc-20/token/0xbd0793332e9fb844a52a205a233ef27a5b34b927
   - https://etherscan.io/token/0xbd0793332e9fb844a52a205a233ef27a5b34b927
   - https://ethplorer.io/address/0xbd0793332e9fb844a52a205a233ef27a5b34b927
   chat_url:
@@ -48,13 +48,13 @@ name: ZB Token
 public_interest_score: 34.3
 symbol: zb
 tickers:
-- base: ZB
+- base: ZBT
   market:
-    identifier: exx
-    name: EXX
-  target: USDT
-- base: VSYS
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: ZBT
   market:
-    identifier: zb
-    name: ZB
-  target: ZB
+    identifier: bitfinex
+    name: Bitfinex
+  target: UST

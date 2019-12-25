@@ -52,7 +52,7 @@ image:
 links:
   bitcointalk_thread_identifier: 2042871
   blockchain_site:
-  - https://enjinx.io/eth/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
+  - https://blockchair.com/ethereum/erc-20/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
   - https://etherscan.io/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
   - https://ethplorer.io/address/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
   homepage:
@@ -65,7 +65,7 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 48.106
-market_cap_rank: 57
+market_cap_rank: 54
 name: Enjin Coin
 public_interest_score: 35.351
 symbol: enj
@@ -82,6 +82,16 @@ tickers:
   target: USD
 - base: ENJ
   market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: ENJ
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: ENJ
+  market:
     identifier: atomars
     name: Atomars
   target: BTC
@@ -90,6 +100,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: ENJ
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: ENJ
   market:
     identifier: bitsonic
@@ -109,6 +124,11 @@ tickers:
   market:
     identifier: financex
     name: FinanceX
+  target: BTC
+- base: ENJ
+  market:
+    identifier: financex
+    name: FinanceX
   target: IDR
 - base: ENJ
   market:
@@ -117,18 +137,18 @@ tickers:
   target: VND
 - base: ENJ
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: ENJ
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
 - base: ENJ
   market:
-    identifier: hpx
-    name: HPX
-  target: CNYT
-- base: ENJ
-  market:
-    identifier: idex
-    name: Idex
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: ENJ
   market:
@@ -137,6 +157,11 @@ tickers:
   target: BTC
 - base: ENJ
   market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: ENJ
+  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -145,3 +170,8 @@ tickers:
     identifier: tokenize
     name: Tokenize
   target: ETH
+- base: ENJ
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

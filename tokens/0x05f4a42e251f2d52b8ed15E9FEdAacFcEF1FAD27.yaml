@@ -58,6 +58,11 @@ symbol: zil
 tickers:
 - base: ZIL
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: ZIL
+  market:
     identifier: bitkub
     name: Bitkub
   target: THB
@@ -65,11 +70,6 @@ tickers:
   market:
     identifier: dextrade
     name: Dex-Trade
-  target: BTC
-- base: ZIL
-  market:
-    identifier: financex
-    name: FinanceX
   target: BTC
 - base: ZIL
   market:
@@ -83,9 +83,9 @@ tickers:
   target: BTC
 - base: ZIL
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
 - base: ZIL
   market:
     identifier: tokenize

@@ -1,6 +1,6 @@
 ---
 address: '0xc8e69913c0ea5d45bF67E52412eb8Bcab5b9875E'
-coingecko_rank: 6383
+coingecko_rank: 6343
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/BNBDOOM
 liquidity_score: 1.0
-market_cap_rank: 2930
+market_cap_rank: 3904
 name: 10X Short BNB Token
 public_interest_score: 0.0
 symbol: bnbdoom
-tickers: []
+tickers:
+- base: BNBDOOM
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

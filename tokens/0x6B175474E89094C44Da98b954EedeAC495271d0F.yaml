@@ -14,6 +14,7 @@ image:
   thumb: https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774
 links:
   blockchain_site:
+  - https://blockchair.com/ethereum/erc-20/token/0x6b175474e89094c44da98b954eedeac495271d0f
   - https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f
   - https://ethplorer.io/address/0x6b175474e89094c44da98b954eedeac495271d0f
   homepage:
@@ -21,31 +22,16 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 40.937
-market_cap_rank: 81
+market_cap_rank: 78
 name: Dai
 public_interest_score: 0.014
 symbol: dai
 tickers:
 - base: DAI
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: DAI
-  market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
-- base: MKR
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: DAI
-- base: ZRX
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: DAI
 - base: OMG
   market:
     identifier: bitfinex
@@ -58,14 +44,9 @@ tickers:
   target: ETH
 - base: DAI
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
-- base: XBT
-  market:
-    identifier: kraken
-    name: Kraken
-  target: DAI
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: ZRX
   market:
     identifier: oasis_trade
@@ -76,25 +57,15 @@ tickers:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
-- base: USDC
+- base: REP
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: oasis_trade
+    name: OasisDEX
   target: DAI
 - base: MANA
   market:
     identifier: radar_relay
     name: Radar Relay
-  target: DAI
-- base: WBTC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: DAI
 - base: NEO
   market:
@@ -111,12 +82,17 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: USDT
+- base: WBTC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
 - base: USDC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: USDT
   market:
     identifier: switcheo
     name: Switcheo

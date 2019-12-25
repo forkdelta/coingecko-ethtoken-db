@@ -46,11 +46,16 @@ links:
   telegram_channel_identifier: pentaglobal
   twitter_screen_name: Penta_GF
 liquidity_score: 17.87
-market_cap_rank: 568
+market_cap_rank: 598
 name: Penta Network Token
 public_interest_score: 25.907
 symbol: pnt
 tickers:
+- base: PNT
+  market:
+    identifier: bcex
+    name: BCEX
+  target: ETH
 - base: PNT
   market:
     identifier: bit_z
@@ -58,6 +63,11 @@ tickers:
   target: USDT
 - base: PNT
   market:
-    identifier: lbank
-    name: LBank
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH

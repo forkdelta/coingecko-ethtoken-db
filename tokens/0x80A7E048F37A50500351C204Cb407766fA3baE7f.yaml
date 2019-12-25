@@ -16,6 +16,7 @@ image:
 links:
   bitcointalk_thread_identifier: 2214098
   blockchain_site:
+  - https://blockchair.com/ethereum/erc-20/token/0x80a7e048f37a50500351c204cb407766fa3bae7f
   - https://etherscan.io/token/0x80a7e048f37a50500351c204cb407766fa3bae7f
   - https://ethplorer.io/address/0x80a7e048f37a50500351c204cb407766fa3bae7f
   - https://explorer.binance.org/asset/CRPT-8C9
@@ -25,7 +26,7 @@ links:
   telegram_channel_identifier: crypterium
   twitter_screen_name: crypterium
 liquidity_score: 20.748
-market_cap_rank: 101
+market_cap_rank: 104
 name: Crypterium
 public_interest_score: 25.779
 symbol: crpt
@@ -40,3 +41,13 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: CRPT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: CRPT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH

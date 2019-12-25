@@ -59,11 +59,16 @@ links:
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
 liquidity_score: 35.589
-market_cap_rank: 280
+market_cap_rank: 278
 name: Raiden Network Token
 public_interest_score: 27.892
 symbol: rdn
 tickers:
+- base: RDN
+  market:
+    identifier: binance
+    name: Binance
+  target: BNB
 - base: RDN
   market:
     identifier: bitfinex
@@ -84,6 +89,11 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: RDN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: RDN
   market:
     identifier: tokenize

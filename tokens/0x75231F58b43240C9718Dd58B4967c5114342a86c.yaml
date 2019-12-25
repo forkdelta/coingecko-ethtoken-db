@@ -36,6 +36,7 @@ links:
   announcement_url:
   - https://t.me/okex_announcements
   blockchain_site:
+  - https://blockchair.com/ethereum/erc-20/token/0x75231f58b43240c9718dd58b4967c5114342a86c
   - https://etherscan.io/token/0x75231f58b43240c9718dd58b4967c5114342a86c
   - https://ethplorer.io/address/0x75231f58b43240c9718dd58b4967c5114342a86c
   facebook_username: okexofficial
@@ -61,10 +62,15 @@ tickers:
   target: KRW
 - base: OKB
   market:
-    identifier: exx
-    name: EXX
-  target: CNYT
+    identifier: lbank
+    name: LBank
+  target: USDT
 - base: IOTA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: EGT
   market:
     identifier: okex
     name: OKEx
@@ -75,11 +81,6 @@ tickers:
     name: OKEx
   target: OKB
 - base: SC
-  market:
-    identifier: okex
-    name: OKEx
-  target: OKB
-- base: EGT
   market:
     identifier: okex
     name: OKEx
