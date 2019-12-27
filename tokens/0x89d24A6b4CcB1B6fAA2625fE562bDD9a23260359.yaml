@@ -93,7 +93,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 42.634
-market_cap_rank: 79
+market_cap_rank: 80
 name: Sai
 public_interest_score: 33.465
 symbol: sai
@@ -103,6 +103,16 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
+- base: TUSD
+  market:
+    identifier: atomars
+    name: Atomars
+  target: DAI
+- base: DAI
+  market:
+    identifier: bisq
+    name: Bisq
+  target: BTC
 - base: DAI
   market:
     identifier: codex
@@ -118,12 +128,17 @@ tickers:
     identifier: coss
     name: COSS
   target: DAI
-- base: BTC
+- base: ETH
   market:
     identifier: coss
     name: COSS
   target: DAI
-- base: ETH
+- base: MKR
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
+- base: BTC
   market:
     identifier: coss
     name: COSS
@@ -153,17 +168,17 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: DAI
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: EURS
+- base: TUSD
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XRP
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
@@ -183,21 +198,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: DAI
   market:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: SAI
+- base: DAI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USDC
+- base: ETH
   market:
     identifier: oasis_trade
     name: OasisDEX
-  target: USDC
+  target: SAI
 - base: ETH
   market:
     identifier: okex
@@ -218,13 +233,33 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: ETH
-  market:
-    identifier: quoine
-    name: Liquid
-  target: DAI
 - base: BTC
   market:
     identifier: quoine
     name: Liquid
   target: DAI
+- base: ETH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: DAI
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: DAI
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: DAI
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

@@ -58,7 +58,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
 liquidity_score: 45.633
-market_cap_rank: 42
+market_cap_rank: 43
 name: Augur
 public_interest_score: 33.371
 symbol: rep
@@ -80,8 +80,13 @@ tickers:
   target: USD
 - base: REP
   market:
-    identifier: chaoex
-    name: CHAOEX
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: ETH
+- base: REP
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: REP
   market:
@@ -117,6 +122,11 @@ tickers:
   market:
     identifier: independent_reserve
     name: Independent Reserve
+  target: USD
+- base: REP
+  market:
+    identifier: kraken
+    name: Kraken
   target: USD
 - base: REP
   market:
@@ -157,4 +167,4 @@ tickers:
   market:
     identifier: vcc
     name: VCC Exchange
-  target: BTC
+  target: ETH

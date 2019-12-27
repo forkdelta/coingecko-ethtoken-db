@@ -57,11 +57,16 @@ links:
   telegram_channel_identifier: MainframeCommunity
   twitter_screen_name: Mainframe_HQ
 liquidity_score: 32.422
-market_cap_rank: 234
+market_cap_rank: 232
 name: Mainframe
 public_interest_score: 30.093
 symbol: mft
 tickers:
+- base: MFT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: MFT
   market:
     identifier: bitsdaq
@@ -72,11 +77,6 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: BTC
-- base: MFT
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
 - base: MFT
   market:
     identifier: upbit

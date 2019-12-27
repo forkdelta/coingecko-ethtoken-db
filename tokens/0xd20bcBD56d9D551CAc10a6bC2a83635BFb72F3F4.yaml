@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: fundchains
   twitter_screen_name: fundchains
 liquidity_score: 1.0
-market_cap_rank: 2336
+market_cap_rank: 3304
 name: FUNDChains
 public_interest_score: 24.031
 symbol: fund
 tickers:
+- base: FUND
+  market:
+    identifier: bione
+    name: Bione
+  target: USDT
 - base: FUND
   market:
     identifier: crex24
@@ -39,6 +44,11 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: ETH
+- base: FUND
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
   target: ETH
 - base: FUND
   market:
@@ -59,19 +69,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: FUND
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: FUND
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: FUND
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

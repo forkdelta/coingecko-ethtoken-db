@@ -52,12 +52,17 @@ links:
   telegram_channel_identifier: vndcvietnam
   twitter_screen_name: Vndcstable
 liquidity_score: 25.715
-market_cap_rank: 6317
+market_cap_rank: 6017
 name: VNDC
 public_interest_score: 24.1
 symbol: vndc
 tickers:
 - base: USDC
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: VNDC
+- base: DDK
   market:
     identifier: exmarkets
     name: ExMarkets
@@ -68,6 +73,11 @@ tickers:
     name: ExMarkets
   target: VNDC
 - base: ETH
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: VNDC
+- base: BTC
   market:
     identifier: exmarkets
     name: ExMarkets

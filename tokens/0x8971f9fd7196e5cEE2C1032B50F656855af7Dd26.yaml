@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: HelloLambda
   twitter_screen_name: Lambdaim
 liquidity_score: 54.342
-market_cap_rank: 87
+market_cap_rank: 88
 name: Lambda
 public_interest_score: 34.115
 symbol: lamb
@@ -61,19 +61,24 @@ tickers:
   target: ETH
 - base: LAMB
   market:
+    identifier: bitmax
+    name: BitMax
+  target: ETH
+- base: LAMB
+  market:
     identifier: coinone
     name: Coinone
   target: KRW
 - base: LAMB
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: LAMB
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: LAMB
-  market:
-    identifier: piexgo
-    name: Piexgo
-  target: USDT
 - base: LAMB
   market:
     identifier: trade_satoshi

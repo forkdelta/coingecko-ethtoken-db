@@ -1,6 +1,6 @@
 ---
 address: '0x681F1A3761384109E5Bc52F7d479eF27540A5641'
-coingecko_rank: 6286
+coingecko_rank: 6284
 coingecko_score: 0.202
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/TRXMOON
 liquidity_score: 1.0
-market_cap_rank: 3870
+market_cap_rank: 4866
 name: 10X Long TRX Token
 public_interest_score: 0.021
 symbol: trxmoon
-tickers: []
+tickers:
+- base: TRXMOON
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD
