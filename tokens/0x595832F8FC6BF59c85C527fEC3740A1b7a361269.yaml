@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
 liquidity_score: 31.899
-market_cap_rank: 153
+market_cap_rank: 154
 name: Power Ledger
 public_interest_score: 24.019
 symbol: powr
@@ -71,11 +71,16 @@ tickers:
     identifier: alterdice
     name: AlterDice
   target: BTC
+- base: POW
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
 - base: POWR
   market:
-    identifier: binance
-    name: Binance
-  target: BNB
+    identifier: btcmarkets
+    name: BTCMarkets
+  target: BTC
 - base: POWR
   market:
     identifier: dextrade
@@ -86,6 +91,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: POWR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
 - base: POWR
   market:
     identifier: gate
@@ -105,11 +115,6 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: POWR
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: POWR
   market:
@@ -133,16 +138,6 @@ tickers:
   target: USDT
 - base: POWR
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: BTC
-- base: POWR
-  market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
-- base: POWR
-  market:
     identifier: upbit
     name: Upbit
   target: BTC
@@ -150,4 +145,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: POWR
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

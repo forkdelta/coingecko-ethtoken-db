@@ -1,6 +1,6 @@
 ---
 address: '0x6ff313FB38d53d7A458860b1bf7512f54a03e968'
-coingecko_rank: 6052
+coingecko_rank: 6051
 coingecko_score: 2.489
 community_score: 0.0
 description: >-
@@ -22,8 +22,18 @@ links:
   telegram_channel_identifier: merocurrency
   twitter_screen_name: merocurrency
 liquidity_score: 1.0
-market_cap_rank: 5445
+market_cap_rank: 3177
 name: Mero Currency
 public_interest_score: 22.895
 symbol: mro
-tickers: []
+tickers:
+- base: MRO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: MRO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

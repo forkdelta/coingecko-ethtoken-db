@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: HOQUIO
   twitter_screen_name: HOQU_IO
 liquidity_score: 20.225
-market_cap_rank: 1010
+market_cap_rank: 992
 name: HOQU
 public_interest_score: 25.802
 symbol: hqx
 tickers:
+- base: HQX
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
 - base: HQX
   market:
     identifier: yobit
@@ -46,6 +51,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: HQX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: HQX
   market:
     identifier: yobit

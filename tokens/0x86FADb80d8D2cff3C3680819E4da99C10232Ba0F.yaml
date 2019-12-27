@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: eterbase
 liquidity_score: 22.606
-market_cap_rank: 3631
+market_cap_rank: 5690
 name: EURBASE
 public_interest_score: 23.977
 symbol: ebase
@@ -54,7 +54,12 @@ tickers:
     identifier: dcoin
     name: Dcoin
   target: USDT
-- base: ETH
+- base: SNX
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: BSV
   market:
     identifier: eterbase
     name: Eterbase
@@ -64,22 +69,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BETHER
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: BURST
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
 - base: MBN
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: RUNE-B1A
   market:
     identifier: eterbase
     name: Eterbase
@@ -99,22 +89,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BSV
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: BNB
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: SNX
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: XRP-BF2
+- base: RUNE-B1A
   market:
     identifier: eterbase
     name: Eterbase
@@ -129,22 +104,12 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BCH
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
 - base: EVX
   market:
     identifier: eterbase
     name: Eterbase
   target: EBASE
 - base: NEXO-A84
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: XRRT
   market:
     identifier: eterbase
     name: Eterbase
@@ -163,9 +128,4 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
-- base: EBASE
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH

@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: investvoyager
   twitter_screen_name: investvoyager
 liquidity_score: 23.443
-market_cap_rank: 432
+market_cap_rank: 441
 name: Voyager Token
 public_interest_score: 30.658
 symbol: vgx
@@ -44,7 +44,12 @@ tickers:
   market:
     identifier: bitmart
     name: BitMart
-  target: ETH
+  target: BTC
+- base: BQX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: BQX
   market:
     identifier: hitbtc
@@ -60,8 +65,3 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: ETHOS
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD

@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: showhandofficial
   twitter_screen_name: showhandio
 liquidity_score: 1.0
-market_cap_rank: 1293
+market_cap_rank: 1336
 name: ShowHand
 public_interest_score: 39.526
 symbol: hand
 tickers:
+- base: HAND
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: HAND
   market:
     identifier: hitbtc
@@ -39,11 +44,11 @@ tickers:
   target: ETH
 - base: HAND
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: HAND
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: hotbit
+    name: Hotbit
   target: ETH

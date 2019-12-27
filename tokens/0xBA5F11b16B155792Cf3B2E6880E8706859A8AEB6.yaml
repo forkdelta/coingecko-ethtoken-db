@@ -64,11 +64,6 @@ symbol: arn
 tickers:
 - base: ARN
   market:
-    identifier: chaoex
-    name: CHAOEX
-  target: BTC
-- base: ARN
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -79,11 +74,6 @@ tickers:
   target: WETH
 - base: ARN
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: ARN
-  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -91,9 +81,19 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: ARN
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: ARN
   market:
     identifier: tidex
     name: Tidex
   target: BTC
+- base: ARN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
