@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: cpchain
   twitter_screen_name: cpchain_io
 liquidity_score: 20.799
-market_cap_rank: 537
+market_cap_rank: 527
 name: CPChain
 public_interest_score: 36.919
 symbol: cpc
 tickers:
+- base: CPC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: CPC
   market:
     identifier: bibox
@@ -43,6 +48,11 @@ tickers:
   market:
     identifier: biki
     name: Biki
+  target: USDT
+- base: CPC
+  market:
+    identifier: cointiger
+    name: CoinTiger
   target: USDT
 - base: CPC
   market:

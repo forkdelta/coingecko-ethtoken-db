@@ -84,6 +84,11 @@ tickers:
   target: BTC
 - base: FUN
   market:
+    identifier: c2cx
+    name: C2CX
+  target: BTC
+- base: FUN
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -124,6 +129,11 @@ tickers:
   target: USD
 - base: FUN
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: FUN
+  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
@@ -137,8 +147,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: FUN
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
