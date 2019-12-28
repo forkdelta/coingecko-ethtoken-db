@@ -42,11 +42,16 @@ links:
   telegram_channel_identifier: drep_foundation
   twitter_screen_name: drep_foundation
 liquidity_score: 27.028
-market_cap_rank: 548
+market_cap_rank: 546
 name: Drep
 public_interest_score: 26.903
 symbol: drep
 tickers:
+- base: DREP
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: DREP-7D2
   market:
     identifier: binance_dex
@@ -57,8 +62,3 @@ tickers:
     identifier: bitmax
     name: BitMax
   target: BTC
-- base: DREP
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
