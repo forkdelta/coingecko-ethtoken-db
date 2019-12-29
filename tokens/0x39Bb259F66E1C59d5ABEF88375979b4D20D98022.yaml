@@ -56,16 +56,11 @@ links:
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
 liquidity_score: 27.836
-market_cap_rank: 149
+market_cap_rank: 153
 name: WAX
 public_interest_score: 34.131
 symbol: waxp
 tickers:
-- base: WAX
-  market:
-    identifier: altilly
-    name: Altilly
-  target: ETH
 - base: WAX
   market:
     identifier: bitfinex
@@ -90,11 +85,26 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: USD
-- base: WAX
+  target: BTC
+- base: WAXP
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: 6E25E8AB-5779-4543-855B-71F4857B47D5
+  market:
+    identifier: lykke
+    name: Lykke
+  target: BTC
+- base: 6E25E8AB-5779-4543-855B-71F4857B47D5
+  market:
+    identifier: lykke
+    name: Lykke
   target: ETH
 - base: WAXP
   market:

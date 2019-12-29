@@ -46,16 +46,26 @@ links:
   subreddit_url: https://www.reddit.com/r/ProjectHydro/
   twitter_screen_name: HydroBlockchain
 liquidity_score: 28.977
-market_cap_rank: 256
+market_cap_rank: 258
 name: Hydro
 public_interest_score: 25.915
 symbol: hydro
 tickers:
 - base: HYDRO
   market:
-    identifier: bitmart
-    name: BitMart
-  target: BMX
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: HYDRO
   market:
     identifier: idex
@@ -80,4 +90,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

@@ -27,11 +27,16 @@ links:
     - https://github.com/nioshares/tokens
   twitter_screen_name: NioShares
 liquidity_score: 1.0
-market_cap_rank: 1346
+market_cap_rank: 1342
 name: NioShares
 public_interest_score: 24.129
 symbol: nio
 tickers:
+- base: NIO
+  market:
+    identifier: altmarkets
+    name: Altmarkets
+  target: ETH
 - base: NIO
   market:
     identifier: nanu_exchange
@@ -42,8 +47,3 @@ tickers:
     identifier: nanu_exchange
     name: Nanu Exchange
   target: BTC
-- base: NIO
-  market:
-    identifier: nanu_exchange
-    name: Nanu Exchange
-  target: WAVES

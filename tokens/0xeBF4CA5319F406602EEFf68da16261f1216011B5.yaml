@@ -19,7 +19,7 @@ links:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
 liquidity_score: 33.909
-market_cap_rank: 3845
+market_cap_rank: 5493
 name: Yobit Token
 public_interest_score: 28.664
 symbol: yo
@@ -36,14 +36,19 @@ tickers:
   target: BTC
 - base: YO
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: YO
   market:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: YO
   market:
     identifier: yobit
@@ -54,22 +59,12 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ETC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: TRX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: LTC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ZEC
+- base: ETC
   market:
     identifier: yobit
     name: YoBit
@@ -79,7 +74,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHABC
+- base: TRX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: XEM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: SEDO
   market:
     identifier: yobit
     name: YoBit
@@ -99,6 +104,21 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
+- base: EOS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BCHABC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ZEC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
 - base: BCHSV
   market:
     identifier: yobit
@@ -109,3 +129,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
+- base: YO
+  market:
+    identifier: zg
+    name: ZG.com
+  target: USDT

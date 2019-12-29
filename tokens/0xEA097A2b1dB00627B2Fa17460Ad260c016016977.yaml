@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: upfiring
   twitter_screen_name: upfiringHQ
 liquidity_score: 1.0
-market_cap_rank: 5427
+market_cap_rank: 5148
 name: Upfiring
 public_interest_score: 24.394
 symbol: ufr
@@ -47,6 +47,16 @@ tickers:
   target: USD
 - base: UFR
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: UFR
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: UFR
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -54,4 +64,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
