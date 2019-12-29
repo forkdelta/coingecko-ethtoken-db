@@ -51,11 +51,16 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 53.877
-market_cap_rank: 94
+market_cap_rank: 95
 name: Status
 public_interest_score: 42.454
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: SNT
   market:
     identifier: bitfinex
@@ -63,19 +68,14 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: bitkub
-    name: Bitkub
-  target: THB
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: SNT
   market:
-    identifier: bitsdaq
-    name: Bitsdaq
-  target: BTC
-- base: SNT
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: SNT
   market:
     identifier: crex24
@@ -93,9 +93,14 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: SNT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: SNT
   market:
     identifier: hitbtc
@@ -103,13 +108,13 @@ tickers:
   target: USD
 - base: SNT
   market:
-    identifier: iqfinex
-    name: IQFinex
-  target: ETH
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
 - base: SNT
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: SNT
   market:
@@ -118,16 +123,11 @@ tickers:
   target: USDT
 - base: SNT
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: SNT
-  market:
-    identifier: wazirx
-    name: WazirX
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: SNT
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: BTC

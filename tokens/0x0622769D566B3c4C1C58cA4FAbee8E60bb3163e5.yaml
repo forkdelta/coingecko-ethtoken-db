@@ -20,15 +20,20 @@ links:
   telegram_channel_identifier: yusdt
   twitter_screen_name: tetheryellow
 liquidity_score: 1.0
-market_cap_rank: 4149
+market_cap_rank: 5998
 name: Yellow Tether
 public_interest_score: 0.0
 symbol: yusdt
 tickers:
 - base: YUSDT
   market:
-    identifier: coinlim
-    name: Coinlim
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: YUSDT
+  market:
+    identifier: saturn_network
+    name: Saturn Network
   target: ETH
 - base: YUSDT
   market:

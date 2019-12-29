@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: QUOINE
   twitter_screen_name: quoine_SG
 liquidity_score: 26.529
-market_cap_rank: 151
+market_cap_rank: 148
 name: QASH
 public_interest_score: 27.236
 symbol: qash
@@ -71,11 +71,31 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
+- base: QSH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: QSH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: QASH
   market:
     identifier: gate
     name: Gate.io
   target: BTC
+- base: QASH
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: QASH
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: QASH
   market:
     identifier: gopax
@@ -88,19 +108,9 @@ tickers:
   target: ETH
 - base: QASH
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
-- base: QASH
-  market:
     identifier: quoine
     name: Liquid
   target: AUD
-- base: CRPT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: ETN
   market:
     identifier: quoine
@@ -111,7 +121,22 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: CHI
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: LIKE
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: ONG
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: MRK
   market:
     identifier: quoine
     name: Liquid
@@ -126,27 +151,12 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: MGO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: DACS
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: CHI
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: KMD
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: MRK
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: ONG
   market:
     identifier: quoine
     name: Liquid

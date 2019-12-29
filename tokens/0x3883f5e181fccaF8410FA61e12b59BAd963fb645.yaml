@@ -71,6 +71,11 @@ tickers:
   target: KRW
 - base: THETA
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: THETA
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -79,8 +84,3 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
-- base: THETA
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT

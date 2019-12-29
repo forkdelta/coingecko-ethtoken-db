@@ -80,14 +80,14 @@ tickers:
   target: USD
 - base: STORJ
   market:
-    identifier: financex
-    name: FinanceX
+    identifier: bittrex
+    name: Bittrex
   target: BTC
 - base: STORJ
   market:
     identifier: financex
     name: FinanceX
-  target: VND
+  target: BTC
 - base: STORJ
   market:
     identifier: forkdelta
@@ -102,7 +102,7 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
+  target: USDT
 - base: STORJ
   market:
     identifier: hitbtc
@@ -115,14 +115,24 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
   market:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: STORJ
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
 - base: STORJ
   market:
     identifier: upbit
@@ -163,8 +173,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: STORJ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -57,11 +57,6 @@ tickers:
   target: ETH
 - base: OKB
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: KRW
-- base: OKB
-  market:
     identifier: lbank
     name: LBank
   target: USDT
@@ -70,7 +65,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: AE
+- base: EGT
   market:
     identifier: okex
     name: OKEx
@@ -80,3 +75,13 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
+- base: AE
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: OKB
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK

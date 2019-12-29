@@ -24,7 +24,7 @@ links:
     - https://github.com/ethereumfan/iethereum
   twitter_screen_name: iethereum
 liquidity_score: 1.0
-market_cap_rank: 1956
+market_cap_rank: 3850
 name: iEthereum
 public_interest_score: 37.942
 symbol: ieth
@@ -41,9 +41,14 @@ tickers:
   target: ETH
 - base: IETH
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: yobit
+    name: YoBit
   target: BTC
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: IETH
   market:
     identifier: yobit
@@ -54,8 +59,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: IETH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD

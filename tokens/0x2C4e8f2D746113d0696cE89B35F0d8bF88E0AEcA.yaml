@@ -57,11 +57,16 @@ links:
   telegram_channel_identifier: ostdotcom
   twitter_screen_name: OSTdotcom
 liquidity_score: 32.949
-market_cap_rank: 246
+market_cap_rank: 255
 name: OST
 public_interest_score: 44.024
 symbol: ost
 tickers:
+- base: OST
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: OST
   market:
     identifier: gate
@@ -72,3 +77,8 @@ tickers:
     identifier: gate
     name: Gate.io
   target: USDT
+- base: OST
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

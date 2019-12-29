@@ -68,7 +68,7 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 55.247
-market_cap_rank: 59
+market_cap_rank: 57
 name: MCO
 public_interest_score: 31.007
 symbol: mco
@@ -78,11 +78,6 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: BTC
-- base: MCO
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
 - base: MCO
   market:
     identifier: crex24
@@ -125,9 +120,29 @@ tickers:
   target: USD
 - base: MCO
   market:
+    identifier: huobi
+    name: Huobi Global
+  target: BTC
+- base: MCO
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: MCO
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: MCO
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: MCO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
 - base: MCO
   market:
     identifier: uniswap
@@ -135,24 +150,24 @@ tickers:
   target: ETH
 - base: MCO
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: unnamed
+    name: Unnamed
   target: BTC
 - base: MCO
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
+    identifier: unnamed
+    name: Unnamed
+  target: DOGE
+- base: MCO
+  market:
+    identifier: unnamed
+    name: Unnamed
+  target: UTIP
 - base: MCO
   market:
     identifier: vcc
     name: VCC Exchange
   target: BTC
-- base: MCO
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: ETH
 - base: MCO
   market:
     identifier: zb
@@ -163,3 +178,8 @@ tickers:
     identifier: zb
     name: ZB
   target: USDT
+- base: MCO
+  market:
+    identifier: zg
+    name: ZG.com
+  target: BTC
