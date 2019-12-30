@@ -65,11 +65,16 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 48.106
-market_cap_rank: 56
+market_cap_rank: 53
 name: Enjin Coin
 public_interest_score: 35.351
 symbol: enj
 tickers:
+- base: ENJ
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: ENJ
   market:
     identifier: altilly
@@ -97,11 +102,6 @@ tickers:
   target: BSC
 - base: ENJ
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: ENJ
-  market:
     identifier: coinfinit
     name: Coinfinit
   target: KRW
@@ -117,6 +117,11 @@ tickers:
   target: BTC
 - base: ENJ
   market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
+- base: ENJ
+  market:
     identifier: financex
     name: FinanceX
   target: BTC
@@ -127,14 +132,9 @@ tickers:
   target: IDR
 - base: ENJ
   market:
-    identifier: financex
-    name: FinanceX
-  target: VND
-- base: ENJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ENJ
   market:
     identifier: hitbtc
@@ -165,13 +165,3 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: ENJ
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: ENJ
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

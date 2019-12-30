@@ -36,11 +36,6 @@ symbol: mtl
 tickers:
 - base: MTL
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: MTL
-  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -69,6 +64,11 @@ tickers:
     identifier: lykke
     name: Lykke
   target: BTC
+- base: MTL
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
 - base: MTL
   market:
     identifier: upbit

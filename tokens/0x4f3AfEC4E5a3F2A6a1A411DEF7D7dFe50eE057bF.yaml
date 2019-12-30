@@ -35,16 +35,21 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 16.294
-market_cap_rank: 302
+market_cap_rank: 297
 name: Digix Gold
 public_interest_score: 25.974
 symbol: dgx
 tickers:
 - base: DGX
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: DGX
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: DGX
   market:
     identifier: probit
@@ -55,8 +60,3 @@ tickers:
     identifier: probit
     name: Probit
   target: USDT
-- base: DGX
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

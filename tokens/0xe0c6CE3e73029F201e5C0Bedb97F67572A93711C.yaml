@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: ethplode
   twitter_screen_name: ETHplode
 liquidity_score: 1.0
-market_cap_rank: 1398
+market_cap_rank: 1342
 name: ETHplode
 public_interest_score: 24.258
 symbol: ethplo
@@ -38,6 +38,11 @@ tickers:
     identifier: altilly
     name: Altilly
   target: ETH
+- base: ETHPLO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ETHPLO
   market:
     identifier: exnce
@@ -50,14 +55,19 @@ tickers:
   target: XNC
 - base: ETHPLO
   market:
-    identifier: satoexchange
-    name: SatoExchange
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: ETHPLO
+  market:
+    identifier: mercatox
+    name: Mercatox
   target: ETH
 - base: ETHPLO
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: BTC
+    identifier: satoexchange
+    name: SatoExchange
+  target: ETH
 - base: ETHPLO
   market:
     identifier: uniswap

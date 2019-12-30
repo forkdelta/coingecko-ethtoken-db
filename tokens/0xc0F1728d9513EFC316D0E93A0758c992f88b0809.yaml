@@ -32,21 +32,11 @@ links:
   telegram_channel_identifier: swtcoincommunity
   twitter_screen_name: SWTCoin
 liquidity_score: 1.0
-market_cap_rank: 6004
+market_cap_rank: 6009
 name: SWTCoin
 public_interest_score: 26.6
 symbol: swat
 tickers:
-- base: SWAT
-  market:
-    identifier: altmarkets
-    name: Altmarkets
-  target: BTC
-- base: SWAT
-  market:
-    identifier: altmarkets
-    name: Altmarkets
-  target: DOGE
 - base: SWAT
   market:
     identifier: altmarkets
@@ -57,6 +47,11 @@ tickers:
     identifier: coinlim
     name: Coinlim
   target: ETH
+- base: SWAT
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: FAT
 - base: SWAT
   market:
     identifier: p2pb2b
@@ -72,8 +67,3 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: SWAT
-  market:
-    identifier: satoexchange
-    name: SatoExchange
-  target: ETH

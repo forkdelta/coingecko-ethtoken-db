@@ -59,7 +59,7 @@ links:
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
 liquidity_score: 33.241
-market_cap_rank: 171
+market_cap_rank: 173
 name: Cred
 public_interest_score: 30.143
 symbol: lba
@@ -71,6 +71,11 @@ tickers:
   target: BTC
 - base: LBA
   market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: LBA
+  market:
     identifier: biki
     name: Biki
   target: USDT
@@ -79,11 +84,6 @@ tickers:
     identifier: binance_dex
     name: Binance DEX
   target: BNB
-- base: LBA
-  market:
-    identifier: bitmax
-    name: BitMax
-  target: USDT
 - base: LBA
   market:
     identifier: dcoin

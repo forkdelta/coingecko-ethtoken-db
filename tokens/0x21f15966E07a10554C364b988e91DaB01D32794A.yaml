@@ -26,7 +26,7 @@ links:
     - https://github.com/SmartMeshFoundation/SmartMesh_iOS
   twitter_screen_name: smart_mesh
 liquidity_score: 9.036
-market_cap_rank: 304
+market_cap_rank: 301
 name: SmartMesh
 public_interest_score: 24.367
 symbol: smt
@@ -38,16 +38,16 @@ tickers:
   target: ETH
 - base: SMT
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: SMT
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
 - base: SMT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: SMT
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -55,4 +55,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: RUR
+- base: SMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

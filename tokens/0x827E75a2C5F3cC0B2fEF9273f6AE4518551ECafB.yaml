@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/ETCMOON
 liquidity_score: 1.691
-market_cap_rank: 4003
+market_cap_rank: 6347
 name: 10X Long Ethereum Classic Token
 public_interest_score: 0.021
 symbol: etcmoon
-tickers: []
+tickers:
+- base: ETCMOON
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

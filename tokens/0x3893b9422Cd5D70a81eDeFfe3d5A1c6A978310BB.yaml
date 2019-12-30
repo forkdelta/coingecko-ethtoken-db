@@ -75,16 +75,16 @@ tickers:
     identifier: altilly
     name: Altilly
   target: DOGE
-- base: MITH-C76
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
 - base: MIT
   market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
+- base: MIT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: MIT
   market:
     identifier: bitfinex
@@ -114,11 +114,6 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: MITH
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
 - base: MITH
   market:
@@ -129,4 +124,9 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
-  target: ETH
+  target: KRW
+- base: MITH
+  market:
+    identifier: zb
+    name: ZB
+  target: QC

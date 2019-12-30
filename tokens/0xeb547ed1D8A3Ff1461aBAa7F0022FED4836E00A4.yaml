@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: CoinAnnouncements
   twitter_screen_name: coindotxyz
 liquidity_score: 1.0
-market_cap_rank: 1051
+market_cap_rank: 718
 name: Coin
 public_interest_score: 44.108
 symbol: coin
@@ -42,7 +42,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: BTC
+- base: COINV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: COINV
   market:
     identifier: yobit
@@ -53,8 +58,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: COINV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
