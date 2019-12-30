@@ -69,7 +69,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 37.382
-market_cap_rank: 92
+market_cap_rank: 91
 name: DigixDAO
 public_interest_score: 28.308
 symbol: dgd
@@ -86,11 +86,6 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: DGD
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -99,6 +94,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: DGD
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
 - base: DGD
   market:
     identifier: okex_korea

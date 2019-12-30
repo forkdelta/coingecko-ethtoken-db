@@ -63,6 +63,11 @@ tickers:
   target: USDT
 - base: SNT
   market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
+- base: SNT
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
@@ -93,34 +98,19 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: SNT
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: SNT
-  market:
     identifier: hitbtc
     name: HitBTC
   target: USD
 - base: SNT
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: SNT
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: SNT
-  market:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
+- base: SNT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: SNT
   market:
     identifier: upbit_indonesia
@@ -131,3 +121,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: SNT
+  market:
+    identifier: zb
+    name: ZB
+  target: QC

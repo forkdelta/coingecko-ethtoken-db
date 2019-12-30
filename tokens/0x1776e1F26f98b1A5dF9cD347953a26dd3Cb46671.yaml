@@ -26,11 +26,21 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 27.849
-market_cap_rank: 110
+market_cap_rank: 107
 name: Numeraire
 public_interest_score: 24.794
 symbol: nmr
 tickers:
+- base: NMR
+  market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
+- base: NMR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: NMR
   market:
     identifier: hitbtc
@@ -48,14 +58,14 @@ tickers:
   target: BTC
 - base: NMR
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: NMR
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: BTC
 - base: NMR
   market:
     identifier: yobit

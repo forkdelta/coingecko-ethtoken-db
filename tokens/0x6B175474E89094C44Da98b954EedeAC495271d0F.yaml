@@ -32,12 +32,17 @@ tickers:
     identifier: airswap
     name: AirSwap
   target: ETH
-- base: OMG
+- base: DAI
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: MKR
   market:
     identifier: bitfinex
     name: Bitfinex
   target: DAI
-- base: MKR
+- base: OMG
   market:
     identifier: bitfinex
     name: Bitfinex
@@ -52,35 +57,40 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: ETH
-- base: ZRX
+- base: DAI
   market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: DAI
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: REP
   market:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
-- base: USDC
+- base: BAT
   market:
-    identifier: radar_relay
-    name: Radar Relay
+    identifier: oasis_trade
+    name: OasisDEX
   target: DAI
+- base: ZRX
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: DAI
+- base: DAI
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: USDC
 - base: TUSD
   market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: NEO
+- base: MANA
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: SDUSD
-  market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: radar_relay
+    name: Radar Relay
   target: DAI
 - base: MKR
   market:
@@ -97,7 +107,7 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: ETH
+- base: SDUSD
   market:
     identifier: switcheo
     name: Switcheo

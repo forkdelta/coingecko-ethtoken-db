@@ -62,11 +62,16 @@ links:
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankrnetwork
 liquidity_score: 34.645
-market_cap_rank: 268
+market_cap_rank: 269
 name: Ankr
 public_interest_score: 27.568
 symbol: ankr
 tickers:
+- base: ANKR
+  market:
+    identifier: biki
+    name: Biki
+  target: USDT
 - base: ANKR
   market:
     identifier: bittrex
@@ -79,19 +84,9 @@ tickers:
   target: ETH
 - base: ANKR
   market:
-    identifier: coinone
-    name: Coinone
-  target: KRW
-- base: ANKR
-  market:
     identifier: idex
     name: Idex
   target: ETH
-- base: ANKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
 - base: ANKR
   market:
     identifier: upbit

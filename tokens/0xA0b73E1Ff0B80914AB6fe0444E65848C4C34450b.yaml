@@ -41,6 +41,11 @@ symbol: cro
 tickers:
 - base: CRO
   market:
+    identifier: abcc
+    name: ABCC
+  target: USDT
+- base: CRO
+  market:
     identifier: atomars
     name: Atomars
   target: USDT
@@ -81,11 +86,6 @@ tickers:
   target: USD
 - base: CRO
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: CRO
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -94,18 +94,3 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: CRO
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: CRO
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
-- base: CRO
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
