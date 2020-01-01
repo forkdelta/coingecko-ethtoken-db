@@ -64,11 +64,16 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 41.331
-market_cap_rank: 100
+market_cap_rank: 101
 name: Pundi X
 public_interest_score: 27.823
 symbol: npxs
 tickers:
+- base: NPXS
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
 - base: NPXS
   market:
     identifier: bit_z
@@ -79,6 +84,16 @@ tickers:
     identifier: bitsonic
     name: Bitsonic
   target: KRW
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: NPXS
   market:
     identifier: bittrex
@@ -101,11 +116,6 @@ tickers:
   target: USDT
 - base: NPXS
   market:
-    identifier: coss
-    name: COSS
-  target: COS
-- base: NPXS
-  market:
     identifier: dextrade
     name: Dex-Trade
   target: BTC
@@ -121,6 +131,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: NPXS
+  market:
     identifier: graviex
     name: Graviex
   target: BTC
@@ -128,6 +143,11 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: NPXS
   market:
@@ -141,6 +161,11 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: NPXS
+  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -151,8 +176,8 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: localtrade
-    name: LocalTrade
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH
 - base: NPXS
   market:
@@ -179,6 +204,11 @@ tickers:
     identifier: vcc
     name: VCC Exchange
   target: BTC
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH
 - base: NPXS
   market:
     identifier: vcc

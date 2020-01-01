@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/ETHBULL
 liquidity_score: 1.0
-market_cap_rank: 6056
+market_cap_rank: 6248
 name: 3X Long Ethereum Token
 public_interest_score: 0.021
 symbol: ethbull
-tickers: []
+tickers:
+- base: ETHBULL
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

@@ -58,16 +58,11 @@ links:
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
 liquidity_score: 45.633
-market_cap_rank: 43
+market_cap_rank: 44
 name: Augur
 public_interest_score: 33.371
 symbol: rep
 tickers:
-- base: REP
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
 - base: REP
   market:
     identifier: bitfinex
@@ -80,6 +75,11 @@ tickers:
   target: USD
 - base: REP
   market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: REP
+  market:
     identifier: credoex
     name: CredoEx
   target: CREDO
@@ -88,11 +88,6 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: REP
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: REP
   market:
     identifier: independent_reserve
@@ -108,6 +103,11 @@ tickers:
     identifier: independent_reserve
     name: Independent Reserve
   target: USD
+- base: REP
+  market:
+    identifier: kraken
+    name: Kraken
+  target: ETH
 - base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
   market:
     identifier: lykke
@@ -123,11 +123,6 @@ tickers:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
-- base: REP
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: ETH
 - base: REP
   market:
     identifier: switcheo

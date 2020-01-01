@@ -26,16 +26,31 @@ links:
   telegram_channel_identifier: ZipperEN
   twitter_screen_name: ZipperInfo
 liquidity_score: 36.972
-market_cap_rank: 522
+market_cap_rank: 511
 name: Zipper Network
 public_interest_score: 39.456
 symbol: zip
 tickers:
 - base: ZIP
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: ZIP
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
+- base: ZIP
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: ZIP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: ZIP
   market:
     identifier: yobit

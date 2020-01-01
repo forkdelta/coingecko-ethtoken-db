@@ -64,21 +64,21 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 51.671
-market_cap_rank: 77
+market_cap_rank: 80
 name: Decentraland
 public_interest_score: 26.772
 symbol: mana
 tickers:
 - base: MANA
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: MANA
+  market:
     identifier: altilly
     name: Altilly
   target: BTC
-- base: MANA
-  market:
-    identifier: atomars
-    name: Atomars
-  target: USDT
 - base: MANA
   market:
     identifier: bibox
@@ -116,16 +116,6 @@ tickers:
   target: ETH
 - base: MANA
   market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: USDT
-- base: MANA
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: MANA
-  market:
     identifier: hitbtc
     name: HitBTC
   target: USD
@@ -146,19 +136,9 @@ tickers:
   target: BTC
 - base: MANA
   market:
-    identifier: poloniex
-    name: Poloniex
-  target: USDT
-- base: MANA
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: DAI
-- base: MANA
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
 - base: MANA
   market:
     identifier: upbit_indonesia
@@ -169,11 +149,6 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
-- base: MANA
-  market:
-    identifier: zb
-    name: ZB
-  target: QC
 - base: MANA
   market:
     identifier: zb

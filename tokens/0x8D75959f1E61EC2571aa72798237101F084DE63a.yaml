@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/SubstratumNetwork
   twitter_screen_name: SubstratumNet
 liquidity_score: 1.0
-market_cap_rank: 639
+market_cap_rank: 641
 name: Substratum
 public_interest_score: 26.567
 symbol: sub
@@ -43,19 +43,29 @@ tickers:
   target: BTC
 - base: SUB
   market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: SUB
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
 - base: SUB
   market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SUB
+  market:
+    identifier: tidex
+    name: Tidex
+  target: WAVES
 - base: SUB
   market:
     identifier: wazirx
     name: WazirX
-  target: USDT
+  target: BTC
 - base: SUB
   market:
     identifier: zb
