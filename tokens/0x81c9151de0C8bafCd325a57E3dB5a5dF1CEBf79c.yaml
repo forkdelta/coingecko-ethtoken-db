@@ -30,15 +30,25 @@ links:
   subreddit_url: https://www.reddit.com/r/datumnetwork
   twitter_screen_name: datumnetwork
 liquidity_score: 22.895
-market_cap_rank: 738
+market_cap_rank: 617
 name: Datum
 public_interest_score: 30.95
 symbol: dat
 tickers:
 - base: DAT
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: DAT
+  market:
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: DAT
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: FE2018E8-8F9F-49B5-90B5-81EA9DC5418F
   market:

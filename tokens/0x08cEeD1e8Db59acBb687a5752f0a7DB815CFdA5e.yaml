@@ -33,7 +33,7 @@ links:
   - https://electronicenergycoin.com/
   twitter_screen_name: e2coin
 liquidity_score: 18.035
-market_cap_rank: 5760
+market_cap_rank: 3621
 name: Electronic Energy Coin
 public_interest_score: 28.857
 symbol: e2c
@@ -47,12 +47,22 @@ tickers:
   market:
     identifier: coinsbit
     name: Coinsbit
+  target: BTC
+- base: E2C
+  market:
+    identifier: coinsbit
+    name: Coinsbit
   target: BTG
 - base: GST
   market:
     identifier: coinsbit
     name: Coinsbit
   target: E2C
+- base: E2C
+  market:
+    identifier: coinsbit
+    name: Coinsbit
+  target: ETH
 - base: E2C
   market:
     identifier: coinsbit
@@ -68,3 +78,13 @@ tickers:
     identifier: coinsbit
     name: Coinsbit
   target: USD
+- base: E2C
+  market:
+    identifier: simex
+    name: Simex
+  target: ETH
+- base: E2C
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

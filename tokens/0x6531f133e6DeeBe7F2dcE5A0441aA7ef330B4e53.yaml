@@ -36,7 +36,7 @@ links:
   telegram_channel_identifier: chronobank
   twitter_screen_name: ChronobankNews
 liquidity_score: 12.005
-market_cap_rank: 635
+market_cap_rank: 638
 name: Chronobank
 public_interest_score: 24.603
 symbol: time
@@ -46,6 +46,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: TIME
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: TIME
   market:
     identifier: lykke
@@ -101,8 +106,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: TIME
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

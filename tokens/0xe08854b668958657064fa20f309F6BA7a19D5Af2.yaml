@@ -19,8 +19,23 @@ links:
   telegram_channel_identifier: blocktvchat
   twitter_screen_name: BLOCKTVnews
 liquidity_score: 1.0
-market_cap_rank: 284
+market_cap_rank: 275
 name: BLTV Token
 public_interest_score: 0.0
 symbol: bltv
-tickers: []
+tickers:
+- base: BLTV
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: BLTV
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: BLTV
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

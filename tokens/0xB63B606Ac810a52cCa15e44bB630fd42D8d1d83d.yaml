@@ -75,11 +75,6 @@ symbol: mco
 tickers:
 - base: MCO
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: MCO
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -88,6 +83,11 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: MCO
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: MCO
   market:
     identifier: hitbtc
@@ -113,6 +113,11 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: MCO
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
 - base: MCO
   market:
     identifier: unnamed

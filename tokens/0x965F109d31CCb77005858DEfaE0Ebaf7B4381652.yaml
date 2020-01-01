@@ -29,8 +29,23 @@ links:
   telegram_channel_identifier: bitstashmarketplace
   twitter_screen_name: bitstashco
 liquidity_score: 1.0
-market_cap_rank: 5891
+market_cap_rank: 2372
 name: BitStash Marketplace
 public_interest_score: 26.605
 symbol: stash
-tickers: []
+tickers:
+- base: STASH
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: STASH
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: STASH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
