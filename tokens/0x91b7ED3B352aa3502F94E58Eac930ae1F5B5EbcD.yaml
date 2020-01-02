@@ -1,7 +1,7 @@
 ---
 address: '0x91b7ED3B352aa3502F94E58Eac930ae1F5B5EbcD'
-coingecko_rank: 1563
-coingecko_score: 16.966
+coingecko_rank: 1525
+coingecko_score: 17.13
 community_score: 0.0
 description: ""
 developer_score: 0.0
@@ -13,8 +13,8 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0x91b7ed3b352aa3502f94e58eac930ae1f5b5ebcd
-liquidity_score: 69.856
-market_cap_rank: 5574
+liquidity_score: 70.678
+market_cap_rank: 5382
 name: CNY Tether
 public_interest_score: 29.945
 symbol: cnyt
@@ -29,12 +29,17 @@ tickers:
     identifier: bitasset
     name: BitAsset
   target: CNYT
-- base: LST
+- base: RRC
   market:
     identifier: exx
     name: EXX
   target: CNYT
 - base: LBT
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: LST
   market:
     identifier: exx
     name: EXX
@@ -49,16 +54,21 @@ tickers:
     identifier: exx
     name: EXX
   target: CNYT
-- base: ABO
-  market:
-    identifier: exx
-    name: EXX
-  target: CNYT
 - base: CNYT
   market:
     identifier: exx
     name: EXX
   target: KRWT
+- base: ZRX
+  market:
+    identifier: hpx
+    name: HPX
+  target: CNYT
+- base: RVN
+  market:
+    identifier: hpx
+    name: HPX
+  target: CNYT
 - base: BEAM
   market:
     identifier: hpx

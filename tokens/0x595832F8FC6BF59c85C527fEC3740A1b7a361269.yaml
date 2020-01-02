@@ -1,8 +1,8 @@
 ---
 address: '0x595832F8FC6BF59c85C527fEC3740A1b7a361269'
-coingecko_rank: 369
-coingecko_score: 32.987
-community_score: 44.991
+coingecko_rank: 360
+coingecko_score: 32.7
+community_score: 46.692
 description: >-
   Power Ledger (POWR) is an Australian blockchain-based cryptocurrency and energy trading platform that
   allows for decentralized selling and buying of renewable energy. The platform provides consumers with
@@ -60,12 +60,17 @@ links:
   subreddit_url: https://www.reddit.com/r/PowerLedger/
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
-liquidity_score: 31.899
-market_cap_rank: 154
+liquidity_score: 28.544
+market_cap_rank: 153
 name: Power Ledger
 public_interest_score: 24.019
 symbol: powr
 tickers:
+- base: POWR
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: POWR
   market:
     identifier: btcmarkets
@@ -93,11 +98,6 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: POWR
-  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -108,8 +108,8 @@ tickers:
   target: ETH
 - base: POWR
   market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: idex
+    name: Idex
   target: ETH
 - base: POWR
   market:
@@ -130,9 +130,4 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: BTC
-- base: POWR
-  market:
-    identifier: vcc
-    name: VCC Exchange
   target: BTC

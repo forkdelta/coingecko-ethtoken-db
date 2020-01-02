@@ -1,8 +1,8 @@
 ---
 address: '0x47bc01597798DCD7506DCCA36ac4302fc93a8cFb'
-coingecko_rank: 1061
-coingecko_score: 21.33
-community_score: 26.526
+coingecko_rank: 1032
+coingecko_score: 21.479
+community_score: 26.648
 description: >-
   Crowd Machine is creating the Crowd Computer, a decentralized app execution engine that is powered by
   a peer-to-peer network of Crowd Virtual Machines ("CVM") that run on peer devices by device owners who
@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: crowdmachine
   twitter_screen_name: crowd_machine
 liquidity_score: 1.0
-market_cap_rank: 692
+market_cap_rank: 699
 name: Crowd Machine
 public_interest_score: 40.08
 symbol: cmct
 tickers:
+- base: CMCT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: CMCT
   market:
     identifier: bittrex
@@ -57,6 +62,11 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: CMCT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: CMCT
   market:
     identifier: vcc

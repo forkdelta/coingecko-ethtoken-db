@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 346
-coingecko_score: 33.446
-community_score: 35.654
+coingecko_rank: 304
+coingecko_score: 34.312
+community_score: 35.471
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -63,12 +63,17 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 41.331
-market_cap_rank: 101
+liquidity_score: 46.169
+market_cap_rank: 108
 name: Pundi X
-public_interest_score: 27.823
+public_interest_score: 27.822
 symbol: npxs
 tickers:
+- base: NPXS
+  market:
+    identifier: alterdice
+    name: AlterDice
+  target: BTC
 - base: NPXS
   market:
     identifier: atomars
@@ -99,16 +104,6 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: USDT
-- base: NPXS
-  market:
-    identifier: catex
-    name: Catex
-  target: ETH
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
 - base: NPXS
   market:
     identifier: coinbene
@@ -146,8 +141,18 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: NPXS
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: iqfinex
+    name: IQFinex
   target: ETH
 - base: NPXS
   market:
@@ -159,11 +164,6 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: BTC
-- base: NPXS
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: ETH
 - base: NPXS
   market:
     identifier: livecoin
@@ -194,11 +194,6 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
-- base: NPXS
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: IDR
 - base: NPXS
   market:
     identifier: vcc

@@ -1,7 +1,7 @@
 ---
 address: '0xc8e69913c0ea5d45bF67E52412eb8Bcab5b9875E'
-coingecko_rank: 6387
-coingecko_score: 0.2
+coingecko_rank: 6318
+coingecko_score: 0.202
 community_score: 0.0
 description: >-
   10X Short BNB Token (BNBDOOM) is an ERC20 token which seeks a return that corresponds to -10 times the
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/BNBDOOM
 liquidity_score: 1.0
-market_cap_rank: 4877
+market_cap_rank: 4875
 name: 10X Short BNB Token
-public_interest_score: 0.0
+public_interest_score: 0.025
 symbol: bnbdoom
-tickers: []
+tickers:
+- base: BNBDOOM
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD
