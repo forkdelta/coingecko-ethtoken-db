@@ -1,7 +1,7 @@
 ---
 address: '0xB9bb08AB7E9Fa0A1356bd4A39eC0ca267E03b0b3'
-coingecko_rank: 753
-coingecko_score: 24.777
+coingecko_rank: 740
+coingecko_score: 24.893
 community_score: 10.094
 description: >-
   NATIVE MULTICHAIN PLATFORM
@@ -26,7 +26,7 @@ description: >-
 
   The smart contracts of PCHAIN can be easily invoked with other nonnative Tokens (BCH, ERC20) by using
   the provided toolkit.
-developer_score: 16.243
+developer_score: 15.937
 id: pchain
 image:
   large: https://assets.coingecko.com/coins/images/3463/large/pchainlogo.jpg?1555392068
@@ -46,8 +46,8 @@ links:
     - https://github.com/pchain-org/pchain-pub
   telegram_channel_identifier: pchain_org
   twitter_screen_name: pchain_org
-liquidity_score: 20.612
-market_cap_rank: 387
+liquidity_score: 21.639
+market_cap_rank: 392
 name: Pchain
 public_interest_score: 24.334
 symbol: pi
@@ -69,6 +69,11 @@ tickers:
   target: BTC
 - base: PI
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: PI
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -77,6 +82,11 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
+- base: PI
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
 - base: PAI
   market:
     identifier: yobit

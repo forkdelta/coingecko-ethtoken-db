@@ -1,7 +1,7 @@
 ---
 address: '0x4Eeea7B48b9C3ac8F70a9c932A8B1E8a5CB624c7'
-coingecko_rank: 1528
-coingecko_score: 17.1
+coingecko_rank: 1512
+coingecko_score: 17.163
 community_score: 8.989
 description: >-
   Membrana provides investors and traders with a transparent, decentralized and secure system, which controls
@@ -56,9 +56,24 @@ links:
     - https://github.com/MembranaPlatform/MembranaLanding
   telegram_channel_identifier: membranaplatform
   twitter_screen_name: membrana_io
-liquidity_score: 13.895
-market_cap_rank: 994
+liquidity_score: 14.21
+market_cap_rank: 993
 name: Membrana
 public_interest_score: 23.711
 symbol: mbn
-tickers: []
+tickers:
+- base: MBN
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: MBN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MBN
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW

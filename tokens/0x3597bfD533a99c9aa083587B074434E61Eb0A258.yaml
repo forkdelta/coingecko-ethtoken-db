@@ -1,8 +1,8 @@
 ---
 address: '0x3597bfD533a99c9aa083587B074434E61Eb0A258'
 coingecko_rank: 556
-coingecko_score: 27.863
-community_score: 29.04
+coingecko_score: 27.841
+community_score: 29.034
 description: >-
   Our vision is to create a global exchange using Ethereum blockchain, where everyone on this planet has
   the opportunity to buy and sell mobile bandwidth in any country just like you buy foreign currencies
@@ -24,16 +24,26 @@ links:
   subreddit_url: https://www.reddit.com/r/dent/
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
-liquidity_score: 23.413
-market_cap_rank: 178
+liquidity_score: 23.315
+market_cap_rank: 177
 name: Dent
 public_interest_score: 31.443
 symbol: dent
 tickers:
 - base: DENT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: DENT
+  market:
     identifier: coinbene
     name: CoinBene
+  target: BTC
+- base: DENT
+  market:
+    identifier: coinplace
+    name: Coinplace
   target: BTC
 - base: DENT
   market:
@@ -47,23 +57,13 @@ tickers:
   target: USD
 - base: DENT
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: DENT
   market:
     identifier: livecoin
     name: Livecoin
-  target: BTC
-- base: 63564C71-A5B2-4223-80CA-40FA22770E66
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
-- base: 63564C71-A5B2-4223-80CA-40FA22770E66
-  market:
-    identifier: lykke
-    name: Lykke
   target: ETH
 - base: DENT
   market:
@@ -87,11 +87,16 @@ tickers:
   target: ETH
 - base: DENT
   market:
-    identifier: vcc
-    name: VCC Exchange
+    identifier: upbit
+    name: Upbit
   target: BTC
 - base: DENT
   market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
+- base: DENT
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
