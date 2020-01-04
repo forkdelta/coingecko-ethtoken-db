@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 304
-coingecko_score: 34.312
-community_score: 35.471
+coingecko_rank: 306
+coingecko_score: 34.12
+community_score: 35.804
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -63,17 +63,12 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 46.169
-market_cap_rank: 108
+liquidity_score: 44.743
+market_cap_rank: 103
 name: Pundi X
 public_interest_score: 27.822
 symbol: npxs
 tickers:
-- base: NPXS
-  market:
-    identifier: alterdice
-    name: AlterDice
-  target: BTC
 - base: NPXS
   market:
     identifier: atomars
@@ -98,17 +93,22 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: ETH
-- base: NPXS
-  market:
-    identifier: bittrex
-    name: Bittrex
   target: USDT
 - base: NPXS
   market:
     identifier: coinbene
     name: CoinBene
+  target: ETH
+- base: NPXS
+  market:
+    identifier: coinbene
+    name: CoinBene
   target: USDT
+- base: NPXS
+  market:
+    identifier: coinplace
+    name: Coinplace
+  target: BTC
 - base: NPXS
   market:
     identifier: dextrade
@@ -118,11 +118,6 @@ tickers:
   market:
     identifier: dextrade
     name: Dex-Trade
-  target: ETH
-- base: NPXS
-  market:
-    identifier: etherflyer
-    name: EtherFlyer
   target: ETH
 - base: NPXS
   market:
@@ -156,11 +151,6 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: NPXS
-  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -186,14 +176,14 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: upbit
-    name: Upbit
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: NPXS
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: BTC
+  target: IDR
 - base: NPXS
   market:
     identifier: vcc
@@ -209,3 +199,8 @@ tickers:
     identifier: vcc
     name: VCC Exchange
   target: USDT
+- base: NPXS
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

@@ -1,8 +1,8 @@
 ---
 address: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
-coingecko_rank: 423
-coingecko_score: 31.177
-community_score: 38.907
+coingecko_rank: 395
+coingecko_score: 31.778
+community_score: 40.919
 description: >-
   MakerDAO has launched Multi-collateral DAI (MCD). This token refers to the new DAI that is collaterized
   by multiple assets.
@@ -21,22 +21,17 @@ links:
   - https://makerdao.com/
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 38.724
-market_cap_rank: 79
+liquidity_score: 39.168
+market_cap_rank: 80
 name: Dai
 public_interest_score: 0.015
 symbol: dai
 tickers:
 - base: DAI
   market:
-    identifier: airswap
-    name: AirSwap
+    identifier: bitcratic
+    name: Bitcratic
   target: ETH
-- base: DAI
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
 - base: MKR
   market:
     identifier: bitfinex
@@ -46,21 +41,6 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: DAI
-- base: DAI
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
-- base: DAI
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
-- base: ETH
-  market:
-    identifier: kraken
-    name: Kraken
   target: DAI
 - base: REP
   market:
@@ -76,36 +56,6 @@ tickers:
   market:
     identifier: oasis_trade
     name: OasisDEX
-  target: DAI
-- base: DAI
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: USDC
-- base: USDC
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: TUSD
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: MANA
-  market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: DAI
-- base: SDUSD
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: NEO
-  market:
-    identifier: switcheo
-    name: Switcheo
   target: DAI
 - base: WBTC
   market:

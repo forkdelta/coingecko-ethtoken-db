@@ -1,7 +1,7 @@
 ---
 address: '0x1c48f86ae57291F7686349F12601910BD8D470bb'
-coingecko_rank: 495
-coingecko_score: 29.312
+coingecko_rank: 481
+coingecko_score: 29.46
 community_score: 6.342
 description: ""
 developer_score: 0.0
@@ -19,8 +19,8 @@ links:
     github:
     - https://github.com/oklink/demo-net
   twitter_screen_name: OKLink
-liquidity_score: 57.777
-market_cap_rank: 115
+liquidity_score: 58.538
+market_cap_rank: 116
 name: USDK
 public_interest_score: 28.596
 symbol: usdk
@@ -35,27 +35,32 @@ tickers:
     identifier: coinall
     name: CoinAll
   target: USDK
-- base: USDK
-  market:
-    identifier: okcoin
-    name: OKCoin
-  target: USD
-- base: SPND
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
 - base: VNT
   market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: CRO
+- base: ALGO
   market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: ALGO
+- base: ETM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: SPND
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: DOGE
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: CRO
   market:
     identifier: okex
     name: OKEx

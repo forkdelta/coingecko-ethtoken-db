@@ -1,14 +1,14 @@
 ---
 address: '0xcbCC0F036ED4788F63FC0fEE32873d6A7487b908'
 coingecko_rank: 321
-coingecko_score: 33.814
-community_score: 25.621
+coingecko_score: 33.607
+community_score: 25.527
 description: >-
   Humaniq is a financial ecosystem built on blockchain, focused on simply and quickly connecting unbanked
   people to the global economy. It combines blockchain bank as a core platform for financial services
   and technology start-ups, biometrics that replaces passports and signatures, ICO and distributed ownership
   instead of shareholders, and an investment fund for third-party start-up acquisition and acceleration
-developer_score: 43.421
+developer_score: 42.61
 id: humaniq
 image:
   large: https://assets.coingecko.com/coins/images/647/large/humaniq.jpg?1547034375
@@ -28,17 +28,27 @@ links:
     - https://github.com/humaniq/ico-contract
   subreddit_url: https://www.reddit.com/r/Humaniq
   twitter_screen_name: Humaniq_co
-liquidity_score: 15.446
-market_cap_rank: 591
+liquidity_score: 15.191
+market_cap_rank: 577
 name: Humaniq
 public_interest_score: 25.112
 symbol: hmq
 tickers:
 - base: HMQ
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: HMQ
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
+- base: HMQ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: HMQ
   market:
     identifier: upbit
@@ -58,4 +68,19 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: HMQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: HMQ
+  market:
+    identifier: yobit
+    name: YoBit
   target: USD
+- base: HMQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

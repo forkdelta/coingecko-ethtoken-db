@@ -1,8 +1,8 @@
 ---
 address: '0xB63B606Ac810a52cCa15e44bB630fd42D8d1d83d'
-coingecko_rank: 459
-coingecko_score: 30.117
-community_score: 10.988
+coingecko_rank: 450
+coingecko_score: 30.231
+community_score: 10.991
 description: >-
   Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition
   to cryptocurrency. The MCO Token Sale was conducted in May-June 2017 and raised US$26.7 million.
@@ -67,7 +67,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Crypto_com/
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
-liquidity_score: 51.181
+liquidity_score: 51.739
 market_cap_rank: 58
 name: MCO
 public_interest_score: 31.01
@@ -75,39 +75,24 @@ symbol: mco
 tickers:
 - base: MCO
   market:
+    identifier: abcc
+    name: ABCC
+  target: BTC
+- base: MCO
+  market:
     identifier: bittrex
     name: Bittrex
+  target: BTC
+- base: MCO
+  market:
+    identifier: coinplace
+    name: Coinplace
   target: BTC
 - base: MCO
   market:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: MCO
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MCO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: MCO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: MCO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: MCO
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: MCO
   market:
     identifier: livecoin
@@ -120,11 +105,6 @@ tickers:
   target: BTC
 - base: MCO
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: MCO
-  market:
     identifier: unnamed
     name: Unnamed
   target: BTC
@@ -133,11 +113,6 @@ tickers:
     identifier: unnamed
     name: Unnamed
   target: DOGE
-- base: MCO
-  market:
-    identifier: unnamed
-    name: Unnamed
-  target: UTIP
 - base: MCO
   market:
     identifier: upbit
@@ -155,6 +130,11 @@ tickers:
   target: BTC
 - base: MCO
   market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH
+- base: MCO
+  market:
     identifier: zb
     name: ZB
   target: QC
@@ -163,8 +143,3 @@ tickers:
     identifier: zb
     name: ZB
   target: USDT
-- base: MCO
-  market:
-    identifier: zg
-    name: ZG.com
-  target: BTC
