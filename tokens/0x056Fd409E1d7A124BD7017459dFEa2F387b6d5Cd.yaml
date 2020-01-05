@@ -1,7 +1,7 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 437
-coingecko_score: 30.664
+coingecko_rank: 427
+coingecko_score: 30.922
 community_score: 5.01
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
@@ -74,8 +74,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 42.751
-market_cap_rank: 347
+liquidity_score: 44.061
+market_cap_rank: 357
 name: Gemini Dollar
 public_interest_score: 39.599
 symbol: gusd
@@ -95,11 +95,6 @@ tickers:
     identifier: cex
     name: CEX.IO
   target: USD
-- base: GUSD
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
 - base: GUSD
   market:
     identifier: crex24
@@ -122,6 +117,16 @@ tickers:
   target: GUSD
 - base: GUSD
   market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: GUSD
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: GUSD
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
@@ -130,6 +135,11 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
+- base: GUSD
+  market:
+    identifier: therocktrading
+    name: TheRockTrading
+  target: EUR
 - base: BTC
   market:
     identifier: therocktrading

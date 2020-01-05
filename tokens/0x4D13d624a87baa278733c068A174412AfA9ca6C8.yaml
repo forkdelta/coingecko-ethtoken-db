@@ -1,7 +1,7 @@
 ---
 address: '0x4D13d624a87baa278733c068A174412AfA9ca6C8'
-coingecko_rank: 601
-coingecko_score: 26.946
+coingecko_rank: 602
+coingecko_score: 26.902
 community_score: 25.565
 description: >-
   There is clearly an underserved market for a reliable cryptocurrency exchange with a robust operational
@@ -37,12 +37,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Eterbase/
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: ETERBASE
-liquidity_score: 20.276
-market_cap_rank: 570
+liquidity_score: 20.15
+market_cap_rank: 558
 name: Eterbase Coin
 public_interest_score: 24.093
 symbol: xbase
 tickers:
+- base: XBASE-CD2
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: XBASE
   market:
     identifier: eterbase
@@ -68,11 +73,6 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EUR
-- base: XBASE
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: USDT
 - base: XBASE-B
   market:
     identifier: eterbase
@@ -83,3 +83,8 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: XBASE-B
+- base: XBASE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

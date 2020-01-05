@@ -1,8 +1,8 @@
 ---
 address: '0xC80c5E40220172B36aDee2c951f26F2a577810C5'
-coingecko_rank: 535
-coingecko_score: 28.17
-community_score: 31.107
+coingecko_rank: 539
+coingecko_score: 28.186
+community_score: 31.129
 description: >-
   Bankera is an operational fork of SpectroCoin. As SpectroCoin to be competitive has developed bank-like
   infrastructure, but was not intended to become a proper bank, it is releasing Bankera to leverage its
@@ -38,12 +38,12 @@ name: Bankera
 public_interest_score: 25.16
 symbol: bnk
 tickers:
-- base: ZEC
+- base: XLM
   market:
     identifier: bankera
     name: Bankera
   target: BNK
-- base: XLM
+- base: ZEC
   market:
     identifier: bankera
     name: Bankera
@@ -53,6 +53,11 @@ tickers:
     identifier: bankera
     name: Bankera
   target: BNK
+- base: BNK
+  market:
+    identifier: bankera
+    name: Bankera
+  target: BTC
 - base: BNK
   market:
     identifier: bankera
@@ -82,12 +87,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: BNK
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+  target: USD
 - base: BNK
   market:
     identifier: idcm
