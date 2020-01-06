@@ -1,14 +1,14 @@
 ---
 address: '0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0'
-coingecko_rank: 72
-coingecko_score: 50.326
-community_score: 30.76
+coingecko_rank: 70
+coingecko_score: 50.749
+community_score: 30.909
 description: >-
   Matic Network provides scalable, secure and instant Ethereum transactions. It is built on an implementation
   of the PLASMA framework and functions as an off chain scaling solution. Matic Network offers scalability
   solutions along with other tools to the developer ecosystem, which enable Matic to seamlessly integrate
   with dApps while helping developers create an enhanced user experience.
-developer_score: 64.668
+developer_score: 66.707
 id: matic-network
 image:
   large: https://assets.coingecko.com/coins/images/4713/large/Matic.png?1553498071
@@ -32,12 +32,22 @@ links:
   subreddit_url: https://www.reddit.com/r/maticnetwork/
   telegram_channel_identifier: maticnetwork
   twitter_screen_name: maticnetwork
-liquidity_score: 51.234
-market_cap_rank: 85
+liquidity_score: 50.679
+market_cap_rank: 89
 name: Matic Network
 public_interest_score: 25.843
 symbol: matic
 tickers:
+- base: MATIC-84A
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: MATIC
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: MATIC
   market:
     identifier: bitsonic
@@ -67,9 +77,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: MATIC
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH

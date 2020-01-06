@@ -1,7 +1,7 @@
 ---
 address: '0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9'
-coingecko_rank: 457
-coingecko_score: 29.952
+coingecko_rank: 455
+coingecko_score: 30.05
 community_score: 9.913
 description: >-
   The Swipe Wallet has been designed to require Swipe Tokens SXP to perform all functions and utility
@@ -34,22 +34,27 @@ links:
     - https://github.com/SwipeWallet/Wallet-Contract
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
-liquidity_score: 49.667
-market_cap_rank: 50
+liquidity_score: 49.962
+market_cap_rank: 49
 name: Swipe
 public_interest_score: 32.959
 symbol: sxp
 tickers:
 - base: SXP
   market:
-    identifier: idex
-    name: Idex
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: SXP
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: SXP
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
 - base: SXP
   market:
     identifier: p2pb2b

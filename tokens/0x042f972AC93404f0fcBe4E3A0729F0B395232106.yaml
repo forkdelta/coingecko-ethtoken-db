@@ -1,7 +1,7 @@
 ---
 address: '0x042f972AC93404f0fcBe4E3A0729F0B395232106'
-coingecko_rank: 5142
-coingecko_score: 3.814
+coingecko_rank: 5000
+coingecko_score: 4.014
 community_score: 4.844
 description: >-
   XYT (Xcoinpay Token) as the standard ERC20 token. The total of XYT is 500 million(total fixed never
@@ -23,9 +23,14 @@ links:
   homepage:
   - http://www.xcoinpay.io/
   twitter_screen_name: XCoinPay2017
-liquidity_score: 0.0
-market_cap_rank: 4318
+liquidity_score: 1.0
+market_cap_rank: 4153
 name: XCoinPay
 public_interest_score: 26.031
 symbol: dyx
-tickers: []
+tickers:
+- base: XYT
+  market:
+    identifier: aex
+    name: AEX
+  target: CNC

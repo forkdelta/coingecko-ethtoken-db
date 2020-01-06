@@ -1,8 +1,8 @@
 ---
 address: '0xCb94be6f13A1182E4A4B6140cb7bf2025d28e41B'
-coingecko_rank: 288
-coingecko_score: 34.74
-community_score: 30.226
+coingecko_rank: 291
+coingecko_score: 34.683
+community_score: 30.229
 description: >-
   WeTrust is a collaborative saving and insurance platform. It is autonomous, frictionless, and decentralized.
   WeTrust utilizes the Ethereum blockchain to create a full-stack financial system that leverages existing
@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: WeTrustPlatform
   twitter_screen_name: WeTrustPlatform
 liquidity_score: 1.0
-market_cap_rank: 643
+market_cap_rank: 630
 name: WeTrust
 public_interest_score: 29.202
 symbol: trst
 tickers:
+- base: TRST
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: TRST
   market:
     identifier: idex
@@ -50,3 +55,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: TRST
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
