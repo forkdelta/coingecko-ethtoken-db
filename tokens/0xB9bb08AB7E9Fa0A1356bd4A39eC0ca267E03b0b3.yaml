@@ -1,8 +1,8 @@
 ---
 address: '0xB9bb08AB7E9Fa0A1356bd4A39eC0ca267E03b0b3'
-coingecko_rank: 740
-coingecko_score: 24.893
-community_score: 10.094
+coingecko_rank: 745
+coingecko_score: 24.826
+community_score: 10.093
 description: >-
   NATIVE MULTICHAIN PLATFORM
 
@@ -46,8 +46,8 @@ links:
     - https://github.com/pchain-org/pchain-pub
   telegram_channel_identifier: pchain_org
   twitter_screen_name: pchain_org
-liquidity_score: 21.639
-market_cap_rank: 392
+liquidity_score: 21.404
+market_cap_rank: 397
 name: Pchain
 public_interest_score: 24.334
 symbol: pi
@@ -57,6 +57,16 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BTC
+- base: PI
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: PI
+  market:
+    identifier: bibox
+    name: Bibox
+  target: USDT
 - base: PIBNB-43C
   market:
     identifier: binance_dex
@@ -64,14 +74,14 @@ tickers:
   target: BNB
 - base: PI
   market:
-    identifier: bithumb_global
-    name: Bithumb Global
-  target: BTC
-- base: PI
-  market:
     identifier: bittrex
     name: Bittrex
   target: BTC
+- base: PI
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: PI
   market:
     identifier: idex
@@ -82,6 +92,16 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
+- base: PI
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: PI
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: PI
   market:
     identifier: vcc
@@ -96,19 +116,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: PAI
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
 - base: PAI
   market:
     identifier: yobit
     name: YoBit
   target: USD
-- base: PAI
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

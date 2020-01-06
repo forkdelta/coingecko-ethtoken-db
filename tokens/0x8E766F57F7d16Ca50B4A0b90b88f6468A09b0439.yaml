@@ -1,8 +1,8 @@
 ---
 address: '0x8E766F57F7d16Ca50B4A0b90b88f6468A09b0439'
-coingecko_rank: 827
-coingecko_score: 23.631
-community_score: 20.982
+coingecko_rank: 938
+coingecko_score: 22.445
+community_score: 21.007
 description: >-
   MaxiMineCoin allows token holders to stake their tokens in return for hashing power assigned to mine
   a cryptocurrency of their choice. MaxiMine will allow its users to freely switch between different tokens
@@ -28,9 +28,24 @@ links:
   subreddit_url: https://www.reddit.com/r/maximine/
   telegram_channel_identifier: maximine
   twitter_screen_name: maximinecoin
-liquidity_score: 11.923
-market_cap_rank: 126
+liquidity_score: 6.037
+market_cap_rank: 125
 name: Maximine
 public_interest_score: 27.275
 symbol: mxm
-tickers: []
+tickers:
+- base: MXM
+  market:
+    identifier: bitsdaq
+    name: Bitsdaq
+  target: USDT
+- base: MXM
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: ETH
+- base: MXM3
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
