@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 58
-coingecko_score: 52.368
-community_score: 43.053
+coingecko_rank: 56
+coingecko_score: 52.291
+community_score: 43.002
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -84,12 +84,22 @@ links:
   subreddit_url: https://www.reddit.com/r/loopringorg/
   telegram_channel_identifier: loopring_en
   twitter_screen_name: loopringorg
-liquidity_score: 36.035
-market_cap_rank: 128
+liquidity_score: 35.701
+market_cap_rank: 129
 name: Loopring
 public_interest_score: 26.794
 symbol: lrc
 tickers:
+- base: LRC
+  market:
+    identifier: bitasset
+    name: BitAsset
+  target: USDT
+- base: LRC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: LRC
   market:
     identifier: coinplace
@@ -112,14 +122,9 @@ tickers:
   target: BTC
 - base: LRC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
-- base: LRC
-  market:
-    identifier: tokenomy
-    name: Tokenomy
-  target: BTC
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: LRC
   market:
     identifier: upbit
@@ -130,6 +135,16 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: LRC
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: LRC
+  market:
+    identifier: vitex
+    name: ViteX
+  target: USDT
 - base: LRC
   market:
     identifier: yobit

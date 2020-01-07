@@ -1,8 +1,8 @@
 ---
 address: '0x4E15361FD6b4BB609Fa63C81A2be19d873717870'
-coingecko_rank: 70
-coingecko_score: 50.712
-community_score: 31.81
+coingecko_rank: 72
+coingecko_score: 50.442
+community_score: 31.545
 description: >-
   FANTOM is a new DAG based Smart Contract platform that intends to solve the scalability issues of existing
   public distributed ledger technologies.
@@ -40,8 +40,8 @@ links:
   subreddit_url: https://www.reddit.com/r/FantomFoundation/
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
-liquidity_score: 40.337
-market_cap_rank: 123
+liquidity_score: 39.288
+market_cap_rank: 122
 name: Fantom
 public_interest_score: 30.982
 symbol: ftm
@@ -53,9 +53,14 @@ tickers:
   target: USDT
 - base: FTM
   market:
-    identifier: binance
-    name: Binance
-  target: USDC
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: FTM
+  market:
+    identifier: coinfinit
+    name: Coinfinit
+  target: KRW
 - base: FTM
   market:
     identifier: gate
@@ -63,14 +68,9 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: FTM
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: FTM
   market:
     identifier: okex_korea
@@ -96,6 +96,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: FTM
   market:
     identifier: yobit
