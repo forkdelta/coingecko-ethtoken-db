@@ -1,8 +1,8 @@
 ---
 address: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200'
-coingecko_rank: 36
-coingecko_score: 56.374
-community_score: 45.633
+coingecko_rank: 39
+coingecko_score: 55.531
+community_score: 42.909
 description: >-
   Kyber’s on-chain liquidity protocol allows decentralized token swaps to be integrated into any application,
   enabling value exchange to be performed seamlessly between all parties in the ecosystem. Tapping on
@@ -41,7 +41,7 @@ description: >-
   wrong with either the <a href="https://www.coingecko.com/buzz/trezor-model-t-wallet-review">Trezor</a>
   or <a href="https://www.coingecko.com/buzz/ledger-bitcoin-hardware-wallet-review">Ledger</a> wallet
   as both supports KNC.
-developer_score: 73.108
+developer_score: 71.943
 id: kyber-network
 image:
   large: https://assets.coingecko.com/coins/images/947/large/kyber-logo.png?1547034806
@@ -60,12 +60,17 @@ links:
   subreddit_url: https://www.reddit.com/r/kybernetwork/
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
-liquidity_score: 50.937
-market_cap_rank: 90
+liquidity_score: 51.225
+market_cap_rank: 91
 name: Kyber Network
 public_interest_score: 29.618
 symbol: knc
 tickers:
+- base: KNC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: KNC
   market:
     identifier: bitfinex
@@ -98,6 +103,21 @@ tickers:
   target: KRW
 - base: KNC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: KNC
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -106,6 +126,11 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
+- base: KNC
+  market:
+    identifier: zb
+    name: ZB
+  target: QC
 - base: KNC
   market:
     identifier: zb

@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 306
-coingecko_score: 34.139
-community_score: 35.528
+coingecko_rank: 304
+coingecko_score: 34.097
+community_score: 35.195
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -63,8 +63,8 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 45.415
-market_cap_rank: 108
+liquidity_score: 45.556
+market_cap_rank: 110
 name: Pundi X
 public_interest_score: 27.822
 symbol: npxs
@@ -81,14 +81,19 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
-- base: NPXS
-  market:
     identifier: bitsonic
     name: Bitsonic
   target: KRW
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: NPXS
   market:
     identifier: catex
@@ -136,11 +141,6 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: NPXS
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -151,6 +151,11 @@ tickers:
   target: BTC
 - base: NPXS
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: NPXS
+  market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
@@ -158,7 +163,7 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: ETH
 - base: NPXS
   market:
     identifier: upbit
@@ -168,16 +173,6 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: BTC
-- base: NPXS
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: IDR
-- base: NPXS
-  market:
-    identifier: vcc
-    name: VCC Exchange
   target: BTC
 - base: NPXS
   market:

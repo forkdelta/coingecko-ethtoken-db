@@ -1,6 +1,6 @@
 ---
 address: '0x75a6aBc989F5Ac803D8a336d61a14Fa463462F75'
-coingecko_rank: 5314
+coingecko_rank: 5295
 coingecko_score: 3.566
 community_score: 0.0
 description: >-
@@ -22,8 +22,18 @@ links:
   - http://dastoken.net/
   telegram_channel_identifier: dascoin_notice
 liquidity_score: 1.0
-market_cap_rank: 2778
+market_cap_rank: 5397
 name: Digital Asset Swap Token
 public_interest_score: 33.657
 symbol: das
-tickers: []
+tickers:
+- base: DAS
+  market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: DAS
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
