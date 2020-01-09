@@ -1,8 +1,8 @@
 ---
 address: '0xb7cB1C96dB6B22b0D3d9536E0108d062BD488F74'
-coingecko_rank: 275
-coingecko_score: 35.13
-community_score: 38.981
+coingecko_rank: 273
+coingecko_score: 35.31
+community_score: 40.1
 description: >-
   Waltonchain is a genuine, trustworthy and traceable business ecosystem with complete data sharing and
   absolute information transparency. It is created by the combination of technologies of RFID and blockchain,
@@ -52,12 +52,17 @@ links:
   - http://www.waltonchain.org/
   subreddit_url: https://www.reddit.com/r/waltonchain
   twitter_screen_name: Waltonchain
-liquidity_score: 48.666
-market_cap_rank: 197
+liquidity_score: 48.341
+market_cap_rank: 207
 name: Waltonchain
 public_interest_score: 30.0
 symbol: wtc
 tickers:
+- base: WTC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: WTC
   market:
     identifier: bitfinex
@@ -70,13 +75,38 @@ tickers:
   target: BTC
 - base: WTC
   market:
+    identifier: coss
+    name: COSS
+  target: BTC
+- base: WTC
+  market:
     identifier: dragonex
     name: DragonEx
   target: USDT
 - base: WTC
   market:
+    identifier: financex
+    name: FinanceX
+  target: BTC
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: IDR
+- base: WTC
+  market:
+    identifier: financex
+    name: FinanceX
+  target: VND
+- base: WTC
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: WTC
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: WTC
   market:
@@ -85,6 +115,6 @@ tickers:
   target: USDT
 - base: WTC
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC

@@ -1,8 +1,8 @@
 ---
 address: '0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359'
-coingecko_rank: 61
-coingecko_score: 51.554
-community_score: 39.539
+coingecko_rank: 57
+coingecko_score: 52.253
+community_score: 41.041
 description: >-
   Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD — every Dai is worth $1,
   and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority
@@ -72,7 +72,7 @@ description: >-
   to be created.
 
   These three reasons are enough to ensure that Dai is continually created.
-developer_score: 67.54
+developer_score: 69.015
 id: sai
 image:
   large: https://assets.coingecko.com/coins/images/1442/large/dai.png?1547035520
@@ -92,8 +92,8 @@ links:
     - https://github.com/makerdao/market-maker-keeper
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 39.016
-market_cap_rank: 90
+liquidity_score: 39.116
+market_cap_rank: 93
 name: Sai
 public_interest_score: 33.466
 symbol: sai
@@ -102,6 +102,11 @@ tickers:
   market:
     identifier: atomars
     name: Atomars
+  target: DAI
+- base: WETH
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
   target: DAI
 - base: DAI
   market:
@@ -122,6 +127,21 @@ tickers:
   market:
     identifier: coinall
     name: CoinAll
+  target: DAI
+- base: DAI
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: USDT
+- base: USDT
+  market:
+    identifier: coss
+    name: COSS
+  target: DAI
+- base: ETH
+  market:
+    identifier: coss
+    name: COSS
   target: DAI
 - base: BTC
   market:
@@ -148,12 +168,17 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: DAI
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
+- base: XRP
   market:
     identifier: hitbtc
     name: HitBTC
@@ -168,17 +193,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: MKR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -188,11 +213,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USDC
 - base: ETH
   market:
     identifier: oasis_trade
@@ -203,16 +223,6 @@ tickers:
     identifier: oasis_trade
     name: OasisDEX
   target: USDC
-- base: BTC
-  market:
-    identifier: okex
-    name: OKEx
-  target: DAI
-- base: ETH
-  market:
-    identifier: okex
-    name: OKEx
-  target: DAI
 - base: DAI
   market:
     identifier: p2pb2b
@@ -247,7 +257,22 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: ETH
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USD
 - base: DAI
   market:
     identifier: upbit

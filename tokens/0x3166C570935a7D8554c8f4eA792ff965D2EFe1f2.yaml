@@ -1,8 +1,8 @@
 ---
 address: '0x3166C570935a7D8554c8f4eA792ff965D2EFe1f2'
-coingecko_rank: 1497
-coingecko_score: 17.281
-community_score: 7.847
+coingecko_rank: 1508
+coingecko_score: 17.327
+community_score: 8.333
 description: >-
   Q DAO Governance token by Platinum Engineering for USDQ, KRWQ, CNYQ, JPYQ stable coins
 developer_score: 0.0
@@ -25,8 +25,8 @@ links:
     - https://github.com/platinum-engineering/qdao-smartcontract-qdao
   telegram_channel_identifier: Platinumq
   twitter_screen_name: platinumqdao
-liquidity_score: 0.682
-market_cap_rank: 213
+liquidity_score: 0.425
+market_cap_rank: 224
 name: Q DAO Governance token v1.0
 public_interest_score: 26.176
 symbol: qdao
@@ -40,9 +40,24 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: ETH
+- base: QDAO
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: USDQ
+- base: QDAO
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USDT
+- base: QDAO
+  market:
+    identifier: btcnext
+    name: BTCNEXT
+  target: ETH
 - base: QDAO
   market:
     identifier: hotbit
     name: Hotbit
-  target: USDT
+  target: ETH

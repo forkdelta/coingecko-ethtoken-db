@@ -1,8 +1,8 @@
 ---
 address: '0x58b6A8A3302369DAEc383334672404Ee733aB239'
-coingecko_rank: 190
-coingecko_score: 39.201
-community_score: 24.683
+coingecko_rank: 192
+coingecko_score: 39.146
+community_score: 25.1
 description: >-
   The Livepeer project aims to deliver a live video streaming network protocol that is fully decentralized,
   highly scalable, crypto token incentivized, and results in a solution which can serve as the live media
@@ -70,12 +70,22 @@ links:
     - https://github.com/livepeer/protocol
   subreddit_url: https://www.reddit.com/r/livepeer
   twitter_screen_name: LivepeerOrg
-liquidity_score: 7.161
-market_cap_rank: 223
+liquidity_score: 6.333
+market_cap_rank: 217
 name: Livepeer
 public_interest_score: 26.837
 symbol: lpt
 tickers:
+- base: LPT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: LPT
+  market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
 - base: LPT
   market:
     identifier: bitcratic
@@ -86,6 +96,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: LPT
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: BTC
 - base: LPT
   market:
     identifier: radar_relay

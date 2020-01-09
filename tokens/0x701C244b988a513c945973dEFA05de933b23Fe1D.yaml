@@ -1,14 +1,14 @@
 ---
 address: '0x701C244b988a513c945973dEFA05de933b23Fe1D'
-coingecko_rank: 455
-coingecko_score: 30.008
-community_score: 8.516
+coingecko_rank: 456
+coingecko_score: 30.25
+community_score: 9.043
 description: >-
   OAX is an ERC20 token developed to fuel an open-source decentralized exchange platform “openANX” which
   provides an aggregated order book to increase liquidity; holds collateral for asset gateways to reduce
   credit risk; and features an off-chain, predetermined dispute resolution system governed by the Decentralized
   Autonomous Organization(DAO) to maximize consumer protection.
-developer_score: 35.044
+developer_score: 35.043
 id: openanx
 image:
   large: https://assets.coingecko.com/coins/images/853/large/openanx.png?1547034649
@@ -28,8 +28,8 @@ links:
   subreddit_url: https://www.reddit.com/r/OpenANX
   telegram_channel_identifier: openanxteam
   twitter_screen_name: oax_foundation
-liquidity_score: 25.488
-market_cap_rank: 407
+liquidity_score: 26.154
+market_cap_rank: 406
 name: OpenANX
 public_interest_score: 24.38
 symbol: oax
@@ -38,24 +38,14 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
-- base: OAX
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: BTC
 - base: OAX
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: OAX
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: OAX
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
+    identifier: gate
+    name: Gate.io
+  target: USDT
