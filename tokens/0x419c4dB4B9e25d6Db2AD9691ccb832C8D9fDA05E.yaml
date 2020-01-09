@@ -1,8 +1,8 @@
 ---
 address: '0x419c4dB4B9e25d6Db2AD9691ccb832C8D9fDA05E'
-coingecko_rank: 134
-coingecko_score: 43.158
-community_score: 28.247
+coingecko_rank: 131
+coingecko_score: 43.689
+community_score: 28.867
 description: >-
   Dragonchain is one of the newly launched cryptocurrencies that is attracting crypto enthusiasts following
   its relaunch. The coin seems to be leading on the technology front irrespective of its market capitalisation
@@ -37,7 +37,7 @@ description: >-
   platform’s ability to scale; an issue that Ethereum has been notorious for. As of January 2018, the
   DragonChain team is raising funds and finishing development of the platform. Although the exact date
   is currently unannounced, the DRGN platform is expected to fully launch sometime this year.
-developer_score: 76.9
+developer_score: 76.89
 id: dragonchain
 image:
   large: https://assets.coingecko.com/coins/images/1289/large/dragonchain.png?1547957761
@@ -58,16 +58,26 @@ links:
   subreddit_url: https://www.reddit.com/r/Dragonchainblockchain
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
-liquidity_score: 9.573
-market_cap_rank: 217
+liquidity_score: 10.616
+market_cap_rank: 212
 name: Dragonchain
 public_interest_score: 25.581
 symbol: drgn
 tickers:
+- base: DRN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: DRGN
   market:
-    identifier: idex
-    name: Idex
+    identifier: coss
+    name: COSS
+  target: ETH
+- base: DRGN
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: DRGN
   market:
@@ -78,4 +88,19 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
+  target: BTC
+- base: DRGN
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: DRGN
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: DRGN
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC

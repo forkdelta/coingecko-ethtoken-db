@@ -1,8 +1,8 @@
 ---
 address: '0x70a72833d6bF7F508C8224CE59ea1Ef3d0Ea3A38'
-coingecko_rank: 360
-coingecko_score: 32.488
-community_score: 32.541
+coingecko_rank: 357
+coingecko_score: 32.703
+community_score: 33.212
 description: >-
   The Utrust platform allows merchants to accept digital currencies as a means of payment. It brings digital
   currencies to mainstream consumers, while providing a reliable buyer protection, and credibility like
@@ -26,7 +26,7 @@ description: >-
   The Utrust platform supports multiple digital currencies, including our own native token - UTK. Users
   can purchase goods and services, with a zero-fee exchange rate. It is also used on refunds and as part
   of our affiliate referral program.
-developer_score: 14.887
+developer_score: 14.886
 id: utrust
 image:
   large: https://assets.coingecko.com/coins/images/1824/large/300x300_logo.png?1570520533
@@ -47,12 +47,22 @@ links:
   subreddit_url: https://www.reddit.com/r/UTRUST_Official
   telegram_channel_identifier: utrustofficial
   twitter_screen_name: UTRUST
-liquidity_score: 30.57
-market_cap_rank: 320
+liquidity_score: 30.992
+market_cap_rank: 318
 name: UTRUST
 public_interest_score: 25.548
 symbol: utk
 tickers:
+- base: UTK
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: UTK
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: UTK
   market:
     identifier: forkdelta
@@ -73,3 +83,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: UTK
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT

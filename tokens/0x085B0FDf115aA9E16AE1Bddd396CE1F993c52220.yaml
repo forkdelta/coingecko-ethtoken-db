@@ -1,8 +1,8 @@
 ---
 address: '0x085B0FDf115aA9E16AE1Bddd396CE1F993c52220'
-coingecko_rank: 4062
-coingecko_score: 5.393
-community_score: 10.134
+coingecko_rank: 4050
+coingecko_score: 5.48
+community_score: 10.481
 description: >-
   Highlander Network bringing Proof-of-Stake "ONEX" Token to Ethereum Classic platform.
 
@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: onexnet
   twitter_screen_name: onexnet
 liquidity_score: 1.0
-market_cap_rank: 6071
+market_cap_rank: 6105
 name: ONEX Network
 public_interest_score: 26.6
 symbol: onex
 tickers:
+- base: ONEX
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: ETC
 - base: ONEX
   market:
     identifier: exnce
@@ -45,3 +50,8 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: USDT
+- base: ONEX
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETC
