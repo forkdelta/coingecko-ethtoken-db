@@ -112,7 +112,9 @@ def main(listings):
             sleep(0.5)
 
         coin_details = fetch_coin_details(listing["id"])
-        if is_hex_address(coin_details.get("contract_address")):
+        token_platform = coin_details.get("asset_platform_id")
+        token_address = coin_details.get("contract_address")
+        if token_platform == "ethereum" and is_hex_address(token_address):
             # We've got a live one!
             token_entry = make_token_entry(coin_details)
             write_token_entry(token_entry["address"], token_entry)
