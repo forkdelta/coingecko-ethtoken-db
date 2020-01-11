@@ -68,16 +68,11 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 50.364
-market_cap_rank: 118
+market_cap_rank: 117
 name: aelf
 public_interest_score: 26.096
 symbol: elf
 tickers:
-- base: ELF
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
 - base: ELF
   market:
     identifier: bitfinex
@@ -90,19 +85,24 @@ tickers:
   target: USD
 - base: ELF
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: ELF
+  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
 - base: ELF
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: ELF
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: ELF
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: ELF
   market:
     identifier: hitbtc
@@ -113,8 +113,3 @@ tickers:
     identifier: vcc
     name: VCC Exchange
   target: BTC
-- base: ELF
-  market:
-    identifier: xt
-    name: XT
-  target: SXC

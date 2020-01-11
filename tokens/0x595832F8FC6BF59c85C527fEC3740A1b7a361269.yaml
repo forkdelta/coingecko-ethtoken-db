@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
 liquidity_score: 31.729
-market_cap_rank: 159
+market_cap_rank: 156
 name: Power Ledger
 public_interest_score: 24.019
 symbol: powr
@@ -73,14 +73,19 @@ tickers:
   target: ETH
 - base: POWR
   market:
+    identifier: btcmarkets
+    name: BTCMarkets
+  target: BTC
+- base: POWR
+  market:
     identifier: coinplace
     name: Coinplace
   target: BTC
 - base: POWR
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: dextrade
+    name: Dex-Trade
+  target: BTC
 - base: POWR
   market:
     identifier: gate
@@ -90,16 +95,6 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
-- base: POWR
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: POWR
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
 - base: POWR
   market:

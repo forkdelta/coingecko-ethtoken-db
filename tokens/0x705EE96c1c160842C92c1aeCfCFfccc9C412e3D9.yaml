@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: clearpoll_clearify
   twitter_screen_name: voteclearpoll
 liquidity_score: 1.0
-market_cap_rank: 1192
+market_cap_rank: 1178
 name: ClearPoll
 public_interest_score: 24.637
 symbol: poll
 tickers:
+- base: POLL
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
 - base: POLL
   market:
     identifier: forkdelta
@@ -40,6 +45,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: POLL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: POLL
   market:
     identifier: yobit

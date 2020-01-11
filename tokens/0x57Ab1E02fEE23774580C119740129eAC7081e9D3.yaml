@@ -39,13 +39,28 @@ links:
   telegram_channel_identifier: havven_official1
   twitter_screen_name: havven_io
 liquidity_score: 23.8
-market_cap_rank: 228
+market_cap_rank: 234
 name: sUSD
 public_interest_score: 26.787
 symbol: susd
 tickers:
+- base: SUSD
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
 - base: ETH
   market:
     identifier: eterbase
     name: Eterbase
+  target: SUSD
+- base: SUSD
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: SMKR
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
   target: SUSD

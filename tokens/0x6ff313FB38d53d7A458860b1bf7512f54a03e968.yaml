@@ -22,11 +22,21 @@ links:
   telegram_channel_identifier: merocurrency
   twitter_screen_name: merocurrency
 liquidity_score: 1.0
-market_cap_rank: 5440
+market_cap_rank: 5427
 name: Mero Currency
 public_interest_score: 22.895
 symbol: mro
 tickers:
+- base: MRO
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MRO
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: MRO
   market:
     identifier: mercatox

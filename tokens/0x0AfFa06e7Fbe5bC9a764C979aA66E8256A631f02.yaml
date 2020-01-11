@@ -25,11 +25,21 @@ links:
   homepage:
   - https://polybius.io/
 liquidity_score: 1.0
-market_cap_rank: 2569
+market_cap_rank: 6122
 name: Polybius
 public_interest_score: 24.702
 symbol: plbt
 tickers:
+- base: PLBT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PLBT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: PLBT
   market:
     identifier: livecoin
@@ -39,9 +49,4 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
-- base: PLBT
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
+  target: USD

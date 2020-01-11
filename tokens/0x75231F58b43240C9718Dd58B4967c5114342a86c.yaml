@@ -52,15 +52,10 @@ symbol: okb
 tickers:
 - base: OKB
   market:
-    identifier: bihodl
-    name: 'BiHODL '
-  target: USDT
-- base: OKB
-  market:
     identifier: lbank
     name: LBank
   target: USDT
-- base: SC
+- base: AE
   market:
     identifier: okex
     name: OKEx
@@ -70,13 +65,13 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: AE
+- base: SC
   market:
     identifier: okex
     name: OKEx
   target: OKB
-- base: IOTA
+- base: OKB
   market:
     identifier: okex
     name: OKEx
-  target: OKB
+  target: USDK

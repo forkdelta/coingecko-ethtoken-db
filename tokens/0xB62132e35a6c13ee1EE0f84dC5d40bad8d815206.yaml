@@ -43,9 +43,24 @@ symbol: nexo
 tickers:
 - base: NEXO
   market:
+    identifier: allbit
+    name: Allbit
+  target: ETH
+- base: NEXO
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: NEXO
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: NEXO-A84
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: XBASE-B
 - base: NEXO
   market:
     identifier: forkdelta
@@ -58,6 +73,6 @@ tickers:
   target: ETH
 - base: NEXO
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: mercatox
+    name: Mercatox
   target: ETH
