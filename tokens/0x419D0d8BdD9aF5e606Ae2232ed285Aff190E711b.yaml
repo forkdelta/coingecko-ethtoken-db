@@ -76,11 +76,16 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: USD
+  target: BTC
 - base: FUN
   market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: FUN
+  market:
+    identifier: c2cx
+    name: C2CX
   target: BTC
 - base: FUN
   market:
@@ -94,6 +99,11 @@ tickers:
   target: ETH
 - base: FUN
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: FUN
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
@@ -104,9 +114,9 @@ tickers:
   target: USD
 - base: FUN
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: FUN
   market:
     identifier: livecoin
@@ -114,6 +124,16 @@ tickers:
   target: ETH
 - base: FUN
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: FUN
+  market:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: FUN
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

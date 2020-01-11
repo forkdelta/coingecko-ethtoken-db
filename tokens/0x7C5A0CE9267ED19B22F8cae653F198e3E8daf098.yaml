@@ -25,7 +25,7 @@ links:
     - https://github.com/santiment/SantimentMobile
   twitter_screen_name: santimentfeed
 liquidity_score: 1.0
-market_cap_rank: 2069
+market_cap_rank: 2044
 name: Santiment Network Token
 public_interest_score: 27.258
 symbol: san
@@ -39,11 +39,26 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: ETH
+- base: SAN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
   target: USD
 - base: SAN
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: SAN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: SAN
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: SAN
   market:

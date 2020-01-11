@@ -58,30 +58,35 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 35.767
-market_cap_rank: 164
+market_cap_rank: 167
 name: Storj
 public_interest_score: 27.517
 symbol: storj
 tickers:
 - base: STORJ
   market:
-    identifier: abcc
-    name: ABCC
-  target: BTC
-- base: STORJ
-  market:
     identifier: bitasset
     name: BitAsset
   target: USDT
+- base: STORJ
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: STJ
   market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
+- base: STJ
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: STORJ
   market:
-    identifier: coinplace
-    name: Coinplace
+    identifier: financex
+    name: FinanceX
   target: BTC
 - base: STORJ
   market:
@@ -95,19 +100,14 @@ tickers:
   target: VND
 - base: STORJ
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: STORJ
+  market:
     identifier: gate
     name: Gate.io
   target: BTC
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: STORJ
   market:
     identifier: hitbtc
@@ -118,6 +118,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: STORJ
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
   market:
     identifier: lykke
@@ -127,6 +132,11 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
+  target: ETH
+- base: STORJ
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
   target: ETH
 - base: STORJ
   market:

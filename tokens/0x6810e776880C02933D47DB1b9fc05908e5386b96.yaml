@@ -70,6 +70,11 @@ symbol: gno
 tickers:
 - base: GNO
   market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: GNO
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
@@ -78,6 +83,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: GNO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: GNO
   market:
     identifier: credoex
@@ -90,6 +100,16 @@ tickers:
   target: KRW
 - base: GNO
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: GNO
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -98,6 +118,11 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: GNO
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: 65998168-6996-4EF1-88AD-246591316C7D
   market:
     identifier: lykke
@@ -105,16 +130,16 @@ tickers:
   target: BTC
 - base: GNO
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: GNO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: GNO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR

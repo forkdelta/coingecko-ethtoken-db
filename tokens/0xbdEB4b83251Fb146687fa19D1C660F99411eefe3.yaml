@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: savedroid
   twitter_screen_name: savedroidAG
 liquidity_score: 1.0
-market_cap_rank: 873
+market_cap_rank: 879
 name: Savedroid
 public_interest_score: 24.477
 symbol: svd
 tickers:
+- base: SVD
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: SVD
   market:
     identifier: hitbtc
@@ -47,11 +52,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: SVD
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: SVD
   market:
     identifier: idex

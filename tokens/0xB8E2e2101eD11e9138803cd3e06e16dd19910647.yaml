@@ -31,8 +31,18 @@ links:
   telegram_channel_identifier: ardcoin
   twitter_screen_name: ard_coin
 liquidity_score: 4.196
-market_cap_rank: 3785
+market_cap_rank: 4127
 name: ArdCoin
 public_interest_score: 26.037
 symbol: ardx
-tickers: []
+tickers:
+- base: ARDX
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: ARDX
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
