@@ -92,11 +92,6 @@ symbol: lrc
 tickers:
 - base: LRC
   market:
-    identifier: bitasset
-    name: BitAsset
-  target: USDT
-- base: LRC
-  market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
@@ -112,9 +107,19 @@ tickers:
   target: USD
 - base: LRC
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: LRC
+  market:
     identifier: dextrade
     name: Dex-Trade
   target: BTC
+- base: LRC
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
 - base: LRC
   market:
     identifier: forkdelta
@@ -130,3 +135,33 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: LRC
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

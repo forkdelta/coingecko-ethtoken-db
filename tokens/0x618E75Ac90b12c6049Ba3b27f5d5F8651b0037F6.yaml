@@ -71,6 +71,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
+- base: QSH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: QASH
   market:
     identifier: gate
@@ -88,9 +93,24 @@ tickers:
   target: USDT
 - base: QASH
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: QASH
+  market:
     identifier: quoine
     name: Liquid
   target: AUD
+- base: KRL
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: DACS
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: ONT
   market:
     identifier: quoine
@@ -101,17 +121,12 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: WIN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
 - base: CHI
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: CMCT
+- base: WIN
   market:
     identifier: quoine
     name: Liquid

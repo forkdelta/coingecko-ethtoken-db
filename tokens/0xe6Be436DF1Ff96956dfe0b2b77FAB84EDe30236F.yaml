@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: revelationcoin
   twitter_screen_name: revelationcoin
 liquidity_score: 1.0
-market_cap_rank: 3460
+market_cap_rank: 2520
 name: Revelation coin
 public_interest_score: 34.876
 symbol: rev
 tickers:
+- base: REV
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: REV
   market:
     identifier: catex
@@ -38,9 +43,14 @@ tickers:
   target: ETH
 - base: REV
   market:
-    identifier: exnce
-    name: EXNCE
-  target: USDC
+    identifier: catex
+    name: Catex
+  target: TRX
+- base: REV
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: REV
   market:
     identifier: finexbox

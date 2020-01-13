@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/BSVBULL
 liquidity_score: 6.28
-market_cap_rank: 2699
+market_cap_rank: 2596
 name: 3X Long Bitcoin SV Token
 public_interest_score: 0.025
 symbol: bsvbull
-tickers: []
+tickers:
+- base: BSVBULL
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

@@ -27,8 +27,23 @@ links:
   subreddit_url: https://www.reddit.com/r/CargoXio/
   twitter_screen_name: 'cargoxio '
 liquidity_score: 1.0
-market_cap_rank: 590
+market_cap_rank: 566
 name: CargoX
 public_interest_score: 24.407
 symbol: cxo
-tickers: []
+tickers:
+- base: CXO
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: CXO
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: CXO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

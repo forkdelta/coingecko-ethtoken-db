@@ -40,11 +40,21 @@ links:
   telegram_channel_identifier: IQeonICO
   twitter_screen_name: IQeon
 liquidity_score: 4.881
-market_cap_rank: 419
+market_cap_rank: 422
 name: IQeon
 public_interest_score: 24.202
 symbol: iqn
 tickers:
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: IQN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: IQN
   market:
     identifier: yobit
@@ -55,8 +65,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: IQN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
