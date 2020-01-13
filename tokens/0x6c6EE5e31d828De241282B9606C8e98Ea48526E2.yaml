@@ -105,11 +105,6 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: HOT
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -123,6 +118,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: HOT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
 - base: HOT
   market:
     identifier: livecoin
@@ -153,3 +153,8 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: HOT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

@@ -65,6 +65,11 @@ symbol: rep
 tickers:
 - base: REP
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: REP
+  market:
     identifier: bitasset
     name: BitAsset
   target: BTC
@@ -80,19 +85,14 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: KRW
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: REP
   market:
     identifier: btcexa
     name: BTCEXA
   target: ETH
-- base: REP
-  market:
-    identifier: credoex
-    name: CredoEx
-  target: CREDO
 - base: REP
   market:
     identifier: crex24
@@ -103,11 +103,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: REP
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: REP
   market:
     identifier: independent_reserve
@@ -123,6 +118,11 @@ tickers:
     identifier: independent_reserve
     name: Independent Reserve
   target: USD
+- base: REP
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
   market:
     identifier: lykke
@@ -138,6 +138,11 @@ tickers:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
+- base: REP
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: ETH
 - base: REP
   market:
     identifier: switcheo

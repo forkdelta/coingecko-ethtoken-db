@@ -57,16 +57,26 @@ links:
   telegram_channel_identifier: ostdotcom
   twitter_screen_name: OSTdotcom
 liquidity_score: 22.103
-market_cap_rank: 256
+market_cap_rank: 255
 name: OST
 public_interest_score: 43.875
 symbol: ost
 tickers:
 - base: OST
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: OST
+  market:
     identifier: gate
     name: Gate.io
   target: USDT
+- base: OST
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: OST
   market:
     identifier: kyber_network
@@ -81,4 +91,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: OST
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

@@ -34,16 +34,21 @@ symbol: loc
 tickers:
 - base: LOC
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LOC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: LOC
+  market:
     identifier: hitbtc
     name: HitBTC
   target: USD
 - base: LOC
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: BTC
-- base: LOC
-  market:
-    identifier: latoken
-    name: LATOKEN
+    identifier: kucoin
+    name: KuCoin
   target: ETH

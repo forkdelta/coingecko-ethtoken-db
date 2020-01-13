@@ -22,8 +22,18 @@ links:
   telegram_channel_identifier: https://t.me/datawallet
   twitter_screen_name: DataWalletHQ
 liquidity_score: 9.093
-market_cap_rank: 886
+market_cap_rank: 900
 name: Datawallet
 public_interest_score: 27.979
 symbol: dxt
-tickers: []
+tickers:
+- base: DXT
+  market:
+    identifier: exmo
+    name: EXMO
+  target: BTC
+- base: DXT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

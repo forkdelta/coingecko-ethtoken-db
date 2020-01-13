@@ -94,11 +94,6 @@ tickers:
   target: ETH
 - base: KIN
   market:
-    identifier: bit_z
-    name: Bit-Z
-  target: USDT
-- base: KIN
-  market:
     identifier: coss
     name: COSS
   target: ETH
@@ -112,6 +107,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: KIN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: 568637D4-2B03-4F66-972E-B947A40F2771
   market:
     identifier: lykke
@@ -122,21 +122,16 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
+- base: 568637D4-2B03-4F66-972E-B947A40F2771
+  market:
+    identifier: lykke
+    name: Lykke
+  target: USD
 - base: KIN
   market:
     identifier: mercatox
     name: Mercatox
   target: BTC
-- base: KIN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
-- base: KIN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: LTC
 - base: KIN
   market:
     identifier: p2pb2b
@@ -157,11 +152,6 @@ tickers:
     identifier: satoexchange
     name: SatoExchange
   target: SATX
-- base: KIN
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
 - base: KIN
   market:
     identifier: yobit

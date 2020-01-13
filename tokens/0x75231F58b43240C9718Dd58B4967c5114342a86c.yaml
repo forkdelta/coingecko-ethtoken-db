@@ -52,9 +52,24 @@ symbol: okb
 tickers:
 - base: OKB
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: OKB
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: ETH
+- base: OKB
+  market:
     identifier: lbank
     name: LBank
   target: USDT
+- base: SC
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: AE
   market:
     identifier: okex
@@ -65,7 +80,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: SC
+- base: IOTA
   market:
     identifier: okex
     name: OKEx

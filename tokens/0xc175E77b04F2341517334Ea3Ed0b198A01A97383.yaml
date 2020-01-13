@@ -1,6 +1,6 @@
 ---
 address: '0xc175E77b04F2341517334Ea3Ed0b198A01A97383'
-coingecko_rank: 6318
+coingecko_rank: 6365
 coingecko_score: 0.202
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/TRXBULL
 liquidity_score: 1.0
-market_cap_rank: 3916
+market_cap_rank: 6339
 name: 3X Long TRX Token
 public_interest_score: 0.025
 symbol: trxbull
-tickers: []
+tickers:
+- base: TRXBULL
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

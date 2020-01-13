@@ -62,7 +62,7 @@ links:
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankrnetwork
 liquidity_score: 33.978
-market_cap_rank: 291
+market_cap_rank: 292
 name: Ankr
 public_interest_score: 27.576
 symbol: ankr
@@ -86,6 +86,21 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: BTC
+- base: ANKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: ANKR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: ANKR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: ANKR
   market:
@@ -101,7 +116,12 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: BTC
+- base: ANKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: ANKR
   market:
     identifier: upbit
@@ -111,9 +131,4 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: BTC
-- base: ANKR
-  market:
-    identifier: vitex
-    name: ViteX
   target: BTC

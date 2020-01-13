@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
 liquidity_score: 22.196
-market_cap_rank: 181
+market_cap_rank: 183
 name: Dent
 public_interest_score: 31.443
 symbol: dent
 tickers:
+- base: DENT
+  market:
+    identifier: btcexa
+    name: BTCEXA
+  target: ETH
 - base: DENT
   market:
     identifier: coinbene
@@ -45,6 +50,21 @@ tickers:
     identifier: dextrade
     name: Dex-Trade
   target: BTC
+- base: DENT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
+- base: DENT
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: DENT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DENT
   market:
     identifier: hitbtc
@@ -65,11 +85,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: BTC
-- base: DENT
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
 - base: 63564C71-A5B2-4223-80CA-40FA22770E66
   market:
     identifier: lykke
@@ -97,6 +112,36 @@ tickers:
   target: BTC
 - base: DENT
   market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: DENT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT
+- base: DENT
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: DENT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: DENT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
+- base: DENT
+  market:
     identifier: vcc
     name: VCC Exchange
   target: BTC
+- base: DENT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

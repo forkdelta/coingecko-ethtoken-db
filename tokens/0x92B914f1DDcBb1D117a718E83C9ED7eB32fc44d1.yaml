@@ -26,8 +26,18 @@ links:
   subreddit_url: https://www.reddit.com/r/EnkronosApps
   twitter_screen_name: enkronos
 liquidity_score: 1.0
-market_cap_rank: 2811
+market_cap_rank: 2012
 name: Enkronos
 public_interest_score: 26.031
 symbol: enk
-tickers: []
+tickers:
+- base: ENK
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: ENK
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
