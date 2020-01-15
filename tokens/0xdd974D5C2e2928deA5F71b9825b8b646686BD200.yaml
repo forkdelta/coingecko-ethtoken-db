@@ -68,6 +68,11 @@ symbol: knc
 tickers:
 - base: KNC
   market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: KNC
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
@@ -76,11 +81,6 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
-- base: KNC
-  market:
-    identifier: coss
-    name: COSS
-  target: ETH
 - base: KNC
   market:
     identifier: cpdax
@@ -93,26 +93,6 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: KNC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: KNC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: KNC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: KNC
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -120,11 +100,6 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
-- base: KNC
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
   target: ETH
 - base: KNC
   market:

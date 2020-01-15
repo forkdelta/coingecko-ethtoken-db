@@ -1,6 +1,6 @@
 ---
 address: '0x595832F8FC6BF59c85C527fEC3740A1b7a361269'
-coingecko_rank: 337
+coingecko_rank: 336
 coingecko_score: 33.148
 community_score: 45.895
 description: >-
@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
 liquidity_score: 31.729
-market_cap_rank: 151
+market_cap_rank: 154
 name: Power Ledger
 public_interest_score: 24.019
 symbol: powr
@@ -71,6 +71,11 @@ tickers:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
+- base: POWR
+  market:
+    identifier: btcmarkets
+    name: BTCMarkets
+  target: BTC
 - base: POWR
   market:
     identifier: dextrade
@@ -85,7 +90,12 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: ETH
+  target: BTC
+- base: POWR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: POWR
   market:
     identifier: idex
@@ -108,6 +118,11 @@ tickers:
   target: USDT
 - base: POWR
   market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH
+- base: POWR
+  market:
     identifier: upbit
     name: Upbit
   target: BTC
@@ -115,4 +130,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: POWR
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

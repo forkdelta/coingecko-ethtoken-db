@@ -1,6 +1,6 @@
 ---
 address: '0x0AbdAce70D3790235af448C88547603b945604ea'
-coingecko_rank: 175
+coingecko_rank: 174
 coingecko_score: 40.338
 community_score: 36.192
 description: >-
@@ -71,7 +71,7 @@ links:
   subreddit_url: https://www.reddit.com/r/district0x
   twitter_screen_name: district0x
 liquidity_score: 19.699
-market_cap_rank: 350
+market_cap_rank: 341
 name: district0x
 public_interest_score: 25.654
 symbol: dnt
@@ -83,6 +83,11 @@ tickers:
   target: ETH
 - base: DNT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: DNT
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -91,11 +96,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: DNT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: 3F24CA13-F371-484B-8B07-15F1C74D2DFD
   market:
     identifier: lykke
@@ -115,4 +115,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: DNT
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

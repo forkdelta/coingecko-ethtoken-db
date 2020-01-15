@@ -1,6 +1,6 @@
 ---
 address: '0x24982f160803DaCa0233661d1860de77046519a4'
-coingecko_rank: 6371
+coingecko_rank: 6313
 coingecko_score: 0.202
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/MIDMOON
 liquidity_score: 1.0
-market_cap_rank: 3916
+market_cap_rank: 6317
 name: 10X Long Midcap Index Token
 public_interest_score: 0.025
 symbol: midmoon
-tickers: []
+tickers:
+- base: MIDMOON
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

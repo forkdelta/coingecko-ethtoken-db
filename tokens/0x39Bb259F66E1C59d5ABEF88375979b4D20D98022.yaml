@@ -1,6 +1,6 @@
 ---
 address: '0x39Bb259F66E1C59d5ABEF88375979b4D20D98022'
-coingecko_rank: 478
+coingecko_rank: 477
 coingecko_score: 29.587
 community_score: 32.889
 description: >-
@@ -56,7 +56,7 @@ links:
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
 liquidity_score: 24.999
-market_cap_rank: 144
+market_cap_rank: 145
 name: WAX
 public_interest_score: 34.13
 symbol: waxp
@@ -65,17 +65,17 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: BTC
-- base: WAX
-  market:
-    identifier: bitfinex
-    name: Bitfinex
   target: ETH
-- base: WAX
+- base: WAXP
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: WAXP
   market:
     identifier: hitbtc
@@ -96,13 +96,3 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
-- base: WAXP
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: WAXP
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

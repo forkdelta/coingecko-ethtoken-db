@@ -1,6 +1,6 @@
 ---
 address: '0x85e076361cc813A908Ff672F9BAd1541474402b2'
-coingecko_rank: 396
+coingecko_rank: 395
 coingecko_score: 31.868
 community_score: 33.79
 description: >-
@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: telcoincommunity
   twitter_screen_name: telcoin_team
 liquidity_score: 20.089
-market_cap_rank: 190
+market_cap_rank: 200
 name: Telcoin
 public_interest_score: 24.895
 symbol: tel
@@ -46,13 +46,8 @@ tickers:
   target: ETH
 - base: TEL
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: TEL
-  market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: idex
+    name: Idex
   target: ETH
 - base: TEL
   market:
@@ -64,3 +59,8 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: BTC
+- base: TEL
+  market:
+    identifier: simex
+    name: Simex
+  target: USD

@@ -1,6 +1,6 @@
 ---
 address: '0xB4272071eCAdd69d933AdcD19cA99fe80664fc08'
-coingecko_rank: 5101
+coingecko_rank: 5099
 coingecko_score: 3.862
 community_score: 5.192
 description: >-
@@ -30,11 +30,16 @@ links:
   - https://www.swisscryptotokens.ch/
   twitter_screen_name: SwissTokens
 liquidity_score: 1.0
-market_cap_rank: 4260
+market_cap_rank: 2137
 name: CryptoFranc
 public_interest_score: 23.64
 symbol: xchf
 tickers:
+- base: XCH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: XCH
   market:
     identifier: bitfinex
@@ -45,13 +50,3 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: XCH
-- base: XCHF
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: XCHF
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0x2ccbFF3A042c68716Ed2a2Cb0c544A9f1d1935E1'
-coingecko_rank: 200
+coingecko_rank: 199
 coingecko_score: 38.541
 community_score: 30.301
 description: >-
@@ -55,11 +55,16 @@ links:
   telegram_channel_identifier: dmarket_io
   twitter_screen_name: dmarket_com
 liquidity_score: 33.832
-market_cap_rank: 222
+market_cap_rank: 218
 name: DMarket
 public_interest_score: 24.526
 symbol: dmt
 tickers:
+- base: DMT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: DMT
   market:
     identifier: idex
@@ -67,13 +72,8 @@ tickers:
   target: ETH
 - base: DMT
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: DMT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: DMT
   market:

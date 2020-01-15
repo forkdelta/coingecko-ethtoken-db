@@ -1,6 +1,6 @@
 ---
 address: '0xEBBdf302c940c6bfd49C6b165f457fdb324649bc'
-coingecko_rank: 537
+coingecko_rank: 536
 coingecko_score: 28.265
 community_score: 29.986
 description: >-
@@ -46,11 +46,16 @@ links:
   subreddit_url: https://www.reddit.com/r/ProjectHydro/
   twitter_screen_name: HydroBlockchain
 liquidity_score: 29.123
-market_cap_rank: 252
+market_cap_rank: 264
 name: Hydro
 public_interest_score: 25.915
 symbol: hydro
 tickers:
+- base: HYDRO
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: HYDRO
   market:
     identifier: bitmart
@@ -63,13 +68,23 @@ tickers:
   target: ETH
 - base: HYDRO
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: HYDRO
+  market:
     identifier: quoine
     name: Liquid
   target: EUR
 - base: HYDRO
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: thetokenstore
+    name: Token.Store
   target: ETH
 - base: HYDRO
   market:
@@ -80,4 +95,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC
