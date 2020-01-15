@@ -1,6 +1,6 @@
 ---
 address: '0x1a7a8BD9106F2B8D977E08582DC7d24c723ab0DB'
-coingecko_rank: 194
+coingecko_rank: 193
 coingecko_score: 39.126
 community_score: 33.117
 description: >-
@@ -60,7 +60,7 @@ links:
   subreddit_url: https://www.reddit.com/r/AppcoinsProtocol
   twitter_screen_name: AppCoinsProject
 liquidity_score: 22.931
-market_cap_rank: 401
+market_cap_rank: 405
 name: AppCoins
 public_interest_score: 25.599
 symbol: appc
@@ -69,7 +69,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: APPC
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: USD
+- base: APPC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: APPC
   market:
     identifier: kyber_network

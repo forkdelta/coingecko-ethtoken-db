@@ -60,7 +60,7 @@ links:
   telegram_channel_identifier: selfkeyfoundation
   twitter_screen_name: SelfKey
 liquidity_score: 37.424
-market_cap_rank: 323
+market_cap_rank: 346
 name: SelfKey
 public_interest_score: 26.027
 symbol: key
@@ -72,6 +72,11 @@ tickers:
   target: BTC
 - base: KEY
   market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: KEY
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -80,6 +85,11 @@ tickers:
     identifier: idcm
     name: IDCM
   target: BTC
+- base: KEY
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: KEY
   market:
     identifier: p2pb2b

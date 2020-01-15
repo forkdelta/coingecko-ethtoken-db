@@ -58,11 +58,16 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 41.439
-market_cap_rank: 26
+market_cap_rank: 25
 name: Maker
 public_interest_score: 27.049
 symbol: mkr
 tickers:
+- base: MKR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: MKR
   market:
     identifier: bibox
@@ -75,9 +80,9 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: cryptaldash
+    name: CryptalDash
+  target: BTC
 - base: MKR
   market:
     identifier: ddex
@@ -95,19 +100,44 @@ tickers:
   target: USDT
 - base: MKR
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: MKR
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: MKR
   market:
-    identifier: localtrade
-    name: LocalTrade
-  target: USD
+    identifier: omgfin
+    name: Omgfin
+  target: BTC
+- base: MKR
+  market:
+    identifier: omgfin
+    name: Omgfin
+  target: ETH
+- base: MKR
+  market:
+    identifier: omgfin
+    name: Omgfin
+  target: UQC
+- base: MKR
+  market:
+    identifier: omgfin
+    name: Omgfin
+  target: USDT
 - base: MKR
   market:
     identifier: sistemkoin
     name: Sistemkoin
   target: BTC
+- base: MKR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
 - base: MKR
   market:
     identifier: sistemkoin
@@ -125,6 +155,11 @@ tickers:
   target: DAI
 - base: MKR
   market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: MKR
+  market:
     identifier: tokenize
     name: Tokenize
   target: BTC
@@ -137,17 +172,12 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: BTC
+  target: DOGE
 - base: MKR
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
-- base: MKR
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT
 - base: MKR
   market:
     identifier: upbit

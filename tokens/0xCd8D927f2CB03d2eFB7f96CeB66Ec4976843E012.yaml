@@ -1,6 +1,6 @@
 ---
 address: '0xCd8D927f2CB03d2eFB7f96CeB66Ec4976843E012'
-coingecko_rank: 2701
+coingecko_rank: 2699
 coingecko_score: 9.504
 community_score: 27.488
 description: >-
@@ -29,8 +29,18 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 1.0
-market_cap_rank: 2276
+market_cap_rank: 1943
 name: iTRX
 public_interest_score: 24.319
 symbol: itrx
-tickers: []
+tickers:
+- base: ITRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
+- base: ITRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH

@@ -1,6 +1,6 @@
 ---
 address: '0x763186eB8d4856D536eD4478302971214FEbc6A9'
-coingecko_rank: 1525
+coingecko_rank: 1524
 coingecko_score: 17.206
 community_score: 7.369
 description: >-
@@ -40,11 +40,16 @@ links:
     - https://github.com/BetterBetting/Contracts
   twitter_screen_name: BETRBetting
 liquidity_score: 1.0
-market_cap_rank: 1384
+market_cap_rank: 1350
 name: BetterBetting
 public_interest_score: 37.372
 symbol: betr
 tickers:
+- base: BETR
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: BETR
   market:
     identifier: hitbtc
@@ -55,3 +60,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: BETR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

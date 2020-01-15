@@ -55,8 +55,18 @@ links:
   telegram_channel_identifier: oneledger
   twitter_screen_name: OneLedgerTech
 liquidity_score: 26.865
-market_cap_rank: 472
+market_cap_rank: 469
 name: OneLedger
 public_interest_score: 24.181
 symbol: olt
-tickers: []
+tickers:
+- base: OLT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: OLT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
