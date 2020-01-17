@@ -28,8 +28,23 @@ links:
     - https://github.com/platonfinance/SmartContracts
   twitter_screen_name: platonfinance
 liquidity_score: 16.501
-market_cap_rank: 734
+market_cap_rank: 733
 name: PlatonCoin
 public_interest_score: 26.027
 symbol: pltc
-tickers: []
+tickers:
+- base: PLTC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
+- base: PLTC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: PLTC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD

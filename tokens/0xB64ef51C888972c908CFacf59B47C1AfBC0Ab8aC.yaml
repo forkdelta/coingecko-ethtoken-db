@@ -63,11 +63,6 @@ name: Storj
 public_interest_score: 27.517
 symbol: storj
 tickers:
-- base: STORJ
-  market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
 - base: STJ
   market:
     identifier: bitfinex
@@ -97,16 +92,6 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: STORJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
 - base: STORJ
   market:
@@ -123,11 +108,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
+- base: STORJ
   market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
   market:
     identifier: lykke
@@ -140,14 +125,29 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: STORJ
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: STORJ
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: STORJ
   market:
     identifier: yobit

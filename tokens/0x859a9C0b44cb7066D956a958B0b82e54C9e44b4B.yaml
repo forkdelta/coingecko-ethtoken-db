@@ -1,6 +1,6 @@
 ---
 address: '0x859a9C0b44cb7066D956a958B0b82e54C9e44b4B'
-coingecko_rank: 2831
+coingecko_rank: 2830
 coingecko_score: 8.893
 community_score: 7.336
 description: >-
@@ -24,7 +24,7 @@ links:
     - https://github.com/ethereumfan/iethereum
   twitter_screen_name: iethereum
 liquidity_score: 1.0
-market_cap_rank: 2178
+market_cap_rank: 2987
 name: iEthereum
 public_interest_score: 37.942
 symbol: ieth
@@ -41,9 +41,14 @@ tickers:
   target: ETH
 - base: IETH
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: yobit
+    name: YoBit
   target: BTC
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: IETH
   market:
     identifier: yobit
@@ -54,3 +59,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

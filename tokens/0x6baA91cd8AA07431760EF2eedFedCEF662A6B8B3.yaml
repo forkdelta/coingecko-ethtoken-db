@@ -1,6 +1,6 @@
 ---
 address: '0x6baA91cd8AA07431760EF2eedFedCEF662A6B8B3'
-coingecko_rank: 6417
+coingecko_rank: 6410
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/EXCHBEAR
 liquidity_score: 1.0
-market_cap_rank: 3686
+market_cap_rank: 4360
 name: 3X Short Exchange Token Index Token
 public_interest_score: 0.0
 symbol: exchbear
-tickers: []
+tickers:
+- base: EXCHBEAR
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

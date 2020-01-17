@@ -40,8 +40,18 @@ links:
   telegram_channel_identifier: cocosblockchainexpedition
   twitter_screen_name: cocosbcx
 liquidity_score: 39.835
-market_cap_rank: 203
+market_cap_rank: 212
 name: COCOS BCX
 public_interest_score: 24.72
 symbol: cocos
-tickers: []
+tickers:
+- base: COCOS
+  market:
+    identifier: citex
+    name: CITEX
+  target: BTC
+- base: COCOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

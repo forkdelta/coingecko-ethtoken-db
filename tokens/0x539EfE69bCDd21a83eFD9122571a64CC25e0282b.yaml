@@ -26,8 +26,18 @@ links:
     - https://github.com/BlueCrypto/go-ethereum
   twitter_screen_name: blue_protocol
 liquidity_score: 20.348
-market_cap_rank: 1004
+market_cap_rank: 997
 name: Blue Protocol
 public_interest_score: 33.788
 symbol: blue
-tickers: []
+tickers:
+- base: BLUE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BLUE
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

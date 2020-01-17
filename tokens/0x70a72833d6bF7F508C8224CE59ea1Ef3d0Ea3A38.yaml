@@ -48,7 +48,7 @@ links:
   telegram_channel_identifier: utrustofficial
   twitter_screen_name: UTRUST
 liquidity_score: 30.992
-market_cap_rank: 310
+market_cap_rank: 317
 name: UTRUST
 public_interest_score: 25.548
 symbol: utk
@@ -65,8 +65,23 @@ tickers:
   target: ETH
 - base: UTK
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: UTK
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: UTK
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: UTK
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: UTK
   market:
@@ -77,4 +92,14 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: BTC
+- base: UTK
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
+- base: UTK
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT

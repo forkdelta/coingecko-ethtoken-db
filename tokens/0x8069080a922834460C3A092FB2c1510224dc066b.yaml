@@ -35,13 +35,23 @@ links:
   telegram_channel_identifier: spacechainkor
   twitter_screen_name: SpaceChain
 liquidity_score: 20.98
-market_cap_rank: 573
+market_cap_rank: 544
 name: SpaceChain (ERC-20)
 public_interest_score: 24.484
 symbol: spc
 tickers:
 - base: SPC
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: SPC
+  market:
     identifier: cpdax
     name: CPDAX
+  target: KRW
+- base: SPC
+  market:
+    identifier: probit
+    name: Probit
   target: KRW

@@ -1,6 +1,6 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 2213
+coingecko_rank: 2212
 coingecko_score: 12.434
 community_score: 11.554
 description: >-
@@ -19,7 +19,7 @@ links:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
 liquidity_score: 33.398
-market_cap_rank: 3450
+market_cap_rank: 6286
 name: Yobit Token
 public_interest_score: 28.66
 symbol: yo
@@ -31,9 +31,14 @@ tickers:
   target: BTC
 - base: YO
   market:
-    identifier: unnamed
-    name: Unnamed
-  target: DOGE
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: YO
   market:
     identifier: yobit
@@ -43,33 +48,8 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: YO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
+  target: WAVES
 - base: DOGE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: SEDO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: EOS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: EDC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: VERA
   market:
     identifier: yobit
     name: YoBit
@@ -79,7 +59,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BTT
+- base: VERA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: LTC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ZEC
   market:
     identifier: yobit
     name: YoBit
@@ -89,18 +79,38 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
+- base: TRX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EOS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
 - base: BCHABC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHSV
+- base: ETH
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: YO
+- base: BTT
   market:
-    identifier: zg
-    name: ZG.com
-  target: USDT
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EDC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: SEDO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO

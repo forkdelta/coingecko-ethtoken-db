@@ -56,16 +56,26 @@ links:
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
 liquidity_score: 43.937
-market_cap_rank: 215
+market_cap_rank: 213
 name: Polymath Network
 public_interest_score: 27.582
 symbol: poly
 tickers:
-- base: POLY
+- base: POY
   market:
-    identifier: bithumb
-    name: Bithumb
-  target: KRW
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: POY
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: POY
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: POLY
   market:
     identifier: bitrue
@@ -73,23 +83,23 @@ tickers:
   target: XRP
 - base: POLY
   market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: BTC
-- base: POLY
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
 - base: POLY
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: POLY
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: POLY
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: POLY
   market:
@@ -103,6 +113,11 @@ tickers:
   target: ETH
 - base: POLY
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: POLY
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
