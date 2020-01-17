@@ -93,7 +93,7 @@ links:
   telegram_channel_identifier: quarkchainio
   twitter_screen_name: Quark_Chain
 liquidity_score: 36.005
-market_cap_rank: 210
+market_cap_rank: 206
 name: QuarkChain
 public_interest_score: 25.418
 symbol: qkc
@@ -107,21 +107,11 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: BTC
+  target: USD
 - base: QKC
   market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: QKC
-  market:
-    identifier: financex
-    name: FinanceX
-  target: IDR
-- base: QKC
-  market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
 - base: QKC
   market:
@@ -138,3 +128,13 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: QKC
+  market:
+    identifier: piexgo
+    name: Piexgo
+  target: USDT
+- base: QKC
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

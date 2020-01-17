@@ -68,11 +68,16 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 50.364
-market_cap_rank: 115
+market_cap_rank: 112
 name: aelf
 public_interest_score: 26.096
 symbol: elf
 tickers:
+- base: ELF
+  market:
+    identifier: bcex
+    name: BCEX
+  target: USDT
 - base: ELF
   market:
     identifier: bibox
@@ -117,4 +122,19 @@ tickers:
   market:
     identifier: dextrade
     name: Dex-Trade
+  target: USDT
+- base: ELF
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: ELF
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: ELF
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: USDT

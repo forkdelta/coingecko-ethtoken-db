@@ -54,7 +54,7 @@ links:
   telegram_channel_identifier: enigmacatalyst
   twitter_screen_name: enigmampc
 liquidity_score: 37.387
-market_cap_rank: 100
+market_cap_rank: 99
 name: Enigma
 public_interest_score: 30.206
 symbol: eng
@@ -66,9 +66,24 @@ tickers:
   target: ETH
 - base: ENG
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: ENG
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: ENG
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: ENG
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: ENG
   market:
     identifier: huobi_korea
@@ -84,11 +99,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: BTC
-- base: 81FF816D-4CA6-4C88-A454-3F7A1B80F472
-  market:
-    identifier: lykke
-    name: Lykke
-  target: BTC
 - base: ENG
   market:
     identifier: upbit
@@ -99,3 +109,8 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: ENG
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH

@@ -58,7 +58,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 41.439
-market_cap_rank: 25
+market_cap_rank: 26
 name: Maker
 public_interest_score: 27.049
 symbol: mkr
@@ -85,16 +85,6 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: MKR
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: MKR
-  market:
     identifier: gate
     name: Gate.io
   target: USDT
@@ -105,28 +95,23 @@ tickers:
   target: KRW
 - base: MKR
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: MKR
   market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: okex_korea
+    name: OKEx Korea
   target: BTC
 - base: MKR
   market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: okex_korea
+    name: OKEx Korea
   target: ETH
 - base: MKR
   market:
-    identifier: omgfin
-    name: Omgfin
-  target: UQC
-- base: MKR
-  market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: okex_korea
+    name: OKEx Korea
   target: USDT
 - base: MKR
   market:
@@ -172,12 +157,22 @@ tickers:
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
+  target: BTC
+- base: MKR
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: DOGE
 - base: MKR
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
+- base: MKR
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT
 - base: MKR
   market:
     identifier: upbit

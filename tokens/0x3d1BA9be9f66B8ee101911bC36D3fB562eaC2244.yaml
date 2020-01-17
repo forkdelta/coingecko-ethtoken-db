@@ -26,8 +26,18 @@ links:
   telegram_channel_identifier: rivet_group
   twitter_screen_name: rivetzcorp
 liquidity_score: 1.0
-market_cap_rank: 995
+market_cap_rank: 993
 name: Rivetz
 public_interest_score: 24.673
 symbol: rvt
-tickers: []
+tickers:
+- base: RVT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: RVT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC

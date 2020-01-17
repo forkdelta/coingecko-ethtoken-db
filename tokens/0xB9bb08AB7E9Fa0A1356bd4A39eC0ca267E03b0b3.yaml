@@ -47,7 +47,7 @@ links:
   telegram_channel_identifier: pchain_org
   twitter_screen_name: pchain_org
 liquidity_score: 21.261
-market_cap_rank: 390
+market_cap_rank: 399
 name: Pchain
 public_interest_score: 24.334
 symbol: pi
@@ -64,21 +64,41 @@ tickers:
   target: BNB
 - base: PI
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: PI
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: PI
   market:
-    identifier: vcc
-    name: VCC Exchange
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: PI
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: PAI
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: PAI
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

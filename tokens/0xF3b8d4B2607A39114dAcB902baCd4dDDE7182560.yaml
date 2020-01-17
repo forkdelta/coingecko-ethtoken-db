@@ -1,6 +1,6 @@
 ---
 address: '0xF3b8d4B2607A39114dAcB902baCd4dDDE7182560'
-coingecko_rank: 6323
+coingecko_rank: 6326
 coingecko_score: 0.202
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/USDTHEDGE
 liquidity_score: 1.0
-market_cap_rank: 3902
+market_cap_rank: 4301
 name: 1X Short Tether Token
 public_interest_score: 0.025
 symbol: usdthedge
-tickers: []
+tickers:
+- base: USDTHEDGE
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

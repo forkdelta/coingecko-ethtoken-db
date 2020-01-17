@@ -49,7 +49,7 @@ links:
   telegram_channel_identifier: HelloLambda
   twitter_screen_name: Lambdaim
 liquidity_score: 55.006
-market_cap_rank: 89
+market_cap_rank: 90
 name: Lambda
 public_interest_score: 34.115
 symbol: lamb
@@ -59,6 +59,16 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: LAMB
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: LAMB
+  market:
+    identifier: piexgo
+    name: Piexgo
+  target: USDT
 - base: LAMB
   market:
     identifier: trade_satoshi
@@ -79,13 +89,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: USDT
-- base: LAMB
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: LAMB
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

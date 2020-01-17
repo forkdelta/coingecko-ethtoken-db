@@ -58,13 +58,13 @@ symbol: zil
 tickers:
 - base: ZIL
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ZIL
   market:
-    identifier: dextrade
-    name: Dex-Trade
+    identifier: bitmax
+    name: BitMax
   target: BTC
 - base: ZIL
   market:
@@ -73,28 +73,8 @@ tickers:
   target: ETH
 - base: ZIL
   market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
-- base: ZIL
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: ZIL
-  market:
-    identifier: exrates
-    name: Exrates
-  target: USD
-- base: ZIL
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: ZIL
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: ZIL
   market:
@@ -110,9 +90,14 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: TRY
+  target: USDT
 - base: ZIL
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
+    identifier: wazirx
+    name: WazirX
   target: BTC
+- base: ZIL
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

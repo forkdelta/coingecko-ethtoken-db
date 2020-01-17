@@ -41,7 +41,7 @@ links:
   subreddit_url: https://www.reddit.com/r/Bibox
   twitter_screen_name: Bibox365
 liquidity_score: 36.402
-market_cap_rank: 198
+market_cap_rank: 203
 name: Bibox Token
 public_interest_score: 27.243
 symbol: bix
@@ -51,17 +51,12 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: HPB
-  market:
-    identifier: bibox
-    name: Bibox
-  target: BIX
 - base: ONT
   market:
     identifier: bibox
     name: Bibox
   target: BIX
-- base: IX
+- base: HPB
   market:
     identifier: bibox
     name: Bibox
@@ -71,8 +66,18 @@ tickers:
     identifier: bibox
     name: Bibox
   target: BIX
+- base: IX
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BIX
 - base: BIX
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
+- base: BIX
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT

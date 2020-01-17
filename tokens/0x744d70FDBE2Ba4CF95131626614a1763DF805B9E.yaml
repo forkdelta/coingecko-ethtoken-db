@@ -58,14 +58,14 @@ symbol: SNT
 tickers:
 - base: SNT
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: SNT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: SNT
   market:
     identifier: forkdelta
@@ -78,6 +78,11 @@ tickers:
   target: USD
 - base: SNT
   market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: SNT
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -88,29 +93,14 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: SNT
-  market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: okex_korea
+    name: OKEx Korea
   target: BTC
 - base: SNT
   market:
-    identifier: omgfin
-    name: Omgfin
-  target: ETH
-- base: SNT
-  market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: okex_korea
+    name: OKEx Korea
   target: USDT
-- base: SNT
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
 - base: SNT
   market:
     identifier: wazirx

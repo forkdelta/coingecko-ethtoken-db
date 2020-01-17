@@ -99,17 +99,12 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: USD
-- base: LRC
-  market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: BTC
-- base: LRC
-  market:
-    identifier: dextrade
-    name: Dex-Trade
   target: ETH
+- base: LRC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: LRC
   market:
     identifier: forkdelta
@@ -117,23 +112,33 @@ tickers:
   target: ETH
 - base: LRC
   market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: gate
+    name: Gate.io
   target: BTC
 - base: LRC
   market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: LRC
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: LRC
   market:
-    identifier: omgfin
-    name: Omgfin
-  target: UQC
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: LRC
   market:
-    identifier: omgfin
-    name: Omgfin
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
+- base: LRC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
   target: USDT
 - base: LRC
   market:
@@ -150,16 +155,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: LRC
   market:
     identifier: yobit
