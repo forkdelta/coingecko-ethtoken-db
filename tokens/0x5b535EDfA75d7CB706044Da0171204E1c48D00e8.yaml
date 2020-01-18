@@ -1,8 +1,8 @@
 ---
 address: '0x5b535EDfA75d7CB706044Da0171204E1c48D00e8'
-coingecko_rank: 4946
-coingecko_score: 4.057
-community_score: 5.784
+coingecko_rank: 4949
+coingecko_score: 4.056
+community_score: 5.778
 description: ""
 developer_score: 0.0
 id: 808ta-token
@@ -25,8 +25,18 @@ links:
   telegram_channel_identifier: ETH808TA
   twitter_screen_name: 808TA_
 liquidity_score: 1.0
-market_cap_rank: 6072
+market_cap_rank: 5745
 name: 808TA Token
 public_interest_score: 24.114
 symbol: 808ta
-tickers: []
+tickers:
+- base: 808TA
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: ETH
+- base: 808TA
+  market:
+    identifier: vindax
+    name: Vindax
+  target: USDT

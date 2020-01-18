@@ -1,8 +1,8 @@
 ---
 address: '0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d'
-coingecko_rank: 254
-coingecko_score: 35.797
-community_score: 37.023
+coingecko_rank: 270
+coingecko_score: 35.406
+community_score: 36.501
 description: >-
   Quantstamp is a security-auditing protocol for smart contracts. As a apps platform, <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   has proven its security time and again. However, apps and smart contracts on top of Ethereum may still
@@ -25,7 +25,7 @@ description: >-
   and rose rapidly to an all-time high of $0.82 (~0.000051 BTC) before slowly falling to its current price
   of ~$0.286. The QSP price weathered the beginning of the year market downfall better than most other
   altcoins.
-developer_score: 32.791
+developer_score: 32.789
 id: quantstamp
 image:
   large: https://assets.coingecko.com/coins/images/1219/large/quantstamp.png?1548607773
@@ -45,8 +45,8 @@ links:
     - https://github.com/quantstamp/token-distribution
   subreddit_url: https://www.reddit.com/r/Quantstamp
   twitter_screen_name: Quantstamp
-liquidity_score: 17.716
-market_cap_rank: 258
+liquidity_score: 16.71
+market_cap_rank: 257
 name: Quantstamp
 public_interest_score: 25.353
 symbol: qsp
@@ -63,6 +63,11 @@ tickers:
   target: ETH
 - base: QSP
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: QSP
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
@@ -70,9 +75,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: QSP
-  market:
-    identifier: uniswap
-    name: Uniswap
   target: ETH

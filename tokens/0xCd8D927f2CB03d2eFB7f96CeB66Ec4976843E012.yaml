@@ -1,8 +1,8 @@
 ---
 address: '0xCd8D927f2CB03d2eFB7f96CeB66Ec4976843E012'
-coingecko_rank: 2698
-coingecko_score: 9.504
-community_score: 27.488
+coingecko_rank: 2004
+coingecko_score: 13.772
+community_score: 27.871
 description: >-
   Inverse TRX by Synthetix
 
@@ -28,10 +28,10 @@ links:
   - https://www.synthetix.io/
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 1.0
-market_cap_rank: 4944
+liquidity_score: 21.883
+market_cap_rank: 4747
 name: iTRX
-public_interest_score: 24.319
+public_interest_score: 24.278
 symbol: itrx
 tickers:
 - base: ITRX
@@ -44,7 +44,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: ILTC
-- base: IBNB
+- base: IMKR
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: ITRX
+- base: STRX
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -59,27 +64,17 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: ITRX
-- base: SMKR
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: ITRX
-- base: STRX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: ITRX
-- base: SBNB
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: ITRX
 - base: SXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: ITRX
-- base: IMKR
+- base: SMKR
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: ITRX
+- base: SBNB
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -104,8 +99,3 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
-- base: ITRX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD

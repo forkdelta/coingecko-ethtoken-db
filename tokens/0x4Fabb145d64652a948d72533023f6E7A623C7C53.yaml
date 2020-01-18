@@ -1,8 +1,8 @@
 ---
 address: '0x4Fabb145d64652a948d72533023f6E7A623C7C53'
-coingecko_rank: 1877
-coingecko_score: 14.714
-community_score: 7.956
+coingecko_rank: 1738
+coingecko_score: 15.56
+community_score: 7.955
 description: >-
   Binance USD (BUSD) is a stable coin pegged to USD that has received approval from the New York State
   Department of Financial Services (NYDFS). BUSD will be available for direct purchase and redemption
@@ -26,9 +26,14 @@ links:
     github:
     - https://github.com/paxosglobal/busd-contract
   twitter_screen_name: PaxosGlobal
-liquidity_score: 45.228
-market_cap_rank: 4079
+liquidity_score: 49.46
+market_cap_rank: 2522
 name: Binance USD
 public_interest_score: 36.792
 symbol: busd
-tickers: []
+tickers:
+- base: BUSD
+  market:
+    identifier: binance_us
+    name: Binance US
+  target: USD

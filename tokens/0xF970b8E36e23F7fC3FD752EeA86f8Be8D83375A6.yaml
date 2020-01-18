@@ -1,8 +1,8 @@
 ---
 address: '0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6'
-coingecko_rank: 106
-coingecko_score: 46.017
-community_score: 27.504
+coingecko_rank: 120
+coingecko_score: 44.175
+community_score: 26.837
 description: >-
   Ripio Credit Network (RCN) is a global peer-to-peer credit network based on cosigned smart contracts
   that facilitates connections between lenders and borrowers across the world, on any currency. It enables
@@ -31,7 +31,7 @@ description: >-
   makes a credit request. The Borrower performs the request from its Wallet Provider, which has already
   integrated into the RCN protocol. Post this, the Borrower waits for an approval before any further action
   can be performed.
-developer_score: 62.025
+developer_score: 56.072
 id: ripio-credit-network
 image:
   large: https://assets.coingecko.com/coins/images/1057/large/ripio-credit-network.png?1548608361
@@ -51,10 +51,10 @@ links:
   subreddit_url: https://www.reddit.com/r/RipioCreditNetwork
   telegram_channel_identifier: RCNtalk
   twitter_screen_name: RCN_token
-liquidity_score: 39.67
-market_cap_rank: 119
+liquidity_score: 38.473
+market_cap_rank: 118
 name: Ripio Credit Network
-public_interest_score: 25.325
+public_interest_score: 25.326
 symbol: rcn
 tickers:
 - base: RCN
@@ -69,6 +69,11 @@ tickers:
   target: ETH
 - base: RCN
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: RCN
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -77,6 +82,16 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: RCN
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: RCN
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: RCN
   market:
     identifier: zb
