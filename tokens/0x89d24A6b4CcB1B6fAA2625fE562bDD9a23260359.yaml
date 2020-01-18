@@ -1,8 +1,8 @@
 ---
 address: '0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359'
-coingecko_rank: 57
-coingecko_score: 52.253
-community_score: 41.041
+coingecko_rank: 62
+coingecko_score: 51.223
+community_score: 37.835
 description: >-
   Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD — every Dai is worth $1,
   and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority
@@ -72,7 +72,7 @@ description: >-
   to be created.
 
   These three reasons are enough to ensure that Dai is continually created.
-developer_score: 69.015
+developer_score: 66.654
 id: sai
 image:
   large: https://assets.coingecko.com/coins/images/1442/large/dai.png?1547035520
@@ -92,10 +92,10 @@ links:
     - https://github.com/makerdao/market-maker-keeper
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 39.116
-market_cap_rank: 96
+liquidity_score: 41.514
+market_cap_rank: 110
 name: Sai
-public_interest_score: 33.466
+public_interest_score: 33.467
 symbol: sai
 tickers:
 - base: SAI
@@ -153,11 +153,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: XRP
   market:
     identifier: hitbtc
@@ -168,31 +163,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: TUSD
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: MKR
+- base: TUSD
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
+- base: POA
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EOSDT
+  target: DAI
 - base: ETH
   market:
     identifier: oasis_trade
@@ -219,6 +204,11 @@ tickers:
     name: P2PB2B
   target: USD
 - base: ETH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: DAI
+- base: BTC
   market:
     identifier: quoine
     name: Liquid

@@ -1,7 +1,7 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 3774
-coingecko_score: 6.178
+coingecko_rank: 3572
+coingecko_score: 6.662
 community_score: 0.0
 description: >-
   W-ETH is "wrapped ETH" but let's start by introducing the players. First, there's Ether token. Ether
@@ -23,13 +23,18 @@ links:
   - https://ethplorer.io/address/0xecf8f87f810ecf450940c9f60066b4a7a501d6a7
   homepage:
   - https://weth.io/
-liquidity_score: 17.905
-market_cap_rank: 5633
+liquidity_score: 20.328
+market_cap_rank: 2799
 name: WETH
 public_interest_score: 25.968
 symbol: weth
 tickers:
 - base: BAT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: TOU
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -44,12 +49,22 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: FOAM
+- base: NXC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: NXC
+- base: SAVA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: CHESS
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: PYRO
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -69,11 +84,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: TOU
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: MTCX
   market:
     identifier: bamboo_relay
@@ -84,17 +94,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: PYRO
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: GCPH
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: SAVA
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -109,21 +109,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: 1AI
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: MFR2
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: Q8E20
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: MKR
   market:
     identifier: bamboo_relay
@@ -134,7 +119,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: KRS
+- base: LPT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -144,7 +129,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: LPT
+- base: TRB
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -159,21 +144,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: MRO
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: TRB
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: YAT
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: ETBOLD
   market:
     identifier: bamboo_relay
@@ -184,22 +154,12 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: SYCO
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: REQ
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: GLO
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: VYA
+- base: SYCO
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -209,7 +169,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: USDT
-- base: SXDT
+- base: MKR
   market:
     identifier: ddex
     name: DDEX
@@ -219,12 +179,12 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: BAGS
+- base: BSOV
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: FUZE
+- base: BAGS
   market:
     identifier: ddex
     name: DDEX
@@ -249,7 +209,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: XIO
+- base: FUZE
   market:
     identifier: ddex
     name: DDEX
@@ -264,17 +224,22 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
+- base: EMPR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: BOMB
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: QBIT
+- base: XIO
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: EMPR
+- base: QBIT
   market:
     identifier: ddex
     name: DDEX
@@ -294,22 +259,7 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: MRO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: AMGO
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
 - base: LTB
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: BRAP
   market:
     identifier: ddex
     name: DDEX
@@ -320,16 +270,6 @@ tickers:
     name: DDEX
   target: WETH
 - base: INC8
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: HOLE
-  market:
-    identifier: ddex
-    name: DDEX
-  target: WETH
-- base: SHUF
   market:
     identifier: ddex
     name: DDEX
@@ -349,12 +289,12 @@ tickers:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: CLM
+- base: QCH
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: QCH
+- base: CLM
   market:
     identifier: ddex
     name: DDEX
@@ -370,11 +310,6 @@ tickers:
     name: DDEX
   target: WETH
 - base: AFCASH
-  market:
-    identifier: tokenjar
-    name: TokenJar
-  target: WETH
-- base: RSCT
   market:
     identifier: tokenjar
     name: TokenJar

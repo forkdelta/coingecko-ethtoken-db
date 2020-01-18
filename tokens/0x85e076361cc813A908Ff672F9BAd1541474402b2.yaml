@@ -1,13 +1,13 @@
 ---
 address: '0x85e076361cc813A908Ff672F9BAd1541474402b2'
-coingecko_rank: 395
-coingecko_score: 31.868
-community_score: 33.79
+coingecko_rank: 380
+coingecko_score: 31.98
+community_score: 34.298
 description: >-
   Telcoin is a new cryptocurrency based on the Ethereum blockchain that will be distributed by your national
   telecom operator and made available to everyone anywhere by tapping into synergies between the reach
   of mobile telecoms and the fast, borderless nature of blockchain technology.
-developer_score: 16.813
+developer_score: 16.812
 id: telcoin
 image:
   large: https://assets.coingecko.com/coins/images/1899/large/tel.png?1547036203
@@ -28,12 +28,22 @@ links:
   subreddit_url: https://www.reddit.com/r/Telcoin/
   telegram_channel_identifier: telcoincommunity
   twitter_screen_name: telcoin_team
-liquidity_score: 20.089
-market_cap_rank: 227
+liquidity_score: 21.583
+market_cap_rank: 221
 name: Telcoin
 public_interest_score: 24.895
 symbol: tel
 tickers:
+- base: TEL
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: TEL
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
 - base: TEL
   market:
     identifier: forkdelta
@@ -43,6 +53,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: TEL
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: TEL
   market:
