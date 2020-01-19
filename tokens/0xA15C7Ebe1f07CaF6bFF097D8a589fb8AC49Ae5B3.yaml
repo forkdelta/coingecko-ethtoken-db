@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 290
-coingecko_score: 34.601
-community_score: 35.462
+coingecko_rank: 297
+coingecko_score: 34.593
+community_score: 35.434
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -63,8 +63,8 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 47.692
-market_cap_rank: 104
+liquidity_score: 47.843
+market_cap_rank: 101
 name: Pundi X
 public_interest_score: 27.822
 symbol: npxs
@@ -78,6 +78,11 @@ tickers:
   market:
     identifier: bit_z
     name: Bit-Z
+  target: ETH
+- base: NPXS
+  market:
+    identifier: bitcratic
+    name: Bitcratic
   target: ETH
 - base: NPXS
   market:
@@ -109,11 +114,6 @@ tickers:
     identifier: dextrade
     name: Dex-Trade
   target: ETH
-- base: NPXS
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
 - base: NPXS
   market:
     identifier: etherflyer
@@ -183,9 +183,4 @@ tickers:
   market:
     identifier: vcc
     name: VCC Exchange
-  target: BTC
-- base: NPXS
-  market:
-    identifier: vindax
-    name: Vindax
-  target: ETH
+  target: USDT

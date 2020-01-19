@@ -1,7 +1,7 @@
 ---
 address: '0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4'
-coingecko_rank: 220
-coingecko_score: 37.454
+coingecko_rank: 232
+coingecko_score: 37.493
 community_score: 0.0
 description: >-
   Ankr strives to build a resource efficient blockchain framework that truly enables Distributed Cloud
@@ -37,7 +37,7 @@ description: >-
   Native Oracle Service (NOS) provides authenticated data feed by leveraging both cryptographic primitives
   and the trusted execution environment (TEE). Through a standardized API to port data from existing websites,
   NOS enables simple real-world business adoption
-developer_score: 63.971
+developer_score: 64.106
 id: ankr
 image:
   large: https://assets.coingecko.com/coins/images/4324/large/ankr-coin-2.png?1563551350
@@ -61,8 +61,8 @@ links:
     - https://github.com/Ankr-network/dccn-ui
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankrnetwork
-liquidity_score: 33.289
-market_cap_rank: 286
+liquidity_score: 33.315
+market_cap_rank: 293
 name: Ankr
 public_interest_score: 27.576
 symbol: ankr
@@ -72,6 +72,11 @@ tickers:
     identifier: binance_dex
     name: Binance DEX
   target: BTCB-1DE
+- base: ANKR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: ANKR
   market:
     identifier: bittrex
@@ -121,4 +126,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: ANKR
+  market:
+    identifier: vitex
+    name: ViteX
   target: BTC

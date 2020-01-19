@@ -1,8 +1,8 @@
 ---
 address: '0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359'
-coingecko_rank: 62
-coingecko_score: 51.223
-community_score: 37.835
+coingecko_rank: 59
+coingecko_score: 52.394
+community_score: 37.649
 description: >-
   Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD — every Dai is worth $1,
   and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority
@@ -72,7 +72,7 @@ description: >-
   to be created.
 
   These three reasons are enough to ensure that Dai is continually created.
-developer_score: 66.654
+developer_score: 70.873
 id: sai
 image:
   large: https://assets.coingecko.com/coins/images/1442/large/dai.png?1547035520
@@ -92,22 +92,17 @@ links:
     - https://github.com/makerdao/market-maker-keeper
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 41.514
-market_cap_rank: 110
+liquidity_score: 42.999
+market_cap_rank: 111
 name: Sai
 public_interest_score: 33.467
 symbol: sai
 tickers:
-- base: SAI
+- base: DAI
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
-- base: TUSD
-  market:
-    identifier: atomars
-    name: Atomars
-  target: DAI
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: USDC
 - base: DAI
   market:
     identifier: bisq
@@ -148,6 +143,16 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EUR
+- base: DAI
+  market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: DAI
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: LTC
   market:
     identifier: hitbtc
@@ -158,17 +163,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: TUSD
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
@@ -203,12 +203,12 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: ETH
+- base: BTC
   market:
     identifier: quoine
     name: Liquid
   target: DAI
-- base: BTC
+- base: ETH
   market:
     identifier: quoine
     name: Liquid
