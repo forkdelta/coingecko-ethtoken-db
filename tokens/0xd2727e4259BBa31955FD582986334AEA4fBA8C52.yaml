@@ -1,7 +1,7 @@
 ---
 address: '0xd2727e4259BBa31955FD582986334AEA4fBA8C52'
-coingecko_rank: 6292
-coingecko_score: 1.342
+coingecko_rank: 6251
+coingecko_score: 1.666
 community_score: 2.386
 description: >-
   BLOOD Ecosystem is a Kit Box that focuses on real life use. Anyone can easily issue their points to
@@ -29,9 +29,19 @@ links:
     github:
     - https://github.com/bigbloodland/BloodERC20Token
   twitter_screen_name: BLOOD_Net_Team
-liquidity_score: 3.727
-market_cap_rank: 4499
+liquidity_score: 5.348
+market_cap_rank: 5666
 name: BLOOD
 public_interest_score: 0.0
 symbol: blood
-tickers: []
+tickers:
+- base: BLOOD
+  market:
+    identifier: bitforex
+    name: Bitforex
+  target: BTC
+- base: BLOOD
+  market:
+    identifier: probit
+    name: Probit
+  target: KRW
