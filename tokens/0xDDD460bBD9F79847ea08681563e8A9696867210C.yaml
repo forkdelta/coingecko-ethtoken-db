@@ -1,8 +1,8 @@
 ---
 address: '0xDDD460bBD9F79847ea08681563e8A9696867210C'
 coingecko_rank: 581
-coingecko_score: 27.749
-community_score: 30.641
+coingecko_score: 27.429
+community_score: 30.152
 description: >-
   Spendcoin is a decentralized cryptocurrency that powers the Spend.com ecosystem of products. Spend has
   two financial services products, the Spend App and Spend Card, which are products of Spend.com that
@@ -40,12 +40,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Spend/
   telegram_channel_identifier: SpendChat
   twitter_screen_name: SpendFoundation
-liquidity_score: 18.036
-market_cap_rank: 628
+liquidity_score: 17.474
+market_cap_rank: 630
 name: Spendcoin
 public_interest_score: 26.21
 symbol: spnd
 tickers:
+- base: SPNDB-916
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: SPND
   market:
     identifier: bitsonic
@@ -66,3 +71,8 @@ tickers:
     identifier: uniswap
     name: Uniswap
   target: ETH
+- base: SPND
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

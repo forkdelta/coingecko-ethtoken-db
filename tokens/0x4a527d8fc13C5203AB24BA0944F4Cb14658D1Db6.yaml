@@ -1,8 +1,8 @@
 ---
 address: '0x4a527d8fc13C5203AB24BA0944F4Cb14658D1Db6'
-coingecko_rank: 1103
-coingecko_score: 20.858
-community_score: 3.948
+coingecko_rank: 1098
+coingecko_score: 20.738
+community_score: 3.722
 description: >-
   Morpheus Lab Platform Gives your the flexibility to experiment, using the broad range of functionalities
   on our platform, to build and develop blockchain applications that suit the needs of your business.
@@ -31,8 +31,8 @@ links:
     - https://github.com/Morpheuslabs-io/morpheus-ops-console
   telegram_channel_identifier: morpheuslabs
   twitter_screen_name: morpheus_labs_
-liquidity_score: 16.802
-market_cap_rank: 541
+liquidity_score: 16.437
+market_cap_rank: 527
 name: Morpheus Labs
 public_interest_score: 23.905
 symbol: mitx
@@ -54,11 +54,16 @@ tickers:
   target: BTC
 - base: MITX
   market:
-    identifier: bitmax
-    name: BitMax
-  target: USDT
-- base: MITX
-  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: MITX
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MITX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC

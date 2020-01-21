@@ -1,8 +1,8 @@
 ---
 address: '0x744d70FDBE2Ba4CF95131626614a1763DF805B9E'
-coingecko_rank: 28
-coingecko_score: 59.311
-community_score: 39.408
+coingecko_rank: 25
+coingecko_score: 58.662
+community_score: 40.062
 description: >-
   Status is a mobile operating system that will completely change the way the world interacts with the
   <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> network.  Designed as a decentralized
@@ -27,7 +27,7 @@ description: >-
 
   SNT is currently available for trade on many online exchanges, including <a href="https://www.coingecko.com/en/exchanges/huobi">Huobi</a>,
   <a href="https://www.coingecko.com/en/exchanges/binance">Binance</a>, and <a href="https://www.coingecko.com/en/exchanges/bittrex">Bittrex</a>.
-developer_score: 86.073
+developer_score: 82.49
 id: status
 image:
   large: https://assets.coingecko.com/coins/images/779/large/status.png?1548610778
@@ -50,12 +50,32 @@ links:
     - https://github.com/status-im/swarms
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
-liquidity_score: 50.902
-market_cap_rank: 91
+liquidity_score: 51.418
+market_cap_rank: 92
 name: Status
 public_interest_score: 42.454
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: SNT
+  market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
+- base: SNT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: SNT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: SNT
   market:
     identifier: bw
@@ -68,6 +88,11 @@ tickers:
   target: BTC
 - base: SNT
   market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: SNT
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -78,6 +103,11 @@ tickers:
   target: BTC
 - base: SNT
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: SNT
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -85,12 +115,27 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: USD
+- base: SNT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: BTC
 - base: SNT
   market:
-    identifier: idcm
-    name: IDCM
-  target: BTC
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
+- base: SNT
+  market:
+    identifier: iqfinex
+    name: IQFinex
+  target: ETH
+- base: SNT
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: SNT
   market:
     identifier: livecoin
@@ -106,11 +151,6 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
-- base: SNT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
 - base: SNT
   market:
     identifier: wazirx

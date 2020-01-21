@@ -1,8 +1,8 @@
 ---
 address: '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2'
 coingecko_rank: 49
-coingecko_score: 54.232
-community_score: 37.602
+coingecko_score: 53.352
+community_score: 37.381
 description: >-
   MKR is a cryptocurrency depicted as a smart contract platform and works alongside the Dai coin and aims
   to act as a hedge currency that provides traders with a stable alternative to the majority of coins
@@ -39,7 +39,7 @@ description: >-
   the equivalent of $25.41 today, and even $1 in 1993 is worth the equivalent of $1.74 today. Stablecoins
   don’t negate these basic economic principles of value. Instead, both Tether and Dai have values pegged
   to the U.S. dollar. This is done to stabilize the price.
-developer_score: 75.858
+developer_score: 73.699
 id: maker
 image:
   large: https://assets.coingecko.com/coins/images/1364/large/maker.png?1547035390
@@ -57,8 +57,8 @@ links:
     - https://github.com/makerdao/dai.js
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 38.783
-market_cap_rank: 26
+liquidity_score: 37.332
+market_cap_rank: 28
 name: Maker
 public_interest_score: 27.05
 symbol: mkr
@@ -70,9 +70,9 @@ tickers:
   target: WETH
 - base: MKR
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
+    identifier: bibox
+    name: Bibox
+  target: BTC
 - base: MKR
   market:
     identifier: bitfinex
@@ -80,23 +80,13 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
-- base: MKR
-  market:
-    identifier: cryptaldash
-    name: CryptalDash
-  target: BTC
-- base: MKR
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
 - base: MKR
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: MKR
   market:
@@ -110,13 +100,13 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: MKR
-  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: MKR
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
   target: ETH
 - base: MKR
   market:
@@ -165,19 +155,24 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: tokenize
-    name: Tokenize
+    identifier: trade_satoshi
+    name: Trade Satoshi
   target: BTC
 - base: MKR
   market:
-    identifier: tokenize
-    name: Tokenize
-  target: ETH
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
 - base: MKR
   market:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
+- base: MKR
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: USDT
 - base: MKR
   market:
     identifier: upbit

@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 146
-coingecko_score: 42.787
-community_score: 40.131
+coingecko_rank: 150
+coingecko_score: 41.699
+community_score: 37.532
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -42,7 +42,7 @@ description: >-
   in a vault and have promised not to dump them on the market. They’ll give at least a three-month warning
   before selling any of the tokens. The team includes quite a list of reputable advisors including Joseph
   Lubin (Ethereum co-founder and ConsenSys founder) and Vitalik Buterin (Ethereum founder and chief scientist).
-developer_score: 53.381
+developer_score: 51.736
 id: gnosis
 image:
   large: https://assets.coingecko.com/coins/images/662/large/gnosis-logo.png?1547034401
@@ -62,17 +62,12 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 15.082
-market_cap_rank: 172
+liquidity_score: 15.194
+market_cap_rank: 176
 name: Gnosis
 public_interest_score: 36.102
 symbol: gno
 tickers:
-- base: GNO
-  market:
-    identifier: atomars
-    name: Atomars
-  target: BTC
 - base: GNO
   market:
     identifier: atomars
@@ -90,14 +85,14 @@ tickers:
   target: USD
 - base: GNO
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: GNO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: GNO
   market:
     identifier: hitbtc
@@ -143,3 +138,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

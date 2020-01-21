@@ -1,8 +1,8 @@
 ---
 address: '0xbf52F2ab39e26E0951d2a02b49B7702aBe30406a'
-coingecko_rank: 338
-coingecko_score: 33.398
-community_score: 29.842
+coingecko_rank: 332
+coingecko_score: 32.918
+community_score: 27.804
 description: >-
   ODEM, or On-Demand Education Marketplace, is a blockchain-based distributed network that allows university
   students to seamlessly interact with their professors and academic partners. Through the creation of
@@ -42,7 +42,7 @@ description: >-
   Offering (ICO)</a> as the pre-sale was already finished in December 2017. The sale will begin on February
   17 and it will last until March 19. We will be able to use ETH to buy the tokens and you can store them
   in any Ethereum wallet. The tokens will be distributed as soon as the sale is finished.
-developer_score: 15.383
+developer_score: 14.867
 id: odem
 image:
   large: https://assets.coingecko.com/coins/images/3752/large/odem.png?1548329893
@@ -64,8 +64,8 @@ links:
   subreddit_url: https://www.reddit.com/r/ODEM/
   telegram_channel_identifier: odem_io
   twitter_screen_name: ODEM_IO
-liquidity_score: 28.894
-market_cap_rank: 195
+liquidity_score: 29.654
+market_cap_rank: 193
 name: ODEM
 public_interest_score: 36.629
 symbol: ode
@@ -74,7 +74,17 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: BTC
+- base: ODE
+  market:
+    identifier: bitfinex
+    name: Bitfinex
   target: ETH
+- base: ODE
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: ODE
   market:
     identifier: bitmart
@@ -85,6 +95,11 @@ tickers:
     identifier: bitmart
     name: BitMart
   target: ETH
+- base: ODEM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: ODEM
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0'
-coingecko_rank: 140
-coingecko_score: 43.374
-community_score: 9.571
+coingecko_rank: 138
+coingecko_score: 42.708
+community_score: 9.022
 description: >-
   The Next-Generation Blockchain Application Platform for Ethereum.
 
@@ -31,7 +31,7 @@ description: >-
 
   We built the world’s first Plasma Cash implementation, which allows Ethereum-based tokens to be used
   on Loom sidechains with the full security guarantees of Ethereum.
-developer_score: 71.366
+developer_score: 68.889
 id: loom-network
 image:
   large: https://assets.coingecko.com/coins/images/3387/large/1_K76UVoLq-FOL7l-_Fag-Qw_2x.png?1547038040
@@ -50,8 +50,8 @@ links:
     - https://github.com/loomnetwork/loom-js
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
-liquidity_score: 36.983
-market_cap_rank: 170
+liquidity_score: 37.485
+market_cap_rank: 167
 name: Loom Network
 public_interest_score: 29.458
 symbol: loom
@@ -73,9 +73,14 @@ tickers:
   target: WETH
 - base: LOOM
   market:
-    identifier: dextrade
-    name: Dex-Trade
+    identifier: fcoin
+    name: FCoin
   target: ETH
+- base: LOOM
+  market:
+    identifier: fcoin
+    name: FCoin
+  target: USDT
 - base: LOOM
   market:
     identifier: gopax
@@ -93,6 +98,16 @@ tickers:
   target: ETH
 - base: LOOM
   market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: LOOM
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: LOOM
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
@@ -100,19 +115,4 @@ tickers:
   market:
     identifier: tidex
     name: Tidex
-  target: BTC
-- base: LOOM
-  market:
-    identifier: uniswap
-    name: Uniswap
-  target: ETH
-- base: LOOM
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: LOOM
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
   target: BTC
