@@ -1,8 +1,8 @@
 ---
 address: '0xa74476443119A942dE498590Fe1f2454d7D4aC0d'
-coingecko_rank: 43
-coingecko_score: 55.509
-community_score: 40.774
+coingecko_rank: 44
+coingecko_score: 54.515
+community_score: 39.774
 description: >-
   Golem is a decentralized supercomputer that is accessible by anyone. The system is made up of the combined
   power of user’s machines from personal PCs to entire datacenters. Golem is able to compute almost any
@@ -53,7 +53,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/golem-gnt/">CoinBureau</a> for the full review
   of Golem.
-developer_score: 81.827
+developer_score: 78.5
 id: golem
 image:
   large: https://assets.coingecko.com/coins/images/542/large/golem_token.png?1548838076
@@ -79,8 +79,8 @@ links:
     - https://github.com/golemfactory/golem-unlimited
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
-liquidity_score: 42.236
-market_cap_rank: 99
+liquidity_score: 42.667
+market_cap_rank: 102
 name: Golem
 public_interest_score: 30.201
 symbol: gnt
@@ -97,6 +97,11 @@ tickers:
   target: USD
 - base: GNT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: GNT
+  market:
     identifier: btcmarkets
     name: BTCMarkets
   target: BTC
@@ -107,14 +112,14 @@ tickers:
   target: QC
 - base: GNT
   market:
-    identifier: dextrade
-    name: Dex-Trade
+    identifier: crex24
+    name: CREX24
   target: BTC
 - base: GNT
   market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: USDT
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: GNT
   market:
     identifier: independent_reserve
@@ -135,6 +140,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: GNT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: GNT
   market:
     identifier: p2pb2b
@@ -162,9 +172,24 @@ tickers:
   target: USDT
 - base: GNT
   market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: GNT
+  market:
     identifier: trade_satoshi
     name: Trade Satoshi
-  target: DOGE
+  target: ETH
+- base: GNT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: GNT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: GNT
   market:
     identifier: vcc
@@ -199,9 +224,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: RUR
 - base: GNT
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD
+- base: GNT
+  market:
+    identifier: zb
+    name: ZB
+  target: QC

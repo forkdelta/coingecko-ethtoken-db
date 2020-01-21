@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 74
-coingecko_score: 50.447
-community_score: 46.183
+coingecko_rank: 78
+coingecko_score: 48.574
+community_score: 41.284
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -43,7 +43,7 @@ description: >-
   list. Enjin Coin is an ambitious project that aims to integrate online virtual gaming with decentralized
   technologies. Enjin Coin project promises a lot, and it is only with the passage of time that we will
   able to see if it can deliver on those promises.
-developer_score: 50.765
+developer_score: 48.549
 id: enjincoin
 image:
   large: https://assets.coingecko.com/coins/images/1102/large/enjin-coin-logo.png?1547035078
@@ -64,8 +64,8 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 43.368
-market_cap_rank: 66
+liquidity_score: 43.041
+market_cap_rank: 63
 name: Enjin Coin
 public_interest_score: 35.357
 symbol: enj
@@ -85,6 +85,11 @@ tickers:
     identifier: bitsonic
     name: Bitsonic
   target: BSC
+- base: ENJ
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: ENJ
   market:
     identifier: btcmarkets
@@ -112,19 +117,14 @@ tickers:
   target: KRW
 - base: ENJ
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: ENJ
-  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
 - base: ENJ
   market:
-    identifier: hpx
-    name: HPX
-  target: CNYT
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: ENJ
   market:
     identifier: idex
@@ -145,6 +145,11 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: ENJ
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: ENJ
   market:
     identifier: upbit_indonesia

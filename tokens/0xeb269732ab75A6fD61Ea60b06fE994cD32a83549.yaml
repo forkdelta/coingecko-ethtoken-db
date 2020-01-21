@@ -1,8 +1,8 @@
 ---
 address: '0xeb269732ab75A6fD61Ea60b06fE994cD32a83549'
-coingecko_rank: 2737
-coingecko_score: 9.379
-community_score: 14.485
+coingecko_rank: 2734
+coingecko_score: 9.255
+community_score: 14.089
 description: >-
   USDx is a decentralized and synthetic indexed stablecoin introduced by dForce as the first and cornerstone
   protocol. It is 1:1 pegged to a basket of constituent stablecoins, integrated with interest bearing
@@ -37,9 +37,14 @@ links:
   subreddit_url: https://www.reddit.com/r/dForceNetwork/
   telegram_channel_identifier: dforcenet
   twitter_screen_name: dForcenet
-liquidity_score: 16.795
-market_cap_rank: 3041
+liquidity_score: 16.669
+market_cap_rank: 2868
 name: USDx Stablecoin
 public_interest_score: 23.992
 symbol: usdx
-tickers: []
+tickers:
+- base: USDX
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

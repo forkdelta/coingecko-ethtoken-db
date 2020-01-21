@@ -1,8 +1,8 @@
 ---
 address: '0xB97048628DB6B661D4C2aA833e95Dbe1A905B280'
-coingecko_rank: 356
-coingecko_score: 32.93
-community_score: 48.981
+coingecko_rank: 371
+coingecko_score: 31.999
+community_score: 45.082
 description: >-
   TenX is a payment platform that facilitates digital and physical modes of transaction for cryptocurrencies
   to any merchant, even if they don’t accept cryptocurrencies. Physical and digital modes of course, include
@@ -47,8 +47,8 @@ links:
     - https://github.com/comit-network/comit-rs
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
-liquidity_score: 30.125
-market_cap_rank: 307
+liquidity_score: 30.48
+market_cap_rank: 321
 name: TenX
 public_interest_score: 27.243
 symbol: pay
@@ -70,6 +70,16 @@ tickers:
   target: ETH
 - base: PAY
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: PAY
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: PAY
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
@@ -88,8 +98,3 @@ tickers:
     identifier: probit
     name: Probit
   target: KRW
-- base: PAY
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
