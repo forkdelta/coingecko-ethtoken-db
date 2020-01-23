@@ -1,8 +1,8 @@
 ---
 address: '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2'
-coingecko_rank: 49
-coingecko_score: 53.352
-community_score: 37.381
+coingecko_rank: 51
+coingecko_score: 53.62
+community_score: 38.818
 description: >-
   MKR is a cryptocurrency depicted as a smart contract platform and works alongside the Dai coin and aims
   to act as a hedge currency that provides traders with a stable alternative to the majority of coins
@@ -57,7 +57,7 @@ links:
     - https://github.com/makerdao/dai.js
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 37.332
+liquidity_score: 36.869
 market_cap_rank: 28
 name: Maker
 public_interest_score: 27.05
@@ -75,9 +75,29 @@ tickers:
   target: BTC
 - base: MKR
   market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: MKR
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: MKR
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: DAI
+- base: MKR
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: MKR
+  market:
+    identifier: cybex
+    name: Cybex DEX
+  target: ETH
 - base: MKR
   market:
     identifier: ddex
@@ -85,8 +105,18 @@ tickers:
   target: WETH
 - base: MKR
   market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
+- base: MKR
+  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: MKR
   market:
@@ -110,19 +140,9 @@ tickers:
   target: ETH
 - base: MKR
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: MKR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: saturn_network
+    name: Saturn Network
   target: ETH
-- base: MKR
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
 - base: MKR
   market:
     identifier: sistemkoin
@@ -138,11 +158,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: MKR
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
 - base: MKR
   market:
     identifier: switcheo

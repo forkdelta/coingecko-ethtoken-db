@@ -1,17 +1,17 @@
 ---
 address: '0x83869DE76B9Ad8125e22b857f519F001588c0f62'
-coingecko_rank: 3425
-coingecko_score: 6.987
-community_score: 8.639
+coingecko_rank: 3193
+coingecko_score: 7.602
+community_score: 9.164
 description: >-
   EXMO Coin is the utility token of the largest crypto exchange in Eastern Europe. We are launching our
   token to optimise your user experience and give you access to the countless benefits of the EXMO exchange.
 developer_score: 0.0
 id: exmo-coin
 image:
-  large: https://assets.coingecko.com/coins/images/9154/large/eNbVFn1f_400x400.jpg?1564735490
-  small: https://assets.coingecko.com/coins/images/9154/small/eNbVFn1f_400x400.jpg?1564735490
-  thumb: https://assets.coingecko.com/coins/images/9154/thumb/eNbVFn1f_400x400.jpg?1564735490
+  large: https://assets.coingecko.com/coins/images/9154/large/exmo_token.png?1579588209
+  small: https://assets.coingecko.com/coins/images/9154/small/exmo_token.png?1579588209
+  thumb: https://assets.coingecko.com/coins/images/9154/thumb/exmo_token.png?1579588209
 links:
   announcement_url:
   - https://medium.com/exmo-official
@@ -27,9 +27,14 @@ links:
   - https://exmo.money/
   telegram_channel_identifier: Exmo_com
   twitter_screen_name: Exmo_com
-liquidity_score: 10.113
-market_cap_rank: 6053
+liquidity_score: 12.531
+market_cap_rank: 4377
 name: EXMO Coin
 public_interest_score: 28.049
 symbol: exm
-tickers: []
+tickers:
+- base: CRON
+  market:
+    identifier: exmo
+    name: EXMO
+  target: EXM

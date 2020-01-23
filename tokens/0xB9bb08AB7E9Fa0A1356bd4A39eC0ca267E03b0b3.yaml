@@ -1,8 +1,8 @@
 ---
 address: '0xB9bb08AB7E9Fa0A1356bd4A39eC0ca267E03b0b3'
-coingecko_rank: 743
-coingecko_score: 24.684
-community_score: 9.498
+coingecko_rank: 758
+coingecko_score: 24.394
+community_score: 10.076
 description: >-
   NATIVE MULTICHAIN PLATFORM
 
@@ -26,7 +26,7 @@ description: >-
 
   The smart contracts of PCHAIN can be easily invoked with other nonnative Tokens (BCH, ERC20) by using
   the provided toolkit.
-developer_score: 15.936
+developer_score: 15.937
 id: pchain
 image:
   large: https://assets.coingecko.com/coins/images/3463/large/pchainlogo.jpg?1555392068
@@ -46,12 +46,27 @@ links:
     - https://github.com/pchain-org/pchain-pub
   telegram_channel_identifier: pchain_org
   twitter_screen_name: pchain_org
-liquidity_score: 21.762
-market_cap_rank: 425
+liquidity_score: 19.582
+market_cap_rank: 416
 name: Pchain
 public_interest_score: 24.334
 symbol: pi
 tickers:
+- base: PI
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: PI
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: PI
+  market:
+    identifier: bibox
+    name: Bibox
+  target: USDT
 - base: PI
   market:
     identifier: bilaxy
@@ -67,16 +82,6 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: BTC
-- base: PI
-  market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: ETH
-- base: PI
-  market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: USDT
 - base: PI
   market:
     identifier: idex
@@ -96,11 +101,6 @@ tickers:
   market:
     identifier: vcc
     name: VCC Exchange
-  target: BTC
-- base: PAI
-  market:
-    identifier: yobit
-    name: YoBit
   target: BTC
 - base: PAI
   market:

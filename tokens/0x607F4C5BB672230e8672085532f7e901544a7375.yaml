@@ -1,8 +1,8 @@
 ---
 address: '0x607F4C5BB672230e8672085532f7e901544a7375'
-coingecko_rank: 91
-coingecko_score: 47.25
-community_score: 32.784
+coingecko_rank: 98
+coingecko_score: 47.148
+community_score: 33.364
 description: >-
   iExec is an open-source, decentralized cloud computing platform, running on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain. iExec allows decentralized applications (dApps) an on-demand access to computing resources
@@ -64,12 +64,22 @@ links:
     - https://github.com/iExecBlockchainComputing/iexec-stack
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
-liquidity_score: 32.822
-market_cap_rank: 94
+liquidity_score: 31.537
+market_cap_rank: 97
 name: iExec RLC
 public_interest_score: 25.587
 symbol: rlc
 tickers:
+- base: RLC
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: RLC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: RLC
   market:
     identifier: bitfinex
@@ -97,6 +107,11 @@ tickers:
   target: ETH
 - base: RLC
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: RLC
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -105,3 +120,18 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: RLC
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: RLC
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
+- base: RLC
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
