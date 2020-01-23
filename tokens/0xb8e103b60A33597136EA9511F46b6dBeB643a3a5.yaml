@@ -1,8 +1,8 @@
 ---
 address: '0xb8e103b60A33597136EA9511F46b6dBeB643a3a5'
-coingecko_rank: 5136
-coingecko_score: 3.769
-community_score: 3.872
+coingecko_rank: 5126
+coingecko_score: 3.831
+community_score: 4.12
 description: ""
 developer_score: 0.0
 id: siambitcoin
@@ -20,11 +20,16 @@ links:
   telegram_channel_identifier: siambitcoin
   twitter_screen_name: siambitcoin
 liquidity_score: 1.0
-market_cap_rank: 4999
+market_cap_rank: 2680
 name: SiamBitcoin
 public_interest_score: 26.008
 symbol: sbtc
 tickers:
+- base: SBTC
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: SBTC
   market:
     identifier: p2pb2b
@@ -35,8 +40,8 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
-- base: SBTCT
+- base: SBTC
   market:
-    identifier: south_xchange
-    name: SouthXchange
-  target: BTC
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USD

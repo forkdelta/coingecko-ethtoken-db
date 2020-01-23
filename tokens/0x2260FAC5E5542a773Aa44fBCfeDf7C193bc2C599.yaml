@@ -1,7 +1,7 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 2862
-coingecko_score: 8.708
+coingecko_rank: 2871
+coingecko_score: 8.675
 community_score: 0.0
 description: >-
   Wrapped Bitcoin Tokens (WBTC) is an ERC20 token fully backed by real BTC. The proof of reserves is on-chain,
@@ -25,12 +25,22 @@ links:
     github:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
-liquidity_score: 25.323
-market_cap_rank: 6194
+liquidity_score: 25.161
+market_cap_rank: 1955
 name: Wrapped Bitcoin
 public_interest_score: 36.432
 symbol: wbtc
 tickers:
+- base: WBTC
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
+- base: WBTC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: WBT
   market:
     identifier: bitfinex

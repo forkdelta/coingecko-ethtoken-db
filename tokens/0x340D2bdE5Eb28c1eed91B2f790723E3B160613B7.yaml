@@ -1,8 +1,8 @@
 ---
 address: '0x340D2bdE5Eb28c1eed91B2f790723E3B160613B7'
 coingecko_rank: 454
-coingecko_score: 29.948
-community_score: 28.187
+coingecko_score: 30.042
+community_score: 28.85
 description: >-
   BLOCKv, the shared protocol for the blockchain developer stack, represents the interface moment in the
   maturation of the blockchain sector. BLOCKv provides developers with the building blocks to design the
@@ -33,11 +33,16 @@ links:
   subreddit_url: https://www.reddit.com/r/blockv
   twitter_screen_name: blockv_io
 liquidity_score: 1.0
-market_cap_rank: 379
+market_cap_rank: 397
 name: BLOCKv
 public_interest_score: 26.022
 symbol: vee
 tickers:
+- base: VEE
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: VEE
   market:
     identifier: bitfinex
@@ -67,27 +72,17 @@ tickers:
   market:
     identifier: coinsbit
     name: Coinsbit
+  target: ETH
+- base: VEE
+  market:
+    identifier: coinsbit
+    name: Coinsbit
   target: USD
-- base: VEE
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: VEE
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: VEE
   market:
     identifier: uniswap
     name: Uniswap
   target: ETH
-- base: VEE
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
 - base: VEE
   market:
     identifier: upbit_indonesia

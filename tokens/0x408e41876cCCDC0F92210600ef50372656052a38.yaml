@@ -1,8 +1,8 @@
 ---
 address: '0x408e41876cCCDC0F92210600ef50372656052a38'
-coingecko_rank: 161
-coingecko_score: 40.711
-community_score: 31.797
+coingecko_rank: 160
+coingecko_score: 41.212
+community_score: 34.916
 description: >-
   Ren is an open protocol that enables the permissionless and private transfer of value between any blockchain.
   Ren's core product, RenVM, is focused on bringing interoperability to decentralized finance (DeFi).
@@ -30,12 +30,22 @@ links:
   subreddit_url: https://www.reddit.com/r/republicprotocol/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 36.952
-market_cap_rank: 95
+liquidity_score: 35.528
+market_cap_rank: 96
 name: REN
 public_interest_score: 43.246
 symbol: ren
 tickers:
+- base: REN
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
+- base: REN
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: REN
   market:
     identifier: bitrue
@@ -68,16 +78,6 @@ tickers:
   target: BTC
 - base: REN
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: REN
-  market:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: REN
-  market:
-    identifier: tidex
-    name: Tidex
-  target: ETH

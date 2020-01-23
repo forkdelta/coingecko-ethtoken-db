@@ -1,8 +1,8 @@
 ---
 address: '0xC011A72400E58ecD99Ee497CF89E3775d4bd732F'
-coingecko_rank: 107
-coingecko_score: 45.636
-community_score: 27.632
+coingecko_rank: 118
+coingecko_score: 44.772
+community_score: 27.937
 description: >-
   Synthetix is based in Australia, Synthetix launched a seed funding round in September, 2017 to develop
   the concept of a self-contained stablecoin payment network. They then kicked off their public ICO on
@@ -31,7 +31,7 @@ description: >-
   and therefore dividends, to SNX holders to incentivize (or disincentivize) the holding of SNX in escrow
   smart contracts, and thus, the creation of Synths. The theory is that this will cause users to mint
   and burn Synths in the appropriate amount based solely on supply and demand.
-developer_score: 58.961
+developer_score: 54.976
 id: havven
 image:
   large: https://assets.coingecko.com/coins/images/3406/large/synthetix.png?1547038079
@@ -59,12 +59,17 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io/
   telegram_channel_identifier: havven_official1
   twitter_screen_name: synthetix_io
-liquidity_score: 35.465
-market_cap_rank: 51
+liquidity_score: 35.308
+market_cap_rank: 50
 name: Synthetix Network Token
 public_interest_score: 27.061
 symbol: snx
 tickers:
+- base: SNX
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
 - base: SNX
   market:
     identifier: eterbase
@@ -75,11 +80,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: HAV
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: SNX
   market:
     identifier: idex

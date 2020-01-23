@@ -1,8 +1,8 @@
 ---
 address: '0x5E6b6d9aBAd9093fdc861Ea1600eBa1b355Cd940'
-coingecko_rank: 470
-coingecko_score: 29.508
-community_score: 8.753
+coingecko_rank: 467
+coingecko_score: 29.642
+community_score: 9.286
 description: >-
   ITC is designed to solve the severe safety problems of present IoT. ITC applies a combination of asymmetric
   encryption of cryptography, semi-homomorphic-encryption ciphertext computing technology and distributed
@@ -27,12 +27,22 @@ links:
     github:
     - https://github.com/ZhuoAppSofeware/itc-blockchain
   twitter_screen_name: IoT_Chain
-liquidity_score: 37.502
-market_cap_rank: 231
+liquidity_score: 37.775
+market_cap_rank: 234
 name: IoT Chain
 public_interest_score: 31.769
 symbol: itc
 tickers:
+- base: ITC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: ITC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: ETH
 - base: ITC
   market:
     identifier: bitrue
@@ -50,16 +60,6 @@ tickers:
   target: XRP
 - base: ITC
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
-- base: ITC
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
-- base: ITC
-  market:
     identifier: piexgo
     name: Piexgo
-  target: USDT
+  target: BTC

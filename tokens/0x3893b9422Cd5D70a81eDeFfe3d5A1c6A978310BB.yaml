@@ -1,8 +1,8 @@
 ---
 address: '0x3893b9422Cd5D70a81eDeFfe3d5A1c6A978310BB'
-coingecko_rank: 402
-coingecko_score: 31.252
-community_score: 25.947
+coingecko_rank: 403
+coingecko_score: 31.255
+community_score: 26.18
 description: >-
   Mithril is a decentralized ecosystem on the ethereum blockchain. It is a system that rewards users who
   engage in “social mining”. Mithril rewards users for the impact their content may have in viewers and
@@ -64,17 +64,27 @@ links:
   subreddit_url: https://www.reddit.com/r/MithrilToken/
   telegram_channel_identifier: MithrilChat
   twitter_screen_name: MithrilToken
-liquidity_score: 27.802
-market_cap_rank: 356
+liquidity_score: 27.221
+market_cap_rank: 339
 name: Mithril
 public_interest_score: 32.676
 symbol: mith
 tickers:
-- base: MITH-C76
+- base: MITH
   market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: MITH
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: MITH
+  market:
+    identifier: altilly
+    name: Altilly
+  target: LTC
 - base: MIT
   market:
     identifier: bitfinex
@@ -104,32 +114,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: MITH
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
 - base: MITH
   market:
     identifier: max_maicoin
     name: Max Maicoin
-  target: TWD
-- base: MITH
-  market:
-    identifier: max_maicoin
-    name: Max Maicoin
   target: USDT
-- base: MITH
-  market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: MITH
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC
 - base: MITH
   market:
     identifier: okex_korea
@@ -142,11 +132,11 @@ tickers:
   target: KRW
 - base: MITH
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
+    identifier: quoine
+    name: Liquid
+  target: BTC
 - base: MITH
   market:
-    identifier: zb
-    name: ZB
-  target: QC
+    identifier: quoine
+    name: Liquid
+  target: ETH

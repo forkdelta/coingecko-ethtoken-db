@@ -1,8 +1,8 @@
 ---
 address: '0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206'
-coingecko_rank: 165
-coingecko_score: 40.348
-community_score: 33.462
+coingecko_rank: 167
+coingecko_score: 40.415
+community_score: 33.771
 description: >-
   The NEXO Token is an asset-backed token and is backed by the underlying assets of Nexo’s loan portfolio.
   NEXO Tokens Holders will get 30% of the company’s profits.
@@ -35,12 +35,22 @@ links:
   subreddit_url: https://www.reddit.com/r/Nexo/
   telegram_channel_identifier: nexofinance
   twitter_screen_name: NexoFinance
-liquidity_score: 47.036
-market_cap_rank: 71
+liquidity_score: 47.125
+market_cap_rank: 73
 name: NEXO
 public_interest_score: 34.214
 symbol: nexo
 tickers:
+- base: NEXO
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: NEXO
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
 - base: NEXO
   market:
     identifier: bitexlive
@@ -60,17 +70,7 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: NEXO
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
-- base: NEXO
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
 - base: NEXO
   market:
     identifier: idex
@@ -78,11 +78,11 @@ tickers:
   target: ETH
 - base: NEXO
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: NEXO
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
