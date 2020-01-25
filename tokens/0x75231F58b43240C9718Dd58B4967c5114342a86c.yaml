@@ -52,9 +52,9 @@ symbol: okb
 tickers:
 - base: OKB
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
 - base: OKB
   market:
     identifier: bitfinex
@@ -62,10 +62,20 @@ tickers:
   target: UST
 - base: OKB
   market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: OKB
+  market:
     identifier: lbank
     name: LBank
   target: USDT
 - base: AE
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
+- base: SC
   market:
     identifier: okex
     name: OKEx

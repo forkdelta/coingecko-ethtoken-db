@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: tierion
   twitter_screen_name: Tierion
 liquidity_score: 26.305
-market_cap_rank: 142
+market_cap_rank: 141
 name: Tierion
 public_interest_score: 28.783
 symbol: tnt
@@ -58,8 +58,23 @@ tickers:
   target: ETH
 - base: TNT
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TNT
+  market:
     identifier: gate
     name: Gate.io
+  target: ETH
+- base: TNT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: TNT
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: TNT
   market:
@@ -75,7 +90,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: USD
 - base: TNT
   market:
     identifier: yobit

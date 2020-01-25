@@ -71,7 +71,7 @@ links:
   subreddit_url: https://www.reddit.com/r/livepeer
   twitter_screen_name: LivepeerOrg
 liquidity_score: 9.837
-market_cap_rank: 169
+market_cap_rank: 165
 name: Livepeer
 public_interest_score: 26.837
 symbol: lpt
@@ -83,6 +83,16 @@ tickers:
   target: WETH
 - base: LPT
   market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
+- base: LPT
+  market:
+    identifier: c_patex
+    name: C-Patex
+  target: LTC
+- base: LPT
+  market:
     identifier: ddex
     name: DDEX
   target: WETH
@@ -91,8 +101,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: LPT
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: BTC

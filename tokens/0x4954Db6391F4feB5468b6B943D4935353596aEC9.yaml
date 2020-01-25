@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: platinumfund
   twitter_screen_name: platinumqdao
 liquidity_score: 16.54
-market_cap_rank: 1269
+market_cap_rank: 1267
 name: USDQ
 public_interest_score: 35.35
 symbol: usdq
@@ -38,6 +38,16 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: BNT
+- base: USDQ
+  market:
+    identifier: btcnext
+    name: BTCNEXT
+  target: USDT
+- base: XEM
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDQ
 - base: BTC
   market:
     identifier: hotbit

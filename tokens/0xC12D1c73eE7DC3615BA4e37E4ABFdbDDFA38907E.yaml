@@ -40,16 +40,26 @@ links:
   telegram_channel_identifier: kickico
   twitter_screen_name: KickEcosystem
 liquidity_score: 4.178
-market_cap_rank: 3099
+market_cap_rank: 3271
 name: KickToken
 public_interest_score: 24.518
 symbol: kick
 tickers:
 - base: KICK
   market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: KICK
+  market:
     identifier: bitmart
     name: BitMart
   target: ETH
+- base: KICK
+  market:
+    identifier: coinsbit
+    name: Coinsbit
+  target: BTC
 - base: KICK
   market:
     identifier: hitbtc
@@ -62,11 +72,6 @@ tickers:
   target: ETH
 - base: KICK
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: ETH
-- base: KICK
-  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
@@ -75,11 +80,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: KICK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: KICK
   market:
     identifier: yobit

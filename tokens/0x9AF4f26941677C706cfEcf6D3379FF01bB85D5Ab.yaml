@@ -30,7 +30,7 @@ links:
   subreddit_url: https://www.reddit.com/r/DomRaider
   twitter_screen_name: domraider
 liquidity_score: 1.0
-market_cap_rank: 650
+market_cap_rank: 628
 name: DomRaider
 public_interest_score: 24.684
 symbol: drt
@@ -42,11 +42,6 @@ tickers:
   target: BTC
 - base: DRT
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: DRT
-  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -60,13 +55,18 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: DRT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: DRT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: DRT
   market:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: DRT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/BNBMOON
 liquidity_score: 3.94
-market_cap_rank: 3012
+market_cap_rank: 2952
 name: 10X Long BNB Token
 public_interest_score: 0.029
 symbol: bnbmoon
-tickers: []
+tickers:
+- base: BNBMOON
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

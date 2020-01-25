@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: IQFinexchannel
   twitter_screen_name: IQFinexcom
 liquidity_score: 10.416
-market_cap_rank: 721
+market_cap_rank: 727
 name: IQF Token
 public_interest_score: 26.836
 symbol: iqf
-tickers: []
+tickers:
+- base: IQF
+  market:
+    identifier: iqfinex
+    name: IQFinex
+  target: BTC
+- base: IQF
+  market:
+    identifier: iqfinex
+    name: IQFinex
+  target: ETH

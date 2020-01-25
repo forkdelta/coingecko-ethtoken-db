@@ -57,7 +57,7 @@ links:
   telegram_channel_identifier: MainframeCommunity
   twitter_screen_name: Mainframe_HQ
 liquidity_score: 34.69
-market_cap_rank: 225
+market_cap_rank: 249
 name: Mainframe
 public_interest_score: 30.093
 symbol: mft
@@ -69,9 +69,24 @@ tickers:
   target: BNT
 - base: MFT
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: MFT
+  market:
     identifier: uniswap
     name: Uniswap
   target: ETH
+- base: MFT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: MFT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: MFT
   market:
     identifier: vcc

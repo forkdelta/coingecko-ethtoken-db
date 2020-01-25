@@ -49,11 +49,6 @@ symbol: req
 tickers:
 - base: REQ
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: REQ
-  market:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
@@ -79,11 +74,6 @@ tickers:
   target: XRP
 - base: REQ
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: REQ
-  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -101,6 +91,16 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: BTC
+- base: REQ
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: REQ
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: REQ
   market:
@@ -112,6 +112,11 @@ tickers:
     identifier: wazirx
     name: WazirX
   target: BTC
+- base: REQ
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
 - base: REQ
   market:
     identifier: yobit
@@ -127,3 +132,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: REQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: REQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

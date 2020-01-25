@@ -29,7 +29,7 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 25.491
-market_cap_rank: 2939
+market_cap_rank: 3906
 name: iBTC
 public_interest_score: 32.913
 symbol: ibtc
@@ -39,11 +39,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: IBTC
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: IBNB
 - base: SLINK
   market:
     identifier: synthetix
@@ -54,6 +49,11 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: IXTZ
+- base: IBTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
 - base: IBTC
   market:
     identifier: synthetix

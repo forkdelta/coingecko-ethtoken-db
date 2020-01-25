@@ -56,7 +56,7 @@ links:
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
 liquidity_score: 28.043
-market_cap_rank: 125
+market_cap_rank: 129
 name: WAX
 public_interest_score: 34.129
 symbol: waxp
@@ -66,11 +66,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: BTC
-- base: WAX
+- base: WAXP
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: WAX
   market:
     identifier: forkdelta
@@ -106,3 +106,8 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: WAXP
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH
