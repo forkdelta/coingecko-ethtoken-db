@@ -28,16 +28,31 @@ links:
     - https://github.com/poetapp/poet-js
   subreddit_url: https://www.reddit.com/r/poetproject
 liquidity_score: 14.194
-market_cap_rank: 373
+market_cap_rank: 387
 name: Po.et
 public_interest_score: 35.422
 symbol: poe
 tickers:
 - base: POE
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: POE
+  market:
+    identifier: binance
+    name: Binance
+  target: ETH
+- base: POE
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: POE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: POE
   market:
     identifier: hitbtc

@@ -93,7 +93,7 @@ links:
   telegram_channel_identifier: quarkchainio
   twitter_screen_name: Quark_Chain
 liquidity_score: 32.005
-market_cap_rank: 217
+market_cap_rank: 220
 name: QuarkChain
 public_interest_score: 25.418
 symbol: qkc
@@ -115,6 +115,26 @@ tickers:
   target: BTC
 - base: QKC
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: QKC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: QKC
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: QKC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: QKC
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -133,11 +153,6 @@ tickers:
     identifier: piexgo
     name: Piexgo
   target: USDT
-- base: QKC
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
 - base: QKC
   market:
     identifier: wazirx

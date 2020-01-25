@@ -43,6 +43,11 @@ symbol: nexo
 tickers:
 - base: NEXO
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: NEXO
+  market:
     identifier: bancor
     name: Bancor Network
   target: BNT
@@ -53,19 +58,14 @@ tickers:
   target: USDB
 - base: NEXO
   market:
-    identifier: bitexlive
-    name: Bitexlive
+    identifier: bitcratic
+    name: Bitcratic
   target: ETH
 - base: NEXO
   market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: NEXO
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: NEXO
   market:
     identifier: hitbtc

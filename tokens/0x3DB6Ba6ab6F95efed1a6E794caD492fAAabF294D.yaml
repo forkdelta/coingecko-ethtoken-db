@@ -31,8 +31,18 @@ links:
   telegram_channel_identifier: LTOnetwork
   twitter_screen_name: ltonetwork
 liquidity_score: 27.408
-market_cap_rank: 221
+market_cap_rank: 227
 name: LTO Network
 public_interest_score: 35.55
 symbol: lto
-tickers: []
+tickers:
+- base: LTO-BDF
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: LTO
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH

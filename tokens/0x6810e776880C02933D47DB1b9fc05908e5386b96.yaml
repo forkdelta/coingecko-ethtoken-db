@@ -85,6 +85,11 @@ tickers:
   target: BNT
 - base: GNO
   market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
+- base: GNO
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
@@ -93,6 +98,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: GNO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: GNO
   market:
     identifier: forkdelta
@@ -138,11 +148,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: GNO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: GNO
   market:
     identifier: yobit

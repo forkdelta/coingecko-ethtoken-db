@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: deflacoin
   twitter_screen_name: deflacoin
 liquidity_score: 1.0
-market_cap_rank: 1762
+market_cap_rank: 1757
 name: Deflacoin
 public_interest_score: 30.71
 symbol: defl
 tickers:
+- base: DEFL
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
 - base: DEFL
   market:
     identifier: trade_satoshi
@@ -45,8 +50,3 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: ETH
-- base: DEFL
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: USDT
