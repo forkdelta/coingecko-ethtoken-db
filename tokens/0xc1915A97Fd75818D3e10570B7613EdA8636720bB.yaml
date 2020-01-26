@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/ALTDOOM
 liquidity_score: 1.952
-market_cap_rank: 2057
+market_cap_rank: 5067
 name: 10X Short Altcoin Index Token
 public_interest_score: 0.029
 symbol: altdoom
-tickers: []
+tickers:
+- base: ALTDOOM
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

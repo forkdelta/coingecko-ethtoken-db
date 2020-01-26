@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: hashgardeng
   twitter_screen_name: Hashgard_off
 liquidity_score: 31.944
-market_cap_rank: 518
+market_cap_rank: 526
 name: Hashgard
 public_interest_score: 26.688
 symbol: gard
 tickers:
+- base: GARD
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: GARD
   market:
     identifier: idcm
@@ -50,11 +55,6 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: GARD
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
 - base: GARD
   market:
     identifier: probit

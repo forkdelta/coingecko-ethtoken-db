@@ -38,7 +38,7 @@ links:
   telegram_channel_identifier: bankex
   twitter_screen_name: BANKEX
 liquidity_score: 12.313
-market_cap_rank: 750
+market_cap_rank: 752
 name: BANKEX
 public_interest_score: 25.133
 symbol: bkx
@@ -60,11 +60,31 @@ tickers:
   target: USD
 - base: BKX
   market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: BKX
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
 - base: BKX
   market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: BKX
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: BKX
+  market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: BKX
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

@@ -51,11 +51,16 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 51.873
-market_cap_rank: 91
+market_cap_rank: 92
 name: Status
 public_interest_score: 42.454
 symbol: SNT
 tickers:
+- base: SNT
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: SNT
   market:
     identifier: bancor
@@ -73,9 +78,19 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: bw
-    name: BW.com
-  target: QC
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
+- base: SNT
+  market:
+    identifier: bitkub
+    name: Bitkub
+  target: THB
+- base: SNT
+  market:
+    identifier: chaoex
+    name: CHAOEX
+  target: ETH
 - base: SNT
   market:
     identifier: crex24
@@ -83,6 +98,11 @@ tickers:
   target: BTC
 - base: SNT
   market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: USDT
+- base: SNT
+  market:
     identifier: gate
     name: Gate.io
   target: BTC
@@ -93,9 +113,9 @@ tickers:
   target: ETH
 - base: SNT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: SNT
   market:
     identifier: huobi_korea
@@ -116,11 +136,6 @@ tickers:
     identifier: iqfinex
     name: IQFinex
   target: ETH
-- base: SNT
-  market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
 - base: SNT
   market:
     identifier: livecoin
@@ -176,8 +191,3 @@ tickers:
     identifier: zb
     name: ZB
   target: BTC
-- base: SNT
-  market:
-    identifier: zb
-    name: ZB
-  target: QC

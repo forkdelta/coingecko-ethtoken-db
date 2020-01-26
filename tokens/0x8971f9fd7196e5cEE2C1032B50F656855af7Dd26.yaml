@@ -56,6 +56,11 @@ symbol: lamb
 tickers:
 - base: LAMB
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: LAMB
+  market:
     identifier: coinall
     name: CoinAll
   target: USDT
@@ -71,11 +76,6 @@ tickers:
   target: ETH
 - base: LAMB
   market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: LAMB
-  market:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
@@ -84,3 +84,13 @@ tickers:
     identifier: piexgo
     name: Piexgo
   target: USDT
+- base: LAMB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: BTC
+- base: LAMB
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE

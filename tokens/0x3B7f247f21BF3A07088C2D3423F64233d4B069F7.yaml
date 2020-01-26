@@ -25,11 +25,21 @@ links:
   telegram_channel_identifier: DYNMT
   twitter_screen_name: ddynmt
 liquidity_score: 23.564
-market_cap_rank: 5869
+market_cap_rank: 2605
 name: DYNAMITE Token
 public_interest_score: 27.772
 symbol: dynmt
 tickers:
+- base: DYNMT
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
+- base: DYNMT
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: DYNMT
   market:
     identifier: mercatox

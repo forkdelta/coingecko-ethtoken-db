@@ -83,7 +83,7 @@ links:
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
 liquidity_score: 46.264
-market_cap_rank: 43
+market_cap_rank: 44
 name: Holo
 public_interest_score: 31.401
 symbol: hot
@@ -110,9 +110,14 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: HOT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: HOT
   market:
     identifier: idex
@@ -128,6 +133,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: HOT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
 - base: HOT
   market:
     identifier: trade_satoshi

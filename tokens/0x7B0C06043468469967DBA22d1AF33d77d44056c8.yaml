@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: themorpheusnetwork
   twitter_screen_name: morphcrypto
 liquidity_score: 6.594
-market_cap_rank: 3873
+market_cap_rank: 2854
 name: Morpheus Network
 public_interest_score: 26.577
 symbol: mrph
 tickers:
+- base: MRPH
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: MRPH
   market:
     identifier: bitcratic
@@ -48,3 +53,8 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: BTC
+- base: MRPH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

@@ -54,10 +54,15 @@ tickers:
     identifier: kucoin
     name: KuCoin
   target: BTC
-- base: IXTZ
+- base: SUSD
   market:
-    identifier: synthetix
-    name: Synthetix Exchange
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: SAFE
+  market:
+    identifier: safe_trade
+    name: SafeTrade
   target: SUSD
 - base: IETH
   market:
@@ -65,6 +70,11 @@ tickers:
     name: Synthetix Exchange
   target: SUSD
 - base: STRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SLTC
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -84,7 +94,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: ITRX
+- base: SXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange

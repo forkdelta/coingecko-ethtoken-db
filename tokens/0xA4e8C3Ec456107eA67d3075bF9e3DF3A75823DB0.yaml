@@ -51,7 +51,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 37.653
-market_cap_rank: 167
+market_cap_rank: 169
 name: Loom Network
 public_interest_score: 29.458
 symbol: loom
@@ -113,6 +113,11 @@ tickers:
   target: ETH
 - base: LOOM
   market:
+    identifier: poloniex
+    name: Poloniex
+  target: BTC
+- base: LOOM
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
@@ -135,4 +140,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: LOOM
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC
