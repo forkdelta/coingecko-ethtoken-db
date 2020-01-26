@@ -37,11 +37,16 @@ links:
   telegram_channel_identifier: ciphernewz
   twitter_screen_name: ciphertoken
 liquidity_score: 1.0
-market_cap_rank: 3895
+market_cap_rank: 6256
 name: CIPHER
 public_interest_score: 0.0
 symbol: cpr
 tickers:
+- base: CPR
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: CPR
   market:
     identifier: ddex
@@ -52,6 +57,11 @@ tickers:
     identifier: thetokenstore
     name: Token.Store
   target: ETH
+- base: CPR
+  market:
+    identifier: unnamed
+    name: Unnamed
+  target: BTC
 - base: CPR
   market:
     identifier: unnamed

@@ -42,11 +42,6 @@ tickers:
   target: USD
 - base: USDT
   market:
-    identifier: coinall
-    name: CoinAll
-  target: USDK
-- base: USDT
-  market:
     identifier: floatsv
     name: Float SV
   target: USDK
@@ -54,6 +49,11 @@ tickers:
   market:
     identifier: floatsv
     name: Float SV
+  target: USDK
+- base: ALGO
+  market:
+    identifier: okex
+    name: OKEx
   target: USDK
 - base: DOGE
   market:
@@ -70,12 +70,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: ALGO
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: SPND
+- base: LAMB
   market:
     identifier: okex
     name: OKEx
@@ -85,7 +80,17 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
+- base: PLG
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
 - base: ETM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: SPND
   market:
     identifier: okex
     name: OKEx
@@ -95,17 +100,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: LAMB
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: PLG
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: FTM
+- base: CRO
   market:
     identifier: okex
     name: OKEx

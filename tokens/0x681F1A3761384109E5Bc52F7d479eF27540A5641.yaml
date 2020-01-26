@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/TRXMOON
 liquidity_score: 4.453
-market_cap_rank: 2962
+market_cap_rank: 6170
 name: 10X Long TRX Token
 public_interest_score: 0.029
 symbol: trxmoon
-tickers: []
+tickers:
+- base: TRXMOON
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

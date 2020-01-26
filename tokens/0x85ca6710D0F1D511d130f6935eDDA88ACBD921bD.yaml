@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: pledgecamp
   twitter_screen_name: pledgecamp
 liquidity_score: 17.069
-market_cap_rank: 4839
+market_cap_rank: 4505
 name: Pledgecamp
 public_interest_score: 23.986
 symbol: plg
 tickers:
+- base: PLG-D8D
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: PLG
   market:
     identifier: okex
@@ -40,3 +45,8 @@ tickers:
     identifier: piexgo
     name: Piexgo
   target: USDT
+- base: PLG
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

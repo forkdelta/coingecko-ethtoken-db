@@ -68,9 +68,9 @@ tickers:
   target: USD
 - base: ZIL
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
+    identifier: bitstorage
+    name: BitStorage
+  target: ETH
 - base: ZIL
   market:
     identifier: coin_metro
@@ -93,18 +93,13 @@ tickers:
   target: ETH
 - base: ZIL
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: ZIL
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: USDT
-- base: ZIL
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH
 - base: ZIL
   market:
@@ -120,11 +115,21 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
+  target: BTC
+- base: ZIL
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
   target: USDT
 - base: ZIL
   market:
     identifier: probit
     name: Probit
+  target: BTC
+- base: ZIL
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: BTC
 - base: ZIL
   market:
@@ -155,9 +160,4 @@ tickers:
   market:
     identifier: vcc
     name: VCC Exchange
-  target: BTC
-- base: ZIL
-  market:
-    identifier: wazirx
-    name: WazirX
   target: BTC

@@ -95,6 +95,11 @@ tickers:
   target: KRW
 - base: REP
   market:
+    identifier: chaoex
+    name: CHAOEX
+  target: ETH
+- base: REP
+  market:
     identifier: exrates
     name: Exrates
   target: USD
@@ -117,6 +122,11 @@ tickers:
   market:
     identifier: iqfinex
     name: IQFinex
+  target: ETH
+- base: REP
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
   market:
@@ -148,8 +158,3 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
-- base: REP
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: ETH

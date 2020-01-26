@@ -31,16 +31,31 @@ links:
   telegram_channel_identifier: WePowerNetwork
   twitter_screen_name: WePowerN
 liquidity_score: 27.257
-market_cap_rank: 373
+market_cap_rank: 369
 name: WePower
 public_interest_score: 28.909
 symbol: wpr
 tickers:
 - base: WPR
   market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: WPR
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: WPR
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: WPR
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: WPR
   market:
     identifier: bitrue
@@ -61,6 +76,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: WPR
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: BTC
 - base: WPR
   market:
     identifier: sistemkoin

@@ -53,11 +53,16 @@ links:
   telegram_channel_identifier: primas_official
   twitter_screen_name: PrimasOfficial
 liquidity_score: 29.056
-market_cap_rank: 636
+market_cap_rank: 643
 name: Primas
 public_interest_score: 33.73
 symbol: pst
 tickers:
+- base: PST
+  market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
 - base: PST
   market:
     identifier: gate
@@ -73,6 +78,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: PST
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: PST
   market:
     identifier: yobit

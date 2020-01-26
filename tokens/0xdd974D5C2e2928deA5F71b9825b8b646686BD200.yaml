@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 52.219
-market_cap_rank: 81
+market_cap_rank: 79
 name: Kyber Network
 public_interest_score: 29.618
 symbol: knc
@@ -93,6 +93,16 @@ tickers:
   target: USD
 - base: KNC
   market:
+    identifier: cpdax
+    name: CPDAX
+  target: BTC
+- base: KNC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: KNC
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -101,6 +111,21 @@ tickers:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: KNC
   market:
     identifier: idex
@@ -123,16 +148,6 @@ tickers:
   target: USD
 - base: KNC
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: KNC
-  market:
     identifier: tidex
     name: Tidex
   target: BTC
-- base: KNC
-  market:
-    identifier: zb
-    name: ZB
-  target: QC

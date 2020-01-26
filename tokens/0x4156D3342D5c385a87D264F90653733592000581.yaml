@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: SALTLendingDiscussion
   twitter_screen_name: SALTLending
 liquidity_score: 15.517
-market_cap_rank: 371
+market_cap_rank: 368
 name: SALT
 public_interest_score: 37.803
 symbol: salt
@@ -52,6 +52,16 @@ tickers:
   target: ETH
 - base: SALT
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: SALT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: SALT
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -59,11 +69,6 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: SALT
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
   target: ETH
 - base: SALT
   market:

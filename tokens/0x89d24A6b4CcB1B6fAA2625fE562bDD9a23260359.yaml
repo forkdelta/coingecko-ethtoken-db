@@ -93,11 +93,26 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 46.191
-market_cap_rank: 116
+market_cap_rank: 118
 name: Sai
 public_interest_score: 33.467
 symbol: sai
 tickers:
+- base: TUSD
+  market:
+    identifier: atomars
+    name: Atomars
+  target: DAI
+- base: WETH
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: DAI
+- base: DAI
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: USDC
 - base: DAI
   market:
     identifier: bamboo_relay
@@ -120,20 +135,15 @@ tickers:
   target: EUR
 - base: DAI
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
 - base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: XRP
   market:
     identifier: hitbtc
     name: HitBTC
@@ -148,12 +158,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: BCH
+- base: MKR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -168,22 +183,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
+- base: ETH
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EOSDT
+    identifier: oasis_trade
+    name: OasisDEX
+  target: SAI
 - base: SAI
   market:
     identifier: oasis_trade
     name: OasisDEX
   target: USDC
 - base: ETH
-  market:
-    identifier: okex
-    name: OKEx
-  target: DAI
-- base: BTC
   market:
     identifier: okex
     name: OKEx
@@ -212,7 +222,7 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: BTC
 - base: DAI
   market:
     identifier: sistemkoin
