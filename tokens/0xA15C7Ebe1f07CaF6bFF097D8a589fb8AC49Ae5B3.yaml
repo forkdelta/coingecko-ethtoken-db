@@ -64,7 +64,7 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 48.308
-market_cap_rank: 110
+market_cap_rank: 104
 name: Pundi X
 public_interest_score: 27.822
 symbol: npxs
@@ -91,9 +91,24 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: bitci
+    name: Bitci
+  target: CHFT
+- base: NPXS
+  market:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
+- base: NPXS
+  market:
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: NPXS
   market:
     identifier: bittrex
@@ -116,9 +131,9 @@ tickers:
   target: BTC
 - base: NPXS
   market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: NPXS
   market:
     identifier: exrates
@@ -151,11 +166,6 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: indodax
-    name: Indodax
-  target: IDR
-- base: NPXS
-  market:
     identifier: iqfinex
     name: IQFinex
   target: ETH
@@ -176,14 +186,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: thetokenstore
-    name: Token.Store
-  target: ETH
-- base: NPXS
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
 - base: NPXS
   market:
     identifier: upbit_indonesia
@@ -198,9 +203,9 @@ tickers:
   market:
     identifier: vcc
     name: VCC Exchange
-  target: ETH
+  target: USDT
 - base: NPXS
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: USDT
+    identifier: wazirx
+    name: WazirX
+  target: BTC

@@ -24,7 +24,7 @@ links:
   telegram_channel_identifier: propy
   twitter_screen_name: PropyInc
 liquidity_score: 16.608
-market_cap_rank: 341
+market_cap_rank: 340
 name: Propy
 public_interest_score: 24.959
 symbol: pro
@@ -38,14 +38,19 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: PRO
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
 - base: PROPY
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
+  target: BTC
+- base: PRO
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: PRO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

@@ -75,19 +75,24 @@ symbol: elf
 tickers:
 - base: ELF
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: ELF
-  market:
     identifier: bcex
     name: BCEX
   target: CKUSD
 - base: ELF
   market:
-    identifier: bibox
-    name: Bibox
-  target: ETH
+    identifier: bitci
+    name: Bitci
+  target: BTC
+- base: ELF
+  market:
+    identifier: bitci
+    name: Bitci
+  target: CHFT
+- base: ELF
+  market:
+    identifier: bitci
+    name: Bitci
+  target: TRY
 - base: ELF
   market:
     identifier: bitfinex
@@ -100,14 +105,19 @@ tickers:
   target: EUR
 - base: ELF
   market:
-    identifier: fcoin
-    name: FCoin
-  target: ETH
+    identifier: coinbig
+    name: COINBIG
+  target: USDT
 - base: ELF
   market:
     identifier: fcoin
     name: FCoin
   target: USDT
+- base: ELF
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: ELF
   market:
     identifier: gopax
@@ -117,22 +127,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: ELF
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: USD
 - base: ELF
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
-- base: ELF
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
   target: USDT
-- base: ELF
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: ELF
   market:
     identifier: livecoin
@@ -150,6 +155,6 @@ tickers:
   target: ETH
 - base: ELF
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT

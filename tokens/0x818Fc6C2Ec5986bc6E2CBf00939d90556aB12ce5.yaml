@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/KinFoundation
   twitter_screen_name: kin_foundation
 liquidity_score: 20.143
-market_cap_rank: 652
+market_cap_rank: 668
 name: Kin
 public_interest_score: 33.632
 symbol: kin
@@ -104,6 +104,11 @@ tickers:
   target: USDT
 - base: KIN
   market:
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: KIN
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -129,11 +134,6 @@ tickers:
   target: BTC
 - base: KIN
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: LTC
-- base: KIN
-  market:
     identifier: p2pb2b
     name: P2PB2B
   target: BTC
@@ -142,11 +142,6 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: ETH
-- base: KIN
-  market:
-    identifier: satoexchange
-    name: SatoExchange
-  target: SATX
 - base: KIN
   market:
     identifier: yobit
@@ -167,6 +162,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: KIN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: KIN
   market:
     identifier: yobit

@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: streamrdata
   twitter_screen_name: streamr
 liquidity_score: 29.128
-market_cap_rank: 209
+market_cap_rank: 214
 name: Streamr DATAcoin
 public_interest_score: 24.863
 symbol: data
 tickers:
+- base: DATA
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: DATA
   market:
     identifier: bitcratic
@@ -38,11 +43,16 @@ tickers:
   target: ETH
 - base: DATA
   market:
-    identifier: coinone
-    name: Coinone
-  target: KRW
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DATA
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: DATA
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

@@ -54,11 +54,6 @@ tickers:
   target: USD
 - base: AST
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: AST
-  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
@@ -67,6 +62,11 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: AST
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDT
 - base: AST
   market:
     identifier: uniswap

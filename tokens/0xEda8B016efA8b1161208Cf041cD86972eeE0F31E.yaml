@@ -22,11 +22,16 @@ links:
   telegram_channel_identifier: IHTcoin
   twitter_screen_name: ihtcoin
 liquidity_score: 6.194
-market_cap_rank: 636
+market_cap_rank: 600
 name: IHT Real Estate Protocol
 public_interest_score: 26.579
 symbol: iht
 tickers:
+- base: IHT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: IHT
   market:
     identifier: hitbtc
@@ -42,13 +47,3 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: IHT
-  market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: IHT
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

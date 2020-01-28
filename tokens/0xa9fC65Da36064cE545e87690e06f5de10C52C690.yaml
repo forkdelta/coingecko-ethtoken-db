@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/BCHBEAR
 liquidity_score: 1.612
-market_cap_rank: 5131
+market_cap_rank: 4672
 name: 3X Short Bitcoin Cash Token
 public_interest_score: 0.029
 symbol: bchbear
-tickers: []
+tickers:
+- base: BCHBEAR
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

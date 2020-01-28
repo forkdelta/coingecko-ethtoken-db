@@ -107,9 +107,24 @@ tickers:
   target: ETH
 - base: LRC
   market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: LRC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: LRC
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: LRC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: LRC
   market:
     identifier: upbit
@@ -122,26 +137,6 @@ tickers:
   target: BTC
 - base: LRC
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: LRC
-  market:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
