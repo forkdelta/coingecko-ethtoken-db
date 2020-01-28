@@ -71,11 +71,16 @@ links:
   subreddit_url: https://www.reddit.com/r/livepeer
   twitter_screen_name: LivepeerOrg
 liquidity_score: 9.837
-market_cap_rank: 159
+market_cap_rank: 162
 name: Livepeer
 public_interest_score: 26.837
 symbol: lpt
 tickers:
+- base: LPT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: LPT
   market:
     identifier: bihodl
@@ -83,21 +88,6 @@ tickers:
   target: USDT
 - base: LPT
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
-- base: LPT
-  market:
-    identifier: c_patex
-    name: C-Patex
-  target: LTC
-- base: LPT
-  market:
     identifier: ddex
     name: DDEX
   target: WETH
-- base: LPT
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH

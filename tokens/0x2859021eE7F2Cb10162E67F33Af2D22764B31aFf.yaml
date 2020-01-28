@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: silentnotary
   twitter_screen_name: SilentNotary
 liquidity_score: 9.659
-market_cap_rank: 973
+market_cap_rank: 957
 name: Silent Notary
 public_interest_score: 28.595
 symbol: sntr
 tickers:
+- base: SNTR
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: SNTR
   market:
     identifier: forkdelta
@@ -41,4 +46,9 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: SNTR
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH

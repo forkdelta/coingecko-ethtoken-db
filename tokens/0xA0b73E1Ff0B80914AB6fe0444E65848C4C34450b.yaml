@@ -43,11 +43,16 @@ tickers:
   market:
     identifier: atomars
     name: Atomars
-  target: ETH
+  target: USDT
 - base: CRO
   market:
-    identifier: atomars
-    name: Atomars
+    identifier: bibox
+    name: Bibox
+  target: USDT
+- base: CRO
+  market:
+    identifier: bigone
+    name: BigONE
   target: USDT
 - base: CRO
   market:
@@ -71,8 +76,8 @@ tickers:
   target: USDT
 - base: CRO
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: fatbtc
+    name: FatBTC
   target: USDT
 - base: CRO
   market:
@@ -86,14 +91,9 @@ tickers:
   target: ETH
 - base: CRO
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: CRO
-  market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: USD
 - base: CRO
   market:
     identifier: huobi_korea
@@ -104,16 +104,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: CRO
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: CRO
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
 - base: CRO
   market:
     identifier: uniswap
@@ -129,8 +119,3 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
-- base: CRO
-  market:
-    identifier: zb
-    name: ZB
-  target: QC

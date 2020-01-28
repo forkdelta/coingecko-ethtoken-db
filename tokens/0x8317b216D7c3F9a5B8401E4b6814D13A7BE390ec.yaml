@@ -28,22 +28,22 @@ links:
   telegram_channel_identifier: exnceofficial
   twitter_screen_name: exncecom
 liquidity_score: 1.0
-market_cap_rank: 6276
+market_cap_rank: 4096
 name: EXNCE
 public_interest_score: 21.972
 symbol: xnc
 tickers:
-- base: ETBOLD
+- base: XNC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: XNC
   market:
     identifier: exnce
     name: EXNCE
-  target: XNC
-- base: DCA
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: XNC
-- base: BTB
+  target: ETH
+- base: PDRY
   market:
     identifier: exnce
     name: EXNCE
@@ -53,12 +53,27 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: XNC
+- base: ETBOLD
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
 - base: HLX
   market:
     identifier: exnce
     name: EXNCE
   target: XNC
+- base: TICO
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
 - base: LGBTQ
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
+- base: DCA
   market:
     identifier: exnce
     name: EXNCE
@@ -78,3 +93,8 @@ tickers:
     identifier: exnce
     name: EXNCE
   target: XNC
+- base: XNC
+  market:
+    identifier: saturn_network
+    name: Saturn Network
+  target: ETH
