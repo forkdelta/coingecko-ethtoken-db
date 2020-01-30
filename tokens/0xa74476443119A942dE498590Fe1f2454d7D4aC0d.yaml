@@ -80,11 +80,21 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 44.696
-market_cap_rank: 96
+market_cap_rank: 97
 name: Golem
 public_interest_score: 30.201
 symbol: gnt
 tickers:
+- base: GNT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: ETH
 - base: GNT
   market:
     identifier: bitfinex
@@ -97,39 +107,29 @@ tickers:
   target: ETH
 - base: GNT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: GNT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: GNT
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
 - base: GNT
   market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: AUD
-- base: GNT
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: NZD
-- base: GNT
-  market:
-    identifier: independent_reserve
-    name: Independent Reserve
-  target: USD
-- base: GNT
-  market:
-    identifier: iqfinex
-    name: IQFinex
-  target: BTC
-- base: GNT
-  market:
-    identifier: iqfinex
-    name: IQFinex
-  target: ETH
-- base: GNT
-  market:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: 295F401A-6FFE-4208-B38F-C7E558BC4484
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
 - base: GNT
   market:
     identifier: okex_korea
@@ -137,9 +137,19 @@ tickers:
   target: BTC
 - base: GNT
   market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: GNT
+  market:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
+- base: GNT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USDT
 - base: GNT
   market:
     identifier: sistemkoin
@@ -155,6 +165,16 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
+- base: GNT
+  market:
+    identifier: tokenize
+    name: Tokenize
+  target: ETH
+- base: GNT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: GNT
   market:
     identifier: vcc
@@ -174,6 +194,11 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: GNT
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
 - base: GNT
   market:
@@ -187,6 +212,16 @@ tickers:
   target: USD
 - base: GNT
   market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: GNT
+  market:
     identifier: zb
     name: ZB
   target: BTC
+- base: GNT
+  market:
+    identifier: zb
+    name: ZB
+  target: QC

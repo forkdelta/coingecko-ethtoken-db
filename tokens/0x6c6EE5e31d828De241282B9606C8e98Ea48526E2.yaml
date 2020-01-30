@@ -90,24 +90,9 @@ symbol: hot
 tickers:
 - base: HOT
   market:
-    identifier: bitci
-    name: Bitci
-  target: BTC
-- base: HOT
-  market:
-    identifier: bitci
-    name: Bitci
-  target: CHFT
-- base: HOT
-  market:
-    identifier: bitci
-    name: Bitci
-  target: TRY
-- base: HOT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: HOT
   market:
     identifier: forkdelta
@@ -115,9 +100,29 @@ tickers:
   target: ETH
 - base: HOT
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: HOT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: HOT
+  market:
     identifier: latoken
     name: LATOKEN
   target: LA
+- base: HOT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: HOT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
 - base: HOT
   market:
     identifier: sistemkoin
@@ -128,6 +133,11 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: BTC
+- base: HOT
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
 - base: HOT
   market:
     identifier: trade_satoshi

@@ -22,7 +22,7 @@ links:
   homepage:
   - https://usda.cc/en
 liquidity_score: 25.581
-market_cap_rank: 6145
+market_cap_rank: 6555
 name: USDA
 public_interest_score: 43.324
 symbol: usda
@@ -34,6 +34,21 @@ tickers:
   target: USDT
 - base: USDA
   market:
+    identifier: exrates
+    name: Exrates
+  target: EUR
+- base: USDA
+  market:
+    identifier: exrates
+    name: Exrates
+  target: RUB
+- base: USDA
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: USDA
+  market:
     identifier: livecoin
     name: Livecoin
   target: USD
@@ -41,6 +56,26 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: USDT
+- base: USDA
+  market:
+    identifier: simex
+    name: Simex
+  target: EUR
+- base: USDA
+  market:
+    identifier: simex
+    name: Simex
+  target: USD
+- base: USDA
+  market:
+    identifier: simex
+    name: Simex
+  target: USDT
+- base: USDA
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: USDT
 - base: USDA
   market:

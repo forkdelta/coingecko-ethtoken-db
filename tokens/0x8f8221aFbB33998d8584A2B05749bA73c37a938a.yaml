@@ -42,11 +42,16 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 12.858
-market_cap_rank: 222
+market_cap_rank: 228
 name: Request
 public_interest_score: 43.438
 symbol: req
 tickers:
+- base: REQ
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: REQ
   market:
     identifier: bitfinex
@@ -69,13 +74,33 @@ tickers:
   target: ETH
 - base: REQ
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: REQ
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: REQ
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: REQ
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
 - base: 297A7368-9428-4AAC-98A5-A28A217E7A99
   market:
     identifier: lykke
     name: Lykke
+  target: ETH
+- base: REQ
+  market:
+    identifier: uniswap
+    name: Uniswap
   target: ETH
 - base: REQ
   market:
@@ -92,6 +117,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: REQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: REQ
   market:
     identifier: yobit

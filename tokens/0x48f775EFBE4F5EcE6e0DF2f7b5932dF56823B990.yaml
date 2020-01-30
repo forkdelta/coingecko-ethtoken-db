@@ -43,7 +43,7 @@ links:
   subreddit_url: https://www.reddit.com/r/revain
   twitter_screen_name: Revain_org
 liquidity_score: 31.262
-market_cap_rank: 147
+market_cap_rank: 158
 name: Revain
 public_interest_score: 25.525
 symbol: r
@@ -58,6 +58,11 @@ tickers:
     identifier: coinlim
     name: Coinlim
   target: USDT
+- base: R
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
 - base: R
   market:
     identifier: hitbtc
@@ -90,14 +95,24 @@ tickers:
   target: USDT
 - base: R
   market:
-    identifier: probit
-    name: Probit
+    identifier: stocks_exchange
+    name: STEX
   target: USDT
+- base: R
+  market:
+    identifier: whitebit
+    name: WhiteBIT
+  target: BTC
+- base: R
+  market:
+    identifier: whitebit
+    name: WhiteBIT
+  target: USD
 - base: R
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: DOGE
 - base: R
   market:
     identifier: yobit

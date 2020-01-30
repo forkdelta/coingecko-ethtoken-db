@@ -44,8 +44,18 @@ links:
   telegram_channel_identifier: coinfi
   twitter_screen_name: coin_fi
 liquidity_score: 1.0
-market_cap_rank: 990
+market_cap_rank: 1000
 name: CoinFi
 public_interest_score: 24.64
 symbol: cofi
-tickers: []
+tickers:
+- base: COFI
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: COFI
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC

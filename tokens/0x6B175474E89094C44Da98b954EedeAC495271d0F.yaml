@@ -22,7 +22,7 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 41.749
-market_cap_rank: 49
+market_cap_rank: 48
 name: Dai
 public_interest_score: 0.016
 symbol: dai
@@ -37,37 +37,27 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: DAI
-- base: DAI
+- base: ZRX
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: oasis_trade
+    name: OasisDEX
+  target: DAI
 - base: REP
   market:
     identifier: oasis_trade
     name: OasisDEX
   target: DAI
-- base: NEO
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: ETH
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: MKR
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
-- base: USDT
+- base: WBTC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
 - base: USDC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
+- base: MKR
   market:
     identifier: switcheo
     name: Switcheo
