@@ -20,11 +20,16 @@ links:
   - http://www.topc.io/
   telegram_channel_identifier: topchaincoin
 liquidity_score: 33.606
-market_cap_rank: 4578
+market_cap_rank: 6163
 name: TopChain
 public_interest_score: 24.069
 symbol: topc
 tickers:
+- base: TOPC
+  market:
+    identifier: fubt
+    name: FUBT
+  target: USDT
 - base: TOPC
   market:
     identifier: huobi_korea
@@ -32,11 +37,11 @@ tickers:
   target: ETH
 - base: TOPC
   market:
-    identifier: okex
-    name: OKEx
-  target: ETH
-- base: TOPC
-  market:
     identifier: qbtc
     name: QBTC
+  target: USDT
+- base: TOPC
+  market:
+    identifier: zb
+    name: ZB
   target: USDT

@@ -51,21 +51,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
-- base: EURS
-  market:
-    identifier: dsx
-    name: DSX
-  target: EUR
 - base: BTC
   market:
     identifier: dsx
     name: DSX
   target: EURS
-- base: EURS
-  market:
-    identifier: dsx
-    name: DSX
-  target: USD
 - base: EURS
   market:
     identifier: hitbtc
@@ -76,17 +66,32 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: EOS
+- base: ZEC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: XRP
+- base: DASH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
@@ -102,21 +107,6 @@ tickers:
     name: HitBTC
   target: EURS
 - base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: ZEC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC

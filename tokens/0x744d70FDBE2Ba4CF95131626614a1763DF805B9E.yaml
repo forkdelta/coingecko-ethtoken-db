@@ -58,6 +58,16 @@ symbol: SNT
 tickers:
 - base: SNT
   market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: SNT
+  market:
+    identifier: bibo
+    name: Bibo
+  target: USDT
+- base: SNT
+  market:
     identifier: bihodl
     name: 'BiHODL '
   target: USDT
@@ -68,9 +78,9 @@ tickers:
   target: BTC
 - base: SNT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: SNT
   market:
     identifier: dextrade
@@ -80,17 +90,17 @@ tickers:
   market:
     identifier: gate
     name: Gate.io
-  target: BTC
-- base: SNT
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: SNT
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SNT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: SNT
   market:
     identifier: iqfinex
@@ -111,6 +121,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
+- base: SNT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: SNT
   market:
     identifier: okex_korea

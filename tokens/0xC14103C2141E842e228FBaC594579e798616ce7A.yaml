@@ -23,8 +23,28 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io/
   twitter_screen_name: synthetix_io
 liquidity_score: 29.643
-market_cap_rank: 2606
+market_cap_rank: 3548
 name: sLTC
 public_interest_score: 0.0
 symbol: sltc
-tickers: []
+tickers:
+- base: SLTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IBNB
+- base: SLTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: ITRX
+- base: SXTZ
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SLTC
+- base: STRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SLTC

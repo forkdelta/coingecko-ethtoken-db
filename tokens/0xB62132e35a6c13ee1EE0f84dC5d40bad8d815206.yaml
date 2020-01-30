@@ -36,7 +36,7 @@ links:
   telegram_channel_identifier: nexofinance
   twitter_screen_name: NexoFinance
 liquidity_score: 47.125
-market_cap_rank: 66
+market_cap_rank: 62
 name: NEXO
 public_interest_score: 34.214
 symbol: nexo
@@ -46,11 +46,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: NEXO
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: NEXO
   market:
     identifier: bancor
@@ -73,9 +68,9 @@ tickers:
   target: ETH
 - base: NEXO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: NEXO
   market:
     identifier: livecoin
@@ -83,6 +78,6 @@ tickers:
   target: ETH
 - base: NEXO
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

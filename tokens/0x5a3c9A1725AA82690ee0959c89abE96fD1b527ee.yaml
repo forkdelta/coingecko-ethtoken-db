@@ -1,6 +1,6 @@
 ---
 address: '0x5a3c9A1725AA82690ee0959c89abE96fD1b527ee'
-coingecko_rank: 4471
+coingecko_rank: 4470
 coingecko_score: 4.612
 community_score: 6.78
 description: >-
@@ -27,8 +27,13 @@ links:
   telegram_channel_identifier: Officialppi
   twitter_screen_name: piedpipercoin
 liquidity_score: 0.0
-market_cap_rank: 3963
+market_cap_rank: 3867
 name: PiedPiperCoin
 public_interest_score: 29.168
 symbol: ppi
-tickers: []
+tickers:
+- base: PPI
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH

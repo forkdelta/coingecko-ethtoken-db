@@ -70,11 +70,6 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: BTC
-- base: QSH
-  market:
-    identifier: bitfinex
-    name: Bitfinex
   target: ETH
 - base: QSH
   market:
@@ -88,9 +83,24 @@ tickers:
   target: BTC
 - base: QASH
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: QASH
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: AUD
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: EUR
 - base: ECH
   market:
     identifier: quoine
@@ -106,27 +116,12 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: DACS
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: GET
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: AMLT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: WIN
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: THRT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: SER
   market:
     identifier: quoine
     name: Liquid
@@ -136,7 +131,7 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: IDH
+- base: AMLT
   market:
     identifier: quoine
     name: Liquid
@@ -146,7 +141,22 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: KMD
+- base: IDH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: THRT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: WIN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: CRPT
   market:
     identifier: quoine
     name: Liquid
@@ -161,3 +171,13 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: SGD
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: USD

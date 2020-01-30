@@ -41,11 +41,16 @@ links:
   telegram_channel_identifier: SpendChat
   twitter_screen_name: SpendFoundation
 liquidity_score: 16.744
-market_cap_rank: 620
+market_cap_rank: 597
 name: Spendcoin
 public_interest_score: 26.21
 symbol: spnd
 tickers:
+- base: SPNDB-916
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: SPND
   market:
     identifier: bitsonic
@@ -56,3 +61,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
+- base: SPND
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC

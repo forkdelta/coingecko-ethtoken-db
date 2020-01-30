@@ -64,21 +64,21 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 48.308
-market_cap_rank: 104
+market_cap_rank: 101
 name: Pundi X
 public_interest_score: 27.822
 symbol: npxs
 tickers:
 - base: NPXS
   market:
-    identifier: atomars
-    name: Atomars
+    identifier: alterdice
+    name: AlterDice
   target: BTC
 - base: NPXS
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: atomars
+    name: Atomars
+  target: BTC
 - base: NPXS
   market:
     identifier: bit_z
@@ -89,11 +89,6 @@ tickers:
     identifier: bit_z
     name: Bit-Z
   target: ETH
-- base: NPXS
-  market:
-    identifier: bitci
-    name: Bitci
-  target: CHFT
 - base: NPXS
   market:
     identifier: bitcratic
@@ -106,26 +101,6 @@ tickers:
   target: KRW
 - base: NPXS
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: NPXS
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: ETH
-- base: NPXS
-  market:
-    identifier: coinbene
-    name: CoinBene
-  target: USDT
-- base: NPXS
-  market:
     identifier: dextrade
     name: Dex-Trade
   target: BTC
@@ -136,24 +111,9 @@ tickers:
   target: ETH
 - base: NPXS
   market:
-    identifier: exrates
-    name: Exrates
-  target: USD
-- base: PXS
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: NPXS
-  market:
     identifier: graviex
     name: Graviex
   target: BTC
-- base: NPXS
-  market:
-    identifier: graviex
-    name: Graviex
-  target: ETH
 - base: NPXS
   market:
     identifier: hitbtc
@@ -168,6 +128,11 @@ tickers:
   market:
     identifier: iqfinex
     name: IQFinex
+  target: ETH
+- base: NPXS
+  market:
+    identifier: kucoin
+    name: KuCoin
   target: ETH
 - base: NPXS
   market:
@@ -191,9 +156,19 @@ tickers:
   target: TRY
 - base: NPXS
   market:
+    identifier: thetokenstore
+    name: Token.Store
+  target: ETH
+- base: NPXS
+  market:
+    identifier: tidex
+    name: Tidex
+  target: ETH
+- base: NPXS
+  market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: IDR
+  target: BTC
 - base: NPXS
   market:
     identifier: vcc

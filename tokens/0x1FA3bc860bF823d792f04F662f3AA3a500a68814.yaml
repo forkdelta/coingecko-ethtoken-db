@@ -1,6 +1,6 @@
 ---
 address: '0x1FA3bc860bF823d792f04F662f3AA3a500a68814'
-coingecko_rank: 5226
+coingecko_rank: 5225
 coingecko_score: 3.696
 community_score: 0.0
 description: >-
@@ -18,8 +18,18 @@ links:
   homepage:
   - https://ftx.com/tokens/HEDGE
 liquidity_score: 18.464
-market_cap_rank: 4951
+market_cap_rank: 4507
 name: 1X Short Bitcoin Token
 public_interest_score: 0.029
 symbol: hedge
-tickers: []
+tickers:
+- base: HEDGE
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD
+- base: BTCHEDGE1X
+  market:
+    identifier: zbg
+    name: ZBG
+  target: USDT

@@ -17,6 +17,7 @@ links:
   - https://enjinx.io/eth/token/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
   - https://etherscan.io/token/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
   - https://ethplorer.io/address/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
+  - https://explorer.edge.network/
   facebook_username: edgenetworktech
   homepage:
   - https://edge.network/en/
@@ -27,10 +28,10 @@ links:
   telegram_channel_identifier: edgenetwork
   twitter_screen_name: edgenetwork
 liquidity_score: 1.0
-market_cap_rank: 6307
+market_cap_rank: 6198
 name: Edge
 public_interest_score: 44.269
-symbol: dadi
+symbol: edge
 tickers:
 - base: DAD
   market:
@@ -49,16 +50,26 @@ tickers:
   target: USD
 - base: DADI
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
-- base: DADI
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: DADI
   market:
     identifier: hitbtc
     name: HitBTC
+  target: USD
+- base: EDGE
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
+- base: EDGE
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: EDGE
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC

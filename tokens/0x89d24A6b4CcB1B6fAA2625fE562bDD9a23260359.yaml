@@ -98,6 +98,16 @@ name: Sai
 public_interest_score: 33.467
 symbol: sai
 tickers:
+- base: TUSD
+  market:
+    identifier: atomars
+    name: Atomars
+  target: DAI
+- base: DAI
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: USDC
 - base: DAI
   market:
     identifier: bamboo_relay
@@ -110,6 +120,11 @@ tickers:
   target: VNDT
 - base: DAI
   market:
+    identifier: coinall
+    name: CoinAll
+  target: USDT
+- base: DAI
+  market:
     identifier: crex24
     name: CREX24
   target: USD
@@ -120,15 +135,45 @@ tickers:
   target: EUR
 - base: DAI
   market:
+    identifier: everbloom
+    name: Everbloom
+  target: ETH
+- base: DAI
+  market:
     identifier: gate
     name: Gate.io
   target: USDT
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
 - base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: NEO
+- base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: TUSD
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: DAI
+- base: MKR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -143,11 +188,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: MKR
+- base: NEO
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
+- base: DAI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USDC
+- base: MKR
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: SAI
 - base: ETH
   market:
     identifier: oasis_trade
@@ -182,7 +237,7 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: ETH
+  target: TRY
 - base: DAI
   market:
     identifier: upbit
