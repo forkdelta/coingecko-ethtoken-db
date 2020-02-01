@@ -29,7 +29,7 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 31.504
-market_cap_rank: 2236
+market_cap_rank: 5827
 name: iTRX
 public_interest_score: 24.278
 symbol: itrx
@@ -39,7 +39,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: ILINK
-- base: SLTC
+- base: STRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: ITRX
+- base: IBNB
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -48,4 +53,14 @@ tickers:
   market:
     identifier: synthetix
     name: Synthetix Exchange
-  target: IXRP
+  target: IXTZ
+- base: ITRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: ITRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

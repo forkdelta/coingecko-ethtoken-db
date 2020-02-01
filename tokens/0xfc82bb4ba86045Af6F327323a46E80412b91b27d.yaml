@@ -29,8 +29,18 @@ links:
   telegram_channel_identifier: promnetwork
   twitter_screen_name: Prometeus_net
 liquidity_score: 24.555
-market_cap_rank: 311
+market_cap_rank: 322
 name: Prometeus
 public_interest_score: 29.125
 symbol: prom
-tickers: []
+tickers:
+- base: PROM
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: BTC
+- base: PROM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC

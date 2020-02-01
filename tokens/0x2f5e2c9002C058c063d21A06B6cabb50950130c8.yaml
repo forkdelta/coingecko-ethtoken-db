@@ -1,6 +1,6 @@
 ---
 address: '0x2f5e2c9002C058c063d21A06B6cabb50950130c8'
-coingecko_rank: 6434
+coingecko_rank: 6403
 coingecko_score: 0.203
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/ETHBEAR
 liquidity_score: 1.0
-market_cap_rank: 4267
+market_cap_rank: 4093
 name: 3X Short Ethereum Token
 public_interest_score: 0.029
 symbol: ethbear
-tickers: []
+tickers:
+- base: ETHBEAR
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

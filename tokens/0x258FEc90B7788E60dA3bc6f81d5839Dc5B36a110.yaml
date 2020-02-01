@@ -1,6 +1,6 @@
 ---
 address: '0x258FEc90B7788E60dA3bc6f81d5839Dc5B36a110'
-coingecko_rank: 6432
+coingecko_rank: 6408
 coingecko_score: 0.203
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/ALTHEDGE
 liquidity_score: 1.0
-market_cap_rank: 4251
+market_cap_rank: 3183
 name: 1X Short Altcoin Index Token
 public_interest_score: 0.029
 symbol: althedge
-tickers: []
+tickers:
+- base: ALTHEDGE
+  market:
+    identifier: ftx_spot
+    name: FTX (Spot)
+  target: USD

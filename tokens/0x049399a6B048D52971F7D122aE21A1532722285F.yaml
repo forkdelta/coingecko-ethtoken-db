@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: firelotto
   twitter_screen_name: FireLottery
 liquidity_score: 19.943
-market_cap_rank: 616
+market_cap_rank: 681
 name: Fire Lotto
 public_interest_score: 30.509
 symbol: flot
@@ -42,9 +42,19 @@ tickers:
   target: EUR
 - base: FLOT
   market:
+    identifier: crex24
+    name: CREX24
+  target: USD
+- base: FLOT
+  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: FLOT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: FLOT
   market:
     identifier: yobit

@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: worldcore
   twitter_screen_name: worldcoresocial
 liquidity_score: 1.0
-market_cap_rank: 1512
+market_cap_rank: 1605
 name: Worldcore
 public_interest_score: 24.741
 symbol: wrc
@@ -42,12 +42,17 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
-  target: BTC
+  target: TRY
 - base: WRC
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: WRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: WRC
   market:
     identifier: yobit
@@ -58,3 +63,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: WRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: WRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

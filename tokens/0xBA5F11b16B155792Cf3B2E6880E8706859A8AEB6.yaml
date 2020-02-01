@@ -57,16 +57,21 @@ links:
   telegram_channel_identifier: aeronaero
   twitter_screen_name: aeron_aero
 liquidity_score: 38.72
-market_cap_rank: 487
+market_cap_rank: 472
 name: Aeron
 public_interest_score: 25.239
 symbol: arn
 tickers:
 - base: ARN
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: ARN
+  market:
+    identifier: ddex
+    name: DDEX
+  target: WETH
 - base: ARN
   market:
     identifier: forkdelta
@@ -74,11 +79,6 @@ tickers:
   target: ETH
 - base: ARN
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: ARN
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
+    identifier: tidex
+    name: Tidex
+  target: BTC
