@@ -23,12 +23,22 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 33.471
-market_cap_rank: 3458
+market_cap_rank: 4341
 name: sETH
 public_interest_score: 43.21
 symbol: seth
 tickers:
-- base: SBNB
+- base: SETH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
+- base: ITRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: IXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -38,12 +48,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
-- base: ILTC
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SETH
-- base: SLINK
+- base: ILINK
   market:
     identifier: synthetix
     name: Synthetix Exchange

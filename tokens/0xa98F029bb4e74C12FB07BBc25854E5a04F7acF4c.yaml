@@ -1,6 +1,6 @@
 ---
 address: '0xa98F029bb4e74C12FB07BBc25854E5a04F7acF4c'
-coingecko_rank: 6128
+coingecko_rank: 6123
 coingecko_score: 2.392
 community_score: 1.331
 description: >-
@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: cbucksofficial
   twitter_screen_name: CBUCKSOfficial
 liquidity_score: 10.296
-market_cap_rank: 4171
+market_cap_rank: 2622
 name: CRYPTOBUCKS
 public_interest_score: 0.002
 symbol: cbucks
 tickers:
+- base: CBUCK
+  market:
+    identifier: coinlim
+    name: Coinlim
+  target: BTC
 - base: CBUCKS
   market:
     identifier: graviex
@@ -64,3 +69,8 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: ETH
+- base: CBUCKS
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

@@ -28,7 +28,7 @@ links:
   - http://www.freecoin.technology
   twitter_screen_name: THE_FREE_COIN
 liquidity_score: 1.672
-market_cap_rank: 4168
+market_cap_rank: 2653
 name: FREE coin
 public_interest_score: 42.075
 symbol: free
@@ -37,12 +37,27 @@ tickers:
   market:
     identifier: altilly
     name: Altilly
+  target: DOGE
+- base: FREE
+  market:
+    identifier: altilly
+    name: Altilly
   target: USDT
+- base: FREE
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: FREE
   market:
     identifier: catex
     name: Catex
   target: USDT
+- base: FREE
+  market:
+    identifier: coinsbit
+    name: Coinsbit
+  target: BTC
 - base: FREE
   market:
     identifier: coinsbit
@@ -97,9 +112,4 @@ tickers:
   market:
     identifier: resfinex
     name: Resfinex
-  target: USDT
-- base: FREE
-  market:
-    identifier: vindax
-    name: Vindax
   target: USDT

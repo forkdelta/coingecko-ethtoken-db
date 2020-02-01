@@ -75,7 +75,7 @@ links:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
 liquidity_score: 56.845
-market_cap_rank: 350
+market_cap_rank: 329
 name: Gemini Dollar
 public_interest_score: 39.6
 symbol: gusd
@@ -97,30 +97,20 @@ tickers:
   target: USD
 - base: GUSD
   market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
-- base: GUSD
-  market:
-    identifier: exmo
-    name: EXMO
-  target: BTC
-- base: GUSD
-  market:
-    identifier: exmo
-    name: EXMO
-  target: RUB
-- base: GUSD
-  market:
-    identifier: exmo
-    name: EXMO
-  target: USD
-- base: GUSD
-  market:
     identifier: floatsv
     name: Float SV
   target: USDT
 - base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
+- base: BTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
+- base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
@@ -130,11 +120,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
-- base: GUSD
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDT
 - base: GUSD
   market:
     identifier: therocktrading
@@ -165,11 +150,6 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: DOGE
-- base: GUSD
-  market:
-    identifier: trade_satoshi
-    name: Trade Satoshi
-  target: ETH
 - base: GUSD
   market:
     identifier: trade_satoshi

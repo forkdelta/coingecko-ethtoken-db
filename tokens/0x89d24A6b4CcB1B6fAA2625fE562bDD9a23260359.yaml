@@ -93,31 +93,36 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 46.191
-market_cap_rank: 120
+market_cap_rank: 125
 name: Sai
 public_interest_score: 33.467
 symbol: sai
 tickers:
-- base: TUSD
+- base: SAI
   market:
-    identifier: atomars
-    name: Atomars
-  target: DAI
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: DAI
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: USDC
-- base: DAI
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: USDT
 - base: SAI
   market:
     identifier: bvnex
     name: Bvnex
   target: VNDT
+- base: BTC
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: DAI
+- base: ETH
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: DAI
 - base: DAI
   market:
     identifier: coinall
@@ -140,35 +145,20 @@ tickers:
   target: ETH
 - base: DAI
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DAI
+  market:
     identifier: gate
     name: Gate.io
   target: USDT
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: XRP
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
 - base: BCH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: TUSD
   market:
     identifier: hitbtc
     name: HitBTC
@@ -193,16 +183,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: DAI
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USDC
-- base: MKR
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: SAI
 - base: ETH
   market:
     identifier: oasis_trade
@@ -237,7 +217,22 @@ tickers:
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: BTC
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: ETH
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
   target: TRY
+- base: DAI
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USD
 - base: DAI
   market:
     identifier: upbit

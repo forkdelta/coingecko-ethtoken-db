@@ -1,6 +1,6 @@
 ---
 address: '0x2d3B86234A16a1D558945c6f9C5eb2443275A4f2'
-coingecko_rank: 4809
+coingecko_rank: 4805
 coingecko_score: 4.193
 community_score: 7.657
 description: >-
@@ -22,8 +22,18 @@ links:
   telegram_channel_identifier: ozinex
   twitter_screen_name: OzinexExchange
 liquidity_score: 1.0
-market_cap_rank: 6591
+market_cap_rank: 1948
 name: Ozinex Token
 public_interest_score: 20.789
 symbol: ozi
-tickers: []
+tickers:
+- base: OZI
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: OZI
+  market:
+    identifier: birake
+    name: Birake
+  target: BTC

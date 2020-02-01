@@ -34,11 +34,16 @@ links:
   telegram_channel_identifier: jadecurrency
   twitter_screen_name: CurrencyJade
 liquidity_score: 1.0
-market_cap_rank: 1602
+market_cap_rank: 1574
 name: Jade Currency
 public_interest_score: 0.001
 symbol: jade
 tickers:
+- base: JADE
+  market:
+    identifier: catex
+    name: Catex
+  target: BTC
 - base: JADE
   market:
     identifier: mercatox
@@ -46,6 +51,6 @@ tickers:
   target: BTC
 - base: JADE
   market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
+    identifier: mercatox
+    name: Mercatox
+  target: ETH

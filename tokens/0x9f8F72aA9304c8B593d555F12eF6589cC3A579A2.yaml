@@ -70,14 +70,19 @@ tickers:
   target: WETH
 - base: MKR
   market:
-    identifier: bibox
-    name: Bibox
-  target: BTC
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: MKR
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
 - base: MKR
   market:
     identifier: bibox
     name: Bibox
-  target: ETH
+  target: BTC
 - base: MKR
   market:
     identifier: bitfinex
@@ -92,16 +97,6 @@ tickers:
   market:
     identifier: etorox
     name: eToroX
-  target: BTC
-- base: MKR
-  market:
-    identifier: etorox
-    name: eToroX
-  target: ETH
-- base: MKR
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: MKR
   market:
@@ -120,9 +115,9 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: SAI
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MKR
   market:
     identifier: okex_korea
@@ -145,14 +140,14 @@ tickers:
   target: TRY
 - base: MKR
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT
 - base: MKR
   market:
     identifier: switcheo
     name: Switcheo
-  target: ETH
+  target: DAI
 - base: MKR
   market:
     identifier: tokenize
@@ -168,6 +163,11 @@ tickers:
     identifier: trade_satoshi
     name: Trade Satoshi
   target: BTC
+- base: MKR
+  market:
+    identifier: trade_satoshi
+    name: Trade Satoshi
+  target: DOGE
 - base: MKR
   market:
     identifier: upbit

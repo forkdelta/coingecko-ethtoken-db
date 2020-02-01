@@ -65,7 +65,7 @@ links:
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
 liquidity_score: 31.537
-market_cap_rank: 92
+market_cap_rank: 86
 name: iExec RLC
 public_interest_score: 25.587
 symbol: rlc
@@ -92,9 +92,19 @@ tickers:
   target: USD
 - base: RLC
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: RLC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: RLC
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
 - base: RLC
   market:
     identifier: upbit_indonesia

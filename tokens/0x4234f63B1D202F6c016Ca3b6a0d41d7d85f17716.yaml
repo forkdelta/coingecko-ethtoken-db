@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: quantaofficial
   twitter_screen_name: quantaplc
 liquidity_score: 1.0
-market_cap_rank: 559
+market_cap_rank: 561
 name: Quanta
 public_interest_score: 25.762
 symbol: qntu
 tickers:
+- base: QNTU
+  market:
+    identifier: bit_z
+    name: Bit-Z
+  target: BTC
 - base: QNTU
   market:
     identifier: bitopro
@@ -42,3 +47,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: QNTU
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

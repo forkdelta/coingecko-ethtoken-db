@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: paywithink
   twitter_screen_name: PayWithInk
 liquidity_score: 10.196
-market_cap_rank: 1054
+market_cap_rank: 1074
 name: Ink Protocol
 public_interest_score: 26.858
 symbol: xnk
 tickers:
+- base: XNK
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: XNK
   market:
     identifier: bibox
@@ -52,6 +57,11 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: XNK
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
 - base: XNK
   market:
     identifier: upbit

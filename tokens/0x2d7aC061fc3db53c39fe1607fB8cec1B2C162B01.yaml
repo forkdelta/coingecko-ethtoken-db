@@ -29,22 +29,22 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io/
   twitter_screen_name: synthetix_io
 liquidity_score: 39.553
-market_cap_rank: 6506
+market_cap_rank: 6131
 name: iLINK
 public_interest_score: 0.0
 symbol: ilink
 tickers:
+- base: SLTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: ILINK
 - base: IXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: ILINK
 - base: ITRX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: ILINK
-- base: SLINK
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -59,3 +59,13 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SBTC
+- base: ILINK
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: ILINK
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

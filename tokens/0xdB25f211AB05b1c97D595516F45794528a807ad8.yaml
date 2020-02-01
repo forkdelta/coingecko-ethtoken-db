@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 28.024
-market_cap_rank: 185
+market_cap_rank: 192
 name: STASIS EURO
 public_interest_score: 26.881
 symbol: eurs
@@ -45,12 +45,12 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: ETH
-- base: EUS
-  market:
-    identifier: bitfinex
-    name: Bitfinex
   target: USD
+- base: EURS
+  market:
+    identifier: dsx
+    name: DSX
+  target: EUR
 - base: BTC
   market:
     identifier: dsx
@@ -58,10 +58,15 @@ tickers:
   target: EURS
 - base: EURS
   market:
+    identifier: dsx
+    name: DSX
+  target: USD
+- base: BTC
+  market:
     identifier: hitbtc
     name: HitBTC
-  target: DAI
-- base: BTC
+  target: EURS
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
@@ -71,7 +76,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: ETH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
@@ -91,52 +106,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: EOS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: LTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: XMR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
-- base: NEO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: TUSD
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: EURS
-  market:
-    identifier: okcoin
-    name: OKCoin
-  target: EUR
-- base: BTC
-  market:
-    identifier: okcoin
-    name: OKCoin
-  target: EURS
-- base: EURS
-  market:
-    identifier: okcoin
-    name: OKCoin
-  target: USD
 - base: XRP
+  market:
+    identifier: tokens_net
+    name: TokensNet
+  target: EURS
+- base: LTC
   market:
     identifier: tokens_net
     name: TokensNet
