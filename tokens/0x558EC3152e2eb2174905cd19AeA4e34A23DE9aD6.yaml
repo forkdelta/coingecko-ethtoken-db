@@ -1,8 +1,8 @@
 ---
 address: '0x558EC3152e2eb2174905cd19AeA4e34A23DE9aD6'
-coingecko_rank: 137
-coingecko_score: 43.398
-community_score: 4.992
+coingecko_rank: 147
+coingecko_score: 38.973
+community_score: 4.987
 description: >-
   Blockchains are quickly becoming the modern equivalent of what apps were to smartphones when they took
   off a decade ago. There’s a blockchain for everything - from cloud storage <a href="https://www.coingecko.com/en/coins/siacoin">(Siacoin)</a>
@@ -33,7 +33,7 @@ description: >-
   the value of the BRD cryptocurrency, something investors right now would be eyeing closely. Having said
   that, its fall in value since the ICO is certainly a cause for concern, and investors are advised to
   do their research and analyse before taking decisions.
-developer_score: 77.967
+developer_score: 61.818
 id: bread
 image:
   large: https://assets.coingecko.com/coins/images/1440/large/bread.png?1547563238
@@ -52,9 +52,24 @@ links:
     - https://github.com/breadwallet/breadwallet-core
   subreddit_url: https://www.reddit.com/r/breadwallet
   twitter_screen_name: breadapp
-liquidity_score: 31.039
-market_cap_rank: 183
+liquidity_score: 29.358
+market_cap_rank: 185
 name: Bread
 public_interest_score: 36.676
 symbol: brd
-tickers: []
+tickers:
+- base: BRD
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: BRD
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: BRD
+  market:
+    identifier: uniswap
+    name: Uniswap
+  target: ETH

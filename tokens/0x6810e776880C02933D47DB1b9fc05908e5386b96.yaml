@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 156
-coingecko_score: 41.477
-community_score: 37.249
+coingecko_rank: 176
+coingecko_score: 37.519
+community_score: 37.414
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -42,7 +42,7 @@ description: >-
   in a vault and have promised not to dump them on the market. They’ll give at least a three-month warning
   before selling any of the tokens. The team includes quite a list of reputable advisors including Joseph
   Lubin (Ethereum co-founder and ConsenSys founder) and Vitalik Buterin (Ethereum founder and chief scientist).
-developer_score: 51.736
+developer_score: 39.45
 id: gnosis
 image:
   large: https://assets.coingecko.com/coins/images/662/large/gnosis-logo.png?1547034401
@@ -62,10 +62,10 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 14.329
-market_cap_rank: 177
+liquidity_score: 9.283
+market_cap_rank: 173
 name: Gnosis
-public_interest_score: 36.102
+public_interest_score: 36.344
 symbol: gno
 tickers:
 - base: GNO
@@ -85,6 +85,16 @@ tickers:
   target: BNT
 - base: GNO
   market:
+    identifier: bihodl
+    name: 'BiHODL '
+  target: USDT
+- base: GNO
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: GNO
+  market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
@@ -93,6 +103,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: GNO
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: GNO
   market:
     identifier: forkdelta
@@ -110,14 +125,24 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: GNO
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: GNO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: GNO
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: BTC
 - base: GNO
   market:
     identifier: yobit

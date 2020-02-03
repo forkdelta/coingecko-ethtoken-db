@@ -1,12 +1,12 @@
 ---
 address: '0x9e88613418cF03dCa54D6a2cf6Ad934A78C7A17A'
-coingecko_rank: 836
-coingecko_score: 23.42
-community_score: 24.33
+coingecko_rank: 802
+coingecko_score: 22.892
+community_score: 24.292
 description: >-
   Swarm is the blockchain for private equity. We bring high-return alternative asset classes to everyone
   and use AI to continuously improve investments.
-developer_score: 14.436
+developer_score: 12.0
 id: swarm
 image:
   large: https://assets.coingecko.com/coins/images/197/large/swarm.jpg?1547033949
@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: swarmfund
   twitter_screen_name: theswarmfund
 liquidity_score: 1.0
-market_cap_rank: 593
+market_cap_rank: 577
 name: Swarm Fund
 public_interest_score: 25.113
 symbol: swm
@@ -40,19 +40,14 @@ tickers:
   target: ETH
 - base: SWM
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: SWM
+  market:
     identifier: exrates
     name: Exrates
   target: BTC
-- base: SWM
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: SWM
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: SWM
   market:
     identifier: hitbtc
@@ -62,19 +57,14 @@ tickers:
   market:
     identifier: hotbit
     name: Hotbit
-  target: BTC
-- base: SWM
-  market:
-    identifier: hotbit
-    name: Hotbit
   target: ETH
 - base: SWM
   market:
     identifier: hotbit
     name: Hotbit
-  target: HTB
+  target: USDT
 - base: SWM
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
+    identifier: idex
+    name: Idex
+  target: ETH
