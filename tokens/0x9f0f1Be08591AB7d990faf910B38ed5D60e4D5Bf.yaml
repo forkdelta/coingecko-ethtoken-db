@@ -1,8 +1,8 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1684
-coingecko_score: 15.932
-community_score: 10.679
+coingecko_rank: 1516
+coingecko_score: 16.468
+community_score: 10.65
 description: >-
   Use MainCoin for instant and private payments on the Internet and in the real world using secure open
   source software that runs on Ethereum, supported by hundreds of thousands of users around the world.
@@ -26,10 +26,10 @@ links:
     github:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
-liquidity_score: 1.0
-market_cap_rank: 760
+liquidity_score: 2.934
+market_cap_rank: 745
 name: MainCoin
-public_interest_score: 27.199
+public_interest_score: 27.057
 symbol: mnc
 tickers:
 - base: MNC
@@ -44,19 +44,34 @@ tickers:
   target: RUR
 - base: MNC
   market:
-    identifier: btc_alpha
-    name: BTC-Alpha
-  target: USDT
+    identifier: exrates
+    name: Exrates
+  target: BTC
 - base: MNC
   market:
-    identifier: exmo
-    name: EXMO
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: MNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: MNC
   market:
     identifier: livecoin
     name: Livecoin
   target: RUR
+- base: MNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: MNC
   market:
     identifier: mercatox
@@ -72,11 +87,6 @@ tickers:
     identifier: sistemkoin
     name: Sistemkoin
   target: TRY
-- base: MNC
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: USDT
 - base: MNC
   market:
     identifier: stocks_exchange

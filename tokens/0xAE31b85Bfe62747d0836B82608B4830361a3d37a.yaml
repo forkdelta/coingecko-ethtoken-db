@@ -1,8 +1,8 @@
 ---
 address: '0xAE31b85Bfe62747d0836B82608B4830361a3d37a'
-coingecko_rank: 166
-coingecko_score: 40.504
-community_score: 8.783
+coingecko_rank: 177
+coingecko_score: 37.261
+community_score: 8.782
 description: >-
   AERGO is an open platform that allows businesses to build innovative applications and services by sharing
   data on a trustless and distributed IT ecosystem. With the ability to deploy on either public or private
@@ -12,7 +12,7 @@ description: >-
   Machine or AergoSQL. The AERGO network will be backboned by github-like public and permissioned repositories
   of Distributed Directories (DD). Implementing Smart Oracles, AERGO will also allow smart contracts to
   consume data with external services or internal databases and trigger events.
-developer_score: 69.59
+developer_score: 55.125
 id: aergo
 image:
   large: https://assets.coingecko.com/coins/images/4490/large/Aergo.png?1558084282
@@ -41,9 +41,24 @@ links:
     - https://github.com/aergoio/ship
   telegram_channel_identifier: aergoofficial
   twitter_screen_name: AERGO_IO
-liquidity_score: 33.156
+liquidity_score: 34.773
 market_cap_rank: 383
 name: Aergo
 public_interest_score: 26.012
 symbol: aergo
-tickers: []
+tickers:
+- base: AERGO
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: ETH
+- base: AERGO
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: AERGO
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
