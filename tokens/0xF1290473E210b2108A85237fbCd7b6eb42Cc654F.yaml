@@ -1,8 +1,8 @@
 ---
 address: '0xF1290473E210b2108A85237fbCd7b6eb42Cc654F'
-coingecko_rank: 1939
-coingecko_score: 13.587
-community_score: 7.47
+coingecko_rank: 2117
+coingecko_score: 12.855
+community_score: 7.158
 description: >-
   HedgeTrade is a decentralized prediction market focused on a wide variety of financial assets. Trade
   predictions can then be purchased using the HEDG token for users to replicate and learn from.
@@ -14,7 +14,7 @@ description: >-
 
   Incorrect trade predictions see the HEDG tokens used to buy that prediction returned to the original
   buyer(s).
-developer_score: 12.0
+developer_score: 15.52
 id: hedgetrade
 image:
   large: https://assets.coingecko.com/coins/images/7196/large/to3Vj4EZ_400x400.jpg?1547043758
@@ -36,9 +36,14 @@ links:
     - https://github.com/rublixdev/hedgtokenmint
   telegram_channel_identifier: HedgeTradeHQ
   twitter_screen_name: hedgetradehq
-liquidity_score: 29.918
-market_cap_rank: 5199
+liquidity_score: 22.22
+market_cap_rank: 3866
 name: HedgeTrade
-public_interest_score: 27.363
+public_interest_score: 27.411
 symbol: hedg
-tickers: []
+tickers:
+- base: HEDG
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

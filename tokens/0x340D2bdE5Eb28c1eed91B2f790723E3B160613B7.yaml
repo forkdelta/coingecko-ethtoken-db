@@ -1,8 +1,8 @@
 ---
 address: '0x340D2bdE5Eb28c1eed91B2f790723E3B160613B7'
-coingecko_rank: 426
-coingecko_score: 29.234
-community_score: 28.564
+coingecko_rank: 473
+coingecko_score: 29.607
+community_score: 27.787
 description: >-
   BLOCKv, the shared protocol for the blockchain developer stack, represents the interface moment in the
   maturation of the blockchain sector. BLOCKv provides developers with the building blocks to design the
@@ -12,7 +12,7 @@ description: >-
   These smart objects, called vAtoms (Virtual Atoms) combine code with multimedia elements and are dynamic,
   compelling digital goods that make a cryptocurrency come alive as an asset for developers, brands and
   end users.
-developer_score: 30.4
+developer_score: 33.658
 id: blockv
 image:
   large: https://assets.coingecko.com/coins/images/1266/large/blockv.png?1547351380
@@ -21,7 +21,6 @@ image:
 links:
   bitcointalk_thread_identifier: 2181569
   blockchain_site:
-  - https://enjinx.io/eth/token/0x340d2bde5eb28c1eed91b2f790723e3b160613b7
   - https://etherscan.io/token/0x340d2bde5eb28c1eed91b2f790723e3b160613b7
   - https://ethplorer.io/address/0x340d2bde5eb28c1eed91b2f790723e3b160613b7
   facebook_username: blockv.io
@@ -33,36 +32,21 @@ links:
   subreddit_url: https://www.reddit.com/r/blockv
   twitter_screen_name: blockv_io
 liquidity_score: 1.0
-market_cap_rank: 392
+market_cap_rank: 463
 name: BLOCKv
-public_interest_score: 26.022
+public_interest_score: 26.068
 symbol: vee
 tickers:
 - base: VEE
   market:
     identifier: bitfinex
     name: Bitfinex
+  target: USD
+- base: VEE
+  market:
+    identifier: coinsbit
+    name: Coinsbit
   target: BTC
-- base: VEE
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
-- base: VEE
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
-- base: VEE
-  market:
-    identifier: coinsbit
-    name: Coinsbit
-  target: ETH
-- base: VEE
-  market:
-    identifier: coinsbit
-    name: Coinsbit
-  target: USD
 - base: VEE
   market:
     identifier: idex
@@ -75,8 +59,13 @@ tickers:
   target: ETH
 - base: VEE
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: p2pb2b
+    name: P2PB2B
+  target: BTC
+- base: VEE
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
 - base: VEE
   market:

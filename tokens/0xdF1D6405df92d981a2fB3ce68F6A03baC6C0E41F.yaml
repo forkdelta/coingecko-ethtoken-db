@@ -1,8 +1,8 @@
 ---
 address: '0xdF1D6405df92d981a2fB3ce68F6A03baC6C0E41F'
-coingecko_rank: 525
-coingecko_score: 26.889
-community_score: 30.144
+coingecko_rank: 565
+coingecko_score: 27.625
+community_score: 29.594
 description: >-
   Verasity is a disruptive video sharing platform designed to pivot the online video ecosystem by enabling
   a direct and transparent relationship between viewers, content creators, and advertisers.
@@ -44,7 +44,6 @@ links:
   - https://medium.com/verasity
   bitcointalk_thread_identifier: 3208145
   blockchain_site:
-  - https://enjinx.io/eth/token/0xdf1d6405df92d981a2fb3ce68f6a03bac6c0e41f
   - https://etherscan.io/token/0xdf1d6405df92d981a2fb3ce68f6a03bac6c0e41f
   - https://ethplorer.io/address/0xdf1d6405df92d981a2fb3ce68f6a03bac6c0e41f
   facebook_username: verasitytech
@@ -56,12 +55,17 @@ links:
   subreddit_url: https://www.reddit.com/r/verasity
   telegram_channel_identifier: verasitychat
   twitter_screen_name: verasitytech
-liquidity_score: 22.744
-market_cap_rank: 550
+liquidity_score: 27.003
+market_cap_rank: 535
 name: Verasity
-public_interest_score: 37.181
+public_interest_score: 36.734
 symbol: vra
 tickers:
+- base: VRA
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: VRA
   market:
     identifier: probit
@@ -77,8 +81,18 @@ tickers:
     identifier: probit
     name: Probit
   target: KRW
+- base: VRA
+  market:
+    identifier: probit
+    name: Probit
+  target: USDT
 - base: VRAB
   market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: VRA
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

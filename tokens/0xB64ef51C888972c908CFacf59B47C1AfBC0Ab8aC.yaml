@@ -1,8 +1,8 @@
 ---
 address: '0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC'
-coingecko_rank: 70
-coingecko_score: 46.261
-community_score: 37.221
+coingecko_rank: 55
+coingecko_score: 53.507
+community_score: 35.766
 description: >-
   Storj is an open-source platform that leverages the blockchain to provide end-to-end encrypted cloud
   storage services. Instead of maintaining its own data centres, Storj platform relies on a peer-to-peer
@@ -35,7 +35,7 @@ description: >-
 
 
   Check out <a href="https://www.coinbureau.com/review/storj/">CoinBureau</a> for the full review on OmiseGo.
-developer_score: 61.18
+developer_score: 81.884
 id: storj
 image:
   large: https://assets.coingecko.com/coins/images/949/large/storj.png?1547034811
@@ -44,7 +44,6 @@ image:
 links:
   bitcointalk_thread_identifier: 555159
   blockchain_site:
-  - https://enjinx.io/eth/token/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac
   - https://etherscan.io/token/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac
   - https://ethplorer.io/address/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac
   homepage:
@@ -57,37 +56,27 @@ links:
   subreddit_url: https://www.reddit.com/r/storj/
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
-liquidity_score: 29.904
-market_cap_rank: 152
+liquidity_score: 41.917
+market_cap_rank: 170
 name: Storj
-public_interest_score: 27.517
+public_interest_score: 27.569
 symbol: storj
 tickers:
-- base: STORJ
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: STORJ
-  market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
-- base: STJ
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
-- base: STJ
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
 - base: STJ
   market:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: STORJ
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: STORJ
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
 - base: STORJ
   market:
     identifier: gate
@@ -105,8 +94,18 @@ tickers:
   target: USD
 - base: STORJ
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
+- base: STORJ
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: STORJ
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
 - base: STORJ
   market:
@@ -120,21 +119,16 @@ tickers:
   target: BTC
 - base: STORJ
   market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
 - base: STORJ
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: BTC
 - base: STORJ
   market:
     identifier: yobit
     name: YoBit
-  target: USD
-- base: STORJ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+  target: DOGE

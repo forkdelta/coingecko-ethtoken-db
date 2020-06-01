@@ -1,8 +1,8 @@
 ---
 address: '0x04C7Cd246330288a84D2788e8a323cC41206C2eB'
-coingecko_rank: 6305
-coingecko_score: 1.641
-community_score: 6.565
+coingecko_rank: 6965
+coingecko_score: 1.599
+community_score: 6.394
 description: >-
   The First Cryptocurrency and Social Experiment for Monkeys.. and Humans. The "BTCM" token a community
   driven cryptocurrency with no real purpose until projects are selected by our community voting system.
@@ -19,11 +19,22 @@ links:
   - https://etherscan.io/token/0x04c7cd246330288a84d2788e8a323cc41206c2eb
   facebook_username: BTCMToken
   homepage:
-  - https://www.bitcoinmonkey.net/
+  - https://www.bitcoin-monkey.com/
+  telegram_channel_identifier: Bitcoinmonkey
   twitter_screen_name: BitcoinMonkey1
 liquidity_score: 0.0
-market_cap_rank: null
+market_cap_rank: 3919
 name: Bitcoin Monkey
 public_interest_score: 0.0
 symbol: btcm
-tickers: []
+tickers:
+- base: BTCM
+  market:
+    identifier: altmarkets
+    name: Altmarkets
+  target: BTC
+- base: BTCM
+  market:
+    identifier: altmarkets
+    name: Altmarkets
+  target: ETH

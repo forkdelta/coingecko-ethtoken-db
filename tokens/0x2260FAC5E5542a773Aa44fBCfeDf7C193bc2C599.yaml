@@ -1,7 +1,7 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 3015
-coingecko_score: 7.872
+coingecko_rank: 3016
+coingecko_score: 8.217
 community_score: 0.0
 description: >-
   Wrapped Bitcoin Tokens (WBTC) is an ERC20 token fully backed by real BTC. The proof of reserves is on-chain,
@@ -16,7 +16,6 @@ image:
   thumb: https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744
 links:
   blockchain_site:
-  - https://enjinx.io/en-GB/eth/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
   - https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
   - https://ethplorer.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599
   homepage:
@@ -25,17 +24,17 @@ links:
     github:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
-liquidity_score: 21.146
-market_cap_rank: 4959
+liquidity_score: 22.836
+market_cap_rank: 3510
 name: Wrapped Bitcoin
-public_interest_score: 36.432
+public_interest_score: 36.498
 symbol: wbtc
 tickers:
 - base: WBTC
   market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: WBTC
   market:
     identifier: bancor
@@ -53,9 +52,44 @@ tickers:
   target: USD
 - base: WBTC
   market:
-    identifier: ddex
-    name: DDEX
-  target: USDT
+    identifier: dex_blue
+    name: dex.blue
+  target: DAI
+- base: ETH
+  market:
+    identifier: dex_blue
+    name: dex.blue
+  target: WBTC
+- base: INNBC
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: WBTC
+- base: OIL
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: WBTC
+- base: EBLX
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: WBTC
+- base: ESH
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: WBTC
+- base: GHOST
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: WBTC
+- base: WBTC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
 - base: WBTC
   market:
     identifier: switcheo
@@ -71,8 +105,18 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: WBTC
-- base: NEO
+- base: WBTC
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: WBTC
+    identifier: tokenlon
+    name: Tokenlon
+  target: TUSD
+- base: WBTC
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: DAI
+- base: WBTC
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: USDC

@@ -1,8 +1,8 @@
 ---
 address: '0x1410434b0346f5bE678d0FB554E5c7ab620f8f4a'
-coingecko_rank: 884
-coingecko_score: 22.032
-community_score: 7.641
+coingecko_rank: 854
+coingecko_score: 23.318
+community_score: 7.185
 description: >-
   BITKAN as an App serving cryptocurrency users and integrating market, information, mining monitoring
   and wallet, it provides four language versions, namely Chinese, English, Russian and Japanese. Now it
@@ -58,7 +58,6 @@ image:
   thumb: https://assets.coingecko.com/coins/images/4651/thumb/kan-token.png?1547039917
 links:
   blockchain_site:
-  - https://enjinx.io/eth/token/0x1410434b0346f5be678d0fb554e5c7ab620f8f4a
   - https://etherscan.io/token/0x1410434b0346f5be678d0fb554e5c7ab620f8f4a
   - https://ethplorer.io/address/0x1410434b0346f5be678d0fb554e5c7ab620f8f4a
   homepage:
@@ -66,19 +65,24 @@ links:
   - http://www.bitkan.com/
   telegram_channel_identifier: BitKan
   twitter_screen_name: BitKanOfficial
-liquidity_score: 25.259
-market_cap_rank: 198
+liquidity_score: 32.341
+market_cap_rank: 210
 name: BitKan
-public_interest_score: 24.223
+public_interest_score: 24.267
 symbol: kan
 tickers:
+- base: KAN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: KAN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: UST
 - base: KAN
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
-- base: KAN
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: BTC

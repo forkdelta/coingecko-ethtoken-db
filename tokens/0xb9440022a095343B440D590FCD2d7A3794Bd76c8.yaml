@@ -1,8 +1,8 @@
 ---
 address: '0xb9440022a095343B440D590FCD2d7A3794Bd76c8'
-coingecko_rank: 2919
-coingecko_score: 8.262
-community_score: 22.808
+coingecko_rank: 2986
+coingecko_score: 8.304
+community_score: 22.956
 description: >-
   Saturn Network is a protocol that allows access to a decentralized order book in just one transaction.
   Allowing decentralized exchanges to share a liquidity pool and feel the benefits of a much higher trading
@@ -17,9 +17,10 @@ image:
 links:
   bitcointalk_thread_identifier: 3224679
   blockchain_site:
-  - https://enjinx.io/eth/token/0xb9440022a095343b440d590fcd2d7a3794bd76c8
   - https://etherscan.io/token/0xb9440022a095343b440d590fcd2d7a3794bd76c8
   - https://ethplorer.io/address/0xb9440022a095343b440d590fcd2d7a3794bd76c8
+  chat_url:
+  - https://discord.gg/9P6aqEG
   facebook_username: radosblog
   homepage:
   - https://saturn.network/
@@ -28,12 +29,12 @@ links:
     - https://github.com/rados-io/saturn-presale
     - https://github.com/saturn-network/
   subreddit_url: https://www.reddit.com/r/SaturnNetwork
-  telegram_channel_identifier: rados
+  telegram_channel_identifier: saturn_dao
   twitter_screen_name: SaturnProtocol
 liquidity_score: 1.0
-market_cap_rank: 6453
+market_cap_rank: 2358
 name: Saturn DAO Token
-public_interest_score: 23.598
+public_interest_score: 23.651
 symbol: saturn
 tickers:
 - base: SATURN
@@ -44,5 +45,10 @@ tickers:
 - base: SATURN
   market:
     identifier: uniswap
-    name: Uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: SATURN
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

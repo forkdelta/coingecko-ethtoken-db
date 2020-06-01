@@ -1,11 +1,32 @@
 ---
 address: '0xB4EFd85c19999D84251304bDA99E90B92300Bd93'
-coingecko_rank: 836
-coingecko_score: 22.528
-community_score: 25.382
+coingecko_rank: 136
+coingecko_score: 43.255
+community_score: 26.16
 description: >-
   Rocket Pool is a next generation decentralised staking network and pool for Ethereum 2.0
-developer_score: 53.093
+
+
+  Rocket Pool is a self-regulating network of node operators; it automatically adjusts its capacity to
+  match demand. The Rocket Pool protocol token is used to maintain an optimal capacity by:
+
+  Increasing capacity when needed, by incentivising node operators to join.
+
+  Decreasing capacity when not needed, by disincentivising node operators from joining.
+
+
+  In addition to depositing ETH, a node operator is required to deposit a set amount of RPL per ether
+  they are depositing. This RPL:ether ratio is dynamic and is dependent on the network utilisation. E.g:
+
+  If the network has plenty of capacity, then node operators need more RPL to make deposits. It gets progressively
+  more expensive in terms of RPL to make node deposits when the network does not have enough ETH from
+  regular stakers to be matched up with node operators. This helps prevent several attack vectors outlined
+  in the whitepaper and keeps assignment of ether ‘chunks’ to nodes quick.
+
+  If the network is reaching capacity, then node operators need less RPL to join as the network needs
+  more node deposits to be matched up with regular users deposits. If the network is maxed out and needs
+  node operators to join quickly, it even drops to 0 for the first one to make a deposit.
+developer_score: 58.626
 id: rocket-pool
 image:
   large: https://assets.coingecko.com/coins/images/2090/large/rocket.png?1563781948
@@ -24,16 +45,17 @@ links:
   repos_url:
     github:
     - https://github.com/rocket-pool/rocketpool
+    - https://github.com/rocket-pool/smartnode
   subreddit_url: https://www.reddit.com/r/rocketpool
   twitter_screen_name: Rocket_Pool
-liquidity_score: 1.0
-market_cap_rank: 5212
+liquidity_score: 28.798
+market_cap_rank: 104
 name: Rocket Pool
-public_interest_score: 27.098
+public_interest_score: 27.147
 symbol: rpl
 tickers:
 - base: RPL
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH

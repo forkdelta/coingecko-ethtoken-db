@@ -1,8 +1,8 @@
 ---
 address: '0x5c872500c00565505F3624AB435c222E558E9ff8'
-coingecko_rank: 646
-coingecko_score: 24.985
-community_score: 38.48
+coingecko_rank: 782
+coingecko_score: 24.258
+community_score: 37.53
 description: >-
   CoTrader is like "The Uber of hedge funds", live on mainnet.cotrader.com, is the world's first blockchain
   investment funds marketplace that's democratizing the $85 trillion global funds industry, as anyone
@@ -19,7 +19,6 @@ image:
 links:
   bitcointalk_thread_identifier: 4371801
   blockchain_site:
-  - https://enjinx.io/eth/token/0x5c872500c00565505f3624ab435c222e558e9ff8
   - https://etherscan.io/token/0x5c872500c00565505f3624ab435c222e558e9ff8
   - https://ethplorer.io/address/0x5c872500c00565505f3624ab435c222e558e9ff8
   facebook_username: cotrader
@@ -32,10 +31,10 @@ links:
   subreddit_url: https://www.reddit.com/r/cotrader
   telegram_channel_identifier: cotrader
   twitter_screen_name: cotrader_com
-liquidity_score: 13.166
-market_cap_rank: 886
+liquidity_score: 9.681
+market_cap_rank: 801
 name: CoTrader
-public_interest_score: 26.992
+public_interest_score: 26.129
 symbol: cot
 tickers:
 - base: COT
@@ -43,8 +42,13 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: BNT
+- base: COT1
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
 - base: COT
   market:
-    identifier: idex
-    name: Idex
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

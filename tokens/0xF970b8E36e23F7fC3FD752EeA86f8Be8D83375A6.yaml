@@ -1,8 +1,8 @@
 ---
 address: '0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6'
-coingecko_rank: 121
-coingecko_score: 40.572
-community_score: 23.927
+coingecko_rank: 187
+coingecko_score: 39.907
+community_score: 22.148
 description: >-
   Ripio Credit Network (RCN) is a global peer-to-peer credit network based on cosigned smart contracts
   that facilitates connections between lenders and borrowers across the world, on any currency. It enables
@@ -31,7 +31,7 @@ description: >-
   makes a credit request. The Borrower performs the request from its Wallet Provider, which has already
   integrated into the RCN protocol. Post this, the Borrower waits for an approval before any further action
   can be performed.
-developer_score: 45.006
+developer_score: 52.293
 id: ripio-credit-network
 image:
   large: https://assets.coingecko.com/coins/images/1057/large/ripio-credit-network.png?1548608361
@@ -40,7 +40,6 @@ image:
 links:
   bitcointalk_thread_identifier: 2202647
   blockchain_site:
-  - https://enjinx.io/eth/token/0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6
   - https://etherscan.io/token/0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6
   - https://ethplorer.io/search/0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6
   homepage:
@@ -51,10 +50,10 @@ links:
   subreddit_url: https://www.reddit.com/r/RipioCreditNetwork
   telegram_channel_identifier: RCNtalk
   twitter_screen_name: RCN_token
-liquidity_score: 37.837
-market_cap_rank: 119
+liquidity_score: 26.071
+market_cap_rank: 115
 name: Ripio Credit Network
-public_interest_score: 25.325
+public_interest_score: 25.371
 symbol: rcn
 tickers:
 - base: RCN
@@ -66,22 +65,17 @@ tickers:
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: BTC
-- base: RCN
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
-- base: RCN
-  market:
-    identifier: bitfinex
-    name: Bitfinex
   target: USD
 - base: RCN
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: RCN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: RCN
   market:
     identifier: hitbtc
@@ -96,14 +90,9 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
-- base: RCN
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
   target: BTC
 - base: RCN
   market:
-    identifier: zb
-    name: ZB
-  target: USDT
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

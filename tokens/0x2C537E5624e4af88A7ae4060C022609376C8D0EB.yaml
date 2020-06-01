@@ -1,8 +1,8 @@
 ---
 address: '0x2C537E5624e4af88A7ae4060C022609376C8D0EB'
-coingecko_rank: 2171
-coingecko_score: 11.962
-community_score: 6.919
+coingecko_rank: 2108
+coingecko_score: 12.922
+community_score: 6.838
 description: >-
   BiLira is a stable cryptocurrency that is backed by the Turkish Lira. This means that you can always
   buy and redeem 1 BiLira for ₺1.00 Turkish Lira.
@@ -23,14 +23,24 @@ links:
   - https://www.bilira.co/
   telegram_channel_identifier: bilira_official
   twitter_screen_name: BiLira_Official
-liquidity_score: 9.914
-market_cap_rank: 1424
+liquidity_score: 15.383
+market_cap_rank: 1432
 name: BiLira
-public_interest_score: 0.001
+public_interest_score: 0.002
 symbol: tryb
 tickers:
 - base: TRYB
   market:
-    identifier: ftx_spot
-    name: FTX (Spot)
-  target: USD
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: TRYB
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: TRYB
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
