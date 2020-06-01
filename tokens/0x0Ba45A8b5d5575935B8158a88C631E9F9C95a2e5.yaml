@@ -1,18 +1,26 @@
 ---
 address: '0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5'
-coingecko_rank: 1245
-coingecko_score: 18.802
-community_score: 6.901
-description: ""
+coingecko_rank: 524
+coingecko_score: 28.432
+community_score: 7.372
+description: >-
+  Smart contracts on Ethereum are fully self contained and any information or access to off-chain data
+  is restricted.  Tellor solves this problem by creating a system where parties can request the value
+  of an off-chain data point (e.g. ETH/USD) and miners compete to add this value to an on-chain data bank,
+  accessible by all Ethereum smart contracts.  Inputs to a data series are secured by a network of staked
+  miners. The main Tellor smart contract creates a time series of each requested data series and aims
+  to become the standard source of high value data for decentralized applications. This oracle, “Tellor”,  utilizes
+  similar incentive mechanisms to other cryptocurrency systems through the issuance of Tellor’s token,
+  Tributes, that are used to request a particular data series from miners.
 developer_score: 0.0
 id: tellor
 image:
-  large: https://assets.coingecko.com/coins/images/9644/large/NgHyAVhI_400x400.png?1570168221
-  small: https://assets.coingecko.com/coins/images/9644/small/NgHyAVhI_400x400.png?1570168221
-  thumb: https://assets.coingecko.com/coins/images/9644/thumb/NgHyAVhI_400x400.png?1570168221
+  large: https://assets.coingecko.com/coins/images/9644/large/Blk_icon_current.png?1584980686
+  small: https://assets.coingecko.com/coins/images/9644/small/Blk_icon_current.png?1584980686
+  thumb: https://assets.coingecko.com/coins/images/9644/thumb/Blk_icon_current.png?1584980686
 links:
   announcement_url:
-  - https://medium.com/@tellor
+  - https://medium.com/tellor
   blockchain_site:
   - https://etherscan.io/token/0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5
   - https://ethplorer.io/address/0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5
@@ -23,15 +31,26 @@ links:
   - http://www.tellor.io/
   repos_url:
     github:
+    - https://github.com/tellor-io
     - https://github.com/tellor-io/TellorCore
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
-liquidity_score: 15.252
-market_cap_rank: 492
+liquidity_score: 58.119
+market_cap_rank: 281
 name: Tellor
-public_interest_score: 27.218
+public_interest_score: 27.63
 symbol: trb
 tickers:
+- base: TRB
+  market:
+    identifier: dex_blue
+    name: dex.blue
+  target: ETH
+- base: TRB
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
 - base: TRB
   market:
     identifier: eterbase
@@ -42,3 +61,8 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EUR
+- base: TRB
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT

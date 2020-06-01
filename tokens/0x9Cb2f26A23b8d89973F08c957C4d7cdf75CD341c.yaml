@@ -1,7 +1,7 @@
 ---
 address: '0x9Cb2f26A23b8d89973F08c957C4d7cdf75CD341c'
-coingecko_rank: 6535
-coingecko_score: 0.2
+coingecko_rank: 6985
+coingecko_score: 1.54
 community_score: 0.0
 description: >-
   South Africa's first digital asset pegged 1:1 to the Rand
@@ -23,8 +23,8 @@ links:
   - https://digitalrand.co.za/
   telegram_channel_identifier: DigitalRandZAR
   twitter_screen_name: DigitalRandZAR
-liquidity_score: 1.0
-market_cap_rank: 2709
+liquidity_score: 7.699
+market_cap_rank: 5057
 name: Digital Rand
 public_interest_score: 0.0
 symbol: dzar
@@ -32,5 +32,10 @@ tickers:
 - base: DZAR
   market:
     identifier: uniswap
-    name: Uniswap
-  target: ETH
+    name: Uniswap (v2)
+  target: USDC
+- base: DZAR
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: USDT

@@ -1,14 +1,14 @@
 ---
 address: '0x26E75307Fc0C021472fEb8F727839531F112f317'
-coingecko_rank: 963
-coingecko_score: 21.177
-community_score: 8.559
+coingecko_rank: 825
+coingecko_score: 23.659
+community_score: 8.0
 description: >-
   CRYPTO20 is an autonomous crypto-only index fund that tracks the top 20 cryptocurrencies in the same
   way the S&P500 tracks the top 500 US company stocks. C20 is the fund’s token, and represents an investor’s
   share in the fund. Token-holders are able to liquidate the C20 token for their share of the underlying
   assets via the smart contract.
-developer_score: 12.0
+developer_score: 23.539
 id: crypto20
 image:
   large: https://assets.coingecko.com/coins/images/2097/large/c20.png?1547036413
@@ -16,7 +16,6 @@ image:
   thumb: https://assets.coingecko.com/coins/images/2097/thumb/c20.png?1547036413
 links:
   blockchain_site:
-  - https://enjinx.io/eth/token/0x26e75307fc0c021472feb8f727839531f112f317
   - https://etherscan.io/token/0x26e75307fc0c021472feb8f727839531f112f317
   - https://ethplorer.io/address/0x26e75307fc0c021472feb8f727839531f112f317
   facebook_username: cryptotwenty
@@ -28,16 +27,11 @@ links:
   telegram_channel_identifier: crypto20
   twitter_screen_name: CRYPTOtwenty
 liquidity_score: 1.0
-market_cap_rank: 149
+market_cap_rank: 185
 name: CRYPTO20
-public_interest_score: 28.783
+public_interest_score: 27.419
 symbol: c20
 tickers:
-- base: C20
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: C20
   market:
     identifier: forkdelta
@@ -63,3 +57,8 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
+- base: C20
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

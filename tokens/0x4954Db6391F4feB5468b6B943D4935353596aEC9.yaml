@@ -1,8 +1,8 @@
 ---
 address: '0x4954Db6391F4feB5468b6B943D4935353596aEC9'
-coingecko_rank: 1410
-coingecko_score: 17.486
-community_score: 8.542
+coingecko_rank: 1557
+coingecko_score: 16.704
+community_score: 7.999
 description: >-
   USDQ is a decentralized stable coin, which is backed by bitcoin and pegged to the dollar, so 1 USDQ
   = $1 USD.
@@ -27,10 +27,10 @@ links:
     - https://github.com/Platinumengineering/USDQ
   telegram_channel_identifier: platinumfund
   twitter_screen_name: platinumqdao
-liquidity_score: 16.309
-market_cap_rank: 1339
+liquidity_score: 13.064
+market_cap_rank: 1323
 name: USDQ
-public_interest_score: 35.35
+public_interest_score: 35.413
 symbol: usdq
 tickers:
 - base: USDQ
@@ -38,17 +38,7 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: BNT
-- base: BTC
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDQ
-- base: ETH
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDQ
-- base: XEM
+- base: HTB
   market:
     identifier: hotbit
     name: Hotbit
@@ -58,3 +48,8 @@ tickers:
     identifier: hotbit
     name: Hotbit
   target: USDT
+- base: USDQ
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH

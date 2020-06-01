@@ -1,11 +1,11 @@
 ---
 address: '0xf3586684107CE0859c44aa2b2E0fB8cd8731a15a'
-coingecko_rank: 1756
-coingecko_score: 14.876
-community_score: 8.17
+coingecko_rank: 1949
+coingecko_score: 13.994
+community_score: 4.242
 description: >-
   KBC is suspended in German by Financial authorities BiFan
-developer_score: 12.0
+developer_score: 12.26
 id: karatgold-coin
 image:
   large: https://assets.coingecko.com/coins/images/4967/large/karatgold-coin.png?1547975141
@@ -23,12 +23,22 @@ links:
     github:
     - https://github.com/karatgold/smartcontract
   twitter_screen_name: karatbarsgmbh
-liquidity_score: 33.748
-market_cap_rank: 2126
+liquidity_score: 33.911
+market_cap_rank: 4867
 name: Karatgold Coin
-public_interest_score: 30.837
+public_interest_score: 30.867
 symbol: kbc
 tickers:
+- base: KBC
+  market:
+    identifier: bit_z
+    name: BitZ
+  target: ETH
+- base: KBC
+  market:
+    identifier: bit_z
+    name: BitZ
+  target: USDT
 - base: KBC
   market:
     identifier: bw
@@ -43,12 +53,17 @@ tickers:
   market:
     identifier: coinall
     name: CoinAll
-  target: ETH
+  target: BTC
 - base: KBC
   market:
-    identifier: coineal
-    name: Coineal
+    identifier: coinbene
+    name: CoinBene
   target: BTC
+- base: KBC
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
 - base: KBC
   market:
     identifier: digifinex
@@ -61,14 +76,9 @@ tickers:
   target: ETH
 - base: KBC
   market:
-    identifier: dobitrade
-    name: Dobitrade
-  target: BTC
-- base: KBC
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: BTC
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
 - base: KBC
   market:
     identifier: fatbtc
@@ -78,19 +88,9 @@ tickers:
   market:
     identifier: hubi
     name: Hubi
-  target: BTC
-- base: KBC
-  market:
-    identifier: hubi
-    name: Hubi
   target: USDT
 - base: KBC
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: KBC
-  market:
-    identifier: unnamed
-    name: Unnamed
-  target: DOGE
+    identifier: lbank
+    name: LBank
+  target: USDT

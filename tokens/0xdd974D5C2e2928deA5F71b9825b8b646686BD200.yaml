@@ -1,8 +1,8 @@
 ---
 address: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200'
-coingecko_rank: 33
-coingecko_score: 52.41
-community_score: 41.666
+coingecko_rank: 30
+coingecko_score: 58.785
+community_score: 38.689
 description: >-
   Kyber’s on-chain liquidity protocol allows decentralized token swaps to be integrated into any application,
   enabling value exchange to be performed seamlessly between all parties in the ecosystem. Tapping on
@@ -41,7 +41,7 @@ description: >-
   wrong with either the <a href="https://www.coingecko.com/buzz/trezor-model-t-wallet-review">Trezor</a>
   or <a href="https://www.coingecko.com/buzz/ledger-bitcoin-hardware-wallet-review">Ledger</a> wallet
   as both supports KNC.
-developer_score: 60.854
+developer_score: 78.703
 id: kyber-network
 image:
   large: https://assets.coingecko.com/coins/images/947/large/kyber-logo.png?1547034806
@@ -52,6 +52,8 @@ links:
   - https://blockchair.com/ethereum/erc-20/token/0xdd974d5c2e2928dea5f71b9825b8b646686bd200
   - https://etherscan.io/token/0xdd974d5c2e2928dea5f71b9825b8b646686bd200
   - https://ethplorer.io/address/0xdd974d5c2e2928dea5f71b9825b8b646686bd200
+  chat_url:
+  - https://discord.gg/NfFMVz6
   homepage:
   - https://kyber.network/
   repos_url:
@@ -60,12 +62,17 @@ links:
   subreddit_url: https://www.reddit.com/r/kybernetwork/
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
-liquidity_score: 50.372
-market_cap_rank: 82
+liquidity_score: 60.328
+market_cap_rank: 53
 name: Kyber Network
-public_interest_score: 29.619
+public_interest_score: 29.676
 symbol: knc
 tickers:
+- base: KNC
+  market:
+    identifier: aax
+    name: AAX
+  target: ETH
 - base: KNC
   market:
     identifier: bancor
@@ -73,19 +80,9 @@ tickers:
   target: USDB
 - base: KNC
   market:
-    identifier: bihodl
-    name: 'BiHODL '
-  target: USDT
-- base: KNC
-  market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
-- base: KNC
-  market:
     identifier: bitfinex
     name: Bitfinex
-  target: ETH
+  target: BTC
 - base: KNC
   market:
     identifier: bitfinex
@@ -93,29 +90,14 @@ tickers:
   target: USD
 - base: KNC
   market:
-    identifier: coinplace
-    name: Coinplace
-  target: ETH
-- base: KNC
-  market:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: KNC
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: KNC
   market:
     identifier: gopax
     name: GoPax
   target: KRW
-- base: KNC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: KNC
   market:
     identifier: hitbtc
@@ -133,24 +115,9 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
-- base: KNC
-  market:
     identifier: okex_korea
     name: OKEx Korea
-  target: BTC
-- base: KNC
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: ETH
-- base: KNC
-  market:
-    identifier: saturn_network
-    name: Saturn Network
-  target: ETH
+  target: USDT
 - base: KNC
   market:
     identifier: switcheo
@@ -158,6 +125,21 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: tidex
-    name: Tidex
+    identifier: tokenlon
+    name: Tokenlon
+  target: ETH
+- base: KNC
+  market:
+    identifier: vindax
+    name: Vindax
   target: BTC
+- base: KNC
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH
+- base: KNC
+  market:
+    identifier: zb
+    name: ZB
+  target: QC

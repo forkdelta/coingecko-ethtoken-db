@@ -1,8 +1,8 @@
 ---
 address: '0x4E15361FD6b4BB609Fa63C81A2be19d873717870'
-coingecko_rank: 91
-coingecko_score: 43.647
-community_score: 31.75
+coingecko_rank: 102
+coingecko_score: 46.295
+community_score: 31.043
 description: >-
   FANTOM is a new DAG based Smart Contract platform that intends to solve the scalability issues of existing
   public distributed ledger technologies.
@@ -17,7 +17,7 @@ description: >-
 
   The mission of FANTOM is to provide compatibility between all transaction bodies around the world, and
   create an ecosystem which allows real-time transactions and data sharing with low cost.
-developer_score: 47.392
+developer_score: 61.048
 id: fantom
 image:
   large: https://assets.coingecko.com/coins/images/4001/large/Fantom.png?1558015016
@@ -25,7 +25,6 @@ image:
   thumb: https://assets.coingecko.com/coins/images/4001/thumb/Fantom.png?1558015016
 links:
   blockchain_site:
-  - https://enjinx.io/eth/token/0x4e15361fd6b4bb609fa63c81a2be19d873717870
   - https://etherscan.io/token/0x4e15361fd6b4bb609fa63c81a2be19d873717870
   - https://ethplorer.io/address/0x4e15361fd6b4bb609fa63c81a2be19d873717870
   chat_url:
@@ -40,21 +39,41 @@ links:
   subreddit_url: https://www.reddit.com/r/FantomFoundation/
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
-liquidity_score: 38.898
-market_cap_rank: 145
+liquidity_score: 37.76
+market_cap_rank: 211
 name: Fantom
-public_interest_score: 30.982
+public_interest_score: 31.039
 symbol: ftm
 tickers:
 - base: FTM
   market:
-    identifier: bitcratic
-    name: Bitcratic
+    identifier: beaxy
+    name: Beaxy
+  target: BTC
+- base: FTM
+  market:
+    identifier: bibox
+    name: Bibox
+  target: BTC
+- base: FTM
+  market:
+    identifier: bibox
+    name: Bibox
   target: ETH
 - base: FTM
   market:
-    identifier: idex
-    name: Idex
+    identifier: coinall
+    name: CoinAll
+  target: BTC
+- base: FTM
+  market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
+- base: FTM
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: FTM
   market:
@@ -63,19 +82,9 @@ tickers:
   target: USDK
 - base: FTM
   market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
-- base: FTM
-  market:
-    identifier: probit
-    name: Probit
-  target: KRW
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
 - base: FTM
   market:
     identifier: yobit
@@ -85,19 +94,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

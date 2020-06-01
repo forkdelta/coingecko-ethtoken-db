@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 76
-coingecko_score: 45.399
-community_score: 42.446
+coingecko_rank: 68
+coingecko_score: 51.266
+community_score: 40.033
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -43,7 +43,7 @@ description: >-
   list. Enjin Coin is an ambitious project that aims to integrate online virtual gaming with decentralized
   technologies. Enjin Coin project promises a lot, and it is only with the passage of time that we will
   able to see if it can deliver on those promises.
-developer_score: 32.4
+developer_score: 49.664
 id: enjincoin
 image:
   large: https://assets.coingecko.com/coins/images/1102/large/enjin-coin-logo.png?1547035078
@@ -52,24 +52,31 @@ image:
 links:
   bitcointalk_thread_identifier: 2042871
   blockchain_site:
-  - https://blockchair.com/ethereum/erc-20/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
   - https://etherscan.io/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
-  - https://ethplorer.io/address/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
   homepage:
-  - https://enjincoin.io/
-  - https://www.enjin.com/
+  - https://enjin.io/
   repos_url:
     github:
     - https://github.com/enjin/erc-1155
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 44.845
-market_cap_rank: 54
+liquidity_score: 52.819
+market_cap_rank: 40
 name: Enjin Coin
-public_interest_score: 35.358
+public_interest_score: 35.392
 symbol: enj
 tickers:
+- base: ENJ
+  market:
+    identifier: altilly
+    name: Altilly
+  target: XQR
+- base: ENJ
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ENJ
   market:
     identifier: bancor
@@ -77,39 +84,19 @@ tickers:
   target: USDB
 - base: ENJ
   market:
-    identifier: bitcratic
-    name: Bitcratic
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: ENJ
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
+    identifier: gdac
+    name: GDAC
+  target: KRW
 - base: ENJ
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
-- base: ENJ
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: ENJ
-  market:
-    identifier: crytrex
-    name: CryTrEx
-  target: BTC
-- base: ENJ
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: ENJ
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ENJ
   market:
     identifier: livecoin
@@ -117,24 +104,14 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: probit
-    name: Probit
-  target: KRW
+    identifier: livecoin
+    name: Livecoin
+  target: USDT
 - base: ENJ
   market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
-- base: ENJ
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
-- base: ENJ
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+    identifier: mxc
+    name: MXC
+  target: USDT
 - base: ENJ
   market:
     identifier: upbit
@@ -145,3 +122,13 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: ENJ
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: ENJ
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

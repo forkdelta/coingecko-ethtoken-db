@@ -1,13 +1,13 @@
 ---
 address: '0x27f610BF36ecA0939093343ac28b1534a721DBB4'
-coingecko_rank: 747
-coingecko_score: 23.605
-community_score: 21.602
+coingecko_rank: 716
+coingecko_score: 25.339
+community_score: 20.92
 description: >-
   WandX is a decentralized platform on the Ethereum blockchain which enables users to create, trade, and
   settle any financial instrument on crypto-assets. Using the Wand Token, users can invest in ETFs (Exchange
   Traded Funds), buy cryptocurrency futures, and trade in illiquid assets through a portfolio of assets.
-developer_score: 27.6
+developer_score: 33.446
 id: wandx
 image:
   large: https://assets.coingecko.com/coins/images/2219/large/wandx.png?1548760294
@@ -16,7 +16,6 @@ image:
 links:
   bitcointalk_thread_identifier: 2213710
   blockchain_site:
-  - https://enjinx.io/eth/token/0x27f610bf36eca0939093343ac28b1534a721dbb4
   - https://etherscan.io/token/0x27f610bf36eca0939093343ac28b1534a721dbb4
   - https://ethplorer.io/address/0x27f610bf36eca0939093343ac28b1534a721dbb4
   facebook_username: wandx.co
@@ -27,14 +26,24 @@ links:
     - https://github.com/WandXDapp/WandXOptionsDapp
   subreddit_url: https://www.reddit.com/r/wandX
   twitter_screen_name: WandXDapp
-liquidity_score: 0.0
-market_cap_rank: 1231
+liquidity_score: 1.0
+market_cap_rank: 1154
 name: WandX
-public_interest_score: 24.293
+public_interest_score: 24.337
 symbol: wand
 tickers:
 - base: WAND
   market:
-    identifier: uniswap
-    name: Uniswap
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: WAND
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: WAND
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
