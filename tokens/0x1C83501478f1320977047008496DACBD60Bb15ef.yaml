@@ -1,8 +1,8 @@
 ---
 address: '0x1C83501478f1320977047008496DACBD60Bb15ef'
-coingecko_rank: 427
-coingecko_score: 30.657
-community_score: 31.418
+coingecko_rank: 428
+coingecko_score: 30.471
+community_score: 30.989
 description: >-
   Digitex Futures is a commission-free cryptocurrency futures exchange with a rapid-fire one-click trading
   ladder and high leverage. Traders can buy and sell perpetual swap futures contracts on Bitcoin against
@@ -36,12 +36,17 @@ links:
   subreddit_url: https://www.reddit.com/r/DigitexFutures/
   telegram_channel_identifier: digitexfutureschat
   twitter_screen_name: DigitexFutures
-liquidity_score: 34.233
-market_cap_rank: 120
+liquidity_score: 33.968
+market_cap_rank: 122
 name: Digitex Futures Exchange
 public_interest_score: 25.036
 symbol: dgtx
 tickers:
+- base: DGTX
+  market:
+    identifier: coindcx
+    name: CoinDCX
+  target: INR
 - base: DGTX
   market:
     identifier: livecoin
@@ -51,4 +56,9 @@ tickers:
   market:
     identifier: probit
     name: Probit
+  target: ETH
+- base: DGTX
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: ETH

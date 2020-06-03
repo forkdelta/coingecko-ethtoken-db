@@ -1,8 +1,8 @@
 ---
 address: '0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd'
-coingecko_rank: 6683
-coingecko_score: 1.931
-community_score: 6.923
+coingecko_rank: 6759
+coingecko_score: 1.855
+community_score: 6.62
 description: >-
   BTC++ it’s a weighed allocation between the different representations of Bitcoin on the Ethereum
 developer_score: 0.0
@@ -26,8 +26,13 @@ links:
   telegram_channel_identifier: piedao
   twitter_screen_name: PieDAO_DeFi
 liquidity_score: 1.0
-market_cap_rank: 7170
+market_cap_rank: 4214
 name: PieDAO BTC++
 public_interest_score: 0.0
 symbol: btc++
-tickers: []
+tickers:
+- base: BTC++
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

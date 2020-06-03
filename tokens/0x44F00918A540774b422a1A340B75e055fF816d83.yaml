@@ -1,7 +1,7 @@
 ---
 address: '0x44F00918A540774b422a1A340B75e055fF816d83'
-coingecko_rank: 6688
-coingecko_score: 1.92
+coingecko_rank: 6654
+coingecko_score: 1.964
 community_score: 0.0
 description: ""
 developer_score: 0.0
@@ -16,9 +16,19 @@ links:
   homepage:
   - https://hex.business/
   telegram_channel_identifier: hexmobileapp
-liquidity_score: 9.601
-market_cap_rank: 4702
+liquidity_score: 9.819
+market_cap_rank: 5227
 name: Hex Money
 public_interest_score: 0.002
 symbol: hxy
-tickers: []
+tickers:
+- base: HXY
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: HXY
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH

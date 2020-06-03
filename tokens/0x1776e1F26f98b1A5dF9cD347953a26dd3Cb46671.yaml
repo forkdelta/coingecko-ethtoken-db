@@ -1,8 +1,8 @@
 ---
 address: '0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671'
-coingecko_rank: 107
-coingecko_score: 45.863
-community_score: 29.855
+coingecko_rank: 106
+coingecko_score: 45.718
+community_score: 29.466
 description: >-
   A new kind of hedge fund built by a network of data scientists.
 developer_score: 61.249
@@ -24,17 +24,12 @@ links:
     - https://github.com/numerai/numerapi-1
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
-liquidity_score: 31.402
-market_cap_rank: 59
+liquidity_score: 31.265
+market_cap_rank: 62
 name: Numeraire
 public_interest_score: 24.837
 symbol: nmr
 tickers:
-- base: NMR
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: USDB
 - base: NMR
   market:
     identifier: bitcratic
@@ -47,9 +42,9 @@ tickers:
   target: ETH
 - base: NMR
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: DAI
 - base: NMR
   market:
     identifier: upbit_indonesia
@@ -59,11 +54,6 @@ tickers:
   market:
     identifier: vcc
     name: VCC Exchange
-  target: BTC
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
   target: BTC
 - base: NMR
   market:
@@ -79,14 +69,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
   target: USD
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

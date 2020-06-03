@@ -1,8 +1,8 @@
 ---
 address: '0x39Bb259F66E1C59d5ABEF88375979b4D20D98022'
-coingecko_rank: 327
-coingecko_score: 33.218
-community_score: 31.663
+coingecko_rank: 335
+coingecko_score: 32.754
+community_score: 31.218
 description: >-
   "WAX is an all-in-one blockchain platform enabling developers to easily create, sell and trade digital
   goods to empower businesses to profit from the next era of digital commerce.
@@ -54,8 +54,8 @@ links:
   subreddit_url: https://www.reddit.com/r/WAX_io
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
-liquidity_score: 41.446
-market_cap_rank: 109
+liquidity_score: 39.751
+market_cap_rank: 112
 name: WAX
 public_interest_score: 34.196
 symbol: waxp
@@ -70,26 +70,41 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: WAXP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: WAX
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: WAX
-  market:
-    identifier: kucoin
-    name: KuCoin
   target: ETH
 - base: 6E25E8AB-5779-4543-855B-71F4857B47D5
   market:
     identifier: lykke
     name: Lykke
   target: BTC
-- base: WAX
+- base: 6E25E8AB-5779-4543-855B-71F4857B47D5
+  market:
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: PGL
   market:
     identifier: newdex
     name: Newdex
-  target: EOS
+  target: WAX
+- base: BET
+  market:
+    identifier: newdex
+    name: Newdex
+  target: WAX
+- base: KARMA
+  market:
+    identifier: newdex
+    name: Newdex
+  target: WAX
 - base: WAXP
   market:
     identifier: upbit
@@ -100,3 +115,13 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: WAXP
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: WAXP
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH

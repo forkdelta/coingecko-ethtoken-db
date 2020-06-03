@@ -1,8 +1,8 @@
 ---
 address: '0x0d16450D347c12C086d6C94c76c5Aaac35eA07E0'
-coingecko_rank: 2038
-coingecko_score: 13.387
-community_score: 15.266
+coingecko_rank: 2035
+coingecko_score: 13.331
+community_score: 15.153
 description: >-
   Digital Gold is a blockchain-based project, designed to encourage the digitalization of the financial
   markets, and their afferent investment instruments. It hopes to achieve this by enabling users to purchase
@@ -66,9 +66,19 @@ links:
   subreddit_url: https://www.reddit.com/r/golderc20/
   telegram_channel_identifier: digitalgoldcoin
   twitter_screen_name: gold_erc20
-liquidity_score: 47.852
-market_cap_rank: 3610
+liquidity_score: 47.714
+market_cap_rank: 3976
 name: Digital Gold Token
 public_interest_score: 0.001
 symbol: gold
-tickers: []
+tickers:
+- base: GOLD
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: GOLD
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH

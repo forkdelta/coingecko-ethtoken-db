@@ -1,8 +1,8 @@
 ---
 address: '0x0A76aad21948eA1ef447D26DEe91a54370E151e0'
-coingecko_rank: 4647
-coingecko_score: 4.512
-community_score: 7.382
+coingecko_rank: 4667
+coingecko_score: 4.43
+community_score: 7.056
 description: >-
   Ethereum Lite is an Ethereum-based ERC-20 Token that focuses on being a faster and cheaper currency
   than Bitcoin, Litecoin and other cryptocurrencies, while being distributed equally between all users
@@ -21,11 +21,21 @@ links:
   - http://www.ethereumlite.org/
   twitter_screen_name: ethereumlite
 liquidity_score: 1.0
-market_cap_rank: 3323
+market_cap_rank: 3223
 name: Ethereum Lite
 public_interest_score: 24.663
 symbol: elite
 tickers:
+- base: ELITE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: ELITE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: ELITE
   market:
     identifier: yobit
@@ -46,8 +56,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: ELITE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -1,8 +1,8 @@
 ---
 address: '0xEBBdf302c940c6bfd49C6b165f457fdb324649bc'
-coingecko_rank: 637
-coingecko_score: 26.591
-community_score: 29.335
+coingecko_rank: 643
+coingecko_score: 26.347
+community_score: 29.024
 description: >-
   Hydro enables new and existing private systems to seamlessly integrate and leverage the immutable &
   transparent dynamics of a public blockchain to enhance application and document security, identity management,
@@ -44,8 +44,8 @@ links:
     - https://github.com/hydrogen-dev/smart-contracts
   subreddit_url: https://www.reddit.com/r/ProjectHydro/
   twitter_screen_name: HydroBlockchain
-liquidity_score: 27.034
-market_cap_rank: 502
+liquidity_score: 26.159
+market_cap_rank: 514
 name: Hydro
 public_interest_score: 25.961
 symbol: hydro
@@ -57,6 +57,11 @@ tickers:
   target: BMX
 - base: HYDRO
   market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: HYDRO
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -65,6 +70,16 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: HYDRO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
 - base: HYDRO
   market:
     identifier: uniswap_v1
@@ -79,4 +94,9 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
+  target: BTC
+- base: HYDRO
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: BTC

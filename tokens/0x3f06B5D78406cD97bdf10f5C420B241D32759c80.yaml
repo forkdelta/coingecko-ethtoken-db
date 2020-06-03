@@ -1,8 +1,8 @@
 ---
 address: '0x3f06B5D78406cD97bdf10f5C420B241D32759c80'
-coingecko_rank: 3277
-coingecko_score: 7.469
-community_score: 19.442
+coingecko_rank: 3232
+coingecko_score: 7.498
+community_score: 19.559
 description: >-
   Cyber-FM Radio provides listeners access to music that is not normally available within the “Mainstream.”
 
@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: mftudotnet
   twitter_screen_name: mftu_currency
 liquidity_score: 1.0
-market_cap_rank: 3551
+market_cap_rank: 6275
 name: CyberFM
 public_interest_score: 24.082
 symbol: cyfm
@@ -46,6 +46,11 @@ tickers:
   target: ETH
 - base: CYFM
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CYFM
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -58,9 +63,4 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: ETH
-- base: CYFM
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
   target: ETH
