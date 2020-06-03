@@ -1,8 +1,8 @@
 ---
 address: '0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3'
-coingecko_rank: 363
-coingecko_score: 32.252
-community_score: 34.36
+coingecko_rank: 383
+coingecko_score: 31.708
+community_score: 33.954
 description: >-
   Pundi X is the project that wants to make spending crypto as easy as a credit card. Creators of the
   NPXS token hope that it will one day be used on their <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
@@ -62,8 +62,8 @@ links:
   subreddit_url: https://www.reddit.com/r/PundiX/
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
-liquidity_score: 37.348
-market_cap_rank: 127
+liquidity_score: 35.169
+market_cap_rank: 128
 name: Pundi X
 public_interest_score: 27.871
 symbol: npxs
@@ -85,6 +85,11 @@ tickers:
   target: ETH
 - base: NPXS
   market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
+- base: NPXS
+  market:
     identifier: bitsonic
     name: Bitsonic
   target: BSC
@@ -93,6 +98,11 @@ tickers:
     identifier: bitsonic
     name: Bitsonic
   target: KRW
+- base: NPXS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: NPXS
   market:
     identifier: catex
@@ -108,11 +118,6 @@ tickers:
     identifier: etherflyer
     name: EtherFlyer
   target: ETH
-- base: NPXS
-  market:
-    identifier: graviex
-    name: Graviex
-  target: BTC
 - base: NPXS
   market:
     identifier: graviex
@@ -150,19 +155,39 @@ tickers:
   target: USDT
 - base: NPXS
   market:
+    identifier: omgfin
+    name: Omgfin
+  target: UQC
+- base: NPXS
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: NPXS
+  market:
     identifier: uniswap_v1
     name: Uniswap (v1)
   target: ETH
 - base: NPXS
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: NPXS
-  market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH
+- base: NPXS
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT
 - base: NPXS
   market:
     identifier: vindax

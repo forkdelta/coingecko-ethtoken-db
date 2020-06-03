@@ -1,8 +1,8 @@
 ---
 address: '0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c'
-coingecko_rank: 68
-coingecko_score: 51.266
-community_score: 40.033
+coingecko_rank: 69
+coingecko_score: 51.361
+community_score: 40.903
 description: >-
   Enjin Coin is a cryptocurrency for virtual goods created by Enjin. Enjin is the “largest gaming community
   platform online” with over 250,000 gaming communities and 18.7 million registered gamers. The Enjin
@@ -61,8 +61,8 @@ links:
   subreddit_url: https://www.reddit.com/r/EnjinCoin
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
-liquidity_score: 52.819
-market_cap_rank: 40
+liquidity_score: 52.458
+market_cap_rank: 44
 name: Enjin Coin
 public_interest_score: 35.392
 symbol: enj
@@ -84,6 +84,11 @@ tickers:
   target: USDB
 - base: ENJ
   market:
+    identifier: btcmarkets
+    name: BTCMarkets
+  target: BTC
+- base: ENJ
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
@@ -97,6 +102,11 @@ tickers:
     identifier: gopax
     name: GoPax
   target: KRW
+- base: ENJ
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: ENJ
   market:
     identifier: livecoin
@@ -114,9 +124,9 @@ tickers:
   target: USDT
 - base: ENJ
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: tokenlon
+    name: Tokenlon
+  target: ETH
 - base: ENJ
   market:
     identifier: upbit_indonesia

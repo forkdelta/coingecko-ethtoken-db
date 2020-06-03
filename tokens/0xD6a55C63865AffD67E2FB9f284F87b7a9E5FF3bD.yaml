@@ -1,8 +1,8 @@
 ---
 address: '0xD6a55C63865AffD67E2FB9f284F87b7a9E5FF3bD'
-coingecko_rank: 556
-coingecko_score: 27.878
-community_score: 7.822
+coingecko_rank: 598
+coingecko_score: 26.988
+community_score: 7.477
 description: >-
   SwitchDex is a decentralized exchange running on the Ethereum blockchain. Switch Is The Easiest, Fastest,
   & Most Secure Token Exchange. Period. Switch tokens (ESH) represent a revenue share of 50% of ALL fees
@@ -25,16 +25,26 @@ links:
     github:
     - https://github.com/Mshuu/SwitchDexIssues
   twitter_screen_name: switchag
-liquidity_score: 31.73
-market_cap_rank: 634
+liquidity_score: 27.844
+market_cap_rank: 648
 name: Switch
-public_interest_score: 42.108
+public_interest_score: 42.109
 symbol: esh
 tickers:
 - base: ESH
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com
+  target: ETH
+- base: ESH
+  market:
     identifier: coinbene
     name: CoinBene
+  target: BTC
+- base: ESH
+  market:
+    identifier: crex24
+    name: CREX24
   target: BTC
 - base: ESH
   market:
@@ -66,16 +76,6 @@ tickers:
     identifier: fatbtc
     name: FatBTC
   target: USDT
-- base: ESH
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: ESH
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: ESH
   market:
     identifier: mxc

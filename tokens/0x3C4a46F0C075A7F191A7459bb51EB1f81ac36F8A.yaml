@@ -1,6 +1,6 @@
 ---
 address: '0x3C4a46F0C075A7F191A7459bb51EB1f81ac36F8A'
-coingecko_rank: 7242
+coingecko_rank: 7241
 coingecko_score: 0.207
 community_score: 0.0
 description: >-
@@ -18,8 +18,13 @@ links:
   homepage:
   - https://ftx.com/tokens/PAXGBEAR
 liquidity_score: 1.0
-market_cap_rank: 2732
+market_cap_rank: 2760
 name: 3X Short PAX Gold Token
 public_interest_score: 0.074
 symbol: paxgbear
-tickers: []
+tickers:
+- base: PAXGBEAR
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: USD

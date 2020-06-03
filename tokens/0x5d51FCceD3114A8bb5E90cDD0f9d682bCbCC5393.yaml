@@ -1,8 +1,8 @@
 ---
 address: '0x5d51FCceD3114A8bb5E90cDD0f9d682bCbCC5393'
-coingecko_rank: 1456
-coingecko_score: 17.473
-community_score: 7.197
+coingecko_rank: 1443
+coingecko_score: 17.491
+community_score: 6.879
 description: >-
   B2BX is the first official provider of cryptocurrency liquidity, we provide cryptocurrency liquidity
   for brokers, stock exchanges, hedge funds and other institutional clients. B2BX is an aggregator of
@@ -26,8 +26,8 @@ links:
   - https://www.b2bx.pro/
   telegram_channel_identifier: B2BX_ICO_eng
   twitter_screen_name: b2broker_net
-liquidity_score: 1.369
-market_cap_rank: 324
+liquidity_score: 1.0
+market_cap_rank: 289
 name: B2BX
 public_interest_score: 33.802
 symbol: b2b
@@ -46,7 +46,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: B2B
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
+- base: B2B
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: B2B
   market:
     identifier: yobit
@@ -57,3 +67,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: B2B
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
