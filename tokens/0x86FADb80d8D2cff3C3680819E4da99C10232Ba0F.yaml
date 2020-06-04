@@ -1,8 +1,8 @@
 ---
 address: '0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F'
-coingecko_rank: 3236
-coingecko_score: 7.48
-community_score: 7.723
+coingecko_rank: 3091
+coingecko_score: 8.114
+community_score: 8.693
 description: >-
   EURBASE is a hybrid EUR based stable coin with anti inflationary features. Partially collateralized
   by EUR deposits and partially in Bitcoin and other cryptocurrencies. You can change EBASE to EUR and
@@ -33,13 +33,23 @@ links:
     - https://github.com/eterbase/eurbase
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: eterbase
-liquidity_score: 15.735
-market_cap_rank: 2173
+liquidity_score: 17.695
+market_cap_rank: 4850
 name: EURBASE
 public_interest_score: 24.02
 symbol: ebase
 tickers:
-- base: ATOM
+- base: LINK
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: BCH
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: UBT
   market:
     identifier: eterbase
     name: Eterbase
@@ -59,7 +69,7 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: SNX
+- base: BNB
   market:
     identifier: eterbase
     name: Eterbase
@@ -68,11 +78,6 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: EBASE
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: ETH
 - base: EBASE
   market:

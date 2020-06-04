@@ -1,8 +1,8 @@
 ---
 address: '0x57Ab1ec28D129707052df4dF418D58a2D46d5f51'
-coingecko_rank: 156
-coingecko_score: 42.005
-community_score: 28.689
+coingecko_rank: 150
+coingecko_score: 42.832
+community_score: 29.742
 description: >-
   Volatility is great for traders and exchanges, and volatility in cryptoassets has driven huge growth
   for all trading platforms over the past year. This growth has created a need for scalable and stable
@@ -16,7 +16,7 @@ description: >-
   is built on the Ethereum blockchain and it employs two tokens, both of which are ERC20 compatible. The
   Havven network has been released as an open source protocol so that anyone can integrate with it, including
   exchanges and decentralised platforms.
-developer_score: 60.254
+developer_score: 61.35
 id: nusd
 image:
   large: https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1562212426
@@ -35,18 +35,38 @@ links:
     - https://github.com/Synthetixio/synthetix
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 24.422
-market_cap_rank: 275
+liquidity_score: 25.769
+market_cap_rank: 278
 name: sUSD
 public_interest_score: 26.836
 symbol: susd
 tickers:
+- base: SUSD
+  market:
+    identifier: kucoin
+    name: KuCoin
+  target: BTC
 - base: SLTC
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: SBNB
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: ILTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: ILINK
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange

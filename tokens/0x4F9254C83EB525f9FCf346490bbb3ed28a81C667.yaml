@@ -1,8 +1,8 @@
 ---
 address: '0x4F9254C83EB525f9FCf346490bbb3ed28a81C667'
-coingecko_rank: 731
-coingecko_score: 24.91
-community_score: 8.507
+coingecko_rank: 742
+coingecko_score: 25.046
+community_score: 9.577
 description: >-
   Celer Network is a coherent technology and economic architecture to enable Internet-scale public blockchains
   through off-chain scaling techniques. It can scale out to billions of transactions per second, and will
@@ -47,8 +47,8 @@ links:
     - https://github.com/celer-network/cChannel-eth
   telegram_channel_identifier: celernetwork
   twitter_screen_name: CelerNetwork
-liquidity_score: 37.175
-market_cap_rank: 228
+liquidity_score: 36.466
+market_cap_rank: 229
 name: Celer Network
 public_interest_score: 28.513
 symbol: celr
@@ -70,14 +70,19 @@ tickers:
   target: USDT
 - base: CELR
   market:
+    identifier: financex
+    name: FinanceX
+  target: VND
+- base: CELR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: CELR
+  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: CELR
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
 - base: CELR
   market:
     identifier: uniswap_v1

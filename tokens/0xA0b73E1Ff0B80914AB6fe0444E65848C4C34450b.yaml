@@ -1,8 +1,8 @@
 ---
 address: '0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b'
-coingecko_rank: 157
-coingecko_score: 41.994
-community_score: 43.165
+coingecko_rank: 152
+coingecko_score: 42.646
+community_score: 45.358
 description: >-
   We propose Crypto.com Chain, the next generation decentralized mobile payment protocol, the most efficient
   and secure way to pay and be paid in crypto, anywhere, any crypto
@@ -33,12 +33,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Crypto_com/
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
-liquidity_score: 53.871
+liquidity_score: 54.284
 market_cap_rank: 14
 name: Crypto.com Coin
 public_interest_score: 40.882
 symbol: cro
 tickers:
+- base: CRO
+  market:
+    identifier: bibox
+    name: Bibox
+  target: USDT
 - base: CRO
   market:
     identifier: biki
@@ -53,17 +58,12 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
-  target: BTC
-- base: CRO
-  market:
-    identifier: gopax
-    name: GoPax
   target: KRW
 - base: CRO
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: HT
+  target: BTC
 - base: CRO
   market:
     identifier: idex
@@ -84,6 +84,11 @@ tickers:
     identifier: oceanex
     name: Oceanex
   target: BTC
+- base: CRO
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: CRO
   market:
     identifier: uniswap_v1

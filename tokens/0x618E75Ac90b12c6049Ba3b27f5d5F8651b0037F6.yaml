@@ -1,8 +1,8 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 543
-coingecko_score: 28.005
-community_score: 27.949
+coingecko_rank: 548
+coingecko_score: 28.249
+community_score: 29.06
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
   to <a href="https://www.coingecko.com/en/exchanges/quoine">Liquid</a>. Liquid is a global cryptocurrency
@@ -59,8 +59,8 @@ links:
   subreddit_url: https://www.reddit.com/r/liquid
   telegram_channel_identifier: QUOINENews
   twitter_screen_name: Liquid_Global
-liquidity_score: 28.724
-market_cap_rank: 218
+liquidity_score: 28.49
+market_cap_rank: 222
 name: QASH
 public_interest_score: 27.286
 symbol: qash
@@ -70,6 +70,11 @@ tickers:
     identifier: gopax
     name: GoPax
   target: ETH
+- base: QASH
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: QASH
   market:
     identifier: idex
@@ -85,7 +90,17 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: GET
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: AUD
+- base: ETN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: CRPT
   market:
     identifier: quoine
     name: Liquid
@@ -95,7 +110,17 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: GET
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: KRL
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: CHI
   market:
     identifier: quoine
     name: Liquid
@@ -105,12 +130,12 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: MRK
+- base: IDH
   market:
     identifier: quoine
     name: Liquid
   target: QASH
-- base: BRC
+- base: MRK
   market:
     identifier: quoine
     name: Liquid
@@ -121,6 +146,11 @@ tickers:
     name: Liquid
   target: QASH
 - base: KMD
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: BRC
   market:
     identifier: quoine
     name: Liquid

@@ -1,8 +1,8 @@
 ---
 address: '0x79da1431150C9b82D2E5dfc1C68B33216846851e'
-coingecko_rank: 2590
-coingecko_score: 10.108
-community_score: 28.691
+coingecko_rank: 2571
+coingecko_score: 10.383
+community_score: 29.793
 description: >-
   Inversely tracks the price of Litecoin (LTC) through price feeds supplied by an oracle. The entry point
   is $58.73 (the approximate market price at time of creation). This Synth freezes when it reaches its
@@ -29,8 +29,13 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io/
   twitter_screen_name: synthetix_io
 liquidity_score: 1.0
-market_cap_rank: 1953
+market_cap_rank: 2002
 name: iLTC
 public_interest_score: 27.349
 symbol: iltc
-tickers: []
+tickers:
+- base: ILTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

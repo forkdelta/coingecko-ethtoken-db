@@ -1,8 +1,8 @@
 ---
 address: '0xcBe79cEca09092648995B2CCdf91cA5ECD1EdEc9'
-coingecko_rank: 4455
-coingecko_score: 4.774
-community_score: 8.128
+coingecko_rank: 4430
+coingecko_score: 4.97
+community_score: 8.912
 description: >-
   BTCSHORT seeks to provide the inverse return of Bitcoin for a single day through the use of short sales.
   Our smart contract is integrated with industry-leading lending facilities and execution providers. When
@@ -32,8 +32,18 @@ links:
   telegram_channel_identifier: AmunTokens
   twitter_screen_name: AmunTokens
 liquidity_score: 1.0
-market_cap_rank: 6854
+market_cap_rank: 7057
 name: BTCShort
 public_interest_score: 25.424
 symbol: btcshort
-tickers: []
+tickers:
+- base: BTCSHORT
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com
+  target: USD
+- base: BTCSHORT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

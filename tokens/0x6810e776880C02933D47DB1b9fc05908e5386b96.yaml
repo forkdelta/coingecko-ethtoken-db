@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 168
-coingecko_score: 41.109
-community_score: 35.557
+coingecko_rank: 166
+coingecko_score: 41.586
+community_score: 36.827
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -42,7 +42,7 @@ description: >-
   in a vault and have promised not to dump them on the market. They’ll give at least a three-month warning
   before selling any of the tokens. The team includes quite a list of reputable advisors including Joseph
   Lubin (Ethereum co-founder and ConsenSys founder) and Vitalik Buterin (Ethereum founder and chief scientist).
-developer_score: 50.461
+developer_score: 51.248
 id: gnosis
 image:
   large: https://assets.coingecko.com/coins/images/662/large/gnosis-logo.png?1547034401
@@ -61,8 +61,8 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 14.022
-market_cap_rank: 142
+liquidity_score: 13.837
+market_cap_rank: 145
 name: Gnosis
 public_interest_score: 35.79
 symbol: gno
@@ -79,8 +79,8 @@ tickers:
   target: KRW
 - base: GNO
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: GNO
   market:
@@ -104,11 +104,6 @@ tickers:
   target: USDT
 - base: GNO
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
-- base: GNO
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -122,6 +117,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: GNO
   market:
     identifier: yobit

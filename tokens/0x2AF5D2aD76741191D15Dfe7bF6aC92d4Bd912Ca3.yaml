@@ -1,8 +1,8 @@
 ---
 address: '0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3'
 coingecko_rank: 212
-coingecko_score: 38.344
-community_score: 36.846
+coingecko_score: 38.699
+community_score: 38.148
 description: ""
 developer_score: 0.0
 id: leo-token
@@ -23,7 +23,7 @@ links:
   subreddit_url: https://www.reddit.com/r/bitfinex/
   telegram_channel_identifier: bfxtelegram
   twitter_screen_name: bitfinex
-liquidity_score: 48.263
+liquidity_score: 48.218
 market_cap_rank: 17
 name: LEO Token
 public_interest_score: 33.885
@@ -36,14 +36,19 @@ tickers:
   target: EOS
 - base: LEO
   market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: LEO
+  market:
+    identifier: okex
+    name: OKEx
+  target: ETH
+- base: LEO
+  market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: LEO
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: DAI
 - base: LEO
   market:
     identifier: switcheo

@@ -1,8 +1,8 @@
 ---
 address: '0x4156D3342D5c385a87D264F90653733592000581'
-coingecko_rank: 1040
-coingecko_score: 21.244
-community_score: 9.089
+coingecko_rank: 1022
+coingecko_score: 21.658
+community_score: 10.23
 description: >-
   The SALT platform is meant to facilitate getting a loan, where the company holds your cryptocoins as
   collateral while you don't pay back the loan.
@@ -28,8 +28,8 @@ links:
     - https://github.com/unyo/saltcoin
   telegram_channel_identifier: SALTLendingDiscussion
   twitter_screen_name: SALTLending
-liquidity_score: 0.233
-market_cap_rank: 311
+liquidity_score: 1.0
+market_cap_rank: 313
 name: SALT
 public_interest_score: 37.874
 symbol: salt
@@ -46,6 +46,16 @@ tickers:
   target: ETH
 - base: SALT
   market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: SALT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: SALT
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -59,8 +69,3 @@ tickers:
     identifier: uniswap
     name: Uniswap (v2)
   target: USDC
-- base: SALT
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH
