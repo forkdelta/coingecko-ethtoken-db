@@ -1,7 +1,7 @@
 ---
 address: '0x94FC5934cF5970E944a67de806eEB5a4b493c6E6'
-coingecko_rank: 3734
-coingecko_score: 6.288
+coingecko_rank: 3747
+coingecko_score: 6.39
 community_score: 0.0
 description: >-
   3X Short XRP Token (XRPBEAR) is an ERC20 token which seeks a return that corresponds to -3 times the
@@ -18,9 +18,19 @@ links:
   - https://ethplorer.io/address/0x94fc5934cf5970e944a67de806eeb5a4b493c6e6
   homepage:
   - https://ftx.com/tokens/XRPBEAR
-liquidity_score: 31.405
-market_cap_rank: 5586
+liquidity_score: 31.911
+market_cap_rank: 2356
 name: 3X Short XRP Token
 public_interest_score: 0.074
 symbol: xrpbear
-tickers: []
+tickers:
+- base: XRPBEAR
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: USDT
+- base: XRPBEAR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT

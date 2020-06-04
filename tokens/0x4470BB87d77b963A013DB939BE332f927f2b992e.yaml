@@ -1,8 +1,8 @@
 ---
 address: '0x4470BB87d77b963A013DB939BE332f927f2b992e'
-coingecko_rank: 170
-coingecko_score: 41.066
-community_score: 36.739
+coingecko_rank: 168
+coingecko_score: 41.503
+community_score: 38.173
 description: >-
   AdEx (ADX) stands for “advertising exchange.” AdEx Coin is a blockchain-based marketplace for ads that
   aims to change the existing online advertising landscape and solve its major problems: ad fraud, privacy
@@ -21,7 +21,7 @@ description: >-
   AdEx as a platform has room for a good amount of growth since digital advertising is a booming business
   anyway. But by eliminating flaws and continuing updates on its current platform, AdEx aims to stand
   firm in the near future.
-developer_score: 46.485
+developer_score: 47.308
 id: adex
 image:
   large: https://assets.coingecko.com/coins/images/847/large/adex.png?1547034643
@@ -39,8 +39,8 @@ links:
     - https://github.com/AdExBlockchain/adex-core
   subreddit_url: https://www.reddit.com/r/AdEx
   twitter_screen_name: AdEx_Network
-liquidity_score: 26.581
-market_cap_rank: 258
+liquidity_score: 25.841
+market_cap_rank: 252
 name: AdEx
 public_interest_score: 26.191
 symbol: adx
@@ -62,6 +62,16 @@ tickers:
   target: ETH
 - base: ADX
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: ADX
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: BTC
+- base: ADX
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
@@ -70,6 +80,11 @@ tickers:
     identifier: uniswap
     name: Uniswap (v2)
   target: DAI
+- base: ADX
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: ADX
   market:
     identifier: upbit

@@ -1,8 +1,8 @@
 ---
 address: '0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b'
-coingecko_rank: 373
-coingecko_score: 32.041
-community_score: 40.492
+coingecko_rank: 367
+coingecko_score: 32.434
+community_score: 42.665
 description: >-
   FunFair is an <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based platform for
   online casino gaming. Targeting the $47B online gambling market, FunFair isn’t actually a casino. Instead,
@@ -55,8 +55,8 @@ links:
   - https://funfair.io/
   subreddit_url: https://www.reddit.com/r/FunfairTech
   twitter_screen_name: FunFairTech
-liquidity_score: 29.919
-market_cap_rank: 167
+liquidity_score: 29.192
+market_cap_rank: 169
 name: FunFair
 public_interest_score: 29.719
 symbol: fun
@@ -76,6 +76,11 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: FUN
+  market:
+    identifier: c2cx
+    name: C2CX
+  target: BTC
 - base: FUN
   market:
     identifier: forkdelta
@@ -98,6 +103,6 @@ tickers:
   target: ETH
 - base: FUN
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: USDC
+    identifier: wazirx
+    name: WazirX
+  target: BTC

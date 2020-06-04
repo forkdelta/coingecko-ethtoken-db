@@ -1,8 +1,8 @@
 ---
 address: '0xC538143202f3b11382D8606aae90a96b042a19DB'
-coingecko_rank: 1801
-coingecko_score: 14.996
-community_score: 9.055
+coingecko_rank: 1839
+coingecko_score: 14.923
+community_score: 10.194
 description: ""
 developer_score: 0.0
 id: coinsbit-token
@@ -22,8 +22,8 @@ links:
   - https://coinsbit.io/
   telegram_channel_identifier: coinsbit_chat
   twitter_screen_name: c0insbit
-liquidity_score: 16.479
-market_cap_rank: 1099
+liquidity_score: 16.114
+market_cap_rank: 1151
 name: Coinsbit Token
 public_interest_score: 0.097
 symbol: cnb
@@ -60,8 +60,23 @@ tickers:
   target: USDT
 - base: CNB
   market:
-    identifier: bkex
-    name: BKEX
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: BTC
+- base: CNB
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
+- base: CNB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: CNB
+  market:
+    identifier: hotbit
+    name: Hotbit
   target: USDT
 - base: CNB
   market:
@@ -88,8 +103,3 @@ tickers:
     identifier: simex
     name: Simex
   target: USD
-- base: CNB
-  market:
-    identifier: tidex
-    name: Tidex
-  target: BTC
