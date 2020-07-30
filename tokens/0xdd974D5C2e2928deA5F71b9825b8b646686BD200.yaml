@@ -1,8 +1,8 @@
 ---
 address: '0xdd974D5C2e2928deA5F71b9825b8b646686BD200'
-coingecko_rank: 28
-coingecko_score: 59.751
-community_score: 42.211
+coingecko_rank: 29
+coingecko_score: 58.997
+community_score: 45.841
 description: >-
   Kyber’s on-chain liquidity protocol allows decentralized token swaps to be integrated into any application,
   enabling value exchange to be performed seamlessly between all parties in the ecosystem. Tapping on
@@ -41,7 +41,7 @@ description: >-
   wrong with either the <a href="https://www.coingecko.com/buzz/trezor-model-t-wallet-review">Trezor</a>
   or <a href="https://www.coingecko.com/buzz/ledger-bitcoin-hardware-wallet-review">Ledger</a> wallet
   as both supports KNC.
-developer_score: 79.573
+developer_score: 83.539
 id: kyber-network
 image:
   large: https://assets.coingecko.com/coins/images/947/large/kyber-logo.png?1547034806
@@ -62,22 +62,47 @@ links:
   subreddit_url: https://www.reddit.com/r/kybernetwork/
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
-liquidity_score: 59.68
-market_cap_rank: 55
+liquidity_score: 61.846
+market_cap_rank: 43
 name: Kyber Network
-public_interest_score: 29.676
+public_interest_score: 13.615
 symbol: knc
 tickers:
+- base: 0XDD974D5C2E2928DEA5F71B9825B8B646686BD200
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: 0XDD974D5C2E2928DEA5F71B9825B8B646686BD200
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: KNC
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
+    identifier: biki
+    name: BiKi
+  target: ETH
 - base: KNC
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: biki
+    name: BiKi
+  target: USDT
+- base: KNC
+  market:
+    identifier: dex_blue
+    name: dex.blue
+  target: ETH
+- base: KNC
+  market:
+    identifier: dolomite
+    name: Dolomite
+  target: WETH
+- base: KNC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: KNC
   market:
     identifier: gate
@@ -85,11 +110,6 @@ tickers:
   target: ETH
 - base: KNC
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: KNC
-  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
@@ -100,9 +120,29 @@ tickers:
   target: USD
 - base: KNC
   market:
-    identifier: idex
-    name: Idex
+    identifier: livecoin
+    name: Livecoin
   target: ETH
+- base: KNC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USDT
+- base: KNC
+  market:
+    identifier: nice_hash
+    name: NiceHash
+  target: BTC
+- base: KNC
+  market:
+    identifier: oasis_trade
+    name: OasisDEX
+  target: ETH
+- base: KNC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
 - base: KNC
   market:
     identifier: okex_korea
@@ -118,13 +158,13 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: ETH
+- base: IMBTC
+  market:
+    identifier: tokenlon
+    name: Tokenlon
+  target: KNC
 - base: KNC
   market:
     identifier: tokenlon
     name: Tokenlon
   target: USDT
-- base: KNC
-  market:
-    identifier: zb
-    name: ZB
-  target: QC

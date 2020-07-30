@@ -1,8 +1,8 @@
 ---
 address: '0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7'
-coingecko_rank: 395
-coingecko_score: 31.872
-community_score: 7.823
+coingecko_rank: 294
+coingecko_score: 34.777
+community_score: 8.655
 description: >-
   Akropolis is building a domain-specific financial protocol dedicated to the needs of the informal economy.
   It is designed to:
@@ -17,7 +17,7 @@ description: >-
 
 
   - Reduce instances of fraud and misuse of funds
-developer_score: 43.606
+developer_score: 45.263
 id: akropolis
 image:
   large: https://assets.coingecko.com/coins/images/3328/large/Akropolis.png?1547037929
@@ -33,8 +33,8 @@ links:
   chat_url:
   - https://t.me/AkropolisAnnouncements
   homepage:
+  - http://sparta.akropolis.io/
   - https://akropolis.io
-  - https://www.cashflowrelay.com/
   repos_url:
     github:
     - https://github.com/akropolisio/akropolis-discovery
@@ -43,14 +43,24 @@ links:
     - https://github.com/akropolisio/akropolisOS
   telegram_channel_identifier: akropolis_official
   twitter_screen_name: akropolisio
-liquidity_score: 24.571
-market_cap_rank: 462
+liquidity_score: 42.769
+market_cap_rank: 264
 name: Akropolis
-public_interest_score: 27.125
+public_interest_score: 1.482
 symbol: akro
 tickers:
+- base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: AKRO
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
+    identifier: eterbase
+    name: Eterbase
+  target: ETH
+- base: AKRO
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

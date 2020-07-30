@@ -1,22 +1,13 @@
 ---
 address: '0x57Ab1ec28D129707052df4dF418D58a2D46d5f51'
-coingecko_rank: 150
-coingecko_score: 42.832
-community_score: 29.742
+coingecko_rank: 87
+coingecko_score: 49.225
+community_score: 34.186
 description: >-
-  Volatility is great for traders and exchanges, and volatility in cryptoassets has driven huge growth
-  for all trading platforms over the past year. This growth has created a need for scalable and stable
-  cryptoassets for both traders and exchanges to trade against. Existing solutions involve significant
-  centralization or have struggled to scale to meet demand. Havven solves both of these issues through
-  the creation of a decentralized payment network. A stablecoin that scales while avoiding the risks of
-  centralized off-chain assets will be a huge benefit for the entire trading ecosystem. It will provide
-  fast interexchange settlement, stable trading against ERC-20 assets, and a safe place to park value
-  without the need to settle into fiat. Havven has made significant progress in deploying our network
-  since the completion of the token sale (the largest in Australia at USD$30m) in February 2018. The network
-  is built on the Ethereum blockchain and it employs two tokens, both of which are ERC20 compatible. The
-  Havven network has been released as an open source protocol so that anyone can integrate with it, including
-  exchanges and decentralised platforms.
-developer_score: 61.35
+  Synth sUSD by Synthetix
+
+  Tracks the price of USD through price feeds supplied by an oracle.
+developer_score: 70.402
 id: nusd
 image:
   large: https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1562212426
@@ -35,33 +26,48 @@ links:
     - https://github.com/Synthetixio/synthetix
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 25.769
-market_cap_rank: 278
+liquidity_score: 48.936
+market_cap_rank: 161
 name: sUSD
-public_interest_score: 26.836
+public_interest_score: 15.06
 symbol: susd
 tickers:
+- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: SUSD
   market:
-    identifier: kucoin
-    name: KuCoin
-  target: BTC
-- base: SLTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SUSD
+  market:
+    identifier: mesa
+    name: ' Gnosis Protocol'
+  target: ETH
+- base: STRX
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SBNB
+- base: SEOS
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: ILTC
+- base: IDEFI
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: ILINK
+- base: ITRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SCEX
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -71,18 +77,13 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: STRX
+- base: SBCH
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SUSD
+- base: IBCH
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: DAI
-- base: SUSD
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: USDC
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

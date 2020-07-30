@@ -1,15 +1,15 @@
 ---
 address: '0xE2FB6529EF566a080e6d23dE0bd351311087D567'
-coingecko_rank: 657
-coingecko_score: 26.411
-community_score: 22.436
+coingecko_rank: 775
+coingecko_score: 23.292
+community_score: 24.707
 description: >-
   Covesting is a Blockchain based peer-to-peer asset management platform. Investors can easily browse
   through dozens of trading strategies, provided by professional crypto currency traders and subscribe
   to the ones matching their goals. Thanks to technology-based solutions and smart-contracts, Covesting
   platform allows its users to replicate trading activity of a chosen Model directly into their segregated
   account at Covesting.
-developer_score: 18.011
+developer_score: 18.542
 id: covesting
 image:
   large: https://assets.coingecko.com/coins/images/1950/large/covesting.png?1547036237
@@ -29,12 +29,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Covesting/
   telegram_channel_identifier: covesting
   twitter_screen_name: covesting
-liquidity_score: 10.121
-market_cap_rank: 392
+liquidity_score: 6.049
+market_cap_rank: 448
 name: Covesting
-public_interest_score: 25.839
+public_interest_score: 1.494
 symbol: cov
 tickers:
+- base: COV
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: COV
   market:
     identifier: hitbtc
@@ -50,18 +55,13 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: COV
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USDT
 - base: COVX
   market:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: COVX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: COVX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

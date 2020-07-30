@@ -1,13 +1,13 @@
 ---
 address: '0x408e41876cCCDC0F92210600ef50372656052a38'
-coingecko_rank: 151
-coingecko_score: 42.655
-community_score: 32.43
+coingecko_rank: 205
+coingecko_score: 39.789
+community_score: 34.221
 description: >-
   Ren is an open protocol that enables the permissionless and private transfer of value between any blockchain.
   Ren's core product, RenVM, is focused on bringing interoperability to decentralized finance (DeFi).
   Ren was founded in 2017 and is headquartered in Singapore.
-developer_score: 30.558
+developer_score: 30.91
 id: republic-protocol
 image:
   large: https://assets.coingecko.com/coins/images/3139/large/REN.png?1589985807
@@ -29,29 +29,44 @@ links:
   subreddit_url: https://www.reddit.com/r/republicprotocol/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 43.011
-market_cap_rank: 76
+liquidity_score: 49.173
+market_cap_rank: 69
 name: REN
-public_interest_score: 42.941
+public_interest_score: 6.136
 symbol: ren
 tickers:
+- base: 0X408E41876CCCDC0F92210600EF50372656052A38
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: 0X408E41876CCCDC0F92210600EF50372656052A38
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: REN
   market:
-    identifier: idex
-    name: Idex
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: REN
+  market:
+    identifier: bitcratic
+    name: Bitcratic
   target: ETH
 - base: REN
   market:
-    identifier: mxc
-    name: MXC
+    identifier: eterbase
+    name: Eterbase
+  target: ETH
+- base: REN
+  market:
+    identifier: idcm
+    name: IDCM
   target: USDT
 - base: REN
   market:
-    identifier: omgfin
-    name: Omgfin
-  target: UQC
-- base: REN
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: USDC
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

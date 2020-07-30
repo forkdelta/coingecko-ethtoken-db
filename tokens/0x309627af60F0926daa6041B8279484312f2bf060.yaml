@@ -1,7 +1,7 @@
 ---
 address: '0x309627af60F0926daa6041B8279484312f2bf060'
-coingecko_rank: 7316
-coingecko_score: 0.2
+coingecko_rank: 6468
+coingecko_score: 0.25
 community_score: 0.0
 description: >-
   USDB is a stabletoken backed by BNT (Bancor Network Token), and utilized in relays on the Bancor network.
@@ -23,27 +23,12 @@ links:
     - https://github.com/zachdoty/peg-usdb
   telegram_channel_identifier: pegnetwork
 liquidity_score: 1.0
-market_cap_rank: 4618
+market_cap_rank: null
 name: USD Bancor
-public_interest_score: 0.0
+public_interest_score: 0.993
 symbol: usdb
 tickers:
-- base: MET
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: USDB
-- base: BAT
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: USDB
-- base: ENJ
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: USDB
-- base: POWR
+- base: DAI
   market:
     identifier: bancor
     name: Bancor Network
@@ -53,3 +38,13 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: USDB
+- base: BAT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
+- base: USDB
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

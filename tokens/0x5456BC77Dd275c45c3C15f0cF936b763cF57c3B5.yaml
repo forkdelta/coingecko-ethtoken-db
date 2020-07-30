@@ -1,8 +1,8 @@
 ---
 address: '0x5456BC77Dd275c45c3C15f0cF936b763cF57c3B5'
-coingecko_rank: 5053
-coingecko_score: 4.149
-community_score: 7.485
+coingecko_rank: 4252
+coingecko_score: 3.17
+community_score: 7.876
 description: >-
   Anchor is a two-token, algorithmic stablecoin pegged to global economic growth.
 
@@ -40,9 +40,19 @@ links:
     - https://github.com/AnchorProject/anchor-tokens
   telegram_channel_identifier: theanchorprojectcommunity
   twitter_screen_name: theanchor_io
-liquidity_score: 11.387
-market_cap_rank: 2137
+liquidity_score: 7.057
+market_cap_rank: null
 name: Anchor
-public_interest_score: 0.0
+public_interest_score: 0.517
 symbol: anct
-tickers: []
+tickers:
+- base: BTC
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ANCT
+- base: ANCT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: USD

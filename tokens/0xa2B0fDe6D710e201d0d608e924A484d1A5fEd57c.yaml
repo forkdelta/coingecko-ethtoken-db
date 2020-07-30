@@ -1,8 +1,8 @@
 ---
 address: '0xa2B0fDe6D710e201d0d608e924A484d1A5fEd57c'
-coingecko_rank: 2587
-coingecko_score: 10.32
-community_score: 29.672
+coingecko_rank: 1323
+coingecko_score: 17.065
+community_score: 34.189
 description: >-
   Tracks the price of Ripple (XRP) through price feeds supplied by an oracle.
 developer_score: 0.0
@@ -23,8 +23,18 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 1.0
-market_cap_rank: 4359
+market_cap_rank: 1406
 name: sXRP
-public_interest_score: 27.024
+public_interest_score: 15.06
 symbol: sxrp
-tickers: []
+tickers:
+- base: SXRP
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: SXTZ
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SXRP

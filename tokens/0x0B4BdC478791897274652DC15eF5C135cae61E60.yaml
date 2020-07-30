@@ -1,8 +1,8 @@
 ---
 address: '0x0B4BdC478791897274652DC15eF5C135cae61E60'
-coingecko_rank: 690
-coingecko_score: 25.851
-community_score: 33.113
+coingecko_rank: 948
+coingecko_score: 20.966
+community_score: 36.783
 description: >-
   DAEX is a clearing solution for centralized cryptocurrency trading exchanges. Its clearing service is
   based on distributed ledger technology. Clearing and settlement rules are preprogrammed into clearing
@@ -29,9 +29,19 @@ links:
   subreddit_url: https://www.reddit.com/r/DAEX_Blockchain/
   telegram_channel_identifier: DAEXOfficial_en
   twitter_screen_name: daexblockchain
-liquidity_score: 21.118
-market_cap_rank: 604
+liquidity_score: 8.751
+market_cap_rank: 640
 name: DAEX
-public_interest_score: 25.79
+public_interest_score: 0.21
 symbol: dax
-tickers: []
+tickers:
+- base: DAX
+  market:
+    identifier: lbank
+    name: LBank
+  target: BTC
+- base: DAX
+  market:
+    identifier: lbank
+    name: LBank
+  target: ETH

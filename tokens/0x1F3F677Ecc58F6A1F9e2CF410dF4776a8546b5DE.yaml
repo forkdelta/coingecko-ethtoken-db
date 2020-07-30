@@ -1,8 +1,8 @@
 ---
 address: '0x1F3F677Ecc58F6A1F9e2CF410dF4776a8546b5DE'
-coingecko_rank: 2833
-coingecko_score: 9.149
-community_score: 7.257
+coingecko_rank: 3196
+coingecko_score: 5.658
+community_score: 0.0
 description: >-
   "VNDC is a stablecoin of Vietnam Dong on the blockchain smart contract system, pegged to VND by the
   rate of 1:1, so that the price of digital currency assets could be stabilised. It is supported by sufficient
@@ -51,29 +51,24 @@ links:
   subreddit_url: https://www.reddit.com
   telegram_channel_identifier: vndcvietnam
   twitter_screen_name: Vndcstable
-liquidity_score: 24.6
-market_cap_rank: 2843
+liquidity_score: 26.434
+market_cap_rank: null
 name: VNDC
-public_interest_score: 24.149
+public_interest_score: 7.425
 symbol: vndc
 tickers:
+- base: USDC
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: VNDC
+- base: ETH
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: VNDC
 - base: BTC
   market:
     identifier: exmarkets
     name: ExMarkets
   target: VNDC
-- base: DDK
-  market:
-    identifier: exmarkets
-    name: ExMarkets
-  target: VNDC
-- base: VNDC
-  market:
-    identifier: vindax
-    name: Vindax
-  target: ETH
-- base: VNDC
-  market:
-    identifier: vindax
-    name: Vindax
-  target: USDT

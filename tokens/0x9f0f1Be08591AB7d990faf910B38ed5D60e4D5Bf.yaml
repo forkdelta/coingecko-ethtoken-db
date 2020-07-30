@@ -1,8 +1,8 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1310
-coingecko_score: 18.935
-community_score: 10.619
+coingecko_rank: 1663
+coingecko_score: 14.124
+community_score: 12.088
 description: >-
   Use MainCoin for instant and private payments on the Internet and in the real world using secure open
   source software that runs on Ethereum, supported by hundreds of thousands of users around the world.
@@ -25,29 +25,14 @@ links:
     github:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
-liquidity_score: 8.077
-market_cap_rank: 435
+liquidity_score: 1.0
+market_cap_rank: 588
 name: MainCoin
-public_interest_score: 30.578
+public_interest_score: 0.362
 symbol: mnc
 tickers:
 - base: MNC
   market:
-    identifier: alterdice
-    name: AlterDice
-  target: BTC
-- base: MNC
-  market:
-    identifier: bitfex
-    name: Bitfex
-  target: ETH
-- base: MNC
-  market:
-    identifier: bitfex
-    name: Bitfex
-  target: RUR
-- base: MNC
-  market:
     identifier: btc_alpha
     name: BTC-Alpha
   target: BTC
@@ -55,27 +40,32 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
-  target: USDT
-- base: MNC
-  market:
-    identifier: exrates
-    name: Exrates
-  target: BTC
-- base: MNC
-  market:
-    identifier: exrates
-    name: Exrates
-  target: ETH
-- base: MNC
-  market:
-    identifier: exrates
-    name: Exrates
   target: USD
+- base: MNC
+  market:
+    identifier: exmo
+    name: EXMO
+  target: BTC
+- base: MNC
+  market:
+    identifier: exmo
+    name: EXMO
+  target: ETH
+- base: MNC
+  market:
+    identifier: exmo
+    name: EXMO
+  target: USD
+- base: MNC
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC
 - base: MNC
   market:
     identifier: latoken
     name: LATOKEN
-  target: ETH
+  target: BTC
 - base: MNC
   market:
     identifier: livecoin
@@ -96,16 +86,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USDT
-- base: MNC
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: MNC
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: ETH
 - base: MNC
   market:
     identifier: p2pb2b
@@ -113,9 +93,14 @@ tickers:
   target: USD
 - base: MNC
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: MNC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: MNC
   market:
     identifier: stocks_exchange

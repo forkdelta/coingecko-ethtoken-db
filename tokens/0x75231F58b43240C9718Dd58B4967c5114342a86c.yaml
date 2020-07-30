@@ -1,7 +1,7 @@
 ---
 address: '0x75231F58b43240C9718Dd58B4967c5114342a86c'
-coingecko_rank: 365
-coingecko_score: 32.526
+coingecko_rank: 48
+coingecko_score: 54.41
 community_score: 0.0
 description: >-
   <a href="https://www.coingecko.com/en/exchanges/okex">OKEx</a>, the 2nd most popular cryptocurrency
@@ -44,10 +44,10 @@ links:
   - https://www.okex.com/okb
   telegram_channel_identifier: okexofficial_en
   twitter_screen_name: okex_
-liquidity_score: 64.868
+liquidity_score: 63.786
 market_cap_rank: 15
 name: OKB
-public_interest_score: 32.579
+public_interest_score: 506.62
 symbol: okb
 tickers:
 - base: OKB
@@ -69,22 +69,7 @@ tickers:
   market:
     identifier: coinall
     name: CoinAll
-  target: BTC
-- base: OKB
-  market:
-    identifier: coinall
-    name: CoinAll
   target: ETH
-- base: OKB
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: USDT
-- base: OKB
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDK
 - base: OKB
   market:
     identifier: lbank
@@ -95,8 +80,13 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
-- base: OKB
+- base: SC
   market:
     identifier: okex
     name: OKEx
-  target: USDC
+  target: OKB
+- base: IOTA
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB

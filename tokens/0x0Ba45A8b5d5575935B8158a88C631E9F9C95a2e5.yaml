@@ -1,8 +1,8 @@
 ---
 address: '0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5'
-coingecko_rank: 583
-coingecko_score: 27.439
-community_score: 7.936
+coingecko_rank: 766
+coingecko_score: 23.395
+community_score: 8.689
 description: >-
   Smart contracts on Ethereum are fully self contained and any information or access to off-chain data
   is restricted.  Tellor solves this problem by creating a system where parties can request the value
@@ -35,12 +35,17 @@ links:
     - https://github.com/tellor-io/TellorCore
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
-liquidity_score: 52.65
-market_cap_rank: 287
+liquidity_score: 42.703
+market_cap_rank: 266
 name: Tellor
-public_interest_score: 27.63
+public_interest_score: 1.827
 symbol: trb
 tickers:
+- base: TRB
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: TRB
   market:
     identifier: dex_blue
@@ -50,7 +55,7 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
-  target: EBASE
+  target: ETH
 - base: TRB
   market:
     identifier: eterbase
@@ -60,14 +65,4 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
-  target: USDT
-- base: TRB
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: XBASE
-- base: TRB
-  market:
-    identifier: fatbtc
-    name: FatBTC
   target: USDT

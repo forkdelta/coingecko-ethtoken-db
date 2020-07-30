@@ -1,24 +1,20 @@
 ---
 address: '0x92A5B04D0ED5D94D7a193d1d334D3D16996f4E13'
-coingecko_rank: 2758
-coingecko_score: 9.499
-community_score: 7.797
+coingecko_rank: 2852
+coingecko_score: 7.155
+community_score: 8.213
 description: >-
-  Eristica is a P2P platform that provides a decentralized way for anyone to participate in challenges,contests
-  and online competitions.
-
-
-  Eristica is absolutely for all users who don't hesitate to show themselves and want to earn some extra
-  money via accepting or sending challenges.
-developer_score: 19.813
+  Mobile video platform with 1.5M users. Take a Challenge Become Famous
+developer_score: 20.523
 id: eristica
 image:
-  large: https://assets.coingecko.com/coins/images/6485/large/eristica.png?1548125235
-  small: https://assets.coingecko.com/coins/images/6485/small/eristica.png?1548125235
-  thumb: https://assets.coingecko.com/coins/images/6485/thumb/eristica.png?1548125235
+  large: https://assets.coingecko.com/coins/images/6485/large/6.jpg?1595305071
+  small: https://assets.coingecko.com/coins/images/6485/small/6.jpg?1595305071
+  thumb: https://assets.coingecko.com/coins/images/6485/thumb/6.jpg?1595305071
 links:
   announcement_url:
   - https://blog.eristica.com/
+  - https://www.linkedin.com/company/eristica/
   bitcointalk_thread_identifier: 2473472
   blockchain_site:
   - https://etherscan.io/token/0x92A5B04D0ED5D94D7a193d1d334D3D16996f4E13
@@ -36,11 +32,21 @@ links:
   telegram_channel_identifier: eristicaofficial
   twitter_screen_name: eristica
 liquidity_score: 1.0
-market_cap_rank: 4734
-name: Eristica
-public_interest_score: 23.964
+market_cap_rank: null
+name: Eristica token
+public_interest_score: 0.341
 symbol: ert
 tickers:
+- base: ERT
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: 0X92A5B04D0ED5D94D7A193D1D334D3D16996F4E13
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: ERT
   market:
     identifier: yobit
@@ -50,9 +56,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: ERT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
+  target: ETH

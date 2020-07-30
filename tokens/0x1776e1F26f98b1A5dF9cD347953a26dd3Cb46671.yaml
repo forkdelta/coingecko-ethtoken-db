@@ -1,16 +1,16 @@
 ---
 address: '0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671'
-coingecko_rank: 107
-coingecko_score: 46.122
-community_score: 30.65
+coingecko_rank: 163
+coingecko_score: 42.52
+community_score: 33.903
 description: >-
   A new kind of hedge fund built by a network of data scientists.
-developer_score: 62.037
+developer_score: 60.176
 id: numeraire
 image:
-  large: https://assets.coingecko.com/coins/images/752/large/Erasure_Mark_Final.png?1567402035
-  small: https://assets.coingecko.com/coins/images/752/small/Erasure_Mark_Final.png?1567402035
-  thumb: https://assets.coingecko.com/coins/images/752/thumb/Erasure_Mark_Final.png?1567402035
+  large: https://assets.coingecko.com/coins/images/752/large/numeraire.png?1592538976
+  small: https://assets.coingecko.com/coins/images/752/small/numeraire.png?1592538976
+  thumb: https://assets.coingecko.com/coins/images/752/thumb/numeraire.png?1592538976
 links:
   blockchain_site:
   - https://etherscan.io/token/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671
@@ -24,12 +24,17 @@ links:
     - https://github.com/numerai/numerapi-1
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
-liquidity_score: 30.821
-market_cap_rank: 57
+liquidity_score: 28.888
+market_cap_rank: 89
 name: Numeraire
-public_interest_score: 24.837
+public_interest_score: 0.517
 symbol: nmr
 tickers:
+- base: NMR
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: BTC
 - base: NMR
   market:
     identifier: bitcratic
@@ -42,23 +47,13 @@ tickers:
   target: ETH
 - base: NMR
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: DAI
-- base: NMR
-  market:
-    identifier: upbit
-    name: Upbit
+    identifier: poloniex
+    name: Poloniex
   target: BTC
 - base: NMR
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: BTC
-- base: NMR
-  market:
-    identifier: vcc
-    name: VCC Exchange
   target: BTC
 - base: NMR
   market:
@@ -70,6 +65,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: NMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: NMR
   market:
     identifier: yobit

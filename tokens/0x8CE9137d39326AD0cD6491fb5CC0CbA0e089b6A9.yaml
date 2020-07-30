@@ -1,8 +1,8 @@
 ---
 address: '0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9'
-coingecko_rank: 656
-coingecko_score: 26.412
-community_score: 10.386
+coingecko_rank: 464
+coingecko_score: 29.637
+community_score: 11.202
 description: >-
   The Swipe Wallet has been designed to require Swipe Tokens SXP to perform all functions and utility
   of the Wallet including to use the services and to make withdraws. Users on the Swipe Wallet can buy,
@@ -34,14 +34,24 @@ links:
     - https://github.com/SwipeWallet/Wallet-Contract
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
-liquidity_score: 36.029
-market_cap_rank: 135
+liquidity_score: 63.789
+market_cap_rank: 83
 name: Swipe
-public_interest_score: 33.021
+public_interest_score: 3.093
 symbol: sxp
 tickers:
 - base: SXP
   market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
+- base: SXP
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SXP
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
@@ -49,17 +59,12 @@ tickers:
   market:
     identifier: latoken
     name: LATOKEN
+  target: ETH
+- base: SXP
+  market:
+    identifier: latoken
+    name: LATOKEN
   target: USDT
-- base: SXP
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
-- base: SXP
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
 - base: SXP
   market:
     identifier: p2pb2b
@@ -67,21 +72,6 @@ tickers:
   target: ETH
 - base: SXP
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: USD
-- base: SXP
-  market:
-    identifier: p2pb2b
-    name: P2PB2B
+    identifier: wazirx
+    name: WazirX
   target: USDT
-- base: SXP
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH
-- base: SXP
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
