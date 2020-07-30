@@ -1,8 +1,8 @@
 ---
 address: '0x9B8D5f3402F74C7a61d9f09c32D3cA07b45c1466'
-coingecko_rank: 2093
-coingecko_score: 13.193
-community_score: 7.929
+coingecko_rank: 2164
+coingecko_score: 10.754
+community_score: 8.344
 description: >-
   Gimmer offers easy-to-use advanced algorithmic trading bots that require no programming skills, no previous
   trading experience and no in-depth knowledge of cryptocurrencies.
@@ -10,7 +10,7 @@ description: >-
 
   Gimmer is perfect for advanced, intermediate and novice traders and investors who want to make money
   on the cryptocurrency and do not have the time to watch the markets all day long.
-developer_score: 34.325
+developer_score: 34.676
 id: gimmer
 image:
   large: https://assets.coingecko.com/coins/images/6693/large/gimmer_token.jpg?1547042897
@@ -33,21 +33,26 @@ links:
   telegram_channel_identifier: https://t.me/gimmertoken
   twitter_screen_name: gimmerbot
 liquidity_score: 1.0
-market_cap_rank: 4050
+market_cap_rank: null
 name: Gimmer
-public_interest_score: 24.295
+public_interest_score: 0.993
 symbol: gmr
 tickers:
-- base: GMR
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH
 - base: GMR
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: GMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: GMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: GMR
   market:
     identifier: yobit
@@ -58,3 +63,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: GMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

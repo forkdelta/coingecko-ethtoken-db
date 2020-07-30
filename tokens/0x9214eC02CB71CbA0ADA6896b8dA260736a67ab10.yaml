@@ -1,15 +1,15 @@
 ---
 address: '0x9214eC02CB71CbA0ADA6896b8dA260736a67ab10'
-coingecko_rank: 693
-coingecko_score: 25.766
-community_score: 7.955
+coingecko_rank: 856
+coingecko_score: 22.156
+community_score: 8.372
 description: >-
   REAL (Real Estate Asset Ledger) is a new Ethereum Smart-Contracts governed ecosystem that applies Blockchain
   technologies to the enormous Real Estate investment industry. Key to our ecosystem is the innovation
   of REAL Tokens, a unique Blockchain-secured digital asset with inherent value as a secure cryptocurrency,
   which may be traded or used to participate in Crowdfunding by purchasing Real Estate Participations
   (RPP) on our platform.
-developer_score: 35.768
+developer_score: 36.625
 id: real
 image:
   large: https://assets.coingecko.com/coins/images/993/large/real.png?1548607834
@@ -28,8 +28,18 @@ links:
     - https://github.com/RealEstateAssetLedger/real_contract
   twitter_screen_name: real_token
 liquidity_score: 1.0
-market_cap_rank: 803
+market_cap_rank: 532
 name: Real Estate Asset Ledger
-public_interest_score: 42.373
+public_interest_score: 0.21
 symbol: real
-tickers: []
+tickers:
+- base: REAL
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: REAL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

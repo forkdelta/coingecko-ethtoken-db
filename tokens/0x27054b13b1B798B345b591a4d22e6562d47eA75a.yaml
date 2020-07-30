@@ -1,13 +1,13 @@
 ---
 address: '0x27054b13b1B798B345b591a4d22e6562d47eA75a'
-coingecko_rank: 186
-coingecko_score: 40.194
-community_score: 37.162
+coingecko_rank: 241
+coingecko_score: 37.433
+community_score: 40.005
 description: >-
   AirSwap is a decentralized token exchange based on the Swap protocol whitepaper. Swap provides a decentralized
   trading solution based on a peer-to-peer design. The design solves two problems encountered in a peer-to-peer
   trading environment: counterparty discovery and pricing suggestions.
-developer_score: 29.67
+developer_score: 30.64
 id: airswap
 image:
   large: https://assets.coingecko.com/coins/images/1019/large/AST.png?1547034939
@@ -25,17 +25,12 @@ links:
     - https://github.com/airswap/contracts
   subreddit_url: https://www.reddit.com/r/AirSwap
   twitter_screen_name: airswap
-liquidity_score: 43.25
-market_cap_rank: 259
+liquidity_score: 41.998
+market_cap_rank: 340
 name: AirSwap
-public_interest_score: 26.999
+public_interest_score: 4.523
 symbol: ast
 tickers:
-- base: AST
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: AST
   market:
     identifier: idex
@@ -43,10 +38,15 @@ tickers:
   target: ETH
 - base: AST
   market:
+    identifier: nice_hash
+    name: NiceHash
+  target: BTC
+- base: AST
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
-- base: AST
+- base: 0X27054B13B1B798B345B591A4D22E6562D47EA75A
   market:
     identifier: uniswap
     name: Uniswap (v2)

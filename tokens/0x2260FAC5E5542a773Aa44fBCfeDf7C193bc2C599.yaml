@@ -1,7 +1,7 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 2904
-coingecko_score: 8.833
+coingecko_rank: 2533
+coingecko_score: 8.818
 community_score: 0.0
 description: >-
   Wrapped Bitcoin Tokens (WBTC) is an ERC20 token fully backed by real BTC. The proof of reserves is on-chain,
@@ -24,57 +24,77 @@ links:
     github:
     - https://github.com/WrappedBTC/DAO
     - https://github.com/WrappedBTC/bitcoin-token-smart-contracts
-liquidity_score: 25.914
-market_cap_rank: 3453
+liquidity_score: 43.369
+market_cap_rank: null
 name: Wrapped Bitcoin
-public_interest_score: 36.498
+public_interest_score: 2.891
 symbol: wbtc
 tickers:
+- base: 0X2260FAC5E5542A773AA44FBCFEDF7C193BC2C599
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: 0X2260FAC5E5542A773AA44FBCFEDF7C193BC2C599
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: WBTC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: WBTC
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: WBT
   market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
-- base: WBT
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: WBTC
   market:
-    identifier: dex_blue
-    name: dex.blue
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: WBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: WBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: WBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SBTC
+- base: SBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: WBTC
+- base: WBTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: USDT
+- base: WBTC
+  market:
+    identifier: dolomite
+    name: Dolomite
   target: DAI
-- base: ETH
+- base: WETH
   market:
-    identifier: dex_blue
-    name: dex.blue
+    identifier: dolomite
+    name: Dolomite
   target: WBTC
-- base: EFS
+- base: WBTC
   market:
-    identifier: exnce
-    name: EXNCE
-  target: WBTC
-- base: GHOST
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: WBTC
-- base: ESH
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: WBTC
+    identifier: mesa
+    name: ' Gnosis Protocol'
+  target: ETH
 - base: WBTC
   market:
     identifier: radar_relay
@@ -99,17 +119,12 @@ tickers:
   market:
     identifier: tokenlon
     name: Tokenlon
-  target: DAI
-- base: WBTC
-  market:
-    identifier: tokenlon
-    name: Tokenlon
   target: ETH
 - base: WBTC
   market:
     identifier: tokenlon
     name: Tokenlon
-  target: TUSD
+  target: USDC
 - base: WBTC
   market:
     identifier: tokenlon
@@ -120,8 +135,3 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: WBTC
-- base: WBTC
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: USDC

@@ -1,8 +1,8 @@
 ---
 address: '0x1c48f86ae57291F7686349F12601910BD8D470bb'
-coingecko_rank: 423
-coingecko_score: 31.083
-community_score: 6.562
+coingecko_rank: 533
+coingecko_score: 27.705
+community_score: 7.227
 description: ""
 developer_score: 0.0
 id: usdk
@@ -19,28 +19,23 @@ links:
     github:
     - https://github.com/oklink/demo-net
   twitter_screen_name: OKLink
-liquidity_score: 66.235
-market_cap_rank: 159
+liquidity_score: 59.457
+market_cap_rank: 206
 name: USDK
-public_interest_score: 30.664
+public_interest_score: 22.57
 symbol: usdk
 tickers:
-- base: USK
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: UST
-- base: USDT
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: USDK
 - base: ETH
   market:
     identifier: coinall
     name: CoinAll
   target: USDK
 - base: USDT
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: USDK
+- base: BTC
   market:
     identifier: floatsv
     name: Float SV
@@ -50,27 +45,7 @@ tickers:
     identifier: floatsv
     name: Float SV
   target: USDK
-- base: OKB
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDK
 - base: WXT
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: FTM
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: DOGE
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: ORBS
   market:
     identifier: okex
     name: OKEx
@@ -80,12 +55,12 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: FSN
+- base: DEP
   market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: PLG
+- base: FSN
   market:
     identifier: okex
     name: OKEx
@@ -95,12 +70,37 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: EM
+- base: ORBS
   market:
     identifier: okex
     name: OKEx
   target: USDK
 - base: LEO
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: PMA
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: EM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: HDAO
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: FTM
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: PLG
   market:
     identifier: okex
     name: OKEx

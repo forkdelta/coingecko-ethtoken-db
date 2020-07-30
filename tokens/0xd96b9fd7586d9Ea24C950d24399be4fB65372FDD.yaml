@@ -1,8 +1,8 @@
 ---
 address: '0xd96b9fd7586d9Ea24C950d24399be4fB65372FDD'
-coingecko_rank: 4012
-coingecko_score: 5.763
-community_score: 7.324
+coingecko_rank: 5005
+coingecko_score: 1.898
+community_score: 7.692
 description: >-
   Bitcoin Silver (BTCS) - Tokenized Bitcoin on the Ethereum blockchain with direct FIAT to BTCS Conversion
   and Direct BTCS to Cryptocurrency in 193 countries.
@@ -20,11 +20,16 @@ links:
   - https://bitcoinsilver.io/
   twitter_screen_name: BitcoinSilver1
 liquidity_score: 1.0
-market_cap_rank: 6106
+market_cap_rank: null
 name: Bitcoin Silver
-public_interest_score: 37.324
+public_interest_score: 0.106
 symbol: btcs
 tickers:
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: BTCS
   market:
     identifier: yobit
@@ -34,7 +39,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: BTCS
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0x4CF488387F035FF08c371515562CBa712f9015d4'
-coingecko_rank: 317
-coingecko_score: 33.634
-community_score: 10.066
+coingecko_rank: 360
+coingecko_score: 32.763
+community_score: 10.595
 description: >-
   WePower enables renewable energy producers to raise capital by issuing their own energy tokens. These
   tokens represent energy they commit to produce and deliver. Energy tokenization standardizes simplifies
@@ -11,7 +11,7 @@ description: >-
   upfront, at below market rates. Energy tokenization ensures liquidity and extends access to capital.
   The WePower blockchain solution is currently recognized by Elering, one of the most innovative Transmission
   System Operators in Europe.
-developer_score: 49.952
+developer_score: 50.693
 id: wepower
 image:
   large: https://assets.coingecko.com/coins/images/1951/large/wpr.png?1547036237
@@ -29,12 +29,17 @@ links:
     - https://github.com/WePowerNetwork/wepower-contracts
   telegram_channel_identifier: WePowerNetwork
   twitter_screen_name: WePowerN
-liquidity_score: 20.58
-market_cap_rank: 372
+liquidity_score: 29.193
+market_cap_rank: 437
 name: WePower
-public_interest_score: 27.125
+public_interest_score: 0.993
 symbol: wpr
 tickers:
+- base: WPR
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: WPR
   market:
     identifier: bitfinex
@@ -42,11 +47,6 @@ tickers:
   target: USD
 - base: WPR
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: WPR
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
+    identifier: idex
+    name: Idex
   target: ETH

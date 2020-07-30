@@ -1,8 +1,8 @@
 ---
 address: '0xF02DAB52205aFf6Bb3d47Cc7B21624a5064F9FBA'
-coingecko_rank: 6605
-coingecko_score: 2.281
-community_score: 9.124
+coingecko_rank: 4580
+coingecko_score: 2.366
+community_score: 9.564
 description: >-
   Our token is linked 1 to 1 to the current gold price, so our Token is a cryptocurrency gold stablecoin.
 
@@ -46,9 +46,19 @@ links:
     - https://github.com/pyrrhos-gold
   telegram_channel_identifier: pyrrhosgold
   twitter_screen_name: pyrrhosgold
-liquidity_score: 0.0
-market_cap_rank: 2159
+liquidity_score: 1.0
+market_cap_rank: null
 name: Pyrrhos Gold Token
-public_interest_score: 0.004
+public_interest_score: 1.247
 symbol: pgold
-tickers: []
+tickers:
+- base: PGOLD
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH
+- base: PGOLD
+  market:
+    identifier: vindax
+    name: Vindax
+  target: USDT

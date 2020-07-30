@@ -1,8 +1,8 @@
 ---
 address: '0x960b236A07cf122663c4303350609A66A7B288C0'
-coingecko_rank: 112
-coingecko_score: 45.774
-community_score: 33.416
+coingecko_rank: 91
+coingecko_score: 48.877
+community_score: 36.705
 description: >-
   Aragon is a decentralized app (dApp) on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain that allows anyone to create and manage a decentralized organization. The Aragon project
@@ -52,7 +52,7 @@ description: >-
   has come to represent a powerful share of the governance on the platform. ANT holders can vote on proposals,
   participate in arbitration and the decentralized court system, and help contribute to the non-profit
   Aragon Foundation or to research and development through the Aragon Nest program.
-developer_score: 66.429
+developer_score: 78.973
 id: aragon
 image:
   large: https://assets.coingecko.com/coins/images/681/large/aragon-logo.png?1547034433
@@ -70,12 +70,17 @@ links:
     - https://github.com/aragon/aragon-core
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
-liquidity_score: 20.667
-market_cap_rank: 120
+liquidity_score: 35.119
+market_cap_rank: 111
 name: Aragon
-public_interest_score: 32.279
+public_interest_score: 1.421
 symbol: ant
 tickers:
+- base: ANT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ANT
   market:
     identifier: bitcratic
@@ -83,29 +88,24 @@ tickers:
   target: ETH
 - base: ANT
   market:
-    identifier: bitfinex
-    name: Bitfinex
+    identifier: dolomite
+    name: Dolomite
+  target: WETH
+- base: ANT
+  market:
+    identifier: eterbase
+    name: Eterbase
   target: ETH
 - base: ANT
   market:
-    identifier: coinsbit
-    name: Coinsbit
+    identifier: eterbase
+    name: Eterbase
+  target: USDT
+- base: ANT
+  market:
+    identifier: gopax
+    name: GoPax
   target: BTC
-- base: ANT
-  market:
-    identifier: coinsbit
-    name: Coinsbit
-  target: USDT
-- base: ANT
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
-- base: ANT
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
 - base: ANT
   market:
     identifier: gopax
@@ -123,14 +123,29 @@ tickers:
   target: ETH
 - base: ANT
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: ANT
+  market:
+    identifier: nash
+    name: Nash
+  target: BTC
+- base: ANT
+  market:
+    identifier: nice_hash
+    name: NiceHash
+  target: BTC
+- base: ANT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: WETH
+- base: ANT
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: ANT
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: USDC
 - base: ANT
   market:
     identifier: upbit
@@ -141,13 +156,3 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
-- base: ANT
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
-- base: ANT
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: ETH

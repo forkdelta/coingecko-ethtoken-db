@@ -1,8 +1,8 @@
 ---
 address: '0xD8912C10681D8B21Fd3742244f44658dBA12264E'
-coingecko_rank: 1497
-coingecko_score: 17.289
-community_score: 12.217
+coingecko_rank: 1075
+coingecko_score: 19.57
+community_score: 15.245
 description: >-
   Plutons are digital tokens issued to users on the Ethereum blockchain, these are native to the Plutus
   app. To provide an analogy, these tokens are similar to cash back or frequent flier miles. As a user,
@@ -26,17 +26,22 @@ links:
   - https://plutus.it/
   subreddit_url: https://www.reddit.com/r/Plutonstrader
   twitter_screen_name: PlutusIT
-liquidity_score: 1.0
-market_cap_rank: 558
+liquidity_score: 19.265
+market_cap_rank: 356
 name: Pluton
-public_interest_score: 29.743
+public_interest_score: 1.404
 symbol: plu
 tickers:
 - base: PLU
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: PLU
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: PLU
   market:
     identifier: hitbtc
@@ -44,9 +49,9 @@ tickers:
   target: ETH
 - base: PLU
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: PLU
   market:
     identifier: yobit
@@ -56,7 +61,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: PLU
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: PLU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: PLU
   market:
     identifier: yobit
