@@ -1,8 +1,8 @@
 ---
 address: '0xfAE4Ee59CDd86e3Be9e8b90b53AA866327D7c090'
-coingecko_rank: 1114
-coingecko_score: 19.153
-community_score: 9.361
+coingecko_rank: 1084
+coingecko_score: 18.923
+community_score: 10.104
 description: >-
   CPChain is a new distributed infrastructure for next generation Internet of Things (IoT). CPChain intends
   to build a fundamental data platform for IoT system in combination with distributed storage, encryption
@@ -10,7 +10,7 @@ description: >-
   storage, sharing to application. CPChain is a promising solution to a series of challenges of current
   “chimney architecture” of IoT systems, reducing connectivity cost of devices, protecting data privacy
   and maximizing the value of IoT data.
-developer_score: 13.079
+developer_score: 13.002
 id: cpchain
 image:
   large: https://assets.coingecko.com/coins/images/2760/large/cpchain.png?1547036953
@@ -27,16 +27,26 @@ links:
     - https://github.com/CPChain/cpchain
   telegram_channel_identifier: cpchain
   twitter_screen_name: cpchain_io
-liquidity_score: 15.392
-market_cap_rank: 782
+liquidity_score: 13.333
+market_cap_rank: 874
 name: CPChain
-public_interest_score: 0.503
+public_interest_score: 0.001
 symbol: cpc
 tickers:
 - base: CPC
   market:
-    identifier: idex
-    name: Idex
+    identifier: bibox
+    name: Bibox
+  target: ETH
+- base: CPC
+  market:
+    identifier: bibox
+    name: Bibox
+  target: USDT
+- base: CPC
+  market:
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
 - base: CPC
   market:
@@ -48,8 +58,3 @@ tickers:
     identifier: latoken
     name: LATOKEN
   target: ETH
-- base: CPC
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: USDT

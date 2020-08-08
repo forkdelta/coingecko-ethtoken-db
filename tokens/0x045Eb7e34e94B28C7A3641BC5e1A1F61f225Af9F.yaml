@@ -1,8 +1,8 @@
 ---
 address: '0x045Eb7e34e94B28C7A3641BC5e1A1F61f225Af9F'
-coingecko_rank: 2782
-coingecko_score: 7.45
-community_score: 10.166
+coingecko_rank: 2474
+coingecko_score: 7.082
+community_score: 11.232
 description: >-
   We are building an entire decentralized ecosystem specifically for GCC countries and driving the momentum
   to establish a censor-ship resistant cryptocurrency across the Gulf. Focusing upon changing the way
@@ -23,9 +23,19 @@ links:
   - https://www.zelaapay.ae/
   telegram_channel_identifier: ZPaeArabia
   twitter_screen_name: zelaapay
-liquidity_score: 25.853
+liquidity_score: 23.056
 market_cap_rank: null
 name: ZelaaPayAE
-public_interest_score: 0.865
+public_interest_score: 0.002
 symbol: zpae
-tickers: []
+tickers:
+- base: ZPAE
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: 0X045EB7E34E94B28C7A3641BC5E1A1F61F225AF9F
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0xbE9375C6a420D2eEB258962efB95551A5b722803'
-coingecko_rank: 564
-coingecko_score: 26.958
-community_score: 24.367
+coingecko_rank: 521
+coingecko_score: 26.863
+community_score: 25.473
 description: >-
   STORM is an ERC20-compliant token which operates on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain. CEO, and co-founder, Simon Yu, evolved this digital currency from an app called BitMaker,
@@ -57,10 +57,10 @@ links:
   subreddit_url: https://www.reddit.com/r/stormxio
   telegram_channel_identifier: stormxio
   twitter_screen_name: stormxio
-liquidity_score: 41.857
-market_cap_rank: 189
+liquidity_score: 41.443
+market_cap_rank: 237
 name: StormX
-public_interest_score: 4.414
+public_interest_score: 0.009
 symbol: stmx
 tickers:
 - base: STMX
@@ -68,10 +68,20 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: ETH
+- base: 0XBE9375C6A420D2EEB258962EFB95551A5B722803
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: STMX
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: STMX
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
   target: BTC
 - base: STMX
   market:
@@ -92,4 +102,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: ETH
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR

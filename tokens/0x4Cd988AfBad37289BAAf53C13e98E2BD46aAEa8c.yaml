@@ -1,7 +1,7 @@
 ---
 address: '0x4Cd988AfBad37289BAAf53C13e98E2BD46aAEa8c'
-coingecko_rank: 1702
-coingecko_score: 13.846
+coingecko_rank: 1621
+coingecko_score: 13.518
 community_score: 0.0
 description: >-
   Bihu consists of two main components: an identity system and a community for crypto investors. Bihu
@@ -17,7 +17,7 @@ description: >-
   tipping between users. Since a single Bihu ID lives on multiple blockchains, it is desired that users
   will be able to pay KEY for generic network fees (AKA gas). KEY also acts as the generic payment method
   in the Bihu ID system, for instance, to recover lost IDs.
-developer_score: 34.664
+developer_score: 34.241
 id: key
 image:
   large: https://assets.coingecko.com/coins/images/4182/large/bihu-key-token.png?1547039459
@@ -33,14 +33,19 @@ links:
   repos_url:
     github:
     - https://github.com/bihu-id/bihu-contracts
-liquidity_score: 25.649
+liquidity_score: 24.791
 market_cap_rank: null
 name: Key
-public_interest_score: 0.993
+public_interest_score: 0.0
 symbol: key
 tickers:
 - base: 0X4CD988AFBAD37289BAAF53C13E98E2BD46AAEA8C
   market:
     identifier: uniswap
     name: Uniswap (v2)
+  target: ETH
+- base: KEY
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

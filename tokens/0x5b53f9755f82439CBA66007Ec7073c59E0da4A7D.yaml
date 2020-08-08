@@ -1,8 +1,8 @@
 ---
 address: '0x5b53f9755f82439CBA66007Ec7073c59E0da4A7D'
-coingecko_rank: 3208
-coingecko_score: 5.618
-community_score: 5.339
+coingecko_rank: 2703
+coingecko_score: 5.838
+community_score: 5.76
 description: >-
   Flowchain aims to implement the IoT blockchain technology and already proposed the virtual blocks technology
   that can ensure data stream transactions in a near real-time manner. Jollen, the creator of Flowchain,
@@ -27,9 +27,19 @@ links:
     github:
     - https://github.com/flowchain/flowchain-app
   twitter_screen_name: jollen
-liquidity_score: 22.181
+liquidity_score: 22.854
 market_cap_rank: null
 name: FlowChainCoin
-public_interest_score: 0.156
+public_interest_score: 0.0
 symbol: flc
-tickers: []
+tickers:
+- base: FLC
+  market:
+    identifier: bitmart
+    name: BitMart
+  target: BTC
+- base: FLC
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: ETH

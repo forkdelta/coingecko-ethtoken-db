@@ -1,8 +1,8 @@
 ---
 address: '0x4Ba6dDd7b89ed838FEd25d208D4f644106E34279'
-coingecko_rank: 5685
-coingecko_score: 1.318
-community_score: 5.011
+coingecko_rank: 4513
+coingecko_score: 1.394
+community_score: 5.428
 description: >-
   A strictly-scarce Ethereum-based asset.
 
@@ -34,6 +34,16 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: Vether
-public_interest_score: 0.301
+public_interest_score: 0.001
 symbol: veth
-tickers: []
+tickers:
+- base: VETH
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: ETH
+- base: 0X4BA6DDD7B89ED838FED25D208D4F644106E34279
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

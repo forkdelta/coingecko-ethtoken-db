@@ -1,8 +1,8 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 1787
-coingecko_score: 13.274
-community_score: 12.238
+coingecko_rank: 2147
+coingecko_score: 9.259
+community_score: 13.217
 description: >-
   Official Token of Yobit.Net Exchange
 developer_score: 0.0
@@ -18,10 +18,10 @@ links:
   homepage:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
-liquidity_score: 32.03
+liquidity_score: 31.722
 market_cap_rank: null
 name: Yobit Token
-public_interest_score: 83.501
+public_interest_score: 0.144
 symbol: yo
 tickers:
 - base: YO
@@ -36,6 +36,11 @@ tickers:
   target: BTC
 - base: YO
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: YO
+  market:
     identifier: unnamed
     name: Unnamed
   target: DOGE
@@ -44,32 +49,17 @@ tickers:
     identifier: unnamed
     name: Unnamed
   target: UTIP
-- base: TRX
+- base: YO
   market:
     identifier: yobit
     name: YoBit
-  target: YO
+  target: USD
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
 - base: ETC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: DOGE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: LTC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: BCHSV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ZEC
   market:
     identifier: yobit
     name: YoBit
@@ -79,17 +69,27 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: VERA
+- base: LTC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: CNG
+- base: ZEC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHABC
+- base: DOGE
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: DASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: TRX
   market:
     identifier: yobit
     name: YoBit
@@ -99,7 +99,27 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: DASH
+- base: VERA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: XEM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EOS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: HEX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BCHABC
   market:
     identifier: yobit
     name: YoBit

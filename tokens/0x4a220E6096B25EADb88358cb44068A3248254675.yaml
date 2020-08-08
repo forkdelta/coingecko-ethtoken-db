@@ -1,8 +1,8 @@
 ---
 address: '0x4a220E6096B25EADb88358cb44068A3248254675'
-coingecko_rank: 350
-coingecko_score: 33.013
-community_score: 34.824
+coingecko_rank: 310
+coingecko_score: 32.468
+community_score: 35.336
 description: >-
   London-based Quant Network is set to revolutionise blockchain technology with the development of their
   blockchain operating system Overledger. The experienced team are determined to fulfil the original vision
@@ -16,7 +16,7 @@ description: >-
   world's networks to blockchains and ensures you're not limited to any single a vendor or technology.
   Overledger is the only platform that facilitates the development of internet-scales development of decentralised,
   multi-chain applications.
-developer_score: 14.25
+developer_score: 14.092
 id: quant-network
 image:
   large: https://assets.coingecko.com/coins/images/3370/large/QNT.jpg?1547038004
@@ -41,12 +41,17 @@ links:
   subreddit_url: https://www.reddit.com/r/QuantNetwork/
   telegram_channel_identifier: quantnetworkannouncements
   twitter_screen_name: quant_network
-liquidity_score: 37.928
-market_cap_rank: 85
+liquidity_score: 35.593
+market_cap_rank: 101
 name: Quant
-public_interest_score: 1.657
+public_interest_score: 0.003
 symbol: qnt
 tickers:
+- base: QNT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: QNT
   market:
     identifier: bitcratic
@@ -59,11 +64,31 @@ tickers:
   target: ETH
 - base: QNT
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
+- base: 0X4A220E6096B25EADB88358CB44068A3248254675
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: QNT
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: QNT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
+- base: QNT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: QNT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

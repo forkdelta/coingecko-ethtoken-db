@@ -1,13 +1,13 @@
 ---
 address: '0x57Ab1ec28D129707052df4dF418D58a2D46d5f51'
-coingecko_rank: 87
-coingecko_score: 49.225
-community_score: 34.186
+coingecko_rank: 74
+coingecko_score: 48.549
+community_score: 35.295
 description: >-
   Synth sUSD by Synthetix
 
   Tracks the price of USD through price feeds supplied by an oracle.
-developer_score: 70.402
+developer_score: 74.618
 id: nusd
 image:
   large: https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1562212426
@@ -26,10 +26,10 @@ links:
     - https://github.com/Synthetixio/synthetix
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 48.936
-market_cap_rank: 161
+liquidity_score: 42.727
+market_cap_rank: 152
 name: sUSD
-public_interest_score: 15.06
+public_interest_score: 0.039
 symbol: susd
 tickers:
 - base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
@@ -37,47 +37,27 @@ tickers:
     identifier: balancer
     name: Balancer
   target: DAI
+- base: USDT
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
+- base: DAI
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
 - base: SUSD
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: SUSD
-  market:
-    identifier: mesa
-    name: ' Gnosis Protocol'
+    identifier: kucoin
+    name: KuCoin
   target: ETH
+- base: SXAU
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: STRX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SEOS
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: IDEFI
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: ITRX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SCEX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: IXTZ
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SBCH
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -87,3 +67,48 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: SEOS
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SADA
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IXRP
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SETC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IXTZ
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IDEFI
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SXMR
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SCEX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SUSD
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

@@ -1,12 +1,12 @@
 ---
 address: '0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098'
-coingecko_rank: 1620
-coingecko_score: 14.483
-community_score: 10.124
+coingecko_rank: 1500
+coingecko_score: 14.628
+community_score: 11.012
 description: >-
   Today’s crypto-markets are driven by crowd sentiment. Hype and fear dominate the price action. Santiment
   delivers clarity, with market sentiment content and datafeeds that can’t be found anywhere else.
-developer_score: 47.885
+developer_score: 47.437
 id: santiment-network-token
 image:
   large: https://assets.coingecko.com/coins/images/797/large/santiment-network-token.png?1547034571
@@ -23,32 +23,42 @@ links:
     github:
     - https://github.com/santiment/SantimentMobile
   twitter_screen_name: santimentfeed
-liquidity_score: 0.389
+liquidity_score: 1.727
 market_cap_rank: null
 name: Santiment Network Token
-public_interest_score: 4.129
+public_interest_score: 0.007
 symbol: san
 tickers:
 - base: SAN
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: BTC
-- base: SAN
-  market:
-    identifier: bitfinex
-    name: Bitfinex
   target: ETH
 - base: SAN
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: 0X7C5A0CE9267ED19B22F8CAE653F198E3E8DAF098
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: SAN
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
 - base: SAN
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: SAN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: SAN
   market:
     identifier: yobit
@@ -64,3 +74,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: SAN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

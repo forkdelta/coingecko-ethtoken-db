@@ -1,8 +1,8 @@
 ---
 address: '0x9a794Dc1939F1d78fa48613b89B8f9d0A20dA00E'
-coingecko_rank: 1638
-coingecko_score: 14.281
-community_score: 7.544
+coingecko_rank: 1578
+coingecko_score: 13.883
+community_score: 8.147
 description: >-
   Trade any crypto asset at best rates by cross-exchange arbitrage chains in a single-window interface.
 developer_score: 0.0
@@ -21,9 +21,19 @@ links:
   - https://www.arbidex.uk.com/
   telegram_channel_identifier: arbidex
   twitter_screen_name: arbidextoken
-liquidity_score: 12.281
-market_cap_rank: 967
+liquidity_score: 9.789
+market_cap_rank: 990
 name: Arbidex
-public_interest_score: 0.683
+public_interest_score: 0.0
 symbol: abx
-tickers: []
+tickers:
+- base: ABX
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: 0X9A794DC1939F1D78FA48613B89B8F9D0A20DA00E
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

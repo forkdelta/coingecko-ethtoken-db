@@ -1,13 +1,13 @@
 ---
 address: '0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e'
-coingecko_rank: 484
-coingecko_score: 29.137
-community_score: 24.577
+coingecko_rank: 455
+coingecko_score: 28.458
+community_score: 24.549
 description: >-
   Bloom is an end-to-end protocol for identity attestation, risk assessment and credit scoring, entirely
   on the blockchain. Bloom allows both traditional and digital currency lenders to serve billions of people
   who currently cannot obtain a bank account or credit score.
-developer_score: 47.079
+developer_score: 46.301
 id: bloom
 image:
   large: https://assets.coingecko.com/coins/images/2662/large/bloom.png?1547036854
@@ -26,10 +26,10 @@ links:
     - https://github.com/hellobloom/core
   subreddit_url: https://www.reddit.com/r/BloomToken/
   twitter_screen_name: bloomtoken
-liquidity_score: 3.387
-market_cap_rank: 627
+liquidity_score: 1.0
+market_cap_rank: 615
 name: Bloom
-public_interest_score: 1.987
+public_interest_score: 0.004
 symbol: blt
 tickers:
 - base: 0X107C4504CD79C5D2696EA0030A8DD4E92601B82E
@@ -42,3 +42,23 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: 0X107C4504CD79C5D2696EA0030A8DD4E92601B82E
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: BLT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
+- base: BLT
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: BLT
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

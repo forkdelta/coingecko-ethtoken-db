@@ -1,8 +1,8 @@
 ---
 address: '0x4aF328C52921706dCB739F25786210499169AFe6'
-coingecko_rank: 4875
-coingecko_score: 2.001
-community_score: 6.793
+coingecko_rank: 3460
+coingecko_score: 2.783
+community_score: 7.371
 description: >-
   This is a cryptocurrency given to customers over Internet SNS sites and event attendees in the real
   world as a present.
@@ -22,14 +22,29 @@ links:
   homepage:
   - https://www.skb-coin.jp/en/
   twitter_screen_name: skb_pay
-liquidity_score: 2.446
+liquidity_score: 5.809
 market_cap_rank: null
 name: Sakura Bloom
-public_interest_score: 0.35
+public_interest_score: 0.001
 symbol: skb
 tickers:
+- base: SKB
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: BTC
 - base: SKB
   market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: SKB
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
+- base: 0X4AF328C52921706DCB739F25786210499169AFE6
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 43
-coingecko_score: 54.764
-community_score: 43.219
+coingecko_rank: 31
+coingecko_score: 54.737
+community_score: 44.579
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -59,7 +59,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/loopring-lrc/">CoinBureau</a> for the full review
   of Loopring.
-developer_score: 81.219
+developer_score: 79.845
 id: loopring
 image:
   large: https://assets.coingecko.com/coins/images/913/large/LRC.png?1572852344
@@ -83,10 +83,10 @@ links:
   subreddit_url: https://www.reddit.com/r/loopringorg/
   telegram_channel_identifier: loopring_en
   twitter_screen_name: loopringorg
-liquidity_score: 52.253
-market_cap_rank: 77
+liquidity_score: 52.545
+market_cap_rank: 71
 name: Loopring
-public_interest_score: 3.162
+public_interest_score: 0.008
 symbol: lrc
 tickers:
 - base: 0XBBBBCA6A901C926F240B89EACB641D8AEC7AEAFD
@@ -94,16 +94,16 @@ tickers:
     identifier: balancer
     name: Balancer
   target: DAI
+- base: 0XBBBBCA6A901C926F240B89EACB641D8AEC7AEAFD
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: LRC
   market:
     identifier: bitbns
     name: BitBNS
   target: INR
-- base: LRC
-  market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
 - base: LRC
   market:
     identifier: bitfinex
@@ -118,32 +118,37 @@ tickers:
   market:
     identifier: dolomite
     name: Dolomite
-  target: DAI
+  target: WETH
 - base: LRC
   market:
-    identifier: dolomite
-    name: Dolomite
-  target: WETH
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
+- base: LRC
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
 - base: LRC
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: LRC
+- base: 75DF52AE-008E-47FB-8F1F-8C0D2FDAEAB0
   market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: lykke
+    name: Lykke
   target: BTC
 - base: LRC
   market:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
-- base: LRC
+- base: 0XBBBBCA6A901C926F240B89EACB641D8AEC7AEAFD
   market:
-    identifier: poloniex
-    name: Poloniex
-  target: BTC
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: LRC
   market:
     identifier: upbit
@@ -156,14 +161,24 @@ tickers:
   target: BTC
 - base: LRC
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
+    identifier: vitex
+    name: ViteX
+  target: USDT
 - base: LRC
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: LRC
   market:
     identifier: yobit
@@ -179,3 +194,18 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
+- base: LRC
+  market:
+    identifier: zebitex
+    name: Zebitex
+  target: BTC
+- base: LRC
+  market:
+    identifier: zebitex
+    name: Zebitex
+  target: ETH
+- base: LRC
+  market:
+    identifier: zebitex
+    name: Zebitex
+  target: USDT

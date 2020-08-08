@@ -1,8 +1,8 @@
 ---
 address: '0xB26631c6dda06aD89B93C71400D25692de89c068'
-coingecko_rank: 2975
-coingecko_score: 6.602
-community_score: 9.675
+coingecko_rank: 3536
+coingecko_score: 2.506
+community_score: 10.448
 description: ""
 developer_score: 0.0
 id: minds
@@ -24,11 +24,21 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: Minds
-public_interest_score: 85.466
+public_interest_score: 0.144
 symbol: minds
 tickers:
+- base: MINDS
+  market:
+    identifier: mercuriex
+    name: MercuriEx
+  target: TUSD
 - base: 0XB26631C6DDA06AD89B93C71400D25692DE89C068
   market:
     identifier: uniswap
     name: Uniswap (v2)
+  target: ETH
+- base: MINDS
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

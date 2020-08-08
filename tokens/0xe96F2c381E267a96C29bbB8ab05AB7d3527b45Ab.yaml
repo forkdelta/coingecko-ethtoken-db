@@ -1,8 +1,8 @@
 ---
 address: '0xe96F2c381E267a96C29bbB8ab05AB7d3527b45Ab'
-coingecko_rank: 4360
-coingecko_score: 2.98
-community_score: 9.772
+coingecko_rank: 3530
+coingecko_score: 2.522
+community_score: 10.548
 description: >-
   SATX is an ERC-20 token based on the Ethereum platform
 developer_score: 0.0
@@ -26,10 +26,20 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: SatoExchange Token
-public_interest_score: 12.608
+public_interest_score: 0.022
 symbol: satx
 tickers:
-- base: TRX
+- base: SATX
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: SATX
+  market:
+    identifier: altilly
+    name: Altilly
+  target: XQR
+- base: LTC
   market:
     identifier: satoexchange
     name: SatoExchange
@@ -40,6 +50,11 @@ tickers:
     name: SatoExchange
   target: SATX
 - base: DOGE
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX
+- base: TRX
   market:
     identifier: satoexchange
     name: SatoExchange

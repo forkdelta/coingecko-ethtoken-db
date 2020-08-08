@@ -1,8 +1,8 @@
 ---
 address: '0x3597bfD533a99c9aa083587B074434E61Eb0A258'
-coingecko_rank: 651
-coingecko_score: 25.318
-community_score: 32.128
+coingecko_rank: 485
+coingecko_score: 27.736
+community_score: 33.075
 description: >-
   Our vision is to create a global exchange using Ethereum blockchain, where everyone on this planet has
   the opportunity to buy and sell mobile bandwidth in any country just like you buy foreign currencies
@@ -23,10 +23,10 @@ links:
   subreddit_url: https://www.reddit.com/r/dent/
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
-liquidity_score: 26.299
-market_cap_rank: 253
+liquidity_score: 36.501
+market_cap_rank: 212
 name: Dent
-public_interest_score: 2.545
+public_interest_score: 0.005
 symbol: dent
 tickers:
 - base: DENT
@@ -36,6 +36,11 @@ tickers:
   target: BTC
 - base: DENT
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: DENT
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -43,14 +48,24 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
+  target: BTC
 - base: DENT
   market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
+    identifier: probit
+    name: ProBit
+  target: KRW
 - base: DENT
   market:
     identifier: sistemkoin
     name: Sistemkoin
+  target: TRY
+- base: DENT
+  market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: USDT
+- base: 0X3597BFD533A99C9AA083587B074434E61EB0A258
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH
