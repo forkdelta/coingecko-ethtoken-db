@@ -1,8 +1,8 @@
 ---
 address: '0xCb94be6f13A1182E4A4B6140cb7bf2025d28e41B'
-coingecko_rank: 388
-coingecko_score: 31.545
-community_score: 33.103
+coingecko_rank: 339
+coingecko_score: 31.523
+community_score: 33.865
 description: >-
   WeTrust is a collaborative saving and insurance platform. It is autonomous, frictionless, and decentralized.
   WeTrust utilizes the Ethereum blockchain to create a full-stack financial system that leverages existing
@@ -13,7 +13,7 @@ description: >-
   borrow, and support each other financially within their communities. ROSCAs will bootstrap the community,
   and WeTrust plans to build future products that include sovereign credit identities, trusted lending,
   mutual insurance, and more.
-developer_score: 55.327
+developer_score: 54.381
 id: wetrust
 image:
   large: https://assets.coingecko.com/coins/images/645/large/wetrust.png?1547034370
@@ -34,9 +34,9 @@ links:
   telegram_channel_identifier: WeTrustOfficial
   twitter_screen_name: WeTrustPlatform
 liquidity_score: 1.0
-market_cap_rank: 943
+market_cap_rank: 940
 name: WeTrust
-public_interest_score: 1.206
+public_interest_score: 0.002
 symbol: trst
 tickers:
 - base: TRST
@@ -46,6 +46,21 @@ tickers:
   target: BTC
 - base: TRST
   market:
-    identifier: idex
-    name: Idex
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: TRST
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: 0XCB94BE6F13A1182E4A4B6140CB7BF2025D28E41B
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: TRST
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

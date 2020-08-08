@@ -1,8 +1,8 @@
 ---
 address: '0x3883f5e181fccaF8410FA61e12b59BAd963fb645'
-coingecko_rank: 72
-coingecko_score: 51.246
-community_score: 41.447
+coingecko_rank: 58
+coingecko_score: 50.809
+community_score: 39.647
 description: >-
   Theta is a decentralized video delivery network, powered by users and an innovative new blockchain.
   Theta is an open source protocol purpose-built to power the decentralized streaming network and will
@@ -35,7 +35,7 @@ description: >-
   on the reputation scores for each caching node. Proof-of-Engagement: We introduce a novel Proof-of-Engagement
   scheme to prove that viewers legitimately consume the video streams, providing better transparency to
   advertisers and a basis for viewers to earn Theta tokens for engaging with the content.
-developer_score: 65.594
+developer_score: 63.132
 id: theta-token
 image:
   large: https://assets.coingecko.com/coins/images/2538/large/theta-token-logo.png?1548387191
@@ -59,17 +59,32 @@ links:
   subreddit_url: https://www.reddit.com/r/thetatoken
   telegram_channel_identifier: thetanetwork
   twitter_screen_name: Theta_Network
-liquidity_score: 50.582
-market_cap_rank: 47
+liquidity_score: 56.514
+market_cap_rank: 42
 name: Theta Network
-public_interest_score: 14.833
+public_interest_score: 0.03
 symbol: theta
 tickers:
+- base: THETA
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: THETA
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: THETA
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: THETA
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USDT
 - base: THETA
   market:
     identifier: okex_korea
@@ -80,3 +95,8 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
+- base: THETA
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

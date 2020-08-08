@@ -1,8 +1,8 @@
 ---
 address: '0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5'
-coingecko_rank: 766
-coingecko_score: 23.395
-community_score: 8.689
+coingecko_rank: 713
+coingecko_score: 23.465
+community_score: 9.446
 description: >-
   Smart contracts on Ethereum are fully self contained and any information or access to off-chain data
   is restricted.  Tellor solves this problem by creating a system where parties can request the value
@@ -22,9 +22,10 @@ links:
   announcement_url:
   - https://medium.com/tellor
   blockchain_site:
+  - https://disputes.tellorscan.com/
   - https://etherscan.io/token/0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5
   - https://ethplorer.io/address/0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5
-  - https://www.tellorscan.com/
+  - https://prices.tellorscan.com/
   chat_url:
   - https://discordapp.com/invite/n7drGjh
   homepage:
@@ -35,34 +36,29 @@ links:
     - https://github.com/tellor-io/TellorCore
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
-liquidity_score: 42.703
-market_cap_rank: 266
+liquidity_score: 41.007
+market_cap_rank: 201
 name: Tellor
-public_interest_score: 1.827
+public_interest_score: 0.003
 symbol: trb
 tickers:
+- base: 0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: TRB
   market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
-- base: TRB
-  market:
-    identifier: dex_blue
-    name: dex.blue
-  target: ETH
-- base: TRB
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: TRB
   market:
     identifier: eterbase
     name: Eterbase
-  target: EUR
-- base: TRB
+  target: ETH
+- base: TT
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: USDT
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

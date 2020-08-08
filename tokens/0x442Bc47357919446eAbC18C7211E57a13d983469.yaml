@@ -1,7 +1,7 @@
 ---
 address: '0x442Bc47357919446eAbC18C7211E57a13d983469'
-coingecko_rank: 1379
-coingecko_score: 16.595
+coingecko_rank: 1276
+coingecko_score: 16.832
 community_score: 0.0
 description: >-
   OpenChat is an open source organization founded by Google former employees. The main definition of blockchain
@@ -31,12 +31,17 @@ links:
   - https://etherscan.io/token/0x442bc47357919446eabc18c7211e57a13d983469
   homepage:
   - http://www.openchat.co/
-liquidity_score: 28.015
-market_cap_rank: 717
+liquidity_score: 29.658
+market_cap_rank: 696
 name: ChatCoin
-public_interest_score: 0.512
+public_interest_score: 0.001
 symbol: chat
 tickers:
+- base: CHAT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: CHAT
   market:
     identifier: hitbtc
@@ -44,9 +49,14 @@ tickers:
   target: USD
 - base: CHAT
   market:
-    identifier: probit
-    name: ProBit
-  target: KRW
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC
+- base: CHAT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
 - base: CHAT
   market:
     identifier: yobit

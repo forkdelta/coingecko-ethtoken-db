@@ -1,10 +1,10 @@
 ---
 address: '0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8'
-coingecko_rank: 1404
-coingecko_score: 16.389
-community_score: 9.734
+coingecko_rank: 1879
+coingecko_score: 11.408
+community_score: 10.677
 description: ""
-developer_score: 21.882
+developer_score: 21.129
 id: curve-fi-ydai-yusdc-yusdt-ytusd
 image:
   large: https://assets.coingecko.com/coins/images/11858/large/yCrv.png?1595203628
@@ -22,9 +22,19 @@ links:
     - https://github.com/curvefi/curve-contract
   telegram_channel_identifier: curvefi
   twitter_screen_name: curvefinance
-liquidity_score: 43.637
+liquidity_score: 18.873
 market_cap_rank: null
 name: LP-yCurve
-public_interest_score: 0.993
+public_interest_score: 0.033
 symbol: yCurve
-tickers: []
+tickers:
+- base: 0XDF5E0E81DFF6FAF3A7E52BA697820C5E32D806A8
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
+- base: 0XDF5E0E81DFF6FAF3A7E52BA697820C5E32D806A8
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

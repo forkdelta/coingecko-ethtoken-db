@@ -1,8 +1,8 @@
 ---
 address: '0xB9e7F8568e08d5659f5D29C4997173d84CdF2607'
-coingecko_rank: 353
-coingecko_score: 32.969
-community_score: 34.879
+coingecko_rank: 312
+coingecko_score: 32.412
+community_score: 32.087
 description: >-
   Swarm City, found online at Swarm.city, is a commerce platform built on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   blockchain. The platform revolves around the SWT token. One of the unique things about Swarm City is
@@ -31,7 +31,7 @@ description: >-
   There are also “guilds” that can resolve disputes based on their “Charter of the Guild”. Swarm City
   has a reputation system that works without the need to collect personal data. The platform makes a big
   deal out of the fact that it never has and never will collect or store personal data.
-developer_score: 61.397
+developer_score: 60.756
 id: swarm-city
 image:
   large: https://assets.coingecko.com/coins/images/621/large/swarm-city.png?1548611426
@@ -51,11 +51,16 @@ links:
   subreddit_url: https://www.reddit.com/r/SwarmCity
   twitter_screen_name: SwarmCityDApp
 liquidity_score: 1.0
-market_cap_rank: 982
+market_cap_rank: 1007
 name: Swarm City
-public_interest_score: 0.993
+public_interest_score: 0.0
 symbol: swt
 tickers:
+- base: SWT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: SWT
   market:
     identifier: hitbtc
@@ -66,11 +71,6 @@ tickers:
     identifier: uniswap_v1
     name: Uniswap (v1)
   target: ETH
-- base: SWT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: SWT
   market:
     identifier: yobit
@@ -86,6 +86,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: SWT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: SWT
   market:
     identifier: yobit

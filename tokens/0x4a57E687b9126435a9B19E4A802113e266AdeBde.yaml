@@ -1,8 +1,8 @@
 ---
 address: '0x4a57E687b9126435a9B19E4A802113e266AdeBde'
-coingecko_rank: 2102
-coingecko_score: 11.19
-community_score: 27.296
+coingecko_rank: 1797
+coingecko_score: 12.024
+community_score: 28.076
 description: >-
   The first app for spending cryptocurrency in stores. Instantly.
 
@@ -40,12 +40,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Flexacoin/
   telegram_channel_identifier: flexacoin
   twitter_screen_name: FlexaHQ
-liquidity_score: 25.703
+liquidity_score: 29.236
 market_cap_rank: null
 name: Flexacoin
-public_interest_score: 0.892
+public_interest_score: 0.002
 symbol: fxc
 tickers:
+- base: FXC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: FXC
   market:
     identifier: bitcratic
@@ -53,6 +58,16 @@ tickers:
   target: ETH
 - base: FXC
   market:
+    identifier: poloniex
+    name: Poloniex
+  target: TRX
+- base: FXC
+  market:
     identifier: switcheo
     name: Switcheo
+  target: ETH
+- base: FXC
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
