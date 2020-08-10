@@ -29,13 +29,23 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 29.616
-market_cap_rank: 379
+market_cap_rank: 398
 name: iETH
 public_interest_score: 0.039
 symbol: ieth
 tickers:
+- base: SBCH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IETH
 - base: SADA
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: IETH
+- base: IETH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH

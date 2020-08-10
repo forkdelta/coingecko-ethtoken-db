@@ -25,16 +25,16 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 23.429
-market_cap_rank: 98
+market_cap_rank: 101
 name: Numeraire
 public_interest_score: 0.001
 symbol: nmr
 tickers:
 - base: NMR
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
 - base: NMR
   market:
     identifier: fatbtc
@@ -45,11 +45,16 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
+- base: NMR
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: NMR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: NMR
   market:
     identifier: yobit

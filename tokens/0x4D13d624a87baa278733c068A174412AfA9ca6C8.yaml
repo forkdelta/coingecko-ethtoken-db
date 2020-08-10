@@ -1,6 +1,6 @@
 ---
 address: '0x4D13d624a87baa278733c068A174412AfA9ca6C8'
-coingecko_rank: 808
+coingecko_rank: 809
 coingecko_score: 22.233
 community_score: 28.533
 description: >-
@@ -38,13 +38,23 @@ links:
   telegram_channel_identifier: EterbaseExchange
   twitter_screen_name: ETERBASE
 liquidity_score: 8.081
-market_cap_rank: 592
+market_cap_rank: 607
 name: Eterbase Coin
 public_interest_score: 0.002
 symbol: xbase
 tickers:
+- base: XBASE-CD2
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: XBASE
   market:
-    identifier: bitcratic
-    name: Bitcratic
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: 0X4D13D624A87BAA278733C068A174412AFA9CA6C8
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

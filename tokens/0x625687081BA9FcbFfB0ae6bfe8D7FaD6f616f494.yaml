@@ -1,6 +1,6 @@
 ---
 address: '0x625687081BA9FcbFfB0ae6bfe8D7FaD6f616f494'
-coingecko_rank: 3816
+coingecko_rank: 3817
 coingecko_score: 2.196
 community_score: 9.52
 description: >-
@@ -38,4 +38,24 @@ market_cap_rank: null
 name: Medalte
 public_interest_score: 0.001
 symbol: mdtl
-tickers: []
+tickers:
+- base: MDTL
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: BTC
+- base: MDTL
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: ETH
+- base: MDTL
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: USDT
+- base: 0X625687081BA9FCBFFB0AE6BFE8D7FAD6F616F494
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

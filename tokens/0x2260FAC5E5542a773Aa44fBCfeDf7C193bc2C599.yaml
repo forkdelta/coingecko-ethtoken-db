@@ -1,6 +1,6 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 2286
+coingecko_rank: 2287
 coingecko_score: 8.319
 community_score: 0.0
 description: >-
@@ -44,47 +44,17 @@ tickers:
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
-  target: DAI
-- base: WBTC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
   target: USDC
-- base: WBTC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: WBT
   market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
-- base: WBT
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
-- base: WBTC
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
 - base: WBTC
   market:
     identifier: bittrex
     name: Bittrex
   target: ETH
-- base: WBTC
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: WBTC
-  market:
-    identifier: curve
-    name: Curve Finance
-  target: RENBTC
 - base: WBTC
   market:
     identifier: curve
@@ -97,19 +67,29 @@ tickers:
   target: WBTC
 - base: WBTC
   market:
-    identifier: ddex
-    name: DDEX
-  target: USDT
+    identifier: exnce
+    name: EXNCE
+  target: ETC
 - base: WBTC
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: exnce
+    name: EXNCE
   target: ETH
+- base: WBTC
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
 - base: WBTC
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: WBTC
+  market:
+    identifier: neblidex
+    name: Neblidex
+  target: BTC
 - base: WBTC
   market:
     identifier: oasis_trade
@@ -125,16 +105,6 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: DAI
-- base: ETH
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: WBTC
-- base: NEO
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: WBTC
 - base: WBTC
   market:
     identifier: tokenlon

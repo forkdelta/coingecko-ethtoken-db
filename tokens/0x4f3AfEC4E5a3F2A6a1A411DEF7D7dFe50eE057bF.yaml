@@ -1,6 +1,6 @@
 ---
 address: '0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF'
-coingecko_rank: 787
+coingecko_rank: 788
 coingecko_score: 22.502
 community_score: 39.149
 description: >-
@@ -34,7 +34,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 9.135
-market_cap_rank: 419
+market_cap_rank: 430
 name: Digix Gold
 public_interest_score: 0.0
 symbol: dgx
@@ -46,6 +46,11 @@ tickers:
   target: ETH
 - base: DGX
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: DGX
+  market:
     identifier: hotbit
     name: Hotbit
   target: BTC
@@ -56,26 +61,11 @@ tickers:
   target: USDT
 - base: DGX
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: DGX
-  market:
     identifier: probit
     name: ProBit
   target: BTC
-- base: DGX
-  market:
-    identifier: probit
-    name: ProBit
-  target: USDT
 - base: 0X4F3AFEC4E5A3F2A6A1A411DEF7D7DFE50EE057BF
   market:
     identifier: uniswap
     name: Uniswap (v2)
-  target: ETH
-- base: DGX
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
   target: ETH

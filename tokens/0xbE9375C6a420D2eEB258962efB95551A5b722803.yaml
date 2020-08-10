@@ -58,11 +58,16 @@ links:
   telegram_channel_identifier: stormxio
   twitter_screen_name: stormxio
 liquidity_score: 41.443
-market_cap_rank: 237
+market_cap_rank: 248
 name: StormX
 public_interest_score: 0.009
 symbol: stmx
 tickers:
+- base: STMX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: STMX
   market:
     identifier: bittrex
@@ -75,13 +80,8 @@ tickers:
   target: ETH
 - base: STMX
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: STMX
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
+    identifier: vcc
+    name: VCC Exchange
   target: BTC
 - base: STMX
   market:

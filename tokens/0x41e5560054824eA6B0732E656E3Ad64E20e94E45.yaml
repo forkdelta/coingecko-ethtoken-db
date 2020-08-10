@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
 liquidity_score: 41.889
-market_cap_rank: 254
+market_cap_rank: 251
 name: Civic
 public_interest_score: 0.018
 symbol: cvc
@@ -49,11 +49,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: CVC
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: CVC
   market:
     identifier: gopax
@@ -86,34 +81,24 @@ tickers:
   target: USDT
 - base: CVC
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: CVC
   market:
     identifier: livecoin
     name: Livecoin
-  target: ETH
-- base: F9FB5970-2FC4-4B08-900B-870F245E430B
-  market:
-    identifier: lykke
-    name: Lykke
-  target: ETH
+  target: USDT
 - base: CVC
   market:
     identifier: nice_hash
     name: NiceHash
   target: BTC
-- base: 0X41E5560054824EA6B0732E656E3AD64E20E94E45
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
 - base: CVC
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
 - base: CVC
   market:
     identifier: zebitex
@@ -124,3 +109,8 @@ tickers:
     identifier: zebitex
     name: Zebitex
   target: ETH
+- base: CVC
+  market:
+    identifier: zebitex
+    name: Zebitex
+  target: USDT

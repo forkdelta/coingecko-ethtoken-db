@@ -1,6 +1,6 @@
 ---
 address: '0x4156D3342D5c385a87D264F90653733592000581'
-coingecko_rank: 1095
+coingecko_rank: 1096
 coingecko_score: 18.734
 community_score: 11.619
 description: >-
@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: SALTLendingDiscussion
   twitter_screen_name: SALTLending
 liquidity_score: 4.618
-market_cap_rank: 358
+market_cap_rank: 382
 name: SALT
 public_interest_score: 0.012
 symbol: salt
 tickers:
+- base: SALT
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
 - base: SALT
   market:
     identifier: atomars
@@ -49,10 +54,20 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: 0X4156D3342D5C385A87D264F90653733592000581
+- base: SALT
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: SALT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: SALT
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
 - base: SALT
   market:

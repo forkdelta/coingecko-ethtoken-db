@@ -62,16 +62,11 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 21.649
-market_cap_rank: 186
+market_cap_rank: 190
 name: Gnosis
 public_interest_score: 0.003
 symbol: gno
 tickers:
-- base: GNO
-  market:
-    identifier: atomars
-    name: Atomars
-  target: BTC
 - base: GNO
   market:
     identifier: bitfinex
@@ -84,18 +79,8 @@ tickers:
   target: KRW
 - base: GNO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: GNO
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: GNO
-  market:
-    identifier: idex
-    name: Idex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: GNO
   market:
@@ -109,11 +94,16 @@ tickers:
   target: ETH
 - base: GNO
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
-- base: GNO
-  market:
     identifier: mesa
     name: ' Gnosis Protocol'
   target: ETH
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

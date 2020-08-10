@@ -1,6 +1,6 @@
 ---
 address: '0x0d2BB9D68dD4451A09ec94C05E20Bd395022bd8e'
-coingecko_rank: 3776
+coingecko_rank: 3777
 coingecko_score: 2.243
 community_score: 9.286
 description: >-
@@ -35,6 +35,11 @@ symbol: CBUCKS
 tickers:
 - base: CBUCKS
   market:
+    identifier: coinlim
+    name: Coinlim
+  target: USDT
+- base: CBUCKS
+  market:
     identifier: coinsbit
     name: Coinsbit
   target: BTC
@@ -48,13 +53,3 @@ tickers:
     identifier: exmarkets
     name: ExMarkets
   target: BTC
-- base: CBUCKS
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: BTC
-- base: CBUCKS
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT

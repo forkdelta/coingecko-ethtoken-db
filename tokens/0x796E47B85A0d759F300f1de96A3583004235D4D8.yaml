@@ -1,6 +1,6 @@
 ---
 address: '0x796E47B85A0d759F300f1de96A3583004235D4D8'
-coingecko_rank: 1896
+coingecko_rank: 1897
 coingecko_score: 11.318
 community_score: 9.627
 description: >-
@@ -26,8 +26,23 @@ links:
     - https://github.com/electrumdark/Electrum-dark-token
   twitter_screen_name: electrumdark
 liquidity_score: 1.0
-market_cap_rank: 1743
+market_cap_rank: 1735
 name: Electrum Dark
 public_interest_score: 0.001
 symbol: eld
-tickers: []
+tickers:
+- base: ELD
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: ELD
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: ELD
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

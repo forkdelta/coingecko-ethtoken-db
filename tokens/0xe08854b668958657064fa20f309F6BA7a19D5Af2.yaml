@@ -1,6 +1,6 @@
 ---
 address: '0xe08854b668958657064fa20f309F6BA7a19D5Af2'
-coingecko_rank: 1604
+coingecko_rank: 1605
 coingecko_score: 13.661
 community_score: 11.73
 description: ""
@@ -19,8 +19,18 @@ links:
   telegram_channel_identifier: blocktvchat
   twitter_screen_name: BLOCKTVnews
 liquidity_score: 1.0
-market_cap_rank: 728
+market_cap_rank: 711
 name: BLTV Token
 public_interest_score: 0.0
 symbol: bltv
-tickers: []
+tickers:
+- base: BLTV
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: BLTV
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

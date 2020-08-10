@@ -1,6 +1,6 @@
 ---
 address: '0xDe4C5a791913838027a2185709E98c5C6027EA63'
-coingecko_rank: 3420
+coingecko_rank: 3421
 coingecko_score: 3.007
 community_score: 13.67
 description: >-
@@ -66,6 +66,31 @@ symbol: xac
 tickers:
 - base: XAC
   market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: XAC
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: BTC
+- base: XAC
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
+- base: XAC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
+- base: XAC
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: XAC
+  market:
     identifier: livecoin
     name: Livecoin
   target: USDT
@@ -74,3 +99,8 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: XAC
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

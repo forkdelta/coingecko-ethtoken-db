@@ -1,6 +1,6 @@
 ---
 address: '0x0142C3B2fC51819B5aF5dFc4AA52Df9722790851'
-coingecko_rank: 2207
+coingecko_rank: 2208
 coingecko_score: 8.869
 community_score: 9.402
 description: >-
@@ -38,8 +38,23 @@ name: Paycent
 public_interest_score: 0.004
 symbol: pyn
 tickers:
+- base: PYN-C37
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: PYN
   market:
     identifier: bitholic
     name: Bithumb Singapore
   target: BTC
+- base: PYN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: PYN
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -1,6 +1,6 @@
 ---
 address: '0x3d3dd61b0F9A558759a21dA42166042B114E12D5'
-coingecko_rank: 2672
+coingecko_rank: 2673
 coingecko_score: 5.978
 community_score: 0.0
 description: >-
@@ -24,11 +24,26 @@ name: 3X Short EOS Token
 public_interest_score: 0.156
 symbol: eosbear
 tickers:
+- base: EOSBEAR-721
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: EOSBEAR
   market:
-    identifier: bkex
-    name: BKEX
+    identifier: bitmax
+    name: BitMax
   target: USDT
+- base: EOSBEAR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
+- base: EOSBEAR
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: EOSBEAR
   market:
     identifier: poloniex

@@ -63,7 +63,7 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 61.916
-market_cap_rank: 44
+market_cap_rank: 43
 name: Kyber Network
 public_interest_score: 0.028
 symbol: knc
@@ -80,14 +80,19 @@ tickers:
   target: WETH
 - base: KNC
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
 - base: KNC
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: BSC
+    identifier: bibo
+    name: Bibo
+  target: USDT
+- base: KNC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: KNC
   market:
     identifier: eterbase
@@ -100,23 +105,8 @@ tickers:
   target: BTC
 - base: KNC
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: KNC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: KNC
-  market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: KNC
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH
 - base: KNC
   market:
@@ -132,17 +122,7 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
-  target: USDT
-- base: 0XDD974D5C2E2928DEA5F71B9825B8B646686BD200
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
-- base: KNC
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+  target: BTC
 - base: KNC
   market:
     identifier: tokenlon
@@ -158,6 +138,11 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: USDT
+- base: KNC
+  market:
+    identifier: vindax
+    name: Vindax
+  target: ETH
 - base: KNC
   market:
     identifier: xt

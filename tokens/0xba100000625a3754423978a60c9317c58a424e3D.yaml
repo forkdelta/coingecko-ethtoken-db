@@ -42,11 +42,16 @@ links:
     - https://github.com/balancer-labs/pool-management
   twitter_screen_name: BalancerLabs
 liquidity_score: 46.502
-market_cap_rank: 98
+market_cap_rank: 66
 name: Balancer
 public_interest_score: 0.016
 symbol: bal
 tickers:
+- base: BAL
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: USDT
 - base: BAL
   market:
     identifier: dex_blue
@@ -59,19 +64,9 @@ tickers:
   target: EBASE
 - base: BAL
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: ETH
-- base: BAL
-  market:
     identifier: fatbtc
     name: FatBTC
   target: USDT
-- base: BAL
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: BAL
   market:
     identifier: stocks_exchange
@@ -87,8 +82,3 @@ tickers:
     identifier: whale_ex
     name: WhaleEx
   target: USDT
-- base: BAL
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
