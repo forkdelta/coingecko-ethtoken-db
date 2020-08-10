@@ -62,7 +62,7 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 47.85
-market_cap_rank: 57
+market_cap_rank: 59
 name: Enjin Coin
 public_interest_score: 0.017
 symbol: enj
@@ -71,7 +71,22 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
+  target: DAI
+- base: 0XF629CBD94D3791C9250152BD8DFBDF380E2A3B9C
+  market:
+    identifier: balancer
+    name: Balancer
   target: USDC
+- base: ENJ
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
+- base: ENJ
+  market:
+    identifier: bibo
+    name: Bibo
+  target: USDT
 - base: ENJ
   market:
     identifier: bitsonic
@@ -84,9 +99,9 @@ tickers:
   target: BTC
 - base: ENJ
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ENJ
   market:
     identifier: idex
@@ -99,14 +114,9 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USDT
-- base: 0XF629CBD94D3791C9250152BD8DFBDF380E2A3B9C
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: nice_hash
+    name: NiceHash
+  target: BTC
 - base: ENJ
   market:
     identifier: stocks_exchange
@@ -117,3 +127,8 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: ETH
+- base: ENJ
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

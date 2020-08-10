@@ -1,6 +1,6 @@
 ---
 address: '0x3D46454212c61ECb7b31248047Fa033120B88668'
-coingecko_rank: 1479
+coingecko_rank: 1480
 coingecko_score: 14.874
 community_score: 33.144
 description: >-
@@ -30,4 +30,14 @@ market_cap_rank: null
 name: The Movement
 public_interest_score: 0.0
 symbol: mvt
-tickers: []
+tickers:
+- base: MVT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: MVT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

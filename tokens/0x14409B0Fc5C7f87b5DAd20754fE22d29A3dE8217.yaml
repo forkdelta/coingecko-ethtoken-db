@@ -1,6 +1,6 @@
 ---
 address: '0x14409B0Fc5C7f87b5DAd20754fE22d29A3dE8217'
-coingecko_rank: 2696
+coingecko_rank: 2697
 coingecko_score: 5.866
 community_score: 25.755
 description: >-
@@ -41,8 +41,23 @@ tickers:
     identifier: mercatox
     name: Mercatox
   target: BTC
+- base: PYRO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: PYRO
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: ETH
 - base: 0X14409B0FC5C7F87B5DAD20754FE22D29A3DE8217
   market:
     identifier: uniswap
     name: Uniswap (v2)
+  target: ETH
+- base: PYRO
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

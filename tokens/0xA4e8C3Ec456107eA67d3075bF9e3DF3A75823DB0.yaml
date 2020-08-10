@@ -50,7 +50,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 40.322
-market_cap_rank: 256
+market_cap_rank: 252
 name: Loom Network
 public_interest_score: 0.003
 symbol: loom
@@ -65,6 +65,11 @@ tickers:
     identifier: altilly
     name: Altilly
   target: XQR
+- base: LOOM
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
 - base: LOO
   market:
     identifier: bitfinex
@@ -72,34 +77,14 @@ tickers:
   target: USD
 - base: LOOM
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: LOOM
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
-- base: LOOM
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: LOOM
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: gopax
+    name: GoPax
+  target: BTC
 - base: LOOM
   market:
     identifier: nice_hash
     name: NiceHash
   target: BTC
-- base: 0XA4E8C3EC456107EA67D3075BF9E3DF3A75823DB0
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
 - base: LOOM
   market:
     identifier: tokenlon
@@ -112,14 +97,14 @@ tickers:
   target: ETH
 - base: LOOM
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
+    identifier: zebitex
+    name: Zebitex
   target: BTC
 - base: LOOM
   market:
     identifier: zebitex
     name: Zebitex
-  target: BTC
+  target: ETH
 - base: LOOM
   market:
     identifier: zebitex

@@ -1,6 +1,6 @@
 ---
 address: '0x2467AA6B5A2351416fD4C3DeF8462d841feeecEC'
-coingecko_rank: 1640
+coingecko_rank: 1641
 coingecko_score: 13.361
 community_score: 9.367
 description: >-
@@ -27,13 +27,18 @@ links:
   telegram_channel_identifier: qiibee
   twitter_screen_name: qiibee
 liquidity_score: 1.0
-market_cap_rank: 632
+market_cap_rank: 613
 name: qiibee
 public_interest_score: 0.003
 symbol: qbx
 tickers:
-- base: QBX
+- base: QBX-38C
   market:
-    identifier: coinsuper
-    name: Coinsuper
-  target: BTC
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: 0X2467AA6B5A2351416FD4C3DEF8462D841FEEECEC
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

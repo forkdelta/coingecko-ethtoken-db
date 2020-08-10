@@ -41,11 +41,21 @@ links:
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
 liquidity_score: 46.531
-market_cap_rank: 130
+market_cap_rank: 139
 name: Fetch.ai
 public_interest_score: 0.004
 symbol: fet
 tickers:
+- base: FET
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
+- base: FET
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: FET
   market:
     identifier: coinall
@@ -56,6 +66,11 @@ tickers:
     identifier: coinall
     name: CoinAll
   target: ETH
+- base: FET
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
 - base: FET
   market:
     identifier: idex
@@ -63,6 +78,16 @@ tickers:
   target: ETH
 - base: FET
   market:
-    identifier: wazirx
-    name: WazirX
+    identifier: lukki
+    name: Lukki
   target: BTC
+- base: FET
+  market:
+    identifier: nice_hash
+    name: NiceHash
+  target: BTC
+- base: 0X1D287CC25DAD7CCAF76A26BC660C5F7C8E2A05BD
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0xb83Cd8d39462B761bb0092437d38b37812dd80A2'
-coingecko_rank: 1788
+coingecko_rank: 1789
 coingecko_score: 12.099
 community_score: 16.723
 description: >-
@@ -43,7 +43,7 @@ links:
   telegram_channel_identifier: the_goldenratio
   twitter_screen_name: goldenratioteam
 liquidity_score: 1.0
-market_cap_rank: 1420
+market_cap_rank: 1489
 name: Golden Ratio Token
 public_interest_score: 0.001
 symbol: grt
@@ -52,18 +52,18 @@ tickers:
   market:
     identifier: resfinex
     name: Resfinex
-  target: BTC
+  target: ETH
 - base: AER
   market:
     identifier: resfinex
     name: Resfinex
   target: GRT
-- base: BTC
+- base: ETH
   market:
     identifier: resfinex
     name: Resfinex
   target: GRT
-- base: BSOV
+- base: BTC
   market:
     identifier: resfinex
     name: Resfinex
@@ -85,6 +85,11 @@ tickers:
   target: GRT
 - base: GRT
   market:
+    identifier: resfinex
+    name: Resfinex
+  target: USDT
+- base: GRT
+  market:
     identifier: satoexchange
     name: SatoExchange
   target: ETH
@@ -93,8 +98,3 @@ tickers:
     identifier: satoexchange
     name: SatoExchange
   target: USDT
-- base: 0XB83CD8D39462B761BB0092437D38B37812DD80A2
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH

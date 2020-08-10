@@ -1,6 +1,6 @@
 ---
 address: '0x5C406D99E04B8494dc253FCc52943Ef82bcA7D75'
-coingecko_rank: 5068
+coingecko_rank: 5069
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -37,14 +37,19 @@ symbol: cusd
 tickers:
 - base: CUSD
   market:
+    identifier: altmarkets
+    name: Altmarkets
+  target: ETH
+- base: CUSD
+  market:
     identifier: birake
     name: Birake
   target: BTC
 - base: CUSD
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: CUSD
   market:
     identifier: mercatox
