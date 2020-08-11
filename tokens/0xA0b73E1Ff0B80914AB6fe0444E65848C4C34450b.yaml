@@ -41,6 +41,11 @@ symbol: cro
 tickers:
 - base: CRO
   market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: CRO
+  market:
     identifier: bibox
     name: Bibox
   target: USDT
@@ -71,11 +76,6 @@ tickers:
   target: INR
 - base: CRO
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: CRO
-  market:
     identifier: hitbtc
     name: HitBTC
   target: USD
@@ -83,7 +83,17 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: BTC
+- base: CRO
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: HT
+- base: CRO
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
 - base: CRO
   market:
     identifier: idex
@@ -104,6 +114,11 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
+- base: 0XA0B73E1FF0B80914AB6FE0444E65848C4C34450B
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: CRO
   market:
     identifier: uniswap_v1

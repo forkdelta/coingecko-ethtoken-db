@@ -47,7 +47,7 @@ links:
   telegram_channel_identifier: sirinlabs
   twitter_screen_name: sirinlabs
 liquidity_score: 36.381
-market_cap_rank: 432
+market_cap_rank: 421
 name: Sirin Labs Token
 public_interest_score: 0.003
 symbol: srn
@@ -59,14 +59,19 @@ tickers:
   target: BTC
 - base: SRN
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: SRN
   market:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: SRN
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: 0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25
   market:
     identifier: one_inch
@@ -82,8 +87,3 @@ tickers:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
   target: BTC
-- base: SRN
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: ETH

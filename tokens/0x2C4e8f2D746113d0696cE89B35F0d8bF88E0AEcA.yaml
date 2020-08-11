@@ -56,11 +56,16 @@ links:
   telegram_channel_identifier: ostdotcom
   twitter_screen_name: OSTdotcom
 liquidity_score: 28.382
-market_cap_rank: 415
+market_cap_rank: 399
 name: OST
 public_interest_score: 0.002
 symbol: ost
 tickers:
+- base: OST
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: OST
   market:
     identifier: gate
@@ -71,11 +76,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: USDT
-- base: OST
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
 - base: 0X2C4E8F2D746113D0696CE89B35F0D8BF88E0AECA
   market:
     identifier: one_inch

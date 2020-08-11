@@ -1,6 +1,6 @@
 ---
 address: '0x74faaB6986560fD1140508e4266D8a7b87274Ffd'
-coingecko_rank: 2226
+coingecko_rank: 2227
 coingecko_score: 8.771
 community_score: 10.058
 description: >-
@@ -41,16 +41,6 @@ symbol: hdao
 tickers:
 - base: HDAO
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: BTC
-- base: HDAO
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
-- base: HDAO
-  market:
     identifier: fatbtc
     name: FatBTC
   target: USDT
@@ -59,6 +49,11 @@ tickers:
     identifier: hanbitco
     name: Hanbitco
   target: BTC
+- base: HDAO
+  market:
+    identifier: hanbitco
+    name: Hanbitco
+  target: USDT
 - base: HDAO
   market:
     identifier: okex

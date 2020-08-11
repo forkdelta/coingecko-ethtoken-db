@@ -46,7 +46,7 @@ links:
   telegram_channel_identifier: daostackcommunity
   twitter_screen_name: daostack
 liquidity_score: 27.102
-market_cap_rank: 391
+market_cap_rank: 384
 name: DAOstack
 public_interest_score: 0.003
 symbol: gen
@@ -66,3 +66,18 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: GEN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: GEN
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 0X543FF227F64AA17EA132BF9886CAB5DB55DCADDF
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

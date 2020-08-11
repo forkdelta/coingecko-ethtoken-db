@@ -50,7 +50,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 40.322
-market_cap_rank: 252
+market_cap_rank: 255
 name: Loom Network
 public_interest_score: 0.003
 symbol: loom
@@ -82,6 +82,16 @@ tickers:
   target: BTC
 - base: LOOM
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: LOOM
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: LOOM
+  market:
     identifier: nice_hash
     name: NiceHash
   target: BTC
@@ -95,6 +105,31 @@ tickers:
     identifier: uniswap_v1
     name: Uniswap (v1)
   target: ETH
+- base: LOOM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: LOOM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: LOOM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: LOOM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: LOOM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
 - base: LOOM
   market:
     identifier: zebitex

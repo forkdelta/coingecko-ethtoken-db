@@ -1,6 +1,6 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 2287
+coingecko_rank: 2288
 coingecko_score: 8.319
 community_score: 0.0
 description: >-
@@ -30,11 +30,6 @@ name: Wrapped Bitcoin
 public_interest_score: 0.008
 symbol: wbtc
 tickers:
-- base: WBTC
-  market:
-    identifier: airswap
-    name: AirSwap
-  target: ETH
 - base: 0X2260FAC5E5542A773AA44FBCFEDF7C193BC2C599
   market:
     identifier: balancer
@@ -45,16 +40,16 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: USDC
-- base: WBT
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
 - base: WBTC
   market:
     identifier: bittrex
     name: Bittrex
   target: ETH
+- base: WBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: WBTC
   market:
     identifier: curve
@@ -65,6 +60,11 @@ tickers:
     identifier: curve
     name: Curve Finance
   target: WBTC
+- base: WBTC
+  market:
+    identifier: ddex
+    name: DDEX
+  target: USDT
 - base: WBTC
   market:
     identifier: exnce
@@ -97,14 +97,19 @@ tickers:
   target: DAI
 - base: WBTC
   market:
-    identifier: radar_relay
-    name: Radar Relay
-  target: WETH
+    identifier: oasis_trade
+    name: OasisDEX
+  target: ETH
 - base: WBTC
   market:
     identifier: switcheo
     name: Switcheo
   target: DAI
+- base: NEO
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: WBTC
 - base: WBTC
   market:
     identifier: tokenlon

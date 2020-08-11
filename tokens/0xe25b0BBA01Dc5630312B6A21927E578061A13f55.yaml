@@ -1,6 +1,6 @@
 ---
 address: '0xe25b0BBA01Dc5630312B6A21927E578061A13f55'
-coingecko_rank: 2389
+coingecko_rank: 2390
 coingecko_score: 7.624
 community_score: 11.533
 description: >-
@@ -42,23 +42,18 @@ name: ShipChain
 public_interest_score: 0.002
 symbol: ship
 tickers:
+- base: 0XE25B0BBA01DC5630312B6A21927E578061A13F55
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: SHIP
   market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: SHIP
+- base: 0XE25B0BBA01DC5630312B6A21927E578061A13F55
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: SHIP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: SHIP
-  market:
-    identifier: idex
-    name: Idex
+    identifier: one_inch
+    name: 1inch
   target: ETH

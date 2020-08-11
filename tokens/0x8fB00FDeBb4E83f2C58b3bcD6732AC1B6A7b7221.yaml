@@ -29,13 +29,23 @@ links:
   telegram_channel_identifier: orionprotocol
   twitter_screen_name: orion_protocol
 liquidity_score: 39.696
-market_cap_rank: 261
+market_cap_rank: 242
 name: Orion Protocol
 public_interest_score: 0.008
 symbol: orn
 tickers:
 - base: ORN
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ORN
+  market:
     identifier: eterbase
     name: Eterbase
   target: ETH
+- base: ORN
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
