@@ -64,11 +64,16 @@ links:
   subreddit_url: https://www.reddit.com/r/iexec
   twitter_screen_name: iEx_ec
 liquidity_score: 44.889
-market_cap_rank: 92
+market_cap_rank: 97
 name: iExec RLC
 public_interest_score: 0.006
 symbol: rlc
 tickers:
+- base: RLC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: RLC
   market:
     identifier: eterbase
@@ -76,13 +81,13 @@ tickers:
   target: EUR
 - base: RLC
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: idex
+    name: Idex
   target: ETH
 - base: RLC
   market:
-    identifier: idex
-    name: Idex
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: RLC
   market:
@@ -94,3 +99,13 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USDT
+- base: RLC
+  market:
+    identifier: nash
+    name: Nash
+  target: ETH
+- base: 0X607F4C5BB672230E8672085532F7E901544A7375
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: Ampleforth
   twitter_screen_name: ampleforthorg
 liquidity_score: 57.591
-market_cap_rank: 51
+market_cap_rank: 58
 name: Ampleforth
 public_interest_score: 0.032
 symbol: ampl
@@ -81,6 +81,11 @@ tickers:
   market:
     identifier: eterbase
     name: Eterbase
+  target: ETH
+- base: AMPL
+  market:
+    identifier: eterbase
+    name: Eterbase
   target: USDC
 - base: AMPL
   market:
@@ -92,8 +97,3 @@ tickers:
     identifier: hoo
     name: Hoo.com
   target: ETH
-- base: AMPL
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

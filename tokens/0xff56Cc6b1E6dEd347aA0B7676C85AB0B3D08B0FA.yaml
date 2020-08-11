@@ -1,6 +1,6 @@
 ---
 address: '0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA'
-coingecko_rank: 2412
+coingecko_rank: 2413
 coingecko_score: 7.455
 community_score: 10.963
 description: >-
@@ -51,9 +51,24 @@ tickers:
   target: BSC
 - base: ORBS
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: ORBS
+  market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
+- base: ORBS
+  market:
     identifier: okex
     name: OKEx
   target: USDK
+- base: ORBS
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
 - base: ORBS
   market:
     identifier: quoine

@@ -1,6 +1,6 @@
 ---
 address: '0xf04a8ac553FceDB5BA99A64799155826C136b0Be'
-coingecko_rank: 919
+coingecko_rank: 920
 coingecko_score: 20.701
 community_score: 31.507
 description: >-
@@ -35,11 +35,16 @@ symbol: flixx
 tickers:
 - base: FLIXX
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: FLIXX
-  market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: FLIXX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: FLIXX
+  market:
+    identifier: quoine
+    name: Liquid
   target: ETH

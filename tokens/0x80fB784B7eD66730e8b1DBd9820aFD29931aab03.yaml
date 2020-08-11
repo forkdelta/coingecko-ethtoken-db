@@ -51,6 +51,11 @@ name: Aave
 public_interest_score: 0.053
 symbol: lend
 tickers:
+- base: 0X80FB784B7ED66730E8B1DBD9820AFD29931AAB03
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: LEND
   market:
     identifier: bibo
@@ -63,11 +68,36 @@ tickers:
   target: ETH
 - base: LEND
   market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
+- base: LEND
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: LEND
+  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: LEND
   market:
+    identifier: loopring
+    name: Loopring
+  target: ETH
+- base: LEND
+  market:
+    identifier: loopring
+    name: Loopring
+  target: USDT
+- base: LEND
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: LEND
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

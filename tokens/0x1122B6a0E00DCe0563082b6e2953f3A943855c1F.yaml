@@ -1,6 +1,6 @@
 ---
 address: '0x1122B6a0E00DCe0563082b6e2953f3A943855c1F'
-coingecko_rank: 2880
+coingecko_rank: 2882
 coingecko_score: 5.091
 community_score: 10.227
 description: >-
@@ -34,6 +34,11 @@ symbol: cennz
 tickers:
 - base: CENNZ
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: CENNZ
+  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -41,4 +46,9 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: 0X1122B6A0E00DCE0563082B6E2953F3A943855C1F
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

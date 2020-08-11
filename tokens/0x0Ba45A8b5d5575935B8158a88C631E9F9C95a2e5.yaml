@@ -37,7 +37,7 @@ links:
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
 liquidity_score: 41.007
-market_cap_rank: 176
+market_cap_rank: 178
 name: Tellor
 public_interest_score: 0.003
 symbol: trb
@@ -49,11 +49,21 @@ tickers:
   target: DAI
 - base: TRB
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: eterbase
+    name: Eterbase
+  target: ETH
+- base: TRB
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
 - base: TRB
   market:
     identifier: fatbtc
     name: FatBTC
   target: USDT
+- base: TT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

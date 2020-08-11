@@ -1,6 +1,6 @@
 ---
 address: '0x2F141Ce366a2462f02cEA3D12CF93E4DCa49e4Fd'
-coingecko_rank: 1758
+coingecko_rank: 1759
 coingecko_score: 12.374
 community_score: 9.13
 description: "The FREE (refers to FREEdom) coin facilitates everyone worldwide to participate in the wealth\
@@ -27,7 +27,7 @@ links:
   - http://www.freecoin.technology
   twitter_screen_name: THE_FREE_COIN
 liquidity_score: 1.0
-market_cap_rank: 958
+market_cap_rank: 952
 name: FREE coin
 public_interest_score: 0.002
 symbol: free
@@ -59,6 +59,11 @@ tickers:
   target: USDT
 - base: FREE
   market:
+    identifier: catex
+    name: Catex
+  target: USDT
+- base: FREE
+  market:
     identifier: coinsbit
     name: Coinsbit
   target: ETH
@@ -81,7 +86,7 @@ tickers:
   market:
     identifier: mercatox
     name: Mercatox
-  target: BTC
+  target: ETH
 - base: FREE
   market:
     identifier: mercatox
@@ -99,14 +104,14 @@ tickers:
   target: USD
 - base: FREE
   market:
-    identifier: probit
-    name: ProBit
-  target: BTC
-- base: FREE
-  market:
     identifier: satoexchange
     name: SatoExchange
   target: ETH
+- base: FREE
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: NXT
 - base: FREE
   market:
     identifier: stocks_exchange

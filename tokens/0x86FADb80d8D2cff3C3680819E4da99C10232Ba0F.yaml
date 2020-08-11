@@ -1,6 +1,6 @@
 ---
 address: '0x86FADb80d8D2cff3C3680819E4da99C10232Ba0F'
-coingecko_rank: 3645
+coingecko_rank: 3647
 coingecko_score: 2.381
 community_score: 9.914
 description: >-
@@ -44,7 +44,12 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: BTC
+- base: USDT
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: VIDT
   market:
     identifier: eterbase
     name: Eterbase
@@ -54,17 +59,12 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
-- base: PARETO
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
-- base: USDT
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: EBASE
 - base: FREE
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: PARETO
   market:
     identifier: eterbase
     name: Eterbase
@@ -75,6 +75,11 @@ tickers:
     name: Eterbase
   target: EBASE
 - base: ETH
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: BTC
   market:
     identifier: eterbase
     name: Eterbase

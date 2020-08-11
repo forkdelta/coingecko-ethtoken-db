@@ -35,7 +35,7 @@ links:
     - https://github.com/compound-finance/compound-protocol
   twitter_screen_name: compoundfinance
 liquidity_score: 56.455
-market_cap_rank: 30
+market_cap_rank: 31
 name: Compound
 public_interest_score: 0.103
 symbol: comp
@@ -62,9 +62,19 @@ tickers:
   target: BSC
 - base: COMP
   market:
+    identifier: bkex
+    name: BKEX
+  target: BTC
+- base: COMP
+  market:
     identifier: dex_blue
     name: dex.blue
   target: ETH
+- base: COMP
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
 - base: COMP
   market:
     identifier: hitbtc
@@ -74,6 +84,11 @@ tickers:
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: COMP
+  market:
+    identifier: switcheo
+    name: Switcheo
   target: ETH
 - base: COMP
   market:

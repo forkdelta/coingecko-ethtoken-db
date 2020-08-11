@@ -24,11 +24,16 @@ links:
   telegram_channel_identifier: dentcoin
   twitter_screen_name: dentcoin
 liquidity_score: 36.501
-market_cap_rank: 222
+market_cap_rank: 228
 name: Dent
 public_interest_score: 0.005
 symbol: dent
 tickers:
+- base: DENT
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
 - base: DENT
   market:
     identifier: coinbene
@@ -39,6 +44,11 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: DENT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: DENT
   market:
     identifier: idex
@@ -59,3 +69,8 @@ tickers:
     identifier: uniswap
     name: Uniswap (v2)
   target: ETH
+- base: DENT
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

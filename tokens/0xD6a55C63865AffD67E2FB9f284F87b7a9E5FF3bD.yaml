@@ -26,7 +26,7 @@ links:
     - https://github.com/Mshuu/SwitchDexIssues
   twitter_screen_name: switchag
 liquidity_score: 20.339
-market_cap_rank: 848
+market_cap_rank: 888
 name: Switch
 public_interest_score: 0.004
 symbol: esh
@@ -58,6 +58,21 @@ tickers:
   target: BTC
 - base: ESH
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: ESH
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: ESH
+  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: ESH
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
