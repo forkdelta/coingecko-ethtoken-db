@@ -45,11 +45,26 @@ links:
   telegram_channel_identifier: okexofficial_en
   twitter_screen_name: okex_
 liquidity_score: 65.93
-market_cap_rank: 16
+market_cap_rank: 15
 name: OKB
 public_interest_score: 0.915
 symbol: okb
 tickers:
+- base: OKB
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: OKB
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: OKB
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: UST
 - base: OKB
   market:
     identifier: coinall
@@ -57,14 +72,14 @@ tickers:
   target: BTC
 - base: OKB
   market:
-    identifier: coinall
-    name: CoinAll
-  target: ETH
-- base: OKB
+    identifier: finexbox
+    name: FinexBox
+  target: BTC
+- base: EGT
   market:
-    identifier: coinall
-    name: CoinAll
-  target: USDT
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: WXT
   market:
     identifier: okex

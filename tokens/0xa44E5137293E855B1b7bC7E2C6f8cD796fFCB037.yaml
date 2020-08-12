@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: sentinel_co
   twitter_screen_name: Sentinel_co
 liquidity_score: 2.965
-market_cap_rank: 531
+market_cap_rank: 532
 name: Sentinel
 public_interest_score: 0.001
 symbol: sent
 tickers:
+- base: SENT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: SENT
   market:
     identifier: yobit
@@ -61,3 +66,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: SENT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

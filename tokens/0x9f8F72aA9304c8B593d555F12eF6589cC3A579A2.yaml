@@ -85,11 +85,6 @@ tickers:
   target: DAI
 - base: MKR
   market:
-    identifier: cybex
-    name: Cybex DEX
-  target: ETH
-- base: MKR
-  market:
     identifier: deversifi
     name: 'Deversifi '
   target: ETH
@@ -110,18 +105,8 @@ tickers:
   target: BTC
 - base: MKR
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
-- base: MKR
-  market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: MKR
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: MKR
   market:
@@ -135,9 +120,14 @@ tickers:
   target: LTC
 - base: MKR
   market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: MKR
+  market:
     identifier: switcheo
     name: Switcheo
-  target: DAI
+  target: ETH
 - base: MKR
   market:
     identifier: tokenlon
@@ -158,8 +148,3 @@ tickers:
     identifier: zebitex
     name: Zebitex
   target: USDT
-- base: MKR
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

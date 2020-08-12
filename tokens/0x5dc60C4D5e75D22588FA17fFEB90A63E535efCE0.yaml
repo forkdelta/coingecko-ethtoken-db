@@ -33,8 +33,18 @@ name: dKargo
 public_interest_score: 0.001
 symbol: dka
 tickers:
+- base: DKA
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
 - base: 0X5DC60C4D5E75D22588FA17FFEB90A63E535EFCE0
   market:
     identifier: uniswap
     name: Uniswap (v2)
   target: ETH
+- base: DKA
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

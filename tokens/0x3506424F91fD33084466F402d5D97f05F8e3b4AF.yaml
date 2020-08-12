@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: chiliz_io
   twitter_screen_name: chiliz
 liquidity_score: 50.722
-market_cap_rank: 126
+market_cap_rank: 121
 name: Chiliz
 public_interest_score: 0.007
 symbol: chz
 tickers:
+- base: CHZ-ECD
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: CHZ
   market:
     identifier: bitfinex
@@ -43,11 +48,6 @@ tickers:
   target: UST
 - base: CHZ
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: BSC
-- base: CHZ
-  market:
     identifier: bitubu
     name: Bitubu Exchange
   target: USDT
@@ -55,9 +55,9 @@ tickers:
   market:
     identifier: exmo
     name: EXMO
-  target: EXM
+  target: BTC
 - base: CHZ
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
+    identifier: exmo
+    name: EXMO
+  target: EXM

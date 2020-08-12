@@ -31,16 +31,6 @@ symbol: san
 tickers:
 - base: SAN
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
-- base: SAN
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: ETH
-- base: SAN
-  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
@@ -48,6 +38,11 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0X7C5A0CE9267ED19B22F8CAE653F198E3E8DAF098
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH
 - base: SAN
   market:
@@ -63,22 +58,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: SAN
-  market:
-    identifier: yobit
-    name: YoBit
   target: ETH
 - base: SAN
   market:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: SAN
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: SAN
   market:
     identifier: yobit

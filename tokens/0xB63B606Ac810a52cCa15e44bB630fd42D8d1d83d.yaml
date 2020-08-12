@@ -67,7 +67,7 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 54.257
-market_cap_rank: 110
+market_cap_rank: 111
 name: MCO
 public_interest_score: 0.192
 symbol: mco
@@ -79,26 +79,6 @@ tickers:
   target: INR
 - base: MCO
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: MCO
-  market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: BTC
-- base: MCO
-  market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: ETH
-- base: MCO
-  market:
-    identifier: dextrade
-    name: Dex-Trade
-  target: USDT
-- base: MCO
-  market:
     identifier: fatbtc
     name: FatBTC
   target: USDT
@@ -107,11 +87,6 @@ tickers:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: MCO
-  market:
-    identifier: gopax
-    name: GoPax
-  target: BTC
 - base: MCO
   market:
     identifier: hitbtc
@@ -126,7 +101,7 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
+  target: BTC
 - base: MCO
   market:
     identifier: idex
@@ -147,20 +122,30 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
+- base: 0XB63B606AC810A52CCA15E44BB630FD42D8D1D83D
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: MCO
   market:
-    identifier: okex_korea
-    name: OKEx Korea
+    identifier: probit
+    name: ProBit
+  target: KRW
+- base: MCO
+  market:
+    identifier: probit
+    name: ProBit
   target: USDT
+- base: 0XB63B606AC810A52CCA15E44BB630FD42D8D1D83D
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: MCO
   market:
-    identifier: unnamed
-    name: Unnamed
-  target: DOGE
-- base: MCO
-  market:
-    identifier: unnamed
-    name: Unnamed
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
 - base: MCO
   market:
@@ -186,19 +171,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: MCO
-  market:
-    identifier: yobit
-    name: YoBit
   target: USD
 - base: MCO
   market:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: MCO
-  market:
-    identifier: zb
-    name: ZB
-  target: QC

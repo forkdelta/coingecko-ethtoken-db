@@ -57,13 +57,33 @@ name: VNDC
 public_interest_score: 0.012
 symbol: vndc
 tickers:
-- base: BTC
-  market:
-    identifier: exmarkets
-    name: ExMarkets
-  target: VNDC
 - base: ETH
   market:
     identifier: exmarkets
     name: ExMarkets
   target: VNDC
+- base: BTC
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: VNDC
+- base: DDK
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: VNDC
+- base: VNDC
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: BTC
+- base: VNDC
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: ETH
+- base: VNDC
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: USDT

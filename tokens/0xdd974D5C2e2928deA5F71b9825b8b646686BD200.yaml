@@ -95,11 +95,6 @@ tickers:
   target: BSC
 - base: KNC
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: EUR
-- base: KNC
-  market:
     identifier: gopax
     name: GoPax
   target: BTC
@@ -143,6 +138,16 @@ tickers:
     identifier: okex_korea
     name: OKEx Korea
   target: USDT
+- base: 0XDD974D5C2E2928DEA5F71B9825B8B646686BD200
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: KNC
+  market:
+    identifier: tokenlon
+    name: Tokenlon
+  target: ETH
 - base: IMBTC
   market:
     identifier: tokenlon
@@ -153,6 +158,11 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: USDT
+- base: KNC
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
 - base: KNC
   market:
     identifier: vindax

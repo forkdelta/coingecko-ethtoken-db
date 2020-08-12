@@ -27,8 +27,13 @@ links:
   - https://tether.to/
   twitter_screen_name: tethergold
 liquidity_score: 33.457
-market_cap_rank: 101
+market_cap_rank: 103
 name: Tether Gold
 public_interest_score: 0.024
 symbol: xaut
-tickers: []
+tickers:
+- base: XAUT
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: USDT

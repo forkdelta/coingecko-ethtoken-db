@@ -32,16 +32,6 @@ symbol: ieth
 tickers:
 - base: IETH
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
-- base: IETH
-  market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
-- base: IETH
-  market:
     identifier: mercatox
     name: Mercatox
   target: BTC
@@ -50,13 +40,23 @@ tickers:
     identifier: saturn_network
     name: Saturn Network
   target: ETH
-- base: 0X859A9C0B44CB7066D956A958B0B82E54C9E44B4B
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
 - base: IETH
   market:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: IETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

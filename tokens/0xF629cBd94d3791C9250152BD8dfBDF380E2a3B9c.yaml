@@ -62,7 +62,7 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 47.85
-market_cap_rank: 61
+market_cap_rank: 66
 name: Enjin Coin
 public_interest_score: 0.017
 symbol: enj
@@ -109,6 +109,11 @@ tickers:
   target: KRW
 - base: ENJ
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: ENJ
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -127,6 +132,11 @@ tickers:
     identifier: nice_hash
     name: NiceHash
   target: BTC
+- base: 0XF629CBD94D3791C9250152BD8DFBDF380E2A3B9C
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: ENJ
   market:
     identifier: stocks_exchange
@@ -139,9 +149,9 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
 - base: ENJ
   market:
     identifier: zero_ex

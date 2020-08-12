@@ -34,11 +34,16 @@ links:
   telegram_channel_identifier: uquidcoinofficial
   twitter_screen_name: UquidC
 liquidity_score: 43.46
-market_cap_rank: 269
+market_cap_rank: 273
 name: Uquid Coin
 public_interest_score: 0.001
 symbol: uqc
 tickers:
+- base: UQC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: UQC
   market:
     identifier: coinsuper
@@ -51,11 +56,6 @@ tickers:
   target: USDT
 - base: UQC
   market:
-    identifier: exrates
-    name: Exrates
-  target: USD
-- base: UQC
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -64,8 +64,3 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USDT
-- base: UQC
-  market:
-    identifier: probit
-    name: ProBit
-  target: ETH
