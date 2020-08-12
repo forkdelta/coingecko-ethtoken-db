@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: wax_io
   twitter_screen_name: WAX_io
 liquidity_score: 34.571
-market_cap_rank: 153
+market_cap_rank: 157
 name: WAX
 public_interest_score: 0.039
 symbol: waxp
@@ -67,20 +67,25 @@ tickers:
   target: ETH
 - base: WAX
   market:
-    identifier: forkdelta
-    name: ForkDelta
-  target: ETH
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: WAX
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: 6E25E8AB-5779-4543-855B-71F4857B47D5
   market:
     identifier: lykke
     name: Lykke
   target: BTC
-- base: KARMA
+- base: BET
   market:
     identifier: newdex
     name: Newdex
   target: WAX
-- base: BET
+- base: KARMA
   market:
     identifier: newdex
     name: Newdex
@@ -90,3 +95,8 @@ tickers:
     identifier: uniswap
     name: Uniswap (v2)
   target: ETH
+- base: WAXP
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

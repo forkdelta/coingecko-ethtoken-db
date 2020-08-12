@@ -72,7 +72,7 @@ links:
   subreddit_url: https://www.reddit.com/r/livepeer
   twitter_screen_name: LivepeerOrg
 liquidity_score: 19.46
-market_cap_rank: 301
+market_cap_rank: 285
 name: Livepeer
 public_interest_score: 0.006
 symbol: lpt
@@ -82,8 +82,18 @@ tickers:
     identifier: c_patex
     name: C-Patex
   target: LTC
+- base: LPT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: 0X58B6A8A3302369DAEC383334672404EE733AB239
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: LPT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

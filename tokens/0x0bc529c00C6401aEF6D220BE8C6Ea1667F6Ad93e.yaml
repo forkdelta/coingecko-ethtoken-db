@@ -27,16 +27,26 @@ links:
     - https://github.com/iearn-finance/yswap-finance
   twitter_screen_name: iearnfinance
 liquidity_score: 48.488
-market_cap_rank: 66
+market_cap_rank: 69
 name: yearn.finance
 public_interest_score: 0.019
 symbol: yfi
 tickers:
+- base: 0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: YFI
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: YFI
+  market:
+    identifier: biki
+    name: BiKi
+  target: ETH
 - base: YFI
   market:
     identifier: bitcratic
@@ -54,9 +64,9 @@ tickers:
   target: ETH
 - base: YFI
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: EUR
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
 - base: YFI
   market:
     identifier: idex

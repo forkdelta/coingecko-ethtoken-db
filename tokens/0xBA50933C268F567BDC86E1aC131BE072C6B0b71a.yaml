@@ -34,6 +34,11 @@ name: ARPA Chain
 public_interest_score: 0.004
 symbol: arpa
 tickers:
+- base: ARPA-575
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: ARPA
   market:
     identifier: hanbitco
@@ -44,8 +49,3 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: ARPA
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: HT

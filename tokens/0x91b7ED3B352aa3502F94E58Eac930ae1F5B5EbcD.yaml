@@ -19,7 +19,12 @@ name: CNY Tether
 public_interest_score: 0.0
 symbol: cnyt
 tickers:
-- base: JMT
+- base: BBGC
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: ABO
   market:
     identifier: exx
     name: EXX
@@ -29,7 +34,7 @@ tickers:
     identifier: exx
     name: EXX
   target: CNYT
-- base: BBGC
+- base: LBT
   market:
     identifier: exx
     name: EXX

@@ -69,6 +69,11 @@ name: iExec RLC
 public_interest_score: 0.006
 symbol: rlc
 tickers:
+- base: 0X607F4C5BB672230E8672085532F7E901544A7375
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: RLC
   market:
     identifier: bancor
@@ -76,9 +81,14 @@ tickers:
   target: BNT
 - base: RLC
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: EUR
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
+- base: RLC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: RLC
   market:
     identifier: idex
@@ -108,4 +118,9 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: RLC
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

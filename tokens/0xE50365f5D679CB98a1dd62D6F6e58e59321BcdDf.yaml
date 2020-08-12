@@ -41,12 +41,22 @@ links:
   telegram_channel_identifier: latoken
   twitter_screen_name: latokens
 liquidity_score: 18.153
-market_cap_rank: 653
+market_cap_rank: 647
 name: LATOKEN
 public_interest_score: 0.089
 symbol: la
 tickers:
+- base: LA
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: KNT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: LA
+- base: EVY
   market:
     identifier: latoken
     name: LATOKEN
@@ -72,11 +82,6 @@ tickers:
     name: LATOKEN
   target: LA
 - base: FSHN
-  market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
-- base: UTD
   market:
     identifier: latoken
     name: LATOKEN

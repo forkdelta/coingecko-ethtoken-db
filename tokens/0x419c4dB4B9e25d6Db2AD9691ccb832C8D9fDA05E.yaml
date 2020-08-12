@@ -58,11 +58,16 @@ links:
   telegram_channel_identifier: dragontalk
   twitter_screen_name: dragonchaingang
 liquidity_score: 18.775
-market_cap_rank: 274
+market_cap_rank: 275
 name: Dragonchain
 public_interest_score: 0.007
 symbol: drgn
 tickers:
+- base: DRGN
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: DRN
   market:
     identifier: bitfinex
@@ -73,11 +78,6 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: DRGN
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
 - base: DRGN
   market:
     identifier: livecoin

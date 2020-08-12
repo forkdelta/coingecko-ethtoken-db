@@ -50,7 +50,7 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 40.322
-market_cap_rank: 255
+market_cap_rank: 261
 name: Loom Network
 public_interest_score: 0.003
 symbol: loom
@@ -70,16 +70,21 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: USDB
-- base: LOO
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: LOOM
   market:
     identifier: gopax
     name: GoPax
   target: BTC
+- base: LOOM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: LOOM
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: LOOM
   market:
     identifier: idex
@@ -99,11 +104,6 @@ tickers:
   market:
     identifier: tokenlon
     name: Tokenlon
-  target: ETH
-- base: LOOM
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
   target: ETH
 - base: LOOM
   market:
@@ -135,11 +135,6 @@ tickers:
     identifier: zebitex
     name: Zebitex
   target: BTC
-- base: LOOM
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: ETH
 - base: LOOM
   market:
     identifier: zebitex

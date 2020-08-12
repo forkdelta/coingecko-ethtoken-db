@@ -25,4 +25,24 @@ market_cap_rank: null
 name: FinexboxToken
 public_interest_score: 0.029
 symbol: fnb
-tickers: []
+tickers:
+- base: FNB
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: BTC
+- base: XLM
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: FNB
+- base: WAVES
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: FNB
+- base: ETN
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: FNB

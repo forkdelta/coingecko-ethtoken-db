@@ -68,11 +68,21 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 28.059
-market_cap_rank: 323
+market_cap_rank: 326
 name: DigixDAO
 public_interest_score: 0.008
 symbol: dgd
 tickers:
+- base: DGD
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: DGD
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
 - base: DGD
   market:
     identifier: coinbene
@@ -90,11 +100,6 @@ tickers:
   target: ETH
 - base: DGD
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
-- base: DGD
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -103,11 +108,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USD
-- base: 0XE0B7927C4AF23765CB51314A0E0521A9645F0E2A
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
 - base: DGD
   market:
     identifier: uniswap_v1

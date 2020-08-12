@@ -27,7 +27,7 @@ links:
   - http://www.freecoin.technology
   twitter_screen_name: THE_FREE_COIN
 liquidity_score: 1.0
-market_cap_rank: 952
+market_cap_rank: 969
 name: FREE coin
 public_interest_score: 0.002
 symbol: free
@@ -59,9 +59,9 @@ tickers:
   target: USDT
 - base: FREE
   market:
-    identifier: catex
-    name: Catex
-  target: USDT
+    identifier: coinsbit
+    name: Coinsbit
+  target: BTC
 - base: FREE
   market:
     identifier: coinsbit
@@ -77,6 +77,11 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EBASE
+- base: FREE
+  market:
+    identifier: finexbox
+    name: FinexBox
+  target: DOGE
 - base: FREE
   market:
     identifier: hotbit
@@ -104,6 +109,11 @@ tickers:
   target: USD
 - base: FREE
   market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: FREE
+  market:
     identifier: satoexchange
     name: SatoExchange
   target: ETH
@@ -112,11 +122,6 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: NXT
-- base: FREE
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
 - base: 0X2F141CE366A2462F02CEA3D12CF93E4DCA49E4FD
   market:
     identifier: uniswap

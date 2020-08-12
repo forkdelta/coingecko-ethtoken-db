@@ -37,7 +37,7 @@ links:
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
 liquidity_score: 41.007
-market_cap_rank: 178
+market_cap_rank: 180
 name: Tellor
 public_interest_score: 0.003
 symbol: trb
@@ -46,7 +46,12 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
-  target: DAI
+  target: USDC
+- base: TRB
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: TRB
   market:
     identifier: eterbase
