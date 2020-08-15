@@ -30,28 +30,33 @@ links:
   telegram_channel_identifier: Monolith_Web3
   twitter_screen_name: monolith_web3
 liquidity_score: 21.801
-market_cap_rank: 267
+market_cap_rank: 252
 name: Monolith
 public_interest_score: 0.004
 symbol: tkn
 tickers:
+- base: 0XAAAF91D9B90DF800DF4F55C205FD6989C977E73A
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: TKN
   market:
-    identifier: idex
-    name: Idex
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: TKN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: TKN
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: TKN
+- base: 0XAAAF91D9B90DF800DF4F55C205FD6989C977E73A
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USD
-- base: TKN
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USDT
+    identifier: one_inch
+    name: 1inch
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0xFFc63b9146967A1ba33066fB057EE3722221aCf0'
-coingecko_rank: 1821
+coingecko_rank: 1820
 coingecko_score: 11.892
 community_score: 9.726
 description: >-
@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: alpha_token
   twitter_screen_name: Alpha_Token
 liquidity_score: 1.0
-market_cap_rank: 1247
+market_cap_rank: 1221
 name: Alpha Token
 public_interest_score: 0.0
 symbol: a
@@ -50,6 +50,11 @@ tickers:
   target: BTC
 - base: A
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: A
+  market:
     identifier: resfinex
     name: Resfinex
   target: BTC
@@ -65,11 +70,6 @@ tickers:
   target: GRT
 - base: A
   market:
-    identifier: resfinex
-    name: Resfinex
-  target: USDT
-- base: A
-  market:
     identifier: satoexchange
     name: SatoExchange
   target: BTC
@@ -77,9 +77,4 @@ tickers:
   market:
     identifier: satoexchange
     name: SatoExchange
-  target: ETH
-- base: 0XFFC63B9146967A1BA33066FB057EE3722221ACF0
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
   target: ETH

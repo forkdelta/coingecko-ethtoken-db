@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: maticnetwork
   twitter_screen_name: maticnetwork
 liquidity_score: 48.84
-market_cap_rank: 107
+market_cap_rank: 103
 name: Matic Network
 public_interest_score: 0.023
 symbol: matic
@@ -61,11 +61,41 @@ tickers:
   target: BSC
 - base: MATIC
   market:
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: MATIC
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: GBP
+- base: MATIC
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: MATIC
+  market:
     identifier: fatbtc
     name: FatBTC
   target: USDT
 - base: MATIC
   market:
-    identifier: zebpay
-    name: Zebpay
-  target: AUD
+    identifier: hpx
+    name: HPX
+  target: CNYT
+- base: MATIC
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: MATIC
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: TRX

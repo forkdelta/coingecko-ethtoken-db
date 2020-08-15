@@ -1,6 +1,6 @@
 ---
 address: '0xF41e5Fbc2F6Aac200Dd8619E121CE1f05D150077'
-coingecko_rank: 1441
+coingecko_rank: 1440
 coingecko_score: 15.361
 community_score: 7.862
 description: >-
@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: crycash
   twitter_screen_name: cry_cash
 liquidity_score: 1.0
-market_cap_rank: 1058
+market_cap_rank: 1050
 name: CRYCASH
 public_interest_score: 0.0
 symbol: crc
@@ -39,7 +39,17 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
+  target: ETH
+- base: CRC
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: USD
+- base: CRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: CRC
   market:
     identifier: yobit

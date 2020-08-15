@@ -27,8 +27,18 @@ links:
   telegram_channel_identifier: te_food
   twitter_screen_name: TE_FOOD
 liquidity_score: 14.778
-market_cap_rank: 305
+market_cap_rank: 296
 name: TE-FOOD
 public_interest_score: 0.0
 symbol: tfd
-tickers: []
+tickers:
+- base: 0XE5F166C0D8872B68790061317BB6CCA04582C912
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: TFD
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0xBA50933C268F567BDC86E1aC131BE072C6B0b71a'
-coingecko_rank: 1893
+coingecko_rank: 1892
 coingecko_score: 11.338
 community_score: 10.839
 description: >-
@@ -34,11 +34,6 @@ name: ARPA Chain
 public_interest_score: 0.004
 symbol: arpa
 tickers:
-- base: ARPA-575
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: BNB
 - base: ARPA
   market:
     identifier: hanbitco
@@ -46,6 +41,11 @@ tickers:
   target: BTC
 - base: ARPA
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: hanbitco
+    name: Hanbitco
+  target: USDT
+- base: ARPA
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: HT

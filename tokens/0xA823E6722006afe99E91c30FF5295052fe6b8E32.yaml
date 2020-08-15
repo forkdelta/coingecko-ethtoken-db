@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: neufund
   twitter_screen_name: neufundorg
 liquidity_score: 5.625
-market_cap_rank: 525
+market_cap_rank: 533
 name: Neumark
 public_interest_score: 0.002
 symbol: neu
@@ -46,11 +46,6 @@ tickers:
   target: EUR
 - base: NEU
   market:
-    identifier: bitbay
-    name: BitBay
-  target: USD
-- base: NEU
-  market:
     identifier: hitbtc
     name: HitBTC
   target: BTC
@@ -58,27 +53,27 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: USD
+- base: NEU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: NEU
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
-- base: NEU
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: NEU
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: NEU
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: NEU
   market:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: NEU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: NEU
   market:
     identifier: yobit

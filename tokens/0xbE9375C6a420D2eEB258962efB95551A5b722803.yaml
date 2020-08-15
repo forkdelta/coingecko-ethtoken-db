@@ -58,15 +58,25 @@ links:
   telegram_channel_identifier: stormxio
   twitter_screen_name: stormxio
 liquidity_score: 41.443
-market_cap_rank: 242
+market_cap_rank: 245
 name: StormX
 public_interest_score: 0.009
 symbol: stmx
 tickers:
+- base: STMX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: 0XBE9375C6A420D2EEB258962EFB95551A5B722803
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: STMX
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: ETH
 - base: STORM
   market:
@@ -83,3 +93,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: STORM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

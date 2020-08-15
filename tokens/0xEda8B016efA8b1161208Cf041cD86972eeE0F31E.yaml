@@ -1,6 +1,6 @@
 ---
 address: '0xEda8B016efA8b1161208Cf041cD86972eeE0F31E'
-coingecko_rank: 1685
+coingecko_rank: 1684
 coingecko_score: 13.008
 community_score: 9.405
 description: >-
@@ -21,21 +21,26 @@ links:
   telegram_channel_identifier: IHTcoin
   twitter_screen_name: ihtcoin
 liquidity_score: 1.0
-market_cap_rank: 804
+market_cap_rank: 824
 name: IHT Real Estate Protocol
 public_interest_score: 0.001
 symbol: iht
 tickers:
 - base: IHT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: IHT
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: IHT
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: IHT
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: IHT
   market:
     identifier: probit

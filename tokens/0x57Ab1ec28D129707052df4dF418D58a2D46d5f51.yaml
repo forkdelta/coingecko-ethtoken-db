@@ -27,22 +27,27 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 42.727
-market_cap_rank: 155
+market_cap_rank: 146
 name: sUSD
 public_interest_score: 0.039
 symbol: susd
 tickers:
 - base: SUSD
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: SUSD
-  market:
-    identifier: kucoin
-    name: KuCoin
+    identifier: mesa
+    name: ' Gnosis Protocol'
   target: ETH
-- base: SEOS
+- base: SBCH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IADA
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IBNB
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -52,32 +57,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SXRP
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: ILINK
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SBNB
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SLTC
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
 - base: SCEX
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: STRX
+- base: ILINK
   market:
     identifier: synthetix
     name: Synthetix Exchange

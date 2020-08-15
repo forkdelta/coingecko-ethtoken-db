@@ -23,13 +23,33 @@ links:
   - https://nexusmutual.io/
   twitter_screen_name: NexusMutual
 liquidity_score: 39.934
-market_cap_rank: 496
+market_cap_rank: 441
 name: Wrapped NXM
 public_interest_score: 0.008
 symbol: wnxm
 tickers:
+- base: WNXM
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: NXM
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: WNXM
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

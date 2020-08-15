@@ -52,11 +52,26 @@ links:
   telegram_channel_identifier: oceanprotocol
   twitter_screen_name: oceanprotocol
 liquidity_score: 44.043
-market_cap_rank: 83
+market_cap_rank: 85
 name: Ocean Protocol
 public_interest_score: 0.009
 symbol: ocean
 tickers:
+- base: OCEAN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: OCEAN
+  market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: OCEAN
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EUR
 - base: 0X985DD3D42DE1E256D09E1C10F112BCCB8015AD41
   market:
     identifier: one_inch

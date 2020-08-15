@@ -34,13 +34,18 @@ symbol: bzrx
 tickers:
 - base: BZRX
   market:
+    identifier: bigone
+    name: BigONE
+  target: USDT
+- base: BZRX
+  market:
     identifier: dex_blue
     name: dex.blue
   target: ETH
-- base: BZRX
+- base: 0X56D811088235F11C8920698A204A5010A788F4B3
   market:
-    identifier: loopring
-    name: Loopring
+    identifier: mooniswap
+    name: Mooniswap
   target: ETH
 - base: BZRX
   market:

@@ -1,6 +1,6 @@
 ---
 address: '0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E'
-coingecko_rank: 1251
+coingecko_rank: 1250
 coingecko_score: 17.129
 community_score: 33.959
 description: >-
@@ -46,9 +46,29 @@ symbol: kick
 tickers:
 - base: KICK
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: KICK
+  market:
     identifier: idex
     name: Idex
   target: ETH
+- base: 0XC12D1C73EE7DC3615BA4E37E4ABFDBDDFA38907E
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: KICK
   market:
     identifier: yobit

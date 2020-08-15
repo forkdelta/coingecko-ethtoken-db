@@ -30,21 +30,11 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 52.409
-market_cap_rank: 53
+market_cap_rank: 55
 name: REN
 public_interest_score: 0.012
 symbol: ren
 tickers:
-- base: REN
-  market:
-    identifier: altilly
-    name: Altilly
-  target: XQR
-- base: 0X408E41876CCCDC0F92210600EF50372656052A38
-  market:
-    identifier: balancer
-    name: Balancer
-  target: DAI
 - base: 0X408E41876CCCDC0F92210600EF50372656052A38
   market:
     identifier: balancer
@@ -65,6 +55,16 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: 0X408E41876CCCDC0F92210600EF50372656052A38
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: REN
+  market:
+    identifier: whale_ex
+    name: WhaleEx
+  target: USDT
 - base: REN
   market:
     identifier: zero_ex
