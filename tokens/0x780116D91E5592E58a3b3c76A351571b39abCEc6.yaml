@@ -1,6 +1,6 @@
 ---
 address: '0x780116D91E5592E58a3b3c76A351571b39abCEc6'
-coingecko_rank: 1579
+coingecko_rank: 1578
 coingecko_score: 13.886
 community_score: 15.225
 description: >-
@@ -72,8 +72,18 @@ links:
   telegram_channel_identifier: goblockparty
   twitter_screen_name: goblockparty
 liquidity_score: 1.0
-market_cap_rank: 1794
+market_cap_rank: 1803
 name: Blockparty
 public_interest_score: 0.0
 symbol: boxx
-tickers: []
+tickers:
+- base: BOXX
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: 0X780116D91E5592E58A3B3C76A351571B39ABCEC6
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

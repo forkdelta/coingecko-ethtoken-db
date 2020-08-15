@@ -57,7 +57,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 41.394
-market_cap_rank: 222
+market_cap_rank: 194
 name: Storj
 public_interest_score: 0.015
 symbol: storj
@@ -66,16 +66,6 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
-  target: ETH
-- base: STORJ
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
-- base: STORJ
-  market:
-    identifier: gate
-    name: Gate.io
   target: ETH
 - base: STORJ
   market:
@@ -89,9 +79,14 @@ tickers:
   target: CNYT
 - base: STORJ
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: USDT
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: STORJ
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: STORJ
   market:
     identifier: livecoin
@@ -102,11 +97,16 @@ tickers:
     identifier: lykke
     name: Lykke
   target: BTC
-- base: STORJ
+- base: CE7741E2-041E-4DB0-A4F1-4FAA012ADF18
   market:
-    identifier: nice_hash
-    name: NiceHash
-  target: BTC
+    identifier: lykke
+    name: Lykke
+  target: ETH
+- base: 0XB64EF51C888972C908CFACF59B47C1AFBC0AB8AC
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: STORJ
   market:
     identifier: uniswap_v1
@@ -121,7 +121,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: BTC
 - base: STORJ
   market:
     identifier: yobit
@@ -131,14 +131,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: STORJ
-  market:
-    identifier: yobit
-    name: YoBit
   target: USD
-- base: STORJ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

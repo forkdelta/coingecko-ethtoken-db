@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: CryptoComOfficial
   twitter_screen_name: cryptocom
 liquidity_score: 62.371
-market_cap_rank: 11
+market_cap_rank: 12
 name: Crypto.com Coin
 public_interest_score: 0.192
 symbol: cro
@@ -51,21 +51,6 @@ tickers:
   target: ETH
 - base: CRO
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: EUR
-- base: CRO
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: USDT
-- base: CRO
-  market:
-    identifier: coindcx
-    name: CoinDCX
-  target: INR
-- base: CRO
-  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -78,7 +63,22 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: HT
+  target: USDT
+- base: CRO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CRO
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: ETH
+- base: CRO
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USDT
 - base: CRO
   market:
     identifier: oceanex
@@ -93,9 +93,4 @@ tickers:
   market:
     identifier: uniswap
     name: Uniswap (v2)
-  target: ETH
-- base: CRO
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
   target: ETH

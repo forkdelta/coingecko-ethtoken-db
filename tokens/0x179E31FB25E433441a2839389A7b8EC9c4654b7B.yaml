@@ -1,6 +1,6 @@
 ---
 address: '0x179E31FB25E433441a2839389A7b8EC9c4654b7B'
-coingecko_rank: 3294
+coingecko_rank: 3293
 coingecko_score: 3.583
 community_score: 9.907
 description: >-
@@ -41,6 +41,16 @@ symbol: snb
 tickers:
 - base: SNB
   market:
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: SNB
+  market:
+    identifier: coinsbit
+    name: Coinsbit
+  target: USDT
+- base: SNB
+  market:
     identifier: livecoin
     name: Livecoin
   target: BTC
@@ -64,3 +74,13 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: BTC
+- base: SNB
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: SNB
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

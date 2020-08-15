@@ -1,6 +1,6 @@
 ---
 address: '0x80A7E048F37A50500351C204Cb407766fA3baE7f'
-coingecko_rank: 1325
+coingecko_rank: 1324
 coingecko_score: 16.41
 community_score: 0.0
 description: >-
@@ -26,8 +26,18 @@ links:
   telegram_channel_identifier: crypterium
   twitter_screen_name: crypterium
 liquidity_score: 16.592
-market_cap_rank: 236
+market_cap_rank: 245
 name: Crypterium
 public_interest_score: 0.032
 symbol: crpt
-tickers: []
+tickers:
+- base: CRPT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: CRPT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH

@@ -1,6 +1,6 @@
 ---
 address: '0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6'
-coingecko_rank: 1188
+coingecko_rank: 1187
 coingecko_score: 17.7
 community_score: 11.221
 description: >-
@@ -23,7 +23,7 @@ links:
   - https://www.synthetix.io
   twitter_screen_name: synthetix_io
 liquidity_score: 13.622
-market_cap_rank: 312
+market_cap_rank: 313
 name: sBTC
 public_interest_score: 0.039
 symbol: sbtc
@@ -33,6 +33,11 @@ tickers:
     identifier: curve
     name: Curve Finance
   target: RENBTC
+- base: WBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SBTC
 - base: RENBTC
   market:
     identifier: curve
@@ -49,6 +54,11 @@ tickers:
     name: 1inch
   target: ETH
 - base: IBTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
+- base: SXMR
   market:
     identifier: synthetix
     name: Synthetix Exchange

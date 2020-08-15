@@ -42,16 +42,26 @@ links:
     - https://github.com/balancer-labs/pool-management
   twitter_screen_name: BalancerLabs
 liquidity_score: 46.502
-market_cap_rank: 81
+market_cap_rank: 86
 name: Balancer
 public_interest_score: 0.016
 symbol: bal
 tickers:
+- base: 0XBA100000625A3754423978A60C9317C58A424E3D
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: BAL
   market:
     identifier: bilaxy
     name: Bilaxy
   target: ETH
+- base: BAL
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
 - base: BAL
   market:
     identifier: dex_blue
@@ -64,29 +74,39 @@ tickers:
   target: EBASE
 - base: BAL
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: BAL
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
-- base: BAL
-  market:
-    identifier: idcm
-    name: IDCM
   target: USDT
 - base: BAL
   market:
     identifier: idex
     name: Idex
   target: ETH
+- base: 0XBA100000625A3754423978A60C9317C58A424E3D
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: BAL
   market:
     identifier: stocks_exchange
     name: STEX
   target: ETH
+- base: BAL
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
+- base: BAL
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT
 - base: BAL
   market:
     identifier: whale_ex

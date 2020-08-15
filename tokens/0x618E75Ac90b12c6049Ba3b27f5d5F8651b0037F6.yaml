@@ -60,16 +60,16 @@ links:
   telegram_channel_identifier: QUOINENews
   twitter_screen_name: Liquid_Global
 liquidity_score: 28.723
-market_cap_rank: 291
+market_cap_rank: 307
 name: QASH
 public_interest_score: 0.0
 symbol: qash
 tickers:
-- base: QASH
+- base: QSH
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: QASH
   market:
     identifier: gopax
@@ -77,10 +77,25 @@ tickers:
   target: BTC
 - base: QASH
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: QASH
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
-- base: ETN
+- base: QASH
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
+  target: AUD
+- base: LIKE
   market:
     identifier: quoine
     name: Liquid
@@ -95,18 +110,18 @@ tickers:
     identifier: quoine
     name: Liquid
   target: QASH
+- base: CRPT
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: ETN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: QASH
   market:
-    identifier: zebitex
-    name: Zebitex
-  target: BTC
-- base: QASH
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: ETH
-- base: QASH
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: USDT
+    identifier: quoine
+    name: Liquid
+  target: SGD

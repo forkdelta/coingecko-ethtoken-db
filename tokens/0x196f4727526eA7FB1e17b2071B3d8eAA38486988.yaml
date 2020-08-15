@@ -39,11 +39,16 @@ links:
   subreddit_url: https://www.reddit.com/r/reserveprotocol
   telegram_channel_identifier: reservecurrency
 liquidity_score: 6.896
-market_cap_rank: 822
+market_cap_rank: 821
 name: Reserve
 public_interest_score: 0.009
 symbol: rsv
 tickers:
+- base: RSV
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT
 - base: RSV
   market:
     identifier: quoine
@@ -53,14 +58,4 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
-  target: EUR
-- base: RSV
-  market:
-    identifier: quoine
-    name: Liquid
   target: USD
-- base: 0X196F4727526EA7FB1E17B2071B3D8EAA38486988
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH

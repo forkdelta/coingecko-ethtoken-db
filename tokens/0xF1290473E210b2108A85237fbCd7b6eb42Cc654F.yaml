@@ -1,6 +1,6 @@
 ---
 address: '0xF1290473E210b2108A85237fbCd7b6eb42Cc654F'
-coingecko_rank: 1982
+coingecko_rank: 1981
 coingecko_score: 10.487
 community_score: 0.0
 description: >-
@@ -42,8 +42,13 @@ name: HedgeTrade
 public_interest_score: 0.031
 symbol: hedg
 tickers:
-- base: 0XF1290473E210B2108A85237FBCD7B6EB42CC654F
+- base: HEDG
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: HEDG
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf'
-coingecko_rank: 1509
+coingecko_rank: 1508
 coingecko_score: 14.583
 community_score: 12.08
 description: >-
@@ -26,7 +26,7 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 2.987
-market_cap_rank: 616
+market_cap_rank: 636
 name: MainCoin
 public_interest_score: 0.001
 symbol: mnc
@@ -40,17 +40,12 @@ tickers:
   market:
     identifier: btc_alpha
     name: BTC-Alpha
+  target: BTC
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
   target: USD
-- base: MNC
-  market:
-    identifier: exmo
-    name: EXMO
-  target: ETH
-- base: MNC
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: ETH
 - base: MNC
   market:
     identifier: livecoin
@@ -73,16 +68,11 @@ tickers:
   target: BTC
 - base: MNC
   market:
+    identifier: sistemkoin
+    name: Sistemkoin
+  target: TRY
+- base: MNC
+  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT

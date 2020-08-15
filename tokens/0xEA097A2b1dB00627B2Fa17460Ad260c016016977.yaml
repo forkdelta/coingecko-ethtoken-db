@@ -1,6 +1,6 @@
 ---
 address: '0xEA097A2b1dB00627B2Fa17460Ad260c016016977'
-coingecko_rank: 2370
+coingecko_rank: 2369
 coingecko_score: 7.745
 community_score: 34.298
 description: >-
@@ -46,11 +46,6 @@ tickers:
   target: XQR
 - base: UFR
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
-- base: UFR
-  market:
     identifier: eterbase
     name: Eterbase
   target: EUR
@@ -61,11 +56,6 @@ tickers:
   target: ETH
 - base: UFR
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: UFR
-  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
@@ -73,7 +63,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
+- base: UFR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: UFR
   market:
     identifier: yobit

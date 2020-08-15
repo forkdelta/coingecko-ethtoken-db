@@ -58,10 +58,10 @@ links:
   blockchain_site:
   - https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239
   - https://ethplorer.io/address/0x58b6a8a3302369daec383334672404ee733ab239
+  - https://explorer.livepeer.org/
   - https://hubble.figment.network/livepeer/chains/mainnet
   chat_url:
   - https://discord.gg/RR4kFAh
-  facebook_username: livepeer
   homepage:
   - https://livepeer.org/
   repos_url:
@@ -70,13 +70,19 @@ links:
     - https://github.com/livepeer/livepeerjs
     - https://github.com/livepeer/protocol
   subreddit_url: https://www.reddit.com/r/livepeer
+  telegram_channel_identifier: livepeerorg
   twitter_screen_name: LivepeerOrg
 liquidity_score: 19.46
-market_cap_rank: 285
+market_cap_rank: 113
 name: Livepeer
 public_interest_score: 0.006
 symbol: lpt
 tickers:
+- base: 0X58B6A8A3302369DAEC383334672404EE733AB239
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: LPT
   market:
     identifier: c_patex
@@ -91,9 +97,4 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
-  target: ETH
-- base: LPT
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
   target: ETH

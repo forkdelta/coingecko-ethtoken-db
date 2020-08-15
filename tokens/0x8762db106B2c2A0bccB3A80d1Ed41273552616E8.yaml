@@ -37,26 +37,31 @@ links:
   telegram_channel_identifier: reservecurrency
   twitter_screen_name: reserveprotocol
 liquidity_score: 46.092
-market_cap_rank: 116
+market_cap_rank: 102
 name: Reserve Rights Token
 public_interest_score: 0.009
 symbol: rsr
 tickers:
 - base: RSR
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com
+  target: BCH
+- base: RSR
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com
+  target: USD
+- base: RSR
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: RSR
+  market:
     identifier: eterbase
     name: Eterbase
   target: EUR
-- base: RSR
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC
-- base: RSR
-  market:
-    identifier: quoine
-    name: Liquid
-  target: USDT
 - base: RSR
   market:
     identifier: switcheo

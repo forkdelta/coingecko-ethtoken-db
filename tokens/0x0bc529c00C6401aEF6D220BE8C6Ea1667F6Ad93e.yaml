@@ -27,7 +27,7 @@ links:
     - https://github.com/iearn-finance/yswap-finance
   twitter_screen_name: iearnfinance
 liquidity_score: 48.488
-market_cap_rank: 69
+market_cap_rank: 83
 name: yearn.finance
 public_interest_score: 0.019
 symbol: yfi
@@ -56,11 +56,11 @@ tickers:
   market:
     identifier: dex_blue
     name: dex.blue
-  target: ETH
+  target: DAI
 - base: YFI
   market:
-    identifier: eterbase
-    name: Eterbase
+    identifier: dex_blue
+    name: dex.blue
   target: ETH
 - base: YFI
   market:
@@ -69,11 +69,16 @@ tickers:
   target: USDT
 - base: YFI
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: YFI
-  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: YFI
+  market:
+    identifier: vinex
+    name: Vinex
+  target: USDT
+- base: YFI
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

@@ -1,6 +1,6 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 2350
+coingecko_rank: 2349
 coingecko_score: 7.86
 community_score: 0.0
 description: >-
@@ -30,12 +30,7 @@ name: WETH
 public_interest_score: 0.003
 symbol: weth
 tickers:
-- base: LINK
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: LEND
+- base: ZRX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -45,27 +40,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: ZRX
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: BAT
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: ENJ
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: ENK
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: VGTG
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -75,7 +50,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: YFI
+- base: WBTC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -85,7 +60,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DIA
+- base: SNX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -95,12 +70,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DXD
+- base: YFI
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: GEN
+- base: MTA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: COMP
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -115,7 +95,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: AQU
+- base: MCB
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DEC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: QNT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -125,17 +115,22 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: TLN
+- base: TRB
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DXD
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DIA
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: AMPL
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: MCB
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -150,57 +145,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: SNX
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: SUSD
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: HEX2T
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: FOAM
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: DONUT
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: DEXT
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: COMP
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: YFL
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: SLP
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: DYT
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: GRG
+- base: ANT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -210,22 +155,47 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: KRS
+- base: HEX2T
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: MTA
+- base: DONUT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DFS
+- base: FOAM
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: FLL
+- base: TLN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: GEN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: YFL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: POWER
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SLP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: GRG
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -235,12 +205,42 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: RWS
+- base: KRS
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: SRC
+- base: LINK
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BAT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: NMR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: YAM
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: FLL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: OCEAN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RWS
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -250,22 +250,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: LEO
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: YFFI
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: YFII
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: BAND
+- base: DNT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -275,12 +260,22 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: TRB
+- base: MKR
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: ANT
+- base: BAND
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DEXT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: OGN
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -290,10 +285,15 @@ tickers:
     identifier: dolomite
     name: Dolomite
   target: USDC
-- base: DEC
+- base: DMG
   market:
     identifier: dolomite
     name: Dolomite
+  target: WETH
+- base: WBTC
+  market:
+    identifier: radar_relay
+    name: Radar Relay
   target: WETH
 - base: USDT
   market:
@@ -305,7 +305,7 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: LINK
+- base: ANT
   market:
     identifier: radar_relay
     name: Radar Relay
@@ -315,12 +315,12 @@ tickers:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: ANT
+- base: FOAM
   market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
-- base: FOAM
+- base: LINK
   market:
     identifier: radar_relay
     name: Radar Relay

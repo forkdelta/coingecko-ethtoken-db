@@ -1,6 +1,6 @@
 ---
 address: '0xdD94842C15abfe4c9bAFE4222adE02896Beb064c'
-coingecko_rank: 4328
+coingecko_rank: 4326
 coingecko_score: 1.616
 community_score: 6.437
 description: >-
@@ -53,4 +53,14 @@ market_cap_rank: null
 name: W Green Pay
 public_interest_score: 0.0
 symbol: wgp
-tickers: []
+tickers:
+- base: WGP
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: WGP
+  market:
+    identifier: gdac
+    name: GDAC
+  target: KRW

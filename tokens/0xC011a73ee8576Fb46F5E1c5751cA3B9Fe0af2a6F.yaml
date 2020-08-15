@@ -55,11 +55,16 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io/
   twitter_screen_name: synthetix_io
 liquidity_score: 55.0
-market_cap_rank: 30
+market_cap_rank: 29
 name: Synthetix Network Token
 public_interest_score: 0.039
 symbol: snx
 tickers:
+- base: 0XC011A73EE8576FB46F5E1C5751CA3B9FE0AF2A6F
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: SNX
   market:
     identifier: bamboo_relay
@@ -75,11 +80,16 @@ tickers:
     identifier: dex_blue
     name: dex.blue
   target: ETH
-- base: HAV
+- base: SNX
   market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: SNX
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: BTC
 - base: SNX
   market:
     identifier: livecoin
@@ -95,13 +105,13 @@ tickers:
     identifier: mesa
     name: ' Gnosis Protocol'
   target: ETH
+- base: 0XC011A73EE8576FB46F5E1C5751CA3B9FE0AF2A6F
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: SNX
   market:
     identifier: poloniex
     name: Poloniex
   target: TRX
-- base: SNX
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH

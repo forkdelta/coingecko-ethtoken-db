@@ -55,7 +55,7 @@ links:
   telegram_channel_identifier: PolymathNetwork
   twitter_screen_name: PolymathNetwork
 liquidity_score: 29.664
-market_cap_rank: 212
+market_cap_rank: 217
 name: Polymath Network
 public_interest_score: 0.005
 symbol: poly
@@ -72,6 +72,11 @@ tickers:
   target: USD
 - base: POLY
   market:
+    identifier: coinbit
+    name: Coinbit
+  target: KRW
+- base: POLY
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
@@ -82,26 +87,11 @@ tickers:
   target: BTC
 - base: POLY
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
-- base: POLY
-  market:
-    identifier: nice_hash
-    name: NiceHash
-  target: BTC
-- base: 0X9992EC3CF6A55B00978CDDF2B27BC6882D88D1EC
-  market:
-    identifier: one_inch
-    name: 1inch
+    identifier: idex
+    name: Idex
   target: ETH
 - base: POLY
   market:
     identifier: uniswap_v1
     name: Uniswap (v1)
   target: ETH
-- base: POLY
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
