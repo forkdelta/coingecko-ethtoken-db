@@ -63,20 +63,40 @@ links:
   subreddit_url: https://www.reddit.com/r/decentraland
   twitter_screen_name: decentraland
 liquidity_score: 52.986
-market_cap_rank: 93
+market_cap_rank: 94
 name: Decentraland
 public_interest_score: 0.023
 symbol: mana
 tickers:
 - base: MANA
   market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
+- base: MANA
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: MANA
+  market:
     identifier: bancor
     name: Bancor Network
   target: BNT
+- base: MNA
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: MANA
   market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: MANA
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: MANA
   market:
@@ -128,6 +148,21 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: USDT
+- base: MANA
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
+- base: MANA
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: MANA
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: MANA
   market:
     identifier: yobit

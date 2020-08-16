@@ -41,7 +41,7 @@ links:
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
 liquidity_score: 44.014
-market_cap_rank: 171
+market_cap_rank: 149
 name: Fantom
 public_interest_score: 0.01
 symbol: ftm
@@ -78,21 +78,6 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: FTM
-  market:
-    identifier: okex_korea
-    name: OKEx Korea
-  target: USDT
-- base: FTM
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH
-- base: FTM
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -100,7 +85,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: FTM
   market:
     identifier: yobit

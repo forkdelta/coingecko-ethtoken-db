@@ -26,11 +26,16 @@ links:
   subreddit_url: https://www.reddit.com/r/AirSwap
   twitter_screen_name: airswap
 liquidity_score: 39.421
-market_cap_rank: 216
+market_cap_rank: 221
 name: AirSwap
 public_interest_score: 0.009
 symbol: ast
 tickers:
+- base: AST
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: AST
   market:
     identifier: bitfinex
@@ -46,8 +51,3 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: AST
-  market:
-    identifier: nice_hash
-    name: NiceHash
-  target: BTC

@@ -66,11 +66,6 @@ symbol: lina
 tickers:
 - base: LINA
   market:
-    identifier: bitmart
-    name: BitMart
-  target: USDT
-- base: LINA
-  market:
     identifier: fatbtc
     name: FatBTC
   target: ETH
@@ -109,6 +104,11 @@ tickers:
     identifier: simex
     name: Simex
   target: USDT
+- base: LINA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: LINA
   market:
     identifier: yobit

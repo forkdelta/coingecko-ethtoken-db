@@ -28,6 +28,11 @@ name: The Tokenized Bitcoin
 public_interest_score: 0.003
 symbol: imbtc
 tickers:
+- base: IMBTC
+  market:
+    identifier: tokenlon
+    name: Tokenlon
+  target: ETH
 - base: EOS
   market:
     identifier: tokenlon
@@ -42,4 +47,14 @@ tickers:
   market:
     identifier: tokenlon
     name: Tokenlon
+  target: USDT
+- base: IMBTC
+  market:
+    identifier: tokenlon
+    name: Tokenlon
   target: WBTC
+- base: 0X3212B29E33587A00FB1C83346F5DBFA69A458923
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

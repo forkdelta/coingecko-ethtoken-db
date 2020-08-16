@@ -34,6 +34,21 @@ name: Measurable Data Token
 public_interest_score: 0.003
 symbol: mdt
 tickers:
+- base: MDT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: MDT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: MDT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: 0X814E0908B12A99FECF5BC101BB5D0B8B5CDF7D26
   market:
     identifier: one_inch

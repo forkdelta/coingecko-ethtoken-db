@@ -62,11 +62,16 @@ links:
   telegram_channel_identifier: enjin_coin
   twitter_screen_name: enjin
 liquidity_score: 47.85
-market_cap_rank: 73
+market_cap_rank: 71
 name: Enjin Coin
 public_interest_score: 0.017
 symbol: enj
 tickers:
+- base: ENJ
+  market:
+    identifier: altilly
+    name: Altilly
+  target: BTC
 - base: 0XF629CBD94D3791C9250152BD8DFBDF380E2A3B9C
   market:
     identifier: balancer
@@ -79,6 +84,11 @@ tickers:
   target: USDC
 - base: ENJ
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ENJ
+  market:
     identifier: bancor
     name: Bancor Network
   target: BNT
@@ -89,11 +99,6 @@ tickers:
   target: USDB
 - base: ENJ
   market:
-    identifier: bibo
-    name: Bibo
-  target: USDT
-- base: ENJ
-  market:
     identifier: coinbit
     name: Coinbit
   target: KRW
@@ -102,6 +107,11 @@ tickers:
     identifier: gopax
     name: GoPax
   target: BTC
+- base: ENJ
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: ENJ
   market:
     identifier: hitbtc
@@ -139,6 +149,6 @@ tickers:
   target: ETH
 - base: ENJ
   market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

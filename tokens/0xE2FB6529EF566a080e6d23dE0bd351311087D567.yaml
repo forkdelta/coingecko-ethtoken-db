@@ -30,11 +30,21 @@ links:
   telegram_channel_identifier: covesting
   twitter_screen_name: covesting
 liquidity_score: 3.004
-market_cap_rank: 399
+market_cap_rank: 390
 name: Covesting
 public_interest_score: 0.002
 symbol: cov
 tickers:
+- base: COV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: COV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: COV
   market:
     identifier: livecoin
@@ -44,7 +54,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: BTC
 - base: COVX
   market:
     identifier: yobit

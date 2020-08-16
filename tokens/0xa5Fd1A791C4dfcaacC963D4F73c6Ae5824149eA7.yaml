@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: jibrel_network
   twitter_screen_name: JibrelNetwork
 liquidity_score: 5.805
-market_cap_rank: 495
+market_cap_rank: 510
 name: Jibrel Network
 public_interest_score: 0.001
 symbol: jnt
@@ -37,16 +37,21 @@ tickers:
   target: BTC
 - base: JNT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: JNT
+  market:
     identifier: gate
     name: Gate.io
   target: BTC
 - base: JNT
   market:
-    identifier: idex
-    name: Idex
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: JNT
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
+    identifier: idex
+    name: Idex
+  target: ETH

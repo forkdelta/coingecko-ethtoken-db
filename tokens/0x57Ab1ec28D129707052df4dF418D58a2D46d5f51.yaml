@@ -32,12 +32,22 @@ name: sUSD
 public_interest_score: 0.039
 symbol: susd
 tickers:
+- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: SUSD
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: SUSD
   market:
     identifier: mesa
     name: ' Gnosis Protocol'
   target: ETH
-- base: SBCH
+- base: SXAG
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -47,7 +57,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: IBNB
+- base: STRX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IDEFI
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -67,8 +82,3 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SUSD
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH

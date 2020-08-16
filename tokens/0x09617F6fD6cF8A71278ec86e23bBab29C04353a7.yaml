@@ -28,8 +28,23 @@ links:
   telegram_channel_identifier: shardus
   twitter_screen_name: ShardusLedger
 liquidity_score: 1.0
-market_cap_rank: 646
+market_cap_rank: 530
 name: Shardus
 public_interest_score: 0.0
 symbol: ult
-tickers: []
+tickers:
+- base: ULT
+  market:
+    identifier: probit
+    name: ProBit
+  target: ETH
+- base: ULT
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
+- base: ULT-0X09617F6FD6CF8A71278EC86E23BBAB29C04353A7
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

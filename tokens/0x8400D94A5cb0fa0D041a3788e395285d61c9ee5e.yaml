@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: Unibright_IO
   twitter_screen_name: Unibrightio
 liquidity_score: 36.618
-market_cap_rank: 147
+market_cap_rank: 150
 name: Unibright
 public_interest_score: 0.005
 symbol: ubt
@@ -42,6 +42,11 @@ tickers:
     identifier: balancer
     name: Balancer
   target: ETH
+- base: UBT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: UBT
   market:
     identifier: bancor
@@ -66,4 +71,9 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: UBT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

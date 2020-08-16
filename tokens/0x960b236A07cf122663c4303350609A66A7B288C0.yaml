@@ -81,6 +81,11 @@ tickers:
     identifier: balancer
     name: Balancer
   target: DAI
+- base: 0X960B236A07CF122663C4303350609A66A7B288C0
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: ANT
   market:
     identifier: bamboo_relay
@@ -103,8 +108,18 @@ tickers:
   target: ETH
 - base: ANT
   market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: ANT
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: ANT
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: ANT
   market:
@@ -116,6 +131,11 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: USDT
+- base: 0X960B236A07CF122663C4303350609A66A7B288C0
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: ANT
   market:
     identifier: radar_relay

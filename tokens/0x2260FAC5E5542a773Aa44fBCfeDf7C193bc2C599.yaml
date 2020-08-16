@@ -34,27 +34,22 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
+  target: DAI
+- base: 0X2260FAC5E5542A773AA44FBCFEDF7C193BC2C599
+  market:
+    identifier: balancer
+    name: Balancer
   target: USDC
 - base: WBTC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: USDC
-- base: WBTC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: WBT
   market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
-- base: WBT
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: WBTC
   market:
     identifier: bittrex
@@ -75,11 +70,6 @@ tickers:
     identifier: curve
     name: Curve Finance
   target: SBTC
-- base: SBTC
-  market:
-    identifier: curve
-    name: Curve Finance
-  target: WBTC
 - base: WBTC
   market:
     identifier: ddex
@@ -112,9 +102,9 @@ tickers:
   target: ETH
 - base: WBTC
   market:
-    identifier: neblidex
-    name: Neblidex
-  target: BTC
+    identifier: oasis_trade
+    name: OasisDEX
+  target: DAI
 - base: WBTC
   market:
     identifier: oasis_trade
@@ -130,21 +120,11 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: WBTC
-- base: NEO
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: WBTC
 - base: WBTC
   market:
     identifier: tokenlon
     name: Tokenlon
   target: DAI
-- base: WBTC
-  market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: ETH
 - base: WBTC
   market:
     identifier: tokenlon
