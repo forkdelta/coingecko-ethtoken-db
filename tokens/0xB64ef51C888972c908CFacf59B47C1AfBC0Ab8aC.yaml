@@ -57,7 +57,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 41.394
-market_cap_rank: 194
+market_cap_rank: 199
 name: Storj
 public_interest_score: 0.015
 symbol: storj
@@ -67,16 +67,21 @@ tickers:
     identifier: balancer
     name: Balancer
   target: ETH
-- base: STORJ
+- base: STJ
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bitfinex
+    name: Bitfinex
   target: USD
 - base: STORJ
   market:
     identifier: hpx
     name: HPX
   target: CNYT
+- base: STORJ
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
 - base: STORJ
   market:
     identifier: livecoin
@@ -102,6 +107,16 @@ tickers:
     identifier: lykke
     name: Lykke
   target: ETH
+- base: STORJ
+  market:
+    identifier: nice_hash
+    name: NiceHash
+  target: BTC
+- base: STORJ
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
 - base: 0XB64EF51C888972C908CFACF59B47C1AFBC0AB8AC
   market:
     identifier: one_inch
@@ -114,14 +129,14 @@ tickers:
   target: ETH
 - base: STORJ
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: STORJ
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: DOGE
 - base: STORJ
   market:
     identifier: yobit
@@ -132,3 +147,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

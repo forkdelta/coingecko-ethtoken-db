@@ -35,7 +35,7 @@ links:
     - https://github.com/compound-finance/compound-protocol
   twitter_screen_name: compoundfinance
 liquidity_score: 56.455
-market_cap_rank: 31
+market_cap_rank: 30
 name: Compound
 public_interest_score: 0.103
 symbol: comp
@@ -70,8 +70,18 @@ tickers:
     identifier: loopring
     name: Loopring
   target: USDT
+- base: 0XC00E94CB662C3520282E6F5717214004A7F26888
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: COMP
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: COMP
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

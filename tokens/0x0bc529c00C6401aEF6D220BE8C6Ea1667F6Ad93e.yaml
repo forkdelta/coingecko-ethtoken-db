@@ -27,16 +27,11 @@ links:
     - https://github.com/iearn-finance/yswap-finance
   twitter_screen_name: iearnfinance
 liquidity_score: 48.488
-market_cap_rank: 83
+market_cap_rank: 77
 name: yearn.finance
 public_interest_score: 0.019
 symbol: yfi
 tickers:
-- base: 0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E
-  market:
-    identifier: balancer
-    name: Balancer
-  target: DAI
 - base: YFI
   market:
     identifier: bamboo_relay
@@ -69,6 +64,11 @@ tickers:
   target: USDT
 - base: YFI
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: YFI
+  market:
     identifier: switcheo
     name: Switcheo
   target: ETH
@@ -77,8 +77,3 @@ tickers:
     identifier: vinex
     name: Vinex
   target: USDT
-- base: YFI
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

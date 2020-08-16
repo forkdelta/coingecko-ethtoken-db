@@ -60,6 +60,11 @@ name: Synthetix Network Token
 public_interest_score: 0.039
 symbol: snx
 tickers:
+- base: SNX
+  market:
+    identifier: airswap
+    name: AirSwap
+  target: ETH
 - base: 0XC011A73EE8576FB46F5E1C5751CA3B9FE0AF2A6F
   market:
     identifier: balancer
@@ -82,16 +87,6 @@ tickers:
   target: ETH
 - base: SNX
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: SNX
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: BTC
-- base: SNX
-  market:
     identifier: livecoin
     name: Livecoin
   target: ETH
@@ -112,6 +107,6 @@ tickers:
   target: ETH
 - base: SNX
   market:
-    identifier: poloniex
-    name: Poloniex
-  target: TRX
+    identifier: switcheo
+    name: Switcheo
+  target: ETH

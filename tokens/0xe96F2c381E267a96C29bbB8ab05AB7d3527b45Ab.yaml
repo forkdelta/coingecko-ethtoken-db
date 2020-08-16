@@ -29,7 +29,22 @@ name: SatoExchange Token
 public_interest_score: 0.022
 symbol: satx
 tickers:
+- base: SATX
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
 - base: BTB
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX
+- base: TRX
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: SATX
+- base: DOGE
   market:
     identifier: satoexchange
     name: SatoExchange

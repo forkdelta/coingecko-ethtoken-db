@@ -62,21 +62,51 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 21.649
-market_cap_rank: 155
+market_cap_rank: 164
 name: Gnosis
 public_interest_score: 0.003
 symbol: gno
 tickers:
 - base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
   market:
-    identifier: mooniswap
-    name: Mooniswap
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: GNO
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: GNO
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: GNO
+  market:
+    identifier: livecoin
+    name: Livecoin
   target: ETH
 - base: GNO
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: GNO
+  market:
+    identifier: mesa
+    name: ' Gnosis Protocol'
+  target: ETH
+- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: GNO
   market:
     identifier: yobit

@@ -58,11 +58,16 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 49.446
-market_cap_rank: 30
+market_cap_rank: 31
 name: Maker
 public_interest_score: 0.057
 symbol: mkr
 tickers:
+- base: 0X9F8F72AA9304C8B593D555F12EF6589CC3A579A2
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: MKR
   market:
     identifier: bibo
@@ -90,14 +95,29 @@ tickers:
   target: ETH
 - base: MKR
   market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
+- base: MKR
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
 - base: MKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: 0X9F8F72AA9304C8B593D555F12EF6589CC3A579A2
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: MKR
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
 - base: MKR
   market:
     identifier: tokenlon

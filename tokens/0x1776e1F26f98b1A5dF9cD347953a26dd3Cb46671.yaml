@@ -25,7 +25,7 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 23.429
-market_cap_rank: 63
+market_cap_rank: 62
 name: Numeraire
 public_interest_score: 0.001
 symbol: nmr
@@ -44,6 +44,11 @@ tickers:
   market:
     identifier: bancor
     name: Bancor Network
+  target: BNT
+- base: NMR
+  market:
+    identifier: bancor
+    name: Bancor Network
   target: USDB
 - base: NMR
   market:
@@ -55,11 +60,11 @@ tickers:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
-- base: NMR
+- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: NMR
   market:
     identifier: yobit
@@ -80,6 +85,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: NMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: NMR
   market:
     identifier: yobit

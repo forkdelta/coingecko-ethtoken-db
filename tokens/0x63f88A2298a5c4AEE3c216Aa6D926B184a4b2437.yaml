@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: gamecreditsglobal
   twitter_screen_name: gamecredits
 liquidity_score: 9.899
-market_cap_rank: 511
+market_cap_rank: 519
 name: GameCredits
 public_interest_score: 0.003
 symbol: game
@@ -54,6 +54,11 @@ tickers:
     identifier: bitbay
     name: BitBay
   target: EUR
+- base: GAME
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: USD
 - base: GAME
   market:
     identifier: crex24
@@ -89,11 +94,6 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: USDC
-- base: GAME
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
 - base: GAME
   market:
     identifier: graviex

@@ -34,12 +34,12 @@ name: iETH
 public_interest_score: 0.039
 symbol: ieth
 tickers:
-- base: IBTC
+- base: IETH
   market:
     identifier: synthetix
     name: Synthetix Exchange
-  target: IETH
-- base: SBCH
+  target: IETC
+- base: IBTC
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -49,3 +49,8 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: IETH
+- base: IETH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
