@@ -1,6 +1,6 @@
 ---
 address: '0x2d0E95bd4795D7aCe0da3C0Ff7b706a5970eb9D3'
-coingecko_rank: 1036
+coingecko_rank: 1033
 coingecko_score: 19.396
 community_score: 9.733
 description: >-
@@ -22,7 +22,7 @@ links:
   - https://www.allsportschain.com/
   twitter_screen_name: allsportschain
 liquidity_score: 27.305
-market_cap_rank: 504
+market_cap_rank: 512
 name: All Sports
 public_interest_score: 0.0
 symbol: soc
@@ -31,6 +31,11 @@ tickers:
   market:
     identifier: bitrabbit
     name: BitRabbit
+  target: BTC
+- base: SOC
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
 - base: SOC
   market:
@@ -47,3 +52,8 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: USDT
+- base: SOC
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC

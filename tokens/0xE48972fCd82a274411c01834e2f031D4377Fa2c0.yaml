@@ -61,13 +61,18 @@ links:
   telegram_channel_identifier: twokey_official
   twitter_screen_name: 2keyNetwork
 liquidity_score: 29.05
-market_cap_rank: 579
+market_cap_rank: 559
 name: 2key.network
 public_interest_score: 0.005
 symbol: 2key
 tickers:
-- base: 0XE48972FCD82A274411C01834E2F031D4377FA2C0
+- base: 2KEY
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: 2KEY
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

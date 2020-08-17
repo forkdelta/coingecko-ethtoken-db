@@ -1,6 +1,6 @@
 ---
 address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
-coingecko_rank: 2287
+coingecko_rank: 2277
 coingecko_score: 8.319
 community_score: 0.0
 description: >-
@@ -35,21 +35,26 @@ tickers:
     identifier: balancer
     name: Balancer
   target: DAI
-- base: 0X2260FAC5E5542A773AA44FBCFEDF7C193BC2C599
-  market:
-    identifier: balancer
-    name: Balancer
-  target: USDC
 - base: WBTC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: USDC
+- base: WBTC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: WBT
   market:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
+- base: WBT
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: WBTC
   market:
     identifier: bittrex
@@ -72,26 +77,6 @@ tickers:
   target: SBTC
 - base: WBTC
   market:
-    identifier: ddex
-    name: DDEX
-  target: USDT
-- base: WBTC
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: ETC
-- base: WBTC
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: ETH
-- base: WBTC
-  market:
-    identifier: exnce
-    name: EXNCE
-  target: XNC
-- base: WBTC
-  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -102,19 +87,14 @@ tickers:
   target: ETH
 - base: WBTC
   market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: DAI
-- base: WBTC
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: ETH
-- base: WBTC
-  market:
     identifier: radar_relay
     name: Radar Relay
   target: WETH
+- base: WBTC
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: DAI
 - base: ETH
   market:
     identifier: switcheo
@@ -125,6 +105,11 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: DAI
+- base: WBTC
+  market:
+    identifier: tokenlon
+    name: Tokenlon
+  target: ETH
 - base: WBTC
   market:
     identifier: tokenlon

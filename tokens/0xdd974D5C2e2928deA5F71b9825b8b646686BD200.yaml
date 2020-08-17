@@ -63,7 +63,7 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 61.916
-market_cap_rank: 43
+market_cap_rank: 47
 name: Kyber Network
 public_interest_score: 0.028
 symbol: knc
@@ -90,14 +90,14 @@ tickers:
   target: BNT
 - base: KNC
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: USDB
-- base: KNC
-  market:
     identifier: bibo
     name: Bibo
   target: USDT
+- base: KNC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: KNC
   market:
     identifier: bitsonic
@@ -108,6 +108,16 @@ tickers:
     identifier: gopax
     name: GoPax
   target: BTC
+- base: KNC
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: KNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: KNC
   market:
     identifier: idex
@@ -132,6 +142,11 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
+  target: BTC
+- base: KNC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
   target: USDT
 - base: KNC
   market:
@@ -148,3 +163,8 @@ tickers:
     identifier: vindax
     name: Vindax
   target: ETH
+- base: KNC
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

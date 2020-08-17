@@ -1,6 +1,6 @@
 ---
 address: '0xEEd3aE7b0F8b5B9BB8C035A9941382B1822671CD'
-coingecko_rank: 2247
+coingecko_rank: 2237
 coingecko_score: 8.62
 community_score: 9.007
 description: >-
@@ -44,9 +44,19 @@ tickers:
   target: USDT
 - base: EVY
   market:
+    identifier: idcm
+    name: IDCM
+  target: BTC
+- base: EVY
+  market:
     identifier: latoken
     name: LATOKEN
   target: BTC
+- base: EVY
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: EVY
   market:
     identifier: latoken
@@ -72,8 +82,3 @@ tickers:
     identifier: p2pb2b
     name: P2PB2B
   target: USD
-- base: EVY
-  market:
-    identifier: probit
-    name: ProBit
-  target: KRW

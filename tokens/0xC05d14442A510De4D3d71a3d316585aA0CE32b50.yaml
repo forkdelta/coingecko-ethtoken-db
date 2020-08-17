@@ -1,6 +1,6 @@
 ---
 address: '0xC05d14442A510De4D3d71a3d316585aA0CE32b50'
-coingecko_rank: 3325
+coingecko_rank: 3305
 coingecko_score: 3.43
 community_score: 8.09
 description: >-
@@ -66,13 +66,18 @@ symbol: lina
 tickers:
 - base: LINA
   market:
-    identifier: fatbtc
-    name: FatBTC
+    identifier: exrates
+    name: Exrates
   target: ETH
 - base: LINA
   market:
     identifier: fatbtc
     name: FatBTC
+  target: ETH
+- base: LINA
+  market:
+    identifier: fatbtc
+    name: FatBTC
   target: USDT
 - base: LINA
   market:
@@ -104,11 +109,6 @@ tickers:
     identifier: simex
     name: Simex
   target: USDT
-- base: LINA
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: LINA
   market:
     identifier: yobit
@@ -118,12 +118,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: RUR
 - base: LINA
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: USD
 - base: LINA
   market:
     identifier: yobit

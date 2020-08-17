@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
 liquidity_score: 41.889
-market_cap_rank: 264
+market_cap_rank: 255
 name: Civic
 public_interest_score: 0.018
 symbol: cvc
@@ -43,6 +43,11 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
+  target: ETH
+- base: CVC
+  market:
+    identifier: bkex
+    name: BKEX
   target: ETH
 - base: CVC
   market:
@@ -68,16 +73,6 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: BTC
-- base: CVC
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
-- base: CVC
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
   target: USDT
 - base: CVC
   market:
@@ -93,6 +88,11 @@ tickers:
   market:
     identifier: uniswap_v1
     name: Uniswap (v1)
+  target: ETH
+- base: CVC
+  market:
+    identifier: vcc
+    name: VCC Exchange
   target: ETH
 - base: CVC
   market:

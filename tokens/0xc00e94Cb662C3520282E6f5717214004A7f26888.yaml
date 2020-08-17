@@ -35,16 +35,31 @@ links:
     - https://github.com/compound-finance/compound-protocol
   twitter_screen_name: compoundfinance
 liquidity_score: 56.455
-market_cap_rank: 30
+market_cap_rank: 31
 name: Compound
 public_interest_score: 0.103
 symbol: comp
 tickers:
+- base: 0XC00E94CB662C3520282E6F5717214004A7F26888
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: 0XC00E94CB662C3520282E6F5717214004A7F26888
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: COMP
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: COMP
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
 - base: COMP
   market:
     identifier: bitsonic
@@ -60,6 +75,11 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EUR
+- base: COMP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: COMP
   market:
     identifier: idex
@@ -80,8 +100,3 @@ tickers:
     identifier: switcheo
     name: Switcheo
   target: ETH
-- base: COMP
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

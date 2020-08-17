@@ -1,6 +1,6 @@
 ---
 address: '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39'
-coingecko_rank: 1468
+coingecko_rank: 1463
 coingecko_score: 15.005
 community_score: 33.678
 description: >-
@@ -42,6 +42,11 @@ tickers:
   target: BCH
 - base: HEX
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com
+  target: ETH
+- base: HEX
+  market:
     identifier: catex
     name: Catex
   target: BTC
@@ -67,24 +72,9 @@ tickers:
   target: ETH
 - base: HEX
   market:
-    identifier: xt
-    name: XT
-  target: USDT
-- base: HEX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: HEX
-  market:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: HEX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: HEX
   market:
     identifier: yobit
@@ -95,8 +85,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: HEX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO

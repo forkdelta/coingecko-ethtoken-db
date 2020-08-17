@@ -79,6 +79,11 @@ tickers:
   target: BNT
 - base: GNO
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: GNO
+  market:
     identifier: gopax
     name: GoPax
   target: KRW
@@ -94,19 +99,24 @@ tickers:
   target: USD
 - base: GNO
   market:
+    identifier: livecoin
+    name: Livecoin
+  target: USDT
+- base: GNO
+  market:
     identifier: mesa
     name: ' Gnosis Protocol'
-  target: ETH
-- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
-  market:
-    identifier: mooniswap
-    name: Mooniswap
   target: ETH
 - base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: GNO
   market:
     identifier: yobit
