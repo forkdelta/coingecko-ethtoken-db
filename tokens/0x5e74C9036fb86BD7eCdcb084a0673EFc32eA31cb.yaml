@@ -23,7 +23,7 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 32.327
-market_cap_rank: 294
+market_cap_rank: 298
 name: sETH
 public_interest_score: 0.039
 symbol: seth
@@ -38,12 +38,7 @@ tickers:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
-- base: 0X5E74C9036FB86BD7ECDCB084A0673EFC32EA31CB
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
-- base: SXTZ
+- base: SEOS
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -53,7 +48,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
-- base: IETH
+- base: SLINK
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: SXMR
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -73,8 +73,3 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
-- base: 0X5E74C9036FB86BD7ECDCB084A0673EFC32EA31CB
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH

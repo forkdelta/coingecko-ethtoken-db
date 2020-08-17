@@ -46,8 +46,18 @@ links:
   telegram_channel_identifier: OwnMarket
   twitter_screen_name: weownmarket
 liquidity_score: 27.478
-market_cap_rank: 582
+market_cap_rank: 612
 name: WeOwn
 public_interest_score: 0.002
 symbol: chx
-tickers: []
+tickers:
+- base: CHX
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: BTC
+- base: CHX
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: USDT

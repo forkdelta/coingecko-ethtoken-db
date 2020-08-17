@@ -1,6 +1,6 @@
 ---
 address: '0x0AfFa06e7Fbe5bC9a764C979aA66E8256A631f02'
-coingecko_rank: 5042
+coingecko_rank: 4996
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -33,22 +33,27 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: PLBT
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
 - base: PLBT
   market:
     identifier: livecoin
     name: Livecoin
   target: ETH
+- base: PLBT
+  market:
+    identifier: livecoin
+    name: Livecoin
+  target: USD
 - base: PLBT
   market:
     identifier: livecoin
     name: Livecoin
   target: USDT
+- base: 0X0AFFA06E7FBE5BC9A764C979AA66E8256A631F02
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: PLBT
   market:
     identifier: yobit
@@ -59,6 +64,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: PLBT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: PLBT
   market:
     identifier: yobit

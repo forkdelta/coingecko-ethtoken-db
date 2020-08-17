@@ -37,21 +37,26 @@ links:
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
 liquidity_score: 41.007
-market_cap_rank: 147
+market_cap_rank: 149
 name: Tellor
 public_interest_score: 0.003
 symbol: trb
 tickers:
+- base: 0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: 0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: TRB
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: TRB
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: USDT
 - base: TRB
   market:
     identifier: citex
@@ -82,6 +87,11 @@ tickers:
     identifier: fatbtc
     name: FatBTC
   target: USDT
+- base: TT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
 - base: TRB
   market:
     identifier: vitex

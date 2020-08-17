@@ -115,8 +115,8 @@ tickers:
   target: ETH
 - base: HOT
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: bkex
+    name: BKEX
   target: ETH
 - base: HOT
   market:
@@ -143,11 +143,16 @@ tickers:
     identifier: lukki
     name: Lukki
   target: BTC
-- base: 0X6C6EE5E31D828DE241282B9606C8E98EA48526E2
+- base: HOT
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: lukki
+    name: Lukki
   target: ETH
+- base: HOT
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: HOT
   market:
     identifier: zebitex
@@ -158,8 +163,3 @@ tickers:
     identifier: zebitex
     name: Zebitex
   target: ETH
-- base: HOT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: USDT

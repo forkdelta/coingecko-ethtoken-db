@@ -52,14 +52,29 @@ symbol: okb
 tickers:
 - base: OKB
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: UST
+- base: OKB
+  market:
     identifier: bitsonic
     name: Bitsonic
   target: KRW
 - base: OKB
   market:
+    identifier: coinall
+    name: CoinAll
+  target: ETH
+- base: OKB
+  market:
     identifier: fatbtc
     name: FatBTC
   target: ETH
+- base: EGT
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: WXT
   market:
     identifier: okex

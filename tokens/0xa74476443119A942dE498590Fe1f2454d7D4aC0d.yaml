@@ -79,7 +79,7 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 44.786
-market_cap_rank: 134
+market_cap_rank: 133
 name: Golem
 public_interest_score: 0.006
 symbol: gnt
@@ -111,6 +111,11 @@ tickers:
   target: ETH
 - base: GNT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: GNT
+  market:
     identifier: braziliex
     name: Braziliex
   target: BTC
@@ -119,11 +124,6 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: GNT
-  market:
-    identifier: exmo
-    name: EXMO
-  target: ETH
 - base: GNT
   market:
     identifier: gopax
@@ -138,12 +138,22 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: BTC
+  target: USDT
 - base: GNT
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: AUD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: NZD
+- base: GNT
+  market:
+    identifier: independent_reserve
+    name: Independent Reserve
+  target: USD
 - base: GNT
   market:
     identifier: livecoin
@@ -163,16 +173,6 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
-  target: USDT
-- base: GNT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: GNT
-  market:
-    identifier: sistemkoin
-    name: Sistemkoin
   target: USDT
 - base: GNT
   market:
@@ -198,11 +198,6 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
   target: DOGE
 - base: GNT
   market:
@@ -218,17 +213,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
   target: WAVES
-- base: GNT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: BTC
 - base: GNT
   market:
     identifier: zebitex

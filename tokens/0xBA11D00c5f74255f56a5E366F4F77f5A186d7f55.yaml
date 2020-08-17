@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 55.762
-market_cap_rank: 49
+market_cap_rank: 52
 name: Band Protocol
 public_interest_score: 0.007
 symbol: band
@@ -41,6 +41,11 @@ tickers:
   target: WETH
 - base: BAND
   market:
+    identifier: bitmax
+    name: BitMax
+  target: USDT
+- base: BAND
+  market:
     identifier: bitsonic
     name: Bitsonic
   target: BSC
@@ -48,9 +53,4 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
-  market:
-    identifier: mooniswap
-    name: Mooniswap
   target: ETH

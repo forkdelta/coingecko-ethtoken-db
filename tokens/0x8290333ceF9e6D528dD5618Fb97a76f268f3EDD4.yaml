@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankr
 liquidity_score: 49.475
-market_cap_rank: 133
+market_cap_rank: 129
 name: Ankr
 public_interest_score: 0.349
 symbol: ankr
@@ -78,9 +78,14 @@ tickers:
   target: BTCB-1DE
 - base: ANKR
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
+    identifier: bitmax
+    name: BitMax
+  target: BTC
+- base: ANKR
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: USDT
 - base: ANKR
   market:
     identifier: eterbase
@@ -93,11 +98,11 @@ tickers:
   target: ETH
 - base: ANKR
   market:
-    identifier: sistemkoin
-    name: Sistemkoin
-  target: TRY
-- base: ANKR
-  market:
     identifier: uniswap_v1
     name: Uniswap (v1)
   target: ETH
+- base: ANKR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

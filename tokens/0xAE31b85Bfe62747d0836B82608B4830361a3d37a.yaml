@@ -42,16 +42,31 @@ links:
   telegram_channel_identifier: aergoofficial
   twitter_screen_name: AERGO_IO
 liquidity_score: 36.69
-market_cap_rank: 301
+market_cap_rank: 298
 name: Aergo
 public_interest_score: 0.002
 symbol: aergo
 tickers:
+- base: AERGO-46B
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: AERGO
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: BTC
 - base: AERGO
   market:
     identifier: bitmax
     name: BitMax
   target: ETH
+- base: AERGO
+  market:
+    identifier: bitmax
+    name: BitMax
+  target: USDT
 - base: AERGO
   market:
     identifier: gdac
@@ -61,6 +76,11 @@ tickers:
   market:
     identifier: gopax
     name: GoPax
+  target: BTC
+- base: AERGO
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
 - base: AERGO
   market:
