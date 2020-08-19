@@ -1,8 +1,8 @@
 ---
 address: '0x8400D94A5cb0fa0D041a3788e395285d61c9ee5e'
-coingecko_rank: 447
-coingecko_score: 28.601
-community_score: 33.636
+coingecko_rank: 485
+coingecko_score: 27.816
+community_score: 32.557
 description: >-
   Unibright is a team of developers with 20+ years of experience in business integration. Nowadays most
   companies have a strong interest in Blockchain technology, but struggle to use it. That is why we created
@@ -26,10 +26,10 @@ links:
   subreddit_url: https://www.reddit.com/r/Unibright/
   telegram_channel_identifier: Unibright_IO
   twitter_screen_name: Unibrightio
-liquidity_score: 36.618
-market_cap_rank: 156
+liquidity_score: 34.898
+market_cap_rank: 159
 name: Unibright
-public_interest_score: 0.005
+public_interest_score: 0.0
 symbol: ubt
 tickers:
 - base: 0X8400D94A5CB0FA0D041A3788E395285D61C9EE5E
@@ -44,6 +44,11 @@ tickers:
   target: WETH
 - base: UBT
   market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: UBT
+  market:
     identifier: eterbase
     name: Eterbase
   target: ETH
@@ -52,8 +57,8 @@ tickers:
     identifier: eterbase
     name: Eterbase
   target: EUR
-- base: 0X8400D94A5CB0FA0D041A3788E395285D61C9EE5E
+- base: UBT
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: quoine
+    name: Liquid
+  target: BTC

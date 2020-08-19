@@ -1,8 +1,8 @@
 ---
 address: '0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb'
-coingecko_rank: 515
-coingecko_score: 27.012
-community_score: 35.275
+coingecko_rank: 530
+coingecko_score: 26.82
+community_score: 34.265
 description: >-
   Synth sETH by Synthetix
 
@@ -22,10 +22,10 @@ links:
   - https://www.synthetix.io/
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 32.327
+liquidity_score: 32.482
 market_cap_rank: 298
 name: sETH
-public_interest_score: 0.039
+public_interest_score: 0.0
 symbol: seth
 tickers:
 - base: SETH
@@ -38,7 +38,22 @@ tickers:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
+- base: SETH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
+- base: IETH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
 - base: SEOS
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: SXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -48,22 +63,17 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
-- base: SLINK
+- base: STRX
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
-- base: SXMR
+- base: SBCH
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
 - base: SXRP
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SETH
-- base: IBTC
   market:
     identifier: synthetix
     name: Synthetix Exchange

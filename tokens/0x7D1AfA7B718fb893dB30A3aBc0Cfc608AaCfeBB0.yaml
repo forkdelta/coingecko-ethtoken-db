@@ -1,14 +1,14 @@
 ---
 address: '0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0'
-coingecko_rank: 79
-coingecko_score: 47.901
-community_score: 36.977
+coingecko_rank: 47
+coingecko_score: 52.307
+community_score: 36.503
 description: >-
   Matic Network provides scalable, secure and instant Ethereum transactions. It is built on an implementation
   of the PLASMA framework and functions as an off chain scaling solution. Matic Network offers scalability
   solutions along with other tools to the developer ecosystem, which enable Matic to seamlessly integrate
   with dApps while helping developers create an enhanced user experience.
-developer_score: 64.14
+developer_score: 75.022
 id: matic-network
 image:
   large: https://assets.coingecko.com/coins/images/4713/large/Matic.png?1553498071
@@ -33,12 +33,17 @@ links:
   subreddit_url: https://www.reddit.com/r/maticnetwork/
   telegram_channel_identifier: maticnetwork
   twitter_screen_name: maticnetwork
-liquidity_score: 48.84
-market_cap_rank: 104
+liquidity_score: 56.866
+market_cap_rank: 110
 name: Matic Network
-public_interest_score: 0.023
+public_interest_score: 0.0
 symbol: matic
 tickers:
+- base: 0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: MATIC
   market:
     identifier: bitcoin_com
@@ -46,9 +51,14 @@ tickers:
   target: BCH
 - base: MATIC
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: BSC
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: MATIC
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: EUR
 - base: MATIC
   market:
     identifier: coinbit
@@ -56,14 +66,24 @@ tickers:
   target: KRW
 - base: MATIC
   market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: BTC
+- base: MATIC
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: BTC
+- base: MATIC
+  market:
+    identifier: eterbase
+    name: Eterbase
+  target: EBASE
+- base: MATIC
+  market:
     identifier: eterbase
     name: Eterbase
   target: EUR
-- base: MATIC
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
 - base: MATIC
   market:
     identifier: hpx
@@ -74,8 +94,8 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: MATIC
+- base: 0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0
   market:
-    identifier: poloniex
-    name: Poloniex
-  target: TRX
+    identifier: one_inch
+    name: 1inch
+  target: ETH

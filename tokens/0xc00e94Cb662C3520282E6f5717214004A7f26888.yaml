@@ -1,8 +1,8 @@
 ---
 address: '0xc00e94Cb662C3520282E6f5717214004A7f26888'
-coingecko_rank: 149
-coingecko_score: 40.545
-community_score: 11.389
+coingecko_rank: 121
+coingecko_score: 42.883
+community_score: 9.803
 description: >-
   The Compound Governance Token is a governance token on the Compound Finance lending protocol, COMP allows
   the owner to delegate voting rights to the address of their choice; the owner’s wallet, another user,
@@ -14,7 +14,7 @@ description: >-
   or complex sets of actions, such as adding support for a new asset, changing an asset’s collateral factor,
   changing a market’s interest rate model, or changing any other parameter or variable of the protocol
   that the current administrator can modify.
-developer_score: 45.97
+developer_score: 48.055
 id: compound-governance-token
 image:
   large: https://assets.coingecko.com/coins/images/10775/large/COMP.png?1592625425
@@ -34,10 +34,10 @@ links:
     github:
     - https://github.com/compound-finance/compound-protocol
   twitter_screen_name: compoundfinance
-liquidity_score: 56.455
-market_cap_rank: 31
+liquidity_score: 66.278
+market_cap_rank: 32
 name: Compound
-public_interest_score: 0.103
+public_interest_score: 0.0
 symbol: comp
 tickers:
 - base: 0XC00E94CB662C3520282E6F5717214004A7F26888
@@ -50,16 +50,6 @@ tickers:
     identifier: balancer
     name: Balancer
   target: USDC
-- base: COMP
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: COMP
-  market:
-    identifier: bitbns
-    name: BitBNS
-  target: INR
 - base: COMP
   market:
     identifier: bitsonic
@@ -77,26 +67,16 @@ tickers:
   target: EUR
 - base: COMP
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: COMP
-  market:
     identifier: idex
     name: Idex
-  target: ETH
-- base: COMP
-  market:
-    identifier: loopring
-    name: Loopring
-  target: USDT
-- base: 0XC00E94CB662C3520282E6F5717214004A7F26888
-  market:
-    identifier: mooniswap
-    name: Mooniswap
   target: ETH
 - base: COMP
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: COMP
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

@@ -1,8 +1,8 @@
 ---
 address: '0x0Ae055097C6d159879521C384F1D2123D1f195e6'
-coingecko_rank: 779
-coingecko_score: 22.547
-community_score: 9.204
+coingecko_rank: 672
+coingecko_score: 24.257
+community_score: 7.97
 description: >-
   STAKE is a new ERC20-type (implemented as an ERC677) token designed to secure the on-chain payment layer
   and provide a mechanism for validators to receive multiple POS incentives. It is an ERC20-based staking
@@ -26,9 +26,14 @@ links:
     - https://github.com/xdaichain/stake-token
   telegram_channel_identifier: xdaistable
   twitter_screen_name: xdaichain
-liquidity_score: 41.251
-market_cap_rank: 273
+liquidity_score: 46.873
+market_cap_rank: 283
 name: xDAI Stake
-public_interest_score: 0.004
+public_interest_score: 0.0
 symbol: stake
-tickers: []
+tickers:
+- base: STAKE
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH

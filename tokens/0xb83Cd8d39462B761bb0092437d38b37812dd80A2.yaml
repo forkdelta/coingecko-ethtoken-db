@@ -1,8 +1,8 @@
 ---
 address: '0xb83Cd8d39462B761bb0092437d38b37812dd80A2'
-coingecko_rank: 1781
-coingecko_score: 12.099
-community_score: 16.723
+coingecko_rank: 1712
+coingecko_score: 12.684
+community_score: 15.536
 description: >-
   GoldenRatio Token (GRT) project is an experiment which has no funding, to prove the importance of a
   quality community in a crypto related project.
@@ -43,11 +43,16 @@ links:
   telegram_channel_identifier: the_goldenratio
   twitter_screen_name: goldenratioteam
 liquidity_score: 1.0
-market_cap_rank: 1400
+market_cap_rank: 1309
 name: Golden Ratio Token
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: grt
 tickers:
+- base: GRT
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: BTC
 - base: GRT
   market:
     identifier: resfinex
@@ -62,4 +67,9 @@ tickers:
   market:
     identifier: satoexchange
     name: SatoExchange
+  target: ETH
+- base: 0XB83CD8D39462B761BB0092437D38B37812DD80A2
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH
