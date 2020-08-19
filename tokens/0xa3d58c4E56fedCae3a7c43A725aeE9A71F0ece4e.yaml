@@ -1,8 +1,8 @@
 ---
 address: '0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e'
-coingecko_rank: 167
-coingecko_score: 39.728
-community_score: 27.159
+coingecko_rank: 164
+coingecko_score: 39.969
+community_score: 26.496
 description: >-
   Metronome, found online at Metronome.io, under the symbol MTN. The cryptocurrency promises to deliver
   “institutional-class endurance” with cross-blockchain compatibility.The currency is being developed
@@ -15,7 +15,7 @@ description: >-
   Classic</a> support (the currency is initially built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>).
   Metronome’s cross-chain compatibility system involves creating exit receipts when leaving the chain
   and entering a new chain.
-developer_score: 63.109
+developer_score: 64.446
 id: metronome
 image:
   large: https://assets.coingecko.com/coins/images/3249/large/metronome.png?1548084800
@@ -35,12 +35,22 @@ links:
   subreddit_url: https://www.reddit.com/r/MetronomeToken/
   telegram_channel_identifier: metronometoken
   twitter_screen_name: MTNToken
-liquidity_score: 27.948
-market_cap_rank: 345
+liquidity_score: 27.571
+market_cap_rank: 354
 name: Metronome
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: met
 tickers:
+- base: MET
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: MET
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
 - base: MET
   market:
     identifier: gate
@@ -51,6 +61,16 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
+- base: MET
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: MET
   market:
     identifier: yobit

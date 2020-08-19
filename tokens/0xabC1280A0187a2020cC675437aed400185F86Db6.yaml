@@ -1,15 +1,15 @@
 ---
 address: '0xabC1280A0187a2020cC675437aed400185F86Db6'
-coingecko_rank: 3149
-coingecko_score: 4.132
-community_score: 4.428
+coingecko_rank: 3121
+coingecko_score: 4.183
+community_score: 3.786
 description: >-
   It is an intelligent ecosystem that no longer has a monopoly center, is completely self-driven, and
   realizes self-reward and punishment mechanisms. In SAC application pool, there are various blockchain
   application scenarios including insurance, communication, finance, trading games, supply chain and enterprise
   service.insurance, communication, finance, trading games, supply chain and enterprise service. In the
   SAC ecology, data generation, data processing and data usage are all based on decentralized system.
-developer_score: 12.632
+developer_score: 12.601
 id: smart-application-chain
 image:
   large: https://assets.coingecko.com/coins/images/5515/large/smart-application-chain.png?1548609520
@@ -27,9 +27,14 @@ links:
     - https://github.com/SACChain/SAC
   telegram_channel_identifier: SACgroup
   twitter_screen_name: SACchain
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: Smart Application Coin
 public_interest_score: 0.0
 symbol: sac
-tickers: []
+tickers:
+- base: SAC
+  market:
+    identifier: aex
+    name: AEX
+  target: BTC

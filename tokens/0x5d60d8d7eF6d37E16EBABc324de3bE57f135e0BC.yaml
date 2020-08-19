@@ -1,12 +1,12 @@
 ---
 address: '0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC'
-coingecko_rank: 612
-coingecko_score: 25.112
-community_score: 26.917
+coingecko_rank: 755
+coingecko_score: 23.035
+community_score: 25.706
 description: >-
   MyBit makes it simple for anyone to design, test, develop, and maintain decentralised wealth management
   applications on Ethereum.
-developer_score: 15.1
+developer_score: 14.859
 id: mybit-token
 image:
   large: https://assets.coingecko.com/coins/images/1240/large/mybit.png?1547035264
@@ -26,17 +26,12 @@ links:
   subreddit_url: https://www.reddit.com/r/MyBitToken/
   telegram_channel_identifier: mybitio
   twitter_screen_name: MyBit_DApp
-liquidity_score: 21.593
-market_cap_rank: 818
+liquidity_score: 14.52
+market_cap_rank: 819
 name: MyBit Token
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: myb
 tickers:
-- base: MYB
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: MYB
   market:
     identifier: kyber_network
@@ -51,4 +46,14 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0X5D60D8D7EF6D37E16EBABC324DE3BE57F135E0BC
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: MYB
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

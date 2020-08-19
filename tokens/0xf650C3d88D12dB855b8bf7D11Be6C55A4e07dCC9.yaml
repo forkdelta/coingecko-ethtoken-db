@@ -1,8 +1,8 @@
 ---
 address: '0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9'
-coingecko_rank: 517
-coingecko_score: 26.932
-community_score: 34.67
+coingecko_rank: 490
+coingecko_score: 27.668
+community_score: 33.593
 description: ""
 developer_score: 0.0
 id: compound-usdt
@@ -22,9 +22,24 @@ links:
   - https://compound.finance/
   subreddit_url: https://www.reddit.com/r/Compound
   twitter_screen_name: compoundfinance
-liquidity_score: 31.225
-market_cap_rank: 239
+liquidity_score: 35.932
+market_cap_rank: 253
 name: cUSDT
-public_interest_score: 0.103
+public_interest_score: 0.0
 symbol: cusdt
-tickers: []
+tickers:
+- base: CUSDT
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: USD
+- base: CUSDT
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: USDT
+- base: CUSDT
+  market:
+    identifier: ftx_us
+    name: FTX.us
+  target: USDT

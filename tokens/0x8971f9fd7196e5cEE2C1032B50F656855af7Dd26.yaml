@@ -1,8 +1,8 @@
 ---
 address: '0x8971f9fd7196e5cEE2C1032B50F656855af7Dd26'
-coingecko_rank: 275
-coingecko_score: 33.835
-community_score: 9.926
+coingecko_rank: 259
+coingecko_score: 34.552
+community_score: 8.489
 description: >-
   Lambda is a fast, safe, and scalable blockchain infrastructure project, which provides decentralized
   applications (DAPPs) data storage capabilities with unlimited scalability and fulfills services such
@@ -26,7 +26,7 @@ description: >-
   Proofs of Retrievability (POR) depending on the usage scenarios. Lambda has applied these two approaches
   in blockchain through academic research and engineering verification, which has eliminated the core
   obstacles of decentralized storage.
-developer_score: 37.436
+developer_score: 37.072
 id: lambda
 image:
   large: https://assets.coingecko.com/coins/images/4703/large/Lambda-Logo.png?1547219112
@@ -48,16 +48,26 @@ links:
     - https://github.com/LambdaIM/token-profile
   telegram_channel_identifier: HelloLambda
   twitter_screen_name: Lambdaim
-liquidity_score: 44.671
-market_cap_rank: 186
+liquidity_score: 49.786
+market_cap_rank: 197
 name: Lambda
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: lamb
 tickers:
 - base: LAMB
   market:
     identifier: coinall
     name: CoinAll
+  target: BTC
+- base: LAMB
+  market:
+    identifier: coinall
+    name: CoinAll
+  target: USDT
+- base: LAMB
+  market:
+    identifier: hbtc
+    name: HBTC
   target: BTC
 - base: LAMB
   market:
@@ -69,8 +79,3 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
-- base: LAMB
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK

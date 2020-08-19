@@ -1,8 +1,8 @@
 ---
 address: '0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2'
-coingecko_rank: 496
-coingecko_score: 27.439
-community_score: 34.218
+coingecko_rank: 519
+coingecko_score: 27.032
+community_score: 32.891
 description: >-
   REN Tokenized ZEC
 
@@ -10,7 +10,7 @@ description: >-
   Once an asset is in the custody of RenVM, an ERC20 token at a 1:1 value is minted on Ethereum - this
   can then be used as any ERC20 can within the Ethereum ecosystem (for example, swaps, collateralization,
   trades etc.)
-developer_score: 47.645
+developer_score: 47.22
 id: renzec
 image:
   large: https://assets.coingecko.com/coins/images/11564/large/renZEC.png?1591186101
@@ -28,8 +28,13 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 1.0
-market_cap_rank: 1561
+market_cap_rank: 1566
 name: renZEC
-public_interest_score: 0.012
+public_interest_score: 0.0
 symbol: renzec
-tickers: []
+tickers:
+- base: 0X1C5DB575E2FF833E46A2E9864C22F4B22E0B37C2
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

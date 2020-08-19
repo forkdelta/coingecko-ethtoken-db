@@ -1,8 +1,8 @@
 ---
 address: '0x2ccbFF3A042c68716Ed2a2Cb0c544A9f1d1935E1'
-coingecko_rank: 281
-coingecko_score: 33.627
-community_score: 35.098
+coingecko_rank: 245
+coingecko_score: 35.086
+community_score: 33.81
 description: >-
   DMarket is a decentralized game asset marketplace. The marketplace covers a wide variety of games and
   turns virtual items into real commodities that can be traded on the blockchain.
@@ -31,7 +31,7 @@ description: >-
   DMarket has a future-proof use case as the demand for a universal gaming trading platform is imminent.
   Strategic partnerships between game title developers, the gaming community and gamers will ensure that
   DMarket lives well beyond its proprietary blockchain phase.
-developer_score: 36.452
+developer_score: 35.482
 id: dmarket
 image:
   large: https://assets.coingecko.com/coins/images/1602/large/dmarket.png?1547223830
@@ -53,12 +53,17 @@ links:
   subreddit_url: https://www.reddit.com/r/D_Market/
   telegram_channel_identifier: dmarket_io
   twitter_screen_name: dmarket_com
-liquidity_score: 23.081
-market_cap_rank: 408
+liquidity_score: 32.63
+market_cap_rank: 407
 name: DMarket
-public_interest_score: 0.04
+public_interest_score: 0.0
 symbol: dmt
 tickers:
+- base: DMT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: DMT
   market:
     identifier: bittrex
@@ -98,4 +103,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: DMT
+  market:
+    identifier: yobit
+    name: YoBit
   target: USD
+- base: DMT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

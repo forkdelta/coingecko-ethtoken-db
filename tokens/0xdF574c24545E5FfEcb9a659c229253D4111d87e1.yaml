@@ -1,8 +1,8 @@
 ---
 address: '0xdF574c24545E5FfEcb9a659c229253D4111d87e1'
-coingecko_rank: 514
-coingecko_score: 27.019
-community_score: 8.067
+coingecko_rank: 557
+coingecko_score: 26.234
+community_score: 6.911
 description: >-
   HUSD Token is issued by Stable Universal, with a 1:1 USD peg. Paxos Trust Company will act as the USD
   asset custodian, and HUSD Token will be subject to a monthly attestations.
@@ -25,12 +25,22 @@ links:
     github:
     - https://github.com/stcoins/HUSD
   twitter_screen_name: Stablecoin_HUSD
-liquidity_score: 54.449
+liquidity_score: 52.0
 market_cap_rank: 93
 name: HUSD
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: husd
 tickers:
+- base: USDT
+  market:
+    identifier: hbtc
+    name: HBTC
+  target: HUSD
+- base: PAX
+  market:
+    identifier: hbtc
+    name: HBTC
+  target: HUSD
 - base: HUSD
   market:
     identifier: tokenlon
@@ -41,3 +51,8 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: USDT
+- base: 0XDF574C24545E5FFECB9A659C229253D4111D87E1
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

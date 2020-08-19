@@ -1,8 +1,8 @@
 ---
 address: '0x7CC62d8E80Be9bEa3947F3443aD136f50f75b505'
-coingecko_rank: 3264
-coingecko_score: 3.627
-community_score: 15.577
+coingecko_rank: 3327
+coingecko_score: 3.327
+community_score: 14.212
 description: >-
   $KNT Knekted is a platform for the future of information based on blockchain technology, revolutionizing
   the business of trading information, leaks, multimedia material and original content made by creators
@@ -53,6 +53,11 @@ symbol: knt
 tickers:
 - base: KNT
   market:
+    identifier: coinlim
+    name: Coinlim
+  target: ETH
+- base: KNT
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -61,11 +66,6 @@ tickers:
     identifier: crex24
     name: CREX24
   target: EURPM
-- base: KNT
-  market:
-    identifier: crex24
-    name: CREX24
-  target: JPY
 - base: KNT
   market:
     identifier: crex24
@@ -83,6 +83,6 @@ tickers:
   target: USDT
 - base: KNT
   market:
-    identifier: satoexchange
-    name: SatoExchange
+    identifier: mercatox
+    name: Mercatox
   target: BTC

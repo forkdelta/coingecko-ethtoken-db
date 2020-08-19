@@ -1,8 +1,8 @@
 ---
 address: '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2'
-coingecko_rank: 38
-coingecko_score: 53.641
-community_score: 43.93
+coingecko_rank: 34
+coingecko_score: 54.972
+community_score: 41.995
 description: >-
   MKR is a cryptocurrency depicted as a smart contract platform and works alongside the Dai coin and aims
   to act as a hedge currency that provides traders with a stable alternative to the majority of coins
@@ -39,7 +39,7 @@ description: >-
   the equivalent of $25.41 today, and even $1 in 1993 is worth the equivalent of $1.74 today. Stablecoins
   don’t negate these basic economic principles of value. Instead, both Tether and Dai have values pegged
   to the U.S. dollar. This is done to stabilize the price.
-developer_score: 74.773
+developer_score: 73.74
 id: maker
 image:
   large: https://assets.coingecko.com/coins/images/1364/large/Mark_Maker.png?1585191826
@@ -57,22 +57,22 @@ links:
     - https://github.com/makerdao/dai.js
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
-liquidity_score: 49.446
-market_cap_rank: 32
+liquidity_score: 59.145
+market_cap_rank: 33
 name: Maker
-public_interest_score: 0.057
+public_interest_score: 0.0
 symbol: mkr
 tickers:
 - base: 0X9F8F72AA9304C8B593D555F12EF6589CC3A579A2
   market:
     identifier: balancer
     name: Balancer
-  target: DAI
-- base: 0X9F8F72AA9304C8B593D555F12EF6589CC3A579A2
-  market:
-    identifier: balancer
-    name: Balancer
   target: USDC
+- base: MKR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: DAI
 - base: MKR
   market:
     identifier: bamboo_relay
@@ -85,19 +85,34 @@ tickers:
   target: USDT
 - base: MKR
   market:
-    identifier: coinall
-    name: CoinAll
+    identifier: bitbay
+    name: BitBay
   target: BTC
 - base: MKR
   market:
-    identifier: dex_blue
-    name: dex.blue
+    identifier: deversifi
+    name: 'Deversifi '
   target: ETH
 - base: MKR
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
+    identifier: dextrade
+    name: Dex-Trade
+  target: BTC
+- base: MKR
+  market:
+    identifier: dextrade
+    name: Dex-Trade
+  target: ETH
+- base: MKR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: MKR
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: MKR
   market:
     identifier: huobi_korea
@@ -105,6 +120,11 @@ tickers:
   target: USDT
 - base: MKR
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: MKR
+  market:
     identifier: okex_korea
     name: OKEx Korea
   target: BTC
@@ -115,16 +135,11 @@ tickers:
   target: USDT
 - base: MKR
   market:
-    identifier: tokenlon
-    name: Tokenlon
+    identifier: switcheo
+    name: Switcheo
   target: ETH
 - base: MKR
   market:
-    identifier: wazirx
-    name: WazirX
-  target: USDT
-- base: MKR
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: tokenlon
+    name: Tokenlon
+  target: ETH

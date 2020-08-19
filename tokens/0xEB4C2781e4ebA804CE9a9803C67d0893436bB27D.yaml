@@ -1,8 +1,8 @@
 ---
 address: '0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D'
-coingecko_rank: 159
-coingecko_score: 40.147
-community_score: 34.229
+coingecko_rank: 124
+coingecko_score: 42.236
+community_score: 32.886
 description: >-
   REN Tokenized BTC
 
@@ -10,7 +10,7 @@ description: >-
   Once an asset is in the custody of RenVM, an ERC20 token at a 1:1 value is minted on Ethereum - this
   can then be used as any ERC20 can within the Ethereum ecosystem (for example, swaps, collateralization,
   trades etc.)
-developer_score: 47.645
+developer_score: 47.22
 id: renbtc
 image:
   large: https://assets.coingecko.com/coins/images/11370/large/renBTC.png?1589985711
@@ -27,10 +27,10 @@ links:
   subreddit_url: https://www.reddit.com/r/RenProject/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 37.585
-market_cap_rank: 100
+liquidity_score: 44.847
+market_cap_rank: 101
 name: renBTC
-public_interest_score: 0.012
+public_interest_score: 0.0
 symbol: renbtc
 tickers:
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
@@ -48,13 +48,13 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: RENBTC
+- base: SBTC
   market:
     identifier: curve
     name: Curve Finance
-  target: SBTC
-- base: RENBTC
+  target: RENBTC
+- base: ETH
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: loopring
+    name: Loopring
+  target: RENBTC

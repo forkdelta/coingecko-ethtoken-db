@@ -1,8 +1,8 @@
 ---
 address: '0xFC098147522344195d63520BC754cFd5B38F09CF'
-coingecko_rank: 3343
-coingecko_score: 3.244
-community_score: 13.838
+coingecko_rank: 3415
+coingecko_score: 2.942
+community_score: 12.465
 description: >-
   SURF is the official exchange utility token of Mercuriex.com cryptocurrency exchange.
 developer_score: 0.0
@@ -27,6 +27,16 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: SurfExUtilityToken
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: surf
-tickers: []
+tickers:
+- base: SURF
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: SURF
+  market:
+    identifier: mercuriex
+    name: MercuriEx
+  target: TUSD

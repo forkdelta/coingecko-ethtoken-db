@@ -1,8 +1,8 @@
 ---
 address: '0xDF2C7238198Ad8B389666574f2d8bc411A4b7428'
-coingecko_rank: 136
-coingecko_score: 41.081
-community_score: 36.426
+coingecko_rank: 123
+coingecko_score: 42.483
+community_score: 34.768
 description: >-
   Mainframe is the platform for decentralized applications. Resistant to censorship, surveillance, and
   disruption, the Mainframe network enables any application to send data, store files, manage payments,
@@ -30,7 +30,7 @@ description: >-
   of exchange in the form of Mainframe tokens (MFT) is also used to improve the developer and user experience.
   Where underlying service layers cannot be retrofitted to accept MFT, we will implement atomic swaps
   between native service-layer tokens and MFT.
-developer_score: 50.344
+developer_score: 49.591
 id: mainframe
 image:
   large: https://assets.coingecko.com/coins/images/3293/large/mainframe.png?1547978270
@@ -55,21 +55,31 @@ links:
   subreddit_url: https://www.reddit.com/r/mainframe/
   telegram_channel_identifier: MainframeCommunity
   twitter_screen_name: Mainframe_HQ
-liquidity_score: 38.483
-market_cap_rank: 235
+liquidity_score: 46.491
+market_cap_rank: 244
 name: Mainframe
-public_interest_score: 0.003
+public_interest_score: 0.0
 symbol: mft
 tickers:
-- base: MFT
+- base: 0XDF2C7238198AD8B389666574F2D8BC411A4B7428
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: 0XDF2C7238198AD8B389666574F2D8BC411A4B7428
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: MFT
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: 0XDF2C7238198AD8B389666574F2D8BC411A4B7428
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: MFT
   market:

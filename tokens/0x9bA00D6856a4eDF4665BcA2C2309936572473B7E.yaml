@@ -1,14 +1,14 @@
 ---
 address: '0x9bA00D6856a4eDF4665BcA2C2309936572473B7E'
-coingecko_rank: 248
-coingecko_score: 34.845
-community_score: 32.567
+coingecko_rank: 240
+coingecko_score: 35.299
+community_score: 31.535
 description: >-
   Aave USDC is an interest bearing token minted upon deposit and burned when redeemed. The aUSDC is pegged
   1:1 to the value of the underlying USDC that is deposited in Aave protocol. aUSDC, can be freely stored,
   transferred, and traded. While the underlying asset is loaned out to borrowers, aUSDC accrue interest
   in real time, directly in your wallet!
-developer_score: 18.535
+developer_score: 17.63
 id: aave-usdc
 image:
   large: https://assets.coingecko.com/coins/images/11674/large/aUSDC.png?1592546449
@@ -29,9 +29,14 @@ links:
   subreddit_url: https://www.reddit.com/r/Aave_Official/
   telegram_channel_identifier: '@Aavesome'
   twitter_screen_name: aaveaave
-liquidity_score: 44.303
-market_cap_rank: 61
+liquidity_score: 45.777
+market_cap_rank: 59
 name: Aave USDC
-public_interest_score: 0.053
+public_interest_score: 0.0
 symbol: ausdc
-tickers: []
+tickers:
+- base: AUSDC
+  market:
+    identifier: aave
+    name: Aave
+  target: ETH

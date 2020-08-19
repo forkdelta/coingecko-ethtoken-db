@@ -1,8 +1,8 @@
 ---
 address: '0x2e071D2966Aa7D8dECB1005885bA1977D6038A65'
-coingecko_rank: 2441
-coingecko_score: 7.2
-community_score: 31.816
+coingecko_rank: 2482
+coingecko_score: 6.942
+community_score: 30.644
 description: >-
   Etheroll is an ethereum smart contract for a gambling dice game with a browser UX. The game requires
   no deposits or signups. At time of sale, the UX is available for demo and the game contract is available
@@ -25,16 +25,21 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: Etheroll
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: dice
 tickers:
 - base: DICE
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DICE
   market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: 0X2E071D2966AA7D8DECB1005885BA1977D6038A65
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

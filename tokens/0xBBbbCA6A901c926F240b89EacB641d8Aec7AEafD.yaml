@@ -1,8 +1,8 @@
 ---
 address: '0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD'
-coingecko_rank: 31
-coingecko_score: 54.737
-community_score: 44.579
+coingecko_rank: 32
+coingecko_score: 55.215
+community_score: 41.638
 description: >-
   Loopring is a decentralized exchange protocol and an “automated execution system” built on <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
   that will allow its users to trade assets across exchanges.  It isn’t a decentralized exchange.  Rather,
@@ -59,7 +59,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/loopring-lrc/">CoinBureau</a> for the full review
   of Loopring.
-developer_score: 79.845
+developer_score: 79.173
 id: loopring
 image:
   large: https://assets.coingecko.com/coins/images/913/large/LRC.png?1572852344
@@ -83,12 +83,27 @@ links:
   subreddit_url: https://www.reddit.com/r/loopringorg/
   telegram_channel_identifier: loopring_en
   twitter_screen_name: loopringorg
-liquidity_score: 52.545
-market_cap_rank: 64
+liquidity_score: 57.957
+market_cap_rank: 68
 name: Loopring
-public_interest_score: 0.008
+public_interest_score: 0.0
 symbol: lrc
 tickers:
+- base: 0XBBBBCA6A901C926F240B89EACB641D8AEC7AEAFD
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: LRC
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
+- base: LRC
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: LRC
   market:
     identifier: bitfinex
@@ -113,6 +128,21 @@ tickers:
   market:
     identifier: okex_korea
     name: OKEx Korea
+  target: BTC
+- base: LRC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: ETH
+- base: LRC
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: USDT
+- base: 0XBBBBCA6A901C926F240B89EACB641D8AEC7AEAFD
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: LRC
   market:
@@ -123,17 +153,17 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
-- base: LRC
-  market:
-    identifier: yobit
-    name: YoBit
   target: DOGE
 - base: LRC
   market:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: LRC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: LRC
   market:
     identifier: yobit
