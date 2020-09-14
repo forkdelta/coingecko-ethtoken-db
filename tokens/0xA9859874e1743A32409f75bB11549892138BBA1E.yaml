@@ -1,8 +1,8 @@
 ---
 address: '0xA9859874e1743A32409f75bB11549892138BBA1E'
-coingecko_rank: 613
-coingecko_score: 25.233
-community_score: 34.265
+coingecko_rank: 603
+coingecko_score: 25.396
+community_score: 34.921
 description: >-
   Inverse Ethereum by Synthetix.
 
@@ -28,22 +28,27 @@ links:
   - https://www.synthetix.io/
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 29.606
-market_cap_rank: 481
+liquidity_score: 28.107
+market_cap_rank: 465
 name: iETH
-public_interest_score: 0.0
+public_interest_score: 0.053
 symbol: ieth
 tickers:
-- base: IETH
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: IETC
 - base: IBTC
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: IETH
+- base: SBCH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IETH
+- base: IETH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: ILINK
 - base: IETH
   market:
     identifier: synthetix
@@ -54,3 +59,8 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
+- base: 0XA9859874E1743A32409F75BB11549892138BBA1E
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x8a854288a5976036A725879164Ca3e91d30c6A1B'
-coingecko_rank: 548
-coingecko_score: 26.356
-community_score: 28.787
+coingecko_rank: 637
+coingecko_score: 24.915
+community_score: 29.301
 description: >-
   The GET Protocol offers a blockchain-based smart ticketing solution that can be used by everybody who
   needs to issue admission tickets in an honest and transparent way.
@@ -31,12 +31,22 @@ links:
   subreddit_url: https://www.reddit.com/r/GETprotocol/
   telegram_channel_identifier: getprotocol
   twitter_screen_name: getprotocol
-liquidity_score: 23.255
-market_cap_rank: 461
+liquidity_score: 15.954
+market_cap_rank: 468
 name: GET Protocol
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: get
 tickers:
+- base: GET
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: GET
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: GET
   market:
     identifier: quoine
@@ -46,4 +56,9 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
+  target: ETH
+- base: 0X8A854288A5976036A725879164CA3E91D30C6A1B
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

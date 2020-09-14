@@ -1,8 +1,8 @@
 ---
 address: '0x2001f2A0Cf801EcFda622f6C28fb6E10d803D969'
-coingecko_rank: 2609
-coingecko_score: 6.152
-community_score: 27.054
+coingecko_rank: 2628
+coingecko_score: 6.448
+community_score: 28.396
 description: >-
   At one point or another, every crypto investor needs to get their hands on fiat money. Crypto asset
   transactions can be really difficult. Depending on amount and timeframe, it can be a very painful experience.
@@ -27,9 +27,14 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: CoinLoan
-public_interest_score: 0.0
+public_interest_score: 0.014
 symbol: clt
 tickers:
+- base: CLT
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
 - base: CLT
   market:
     identifier: tokpie
@@ -37,9 +42,19 @@ tickers:
   target: ETH
 - base: CLT
   market:
+    identifier: tokpie
+    name: Tokpie
+  target: TKP
+- base: CLT
+  market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: BTC
+- base: CLT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: CLT
   market:
     identifier: yobit

@@ -1,16 +1,16 @@
 ---
 address: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e'
-coingecko_rank: 142
-coingecko_score: 41.513
-community_score: 8.995
+coingecko_rank: 109
+coingecko_score: 43.968
+community_score: 10.54
 description: >-
   Management token for the yearn.finance ecosystem
-developer_score: 52.659
+developer_score: 46.329
 id: yearn-finance
 image:
-  large: https://assets.coingecko.com/coins/images/11849/large/yearn-finance.png?1595602501
-  small: https://assets.coingecko.com/coins/images/11849/small/yearn-finance.png?1595602501
-  thumb: https://assets.coingecko.com/coins/images/11849/thumb/yearn-finance.png?1595602501
+  large: https://assets.coingecko.com/coins/images/11849/large/yfi-192x192.png?1598325330
+  small: https://assets.coingecko.com/coins/images/11849/small/yfi-192x192.png?1598325330
+  thumb: https://assets.coingecko.com/coins/images/11849/thumb/yfi-192x192.png?1598325330
 links:
   announcement_url:
   - https://guides.curve.fi/what-is-yfi-and-how-to-earn-them-by-staking-your-ytokens/
@@ -26,29 +26,39 @@ links:
     - https://github.com/iearn-finance/ygov-finance
     - https://github.com/iearn-finance/yswap-finance
   twitter_screen_name: iearnfinance
-liquidity_score: 56.829
-market_cap_rank: 52
+liquidity_score: 71.88
+market_cap_rank: 24
 name: yearn.finance
-public_interest_score: 0.0
+public_interest_score: 0.063
 symbol: yfi
 tickers:
-- base: YFI
+- base: 0XDF5E0E81DFF6FAF3A7E52BA697820C5E32D806A8
   market:
-    identifier: dex_blue
-    name: dex.blue
-  target: DAI
-- base: YFI
-  market:
-    identifier: dex_blue
-    name: dex.blue
-  target: ETH
+    identifier: balancer
+    name: Balancer
+  target: 0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E
 - base: YFI
   market:
     identifier: eterbase
     name: Eterbase
-  target: ETH
+  target: USDT
+- base: YFI
+  market:
+    identifier: loopring
+    name: Loopring
+  target: USDT
 - base: YFI
   market:
     identifier: switcheo
     name: Switcheo
   target: ETH
+- base: YFI
+  market:
+    identifier: vinex
+    name: Vinex
+  target: ETH
+- base: YFI
+  market:
+    identifier: vinex
+    name: Vinex
+  target: USDT

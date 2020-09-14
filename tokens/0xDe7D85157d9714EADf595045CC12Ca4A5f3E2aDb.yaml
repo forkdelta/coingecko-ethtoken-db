@@ -1,8 +1,8 @@
 ---
 address: '0xDe7D85157d9714EADf595045CC12Ca4A5f3E2aDb'
-coingecko_rank: 715
-coingecko_score: 23.709
-community_score: 8.941
+coingecko_rank: 752
+coingecko_score: 23.273
+community_score: 9.733
 description: >-
   Standard Tokenization Protocol is a smart contract platform that allows issuers to create and issue
   token offerings in a regulatory compliant manner in a large number of jurisdictions around the globe.
@@ -29,12 +29,22 @@ links:
   - https://stp.network/
   telegram_channel_identifier: STPofficial
   twitter_screen_name: STP_Networks
-liquidity_score: 43.535
-market_cap_rank: 260
+liquidity_score: 42.069
+market_cap_rank: 309
 name: STP Network
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: stpt
 tickers:
+- base: STPT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: STPT
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: TRX
 - base: STPT
   market:
     identifier: upbit
@@ -44,9 +54,4 @@ tickers:
   market:
     identifier: upbit_indonesia
     name: 'Upbit Indonesia '
-  target: BTC
-- base: STPT
-  market:
-    identifier: vcc
-    name: VCC Exchange
   target: BTC

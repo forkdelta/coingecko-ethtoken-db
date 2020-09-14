@@ -1,12 +1,12 @@
 ---
 address: '0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098'
-coingecko_rank: 1556
-coingecko_score: 14.032
-community_score: 9.453
+coingecko_rank: 1566
+coingecko_score: 14.219
+community_score: 10.305
 description: >-
   Today’s crypto-markets are driven by crowd sentiment. Hype and fear dominate the price action. Santiment
   delivers clarity, with market sentiment content and datafeeds that can’t be found anywhere else.
-developer_score: 47.01
+developer_score: 47.005
 id: santiment-network-token
 image:
   large: https://assets.coingecko.com/coins/images/797/large/santiment-network-token.png?1547034571
@@ -26,9 +26,14 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: Santiment Network Token
-public_interest_score: 0.0
+public_interest_score: 0.01
 symbol: san
 tickers:
+- base: SAN
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: BTC
 - base: SAN
   market:
     identifier: bitfinex
@@ -36,14 +41,24 @@ tickers:
   target: ETH
 - base: SAN
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: SAN
+  market:
     identifier: hitbtc
     name: HitBTC
+  target: ETH
+- base: 0X7C5A0CE9267ED19B22F8CAE653F198E3E8DAF098
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH
 - base: SAN
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: ETH
 - base: SAN
   market:
     identifier: yobit

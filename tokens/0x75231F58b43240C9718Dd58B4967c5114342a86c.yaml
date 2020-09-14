@@ -1,7 +1,7 @@
 ---
 address: '0x75231F58b43240C9718Dd58B4967c5114342a86c'
-coingecko_rank: 448
-coingecko_score: 28.628
+coingecko_rank: 462
+coingecko_score: 28.508
 community_score: 0.0
 description: >-
   <a href="https://www.coingecko.com/en/exchanges/okex">OKEx</a>, the 2nd most popular cryptocurrency
@@ -44,17 +44,12 @@ links:
   - https://www.okex.com/okb
   telegram_channel_identifier: okexofficial_en
   twitter_screen_name: okex_
-liquidity_score: 61.983
+liquidity_score: 60.971
 market_cap_rank: 17
 name: OKB
-public_interest_score: 0.0
+public_interest_score: 0.692
 symbol: okb
 tickers:
-- base: OKB
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
 - base: OKB
   market:
     identifier: bitfinex
@@ -62,29 +57,14 @@ tickers:
   target: USD
 - base: OKB
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: UST
-- base: OKB
-  market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: KRW
-- base: OKB
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: ETH
-- base: OKB
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: ETH
-- base: OKB
-  market:
-    identifier: hbtc
-    name: HBTC
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
+- base: SC
+  market:
+    identifier: okex
+    name: OKEx
+  target: OKB
 - base: EGT
   market:
     identifier: okex
@@ -95,3 +75,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: OKB
+- base: 0X75231F58B43240C9718DD58B4967C5114342A86C
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

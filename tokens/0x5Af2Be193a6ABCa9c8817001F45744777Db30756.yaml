@@ -1,8 +1,8 @@
 ---
 address: '0x5Af2Be193a6ABCa9c8817001F45744777Db30756'
-coingecko_rank: 590
-coingecko_score: 25.558
-community_score: 21.724
+coingecko_rank: 704
+coingecko_score: 23.827
+community_score: 22.641
 description: >-
   The Voyager Token (VGX) rewards users within the Voyager crypto broker ecosystem. VGX generates 5% interest
   when held in the Voyager app and will soon offer cash back rewards, and other exclusive features. VGX,
@@ -28,12 +28,17 @@ links:
   subreddit_url: https://www.reddit.com/r/Invest_Voyager/
   telegram_channel_identifier: investvoyager
   twitter_screen_name: investvoyager
-liquidity_score: 36.944
-market_cap_rank: 215
+liquidity_score: 28.701
+market_cap_rank: 225
 name: Voyager Token
-public_interest_score: 0.0
+public_interest_score: 0.008
 symbol: vgx
 tickers:
+- base: BQX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: BQX
   market:
     identifier: hitbtc
@@ -43,9 +48,14 @@ tickers:
   market:
     identifier: livecoin
     name: Livecoin
-  target: USDT
-- base: B172C991-9151-4F28-8078-EFCC721B51F2
+  target: USD
+- base: ETHOS
   market:
-    identifier: lykke
-    name: Lykke
+    identifier: livecoin
+    name: Livecoin
+  target: USDT
+- base: 0X5AF2BE193A6ABCA9C8817001F45744777DB30756
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

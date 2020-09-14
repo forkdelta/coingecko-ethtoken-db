@@ -1,8 +1,8 @@
 ---
 address: '0xAcfa209Fb73bF3Dd5bBfb1101B9Bc999C49062a5'
-coingecko_rank: 2621
-coingecko_score: 6.087
-community_score: 7.164
+coingecko_rank: 1387
+coingecko_score: 16.055
+community_score: 7.882
 description: >-
   BCDiploma develops a turnkey application for higher education institutions and their graduates.
 
@@ -31,9 +31,24 @@ links:
   - https://www.evidenz.io/
   telegram_channel_identifier: BCDiploma
   twitter_screen_name: 'MyEvidenZ '
-liquidity_score: 22.554
-market_cap_rank: null
+liquidity_score: 14.468
+market_cap_rank: 627
 name: BCdiploma-EvidenZ
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: bcdt
-tickers: []
+tickers:
+- base: 0XACFA209FB73BF3DD5BBFB1101B9BC999C49062A5
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: BCDT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 0XACFA209FB73BF3DD5BBFB1101B9BC999C49062A5
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

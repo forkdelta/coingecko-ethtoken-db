@@ -1,8 +1,8 @@
 ---
 address: '0x221657776846890989a759BA2973e427DfF5C9bB'
-coingecko_rank: 63
-coingecko_score: 50.313
-community_score: 41.709
+coingecko_rank: 67
+coingecko_score: 49.314
+community_score: 41.958
 description: >-
   Augur is a trustless, decentralized platform for prediction markets. Augur is an <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
   decentralized prediction market that leverages the wisdom of the crowds to create a search engine for
@@ -57,22 +57,17 @@ links:
     - https://github.com/AugurProject/augur.js
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
-liquidity_score: 51.809
-market_cap_rank: 128
+liquidity_score: 47.0
+market_cap_rank: 126
 name: Augur
-public_interest_score: 0.0
+public_interest_score: 0.015
 symbol: rep
 tickers:
-- base: REP
+- base: 0X1985365E9F78359A9B6AD760E32412F4A445E862
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: REP
-  market:
-    identifier: binance_us
-    name: Binance US
-  target: BUSD
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: REP
   market:
     identifier: bitbay
@@ -85,14 +80,29 @@ tickers:
   target: EUR
 - base: REP
   market:
+    identifier: bitbay
+    name: BitBay
+  target: USD
+- base: REP
+  market:
     identifier: bitfinex
     name: Bitfinex
-  target: ETH
+  target: BTC
 - base: REP
   market:
     identifier: bitfinex
     name: Bitfinex
   target: USD
+- base: REPV2
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: CREP
+  market:
+    identifier: compound_finance
+    name: Compound Finance
+  target: REP
 - base: REP
   market:
     identifier: crex24
@@ -105,8 +115,8 @@ tickers:
   target: KRW
 - base: REP
   market:
-    identifier: idex
-    name: Idex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0CE572B6-8AB9-49C5-AB89-98213D7D70EE
   market:
@@ -118,11 +128,6 @@ tickers:
     identifier: nice_hash
     name: NiceHash
   target: BTC
-- base: REP
-  market:
-    identifier: oasis_trade
-    name: OasisDEX
-  target: DAI
 - base: 0X221657776846890989A759BA2973E427DFF5C9BB
   market:
     identifier: one_inch
@@ -130,19 +135,14 @@ tickers:
   target: ETH
 - base: REP
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: REP
-  market:
     identifier: tokenlon
     name: Tokenlon
   target: ETH
 - base: REP
   market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: USDT
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
 - base: REP
   market:
     identifier: upbit

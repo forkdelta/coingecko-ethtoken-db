@@ -1,8 +1,8 @@
 ---
 address: '0x6531f133e6DeeBe7F2dcE5A0441aA7ef330B4e53'
-coingecko_rank: 214
-coingecko_score: 36.706
-community_score: 34.876
+coingecko_rank: 215
+coingecko_score: 36.849
+community_score: 35.539
 description: >-
   "About Chrono.tech
 
@@ -18,7 +18,7 @@ description: >-
   Chrono.tech's achievements in development range from successfully launching dApps like the LaborX.io
   job platform and the TimeX.io cryptocurrency exchange, up to working on its own side chain with custom
   consensus algorithm."
-developer_score: 61.095
+developer_score: 61.088
 id: chronobank
 image:
   large: https://assets.coingecko.com/coins/images/604/large/TIMEsymbol200x200.png?1572093177
@@ -41,12 +41,22 @@ links:
   subreddit_url: https://www.reddit.com/r/ChronoBank
   telegram_channel_identifier: chronotech
   twitter_screen_name: ChronotechNews
-liquidity_score: 13.431
-market_cap_rank: 710
+liquidity_score: 14.972
+market_cap_rank: 854
 name: chrono.tech
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: time
 tickers:
+- base: TIME
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: TIME
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: TIME
   market:
     identifier: livecoin
@@ -54,19 +64,19 @@ tickers:
   target: ETH
 - base: TIME
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: TIME
+    identifier: livecoin
+    name: Livecoin
+  target: USD
+- base: 0X6531F133E6DEEBE7F2DCE5A0441AA7EF330B4E53
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH
 - base: TIME
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: ETH
 - base: TIME
   market:
     identifier: yobit

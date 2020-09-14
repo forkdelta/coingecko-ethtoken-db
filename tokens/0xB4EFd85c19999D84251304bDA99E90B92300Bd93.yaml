@@ -1,8 +1,8 @@
 ---
 address: '0xB4EFd85c19999D84251304bDA99E90B92300Bd93'
-coingecko_rank: 90
-coingecko_score: 46.151
-community_score: 29.658
+coingecko_rank: 102
+coingecko_score: 44.793
+community_score: 30.375
 description: >-
   Rocket Pool is a next generation decentralised staking network and pool for Ethereum 2.0
 
@@ -26,7 +26,7 @@ description: >-
   If the network is reaching capacity, then node operators need less RPL to join as the network needs
   more node deposits to be matched up with regular users deposits. If the network is maxed out and needs
   node operators to join quickly, it even drops to 0 for the first one to make a deposit.
-developer_score: 72.976
+developer_score: 70.811
 id: rocket-pool
 image:
   large: https://assets.coingecko.com/coins/images/2090/large/rocket.png?1563781948
@@ -48,12 +48,22 @@ links:
     - https://github.com/rocket-pool/smartnode
   subreddit_url: https://www.reddit.com/r/rocketpool
   twitter_screen_name: Rocket_Pool
-liquidity_score: 38.828
-market_cap_rank: 165
+liquidity_score: 35.021
+market_cap_rank: 223
 name: Rocket Pool
-public_interest_score: 0.0
+public_interest_score: 0.003
 symbol: rpl
 tickers:
+- base: RPL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RPL
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: RPL
   market:
     identifier: idex
@@ -63,11 +73,6 @@ tickers:
   market:
     identifier: loopring
     name: Loopring
-  target: ETH
-- base: 0XB4EFD85C19999D84251304BDA99E90B92300BD93
-  market:
-    identifier: mooniswap
-    name: Mooniswap
   target: ETH
 - base: RPL
   market:

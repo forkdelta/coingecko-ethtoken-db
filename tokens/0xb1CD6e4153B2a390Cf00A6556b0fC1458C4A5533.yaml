@@ -1,8 +1,8 @@
 ---
 address: '0xb1CD6e4153B2a390Cf00A6556b0fC1458C4A5533'
-coingecko_rank: 2192
-coingecko_score: 8.876
-community_score: 39.437
+coingecko_rank: 2251
+coingecko_score: 8.781
+community_score: 39.0
 description: >-
   ETHBNT is a Bancor pool token representing shares in the ETH:BNT liquidity pool. ETHBNT collects fees
   from ETH-based conversions on Bancor.
@@ -42,11 +42,16 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: ETHBNT Relay
-public_interest_score: 0.0
+public_interest_score: 0.022
 symbol: ethbnt
 tickers:
 - base: ETHBNT
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: ETHBNT
+  market:
+    identifier: poloniex
+    name: Poloniex
   target: BTC

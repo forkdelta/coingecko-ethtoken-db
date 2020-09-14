@@ -1,39 +1,12 @@
 ---
 address: '0xFC29B6e626B67776675FfF55d5BC0452d042F434'
-coingecko_rank: 2572
-coingecko_score: 9.842
-community_score: 8.036
+coingecko_rank: 2070
+coingecko_score: 10.017
+community_score: 3.423
 description: >-
-  BHT is the abbreviation for BHEX Token, being the platform token for BHEX ecosystem.
-
-  BHT is the decentralized asset issued on the Ethereum blockchain for BHEX ecosystem, with a total issuance
-  size of 2.1 billion. It will be gradually burnt until the total size reduces to 1.05 billion. BHT is
-  used for the development and incentive of BHEX ecosystem.
-
-
-  The intrinsic value of BHT is totally based on BHEX business ecosystem, it includes but not limited
-  to:
-
-
-  BHDM BHEX Decentralized Blockchain Asset Market
-
-  Usage Scenario: BHT is the universal token for the whole DiFi market.
-
-
-  BHEX Decentralized Custody & Clearing Chain
-
-  Usage Scenario: BHT will be used for the Gas fee for the associated public chain.
-
-
-  BHEX Matrix Cloud SaaS Service
-
-  Usage Scenario: BHT will be used for service fee, Security Deposit, consulting fee, partnership incentive,
-  etc.
-
-
-  BHEX Exchange
-
-  Usage Scenario: BHT will be used for paying the trading fee, membership premium, voting, etc.
+  BHT is the token issued by HBEX trading platform ecosystem, which carries the core values of BHEX ecosystem,
+  including BHEX trading platform, BHOP open platform and the decentralized custody and clearing platform
+  supported by patented Bluehelix blockchain infrastructure technology.
 developer_score: 0.0
 id: bhex-global-circulation-token
 image:
@@ -43,20 +16,30 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0xfc29b6e626b67776675fff55d5bc0452d042f434
-  - https://ethplorer.io/token/0xfc29b6e626b67776675fff55d5bc0452d042f434
   chat_url:
   - https://t.me/BHEX_CHN
   facebook_username: BHEXofficial
   homepage:
   - https://www.bhex.com/
+  - https://www.hbtc.com/
   repos_url:
     github:
     - https://github.com/bhexopen/BHEX-OpenApi
   telegram_channel_identifier: BHEX_EN
   twitter_screen_name: BHEXOfficial
-liquidity_score: 25.246
-market_cap_rank: 2075
+liquidity_score: 46.287
+market_cap_rank: null
 name: BHEX Token
-public_interest_score: 27.835
+public_interest_score: 0.14
 symbol: bht
-tickers: []
+tickers:
+- base: BHT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: HT
+- base: BHT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT

@@ -1,8 +1,8 @@
 ---
 address: '0x1d464Ac5e046e5fE280c9588eDF8eB681b07008F'
-coingecko_rank: 1890
-coingecko_score: 11.257
-community_score: 7.054
+coingecko_rank: 1510
+coingecko_score: 14.796
+community_score: 7.622
 description: >-
   GMB is the fastest blockchain platform with dual-cryptocurrencies that can connect into real life. GMB
   overcomes the scalability limits of existing blockchains and provides easy-to-use objective smart contacts.
@@ -24,12 +24,27 @@ links:
     github:
     - https://github.com/GMBPlatform/toolchain
   twitter_screen_name: GMBplatform
-liquidity_score: 1.0
-market_cap_rank: 1168
+liquidity_score: 10.666
+market_cap_rank: 904
 name: GMB
 public_interest_score: 0.0
 symbol: gmb
 tickers:
+- base: GMB
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: ETH
+- base: GMB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: BTC
+- base: GMB
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: GMB
   market:
     identifier: probit
@@ -40,3 +55,8 @@ tickers:
     identifier: probit
     name: ProBit
   target: KRW
+- base: GMB
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

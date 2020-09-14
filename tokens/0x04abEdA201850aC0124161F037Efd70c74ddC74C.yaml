@@ -1,8 +1,8 @@
 ---
 address: '0x04abEdA201850aC0124161F037Efd70c74ddC74C'
-coingecko_rank: 450
-coingecko_score: 28.622
-community_score: 7.59
+coingecko_rank: 496
+coingecko_score: 27.547
+community_score: 8.208
 description: >-
   Nest protocol is a decentralized price fact Oracle protocol network based on Ethereum network.
 developer_score: 0.0
@@ -26,14 +26,24 @@ links:
     - https://github.com/NestDapp/NestDapp
   telegram_channel_identifier: nest_chat
   twitter_screen_name: BruceYang_NEST
-liquidity_score: 61.502
-market_cap_rank: 82
+liquidity_score: 57.868
+market_cap_rank: 103
 name: Nest Protocol
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: nest
 tickers:
+- base: 0X04ABEDA201850AC0124161F037EFD70C74DDC74C
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: NEST
   market:
-    identifier: whale_ex
-    name: WhaleEx
-  target: USDT
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: 0X04ABEDA201850AC0124161F037EFD70C74DDC74C
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,11 +1,11 @@
 ---
 address: '0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671'
-coingecko_rank: 93
-coingecko_score: 45.926
-community_score: 33.442
+coingecko_rank: 92
+coingecko_score: 46.001
+community_score: 34.183
 description: >-
   A new kind of hedge fund built by a network of data scientists.
-developer_score: 58.936
+developer_score: 59.0
 id: numeraire
 image:
   large: https://assets.coingecko.com/coins/images/752/large/numeraire.png?1592538976
@@ -24,10 +24,10 @@ links:
     - https://github.com/numerai/numerapi-1
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
-liquidity_score: 45.02
-market_cap_rank: 62
+liquidity_score: 45.145
+market_cap_rank: 71
 name: Numeraire
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: nmr
 tickers:
 - base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
@@ -37,14 +37,29 @@ tickers:
   target: USDC
 - base: NMR
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: NMR
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
   market:
-    identifier: mooniswap
-    name: Mooniswap
+    identifier: one_inch
+    name: 1inch
   target: ETH
+- base: NMR
+  market:
+    identifier: upbit
+    name: Upbit
+  target: BTC
+- base: NMR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
 - base: NMR
   market:
     identifier: yobit

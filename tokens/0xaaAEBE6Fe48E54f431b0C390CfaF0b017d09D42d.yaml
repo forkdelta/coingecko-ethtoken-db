@@ -1,8 +1,8 @@
 ---
 address: '0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d'
-coingecko_rank: 419
-coingecko_score: 29.186
-community_score: 38.757
+coingecko_rank: 423
+coingecko_score: 29.394
+community_score: 40.705
 description: >-
   For crypto to continue to spread and gain traction we’ve got to bring the next 100m people into the
   crypto community. In order to do that, real products built by real teams have to provide real utility
@@ -29,16 +29,31 @@ links:
   subreddit_url: https://www.reddit.com/r/CelsiusNetwork
   telegram_channel_identifier: celsiusnetwork
   twitter_screen_name: celsiusnetwork
-liquidity_score: 31.583
-market_cap_rank: 94
+liquidity_score: 29.928
+market_cap_rank: 73
 name: Celsius Network
-public_interest_score: 0.0
+public_interest_score: 0.031
 symbol: cel
 tickers:
 - base: CEL
   market:
-    identifier: idex
-    name: Idex
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: CEL
+  market:
+    identifier: bibo
+    name: Bibo
+  target: USDT
+- base: CEL
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: CEL
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: 0XAAAEBE6FE48E54F431B0C390CFAF0B017D09D42D
   market:
@@ -47,11 +62,6 @@ tickers:
   target: ETH
 - base: CEL
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: CEL
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

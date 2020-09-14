@@ -1,8 +1,8 @@
 ---
 address: '0x196f4727526eA7FB1e17b2071B3d8eAA38486988'
-coingecko_rank: 413
-coingecko_score: 29.488
-community_score: 26.023
+coingecko_rank: 531
+coingecko_score: 26.669
+community_score: 26.001
 description: >-
   Reserve aims to build a stable, decentralized, asset-backed cryptocurrency and a digital payment system
   that scales supply with demand and maintains 100% or more collateral backing. Ultimately, Reserve’s
@@ -19,7 +19,7 @@ description: >-
 
   (3) A growing variety of tokenized real-world assets (such as other stablecoins) that are held by the
   Reserve smart contract to back RSV.
-developer_score: 46.789
+developer_score: 40.785
 id: reserve
 image:
   large: https://assets.coingecko.com/coins/images/10952/large/Reserve.png?1586372277
@@ -38,12 +38,32 @@ links:
     - https://github.com/reserve-protocol/rsv-v2
   subreddit_url: https://www.reddit.com/r/reserveprotocol
   telegram_channel_identifier: reservecurrency
-liquidity_score: 7.316
-market_cap_rank: 846
+liquidity_score: 1.0
+market_cap_rank: 902
 name: Reserve
-public_interest_score: 0.0
+public_interest_score: 0.014
 symbol: rsv
 tickers:
+- base: RSV
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
+- base: RSV
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: RSV
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: RSV
+  market:
+    identifier: quoine
+    name: Liquid
+  target: EUR
 - base: RSV
   market:
     identifier: quoine

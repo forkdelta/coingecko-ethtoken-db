@@ -1,8 +1,8 @@
 ---
 address: '0xd31695a1d35E489252CE57b129FD4b1B05E6AcaC'
-coingecko_rank: 1427
-coingecko_score: 15.299
-community_score: 24.265
+coingecko_rank: 1474
+coingecko_score: 15.131
+community_score: 25.39
 description: >-
   TOKPIE is the First Cryptocurrency Exchange Platform with BOUNTY STAKES TRADING service.
 
@@ -31,21 +31,26 @@ links:
   telegram_channel_identifier: tokpie
   twitter_screen_name: tokpie_io
 liquidity_score: 1.0
-market_cap_rank: 1107
+market_cap_rank: 1225
 name: TOKPIE
-public_interest_score: 0.0
+public_interest_score: 0.007
 symbol: tkp
 tickers:
-- base: TKP
-  market:
-    identifier: coinlim
-    name: Coinlim
-  target: ETH
 - base: TKP
   market:
     identifier: tokpie
     name: Tokpie
   target: ETH
+- base: CLT
+  market:
+    identifier: tokpie
+    name: Tokpie
+  target: TKP
+- base: TKP
+  market:
+    identifier: tokpie
+    name: Tokpie
+  target: USDC
 - base: TKP
   market:
     identifier: vindax

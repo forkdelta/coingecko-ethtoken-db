@@ -1,8 +1,8 @@
 ---
 address: '0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643'
-coingecko_rank: 243
-coingecko_score: 35.2
-community_score: 33.479
+coingecko_rank: 271
+coingecko_score: 33.898
+community_score: 34.877
 description: >-
   Compound protocol balance token
 developer_score: 0.0
@@ -21,17 +21,22 @@ links:
   - https://compound.finance/
   subreddit_url: https://www.reddit.com/r/compound
   twitter_screen_name: compoundfinance
-liquidity_score: 60.017
-market_cap_rank: 25
+liquidity_score: 52.783
+market_cap_rank: 31
 name: cDAI
-public_interest_score: 0.0
+public_interest_score: 0.135
 symbol: cdai
 tickers:
-- base: 0X5D3A536E4D6DBD6114CC1EAD35777BAB948E3643
+- base: CUSDC
   market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
+    identifier: curve
+    name: Curve Finance
+  target: CDAI
+- base: CDAI
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: CUSDC
 - base: 0X5D3A536E4D6DBD6114CC1EAD35777BAB948E3643
   market:
     identifier: one_inch
@@ -41,4 +46,9 @@ tickers:
   market:
     identifier: uniswap
     name: Uniswap (v2)
+  target: ETH
+- base: CDAI
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
