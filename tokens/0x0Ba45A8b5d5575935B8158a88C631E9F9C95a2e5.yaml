@@ -1,8 +1,8 @@
 ---
 address: '0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5'
-coingecko_rank: 603
-coingecko_score: 25.348
-community_score: 8.243
+coingecko_rank: 512
+coingecko_score: 27.209
+community_score: 9.172
 description: >-
   Smart contracts on Ethereum are fully self contained and any information or access to off-chain data
   is restricted.  Tellor solves this problem by creating a system where parties can request the value
@@ -36,10 +36,10 @@ links:
     - https://github.com/tellor-io/TellorCore
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
-liquidity_score: 48.396
-market_cap_rank: 147
+liquidity_score: 57.203
+market_cap_rank: 152
 name: Tellor
-public_interest_score: 0.0
+public_interest_score: 0.008
 symbol: trb
 tickers:
 - base: 0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5
@@ -54,14 +54,9 @@ tickers:
   target: USDC
 - base: TRB
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: TRB
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: USDT
+    identifier: dex_blue
+    name: dex.blue
+  target: ETH
 - base: TRB
   market:
     identifier: eterbase
@@ -72,18 +67,18 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
+- base: TRB
+  market:
+    identifier: multi
+    name: Multi.io
+  target: USDT
+- base: 0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: TT
   market:
     identifier: uniswap_v1
     name: Uniswap (v1)
   target: ETH
-- base: TRB
-  market:
-    identifier: vitex
-    name: ViteX
-  target: BTC
-- base: TRB
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

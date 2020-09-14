@@ -1,6 +1,6 @@
 ---
 address: '0x309627af60F0926daa6041B8279484312f2bf060'
-coingecko_rank: 5413
+coingecko_rank: 5160
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -28,7 +28,17 @@ name: USD Bancor
 public_interest_score: 0.0
 symbol: usdb
 tickers:
-- base: MET
+- base: USDT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
+- base: DAI
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
+- base: REN
   market:
     identifier: bancor
     name: Bancor Network

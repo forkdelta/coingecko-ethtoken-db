@@ -1,8 +1,8 @@
 ---
 address: '0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C'
-coingecko_rank: 1792
-coingecko_score: 11.976
-community_score: 9.246
+coingecko_rank: 1894
+coingecko_score: 11.559
+community_score: 9.995
 description: >-
   Reinventing the retail business and customer relationship.
 
@@ -42,9 +42,9 @@ links:
   telegram_channel_identifier: netkoin
   twitter_screen_name: netkoin
 liquidity_score: 1.0
-market_cap_rank: 1197
+market_cap_rank: 1338
 name: Netkoin
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: ntk
 tickers:
 - base: NTK
@@ -52,8 +52,13 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: NTK2
+- base: NTK
   market:
-    identifier: idex
-    name: Idex
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: 0X5D4D57CD06FA7FE99E26FDC481B468F77F05073C
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0xA6281838f4A9c5736b2aa1cba9260D3F879623cA'
-coingecko_rank: 3811
-coingecko_score: 1.937
-community_score: 8.805
+coingecko_rank: 3699
+coingecko_score: 2.294
+community_score: 9.518
 description: >-
   DCA serves as utility token for decentralized ecosystem,token creation service and bartering system.
 developer_score: 0.0
@@ -26,9 +26,24 @@ links:
     - https://github.com/DCA2019
   telegram_channel_identifier: DCAcommunity
   twitter_screen_name: DCAtokenService
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: Decentralized Currency Assets
 public_interest_score: 0.0
 symbol: dca
-tickers: []
+tickers:
+- base: DCA
+  market:
+    identifier: catex
+    name: Catex
+  target: ETH
+- base: DCA
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: ETH
+- base: DCA
+  market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC

@@ -1,8 +1,8 @@
 ---
 address: '0xd20bcBD56d9D551CAc10a6bC2a83635BFb72F3F4'
-coingecko_rank: 3646
-coingecko_score: 2.146
-community_score: 8.845
+coingecko_rank: 3694
+coingecko_score: 2.303
+community_score: 9.558
 description: >-
   FUNDChains: Blockchain economy, a blockchain economy, first-class market project investment, second-class
   market investment grade evaluation, large-scale market investor community, exponential growth of high-quality
@@ -31,11 +31,6 @@ symbol: fund
 tickers:
 - base: FUND
   market:
-    identifier: bkex
-    name: BKEX
-  target: ETH
-- base: FUND
-  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -44,6 +39,11 @@ tickers:
     identifier: crex24
     name: CREX24
   target: ETH
+- base: FUND
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: FUND
   market:
     identifier: yobit
@@ -59,8 +59,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: FUND
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

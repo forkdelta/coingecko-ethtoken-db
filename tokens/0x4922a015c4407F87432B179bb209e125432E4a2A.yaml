@@ -1,8 +1,8 @@
 ---
 address: '0x4922a015c4407F87432B179bb209e125432E4a2A'
-coingecko_rank: 1052
-coingecko_score: 19.252
-community_score: 7.245
+coingecko_rank: 1002
+coingecko_score: 19.755
+community_score: 7.843
 description: >-
   Each XAU₮ token represents ownership of one troy fine ounce of physical gold on a specific gold bar.
   XAU₮, which is available as an ERC-20 token on the Ethereum blockchain and as a TRC20 token on the TRON
@@ -26,14 +26,19 @@ links:
   homepage:
   - https://tether.to/
   twitter_screen_name: tethergold
-liquidity_score: 17.958
-market_cap_rank: 114
+liquidity_score: 19.446
+market_cap_rank: 111
 name: Tether Gold
-public_interest_score: 0.0
+public_interest_score: 0.024
 symbol: xaut
 tickers:
 - base: XAUT
   market:
-    identifier: btse
-    name: BTSE
+    identifier: ftx_spot
+    name: FTX
   target: USD
+- base: XAUT
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: USDT

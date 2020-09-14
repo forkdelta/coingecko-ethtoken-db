@@ -1,8 +1,8 @@
 ---
 address: '0xBe428c3867F05deA2A89Fc76a102b544eaC7f772'
-coingecko_rank: 2668
-coingecko_score: 5.813
-community_score: 10.012
+coingecko_rank: 1290
+coingecko_score: 17.095
+community_score: 41.891
 description: >-
   CyberVein was founded at the beginning of a world class structure, and is a public link to open to the
   world. CyberVein is made to integrate the form of data economy in various aspects with the block chain
@@ -113,21 +113,34 @@ image:
   small: https://assets.coingecko.com/coins/images/3886/small/cyberveintoken.jpg?1589793309
   thumb: https://assets.coingecko.com/coins/images/3886/thumb/cyberveintoken.jpg?1589793309
 links:
-  bitcointalk_thread_identifier: 2890016
+  announcement_url:
+  - https://medium.com/@CyberVein
+  bitcointalk_thread_identifier: 5250086
   blockchain_site:
   - https://etherscan.io/token/0xbe428c3867f05dea2a89fc76a102b544eac7f772
   - https://ethplorer.io/address/0xbe428c3867f05dea2a89fc76a102b544eac7f772
-  facebook_username: cyberveinpage
+  chat_url:
+  - https://t.me/cybervein
+  facebook_username: cyberveinteam
   homepage:
   - http://www.cybervein.org/
-  telegram_channel_identifier: cybervein
+  repos_url:
+    github:
+    - https://github.com/Cyberveinofficial/CyberVeinChain
+  subreddit_url: https://www.reddit.com/r/CyberVeinOfficial/
+  telegram_channel_identifier: CyberVeinCommunity
   twitter_screen_name: cyberveingroup
-liquidity_score: 18.052
+liquidity_score: 39.395
 market_cap_rank: null
 name: CyberVeinToken
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: cvt
 tickers:
+- base: CVT
+  market:
+    identifier: bit_z
+    name: BitZ
+  target: BTC
 - base: CVT
   market:
     identifier: bit_z
@@ -135,13 +148,13 @@ tickers:
   target: ETH
 - base: CVT
   market:
-    identifier: bitbns
-    name: BitBNS
-  target: INR
-- base: CVT
-  market:
     identifier: bittrex
     name: Bittrex
+  target: BTC
+- base: CVT
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
 - base: CVT
   market:
@@ -153,3 +166,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: CVT
+  market:
+    identifier: okex_korea
+    name: OKEx Korea
+  target: BTC

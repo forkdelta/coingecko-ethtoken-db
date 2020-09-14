@@ -1,8 +1,8 @@
 ---
 address: '0x93eCD2ecDFb91aB2fEe28A8779A6adfe2851cda6'
-coingecko_rank: 3326
-coingecko_score: 3.328
-community_score: 7.643
+coingecko_rank: 3923
+coingecko_score: 2.018
+community_score: 8.263
 description: >-
   Loanburst is a deflationary reward system where loans locked are rewarded through every sell, buy and
   transactions on the smart contract.
@@ -26,9 +26,19 @@ links:
     - https://github.com/loanbursttoken
   telegram_channel_identifier: loanburst
   twitter_screen_name: loanburst
-liquidity_score: 8.232
+liquidity_score: 1.0
 market_cap_rank: null
 name: LoanBurst
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: lburst
-tickers: []
+tickers:
+- base: LBURST
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: 0X93ECD2ECDFB91AB2FEE28A8779A6ADFE2851CDA6
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

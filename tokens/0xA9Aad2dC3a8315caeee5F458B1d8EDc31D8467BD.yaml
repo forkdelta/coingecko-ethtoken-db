@@ -1,8 +1,8 @@
 ---
 address: '0xA9Aad2dC3a8315caeee5F458B1d8EDc31D8467BD'
-coingecko_rank: 4121
-coingecko_score: 1.65
-community_score: 6.591
+coingecko_rank: 4193
+coingecko_score: 1.768
+community_score: 7.125
 description: >-
   BTCMoon is a tokenized version of Bitcoin on the Ethereum blockchain. BTCMoon will have faster transaction
   speeds than Bitcoin. The average block time on Bitcoin is 8 minutes, while on Ethereum it's 24 seconds.
@@ -32,6 +32,11 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: BTCM
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
 - base: BTCM
   market:
@@ -48,8 +53,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: BTCM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

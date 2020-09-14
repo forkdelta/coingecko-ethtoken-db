@@ -1,8 +1,8 @@
 ---
 address: '0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6'
-coingecko_rank: 695
-coingecko_score: 23.955
-community_score: 9.687
+coingecko_rank: 696
+coingecko_score: 24.033
+community_score: 10.604
 description: >-
   Synthetic BTC by Synthetix,
 
@@ -22,33 +22,43 @@ links:
   homepage:
   - https://www.synthetix.io
   twitter_screen_name: synthetix_io
-liquidity_score: 42.177
-market_cap_rank: 212
+liquidity_score: 42.154
+market_cap_rank: 230
 name: sBTC
-public_interest_score: 0.0
+public_interest_score: 0.053
 symbol: sbtc
 tickers:
+- base: 0XFE18BE6B3BD88A2D2A7F928D00292E7A9963CFC6
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
+- base: 0XFE18BE6B3BD88A2D2A7F928D00292E7A9963CFC6
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: SBTC
   market:
     identifier: curve
     name: Curve Finance
   target: RENBTC
-- base: SBTC
+- base: WBTC
   market:
     identifier: curve
     name: Curve Finance
-  target: WBTC
+  target: SBTC
 - base: 0XFE18BE6B3BD88A2D2A7F928D00292E7A9963CFC6
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: SXMR
+- base: IXRP
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SBTC
-- base: IBTC
+- base: SLINK
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -58,7 +68,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SBTC
-- base: SETH
+- base: SBNB
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
+- base: ILINK
   market:
     identifier: synthetix
     name: Synthetix Exchange

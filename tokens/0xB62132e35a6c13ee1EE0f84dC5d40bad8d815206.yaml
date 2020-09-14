@@ -1,8 +1,8 @@
 ---
 address: '0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206'
-coingecko_rank: 224
-coingecko_score: 36.17
-community_score: 38.497
+coingecko_rank: 236
+coingecko_score: 35.941
+community_score: 39.167
 description: >-
   The NEXO Token is an asset-backed token and is backed by the underlying assets of Nexo’s loan portfolio.
   NEXO Tokens Holders will get 30% of the company’s profits.
@@ -13,7 +13,7 @@ description: >-
 
   Check out <a href="https://www.coinbureau.com/review/nexo-coin/">CoinBureau</a> for the full review
   of Nexo Coin.
-developer_score: 21.303
+developer_score: 21.36
 id: nexo
 image:
   large: https://assets.coingecko.com/coins/images/3695/large/nexo.png?1548086057
@@ -35,16 +35,21 @@ links:
   subreddit_url: https://www.reddit.com/r/Nexo/
   telegram_channel_identifier: nexofinance
   twitter_screen_name: NexoFinance
-liquidity_score: 42.311
-market_cap_rank: 138
+liquidity_score: 40.45
+market_cap_rank: 129
 name: NEXO
-public_interest_score: 0.0
+public_interest_score: 0.144
 symbol: nexo
 tickers:
 - base: NEXO
   market:
-    identifier: bitcratic
-    name: Bitcratic
+    identifier: bitexlive
+    name: Bitexlive
+  target: ETH
+- base: NEXO
+  market:
+    identifier: bkex
+    name: BKEX
   target: ETH
 - base: NEXO
   market:
@@ -53,13 +58,8 @@ tickers:
   target: BTC
 - base: NEXO
   market:
-    identifier: coinbit
-    name: Coinbit
-  target: KRW
-- base: NEXO
-  market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: NEXO
   market:
@@ -71,11 +71,6 @@ tickers:
     identifier: livecoin
     name: Livecoin
   target: ETH
-- base: NEXO
-  market:
-    identifier: livecoin
-    name: Livecoin
-  target: USDT
 - base: NEXO
   market:
     identifier: nice_hash
@@ -96,11 +91,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: NEXO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: NEXO
   market:
     identifier: yobit

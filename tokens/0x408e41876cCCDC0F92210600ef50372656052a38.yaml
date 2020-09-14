@@ -1,13 +1,13 @@
 ---
 address: '0x408e41876cCCDC0F92210600ef50372656052a38'
-coingecko_rank: 130
-coingecko_score: 41.918
-community_score: 34.024
+coingecko_rank: 117
+coingecko_score: 43.082
+community_score: 38.53
 description: >-
   Ren is an open protocol that enables the permissionless and private transfer of value between any blockchain.
   Ren's core product, RenVM, is focused on bringing interoperability to decentralized finance (DeFi).
   Ren was founded in 2017 and is headquartered in Singapore.
-developer_score: 30.244
+developer_score: 30.242
 id: republic-protocol
 image:
   large: https://assets.coingecko.com/coins/images/3139/large/REN.png?1589985807
@@ -29,12 +29,22 @@ links:
   subreddit_url: https://www.reddit.com/r/republicprotocol/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 58.301
-market_cap_rank: 39
+liquidity_score: 60.699
+market_cap_rank: 57
 name: REN
-public_interest_score: 0.0
+public_interest_score: 0.018
 symbol: ren
 tickers:
+- base: REN
+  market:
+    identifier: altilly
+    name: Altilly
+  target: ETH
+- base: 0X408E41876CCCDC0F92210600EF50372656052A38
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: 0X408E41876CCCDC0F92210600EF50372656052A38
   market:
     identifier: balancer
@@ -42,26 +52,36 @@ tickers:
   target: USDC
 - base: REN
   market:
-    identifier: dex_blue
-    name: dex.blue
+    identifier: bancor
+    name: Bancor Network
+  target: USDB
+- base: REN
+  market:
+    identifier: eterbase
+    name: Eterbase
   target: ETH
 - base: REN
   market:
-    identifier: exrates
-    name: Exrates
-  target: USD
+    identifier: eterbase
+    name: Eterbase
+  target: USDT
+- base: REN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: REN
   market:
     identifier: idex
     name: Idex
   target: ETH
-- base: 0X408E41876CCCDC0F92210600EF50372656052A38
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
 - base: REN
   market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: multi
+    name: Multi.io
+  target: USDT
+- base: 0X408E41876CCCDC0F92210600EF50372656052A38
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

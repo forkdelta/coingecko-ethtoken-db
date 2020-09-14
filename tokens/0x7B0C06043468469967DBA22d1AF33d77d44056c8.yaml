@@ -1,17 +1,25 @@
 ---
 address: '0x7B0C06043468469967DBA22d1AF33d77d44056c8'
-coingecko_rank: 1154
-coingecko_score: 18.174
-community_score: 30.832
+coingecko_rank: 1216
+coingecko_score: 17.772
+community_score: 31.46
 description: >-
   The Morpheus.Network is a full-service, global, automated, supply chain platform for the global trading
   industry utilizing blockchain technology. This is achieved with Smart Contracts driving the supply chain
   with predetermined, automated work contracts, shipping & customs documents as well as automated international
-  payments to over 1600 banks globally through integration with the SWIFT Payments Hub to our MS Dynamics
-  ERP. The layering of other blockchain or non-blockchain technologies to be included as necessary objectives
-  in a given Smart Contract further automate any complex supply chain (eg. RFID scans, Sia data transfers).
-  The MORPH token is a "value" based utility within the Morpheus.Network, powers the platform.
-developer_score: 23.977
+  payments to over 1600 banks globally through integration with the SWIFT Payments Hub. The layering of
+  other blockchain or non-blockchain technologies to be included as necessary objectives in a given Smart
+  Contract further automate any complex supply chain (eg. RFID scans, data transfers).
+
+
+  The MRPH token is a “value” based utility within the Morpheus.Network, and is used for the transaction
+  fees to power or "fuel" the automation platform.
+
+
+  We are currently establishing strategic partners during the development of the platform. These include
+  major logistics and customs brokers, import/export corporations involved in global trade, as well as
+  actual end-users of the platform.
+developer_score: 23.976
 id: morpheus-network
 image:
   large: https://assets.coingecko.com/coins/images/2379/large/morpheus-network.png?1548085486
@@ -31,12 +39,22 @@ links:
   subreddit_url: https://www.reddit.com/r/MorpheusNetwork
   telegram_channel_identifier: themorpheusnetwork
   twitter_screen_name: MRPHSupplyChain
-liquidity_score: 26.983
+liquidity_score: 24.284
 market_cap_rank: null
 name: Morpheus Network
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: mrph
 tickers:
+- base: MRPH
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: 0X7B0C06043468469967DBA22D1AF33D77D44056C8
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0X7B0C06043468469967DBA22D1AF33D77D44056C8
   market:
     identifier: uniswap

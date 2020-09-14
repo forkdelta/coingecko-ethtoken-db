@@ -1,8 +1,8 @@
 ---
 address: '0x037A54AaB062628C9Bbae1FDB1583c195585fe41'
-coingecko_rank: 940
-coingecko_score: 20.42
-community_score: 8.95
+coingecko_rank: 1112
+coingecko_score: 18.794
+community_score: 9.694
 description: >-
   LCX, the Liechtenstein Cryptoassets Exchange, aims to become one of the world’s first licensed and supervised
   security token exchanges.
@@ -34,10 +34,10 @@ links:
   - https://www.LCX.com
   telegram_channel_identifier: JoinLCX
   twitter_screen_name: lcx
-liquidity_score: 29.701
-market_cap_rank: 354
+liquidity_score: 23.122
+market_cap_rank: 433
 name: LCX
-public_interest_score: 0.0
+public_interest_score: 0.01
 symbol: lcx
 tickers:
 - base: LCX
@@ -52,34 +52,9 @@ tickers:
   target: ETH
 - base: LCX
   market:
-    identifier: bidesk
-    name: Bidesk
-  target: USDT
-- base: LCX
-  market:
-    identifier: bitubu
-    name: Bitubu Exchange
-  target: BTC
-- base: LCX
-  market:
-    identifier: bitubu
-    name: Bitubu Exchange
-  target: ETH
-- base: LCX
-  market:
     identifier: bitubu
     name: Bitubu Exchange
   target: USDT
-- base: LCX
-  market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
-- base: LCX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: LCX
   market:
     identifier: hitbtc
@@ -89,9 +64,24 @@ tickers:
   market:
     identifier: idex
     name: Idex
-  target: USDC
+  target: ETH
+- base: LCX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: LCX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: ETH
 - base: LCX
   market:
     identifier: quoine
     name: Liquid
   target: USDC
+- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

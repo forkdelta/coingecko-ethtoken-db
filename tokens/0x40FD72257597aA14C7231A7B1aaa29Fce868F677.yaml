@@ -1,8 +1,8 @@
 ---
 address: '0x40FD72257597aA14C7231A7B1aaa29Fce868F677'
-coingecko_rank: 492
-coingecko_score: 27.612
-community_score: 24.103
+coingecko_rank: 574
+coingecko_score: 25.864
+community_score: 25.26
 description: >-
   Sora believes that economies should be decentralized, yet rational. The Sora Decentralized Autonomous
   Economy (DAE) is the world's first decentralized economy, where everyone participates to create the
@@ -28,9 +28,24 @@ links:
   subreddit_url: https://www.reddit.com/r/SORA/
   telegram_channel_identifier: sora_xor
   twitter_screen_name: sora_xor
-liquidity_score: 46.006
-market_cap_rank: 254
+liquidity_score: 35.63
+market_cap_rank: 222
 name: Sora
-public_interest_score: 0.0
+public_interest_score: 0.006
 symbol: xor
-tickers: []
+tickers:
+- base: XOR
+  market:
+    identifier: mxc
+    name: MXC
+  target: ETH
+- base: XOR
+  market:
+    identifier: mxc
+    name: MXC
+  target: USDT
+- base: 0X40FD72257597AA14C7231A7B1AAA29FCE868F677
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

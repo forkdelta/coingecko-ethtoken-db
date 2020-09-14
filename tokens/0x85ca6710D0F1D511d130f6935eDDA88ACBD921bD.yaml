@@ -1,8 +1,8 @@
 ---
 address: '0x85ca6710D0F1D511d130f6935eDDA88ACBD921bD'
-coingecko_rank: 2838
-coingecko_score: 5.139
-community_score: 8.604
+coingecko_rank: 2914
+coingecko_score: 5.097
+community_score: 9.296
 description: >-
   Pledgecamp is securing the future of crowdfunding with blockchain protected investments.
 developer_score: 0.0
@@ -24,10 +24,10 @@ links:
   - https://pledgecamp.com/
   telegram_channel_identifier: pledgecamp
   twitter_screen_name: pledgecamp
-liquidity_score: 16.231
+liquidity_score: 15.258
 market_cap_rank: null
 name: Pledgecamp
-public_interest_score: 0.0
+public_interest_score: 0.004
 symbol: plg
 tickers:
 - base: PLG
@@ -37,11 +37,16 @@ tickers:
   target: USDT
 - base: PLG
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: PLG
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: PLG
+  market:
     identifier: okex
     name: OKEx
   target: USDT
-- base: PLG
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC

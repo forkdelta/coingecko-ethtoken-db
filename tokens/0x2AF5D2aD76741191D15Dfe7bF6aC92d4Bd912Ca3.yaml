@@ -1,8 +1,8 @@
 ---
 address: '0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3'
-coingecko_rank: 249
-coingecko_score: 34.812
-community_score: 41.011
+coingecko_rank: 255
+coingecko_score: 34.875
+community_score: 41.963
 description: ""
 developer_score: 0.0
 id: leo-token
@@ -23,36 +23,41 @@ links:
   subreddit_url: https://www.reddit.com/r/bitfinex/
   telegram_channel_identifier: bfxtelegram
   twitter_screen_name: bitfinex
-liquidity_score: 48.872
-market_cap_rank: 21
+liquidity_score: 47.685
+market_cap_rank: 22
 name: LEO Token
-public_interest_score: 0.0
+public_interest_score: 0.257
 symbol: leo
 tickers:
 - base: LEO
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: EOS
+  target: BTC
 - base: LEO
   market:
-    identifier: bitfinex
-    name: Bitfinex
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: LEO
+  market:
+    identifier: okex
+    name: OKEx
+  target: BTC
+- base: LEO
+  market:
+    identifier: okex
+    name: OKEx
   target: ETH
-- base: LEO
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: UST
 - base: LEO
   market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: LEO
+- base: 0X2AF5D2AD76741191D15DFE7BF6AC92D4BD912CA3
   market:
-    identifier: switcheo
-    name: Switcheo
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH
 - base: LEO
   market:

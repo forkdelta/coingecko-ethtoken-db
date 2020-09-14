@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 151
-coingecko_score: 40.73
-community_score: 39.948
+coingecko_rank: 140
+coingecko_score: 41.814
+community_score: 42.103
 description: >-
   Gnosis is a prediction market platform built as a decentralized application (dapp) on the Ethereum network.
   The platform includes a multisig wallet as well as a Dutch Exchange, but we’re just going to focus on
@@ -42,7 +42,7 @@ description: >-
   in a vault and have promised not to dump them on the market. They’ll give at least a three-month warning
   before selling any of the tokens. The team includes quite a list of reputable advisors including Joseph
   Lubin (Ethereum co-founder and ConsenSys founder) and Vitalik Buterin (Ethereum founder and chief scientist).
-developer_score: 50.44
+developer_score: 50.434
 id: gnosis
 image:
   large: https://assets.coingecko.com/coins/images/662/large/gnosis-logo.png?1547034401
@@ -61,17 +61,17 @@ links:
     - https://github.com/gnosis/gnosis.js
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
-liquidity_score: 28.851
-market_cap_rank: 178
+liquidity_score: 31.205
+market_cap_rank: 137
 name: Gnosis
-public_interest_score: 0.0
+public_interest_score: 0.003
 symbol: gno
 tickers:
-- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
+- base: GNO
   market:
-    identifier: balancer
-    name: Balancer
-  target: DAI
+    identifier: atomars
+    name: Atomars
+  target: BTC
 - base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
   market:
     identifier: balancer
@@ -84,44 +84,54 @@ tickers:
   target: USD
 - base: GNO
   market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: GNO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: GNO
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: GNO
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
 - base: GNO
   market:
-    identifier: livecoin
-    name: Livecoin
+    identifier: latoken
+    name: LATOKEN
   target: ETH
 - base: GNO
   market:
     identifier: livecoin
     name: Livecoin
-  target: USD
-- base: GNO
+  target: ETH
+- base: 65998168-6996-4EF1-88AD-246591316C7D
   market:
-    identifier: livecoin
-    name: Livecoin
-  target: USDT
-- base: GNO
-  market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: lykke
+    name: Lykke
   target: BTC
-- base: GNO
-  market:
-    identifier: mesa
-    name: ' Gnosis Protocol'
-  target: ETH
-- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
 - base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: GNO
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
 - base: GNO
   market:
     identifier: yobit

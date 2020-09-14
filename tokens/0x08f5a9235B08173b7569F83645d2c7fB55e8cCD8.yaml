@@ -1,8 +1,8 @@
 ---
 address: '0x08f5a9235B08173b7569F83645d2c7fB55e8cCD8'
-coingecko_rank: 476
-coingecko_score: 28.008
-community_score: 34.734
+coingecko_rank: 530
+coingecko_score: 26.714
+community_score: 35.097
 description: >-
   Tierion is launching a universal platform for data verification that operates at massive scale. Businesses
   safeguard and notarize important documents such as property titles and contracts to ensure anyone can
@@ -29,17 +29,32 @@ links:
   subreddit_url: https://www.reddit.com/r/tierion
   telegram_channel_identifier: tierion
   twitter_screen_name: Tierion
-liquidity_score: 25.921
-market_cap_rank: 426
+liquidity_score: 20.881
+market_cap_rank: 564
 name: Tierion
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: tnt
 tickers:
 - base: TNT
   market:
-    identifier: nice_hash
-    name: NiceHash
-  target: BTC
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: TNT
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: TNT
+  market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 0X08F5A9235B08173B7569F83645D2C7FB55E8CCD8
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: TNT
   market:
     identifier: yobit
@@ -50,6 +65,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: TNT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: TNT
   market:
     identifier: yobit

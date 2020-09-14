@@ -1,8 +1,8 @@
 ---
 address: '0xb83Cd8d39462B761bb0092437d38b37812dd80A2'
-coingecko_rank: 1712
-coingecko_score: 12.684
-community_score: 15.536
+coingecko_rank: 1637
+coingecko_score: 13.646
+community_score: 16.099
 description: >-
   GoldenRatio Token (GRT) project is an experiment which has no funding, to prove the importance of a
   quality community in a crypto related project.
@@ -42,8 +42,8 @@ links:
   subreddit_url: https://www.reddit.com
   telegram_channel_identifier: the_goldenratio
   twitter_screen_name: goldenratioteam
-liquidity_score: 1.0
-market_cap_rank: 1309
+liquidity_score: 8.048
+market_cap_rank: 1488
 name: Golden Ratio Token
 public_interest_score: 0.0
 symbol: grt
@@ -58,7 +58,42 @@ tickers:
     identifier: resfinex
     name: Resfinex
   target: ETH
+- base: KIWI
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: GRT
+- base: ETH
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: GRT
 - base: BSOV
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: GRT
+- base: CRVT
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: GRT
+- base: TCP
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: GRT
+- base: BTC
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: GRT
+- base: USDT
+  market:
+    identifier: resfinex
+    name: Resfinex
+  target: GRT
+- base: AER
   market:
     identifier: resfinex
     name: Resfinex
@@ -67,9 +102,14 @@ tickers:
   market:
     identifier: satoexchange
     name: SatoExchange
-  target: ETH
-- base: 0XB83CD8D39462B761BB0092437D38B37812DD80A2
+  target: BTC
+- base: GRT
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
+    identifier: satoexchange
+    name: SatoExchange
   target: ETH
+- base: GRT
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: USDT

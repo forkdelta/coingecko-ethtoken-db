@@ -1,8 +1,8 @@
 ---
 address: '0xB97048628DB6B661D4C2aA833e95Dbe1A905B280'
-coingecko_rank: 380
-coingecko_score: 30.04
-community_score: 47.369
+coingecko_rank: 288
+coingecko_score: 33.343
+community_score: 49.133
 description: >-
   TenX is a payment platform that facilitates digital and physical modes of transaction for cryptocurrencies
   to any merchant, even if they don’t accept cryptocurrencies. Physical and digital modes of course, include
@@ -46,12 +46,17 @@ links:
     - https://github.com/comit-network/comit-rs
   subreddit_url: https://www.reddit.com/r/TenX
   twitter_screen_name: tenxwallet
-liquidity_score: 36.002
-market_cap_rank: 377
+liquidity_score: 51.219
+market_cap_rank: 404
 name: TenX
-public_interest_score: 0.0
+public_interest_score: 0.009
 symbol: pay
 tickers:
+- base: PAY
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
 - base: PAY
   market:
     identifier: bitbay
@@ -64,23 +69,28 @@ tickers:
   target: USD
 - base: PAY
   market:
-    identifier: bkex
-    name: BKEX
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: PAY
+  market:
+    identifier: gate
+    name: Gate.io
+  target: BTC
+- base: PAY
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: PAY
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: PAY
   market:
     identifier: kyber_network
     name: Kyber Network
-  target: ETH
-- base: PAY
-  market:
-    identifier: livecoin
-    name: Livecoin
   target: ETH
 - base: PAY
   market:
@@ -99,6 +109,11 @@ tickers:
   target: BTC
 - base: PAY
   market:
-    identifier: probit
-    name: ProBit
-  target: KRW
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
+- base: PAY
+  market:
+    identifier: vebitcoin
+    name: Vebitcoin
+  target: TRY

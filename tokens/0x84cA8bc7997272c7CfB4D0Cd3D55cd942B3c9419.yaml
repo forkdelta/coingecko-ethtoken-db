@@ -1,8 +1,8 @@
 ---
 address: '0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419'
-coingecko_rank: 521
-coingecko_score: 26.987
-community_score: 22.775
+coingecko_rank: 383
+coingecko_score: 30.266
+community_score: 25.251
 description: ""
 developer_score: 0.0
 id: dia-data
@@ -24,19 +24,24 @@ links:
   subreddit_url: https://www.reddit.comr/DIAdata
   telegram_channel_identifier: DIAdata_org
   twitter_screen_name: DIAdata_org
-liquidity_score: 45.078
-market_cap_rank: 241
+liquidity_score: 54.876
+market_cap_rank: 147
 name: DIA
-public_interest_score: 0.0
+public_interest_score: 0.017
 symbol: DIA
 tickers:
 - base: DIA
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DIA
+  market:
     identifier: eterbase
     name: Eterbase
-  target: EUR
-- base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
+  target: USDT
+- base: DIA
   market:
-    identifier: mooniswap
-    name: Mooniswap
+    identifier: gate
+    name: Gate.io
   target: ETH

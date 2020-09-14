@@ -1,8 +1,8 @@
 ---
 address: '0x28cb7e841ee97947a86B06fA4090C8451f64c0be'
-coingecko_rank: 1366
-coingecko_score: 15.883
-community_score: 6.396
+coingecko_rank: 708
+coingecko_score: 23.769
+community_score: 8.242
 description: >-
   Defi-backed governance token helping $LINK marines coordinate to achieve collective objectives
 developer_score: 0.0
@@ -12,8 +12,6 @@ image:
   small: https://assets.coingecko.com/coins/images/12081/small/YFLink.png?1596987945
   thumb: https://assets.coingecko.com/coins/images/12081/thumb/YFLink.png?1596987945
 links:
-  announcement_url:
-  - https://medium.com/yflink
   blockchain_site:
   - https://etherscan.io/token/0x28cb7e841ee97947a86B06fA4090C8451f64c0be
   - https://ethplorer.io/address/0x28cb7e841ee97947a86B06fA4090C8451f64c0be
@@ -22,15 +20,34 @@ links:
   homepage:
   - https://medium.com/@sgt_b_shaftoe
   - https://yflink.io/
+  official_forum_url:
+  - https://medium.com/@linkswapco
+  - https://medium.com/yflink
+  telegram_channel_identifier: YFLinkGroup
   twitter_screen_name: YFLinkio
-liquidity_score: 25.228
-market_cap_rank: 1064
+liquidity_score: 43.75
+market_cap_rank: 208
 name: YF Link
-public_interest_score: 0.0
+public_interest_score: 0.008
 symbol: yfl
 tickers:
 - base: YFL
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: YFL
+  market:
     identifier: eterbase
     name: Eterbase
-  target: EUR
+  target: USDT
+- base: YFL
+  market:
+    identifier: vinex
+    name: Vinex
+  target: ETH
+- base: YFL
+  market:
+    identifier: vinex
+    name: Vinex
+  target: USDT

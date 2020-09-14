@@ -1,8 +1,8 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 656
-coingecko_score: 24.419
-community_score: 8.609
+coingecko_rank: 629
+coingecko_score: 25.065
+community_score: 9.394
 description: >-
   EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition
   that its value is tied to the value of its collateral.
@@ -10,7 +10,7 @@ description: >-
 
   Download STASIS Stablecoin wallet: Android: https://play.google.com/store/apps/details?id=com.stasis.stasiswallet
   iOS: https://itunes.apple.com/app/stasis-wallet/id1371949230
-developer_score: 15.894
+developer_score: 15.892
 id: stasis-eurs
 image:
   large: https://assets.coingecko.com/coins/images/5164/large/EURS_300x300.png?1550571779
@@ -29,10 +29,10 @@ links:
     - https://github.com/STASISNET/STASIS-EURS-token-smart-contract
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
-liquidity_score: 26.027
-market_cap_rank: 217
+liquidity_score: 27.94
+market_cap_rank: 200
 name: STASIS EURO
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: eurs
 tickers:
 - base: EUS
@@ -40,32 +40,42 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: USD
-- base: ETH
-  market:
-    identifier: dsx
-    name: DSX Global
-  target: EURS
 - base: BTC
   market:
     identifier: dsx
     name: DSX Global
   target: EURS
+- base: ETH
+  market:
+    identifier: dsx
+    name: DSX Global
+  target: EURS
+- base: EURS
+  market:
+    identifier: dsx
+    name: DSX Global
+  target: USD
 - base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: DAI
-- base: EURS
+- base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
-  target: EOSDT
+  target: EURS
 - base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: DASH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: ZEC
   market:
     identifier: hitbtc
     name: HitBTC
@@ -80,21 +90,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: BOX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EURS
 - base: EURS
   market:
     identifier: hitbtc
     name: HitBTC
   target: TUSD
-- base: EURS
-  market:
-    identifier: okcoin
-    name: OKCoin
-  target: EUR
 - base: BTC
   market:
     identifier: okcoin
@@ -105,6 +105,16 @@ tickers:
     identifier: uniswap
     name: Uniswap (v2)
   target: ETH
+- base: EURS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: EURS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: EURS
   market:
     identifier: yobit

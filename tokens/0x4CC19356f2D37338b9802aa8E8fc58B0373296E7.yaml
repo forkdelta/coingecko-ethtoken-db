@@ -1,8 +1,8 @@
 ---
 address: '0x4CC19356f2D37338b9802aa8E8fc58B0373296E7'
-coingecko_rank: 132
-coingecko_score: 41.823
-community_score: 34.744
+coingecko_rank: 107
+coingecko_score: 44.173
+community_score: 35.688
 description: >-
   SelfKey provides organizations and individuals with complete ownership over their own digital identity,
   empowering them to discover additional privacy and freedom. SelfKey is a self-sovereign identity system
@@ -38,7 +38,7 @@ description: >-
   has previously worked as a consultant for various blockchain and international accounting startups.
   It was introduced into the market earlier this year, KEY tokens were initially traded at a modest price
   of US$0.08 per token.
-developer_score: 61.672
+developer_score: 61.852
 id: selfkey
 image:
   large: https://assets.coingecko.com/coins/images/2034/large/selfkey.png?1548608934
@@ -58,10 +58,10 @@ links:
   subreddit_url: https://www.reddit.com/r/selfkey
   telegram_channel_identifier: selfkeyfoundation
   twitter_screen_name: SelfKey
-liquidity_score: 34.165
-market_cap_rank: 495
+liquidity_score: 42.773
+market_cap_rank: 427
 name: SelfKey
-public_interest_score: 0.0
+public_interest_score: 0.007
 symbol: key
 tickers:
 - base: KEY
@@ -73,24 +73,34 @@ tickers:
   market:
     identifier: exmarkets
     name: ExMarkets
+  target: BTC
+- base: KEY
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: ETH
+- base: KEY
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: KEY
   market:
     identifier: nice_hash
     name: NiceHash
   target: BTC
-- base: KEY
+- base: 0X4CC19356F2D37338B9802AA8E8FC58B0373296E7
   market:
-    identifier: p2pb2b
-    name: P2PB2B
-  target: BTC
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: KEY
   market:
     identifier: probit
     name: ProBit
   target: BTC
-- base: KEY
+- base: 0X4CC19356F2D37338B9802AA8E8FC58B0373296E7
   market:
-    identifier: whitebit
-    name: WhiteBIT
-  target: BTC
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
