@@ -9,7 +9,7 @@ import requests
 from helpers import (DEFAULT_HEADERS, LiteralString, has_cached_coin_details,
                      fetch_coin_details, read_entry, write_token_entry)
 
-CG_LISTINGS_API_URL = "https://api.coingecko.com/api/v3/coins/list"
+CG_LISTINGS_API_URL = "https://api.coingecko.com/api/v3/coins/list?include_platform=true"
 
 
 def get_listings():
@@ -106,11 +106,14 @@ def make_token_entry(coin_details):
 
 def main(listings):
     for listing in listings:
-        print("Fetching", listing["id"])
+        if "ethereum" not in listing["platforms"]:
+            logging.debug("%s has not platforms.ethereum, ignoring", listing["id"])
+            continue
 
         if not has_cached_coin_details(listing["id"]):
-            sleep(0.5)
+            sleep(1)
 
+        logging.debug("Fetching '%s'", listing["id"])
         coin_details = fetch_coin_details(listing["id"])
         token_platform = coin_details.get("asset_platform_id")
         token_address = coin_details.get("contract_address")
