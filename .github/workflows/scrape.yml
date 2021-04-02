@@ -3,6 +3,8 @@ on:
     branches: [ master ]
   schedule:
   - cron: "20 00 * * *"
+  # Allow the workflow to be started manually from the "Actions" tab
+  workflow_dispatch:
 
 env:
   LD_LIBRARY_PATH: /home/runner/actions-runner/_work/_tool/Python/3.8.2/x64/lib
