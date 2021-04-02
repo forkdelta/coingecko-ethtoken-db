@@ -111,7 +111,7 @@ def main(listings):
             continue
 
         if not has_cached_coin_details(listing["id"]):
-            sleep(1)
+            sleep(2)
 
         logging.debug("Fetching '%s'", listing["id"])
         coin_details = fetch_coin_details(listing["id"])
