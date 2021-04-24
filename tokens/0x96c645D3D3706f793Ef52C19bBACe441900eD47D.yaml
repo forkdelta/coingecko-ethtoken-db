@@ -1,10 +1,12 @@
 ---
 address: '0x96c645D3D3706f793Ef52C19bBACe441900eD47D'
-coingecko_rank: 5521
-coingecko_score: 0.0
-community_score: 0.0
+coingecko_rank: 4741
+coingecko_score: 2.042
+community_score: 8.37
 description: >-
-  MPS tokens are the tokenized shares of Mt Pelerin Group SA.
+  MPS tokens are the tokenized shares of Mt Pelerin Group SA, a Swiss fintech company specialized in asset
+  tokenization. One MPS token provides direct ownership of one share of the company with voting and dividend
+  rights.
 developer_score: 0.0
 id: mt-pelerin-shares
 image:
@@ -14,9 +16,11 @@ image:
 links:
   announcement_url:
   - https://medium.com/mt-pelerin
+  - https://www.instagram.com/mtpelerin/
   bitcointalk_thread_identifier: 5060093
   blockchain_site:
   - https://etherscan.io/token/0x96c645d3d3706f793ef52c19bbace441900ed47d
+  - https://ethplorer.io/address/0x96c645d3d3706f793ef52c19bbace441900ed47d
   chat_url:
   - https://www.linkedin.com/company/mt-pelerin/
   facebook_username: mtpelerin
@@ -27,9 +31,15 @@ links:
     - https://github.com/MtPelerin
   subreddit_url: https://www.reddit.com/r/MtPelerin/
   telegram_channel_identifier: mtpelerinchat
-liquidity_score: 0.0
+  twitter_screen_name: mtpelerin
+liquidity_score: 1.0
 market_cap_rank: null
 name: Mt Pelerin Shares
-public_interest_score: 0.001
+public_interest_score: 0.016
 symbol: mps
-tickers: []
+tickers:
+- base: 0X96C645D3D3706F793EF52C19BBACE441900ED47D
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

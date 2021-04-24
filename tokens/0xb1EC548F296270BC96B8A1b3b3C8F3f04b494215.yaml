@@ -1,7 +1,7 @@
 ---
 address: '0xb1EC548F296270BC96B8A1b3b3C8F3f04b494215'
-coingecko_rank: 3060
-coingecko_score: 4.671
+coingecko_rank: 2991
+coingecko_score: 9.135
 community_score: 0.0
 description: >-
   Secure your funds with Foresight - bringing insurance to DeFi, preventing scammers.
@@ -14,15 +14,31 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0xb1EC548F296270BC96B8A1b3b3C8F3f04b494215
+  - https://ethplorer.io/address/0xb1ec548f296270bc96b8a1b3b3c8f3f04b494215
   chat_url:
   - https://discord.gg/ZVa275b
   homepage:
   - https://foresightdefi.io/
   telegram_channel_identifier: ForeSightCrypto
   twitter_screen_name: ForesightDeFi
-liquidity_score: 23.357
-market_cap_rank: 971
+liquidity_score: 1.0
+market_cap_rank: 2095
 name: Foresight
 public_interest_score: 0.0
 symbol: fors
-tickers: []
+tickers:
+- base: FORS
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: FORS
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
+- base: 0XB1EC548F296270BC96B8A1B3B3C8F3F04B494215
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

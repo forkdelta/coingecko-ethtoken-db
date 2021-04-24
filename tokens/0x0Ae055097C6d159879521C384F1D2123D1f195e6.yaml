@@ -1,8 +1,8 @@
 ---
 address: '0x0Ae055097C6d159879521C384F1D2123D1f195e6'
-coingecko_rank: 610
-coingecko_score: 25.335
-community_score: 8.938
+coingecko_rank: 907
+coingecko_score: 22.73
+community_score: 9.164
 description: >-
   STAKE is a new ERC20-type (implemented as an ERC677) token designed to secure the on-chain payment layer
   and provide a mechanism for validators to receive multiple POS incentives. It is an ERC20-based staking
@@ -19,6 +19,8 @@ links:
   blockchain_site:
   - https://etherscan.io/token/0x0Ae055097C6d159879521C384F1D2123D1f195e6
   - https://ethplorer.io/address/0x0Ae055097C6d159879521C384F1D2123D1f195e6
+  chat_url:
+  - https://discord.com/invite/HmffjbF
   homepage:
   - https://www.xdaichain.com
   repos_url:
@@ -26,12 +28,17 @@ links:
     - https://github.com/xdaichain/stake-token
   telegram_channel_identifier: xdaistable
   twitter_screen_name: xdaichain
-liquidity_score: 47.617
-market_cap_rank: 140
+liquidity_score: 36.525
+market_cap_rank: 361
 name: xDAI Stake
-public_interest_score: 0.008
+public_interest_score: 0.017
 symbol: stake
 tickers:
+- base: STAKE
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: STAKE
   market:
     identifier: btse
@@ -39,16 +46,6 @@ tickers:
   target: USD
 - base: STAKE
   market:
-    identifier: idex
-    name: Idex
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
-- base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
-- base: STAKE
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

@@ -1,9 +1,12 @@
 ---
 address: '0x5228a22e72ccC52d415EcFd199F99D0665E7733b'
-coingecko_rank: 1463
-coingecko_score: 15.278
-community_score: 22.93
-description: ""
+coingecko_rank: 1574
+coingecko_score: 17.455
+community_score: 22.737
+description: >-
+  pBTC is a wrapped Bitcoin launched by pNetwork. Unlike wBTC and HBTC, where the BTC backing the tokens
+  are custodied under a centralized entity, the BTC backing pBTC is custodied under a smart contract,
+  making it a more decentralized option.
 developer_score: 0.0
 id: ptokens-btc
 image:
@@ -25,23 +28,23 @@ links:
   telegram_channel_identifier: ptokens
   twitter_screen_name: pTokens_io
 liquidity_score: 1.0
-market_cap_rank: 1077
+market_cap_rank: 781
 name: pTokens BTC
-public_interest_score: 0.002
+public_interest_score: 0.005
 symbol: pbtc
 tickers:
 - base: PBTC
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: newdex
+    name: Newdex
+  target: TLOS
 - base: PBTC
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: PBTC
-  market:
-    identifier: loopring
-    name: Loopring
+    identifier: newdex
+    name: Newdex
   target: USDT
+- base: 0X5228A22E72CCC52D415ECFD199F99D0665E7733B
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

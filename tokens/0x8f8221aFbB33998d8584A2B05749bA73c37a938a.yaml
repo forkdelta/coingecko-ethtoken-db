@@ -1,28 +1,81 @@
 ---
 address: '0x8f8221aFbB33998d8584A2B05749bA73c37a938a'
-coingecko_rank: 199
-coingecko_score: 37.872
-community_score: 43.434
+coingecko_rank: 182
+coingecko_score: 38.901
+community_score: 41.874
 description: >-
-  A decentralized network built on top of Ethereum, which allows anyone, anywhere to request a payment.
-  The request can be detected and paid in a secure way, without the need to involve a third party. The
-  request is saved on an immutable, authentic ledger, which acts as a unique source of truth for accounting
-  and auditing processes. Request integrates a trade law system and works across every legislation. Request
-  works with every global currency. Request is designed to be flexible, to last hundreds of years, and
-  to work with IoT, whilst being compatible with any future systems.
+  What Is Request (REQ)?
+
+  The Request (REQ) utility token, launched in 2017, ensures the performance and stability of the Request
+  Network. The Request Network itself is an Ethereum-based decentralized payment system where anyone can
+  request a payment and receive money through secure means. It removes the requirement for third parties
+  in order to provide a cheaper, more secure payment solution that works with all global currencies.
 
 
-  Request donation modal went live today. Thought you might be interested to include it in your footer
-  instead of just the addresses. As an FYI, it's fully decentralized and free to use -- we don't take
-  any added fees (the only cost is the Ethereum gas). It can be integrated with a simple code snippet.
+  When a user creates a request for payment, they define to which address the payment needs to be allocated
+  and what the amount is. The user can also define the terms and conditions of the payment, upgrading
+  a simple request into an invoice. Once this is completed, the user can share their request to be paid
+  by their counterparty.
 
 
-  Anyways, check it out if you have a chance -- here's a link to the site: https://donations.request.network/
+  Every step is documented and stored on the Request network, allowing everyone involved to easily keep
+  track of all the invoices and payments for accounting purposes.
 
 
-  You can check out <a href="https://www.coinbureau.com/review/request-network-req/">CoinBureau</a> for
-  the complete review of Request Network.
-developer_score: 41.879
+  Request is also integrated with legislation across the world to remain compliant with the trade laws
+  of each individual country.
+
+
+  Who Are the Founders of Request?
+
+  The founders of Request are Christophe Lassuyt and Etienne Tatur.
+
+
+  Christophe Lassuyt is currently the chief financial officer at Request. Before this position, he co-founded
+  MONEYTIS.
+
+
+  Etienne Tatur is the chief technical officer of Request. Prior to this, he also co-founded MONEYTIS
+  and worked as a lead developer at QOBUZ, a music streaming service.
+
+
+  What Makes Request Unique?
+
+  The payments on Request are performed by simply sending an invoice through the blockchain; the counterparty
+  can then detect the request and pay it with one click in a peer-to-peer manner. The fact that the payments
+  are push-generated instead of pull-generated is one of Request’s key advantages. There is no need for
+  users to share their account information. The use of blockchain technology also eliminates the need
+  for third-party processors, resulting in a reduction in transaction costs.
+
+
+  The Request Network leverages decentralized blockchains such as Ethereum and IPFS for an increased level
+  of security, privacy and data ownership for the end-user. The platform does have transaction fees, which
+  is a cost that is required to broadcast a change to the blockchain network. The transaction fees are
+  used to incentivize miners to reach consensus on the state of the network.
+
+
+  REQ can be stored on wallets such as Metamask, MyEtherWallet, Ledger, imToken, Trezor, Atomic Wallet,
+  Jaxx Liberty and Trust Wallet.
+
+
+  How Many Request (REQ) Coins Are There in Circulation?
+
+  REQ is an ERC-20 token that can be spent to use the Request Network.
+
+
+  A portion of the REQ fee is burned at a rate that is determined by the current supply and the exchange
+  rate with other currencies.
+
+
+  Request’s (REQ) circulating supply is at 999,912,165 REQ as of February 2021 and the maximum supply
+  is 999,983,984 tokens.
+
+
+  How Is the Request Network Secured?
+
+  REQ is an ERC-20 token based on the Ethereum platform. The requests made with REQ are stored on an immutable
+  digital ledger. This ledger also serves as proof for all auditing purposes.
+developer_score: 42.475
 id: request-network
 image:
   large: https://assets.coingecko.com/coins/images/1031/large/Request_icon.png?1550832088
@@ -40,10 +93,10 @@ links:
     - https://github.com/RequestNetwork/Request_SmartContracts
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
-liquidity_score: 24.413
-market_cap_rank: 276
+liquidity_score: 28.434
+market_cap_rank: 373
 name: Request
-public_interest_score: 0.006
+public_interest_score: 0.005
 symbol: req
 tickers:
 - base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
@@ -51,51 +104,16 @@ tickers:
     identifier: balancer
     name: Balancer
   target: ETH
-- base: REQ
+- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
   market:
-    identifier: forkdelta
-    name: ForkDelta
+    identifier: dmm
+    name: DMM
   target: ETH
-- base: REQ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: REQ
-  market:
-    identifier: gate
-    name: Gate.io
-  target: USDT
-- base: REQ
-  market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
 - base: REQ
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
-- base: REQ
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
-- base: REQ
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH
-- base: REQ
-  market:
-    identifier: wazirx
-    name: WazirX
-  target: BTC
 - base: REQ
   market:
     identifier: yobit
@@ -110,12 +128,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: RUR
 - base: REQ
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
+  target: USD
 - base: REQ
   market:
     identifier: yobit

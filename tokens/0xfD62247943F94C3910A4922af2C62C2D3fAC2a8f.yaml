@@ -1,7 +1,7 @@
 ---
 address: '0xfD62247943F94C3910A4922af2C62C2D3fAC2a8f'
-coingecko_rank: 2231
-coingecko_score: 8.917
+coingecko_rank: 6559
+coingecko_score: 0.2
 community_score: 0.0
 description: ""
 developer_score: 0.0
@@ -13,11 +13,22 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0xfd62247943f94c3910a4922af2c62c2d3fac2a8f
+  - https://ethplorer.io/address/0xfd62247943f94c3910a4922af2c62c2d3fac2a8f
   homepage:
   - https://www.btet.me/mobile/index.html
-liquidity_score: 44.584
+liquidity_score: 1.0
 market_cap_rank: null
 name: BTEcoin
 public_interest_score: 0.0
 symbol: bte
-tickers: []
+tickers:
+- base: BTE
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: BTE
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT

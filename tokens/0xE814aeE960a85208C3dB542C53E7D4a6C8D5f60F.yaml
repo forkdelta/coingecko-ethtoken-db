@@ -1,13 +1,13 @@
 ---
 address: '0xE814aeE960a85208C3dB542C53E7D4a6C8D5f60F'
-coingecko_rank: 1901
-coingecko_score: 11.498
+coingecko_rank: 2565
+coingecko_score: 11.663
 community_score: 0.0
 description: >-
   The first generation of cryptocurrencies have been based on the concepts of mining & staking. ChronoLogic
   works on proof-of-time. In its first use-case ChronoLogic pegs time to a store of value token named
   DAY based on the Ethereum blockchain.
-developer_score: 45.193
+developer_score: 45.852
 id: chronologic
 image:
   large: https://assets.coingecko.com/coins/images/951/large/Chronologic-network.png?1547034815
@@ -17,6 +17,7 @@ links:
   bitcointalk_thread_identifier: 2051671
   blockchain_site:
   - https://etherscan.io/token/0xE814aeE960a85208C3dB542C53E7D4a6C8D5f60F
+  - https://ethplorer.io/address/0xe814aee960a85208c3db542c53e7d4a6c8d5f60f
   homepage:
   - https://chronologic.network/
   repos_url:
@@ -25,9 +26,14 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: Chronologic
-public_interest_score: 0.001
+public_interest_score: 0.002
 symbol: day
 tickers:
+- base: DAY
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: DAY
   market:
     identifier: hitbtc
@@ -43,3 +49,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: 0XE814AEE960A85208C3DB542C53E7D4A6C8D5F60F
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x7025baB2EC90410de37F488d1298204cd4D6b29d'
-coingecko_rank: 3637
-coingecko_score: 2.361
-community_score: 9.821
+coingecko_rank: 3858
+coingecko_score: 4.625
+community_score: 9.011
 description: >-
   Xriba is the first protocol to add transparency to corporate cash flows, making them available on the
   public Blockchain.
@@ -29,15 +29,20 @@ links:
   homepage:
   - https://xriba.com/
   telegram_channel_identifier: xriba
-  twitter_screen_name: xribapay
-liquidity_score: 1.0
+  twitter_screen_name: xriba_official
+liquidity_score: 13.213
 market_cap_rank: null
 name: Xriba
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: xra
 tickers:
-- base: XRA
+- base: 0X7025BAB2EC90410DE37F488D1298204CD4D6B29D
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: dodo
+    name: DODO
+  target: WETH
+- base: 0X7025BAB2EC90410DE37F488D1298204CD4D6B29D
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

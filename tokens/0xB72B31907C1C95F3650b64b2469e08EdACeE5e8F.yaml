@@ -1,8 +1,8 @@
 ---
 address: '0xB72B31907C1C95F3650b64b2469e08EdACeE5e8F'
-coingecko_rank: 3479
-coingecko_score: 3.053
-community_score: 9.596
+coingecko_rank: 4547
+coingecko_score: 2.269
+community_score: 9.402
 description: ""
 developer_score: 0.0
 id: vbzrx
@@ -21,9 +21,19 @@ links:
   - https://bzx.network/blog/ieth-buyback
   telegram_channel_identifier: b0xNet
   twitter_screen_name: bzxHQ
-liquidity_score: 4.706
+liquidity_score: 1.0
 market_cap_rank: null
 name: bZx Vesting Token
-public_interest_score: 0.016
+public_interest_score: 0.01
 symbol: vbzrx
-tickers: []
+tickers:
+- base: VBZRX
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT
+- base: 0XB72B31907C1C95F3650B64B2469E08EDACEE5E8F
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

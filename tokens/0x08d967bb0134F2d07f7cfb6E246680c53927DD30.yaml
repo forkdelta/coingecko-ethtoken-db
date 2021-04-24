@@ -1,8 +1,8 @@
 ---
 address: '0x08d967bb0134F2d07f7cfb6E246680c53927DD30'
-coingecko_rank: 647
-coingecko_score: 24.756
-community_score: 9.877
+coingecko_rank: 1060
+coingecko_score: 21.125
+community_score: 10.506
 description: >-
   MATH is a one stop crypto solution platform which contains MathWallet, MATH VPOS Pool, MathDEX, MATH
   dApp Store, MATH Staking, MATH Pay, MATH Chain, etc.
@@ -17,6 +17,7 @@ links:
   - http://blog.mathwallet.org/
   - https://medium.com/@mathwallet
   blockchain_site:
+  - https://bscscan.com/token/0xf218184af829cf2b0019f8e6f0b2423498a36983
   - https://etherscan.io/token/0x08d967bb0134f2d07f7cfb6e246680c53927dd30
   - https://ethplorer.io/address/0x08d967bb0134f2d07f7cfb6e246680c53927dd30
   homepage:
@@ -26,10 +27,10 @@ links:
     - https://github.com/mathwallet
   telegram_channel_identifier: mathwallet
   twitter_screen_name: MathWallet
-liquidity_score: 45.135
-market_cap_rank: 173
+liquidity_score: 23.982
+market_cap_rank: 197
 name: MATH
-public_interest_score: 0.005
+public_interest_score: 0.016
 symbol: math
 tickers:
 - base: 0X08D967BB0134F2D07F7CFB6E246680C53927DD30
@@ -37,6 +38,16 @@ tickers:
     identifier: balancer
     name: Balancer
   target: ETH
+- base: 0X08D967BB0134F2D07F7CFB6E246680C53927DD30
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: MATH
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: 0X08D967BB0134F2D07F7CFB6E246680C53927DD30
   market:
     identifier: sushiswap

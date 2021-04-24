@@ -1,8 +1,8 @@
 ---
 address: '0x2863916C6ebDBBf0c6f02F87b7eB478509299868'
-coingecko_rank: 2918
-coingecko_score: 5.082
-community_score: 22.191
+coingecko_rank: 3893
+coingecko_score: 4.542
+community_score: 20.403
 description: >-
   Behind the snow-capped peaks and Swiss ski-resorts there is a perfect area which is ideal for implementation
   of the most incredible ideas and projects. Such ideas might stop living straight away in other countries.
@@ -14,9 +14,9 @@ description: >-
 developer_score: 0.0
 id: simba-storage-token
 image:
-  large: https://assets.coingecko.com/coins/images/11908/large/1_4OdZX6cWBKd9pRGoOCG5Bg.jpeg?1596075333
-  small: https://assets.coingecko.com/coins/images/11908/small/1_4OdZX6cWBKd9pRGoOCG5Bg.jpeg?1596075333
-  thumb: https://assets.coingecko.com/coins/images/11908/thumb/1_4OdZX6cWBKd9pRGoOCG5Bg.jpeg?1596075333
+  large: https://assets.coingecko.com/coins/images/11908/large/SIMBA_2.png?1614318625
+  small: https://assets.coingecko.com/coins/images/11908/small/SIMBA_2.png?1614318625
+  thumb: https://assets.coingecko.com/coins/images/11908/thumb/SIMBA_2.png?1614318625
 links:
   announcement_url:
   - https://medium.com/@simbastorage
@@ -37,9 +37,24 @@ links:
   subreddit_url: https://www.reddit.com/r/simbastorage/
   telegram_channel_identifier: simbastorage_en
   twitter_screen_name: SWISSSST
-liquidity_score: 1.0
+liquidity_score: 0.268
 market_cap_rank: null
 name: SIMBA Storage Token
 public_interest_score: 0.001
 symbol: sst
-tickers: []
+tickers:
+- base: SST
+  market:
+    identifier: coinsbit
+    name: Coinsbit
+  target: USDT
+- base: 0X2863916C6EBDBBF0C6F02F87B7EB478509299868
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: SST
+  market:
+    identifier: vindax
+    name: Vindax
+  target: USDT

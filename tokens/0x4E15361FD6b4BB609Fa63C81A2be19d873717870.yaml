@@ -1,8 +1,8 @@
 ---
 address: '0x4E15361FD6b4BB609Fa63C81A2be19d873717870'
-coingecko_rank: 76
-coingecko_score: 47.791
-community_score: 35.555
+coingecko_rank: 64
+coingecko_score: 50.674
+community_score: 38.156
 description: >-
   FANTOM is a new DAG based Smart Contract platform that intends to solve the scalability issues of existing
   public distributed ledger technologies.
@@ -17,7 +17,7 @@ description: >-
 
   The mission of FANTOM is to provide compatibility between all transaction bodies around the world, and
   create an ecosystem which allows real-time transactions and data sharing with low cost.
-developer_score: 61.346
+developer_score: 63.541
 id: fantom
 image:
   large: https://assets.coingecko.com/coins/images/4001/large/Fantom.png?1558015016
@@ -25,6 +25,7 @@ image:
   thumb: https://assets.coingecko.com/coins/images/4001/thumb/Fantom.png?1558015016
 links:
   blockchain_site:
+  - http://ftmscan.com/
   - https://etherscan.io/token/0x4e15361fd6b4bb609fa63c81a2be19d873717870
   - https://ethplorer.io/address/0x4e15361fd6b4bb609fa63c81a2be19d873717870
   - https://explorer.fantom.network/
@@ -40,12 +41,27 @@ links:
   subreddit_url: https://www.reddit.com/r/FantomFoundation/
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
-liquidity_score: 53.073
-market_cap_rank: 135
+liquidity_score: 57.169
+market_cap_rank: 106
 name: Fantom
-public_interest_score: 0.012
+public_interest_score: 0.033
 symbol: ftm
 tickers:
+- base: YFI
+  market:
+    identifier: anyswap
+    name: Anyswap
+  target: FTM
+- base: ETH
+  market:
+    identifier: anyswap
+    name: Anyswap
+  target: FTM
+- base: FTM
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: FTM
   market:
     identifier: bitcratic
@@ -53,23 +69,28 @@ tickers:
   target: ETH
 - base: FTM
   market:
-    identifier: bitsonic
-    name: Bitsonic
-  target: BSC
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: NGN
 - base: FTM
   market:
-    identifier: idex
-    name: Idex
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: FTM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: FTM
+  market:
+    identifier: tokenlon
+    name: Tokenlon
   target: ETH
 - base: FTM
   market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: 0X4E15361FD6B4BB609FA63C81A2BE19D873717870
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH
 - base: FTM
   market:

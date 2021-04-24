@@ -1,8 +1,8 @@
 ---
 address: '0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B'
-coingecko_rank: 958
-coingecko_score: 20.289
-community_score: 10.606
+coingecko_rank: 1613
+coingecko_score: 17.249
+community_score: 10.9
 description: >-
   Tracks the price of the index: DeFi Index (DEFI) through price feeds supplied by an oracle. This index
   is made up of the following assets and weights: 92.583 of LINK (Chainlink), 0.432 of MKR (Maker), 502.718
@@ -11,22 +11,33 @@ description: >-
 developer_score: 0.0
 id: sdefi
 image:
-  large: https://assets.coingecko.com/coins/images/11832/large/sDEFI.png?1594787588
-  small: https://assets.coingecko.com/coins/images/11832/small/sDEFI.png?1594787588
-  thumb: https://assets.coingecko.com/coins/images/11832/thumb/sDEFI.png?1594787588
+  large: https://assets.coingecko.com/coins/images/11832/large/sDEFI.png?1616150059
+  small: https://assets.coingecko.com/coins/images/11832/small/sDEFI.png?1616150059
+  thumb: https://assets.coingecko.com/coins/images/11832/thumb/sDEFI.png?1616150059
 links:
   announcement_url:
   - https://blog.synthetix.io/
   blockchain_site:
   - https://etherscan.io/token/0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B
+  - https://ethplorer.io/address/0xe1afe1fd76fd88f78cbf599ea1846231b8ba3b6b
   chat_url:
   - https://discordapp.com/invite/AEdUHzt
   homepage:
   - https://www.synthetix.io/tokens/
   twitter_screen_name: synthetix_io
-liquidity_score: 31.508
-market_cap_rank: 669
+liquidity_score: 16.376
+market_cap_rank: 1026
 name: sDEFI
-public_interest_score: 0.053
+public_interest_score: 0.07
 symbol: sdefi
-tickers: []
+tickers:
+- base: 0XE1AFE1FD76FD88F78CBF599EA1846231B8BA3B6B
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XE1AFE1FD76FD88F78CBF599EA1846231B8BA3B6B
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

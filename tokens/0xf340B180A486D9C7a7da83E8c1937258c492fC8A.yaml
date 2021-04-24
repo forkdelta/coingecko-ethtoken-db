@@ -1,6 +1,6 @@
 ---
 address: '0xf340B180A486D9C7a7da83E8c1937258c492fC8A'
-coingecko_rank: 5194
+coingecko_rank: 6321
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -17,6 +17,7 @@ links:
   bitcointalk_thread_identifier: 2654564
   blockchain_site:
   - https://etherscan.io/token/0xf340b180a486d9c7a7da83e8c1937258c492fc8a
+  - https://ethplorer.io/address/0xf340b180a486d9c7a7da83e8c1937258c492fc8a
   homepage:
   - https://tlcoin.io/
 liquidity_score: 1.0
@@ -25,6 +26,16 @@ name: TL Coin
 public_interest_score: 0.0
 symbol: tlc
 tickers:
+- base: TLC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
+- base: TLC
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: TLC
   market:
     identifier: crex24

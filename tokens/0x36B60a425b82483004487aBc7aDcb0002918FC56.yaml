@@ -1,8 +1,8 @@
 ---
 address: '0x36B60a425b82483004487aBc7aDcb0002918FC56'
-coingecko_rank: 2974
-coingecko_score: 4.932
-community_score: 7.871
+coingecko_rank: 1898
+coingecko_score: 15.42
+community_score: 8.01
 description: >-
   TICO is an effective real-time, low fee and fast response decentralized cryptocoin exchange platform
   that has its own cryptocurrency (TICO), used for incentive program including online store
@@ -16,6 +16,7 @@ links:
   bitcointalk_thread_identifier: 3123082
   blockchain_site:
   - https://etherscan.io/token/0x36B60a425b82483004487aBc7aDcb0002918FC56
+  - https://ethplorer.io/address/0x36b60a425b82483004487abc7adcb0002918fc56
   facebook_username: TICOEXCHANGE
   homepage:
   - https://www.ticoex.io
@@ -25,13 +26,23 @@ links:
   telegram_channel_identifier: TICO_GROUP
   twitter_screen_name: TICOEXCHANGE
 liquidity_score: 1.0
-market_cap_rank: null
+market_cap_rank: 1625
 name: TICOEX Token (Formerly TopInvestmentCoin)
 public_interest_score: 0.0
 symbol: tico
 tickers:
 - base: TICO
   market:
+    identifier: exnce
+    name: EXNCE
+  target: XNC
+- base: TICO
+  market:
     identifier: satoexchange
     name: SatoExchange
+  target: DOGE
+- base: 0X36B60A425B82483004487ABC7ADCB0002918FC56
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

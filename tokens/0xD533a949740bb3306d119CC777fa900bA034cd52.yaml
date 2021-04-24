@@ -1,10 +1,27 @@
 ---
 address: '0xD533a949740bb3306d119CC777fa900bA034cd52'
-coingecko_rank: 129
-coingecko_score: 42.54
-community_score: 10.518
-description: ""
-developer_score: 53.172
+coingecko_rank: 81
+coingecko_score: 48.396
+community_score: 10.823
+description: >-
+  Similar to Uniswap, Curve Finance is an Automated Market Maker (AMM) based Decentralised Exchange (DEX).
+  Unlike Uniswap, its main focus is only to swap between assets that are supposed to have the same value.
+  This is useful in the DeFi ecosystem as there are plenty of wrapped tokens and synthetic tokens that
+  aim to mimic the price of the real underlying asset. 
+
+
+  For example, one of the biggest pools is 3CRV, which is a stablecoin pool consisting of DAI, USDT, and
+  USDC. Their ratio in the pool will be based on the supply and demand of the market. Depositing a coin
+  with a lesser ratio will yield the user a higher percentage of the pool. As such when the ratio is heavily
+  tilted to one of the coins, it may serve as a good chance to arbitrage.
+
+
+  Curve Finance also supports yield-bearing tokens. For example, it collaborated with Yearn Finance to
+  release yUSD pools that consisted of yDAI, yUSDT, yUSDC and yTUSD. Users that participated in this pool
+  will not only have yield from the underlying yield-bearing tokens, but also the swap fees generated
+  by the Curve pool. Including the yield farming rewards in terms of CRV tokens, liquidity providers of
+  the pool actually have three sources of yield.
+developer_score: 72.427
 id: curve-dao-token
 image:
   large: https://assets.coingecko.com/coins/images/12124/large/Curve.png?1597369484
@@ -13,6 +30,7 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0xd533a949740bb3306d119cc777fa900ba034cd52
+  - https://ethplorer.io/address/0xd533a949740bb3306d119cc777fa900ba034cd52
   chat_url:
   - https://discord.gg/9uEHakc
   homepage:
@@ -23,39 +41,9 @@ links:
     - https://github.com/curvefi/curve-vue
   telegram_channel_identifier: curvefi
   twitter_screen_name: curvefinance
-liquidity_score: 64.766
-market_cap_rank: 116
+liquidity_score: 65.373
+market_cap_rank: 110
 name: Curve DAO Token
-public_interest_score: 0.09
+public_interest_score: 0.075
 symbol: crv
-tickers:
-- base: CRV
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: CRV
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: USDT
-- base: CRV
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: CRV
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
-- base: CRV
-  market:
-    identifier: loopring
-    name: Loopring
-  target: USDT
-- base: CRV
-  market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: ETH
+tickers: []

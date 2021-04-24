@@ -1,11 +1,40 @@
 ---
 address: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e'
-coingecko_rank: 109
-coingecko_score: 43.968
-community_score: 10.54
+coingecko_rank: 76
+coingecko_score: 48.835
+community_score: 37.484
 description: >-
-  Management token for the yearn.finance ecosystem
-developer_score: 46.329
+  Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation,
+  yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent
+  developers and is governed by YFI holders.
+
+
+  It started out as a passion project by Andre Cronje to automate the process of switching capital between
+  lending platforms in search of the best yield offered, as the lending yield is a floating rate rather
+  than fixed rate. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates
+  change between these protocols. 
+
+
+  The service offered includes major USD tokens such as DAI, USDT, USDC, and TUSD. For example, if a user
+  deposits DAI into yearn.finance, the user will receive yDAI token in return, which is a yield-bearing
+  DAI token. 
+
+
+  Later on, it collaborated with Curve Finance to release a yield-bearing USD tokens pool that includes
+  four y-tokens: yDAI, yUSDT, yUSDC and yTUSD, it is named as yUSD. 
+
+
+  Yearn Finance debuted the vault feature after its token launch, igniting a frenzy on automated yield
+  farming and is considered the initiator of the category of yield farming aggregator. Basically, the
+  vault will help users to claim yield farming rewards and sell it for the underlying assets. 
+
+
+  Vaults benefit users by socializing gas costs, automating the yield generation and rebalancing process,
+  and automatically shifting capital as opportunities arise. End users also do not need to have proficient
+  knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing
+  strategy. It is akin to a crypto hedge fund where the aim is to increase the amount of assets that users
+  deposited.
+developer_score: 46.828
 id: yearn-finance
 image:
   large: https://assets.coingecko.com/coins/images/11849/large/yfi-192x192.png?1598325330
@@ -13,10 +42,13 @@ image:
   thumb: https://assets.coingecko.com/coins/images/11849/thumb/yfi-192x192.png?1598325330
 links:
   announcement_url:
-  - https://guides.curve.fi/what-is-yfi-and-how-to-earn-them-by-staking-your-ytokens/
   - https://medium.com/iearn
   blockchain_site:
+  - https://blockscout.com/poa/xdai/tokens/0xbf65bfcb5da067446CeE6A706ba3Fe2fB1a9fdFd/token-transfers
   - https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e
+  - https://ethplorer.io/address/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e
+  chat_url:
+  - https://discord.gg/93PHbB4
   homepage:
   - https://yearn.finance
   repos_url:
@@ -25,40 +57,12 @@ links:
     - https://github.com/iearn-finance/itoken
     - https://github.com/iearn-finance/ygov-finance
     - https://github.com/iearn-finance/yswap-finance
+  subreddit_url: https://www.reddit.com/r/yearn_finance/
+  telegram_channel_identifier: yearnfinance
   twitter_screen_name: iearnfinance
-liquidity_score: 71.88
-market_cap_rank: 24
+liquidity_score: 67.528
+market_cap_rank: 76
 name: yearn.finance
-public_interest_score: 0.063
+public_interest_score: 0.095
 symbol: yfi
-tickers:
-- base: 0XDF5E0E81DFF6FAF3A7E52BA697820C5E32D806A8
-  market:
-    identifier: balancer
-    name: Balancer
-  target: 0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E
-- base: YFI
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: USDT
-- base: YFI
-  market:
-    identifier: loopring
-    name: Loopring
-  target: USDT
-- base: YFI
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
-- base: YFI
-  market:
-    identifier: vinex
-    name: Vinex
-  target: ETH
-- base: YFI
-  market:
-    identifier: vinex
-    name: Vinex
-  target: USDT
+tickers: []

@@ -1,8 +1,8 @@
 ---
 address: '0x4CC19356f2D37338b9802aa8E8fc58B0373296E7'
-coingecko_rank: 107
-coingecko_score: 44.173
-community_score: 35.688
+coingecko_rank: 125
+coingecko_score: 44.437
+community_score: 34.837
 description: >-
   SelfKey provides organizations and individuals with complete ownership over their own digital identity,
   empowering them to discover additional privacy and freedom. SelfKey is a self-sovereign identity system
@@ -38,7 +38,7 @@ description: >-
   has previously worked as a consultant for various blockchain and international accounting startups.
   It was introduced into the market earlier this year, KEY tokens were initially traded at a modest price
   of US$0.08 per token.
-developer_score: 61.852
+developer_score: 63.101
 id: selfkey
 image:
   large: https://assets.coingecko.com/coins/images/2034/large/selfkey.png?1548608934
@@ -58,12 +58,17 @@ links:
   subreddit_url: https://www.reddit.com/r/selfkey
   telegram_channel_identifier: selfkeyfoundation
   twitter_screen_name: SelfKey
-liquidity_score: 42.773
-market_cap_rank: 427
+liquidity_score: 41.312
+market_cap_rank: 604
 name: SelfKey
-public_interest_score: 0.007
+public_interest_score: 0.012
 symbol: key
 tickers:
+- base: KEY
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: KEY
   market:
     identifier: crex24
@@ -76,19 +81,14 @@ tickers:
   target: BTC
 - base: KEY
   market:
-    identifier: exmarkets
-    name: ExMarkets
-  target: ETH
-- base: KEY
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
+- base: 179DE71E-4637-4241-B944-C6DD0F0CD88B
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: lykke
+    name: Lykke
   target: ETH
-- base: KEY
-  market:
-    identifier: nice_hash
-    name: NiceHash
-  target: BTC
 - base: 0X4CC19356F2D37338B9802AA8E8FC58B0373296E7
   market:
     identifier: one_inch
@@ -101,6 +101,6 @@ tickers:
   target: BTC
 - base: 0X4CC19356F2D37338B9802AA8E8FC58B0373296E7
   market:
-    identifier: sushiswap
-    name: Sushiswap
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

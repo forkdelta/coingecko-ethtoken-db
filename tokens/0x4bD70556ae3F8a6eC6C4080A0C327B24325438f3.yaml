@@ -1,8 +1,8 @@
 ---
 address: '0x4bD70556ae3F8a6eC6C4080A0C327B24325438f3'
-coingecko_rank: 1187
-coingecko_score: 18.047
-community_score: 9.684
+coingecko_rank: 1121
+coingecko_score: 20.606
+community_score: 9.118
 description: >-
   The HXRO token is the platform token that powers Hxro Games. The HXRO token is listed on Bittrex International
   and IDEX.
@@ -22,10 +22,10 @@ links:
   - https://hxro.io/
   telegram_channel_identifier: The_Trading_Pit
   twitter_screen_name: RealHxro
-liquidity_score: 12.814
-market_cap_rank: 198
+liquidity_score: 24.87
+market_cap_rank: 290
 name: Hxro
-public_interest_score: 0.006
+public_interest_score: 0.016
 symbol: hxro
 tickers:
 - base: HXRO
@@ -33,23 +33,18 @@ tickers:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
-- base: HXRO
-  market:
-    identifier: btse
-    name: BTSE
-  target: USD
-- base: HXRO
-  market:
-    identifier: coinall
-    name: CoinAll
-  target: USDT
-- base: HXRO
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: 0X4BD70556AE3F8A6EC6C4080A0C327B24325438F3
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
+    identifier: one_inch
+    name: 1inch
   target: ETH
+- base: HXRO
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
+- base: HXRO
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

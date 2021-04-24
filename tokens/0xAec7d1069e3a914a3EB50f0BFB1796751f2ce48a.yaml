@@ -1,8 +1,8 @@
 ---
 address: '0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a'
-coingecko_rank: 2586
-coingecko_score: 6.701
-community_score: 5.802
+coingecko_rank: 3436
+coingecko_score: 6.438
+community_score: 5.941
 description: >-
   S4FE is a freely accessible, blockchain based search engine dedicated to the protection of property.
 
@@ -22,13 +22,13 @@ links:
   - https://ethplorer.io/address/0xaec7d1069e3a914a3eb50f0bfb1796751f2ce48a
   facebook_username: s4fe.io
   homepage:
-  - https://www.s4fe.io/
+  - 'http://www.s4fe.org/ '
   repos_url:
     github:
     - https://github.com/s4fe-io
   telegram_channel_identifier: s4fe_official
   twitter_screen_name: s4fe_i0
-liquidity_score: 27.122
+liquidity_score: 25.652
 market_cap_rank: null
 name: S4FE
 public_interest_score: 0.001
@@ -38,12 +38,12 @@ tickers:
   market:
     identifier: exrates
     name: Exrates
-  target: USD
+  target: BTC
 - base: S4F
   market:
-    identifier: latoken
-    name: LATOKEN
-  target: LA
+    identifier: exrates
+    name: Exrates
+  target: ETH
 - base: S4F
   market:
     identifier: mercatox
@@ -51,6 +51,11 @@ tickers:
   target: ETH
 - base: S4F
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: TUSD
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: 0XAEC7D1069E3A914A3EB50F0BFB1796751F2CE48A
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0xA6FA6531acDf1f9F96EDdD66a0F9481E35c2e42A'
-coingecko_rank: 4672
-coingecko_score: 1.174
-community_score: 4.429
+coingecko_rank: 5529
+coingecko_score: 1.362
+community_score: 5.281
 description: >-
   The CryptoBRL (cBRL) is a stablecoin pegged one for one to the Brazilian Real. It's the most adopted
   BRL stablecoin in Brazil, supported by a consortium of several companies from Brazilian cryptocurrency
@@ -32,4 +32,19 @@ market_cap_rank: null
 name: CryptoBRL
 public_interest_score: 0.0
 symbol: cbrl
-tickers: []
+tickers:
+- base: BTC
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: CBRL
+- base: ETH
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: CBRL
+- base: DOGE
+  market:
+    identifier: bleutrade
+    name: bleutrade
+  target: CBRL

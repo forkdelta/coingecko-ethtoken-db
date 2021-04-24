@@ -1,8 +1,8 @@
 ---
 address: '0xA9859874e1743A32409f75bB11549892138BBA1E'
-coingecko_rank: 603
-coingecko_score: 25.396
-community_score: 34.921
+coingecko_rank: 1321
+coingecko_score: 19.221
+community_score: 38.248
 description: >-
   Inverse Ethereum by Synthetix.
 
@@ -16,30 +16,36 @@ description: >-
 developer_score: 0.0
 id: ieth
 image:
-  large: https://assets.coingecko.com/coins/images/8846/large/iETH.png?1562212479
-  small: https://assets.coingecko.com/coins/images/8846/small/iETH.png?1562212479
-  thumb: https://assets.coingecko.com/coins/images/8846/thumb/iETH.png?1562212479
+  large: https://assets.coingecko.com/coins/images/8846/large/iETH.png?1616151402
+  small: https://assets.coingecko.com/coins/images/8846/small/iETH.png?1616151402
+  thumb: https://assets.coingecko.com/coins/images/8846/thumb/iETH.png?1616151402
 links:
   blockchain_site:
-  - https://etherscan.io/address/0xA9859874e1743A32409f75bB11549892138BBA1E
+  - https://etherscan.io/token/0xA9859874e1743A32409f75bB11549892138BBA1E
+  - https://ethplorer.io/address/0xa9859874e1743a32409f75bb11549892138bba1e
   chat_url:
   - https://discordapp.com/invite/AEdUHzt
   homepage:
   - https://www.synthetix.io/
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 28.107
-market_cap_rank: 465
+liquidity_score: 5.428
+market_cap_rank: 1908
 name: iETH
-public_interest_score: 0.053
+public_interest_score: 0.07
 symbol: ieth
 tickers:
-- base: IBTC
+- base: SRUNE
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: IETH
-- base: SBCH
+- base: SCRV
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IETH
+- base: S1INCH
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -48,19 +54,4 @@ tickers:
   market:
     identifier: synthetix
     name: Synthetix Exchange
-  target: ILINK
-- base: IETH
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SBTC
-- base: IETH
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SETH
-- base: 0XA9859874E1743A32409F75BB11549892138BBA1E
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
+  target: SUSD

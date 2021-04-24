@@ -1,15 +1,15 @@
 ---
 address: '0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f'
-coingecko_rank: 668
-coingecko_score: 24.339
-community_score: 33.971
+coingecko_rank: 1065
+coingecko_score: 21.09
+community_score: 39.178
 description: >-
   Aave MANA is an interest bearing token minted upon deposit and burned when redeemed. The aMANA is pegged
   1:1 to the value of the underlying MANA that is deposited in Aave protocol. aMANA, can be freely stored,
   transferred, and traded. While the underlying asset is loaned out to borrowers, aMANA accrue interest
   in real time, directly in your wallet!
-developer_score: 17.915
-id: aave-mana
+developer_score: 49.045
+id: aave-mana-v1
 image:
   large: https://assets.coingecko.com/coins/images/11730/large/aMANA.png?1593084474
   small: https://assets.coingecko.com/coins/images/11730/small/aMANA.png?1593084474
@@ -18,7 +18,8 @@ links:
   announcement_url:
   - https://medium.com/aave
   blockchain_site:
-  - https://etherscan.io/address/0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f
+  - https://etherscan.io/token/0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f
+  - https://ethplorer.io/address/0x6fce4a401b6b80ace52baaefe4421bd188e76f6f
   chat_url:
   - https://aave.com/discord
   homepage:
@@ -29,9 +30,14 @@ links:
   subreddit_url: https://www.reddit.com/r/Aave_Official/
   telegram_channel_identifier: Aavesome
   twitter_screen_name: aaveaave
-liquidity_score: 3.043
-market_cap_rank: 529
-name: Aave MANA
-public_interest_score: 0.082
+liquidity_score: 1.0
+market_cap_rank: null
+name: Aave MANA v1
+public_interest_score: 0.179
 symbol: amana
-tickers: []
+tickers:
+- base: AMANA
+  market:
+    identifier: aave
+    name: Aave
+  target: ETH

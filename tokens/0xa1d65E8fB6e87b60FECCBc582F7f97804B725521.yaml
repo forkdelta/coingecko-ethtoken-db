@@ -1,29 +1,32 @@
 ---
 address: '0xa1d65E8fB6e87b60FECCBc582F7f97804B725521'
-coingecko_rank: 193
-coingecko_score: 38.047
-community_score: 22.036
+coingecko_rank: 339
+coingecko_score: 32.005
+community_score: 7.898
 description: >-
-  DXdao is a decentralized community that develops, governs, and grows DeFi protocols and products. Its
-  initial members were seeded through a 1 month process where over $20M in ETH and other tokens were staked
-  and 400+ addresses received Reputation. They have been advancing critical DeFi infrastructure like Mesa.eth,
-  a recently launched frontend to the Gnosis Protocol, and Omen.eth, a soon-to-launch prediction market
-  platform. The DXdao is also involved in developing Mix.eth, governing DMM, and maintaining the DutchX
-  trading protocol. DXdao at its core is composed of people recognized not by the letter “C” in their
-  title, but by the merit achieved and engraved in their hexadecimal identities.
-developer_score: 56.037
+  DXdao is a collective that builds and governs decentralized products and services. Its current product
+  suite features Omen, a prediction market; Swapr, a governance-enabled AMM; Mesa, a front-running resistant
+  DEX; and Rails, a Layer 2 payment portal. DXdao uses a reputation-based governance system; meaning that
+  voting power is non-transferrable and cannot be bought. DXD is an ERC20 token that powers the DXdao
+  ecosystem and has a claim on a share of all revenue from DXdao products. DXdao is fully on-chain and
+  minimizes its reliance on third-parties, controlling its products through ENS, and managing the treasury
+  through binding, on-chain votes. DXdao aims to bring decentralization to DeFi and build resilient financial
+  services for the world.
+developer_score: 57.765
 id: dxdao
 image:
-  large: https://assets.coingecko.com/coins/images/11148/large/dxdao.png?1589054791
-  small: https://assets.coingecko.com/coins/images/11148/small/dxdao.png?1589054791
-  thumb: https://assets.coingecko.com/coins/images/11148/thumb/dxdao.png?1589054791
+  large: https://assets.coingecko.com/coins/images/11148/large/dxdao.png?1607999331
+  small: https://assets.coingecko.com/coins/images/11148/small/dxdao.png?1607999331
+  thumb: https://assets.coingecko.com/coins/images/11148/thumb/dxdao.png?1607999331
 links:
   announcement_url:
-  - https://medium.com/bitfwd/distributed-capital-formation-with-openraise-3af9a601ad63
+  - https://dxdao.medium.com/
   bitcointalk_thread_identifier: 5249737
   blockchain_site:
   - https://etherscan.io/token/0xa1d65E8fB6e87b60FECCBc582F7f97804B725521
   - https://ethplorer.io/address/0xa1d65E8fB6e87b60FECCBc582F7f97804B725521
+  chat_url:
+  - https://discord.com/invite/4QXEJQkvHH
   homepage:
   - https://dxdao.eth.link/
   official_forum_url:
@@ -35,34 +38,29 @@ links:
   subreddit_url: https://www.reddit.com/r/dxdao/
   telegram_channel_identifier: dxDAO
   twitter_screen_name: Dxdao_
-liquidity_score: 33.095
-market_cap_rank: 363
-name: DXDao
-public_interest_score: 0.014
+liquidity_score: 19.64
+market_cap_rank: 919
+name: DXdao
+public_interest_score: 0.039
 symbol: dxd
 tickers:
-- base: DXD
+- base: 0XA1D65E8FB6E87B60FECCBC582F7F97804B725521
   market:
-    identifier: bilaxy
-    name: Bilaxy
+    identifier: balancer
+    name: Balancer
   target: ETH
 - base: DXD
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: DXD
   market:
-    identifier: loopring
-    name: Loopring
+    identifier: coinex
+    name: CoinEx
   target: ETH
 - base: 0XA1D65E8FB6E87B60FECCBC582F7F97804B725521
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: DXD
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

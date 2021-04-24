@@ -1,8 +1,8 @@
 ---
 address: '0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF'
-coingecko_rank: 1044
-coingecko_score: 19.405
-community_score: 8.46
+coingecko_rank: 945
+coingecko_score: 22.319
+community_score: 11.088
 description: >-
   Rarible is a creator-centric NFT marketplace and issuance platform. $RARI is a governance token with
   Marketplace Liquidity Mining program and the airdrop for the large NFT holders.
@@ -13,6 +13,8 @@ image:
   small: https://assets.coingecko.com/coins/images/11845/small/Rari.png?1594946953
   thumb: https://assets.coingecko.com/coins/images/11845/thumb/Rari.png?1594946953
 links:
+  announcement_url:
+  - https://medium.com/@rarible
   blockchain_site:
   - https://etherscan.io/token/0xfca59cd816ab1ead66534d82bc21e7515ce441cf
   - https://ethplorer.io/address/0xfca59cd816ab1ead66534d82bc21e7515ce441cf
@@ -22,14 +24,19 @@ links:
   - https://app.rarible.com/rari
   telegram_channel_identifier: rarible
   twitter_screen_name: rariblecom
-liquidity_score: 31.27
-market_cap_rank: 418
+liquidity_score: 33.823
+market_cap_rank: 430
 name: Rarible
 public_interest_score: 0.0
 symbol: rari
 tickers:
+- base: 0XFCA59CD816AB1EAD66534D82BC21E7515CE441CF
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: RARI
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: BTC
+    identifier: secondbtc
+    name: SecondBTC
+  target: ETH

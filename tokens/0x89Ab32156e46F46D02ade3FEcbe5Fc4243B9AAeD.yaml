@@ -1,8 +1,8 @@
 ---
 address: '0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD'
-coingecko_rank: 555
-coingecko_score: 26.297
-community_score: 22.926
+coingecko_rank: 561
+coingecko_score: 27.164
+community_score: 26.642
 description: >-
   pNetwork is the heartbeat of cross-chain composability. As the governance network of the pTokens system,
   it enables the seamless movement of assets across blockchains.
@@ -27,12 +27,12 @@ links:
     - https://github.com/provable-things/ptokens-core
     - https://github.com/provable-things/ptokens.js
   subreddit_url: https://www.reddit.com/r/pTokens/
-  telegram_channel_identifier: ptokens
-  twitter_screen_name: pTokens_io
-liquidity_score: 42.569
-market_cap_rank: 304
+  telegram_channel_identifier: pNetworkDefi
+  twitter_screen_name: pNetworkDeFi
+liquidity_score: 41.341
+market_cap_rank: 490
 name: pNetwork
-public_interest_score: 0.006
+public_interest_score: 0.005
 symbol: pnt
 tickers:
 - base: PNT
@@ -40,3 +40,18 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: XPNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: PNT
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: 0X89AB32156E46F46D02ADE3FECBE5FC4243B9AAED
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

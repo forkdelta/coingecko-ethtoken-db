@@ -1,8 +1,8 @@
 ---
 address: '0x58b6A8A3302369DAEc383334672404Ee733aB239'
-coingecko_rank: 142
-coingecko_score: 41.73
-community_score: 28.016
+coingecko_rank: 91
+coingecko_score: 47.901
+community_score: 29.095
 description: >-
   The Livepeer project aims to deliver a live video streaming network protocol that is fully decentralized,
   highly scalable, crypto token incentivized, and results in a solution which can serve as the live media
@@ -45,12 +45,12 @@ description: >-
   Following the conventions of Ethereum and many popular ERC20 tokens, LPT will be divisible by 10 ^ 18,
   with larger denominations such as the LPT itself intended to be used for user level transactions such
   as staking, and smaller denominations intended to be used for protocol accounting.
-developer_score: 68.128
+developer_score: 75.582
 id: livepeer
 image:
-  large: https://assets.coingecko.com/coins/images/7137/large/livepeer.png?1547976208
-  small: https://assets.coingecko.com/coins/images/7137/small/livepeer.png?1547976208
-  thumb: https://assets.coingecko.com/coins/images/7137/thumb/livepeer.png?1547976208
+  large: https://assets.coingecko.com/coins/images/7137/large/logo-circle-green.png?1618985149
+  small: https://assets.coingecko.com/coins/images/7137/small/logo-circle-green.png?1618985149
+  thumb: https://assets.coingecko.com/coins/images/7137/thumb/logo-circle-green.png?1618985149
 links:
   announcement_url:
   - https://forum.livepeer.org/
@@ -72,29 +72,34 @@ links:
   subreddit_url: https://www.reddit.com/r/livepeer
   telegram_channel_identifier: livepeerorg
   twitter_screen_name: LivepeerOrg
-liquidity_score: 23.323
-market_cap_rank: 119
+liquidity_score: 39.357
+market_cap_rank: 117
 name: Livepeer
-public_interest_score: 0.005
+public_interest_score: 0.016
 symbol: lpt
 tickers:
 - base: 0X58B6A8A3302369DAEC383334672404EE733AB239
   market:
     identifier: balancer
     name: Balancer
-  target: ETH
-- base: 0X58B6A8A3302369DAEC383334672404EE733AB239
-  market:
-    identifier: balancer
-    name: Balancer
-  target: USDC
+  target: DAI
 - base: LPT
   market:
-    identifier: idex
-    name: Idex
+    identifier: bitcratic
+    name: Bitcratic
   target: ETH
 - base: 0X58B6A8A3302369DAEC383334672404EE733AB239
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: LPT
+  market:
+    identifier: radar_relay
+    name: Radar Relay
+  target: DAI
+- base: LPT
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x668DbF100635f593A3847c0bDaF21f0a09380188'
-coingecko_rank: 1320
-coingecko_score: 16.704
-community_score: 18.966
+coingecko_rank: 871
+coingecko_score: 23.086
+community_score: 27.17
 description: >-
   Users would get yield in the form of BNSD (BNS defi) a token which we have released specific to this.
 
@@ -36,31 +36,46 @@ description: >-
   - Contract is super clean as there is no mint function there except for the block rewards which are
   happening every block. So there is no risk associated with it. No time lock needed as only BNSChef can
   mint rewards and those rewards are specific to block"
-developer_score: 16.765
+developer_score: 13.892
 id: bnsd-finance
 image:
   large: https://assets.coingecko.com/coins/images/12368/large/bnsd.png?1599358388
   small: https://assets.coingecko.com/coins/images/12368/small/bnsd.png?1599358388
   thumb: https://assets.coingecko.com/coins/images/12368/thumb/bnsd.png?1599358388
 links:
+  announcement_url:
+  - https://medium.com/bnsd-finance
   blockchain_site:
   - https://etherscan.io/token/0x668DbF100635f593A3847c0bDaF21f0a09380188
   - https://ethplorer.io/address/0x668dbf100635f593a3847c0bdaf21f0a09380188
   chat_url:
-  - https://discord.gg/SNdKna
+  - https://discord.com/invite/MdJNzHE
   homepage:
   - https://bns.finance/
-  official_forum_url:
-  - https://medium.com/bitbns
   repos_url:
     github:
     - https://github.com/bitbns-official/bns-defi
   subreddit_url: https://www.reddit.com/r/Bitbns/
-  telegram_channel_identifier: Bitbns
-  twitter_screen_name: bitbns
-liquidity_score: 41.702
-market_cap_rank: 619
+  telegram_channel_identifier: bnsdfinance
+  twitter_screen_name: bnsdfinance
+liquidity_score: 12.846
+market_cap_rank: 1322
 name: BNSD Finance
-public_interest_score: 0.0
+public_interest_score: 0.002
 symbol: bnsd
-tickers: []
+tickers:
+- base: BNSD
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
+- base: 0X668DBF100635F593A3847C0BDAF21F0A09380188
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
+- base: 0X668DBF100635F593A3847C0BDAF21F0A09380188
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,10 +1,17 @@
 ---
 address: '0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433'
-coingecko_rank: 528
-coingecko_score: 26.854
-community_score: 8.733
-description: ""
-developer_score: 21.004
+coingecko_rank: 585
+coingecko_score: 26.809
+community_score: 9.051
+description: >-
+  SWERVE FINANCE is described to be a fork of Curve, owned 100% by the community. It is claimed that there's
+  no fake-out deployment, no questionable pre-mining, no founder controlling majority of the governance
+  vote, no suspect team proposals, no 30% allocation to 'shareholders', no team allocation, no decades
+  long distribution. It's a simple 33,000,000 supply owned entirely by holders, the community of liquidity
+  providers and users. If holders provide liquidity to Swerve, they get ySWRV tokens which can be staked
+  in the Swerve DAO to earn $SWRV. To kickstart the protocol and encourage users to try out Swerve, the
+  first two weeks will have a larger distribution of $SWRV awarded.
+developer_score: 20.672
 id: swerve-dao
 image:
   large: https://assets.coingecko.com/coins/images/12361/large/swerve.png?1599278316
@@ -13,6 +20,7 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0xb8baa0e4287890a5f79863ab62b7f175cecbd433
+  - https://ethplorer.io/address/0xb8baa0e4287890a5f79863ab62b7f175cecbd433
   chat_url:
   - http://discord.gg/vkhw8Av
   homepage:
@@ -22,12 +30,92 @@ links:
     - https://github.com/SwerveFinance/SwervContracts
   telegram_channel_identifier: swervefi
   twitter_screen_name: SwerveFinance
-liquidity_score: 39.303
-market_cap_rank: 260
+liquidity_score: 37.38
+market_cap_rank: 859
 name: Swerve
-public_interest_score: 0.0
+public_interest_score: 0.004
 symbol: swrv
 tickers:
+- base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: SWRV
+  market:
+    identifier: bigone
+    name: BigONE
+  target: USDT
+- base: SWRV
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: SWRV
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
+- base: SWRV
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
+- base: SWRV
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
+  market:
+    identifier: defi_swap
+    name: DeFi Swap
+  target: ETH
+- base: SWRV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: SWRV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: SWRV
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
+  market:
+    identifier: sakeswap
+    name: SakeSwap
+  target: ETH
+- base: SWRV
+  market:
+    identifier: whale_ex
+    name: WhaleEx
+  target: USDT
+- base: SWRV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: SWRV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: SWRV
   market:
     identifier: yobit
@@ -37,14 +125,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD
 - base: SWRV
   market:
     identifier: yobit
     name: YoBit
-  target: YO
-- base: SWRV
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+  target: WAVES

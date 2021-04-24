@@ -1,13 +1,13 @@
 ---
 address: '0xAC9ce326e95f51B5005e9fE1DD8085a01F18450c'
-coingecko_rank: 758
-coingecko_score: 23.199
-community_score: 21.404
+coingecko_rank: 1102
+coingecko_score: 20.802
+community_score: 7.844
 description: >-
   VeriSafe will be the catalyst for projects, exchanges and communities to collaborate, creating an ecosystem
   where transparency, accountability, communication, and expertise go hand-in-hand to set a standard in
   the industry.
-developer_score: 31.165
+developer_score: 31.219
 id: verisafe
 image:
   large: https://assets.coingecko.com/coins/images/7862/large/verisafe_logo.png?1563852491
@@ -19,6 +19,7 @@ links:
   bitcointalk_thread_identifier: 5140352
   blockchain_site:
   - https://etherscan.io/token/0xac9ce326e95f51b5005e9fe1dd8085a01f18450c
+  - https://ethplorer.io/address/0xac9ce326e95f51b5005e9fe1dd8085a01f18450c
   facebook_username: VeriSafeProjectIO
   homepage:
   - https://www.verisafe.io/
@@ -33,13 +34,23 @@ links:
   telegram_channel_identifier: cpollo2
   twitter_screen_name: VeriSafeProject
 liquidity_score: 1.0
-market_cap_rank: 926
+market_cap_rank: 1315
 name: VeriSafe
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: vsf
 tickers:
 - base: VSF
   market:
     identifier: mercatox
     name: Mercatox
+  target: ETH
+- base: 0XAC9CE326E95F51B5005E9FE1DD8085A01F18450C
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: VSF
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
   target: ETH

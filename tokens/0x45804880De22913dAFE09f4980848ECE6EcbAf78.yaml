@@ -1,10 +1,10 @@
 ---
 address: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
-coingecko_rank: 799
-coingecko_score: 22.522
-community_score: 9.021
+coingecko_rank: 831
+coingecko_score: 23.35
+community_score: 9.108
 description: >-
-  PAX Gold (PAXG) is an asset-backed token where one token represents one fine troy ounce of a London
+  PAX Gold (PAXG) is an asset-backed token where one token should represent one fine troy ounce of a London
   Good Delivery gold bar, stored in professional vault facilities. Anyone who owns PAXG has ownership
   rights to that gold under the custody of Paxos Trust Company. Since PAXG represents physical gold, its
   value is tied directly to the real-time market value of that physical gold.
@@ -41,12 +41,22 @@ links:
     github:
     - https://github.com/paxosglobal/paxos-gold-contract
   twitter_screen_name: paxosglobal
-liquidity_score: 33.712
-market_cap_rank: 143
+liquidity_score: 39.771
+market_cap_rank: 335
 name: PAX Gold
-public_interest_score: 0.018
+public_interest_score: 0.037
 symbol: paxg
 tickers:
+- base: PAXG
+  market:
+    identifier: bitopro
+    name: BitoPro
+  target: TWD
+- base: PAXG
+  market:
+    identifier: bitopro
+    name: BitoPro
+  target: USDT
 - base: PAXG
   market:
     identifier: braziliex
@@ -54,36 +64,21 @@ tickers:
   target: BRL
 - base: PAXG
   market:
-    identifier: ftx_spot
-    name: FTX
-  target: USD
-- base: PAXG
-  market:
-    identifier: ftx_spot
-    name: FTX
+    identifier: cex
+    name: CEX.IO
   target: USDT
 - base: PAXG
   market:
     identifier: ftx_us
-    name: FTX.us
+    name: FTX.US
   target: USD
 - base: PAXG
   market:
-    identifier: gemini
-    name: Gemini
-  target: USD
-- base: PAXG
+    identifier: ftx_us
+    name: FTX.US
+  target: USDT
+- base: 0X45804880DE22913DAFE09F4980848ECE6ECBAF78
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: PAXG
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: PAXG
-  market:
-    identifier: kraken
-    name: Kraken
+    identifier: one_inch
+    name: 1inch
   target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9'
-coingecko_rank: 2540
-coingecko_score: 6.927
-community_score: 30.575
+coingecko_rank: 3414
+coingecko_score: 6.567
+community_score: 28.942
 description: >-
   ClearPoll is a great new way to have your say. Simply install the app, browse for polls, and vote on
   global, national or local issues. It’s quick, easy and most of all – secure. Using blockchain technology,
@@ -31,9 +31,14 @@ symbol: poll
 tickers:
 - base: POLL
   market:
-    identifier: coinbene
-    name: CoinBene
+    identifier: yobit
+    name: YoBit
   target: BTC
+- base: POLL
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: POLL
   market:
     identifier: yobit
@@ -48,4 +53,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD

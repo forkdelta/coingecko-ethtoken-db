@@ -1,8 +1,8 @@
 ---
 address: '0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC'
-coingecko_rank: 91
-coingecko_score: 46.114
-community_score: 33.743
+coingecko_rank: 102
+coingecko_score: 46.471
+community_score: 32.967
 description: >-
   A keep is an off-chain container for private data. Keeps help contracts harness the full power of the
   public blockchain — enabling deep interactivity with private data.
@@ -13,7 +13,7 @@ description: >-
   blockchain tech without compromising on transparency or privacy. Keeps will be used to encrypt and store
   private data, and the keeps are to be protected by secure multi-party computation (sMPC) that allows
   generating, storing, encrypting and transmitting of data among different users.
-developer_score: 76.093
+developer_score: 77.891
 id: keep-network
 image:
   large: https://assets.coingecko.com/coins/images/3373/large/IuNzUb5b_400x400.jpg?1589526336
@@ -35,19 +35,24 @@ links:
   subreddit_url: https://www.reddit.com/r/KeepNetwork
   telegram_channel_identifier: KeepNetworkOfficial
   twitter_screen_name: keep_project
-liquidity_score: 34.793
-market_cap_rank: 277
+liquidity_score: 28.923
+market_cap_rank: 232
 name: Keep Network
-public_interest_score: 0.01
+public_interest_score: 0.011
 symbol: keep
 tickers:
-- base: 0X85EEE30C52B0B379B046FB0F85F4F3DC3009AFEC
+- base: KEEP
   market:
-    identifier: balancer
-    name: Balancer
-  target: USDC
-- base: 0X85EEE30C52B0B379B046FB0F85F4F3DC3009AFEC
-  market:
-    identifier: one_inch
-    name: 1inch
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH
+- base: KEEP
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
+- base: KEEP
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

@@ -1,12 +1,12 @@
 ---
 address: '0x6025F65f6b2f93d8eD1efeDc752acfd4bdbCec3E'
-coingecko_rank: 2763
-coingecko_score: 5.709
-community_score: 6.15
+coingecko_rank: 3562
+coingecko_score: 5.72
+community_score: 5.777
 description: >-
   eGold is an Ethereum-based ERC-20 Token that's faster and cheaper currency than Bitcoin, Litecoin and
   other cryptocurrencies,  which makes it perfect for fast payments.
-developer_score: 16.623
+developer_score: 16.997
 id: egold
 image:
   large: https://assets.coingecko.com/coins/images/1105/large/egold.png?1547035084
@@ -16,6 +16,7 @@ links:
   bitcointalk_thread_identifier: 2253578
   blockchain_site:
   - https://etherscan.io/token/0x6025f65f6b2f93d8ed1efedc752acfd4bdbcec3e
+  - https://ethplorer.io/address/0x6025f65f6b2f93d8ed1efedc752acfd4bdbcec3e
   homepage:
   - https://egoldtoken.org/
   repos_url:
@@ -30,11 +31,36 @@ symbol: egold
 tickers:
 - base: EGOLD
   market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC
+- base: EGOLD
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DASH
+- base: EGOLD
+  market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: BTC
+- base: EGOLD
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: EGOLD
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: EGOLD
   market:
     identifier: yobit
     name: YoBit
   target: WAVES
+- base: EGOLD
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO

@@ -1,15 +1,15 @@
 ---
 address: '0x7deB5e830be29F91E298ba5FF1356BB7f8146998'
-coingecko_rank: 336
-coingecko_score: 31.749
-community_score: 33.961
+coingecko_rank: 632
+coingecko_score: 26.048
+community_score: 39.177
 description: >-
   Aave MKR is an interest bearing token minted upon deposit and burned when redeemed. The aMKR is pegged
   1:1 to the value of the underlying MKR that is deposited in Aave protocol. aMKR, can be freely stored,
   transferred, and traded. While the underlying asset is loaned out to borrowers, aMKR accrue interest
   in real time, directly in your wallet!
-developer_score: 17.917
-id: aave-mkr
+developer_score: 49.045
+id: aave-mkr-v1
 image:
   large: https://assets.coingecko.com/coins/images/11731/large/aMKR.png?1593084715
   small: https://assets.coingecko.com/coins/images/11731/small/aMKR.png?1593084715
@@ -18,7 +18,8 @@ links:
   announcement_url:
   - https://medium.com/aave
   blockchain_site:
-  - https://etherscan.io/address/0x7deB5e830be29F91E298ba5FF1356BB7f8146998
+  - https://etherscan.io/token/0x7deB5e830be29F91E298ba5FF1356BB7f8146998
+  - https://ethplorer.io/address/0x7deb5e830be29f91e298ba5ff1356bb7f8146998
   chat_url:
   - https://aave.com/discord
   homepage:
@@ -29,9 +30,19 @@ links:
   subreddit_url: https://www.reddit.com/r/Aave_Official/
   telegram_channel_identifier: Aavesome
   twitter_screen_name: aaveaave
-liquidity_score: 36.315
-market_cap_rank: 335
-name: Aave MKR
-public_interest_score: 0.082
+liquidity_score: 25.795
+market_cap_rank: null
+name: Aave MKR v1
+public_interest_score: 0.179
 symbol: amkr
-tickers: []
+tickers:
+- base: AMKR
+  market:
+    identifier: aave
+    name: Aave
+  target: ETH
+- base: 0X7DEB5E830BE29F91E298BA5FF1356BB7F8146998
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

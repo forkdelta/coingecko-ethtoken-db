@@ -1,29 +1,45 @@
 ---
 address: '0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7'
-coingecko_rank: 202
-coingecko_score: 37.828
-community_score: 10.078
+coingecko_rank: 211
+coingecko_score: 37.086
+community_score: 9.844
 description: >-
-  As a project, Akropolis mission is to give people the tools to save, grow and provision for the future
-  safely and without dependence on a geography, a central counterparty, or falling prey to predatorial
-  financial practices of multiple intermediaries.
+  Akropolis is a provider of decentralized finance products with an emphasis on asset yield generation.
+  Our mission is to give users (both new and crypto-native) the tools to save, grow and provision for
+  the future safely, with access to a variety of non-fiat and non-inflationary assets, without dependence
+  on geography or central counterparty. To do this, Arkopolis offers an easy-to-use yield aggregator product
+  featuring curated best-in-class yield generation strategies from various protocols across DeFi.
 
 
-  With that in mind, Akropolis has built AkropolisOS, light and modular framework for creating for-profit
-  DAOs, with customisable user incentives, automated liquidity provision enabled by the bonding curve
-  mechanism, and programmatic liquidity and treasury management.
+  Using the Akropolis dApp, users can:
 
 
-  Our first product, Sparta, allows taking undercollateralized loans (borrower provides only 50% of collateral),
-  as well as to passively generate yield via integrated yield rebalancer to get maximum available APR
-  from different DeFi protocols. All funds are pooled, and the internal economy is based on a bonding
-  curve, which provides additional incentives to the users.
+  Easily onboard into DeFi from their traditional bank accounts via Dharma and Ramp Network.
 
 
-  Our second product is Delphi, a yield farming aggregator with dollar cost averaging tooling. Delphi
-  allows users to gain yield on synthetic savings, farm tokens from integrated protocols/pools, and invest
-  in volatile assets using an active “all in” approach or a passive dollar cost averaging strategy.
-developer_score: 45.629
+  Calculate and compare annual percent yield (APY) of various assets across top DeFi yield generating
+  strategies such as Yearn Finance Vaults.
+
+
+  Easily see their balance, average APY, and yield earned.
+
+
+  Deposit and withdraw assets and claim yield rewards all in one place.
+
+
+  Use dollar-cost averaging to enter positions/strategies (coming soon)
+
+
+  Stake their $AKRO tokens for liquidity mining rewards and protocol revenue share (coming soon).
+
+
+  Participate in Akropolis protocol governance via Snapshot.
+
+
+  In this way, Akropolis acts as a one-stop-shop for decentralized savings and high-yield accounts. We
+  believe that our products and services will enable retail and institutional clients alike to quickly
+  and easily onboard into decentralized finance.
+developer_score: 45.701
 id: akropolis
 image:
   large: https://assets.coingecko.com/coins/images/3328/large/Akropolis.png?1547037929
@@ -49,39 +65,44 @@ links:
     - https://github.com/akropolisio/akropolisOS
   telegram_channel_identifier: akropolis_official
   twitter_screen_name: akropolisio
-liquidity_score: 52.578
-market_cap_rank: 189
+liquidity_score: 49.948
+market_cap_rank: 336
 name: Akropolis
-public_interest_score: 0.012
+public_interest_score: 0.013
 symbol: akro
 tickers:
+- base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
 - base: AKRO
   market:
-    identifier: eterbase
-    name: Eterbase
-  target: USDT
-- base: AKRO
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
-- base: AKRO
-  market:
-    identifier: huobi_id
-    name: Huobi Indonesia
+    identifier: bigone
+    name: BigONE
   target: USDT
 - base: AKRO
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: HT
+- base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: AKRO
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
+- base: AKRO
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT
 - base: AKRO
   market:
     identifier: stocks_exchange
     name: STEX
-  target: ETH
-- base: AKRO
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
   target: ETH

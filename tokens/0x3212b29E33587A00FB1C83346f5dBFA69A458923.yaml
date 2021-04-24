@@ -1,8 +1,8 @@
 ---
 address: '0x3212b29E33587A00FB1C83346f5dBFA69A458923'
-coingecko_rank: 2143
-coingecko_score: 9.477
-community_score: 7.297
+coingecko_rank: 3118
+coingecko_score: 8.403
+community_score: 8.397
 description: >-
   imBTC is an Ethereum token that represents 1:1 the value of bitcoin. Holders can mint, exchange, redeem,
   and receive the income on imBTC from the Tokenlon platform.
@@ -22,29 +22,29 @@ links:
   - https://tokenlon.im/imBTC
   telegram_channel_identifier: tokenlonDEX
   twitter_screen_name: tokenlon
-liquidity_score: 39.359
+liquidity_score: 32.774
 market_cap_rank: null
 name: The Tokenized Bitcoin
-public_interest_score: 0.003
+public_interest_score: 0.011
 symbol: imbtc
 tickers:
 - base: IMBTC
   market:
     identifier: tokenlon
     name: Tokenlon
+  target: DAI
+- base: IMBTC
+  market:
+    identifier: tokenlon
+    name: Tokenlon
   target: ETH
-- base: ATOM
-  market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: IMBTC
 - base: IMBTC
   market:
     identifier: tokenlon
     name: Tokenlon
-  target: KNC
-- base: IMBTC
+  target: USDC
+- base: 0X3212B29E33587A00FB1C83346F5DBFA69A458923
   market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: TUSD
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -1,7 +1,7 @@
 ---
 address: '0x3DB99ab08006aeFcC9600972eCA8C202396B4300'
-coingecko_rank: 2661
-coingecko_score: 6.22
+coingecko_rank: 6463
+coingecko_score: 0.2
 community_score: 0.0
 description: >-
   VINCI is a new vision of how blockchain technology can be used by the members of community or small
@@ -31,9 +31,19 @@ links:
     - https://github.com/vinci-project
   telegram_channel_identifier: vincichannel
   twitter_screen_name: vincifoundation
-liquidity_score: 31.1
+liquidity_score: 1.0
 market_cap_rank: null
 name: Vinci
 public_interest_score: 0.0
 symbol: vinci
-tickers: []
+tickers:
+- base: VINCI
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: BTC
+- base: VINCI
+  market:
+    identifier: exrates
+    name: Exrates
+  target: BTC

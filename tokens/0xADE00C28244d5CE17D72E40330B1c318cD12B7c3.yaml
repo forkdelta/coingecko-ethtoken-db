@@ -1,27 +1,25 @@
 ---
 address: '0xADE00C28244d5CE17D72E40330B1c318cD12B7c3'
-coingecko_rank: 143
-coingecko_score: 41.489
-community_score: 44.722
+coingecko_rank: 165
+coingecko_score: 40.421
+community_score: 35.649
 description: >-
-  AdEx (ADX) stands for “advertising exchange.” AdEx Coin is a blockchain-based marketplace for ads that
-  aims to change the existing online advertising landscape and solve its major problems: ad fraud, privacy
-  and consent to receive sponsored messages, etc. AdEx is fully transparent and built on the <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>
-  Smart Contracts.
+  AdEx (ADX) stands for “advertising exchange.” After a successful crowdfunding campaign in 2017, AdEx
+  was the first startup to release an open-source protocol for decentralized advertising in 2018 and the
+  first ad network  processing payments on the Ethereum blockchain.
 
 
-  AdEx is still in development, so it’s difficult to say much yet about it at this point. The original
-  roadmap anticipated a beta release in February 2018. It remains to be seen if the team will meet that
-  deadline. Future plans for version two of AdEx after launch focus on improving the user experience and
-  scalability. AdEx has also expressed an interest in implementing a real-time bidding solution that could
-  take place off-chain or on a high throughput network, like IOTA. AdEx raised $10 million in the first
-  three hours of token sale.
+  By using payment channels, AdEx ensures full transparency for all involved parties. Moreover, AdEx is
+  using its own Layer-2 scaling solution called OUTPACE to facilitate micropayments per impression between
+  its advertisers and publishers, processing more than 2,5 million transactions daily.
 
 
-  AdEx as a platform has room for a good amount of growth since digital advertising is a booming business
-  anyway. But by eliminating flaws and continuing updates on its current platform, AdEx aims to stand
-  firm in the near future.
-developer_score: 51.053
+  After successful beta tests, AdEx Network released the AdEx Platform in 2020 and scaled it to 7,000
+  registered advertisers and publishers generating more than 70 million monthly impressions. In August
+  2020 AdEx started incentivized staking and liquidity providing programs for the $ADX token, interacting
+  with the DeFi ecosystem and engaging its community into actively supporting the stability of the AdEx
+  Platform.
+developer_score: 49.942
 id: adex
 image:
   large: https://assets.coingecko.com/coins/images/847/large/adex.png?1547034643
@@ -44,25 +42,31 @@ links:
     - https://github.com/AdExNetwork/adex-protocol-eth
     - https://github.com/AdExNetwork/adex-validator
   subreddit_url: https://www.reddit.com/r/AdEx
+  telegram_channel_identifier: AdExNetworkOfficial
   twitter_screen_name: AdEx_Network
-liquidity_score: 31.612
-market_cap_rank: 320
+liquidity_score: 32.44
+market_cap_rank: 309
 name: AdEx
-public_interest_score: 0.16
+public_interest_score: 0.17
 symbol: adx
 tickers:
 - base: ADXN
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: ADXN
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: ETH
-- base: ADXN
+- base: ADX
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: ADX
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: ADX
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

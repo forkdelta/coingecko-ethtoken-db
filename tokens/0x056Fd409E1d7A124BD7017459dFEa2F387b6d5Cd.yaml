@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 616
-coingecko_score: 25.211
-community_score: 5.391
+coingecko_rank: 562
+coingecko_score: 27.158
+community_score: 5.078
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -55,7 +55,7 @@ description: >-
   Starting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini
   dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD
   back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon.
-developer_score: 20.296
+developer_score: 20.911
 id: gemini-dollar
 image:
   large: https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278
@@ -74,52 +74,22 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 32.058
-market_cap_rank: 347
+liquidity_score: 36.601
+market_cap_rank: 323
 name: Gemini Dollar
-public_interest_score: 0.152
+public_interest_score: 0.309
 symbol: gusd
 tickers:
-- base: GUSD
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: EUR
-- base: GUSD
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: USD
-- base: GUSD
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
-- base: GUSD
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: GUSD
-  market:
-    identifier: digifinex
-    name: Digifinex
-  target: USDT
 - base: GUSD
   market:
     identifier: floatsv
     name: Float SV
   target: USDT
-- base: EOS
+- base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
-- base: GUSD
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
 - base: GUSD
   market:
     identifier: therocktrading
@@ -130,3 +100,8 @@ tickers:
     identifier: therocktrading
     name: TheRockTrading
   target: GUSD
+- base: GUSD
+  market:
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH

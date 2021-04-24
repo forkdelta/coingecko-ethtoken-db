@@ -1,8 +1,8 @@
 ---
 address: '0x5B09A0371C1DA44A8E24D36Bf5DEb1141a84d875'
-coingecko_rank: 2969
-coingecko_score: 4.943
-community_score: 21.559
+coingecko_rank: 3788
+coingecko_score: 4.822
+community_score: 21.48
 description: >-
   The MAD Network is a set of decentralized applications designed to seamlessly connect every stakeholder
   within the complex adtech value chain. The MAD Network is not operated by one central party. Decentralized
@@ -51,21 +51,33 @@ description: >-
 developer_score: 0.0
 id: mad-network
 image:
-  large: https://assets.coingecko.com/coins/images/2031/large/Webp.net-resizeimage_%2833%29.png?1547036316
-  small: https://assets.coingecko.com/coins/images/2031/small/Webp.net-resizeimage_%2833%29.png?1547036316
-  thumb: https://assets.coingecko.com/coins/images/2031/thumb/Webp.net-resizeimage_%2833%29.png?1547036316
+  large: https://assets.coingecko.com/coins/images/2031/large/Logo.png?1606984567
+  small: https://assets.coingecko.com/coins/images/2031/small/Logo.png?1606984567
+  thumb: https://assets.coingecko.com/coins/images/2031/thumb/Logo.png?1606984567
 links:
   bitcointalk_thread_identifier: 2373975
   blockchain_site:
   - https://etherscan.io/token/0x5b09a0371c1da44a8e24d36bf5deb1141a84d875
+  - https://ethplorer.io/address/0x5b09a0371c1da44a8e24d36bf5deb1141a84d875
   facebook_username: MAD-Network-126357984721725
   homepage:
   - https://madnetwork.io/
   subreddit_url: https://www.reddit.com/r/madnetwork/
+  telegram_channel_identifier: getmadnetwork
   twitter_screen_name: madnetwork_
-liquidity_score: 1.0
+liquidity_score: 0.483
 market_cap_rank: null
-name: MAD Network Token
+name: MADNetwork
 public_interest_score: 0.0
 symbol: mad
-tickers: []
+tickers:
+- base: 0X5B09A0371C1DA44A8E24D36BF5DEB1141A84D875
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: 0X5B09A0371C1DA44A8E24D36BF5DEB1141A84D875
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

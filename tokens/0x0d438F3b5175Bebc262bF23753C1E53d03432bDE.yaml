@@ -1,15 +1,18 @@
 ---
 address: '0x0d438F3b5175Bebc262bF23753C1E53d03432bDE'
-coingecko_rank: 558
-coingecko_score: 26.287
-community_score: 9.415
+coingecko_rank: 626
+coingecko_score: 26.148
+community_score: 9.491
 description: >-
-  Tokenised membership rights in Nexus Mutual
+  NXM token itself is created solely for internal use within the Nexus Mutual protocol and all of its
+  holders must go through KYC. As such, a wrapped version is created to allow more users to own the token
+  without having to do KYC. In the meantime it also improves its liquidity outside the protocol’s bonding
+  curve by being listed on exchanges such as Uniswap and Binance. 
 
 
-  Membership rights will be represented by tokens. Tokens can be used to purchase cover as well as participate
-  in claims assessment, risk assessment and governance. All funds raised from token purchases belong to
-  members.
+  To make use of the wNXM token, it first needs to be unwrapped into NXM by a registered member of Nexus
+  Mutual. After it is unwrapped, wNXM becomes NXM and can be used as a normal token on the Nexus Mutual
+  platform.
 developer_score: 0.0
 id: wrapped-nxm
 image:
@@ -19,22 +22,33 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0x0d438f3b5175bebc262bf23753c1e53d03432bde
+  - https://ethplorer.io/address/0x0d438f3b5175bebc262bf23753c1e53d03432bde
   homepage:
   - https://nexusmutual.io/
   twitter_screen_name: NexusMutual
-liquidity_score: 53.981
-market_cap_rank: 114
+liquidity_score: 52.146
+market_cap_rank: 261
 name: Wrapped NXM
-public_interest_score: 0.016
+public_interest_score: 0.019
 symbol: wnxm
 tickers:
 - base: WNXM
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: coinex
+    name: CoinEx
   target: ETH
-- base: NXM
+- base: WNXM
   market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: NGN
+- base: WNXM
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
+- base: WNXM
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDT

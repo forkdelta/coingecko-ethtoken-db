@@ -1,8 +1,8 @@
 ---
 address: '0xF26893f89B23084C4C6216038D6eBDBE9e96C5cb'
-coingecko_rank: 4053
-coingecko_score: 1.869
-community_score: 7.587
+coingecko_rank: 5063
+coingecko_score: 1.763
+community_score: 7.107
 description: ""
 developer_score: 0.0
 id: mega-lottery-services-global
@@ -11,9 +11,12 @@ image:
   small: https://assets.coingecko.com/coins/images/11072/small/gg1NiOsG_400x400.jpg?1587958538
   thumb: https://assets.coingecko.com/coins/images/11072/thumb/gg1NiOsG_400x400.jpg?1587958538
 links:
+  announcement_url:
+  - https://drive.google.com/file/d/1PwpsrdfxJZdGz25AxRrontJd32LrKLxa/view?usp=sharing
   blockchain_site:
   - https://etherscan.io/token/0xf26893f89b23084c4c6216038d6ebdbe9e96c5cb
   - https://ethplorer.io/address/0xf26893f89b23084c4c6216038d6ebdbe9e96c5cb
+  - https://scan.tomochain.com/
   chat_url:
   - https://t.me/megaltrtiengviet
   facebook_username: MegaLTR
@@ -22,11 +25,22 @@ links:
   repos_url:
     github:
     - https://github.com/megaltr/mlr
-  telegram_channel_identifier: MegaltrEnglish
+    - https://github.com/tomochain/tokens/issues/194
+  telegram_channel_identifier: Mega_Lottery
   twitter_screen_name: MegaLTR
 liquidity_score: 1.0
 market_cap_rank: null
 name: Mega Lottery Services Global
 public_interest_score: 0.0
 symbol: mlr
-tickers: []
+tickers:
+- base: MLR
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: MLR
+  market:
+    identifier: vindax
+    name: Vindax
+  target: BTC

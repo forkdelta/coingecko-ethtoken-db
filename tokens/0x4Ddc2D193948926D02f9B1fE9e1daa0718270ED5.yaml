@@ -1,8 +1,8 @@
 ---
 address: '0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5'
-coingecko_rank: 328
-coingecko_score: 32.12
-community_score: 34.876
+coingecko_rank: 233
+coingecko_score: 36.064
+community_score: 38.12
 description: >-
   Compound protocol balance token
 developer_score: 0.0
@@ -16,15 +16,26 @@ links:
   - https://medium.com/compound-finance
   blockchain_site:
   - https://etherscan.io/token/0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5
+  - https://ethplorer.io/address/0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5
   chat_url:
   - https://discord.gg/874ntdw
   homepage:
   - https://compound.finance/
   subreddit_url: https://www.reddit.com/r/compound/
   twitter_screen_name: compoundfinance
-liquidity_score: 46.918
-market_cap_rank: 48
+liquidity_score: 57.964
+market_cap_rank: 37
 name: cETH
-public_interest_score: 0.135
+public_interest_score: 0.091
 symbol: ceth
-tickers: []
+tickers:
+- base: 0X4DDC2D193948926D02F9B1FE9E1DAA0718270ED5
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X4DDC2D193948926D02F9B1FE9E1DAA0718270ED5
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

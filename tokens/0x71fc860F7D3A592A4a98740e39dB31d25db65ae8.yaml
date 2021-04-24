@@ -1,15 +1,15 @@
 ---
 address: '0x71fc860F7D3A592A4a98740e39dB31d25db65ae8'
-coingecko_rank: 684
-coingecko_score: 24.21
-community_score: 11.257
+coingecko_rank: 2909
+coingecko_score: 9.606
+community_score: 11.303
 description: >-
   Aave USDT is an interest bearing token minted upon deposit and burned when redeemed. The aUSDT is pegged
   1:1 to the value of the underlying USDT that is deposited in Aave protocol. aUSDT, can be freely stored,
   transferred, and traded. While the underlying asset is loaned out to borrowers, aUSDT accrue interest
   in real time, directly in your wallet!
 developer_score: 0.0
-id: aave-usdt
+id: aave-usdt-v1
 image:
   large: https://assets.coingecko.com/coins/images/11725/large/aUSDT.png?1593082796
   small: https://assets.coingecko.com/coins/images/11725/small/aUSDT.png?1593082796
@@ -19,6 +19,7 @@ links:
   - https://medium.com/aave
   blockchain_site:
   - https://etherscan.io/token/0x71fc860F7D3A592A4a98740e39dB31d25db65ae8
+  - https://ethplorer.io/address/0x71fc860f7d3a592a4a98740e39db31d25db65ae8
   chat_url:
   - https://aave.com/discord
   homepage:
@@ -26,9 +27,14 @@ links:
   subreddit_url: https://www.reddit.com
   telegram_channel_identifier: Aavesome
   twitter_screen_name: aaveaave
-liquidity_score: 45.938
-market_cap_rank: 352
-name: Aave USDT
-public_interest_score: 0.082
+liquidity_score: 35.554
+market_cap_rank: null
+name: Aave USDT v1
+public_interest_score: 0.179
 symbol: ausdt
-tickers: []
+tickers:
+- base: AUSDT
+  market:
+    identifier: aave
+    name: Aave
+  target: ETH

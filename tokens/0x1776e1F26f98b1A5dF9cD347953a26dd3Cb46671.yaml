@@ -1,11 +1,11 @@
 ---
 address: '0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671'
-coingecko_rank: 92
-coingecko_score: 46.001
-community_score: 34.183
+coingecko_rank: 101
+coingecko_score: 46.573
+community_score: 34.534
 description: >-
   A new kind of hedge fund built by a network of data scientists.
-developer_score: 59.0
+developer_score: 60.358
 id: numeraire
 image:
   large: https://assets.coingecko.com/coins/images/752/large/numeraire.png?1592538976
@@ -14,6 +14,7 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671
+  - https://ethplorer.io/address/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671
   homepage:
   - https://erasure.world/
   official_forum_url:
@@ -24,8 +25,8 @@ links:
     - https://github.com/numerai/numerapi-1
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
-liquidity_score: 45.145
-market_cap_rank: 71
+liquidity_score: 47.776
+market_cap_rank: 154
 name: Numeraire
 public_interest_score: 0.002
 symbol: nmr
@@ -34,37 +35,57 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
-  target: USDC
-- base: NMR
+  target: DAI
+- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: balancer
+    name: Balancer
   target: ETH
 - base: NMR
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: NMR
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: NMR
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: NMR
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: NMR
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: KRW
+- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: NMR
   market:
-    identifier: upbit
-    name: Upbit
-  target: BTC
-- base: NMR
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: uniswap_v1
+    name: Uniswap (v1)
+  target: ETH
 - base: NMR
   market:
     identifier: yobit

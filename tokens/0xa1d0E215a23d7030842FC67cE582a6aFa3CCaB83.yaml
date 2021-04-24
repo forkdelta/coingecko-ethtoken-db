@@ -1,8 +1,8 @@
 ---
 address: '0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83'
-coingecko_rank: 372
-coingecko_score: 30.447
-community_score: 9.094
+coingecko_rank: 594
+coingecko_score: 26.705
+community_score: 9.028
 description: >-
   YFII is a fork of YFI project with YIP-8 implementation
 developer_score: 0.0
@@ -14,8 +14,9 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83
+  - https://ethplorer.io/address/0xa1d0e215a23d7030842fc67ce582a6afa3ccab83
   chat_url:
-  - https://discord.com/invite/jPphRJ
+  - https://discord.com/invite/XQ4wnmz
   homepage:
   - https://dfi.money/
   repos_url:
@@ -23,19 +24,69 @@ links:
     - https://github.com/yfii
   telegram_channel_identifier: yfiifinance
   twitter_screen_name: DfiMoney
-liquidity_score: 69.838
-market_cap_rank: 66
+liquidity_score: 57.015
+market_cap_rank: 369
 name: DFI.money
-public_interest_score: 0.004
+public_interest_score: 0.006
 symbol: yfii
 tickers:
+- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
+  market:
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: YFII
   market:
-    identifier: bilaxy
-    name: Bilaxy
+    identifier: cex
+    name: CEX.IO
+  target: ETH
+- base: YFII
+  market:
+    identifier: coinex
+    name: CoinEx
+  target: ETH
+- base: YFII
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: YFII
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
+- base: YFII
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
+- base: YFII
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: YFII
+  market:
+    identifier: huobi_id
+    name: Huobi Indonesia
   target: USDT
 - base: YFII
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: YFII
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

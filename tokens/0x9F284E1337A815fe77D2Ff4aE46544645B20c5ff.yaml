@@ -1,25 +1,35 @@
 ---
 address: '0x9F284E1337A815fe77D2Ff4aE46544645B20c5ff'
-coingecko_rank: 420
-coingecko_score: 29.465
-community_score: 23.093
+coingecko_rank: 164
+coingecko_score: 40.465
+community_score: 25.361
 description: >-
-  KTON is essentially a derivative token of RING，which encourages long-term lock and commitment. RING
-  staking participants can lock RING for 3–36 months and get KTON as rewards, compensating for the liquidity
-  loss.
-developer_score: 67.786
+  KTON is a derivative commitment token of RING (Darwinia Network native token), which encourages long-term
+  involvement. RING holders can voluntarily lock RING for 3–36 months and get KTON as rewards, compensating
+  for the liquidity loss. KTON can be staked for staking rewards and obtaining voting power to participate
+  in the governance.
+
+
+  Darwinia Network is a decentralized heterogeneous cross-chain bridge protocol built on Substrate, serves
+  as critical infrastructure for interoperability across the blockchain networks. Darwinia Network focuses
+  on decentralized cross-chain token swap, exchange, and market and enables single-chain application upgrade
+  to cross-chain version, including Defi, Game, DEX, NFT market, and more. Its vision is to build the
+  future Internet of Tokens.
+developer_score: 72.058
 id: darwinia-commitment-token
 image:
-  large: https://assets.coingecko.com/coins/images/11895/large/logo.png?1595856452
-  small: https://assets.coingecko.com/coins/images/11895/small/logo.png?1595856452
-  thumb: https://assets.coingecko.com/coins/images/11895/thumb/logo.png?1595856452
+  large: https://assets.coingecko.com/coins/images/11895/large/KTON.png?1615271813
+  small: https://assets.coingecko.com/coins/images/11895/small/KTON.png?1615271813
+  thumb: https://assets.coingecko.com/coins/images/11895/thumb/KTON.png?1615271813
 links:
   announcement_url:
   - https://bihu.com/people/1100617
   - https://medium.com/@DarwiniaNetwork/darwinia-commitment-token-kton-861e2df1b4cb
   blockchain_site:
   - https://crab.subscan.io/
+  - https://darwinia-cc1.subscan.io/account?currency=kton
   - https://etherscan.io/token/0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
+  - https://ethplorer.io/address/0x9f284e1337a815fe77d2ff4ae46544645b20c5ff
   homepage:
   - https://darwinia.network/
   repos_url:
@@ -28,9 +38,14 @@ links:
   subreddit_url: https://www.reddit.com/r/DarwiniaFans/
   telegram_channel_identifier: DarwiniaNetwork
   twitter_screen_name: DarwiniaNetwork
-liquidity_score: 37.188
-market_cap_rank: null
+liquidity_score: 27.012
+market_cap_rank: 1111
 name: Darwinia Commitment Token
-public_interest_score: 0.007
+public_interest_score: 0.005
 symbol: kton
-tickers: []
+tickers:
+- base: KTON
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

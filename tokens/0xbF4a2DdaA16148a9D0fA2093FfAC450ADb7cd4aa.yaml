@@ -1,8 +1,8 @@
 ---
 address: '0xbF4a2DdaA16148a9D0fA2093FfAC450ADb7cd4aa'
-coingecko_rank: 4225
-coingecko_score: 1.736
-community_score: 6.984
+coingecko_rank: 5176
+coingecko_score: 1.667
+community_score: 6.668
 description: >-
   Erc20 design for mass adoption
 developer_score: 0.0
@@ -28,8 +28,18 @@ name: Ethereum Money
 public_interest_score: 0.0
 symbol: ethmny
 tickers:
-- base: ETHMNY
+- base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
   market:
-    identifier: satoexchange
-    name: SatoExchange
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

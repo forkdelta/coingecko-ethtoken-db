@@ -1,8 +1,8 @@
 ---
 address: '0x322124122DF407b0d0D902cB713B3714FB2e2E1F'
-coingecko_rank: 3412
-coingecko_score: 3.355
-community_score: 7.109
+coingecko_rank: 5395
+coingecko_score: 1.473
+community_score: 6.698
 description: >-
   A Fundamentally Yield-Stable Cryptocurrency
 developer_score: 0.0
@@ -14,15 +14,26 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0x322124122df407b0d0d902cb713b3714fb2e2e1f
+  - https://ethplorer.io/address/0x322124122df407b0d0d902cb713b3714fb2e2e1f
   chat_url:
   - https://discord.gg/vDTXmMk
   homepage:
   - https://syfi.finance/
   telegram_channel_identifier: softyearnfi
   twitter_screen_name: softyearnfi
-liquidity_score: 8.955
+liquidity_score: 0.0
 market_cap_rank: null
 name: Soft Yearn
 public_interest_score: 0.0
 symbol: syfi
-tickers: []
+tickers:
+- base: SYFI
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: S1INCH
+- base: 0X322124122DF407B0D0D902CB713B3714FB2E2E1F
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

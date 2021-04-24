@@ -1,13 +1,13 @@
 ---
 address: '0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8'
-coingecko_rank: 1034
-coingecko_score: 19.475
-community_score: 33.962
+coingecko_rank: 2289
+coingecko_score: 13.144
+community_score: 39.179
 description: >-
   Aave BUSD is an interest bearing token pegged 1:1 to underlying BUSD deposited in Aave. aBUSD accrue
   interest in real time in your wallet.
 developer_score: 0.0
-id: aave-busd
+id: aave-busd-v1
 image:
   large: https://assets.coingecko.com/coins/images/11736/large/aBUSD.png?1593085489
   small: https://assets.coingecko.com/coins/images/11736/small/aBUSD.png?1593085489
@@ -16,7 +16,8 @@ links:
   announcement_url:
   - https://medium.com/aave
   blockchain_site:
-  - https://etherscan.io/address/0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8
+  - https://etherscan.io/token/0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8
+  - https://ethplorer.io/address/0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8
   chat_url:
   - https://aave.com/discord
   homepage:
@@ -27,9 +28,14 @@ links:
   subreddit_url: https://www.reddit.com/r/Aave_Official/
   telegram_channel_identifier: Aavesome
   twitter_screen_name: aaveaave
-liquidity_score: 11.418
-market_cap_rank: 1161
-name: Aave BUSD
-public_interest_score: 0.082
+liquidity_score: 22.579
+market_cap_rank: null
+name: Aave BUSD v1
+public_interest_score: 0.179
 symbol: abusd
-tickers: []
+tickers:
+- base: ABUSD
+  market:
+    identifier: aave
+    name: Aave
+  target: ETH

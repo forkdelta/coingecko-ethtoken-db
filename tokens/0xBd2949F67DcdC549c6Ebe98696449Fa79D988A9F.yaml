@@ -1,11 +1,12 @@
 ---
 address: '0xBd2949F67DcdC549c6Ebe98696449Fa79D988A9F'
-coingecko_rank: 2815
-coingecko_score: 5.535
-community_score: 20.077
+coingecko_rank: 3961
+coingecko_score: 4.327
+community_score: 8.492
 description: >-
-  eMTRG is the ERC-20 equivalent of MTRG, the governance coin of the Meter network. It can be used to
-  access the Ethereum DeFi ecosystem, such as for liquidity mining and more.
+  eMTRG is 1:1 wrapped ERC-20 version of MTRG, the governance coin of the Meter network. It can be used
+  to access the Ethereum DeFi ecosystem, such as for liquidity mining and more.  MTRG and eMTRG could
+  be converted through bridge link on https://meter.io/crosschain
 developer_score: 0.0
 id: meter-governance-mapped-by-meter-io
 image:
@@ -18,6 +19,7 @@ links:
   - https://www.linkedin.com/company/meterio/
   blockchain_site:
   - https://etherscan.io/token/0xbd2949f67dcdc549c6ebe98696449fa79d988a9f
+  - https://ethplorer.io/address/0xbd2949f67dcdc549c6ebe98696449fa79d988a9f
   chat_url:
   - https://discord.gg/XZgZsCn
   facebook_username: MeterFoundation
@@ -29,10 +31,10 @@ links:
   subreddit_url: https://www.reddit.com
   telegram_channel_identifier: meter_io
   twitter_screen_name: Meter_IO
-liquidity_score: 5.59
+liquidity_score: 12.294
 market_cap_rank: null
 name: Meter Governance mapped by Meter.io
-public_interest_score: 0.004
+public_interest_score: 0.003
 symbol: eMTRG
 tickers:
 - base: 0XBD2949F67DCDC549C6EBE98696449FA79D988A9F
@@ -40,3 +42,8 @@ tickers:
     identifier: balancer
     name: Balancer
   target: 0XA0B86991C6218B36C1D19D4A2E9EB0CE3606EB48
+- base: 0XBD2949F67DCDC549C6EBE98696449FA79D988A9F
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

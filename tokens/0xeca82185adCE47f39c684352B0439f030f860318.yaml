@@ -1,8 +1,8 @@
 ---
 address: '0xeca82185adCE47f39c684352B0439f030f860318'
-coingecko_rank: 422
-coingecko_score: 29.42
-community_score: 29.462
+coingecko_rank: 419
+coingecko_score: 29.797
+community_score: 28.986
 description: >-
   A high-throughput, DAG-based protocol capable of powering any application.
 
@@ -31,7 +31,7 @@ description: >-
   to be super easy, and we encourage experimentation. If we identify promising real-world applications
   built on Wavelet, the Perlin team will provide grants and support to facilitate commercial success.
   Get started here: https://www.perlin.net/
-developer_score: 61.433
+developer_score: 62.41
 id: perlin
 image:
   large: https://assets.coingecko.com/coins/images/4682/large/PerlinX-Icon-1500px.png?1598633609
@@ -58,9 +58,34 @@ links:
   subreddit_url: https://www.reddit.com/r/perlin
   telegram_channel_identifier: perlinnetworkchat
   twitter_screen_name: PerlinNetwork
-liquidity_score: 37.902
+liquidity_score: 39.089
 market_cap_rank: null
 name: Perlin
-public_interest_score: 0.001
+public_interest_score: 0.006
 symbol: perl
-tickers: []
+tickers:
+- base: 0X59FEC83EC709C893AEDD1A144CF1828EB04127CD
+  market:
+    identifier: balancer
+    name: Balancer
+  target: 0XECA82185ADCE47F39C684352B0439F030F860318
+- base: PERL
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: 0XECA82185ADCE47F39C684352B0439F030F860318
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XECA82185ADCE47F39C684352B0439F030F860318
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 0XECA82185ADCE47F39C684352B0439F030F860318
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

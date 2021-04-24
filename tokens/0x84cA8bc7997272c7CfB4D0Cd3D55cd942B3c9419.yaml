@@ -1,8 +1,8 @@
 ---
 address: '0x84cA8bc7997272c7CfB4D0Cd3D55cd942B3c9419'
-coingecko_rank: 383
-coingecko_score: 30.266
-community_score: 25.251
+coingecko_rank: 423
+coingecko_score: 29.653
+community_score: 27.654
 description: ""
 developer_score: 0.0
 id: dia-data
@@ -16,6 +16,7 @@ links:
   - https://t.me/DIAannouncements
   blockchain_site:
   - https://etherscan.io/token/0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419
+  - https://ethplorer.io/address/0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419
   homepage:
   - https://diadata.org/
   repos_url:
@@ -24,24 +25,29 @@ links:
   subreddit_url: https://www.reddit.comr/DIAdata
   telegram_channel_identifier: DIAdata_org
   twitter_screen_name: DIAdata_org
-liquidity_score: 54.876
-market_cap_rank: 147
+liquidity_score: 49.637
+market_cap_rank: 299
 name: DIA
-public_interest_score: 0.017
+public_interest_score: 0.007
 symbol: DIA
 tickers:
 - base: DIA
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: DIA
-  market:
-    identifier: eterbase
-    name: Eterbase
-  target: USDT
-- base: DIA
-  market:
-    identifier: gate
-    name: Gate.io
+    identifier: coinex
+    name: CoinEx
   target: ETH
+- base: DIA
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: DIA
+  market:
+    identifier: quoine
+    name: Liquid
+  target: USDT

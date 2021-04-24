@@ -1,20 +1,31 @@
 ---
 address: '0xb5a4ac5b04E777230bA3381195EfF6a60c3934F2'
-coingecko_rank: 4151
-coingecko_score: 1.82
-community_score: 7.364
+coingecko_rank: 1349
+coingecko_score: 19.058
+community_score: 7.463
 description: >-
-  inSure System is aiming to provide stability to the crypto world and protect people from their mistakes
-  and from fraudulent activities of others.
+  inSure DeFi is a community-based crypto asset insurance ecosystem, where users can insure their crypto-portfolio
+  by buying SURE tokens with fiat and other cryptocurrencies. inSure is designed to distribute crypto
+  ownership risks amongst a liquidity pool, with insurance premiums determined by a Dynamic Pricing Model
+  that leverages Chainlink. Capital required to back the risks at any point in time is based on the market
+  pricing of SURE tokens, as well as community demand for insurance of crypto portfolios. A decentralized
+  support system called the inSure DAO is also used to diligently process all the insurance claims, wherein
+  voters make sure that any fraudulent claims are flagged and only valid claims are fulfilled.
+
+
+  inSure DeFi is a Decentralized Insurance Ecosystem, trusted by thousands of community members to protect
+  their crypto portfolios from scams, exchange closures, and drastic devaluations. inSure DeFi provides
+  insurance solutions for the crypto space to stabilize and secure Crypto & DeFi portfolios.
 developer_score: 0.0
 id: insure
 image:
-  large: https://assets.coingecko.com/coins/images/10354/large/logo200.png?1578435990
-  small: https://assets.coingecko.com/coins/images/10354/small/logo200.png?1578435990
-  thumb: https://assets.coingecko.com/coins/images/10354/thumb/logo200.png?1578435990
+  large: https://assets.coingecko.com/coins/images/10354/large/logo-grey-circle.png?1614910406
+  small: https://assets.coingecko.com/coins/images/10354/small/logo-grey-circle.png?1614910406
+  thumb: https://assets.coingecko.com/coins/images/10354/thumb/logo-grey-circle.png?1614910406
 links:
   bitcointalk_thread_identifier: 5176277
   blockchain_site:
+  - 'https://bscscan.com/token/0x4ac27c1b7eb76e28d1e24849c2da124790c00abc '
   - https://etherscan.io/token/0xb5a4ac5b04e777230ba3381195eff6a60c3934f2
   - https://ethplorer.io/address/0xb5a4ac5b04e777230ba3381195eff6a60c3934f2
   facebook_username: inSuretoken
@@ -23,16 +34,41 @@ links:
   repos_url:
     github:
     - https://github.com/inSureToken/SmartContract/
-  telegram_channel_identifier: insuretoken
+  telegram_channel_identifier: insuresystem
   twitter_screen_name: InsureToken
-liquidity_score: 1.0
-market_cap_rank: null
-name: inSure
-public_interest_score: 0.001
+liquidity_score: 19.369
+market_cap_rank: 278
+name: inSure DeFi
+public_interest_score: 0.003
 symbol: sure
 tickers:
 - base: SURE
   market:
-    identifier: vindax
-    name: Vindax
+    identifier: coinsbit
+    name: Coinsbit
+  target: USDT
+- base: SURE
+  market:
+    identifier: crex24
+    name: CREX24
   target: BTC
+- base: SURE
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: SURE
+  market:
+    identifier: crex24
+    name: CREX24
+  target: USDT
+- base: SURE
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: SURE
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

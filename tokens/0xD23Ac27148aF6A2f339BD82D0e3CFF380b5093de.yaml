@@ -1,0 +1,89 @@
+---
+address: '0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de'
+coingecko_rank: 1569
+coingecko_score: 17.501
+community_score: 7.603
+description: >-
+  SIREN is a distributed protocol for creating, trading, and redeeming fully-collateralized options contracts
+  for any ERC-20 token on Ethereum.
+
+
+  About SIREN
+
+  Options are a financial primitive from which one can build many different more complex financial instruments.
+  At their core, options give a trader the choice to buy or sell an asset at a predetermined price at
+  a known time in the future. This is useful for protecting one's self (also known as hedging) against
+  possible price changes in the asset, as well as speculating on these price changes.
+
+
+  Core Protocol Mechanics
+
+  SIREN uses a fully-collateralized approach to writing options that doesn’t require any oracles to function.
+  A single MarketsRegistry contract creates and coordinates individual markets. Once a Market contract
+  is created anyone can interact with it in a permissionless manner. The solvency of a position is ensured
+  at all times by the collateral locked in the smart contract.
+
+
+  With SIREN, both the long and short side of the contract are tokenized. The buyer’s side (bToken) gives
+  the holder the right to purchase or sell the underlying asset at a predetermined strike priceThe seller’s/writer’s
+  side (wToken) allows the holder to withdraw the collateral (if the option was not exercised) or withdraw
+  the exercise payment (if the option was exercised) from the contract after expiration.
+
+
+  When a trader buys a put the on-chain token amount is multiplied by the strike. For example, a 1 WBTC
+  $20K PUT will result in 20,000 bTokens. For the same reason, a put is just a reversed-assets call (e.g.
+  a WBTC/USDC put is actually a USDC/WBTC call).​
+
+
+  Tokenizing both sides of the contract allows SIREN to create secondary markets for both the long and
+  short exposure. Under such a design in order to become a writer one purchases a wToken from the SirenSwap
+  AMM (see below). A writer can also unwind their short exposure by selling the wToken back to the AMM.
+  This streamlines the write-side mechanics by reducing it to essentially purchasing the underlying collateral
+  at discount — as opposed to a typical design where the writer mints long tokens and has to then sell
+  them in order to realize the premium.
+
+
+  SirenSwap AMM
+
+  Bootstrapping liquidity is core to creating a thriving market. Options are notoriously difficult when
+  it comes to that. Not only does liquidity get fractured by combination of strike prices and expirations,
+  it also requires sophistication on the part of liquidity providers in order to ensure fair and sustainable
+  pricing.
+
+
+  To ensure liquidity on day 1 the SIREN protocol utilizes a custom SirenSwap AMM that uses a novel combination
+  of a constant-product bonding curve and options minting to trade both bTokens and wTokens. Notably,
+  the AMM doesn’t require any asset in the pool other than bTokens/wTokens in order to trade them against
+  the collateral asset (e.g. WBTC). This increases LP capital efficiency and provides other benefits that
+  we’ll expand on in further posts.
+
+
+  The SIREN core team believes that in these early days of Ethereum and DeFi less is more, so they designed
+  SirenSwap to be a model-less market maker. This means there is no complex on-chain pricing formula nor
+  oracle feed required in order for it to function. This makes it easy for anyone to become an LP to potentially
+  earn trading fees.
+developer_score: 0.0
+id: siren
+image:
+  large: https://assets.coingecko.com/coins/images/13955/large/siren_logo.png?1613310803
+  small: https://assets.coingecko.com/coins/images/13955/small/siren_logo.png?1613310803
+  thumb: https://assets.coingecko.com/coins/images/13955/thumb/siren_logo.png?1613310803
+links:
+  announcement_url:
+  - https://sirenmarkets.medium.com/
+  blockchain_site:
+  - https://etherscan.io/token/0xD23Ac27148aF6A2f339BD82D0e3CFF380b5093de
+  - https://ethplorer.io/address/0xd23ac27148af6a2f339bd82d0e3cff380b5093de
+  homepage:
+  - https://sirenmarkets.com/
+  repos_url:
+    github:
+    - https://github.com/sirenmarkets/core
+  telegram_channel_identifier: sirenmarkets
+  twitter_screen_name: sirenprotocol
+liquidity_score: 18.396
+market_cap_rank: 847
+name: Siren
+public_interest_score: 0.006
+symbol: si
+tickers: []

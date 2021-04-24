@@ -1,8 +1,8 @@
 ---
 address: '0x035bfe6057E15Ea692c0DfdcaB3BB41a64Dd2aD4'
-coingecko_rank: 2680
-coingecko_score: 6.137
-community_score: 0.0
+coingecko_rank: 5339
+coingecko_score: 1.521
+community_score: 6.003
 description: >-
   ULU aims to combine the best features of Uniswap and Balancer and route everything via the ULU token
   as medium of liquidity exchange.
@@ -17,15 +17,26 @@ links:
   - https://medium.com/@ulu.finance
   blockchain_site:
   - https://etherscan.io/token/0x035bfe6057e15ea692c0dfdcab3bb41a64dd2ad4
+  - https://ethplorer.io/address/0x035bfe6057e15ea692c0dfdcab3bb41a64dd2ad4
   chat_url:
   - https://discord.gg/kZT8zCk
   homepage:
   - http://ulu.finance/
   telegram_channel_identifier: ULUofficial
   twitter_screen_name: ULU_finance
-liquidity_score: 30.686
+liquidity_score: 1.0
 market_cap_rank: null
 name: Universal Liquidity Union
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: ulu
-tickers: []
+tickers:
+- base: 0X035BFE6057E15EA692C0DFDCAB3BB41A64DD2AD4
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: ULU
+  market:
+    identifier: whale_ex
+    name: WhaleEx
+  target: USDT

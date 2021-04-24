@@ -1,8 +1,8 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 2160
-coingecko_score: 9.359
-community_score: 12.215
+coingecko_rank: 3756
+coingecko_score: 4.9
+community_score: 11.274
 description: >-
   Official Token of Yobit.Net Exchange
 developer_score: 0.0
@@ -18,10 +18,10 @@ links:
   homepage:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
-liquidity_score: 33.327
+liquidity_score: 12.041
 market_cap_rank: null
 name: Yobit Token
-public_interest_score: 0.133
+public_interest_score: 0.23
 symbol: yo
 tickers:
 - base: YO
@@ -29,32 +29,17 @@ tickers:
     identifier: bithumb_global
     name: Bithumb Global
   target: BTC
-- base: YO
+- base: 0XEBF4CA5319F406602EEFF68DA16261F1216011B5
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: YO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: YO
   market:
     identifier: yobit
     name: YoBit
-  target: USDT
-- base: BTT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: TRX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: VERA
+  target: ETH
+- base: USDT
   market:
     identifier: yobit
     name: YoBit
@@ -64,42 +49,12 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: XEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: CNG
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: LTC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: ZEC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHABC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: USDT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETC
+- base: YFI
   market:
     identifier: yobit
     name: YoBit
@@ -109,7 +64,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: DOGE
+- base: TALK
   market:
     identifier: yobit
     name: YoBit
@@ -119,17 +74,22 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: SWRV
+- base: VERA
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: CNB
+- base: XEM
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: EOS
+- base: BCHSV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: EGOLD
   market:
     identifier: yobit
     name: YoBit

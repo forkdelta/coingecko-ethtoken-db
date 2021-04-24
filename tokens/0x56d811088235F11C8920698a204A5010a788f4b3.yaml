@@ -1,10 +1,12 @@
 ---
 address: '0x56d811088235F11C8920698a204A5010a788f4b3'
-coingecko_rank: 179
-coingecko_score: 39.368
-community_score: 9.596
-description: ""
-developer_score: 48.419
+coingecko_rank: 198
+coingecko_score: 37.859
+community_score: 9.41
+description: >-
+  bZx is a protocol for borrowing, lending, and margin trading. Borrowing can be done through the Torque
+  while the Fulcrum handles lending and margin trading.
+developer_score: 49.514
 id: bzx-protocol
 image:
   large: https://assets.coingecko.com/coins/images/11811/large/bzrx.png?1594563172
@@ -15,6 +17,7 @@ links:
   - https://bzx.network/blog
   blockchain_site:
   - https://etherscan.io/token/0x56d811088235F11C8920698a204A5010a788f4b3
+  - https://ethplorer.io/address/0x56d811088235f11c8920698a204a5010a788f4b3
   chat_url:
   - https://bzx.network/discord
   homepage:
@@ -26,24 +29,24 @@ links:
     - https://github.com/bZxNetwork/bZx-monorepo
   telegram_channel_identifier: b0xNet
   twitter_screen_name: bzxHQ
-liquidity_score: 55.895
-market_cap_rank: 137
+liquidity_score: 50.272
+market_cap_rank: 399
 name: bZx Protocol
-public_interest_score: 0.017
+public_interest_score: 0.01
 symbol: bzrx
 tickers:
 - base: BZRX
   market:
-    identifier: bigone
-    name: BigONE
-  target: USDT
-- base: BZRX
-  market:
-    identifier: idex
-    name: Idex
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH
-- base: BZRX
+- base: 0X56D811088235F11C8920698A204A5010A788F4B3
   market:
-    identifier: loopring
-    name: Loopring
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X56D811088235F11C8920698A204A5010A788F4B3
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH

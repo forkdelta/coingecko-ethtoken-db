@@ -1,22 +1,18 @@
 ---
 address: '0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2'
-coingecko_rank: 171
-coingecko_score: 39.792
-community_score: 9.346
+coingecko_rank: 181
+coingecko_score: 38.913
+community_score: 9.106
 description: >-
-  mStable has a protocol token, Meta (MTA), with three core functions:
+  Meta (MTA) is mStable’s protocol token and it has three core functions:
 
-  To act as the ultimate source of re-collateralisation
+  - To coordinate decentralised governance.
 
-  To coordinate decentralised governance
+  - To incentivise bootstrapping of mAsset liquidity, utility and a decentralised community of Governors.
 
-  To incentivise bootstrapping of mASSET liquidity, utility and a community of Governors
-
-
-  In return for performing these functions and taking on the risk of partial liquidation in a peg loss
-  event, governors can choose for Meta tokens to earn income from fees collected in the platform and interest
-  generated on its underlying assets. This will be decided in future once mStable is sufficiently decentralised.
-developer_score: 60.237
+  - To act as the source of re-collateralisation if it is implemented in future after being approved by
+  governors.
+developer_score: 68.315
 id: meta
 image:
   large: https://assets.coingecko.com/coins/images/11846/large/mStable.png?1594950533
@@ -25,8 +21,9 @@ image:
 links:
   blockchain_site:
   - https://etherscan.io/token/0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2
+  - https://ethplorer.io/address/0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2
   chat_url:
-  - https://discord.gg/jaR2ksQ
+  - https://discord.gg/pgCVG7e
   homepage:
   - http://mstable.org/
   repos_url:
@@ -35,10 +32,10 @@ links:
     - https://github.com/mstable/mStable-contracts
   telegram_channel_identifier: mstableofficial
   twitter_screen_name: mstable_
-liquidity_score: 48.679
-market_cap_rank: 296
-name: Meta
-public_interest_score: 0.03
+liquidity_score: 33.9
+market_cap_rank: 466
+name: 'mStable Governance Token: Meta'
+public_interest_score: 0.016
 symbol: mta
 tickers:
 - base: 0XA3BED4E1C75D00FA6F4E5E6922DB7261B5E9ACD2
@@ -48,21 +45,31 @@ tickers:
   target: ETH
 - base: MTA
   market:
-    identifier: eterbase
-    name: Eterbase
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MTA
+  market:
+    identifier: bibox
+    name: Bibox
   target: USDT
 - base: MTA
   market:
-    identifier: gate
-    name: Gate.io
+    identifier: cex
+    name: CEX.IO
   target: ETH
 - base: MTA
   market:
-    identifier: idex
-    name: Idex
-  target: ETH
-- base: 0XA3BED4E1C75D00FA6F4E5E6922DB7261B5E9ACD2
+    identifier: cex
+    name: CEX.IO
+  target: USDT
+- base: MTA
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: MTA
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC

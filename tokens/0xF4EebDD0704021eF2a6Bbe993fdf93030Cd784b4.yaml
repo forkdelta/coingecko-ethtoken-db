@@ -1,8 +1,8 @@
 ---
 address: '0xF4EebDD0704021eF2a6Bbe993fdf93030Cd784b4'
-coingecko_rank: 3648
-coingecko_score: 2.336
-community_score: 10.606
+coingecko_rank: 4468
+coingecko_score: 2.402
+community_score: 10.903
 description: >-
   Inversely tracks the price of Inverse EOS (EOS) through price feeds supplied by an oracle.
 
@@ -16,12 +16,13 @@ description: >-
 developer_score: 0.0
 id: ieos
 image:
-  large: https://assets.coingecko.com/coins/images/11627/large/iEOS.png?1592124711
-  small: https://assets.coingecko.com/coins/images/11627/small/iEOS.png?1592124711
-  thumb: https://assets.coingecko.com/coins/images/11627/thumb/iEOS.png?1592124711
+  large: https://assets.coingecko.com/coins/images/11627/large/iEOS.png?1616151361
+  small: https://assets.coingecko.com/coins/images/11627/small/iEOS.png?1616151361
+  thumb: https://assets.coingecko.com/coins/images/11627/thumb/iEOS.png?1616151361
 links:
   blockchain_site:
   - https://etherscan.io/token/0xF4EebDD0704021eF2a6Bbe993fdf93030Cd784b4
+  - https://ethplorer.io/address/0xf4eebdd0704021ef2a6bbe993fdf93030cd784b4
   chat_url:
   - https://discord.gg/AEdUHzt
   homepage:
@@ -30,6 +31,21 @@ links:
 liquidity_score: 0.0
 market_cap_rank: null
 name: iEOS
-public_interest_score: 0.053
+public_interest_score: 0.07
 symbol: ieos
-tickers: []
+tickers:
+- base: SCRV
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IEOS
+- base: SRUNE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IEOS
+- base: S1INCH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IEOS

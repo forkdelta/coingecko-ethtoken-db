@@ -1,15 +1,15 @@
 ---
 address: '0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00'
-coingecko_rank: 701
-coingecko_score: 23.862
-community_score: 33.956
+coingecko_rank: 3046
+coingecko_score: 8.83
+community_score: 39.185
 description: >-
   Aave BAT is an interest bearing token minted upon deposit and burned when redeemed. The aBAT is pegged
   1:1 to the value of the underlying BAT that is deposited in Aave protocol. aBAT, can be freely stored,
   transferred, and traded. While the underlying asset is loaned out to borrowers, aBAT accrue interest
   in real time, directly in your wallet!
 developer_score: 0.0
-id: aave-bat
+id: aave-bat-v1
 image:
   large: https://assets.coingecko.com/coins/images/11726/large/aBAT.png?1593086569
   small: https://assets.coingecko.com/coins/images/11726/small/aBAT.png?1593086569
@@ -19,6 +19,7 @@ links:
   - https://medium.com/aave
   blockchain_site:
   - https://etherscan.io/token/0xe1ba0fb44ccb0d11b80f92f4f8ed94ca3ff51d00
+  - https://ethplorer.io/address/0xe1ba0fb44ccb0d11b80f92f4f8ed94ca3ff51d00
   chat_url:
   - https://aave.com/discord
   homepage:
@@ -26,9 +27,19 @@ links:
   subreddit_url: https://www.reddit.com/r/Aave_Official/
   telegram_channel_identifier: Aavesome
   twitter_screen_name: aaveaave
-liquidity_score: 25.619
-market_cap_rank: 588
-name: Aave BAT
-public_interest_score: 0.082
+liquidity_score: 1.0
+market_cap_rank: null
+name: Aave BAT v1
+public_interest_score: 0.179
 symbol: abat
-tickers: []
+tickers:
+- base: ABAT
+  market:
+    identifier: aave
+    name: Aave
+  target: ETH
+- base: 0XE1BA0FB44CCB0D11B80F92F4F8ED94CA3FF51D00
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
