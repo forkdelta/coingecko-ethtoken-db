@@ -79,7 +79,7 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 36.704
-market_cap_rank: 153
+market_cap_rank: 156
 name: Golem
 public_interest_score: 0.012
 symbol: glm
@@ -88,12 +88,22 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
+  target: BTC
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
   target: ETH
 - base: GNT
   market:
-    identifier: bitbns
-    name: BitBNS
-  target: INR
+    identifier: bitbay
+    name: BitBay
+  target: EUR
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: USD
 - base: GNT
   market:
     identifier: bitfinex
@@ -104,11 +114,6 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
-- base: GLM
-  market:
-    identifier: bitrue
-    name: Bitrue
-  target: BTC
 - base: 0X7DD9C5CBA05E151C895FDE1CF355C9A1D5DA6429
   market:
     identifier: sushiswap

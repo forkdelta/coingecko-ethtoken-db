@@ -26,13 +26,28 @@ links:
   telegram_channel_identifier: huobiglobalofficial
   twitter_screen_name: HuobiGlobal
 liquidity_score: 60.666
-market_cap_rank: 80
+market_cap_rank: 78
 name: Huobi BTC
 public_interest_score: 0.0
 symbol: hbtc
 tickers:
+- base: HBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: WBTC
 - base: 0X0316EB71485B0AB14103307BF65A021042C6D380
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0X0316EB71485B0AB14103307BF65A021042C6D380
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
+- base: 0X0316EB71485B0AB14103307BF65A021042C6D380
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

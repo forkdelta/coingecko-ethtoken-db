@@ -26,16 +26,31 @@ links:
   subreddit_url: https://www.reddit.com/r/suncontract
   twitter_screen_name: sun_contract
 liquidity_score: 15.745
-market_cap_rank: 1215
+market_cap_rank: 1216
 name: SunContract
 public_interest_score: 0.003
 symbol: snc
 tickers:
+- base: SNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: SNC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: 0XF4134146AF2D511DD5EA8CDB1C4AC88C57D60404
   market:
     identifier: uniswap
     name: Uniswap (v2)
   target: ETH
+- base: SNC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: SNC
   market:
     identifier: yobit
@@ -46,6 +61,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: SNC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: SNC
   market:
     identifier: yobit

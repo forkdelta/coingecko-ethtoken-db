@@ -37,7 +37,7 @@ links:
   telegram_channel_identifier: reservecurrency
   twitter_screen_name: reserveprotocol
 liquidity_score: 59.68
-market_cap_rank: 98
+market_cap_rank: 99
 name: Reserve Rights Token
 public_interest_score: 0.023
 symbol: rsr
@@ -51,17 +51,7 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: EUR
-- base: RSR
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: KRW
-- base: RSR
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: NGN
+  target: GBP
 - base: RSR
   market:
     identifier: dove_wallet
@@ -69,9 +59,19 @@ tickers:
   target: PAX
 - base: RSR
   market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: RSR
+  market:
     identifier: floatsv
     name: Float SV
   target: USDT
+- base: RSR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: RSR
   market:
     identifier: huobi_korea

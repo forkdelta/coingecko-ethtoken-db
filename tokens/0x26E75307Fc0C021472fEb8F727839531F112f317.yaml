@@ -32,8 +32,13 @@ name: CRYPTO20
 public_interest_score: 0.005
 symbol: c20
 tickers:
-- base: 0X26E75307FC0C021472FEB8F727839531F112F317
+- base: C20
   market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: C20
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

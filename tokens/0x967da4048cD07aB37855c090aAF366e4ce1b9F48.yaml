@@ -58,20 +58,15 @@ name: Ocean Protocol
 public_interest_score: 0.027
 symbol: ocean
 tickers:
+- base: 0X967DA4048CD07AB37855C090AAF366E4CE1B9F48
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: OCEAN
   market:
     identifier: cex
     name: CEX.IO
-  target: USDT
-- base: OCEAN
-  market:
-    identifier: emirex
-    name: Emirex
-  target: BTC
-- base: OCEAN
-  market:
-    identifier: emirex
-    name: Emirex
   target: USDT
 - base: OCEAN
   market:

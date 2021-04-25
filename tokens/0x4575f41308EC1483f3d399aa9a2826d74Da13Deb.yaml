@@ -52,9 +52,34 @@ symbol: oxt
 tickers:
 - base: OXT
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
+- base: OXT
+  market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: KRW
+  target: BTC
+- base: OXT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
+- base: OXT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: OXT
+  market:
+    identifier: gemini
+    name: Gemini
+  target: ETH
+- base: OXT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: OXT
   market:
     identifier: huobi_id

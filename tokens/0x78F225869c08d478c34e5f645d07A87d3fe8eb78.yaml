@@ -28,8 +28,18 @@ links:
   telegram_channel_identifier: piedao
   twitter_screen_name: DeFiOpFi
 liquidity_score: 5.012
-market_cap_rank: 1263
+market_cap_rank: 1272
 name: PieDAO DEFI Large Cap
 public_interest_score: 0.0
 symbol: defi+l
-tickers: []
+tickers:
+- base: 0X78F225869C08D478C34E5F645D07A87D3FE8EB78
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: 0X78F225869C08D478C34E5F645D07A87D3FE8EB78
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

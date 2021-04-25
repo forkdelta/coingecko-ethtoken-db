@@ -60,25 +60,25 @@ tickers:
     identifier: balancer
     name: Balancer
   target: DAI
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
-  market:
-    identifier: balancer
-    name: Balancer
-  target: USDC
 - base: UMA
   market:
     identifier: cex
     name: CEX.IO
   target: ETH
-- base: UMA
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
 - base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:
     identifier: defi_swap
     name: DeFi Swap
+  target: ETH
+- base: UMA
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: UMA
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: ETH
 - base: UMA
   market:
@@ -89,27 +89,37 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: NGN
+  target: PAX
 - base: UMA
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: PAX
+  target: TUSD
+- base: UMA
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
 - base: UMA
   market:
     identifier: floatsv
     name: Float SV
   target: USDT
-- base: UMA
+- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
+    identifier: mooniswap
+    name: Mooniswap
   target: ETH
 - base: UMA
   market:
     identifier: tokenlon
     name: Tokenlon
   target: ETH
+- base: UMA
+  market:
+    identifier: tokenlon
+    name: Tokenlon
+  target: USDT
 - base: UMA
   market:
     identifier: zero_ex

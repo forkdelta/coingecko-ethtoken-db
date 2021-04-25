@@ -33,6 +33,11 @@ symbol: susd
 tickers:
 - base: SUSD
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SUSD
+  market:
     identifier: curve
     name: Curve Finance
   target: DAI
@@ -51,32 +56,17 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: SEUR
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SXRP
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
 - base: SXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SCEX
+- base: SEUR
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SLTC
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SBNB
+- base: SEOS
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -106,7 +96,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SRUNE
+- base: SXMR
   market:
     identifier: synthetix
     name: Synthetix Exchange

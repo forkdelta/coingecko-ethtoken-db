@@ -34,18 +34,28 @@ links:
   telegram_channel_identifier: civicplatform
   twitter_screen_name: civickey
 liquidity_score: 51.978
-market_cap_rank: 172
+market_cap_rank: 174
 name: Civic
 public_interest_score: 0.016
 symbol: cvc
 tickers:
+- base: 0X41E5560054824EA6B0732E656E3AD64E20E94E45
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: CVC
   market:
     identifier: bione
     name: BiONE
   target: USDT
-- base: 0X41E5560054824EA6B0732E656E3AD64E20E94E45
+- base: CVC
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: CVC
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH

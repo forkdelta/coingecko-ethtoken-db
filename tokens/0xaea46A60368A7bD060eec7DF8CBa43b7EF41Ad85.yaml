@@ -41,18 +41,33 @@ links:
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
 liquidity_score: 47.153
-market_cap_rank: 189
+market_cap_rank: 193
 name: Fetch.ai
 public_interest_score: 0.015
 symbol: fet
 tickers:
 - base: FET
   market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
+- base: FET
+  market:
     identifier: bitcratic
     name: Bitcratic
+  target: ETH
+- base: 0XAEA46A60368A7BD060EEC7DF8CBA43B7EF41AD85
+  market:
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
   target: ETH
 - base: 0X1D287CC25DAD7CCAF76A26BC660C5F7C8E2A05BD
   market:
     identifier: uniswap
     name: Uniswap (v2)
   target: ETH
+- base: FET
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: BTC

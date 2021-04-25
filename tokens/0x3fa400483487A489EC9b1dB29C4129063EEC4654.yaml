@@ -22,8 +22,18 @@ links:
   telegram_channel_identifier: cryptok3k
   twitter_screen_name: kektoken
 liquidity_score: 13.833
-market_cap_rank: 1183
+market_cap_rank: 1193
 name: CryptoKek
 public_interest_score: 0.003
 symbol: kek
-tickers: []
+tickers:
+- base: 0X627524D78B4FC840C887FFEC90563C7A42B671FD
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0X627524D78B4FC840C887FFEC90563C7A42B671FD
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB

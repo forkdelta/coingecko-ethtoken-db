@@ -1,6 +1,6 @@
 ---
 address: '0x81824663353A9d29b01B2DE9dd9a2Bb271d298cD'
-coingecko_rank: 6108
+coingecko_rank: 6154
 coingecko_score: 0.233
 community_score: 0.0
 description: >-
@@ -24,4 +24,14 @@ market_cap_rank: null
 name: Bitcoin Volatility Token
 public_interest_score: 0.651
 symbol: bvol
-tickers: []
+tickers:
+- base: BVOL
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: BTC
+- base: BVOL
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

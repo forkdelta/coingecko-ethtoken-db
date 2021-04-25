@@ -1,6 +1,6 @@
 ---
 address: '0x91b7ED3B352aa3502F94E58Eac930ae1F5B5EbcD'
-coingecko_rank: 6566
+coingecko_rank: 6537
 coingecko_score: 0.2
 community_score: 0.0
 description: ""
@@ -20,7 +20,17 @@ name: CNY Tether
 public_interest_score: 0.0
 symbol: cnyt
 tickers:
+- base: VNS
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
 - base: LBT
+  market:
+    identifier: exx
+    name: EXX
+  target: CNYT
+- base: BBGC
   market:
     identifier: exx
     name: EXX

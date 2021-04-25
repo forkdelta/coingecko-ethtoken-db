@@ -25,11 +25,21 @@ links:
   telegram_channel_identifier: Unilayer
   twitter_screen_name: unilayer_
 liquidity_score: 32.422
-market_cap_rank: 544
+market_cap_rank: 505
 name: UniLayer
 public_interest_score: 0.003
 symbol: layer
 tickers:
+- base: LAYER
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0XC2C23A86DEF9E9F5972A633B3D25F7ECBFA5E575
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB
 - base: LAYER
   market:
     identifier: probit

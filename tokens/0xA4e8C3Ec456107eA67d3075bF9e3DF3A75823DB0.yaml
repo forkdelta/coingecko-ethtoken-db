@@ -50,11 +50,16 @@ links:
   telegram_channel_identifier: loomnetwork
   twitter_screen_name: loomnetwork
 liquidity_score: 35.944
-market_cap_rank: 350
+market_cap_rank: 354
 name: Loom Network (OLD)
 public_interest_score: 0.008
 symbol: loomold
 tickers:
+- base: LOOM
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: 0XA4E8C3EC456107EA67D3075BF9E3DF3A75823DB0
   market:
     identifier: one_inch
@@ -80,6 +85,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
+- base: LOOM
+  market:
+    identifier: zebitex
+    name: Zebitex
+  target: BTC
 - base: LOOM
   market:
     identifier: zebitex

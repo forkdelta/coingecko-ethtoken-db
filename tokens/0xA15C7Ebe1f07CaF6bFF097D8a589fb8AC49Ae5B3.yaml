@@ -63,11 +63,16 @@ links:
   telegram_channel_identifier: pundix
   twitter_screen_name: PundiXLabs
 liquidity_score: 23.368
-market_cap_rank: 114
+market_cap_rank: 115
 name: Pundi X [OLD]
 public_interest_score: 0.058
 symbol: npxs
 tickers:
+- base: NPXS
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: USDT
 - base: NPXS
   market:
     identifier: bitcratic
@@ -88,6 +93,16 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: USDT
+- base: NPXS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: NPXS
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
 - base: NPXS
   market:
     identifier: zebitex

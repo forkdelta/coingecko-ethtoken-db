@@ -52,7 +52,7 @@ tickers:
     identifier: anyswap
     name: Anyswap
   target: FTM
-- base: ETH
+- base: FSN
   market:
     identifier: anyswap
     name: Anyswap
@@ -71,12 +71,17 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: NGN
+  target: BTC
 - base: FTM
   market:
     identifier: dove_wallet
     name: Dove Wallet
   target: USDC
+- base: FTM
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDT
 - base: FTM
   market:
     identifier: hitbtc
@@ -107,11 +112,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: FTM
   market:
     identifier: yobit

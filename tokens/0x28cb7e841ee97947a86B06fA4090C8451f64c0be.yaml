@@ -40,8 +40,23 @@ links:
   telegram_channel_identifier: YFLinkGroup
   twitter_screen_name: YFLinkio
 liquidity_score: 18.109
-market_cap_rank: 966
+market_cap_rank: 953
 name: YF Link
 public_interest_score: 0.012
 symbol: yfl
-tickers: []
+tickers:
+- base: YFL
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: EUR
+- base: YFL
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USD
+- base: 0X28CB7E841EE97947A86B06FA4090C8451F64C0BE
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

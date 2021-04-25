@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: PumaPay
   twitter_screen_name: PumaPay
 liquidity_score: 23.223
-market_cap_rank: 899
+market_cap_rank: 873
 name: PumaPay
 public_interest_score: 0.004
 symbol: pma
 tickers:
+- base: 0X846C66CF71C43F80403B51FE3906B3599D63336F
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: PMA
   market:
     identifier: yobit
@@ -46,14 +51,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: PMA
-  market:
-    identifier: yobit
-    name: YoBit
   target: ETH
-- base: PMA
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD

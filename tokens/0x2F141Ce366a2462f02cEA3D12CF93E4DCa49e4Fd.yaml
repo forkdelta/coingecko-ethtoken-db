@@ -24,7 +24,7 @@ links:
   - https://www.FREEcoin.technology
   twitter_screen_name: THE_FREE_COIN
 liquidity_score: 37.19
-market_cap_rank: 335
+market_cap_rank: 296
 name: FREE coin
 public_interest_score: 0.009
 symbol: free
@@ -56,11 +56,21 @@ tickers:
   target: BTC
 - base: FREE
   market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
+- base: 0X12E34CDF6A031A10FE241864C32FB03A4FDAD739
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
+- base: FREE
+  market:
     identifier: resfinex
     name: Resfinex
   target: USDT
-- base: 0X2F141CE366A2462F02CEA3D12CF93E4DCA49E4FD
+- base: FREE
   market:
-    identifier: sushiswap
-    name: Sushiswap
+    identifier: satoexchange
+    name: SatoExchange
   target: ETH

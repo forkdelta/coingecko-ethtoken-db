@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: yfiifinance
   twitter_screen_name: DfiMoney
 liquidity_score: 57.015
-market_cap_rank: 369
+market_cap_rank: 387
 name: DFI.money
 public_interest_score: 0.006
 symbol: yfii
@@ -42,6 +42,11 @@ tickers:
   target: ETH
 - base: YFII
   market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
+- base: YFII
+  market:
     identifier: coinex
     name: CoinEx
   target: ETH
@@ -50,6 +55,11 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: BTC
+- base: YFII
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
 - base: YFII
   market:
     identifier: dove_wallet
@@ -67,6 +77,16 @@ tickers:
   target: USDC
 - base: YFII
   market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
+- base: YFII
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: YFII
+  market:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
@@ -80,13 +100,13 @@ tickers:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
+- base: YFII
+  market:
+    identifier: okcoin
+    name: OKCoin
+  target: USD
 - base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
   market:
     identifier: one_inch
     name: 1inch
-  target: ETH
-- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
   target: ETH

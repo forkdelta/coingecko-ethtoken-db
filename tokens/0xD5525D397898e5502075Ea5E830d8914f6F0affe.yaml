@@ -7,9 +7,9 @@ description: ""
 developer_score: 0.0
 id: degenerator
 image:
-  large: https://assets.coingecko.com/coins/images/12140/large/meme.jpg?1597476037
-  small: https://assets.coingecko.com/coins/images/12140/small/meme.jpg?1597476037
-  thumb: https://assets.coingecko.com/coins/images/12140/thumb/meme.jpg?1597476037
+  large: https://assets.coingecko.com/coins/images/12140/large/meme-coin.jpeg?1619249191
+  small: https://assets.coingecko.com/coins/images/12140/small/meme-coin.jpeg?1619249191
+  thumb: https://assets.coingecko.com/coins/images/12140/thumb/meme-coin.jpeg?1619249191
 links:
   blockchain_site:
   - https://blockscout.com/poa/xdai/tokens/0x512a2Eb0277573ae9Be0d48c782590b624048fdF/token-transfers
@@ -22,11 +22,21 @@ links:
   telegram_channel_identifier: thedegenerator
   twitter_screen_name: DontBuyMeme
 liquidity_score: 35.285
-market_cap_rank: 571
+market_cap_rank: 567
 name: Meme
 public_interest_score: 0.023
 symbol: meme
 tickers:
+- base: 0XD5525D397898E5502075EA5E830D8914F6F0AFFE
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: MEME
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: 0XD5525D397898E5502075EA5E830D8914F6F0AFFE
   market:
     identifier: sushiswap

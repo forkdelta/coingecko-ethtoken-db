@@ -25,8 +25,23 @@ links:
   telegram_channel_identifier: hyveworks
   twitter_screen_name: join_hyve
 liquidity_score: 19.269
-market_cap_rank: 1211
+market_cap_rank: 1227
 name: Hyve
 public_interest_score: 0.004
 symbol: hyve
-tickers: []
+tickers:
+- base: HYVE
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
+- base: HYVE
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0XF6565A97DC832D93DC83B75EE9AA5C7E8ECB0F9D
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB

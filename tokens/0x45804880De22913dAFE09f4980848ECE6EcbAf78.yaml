@@ -42,7 +42,7 @@ links:
     - https://github.com/paxosglobal/paxos-gold-contract
   twitter_screen_name: paxosglobal
 liquidity_score: 39.771
-market_cap_rank: 335
+market_cap_rank: 332
 name: PAX Gold
 public_interest_score: 0.037
 symbol: paxg
@@ -64,11 +64,6 @@ tickers:
   target: BRL
 - base: PAXG
   market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
-- base: PAXG
-  market:
     identifier: ftx_us
     name: FTX.US
   target: USD
@@ -77,6 +72,11 @@ tickers:
     identifier: ftx_us
     name: FTX.US
   target: USDT
+- base: PAXG
+  market:
+    identifier: itbit
+    name: itBit
+  target: USD
 - base: 0X45804880DE22913DAFE09F4980848ECE6ECBAF78
   market:
     identifier: one_inch
