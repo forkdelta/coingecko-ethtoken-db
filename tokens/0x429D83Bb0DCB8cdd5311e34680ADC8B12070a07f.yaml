@@ -28,8 +28,18 @@ links:
     - https://github.com/platonfinance/SmartContracts
   twitter_screen_name: platonfinance
 liquidity_score: 10.707
-market_cap_rank: 549
+market_cap_rank: 575
 name: PlatonCoin
 public_interest_score: 0.0
 symbol: pltc
-tickers: []
+tickers:
+- base: PLTC
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDT
+- base: PLTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC

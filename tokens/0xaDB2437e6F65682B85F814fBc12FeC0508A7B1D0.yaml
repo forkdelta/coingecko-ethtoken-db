@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: uncx_token
   twitter_screen_name: UNCX_token
 liquidity_score: 34.787
-market_cap_rank: 859
+market_cap_rank: 840
 name: UniCrypt
 public_interest_score: 0.046
 symbol: uncx
-tickers: []
+tickers:
+- base: UNCX
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0X09A6C44C3947B69E2B45F4D51B67E6A39ACFB506
+  market:
+    identifier: julswap
+    name: Julswap
+  target: BNB

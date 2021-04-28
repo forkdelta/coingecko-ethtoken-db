@@ -32,18 +32,18 @@ links:
   telegram_channel_identifier: curate
   twitter_screen_name: curateproject
 liquidity_score: 33.287
-market_cap_rank: 650
+market_cap_rank: 691
 name: Curate
 public_interest_score: 0.009
 symbol: xcur
 tickers:
-- base: XCUR
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: 0X708C671AA997DA536869B50B6C67FA0C32CE80B2
   market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
   target: WBNB
+- base: XCUR
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

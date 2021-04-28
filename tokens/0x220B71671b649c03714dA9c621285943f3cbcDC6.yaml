@@ -15,6 +15,7 @@ links:
   announcement_url:
   - https://tosdis-fi.medium.com/
   blockchain_site:
+  - https://bscscan.com/token/0x57effde2759b68d86c544e88f7977e3314144859
   - https://etherscan.io/token/0x220b71671b649c03714da9c621285943f3cbcdc6
   - https://ethplorer.io/address/0x220b71671b649c03714da9c621285943f3cbcdc6
   homepage:
@@ -25,8 +26,13 @@ links:
   telegram_channel_identifier: Tosdis
   twitter_screen_name: TosdisFinance
 liquidity_score: 17.998
-market_cap_rank: 1226
+market_cap_rank: 1221
 name: TosDis
 public_interest_score: 0.011
 symbol: dis
-tickers: []
+tickers:
+- base: DIS
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT

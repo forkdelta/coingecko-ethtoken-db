@@ -38,13 +38,23 @@ links:
   telegram_channel_identifier: Vid_app
   twitter_screen_name: vid_app
 liquidity_score: 1.0
-market_cap_rank: 1799
+market_cap_rank: 1851
 name: Vid
 public_interest_score: 0.002
 symbol: vi
 tickers:
-- base: 0X8B6C3B7C01D9DB4393F9AA734750F36DF1543E9A
+- base: VI
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: VI
+  market:
+    identifier: quoine
+    name: Liquid
   target: ETH
+- base: VI
+  market:
+    identifier: quoine
+    name: Liquid
+  target: USDT

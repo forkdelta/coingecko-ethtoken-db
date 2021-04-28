@@ -1,6 +1,6 @@
 ---
 address: '0x4cA0654f4fc1025cF1a17B7459c20aC0479522aD'
-coingecko_rank: 2648
+coingecko_rank: 2647
 coingecko_score: 11.205
 community_score: 8.762
 description: >-
@@ -27,8 +27,18 @@ links:
   telegram_channel_identifier: RigelFinance1
   twitter_screen_name: RigelFinance
 liquidity_score: 1.0
-market_cap_rank: 2168
+market_cap_rank: 2192
 name: Rigel Finance
 public_interest_score: 0.006
 symbol: rigel
-tickers: []
+tickers:
+- base: RIGEL
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
+- base: 0X4CA0654F4FC1025CF1A17B7459C20AC0479522AD
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -40,11 +40,16 @@ links:
   telegram_channel_identifier: graphprotocol
   twitter_screen_name: graphprotocol
 liquidity_score: 63.521
-market_cap_rank: 73
+market_cap_rank: 69
 name: The Graph
 public_interest_score: 0.072
 symbol: grt
 tickers:
+- base: GRT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
 - base: GRT
   market:
     identifier: bitbay
@@ -57,14 +62,9 @@ tickers:
   target: GBP
 - base: GRT
   market:
-    identifier: kraken
-    name: Kraken
-  target: AUD
-- base: 0XC944E90C64B2C07662A292BE6244BDF05CDA44A7
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: DAI
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
 - base: GRT
   market:
     identifier: serum_dex

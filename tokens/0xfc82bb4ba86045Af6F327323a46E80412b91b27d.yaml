@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: promnetwork
   twitter_screen_name: prometeusnet
 liquidity_score: 22.893
-market_cap_rank: 448
+market_cap_rank: 452
 name: Prometeus
 public_interest_score: 0.003
 symbol: prom
@@ -41,9 +41,19 @@ tickers:
   target: USDT
 - base: PROM
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: PROM
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: PROM
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
 - base: PROM
   market:
     identifier: hotbit

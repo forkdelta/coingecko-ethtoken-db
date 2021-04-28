@@ -1,6 +1,6 @@
 ---
 address: '0xd96b9fd7586d9Ea24C950d24399be4fB65372FDD'
-coingecko_rank: 5074
+coingecko_rank: 5069
 coingecko_score: 1.749
 community_score: 7.041
 description: >-
@@ -26,6 +26,21 @@ name: Bitcoin Silver
 public_interest_score: 0.0
 symbol: btcs
 tickers:
+- base: BTCS
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: BTCS
   market:
     identifier: yobit

@@ -4,17 +4,14 @@ coingecko_rank: 2246
 coingecko_score: 13.387
 community_score: 7.405
 description: >-
-  BCDiploma develops a turnkey application for higher education institutions and their graduates.
-
-
-  BCDiploma dematerializes and automates the issuance of certified diplomas and certificates: a major
-  and lasting advantage, in addition to a "blockchain" security level.
-
-
-  BCDiploma provides the graduate with a unique URL link: over his/her entire life, he/she will be able
-  to prove the authenticity of his/her diploma.
+  Blockchain Certified Data Token (BCDT) is the token linked to the EvidenZ framework, used by the company
+  BCdiploma to allow hundreds of institutions to issue diplomas in a digital, decentralized and secure
+  way. The BCDT is required to issue each certificate on any blockchain. It is a utility token: for each
+  certification, part of the BCDT used is burned by the smart contract of the EvidenZ ecosystem, reducing
+  its total quantity. 40M BCDTs were issued during an ICO in January 2018: no more BCDTs will be issued
+  after this date.
 developer_score: 0.0
-id: bcdiploma
+id: blockchain-certified-data-token
 image:
   large: https://assets.coingecko.com/coins/images/2014/large/evidenz-512.png?1594871754
   small: https://assets.coingecko.com/coins/images/2014/small/evidenz-512.png?1594871754
@@ -22,18 +19,16 @@ image:
 links:
   announcement_url:
   - https://medium.com/bcdiploma
-  bitcointalk_thread_identifier: 2312302
   blockchain_site:
   - https://etherscan.io/token/0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5
   - https://ethplorer.io/address/0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5
   homepage:
-  - https://www.bcdiploma.com/
   - https://www.evidenz.io/
   telegram_channel_identifier: BCDiploma
   twitter_screen_name: 'MyEvidenZ '
 liquidity_score: 1.0
-market_cap_rank: 1087
-name: BCdiploma-EvidenZ
+market_cap_rank: 1118
+name: Blockchain Certified Data Token
 public_interest_score: 0.002
 symbol: bcdt
 tickers:
@@ -41,11 +36,16 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
-  target: USDC
+  target: DAI
 - base: BCDT
   market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: BCDT
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH
 - base: 0XACFA209FB73BF3DD5BBFB1101B9BC999C49062A5
   market:

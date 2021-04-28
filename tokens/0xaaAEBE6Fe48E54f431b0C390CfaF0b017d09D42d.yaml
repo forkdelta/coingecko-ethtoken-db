@@ -30,7 +30,7 @@ links:
   subreddit_url: https://www.reddit.com/r/CelsiusNetwork
   twitter_screen_name: celsiusnetwork
 liquidity_score: 39.334
-market_cap_rank: 53
+market_cap_rank: 62
 name: Celsius Network
 public_interest_score: 0.112
 symbol: cel
@@ -52,6 +52,11 @@ tickers:
   target: ETH
 - base: CEL
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: CEL
+  market:
     identifier: idex
     name: Idex
   target: ETH
@@ -65,11 +70,6 @@ tickers:
     identifier: serum_dex
     name: Serum DEX
   target: USDT
-- base: CEL
-  market:
-    identifier: switcheo
-    name: Switcheo
-  target: ETH
 - base: CEL
   market:
     identifier: zero_ex

@@ -60,8 +60,18 @@ links:
   telegram_channel_identifier: bf_token
   twitter_screen_name: BankToTheFuture
 liquidity_score: 24.5
-market_cap_rank: 842
+market_cap_rank: 800
 name: BnkToTheFuture
 public_interest_score: 0.0
 symbol: bft
-tickers: []
+tickers:
+- base: BFT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: 0X01FF50F8B7F74E4F00580D9596CD3D0D6D6E326F
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

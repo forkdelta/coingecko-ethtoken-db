@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: enzymefinance
   twitter_screen_name: enzymefinance
 liquidity_score: 36.327
-market_cap_rank: 291
+market_cap_rank: 305
 name: Enzyme
 public_interest_score: 0.015
 symbol: mln
@@ -39,14 +39,24 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
-  target: USDC
+  target: ETH
 - base: MLN
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: MLN
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: 0XEC67005C4E498EC7F55E092BD1D35CBC47C91892
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: 0XEC67005C4E498EC7F55E092BD1D35CBC47C91892
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT

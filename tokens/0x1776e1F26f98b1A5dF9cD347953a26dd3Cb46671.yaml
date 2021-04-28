@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 47.776
-market_cap_rank: 160
+market_cap_rank: 173
 name: Numeraire
 public_interest_score: 0.002
 symbol: nmr
@@ -36,16 +36,6 @@ tickers:
     identifier: balancer
     name: Balancer
   target: DAI
-- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
-  market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
-- base: NMR
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: NMR
   market:
     identifier: bitcratic
@@ -70,7 +60,7 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: USDT
+  target: PAX
 - base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
   market:
     identifier: mooniswap
@@ -81,21 +71,6 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
-- base: NMR
-  market:
-    identifier: uniswap_v1
-    name: Uniswap (v1)
-  target: ETH
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: NMR
   market:
     identifier: yobit
@@ -105,19 +80,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -35,8 +35,13 @@ name: Bitpanda Ecosystem Token
 public_interest_score: 0.338
 symbol: best
 tickers:
-- base: 0X1B073382E63411E3BCFFE90AC1B9A43FEFA1EC6F
+- base: BEST
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: BEST
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC

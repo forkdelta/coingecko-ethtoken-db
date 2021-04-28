@@ -65,15 +65,15 @@ name: QASH
 public_interest_score: 0.119
 symbol: qash
 tickers:
-- base: QSH
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: QASH
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
+    identifier: quoine
+    name: Liquid
+  target: AUD
+- base: QASH
+  market:
+    identifier: quoine
+    name: Liquid
   target: ETH
 - base: ETN
   market:
@@ -86,6 +86,16 @@ tickers:
     name: Liquid
   target: QASH
 - base: BTRN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: CHI
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
+- base: KRL
   market:
     identifier: quoine
     name: Liquid

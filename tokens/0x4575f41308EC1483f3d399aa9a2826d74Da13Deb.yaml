@@ -54,27 +54,17 @@ tickers:
   market:
     identifier: bitcoin_com
     name: Bitcoin.com Exchange
-  target: USD
-- base: OXT
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
   target: BTC
 - base: OXT
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
 - base: OXT
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
-- base: OXT
-  market:
-    identifier: gemini
-    name: Gemini
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: OXT
   market:
     identifier: hitbtc
@@ -89,9 +79,4 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
-- base: 0X4575F41308EC1483F3D399AA9A2826D74DA13DEB
-  market:
-    identifier: one_inch
-    name: 1inch
   target: ETH

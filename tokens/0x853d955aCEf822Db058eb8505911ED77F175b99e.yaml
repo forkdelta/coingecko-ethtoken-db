@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: fraxfinance
   twitter_screen_name: fraxfinance
 liquidity_score: 37.272
-market_cap_rank: 322
+market_cap_rank: 350
 name: Frax
 public_interest_score: 0.017
 symbol: frax
@@ -40,13 +40,13 @@ tickers:
     identifier: curve
     name: Curve Finance
   target: USDT
-- base: 0X29CED01C447166958605519F10DCF8B0255FB379
-  market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: BUSD
 - base: 0XDC42728B0EA910349ED3C6E1C9DC06B5FB591F98
   market:
     identifier: pangolin
     name: Pangolin
   target: AVAX
+- base: FRAX
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

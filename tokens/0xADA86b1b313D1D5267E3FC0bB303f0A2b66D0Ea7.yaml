@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: covesting
   twitter_screen_name: covesting
 liquidity_score: 10.483
-market_cap_rank: 952
+market_cap_rank: 977
 name: Covesting
 public_interest_score: 0.004
 symbol: cov
@@ -39,19 +39,24 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: COV
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: 0XADA86B1B313D1D5267E3FC0BB303F0A2B66D0EA7
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
   target: ETH
 - base: COVX
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: COVX
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
+- base: COVX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: COVX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -1,6 +1,6 @@
 ---
 address: '0x5547136b913b68881596275ACe01e9A589c5b16B'
-coingecko_rank: 5947
+coingecko_rank: 5939
 coingecko_score: 0.806
 community_score: 2.756
 description: >-
@@ -33,4 +33,14 @@ market_cap_rank: null
 name: BITCOINHEDGE
 public_interest_score: 0.003
 symbol: btchg
-tickers: []
+tickers:
+- base: BTCHG
+  market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: BTCHG
+  market:
+    identifier: vindax
+    name: Vindax
+  target: USDT

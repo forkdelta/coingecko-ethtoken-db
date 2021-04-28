@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: BoxCommunity
   twitter_screen_name: Contentbox_one
 liquidity_score: 26.073
-market_cap_rank: 1504
+market_cap_rank: 1490
 name: ContentBox
 public_interest_score: 0.001
 symbol: box
 tickers:
+- base: BOX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: BOX
   market:
     identifier: yobit
@@ -40,9 +45,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: BOX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
+  target: ETH
