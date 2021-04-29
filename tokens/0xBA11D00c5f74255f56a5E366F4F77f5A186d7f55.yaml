@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 62.951
-market_cap_rank: 145
+market_cap_rank: 142
 name: Band Protocol
 public_interest_score: 0.011
 symbol: band
@@ -47,14 +47,39 @@ tickers:
   target: ETH
 - base: BAND
   market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
+- base: BAND
+  market:
     identifier: coinflex
     name: CoinFLEX
   target: USD
 - base: BAND
   market:
+    identifier: emirex
+    name: Emirex
+  target: BTC
+- base: BAND
+  market:
+    identifier: emirex
+    name: Emirex
+  target: USDT
+- base: BAND
+  market:
     identifier: floatsv
     name: Float SV
   target: USDT
+- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
+  market:
+    identifier: sakeswap
+    name: SakeSwap
+  target: ETH
 - base: BAND
   market:
     identifier: tokenlon

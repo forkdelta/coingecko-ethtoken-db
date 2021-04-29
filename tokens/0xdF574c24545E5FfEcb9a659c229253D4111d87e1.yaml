@@ -27,11 +27,16 @@ links:
     - https://github.com/stcoins/HUSD
   twitter_screen_name: Stablecoin_HUSD
 liquidity_score: 70.335
-market_cap_rank: 110
+market_cap_rank: 114
 name: HUSD
 public_interest_score: 0.002
 symbol: husd
 tickers:
+- base: HUSD
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: DAI
 - base: HUSD
   market:
     identifier: curve
@@ -46,11 +51,6 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: USDT
-- base: HUSD
-  market:
-    identifier: lbank
-    name: LBank
   target: USDT
 - base: 0XDF574C24545E5FFECB9A659C229253D4111D87E1
   market:

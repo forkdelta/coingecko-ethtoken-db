@@ -54,11 +54,16 @@ links:
   telegram_channel_identifier: dmarket_io
   twitter_screen_name: dmarket_com
 liquidity_score: 44.085
-market_cap_rank: 469
+market_cap_rank: 491
 name: DMarket
 public_interest_score: 0.063
 symbol: dmt
 tickers:
+- base: DMT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: DMT
   market:
     identifier: yobit
@@ -68,17 +73,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
-- base: DMT
-  market:
-    identifier: yobit
-    name: YoBit
   target: ETH
-- base: DMT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: DMT
   market:
     identifier: yobit

@@ -50,10 +50,15 @@ name: Populous
 public_interest_score: 0.003
 symbol: ppt
 tickers:
-- base: 98385941-89B3-45C2-AE8E-B64C6F3BBAC9
+- base: 0XD4FA1460F537BB9085D22C7BCCB5DD450EF28E3A
   market:
-    identifier: lykke
-    name: Lykke
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
+- base: PPT
+  market:
+    identifier: yobit
+    name: YoBit
   target: BTC
 - base: PPT
   market:
@@ -64,12 +69,22 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: PPT
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
 - base: PPT
   market:
     identifier: yobit
     name: YoBit
   target: USD
+- base: PPT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
 - base: PPT
   market:
     identifier: zebitex

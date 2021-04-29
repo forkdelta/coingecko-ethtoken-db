@@ -1,6 +1,6 @@
 ---
 address: '0xB4272071eCAdd69d933AdcD19cA99fe80664fc08'
-coingecko_rank: 5474
+coingecko_rank: 5469
 coingecko_score: 1.406
 community_score: 5.483
 description: >-
@@ -40,8 +40,13 @@ tickers:
     identifier: bitfinex
     name: Bitfinex
   target: ETH
-- base: BTC
+- base: XCH
   market:
     identifier: bitfinex
     name: Bitfinex
-  target: XCH
+  target: USD
+- base: 0XB4272071ECADD69D933ADCD19CA99FE80664FC08
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: sentinel_co
   twitter_screen_name: Sentinel_co
 liquidity_score: 17.226
-market_cap_rank: 652
+market_cap_rank: 642
 name: Sentinel [OLD]
 public_interest_score: 0.008
 symbol: dvpn
 tickers:
+- base: SENT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: SENT
   market:
     identifier: bitcratic
@@ -50,12 +55,12 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: BTC
 - base: SENT
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: DOGE
 - base: SENT
   market:
     identifier: yobit

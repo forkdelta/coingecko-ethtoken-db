@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: mstableofficial
   twitter_screen_name: mstable_
 liquidity_score: 14.132
-market_cap_rank: 613
+market_cap_rank: 619
 name: mStable USD
 public_interest_score: 0.016
 symbol: musd
@@ -36,6 +36,16 @@ tickers:
     identifier: balancer
     name: Balancer
   target: USDC
+- base: MUSD
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: ETH
+- base: MUSD
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
 - base: MUSD
   market:
     identifier: curve

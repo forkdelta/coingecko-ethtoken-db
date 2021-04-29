@@ -1,6 +1,6 @@
 ---
 address: '0xa10ae543dB5D967a73E9Abcc69c81a18A7Fc0A78'
-coingecko_rank: 4264
+coingecko_rank: 4262
 coingecko_score: 3.165
 community_score: 13.475
 description: >-
@@ -34,4 +34,14 @@ market_cap_rank: null
 name: BLOCKCLOUT
 public_interest_score: 0.0
 symbol: clout
-tickers: []
+tickers:
+- base: CLOUT
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0XA10AE543DB5D967A73E9ABCC69C81A18A7FC0A78
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

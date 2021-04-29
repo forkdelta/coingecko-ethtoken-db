@@ -17,33 +17,27 @@ links:
   - https://bscscan.com/token/0x111111111117dc0aa78b770fa6a738034120c302
   - https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302
   - https://ethplorer.io/address/0x111111111117dc0aa78b770fa6a738034120c302
+  chat_url:
+  - https://discord.com/invite/FZADkCZ
   homepage:
   - https://1inch.io/
   - https://app.1inch.io/#/r/0x050F788d09395724777a67Dd08bE127cF70dd238
   repos_url:
     github:
     - https://github.com/1inch-exchange/1inch-token
+  telegram_channel_identifier: OneInchNetwork
+  twitter_screen_name: 1inchNetwork
 liquidity_score: 61.153
-market_cap_rank: 115
+market_cap_rank: 109
 name: 1inch
 public_interest_score: 0.027
 symbol: 1inch
 tickers:
 - base: 1INCH
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
-- base: 0X111111111117DC0AA78B770FA6A738034120C302
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: WBNB
-- base: 1INCH
-  market:
-    identifier: huobi_id
-    name: Huobi Indonesia
-  target: USDT
 - base: 1INCH
   market:
     identifier: loopring_amm
@@ -54,6 +48,16 @@ tickers:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
+- base: 0X111111111117DC0AA78B770FA6A738034120C302
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 1INCH
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: 1INCH
   market:
     identifier: tokenlon

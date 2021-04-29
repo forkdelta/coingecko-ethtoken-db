@@ -59,16 +59,26 @@ tickers:
   target: TUSD
 - base: WNXM
   market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: WNXM
+  market:
     identifier: floatsv
     name: Float SV
   target: USDT
-- base: WNXM
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
 - base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
   market:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
+- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: WNXM
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

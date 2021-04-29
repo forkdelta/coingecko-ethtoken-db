@@ -45,11 +45,16 @@ links:
   telegram_channel_identifier: AdExNetworkOfficial
   twitter_screen_name: AdEx_Network
 liquidity_score: 32.44
-market_cap_rank: 280
+market_cap_rank: 282
 name: AdEx
 public_interest_score: 0.17
 symbol: adx
 tickers:
+- base: ADX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: ADX
   market:
     identifier: forkdelta
@@ -70,16 +75,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: ADX
-  market:
-    identifier: loopring_amm
-    name: Loopring AMM
-  target: ETH
-- base: 0XADE00C28244D5CE17D72E40330B1C318CD12B7C3
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
 - base: ADX
   market:
     identifier: probit

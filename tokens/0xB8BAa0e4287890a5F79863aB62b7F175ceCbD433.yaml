@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: swervefi
   twitter_screen_name: SwerveFinance
 liquidity_score: 37.38
-market_cap_rank: 812
+market_cap_rank: 828
 name: Swerve
 public_interest_score: 0.004
 symbol: swrv
@@ -46,6 +46,11 @@ tickers:
     identifier: bigone
     name: BigONE
   target: USDT
+- base: SWRV
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: SWRV
   market:
     identifier: bitcoin_com
@@ -73,11 +78,6 @@ tickers:
   target: ETH
 - base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
   market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
-- base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
-  market:
     identifier: one_inch
     name: 1inch
   target: ETH
@@ -96,11 +96,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: SWRV
   market:
     identifier: yobit

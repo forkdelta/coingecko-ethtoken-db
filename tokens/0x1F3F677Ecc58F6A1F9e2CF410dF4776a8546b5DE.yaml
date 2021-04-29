@@ -1,6 +1,6 @@
 ---
 address: '0x1F3F677Ecc58F6A1F9e2CF410dF4776a8546b5DE'
-coingecko_rank: 3060
+coingecko_rank: 3061
 coingecko_score: 8.741
 community_score: 5.906
 description: >-
@@ -57,6 +57,11 @@ name: VNDC
 public_interest_score: 0.012
 symbol: vndc
 tickers:
+- base: VNDC
+  market:
+    identifier: coinmargin
+    name: CoinMargin
+  target: MKS
 - base: USDC
   market:
     identifier: exmarkets
@@ -72,3 +77,8 @@ tickers:
     identifier: exmarkets
     name: ExMarkets
   target: VNDC
+- base: 0X1F3F677ECC58F6A1F9E2CF410DF4776A8546B5DE
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

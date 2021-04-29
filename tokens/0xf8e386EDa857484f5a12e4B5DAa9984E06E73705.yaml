@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: indorseio
   twitter_screen_name: joinindorse
 liquidity_score: 1.0
-market_cap_rank: 1754
+market_cap_rank: 1629
 name: Indorse
 public_interest_score: 0.002
 symbol: ind
 tickers:
+- base: IND
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: IND
   market:
     identifier: kyber_network
@@ -56,6 +61,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: IND
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: IND
   market:
     identifier: yobit

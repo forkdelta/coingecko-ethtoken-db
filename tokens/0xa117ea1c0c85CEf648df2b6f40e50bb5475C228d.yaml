@@ -1,6 +1,6 @@
 ---
 address: '0xa117ea1c0c85CEf648df2b6f40e50bb5475C228d'
-coingecko_rank: 3746
+coingecko_rank: 3744
 coingecko_score: 4.917
 community_score: 5.903
 description: >-
@@ -33,4 +33,14 @@ market_cap_rank: null
 name: Ducato Protocol Token
 public_interest_score: 0.0
 symbol: ducato
-tickers: []
+tickers:
+- base: DUCATO
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
+- base: 0XA117EA1C0C85CEF648DF2B6F40E50BB5475C228D
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

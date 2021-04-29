@@ -98,11 +98,6 @@ tickers:
     identifier: bitsonic
     name: Bitsonic
   target: KRW
-- base: REPV2
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
 - base: CREP
   market:
     identifier: compound_finance
@@ -110,8 +105,38 @@ tickers:
   target: REP
 - base: REP
   market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: REP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: REP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
+- base: REP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
+- base: REP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: REP
+  market:
     identifier: kyber_network
     name: Kyber Network
+  target: ETH
+- base: 0X221657776846890989A759BA2973E427DFF5C9BB
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: REP
   market:

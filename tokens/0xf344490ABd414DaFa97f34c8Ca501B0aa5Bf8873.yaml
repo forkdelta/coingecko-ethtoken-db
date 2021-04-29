@@ -1,6 +1,6 @@
 ---
 address: '0xf344490ABd414DaFa97f34c8Ca501B0aa5Bf8873'
-coingecko_rank: 1806
+coingecko_rank: 1807
 coingecko_score: 16.042
 community_score: 6.634
 description: >-
@@ -36,8 +36,18 @@ links:
   telegram_channel_identifier: webcoin
   twitter_screen_name: webcointoday
 liquidity_score: 1.0
-market_cap_rank: 1484
+market_cap_rank: 1430
 name: Webcoin
 public_interest_score: 0.001
 symbol: web
-tickers: []
+tickers:
+- base: 0XF344490ABD414DAFA97F34C8CA501B0AA5BF8873
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
+- base: WEB
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH

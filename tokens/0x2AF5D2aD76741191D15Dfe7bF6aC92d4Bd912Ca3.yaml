@@ -24,23 +24,18 @@ links:
   telegram_channel_identifier: bfxtelegram
   twitter_screen_name: bitfinex
 liquidity_score: 31.256
-market_cap_rank: 63
+market_cap_rank: 64
 name: LEO Token
 public_interest_score: 0.45
 symbol: leo
 tickers:
-- base: LEO
-  market:
-    identifier: btse
-    name: BTSE
-  target: USD
 - base: 0X2AF5D2AD76741191D15DFE7BF6AC92D4BD912CA3
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: LEO
+- base: 0X2AF5D2AD76741191D15DFE7BF6AC92D4BD912CA3
   market:
-    identifier: zb
-    name: ZB
-  target: USDT
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

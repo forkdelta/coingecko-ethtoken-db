@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: Unibright_IO
   twitter_screen_name: Unibrightio
 liquidity_score: 30.76
-market_cap_rank: 215
+market_cap_rank: 209
 name: Unibright
 public_interest_score: 0.003
 symbol: ubt
 tickers:
+- base: 0X8400D94A5CB0FA0D041A3788E395285D61C9EE5E
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: UBT
   market:
     identifier: bitcratic
@@ -40,8 +45,18 @@ tickers:
   target: ETH
 - base: UBT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: EUR
+- base: UBT
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: UBT
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: UBT
   market:
@@ -53,3 +68,8 @@ tickers:
     identifier: secondbtc
     name: SecondBTC
   target: BTC
+- base: UBT
+  market:
+    identifier: secondbtc
+    name: SecondBTC
+  target: ETH
