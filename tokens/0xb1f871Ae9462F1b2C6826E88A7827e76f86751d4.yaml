@@ -30,8 +30,23 @@ links:
   telegram_channel_identifier: GNYioBlockchain
   twitter_screen_name: gny_io
 liquidity_score: 18.616
-market_cap_rank: 283
+market_cap_rank: 285
 name: GNY
 public_interest_score: 0.004
 symbol: gny
-tickers: []
+tickers:
+- base: GNY
+  market:
+    identifier: coinsuper
+    name: Coinsuper
+  target: ETH
+- base: 0XB1F871AE9462F1B2C6826E88A7827E76F86751D4
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XE4A4AD6E0B773F47D28F548742A23EFD73798332
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD

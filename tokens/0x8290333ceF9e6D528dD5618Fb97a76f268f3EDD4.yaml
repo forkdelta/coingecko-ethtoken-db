@@ -61,7 +61,7 @@ links:
   telegram_channel_identifier: ankrnetwork
   twitter_screen_name: ankr
 liquidity_score: 62.575
-market_cap_rank: 95
+market_cap_rank: 91
 name: Ankr
 public_interest_score: 0.331
 symbol: ankr
@@ -85,9 +85,14 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: ETH
+  target: GBP
 - base: ANKR
   market:
-    identifier: vitex
-    name: ViteX
-  target: BTC
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: ANKR
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT

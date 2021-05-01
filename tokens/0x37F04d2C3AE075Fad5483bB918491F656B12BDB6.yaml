@@ -44,6 +44,16 @@ symbol: vest
 tickers:
 - base: VEST
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: VEST
+  market:
+    identifier: btcnext
+    name: BTCNEXT
+  target: BTC
+- base: VEST
+  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
@@ -52,6 +62,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: VEST
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: VEST
   market:
     identifier: yobit

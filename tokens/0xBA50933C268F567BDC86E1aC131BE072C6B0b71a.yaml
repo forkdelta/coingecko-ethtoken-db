@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: arpa_community
   twitter_screen_name: arpaofficial
 liquidity_score: 46.345
-market_cap_rank: 402
+market_cap_rank: 371
 name: ARPA Chain
 public_interest_score: 0.004
 symbol: arpa
@@ -41,11 +41,16 @@ tickers:
   target: USDT
 - base: ARPA
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: ARPA
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: HT
-- base: 0XBA50933C268F567BDC86E1AC131BE072C6B0B71A
+- base: ARPA
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: lbank
+    name: LBank
+  target: USDT

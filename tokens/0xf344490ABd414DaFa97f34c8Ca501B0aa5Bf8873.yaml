@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: webcoin
   twitter_screen_name: webcointoday
 liquidity_score: 1.0
-market_cap_rank: 1430
+market_cap_rank: 1541
 name: Webcoin
 public_interest_score: 0.001
 symbol: web
 tickers:
+- base: 0X7786B28826E2DDA4DBE344BE66A0BFBFF3D3362F
+  market:
+    identifier: apeswap
+    name: ApeSwap
+  target: BNB
 - base: 0XF344490ABD414DAFA97F34C8CA501B0AA5BF8873
   market:
     identifier: balancer
@@ -50,4 +55,14 @@ tickers:
   market:
     identifier: etherflyer
     name: EtherFlyer
+  target: ETH
+- base: WEB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: 0XF344490ABD414DAFA97F34C8CA501B0AA5BF8873
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
   target: ETH

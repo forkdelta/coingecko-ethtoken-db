@@ -44,18 +44,48 @@ links:
   telegram_channel_identifier: JoinLCX
   twitter_screen_name: lcx
 liquidity_score: 27.315
-market_cap_rank: 588
+market_cap_rank: 619
 name: LCX
 public_interest_score: 0.022
 symbol: lcx
 tickers:
 - base: LCX
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: LCX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: LCX
+  market:
     identifier: hitbtc
     name: HitBTC
   target: ETH
-- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+- base: LCX
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: LCX
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: LCX
+  market:
+    identifier: idex
+    name: Idex
   target: ETH
+- base: LCX
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: BTC
+- base: LCX
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC

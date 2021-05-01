@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 43.795
-market_cap_rank: 264
+market_cap_rank: 274
 name: sUSD
 public_interest_score: 0.07
 symbol: susd
@@ -40,12 +40,37 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
+  target: USDC
+- base: DAI
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
+- base: USDC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
+- base: USDT
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
+- base: SUSD
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: SUSD
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
   market:
-    identifier: balancer
-    name: Balancer
-  target: USDC
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: IETH
   market:
     identifier: synthetix
@@ -61,17 +86,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: SDASH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: SEOS
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SYFI
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: STSLA
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -81,12 +101,22 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: STSLA
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: SXAG
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SADA
+- base: SOIL
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SBNB
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -96,18 +126,13 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: IBNB
+- base: SCEX
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: S1INCH
+- base: SUSD
   market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SLTC
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

@@ -24,11 +24,21 @@ links:
   telegram_channel_identifier: sandboxgame
   twitter_screen_name: TheSandboxGame
 liquidity_score: 51.139
-market_cap_rank: 166
+market_cap_rank: 165
 name: SAND
 public_interest_score: 0.085
 symbol: sand
 tickers:
+- base: SAND
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: SAND
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 0X3845BADADE8E6DFF049820680D1F14BD3903A5D0
   market:
     identifier: paraswap

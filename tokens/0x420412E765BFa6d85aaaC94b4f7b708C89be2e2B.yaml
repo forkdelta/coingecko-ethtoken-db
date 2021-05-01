@@ -35,6 +35,16 @@ symbol: brz
 tickers:
 - base: BRZ
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: BRZ
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: BRZ
+  market:
     identifier: btse
     name: BTSE
   target: USD
@@ -43,8 +53,13 @@ tickers:
     identifier: ftx_us
     name: FTX.US
   target: BRZ
-- base: BRZ
+- base: ETH
   market:
-    identifier: novadax
-    name: NovaDAX
-  target: BTC
+    identifier: zbx
+    name: ZBX
+  target: BRZ
+- base: BTC
+  market:
+    identifier: zbx
+    name: ZBX
+  target: BRZ

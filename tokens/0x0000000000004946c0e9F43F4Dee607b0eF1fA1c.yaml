@@ -31,13 +31,18 @@ name: Chi Gastoken
 public_interest_score: 0.359
 symbol: chi
 tickers:
+- base: CHI
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: CHI
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: 0X0000000000004946C0E9F43F4DEE607B0EF1FA1C
   market:
     identifier: mooniswap
     name: Mooniswap
-  target: ETH
-- base: 0X0000000000004946C0E9F43F4DEE607B0EF1FA1C
-  market:
-    identifier: one_inch_liquidity_protocol
-    name: 1inch Liquidity Protocol
   target: ETH

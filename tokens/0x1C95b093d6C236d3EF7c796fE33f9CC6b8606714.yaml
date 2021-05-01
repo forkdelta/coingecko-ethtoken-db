@@ -41,8 +41,18 @@ links:
   telegram_channel_identifier: bombtoken
   twitter_screen_name: bombtoken
 liquidity_score: 10.999
-market_cap_rank: 1494
+market_cap_rank: 1578
 name: BOMB
 public_interest_score: 0.001
 symbol: bomb
-tickers: []
+tickers:
+- base: BOMB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: 0XBBB38BE7C6D954320C0297C06AB3265A950CDF89
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

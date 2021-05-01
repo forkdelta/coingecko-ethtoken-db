@@ -42,8 +42,18 @@ links:
   telegram_channel_identifier: ArcBlock
   twitter_screen_name: ArcBlock_io
 liquidity_score: 40.76
-market_cap_rank: 804
+market_cap_rank: 796
 name: Arcblock
 public_interest_score: 0.003
 symbol: abt
-tickers: []
+tickers:
+- base: ABT
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: ABT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH

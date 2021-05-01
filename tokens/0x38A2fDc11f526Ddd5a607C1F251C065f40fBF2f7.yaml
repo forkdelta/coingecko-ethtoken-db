@@ -1,6 +1,6 @@
 ---
 address: '0x38A2fDc11f526Ddd5a607C1F251C065f40fBF2f7'
-coingecko_rank: 1485
+coingecko_rank: 1484
 coingecko_score: 18.17
 community_score: 7.992
 description: >-
@@ -32,8 +32,18 @@ links:
   telegram_channel_identifier: PHNXDAO
   twitter_screen_name: phnxdao
 liquidity_score: 22.915
-market_cap_rank: 1093
+market_cap_rank: 1070
 name: PhoenixDAO
 public_interest_score: 0.003
 symbol: phnx
-tickers: []
+tickers:
+- base: 0X7E2C683EEC39813C191F6A40D259984DD5880C0A
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB
+- base: PHNX
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC

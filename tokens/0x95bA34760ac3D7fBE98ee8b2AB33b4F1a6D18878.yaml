@@ -23,7 +23,7 @@ links:
   telegram_channel_identifier: decash
   twitter_screen_name: Decash_Official
 liquidity_score: 1.0
-market_cap_rank: 2363
+market_cap_rank: 2441
 name: DeCash
 public_interest_score: 0.001
 symbol: desh
@@ -35,6 +35,11 @@ tickers:
   target: ETH
 - base: DESH
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: DESH
+  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
@@ -43,8 +48,3 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: USDT
-- base: 0X95BA34760AC3D7FBE98EE8B2AB33B4F1A6D18878
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH

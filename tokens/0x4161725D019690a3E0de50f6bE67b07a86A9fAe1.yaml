@@ -1,6 +1,6 @@
 ---
 address: '0x4161725D019690a3E0de50f6bE67b07a86A9fAe1'
-coingecko_rank: 3415
+coingecko_rank: 3414
 coingecko_score: 6.561
 community_score: 9.719
 description: >-
@@ -38,6 +38,11 @@ symbol: tpt
 tickers:
 - base: TPT
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: TPT
+  market:
     identifier: newdex
     name: Newdex
   target: USDT
@@ -45,11 +50,6 @@ tickers:
   market:
     identifier: sakeswap
     name: SakeSwap
-  target: ETH
-- base: 0X4161725D019690A3E0DE50F6BE67B07A86A9FAE1
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
   target: ETH
 - base: TPT
   market:

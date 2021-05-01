@@ -1,6 +1,6 @@
 ---
 address: '0xe1A178B681BD05964d3e3Ed33AE731577d9d96dD'
-coingecko_rank: 1115
+coingecko_rank: 1114
 coingecko_score: 20.665
 community_score: 5.806
 description: >-
@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: safeboxla
   twitter_screen_name: boxla888
 liquidity_score: 1.0
-market_cap_rank: 1570
+market_cap_rank: 1469
 name: BOX Token
 public_interest_score: 0.0
 symbol: box
@@ -41,7 +41,17 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: BOX
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: EOS
+- base: BOX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: BOX
   market:
     identifier: hitbtc
@@ -52,8 +62,8 @@ tickers:
     identifier: hotbit
     name: Hotbit
   target: BTC
-- base: 0XE1A178B681BD05964D3E3ED33AE731577D9D96DD
+- base: BOX
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH
+    identifier: hotbit
+    name: Hotbit
+  target: USDT

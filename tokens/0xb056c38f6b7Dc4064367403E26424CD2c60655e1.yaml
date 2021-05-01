@@ -33,6 +33,16 @@ name: CEEK Smart VR Token
 public_interest_score: 0.001
 symbol: ceek
 tickers:
+- base: CEEK
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: CEEK
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
 - base: 0XB056C38F6B7DC4064367403E26424CD2C60655E1
   market:
     identifier: one_inch
@@ -43,6 +53,11 @@ tickers:
     identifier: probit
     name: ProBit
   target: USDT
+- base: CEEK
+  market:
+    identifier: switcheo
+    name: Switcheo
+  target: ETH
 - base: 0XB056C38F6B7DC4064367403E26424CD2C60655E1
   market:
     identifier: uniswap

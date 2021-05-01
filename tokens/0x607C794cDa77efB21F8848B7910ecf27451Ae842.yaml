@@ -1,6 +1,6 @@
 ---
 address: '0x607C794cDa77efB21F8848B7910ecf27451Ae842'
-coingecko_rank: 1855
+coingecko_rank: 1856
 coingecko_score: 15.689
 community_score: 8.826
 description: >-
@@ -43,11 +43,21 @@ links:
   telegram_channel_identifier: defipie
   twitter_screen_name: defipiepie
 liquidity_score: 14.486
-market_cap_rank: 1469
+market_cap_rank: 1486
 name: DeFiPie
 public_interest_score: 0.008
 symbol: PIE
 tickers:
+- base: PIE
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: PIE
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: 0X607C794CDA77EFB21F8848B7910ECF27451AE842
   market:
     identifier: one_inch
@@ -57,4 +67,9 @@ tickers:
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
+  target: WBNB
+- base: 0XC4B35D3A24E3E8941C5D87FD21D0725642F50308
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
   target: WBNB

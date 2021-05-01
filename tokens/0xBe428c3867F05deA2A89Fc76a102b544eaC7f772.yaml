@@ -1,6 +1,6 @@
 ---
 address: '0xBe428c3867F05deA2A89Fc76a102b544eaC7f772'
-coingecko_rank: 1821
+coingecko_rank: 1822
 coingecko_score: 15.94
 community_score: 40.242
 description: >-
@@ -138,9 +138,14 @@ symbol: cvt
 tickers:
 - base: CVT
   market:
-    identifier: bitbns
-    name: BitBNS
-  target: INR
+    identifier: bit_z
+    name: BitZ
+  target: BTC
+- base: CVT
+  market:
+    identifier: bit_z
+    name: BitZ
+  target: ETH
 - base: CVT
   market:
     identifier: hitbtc
@@ -150,12 +155,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
+  target: USD
 - base: CVT
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
 - base: CVT
   market:
     identifier: hotbit

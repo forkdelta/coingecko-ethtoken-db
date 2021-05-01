@@ -4,10 +4,10 @@ coingecko_rank: 1684
 coingecko_score: 16.815
 community_score: 0.0
 description: >-
-  Digitex Futures is a commission-free cryptocurrency futures exchange with a rapid-fire one-click trading
-  ladder and high leverage. Traders can buy and sell perpetual swap futures contracts on Bitcoin against
-  the US Dollar and pay no transaction fees on any trades. The company will be adding extra markets such
-  as Ethereum and Litecoin soon after the mainnet launch on April 27.
+  Digitex.io is a commission-free cryptocurrency futures and Spot Market exchange with a rapid-fire one-click
+  trading ladder and high leverage. Traders can buy and sell perpetual swap futures contracts on Bitcoin
+  or Ethereum against the US Dollar and pay no transaction fees on any trades. As well as traders will
+  not pay any taker or maker fees on Spot Market.
 
 
   Commission-free trading is made possible by using its own cryptocurrency, called the DGTX token, as
@@ -30,23 +30,25 @@ links:
   - https://ethplorer.io/address/0xc666081073e8dff8d3d1c2292a29ae1a2153ec09
   facebook_username: DigitexFutures
   homepage:
-  - https://www.digitexfutures.com/
+  - https://digitex.io
+  official_forum_url:
+  - https://www.linkedin.com/company/digitex-io
   subreddit_url: https://www.reddit.com/r/DigitexCity/
   telegram_channel_identifier: digitexfutureschat
-  twitter_screen_name: _DigitexFutures
+  twitter_screen_name: Digitex_io
 liquidity_score: 24.678
-market_cap_rank: 993
+market_cap_rank: 1026
 name: Digitex Token
 public_interest_score: 0.023
 symbol: dgtx
 tickers:
 - base: DGTX
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: DGTX
+  market:
     identifier: probit
     name: ProBit
-  target: ETH
-- base: 0XC666081073E8DFF8D3D1C2292A29AE1A2153EC09
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
   target: ETH

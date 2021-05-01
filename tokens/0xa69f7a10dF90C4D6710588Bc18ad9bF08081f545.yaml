@@ -1,6 +1,6 @@
 ---
 address: '0xa69f7a10dF90C4D6710588Bc18ad9bF08081f545'
-coingecko_rank: 4810
+coingecko_rank: 4811
 coingecko_score: 1.957
 community_score: 7.988
 description: >-
@@ -29,4 +29,14 @@ market_cap_rank: null
 name: Cexlt
 public_interest_score: 0.001
 symbol: clt
-tickers: []
+tickers:
+- base: CEXLT
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: 0XA69F7A10DF90C4D6710588BC18AD9BF08081F545
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

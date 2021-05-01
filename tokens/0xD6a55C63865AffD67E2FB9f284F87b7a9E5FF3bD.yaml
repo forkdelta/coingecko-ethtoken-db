@@ -1,6 +1,6 @@
 ---
 address: '0xD6a55C63865AffD67E2FB9f284F87b7a9E5FF3bD'
-coingecko_rank: 1642
+coingecko_rank: 1641
 coingecko_score: 17.036
 community_score: 8.126
 description: >-
@@ -27,21 +27,26 @@ links:
     - https://github.com/Mshuu/SwitchDexIssues
   twitter_screen_name: switchag
 liquidity_score: 6.926
-market_cap_rank: 2079
+market_cap_rank: 2068
 name: Switch
 public_interest_score: 0.001
 symbol: esh
 tickers:
 - base: ESH
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: hotbit
+    name: Hotbit
   target: BTC
 - base: ESH
   market:
-    identifier: mercatox
-    name: Mercatox
-  target: BTC
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: ESH
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: ESH
   market:
     identifier: probit
@@ -52,3 +57,8 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: 0XD6A55C63865AFFD67E2FB9F284F87B7A9E5FF3BD
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

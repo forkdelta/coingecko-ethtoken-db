@@ -52,18 +52,28 @@ links:
   subreddit_url: https://www.reddit.com/r/breadwallet
   twitter_screen_name: breadapp
 liquidity_score: 22.553
-market_cap_rank: 731
+market_cap_rank: 708
 name: Bread
 public_interest_score: 0.0
 symbol: brd
 tickers:
 - base: BRD
   market:
+    identifier: bidesk
+    name: Bidesk
+  target: USDT
+- base: BRD
+  market:
     identifier: bilaxy
     name: Bilaxy
   target: ETH
-- base: 0X558EC3152E2EB2174905CD19AEA4E34A23DE9AD6
+- base: BRD
   market:
-    identifier: uniswap
-    name: Uniswap (v2)
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: BRD
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

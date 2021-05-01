@@ -34,7 +34,7 @@ links:
   subreddit_url: https://www.reddit.com/r/digix/
   twitter_screen_name: digixglobal
 liquidity_score: 1.0
-market_cap_rank: 1396
+market_cap_rank: 1368
 name: Digix Gold
 public_interest_score: 0.0
 symbol: dgx
@@ -46,6 +46,16 @@ tickers:
   target: USD
 - base: DGX
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: DGX
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: DGX
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -54,6 +64,11 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: DGX
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
 - base: DGX
   market:
     identifier: probit

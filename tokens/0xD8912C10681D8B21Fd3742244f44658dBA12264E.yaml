@@ -29,16 +29,26 @@ links:
   subreddit_url: https://www.reddit.com/r/plutus
   twitter_screen_name: plutus
 liquidity_score: 19.78
-market_cap_rank: 897
+market_cap_rank: 904
 name: Pluton
 public_interest_score: 0.01
 symbol: plu
 tickers:
-- base: 0XD8912C10681D8B21FD3742244F44658DBA12264E
+- base: PLU
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PLU
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: PLU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: PLU
   market:
     identifier: yobit

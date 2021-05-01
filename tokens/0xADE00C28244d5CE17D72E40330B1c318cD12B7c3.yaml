@@ -45,7 +45,7 @@ links:
   telegram_channel_identifier: AdExNetworkOfficial
   twitter_screen_name: AdEx_Network
 liquidity_score: 32.44
-market_cap_rank: 282
+market_cap_rank: 311
 name: AdEx
 public_interest_score: 0.17
 symbol: adx
@@ -64,17 +64,12 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
-- base: ADXN
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
-- base: ADXN
-  market:
-    identifier: hitbtc
-    name: HitBTC
   target: USD
+- base: ADX
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
 - base: ADX
   market:
     identifier: probit
@@ -85,8 +80,3 @@ tickers:
     identifier: probit
     name: ProBit
   target: USDT
-- base: 0X4470BB87D77B963A013DB939BE332F927F2B992E
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH

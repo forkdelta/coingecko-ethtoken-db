@@ -27,37 +27,47 @@ links:
     - https://github.com/terra-project
   twitter_screen_name: terra_money
 liquidity_score: 53.886
-market_cap_rank: 68
+market_cap_rank: 70
 name: TerraUSD
 public_interest_score: 0.08
 symbol: ust
 tickers:
+- base: UST
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: DAI
+- base: UST
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: USDC
+- base: UST
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: USDT
 - base: 0XA47C8BF37F92ABED4A126BDA807A7B7498661ACD
   market:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: 0X9D1555D8CB3C846BB4F7D5B1B1080872C3166676
+- base: 0XEDB0414627E6F1E3F082DE65CD4F9C693D78CCA9
   market:
     identifier: uniswap
     name: Uniswap (v2)
   target: UST
-- base: 0X13B02C8DE71680E71F0820C996E4BE43C2F57D15
+- base: 0XF72FCD9DCF0190923FADD44811E240EF4533FC86
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: UST
+- base: 0X0CAE9E4D663793C2A2A0B211C1CF4BBCA2B9CAA7
   market:
     identifier: uniswap
     name: Uniswap (v2)
   target: UST
 - base: 0XD36932143F6EBDEDD872D5FB0651F4B72FD15A84
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: UST
-- base: 0X31C63146A635EB7465E5853020B39713AC356991
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: UST
-- base: 0X1D350417D9787E000CC1B95D70E9536DCD91F373
   market:
     identifier: uniswap
     name: Uniswap (v2)
@@ -72,12 +82,12 @@ tickers:
     identifier: uniswap
     name: Uniswap (v2)
   target: UST
-- base: 0X0E99CC0535BB6251F6679FA6E65D6D3B430E840B
+- base: 0X1D350417D9787E000CC1B95D70E9536DCD91F373
   market:
     identifier: uniswap
     name: Uniswap (v2)
   target: UST
-- base: 0XF72FCD9DCF0190923FADD44811E240EF4533FC86
+- base: 0X0E99CC0535BB6251F6679FA6E65D6D3B430E840B
   market:
     identifier: uniswap
     name: Uniswap (v2)

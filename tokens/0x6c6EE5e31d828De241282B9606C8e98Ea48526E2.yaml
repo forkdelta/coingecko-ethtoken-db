@@ -115,9 +115,24 @@ tickers:
   target: ETH
 - base: HOT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: HOT
+  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
+- base: HOT
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: HOT
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: BTC
 - base: 0X6C6EE5E31D828DE241282B9606C8E98EA48526E2
   market:
     identifier: paraswap
@@ -128,18 +143,3 @@ tickers:
     identifier: vebitcoin
     name: Vebitcoin
   target: TRY
-- base: HOT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: BTC
-- base: HOT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: ETH
-- base: HOT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: USDT

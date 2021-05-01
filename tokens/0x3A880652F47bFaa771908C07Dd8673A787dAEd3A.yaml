@@ -1,6 +1,6 @@
 ---
 address: '0x3A880652F47bFaa771908C07Dd8673A787dAEd3A'
-coingecko_rank: 1107
+coingecko_rank: 1106
 coingecko_score: 20.757
 community_score: 19.416
 description: >-
@@ -26,8 +26,18 @@ links:
   telegram_channel_identifier: DerivaDEX
   twitter_screen_name: DDX_Official
 liquidity_score: 14.703
-market_cap_rank: 304
+market_cap_rank: 311
 name: DerivaDAO
 public_interest_score: 0.003
 symbol: ddx
-tickers: []
+tickers:
+- base: DDX
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: DDX
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT

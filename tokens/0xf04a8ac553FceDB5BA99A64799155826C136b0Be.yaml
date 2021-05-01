@@ -28,18 +28,23 @@ links:
   telegram_channel_identifier: Flixxo
   twitter_screen_name: flixxo
 liquidity_score: 1.0
-market_cap_rank: 1581
+market_cap_rank: 1595
 name: Flixxo
 public_interest_score: 0.002
 symbol: flixx
 tickers:
+- base: 0XF04A8AC553FCEDB5BA99A64799155826C136B0BE
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: FLIXX
   market:
     identifier: quoine
     name: Liquid
-  target: BTC
-- base: FLIXX
+  target: ETH
+- base: 0XF04A8AC553FCEDB5BA99A64799155826C136B0BE
   market:
-    identifier: quoine
-    name: Liquid
-  target: USDT
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

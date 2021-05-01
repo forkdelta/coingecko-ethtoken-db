@@ -33,7 +33,7 @@ links:
   telegram_channel_identifier: jarvisnetwork
   twitter_screen_name: Jarvis_Network
 liquidity_score: 12.299
-market_cap_rank: 845
+market_cap_rank: 843
 name: Jarvis Reward Token
 public_interest_score: 0.001
 symbol: jrt
@@ -47,19 +47,14 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
-  target: ETH
-- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
-  market:
-    identifier: balancer
-    name: Balancer
   target: USDC
-- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
+- base: JRT
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH
 - base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
   market:
-    identifier: sushiswap
-    name: Sushiswap
+    identifier: paraswap
+    name: Paraswap
   target: ETH

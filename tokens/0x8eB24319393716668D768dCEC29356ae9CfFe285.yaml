@@ -67,11 +67,31 @@ name: SingularityNET
 public_interest_score: 0.014
 symbol: agi
 tickers:
+- base: 0X8EB24319393716668D768DCEC29356AE9CFFE285
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: AGI
   market:
     identifier: dove_wallet
     name: Dove Wallet
   target: BTC
+- base: AGI
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: ETH
+- base: AGI
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: AGI
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
 - base: AGI
   market:
     identifier: dove_wallet
@@ -87,11 +107,6 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: TUSD
-- base: AGI
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
 - base: AGI
   market:
     identifier: hitbtc

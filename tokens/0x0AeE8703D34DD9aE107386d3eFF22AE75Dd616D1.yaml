@@ -24,4 +24,14 @@ market_cap_rank: null
 name: Tranche Finance
 public_interest_score: 0.001
 symbol: SLICE
-tickers: []
+tickers:
+- base: SLICE
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0X0AEE8703D34DD9AE107386D3EFF22AE75DD616D1
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

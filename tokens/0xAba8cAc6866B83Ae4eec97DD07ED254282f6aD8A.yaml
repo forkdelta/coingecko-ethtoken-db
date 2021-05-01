@@ -23,16 +23,11 @@ links:
     - https://github.com/yam-finance/yam-protocol
   twitter_screen_name: YamFinance
 liquidity_score: 1.0
-market_cap_rank: 2093
+market_cap_rank: 2139
 name: YAM v2
 public_interest_score: 0.008
 symbol: YAMv2
 tickers:
-- base: YAMV2
-  market:
-    identifier: bione
-    name: BiONE
-  target: USDT
 - base: YAMV2
   market:
     identifier: bithumb_global
@@ -40,11 +35,21 @@ tickers:
   target: USDT
 - base: 0XABA8CAC6866B83AE4EEC97DD07ED254282F6AD8A
   market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0XABA8CAC6866B83AE4EEC97DD07ED254282F6AD8A
+  market:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: YAMV2
+- base: 0XABA8CAC6866B83AE4EEC97DD07ED254282F6AD8A
   market:
-    identifier: probit
-    name: ProBit
-  target: USDT
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
+- base: 0XABA8CAC6866B83AE4EEC97DD07ED254282F6AD8A
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH

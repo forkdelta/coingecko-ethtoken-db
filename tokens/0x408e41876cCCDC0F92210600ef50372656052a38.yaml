@@ -31,18 +31,53 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 58.898
-market_cap_rank: 117
+market_cap_rank: 113
 name: REN
 public_interest_score: 0.03
 symbol: ren
 tickers:
+- base: REN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: REN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
+- base: REN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
+- base: REN
+  market:
+    identifier: emirex
+    name: Emirex
+  target: USDT
+- base: REN
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: REN
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: 0X408E41876CCCDC0F92210600EF50372656052A38
   market:
-    identifier: one_inch_liquidity_protocol
-    name: 1inch Liquidity Protocol
+    identifier: mooniswap
+    name: Mooniswap
   target: ETH
 - base: REN
   market:
-    identifier: quoine
-    name: Liquid
+    identifier: tokenlon
+    name: Tokenlon
+  target: USDT
+- base: REN
+  market:
+    identifier: whale_ex
+    name: WhaleEx
   target: USDT

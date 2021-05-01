@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: nexofinance
   twitter_screen_name: NexoFinance
 liquidity_score: 36.888
-market_cap_rank: 65
+market_cap_rank: 69
 name: NEXO
 public_interest_score: 0.24
 symbol: nexo
 tickers:
+- base: NEXO
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
 - base: NEXO
   market:
     identifier: atomars
@@ -49,14 +54,29 @@ tickers:
   target: BTC
 - base: NEXO
   market:
-    identifier: bione
-    name: BiONE
-  target: ETH
-- base: NEXO
-  market:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
+- base: NEXO
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: NEXO
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: NEXO
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: NEXO
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
 - base: NEXO
   market:
     identifier: yobit

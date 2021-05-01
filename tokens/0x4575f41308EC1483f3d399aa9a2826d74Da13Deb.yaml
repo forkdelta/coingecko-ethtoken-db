@@ -45,16 +45,21 @@ links:
   telegram_channel_identifier: OrchidOfficial
   twitter_screen_name: orchidprotocol
 liquidity_score: 48.952
-market_cap_rank: null
+market_cap_rank: 182
 name: Orchid Protocol
 public_interest_score: 0.02
 symbol: oxt
 tickers:
 - base: OXT
   market:
-    identifier: coindcx
-    name: CoinDCX
-  target: INR
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: OXT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
 - base: OXT
   market:
     identifier: gemini
@@ -62,6 +67,16 @@ tickers:
   target: ETH
 - base: OXT
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: OXT
+  market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: ETH
+- base: 0X4575F41308EC1483F3D399AA9A2826D74DA13DEB
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH

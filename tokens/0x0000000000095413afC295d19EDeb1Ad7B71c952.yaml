@@ -24,7 +24,7 @@ links:
   - https://tokenlon.im/
   twitter_screen_name: tokenlon
 liquidity_score: 45.297
-market_cap_rank: 340
+market_cap_rank: 332
 name: Tokenlon
 public_interest_score: 0.011
 symbol: lon
@@ -36,11 +36,21 @@ tickers:
   target: USDT
 - base: LON
   market:
-    identifier: poloniex
-    name: Poloniex
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: LON
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: LON
+  market:
+    identifier: hotbit
+    name: Hotbit
   target: USDT
 - base: LON
   market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

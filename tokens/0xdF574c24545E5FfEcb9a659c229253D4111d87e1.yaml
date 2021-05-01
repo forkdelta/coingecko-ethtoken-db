@@ -27,7 +27,7 @@ links:
     - https://github.com/stcoins/HUSD
   twitter_screen_name: Stablecoin_HUSD
 liquidity_score: 70.335
-market_cap_rank: 114
+market_cap_rank: 117
 name: HUSD
 public_interest_score: 0.002
 symbol: husd
@@ -49,6 +49,11 @@ tickers:
   target: USDT
 - base: HUSD
   market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: HUSD
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: USDT
@@ -57,3 +62,8 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: HUSD
+  market:
+    identifier: tokenlon
+    name: Tokenlon
+  target: USDT

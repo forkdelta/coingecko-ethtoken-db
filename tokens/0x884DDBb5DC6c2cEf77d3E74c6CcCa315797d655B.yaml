@@ -1,6 +1,6 @@
 ---
 address: '0x884DDBb5DC6c2cEf77d3E74c6CcCa315797d655B'
-coingecko_rank: 3828
+coingecko_rank: 3829
 coingecko_score: 4.679
 community_score: 7.794
 description: >-
@@ -33,6 +33,11 @@ symbol: carr
 tickers:
 - base: CARR
   market:
+    identifier: bitforex
+    name: Bitforex
+  target: BTC
+- base: CARR
+  market:
     identifier: exmarkets
     name: ExMarkets
   target: BTC
@@ -41,3 +46,8 @@ tickers:
     identifier: exmarkets
     name: ExMarkets
   target: USDT
+- base: CARR
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
