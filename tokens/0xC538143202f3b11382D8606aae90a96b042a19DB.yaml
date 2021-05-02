@@ -23,11 +23,16 @@ links:
   telegram_channel_identifier: coinsbit_chat
   twitter_screen_name: c0insbit
 liquidity_score: 12.367
-market_cap_rank: 1912
+market_cap_rank: 1914
 name: Coinsbit Token
 public_interest_score: 0.263
 symbol: cnb
 tickers:
+- base: CNB
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: BTC
 - base: CNB
   market:
     identifier: hotbit
@@ -68,13 +73,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: CNB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: CNB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO

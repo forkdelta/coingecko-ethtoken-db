@@ -43,48 +43,38 @@ links:
     - https://github.com/balancer-labs/pool-management
   twitter_screen_name: BalancerLabs
 liquidity_score: 57.019
-market_cap_rank: 126
+market_cap_rank: 130
 name: Balancer
 public_interest_score: 0.038
 symbol: bal
 tickers:
 - base: BAL
   market:
-    identifier: bitcoin_com
-    name: Bitcoin.com Exchange
+    identifier: cex
+    name: CEX.IO
+  target: ETH
+- base: BAL
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
+- base: 0XBA100000625A3754423978A60C9317C58A424E3D
+  market:
+    identifier: defi_swap
+    name: DeFi Swap
+  target: ETH
+- base: BAL
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: BTC
-- base: BAL
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: EUR
-- base: BAL
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: ETH
-- base: BAL
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
-- base: BAL
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: ETH
-- base: BAL
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: PAX
-- base: BAL
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
 - base: BAL
   market:
     identifier: hotbit
     name: Hotbit
   target: USDT
+- base: BAL
+  market:
+    identifier: kraken
+    name: Kraken
+  target: ETH

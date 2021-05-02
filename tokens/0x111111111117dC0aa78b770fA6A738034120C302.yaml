@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: OneInchNetwork
   twitter_screen_name: 1inchNetwork
 liquidity_score: 61.153
-market_cap_rank: 111
+market_cap_rank: 115
 name: 1inch
 public_interest_score: 0.027
 symbol: 1inch
@@ -55,6 +55,11 @@ tickers:
   target: USDT
 - base: 1INCH
   market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: 1INCH
+  market:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
@@ -63,6 +68,11 @@ tickers:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
+- base: 0X111111111117DC0AA78B770FA6A738034120C302
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: DAI
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
     identifier: paraswap

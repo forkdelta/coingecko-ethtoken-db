@@ -59,7 +59,7 @@ links:
   telegram_channel_identifier: selfkeyfoundation
   twitter_screen_name: SelfKey
 liquidity_score: 41.312
-market_cap_rank: 556
+market_cap_rank: 537
 name: SelfKey
 public_interest_score: 0.012
 symbol: key
@@ -69,6 +69,11 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: KEY
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: ETH
 - base: KEY
   market:
     identifier: hotbit
@@ -89,13 +94,3 @@ tickers:
     identifier: probit
     name: ProBit
   target: BTC
-- base: 0X4CC19356F2D37338B9802AA8E8FC58B0373296E7
-  market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
-- base: 0X4CC19356F2D37338B9802AA8E8FC58B0373296E7
-  market:
-    identifier: uniswap
-    name: Uniswap (v2)
-  target: ETH

@@ -29,6 +29,11 @@ name: SatoExchange Token
 public_interest_score: 0.011
 symbol: satx
 tickers:
+- base: SATX
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: ETH
 - base: BNB
   market:
     identifier: satoexchange
@@ -39,3 +44,8 @@ tickers:
     identifier: satoexchange
     name: SatoExchange
   target: SATX
+- base: SATX
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: USDT

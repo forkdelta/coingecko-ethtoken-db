@@ -28,18 +28,23 @@ links:
   telegram_channel_identifier: OrmeusEcoSystemDAO
   twitter_screen_name: ormeusecosystem
 liquidity_score: 7.214
-market_cap_rank: 2126
+market_cap_rank: 2131
 name: Ormeus Coin
 public_interest_score: 0.001
 symbol: orme
 tickers:
+- base: ORME
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
+- base: ORMEUS
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
 - base: 0XC96DF921009B790DFFCA412375251ED1A2B75C60
   market:
     identifier: uniswap
     name: Uniswap (v2)
   target: ETH
-- base: ORME
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: USDT

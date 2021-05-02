@@ -45,6 +45,11 @@ symbol: dawn
 tickers:
 - base: DAWN
   market:
+    identifier: bigone
+    name: BigONE
+  target: BTC
+- base: DAWN
+  market:
     identifier: probit
     name: ProBit
   target: BTC
@@ -53,8 +58,3 @@ tickers:
     identifier: probit
     name: ProBit
   target: KRW
-- base: 0X580C8520DEDA0A441522AEAE0F9F7A5F29629AFA
-  market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH

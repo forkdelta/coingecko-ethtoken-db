@@ -49,18 +49,28 @@ links:
   telegram_channel_identifier: Falcon_official
   twitter_screen_name: Falcon_SBS
 liquidity_score: 3.131
-market_cap_rank: 852
+market_cap_rank: 836
 name: Falcon Project
 public_interest_score: 0.002
 symbol: fnt
 tickers:
 - base: 0XDC5864EDE28BD4405AA04D93E05A0531797D9D59
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
   target: ETH
 - base: FNT
   market:
     identifier: south_xchange
     name: SouthXchange
+  target: BTC
+- base: FNT
+  market:
+    identifier: south_xchange
+    name: SouthXchange
   target: ETH
+- base: FNT
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: USDT

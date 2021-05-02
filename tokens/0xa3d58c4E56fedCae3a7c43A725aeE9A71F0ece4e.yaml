@@ -36,7 +36,7 @@ links:
   telegram_channel_identifier: metronometoken
   twitter_screen_name: MTNToken
 liquidity_score: 8.26
-market_cap_rank: 583
+market_cap_rank: 575
 name: Metronome
 public_interest_score: 0.002
 symbol: met
@@ -55,11 +55,6 @@ tickers:
   market:
     identifier: hotbit
     name: Hotbit
-  target: ETH
-- base: MET
-  market:
-    identifier: kyber_network
-    name: Kyber Network
   target: ETH
 - base: 0XA3D58C4E56FEDCAE3A7C43A725AEE9A71F0ECE4E
   market:
@@ -86,6 +81,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: MET
   market:
     identifier: yobit

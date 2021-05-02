@@ -36,11 +36,16 @@ links:
   telegram_channel_identifier: abyssfinance
   twitter_screen_name: abyssfinance
 liquidity_score: 19.806
-market_cap_rank: 973
+market_cap_rank: 964
 name: Abyss
 public_interest_score: 0.003
 symbol: abyss
 tickers:
+- base: ABYSS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: ABYSS
   market:
     identifier: hitbtc
@@ -55,6 +60,11 @@ tickers:
   market:
     identifier: hotbit
     name: Hotbit
+  target: ETH
+- base: ABYSS
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0X0E8D6B471E332F140E7D9DBB99E5E3822F728DA6
   market:

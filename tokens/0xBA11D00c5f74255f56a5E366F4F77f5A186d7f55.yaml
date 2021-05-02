@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 62.951
-market_cap_rank: 148
+market_cap_rank: 143
 name: Band Protocol
 public_interest_score: 0.011
 symbol: band
@@ -45,6 +45,11 @@ tickers:
     identifier: bitcoin_com
     name: Bitcoin.com Exchange
   target: BTC
+- base: BAND
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USD
 - base: BAND
   market:
     identifier: cex
@@ -74,16 +79,11 @@ tickers:
   market:
     identifier: hotbit
     name: Hotbit
-  target: BTC
+  target: USDT
 - base: BAND
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
-  market:
-    identifier: one_inch
-    name: 1inch
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
   market:

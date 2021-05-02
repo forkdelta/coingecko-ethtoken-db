@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: skrumble
   twitter_screen_name: SkrumbleNetwork
 liquidity_score: 30.332
-market_cap_rank: 1243
+market_cap_rank: 1246
 name: Skrumble Network
 public_interest_score: 0.002
 symbol: skm
 tickers:
+- base: SKM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
 - base: SKM
   market:
     identifier: hotbit
@@ -45,6 +50,11 @@ tickers:
     identifier: hotbit
     name: Hotbit
   target: ETH
+- base: SKM
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: HT
 - base: 0X048FE49BE32ADFC9ED68C37D32B5EC9DF17B3603
   market:
     identifier: uniswap

@@ -51,11 +51,6 @@ tickers:
   target: BTC
 - base: KICK
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
-- base: KICK
-  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -69,6 +64,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: KICK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: KICK
   market:
     identifier: yobit

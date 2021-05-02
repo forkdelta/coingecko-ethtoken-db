@@ -23,7 +23,7 @@ links:
   telegram_channel_identifier: perpetualprotocol
   twitter_screen_name: perpprotocol
 liquidity_score: 40.294
-market_cap_rank: 282
+market_cap_rank: 293
 name: Perpetual Protocol
 public_interest_score: 0.007
 symbol: perp
@@ -35,9 +35,24 @@ tickers:
   target: ETH
 - base: PERP
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PERP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: PERP
+  market:
     identifier: hotbit
     name: Hotbit
   target: USDT
+- base: 0XBC396689893D065F41BC2C6ECBEE5E0085233447
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: 0XBC396689893D065F41BC2C6ECBEE5E0085233447
   market:
     identifier: paraswap

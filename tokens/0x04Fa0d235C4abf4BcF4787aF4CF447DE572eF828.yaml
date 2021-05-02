@@ -50,7 +50,7 @@ links:
     - https://github.com/UMAprotocol/protocol
   twitter_screen_name: UMAprotocol
 liquidity_score: 56.928
-market_cap_rank: 80
+market_cap_rank: 81
 name: UMA
 public_interest_score: 0.015
 symbol: uma
@@ -70,11 +70,16 @@ tickers:
     identifier: btcnext
     name: BTCNEXT
   target: USDT
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
+- base: UMA
   market:
-    identifier: defi_swap
-    name: DeFi Swap
+    identifier: cex
+    name: CEX.IO
   target: ETH
+- base: UMA
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
 - base: UMA
   market:
     identifier: dove_wallet
@@ -82,9 +87,9 @@ tickers:
   target: PAX
 - base: UMA
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
+    identifier: floatsv
+    name: Float SV
+  target: USDT
 - base: UMA
   market:
     identifier: hotbit
@@ -102,8 +107,8 @@ tickers:
   target: ETH
 - base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:
-    identifier: mooniswap
-    name: Mooniswap
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:

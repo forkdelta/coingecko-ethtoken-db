@@ -29,6 +29,11 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: YO
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
 - base: 0XEBF4CA5319F406602EEFF68DA16261F1216011B5
   market:
     identifier: uniswap
@@ -39,7 +44,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: WAVES
-- base: XRP
+- base: ETC
   market:
     identifier: yobit
     name: YoBit
@@ -54,7 +59,12 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: XEM
+- base: USDT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: XRP
   market:
     identifier: yobit
     name: YoBit
@@ -64,32 +74,22 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ETC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: USDT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETH
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: DASH
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: YFI
+- base: XEM
   market:
     identifier: yobit
     name: YoBit
   target: YO
 - base: TALK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: LTC
   market:
     identifier: yobit
     name: YoBit

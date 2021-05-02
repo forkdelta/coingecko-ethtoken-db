@@ -34,7 +34,7 @@ links:
   telegram_channel_identifier: uquidcoinofficial
   twitter_screen_name: UquidC
 liquidity_score: 40.912
-market_cap_rank: 222
+market_cap_rank: 231
 name: Uquid Coin
 public_interest_score: 0.002
 symbol: uqc
@@ -56,11 +56,6 @@ tickers:
   target: BTC
 - base: UQC
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
-- base: UQC
-  market:
     identifier: probit
     name: ProBit
   target: BTC
@@ -69,6 +64,16 @@ tickers:
     identifier: probit
     name: ProBit
   target: ETH
+- base: UQC
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: UQC
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT
 - base: UQC
   market:
     identifier: vindax
