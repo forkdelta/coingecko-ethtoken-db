@@ -1,11 +1,11 @@
 ---
 address: '0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa'
-coingecko_rank: 232
-coingecko_score: 36.074
+coingecko_rank: 246
+coingecko_score: 35.383
 community_score: 0.0
 description: >-
   Deposit and redeem BTC in DeFi without intermediaries.
-developer_score: 79.463
+developer_score: 77.059
 id: tbtc
 image:
   large: https://assets.coingecko.com/coins/images/11224/large/tBTC.png?1589620754
@@ -23,10 +23,10 @@ links:
   repos_url:
     github:
     - https://github.com/keep-network/tbtc
-liquidity_score: 15.736
-market_cap_rank: 482
+liquidity_score: 15.428
+market_cap_rank: 491
 name: tBTC
-public_interest_score: 0.003
+public_interest_score: 0.0
 symbol: tbtc
 tickers:
 - base: TBTC
@@ -39,6 +39,11 @@ tickers:
     identifier: curve
     name: Curve Finance
   target: SBTC
+- base: TBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: WBTC
 - base: TBTC
   market:
     identifier: hotbit

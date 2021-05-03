@@ -1,8 +1,8 @@
 ---
 address: '0x86367c0e517622DAcdab379f2de389c3C9524345'
-coingecko_rank: 3552
-coingecko_score: 5.751
-community_score: 25.233
+coingecko_rank: 3638
+coingecko_score: 5.771
+community_score: 25.323
 description: ""
 developer_score: 0.0
 id: universal-us-dollar
@@ -25,6 +25,16 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: Universal US Dollar
-public_interest_score: 0.001
+public_interest_score: 0.0
 symbol: upusd
-tickers: []
+tickers:
+- base: UPUSD
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: UPUSD
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT

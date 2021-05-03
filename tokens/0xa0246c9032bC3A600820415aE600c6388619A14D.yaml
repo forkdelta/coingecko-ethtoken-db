@@ -1,8 +1,8 @@
 ---
 address: '0xa0246c9032bC3A600820415aE600c6388619A14D'
-coingecko_rank: 939
-coingecko_score: 22.403
-community_score: 10.077
+coingecko_rank: 1098
+coingecko_score: 20.883
+community_score: 10.055
 description: >-
   Harvest automatically farms the highest yields in DeFi
 developer_score: 0.0
@@ -27,12 +27,17 @@ links:
     - https://github.com/harvest-finance
   telegram_channel_identifier: Breadforthepeople
   twitter_screen_name: harvest_finance
-liquidity_score: 33.461
-market_cap_rank: 399
+liquidity_score: 26.819
+market_cap_rank: 417
 name: Harvest Finance
-public_interest_score: 0.035
+public_interest_score: 0.0
 symbol: farm
 tickers:
+- base: FARM
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: FARM
   market:
     identifier: hotbit
@@ -47,4 +52,9 @@ tickers:
   market:
     identifier: loopring_amm
     name: Loopring AMM
+  target: ETH
+- base: 0XA0246C9032BC3A600820415AE600C6388619A14D
+  market:
+    identifier: paraswap
+    name: Paraswap
   target: ETH

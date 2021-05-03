@@ -1,12 +1,12 @@
 ---
 address: '0x57Ab1ec28D129707052df4dF418D58a2D46d5f51'
-coingecko_rank: 72
-coingecko_score: 49.184
-community_score: 38.188
+coingecko_rank: 68
+coingecko_score: 50.152
+community_score: 37.834
 description: >-
   sUSD, or synthetic USD, is a synthetic asset launched by Synthetix Exchange. sUSD mirrors and tracks
   the price of USD provided by an oracle - Chainlink.
-developer_score: 72.533
+developer_score: 74.685
 id: nusd
 image:
   large: https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1616150765
@@ -25,27 +25,32 @@ links:
     - https://github.com/Synthetixio/synthetix
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 43.795
-market_cap_rank: 264
+liquidity_score: 46.555
+market_cap_rank: 267
 name: sUSD
-public_interest_score: 0.07
+public_interest_score: 0.0
 symbol: susd
 tickers:
 - base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
   market:
     identifier: balancer
     name: Balancer
-  target: DAI
-- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
-  market:
-    identifier: balancer
-    name: Balancer
   target: USDC
-- base: SUSD
+- base: USDT
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
+- base: DAI
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
+- base: USDC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SUSD
 - base: SUSD
   market:
     identifier: hotbit
@@ -65,8 +70,13 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
+  target: ETH
+- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
+  market:
+    identifier: paraswap
+    name: Paraswap
   target: USDT
-- base: SRUNE
+- base: SYFI
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -76,17 +86,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: STRX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
 - base: SDASH
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SEUR
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -106,11 +106,6 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SOIL
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
 - base: SCRV
   market:
     identifier: synthetix
@@ -121,12 +116,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SCEX
+- base: SLTC
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SGOOG
+- base: SCEX
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -136,13 +131,13 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: SGOOG
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: SFB
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SUSD
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

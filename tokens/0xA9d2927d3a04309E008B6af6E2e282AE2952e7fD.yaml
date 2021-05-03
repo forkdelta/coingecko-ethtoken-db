@@ -1,8 +1,8 @@
 ---
 address: '0xA9d2927d3a04309E008B6af6E2e282AE2952e7fD'
-coingecko_rank: 2338
-coingecko_score: 12.875
-community_score: 6.716
+coingecko_rank: 2375
+coingecko_score: 12.765
+community_score: 6.694
 description: >-
   Zipper is a decentralized value transfer network that enables point to point Message communication,
   Transaction Transfer and Transaction Settlement across multiple blockchain networks among different
@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: ZipperEN
   twitter_screen_name: ZipperInfo
 liquidity_score: 1.0
-market_cap_rank: 1301
+market_cap_rank: 1302
 name: Zipper Network
 public_interest_score: 0.0
 symbol: zip
 tickers:
+- base: 0XA9D2927D3A04309E008B6AF6E2E282AE2952E7FD
+  market:
+    identifier: uniswap
+    name: Uniswap (v2)
+  target: ETH
 - base: ZIP
   market:
     identifier: yobit
@@ -45,6 +50,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: ZIP
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
 - base: ZIP
   market:
     identifier: yobit

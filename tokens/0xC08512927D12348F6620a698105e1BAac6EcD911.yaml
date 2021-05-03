@@ -1,8 +1,8 @@
 ---
 address: '0xC08512927D12348F6620a698105e1BAac6EcD911'
-coingecko_rank: 918
-coingecko_score: 22.607
-community_score: 4.69
+coingecko_rank: 962
+coingecko_score: 22.183
+community_score: 4.737
 description: >-
   The first regulated Japanese YEN stablecoin issued by GMO-Z.com Trust Company, Inc.
 developer_score: 33.6
@@ -25,18 +25,13 @@ links:
     github:
     - https://github.com/trust-zcom/gmotrust-stablecoin-contract
   twitter_screen_name: GMOTrust
-liquidity_score: 15.383
-market_cap_rank: 1823
+liquidity_score: 13.471
+market_cap_rank: 1817
 name: GYEN
-public_interest_score: 0.467
+public_interest_score: 0.0
 symbol: gyen
 tickers:
 - base: BTC
-  market:
-    identifier: quoine
-    name: Liquid
-  target: GYEN
-- base: ZUSD
   market:
     identifier: quoine
     name: Liquid
@@ -46,3 +41,13 @@ tickers:
     identifier: quoine
     name: Liquid
   target: GYEN
+- base: ZUSD
+  market:
+    identifier: quoine
+    name: Liquid
+  target: GYEN
+- base: GYEN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: JPY

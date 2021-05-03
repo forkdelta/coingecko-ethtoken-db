@@ -1,8 +1,8 @@
 ---
 address: '0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433'
-coingecko_rank: 585
-coingecko_score: 26.809
-community_score: 9.051
+coingecko_rank: 477
+coingecko_score: 28.648
+community_score: 9.044
 description: >-
   SWERVE FINANCE is described to be a fork of Curve, owned 100% by the community. It is claimed that there's
   no fake-out deployment, no questionable pre-mining, no founder controlling majority of the governance
@@ -11,7 +11,7 @@ description: >-
   providers and users. If holders provide liquidity to Swerve, they get ySWRV tokens which can be staked
   in the Swerve DAO to earn $SWRV. To kickstart the protocol and encourage users to try out Swerve, the
   first two weeks will have a larger distribution of $SWRV awarded.
-developer_score: 20.672
+developer_score: 19.956
 id: swerve-dao
 image:
   large: https://assets.coingecko.com/coins/images/12361/large/swerve.png?1599278316
@@ -30,10 +30,10 @@ links:
     - https://github.com/SwerveFinance/SwervContracts
   telegram_channel_identifier: swervefi
   twitter_screen_name: SwerveFinance
-liquidity_score: 37.38
-market_cap_rank: 761
+liquidity_score: 46.567
+market_cap_rank: 684
 name: Swerve
-public_interest_score: 0.004
+public_interest_score: 0.0
 symbol: swrv
 tickers:
 - base: SWRV
@@ -43,14 +43,19 @@ tickers:
   target: USDT
 - base: SWRV
   market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
 - base: SWRV
   market:
-    identifier: bithumb_global
-    name: Bithumb Global
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: SWRV
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: SWRV
   market:
     identifier: hotbit
@@ -86,11 +91,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: SWRV
   market:
     identifier: yobit

@@ -1,8 +1,8 @@
 ---
 address: '0xADE00C28244d5CE17D72E40330B1c318cD12B7c3'
-coingecko_rank: 165
-coingecko_score: 40.421
-community_score: 35.649
+coingecko_rank: 157
+coingecko_score: 40.444
+community_score: 35.539
 description: >-
   AdEx (ADX) stands for “advertising exchange.” After a successful crowdfunding campaign in 2017, AdEx
   was the first startup to release an open-source protocol for decentralized advertising in 2018 and the
@@ -19,7 +19,7 @@ description: >-
   2020 AdEx started incentivized staking and liquidity providing programs for the $ADX token, interacting
   with the DeFi ecosystem and engaging its community into actively supporting the stability of the AdEx
   Platform.
-developer_score: 49.942
+developer_score: 49.45
 id: adex
 image:
   large: https://assets.coingecko.com/coins/images/847/large/adex.png?1547034643
@@ -44,10 +44,10 @@ links:
   subreddit_url: https://www.reddit.com/r/AdEx
   telegram_channel_identifier: AdExNetworkOfficial
   twitter_screen_name: AdEx_Network
-liquidity_score: 32.44
-market_cap_rank: 308
+liquidity_score: 33.24
+market_cap_rank: 313
 name: AdEx
-public_interest_score: 0.17
+public_interest_score: 0.0
 symbol: adx
 tickers:
 - base: ADX
@@ -55,10 +55,15 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: ADX
+- base: ADXN
   market:
-    identifier: bittrex
-    name: Bittrex
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: ADXN
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: ADXN
   market:
@@ -69,11 +74,6 @@ tickers:
   market:
     identifier: loopring_amm
     name: Loopring AMM
-  target: ETH
-- base: 0XADE00C28244D5CE17D72E40330B1C318CD12B7C3
-  market:
-    identifier: one_inch
-    name: 1inch
   target: ETH
 - base: ADX
   market:

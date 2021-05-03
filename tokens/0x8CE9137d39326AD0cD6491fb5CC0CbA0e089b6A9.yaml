@@ -1,8 +1,8 @@
 ---
 address: '0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9'
-coingecko_rank: 425
-coingecko_score: 29.618
-community_score: 11.252
+coingecko_rank: 404
+coingecko_score: 30.434
+community_score: 11.334
 description: >-
   The Swipe Wallet has been designed to require Swipe Tokens SXP to perform all functions and utility
   of the Wallet including to use the services and to make withdraws. Users on the Swipe Wallet can buy,
@@ -34,17 +34,12 @@ links:
     - https://github.com/SwipeWallet/Wallet-Contract
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
-liquidity_score: 64.84
-market_cap_rank: 167
+liquidity_score: 68.029
+market_cap_rank: 164
 name: Swipe
-public_interest_score: 0.029
+public_interest_score: 0.0
 symbol: sxp
 tickers:
-- base: SXP
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: BTC
 - base: SXP
   market:
     identifier: dove_wallet
@@ -60,11 +55,21 @@ tickers:
     identifier: hotbit
     name: Hotbit
   target: USDT
+- base: 0X8CE9137D39326AD0CD6491FB5CC0CBA0E089B6A9
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
 - base: SXP
   market:
     identifier: poloniex
     name: Poloniex
   target: TRX
+- base: SXP
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: SXP
   market:
     identifier: serum_dex
