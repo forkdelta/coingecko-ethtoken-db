@@ -1,8 +1,8 @@
 ---
 address: '0x4FE5851C9af07df9e5AD8217aFAE1ea72737Ebda'
-coingecko_rank: 2501
-coingecko_score: 12.172
-community_score: 5.808
+coingecko_rank: 2532
+coingecko_score: 12.137
+community_score: 5.83
 description: >-
   OpenPredict is the first DeFi protocol to turn live predictions into liquid assets. The protocol generates
   a tri-smart contract system for every event: one acts as an escrow for event predictors, second contract
@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: OpenPredictAnnouncements
   twitter_screen_name: OPTprotocol
 liquidity_score: 1.0
-market_cap_rank: 1529
+market_cap_rank: 1575
 name: OpenPredict Token
 public_interest_score: 0.0
 symbol: opt
-tickers: []
+tickers:
+- base: 0X4FE5851C9AF07DF9E5AD8217AFAE1EA72737EBDA
+  market:
+    identifier: balancer
+    name: Balancer
+  target: USDC
+- base: 0X4FE5851C9AF07DF9E5AD8217AFAE1EA72737EBDA
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: USDC

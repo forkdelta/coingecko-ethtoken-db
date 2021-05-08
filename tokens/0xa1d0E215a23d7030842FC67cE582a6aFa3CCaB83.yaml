@@ -1,8 +1,8 @@
 ---
 address: '0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83'
-coingecko_rank: 664
-coingecko_score: 25.696
-community_score: 9.019
+coingecko_rank: 652
+coingecko_score: 25.812
+community_score: 9.008
 description: >-
   YFII is a fork of YFI project with YIP-8 implementation
 developer_score: 0.0
@@ -24,17 +24,12 @@ links:
     - https://github.com/yfii
   telegram_channel_identifier: yfiifinance
   twitter_screen_name: DfiMoney
-liquidity_score: 51.995
-market_cap_rank: 396
+liquidity_score: 52.441
+market_cap_rank: 392
 name: DFI.money
 public_interest_score: 0.0
 symbol: yfii
 tickers:
-- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
-  market:
-    identifier: balancer
-    name: Balancer
-  target: DAI
 - base: YFII
   market:
     identifier: cex
@@ -44,7 +39,7 @@ tickers:
   market:
     identifier: cex
     name: CEX.IO
-  target: USD
+  target: USDT
 - base: YFII
   market:
     identifier: dove_wallet
@@ -87,28 +82,13 @@ tickers:
   target: USDT
 - base: YFII
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: emirex
+    name: Emirex
   target: BTC
 - base: YFII
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: YFII
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
-- base: YFII
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: YFII
-  market:
-    identifier: huobi_id
-    name: Huobi Indonesia
+    identifier: emirex
+    name: Emirex
   target: USDT
 - base: YFII
   market:
@@ -117,6 +97,16 @@ tickers:
   target: ETH
 - base: YFII
   market:
-    identifier: okcoin
-    name: Okcoin
-  target: USD
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

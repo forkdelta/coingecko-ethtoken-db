@@ -1,14 +1,14 @@
 ---
 address: '0x672a1AD4f667FB18A333Af13667aa0Af1F5b5bDD'
-coingecko_rank: 694
-coingecko_score: 25.205
-community_score: 30.124
+coingecko_rank: 719
+coingecko_score: 24.914
+community_score: 30.093
 description: >-
   Verify is a reputation protocol that tracks the transaction history of participants (buyers, sellers)
   and unlocks benefits for those with good reputation. Reputation is a history of all previous transactions.
   Every transaction is rated by both parties, and the reputation of each party is updated based on the
   feedback from the counterparty.
-developer_score: 37.767
+developer_score: 37.766
 id: verify
 image:
   large: https://assets.coingecko.com/coins/images/1349/large/verify.png?1548759755
@@ -28,11 +28,16 @@ links:
   subreddit_url: https://www.reddit.com/r/verifyas
   twitter_screen_name: verif_yas
 liquidity_score: 1.0
-market_cap_rank: 2198
+market_cap_rank: 2274
 name: Verify
 public_interest_score: 0.0
 symbol: cred
 tickers:
+- base: CRED
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: CRED
   market:
     identifier: yobit
@@ -42,7 +47,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
+  target: DOGE
 - base: CRED
   market:
     identifier: yobit
@@ -53,3 +58,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: CRED
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

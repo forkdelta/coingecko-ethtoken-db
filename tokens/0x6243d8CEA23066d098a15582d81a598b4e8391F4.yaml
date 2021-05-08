@@ -1,8 +1,8 @@
 ---
 address: '0x6243d8CEA23066d098a15582d81a598b4e8391F4'
-coingecko_rank: 1446
-coingecko_score: 18.493
-community_score: 8.6
+coingecko_rank: 1689
+coingecko_score: 17.023
+community_score: 8.594
 description: >-
   FLX will have two different core functions:
 
@@ -34,9 +34,19 @@ links:
     github:
     - https://github.com/reflexer-labs
   twitter_screen_name: reflexerfinance
-liquidity_score: 21.057
-market_cap_rank: 779
+liquidity_score: 14.124
+market_cap_rank: 767
 name: Reflexer Ungovernance Token
 public_interest_score: 0.0
 symbol: flx
-tickers: []
+tickers:
+- base: FLX
+  market:
+    identifier: loopring
+    name: Loopring
+  target: ETH
+- base: FLX
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH

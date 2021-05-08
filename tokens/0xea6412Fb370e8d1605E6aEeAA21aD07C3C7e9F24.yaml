@@ -1,8 +1,8 @@
 ---
 address: '0xea6412Fb370e8d1605E6aEeAA21aD07C3C7e9F24'
-coingecko_rank: 1125
-coingecko_score: 20.744
-community_score: 19.878
+coingecko_rank: 1536
+coingecko_score: 17.943
+community_score: 19.972
 description: ""
 developer_score: 12.673
 id: mushroom
@@ -24,9 +24,19 @@ links:
   subreddit_url: https://www.reddit.com/r/MushroomCommunity/
   telegram_channel_identifier: mushroomcommunity
   twitter_screen_name: getmushroom
-liquidity_score: 13.566
-market_cap_rank: 1622
+liquidity_score: 2.105
+market_cap_rank: 1967
 name: Mushroom
 public_interest_score: 0.0
 symbol: mush
-tickers: []
+tickers:
+- base: MUSH
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0XEA6412FB370E8D1605E6AEEAA21AD07C3C7E9F24
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

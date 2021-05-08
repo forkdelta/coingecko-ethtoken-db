@@ -1,8 +1,8 @@
 ---
 address: '0x7533D63A2558965472398Ef473908e1320520AE2'
-coingecko_rank: 5067
-coingecko_score: 1.853
-community_score: 7.512
+coingecko_rank: 5190
+coingecko_score: 1.85
+community_score: 7.499
 description: >-
   The world’s first direct aid project which provides aid
 
@@ -43,16 +43,6 @@ tickers:
   target: USDT
 - base: INTX
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
-- base: INTX
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: INTX
-  market:
     identifier: probit
     name: ProBit
   target: BTC
@@ -61,3 +51,8 @@ tickers:
     identifier: probit
     name: ProBit
   target: USDT
+- base: 0X7533D63A2558965472398EF473908E1320520AE2
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

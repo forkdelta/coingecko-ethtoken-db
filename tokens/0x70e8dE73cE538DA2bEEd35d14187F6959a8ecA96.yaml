@@ -1,12 +1,12 @@
 ---
 address: '0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96'
-coingecko_rank: 306
-coingecko_score: 33.144
-community_score: 8.258
+coingecko_rank: 310
+coingecko_score: 33.224
+community_score: 8.25
 description: >-
   XSGD is the world's first Travel Rule compliant stablecoin - backed by the Singapore-Dollar. XSGD is
   part of the StraitsX stablecoin initiative for SEA by Xfers.
-developer_score: 51.048
+developer_score: 51.046
 id: xsgd
 image:
   large: https://assets.coingecko.com/coins/images/12832/large/opiTgkh.png?1602856852
@@ -25,19 +25,19 @@ links:
     github:
     - https://github.com/Xfers/StraitsX-tokens/tree/master/Ethereum
   twitter_screen_name: xfers
-liquidity_score: 29.71
-market_cap_rank: 621
+liquidity_score: 30.107
+market_cap_rank: 629
 name: XSGD
 public_interest_score: 0.0
 symbol: xsgd
 tickers:
-- base: 0X70E8DE73CE538DA2BEED35D14187F6959A8ECA96
-  market:
-    identifier: balancer
-    name: Balancer
-  target: USDC
 - base: XSGD
   market:
     identifier: quoine
     name: Liquid
   target: SGD
+- base: 0X70E8DE73CE538DA2BEED35D14187F6959A8ECA96
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

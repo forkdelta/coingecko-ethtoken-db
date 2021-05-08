@@ -1,10 +1,10 @@
 ---
 address: '0xAba8cAc6866B83Ae4eec97DD07ED254282f6aD8A'
-coingecko_rank: 602
-coingecko_score: 26.59
-community_score: 9.352
+coingecko_rank: 715
+coingecko_score: 24.97
+community_score: 9.336
 description: ""
-developer_score: 55.719
+developer_score: 55.708
 id: yam-v2
 image:
   large: https://assets.coingecko.com/coins/images/12179/large/YAM-v2.png?1597892396
@@ -23,7 +23,7 @@ links:
     - https://github.com/yam-finance/yam-protocol
   twitter_screen_name: YamFinance
 liquidity_score: 1.0
-market_cap_rank: 2188
+market_cap_rank: 2268
 name: YAM v2
 public_interest_score: 0.0
 symbol: YAMv2
@@ -47,6 +47,11 @@ tickers:
   market:
     identifier: probit
     name: ProBit
+  target: BTC
+- base: YAMV2
+  market:
+    identifier: probit
+    name: ProBit
   target: USDT
 - base: 0XABA8CAC6866B83AE4EEC97DD07ED254282F6AD8A
   market:
@@ -55,6 +60,6 @@ tickers:
   target: ETH
 - base: 0XABA8CAC6866B83AE4EEC97DD07ED254282F6AD8A
   market:
-    identifier: uniswap
+    identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH

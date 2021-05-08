@@ -1,8 +1,8 @@
 ---
 address: '0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B'
-coingecko_rank: 3314
-coingecko_score: 7.491
-community_score: 6.102
+coingecko_rank: 3365
+coingecko_score: 7.536
+community_score: 6.115
 description: >-
   BRZ is the first stable coin backed by Brazilian Reais (BRL). It'll allow Brazilian residents to directly
   ramp up in international exchanges and actively trade the Brazilian currency against pairs of different
@@ -27,7 +27,7 @@ links:
   - https://www.brztoken.io/
   telegram_channel_identifier: brztoken
   twitter_screen_name: BrzToken
-liquidity_score: 30.745
+liquidity_score: 30.951
 market_cap_rank: null
 name: Brazilian Digital Token
 public_interest_score: 0.0
@@ -37,18 +37,23 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: BTC
+  target: USDT
 - base: BRZ
   market:
     identifier: btse
     name: BTSE
   target: USD
+- base: BRZ
+  market:
+    identifier: novadax
+    name: NovaDAX
+  target: BTC
 - base: BTC
   market:
-    identifier: ftx_us
-    name: FTX.US
+    identifier: zbx
+    name: ZBX
   target: BRZ
-- base: BTC
+- base: ETH
   market:
     identifier: zbx
     name: ZBX

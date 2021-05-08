@@ -1,8 +1,8 @@
 ---
 address: '0xb5a4ac5b04E777230bA3381195EfF6a60c3934F2'
-coingecko_rank: 1265
-coingecko_score: 19.681
-community_score: 7.346
+coingecko_rank: 1146
+coingecko_score: 20.563
+community_score: 7.351
 description: >-
   inSure DeFi is a community-based crypto asset insurance ecosystem, where users can insure their crypto-portfolio
   by buying SURE tokens with fiat and other cryptocurrencies. inSure is designed to distribute crypto
@@ -36,8 +36,8 @@ links:
     - https://github.com/inSureToken/SmartContract/
   telegram_channel_identifier: insuresystem
   twitter_screen_name: InsureToken
-liquidity_score: 21.669
-market_cap_rank: 307
+liquidity_score: 25.41
+market_cap_rank: 288
 name: inSure DeFi
 public_interest_score: 0.0
 symbol: sure
@@ -56,7 +56,17 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
-  target: USDT
+  target: BTC
+- base: SURE
+  market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: SURE
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
 - base: SURE
   market:
     identifier: stocks_exchange

@@ -1,8 +1,8 @@
 ---
 address: '0x8A9C67fee641579dEbA04928c4BC45F66e26343A'
-coingecko_rank: 1745
-coingecko_score: 16.544
-community_score: 8.402
+coingecko_rank: 1860
+coingecko_score: 15.96
+community_score: 8.391
 description: >-
   A trading platform and its set of financial protocols to gain exposure to any assets, through margin
   trading or synthetic assets, against trading pools supplied by liquidity providers, tooled to automatically
@@ -32,8 +32,8 @@ links:
   - https://jarvis.network/
   telegram_channel_identifier: jarvisnetwork
   twitter_screen_name: Jarvis_Network
-liquidity_score: 12.831
-market_cap_rank: 854
+liquidity_score: 9.662
+market_cap_rank: 839
 name: Jarvis Reward Token
 public_interest_score: 0.0
 symbol: jrt
@@ -47,11 +47,6 @@ tickers:
   market:
     identifier: balancer
     name: Balancer
-  target: ETH
-- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
-  market:
-    identifier: balancer
-    name: Balancer
   target: USDC
 - base: JRT
   market:
@@ -60,6 +55,16 @@ tickers:
   target: ETH
 - base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
+  target: ETH
+- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
+  market:
+    identifier: sushiswap
+    name: Sushiswap
   target: ETH

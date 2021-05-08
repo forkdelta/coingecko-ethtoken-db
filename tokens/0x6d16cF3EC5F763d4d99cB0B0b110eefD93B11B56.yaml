@@ -1,8 +1,8 @@
 ---
 address: '0x6d16cF3EC5F763d4d99cB0B0b110eefD93B11B56'
-coingecko_rank: 3157
-coingecko_score: 8.523
-community_score: 37.83
+coingecko_rank: 3196
+coingecko_score: 8.557
+community_score: 37.988
 description: >-
   Tracks the price of Perpetual Oil Futures (OIL) through price feeds supplied by an oracle.
 developer_score: 0.0
@@ -29,4 +29,9 @@ market_cap_rank: null
 name: Synth sOIL
 public_interest_score: 0.0
 symbol: soil
-tickers: []
+tickers:
+- base: SOIL
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

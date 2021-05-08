@@ -1,8 +1,8 @@
 ---
 address: '0x8b83116E05F722554e1089b9850e731ee20dD692'
-coingecko_rank: 5977
-coingecko_score: 1.06
-community_score: 4.82
+coingecko_rank: 5926
+coingecko_score: 1.259
+community_score: 4.812
 description: >-
   A token to exchange for items, buy things locally using zcnox and convert to btc easily using our app
   our website exchange.
@@ -24,9 +24,14 @@ links:
   - https://zcnox.com/
   telegram_channel_identifier: zcnox_exchange
   twitter_screen_name: tokenznx
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: ZCNOX Coin
 public_interest_score: 0.0
 symbol: zcnox
-tickers: []
+tickers:
+- base: ZCNOX
+  market:
+    identifier: crex24
+    name: CREX24
+  target: BTC

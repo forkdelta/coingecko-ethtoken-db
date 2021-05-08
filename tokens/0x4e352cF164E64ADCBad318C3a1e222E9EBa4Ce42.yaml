@@ -1,8 +1,8 @@
 ---
 address: '0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42'
-coingecko_rank: 926
-coingecko_score: 22.546
-community_score: 20.508
+coingecko_rank: 922
+coingecko_score: 22.565
+community_score: 20.434
 description: ""
 developer_score: 0.0
 id: mcdex
@@ -27,8 +27,8 @@ links:
   subreddit_url: https://www.reddit.com
   telegram_channel_identifier: Mcdex
   twitter_screen_name: MonteCarloDEX
-liquidity_score: 25.642
-market_cap_rank: 522
+liquidity_score: 25.879
+market_cap_rank: 544
 name: MCDEX
 public_interest_score: 0.0
 symbol: mcb
@@ -45,16 +45,6 @@ tickers:
   target: WETH
 - base: MCB
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: MCB
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: MCB
-  market:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
@@ -63,3 +53,8 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: MCB
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

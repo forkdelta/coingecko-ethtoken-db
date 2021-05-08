@@ -1,8 +1,8 @@
 ---
 address: '0x722f97A435278B7383a1e3c47F41773bebF3232C'
-coingecko_rank: 2048
-coingecko_score: 14.668
-community_score: 9.541
+coingecko_rank: 2194
+coingecko_score: 13.881
+community_score: 9.521
 description: >-
   We are the Global Ideas Marketplace.
 
@@ -24,9 +24,24 @@ links:
   - https://ucrowdme.com/
   telegram_channel_identifier: ucrowdme
   twitter_screen_name: ucrowdme
-liquidity_score: 12.547
-market_cap_rank: 1851
+liquidity_score: 10.856
+market_cap_rank: 1999
 name: UCROWDME
 public_interest_score: 0.0
 symbol: ucm
-tickers: []
+tickers:
+- base: UCM
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: USDT
+- base: UCM
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: 0X722F97A435278B7383A1E3C47F41773BEBF3232C
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

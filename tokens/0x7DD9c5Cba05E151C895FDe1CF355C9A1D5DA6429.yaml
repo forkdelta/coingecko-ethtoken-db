@@ -1,8 +1,8 @@
 ---
 address: '0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429'
-coingecko_rank: 129
-coingecko_score: 43.325
-community_score: 41.759
+coingecko_rank: 127
+coingecko_score: 43.901
+community_score: 42.131
 description: >-
   Golem is a decentralized supercomputer that is accessible by anyone. The system is made up of the combined
   power of user’s machines from personal PCs to entire datacenters. Golem is able to compute almost any
@@ -78,8 +78,8 @@ links:
     - https://github.com/golemfactory/golem-unlimited
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
-liquidity_score: 35.221
-market_cap_rank: 156
+liquidity_score: 37.254
+market_cap_rank: 146
 name: Golem
 public_interest_score: 0.0
 symbol: glm
@@ -93,12 +93,22 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: USD
+  target: EUR
 - base: GNT
   market:
-    identifier: braziliex
-    name: Braziliex
+    identifier: bitbay
+    name: BitBay
+  target: USD
+- base: GLM
+  market:
+    identifier: bitrue
+    name: Bitrue
   target: BTC
+- base: GLM
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: 0X7DD9C5CBA05E151C895FDE1CF355C9A1D5DA6429
   market:
     identifier: sushiswap
@@ -109,6 +119,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: GNT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: GNT
   market:
     identifier: yobit

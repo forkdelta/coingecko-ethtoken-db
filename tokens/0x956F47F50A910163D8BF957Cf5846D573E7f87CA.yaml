@@ -1,8 +1,8 @@
 ---
 address: '0x956F47F50A910163D8BF957Cf5846D573E7f87CA'
-coingecko_rank: 626
-coingecko_score: 26.297
-community_score: 9.412
+coingecko_rank: 689
+coingecko_score: 25.226
+community_score: 9.408
 description: >-
   FEI uses a new kind of stablecoin mechanism called direct incentives. It is more capital-efficient,
   has a fair distribution, and is fully decentralized. The protocol uses the value it controls to maintain
@@ -34,9 +34,24 @@ links:
   - https://fei.money/
   telegram_channel_identifier: feiprotocol
   twitter_screen_name: feiprotocol
-liquidity_score: 46.369
-market_cap_rank: 110
+liquidity_score: 40.914
+market_cap_rank: 113
 name: Fei Protocol
 public_interest_score: 0.0
 symbol: fei
-tickers: []
+tickers:
+- base: DAI
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0X956F47F50A910163D8BF957CF5846D573E7F87CA
+- base: 0X956F47F50A910163D8BF957CF5846D573E7F87CA
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: FEI
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

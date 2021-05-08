@@ -1,8 +1,8 @@
 ---
 address: '0x6c6EE5e31d828De241282B9606C8e98Ea48526E2'
-coingecko_rank: 45
-coingecko_score: 54.096
-community_score: 41.193
+coingecko_rank: 48
+coingecko_score: 53.77
+community_score: 41.144
 description: >-
   Holochain enables a distributed web with user autonomy built directly into its architecture and protocols.
   Data is about remembering our lived and shared experiences. Distributing the storage and processing
@@ -55,7 +55,7 @@ description: >-
   company’s advisory team also includes Ryan Bubinski, the co-founder of CodeAcademy. In June, Holochain
   announced a new strategic partnership with Promether, an Adaptive Symbiotic Platform (ASP) that implements
   all the networking, security and anonymization code applications need to protect their data.
-developer_score: 64.386
+developer_score: 64.383
 id: holotoken
 image:
   large: https://assets.coingecko.com/coins/images/3348/large/Holologo_Profile.png?1547037966
@@ -82,8 +82,8 @@ links:
   subreddit_url: https://www.reddit.com/r/holochain
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
-liquidity_score: 66.193
-market_cap_rank: 54
+liquidity_score: 64.635
+market_cap_rank: 59
 name: Holo
 public_interest_score: 0.0
 symbol: hot
@@ -100,6 +100,11 @@ tickers:
   target: BTC
 - base: HOT
   market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
+- base: HOT
+  market:
     identifier: catex
     name: Catex
   target: BTC
@@ -108,13 +113,18 @@ tickers:
     identifier: catex
     name: Catex
   target: ETH
-- base: HOT
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
 - base: 0X6C6EE5E31D828DE241282B9606C8E98EA48526E2
   market:
     identifier: paraswap
     name: Paraswap
   target: ETH
+- base: HOT
+  market:
+    identifier: zebitex
+    name: Zebitex
+  target: ETH
+- base: HOT
+  market:
+    identifier: zebitex
+    name: Zebitex
+  target: USDT

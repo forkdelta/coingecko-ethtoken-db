@@ -1,8 +1,8 @@
 ---
 address: '0x3277dd536471a3cBEB0c9486aCad494C95A31E73'
-coingecko_rank: 1269
-coingecko_score: 19.661
-community_score: 7.215
+coingecko_rank: 1374
+coingecko_score: 19.033
+community_score: 7.204
 description: >-
   CHT is an ERC20-based token issued by CoinHe. CHTs are used for paying any transaction- or trading-related
   activities within CoinHe.
@@ -32,9 +32,14 @@ links:
   - https://token.coinhe.io/
   telegram_channel_identifier: coinheio
   twitter_screen_name: Coinheglobal
-liquidity_score: 30.604
-market_cap_rank: 914
+liquidity_score: 27.422
+market_cap_rank: 944
 name: CoinHe Token
 public_interest_score: 0.0
 symbol: cht
-tickers: []
+tickers:
+- base: CHT
+  market:
+    identifier: vinex
+    name: Vinex
+  target: USDT

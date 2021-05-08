@@ -1,8 +1,8 @@
 ---
 address: '0x5d60d8d7eF6d37E16EBABc324de3bE57f135e0BC'
-coingecko_rank: 1395
-coingecko_score: 18.88
-community_score: 25.25
+coingecko_rank: 1401
+coingecko_score: 18.875
+community_score: 25.222
 description: >-
   MyBit makes it simple for anyone to design, test, develop, and maintain decentralised wealth management
   applications on Ethereum.
@@ -27,7 +27,7 @@ links:
   telegram_channel_identifier: mybitio
   twitter_screen_name: MyBit_DApp
 liquidity_score: 1.0
-market_cap_rank: 2048
+market_cap_rank: 2096
 name: MyBit Token
 public_interest_score: 0.0
 symbol: myb
@@ -37,8 +37,13 @@ tickers:
     identifier: probit
     name: ProBit
   target: BTC
+- base: MYB
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
 - base: 0X5D60D8D7EF6D37E16EBABC324DE3BE57F135E0BC
   market:
-    identifier: uniswap
+    identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH

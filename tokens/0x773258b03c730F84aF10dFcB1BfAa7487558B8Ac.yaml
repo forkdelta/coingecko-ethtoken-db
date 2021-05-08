@@ -1,8 +1,8 @@
 ---
 address: '0x773258b03c730F84aF10dFcB1BfAa7487558B8Ac'
-coingecko_rank: 5040
-coingecko_score: 1.881
-community_score: 7.643
+coingecko_rank: 4431
+coingecko_score: 3.33
+community_score: 7.675
 description: >-
   SEFI is the governance token for SecretSwap and the Secret Network DeFi ecosystem. Users of SecretSwap
   can earn SEFI to participate in shaping the future of Secret Network's front-running resistant, privacy-first
@@ -36,9 +36,19 @@ links:
     - https://github.com/enigmampc/SecretSwap
   telegram_channel_identifier: scrtcommunity
   twitter_screen_name: secret_swap
-liquidity_score: 1.0
+liquidity_score: 8.208
 market_cap_rank: null
 name: SEFI
 public_interest_score: 0.0
 symbol: sefi
-tickers: []
+tickers:
+- base: SEFI
+  market:
+    identifier: secretswap
+    name: SecretSwap
+  target: USDT
+- base: SEFI
+  market:
+    identifier: secretswap
+    name: SecretSwap
+  target: WBTC

@@ -1,8 +1,8 @@
 ---
 address: '0x13B02c8dE71680e71F0820c996E4bE43c2F57d15'
-coingecko_rank: 1336
-coingecko_score: 19.243
-community_score: 9.846
+coingecko_rank: 1261
+coingecko_score: 19.734
+community_score: 9.863
 description: >-
   Mirrored Invesco QQQ Trust - synthetic asset tracking the price of an Invesco QQQ Trust ETF.
 developer_score: 0.0
@@ -30,9 +30,14 @@ links:
     - https://github.com/mirror-protocol
   telegram_channel_identifier: mirror_protocol
   twitter_screen_name: mirror_protocol
-liquidity_score: 22.511
-market_cap_rank: 654
+liquidity_score: 24.85
+market_cap_rank: 644
 name: Mirrored Invesco QQQ Trust
 public_interest_score: 0.0
 symbol: mqqq
-tickers: []
+tickers:
+- base: 0X13B02C8DE71680E71F0820C996E4BE43C2F57D15
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: UST

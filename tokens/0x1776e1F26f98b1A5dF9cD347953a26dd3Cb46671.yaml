@@ -1,11 +1,11 @@
 ---
 address: '0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671'
-coingecko_rank: 111
-coingecko_score: 45.333
-community_score: 34.339
+coingecko_rank: 115
+coingecko_score: 45.727
+community_score: 34.259
 description: >-
   A new kind of hedge fund built by a network of data scientists.
-developer_score: 59.349
+developer_score: 59.346
 id: numeraire
 image:
   large: https://assets.coingecko.com/coins/images/752/large/numeraire.png?1592538976
@@ -25,17 +25,12 @@ links:
     - https://github.com/numerai/numerapi-1
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
-liquidity_score: 43.397
-market_cap_rank: 187
+liquidity_score: 45.245
+market_cap_rank: 182
 name: Numeraire
 public_interest_score: 0.0
 symbol: nmr
 tickers:
-- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
-  market:
-    identifier: balancer
-    name: Balancer
-  target: DAI
 - base: NMR
   market:
     identifier: bitcratic
@@ -50,22 +45,32 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: ETH
+- base: NMR
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: PAX
+- base: NMR
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
+- base: NMR
+  market:
+    identifier: emirex
+    name: Emirex
+  target: BTC
 - base: NMR
   market:
     identifier: emirex
     name: Emirex
   target: USDT
-- base: NMR
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
 - base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: DAI
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: NMR
   market:
     identifier: yobit

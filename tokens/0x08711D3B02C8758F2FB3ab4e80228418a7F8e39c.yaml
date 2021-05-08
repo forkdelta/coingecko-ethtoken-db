@@ -1,11 +1,11 @@
 ---
 address: '0x08711D3B02C8758F2FB3ab4e80228418a7F8e39c'
-coingecko_rank: 889
-coingecko_score: 22.857
-community_score: 33.139
+coingecko_rank: 899
+coingecko_score: 22.808
+community_score: 33.098
 description: >-
   The Ethereum smart contract-based Casino offers a 0% house edge and solves the casino transparency question.
-developer_score: 20.866
+developer_score: 20.871
 id: edgeless
 image:
   large: https://assets.coingecko.com/coins/images/635/large/edgeless.png?1547958143
@@ -25,8 +25,18 @@ links:
   subreddit_url: https://www.reddit.com/r/Edgeless
   twitter_screen_name: edgelessproject
 liquidity_score: 1.0
-market_cap_rank: 1779
+market_cap_rank: 1796
 name: Edgeless
 public_interest_score: 0.0
 symbol: edg
-tickers: []
+tickers:
+- base: EDG
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: EDG
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH

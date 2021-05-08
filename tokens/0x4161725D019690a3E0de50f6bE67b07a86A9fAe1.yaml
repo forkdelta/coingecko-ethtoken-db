@@ -1,8 +1,8 @@
 ---
 address: '0x4161725D019690a3E0de50f6bE67b07a86A9fAe1'
-coingecko_rank: 3580
-coingecko_score: 6.048
-community_score: 9.741
+coingecko_rank: 3568
+coingecko_score: 6.445
+community_score: 9.745
 description: >-
   TPT stands for TokenPocket Token. It is a utility token representing TP users and developers' right
   to enjoy functionalities provided by the TokenPocket ecosystem. It is also a vital link connecting the
@@ -30,7 +30,7 @@ links:
     - https://github.com/TP-Lab
   telegram_channel_identifier: tokenPocket_en
   twitter_screen_name: TokenPocket_TP
-liquidity_score: 19.523
+liquidity_score: 21.508
 market_cap_rank: null
 name: Token Pocket
 public_interest_score: 0.0
@@ -38,21 +38,26 @@ symbol: tpt
 tickers:
 - base: TPT
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: TPT
+  market:
+    identifier: newdex
+    name: Newdex
   target: USDT
 - base: 0X4161725D019690A3E0DE50F6BE67B07A86A9FAE1
   market:
     identifier: sakeswap
     name: SakeSwap
   target: ETH
+- base: 0X4161725D019690A3E0DE50F6BE67B07A86A9FAE1
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: TPT
   market:
     identifier: whale_ex
     name: WhaleEx
   target: EOS
-- base: TPT
-  market:
-    identifier: whale_ex
-    name: WhaleEx
-  target: USDT

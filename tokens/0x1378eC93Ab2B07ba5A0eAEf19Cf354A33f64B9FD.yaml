@@ -1,8 +1,8 @@
 ---
 address: '0x1378eC93Ab2B07ba5A0eAEf19Cf354A33f64B9FD'
-coingecko_rank: 5684
+coingecko_rank: 5805
 coingecko_score: 1.384
-community_score: 5.381
+community_score: 5.38
 description: ""
 developer_score: 0.0
 id: yearn-finance-diamond-token
@@ -26,6 +26,11 @@ symbol: yfdt
 tickers:
 - base: YFDT
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: 0X1378EC93AB2B07BA5A0EAEF19CF354A33F64B9FD
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

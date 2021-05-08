@@ -1,8 +1,8 @@
 ---
 address: '0x4575f41308EC1483f3d399aa9a2826d74Da13Deb'
-coingecko_rank: 71
-coingecko_score: 49.627
-community_score: 35.606
+coingecko_rank: 69
+coingecko_score: 50.261
+community_score: 35.773
 description: >-
   The Orchid Protocol organizes bandwidth sellers into a structured peer-to-peer (P2P) network termed
   the Orchid Market. Customers connect to the Orchid Market and pay bandwidth sellers in order to form
@@ -21,7 +21,7 @@ description: >-
   as the Internet grew it became a place where people could be monitored, controlled, and censored. We're
   building a new civil contract around a distributed marketplace for computation, storage, and bandwidth
   to provide the framework for a new form of digital citizenship.
-developer_score: 73.172
+developer_score: 73.06
 id: orchid-protocol
 image:
   large: https://assets.coingecko.com/coins/images/3916/large/download_%285%29.png?1576624060
@@ -44,8 +44,8 @@ links:
   subreddit_url: https://www.reddit.com/r/orchid/
   telegram_channel_identifier: OrchidOfficial
   twitter_screen_name: orchidprotocol
-liquidity_score: 46.125
-market_cap_rank: 176
+liquidity_score: 49.149
+market_cap_rank: 177
 name: Orchid Protocol
 public_interest_score: 0.0
 symbol: oxt
@@ -57,11 +57,21 @@ tickers:
   target: PAX
 - base: OXT
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
+- base: OXT
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: DOGE
 - base: OXT
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: USDT
+- base: 0X4575F41308EC1483F3D399AA9A2826D74DA13DEB
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH

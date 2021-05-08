@@ -1,8 +1,8 @@
 ---
 address: '0x72e9D9038cE484EE986FEa183f8d8Df93f9aDA13'
-coingecko_rank: 1555
-coingecko_score: 17.734
-community_score: 7.392
+coingecko_rank: 1682
+coingecko_score: 17.055
+community_score: 7.394
 description: >-
   DeFi lending; Low collateral for the borrower; Fixed Income Funds for the Lender
 developer_score: 0.0
@@ -21,14 +21,24 @@ links:
   - https://smartcredit.io/
   telegram_channel_identifier: SmartCredit_Community
   twitter_screen_name: smartcredit_io
-liquidity_score: 22.162
-market_cap_rank: 1121
+liquidity_score: 20.146
+market_cap_rank: 1190
 name: SmartCredit Token
 public_interest_score: 0.0
 symbol: smartcredit
 tickers:
 - base: SMARTCREDIT
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: SMARTCREDIT
+  market:
     identifier: loopring
     name: Loopring
+  target: ETH
+- base: SMARTCREDIT
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH

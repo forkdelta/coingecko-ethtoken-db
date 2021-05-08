@@ -1,14 +1,14 @@
 ---
 address: '0xA823E6722006afe99E91c30FF5295052fe6b8E32'
-coingecko_rank: 290
-coingecko_score: 33.84
-community_score: 26.755
+coingecko_rank: 292
+coingecko_score: 33.832
+community_score: 26.725
 description: >-
   Neufund is a community-owned fundraising platform bridging the worlds of venture capital and blockchain
   space. Any company in the world can launch Equity Token Offering (ETO) on the Neufund Platform and anyone
   can be an investor. NEU token entitles to economic co-ownership of the platform: token holders receive
   success fee on each finished ETO and a share of all equity tokens created on the platform.
-developer_score: 64.838
+developer_score: 64.836
 id: neumark
 image:
   large: https://assets.coingecko.com/coins/images/2218/large/neumark.png?1547036501
@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: neufund
   twitter_screen_name: neufundorg
 liquidity_score: 1.0
-market_cap_rank: 1124
+market_cap_rank: 1119
 name: Neumark
 public_interest_score: 0.0
 symbol: neu
 tickers:
+- base: NEU
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
 - base: NEU
   market:
     identifier: bitbay
@@ -44,3 +49,13 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: ETH
+- base: NEU
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: NEU
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR

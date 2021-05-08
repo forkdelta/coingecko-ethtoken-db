@@ -1,8 +1,8 @@
 ---
 address: '0x7866E48C74CbFB8183cd1a929cd9b95a7a5CB4F4'
-coingecko_rank: 978
-coingecko_score: 21.982
-community_score: 24.475
+coingecko_rank: 916
+coingecko_score: 22.623
+community_score: 24.478
 description: >-
   DexKit (KIT) is the next generation DEX. It uses technology based on ZRX protocol, Uniswap and Kyber,
   among others, to create an advanced trading, swapping, atomic swap, market making and decentralized
@@ -29,9 +29,19 @@ links:
   subreddit_url: https://www.reddit.com/r/Dexkit/
   telegram_channel_identifier: dexkit
   twitter_screen_name: dexkit
-liquidity_score: 23.679
-market_cap_rank: 915
+liquidity_score: 25.918
+market_cap_rank: 885
 name: DexKit
 public_interest_score: 0.0
 symbol: kit
-tickers: []
+tickers:
+- base: 0X7866E48C74CBFB8183CD1A929CD9B95A7A5CB4F4
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X314593FA9A2FA16432913DBCCC96104541D32D11
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB

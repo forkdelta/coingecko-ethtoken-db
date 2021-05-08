@@ -1,8 +1,8 @@
 ---
 address: '0xBbe761EA1447A20b75aA485b7BCad4837415d7D7'
-coingecko_rank: 4233
-coingecko_score: 3.653
-community_score: 16.604
+coingecko_rank: 4298
+coingecko_score: 3.849
+community_score: 16.585
 description: >-
   The Global Crypto Alliance constitutes a borderless organization that specializes in decentralized business
   development and blockchain ecosystems.
@@ -38,9 +38,19 @@ links:
   subreddit_url: https://www.reddit.com/r/GlobalCryptoAlliance/
   telegram_channel_identifier: Gcall777
   twitter_screen_name: gcnews_io
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: Global Crypto Alliance
 public_interest_score: 0.0
 symbol: call
-tickers: []
+tickers:
+- base: CALL
+  market:
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: CALL
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC

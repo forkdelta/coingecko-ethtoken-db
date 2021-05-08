@@ -1,11 +1,11 @@
 ---
 address: '0x92A5B04D0ED5D94D7a193d1d334D3D16996f4E13'
-coingecko_rank: 3463
-coingecko_score: 6.678
-community_score: 7.473
+coingecko_rank: 3514
+coingecko_score: 6.674
+community_score: 7.458
 description: >-
   Mobile video platform with 1.5M users. Take a Challenge Become Famous
-developer_score: 19.335
+developer_score: 19.333
 id: eristica
 image:
   large: https://assets.coingecko.com/coins/images/6485/large/6.jpg?1595305071
@@ -40,7 +40,7 @@ symbol: ert
 tickers:
 - base: 0X92A5B04D0ED5D94D7A193D1D334D3D16996F4E13
   market:
-    identifier: uniswap
+    identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH
 - base: ERT
@@ -52,9 +52,24 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: DOGE
+- base: ERT
+  market:
+    identifier: yobit
+    name: YoBit
   target: ETH
 - base: ERT
   market:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: ERT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: ERT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

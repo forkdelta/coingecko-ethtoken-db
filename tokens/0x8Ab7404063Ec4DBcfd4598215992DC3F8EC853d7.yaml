@@ -1,8 +1,8 @@
 ---
 address: '0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7'
-coingecko_rank: 215
-coingecko_score: 36.997
-community_score: 9.841
+coingecko_rank: 221
+coingecko_score: 36.548
+community_score: 9.836
 description: >-
   Akropolis is a provider of decentralized finance products with an emphasis on asset yield generation.
   Our mission is to give users (both new and crypto-native) the tools to save, grow and provision for
@@ -39,7 +39,7 @@ description: >-
   In this way, Akropolis acts as a one-stop-shop for decentralized savings and high-yield accounts. We
   believe that our products and services will enable retail and institutional clients alike to quickly
   and easily onboard into decentralized finance.
-developer_score: 45.374
+developer_score: 45.373
 id: akropolis
 image:
   large: https://assets.coingecko.com/coins/images/3328/large/Akropolis.png?1547037929
@@ -65,17 +65,12 @@ links:
     - https://github.com/akropolisio/akropolisOS
   telegram_channel_identifier: akropolis_official
   twitter_screen_name: akropolisio
-liquidity_score: 49.546
-market_cap_rank: 323
+liquidity_score: 47.512
+market_cap_rank: 336
 name: Akropolis
 public_interest_score: 0.0
 symbol: akro
 tickers:
-- base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
-  market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
 - base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
   market:
     identifier: balancer
@@ -88,21 +83,31 @@ tickers:
   target: USDT
 - base: AKRO
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
-- base: AKRO
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: AKRO
   market:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
+- base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: AKRO
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
+- base: AKRO
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

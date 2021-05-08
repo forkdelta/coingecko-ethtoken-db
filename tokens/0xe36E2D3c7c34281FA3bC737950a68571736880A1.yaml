@@ -1,8 +1,8 @@
 ---
 address: '0xe36E2D3c7c34281FA3bC737950a68571736880A1'
-coingecko_rank: 2401
-coingecko_score: 12.679
-community_score: 10.906
+coingecko_rank: 2359
+coingecko_score: 12.891
+community_score: 10.905
 description: >-
   Synth sADA by Synthetix
 
@@ -27,8 +27,18 @@ links:
     - https://github.com/Synthetixio
   twitter_screen_name: synthetix_io
 liquidity_score: 1.0
-market_cap_rank: 1807
+market_cap_rank: 1742
 name: sADA
 public_interest_score: 0.0
 symbol: sada
-tickers: []
+tickers:
+- base: SADA
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SAAVE
+- base: SADA
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH

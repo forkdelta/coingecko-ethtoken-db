@@ -1,8 +1,8 @@
 ---
 address: '0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0'
-coingecko_rank: 597
-coingecko_score: 26.627
-community_score: 9.186
+coingecko_rank: 539
+coingecko_score: 27.571
+community_score: 9.206
 description: >-
   Smart contracts on Ethereum are fully self contained and any information or access to off-chain data
   is restricted.  Tellor solves this problem by creating a system where parties can request the value
@@ -36,8 +36,8 @@ links:
     - https://github.com/tellor-io/TellorCore
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
-liquidity_score: 55.319
-market_cap_rank: 312
+liquidity_score: 59.055
+market_cap_rank: 293
 name: Tellor
 public_interest_score: 0.0
 symbol: trb
@@ -49,16 +49,31 @@ tickers:
   target: PAX
 - base: TRB
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
 - base: TRB
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: TRB
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
+- base: TRB
+  market:
+    identifier: floatsv
+    name: Float SV
   target: USDT
 - base: TRB
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
+- base: TRB
+  market:
+    identifier: vitex
+    name: ViteX
+  target: BTC

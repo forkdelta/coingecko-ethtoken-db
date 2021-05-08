@@ -1,8 +1,8 @@
 ---
 address: '0xc12d099be31567add4e4e4d0D45691C3F58f5663'
-coingecko_rank: 364
-coingecko_score: 31.258
-community_score: 17.981
+coingecko_rank: 330
+coingecko_score: 32.379
+community_score: 26.593
 description: >-
   Auctus is a decentralized options protocol. Users can mint call and put options for different markets
   at different strike prices, and trade options in a trustless and decentralized manner without having
@@ -18,7 +18,7 @@ description: >-
 
 
   Auctus currently offers an options DEX, options AMM, OTC options, and automated options vault strategies.
-developer_score: 61.639
+developer_score: 59.383
 id: auctus
 image:
   large: https://assets.coingecko.com/coins/images/2165/large/Auc_Discord_Avatar1.png?1618983355
@@ -27,7 +27,6 @@ image:
 links:
   announcement_url:
   - https://medium.com/auctus
-  bitcointalk_thread_identifier: 2059117
   blockchain_site:
   - https://etherscan.io/token/0xc12d099be31567add4e4e4d0D45691C3F58f5663
   - https://ethplorer.io/address/0xc12d099be31567add4e4e4d0D45691C3F58f5663
@@ -42,14 +41,19 @@ links:
     - https://github.com/AuctusProject/aco
     - https://github.com/AuctusProject/dpiggy
   subreddit_url: https://www.reddit.com/r/AuctusProject/
-  telegram_channel_identifier: auctusproject
-  twitter_screen_name: AuctusProject
-liquidity_score: 1.575
-market_cap_rank: 1066
+  telegram_channel_identifier: auctusoptions
+  twitter_screen_name: AuctusOptions
+liquidity_score: 0.384
+market_cap_rank: 1127
 name: Auctus
 public_interest_score: 0.0
 symbol: auc
 tickers:
+- base: 0XC12D099BE31567ADD4E4E4D0D45691C3F58F5663
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: 0XC12D099BE31567ADD4E4E4D0D45691C3F58F5663
   market:
     identifier: balancer
@@ -59,4 +63,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: AUC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: 0XC12D099BE31567ADD4E4E4D0D45691C3F58F5663
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH

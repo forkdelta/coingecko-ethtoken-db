@@ -1,10 +1,10 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
 coingecko_rank: 200
-coingecko_score: 37.688
-community_score: 23.676
+coingecko_score: 37.463
+community_score: 23.647
 description: ""
-developer_score: 50.49
+developer_score: 50.487
 id: gnosis
 image:
   large: https://assets.coingecko.com/coins/images/662/large/logo_square_simple_300px.png?1609402668
@@ -32,12 +32,22 @@ links:
     - https://github.com/gnosis/safe-react/
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: https://twitter.com/gnosisPM
-liquidity_score: 28.336
-market_cap_rank: 204
+liquidity_score: 26.793
+market_cap_rank: 184
 name: Gnosis
 public_interest_score: 0.0
 symbol: gno
 tickers:
+- base: GNO
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: GNO
+  market:
+    identifier: bitcratic
+    name: Bitcratic
+  target: ETH
 - base: GNO
   market:
     identifier: bitfinex
@@ -47,41 +57,16 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: GNO
-  market:
-    identifier: hotbit
-    name: Hotbit
   target: BTC
 - base: GNO
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
-- base: GNO
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
 - base: GNO
   market:
     identifier: kyber_network
     name: Kyber Network
-  target: ETH
-- base: GNO
-  market:
-    identifier: loopring_amm
-    name: Loopring AMM
-  target: ETH
-- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
-- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
-  market:
-    identifier: one_inch
-    name: 1inch
   target: ETH
 - base: GNO
   market:
@@ -93,6 +78,16 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
+- base: GNO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: GNO
   market:
     identifier: yobit

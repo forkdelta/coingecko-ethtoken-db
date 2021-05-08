@@ -1,8 +1,8 @@
 ---
 address: '0xF83301c5Cd1CCBB86f466A6B3c53316ED2f8465a'
-coingecko_rank: 3700
-coingecko_score: 5.512
-community_score: 24.147
+coingecko_rank: 3768
+coingecko_score: 5.506
+community_score: 24.117
 description: ""
 developer_score: 0.0
 id: comsa
@@ -34,7 +34,7 @@ tickers:
   target: ETH
 - base: 0XF83301C5CD1CCBB86F466A6B3C53316ED2F8465A
   market:
-    identifier: uniswap
+    identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH
 - base: CMS
@@ -42,6 +42,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: CMS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: CMS
   market:
     identifier: yobit

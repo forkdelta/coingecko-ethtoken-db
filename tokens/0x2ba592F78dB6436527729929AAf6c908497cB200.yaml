@@ -1,8 +1,8 @@
 ---
 address: '0x2ba592F78dB6436527729929AAf6c908497cB200'
-coingecko_rank: 784
-coingecko_score: 24.09
-community_score: 10.014
+coingecko_rank: 799
+coingecko_score: 23.95
+community_score: 10.049
 description: ""
 developer_score: 0.0
 id: cream-2
@@ -22,27 +22,17 @@ links:
   - https://cream.finance/
   telegram_channel_identifier: CreamdotFinance
   twitter_screen_name: CreamdotFinance
-liquidity_score: 42.412
-market_cap_rank: 352
+liquidity_score: 42.266
+market_cap_rank: 401
 name: Cream
 public_interest_score: 0.0
 symbol: cream
 tickers:
 - base: CREAM
   market:
-    identifier: burgerswap
-    name: BurgerSwap
-  target: BURGER
-- base: CREAM
-  market:
-    identifier: burgerswap
-    name: BurgerSwap
-  target: BUSD
-- base: CREAM
-  market:
-    identifier: burgerswap
-    name: BurgerSwap
-  target: WBNB
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: CREAM
   market:
     identifier: cex
@@ -52,11 +42,6 @@ tickers:
   market:
     identifier: cex
     name: CEX.IO
-  target: USDT
-- base: CREAM
-  market:
-    identifier: hotbit
-    name: Hotbit
   target: USDT
 - base: 0X2BA592F78DB6436527729929AAF6C908497CB200
   market:
@@ -67,4 +52,14 @@ tickers:
   market:
     identifier: serum_dex
     name: Serum DEX
+  target: USDC
+- base: CREAM
+  market:
+    identifier: serum_dex
+    name: Serum DEX
   target: USDT
+- base: CREAM
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

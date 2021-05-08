@@ -1,8 +1,8 @@
 ---
 address: '0x5150956E082C748Ca837a5dFa0a7C10CA4697f9c'
-coingecko_rank: 1617
-coingecko_score: 17.325
-community_score: 8.843
+coingecko_rank: 1612
+coingecko_score: 17.418
+community_score: 8.818
 description: >-
   ZDEX is the Native Token for Zeedex Exchange. It will be used for Fees Deduction on Trades, IDEOs Initial
   Decentralized Exchange Offerings, Staking and Lending on Zeedex Platform.
@@ -23,9 +23,19 @@ links:
     - https://github.com/zeedexio
   telegram_channel_identifier: zeedexio
   twitter_screen_name: Zeedexio
-liquidity_score: 22.319
-market_cap_rank: 1353
+liquidity_score: 22.586
+market_cap_rank: 1445
 name: Zeedex
 public_interest_score: 0.0
 symbol: zdex
-tickers: []
+tickers:
+- base: ZDEX
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: ZDEX
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

@@ -1,8 +1,8 @@
 ---
 address: '0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f'
-coingecko_rank: 887
-coingecko_score: 22.871
-community_score: 20.131
+coingecko_rank: 976
+coingecko_score: 21.994
+community_score: 20.248
 description: >-
   A DeFi powered Blockchain game with yield generating NFT.
 developer_score: 0.0
@@ -26,9 +26,19 @@ links:
   subreddit_url: https://www.reddit.com/r/cometh/
   telegram_channel_identifier: cometh_io
   twitter_screen_name: MUSTCometh
-liquidity_score: 30.85
-market_cap_rank: 797
+liquidity_score: 27.252
+market_cap_rank: 900
 name: Must
 public_interest_score: 0.0
 symbol: must
-tickers: []
+tickers:
+- base: 0X9C78EE466D6CB57A4D01FD887D2B5DFB2D46288F
+  market:
+    identifier: quickswap
+    name: Quickswap
+  target: ETH
+- base: 0X9C78EE466D6CB57A4D01FD887D2B5DFB2D46288F
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

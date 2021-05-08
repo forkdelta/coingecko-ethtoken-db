@@ -1,7 +1,7 @@
 ---
 address: '0x07150e919B4De5fD6a63DE1F9384828396f25fDC'
-coingecko_rank: 2559
-coingecko_score: 11.893
+coingecko_rank: 2623
+coingecko_score: 11.69
 community_score: 0.0
 description: >-
   Base Protocol (BASE) is a token whose price is pegged to the total market cap of all cryptocurrencies
@@ -28,9 +28,24 @@ links:
     - https://github.com/Base-Protocol
   telegram_channel_identifier: baseprotocol
   twitter_screen_name: baseprotocol
-liquidity_score: 6.756
-market_cap_rank: 1586
+liquidity_score: 4.462
+market_cap_rank: 1494
 name: Base Protocol
 public_interest_score: 0.0
 symbol: base
-tickers: []
+tickers:
+- base: BASE
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0X07150E919B4DE5FD6A63DE1F9384828396F25FDC
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: USDT
+- base: 0X07150E919B4DE5FD6A63DE1F9384828396F25FDC
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

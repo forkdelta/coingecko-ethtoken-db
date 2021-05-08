@@ -1,7 +1,7 @@
 ---
 address: '0x0Ae055097C6d159879521C384F1D2123D1f195e6'
-coingecko_rank: 949
-coingecko_score: 22.37
+coingecko_rank: 1011
+coingecko_score: 21.68
 community_score: 9.174
 description: >-
   STAKE is a new ERC20-type (implemented as an ERC677) token designed to secure the on-chain payment layer
@@ -28,12 +28,17 @@ links:
     - https://github.com/xdaichain/stake-token
   telegram_channel_identifier: xdaistable
   twitter_screen_name: xdaichain
-liquidity_score: 35.226
-market_cap_rank: 406
+liquidity_score: 32.169
+market_cap_rank: 408
 name: xDAI Stake
 public_interest_score: 0.0
 symbol: stake
 tickers:
+- base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
+  market:
+    identifier: balancer
+    name: Balancer
+  target: ETH
 - base: STAKE
   market:
     identifier: bamboo_relay
@@ -41,14 +46,19 @@ tickers:
   target: WETH
 - base: STAKE
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
+    identifier: btse
+    name: BTSE
+  target: USD
 - base: STAKE
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: hbtc
+    name: BHEX
   target: USDT
+- base: STAKE
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
   market:
     identifier: mooniswap

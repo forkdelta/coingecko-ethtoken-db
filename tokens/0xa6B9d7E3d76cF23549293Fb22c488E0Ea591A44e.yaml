@@ -1,13 +1,13 @@
 ---
 address: '0xa6B9d7E3d76cF23549293Fb22c488E0Ea591A44e'
-coingecko_rank: 1420
-coingecko_score: 18.704
-community_score: 9.352
+coingecko_rank: 1451
+coingecko_score: 18.509
+community_score: 9.336
 description: >-
   uGAS is a synthetic token that tracks gas prices for transactions on the Ethereum blockchain, more specifically
   30 day median gas prices. The synthetic is built by YAM's degenerative.finance platform and uses UMA's
   Expiring Multi Party (EMP) smart contract template.
-developer_score: 65.787
+developer_score: 65.82
 id: ugas-jun21
 image:
   large: https://assets.coingecko.com/coins/images/14439/large/uGAS_Logo_200x200.png?1616064129
@@ -27,9 +27,14 @@ links:
     github:
     - https://github.com/yam-finance/degenerative
   twitter_screen_name: yamfinance
-liquidity_score: 1.0
+liquidity_score: 0.0
 market_cap_rank: null
 name: uGAS-JUN21 Token Expiring 30 Jun 2021
 public_interest_score: 0.0
 symbol: ugas-jun21
-tickers: []
+tickers:
+- base: 0XA6B9D7E3D76CF23549293FB22C488E0EA591A44E
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

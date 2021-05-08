@@ -1,8 +1,8 @@
 ---
 address: '0xba100000625a3754423978a60c9317c58a424e3D'
-coingecko_rank: 130
-coingecko_score: 42.94
-community_score: 10.499
+coingecko_rank: 135
+coingecko_score: 43.065
+community_score: 10.492
 description: >-
   Balancer is a non-custodial portfolio manager, liquidity provider, and price sensor
 
@@ -42,27 +42,22 @@ links:
     - https://github.com/balancer-labs/balancer-sor
     - https://github.com/balancer-labs/pool-management
   twitter_screen_name: BalancerLabs
-liquidity_score: 55.064
+liquidity_score: 55.39
 market_cap_rank: 132
 name: Balancer
 public_interest_score: 0.0
 symbol: bal
 tickers:
-- base: BAL
+- base: 0XBA100000625A3754423978A60C9317C58A424E3D
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: EUR
+    identifier: balancer
+    name: Balancer
+  target: DAI
 - base: BAL
   market:
     identifier: cex
     name: CEX.IO
-  target: ETH
-- base: 0XBA100000625A3754423978A60C9317C58A424E3D
-  market:
-    identifier: defi_swap
-    name: DeFi Swap
-  target: ETH
+  target: USDT
 - base: BAL
   market:
     identifier: deversifi
@@ -70,31 +65,16 @@ tickers:
   target: USDT
 - base: BAL
   market:
-    identifier: emirex
-    name: Emirex
-  target: BTC
-- base: BAL
-  market:
-    identifier: emirex
-    name: Emirex
-  target: USDT
-- base: BAL
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: BAL
-  market:
-    identifier: kraken
-    name: Kraken
+    identifier: dove_wallet
+    name: Dove Wallet
   target: ETH
 - base: BAL
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
-  target: ETH
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
 - base: BAL
   market:
-    identifier: stocks_exchange
-    name: STEX
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x2DBd330bC9B7f3A822a9173aB52172BdDDcAcE2A'
-coingecko_rank: 5992
-coingecko_score: 1.034
-community_score: 4.701
+coingecko_rank: 5956
+coingecko_score: 1.232
+community_score: 4.693
 description: >-
   The YFED platform will feature a decentralized exchange where users can easily swap token pairs at a
   reduced fee.
@@ -25,9 +25,14 @@ links:
     - https://github.com/YFED-FINANCE
   telegram_channel_identifier: YFEDGROUP
   twitter_screen_name: FinanceYfed
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: YFED.Finance
 public_interest_score: 0.0
 symbol: yfed
-tickers: []
+tickers:
+- base: 0X2DBD330BC9B7F3A822A9173AB52172BDDDCACE2A
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

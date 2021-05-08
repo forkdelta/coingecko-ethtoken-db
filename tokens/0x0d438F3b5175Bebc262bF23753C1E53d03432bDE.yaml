@@ -1,8 +1,8 @@
 ---
 address: '0x0d438F3b5175Bebc262bF23753C1E53d03432bDE'
-coingecko_rank: 652
-coingecko_score: 25.88
-community_score: 9.497
+coingecko_rank: 679
+coingecko_score: 25.39
+community_score: 9.495
 description: >-
   NXM token itself is created solely for internal use within the Nexus Mutual protocol and all of its
   holders must go through KYC. As such, a wrapped version is created to allow more users to own the token
@@ -26,8 +26,8 @@ links:
   homepage:
   - https://nexusmutual.io/
   twitter_screen_name: NexusMutual
-liquidity_score: 50.269
-market_cap_rank: 286
+liquidity_score: 47.396
+market_cap_rank: 274
 name: Wrapped NXM
 public_interest_score: 0.0
 symbol: wnxm
@@ -36,16 +36,26 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: NGN
+- base: WNXM
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: PAX
 - base: WNXM
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
+- base: WNXM
+  market:
+    identifier: emirex
+    name: Emirex
   target: BTC
 - base: WNXM
   market:
-    identifier: hotbit
-    name: Hotbit
+    identifier: emirex
+    name: Emirex
   target: USDT
 - base: WNXM
   market:
@@ -64,23 +74,18 @@ tickers:
   target: ETH
 - base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
   target: ETH
 - base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
   market:
     identifier: paraswap
     name: Paraswap
-  target: ETH
-- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
+  target: USDT
+- base: WNXM
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
-- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
-  market:
-    identifier: paraswap
-    name: Paraswap
+    identifier: poloniex
+    name: Poloniex
   target: USDT
 - base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
   market:
