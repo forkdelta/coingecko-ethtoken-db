@@ -29,8 +29,18 @@ links:
   telegram_channel_identifier: WOMProtocolChat
   twitter_screen_name: WOMProtocol
 liquidity_score: 22.599
-market_cap_rank: 791
+market_cap_rank: 828
 name: WOM Protocol
 public_interest_score: 0.0
 symbol: wom
-tickers: []
+tickers:
+- base: WOM
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: WOM
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC

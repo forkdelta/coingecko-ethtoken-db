@@ -32,11 +32,16 @@ links:
   telegram_channel_identifier: Ampleforth
   twitter_screen_name: ampleforthorg
 liquidity_score: 35.116
-market_cap_rank: 146
+market_cap_rank: 164
 name: Ampleforth
 public_interest_score: 0.0
 symbol: ampl
 tickers:
+- base: AMPL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: AMPL
   market:
     identifier: kyber_network
@@ -44,11 +49,26 @@ tickers:
   target: ETH
 - base: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
   market:
-    identifier: one_inch_liquidity_protocol
-    name: 1inch Liquidity Protocol
+    identifier: mooniswap
+    name: Mooniswap
   target: ETH
 - base: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
   market:
-    identifier: paraswap
-    name: Paraswap
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
   target: ETH
+- base: USDC
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
+- base: ETH
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
+- base: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDT

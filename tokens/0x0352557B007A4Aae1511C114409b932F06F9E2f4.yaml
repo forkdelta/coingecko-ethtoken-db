@@ -1,6 +1,6 @@
 ---
 address: '0x0352557B007A4Aae1511C114409b932F06F9E2f4'
-coingecko_rank: 4326
+coingecko_rank: 4317
 coingecko_score: 3.758
 community_score: 10.907
 description: >-
@@ -25,4 +25,14 @@ market_cap_rank: null
 name: sRUNE
 public_interest_score: 0.0
 symbol: srune
-tickers: []
+tickers:
+- base: SRUNE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: SYFI
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SRUNE

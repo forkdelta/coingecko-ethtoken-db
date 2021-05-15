@@ -44,30 +44,55 @@ links:
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
 liquidity_score: 64.573
-market_cap_rank: 76
+market_cap_rank: 75
 name: Fantom
 public_interest_score: 0.0
 symbol: ftm
 tickers:
 - base: FTM
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
+    identifier: anyswap
+    name: Anyswap
+  target: USDT
+- base: FTM
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: FTM
+  market:
+    identifier: coinpark
+    name: Coinpark
+  target: USDT
 - base: FTM
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: NGN
+  target: EUR
+- base: FTM
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
+- base: FTM
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDT
 - base: FTM
   market:
     identifier: tokenlon
     name: Tokenlon
   target: ETH
+- base: 0X4E15361FD6B4BB609FA63C81A2BE19D873717870
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: DAI
 - base: FTM
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: vcc
+    name: VCC Exchange
   target: BTC
 - base: FTM
   market:
@@ -79,23 +104,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: FTM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: FTM
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

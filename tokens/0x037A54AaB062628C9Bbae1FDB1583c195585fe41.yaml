@@ -44,7 +44,7 @@ links:
   telegram_channel_identifier: JoinLCX
   twitter_screen_name: lcx
 liquidity_score: 23.776
-market_cap_rank: 673
+market_cap_rank: 690
 name: LCX
 public_interest_score: 0.0
 symbol: lcx
@@ -61,6 +61,26 @@ tickers:
   target: USDT
 - base: LCX
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: LCX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: LCX
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: LCX
+  market:
     identifier: probit
     name: ProBit
   target: KRW
@@ -69,3 +89,18 @@ tickers:
     identifier: quoine
     name: Liquid
   target: ETH
+- base: LCX
+  market:
+    identifier: quoine
+    name: Liquid
+  target: USDC
+- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDC

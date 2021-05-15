@@ -34,18 +34,23 @@ links:
   telegram_channel_identifier: badger_dao
   twitter_screen_name: badgerdao
 liquidity_score: 46.367
-market_cap_rank: 226
+market_cap_rank: 235
 name: Badger DAO
 public_interest_score: 0.0
 symbol: badger
 tickers:
-- base: 0X3472A5A71965499ACD81997A54BBA8D852C6E53D
+- base: BADGER
   market:
-    identifier: paraswap
-    name: Paraswap
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: BADGER
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: BADGER
   market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

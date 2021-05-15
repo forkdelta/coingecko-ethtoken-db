@@ -79,11 +79,16 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 37.254
-market_cap_rank: 146
+market_cap_rank: 164
 name: Golem
 public_interest_score: 0.0
 symbol: glm
 tickers:
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: BTC
 - base: GNT
   market:
     identifier: bitbay
@@ -99,11 +104,26 @@ tickers:
     identifier: bitbay
     name: BitBay
   target: USD
+- base: GNT
+  market:
+    identifier: bitbns
+    name: BitBNS
+  target: INR
 - base: GLM
   market:
     identifier: bitrue
     name: Bitrue
   target: BTC
+- base: GNT
+  market:
+    identifier: braziliex
+    name: Braziliex
+  target: BTC
+- base: GLM
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: GLM
   market:
     identifier: huobi_korea
@@ -114,16 +134,16 @@ tickers:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
-- base: GNT
+- base: GLM
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: vcc
+    name: VCC Exchange
   target: BTC
-- base: GNT
+- base: GLM
   market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH
 - base: GNT
   market:
     identifier: yobit
@@ -134,11 +154,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: GNT
   market:
     identifier: yobit

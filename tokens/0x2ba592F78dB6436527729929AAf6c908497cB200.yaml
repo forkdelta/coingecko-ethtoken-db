@@ -23,11 +23,16 @@ links:
   telegram_channel_identifier: CreamdotFinance
   twitter_screen_name: CreamdotFinance
 liquidity_score: 42.266
-market_cap_rank: 401
+market_cap_rank: 382
 name: Cream
 public_interest_score: 0.0
 symbol: cream
 tickers:
+- base: CREAM
+  market:
+    identifier: anyswap
+    name: Anyswap
+  target: BNB
 - base: CREAM
   market:
     identifier: bamboo_relay
@@ -43,23 +48,8 @@ tickers:
     identifier: cex
     name: CEX.IO
   target: USDT
-- base: 0X2BA592F78DB6436527729929AAF6C908497CB200
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
-- base: CREAM
-  market:
-    identifier: serum_dex
-    name: Serum DEX
-  target: USDC
 - base: CREAM
   market:
     identifier: serum_dex
     name: Serum DEX
   target: USDT
-- base: CREAM
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

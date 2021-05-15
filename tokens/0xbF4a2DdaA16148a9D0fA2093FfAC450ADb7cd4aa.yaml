@@ -1,6 +1,6 @@
 ---
 address: '0xbF4a2DdaA16148a9D0fA2093FfAC450ADb7cd4aa'
-coingecko_rank: 5452
+coingecko_rank: 5437
 coingecko_score: 1.66
 community_score: 6.638
 description: >-
@@ -30,11 +30,26 @@ symbol: ethmny
 tickers:
 - base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
   market:
-    identifier: balancer
-    name: Balancer
-  target: DAI
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X1F9840A85D5AF5BF1D1762F925BDADDC4201F984
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
+- base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

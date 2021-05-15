@@ -1,6 +1,6 @@
 ---
 address: '0xd2dF355C19471c8bd7D8A3aa27Ff4e26A21b4076'
-coingecko_rank: 3592
+coingecko_rank: 3586
 coingecko_score: 6.324
 community_score: 10.906
 description: >-
@@ -29,6 +29,11 @@ name: sAAVE
 public_interest_score: 0.0
 symbol: saave
 tickers:
+- base: SAAVE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: IBTC
 - base: SADA
   market:
     identifier: synthetix
@@ -39,8 +44,3 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
-- base: SAAVE
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SYFI

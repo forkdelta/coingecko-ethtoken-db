@@ -82,24 +82,19 @@ symbol: gusd
 tickers:
 - base: GUSD
   market:
-    identifier: curve
-    name: Curve Finance
-  target: USDT
-- base: BTC
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
+    identifier: crex24
+    name: CREX24
+  target: BTC
 - base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
   target: GUSD
-- base: 0X056FD409E1D7A124BD7017459DFEA2F387B6D5CD
+- base: EOS
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
 - base: GUSD
   market:
     identifier: therocktrading
@@ -110,8 +105,3 @@ tickers:
     identifier: therocktrading
     name: TheRockTrading
   target: GUSD
-- base: GUSD
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

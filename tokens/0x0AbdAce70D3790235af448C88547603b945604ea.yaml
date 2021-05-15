@@ -70,18 +70,28 @@ links:
   subreddit_url: https://www.reddit.com/r/district0x
   twitter_screen_name: district0x
 liquidity_score: 48.787
-market_cap_rank: 246
+market_cap_rank: 259
 name: district0x
 public_interest_score: 0.0
 symbol: dnt
 tickers:
 - base: 0X0ABDACE70D3790235AF448C88547603B945604EA
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
 - base: DNT
   market:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
+- base: 0X0ABDACE70D3790235AF448C88547603B945604EA
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: DNT
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

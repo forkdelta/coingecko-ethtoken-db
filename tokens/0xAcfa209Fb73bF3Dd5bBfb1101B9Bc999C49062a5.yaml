@@ -1,6 +1,6 @@
 ---
 address: '0xAcfa209Fb73bF3Dd5bBfb1101B9Bc999C49062a5'
-coingecko_rank: 2285
+coingecko_rank: 2284
 coingecko_score: 13.367
 community_score: 7.376
 description: >-
@@ -20,6 +20,7 @@ links:
   announcement_url:
   - https://medium.com/bcdiploma
   blockchain_site:
+  - https://bscscan.com/token/0x8683e604cdf911cd72652a04bf9d571697a86a60#balances
   - https://etherscan.io/token/0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5
   - https://ethplorer.io/address/0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5
   homepage:
@@ -27,21 +28,21 @@ links:
   telegram_channel_identifier: BCDiploma
   twitter_screen_name: 'MyEvidenZ '
 liquidity_score: 1.0
-market_cap_rank: 1149
+market_cap_rank: 1182
 name: Blockchain Certified Data Token
 public_interest_score: 0.0
 symbol: bcdt
 tickers:
 - base: 0XACFA209FB73BF3DD5BBFB1101B9BC999C49062A5
   market:
-    identifier: balancer
-    name: Balancer
-  target: DAI
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0XACFA209FB73BF3DD5BBFB1101B9BC999C49062A5
   market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
 - base: BCDT
   market:
     identifier: idex
@@ -52,8 +53,8 @@ tickers:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
-- base: 0XACFA209FB73BF3DD5BBFB1101B9BC999C49062A5
+- base: 0X8683E604CDF911CD72652A04BF9D571697A86A60
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD

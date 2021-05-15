@@ -58,8 +58,28 @@ links:
   telegram_channel_identifier: stormxapp
   twitter_screen_name: stormxio
 liquidity_score: 52.811
-market_cap_rank: 164
+market_cap_rank: 174
 name: StormX
 public_interest_score: 0.0
 symbol: stmx
-tickers: []
+tickers:
+- base: STMX
+  market:
+    identifier: chainex
+    name: ChainEX
+  target: BTC
+- base: STMX
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: STMX
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: STMX
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: ETH

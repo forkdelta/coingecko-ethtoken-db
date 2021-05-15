@@ -29,11 +29,26 @@ links:
   telegram_channel_identifier: SALTLendingDiscussion
   twitter_screen_name: SALTLending
 liquidity_score: 10.52
-market_cap_rank: 477
+market_cap_rank: 524
 name: SALT
 public_interest_score: 0.0
 symbol: salt
 tickers:
+- base: SALT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: SALT
+  market:
+    identifier: huobi
+    name: Huobi Global
+  target: BTC
+- base: SALT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: 0X4156D3342D5C385A87D264F90653733592000581
   market:
     identifier: one_inch
@@ -44,18 +59,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: SALT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: SALT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: SALT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

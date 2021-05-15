@@ -31,21 +31,16 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 30.023
-market_cap_rank: 617
+market_cap_rank: 619
 name: STASIS EURO
 public_interest_score: 0.0
 symbol: eurs
 tickers:
-- base: EUS
+- base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
   market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: BTC
-- base: EUS
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
+    identifier: dmm
+    name: DMM
+  target: ETH
 - base: EURS
   market:
     identifier: hitbtc
@@ -56,12 +51,17 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EOSDT
-- base: DASH
+- base: ZEC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: NEO
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: ETH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -71,15 +71,55 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: ZEC
+- base: LTC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BOX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: NEO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
 - base: EURS
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: hitbtc
+    name: HitBTC
+  target: TUSD
+- base: EURS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: USDT
+  market:
+    identifier: nice_hash
+    name: NiceHash
+  target: EURS
+- base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
   market:
@@ -91,21 +131,6 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: USDT
-- base: EURS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: EURS
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: EURS
   market:
     identifier: zero_ex

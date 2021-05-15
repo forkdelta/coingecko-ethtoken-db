@@ -1,6 +1,6 @@
 ---
 address: '0x9b53E429B0baDd98ef7F01F03702986c516a5715'
-coingecko_rank: 2001
+coingecko_rank: 2000
 coingecko_score: 15.053
 community_score: 7.85
 description: >-
@@ -28,11 +28,16 @@ links:
   telegram_channel_identifier: hybrixgroup
   twitter_screen_name: hybrix_io
 liquidity_score: 6.953
-market_cap_rank: 948
+market_cap_rank: 941
 name: Hybrix
 public_interest_score: 0.0
 symbol: hy
 tickers:
+- base: HY
+  market:
+    identifier: biki
+    name: BiKi
+  target: USDT
 - base: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
   market:
     identifier: one_inch
@@ -43,3 +48,8 @@ tickers:
     identifier: tomodex
     name: TomoDEX
   target: USDT
+- base: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

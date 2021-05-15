@@ -1,6 +1,6 @@
 ---
 address: '0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F'
-coingecko_rank: 2493
+coingecko_rank: 2491
 coingecko_score: 12.3
 community_score: 36.722
 description: >-
@@ -35,6 +35,21 @@ name: Bitpanda Ecosystem Token
 public_interest_score: 0.0
 symbol: best
 tickers:
+- base: BEST
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: BEST
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: 0X1B073382E63411E3BCFFE90AC1B9A43FEFA1EC6F
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
 - base: 0X1B073382E63411E3BCFFE90AC1B9A43FEFA1EC6F
   market:
     identifier: uniswap_v2

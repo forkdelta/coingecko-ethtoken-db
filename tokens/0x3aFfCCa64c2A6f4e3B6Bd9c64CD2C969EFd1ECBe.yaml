@@ -38,18 +38,33 @@ links:
   telegram_channel_identifier: stacktical
   twitter_screen_name: stacktical
 liquidity_score: 25.468
-market_cap_rank: 404
+market_cap_rank: 439
 name: DSLA Protocol
 public_interest_score: 0.0
 symbol: dsla
 tickers:
+- base: 0X3AFFCCA64C2A6F4E3B6BD9C64CD2C969EFD1ECBE
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: DSLA
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: DSLA
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: DSLA
   market:
     identifier: probit
     name: ProBit
   target: USDT
-- base: 0XA0E390E9CEA0D0E8CD40048CED9FA9EA10D71639
+- base: DSLA
   market:
-    identifier: quickswap
-    name: Quickswap
+    identifier: stocks_exchange
+    name: STEX
   target: ETH

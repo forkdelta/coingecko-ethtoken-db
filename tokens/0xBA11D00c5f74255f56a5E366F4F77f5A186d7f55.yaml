@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 61.118
-market_cap_rank: 143
+market_cap_rank: 152
 name: Band Protocol
 public_interest_score: 0.0
 symbol: band
@@ -42,9 +42,24 @@ tickers:
   target: WETH
 - base: BAND
   market:
+    identifier: bit_z
+    name: BitZ
+  target: USDT
+- base: BAND
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: EUR
+- base: BAND
+  market:
     identifier: cex
     name: CEX.IO
   target: ETH
+- base: BAND
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
 - base: BAND
   market:
     identifier: coinflex
@@ -54,12 +69,42 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: ETH
+- base: BAND
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: BAND
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: KRW
+- base: BAND
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: PAX
 - base: BAND
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: TUSD
+- base: BAND
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: USDC
+- base: BAND
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
   market:
     identifier: sakeswap
@@ -67,11 +112,16 @@ tickers:
   target: ETH
 - base: BAND
   market:
-    identifier: secretswap
-    name: SecretSwap
-  target: SCRT
-- base: BAND
-  market:
     identifier: stocks_exchange
     name: STEX
   target: USDT
+- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: BAND
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

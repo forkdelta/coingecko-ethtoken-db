@@ -34,30 +34,15 @@ links:
   telegram_channel_identifier: alephim
   twitter_screen_name: aleph_im
 liquidity_score: 23.42
-market_cap_rank: 657
+market_cap_rank: 656
 name: Aleph.im
 public_interest_score: 0.0
 symbol: aleph
 tickers:
 - base: 0X27702A26126E0B3702AF63EE09AC4D1A084EF628
   market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
-- base: ALEPH
-  market:
-    identifier: beaxy
-    name: Beaxy
-  target: ETH
-- base: 0X27702A26126E0B3702AF63EE09AC4D1A084EF628
-  market:
-    identifier: dmm
-    name: DMM
-  target: ETH
-- base: ALEPH
-  market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
 - base: 0X27702A26126E0B3702AF63EE09AC4D1A084EF628
   market:
@@ -73,9 +58,14 @@ tickers:
   market:
     identifier: probit
     name: ProBit
-  target: BTC
+  target: USDT
 - base: ALEPH
   market:
     identifier: serum_dex
     name: Serum DEX
   target: USDT
+- base: 0X27702A26126E0B3702AF63EE09AC4D1A084EF628
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

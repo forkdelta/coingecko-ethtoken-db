@@ -1,6 +1,6 @@
 ---
 address: '0xaF1250fa68D7DECD34fD75dE8742Bc03B29BD58e'
-coingecko_rank: 2897
+coingecko_rank: 2895
 coingecko_score: 10.155
 community_score: 28.889
 description: >-
@@ -43,8 +43,8 @@ symbol: ihf
 tickers:
 - base: 0XAF1250FA68D7DECD34FD75DE8742BC03B29BD58E
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
 - base: IHF
   market:
@@ -55,4 +55,9 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0XAF1250FA68D7DECD34FD75DE8742BC03B29BD58E
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

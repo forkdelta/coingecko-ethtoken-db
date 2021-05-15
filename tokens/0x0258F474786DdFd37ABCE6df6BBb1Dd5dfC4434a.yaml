@@ -29,8 +29,28 @@ links:
   telegram_channel_identifier: orionprotocol
   twitter_screen_name: orion_protocol
 liquidity_score: 47.058
-market_cap_rank: 175
+market_cap_rank: 191
 name: Orion Protocol
 public_interest_score: 0.0
 symbol: orn
-tickers: []
+tickers:
+- base: 0X0258F474786DDFD37ABCE6DF6BBB1DD5DFC4434A
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X0258F474786DDFD37ABCE6DF6BBB1DD5DFC4434A
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: ORN
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: ORN
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

@@ -28,18 +28,23 @@ links:
   telegram_channel_identifier: chaingames
   twitter_screen_name: realchaingames
 liquidity_score: 22.291
-market_cap_rank: 458
+market_cap_rank: 413
 name: Chain Games
 public_interest_score: 0.0
 symbol: chain
 tickers:
 - base: CHAIN
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0X35DE111558F691F77F791FB0C08B2D6B931A9D47
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: CHAIN
+  market:
     identifier: probit
     name: ProBit
   target: BTC
-- base: 0XD55FCE7CDAB84D84F2EF3F99816D765A2A94A509
-  market:
-    identifier: quickswap
-    name: Quickswap
-  target: ETH

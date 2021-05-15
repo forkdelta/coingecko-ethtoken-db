@@ -16,6 +16,8 @@ links:
   announcement_url:
   - https://medium.com/opendao
   blockchain_site:
+  - https://bscscan.com/token/0xabae871b7e3b67aeec6b46ae9fe1a91660aadac5
+  - https://bscscan.com/token/0xf35262a9d427f96d2437379ef090db986eae5d42
   - https://etherscan.io/token/0x69e8b9528cabda89fe846c67675b5d73d463a916
   - https://ethplorer.io/address/0x69e8b9528cabda89fe846c67675b5d73d463a916
   chat_url:
@@ -29,8 +31,18 @@ links:
   telegram_channel_identifier: opendao
   twitter_screen_name: opendaoprotocol
 liquidity_score: 25.488
-market_cap_rank: 987
+market_cap_rank: 1038
 name: OPEN Governance Token
 public_interest_score: 0.0
 symbol: open
-tickers: []
+tickers:
+- base: 0XF35262A9D427F96D2437379EF090DB986EAE5D42
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0XF35262A9D427F96D2437379EF090DB986EAE5D42
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB

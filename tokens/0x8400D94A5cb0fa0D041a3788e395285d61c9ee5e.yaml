@@ -28,16 +28,21 @@ links:
   telegram_channel_identifier: Unibright_IO
   twitter_screen_name: Unibrightio
 liquidity_score: 28.52
-market_cap_rank: 226
+market_cap_rank: 220
 name: Unibright
 public_interest_score: 0.0
 symbol: ubt
 tickers:
 - base: 0X8400D94A5CB0FA0D041A3788E395285D61C9EE5E
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
+- base: UBT
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: UBT
   market:
     identifier: bitcratic
@@ -45,26 +50,11 @@ tickers:
   target: ETH
 - base: UBT
   market:
-    identifier: fatbtc
-    name: FatBTC
-  target: USDT
-- base: UBT
-  market:
     identifier: idex
     name: Idex
   target: ETH
 - base: UBT
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: secondbtc
+    name: SecondBTC
   target: ETH
-- base: 0X7FBC10850CAE055B27039AF31BD258430E714C62
-  market:
-    identifier: quickswap
-    name: Quickswap
-  target: ETH
-- base: UBT
-  market:
-    identifier: quoine
-    name: Liquid
-  target: BTC

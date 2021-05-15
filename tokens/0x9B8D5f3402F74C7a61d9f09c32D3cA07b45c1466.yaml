@@ -1,6 +1,6 @@
 ---
 address: '0x9B8D5f3402F74C7a61d9f09c32D3cA07b45c1466'
-coingecko_rank: 2866
+coingecko_rank: 2864
 coingecko_score: 10.363
 community_score: 7.596
 description: >-
@@ -41,6 +41,16 @@ symbol: gmr
 tickers:
 - base: GMR
   market:
+    identifier: braziliex
+    name: Braziliex
+  target: BTC
+- base: GMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: GMR
+  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -54,3 +64,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: GMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: GMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

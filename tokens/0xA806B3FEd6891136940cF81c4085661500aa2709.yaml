@@ -35,11 +35,16 @@ links:
   telegram_channel_identifier: snlgroup
   twitter_screen_name: snltoken
 liquidity_score: 17.853
-market_cap_rank: 580
+market_cap_rank: 536
 name: Sport and Leisure
 public_interest_score: 0.0
 symbol: snl
 tickers:
+- base: SNL
+  market:
+    identifier: catex
+    name: Catex
+  target: ETH
 - base: SNL
   market:
     identifier: etherflyer
@@ -55,3 +60,8 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: ETH
+- base: SNL
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

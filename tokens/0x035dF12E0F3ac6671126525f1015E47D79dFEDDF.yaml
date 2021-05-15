@@ -1,6 +1,6 @@
 ---
 address: '0x035dF12E0F3ac6671126525f1015E47D79dFEDDF'
-coingecko_rank: 5350
+coingecko_rank: 5336
 coingecko_score: 1.736
 community_score: 6.982
 description: >-
@@ -29,11 +29,6 @@ symbol: 0xmr
 tickers:
 - base: 0X035DF12E0F3AC6671126525F1015E47D79DFEDDF
   market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
-- base: 0X035DF12E0F3AC6671126525F1015E47D79DFEDDF
-  market:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
@@ -42,6 +37,11 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: 0X22A213852CEE93EB6D41601133414D180C5684C2
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
 - base: 0X035DF12E0F3AC6671126525F1015E47D79DFEDDF
   market:
     identifier: uniswap_v2

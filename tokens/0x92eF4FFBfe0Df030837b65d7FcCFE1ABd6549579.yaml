@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: swirgepay
   twitter_screen_name: swirgenetwork
 liquidity_score: 15.451
-market_cap_rank: 886
+market_cap_rank: 975
 name: Swirge
 public_interest_score: 0.0
 symbol: swg
-tickers: []
+tickers:
+- base: 0XE40255C5D7FA7CEEC5120408C78C787CECB4CFDB
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
+- base: 0X92EF4FFBFE0DF030837B65D7FCCFE1ABD6549579
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

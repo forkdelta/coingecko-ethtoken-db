@@ -30,23 +30,38 @@ links:
   telegram_channel_identifier: b0xNet
   twitter_screen_name: bzxHQ
 liquidity_score: 51.454
-market_cap_rank: 343
+market_cap_rank: 371
 name: bZx Protocol
 public_interest_score: 0.0
 symbol: bzrx
 tickers:
 - base: BZRX
   market:
+    identifier: coinone
+    name: Coinone
+  target: KRW
+- base: BZRX
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: 0X56D811088235F11C8920698A204A5010A788F4B3
+- base: BZRX
   market:
-    identifier: mooniswap
-    name: Mooniswap
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH
 - base: 0X56D811088235F11C8920698A204A5010A788F4B3
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: BZRX
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: BZRX
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

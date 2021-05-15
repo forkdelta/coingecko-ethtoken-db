@@ -27,23 +27,28 @@ links:
   telegram_channel_identifier: hakkafinance
   twitter_screen_name: hakkafinance
 liquidity_score: 24.787
-market_cap_rank: 865
+market_cap_rank: 903
 name: Hakka Finance
 public_interest_score: 0.0
 symbol: hakka
 tickers:
 - base: 0X35101C731B1548B5E48BB23F99EDBC2F5C341935
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: 0X0E29E5ABBB5FD88E28B2D355774E73BD47DE3BCD
 - base: HAKKA
   market:
     identifier: bilaxy
     name: Bilaxy
   target: ETH
+- base: 0X0E29E5ABBB5FD88E28B2D355774E73BD47DE3BCD
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0X1D1EB8E8293222E1A29D2C0E4CE6C0ACFD89AAAC
   market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: WBNB
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: BUSD

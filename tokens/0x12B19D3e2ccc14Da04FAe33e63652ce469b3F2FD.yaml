@@ -27,21 +27,16 @@ links:
   subreddit_url: https://www.reddit.com/r/GridPlus/
   twitter_screen_name: gridplus
 liquidity_score: 2.115
-market_cap_rank: 1057
+market_cap_rank: 1050
 name: GridPlus
 public_interest_score: 0.0
 symbol: grid
 tickers:
 - base: 0X12B19D3E2CCC14DA04FAE33E63652CE469B3F2FD
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
-- base: GRID
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: GRID
   market:
     identifier: loopring_amm
@@ -51,4 +46,9 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0X12B19D3E2CCC14DA04FAE33E63652CE469B3F2FD
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

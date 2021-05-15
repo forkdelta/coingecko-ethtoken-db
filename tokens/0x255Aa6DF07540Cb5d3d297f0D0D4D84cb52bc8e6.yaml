@@ -58,16 +58,21 @@ links:
   subreddit_url: https://www.reddit.com/r/raidennetwork
   twitter_screen_name: raiden_network
 liquidity_score: 23.608
-market_cap_rank: 490
+market_cap_rank: 542
 name: Raiden Network Token
 public_interest_score: 0.0
 symbol: rdn
 tickers:
 - base: 0X255AA6DF07540CB5D3D297F0D0D4D84CB52BC8E6
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
+- base: RDN
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: 0X255AA6DF07540CB5D3D297F0D0D4D84CB52BC8E6
   market:
     identifier: one_inch

@@ -76,23 +76,23 @@ links:
   telegram_channel_identifier: foamspace
   twitter_screen_name: foamspace
 liquidity_score: 5.916
-market_cap_rank: 749
+market_cap_rank: 761
 name: FOAM
 public_interest_score: 0.0
 symbol: foam
 tickers:
 - base: 0X4946FCEA7C692606E8908002E55A582AF44AC121
   market:
-    identifier: balancer
-    name: Balancer
-  target: ETH
-- base: FOAM
-  market:
-    identifier: bitcratic
-    name: Bitcratic
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
 - base: 0X4946FCEA7C692606E8908002E55A582AF44AC121
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0X4946FCEA7C692606E8908002E55A582AF44AC121
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
   target: ETH

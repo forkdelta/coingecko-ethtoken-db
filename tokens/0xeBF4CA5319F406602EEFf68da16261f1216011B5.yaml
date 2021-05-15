@@ -1,6 +1,6 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 3950
+coingecko_rank: 3941
 coingecko_score: 4.874
 community_score: 11.225
 description: >-
@@ -26,6 +26,11 @@ symbol: yo
 tickers:
 - base: YO
   market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: BTC
+- base: YO
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
@@ -44,7 +49,32 @@ tickers:
     identifier: yobit
     name: YoBit
   target: DOGE
-- base: ETH
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USDT
+- base: YO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: CNB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: USDT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: YFI
   market:
     identifier: yobit
     name: YoBit
@@ -54,27 +84,22 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ZEC
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: HEX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: SWRV
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: DASH
+- base: ETH
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: XEM
+- base: VERA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: TALK
   market:
     identifier: yobit
     name: YoBit
@@ -89,12 +114,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BNB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: TALK
+- base: LTC
   market:
     identifier: yobit
     name: YoBit
@@ -104,7 +124,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
+- base: DASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
 - base: EOS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BNB
   market:
     identifier: yobit
     name: YoBit

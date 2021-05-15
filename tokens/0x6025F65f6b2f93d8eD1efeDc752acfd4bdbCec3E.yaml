@@ -1,6 +1,6 @@
 ---
 address: '0x6025F65f6b2f93d8eD1efeDc752acfd4bdbCec3E'
-coingecko_rank: 3747
+coingecko_rank: 3741
 coingecko_score: 5.612
 community_score: 5.758
 description: >-
@@ -31,6 +31,16 @@ symbol: egold
 tickers:
 - base: EGOLD
   market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC
+- base: EGOLD
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DASH
+- base: EGOLD
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -38,7 +48,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: DOGE
 - base: EGOLD
   market:
     identifier: yobit

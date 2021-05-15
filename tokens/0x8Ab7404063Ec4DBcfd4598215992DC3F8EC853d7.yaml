@@ -66,15 +66,20 @@ links:
   telegram_channel_identifier: akropolis_official
   twitter_screen_name: akropolisio
 liquidity_score: 47.512
-market_cap_rank: 336
+market_cap_rank: 344
 name: Akropolis
 public_interest_score: 0.0
 symbol: akro
 tickers:
 - base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: USDC
 - base: AKRO
   market:
@@ -83,14 +88,14 @@ tickers:
   target: USDT
 - base: AKRO
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
-- base: AKRO
-  market:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
+- base: AKRO
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: HT
 - base: 0X8AB7404063EC4DBCFD4598215992DC3F8EC853D7
   market:
     identifier: mooniswap

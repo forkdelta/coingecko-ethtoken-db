@@ -27,8 +27,18 @@ links:
   telegram_channel_identifier: InverseFinance
   twitter_screen_name: InverseFinance
 liquidity_score: 22.845
-market_cap_rank: 715
+market_cap_rank: 738
 name: Inverse Finance
 public_interest_score: 0.0
 symbol: inv
-tickers: []
+tickers:
+- base: INV
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0X41D5D79431A913C4AE7D69A668ECDFE5FF9DFB68
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

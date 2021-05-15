@@ -72,21 +72,26 @@ links:
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
 liquidity_score: 52.837
-market_cap_rank: 194
+market_cap_rank: 212
 name: Aragon
 public_interest_score: 0.0
 symbol: ant
 tickers:
 - base: 0X960B236A07CF122663C4303350609A66A7B288C0
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
 - base: 0X960B236A07CF122663C4303350609A66A7B288C0
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: USDC
+- base: ANT
+  market:
+    identifier: bit_z
+    name: BitZ
+  target: USDT
 - base: ANT
   market:
     identifier: bitcratic
@@ -101,24 +106,24 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: BTC
-- base: ANT
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
   target: PAX
 - base: ANT
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
+    identifier: huobi_id
+    name: Huobi Indonesia
   target: USDT
-- base: ANT
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: 0X960B236A07CF122663C4303350609A66A7B288C0
+- base: 0XA117000000F279D81A1D3CC75430FAA017FA5A2E
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: ANT
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: ANT
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

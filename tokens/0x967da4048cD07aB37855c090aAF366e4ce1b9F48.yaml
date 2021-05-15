@@ -53,11 +53,16 @@ links:
   telegram_channel_identifier: oceanprotocol
   twitter_screen_name: oceanprotocol
 liquidity_score: 51.448
-market_cap_rank: 138
+market_cap_rank: 149
 name: Ocean Protocol
 public_interest_score: 0.0
 symbol: ocean
 tickers:
+- base: 0X967DA4048CD07AB37855C090AAF366E4CE1B9F48
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: OCEAN
   market:
     identifier: cex
@@ -68,6 +73,11 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: GBP
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: KRW
 - base: OCEAN
   market:
     identifier: dove_wallet
@@ -85,28 +95,13 @@ tickers:
   target: USDC
 - base: OCEAN
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
-- base: OCEAN
-  market:
-    identifier: emirex
-    name: Emirex
-  target: BTC
-- base: OCEAN
-  market:
-    identifier: emirex
-    name: Emirex
-  target: USDT
-- base: OCEAN
-  market:
     identifier: hitbtc
     name: HitBTC
   target: USD
-- base: OCEAN
+- base: 0X967DA4048CD07AB37855C090AAF366E4CE1B9F48
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: OCEAN
   market:
@@ -117,9 +112,14 @@ tickers:
   market:
     identifier: secretswap
     name: SecretSwap
-  target: LINK
+  target: SCRT
 - base: OCEAN
   market:
-    identifier: secretswap
-    name: SecretSwap
-  target: RSR
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: OCEAN
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

@@ -1,6 +1,6 @@
 ---
 address: '0x6d1DC3928604b00180Bb570BdAe94b9698d33b79'
-coingecko_rank: 2174
+coingecko_rank: 2173
 coingecko_score: 13.995
 community_score: 27.129
 description: >-
@@ -41,4 +41,14 @@ market_cap_rank: null
 name: UnitedCrowd
 public_interest_score: 0.0
 symbol: uct
-tickers: []
+tickers:
+- base: UCT
+  market:
+    identifier: latoken
+    name: LATOKEN
+  target: ETH
+- base: 0X6D1DC3928604B00180BB570BDAE94B9698D33B79
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

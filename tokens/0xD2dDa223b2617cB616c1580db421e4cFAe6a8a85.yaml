@@ -30,8 +30,23 @@ links:
   telegram_channel_identifier: bondlyfinance
   twitter_screen_name: BondlyFinance
 liquidity_score: 32.91
-market_cap_rank: 431
+market_cap_rank: 502
 name: Bondly
 public_interest_score: 0.0
 symbol: bondly
-tickers: []
+tickers:
+- base: 0X96058F8C3E16576D9BD68766F3836D9A33158F89
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
+- base: ETH
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XD2DDA223B2617CB616C1580DB421E4CFAE6A8A85
+- base: 0XD2DDA223B2617CB616C1580DB421E4CFAE6A8A85
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDT

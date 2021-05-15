@@ -1,6 +1,6 @@
 ---
 address: '0xfC98e825A2264D890F9a1e68ed50E1526abCcacD'
-coingecko_rank: 4366
+coingecko_rank: 4357
 coingecko_score: 3.609
 community_score: 9.303
 description: ""
@@ -30,8 +30,13 @@ name: Moss Carbon Credit
 public_interest_score: 0.0
 symbol: mco2
 tickers:
-- base: 0XFC98E825A2264D890F9A1E68ED50E1526ABCCACD
+- base: MCO2
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: MCO2
+  market:
+    identifier: probit
+    name: ProBit
   target: ETH

@@ -24,18 +24,28 @@ links:
   telegram_channel_identifier: officialFUNToken
   twitter_screen_name: FUNtoken_io
 liquidity_score: 51.105
-market_cap_rank: 157
+market_cap_rank: 184
 name: FUNToken
 public_interest_score: 0.0
 symbol: fun
 tickers:
-- base: 0X419D0D8BDD9AF5E606AE2232ED285AFF190E711B
-  market:
-    identifier: balancer
-    name: Balancer
-  target: USDC
 - base: FUN
   market:
-    identifier: bitbns
-    name: BitBNS
+    identifier: c2cx
+    name: C2CX
+  target: BTC
+- base: FUN
+  market:
+    identifier: c2cx
+    name: C2CX
   target: USDT
+- base: FUN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: 0X419D0D8BDD9AF5E606AE2232ED285AFF190E711B
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: pNetworkDefi
   twitter_screen_name: pNetworkDeFi
 liquidity_score: 55.145
-market_cap_rank: 405
+market_cap_rank: 422
 name: pNetwork
 public_interest_score: 0.0
 symbol: pnt
 tickers:
+- base: XPNT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: XPNT
   market:
     identifier: hitbtc
@@ -47,11 +52,11 @@ tickers:
   target: USD
 - base: PNT
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: PNT
-  market:
     identifier: loopring_amm
     name: Loopring AMM
+  target: ETH
+- base: 0X89AB32156E46F46D02ADE3FECBE5FC4243B9AAED
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH

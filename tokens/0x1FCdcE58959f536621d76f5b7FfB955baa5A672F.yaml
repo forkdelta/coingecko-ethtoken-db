@@ -27,21 +27,26 @@ links:
   repos_url:
     github:
     - https://github.com/theforceprotocolgroup/smartcontract
-  telegram_channel_identifier: theforceprotocol666
+  telegram_channel_identifier: ForTubeFi
   twitter_screen_name: ForTubeFi
 liquidity_score: 44.577
-market_cap_rank: 530
+market_cap_rank: 578
 name: ForTube
 public_interest_score: 0.0
 symbol: for
 tickers:
 - base: FOR
   market:
-    identifier: anyswap
-    name: Anyswap
-  target: BNB
-- base: FOR
-  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: HT
+- base: 0X1FCDCE58959F536621D76F5B7FFB955BAA5A672F
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
+- base: FOR
+  market:
+    identifier: whale_ex
+    name: WhaleEx
+  target: USDT

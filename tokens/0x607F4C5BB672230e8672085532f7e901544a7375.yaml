@@ -62,9 +62,10 @@ links:
     - https://github.com/iExecBlockchainComputing/iexec-sdk
     - https://github.com/iExecBlockchainComputing/iexec-stack
   subreddit_url: https://www.reddit.com/r/iexec
+  telegram_channel_identifier: iexec_rlc_official
   twitter_screen_name: iEx_ec
 liquidity_score: 55.946
-market_cap_rank: 216
+market_cap_rank: 134
 name: iExec RLC
 public_interest_score: 0.0
 symbol: rlc
@@ -73,52 +74,12 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: BTC
-- base: RLC
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: ETH
-- base: RLC
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: EUR
-- base: RLC
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: GBP
-- base: RLC
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
   target: PAX
 - base: RLC
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
-- base: RLC
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
-- base: RLC
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
-- base: RLC
-  market:
     identifier: emirex
     name: Emirex
   target: BTC
-- base: RLC
-  market:
-    identifier: emirex
-    name: Emirex
-  target: USDT
 - base: RLC
   market:
     identifier: kyber_network
@@ -126,11 +87,6 @@ tickers:
   target: ETH
 - base: 0X607F4C5BB672230E8672085532F7E901544A7375
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
-- base: 0X607F4C5BB672230E8672085532F7E901544A7375
-  market:
     identifier: paraswap
     name: Paraswap
   target: ETH
@@ -139,3 +95,8 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: RLC
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC

@@ -24,7 +24,7 @@ links:
     github:
     - https://github.com/keep-network/tbtc
 liquidity_score: 20.476
-market_cap_rank: 513
+market_cap_rank: 550
 name: tBTC
 public_interest_score: 0.0
 symbol: tbtc
@@ -39,16 +39,6 @@ tickers:
     identifier: curve
     name: Curve Finance
   target: SBTC
-- base: TBTC
-  market:
-    identifier: curve
-    name: Curve Finance
-  target: WBTC
-- base: TBTC
-  market:
-    identifier: kraken
-    name: Kraken
-  target: ETH
 - base: 0X8DAEBADE922DF735C38C80C7EBD708AF50815FAA
   market:
     identifier: one_inch
@@ -56,6 +46,6 @@ tickers:
   target: ETH
 - base: 0X8DAEBADE922DF735C38C80C7EBD708AF50815FAA
   market:
-    identifier: sushiswap
-    name: Sushiswap
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

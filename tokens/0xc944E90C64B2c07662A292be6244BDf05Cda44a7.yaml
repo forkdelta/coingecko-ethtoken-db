@@ -49,7 +49,7 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: BTC
+  target: EUR
 - base: GRT
   market:
     identifier: bitbay
@@ -57,21 +57,21 @@ tickers:
   target: GBP
 - base: GRT
   market:
-    identifier: bitbay
-    name: BitBay
-  target: USDT
+    identifier: kraken
+    name: Kraken
+  target: AUD
 - base: 0X46C54B16AF7747067F412C78EBADAE203A26ADA0
   market:
     identifier: pangolin
     name: Pangolin
   target: AVAX
-- base: 0XC944E90C64B2C07662A292BE6244BDF05CDA44A7
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
 - base: GRT
   market:
     identifier: serum_dex
     name: Serum DEX
   target: USDC
+- base: GRT
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

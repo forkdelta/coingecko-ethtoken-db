@@ -1,6 +1,6 @@
 ---
 address: '0x3212b29E33587A00FB1C83346f5dBFA69A458923'
-coingecko_rank: 3052
+coingecko_rank: 3050
 coingecko_score: 9.325
 community_score: 8.37
 description: >-
@@ -28,8 +28,13 @@ name: The Tokenized Bitcoin
 public_interest_score: 0.0
 symbol: imbtc
 tickers:
-- base: 0X3212B29E33587A00FB1C83346F5DBFA69A458923
+- base: IMBTC
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: tokenlon
+    name: Tokenlon
+  target: USDC
+- base: IMBTC
+  market:
+    identifier: tokenlon
+    name: Tokenlon
+  target: WBTC

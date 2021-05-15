@@ -1,6 +1,6 @@
 ---
 address: '0x37F04d2C3AE075Fad5483bB918491F656B12BDB6'
-coingecko_rank: 2784
+coingecko_rank: 2782
 coingecko_score: 10.828
 community_score: 33.331
 description: >-
@@ -44,6 +44,11 @@ symbol: vest
 tickers:
 - base: VEST
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: VEST
+  market:
     identifier: btcnext
     name: BTCNEXT
   target: BTC
@@ -57,11 +62,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: VEST
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
 - base: VEST
   market:
     identifier: yobit

@@ -29,18 +29,33 @@ links:
   telegram_channel_identifier: AlphaFinanceLab
   twitter_screen_name: alphafinancelab
 liquidity_score: 56.083
-market_cap_rank: 156
+market_cap_rank: 137
 name: Alpha Finance
 public_interest_score: 0.0
 symbol: alpha
 tickers:
-- base: ALPHA
+- base: 0XA1FAA113CBE53436DF28FF0AEE54275C13B40975
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
 - base: ALPHA
   market:
     identifier: tokenlon
     name: Tokenlon
   target: ETH
+- base: ALPHA
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: ALPHA
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT
+- base: ALPHA
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

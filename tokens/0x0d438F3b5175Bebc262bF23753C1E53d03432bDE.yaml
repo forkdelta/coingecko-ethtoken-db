@@ -27,7 +27,7 @@ links:
   - https://nexusmutual.io/
   twitter_screen_name: NexusMutual
 liquidity_score: 47.396
-market_cap_rank: 274
+market_cap_rank: 248
 name: Wrapped NXM
 public_interest_score: 0.0
 symbol: wnxm
@@ -36,7 +36,7 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: NGN
+  target: GBP
 - base: WNXM
   market:
     identifier: dove_wallet
@@ -46,22 +46,12 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: USDT
+  target: TUSD
 - base: WNXM
   market:
-    identifier: emirex
-    name: Emirex
-  target: BTC
-- base: WNXM
-  market:
-    identifier: emirex
-    name: Emirex
-  target: USDT
-- base: WNXM
-  market:
-    identifier: huobi_id
-    name: Huobi Indonesia
-  target: USDT
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
 - base: WNXM
   market:
     identifier: huobi_korea
@@ -74,6 +64,11 @@ tickers:
   target: ETH
 - base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
   market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
+  market:
     identifier: one_inch_liquidity_protocol
     name: 1inch Liquidity Protocol
   target: ETH
@@ -81,7 +76,7 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
-  target: USDT
+  target: ETH
 - base: WNXM
   market:
     identifier: poloniex
@@ -92,3 +87,13 @@ tickers:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
+- base: WNXM
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: BTC
+- base: WNXM
+  market:
+    identifier: vcc
+    name: VCC Exchange
+  target: USDT

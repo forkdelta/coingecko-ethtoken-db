@@ -44,18 +44,18 @@ symbol: rsr
 tickers:
 - base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
   market:
-    identifier: balancer
-    name: Balancer
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
 - base: RSR
   market:
-    identifier: bitcoin_com
-    name: Bitcoin.com Exchange
-  target: BCH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: RSR
   market:
-    identifier: bitcratic
-    name: Bitcratic
+    identifier: dove_wallet
+    name: Dove Wallet
   target: ETH
 - base: RSR
   market:
@@ -77,26 +77,6 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: TUSD
-- base: RSR
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
-- base: RSR
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
-- base: RSR
-  market:
-    identifier: emirex
-    name: Emirex
-  target: USDT
-- base: RSR
-  market:
-    identifier: idex
-    name: Idex
-  target: ETH
 - base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
   market:
     identifier: paraswap
@@ -107,11 +87,11 @@ tickers:
     identifier: secretswap
     name: SecretSwap
   target: ETH
-- base: OCEAN
+- base: RSR
   market:
     identifier: secretswap
     name: SecretSwap
-  target: RSR
+  target: SCRT
 - base: RSR
   market:
     identifier: serum_dex

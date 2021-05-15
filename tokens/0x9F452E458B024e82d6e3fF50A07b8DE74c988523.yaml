@@ -1,6 +1,6 @@
 ---
 address: '0x9F452E458B024e82d6e3fF50A07b8DE74c988523'
-coingecko_rank: 4179
+coingecko_rank: 4170
 coingecko_score: 4.254
 community_score: 5.702
 description: >-
@@ -40,11 +40,11 @@ symbol: goat
 tickers:
 - base: GOAT
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: GOAT
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: 0X9F452E458B024E82D6E3FF50A07B8DE74C988523
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH

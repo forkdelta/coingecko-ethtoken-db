@@ -21,7 +21,7 @@ links:
     - https://github.com/oklink/demo-net
   twitter_screen_name: OKLink
 liquidity_score: 61.558
-market_cap_rank: 695
+market_cap_rank: 693
 name: USDK
 public_interest_score: 0.0
 symbol: usdk
@@ -36,6 +36,11 @@ tickers:
     identifier: bkex
     name: BKEX
   target: USDK
+- base: BTC
+  market:
+    identifier: bkex
+    name: BKEX
+  target: USDK
 - base: USDK
   market:
     identifier: curve
@@ -43,41 +48,26 @@ tickers:
   target: DAI
 - base: USDK
   market:
+    identifier: curve
+    name: Curve Finance
+  target: USDT
+- base: USDT
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDK
+- base: BSV
+  market:
+    identifier: floatsv
+    name: Float SV
+  target: USDK
+- base: USDK
+  market:
     identifier: okcoin
     name: Okcoin
-  target: USD
-- base: DEP
+  target: USDT
+- base: EM
   market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: HDAO
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: ROAD
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: 0X1C48F86AE57291F7686349F12601910BD8D470BB
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
-- base: 0X1C48F86AE57291F7686349F12601910BD8D470BB
-  market:
-    identifier: one_inch_liquidity_protocol
-    name: 1inch Liquidity Protocol
-  target: ETH
-- base: 0X1C48F86AE57291F7686349F12601910BD8D470BB
-  market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
-- base: 0X1C48F86AE57291F7686349F12601910BD8D470BB
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH

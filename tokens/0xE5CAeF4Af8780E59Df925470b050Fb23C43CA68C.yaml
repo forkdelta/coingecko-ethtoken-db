@@ -32,8 +32,18 @@ links:
   telegram_channel_identifier: ferrum_network
   twitter_screen_name: FerrumNetwork
 liquidity_score: 26.627
-market_cap_rank: 566
+market_cap_rank: 565
 name: Ferrum Network
 public_interest_score: 0.0
 symbol: frm
-tickers: []
+tickers:
+- base: FRM
+  market:
+    identifier: bidesk
+    name: Bidesk
+  target: USDT
+- base: 0XE5CAEF4AF8780E59DF925470B050FB23C43CA68C
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

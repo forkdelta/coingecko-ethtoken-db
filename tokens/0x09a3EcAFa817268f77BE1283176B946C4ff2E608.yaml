@@ -45,8 +45,18 @@ links:
   telegram_channel_identifier: mirror_protocol
   twitter_screen_name: mirror_protocol
 liquidity_score: 52.043
-market_cap_rank: 140
+market_cap_rank: 147
 name: Mirror Protocol
 public_interest_score: 0.0
 symbol: mir
-tickers: []
+tickers:
+- base: MIR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: 0X5B6DCF557E2ABE2323C48445E8CC948910D8C2C9
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
