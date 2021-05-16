@@ -22,11 +22,21 @@ links:
   telegram_channel_identifier: MyNeighborAlice
   twitter_screen_name: MyNeighborAlice
 liquidity_score: 59.275
-market_cap_rank: 278
+market_cap_rank: 280
 name: My Neighbor Alice
 public_interest_score: 0.0
 symbol: alice
 tickers:
+- base: ALICE
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: BTC
+- base: ALICE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: 0XAC51066D7BEC65DC4589368DA368B212745D63E8
   market:
     identifier: pancakeswap
@@ -34,6 +44,6 @@ tickers:
   target: BUSD
 - base: 0XAC51066D7BEC65DC4589368DA368B212745D63E8
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
   target: USDT

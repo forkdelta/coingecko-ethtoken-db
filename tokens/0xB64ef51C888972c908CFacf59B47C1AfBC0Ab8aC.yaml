@@ -57,7 +57,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storjproject
 liquidity_score: 53.827
-market_cap_rank: 232
+market_cap_rank: 229
 name: Storj
 public_interest_score: 0.0
 symbol: storj
@@ -72,6 +72,11 @@ tickers:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
+- base: STORJ
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
 - base: STORJ
   market:
     identifier: dove_wallet
@@ -107,11 +112,11 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: STORJ
+- base: 0XB64EF51C888972C908CFACF59B47C1AFBC0AB8AC
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
 - base: STORJ
   market:
     identifier: yobit

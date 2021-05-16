@@ -1,6 +1,6 @@
 ---
 address: '0x037A54AaB062628C9Bbae1FDB1583c195585fe41'
-coingecko_rank: 1288
+coingecko_rank: 1287
 coingecko_score: 19.51
 community_score: 10.075
 description: "LCX.com - Innovating Capital Markets. Solutions for compliant digital assets and security\
@@ -44,7 +44,7 @@ links:
   telegram_channel_identifier: JoinLCX
   twitter_screen_name: lcx
 liquidity_score: 23.776
-market_cap_rank: 690
+market_cap_rank: 670
 name: LCX
 public_interest_score: 0.0
 symbol: lcx
@@ -56,14 +56,14 @@ tickers:
   target: WETH
 - base: LCX
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: LCX
+  market:
     identifier: fatbtc
     name: FatBTC
   target: USDT
-- base: LCX
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
 - base: LCX
   market:
     identifier: hitbtc
@@ -88,17 +88,7 @@ tickers:
   market:
     identifier: quoine
     name: Liquid
-  target: ETH
-- base: LCX
-  market:
-    identifier: quoine
-    name: Liquid
   target: USDC
-- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH
 - base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
   market:
     identifier: uniswap

@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: fraxfinance
   twitter_screen_name: fraxfinance
 liquidity_score: 37.859
-market_cap_rank: 336
+market_cap_rank: 328
 name: Frax
 public_interest_score: 0.0
 symbol: frax
 tickers:
+- base: FRAX
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDC
 - base: FRAX
   market:
     identifier: curve
@@ -39,16 +44,26 @@ tickers:
   market:
     identifier: curve
     name: Curve Finance
+  target: USDC
+- base: FRAX
+  market:
+    identifier: curve
+    name: Curve Finance
   target: USDT
+- base: 0XDC42728B0EA910349ED3C6E1C9DC06B5FB591F98
+  market:
+    identifier: pangolin
+    name: Pangolin
+  target: AVAX
 - base: 0X853D955ACEF822DB058EB8505911ED77F175B99E
   market:
     identifier: uniswap
     name: Uniswap (v3)
   target: USDC
-- base: 0X853D955ACEF822DB058EB8505911ED77F175B99E
+- base: FRAX
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
+    identifier: virgox
+    name: Virgox
   target: USDC
 - base: FRAX
   market:

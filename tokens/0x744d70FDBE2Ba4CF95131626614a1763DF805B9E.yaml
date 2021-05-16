@@ -50,16 +50,31 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 54.363
-market_cap_rank: 130
+market_cap_rank: 126
 name: Status
 public_interest_score: 0.0
 symbol: SNT
 tickers:
+- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: SNT
   market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: SNT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: SNT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: ETH
 - base: SNT
   market:
     identifier: dove_wallet
@@ -87,11 +102,6 @@ tickers:
   target: USDC
 - base: SNT
   market:
-    identifier: huobi_id
-    name: Huobi Indonesia
-  target: USDT
-- base: SNT
-  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -100,18 +110,13 @@ tickers:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
-- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
+- base: SNT
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH
+    identifier: wazirx
+    name: WazirX
+  target: BTC
 - base: SNT
   market:
     identifier: zebitex
     name: Zebitex
   target: ETH
-- base: SNT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: USDT

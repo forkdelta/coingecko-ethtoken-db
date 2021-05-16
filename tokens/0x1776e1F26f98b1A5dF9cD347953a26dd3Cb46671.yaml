@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 45.245
-market_cap_rank: 192
+market_cap_rank: 194
 name: Numeraire
 public_interest_score: 0.0
 symbol: nmr
@@ -40,7 +40,17 @@ tickers:
   market:
     identifier: balancer_v1
     name: Balancer (v1)
+  target: ETH
+- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: USDC
+- base: NMR
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
 - base: NMR
   market:
     identifier: bitcratic
@@ -55,7 +65,7 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: ETH
+  target: GBP
 - base: NMR
   market:
     identifier: dove_wallet
@@ -73,16 +83,6 @@ tickers:
   target: ETH
 - base: NMR
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
-- base: NMR
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: USDT
-- base: NMR
-  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -90,14 +90,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: ETH
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
   target: RUR
-- base: NMR
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

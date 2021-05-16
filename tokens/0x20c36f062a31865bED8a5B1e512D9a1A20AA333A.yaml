@@ -27,13 +27,18 @@ links:
   telegram_channel_identifier: defidollar_community
   twitter_screen_name: defidollar
 liquidity_score: 37.14
-market_cap_rank: 873
+market_cap_rank: 868
 name: DefiDollar DAO
 public_interest_score: 0.0
 symbol: dfd
 tickers:
-- base: 0X9899A98B222FCB2F3DBEE7DF45D943093A4FF9FF
+- base: 0X20C36F062A31865BED8A5B1E512D9A1A20AA333A
   market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: WBNB
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: 0X5BC25F649FC4E26069DDF4CF4010F9F706C23831
+- base: DFD
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH

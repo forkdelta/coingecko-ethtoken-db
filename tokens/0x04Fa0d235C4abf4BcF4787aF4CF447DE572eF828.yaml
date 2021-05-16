@@ -50,7 +50,7 @@ links:
     - https://github.com/UMAprotocol/protocol
   twitter_screen_name: UMAprotocol
 liquidity_score: 51.067
-market_cap_rank: 82
+market_cap_rank: 84
 name: UMA
 public_interest_score: 0.0
 symbol: uma
@@ -62,6 +62,11 @@ tickers:
   target: DAI
 - base: UMA
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: UMA
+  market:
     identifier: cex
     name: CEX.IO
   target: ETH
@@ -70,10 +75,10 @@ tickers:
     identifier: cex
     name: CEX.IO
   target: USDT
-- base: UMA
+- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
+    identifier: defi_swap
+    name: DeFi Swap
   target: ETH
 - base: UMA
   market:
@@ -94,12 +99,17 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: TUSD
+- base: UMA
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: USDC
 - base: UMA
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: BTC
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
 - base: UMA
   market:
     identifier: idex

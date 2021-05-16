@@ -38,16 +38,31 @@ links:
   telegram_channel_identifier: kleros
   twitter_screen_name: kleros_io
 liquidity_score: 32.573
-market_cap_rank: 305
+market_cap_rank: 309
 name: Kleros
 public_interest_score: 0.0
 symbol: pnk
 tickers:
+- base: 0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: PNK
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: PNK
   market:
     identifier: deversifi
     name: 'Deversifi '
   target: ETH
+- base: PNK
+  market:
+    identifier: deversifi
+    name: 'Deversifi '
+  target: USDT
 - base: PNK
   market:
     identifier: gate
@@ -65,6 +80,6 @@ tickers:
   target: ETH
 - base: 0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D
   market:
-    identifier: sushiswap
-    name: Sushiswap
+    identifier: uniswap
+    name: Uniswap (v3)
   target: ETH

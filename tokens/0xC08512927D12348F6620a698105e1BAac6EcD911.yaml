@@ -1,6 +1,6 @@
 ---
 address: '0xC08512927D12348F6620a698105e1BAac6EcD911'
-coingecko_rank: 1266
+coingecko_rank: 1265
 coingecko_score: 19.697
 community_score: 4.74
 description: >-
@@ -26,7 +26,7 @@ links:
     - https://github.com/trust-zcom/gmotrust-stablecoin-contract
   twitter_screen_name: GMOTrust
 liquidity_score: 1.0
-market_cap_rank: 1849
+market_cap_rank: 1838
 name: GYEN
 public_interest_score: 0.0
 symbol: gyen
@@ -36,3 +36,13 @@ tickers:
     identifier: binance
     name: Binance
   target: GYEN
+- base: GYEN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: GYEN
+  market:
+    identifier: gate
+    name: Gate.io
+  target: USDT

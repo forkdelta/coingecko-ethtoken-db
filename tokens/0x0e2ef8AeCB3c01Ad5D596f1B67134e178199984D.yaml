@@ -1,6 +1,6 @@
 ---
 address: '0x0e2ef8AeCB3c01Ad5D596f1B67134e178199984D'
-coingecko_rank: 3944
+coingecko_rank: 3943
 coingecko_score: 4.867
 community_score: 7.718
 description: >-
@@ -37,6 +37,11 @@ name: LandBox
 public_interest_score: 0.0
 symbol: land
 tickers:
+- base: 0X557F20CE25B41640ADE4A3085D42D7E626D7965A
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
 - base: LAND
   market:
     identifier: probit
@@ -47,8 +52,3 @@ tickers:
     identifier: probit
     name: ProBit
   target: USDT
-- base: 0X0E2EF8AECB3C01AD5D596F1B67134E178199984D
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

@@ -59,18 +59,23 @@ links:
   telegram_channel_identifier: bnsdfinance
   twitter_screen_name: bnsdfinance
 liquidity_score: 3.181
-market_cap_rank: 1233
+market_cap_rank: 1272
 name: BNSD Finance
 public_interest_score: 0.0
 symbol: bnsd
 tickers:
 - base: BNSD
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: BNSD
+  market:
     identifier: bitbns
     name: BitBNS
   target: USDT
-- base: 0X668DBF100635F593A3847C0BDAF21F0A09380188
+- base: BNSD
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: probit
+    name: ProBit
+  target: USDT

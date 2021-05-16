@@ -67,16 +67,16 @@ links:
   telegram_channel_identifier: aelfblockchain
   twitter_screen_name: aelfblockchain
 liquidity_score: 46.611
-market_cap_rank: 281
+market_cap_rank: 289
 name: aelf
 public_interest_score: 0.0
 symbol: elf
 tickers:
 - base: ELF
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: BTC
+    identifier: bitci
+    name: Bitci
+  target: TRY
 - base: ELF
   market:
     identifier: dove_wallet
@@ -94,11 +94,6 @@ tickers:
   target: PAX
 - base: ELF
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
-- base: ELF
-  market:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
@@ -109,14 +104,19 @@ tickers:
   target: ETH
 - base: 0XBF2179859FC6D5BEE9BF9158632DC51678A4100E
   market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XBF2179859FC6D5BEE9BF9158632DC51678A4100E
+  market:
     identifier: sashimiswap
     name: Sashimiswap
   target: ETH
-- base: ELF
+- base: 0XBF2179859FC6D5BEE9BF9158632DC51678A4100E
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: ELF
   market:
     identifier: zebitex

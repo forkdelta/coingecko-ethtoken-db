@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: OneInchNetwork
   twitter_screen_name: 1inchNetwork
 liquidity_score: 63.272
-market_cap_rank: 111
+market_cap_rank: 115
 name: 1inch
 public_interest_score: 0.0
 symbol: 1inch
@@ -40,13 +40,13 @@ tickers:
   target: WBNB
 - base: 1INCH
   market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
 - base: 1INCH
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
@@ -60,9 +60,9 @@ tickers:
   target: ETH
 - base: 1INCH
   market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: ETH
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: 1INCH
   market:
     identifier: tokenlon
@@ -73,13 +73,3 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: ETH
-- base: 1INCH
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
-- base: 1INCH
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: USDT

@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: ViberateOfficial
   twitter_screen_name: viberate
 liquidity_score: 31.888
-market_cap_rank: 915
+market_cap_rank: 894
 name: Viberate
 public_interest_score: 0.0
 symbol: vib
 tickers:
+- base: VIB
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: VIB
   market:
     identifier: hitbtc
@@ -42,11 +47,11 @@ tickers:
   target: BTC
 - base: VIB
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: VIB
   market:
-    identifier: vcc
-    name: VCC Exchange
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

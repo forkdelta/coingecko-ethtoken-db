@@ -1,6 +1,6 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 1308
+coingecko_rank: 1307
 coingecko_score: 19.414
 community_score: 9.582
 description: >-
@@ -60,16 +60,11 @@ links:
   telegram_channel_identifier: QUOINENews
   twitter_screen_name: Liquid_Global
 liquidity_score: 23.088
-market_cap_rank: 653
+market_cap_rank: 667
 name: QASH
 public_interest_score: 0.0
 symbol: qash
 tickers:
-- base: QSH
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: QASH
   market:
     identifier: gate
@@ -77,9 +72,14 @@ tickers:
   target: ETH
 - base: QASH
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
+    identifier: quoine
+    name: Liquid
+  target: AUD
+- base: XRP
+  market:
+    identifier: quoine
+    name: Liquid
+  target: QASH
 - base: DACS
   market:
     identifier: quoine
@@ -96,11 +96,6 @@ tickers:
     name: Liquid
   target: QASH
 - base: CHI
-  market:
-    identifier: quoine
-    name: Liquid
-  target: QASH
-- base: BTRN
   market:
     identifier: quoine
     name: Liquid

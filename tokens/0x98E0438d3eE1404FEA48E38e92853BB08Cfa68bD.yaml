@@ -1,6 +1,6 @@
 ---
 address: '0x98E0438d3eE1404FEA48E38e92853BB08Cfa68bD'
-coingecko_rank: 6421
+coingecko_rank: 6392
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -31,6 +31,11 @@ name: TVT
 public_interest_score: 0.0
 symbol: tvt
 tickers:
+- base: TVT
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
 - base: 0X98E0438D3EE1404FEA48E38E92853BB08CFA68BD
   market:
     identifier: uniswap_v2
@@ -45,9 +50,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: RUR
 - base: TVT
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD

@@ -1,6 +1,6 @@
 ---
 address: '0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0'
-coingecko_rank: 2249
+coingecko_rank: 2248
 coingecko_score: 13.553
 community_score: 7.737
 description: >-
@@ -22,8 +22,18 @@ links:
   telegram_channel_identifier: cryptolocally
   twitter_screen_name: cryptolocally
 liquidity_score: 1.0
-market_cap_rank: 1150
+market_cap_rank: 1122
 name: GIV Token
 public_interest_score: 0.0
 symbol: giv
-tickers: []
+tickers:
+- base: GIV-94E
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
+- base: GIV
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT

@@ -52,7 +52,7 @@ links:
   telegram_channel_identifier: RCNtalk
   twitter_screen_name: RCNFinance
 liquidity_score: 41.835
-market_cap_rank: 463
+market_cap_rank: 469
 name: Ripio Credit Network
 public_interest_score: 0.0
 symbol: rcn
@@ -66,6 +66,11 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
+  target: BTC
+- base: RCN
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
 - base: RCN
   market:
@@ -74,11 +79,11 @@ tickers:
   target: USD
 - base: 0XF970B8E36E23F7FC3FD752EEA86F8BE8D83375A6
   market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XF970B8E36E23F7FC3FD752EEA86F8BE8D83375A6
+  market:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: RCN
-  market:
-    identifier: vcc
-    name: VCC Exchange
-  target: BTC

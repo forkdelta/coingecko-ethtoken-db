@@ -54,11 +54,16 @@ links:
   telegram_channel_identifier: wabi_ico
   twitter_screen_name: wabitoken
 liquidity_score: 36.491
-market_cap_rank: 746
+market_cap_rank: 732
 name: Wabi
 public_interest_score: 0.0
 symbol: wabi
 tickers:
+- base: WABI
+  market:
+    identifier: bidesk
+    name: Bidesk
+  target: BTC
 - base: WABI
   market:
     identifier: bithumb_global
@@ -79,6 +84,11 @@ tickers:
     identifier: quoine
     name: Liquid
   target: BTC
+- base: WABI
+  market:
+    identifier: quoine
+    name: Liquid
+  target: USD
 - base: WABI
   market:
     identifier: stocks_exchange

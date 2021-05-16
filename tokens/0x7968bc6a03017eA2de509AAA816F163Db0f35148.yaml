@@ -1,6 +1,6 @@
 ---
 address: '0x7968bc6a03017eA2de509AAA816F163Db0f35148'
-coingecko_rank: 1544
+coingecko_rank: 1543
 coingecko_score: 17.892
 community_score: 8.257
 description: ""
@@ -21,16 +21,21 @@ links:
   telegram_channel_identifier: hedgetofficial
   twitter_screen_name: team_hedget
 liquidity_score: 20.822
-market_cap_rank: 929
+market_cap_rank: 899
 name: Hedget
 public_interest_score: 0.0
 symbol: hget
 tickers:
 - base: HGET
   market:
-    identifier: poloniex
-    name: Poloniex
+    identifier: bilaxy
+    name: Bilaxy
   target: USDT
+- base: 0X7968BC6A03017EA2DE509AAA816F163DB0F35148
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: HGET
   market:
     identifier: serum_dex
@@ -41,8 +46,3 @@ tickers:
     identifier: serum_dex
     name: Serum DEX
   target: USDT
-- base: 0X7968BC6A03017EA2DE509AAA816F163DB0F35148
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

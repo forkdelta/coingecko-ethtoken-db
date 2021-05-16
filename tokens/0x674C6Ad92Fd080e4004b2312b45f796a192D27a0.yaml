@@ -56,12 +56,12 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: SIGN
+- base: WAVES
   market:
-    identifier: swop_fi
-    name: Swop.Fi
+    identifier: p2pb2b
+    name: P2PB2B
   target: USDN
-- base: WCT
+- base: SIGN
   market:
     identifier: swop_fi
     name: Swop.Fi
@@ -76,6 +76,11 @@ tickers:
     identifier: waves
     name: Waves.Exchange
   target: JPYN
+- base: USDCLP
+  market:
+    identifier: waves
+    name: Waves.Exchange
+  target: USDN
 - base: SIGN
   market:
     identifier: waves
@@ -101,12 +106,17 @@ tickers:
     identifier: waves
     name: Waves.Exchange
   target: USDN
+- base: DASH
+  market:
+    identifier: waves
+    name: Waves.Exchange
+  target: USDN
 - base: XMR
   market:
     identifier: waves
     name: Waves.Exchange
   target: USDN
-- base: DASH
+- base: ERG
   market:
     identifier: waves
     name: Waves.Exchange
