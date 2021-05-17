@@ -53,7 +53,7 @@ links:
   telegram_channel_identifier: enigmacatalyst
   twitter_screen_name: enigmampc
 liquidity_score: 10.769
-market_cap_rank: 976
+market_cap_rank: 982
 name: Enigma
 public_interest_score: 0.0
 symbol: eng
@@ -62,6 +62,11 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: BTC
+- base: ENG
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: BTC
 - base: ENG
   market:
@@ -112,9 +117,4 @@ tickers:
   market:
     identifier: lykke
     name: Lykke
-  target: ETH
-- base: 0XF0EE6B27B759C9893CE4F094B49AD28FD15A23E4
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
   target: ETH

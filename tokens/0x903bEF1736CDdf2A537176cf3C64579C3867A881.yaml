@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: ichifarm
   twitter_screen_name: ichifarm
 liquidity_score: 13.174
-market_cap_rank: 715
+market_cap_rank: 726
 name: ICHI
 public_interest_score: 0.0
 symbol: ichi
@@ -35,13 +35,18 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
-- base: ICHI
+- base: 0X903BEF1736CDDF2A537176CF3C64579C3867A881
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
   target: ETH
 - base: 0X903BEF1736CDDF2A537176CF3C64579C3867A881
   market:
     identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH
+- base: ICHI
+  market:
+    identifier: whitebit
+    name: WhiteBIT
+  target: USDT

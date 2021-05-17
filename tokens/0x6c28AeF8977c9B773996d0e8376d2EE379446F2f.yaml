@@ -27,8 +27,18 @@ links:
   telegram_channel_identifier: QuickSwapDEX
   twitter_screen_name: QuickswapDEX
 liquidity_score: 47.738
-market_cap_rank: 325
+market_cap_rank: 335
 name: Quickswap
 public_interest_score: 0.0
 symbol: quick
-tickers: []
+tickers:
+- base: QUICK
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0X831753DD7087CAC61AB5644B308642CC1C33DC13
+  market:
+    identifier: quickswap
+    name: Quickswap
+  target: ETH

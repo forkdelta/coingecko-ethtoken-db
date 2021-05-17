@@ -34,8 +34,18 @@ links:
   telegram_channel_identifier: heartbout
   twitter_screen_name: HeartBout
 liquidity_score: 1.0
-market_cap_rank: 2441
+market_cap_rank: 2421
 name: HeartBout
 public_interest_score: 0.0
 symbol: hb
-tickers: []
+tickers:
+- base: HB
+  market:
+    identifier: exmo
+    name: EXMO
+  target: BTC
+- base: HB
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC

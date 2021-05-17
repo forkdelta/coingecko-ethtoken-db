@@ -30,16 +30,11 @@ links:
   subreddit_url: https://www.reddit.com/r/CelsiusNetwork
   twitter_screen_name: celsiusnetwork
 liquidity_score: 38.932
-market_cap_rank: 61
+market_cap_rank: 60
 name: Celsius Network
 public_interest_score: 0.0
 symbol: cel
 tickers:
-- base: CEL
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
 - base: CEL
   market:
     identifier: bitcratic
@@ -50,10 +45,15 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: CEL
+- base: 0XAAAEBE6FE48E54F431B0C390CFAF0B017D09D42D
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 0XD85D1E945766FEA5EDA9103F918BD915FBCA63E6
+  market:
+    identifier: quickswap
+    name: Quickswap
   target: ETH
 - base: CEL
   market:
@@ -61,11 +61,6 @@ tickers:
     name: Serum DEX
   target: USDT
 - base: 0X419C4DB4B9E25D6DB2AD9691CCB832C8D9FDA05E
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: 0XAAAEBE6FE48E54F431B0C390CFAF0B017D09D42D
-- base: USDC
   market:
     identifier: uniswap
     name: Uniswap (v3)

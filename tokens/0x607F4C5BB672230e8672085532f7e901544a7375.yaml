@@ -74,7 +74,17 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: PAX
+  target: BTC
+- base: RLC
+  market:
+    identifier: emirex
+    name: Emirex
+  target: BTC
+- base: RLC
+  market:
+    identifier: emirex
+    name: Emirex
+  target: USDT
 - base: RLC
   market:
     identifier: kyber_network
@@ -90,3 +100,8 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: 0X607F4C5BB672230E8672085532F7E901544A7375
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 55.575
-market_cap_rank: 125
+market_cap_rank: 127
 name: REN
 public_interest_score: 0.0
 symbol: ren
@@ -41,6 +41,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: REN
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: EUR
 - base: 0X408E41876CCCDC0F92210600EF50372656052A38
   market:
     identifier: defi_swap
@@ -48,9 +53,9 @@ tickers:
   target: ETH
 - base: REN
   market:
-    identifier: quoine
-    name: Liquid
-  target: USDT
+    identifier: emirex
+    name: Emirex
+  target: BTC
 - base: REN
   market:
     identifier: zero_ex

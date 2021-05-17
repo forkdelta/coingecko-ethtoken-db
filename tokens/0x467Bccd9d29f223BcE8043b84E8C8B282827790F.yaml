@@ -28,8 +28,18 @@ links:
   telegram_channel_identifier: telcoincommunity
   twitter_screen_name: telcoin_team
 liquidity_score: 55.605
-market_cap_rank: 70
+market_cap_rank: 66
 name: Telcoin
 public_interest_score: 0.0
 symbol: tel
-tickers: []
+tickers:
+- base: TEL
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0XDF7837DE1F2FA4631D716CF2502F8B230F1DCC32
+  market:
+    identifier: quickswap
+    name: Quickswap
+  target: ETH

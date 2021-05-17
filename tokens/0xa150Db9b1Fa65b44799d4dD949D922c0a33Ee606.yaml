@@ -42,11 +42,21 @@ links:
   telegram_channel_identifier: DigitalReserveCurrency
   twitter_screen_name: DRCToken
 liquidity_score: 20.256
-market_cap_rank: 1055
+market_cap_rank: 1087
 name: Digital Reserve Currency
 public_interest_score: 0.0
 symbol: drc
 tickers:
+- base: DRC2
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0XFED16C746CB5BFED009730F9E3E6A673006105C7
+  market:
+    identifier: quickswap
+    name: Quickswap
+  target: ETH
 - base: 0XA150DB9B1FA65B44799D4DD949D922C0A33EE606
   market:
     identifier: uniswap

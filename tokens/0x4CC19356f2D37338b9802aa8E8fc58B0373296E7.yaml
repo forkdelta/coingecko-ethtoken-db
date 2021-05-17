@@ -59,7 +59,7 @@ links:
   telegram_channel_identifier: selfkeyfoundation
   twitter_screen_name: SelfKey
 liquidity_score: 42.982
-market_cap_rank: 633
+market_cap_rank: 638
 name: SelfKey
 public_interest_score: 0.0
 symbol: key
@@ -71,11 +71,6 @@ tickers:
   target: ETH
 - base: KEY
   market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: USDT
-- base: KEY
-  market:
     identifier: bitcratic
     name: Bitcratic
   target: ETH
@@ -84,6 +79,11 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: KEY
+  market:
+    identifier: exmarkets
+    name: ExMarkets
+  target: ETH
 - base: KEY
   market:
     identifier: probit

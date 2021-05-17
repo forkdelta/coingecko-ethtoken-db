@@ -40,6 +40,11 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
+- base: TBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: RENBTC
 - base: BBTC
   market:
     identifier: curve
@@ -52,11 +57,6 @@ tickers:
   target: SBTC
 - base: RENBTC
   market:
-    identifier: curve
-    name: Curve Finance
-  target: WBTC
-- base: RENBTC
-  market:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
@@ -65,8 +65,8 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+- base: RENBTC
   market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

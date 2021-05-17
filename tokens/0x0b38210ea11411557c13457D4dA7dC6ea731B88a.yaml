@@ -27,13 +27,23 @@ links:
   telegram_channel_identifier: API3DAO
   twitter_screen_name: API3DAO
 liquidity_score: 41.54
-market_cap_rank: 324
+market_cap_rank: 346
 name: API3
 public_interest_score: 0.0
 symbol: api3
 tickers:
+- base: API3
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
 - base: 0X0B38210EA11411557C13457D4DA7DC6EA731B88A
   market:
     identifier: paraswap
     name: Paraswap
   target: ETH
+- base: API3
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

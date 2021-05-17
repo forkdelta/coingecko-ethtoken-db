@@ -37,9 +37,19 @@ symbol: best
 tickers:
 - base: BEST
   market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: BEST
+  market:
     identifier: bittrex
     name: Bittrex
   target: USDT
+- base: BEST
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: 0X1B073382E63411E3BCFFE90AC1B9A43FEFA1EC6F
   market:
     identifier: uniswap

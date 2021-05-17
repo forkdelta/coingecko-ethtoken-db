@@ -26,11 +26,21 @@ links:
   telegram_channel_identifier: DerivaDEX
   twitter_screen_name: DDX_Official
 liquidity_score: 13.126
-market_cap_rank: 358
+market_cap_rank: 344
 name: DerivaDAO
 public_interest_score: 0.0
 symbol: ddx
 tickers:
+- base: DDX
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDC
+- base: 0X3A880652F47BFAA771908C07DD8673A787DAED3A
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
 - base: 0X3A880652F47BFAA771908C07DD8673A787DAED3A
   market:
     identifier: uniswap

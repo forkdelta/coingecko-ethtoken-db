@@ -53,21 +53,21 @@ links:
   telegram_channel_identifier: oceanprotocol
   twitter_screen_name: oceanprotocol
 liquidity_score: 51.448
-market_cap_rank: 148
+market_cap_rank: 154
 name: Ocean Protocol
 public_interest_score: 0.0
 symbol: ocean
 tickers:
 - base: OCEAN
   market:
-    identifier: bithumb
-    name: Bithumb
-  target: BTC
-- base: OCEAN
-  market:
     identifier: cex
     name: CEX.IO
   target: USDT
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
 - base: OCEAN
   market:
     identifier: dove_wallet
@@ -85,14 +85,9 @@ tickers:
   target: PAX
 - base: OCEAN
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
-- base: OCEAN
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: emirex
+    name: Emirex
+  target: BTC
 - base: OCEAN
   market:
     identifier: secretswap

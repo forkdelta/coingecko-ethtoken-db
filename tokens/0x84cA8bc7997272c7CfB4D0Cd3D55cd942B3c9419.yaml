@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: DIAdata_org
   twitter_screen_name: DIAdata_org
 liquidity_score: 52.437
-market_cap_rank: 294
+market_cap_rank: 296
 name: DIA
 public_interest_score: 0.0
 symbol: DIA
@@ -36,11 +36,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
+- base: DIA
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: coinone
+    name: Coinone
+  target: KRW
 - base: DIA
   market:
     identifier: quoine
@@ -51,8 +51,3 @@ tickers:
     identifier: quoine
     name: Liquid
   target: USDT
-- base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

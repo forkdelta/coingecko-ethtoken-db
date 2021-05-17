@@ -21,11 +21,16 @@ links:
   telegram_channel_identifier: MANTRADAO
   twitter_screen_name: MANTRADAO
 liquidity_score: 42.446
-market_cap_rank: 388
+market_cap_rank: 396
 name: MANTRA DAO
 public_interest_score: 0.0
 symbol: om
 tickers:
+- base: OM
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
 - base: OM
   market:
     identifier: luaswap
@@ -41,3 +46,8 @@ tickers:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: WBNB
+- base: 0XC3EC80343D2BAE2F8E680FDADDE7C17E71E114EA
+  market:
+    identifier: quickswap
+    name: Quickswap
+  target: ETH

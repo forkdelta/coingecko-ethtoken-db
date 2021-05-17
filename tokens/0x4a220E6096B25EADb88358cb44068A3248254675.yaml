@@ -49,11 +49,6 @@ symbol: qnt
 tickers:
 - base: QNT
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: QNT
-  market:
     identifier: bilaxy
     name: Bilaxy
   target: ETH
@@ -61,6 +56,11 @@ tickers:
   market:
     identifier: bitcratic
     name: Bitcratic
+  target: ETH
+- base: QNT
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: QNT
   market:
@@ -72,3 +72,13 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: 0X4A220E6096B25EADB88358CB44068A3248254675
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 0X4A220E6096B25EADB88358CB44068A3248254675
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT

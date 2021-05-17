@@ -46,16 +46,11 @@ links:
   telegram_channel_identifier: ampchat
   twitter_screen_name: amptoken
 liquidity_score: 38.114
-market_cap_rank: 66
+market_cap_rank: 69
 name: Amp
 public_interest_score: 0.0
 symbol: amp
 tickers:
-- base: 0XFF20817765CB7F73D4BDE2E66E067E58D11095C2
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: USDC
 - base: AMP
   market:
     identifier: bilaxy
@@ -76,3 +71,8 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
+- base: AMP
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: TRX

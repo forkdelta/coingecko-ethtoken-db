@@ -27,8 +27,18 @@ links:
     - https://github.com/Synthetixio/synthetix
   twitter_screen_name: synthetix_io
 liquidity_score: 0.802
-market_cap_rank: 2449
+market_cap_rank: 2448
 name: sDASH
 public_interest_score: 0.0
 symbol: sdash
-tickers: []
+tickers:
+- base: SDASH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SADA
+- base: SDASH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC

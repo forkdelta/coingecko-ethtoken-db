@@ -44,11 +44,21 @@ name: MVL
 public_interest_score: 0.0
 symbol: mvl
 tickers:
+- base: MVL-7B0
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: BNB
 - base: MVL
   market:
     identifier: bitsonic
     name: Bitsonic
   target: KRW
+- base: MVL
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: 0XA849EAAE994FB86AFA73382E9BD88C2B6B18DC71
   market:
     identifier: uniswap_v2

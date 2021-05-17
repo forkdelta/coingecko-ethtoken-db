@@ -29,8 +29,18 @@ links:
   telegram_channel_identifier: birdmoneygroup
   twitter_screen_name: _birdmoney
 liquidity_score: 21.9
-market_cap_rank: 1000
+market_cap_rank: 1012
 name: Bird.Money
 public_interest_score: 0.0
 symbol: bird
-tickers: []
+tickers:
+- base: BIRD
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0X70401DFD142A16DC7031C56E862FC88CB9537CE0
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDC

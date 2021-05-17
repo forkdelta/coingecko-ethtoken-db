@@ -37,11 +37,16 @@ links:
   telegram_channel_identifier: tellor
   twitter_screen_name: WeAreTellor
 liquidity_score: 59.055
-market_cap_rank: 297
+market_cap_rank: 306
 name: Tellor
 public_interest_score: 0.0
 symbol: trb
 tickers:
+- base: TRB
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
 - base: TRB
   market:
     identifier: dove_wallet
@@ -52,13 +57,3 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: PAX
-- base: TRB
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
-- base: TRB
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC

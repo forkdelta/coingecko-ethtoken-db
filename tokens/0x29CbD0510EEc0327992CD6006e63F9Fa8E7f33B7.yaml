@@ -26,8 +26,18 @@ links:
   telegram_channel_identifier: TidalGlobal
   twitter_screen_name: tidaldefi
 liquidity_score: 20.928
-market_cap_rank: 741
+market_cap_rank: 745
 name: Tidal Finance
 public_interest_score: 0.0
 symbol: tidal
-tickers: []
+tickers:
+- base: TIDAL
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0X29CBD0510EEC0327992CD6006E63F9FA8E7F33B7
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDC

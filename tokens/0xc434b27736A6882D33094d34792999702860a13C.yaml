@@ -32,8 +32,18 @@ links:
   telegram_channel_identifier: savix_org
   twitter_screen_name: savix_org
 liquidity_score: 9.609
-market_cap_rank: 1895
+market_cap_rank: 1971
 name: Savix
 public_interest_score: 0.0
 symbol: svx
-tickers: []
+tickers:
+- base: SVX
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0XC434B27736A6882D33094D34792999702860A13C
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

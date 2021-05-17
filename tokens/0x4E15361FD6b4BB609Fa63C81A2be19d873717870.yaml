@@ -44,21 +44,16 @@ links:
   telegram_channel_identifier: fantom_english
   twitter_screen_name: FantomFDN
 liquidity_score: 64.573
-market_cap_rank: 79
+market_cap_rank: 78
 name: Fantom
 public_interest_score: 0.0
 symbol: ftm
 tickers:
-- base: ETH
+- base: YFI
   market:
     identifier: anyswap
     name: Anyswap
   target: FTM
-- base: FTM
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: FTM
   market:
     identifier: coinpark
@@ -74,11 +69,6 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: GBP
-- base: FTM
-  market:
-    identifier: floatsv
-    name: Float SV
-  target: USDT
 - base: 0X841FAD6EAE12C286D1FD18D1D525DFFA75C7EFFE
   market:
     identifier: spiritswap
@@ -109,3 +99,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: FTM
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

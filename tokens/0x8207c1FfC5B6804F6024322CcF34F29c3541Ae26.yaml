@@ -33,11 +33,16 @@ links:
   telegram_channel_identifier: originprotocol
   twitter_screen_name: originprotocol
 liquidity_score: 56.361
-market_cap_rank: 220
+market_cap_rank: 227
 name: Origin Protocol
 public_interest_score: 0.0
 symbol: ogn
 tickers:
+- base: 0X8207C1FFC5B6804F6024322CCF34F29C3541AE26
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: OGN
   market:
     identifier: bamboo_relay
@@ -45,6 +50,6 @@ tickers:
   target: WETH
 - base: OGN
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
-  target: ETH
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
