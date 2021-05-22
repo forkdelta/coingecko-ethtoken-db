@@ -1,14 +1,14 @@
 ---
 address: '0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26'
-coingecko_rank: 63
-coingecko_score: 51.093
-community_score: 37.31
+coingecko_rank: 72
+coingecko_score: 49.694
+community_score: 37.913
 description: >-
   Origin Protocol provides a platform for building peer-to-peer marketplaces and e-commerce applications.
   Users can buy or sell goods and services on these marketplaces, and developers can create their own
   applications powered by the Origin blockchain. The Origin token (“OGN”) is used as an incentive, payment,
   and governance token in the Origin ecosystem.
-developer_score: 69.735
+developer_score: 66.727
 id: origin-protocol
 image:
   large: https://assets.coingecko.com/coins/images/3296/large/op.jpg?1547037878
@@ -32,17 +32,12 @@ links:
   subreddit_url: https://www.reddit.com/r/originprotocol/
   telegram_channel_identifier: originprotocol
   twitter_screen_name: originprotocol
-liquidity_score: 56.361
-market_cap_rank: 227
+liquidity_score: 53.824
+market_cap_rank: 253
 name: Origin Protocol
 public_interest_score: 0.0
 symbol: ogn
 tickers:
-- base: 0X8207C1FFC5B6804F6024322CCF34F29C3541AE26
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
 - base: OGN
   market:
     identifier: bamboo_relay
@@ -50,6 +45,16 @@ tickers:
   target: WETH
 - base: OGN
   market:
+    identifier: blockchain_com
+    name: Blockchain.com
+  target: USDT
+- base: OGN
+  market:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
+- base: 0X8207C1FFC5B6804F6024322CCF34F29C3541AE26
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

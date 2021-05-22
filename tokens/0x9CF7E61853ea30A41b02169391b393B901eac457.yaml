@@ -1,8 +1,8 @@
 ---
 address: '0x9CF7E61853ea30A41b02169391b393B901eac457'
-coingecko_rank: 4629
-coingecko_score: 2.6
-community_score: 10.907
+coingecko_rank: 4998
+coingecko_score: 2.394
+community_score: 10.88
 description: >-
   Tracks the price of Amazon (AMZN) through price feeds supplied by an oracle.
 developer_score: 0.0
@@ -20,9 +20,14 @@ links:
   homepage:
   - https://www.synthetix.io/
   twitter_screen_name: synthetix_io
-liquidity_score: 1.0
+liquidity_score: 0.0
 market_cap_rank: null
 name: sAMZN
 public_interest_score: 0.0
 symbol: samzn
-tickers: []
+tickers:
+- base: SAMZN
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

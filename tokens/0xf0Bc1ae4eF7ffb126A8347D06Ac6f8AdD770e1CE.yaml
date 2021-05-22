@@ -1,8 +1,8 @@
 ---
 address: '0xf0Bc1ae4eF7ffb126A8347D06Ac6f8AdD770e1CE'
-coingecko_rank: 2553
-coingecko_score: 12.03
-community_score: 8.961
+coingecko_rank: 2777
+coingecko_score: 11.226
+community_score: 8.897
 description: >-
   1Milliontoken is an ERC-20 token that has a limited supply of 1 Million Tokens.
 
@@ -33,19 +33,29 @@ links:
     - https://github.com/1Milliontoken/1Milliontoken
   telegram_channel_identifier: MillionToken
   twitter_screen_name: 1MillionTokens
-liquidity_score: 2.776
-market_cap_rank: 2119
+liquidity_score: 1.0
+market_cap_rank: 2219
 name: 1Million Token
 public_interest_score: 0.0
 symbol: 1mt
 tickers:
 - base: 1MT
   market:
+    identifier: birake
+    name: Birake
+  target: BTC
+- base: 1MT
+  market:
     identifier: resfinex
     name: Resfinex
   target: USDT
-- base: 0XF0BC1AE4EF7FFB126A8347D06AC6F8ADD770E1CE
+- base: 1MT
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: satoexchange
+    name: SatoExchange
+  target: BTC
+- base: 1MT
+  market:
+    identifier: unnamed
+    name: Unnamed
+  target: DOGE

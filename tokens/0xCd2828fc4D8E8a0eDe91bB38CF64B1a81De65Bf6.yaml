@@ -1,8 +1,8 @@
 ---
 address: '0xCd2828fc4D8E8a0eDe91bB38CF64B1a81De65Bf6'
-coingecko_rank: 1345
-coingecko_score: 19.184
-community_score: 9.491
+coingecko_rank: 1637
+coingecko_score: 17.37
+community_score: 9.525
 description: >-
   Oddz is the Multi-chain options trading platform on Binance Smart Chain, Polkadot & Ethereum.
 
@@ -28,9 +28,19 @@ links:
     - https://github.com/oddz-finance
   telegram_channel_identifier: oddz_finance
   twitter_screen_name: oddz_finance
-liquidity_score: 23.516
-market_cap_rank: 821
+liquidity_score: 16.014
+market_cap_rank: 844
 name: Oddz
 public_interest_score: 0.0
 symbol: oddz
-tickers: []
+tickers:
+- base: ODDZ
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: ODDZ
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH

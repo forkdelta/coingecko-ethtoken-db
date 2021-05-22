@@ -1,8 +1,8 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-coingecko_rank: 547
-coingecko_score: 27.526
-community_score: 5.058
+coingecko_rank: 553
+coingecko_score: 27.159
+community_score: 5.028
 description: >-
   The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price
   stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.
@@ -55,7 +55,7 @@ description: >-
   Starting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini
   dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD
   back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon.
-developer_score: 20.265
+developer_score: 20.263
 id: gemini-dollar
 image:
   large: https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278
@@ -74,8 +74,8 @@ links:
     github:
     - https://github.com/gemini/dollar
   twitter_screen_name: GeminiDotCom
-liquidity_score: 40.74
-market_cap_rank: 397
+liquidity_score: 38.736
+market_cap_rank: 344
 name: Gemini Dollar
 public_interest_score: 0.0
 symbol: gusd
@@ -87,31 +87,21 @@ tickers:
   target: BTC
 - base: GUSD
   market:
-    identifier: curve
-    name: Curve Finance
-  target: USDC
-- base: EOS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
-- base: ETH
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: GUSD
+    identifier: floatsv
+    name: Float SV
+  target: USDT
 - base: 0X056FD409E1D7A124BD7017459DFEA2F387B6D5CD
   market:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: 0X056FD409E1D7A124BD7017459DFEA2F387B6D5CD
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: DAI
 - base: GUSD
   market:
-    identifier: therocktrading
-    name: TheRockTrading
-  target: EUR
-- base: BTC
-  market:
-    identifier: therocktrading
-    name: TheRockTrading
-  target: GUSD
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

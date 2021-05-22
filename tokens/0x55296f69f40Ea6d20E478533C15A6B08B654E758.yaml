@@ -1,8 +1,8 @@
 ---
 address: '0x55296f69f40Ea6d20E478533C15A6B08B654E758'
-coingecko_rank: 342
-coingecko_score: 31.978
-community_score: 37.79
+coingecko_rank: 352
+coingecko_score: 31.861
+community_score: 37.813
 description: >-
   Our project is called the "XY Oracle Network" (XYO Network). The XYO Network enables trustless transactions
   through an ecosystem of crypto-location components that can bridge the gap from the world of today,
@@ -27,7 +27,7 @@ description: >-
   house and every location in between. This could enable eCommerce retailers and websites to verify, in
   a trustless way, that the package not only appeared on the customer's doorstep, but also safely inside
   their home.
-developer_score: 29.294
+developer_score: 29.292
 id: xyo-network
 image:
   large: https://assets.coingecko.com/coins/images/4519/large/XYO_Network-logo.png?1547039819
@@ -49,8 +49,8 @@ links:
   subreddit_url: https://www.reddit.com/r/XYONetwork/
   telegram_channel_identifier: xyonetwork
   twitter_screen_name: officialxyo
-liquidity_score: 18.077
-market_cap_rank: 598
+liquidity_score: 17.563
+market_cap_rank: 572
 name: XYO Network
 public_interest_score: 0.0
 symbol: xyo
@@ -60,13 +60,18 @@ tickers:
     identifier: bilaxy
     name: Bilaxy
   target: ETH
-- base: XYO
-  market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
 - base: 0X55296F69F40EA6D20E478533C15A6B08B654E758
   market:
     identifier: uniswap
     name: Uniswap (v3)
   target: DAI
+- base: 0X55296F69F40EA6D20E478533C15A6B08B654E758
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: 0X55296F69F40EA6D20E478533C15A6B08B654E758
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDT

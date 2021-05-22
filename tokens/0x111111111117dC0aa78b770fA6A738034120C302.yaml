@@ -1,8 +1,8 @@
 ---
 address: '0x111111111117dC0aa78b770fA6A738034120C302'
-coingecko_rank: 417
-coingecko_score: 30.178
-community_score: 11.305
+coingecko_rank: 458
+coingecko_score: 29.218
+community_score: 11.332
 description: ""
 developer_score: 0.0
 id: 1inch
@@ -27,32 +27,27 @@ links:
     - https://github.com/1inch-exchange/1inch-token
   telegram_channel_identifier: OneInchNetwork
   twitter_screen_name: 1inchNetwork
-liquidity_score: 63.272
-market_cap_rank: 117
+liquidity_score: 59.809
+market_cap_rank: 123
 name: 1inch
 public_interest_score: 0.0
 symbol: 1inch
 tickers:
-- base: 0X111111111117DC0AA78B770FA6A738034120C302
+- base: 1INCH
   market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: WBNB
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: 1INCH
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: 1INCH
   market:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
-- base: 1INCH
-  market:
-    identifier: loopring_amm
-    name: Loopring AMM
-  target: ETH
-- base: 0X111111111117DC0AA78B770FA6A738034120C302
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
     identifier: one_inch_liquidity_protocol_bsc
@@ -60,14 +55,14 @@ tickers:
   target: BNB
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: WBNB
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
     identifier: paraswap
     name: Paraswap
-  target: ETH
+  target: USDT
 - base: 1INCH
   market:
     identifier: serum_dex
@@ -83,6 +78,11 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: USDT
+- base: 0X111111111117DC0AA78B770FA6A738034120C302
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
     identifier: uniswap

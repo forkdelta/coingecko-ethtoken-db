@@ -1,8 +1,8 @@
 ---
 address: '0x8c15Ef5b4B21951d50E53E4fbdA8298FFAD25057'
-coingecko_rank: 865
-coingecko_score: 23.16
-community_score: 8.916
+coingecko_rank: 854
+coingecko_score: 23.454
+community_score: 8.864
 description: >-
   The f(x) ecosystem is fully decentralized. It’s designed and built to run autonomously in perpetuity
   without the reliance or supervision of any individual or organization. To support this autonomous structure,
@@ -25,9 +25,19 @@ links:
   - https://functionx.io/#/
   telegram_channel_identifier: functionx
   twitter_screen_name: functionx_io
-liquidity_score: 37.375
-market_cap_rank: 281
+liquidity_score: 39.216
+market_cap_rank: 286
 name: Function X
 public_interest_score: 0.0
 symbol: fx
-tickers: []
+tickers:
+- base: FX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: FX
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: USDT

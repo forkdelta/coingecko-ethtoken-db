@@ -1,8 +1,8 @@
 ---
 address: '0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9'
-coingecko_rank: 403
-coingecko_score: 30.454
-community_score: 11.449
+coingecko_rank: 592
+coingecko_score: 26.621
+community_score: 0.0
 description: >-
   The Swipe Wallet has been designed to require Swipe Tokens SXP to perform all functions and utility
   of the Wallet including to use the services and to make withdraws. Users on the Swipe Wallet can buy,
@@ -34,8 +34,8 @@ links:
     - https://github.com/SwipeWallet/Wallet-Contract
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
-liquidity_score: 67.964
-market_cap_rank: 190
+liquidity_score: 63.003
+market_cap_rank: 218
 name: Swipe
 public_interest_score: 0.0
 symbol: sxp
@@ -49,7 +49,32 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: ETH
+- base: SXP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: SXP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
+- base: SXP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: KRW
+- base: SXP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: PAX
+- base: SXP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
 - base: SXP
   market:
     identifier: dove_wallet
@@ -57,24 +82,19 @@ tickers:
   target: USDC
 - base: SXP
   market:
-    identifier: emirex
-    name: Emirex
-  target: BTC
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
 - base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
   market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
   target: BUSD
-- base: SXP
+- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
   market:
-    identifier: poloniex
-    name: Poloniex
-  target: TRX
-- base: SXP
-  market:
-    identifier: serum_dex
-    name: Serum DEX
-  target: USDC
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB
 - base: SXP
   market:
     identifier: serum_dex

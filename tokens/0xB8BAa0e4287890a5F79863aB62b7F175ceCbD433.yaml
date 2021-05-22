@@ -1,8 +1,8 @@
 ---
 address: '0xB8BAa0e4287890a5F79863aB62b7F175ceCbD433'
-coingecko_rank: 506
-coingecko_score: 28.157
-community_score: 9.037
+coingecko_rank: 610
+coingecko_score: 26.426
+community_score: 8.986
 description: >-
   SWERVE FINANCE is described to be a fork of Curve, owned 100% by the community. It is claimed that there's
   no fake-out deployment, no questionable pre-mining, no founder controlling majority of the governance
@@ -11,7 +11,7 @@ description: >-
   providers and users. If holders provide liquidity to Swerve, they get ySWRV tokens which can be staked
   in the Swerve DAO to earn $SWRV. To kickstart the protocol and encourage users to try out Swerve, the
   first two weeks will have a larger distribution of $SWRV awarded.
-developer_score: 19.954
+developer_score: 19.955
 id: swerve-dao
 image:
   large: https://assets.coingecko.com/coins/images/12361/large/swerve.png?1599278316
@@ -30,8 +30,8 @@ links:
     - https://github.com/SwerveFinance/SwervContracts
   telegram_channel_identifier: swervefi
   twitter_screen_name: SwerveFinance
-liquidity_score: 44.367
-market_cap_rank: 811
+liquidity_score: 37.266
+market_cap_rank: 879
 name: Swerve
 public_interest_score: 0.0
 symbol: swrv
@@ -43,13 +43,18 @@ tickers:
   target: ETH
 - base: SWRV
   market:
-    identifier: bigone
-    name: BigONE
-  target: USDT
-- base: SWRV
-  market:
     identifier: bilaxy
     name: Bilaxy
+  target: ETH
+- base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
+  market:
+    identifier: defi_swap
+    name: DeFi Swap
+  target: ETH
+- base: SWRV
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0XB8BAA0E4287890A5F79863AB62B7F175CECBD433
   market:
@@ -61,38 +66,3 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: SWRV
-  market:
-    identifier: whale_ex
-    name: WhaleEx
-  target: USDT
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: SWRV
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO

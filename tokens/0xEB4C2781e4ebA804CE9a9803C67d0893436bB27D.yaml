@@ -1,8 +1,8 @@
 ---
 address: '0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D'
-coingecko_rank: 98
-coingecko_score: 46.568
-community_score: 36.919
+coingecko_rank: 93
+coingecko_score: 46.929
+community_score: 36.885
 description: >-
   REN Tokenized BTC
 
@@ -10,7 +10,7 @@ description: >-
   Once an asset is in the custody of RenVM, an ERC20 token at a 1:1 value is minted on Ethereum - this
   can then be used as any ERC20 can within the Ethereum ecosystem (for example, swaps, collateralization,
   trades etc.)
-developer_score: 65.414
+developer_score: 64.061
 id: renbtc
 image:
   large: https://assets.coingecko.com/coins/images/11370/large/renBTC.png?1589985711
@@ -29,22 +29,17 @@ links:
   subreddit_url: https://www.reddit.com/r/RenProject/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 36.943
-market_cap_rank: 138
+liquidity_score: 40.868
+market_cap_rank: 131
 name: renBTC
 public_interest_score: 0.0
 symbol: renbtc
 tickers:
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+- base: RENBTC
   market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
-- base: TBTC
-  market:
-    identifier: curve
-    name: Curve Finance
-  target: RENBTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BBTC
   market:
     identifier: curve
@@ -52,18 +47,23 @@ tickers:
   target: RENBTC
 - base: RENBTC
   market:
-    identifier: curve
-    name: Curve Finance
-  target: SBTC
-- base: RENBTC
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
+    identifier: mooniswap
+    name: Mooniswap
   target: ETH
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
     identifier: paraswap
     name: Paraswap
+  target: ETH
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+  market:
+    identifier: sushiswap
+    name: Sushiswap
   target: ETH
 - base: RENBTC
   market:

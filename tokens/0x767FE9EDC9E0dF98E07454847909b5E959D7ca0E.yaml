@@ -1,8 +1,8 @@
 ---
 address: '0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E'
-coingecko_rank: 1277
-coingecko_score: 19.576
-community_score: 9.315
+coingecko_rank: 1128
+coingecko_score: 20.899
+community_score: 9.371
 description: >-
   Welcome to the world of Illuvium. A shattered land of beauty and wonder. Travel the vast and varied
   landscape hunting dangerous beasts, then capture them to battle in the arenas or trade them via the
@@ -33,8 +33,8 @@ links:
     - https://github.com/IlluviumGame
   telegram_channel_identifier: illuvium
   twitter_screen_name: illuviumio
-liquidity_score: 24.2
-market_cap_rank: 533
+liquidity_score: 29.997
+market_cap_rank: 498
 name: Illuvium
 public_interest_score: 0.0
 symbol: ilv
@@ -44,8 +44,18 @@ tickers:
     identifier: bitcoin_com
     name: Bitcoin.com Exchange
   target: BTC
+- base: 0X767FE9EDC9E0DF98E07454847909B5E959D7CA0E
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
 - base: ILV
   market:
-    identifier: bitcoin_com
-    name: Bitcoin.com Exchange
-  target: USD
+    identifier: xt
+    name: XT.COM
+  target: BTC
+- base: ILV
+  market:
+    identifier: xt
+    name: XT.COM
+  target: USDT

@@ -1,12 +1,12 @@
 ---
 address: '0x57Ab1ec28D129707052df4dF418D58a2D46d5f51'
-coingecko_rank: 65
-coingecko_score: 50.989
-community_score: 38.024
+coingecko_rank: 57
+coingecko_score: 52.223
+community_score: 37.978
 description: >-
   sUSD, or synthetic USD, is a synthetic asset launched by Synthetix Exchange. sUSD mirrors and tracks
   the price of USD provided by an oracle - Chainlink.
-developer_score: 74.959
+developer_score: 75.034
 id: nusd
 image:
   large: https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1616150765
@@ -25,8 +25,8 @@ links:
     - https://github.com/Synthetixio/synthetix
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 50.526
-market_cap_rank: 253
+liquidity_score: 55.287
+market_cap_rank: 180
 name: sUSD
 public_interest_score: 0.0
 symbol: susd
@@ -38,6 +38,11 @@ tickers:
   target: USDC
 - base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
   market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
+  market:
     identifier: paraswap
     name: Paraswap
   target: ETH
@@ -45,13 +50,8 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
-  target: USDT
-- base: SXRP
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SEOS
+  target: ETH
+- base: SXAG
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -61,12 +61,17 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SLTC
+- base: SDASH
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: STSLA
+- base: SGOOG
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SXTZ
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -76,32 +81,17 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SOIL
+- base: STRX
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SNFLX
+- base: SAAVE
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SYFI
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SFB
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: IDEFI
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SXAG
+- base: SAMZN
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -111,7 +101,17 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SBNB
+- base: SXRP
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SETC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SLTC
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -126,8 +126,8 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: ETH
-- base: SUSD
+- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
   market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDC

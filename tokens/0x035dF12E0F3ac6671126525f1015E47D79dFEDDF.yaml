@@ -1,8 +1,8 @@
 ---
 address: '0x035dF12E0F3ac6671126525f1015E47D79dFEDDF'
-coingecko_rank: 5334
-coingecko_score: 1.736
-community_score: 6.982
+coingecko_rank: 5721
+coingecko_score: 1.726
+community_score: 6.937
 description: >-
   0xMR is a mineable privacy token on the Ethereum blockchain
 developer_score: 0.0
@@ -27,6 +27,16 @@ name: 0xMonero
 public_interest_score: 0.0
 symbol: 0xmr
 tickers:
+- base: 0X035DF12E0F3AC6671126525F1015E47D79DFEDDF
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: DAI
+- base: 0X035DF12E0F3AC6671126525F1015E47D79DFEDDF
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0X8C88EA1FD60462EF7004B9E288AFCB4680A3C50C
   market:
     identifier: honeyswap
@@ -42,8 +52,3 @@ tickers:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: WBNB
-- base: 0X035DF12E0F3AC6671126525F1015E47D79DFEDDF
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
