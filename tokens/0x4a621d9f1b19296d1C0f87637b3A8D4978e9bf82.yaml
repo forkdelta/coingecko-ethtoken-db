@@ -1,8 +1,8 @@
 ---
 address: '0x4a621d9f1b19296d1C0f87637b3A8D4978e9bf82'
-coingecko_rank: 3805
+coingecko_rank: 3820
 coingecko_score: 6.083
-community_score: 26.739
+community_score: 26.74
 description: >-
   Cyber-FM Radio provides listeners access to music that is not normally available within the “Mainstream.”
 
@@ -43,11 +43,16 @@ tickers:
   target: ETH
 - base: CYFM
   market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
+- base: CYFM
+  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: 0X4A621D9F1B19296D1C0F87637B3A8D4978E9BF82
+- base: 0X9001FD53504F7BF253296CFFADF5B6030CD61ABB
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB

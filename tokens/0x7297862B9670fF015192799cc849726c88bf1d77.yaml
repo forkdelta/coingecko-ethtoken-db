@@ -1,8 +1,8 @@
 ---
 address: '0x7297862B9670fF015192799cc849726c88bf1d77'
-coingecko_rank: 2920
-coingecko_score: 10.505
-community_score: 6.985
+coingecko_rank: 2947
+coingecko_score: 10.387
+community_score: 6.982
 description: >-
   Soar is building the world's first living super-map by integrating imagery feeds from satellite, aerial
   sensors and drone content
@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: SoarEarth
   twitter_screen_name: Soar_Earth
 liquidity_score: 1.0
-market_cap_rank: 2332
+market_cap_rank: 2335
 name: SkyMap
 public_interest_score: 0.0
 symbol: skym
-tickers: []
+tickers:
+- base: SKYM
+  market:
+    identifier: coinbene
+    name: CoinBene
+  target: USDT
+- base: 0X7297862B9670FF015192799CC849726C88BF1D77
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x95408930d6323Ac7aa69e6C2CBFE58774D565fa8'
-coingecko_rank: 3540
+coingecko_rank: 3527
 coingecko_score: 7.364
-community_score: 18.165
+community_score: 18.162
 description: >-
   A peer-to-peer digital token system. Coins will be earned by contributing in any way. If you are interested
   in the idea and are willing to volunteer your time in exchange for coins, please contact us. Distributed
@@ -30,4 +30,14 @@ market_cap_rank: null
 name: Debitcoin
 public_interest_score: 0.0
 symbol: dbtc
-tickers: []
+tickers:
+- base: DBTC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
+- base: DBTC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

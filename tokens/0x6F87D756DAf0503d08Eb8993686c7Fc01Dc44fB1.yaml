@@ -1,8 +1,8 @@
 ---
 address: '0x6F87D756DAf0503d08Eb8993686c7Fc01Dc44fB1'
-coingecko_rank: 1228
-coingecko_score: 20.091
-community_score: 8.524
+coingecko_rank: 1252
+coingecko_score: 19.854
+community_score: 8.52
 description: ""
 developer_score: 0.0
 id: unitrade
@@ -17,24 +17,29 @@ links:
   homepage:
   - https://unitrade.app/
   twitter_screen_name: UniTradeApp
-liquidity_score: 31.013
-market_cap_rank: 890
+liquidity_score: 30.967
+market_cap_rank: 896
 name: Unitrade
 public_interest_score: 0.0
 symbol: trade
 tickers:
 - base: TRADE
   market:
-    identifier: aex
-    name: AEX
-  target: USDT
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: TRADE
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
 - base: 0X6F87D756DAF0503D08EB8993686C7FC01DC44FB1
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: 0X7AF173F350D916358AF3E218BDF2178494BEB748
+- base: TRADE
   market:
-    identifier: pancakeswap_v1
-    name: PancakeSwap (v1)
-  target: WBNB
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

@@ -1,8 +1,8 @@
 ---
 address: '0xeca82185adCE47f39c684352B0439f030f860318'
-coingecko_rank: 465
-coingecko_score: 29.063
-community_score: 28.921
+coingecko_rank: 460
+coingecko_score: 29.12
+community_score: 28.917
 description: >-
   A high-throughput, DAG-based protocol capable of powering any application.
 
@@ -58,19 +58,29 @@ links:
   subreddit_url: https://www.reddit.com/r/perlin
   telegram_channel_identifier: perlinnetworkchat
   twitter_screen_name: PerlinNetwork
-liquidity_score: 36.783
+liquidity_score: 37.074
 market_cap_rank: null
 name: Perlin
 public_interest_score: 0.0
 symbol: perl
 tickers:
+- base: 0X59FEC83EC709C893AEDD1A144CF1828EB04127CD
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: 0XECA82185ADCE47F39C684352B0439F030F860318
 - base: PERL
   market:
     identifier: gate
     name: Gate.io
   target: ETH
-- base: 0X0F9E4D49F25DE22C2202AF916B681FBB3790497B
+- base: PERL
   market:
-    identifier: pancakeswap_v1
-    name: PancakeSwap (v1)
-  target: WBNB
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: 0XECA82185ADCE47F39C684352B0439F030F860318
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

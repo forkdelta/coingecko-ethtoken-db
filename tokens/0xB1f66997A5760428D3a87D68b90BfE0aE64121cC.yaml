@@ -1,8 +1,8 @@
 ---
 address: '0xB1f66997A5760428D3a87D68b90BfE0aE64121cC'
-coingecko_rank: 1926
-coingecko_score: 15.679
-community_score: 8.302
+coingecko_rank: 1939
+coingecko_score: 15.583
+community_score: 8.301
 description: ""
 developer_score: 0.0
 id: lua-token
@@ -23,8 +23,8 @@ links:
     - https://github.com/tomochain/luaswap
   telegram_channel_identifier: luaswap
   twitter_screen_name: luaswap
-liquidity_score: 12.467
-market_cap_rank: 1161
+liquidity_score: 12.267
+market_cap_rank: 1157
 name: Lua Token
 public_interest_score: 0.0
 symbol: lua
@@ -34,6 +34,11 @@ tickers:
     identifier: coinpark
     name: Coinpark
   target: USDT
+- base: SRM
+  market:
+    identifier: luaswap
+    name: Luaswap
+  target: LUA
 - base: UNI
   market:
     identifier: luaswap
@@ -44,6 +49,16 @@ tickers:
     identifier: luaswap
     name: Luaswap
   target: LUA
+- base: OM
+  market:
+    identifier: luaswap
+    name: Luaswap
+  target: LUA
+- base: LUA
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: LUA
   market:
     identifier: serum_dex

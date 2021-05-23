@@ -1,8 +1,8 @@
 ---
 address: '0x5c872500c00565505F3624AB435c222E558E9ff8'
-coingecko_rank: 1398
-coingecko_score: 18.915
-community_score: 34.524
+coingecko_rank: 1411
+coingecko_score: 18.787
+community_score: 34.519
 description: >-
   CoTrader is like "The Uber of hedge funds", live on mainnet.cotrader.com, is the world's first blockchain
   investment funds marketplace that's democratizing the $85 trillion global funds industry, as anyone
@@ -32,8 +32,18 @@ links:
   telegram_channel_identifier: cotrader
   twitter_screen_name: cotrader_com
 liquidity_score: 1.0
-market_cap_rank: 1331
+market_cap_rank: 1328
 name: CoTrader
 public_interest_score: 0.0
 symbol: cot
-tickers: []
+tickers:
+- base: COT1
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: 0X5C872500C00565505F3624AB435C222E558E9FF8
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

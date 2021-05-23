@@ -1,7 +1,7 @@
 ---
 address: '0x81824663353A9d29b01B2DE9dd9a2Bb271d298cD'
-coingecko_rank: 7202
-coingecko_score: 0.161
+coingecko_rank: 6630
+coingecko_score: 0.743
 community_score: 0.0
 description: >-
   Bitcoin Volatility Token (BVOL) is an ERC20 token which attempts to track 1 times the implied volatility
@@ -19,9 +19,19 @@ links:
   homepage:
   - https://ftx.com/trade/BVOL/USD
   telegram_channel_identifier: FTX_Official
-liquidity_score: 0.804
+liquidity_score: 3.714
 market_cap_rank: null
 name: Bitcoin Volatility Token
 public_interest_score: 0.0
 symbol: bvol
-tickers: []
+tickers:
+- base: BVOL
+  market:
+    identifier: bitmax
+    name: AscendEX (BitMax)
+  target: USDT
+- base: BVOL
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: BTC

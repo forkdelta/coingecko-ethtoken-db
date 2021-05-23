@@ -1,8 +1,8 @@
 ---
 address: '0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf'
-coingecko_rank: 271
-coingecko_score: 34.551
-community_score: 40.894
+coingecko_rank: 275
+coingecko_score: 34.464
+community_score: 40.842
 description: ""
 developer_score: 0.0
 id: reef-finance
@@ -19,8 +19,8 @@ links:
   subreddit_url: https://www.reddit.com/r/ReefDeFi/
   telegram_channel_identifier: reefdefi
   twitter_screen_name: ReefDeFi
-liquidity_score: 55.666
-market_cap_rank: 153
+liquidity_score: 55.463
+market_cap_rank: 152
 name: Reef Finance
 public_interest_score: 0.0
 symbol: reef
@@ -35,8 +35,13 @@ tickers:
     identifier: atomars
     name: Atomars
   target: USDT
-- base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+- base: REEF
   market:
-    identifier: one_inch_liquidity_protocol_bsc
-    name: 1inch Liquidity Protocol (BSC)
-  target: BNB
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: REEF
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH

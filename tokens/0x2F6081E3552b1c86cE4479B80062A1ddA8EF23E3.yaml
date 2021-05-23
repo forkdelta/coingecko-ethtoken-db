@@ -1,8 +1,8 @@
 ---
 address: '0x2F6081E3552b1c86cE4479B80062A1ddA8EF23E3'
-coingecko_rank: 2175
-coingecko_score: 14.245
-community_score: 19.373
+coingecko_rank: 2177
+coingecko_score: 14.17
+community_score: 19.369
 description: >-
   The stablecoin in Dollar Protocol, a better elastic money powered by dollars and seigniorage shares
 developer_score: 0.0
@@ -28,8 +28,13 @@ links:
   telegram_channel_identifier: dollarprotocol
   twitter_screen_name: DollarProtocol
 liquidity_score: 1.0
-market_cap_rank: 1968
+market_cap_rank: 1972
 name: Dollars
 public_interest_score: 0.0
 symbol: usdx
-tickers: []
+tickers:
+- base: 0X2F6081E3552B1C86CE4479B80062A1DDA8EF23E3
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

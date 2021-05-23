@@ -1,8 +1,8 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 4193
-coingecko_score: 4.803
-community_score: 11.138
+coingecko_rank: 4154
+coingecko_score: 4.91
+community_score: 11.133
 description: >-
   Official Token of Yobit.Net Exchange
 developer_score: 0.0
@@ -18,7 +18,7 @@ links:
   homepage:
   - https://yobit.net/en/
   twitter_screen_name: YobitExchange
-liquidity_score: 11.764
+liquidity_score: 12.301
 market_cap_rank: null
 name: Yobit Token
 public_interest_score: 0.0
@@ -34,6 +34,11 @@ tickers:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: 0XEBF4CA5319F406602EEFF68DA16261F1216011B5
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: YO
   market:
     identifier: yobit
@@ -44,22 +49,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USDT
-- base: BNB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: USDT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: XEM
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: BCHSV
   market:
     identifier: yobit
     name: YoBit
@@ -84,17 +74,37 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
+- base: DASH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
 - base: EOS
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: YFI
+- base: ETC
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: ETC
+- base: SWRV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BCHSV
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BNB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: YFI
   market:
     identifier: yobit
     name: YoBit

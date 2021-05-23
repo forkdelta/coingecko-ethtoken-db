@@ -1,8 +1,8 @@
 ---
 address: '0x1BeEF31946fbbb40B877a72E4ae04a8D1A5Cee06'
-coingecko_rank: 1251
-coingecko_score: 19.893
-community_score: 29.565
+coingecko_rank: 1253
+coingecko_score: 19.853
+community_score: 29.487
 description: >-
   Parachute is the parent company and native token behind Hedgey.finance and ParJar.io. Hedgey brings
   traditional financial derivatives into DeFi through an open-source protocol utilizing cross-chain functionality,
@@ -28,9 +28,19 @@ links:
   subreddit_url: https://www.reddit.com/r/ParachuteToken/
   telegram_channel_identifier: parachutetokengroup
   twitter_screen_name: parachutetoken
-liquidity_score: 10.033
-market_cap_rank: 1132
+liquidity_score: 9.669
+market_cap_rank: 1101
 name: Parachute
 public_interest_score: 0.0
 symbol: par
-tickers: []
+tickers:
+- base: 0X1BEEF31946FBBB40B877A72E4AE04A8D1A5CEE06
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X1BEEF31946FBBB40B877A72E4AE04A8D1A5CEE06
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

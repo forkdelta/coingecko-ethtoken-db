@@ -1,8 +1,8 @@
 ---
 address: '0x87d73E916D7057945c9BcD8cdd94e42A6F47f776'
-coingecko_rank: 1296
-coingecko_score: 19.554
-community_score: 9.238
+coingecko_rank: 1302
+coingecko_score: 19.397
+community_score: 9.237
 description: >-
   NFT-backed index funds on Ethereum
 developer_score: 0.0
@@ -26,9 +26,19 @@ links:
     github:
     - https://github.com/NFTX-project/x-contracts
   twitter_screen_name: nftx_
-liquidity_score: 23.994
-market_cap_rank: 586
+liquidity_score: 24.0
+market_cap_rank: 605
 name: NFTX
 public_interest_score: 0.0
 symbol: nftx
-tickers: []
+tickers:
+- base: NFTX
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0X87D73E916D7057945C9BCD8CDD94E42A6F47F776
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

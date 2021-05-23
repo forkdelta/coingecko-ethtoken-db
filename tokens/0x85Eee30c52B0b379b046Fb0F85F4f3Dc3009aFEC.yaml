@@ -1,8 +1,8 @@
 ---
 address: '0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC'
-coingecko_rank: 103
-coingecko_score: 45.94
-community_score: 33.016
+coingecko_rank: 102
+coingecko_score: 45.925
+community_score: 32.942
 description: >-
   A keep is an off-chain container for private data. Keeps help contracts harness the full power of the
   public blockchain — enabling deep interactivity with private data.
@@ -35,12 +35,22 @@ links:
   subreddit_url: https://www.reddit.com/r/KeepNetwork
   telegram_channel_identifier: KeepNetworkOfficial
   twitter_screen_name: keep_project
-liquidity_score: 28.226
-market_cap_rank: 263
+liquidity_score: 28.728
+market_cap_rank: 261
 name: Keep Network
 public_interest_score: 0.0
 symbol: keep
 tickers:
+- base: KEEP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: KEEP
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT
 - base: 0X85EEE30C52B0B379B046FB0F85F4F3DC3009AFEC
   market:
     identifier: uniswap

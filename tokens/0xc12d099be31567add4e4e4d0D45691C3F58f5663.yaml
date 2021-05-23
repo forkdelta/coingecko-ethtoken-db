@@ -1,8 +1,8 @@
 ---
 address: '0xc12d099be31567add4e4e4d0D45691C3F58f5663'
-coingecko_rank: 358
-coingecko_score: 31.766
-community_score: 26.482
+coingecko_rank: 367
+coingecko_score: 31.489
+community_score: 26.551
 description: >-
   Auctus is a decentralized options protocol. Users can mint call and put options for different markets
   at different strike prices, and trade options in a trustless and decentralized manner without having
@@ -18,7 +18,7 @@ description: >-
 
 
   Auctus currently offers an options DEX, options AMM, OTC options, and automated options vault strategies.
-developer_score: 57.738
+developer_score: 57.391
 id: auctus
 image:
   large: https://assets.coingecko.com/coins/images/2165/large/Auc_Discord_Avatar1.png?1618983355
@@ -27,13 +27,12 @@ image:
 links:
   announcement_url:
   - https://medium.com/auctus
-  bitcointalk_thread_identifier: 20591170
   blockchain_site:
   - https://etherscan.io/token/0xc12d099be31567add4e4e4d0D45691C3F58f5663
   - https://ethplorer.io/address/0xc12d099be31567add4e4e4d0D45691C3F58f5663
   facebook_username: AuctusProject
   homepage:
-  - https://www.coingecko.com/de/munze/auctus
+  - https://auctus.org/
   official_forum_url:
   - https://blog.auctus.org/
   repos_url:
@@ -45,7 +44,7 @@ links:
   telegram_channel_identifier: auctusoptions
   twitter_screen_name: AuctusOptions
 liquidity_score: 1.0
-market_cap_rank: 1222
+market_cap_rank: 1269
 name: Auctus
 public_interest_score: 0.0
 symbol: auc
@@ -54,9 +53,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: 0XC12D099BE31567ADD4E4E4D0D45691C3F58F5663
+  target: BTC
+- base: AUC
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: 0X3028B4395F98777123C7DA327010C40F3C7CC4EF
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB

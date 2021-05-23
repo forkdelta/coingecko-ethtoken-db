@@ -1,8 +1,8 @@
 ---
 address: '0xa47c8bf37f92aBed4A126BDA807A7b7498661acD'
-coingecko_rank: 456
-coingecko_score: 29.224
-community_score: 10.359
+coingecko_rank: 439
+coingecko_score: 29.644
+community_score: 10.362
 description: >-
   USD pegged Terra Stablecoin
 developer_score: 0.0
@@ -26,12 +26,22 @@ links:
     github:
     - https://github.com/terra-project
   twitter_screen_name: terra_money
-liquidity_score: 56.248
+liquidity_score: 58.116
 market_cap_rank: 56
 name: TerraUSD
 public_interest_score: 0.0
 symbol: ust
 tickers:
+- base: TERRA15HP9PR8Y4QSVQVXF3M4XEPTLK7L8H60634GQEC
+  market:
+    identifier: mirror
+    name: Terraswap
+  target: UST
+- base: UST
+  market:
+    identifier: pantherswap
+    name: PantherSwap
+  target: WBNB
 - base: 0XA47C8BF37F92ABED4A126BDA807A7B7498661ACD
   market:
     identifier: paraswap

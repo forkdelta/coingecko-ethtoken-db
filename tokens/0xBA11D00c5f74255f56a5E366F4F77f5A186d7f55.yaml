@@ -1,10 +1,10 @@
 ---
 address: '0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55'
 coingecko_rank: 65
-coingecko_score: 50.582
-community_score: 36.749
+coingecko_score: 50.558
+community_score: 36.758
 description: ""
-developer_score: 67.122
+developer_score: 67.127
 id: band-protocol
 image:
   large: https://assets.coingecko.com/coins/images/9545/large/band-protocol.png?1568730326
@@ -29,8 +29,8 @@ links:
   subreddit_url: https://www.reddit.com/r/bandprotocol
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
-liquidity_score: 56.831
-market_cap_rank: 162
+liquidity_score: 57.097
+market_cap_rank: 161
 name: Band Protocol
 public_interest_score: 0.0
 symbol: band
@@ -42,13 +42,18 @@ tickers:
   target: WETH
 - base: BAND
   market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
 - base: BAND
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
+  market:
+    identifier: sakeswap
+    name: SakeSwap
   target: ETH
 - base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
   market:

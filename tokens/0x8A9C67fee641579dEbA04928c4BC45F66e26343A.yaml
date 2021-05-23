@@ -1,8 +1,8 @@
 ---
 address: '0x8A9C67fee641579dEbA04928c4BC45F66e26343A'
-coingecko_rank: 1839
-coingecko_score: 16.167
-community_score: 8.351
+coingecko_rank: 1884
+coingecko_score: 15.878
+community_score: 8.348
 description: >-
   A trading platform and its set of financial protocols to gain exposure to any assets, through margin
   trading or synthetic assets, against trading pools supplied by liquidity providers, tooled to automatically
@@ -32,12 +32,22 @@ links:
   - https://jarvis.network/
   telegram_channel_identifier: jarvisnetwork
   twitter_screen_name: Jarvis_Network
-liquidity_score: 10.606
-market_cap_rank: 783
+liquidity_score: 9.744
+market_cap_rank: 781
 name: Jarvis Reward Token
 public_interest_score: 0.0
 symbol: jrt
 tickers:
+- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: DAI
+- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
   market:
     identifier: balancer_v1
@@ -52,6 +62,11 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
+  market:
+    identifier: paraswap
+    name: Paraswap
   target: ETH
 - base: 0X8A9C67FEE641579DEBA04928C4BC45F66E26343A
   market:
