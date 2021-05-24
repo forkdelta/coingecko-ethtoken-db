@@ -29,31 +29,31 @@ links:
   telegram_channel_identifier: xdaistable
   twitter_screen_name: xdaichain
 liquidity_score: 32.849
-market_cap_rank: 428
+market_cap_rank: 410
 name: xDAI Stake
 public_interest_score: 0.0
 symbol: stake
 tickers:
 - base: STAKE
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: STAKE
+  market:
+    identifier: hbtc
+    name: BHEX
+  target: USDT
 - base: STAKE
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: USDT
+  target: ETH
 - base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
   market:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
-- base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: DAI
 - base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
   market:
     identifier: uniswap

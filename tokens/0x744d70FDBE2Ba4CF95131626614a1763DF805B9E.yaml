@@ -50,7 +50,7 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 51.672
-market_cap_rank: 133
+market_cap_rank: 140
 name: Status
 public_interest_score: 0.0
 symbol: SNT
@@ -59,12 +59,22 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: GBP
+  target: PAX
 - base: SNT
   market:
     identifier: dove_wallet
     name: Dove Wallet
   target: TUSD
+- base: SNT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: SNT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: SNT
   market:
     identifier: huobi_id
@@ -79,11 +89,6 @@ tickers:
   market:
     identifier: loopring_amm
     name: Loopring AMM
-  target: ETH
-- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
-  market:
-    identifier: one_inch
-    name: 1inch
   target: ETH
 - base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
   market:

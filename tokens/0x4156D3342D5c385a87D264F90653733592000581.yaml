@@ -29,11 +29,21 @@ links:
   telegram_channel_identifier: SALTLendingDiscussion
   twitter_screen_name: SALTLending
 liquidity_score: 4.996
-market_cap_rank: 633
+market_cap_rank: 599
 name: SALT
 public_interest_score: 0.0
 symbol: salt
 tickers:
+- base: 0X4156D3342D5C385A87D264F90653733592000581
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: SALT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: SALT
   market:
     identifier: yobit
@@ -44,3 +54,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: SALT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

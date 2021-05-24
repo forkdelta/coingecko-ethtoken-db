@@ -1,6 +1,6 @@
 ---
 address: '0x78A52E12c7b63d05c12F9608307587CF654EC3d0'
-coingecko_rank: 7195
+coingecko_rank: 7199
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -37,14 +37,14 @@ symbol: cva
 tickers:
 - base: CVA
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: BTC
+- base: CVA
+  market:
     identifier: catex
     name: Catex
   target: ETH
-- base: CVA
-  market:
-    identifier: graviex
-    name: Graviex
-  target: BTC
 - base: CVA
   market:
     identifier: graviex
@@ -59,11 +59,6 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
-  target: ETH
-- base: CVA
-  market:
-    identifier: graviex
-    name: Graviex
   target: EUR
 - base: CVA
   market:
@@ -74,17 +69,17 @@ tickers:
   market:
     identifier: graviex
     name: Graviex
-  target: USD
+  target: USDC
+- base: CVA
+  market:
+    identifier: graviex
+    name: Graviex
+  target: USDT
 - base: CVA
   market:
     identifier: probit
     name: ProBit
   target: KRW
-- base: CVA
-  market:
-    identifier: vindax
-    name: Vindax
-  target: BTC
 - base: CVA
   market:
     identifier: vindax

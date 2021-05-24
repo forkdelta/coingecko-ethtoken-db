@@ -1,6 +1,6 @@
 ---
 address: '0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a'
-coingecko_rank: 4087
+coingecko_rank: 4086
 coingecko_score: 5.115
 community_score: 5.925
 description: >-
@@ -36,19 +36,24 @@ symbol: s4f
 tickers:
 - base: S4F
   market:
-    identifier: mercatox
-    name: Mercatox
+    identifier: exrates
+    name: Exrates
   target: BTC
+- base: S4F
+  market:
+    identifier: exrates
+    name: Exrates
+  target: ETH
+- base: S4F
+  market:
+    identifier: exrates
+    name: Exrates
+  target: USD
 - base: S4F
   market:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: S4F
-  market:
-    identifier: mercatox
-    name: Mercatox
-  target: TUSD
 - base: 0XAEC7D1069E3A914A3EB50F0BFB1796751F2CE48A
   market:
     identifier: uniswap_v2

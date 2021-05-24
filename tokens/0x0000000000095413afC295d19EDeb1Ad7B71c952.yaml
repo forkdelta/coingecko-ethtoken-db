@@ -34,6 +34,11 @@ tickers:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: LON
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: 0X0000000000095413AFC295D19EDEB1AD7B71C952
   market:
     identifier: uniswap
@@ -44,8 +49,3 @@ tickers:
     identifier: zero_ex
     name: 0x Protocol
   target: USD
-- base: LON
-  market:
-    identifier: zkswap
-    name: ZKSwap
-  target: USDT

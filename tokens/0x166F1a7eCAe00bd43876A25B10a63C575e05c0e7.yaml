@@ -1,6 +1,6 @@
 ---
 address: '0x166F1a7eCAe00bd43876A25B10a63C575e05c0e7'
-coingecko_rank: 6653
+coingecko_rank: 6650
 coingecko_score: 0.705
 community_score: 2.297
 description: >-
@@ -56,11 +56,6 @@ symbol: vera
 tickers:
 - base: VERA
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: VERA
-  market:
     identifier: yobit
     name: YoBit
   target: DOGE
@@ -69,6 +64,11 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: VERA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: VERA
   market:
     identifier: yobit

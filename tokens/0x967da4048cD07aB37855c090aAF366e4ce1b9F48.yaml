@@ -53,11 +53,41 @@ links:
   telegram_channel_identifier: oceanprotocol
   twitter_screen_name: oceanprotocol
 liquidity_score: 51.384
-market_cap_rank: 168
+market_cap_rank: 167
 name: Ocean Protocol
 public_interest_score: 0.0
 symbol: ocean
 tickers:
+- base: OCEAN
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: BTC
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: ETH
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
 - base: OCEAN
   market:
     identifier: dove_wallet
@@ -65,11 +95,16 @@ tickers:
   target: TUSD
 - base: OCEAN
   market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: OCEAN
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
+- base: OCEAN
+  market:
     identifier: hotbit
     name: Hotbit
   target: BTC
-- base: OCEAN
-  market:
-    identifier: secretswap
-    name: SecretSwap
-  target: ETH

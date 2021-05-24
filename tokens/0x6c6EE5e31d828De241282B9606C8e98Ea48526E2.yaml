@@ -83,7 +83,7 @@ links:
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
 liquidity_score: 60.587
-market_cap_rank: 72
+market_cap_rank: 75
 name: Holo
 public_interest_score: 0.0
 symbol: hot
@@ -93,6 +93,11 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
+- base: HOT
+  market:
+    identifier: bibo
+    name: Bibo
+  target: USDT
 - base: HOT
   market:
     identifier: bitrue
@@ -105,19 +110,9 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: coinzo
-    name: Coinzo
-  target: ETH
-- base: HOT
-  market:
-    identifier: coinzo
-    name: Coinzo
-  target: TRY
-- base: 0X6C6EE5E31D828DE241282B9606C8E98EA48526E2
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
+    identifier: lcx
+    name: LCX Exchange
+  target: BTC
 - base: HOT
   market:
     identifier: zebitex
