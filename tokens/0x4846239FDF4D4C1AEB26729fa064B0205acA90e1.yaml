@@ -1,6 +1,6 @@
 ---
 address: '0x4846239FDF4D4C1AEB26729fa064B0205acA90e1'
-coingecko_rank: 3307
+coingecko_rank: 3306
 coingecko_score: 8.601
 community_score: 5.809
 description: ""
@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: TrueSeigniorageDollar
   twitter_screen_name: TrueSeigniorage
 liquidity_score: 1.0
-market_cap_rank: 2649
+market_cap_rank: 2657
 name: True Seigniorage Dollar
 public_interest_score: 0.0
 symbol: tsd
-tickers: []
+tickers:
+- base: 0X4846239FDF4D4C1AEB26729FA064B0205ACA90E1
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
+- base: 0X4846239FDF4D4C1AEB26729FA064B0205ACA90E1
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: USDC

@@ -26,6 +26,8 @@ image:
   small: https://assets.coingecko.com/coins/images/8365/small/Reserve_Rights.png?1557737411
   thumb: https://assets.coingecko.com/coins/images/8365/thumb/Reserve_Rights.png?1557737411
 links:
+  announcement_url:
+  - https://medium.com/reserve-currency
   blockchain_site:
   - https://etherscan.io/token/0x8762db106b2c2a0bccb3a80d1ed41273552616e8
   - https://ethplorer.io/address/0x8762db106b2c2a0bccb3a80d1ed41273552616e8
@@ -37,26 +39,16 @@ links:
   telegram_channel_identifier: reservecurrency
   twitter_screen_name: reserveprotocol
 liquidity_score: 55.665
-market_cap_rank: 128
+market_cap_rank: 123
 name: Reserve Rights Token
 public_interest_score: 0.0
 symbol: rsr
 tickers:
-- base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
 - base: RSR
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: RSR
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: BTC
 - base: RSR
   market:
     identifier: dove_wallet
@@ -87,11 +79,6 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: USDT
 - base: RSR
   market:
     identifier: serum_dex

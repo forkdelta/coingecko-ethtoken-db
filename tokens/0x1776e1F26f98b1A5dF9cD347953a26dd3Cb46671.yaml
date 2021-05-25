@@ -12,6 +12,8 @@ image:
   small: https://assets.coingecko.com/coins/images/752/small/numeraire.png?1592538976
   thumb: https://assets.coingecko.com/coins/images/752/thumb/numeraire.png?1592538976
 links:
+  announcement_url:
+  - https://medium.com/numerai
   blockchain_site:
   - https://etherscan.io/token/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671
   - https://ethplorer.io/address/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671
@@ -26,7 +28,7 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 55.602
-market_cap_rank: 183
+market_cap_rank: 184
 name: Numeraire
 public_interest_score: 0.0
 symbol: nmr
@@ -81,6 +83,11 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: USDT
+- base: NMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
   market:
     identifier: mooniswap
@@ -91,6 +98,11 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
+- base: NMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: NMR
   market:
     identifier: yobit

@@ -65,16 +65,16 @@ links:
   telegram_channel_identifier: swissborg
   twitter_screen_name: swissborg
 liquidity_score: 39.159
-market_cap_rank: 110
+market_cap_rank: 104
 name: SwissBorg
 public_interest_score: 0.0
 symbol: chsb
 tickers:
-- base: 0XBA9D4199FAB4F26EFE3551D490E3821486F135BA
+- base: CHSB
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: CHSB
   market:
     identifier: yobit
@@ -85,3 +85,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: CHSB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

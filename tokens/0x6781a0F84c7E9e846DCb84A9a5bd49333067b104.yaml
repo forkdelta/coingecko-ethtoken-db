@@ -57,11 +57,16 @@ links:
   telegram_channel_identifier: ZapOracles
   twitter_screen_name: ZapProtocol
 liquidity_score: 24.642
-market_cap_rank: 678
+market_cap_rank: 668
 name: Zap
 public_interest_score: 0.0
 symbol: zap
 tickers:
+- base: ZAP
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
 - base: ZAP
   market:
     identifier: hitbtc
@@ -77,8 +82,3 @@ tickers:
     identifier: probit
     name: ProBit
   target: USDT
-- base: 0X6781A0F84C7E9E846DCB84A9A5BD49333067B104
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

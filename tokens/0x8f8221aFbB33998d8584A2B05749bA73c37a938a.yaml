@@ -94,21 +94,21 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 25.58
-market_cap_rank: 387
+market_cap_rank: 403
 name: Request
 public_interest_score: 0.0
 symbol: req
 tickers:
-- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
 - base: REQ
   market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: REQ
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: REQ
   market:
     identifier: huobi_korea
@@ -119,26 +119,16 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
-- base: REQ
+- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
-- base: REQ
-  market:
-    identifier: yobit
-    name: YoBit
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: REQ
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: REQ
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
+  target: BTC
 - base: REQ
   market:
     identifier: yobit

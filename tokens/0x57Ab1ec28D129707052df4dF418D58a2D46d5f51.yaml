@@ -26,11 +26,16 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 54.222
-market_cap_rank: 158
+market_cap_rank: 164
 name: sUSD
 public_interest_score: 0.0
 symbol: susd
 tickers:
+- base: SUSD
+  market:
+    identifier: aex
+    name: AEX
+  target: USDT
 - base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
   market:
     identifier: balancer_v1
@@ -71,17 +76,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SEOS
+- base: SXMR
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
 - base: SXTZ
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SGOOG
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -101,7 +101,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SOIL
+- base: IDOT
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -127,11 +127,6 @@ tickers:
     name: Synthetix Exchange
   target: SUSD
 - base: SCOMP
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SETC
   market:
     identifier: synthetix
     name: Synthetix Exchange

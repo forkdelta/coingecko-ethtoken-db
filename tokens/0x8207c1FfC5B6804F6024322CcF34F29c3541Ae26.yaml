@@ -45,6 +45,11 @@ tickers:
   target: WETH
 - base: OGN
   market:
+    identifier: blockchain_com
+    name: Blockchain.com
+  target: USDT
+- base: OGN
+  market:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
@@ -52,9 +57,4 @@ tickers:
   market:
     identifier: kyber_network
     name: Kyber Network
-  target: ETH
-- base: 0X8207C1FFC5B6804F6024322CCF34F29C3541AE26
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
   target: ETH

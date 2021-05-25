@@ -34,6 +34,11 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
+- base: 0X5E74C9036FB86BD7ECDCB084A0673EFC32EA31CB
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: SLINK
   market:
     identifier: synthetix
@@ -69,3 +74,13 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SETH
+- base: IETH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: 0X5E74C9036FB86BD7ECDCB084A0673EFC32EA31CB
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

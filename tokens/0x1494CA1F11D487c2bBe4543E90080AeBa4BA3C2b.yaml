@@ -28,7 +28,7 @@ links:
     - https://github.com/SetProtocol/set-v2
   twitter_screen_name: SetProtocol
 liquidity_score: 39.017
-market_cap_rank: 263
+market_cap_rank: 245
 name: DeFiPulse Index
 public_interest_score: 0.0
 symbol: dpi
@@ -38,6 +38,11 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: DAI
+- base: 0X1494CA1F11D487C2BBE4543E90080AEBA4BA3C2B
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: DPI
   market:
     identifier: secretswap
@@ -50,6 +55,6 @@ tickers:
   target: ETH
 - base: DPI
   market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: tokenlon
+    name: Tokenlon
+  target: USDT

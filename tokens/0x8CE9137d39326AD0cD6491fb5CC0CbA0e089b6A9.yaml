@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
 liquidity_score: 63.342
-market_cap_rank: 224
+market_cap_rank: 217
 name: Swipe
 public_interest_score: 0.0
 symbol: sxp
@@ -87,16 +87,16 @@ tickers:
   target: USDT
 - base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
   market:
-    identifier: pancakeswap_v1
-    name: PancakeSwap (v1)
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
   target: BUSD
-- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-  market:
-    identifier: pancakeswap_v1
-    name: PancakeSwap (v1)
-  target: WBNB
 - base: SXP
   market:
     identifier: poloniex
     name: Poloniex
   target: TRX
+- base: SXP
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT
