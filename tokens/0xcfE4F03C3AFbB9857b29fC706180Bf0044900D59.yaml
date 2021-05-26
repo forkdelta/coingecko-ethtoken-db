@@ -1,6 +1,6 @@
 ---
 address: '0xcfE4F03C3AFbB9857b29fC706180Bf0044900D59'
-coingecko_rank: 4525
+coingecko_rank: 4524
 coingecko_score: 3.916
 community_score: 0.0
 description: >-
@@ -57,6 +57,11 @@ tickers:
   target: USDT
 - base: GOLDR
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: GOLDR
+  market:
     identifier: hotbit
     name: Hotbit
   target: USDT
@@ -65,8 +70,3 @@ tickers:
     identifier: probit
     name: ProBit
   target: BTC
-- base: GOLDR
-  market:
-    identifier: probit
-    name: ProBit
-  target: USDT

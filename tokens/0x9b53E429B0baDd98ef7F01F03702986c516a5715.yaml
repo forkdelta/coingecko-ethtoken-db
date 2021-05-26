@@ -28,8 +28,23 @@ links:
   telegram_channel_identifier: hybrixgroup
   twitter_screen_name: hybrix_io
 liquidity_score: 1.0
-market_cap_rank: 1064
+market_cap_rank: 1077
 name: Hybrix
 public_interest_score: 0.0
 symbol: hy
-tickers: []
+tickers:
+- base: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: HY
+  market:
+    identifier: tomodex
+    name: TomoDEX
+  target: USDT

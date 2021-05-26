@@ -67,6 +67,11 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
+  target: BTC
+- base: REP
+  market:
+    identifier: bitbay
+    name: BitBay
   target: EUR
 - base: REP
   market:
@@ -82,17 +87,32 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: KRW
-- base: REP
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
   target: PAX
 - base: REP
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: TUSD
+- base: REP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: USDC
+- base: REP
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: REP
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: REP
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: REP
   market:
     identifier: probit
@@ -102,9 +122,9 @@ tickers:
   market:
     identifier: uniswap
     name: Uniswap (v3)
-  target: USDC
-- base: REP
-  market:
-    identifier: zebitex
-    name: Zebitex
   target: ETH
+- base: 0X221657776846890989A759BA2973E427DFF5C9BB
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDC

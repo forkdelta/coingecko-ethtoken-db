@@ -36,6 +36,11 @@ name: Token Pocket
 public_interest_score: 0.0
 symbol: tpt
 tickers:
+- base: TPT
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: 0X9EF1918A9BEE17054B35108BD3E2665E2AF1BB1B
   market:
     identifier: mdex
@@ -45,11 +50,6 @@ tickers:
   market:
     identifier: sakeswap
     name: SakeSwap
-  target: ETH
-- base: 0X4161725D019690A3E0DE50F6BE67B07A86A9FAE1
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
   target: ETH
 - base: TPT
   market:

@@ -33,18 +33,23 @@ links:
   telegram_channel_identifier: rupiahtokeninternational
   twitter_screen_name: RupiahTokenIDRT
 liquidity_score: 26.501
-market_cap_rank: 1505
+market_cap_rank: 1517
 name: Rupiah Token
 public_interest_score: 0.0
 symbol: idrt
 tickers:
+- base: USDT
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: IDRT
+- base: BTC
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: IDRT
 - base: BTC
   market:
     identifier: quoine
     name: Liquid
   target: IDRT
-- base: IDRTL
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: IDR

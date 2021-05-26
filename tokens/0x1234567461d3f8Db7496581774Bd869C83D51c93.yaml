@@ -36,6 +36,11 @@ name: BitClave
 public_interest_score: 0.0
 symbol: cat
 tickers:
+- base: 0X1234567461D3F8DB7496581774BD869C83D51C93
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: CAT
   market:
     identifier: yobit
@@ -50,14 +55,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: CAT
-  market:
-    identifier: yobit
-    name: YoBit
   target: USD
-- base: CAT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -26,11 +26,16 @@ links:
     - https://github.com/main-coin/coin
   subreddit_url: https://www.reddit.com/r/MainCoin/
 liquidity_score: 1.0
-market_cap_rank: 1772
+market_cap_rank: 1792
 name: MainCoin
 public_interest_score: 0.0
 symbol: mnc
 tickers:
+- base: MNC
+  market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: USD
 - base: MNC
   market:
     identifier: exrates
@@ -41,8 +46,3 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: BTC
-- base: MNC
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT

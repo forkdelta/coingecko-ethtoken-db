@@ -29,11 +29,6 @@ name: sAAVE
 public_interest_score: 0.0
 symbol: saave
 tickers:
-- base: SBNB
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SAAVE
 - base: SAAVE
   market:
     identifier: synthetix
@@ -44,3 +39,8 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SDOT
+- base: SAAVE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH

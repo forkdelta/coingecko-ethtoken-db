@@ -22,6 +22,8 @@ image:
   small: https://assets.coingecko.com/coins/images/3249/small/metronome.png?1548084800
   thumb: https://assets.coingecko.com/coins/images/3249/thumb/metronome.png?1548084800
 links:
+  announcement_url:
+  - https://metronometoken.medium.com
   bitcointalk_thread_identifier: 2450739
   blockchain_site:
   - https://etherscan.io/token/0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e
@@ -34,13 +36,18 @@ links:
     - https://github.com/autonomoussoftware/metronome.io
   subreddit_url: https://www.reddit.com/r/MetronomeToken/
   telegram_channel_identifier: metronometoken
-  twitter_screen_name: MTNToken
+  twitter_screen_name: MET_Token
 liquidity_score: 11.315
-market_cap_rank: 470
+market_cap_rank: 472
 name: Metronome
 public_interest_score: 0.0
 symbol: met
 tickers:
+- base: MET
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: MET
   market:
     identifier: probit
@@ -51,6 +58,11 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: 0XA3D58C4E56FEDCAE3A7C43A725AEE9A71F0ECE4E
+- base: MET
+  market:
+    identifier: yobit
+    name: YoBit
+  target: DOGE
 - base: MET
   market:
     identifier: yobit

@@ -51,8 +51,18 @@ name: DAOstack
 public_interest_score: 0.0
 symbol: gen
 tickers:
+- base: 0X543FF227F64AA17EA132BF9886CAB5DB55DCADDF
+  market:
+    identifier: dmm
+    name: DMM
+  target: ETH
 - base: GEN
   market:
     identifier: hotbit
     name: Hotbit
   target: BTC
+- base: GEN
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH

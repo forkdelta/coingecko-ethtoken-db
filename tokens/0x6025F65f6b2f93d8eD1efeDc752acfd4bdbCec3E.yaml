@@ -31,6 +31,16 @@ symbol: egold
 tickers:
 - base: EGOLD
   market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: BTC
+- base: EGOLD
+  market:
+    identifier: south_xchange
+    name: SouthXchange
+  target: DASH
+- base: EGOLD
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -44,8 +54,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: EGOLD
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

@@ -47,4 +47,19 @@ market_cap_rank: 149
 name: Balancer
 public_interest_score: 0.0
 symbol: bal
-tickers: []
+tickers:
+- base: BAL
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: ETH
+- base: BAL
+  market:
+    identifier: deversifi
+    name: 'Deversifi '
+  target: USDT
+- base: 0XBA100000625A3754423978A60C9317C58A424E3D
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

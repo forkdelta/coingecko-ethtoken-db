@@ -55,11 +55,26 @@ name: Status
 public_interest_score: 0.0
 symbol: SNT
 tickers:
+- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: SNT
   market:
     identifier: crex24
     name: CREX24
   target: BTC
+- base: SNT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
+- base: SNT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: NGN
 - base: SNT
   market:
     identifier: dove_wallet
@@ -85,8 +100,3 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: SNT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: BTC

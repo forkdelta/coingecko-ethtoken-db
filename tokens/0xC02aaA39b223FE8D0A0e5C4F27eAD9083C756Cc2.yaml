@@ -51,12 +51,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: PLOT
+- base: AMPL
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: SRM
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: PLOT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -77,11 +82,6 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: STAKE
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: AMPL
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -126,17 +126,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: FOX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BAND
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: CRC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: MATIC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -168,9 +168,9 @@ tickers:
   target: ETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: BUSD
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
+  target: ETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: paraswap

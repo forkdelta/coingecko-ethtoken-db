@@ -24,8 +24,18 @@ links:
     - https://github.com/MediShares/MDSToken
   twitter_screen_name: MediShares
 liquidity_score: 19.688
-market_cap_rank: 1041
+market_cap_rank: 1059
 name: MediShares
 public_interest_score: 0.0
 symbol: mds
-tickers: []
+tickers:
+- base: MDS
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: 0X66186008C1050627F979D464EABB258860563DBE
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
