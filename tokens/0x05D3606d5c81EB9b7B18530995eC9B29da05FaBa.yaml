@@ -1,6 +1,6 @@
 ---
 address: '0x05D3606d5c81EB9b7B18530995eC9B29da05FaBa'
-coingecko_rank: 3795
+coingecko_rank: 3796
 coingecko_score: 6.152
 community_score: 9.97
 description: ""
@@ -28,4 +28,14 @@ market_cap_rank: null
 name: TomoChain ERC-20
 public_interest_score: 0.0
 symbol: tomoe
-tickers: []
+tickers:
+- base: TOMOE
+  market:
+    identifier: luaswap
+    name: Luaswap
+  target: USDC
+- base: 0X05D3606D5C81EB9B7B18530995EC9B29DA05FABA
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

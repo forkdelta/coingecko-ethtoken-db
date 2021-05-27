@@ -30,11 +30,16 @@ links:
   telegram_channel_identifier: powerpoolcvp
   twitter_screen_name: powerpoolcvp
 liquidity_score: 33.898
-market_cap_rank: 664
+market_cap_rank: 678
 name: PowerPool Concentrated Voting Power
 public_interest_score: 0.0
 symbol: cvp
 tickers:
+- base: CVP
+  market:
+    identifier: aex
+    name: AEX
+  target: USDT
 - base: 0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1
   market:
     identifier: balancer_v1
@@ -45,3 +50,8 @@ tickers:
     identifier: bkex
     name: BKEX
   target: USDT
+- base: 0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

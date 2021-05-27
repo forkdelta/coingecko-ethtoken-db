@@ -1,6 +1,6 @@
 ---
 address: '0x9B8D5f3402F74C7a61d9f09c32D3cA07b45c1466'
-coingecko_rank: 2956
+coingecko_rank: 2957
 coingecko_score: 10.348
 community_score: 7.534
 description: >-
@@ -44,6 +44,11 @@ tickers:
     identifier: braziliex
     name: Braziliex
   target: BTC
+- base: 0X9B8D5F3402F74C7A61D9F09C32D3CA07B45C1466
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: GMR
   market:
     identifier: yobit
@@ -53,9 +58,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: ETH
+- base: GMR
+  market:
+    identifier: yobit
+    name: YoBit
   target: RUR
 - base: GMR
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD

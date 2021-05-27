@@ -31,16 +31,16 @@ links:
   telegram_channel_identifier: neutrino_protocol_news
   twitter_screen_name: neutrino_proto
 liquidity_score: 46.735
-market_cap_rank: 147
+market_cap_rank: 146
 name: Neutrino USD
 public_interest_score: 0.0
 symbol: usdn
 tickers:
-- base: NSBT
+- base: 0X674C6AD92FD080E4004B2312B45F796A192D27A0
   market:
-    identifier: tidex
-    name: Tidex
-  target: USDN
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: USDN
   market:
     identifier: waves
@@ -56,12 +56,17 @@ tickers:
     identifier: waves
     name: Waves.Exchange
   target: USDN
-- base: ERG
+- base: WCT
   market:
     identifier: waves
     name: Waves.Exchange
   target: USDN
 - base: BCH
+  market:
+    identifier: waves
+    name: Waves.Exchange
+  target: USDN
+- base: DASH
   market:
     identifier: waves
     name: Waves.Exchange

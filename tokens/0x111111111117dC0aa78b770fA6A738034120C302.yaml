@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: OneInchNetwork
   twitter_screen_name: 1inchNetwork
 liquidity_score: 59.908
-market_cap_rank: 125
+market_cap_rank: 126
 name: 1inch
 public_interest_score: 0.0
 symbol: 1inch
@@ -55,6 +55,11 @@ tickers:
   target: USDT
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
+    identifier: mdex_bsc
+    name: Mdex BSC
+  target: BNB
+- base: 0X111111111117DC0AA78B770FA6A738034120C302
+  market:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
@@ -68,8 +73,3 @@ tickers:
     identifier: serum_dex
     name: Serum DEX
   target: USDC
-- base: 1INCH
-  market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: USDT

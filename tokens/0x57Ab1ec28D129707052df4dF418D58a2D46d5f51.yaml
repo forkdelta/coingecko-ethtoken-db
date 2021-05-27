@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 54.222
-market_cap_rank: 175
+market_cap_rank: 183
 name: sUSD
 public_interest_score: 0.0
 symbol: susd
@@ -36,11 +36,6 @@ tickers:
     identifier: aex
     name: AEX
   target: USDT
-- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: USDC
 - base: SUSD
   market:
     identifier: hotbit
@@ -71,6 +66,21 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: SNFLX
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SAMZN
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SDASH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: STSLA
   market:
     identifier: synthetix
@@ -81,32 +91,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SDASH
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SCRV
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SXMR
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SXTZ
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: STRX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: IBTC
+- base: SOIL
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -116,22 +101,17 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SNFLX
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
 - base: SFB
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SAMZN
+- base: IETH
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SXAU
+- base: SETC
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -141,12 +121,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SBNB
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SREN
+- base: SUNI
   market:
     identifier: synthetix
     name: Synthetix Exchange

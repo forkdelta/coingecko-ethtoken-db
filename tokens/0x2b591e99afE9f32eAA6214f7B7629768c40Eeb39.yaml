@@ -37,14 +37,14 @@ symbol: hex
 tickers:
 - base: HEX
   market:
-    identifier: bidesk
-    name: Bidesk
-  target: BTC
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: HEX
   market:
     identifier: bidesk
     name: Bidesk
-  target: USDT
+  target: BTC
 - base: HEX
   market:
     identifier: bitcoin_com
@@ -52,6 +52,11 @@ tickers:
   target: BCH
 - base: HEX
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: ETH
+- base: HEX
+  market:
     identifier: catex
     name: Catex
   target: BTC
@@ -60,11 +65,6 @@ tickers:
     identifier: catex
     name: Catex
   target: USDT
-- base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
 - base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
   market:
     identifier: paraswap
@@ -77,11 +77,16 @@ tickers:
   target: USDT
 - base: HEX
   market:
+    identifier: xt
+    name: XT.COM
+  target: USDT
+- base: HEX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES
+- base: HEX
+  market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: HEX
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

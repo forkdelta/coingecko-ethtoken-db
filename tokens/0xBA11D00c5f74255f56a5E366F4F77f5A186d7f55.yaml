@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 57.097
-market_cap_rank: 160
+market_cap_rank: 159
 name: Band Protocol
 public_interest_score: 0.0
 symbol: band
@@ -42,14 +42,9 @@ tickers:
   target: WETH
 - base: BAND
   market:
-    identifier: cex
-    name: CEX.IO
-  target: ETH
-- base: BAND
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: PAX
+    identifier: exx
+    name: EXX
+  target: USDT
 - base: BAND
   market:
     identifier: hotbit
@@ -60,6 +55,11 @@ tickers:
     identifier: sakeswap
     name: SakeSwap
   target: ETH
+- base: BAND
+  market:
+    identifier: secretswap
+    name: SecretSwap
+  target: SCRT
 - base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
   market:
     identifier: uniswap

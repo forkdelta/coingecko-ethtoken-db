@@ -32,6 +32,16 @@ symbol: swace
 tickers:
 - base: SWACE
   market:
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: SWACE
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: ETH
+- base: SWACE
+  market:
     identifier: probit
     name: ProBit
   target: BTC
@@ -45,3 +55,8 @@ tickers:
     identifier: probit
     name: ProBit
   target: USDT
+- base: SWACE
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH

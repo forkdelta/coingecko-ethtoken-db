@@ -50,16 +50,11 @@ links:
     - https://github.com/UMAprotocol/protocol
   twitter_screen_name: UMAprotocol
 liquidity_score: 50.853
-market_cap_rank: 99
+market_cap_rank: 98
 name: UMA
 public_interest_score: 0.0
 symbol: uma
 tickers:
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: DAI
 - base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:
     identifier: balancer_v1
@@ -70,31 +65,11 @@ tickers:
     identifier: cex
     name: CEX.IO
   target: ETH
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
-  market:
-    identifier: defi_swap
-    name: DeFi Swap
-  target: ETH
 - base: UMA
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: BTC
-- base: UMA
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: ETH
-- base: UMA
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: EUR
-- base: UMA
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: GBP
+    identifier: cex
+    name: CEX.IO
+  target: USDT
 - base: UMA
   market:
     identifier: dove_wallet
@@ -122,18 +97,23 @@ tickers:
   target: USDC
 - base: UMA
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: hotbit
+    name: Hotbit
   target: BTC
 - base: UMA
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
+- base: UMA
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: mooniswap
+    name: Mooniswap
   target: ETH
 - base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:

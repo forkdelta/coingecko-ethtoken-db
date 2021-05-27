@@ -34,11 +34,16 @@ links:
   telegram_channel_identifier: badger_dao
   twitter_screen_name: badgerdao
 liquidity_score: 43.681
-market_cap_rank: 277
+market_cap_rank: 287
 name: Badger DAO
 public_interest_score: 0.0
 symbol: badger
 tickers:
+- base: BADGER
+  market:
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
 - base: BADGER
   market:
     identifier: huobi_korea
@@ -54,13 +59,13 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: DAI
+- base: 0X3472A5A71965499ACD81997A54BBA8D852C6E53D
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: 0XDFC20AE04ED70BD9C7D720F449EEDAE19F659D65
   market:
     identifier: sushiswap_xdai
     name: Sushiswap (xDai)
   target: XDAI
-- base: BADGER
-  market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: WBTC

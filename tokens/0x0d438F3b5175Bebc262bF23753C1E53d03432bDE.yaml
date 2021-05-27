@@ -27,7 +27,7 @@ links:
   - https://nexusmutual.io/
   twitter_screen_name: NexusMutual
 liquidity_score: 49.07
-market_cap_rank: 242
+market_cap_rank: 237
 name: Wrapped NXM
 public_interest_score: 0.0
 symbol: wnxm
@@ -51,7 +51,17 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
+  target: TUSD
+- base: WNXM
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
   target: USDC
+- base: WNXM
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
 - base: WNXM
   market:
     identifier: hotbit
@@ -59,16 +69,26 @@ tickers:
   target: BTC
 - base: WNXM
   market:
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: WNXM
+  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
-- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
+- base: WNXM
   market:
-    identifier: paraswap
-    name: Paraswap
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: WNXM
   market:
     identifier: poloniex
     name: Poloniex
   target: USDT
+- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

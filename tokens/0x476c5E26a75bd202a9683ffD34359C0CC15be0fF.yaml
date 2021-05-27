@@ -24,11 +24,16 @@ links:
   telegram_channel_identifier: ProjectSerum
   twitter_screen_name: projectserum
 liquidity_score: 61.21
-market_cap_rank: 189
+market_cap_rank: 180
 name: Serum
 public_interest_score: 0.0
 symbol: srm
 tickers:
+- base: SRM
+  market:
+    identifier: exx
+    name: EXX
+  target: USDT
 - base: SRM
   market:
     identifier: floatsv
@@ -36,11 +41,6 @@ tickers:
   target: USDT
 - base: SRM
   market:
-    identifier: luaswap
-    name: Luaswap
-  target: LUA
-- base: 0X476C5E26A75BD202A9683FFD34359C0CC15BE0FF
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

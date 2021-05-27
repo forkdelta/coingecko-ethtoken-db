@@ -1,6 +1,6 @@
 ---
 address: '0x12513335ffD5DAfc2334e98625d27c1CA84bff86'
-coingecko_rank: 3862
+coingecko_rank: 3863
 coingecko_score: 5.877
 community_score: 9.87
 description: >-
@@ -35,4 +35,14 @@ market_cap_rank: null
 name: Amepay
 public_interest_score: 0.0
 symbol: ame
-tickers: []
+tickers:
+- base: AME
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: AME
+  market:
+    identifier: xt
+    name: XT.COM
+  target: USDT

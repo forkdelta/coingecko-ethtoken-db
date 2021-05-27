@@ -1,6 +1,6 @@
 ---
 address: '0x9B9087756eCa997C5D595C840263001c9a26646D'
-coingecko_rank: 2422
+coingecko_rank: 2423
 coingecko_score: 12.793
 community_score: 7.2
 description: ""
@@ -21,8 +21,18 @@ links:
   telegram_channel_identifier: DOGEFI_army
   twitter_screen_name: DOGEFI_army
 liquidity_score: 7.103
-market_cap_rank: 1825
+market_cap_rank: 1820
 name: DogeFi
 public_interest_score: 0.0
 symbol: dogefi
-tickers: []
+tickers:
+- base: DOGEFI
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: USDT
+- base: 0X9B9087756ECA997C5D595C840263001C9A26646D
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: Tokenbox
   twitter_screen_name: tokenbox
 liquidity_score: 1.0
-market_cap_rank: 2296
+market_cap_rank: 2195
 name: Tokenbox
 public_interest_score: 0.0
 symbol: tbx
 tickers:
+- base: 0X3A92BD396AEF82AF98EBC0AA9030D25A23B11C6B
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0X3A92BD396AEF82AF98EBC0AA9030D25A23B11C6B
   market:
     identifier: uniswap_v2
@@ -49,3 +54,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: TBX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

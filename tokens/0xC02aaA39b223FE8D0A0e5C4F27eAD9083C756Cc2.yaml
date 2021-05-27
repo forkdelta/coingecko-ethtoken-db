@@ -1,6 +1,6 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 2949
+coingecko_rank: 2950
 coingecko_score: 10.375
 community_score: 0.0
 description: >-
@@ -31,17 +31,27 @@ name: WETH
 public_interest_score: 0.0
 symbol: weth
 tickers:
-- base: CRV
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: HEX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: CRV
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: KEEP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MATIC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: TRU
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -81,12 +91,12 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: STAKE
+- base: KNC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: KNC
+- base: STAKE
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -126,7 +136,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: BNB
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: FOX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: C20
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -136,7 +156,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: CRC
+- base: OGN
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -146,26 +166,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: OGN
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: UPP
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: 0X2E2DDE47952B9C7DEFDE7424D00DD2341AD927CA
   market:
     identifier: dfyn
     name: Dfyn
   target: WETH
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: one_inch_liquidity_protocol
@@ -180,7 +185,7 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
-  target: DAI
+  target: BUSD
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: paraswap

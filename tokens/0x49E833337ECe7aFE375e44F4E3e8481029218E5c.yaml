@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: ValueDeFi
   twitter_screen_name: value_defi
 liquidity_score: 39.108
-market_cap_rank: 865
+market_cap_rank: 768
 name: Value DeFi
 public_interest_score: 0.0
 symbol: value
 tickers:
+- base: VALUE
+  market:
+    identifier: bigone
+    name: BigONE
+  target: USDT
 - base: VALUE
   market:
     identifier: bilaxy
@@ -55,23 +60,18 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
+  target: BTC
 - base: 0X49E833337ECE7AFE375E44F4E3E8481029218E5C
   market:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: 0X514910771AF9CA656AF840DFF83E8264ECF986CA
-  market:
-    identifier: value_liquid
-    name: Value Liquid
-  target: VALUE
 - base: 0X6B175474E89094C44DA98B954EEDEAC495271D0F
   market:
     identifier: value_liquid
     name: Value Liquid
   target: VALUE
-- base: 0XA0B86991C6218B36C1D19D4A2E9EB0CE3606EB48
+- base: 0X4981553E8CCF6DF916B36A2D6B6F8FC567628A51
   market:
     identifier: value_liquid
     name: Value Liquid

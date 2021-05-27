@@ -56,6 +56,11 @@ tickers:
   target: WETH
 - base: RSR
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
+- base: RSR
+  market:
     identifier: dove_wallet
     name: Dove Wallet
   target: GBP
@@ -81,11 +86,6 @@ tickers:
   target: TUSD
 - base: RSR
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
-- base: RSR
-  market:
     identifier: floatsv
     name: Float SV
   target: USDT
@@ -94,16 +94,6 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: HT
-- base: RSR
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
-- base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
 - base: RSR
   market:
     identifier: serum_dex

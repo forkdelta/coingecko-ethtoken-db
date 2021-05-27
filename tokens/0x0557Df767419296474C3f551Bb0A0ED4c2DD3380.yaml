@@ -1,6 +1,6 @@
 ---
 address: '0x0557Df767419296474C3f551Bb0A0ED4c2DD3380'
-coingecko_rank: 3877
+coingecko_rank: 3878
 coingecko_score: 5.841
 community_score: 25.642
 description: >-
@@ -30,4 +30,14 @@ market_cap_rank: null
 name: Universal Gold
 public_interest_score: 0.0
 symbol: upxau
-tickers: []
+tickers:
+- base: UPXAU
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: UPXAU
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT

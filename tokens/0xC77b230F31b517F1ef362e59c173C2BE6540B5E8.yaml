@@ -1,6 +1,6 @@
 ---
 address: '0xC77b230F31b517F1ef362e59c173C2BE6540B5E8'
-coingecko_rank: 2250
+coingecko_rank: 2251
 coingecko_score: 13.729
 community_score: 36.374
 description: >-
@@ -72,4 +72,14 @@ market_cap_rank: null
 name: VIDY
 public_interest_score: 0.0
 symbol: vidy
-tickers: []
+tickers:
+- base: VIDY
+  market:
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: VIDY
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
