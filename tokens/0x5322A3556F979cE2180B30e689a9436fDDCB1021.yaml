@@ -1,6 +1,6 @@
 ---
 address: '0x5322A3556F979cE2180B30e689a9436fDDCB1021'
-coingecko_rank: 6587
+coingecko_rank: 6583
 coingecko_score: 0.838
 community_score: 2.898
 description: >-
@@ -30,4 +30,14 @@ market_cap_rank: null
 name: yTSLA Finance
 public_interest_score: 0.0
 symbol: ytsla
-tickers: []
+tickers:
+- base: YTSLA
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0X5322A3556F979CE2180B30E689A9436FDDCB1021
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

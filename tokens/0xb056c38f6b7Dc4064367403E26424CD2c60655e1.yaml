@@ -1,6 +1,6 @@
 ---
 address: '0xb056c38f6b7Dc4064367403E26424CD2c60655e1'
-coingecko_rank: 3383
+coingecko_rank: 3380
 coingecko_score: 8.229
 community_score: 25.86
 description: >-
@@ -45,11 +45,6 @@ tickers:
   target: ETH
 - base: CEEK
   market:
-    identifier: probit
-    name: ProBit
-  target: USDT
-- base: CEEK
-  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
@@ -63,3 +58,8 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: USDT
+- base: 0XB056C38F6B7DC4064367403E26424CD2C60655E1
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

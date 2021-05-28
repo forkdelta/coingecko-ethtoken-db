@@ -1,6 +1,6 @@
 ---
 address: '0x94501b6A153C8973fd1f321fCC8188d40dC5d72d'
-coingecko_rank: 4676
+coingecko_rank: 4673
 coingecko_score: 3.426
 community_score: 7.532
 description: >-
@@ -32,7 +32,17 @@ tickers:
   market:
     identifier: crex24
     name: CREX24
+  target: ETH
+- base: DDRT
+  market:
+    identifier: crex24
+    name: CREX24
   target: USDPM
+- base: DDRT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: DDRT
   market:
     identifier: hitbtc
@@ -40,11 +50,11 @@ tickers:
   target: DDRST
 - base: DDRT
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: DDRT
+  market:
     identifier: hotbit
     name: Hotbit
   target: ETH
-- base: DDRT
-  market:
-    identifier: probit
-    name: ProBit
-  target: USDT

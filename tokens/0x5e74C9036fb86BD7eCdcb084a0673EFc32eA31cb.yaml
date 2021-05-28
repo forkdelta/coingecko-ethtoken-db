@@ -24,11 +24,16 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 52.351
-market_cap_rank: 137
+market_cap_rank: 134
 name: sETH
 public_interest_score: 0.0
 symbol: seth
 tickers:
+- base: 0X5E74C9036FB86BD7ECDCB084A0673EFC32EA31CB
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0X5E74C9036FB86BD7ECDCB084A0673EFC32EA31CB
   market:
     identifier: paraswap
@@ -45,11 +50,6 @@ tickers:
     name: Synthetix Exchange
   target: SETH
 - base: SEUR
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SETH
-- base: SADA
   market:
     identifier: synthetix
     name: Synthetix Exchange

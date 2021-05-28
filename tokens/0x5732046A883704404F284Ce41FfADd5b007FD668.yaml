@@ -52,7 +52,7 @@ links:
   telegram_channel_identifier: bluzelle
   twitter_screen_name: BluzelleHQ
 liquidity_score: 49.509
-market_cap_rank: 384
+market_cap_rank: 394
 name: Bluzelle
 public_interest_score: 0.0
 symbol: blz
@@ -61,9 +61,24 @@ tickers:
   market:
     identifier: balancer_v1
     name: Balancer (v1)
-  target: USDC
+  target: ETH
+- base: BLZ
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: 0X5732046A883704404F284CE41FFADD5B007FD668
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: BLZ
   market:
     identifier: probit
     name: ProBit
   target: BTC
+- base: BLZ
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

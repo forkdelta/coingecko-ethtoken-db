@@ -60,7 +60,7 @@ links:
   telegram_channel_identifier: powerledger
   twitter_screen_name: PowerLedger_io
 liquidity_score: 37.509
-market_cap_rank: 291
+market_cap_rank: 283
 name: Power Ledger
 public_interest_score: 0.0
 symbol: powr
@@ -70,6 +70,16 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: ETH
+- base: POWR
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: POWR
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
 - base: POWR
   market:
     identifier: dove_wallet
@@ -100,11 +110,6 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
-- base: POWR
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
 - base: POWR
   market:
     identifier: secondbtc

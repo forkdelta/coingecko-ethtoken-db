@@ -36,16 +36,26 @@ links:
   telegram_channel_identifier: abyssfinance
   twitter_screen_name: abyssfinance
 liquidity_score: 18.919
-market_cap_rank: 910
+market_cap_rank: 916
 name: Abyss
 public_interest_score: 0.0
 symbol: abyss
 tickers:
+- base: 0X0E8D6B471E332F140E7D9DBB99E5E3822F728DA6
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X0E8D6B471E332F140E7D9DBB99E5E3822F728DA6
+  market:
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
+  target: ETH
 - base: ABYSS
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: BTC
 - base: ABYSS
   market:
     identifier: yobit
@@ -56,3 +66,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
+- base: ABYSS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -1,6 +1,6 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 2950
+coingecko_rank: 2947
 coingecko_score: 10.375
 community_score: 0.0
 description: >-
@@ -31,11 +31,6 @@ name: WETH
 public_interest_score: 0.0
 symbol: weth
 tickers:
-- base: HEX
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: CRV
   market:
     identifier: bamboo_relay
@@ -56,7 +51,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: BNT
+- base: SRM
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -66,12 +61,12 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: SRM
+- base: PLOT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: PLOT
+- base: BNT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -82,11 +77,6 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: MTA
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: ID
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -116,22 +106,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DEC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: MRPH
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: LCX
+- base: DEC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: RENBTC
+- base: LCX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -147,6 +132,11 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: C20
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ID
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -173,6 +163,11 @@ tickers:
   target: WETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
     identifier: one_inch_liquidity_protocol
     name: 1inch Liquidity Protocol
   target: ETH
@@ -186,6 +181,11 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: BUSD
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: DAI
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: paraswap

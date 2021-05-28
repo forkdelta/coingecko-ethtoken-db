@@ -39,7 +39,7 @@ links:
   telegram_channel_identifier: reservecurrency
   twitter_screen_name: reserveprotocol
 liquidity_score: 55.665
-market_cap_rank: 125
+market_cap_rank: 129
 name: Reserve Rights Token
 public_interest_score: 0.0
 symbol: rsr
@@ -54,11 +54,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: RSR
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: USDT
 - base: RSR
   market:
     identifier: dove_wallet
@@ -76,16 +71,6 @@ tickers:
   target: NGN
 - base: RSR
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: PAX
-- base: RSR
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
-- base: RSR
-  market:
     identifier: floatsv
     name: Float SV
   target: USDT
@@ -93,7 +78,17 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: HT
+  target: BTC
+- base: RSR
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: RSR
+  market:
+    identifier: secretswap
+    name: SecretSwap
+  target: ETH
 - base: RSR
   market:
     identifier: serum_dex

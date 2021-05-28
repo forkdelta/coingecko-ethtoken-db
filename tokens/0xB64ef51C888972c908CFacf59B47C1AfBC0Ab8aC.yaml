@@ -57,7 +57,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storj
 liquidity_score: 53.007
-market_cap_rank: 232
+market_cap_rank: 239
 name: Storj
 public_interest_score: 0.0
 symbol: storj
@@ -67,16 +67,6 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
-- base: STORJ
-  market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: USDT
-- base: STORJ
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: BTC
 - base: STORJ
   market:
     identifier: dove_wallet
@@ -97,11 +87,11 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: TUSD
-- base: 0XB64EF51C888972C908CFACF59B47C1AFBC0AB8AC
+- base: STORJ
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
 - base: STORJ
   market:
     identifier: yobit
@@ -111,9 +101,19 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: ETH
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: STORJ
   market:
     identifier: yobit
     name: YoBit
   target: USD
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

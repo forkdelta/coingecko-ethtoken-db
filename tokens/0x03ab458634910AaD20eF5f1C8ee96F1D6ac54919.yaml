@@ -22,16 +22,11 @@ links:
   - http://reflexer.finance/
   twitter_screen_name: reflexerfinance
 liquidity_score: 42.551
-market_cap_rank: 540
+market_cap_rank: 542
 name: Rai Reflex Index
 public_interest_score: 0.0
 symbol: rai
 tickers:
-- base: RAI
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: RAI
   market:
     identifier: tokenlon
@@ -42,6 +37,11 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: DAI
+- base: 0X03AB458634910AAD20EF5F1C8EE96F1D6AC54919
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
 - base: 0X03AB458634910AAD20EF5F1C8EE96F1D6AC54919
   market:
     identifier: uniswap

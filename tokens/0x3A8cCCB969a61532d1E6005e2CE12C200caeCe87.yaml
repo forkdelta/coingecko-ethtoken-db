@@ -25,11 +25,16 @@ links:
   telegram_channel_identifier: TitanSwap
   twitter_screen_name: TitanSwaporg
 liquidity_score: 38.563
-market_cap_rank: 155
+market_cap_rank: 154
 name: TitanSwap
 public_interest_score: 0.0
 symbol: titan
 tickers:
+- base: TITAN
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
 - base: TITAN
   market:
     identifier: cointiger
@@ -44,9 +49,4 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
-- base: 0X3A8CCCB969A61532D1E6005E2CE12C200CAECE87
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
   target: ETH

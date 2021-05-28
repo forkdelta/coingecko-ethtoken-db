@@ -22,11 +22,21 @@ links:
   - https://www.synthetix.io
   twitter_screen_name: synthetix_io
 liquidity_score: 40.674
-market_cap_rank: 417
+market_cap_rank: 426
 name: sBTC
 public_interest_score: 0.0
 symbol: sbtc
 tickers:
+- base: RENBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SBTC
+- base: TBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SBTC
 - base: BBTC
   market:
     identifier: curve
@@ -37,7 +47,17 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SBTC
+- base: SLINK
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
 - base: SAAVE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
+- base: IBTC
   market:
     identifier: synthetix
     name: Synthetix Exchange

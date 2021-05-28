@@ -1,6 +1,6 @@
 ---
 address: '0x4bD70556ae3F8a6eC6C4080A0C327B24325438f3'
-coingecko_rank: 1129
+coingecko_rank: 1128
 coingecko_score: 20.828
 community_score: 9.06
 description: >-
@@ -27,4 +27,19 @@ market_cap_rank: 232
 name: Hxro
 public_interest_score: 0.0
 symbol: hxro
-tickers: []
+tickers:
+- base: HXRO
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: 0X4BD70556AE3F8A6EC6C4080A0C327B24325438F3
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: HXRO
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

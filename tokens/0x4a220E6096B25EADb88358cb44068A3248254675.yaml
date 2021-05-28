@@ -49,8 +49,18 @@ symbol: qnt
 tickers:
 - base: QNT
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: QNT
+  market:
     identifier: idex
     name: Idex
+  target: ETH
+- base: 0X4A220E6096B25EADB88358CB44068A3248254675
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: 0X4A220E6096B25EADB88358CB44068A3248254675
   market:

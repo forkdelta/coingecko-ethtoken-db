@@ -56,8 +56,13 @@ symbol: rpl
 tickers:
 - base: 0XB4EFD85C19999D84251304BDA99E90B92300BD93
   market:
-    identifier: balancer
-    name: Balancer (v2)
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: RPL
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH
 - base: 0XB4EFD85C19999D84251304BDA99E90B92300BD93
   market:
