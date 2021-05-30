@@ -29,13 +29,23 @@ links:
   telegram_channel_identifier: matryxai
   twitter_screen_name: matryx_ai
 liquidity_score: 11.791
-market_cap_rank: 893
+market_cap_rank: 825
 name: MATRYX
 public_interest_score: 0.0
 symbol: mtx
 tickers:
-- base: 0X0AF44E2784637218DD1D32A322D44E603A8F0C6A
+- base: MTX
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: MTX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: MTX
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC

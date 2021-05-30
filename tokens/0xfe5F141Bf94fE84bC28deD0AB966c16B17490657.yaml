@@ -58,7 +58,7 @@ links:
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
 liquidity_score: 21.374
-market_cap_rank: 1415
+market_cap_rank: 1381
 name: LibraToken
 public_interest_score: 0.0
 symbol: lba
@@ -68,6 +68,16 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
+- base: LBA
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: 0XFE5F141BF94FE84BC28DED0AB966C16B17490657
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: LBA
   market:
     identifier: yobit
@@ -83,8 +93,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: LBA
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD

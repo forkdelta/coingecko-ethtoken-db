@@ -40,11 +40,16 @@ links:
   telegram_channel_identifier: YFLinkGroup
   twitter_screen_name: YFLinkio
 liquidity_score: 17.539
-market_cap_rank: 1102
+market_cap_rank: 1130
 name: YF Link
 public_interest_score: 0.0
 symbol: yfl
 tickers:
+- base: YFL
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
 - base: YFL
   market:
     identifier: bittrex
@@ -59,7 +64,7 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
-  target: USD
+  target: USDT
 - base: 0X28CB7E841EE97947A86B06FA4090C8451F64C0BE
   market:
     identifier: one_inch
@@ -70,3 +75,8 @@ tickers:
     identifier: poloniex
     name: Poloniex
   target: USDT
+- base: 0X28CB7E841EE97947A86B06FA4090C8451F64C0BE
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

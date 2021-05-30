@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: nest_chat
   twitter_screen_name: BruceYang_NEST
 liquidity_score: 44.72
-market_cap_rank: 545
+market_cap_rank: 533
 name: Nest Protocol
 public_interest_score: 0.0
 symbol: nest
@@ -38,16 +38,21 @@ tickers:
     identifier: bigone
     name: BigONE
   target: USDT
-- base: 0X04ABEDA201850AC0124161F037EFD70C74DDC74C
+- base: NEST
   market:
-    identifier: defi_swap
-    name: DeFi Swap
+    identifier: gate
+    name: Gate.io
   target: ETH
-- base: 0X04ABEDA201850AC0124161F037EFD70C74DDC74C
+- base: NEST
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: NEST
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: 0X04ABEDA201850AC0124161F037EFD70C74DDC74C
   market:
     identifier: uniswap_v2

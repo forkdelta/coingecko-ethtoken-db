@@ -52,7 +52,7 @@ links:
   telegram_channel_identifier: aeternity
   twitter_screen_name: aeternity
 liquidity_score: 45.089
-market_cap_rank: 379
+market_cap_rank: 363
 name: Aeternity
 public_interest_score: 0.0
 symbol: ae
@@ -84,6 +84,11 @@ tickers:
   target: USDT
 - base: AE
   market:
+    identifier: tokok
+    name: TOKOK
+  target: BTC
+- base: AE
+  market:
     identifier: yobit
     name: YoBit
   target: ETH
@@ -91,14 +96,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: RUR
-- base: AE
-  market:
-    identifier: yobit
-    name: YoBit
   target: USD
-- base: AE
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

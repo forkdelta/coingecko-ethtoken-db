@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: deltahubc
   twitter_screen_name: deltahubc
 liquidity_score: 17.96
-market_cap_rank: 1024
+market_cap_rank: 1047
 name: DeltaHub Community
 public_interest_score: 0.0
 symbol: DHC
-tickers: []
+tickers:
+- base: DHC
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: 0X152687BC4A7FCC89049CF119F9AC3E5ACF2EE7EF
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

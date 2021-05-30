@@ -43,11 +43,16 @@ links:
   telegram_channel_identifier: zkswapofficial
   twitter_screen_name: ZKSwapOfficial
 liquidity_score: 48.831
-market_cap_rank: 218
+market_cap_rank: 214
 name: ZKSwap
 public_interest_score: 0.0
 symbol: zks
 tickers:
+- base: ZKS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: ZKS
   market:
     identifier: hitbtc
@@ -63,6 +68,11 @@ tickers:
     identifier: zkswap
     name: ZKSwap
   target: DAI
+- base: XDEX
+  market:
+    identifier: zkswap
+    name: ZKSwap
+  target: ZKS
 - base: LINK
   market:
     identifier: zkswap

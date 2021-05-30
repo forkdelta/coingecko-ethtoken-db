@@ -50,16 +50,26 @@ symbol: bal
 tickers:
 - base: BAL
   market:
+    identifier: bigone
+    name: BigONE
+  target: USDT
+- base: BAL
+  market:
     identifier: dove_wallet
     name: Dove Wallet
   target: PAX
 - base: BAL
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
 - base: BAL
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: BAL
+  market:
+    identifier: tokok
+    name: TOKOK
   target: USDT

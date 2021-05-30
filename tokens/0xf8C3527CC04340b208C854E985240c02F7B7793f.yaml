@@ -25,16 +25,26 @@ links:
   telegram_channel_identifier: FrontierDotXYZ
   twitter_screen_name: FrontierDotXYZ
 liquidity_score: 46.618
-market_cap_rank: 464
+market_cap_rank: 476
 name: Frontier
 public_interest_score: 0.0
 symbol: front
 tickers:
+- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
 - base: FRONT
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
+- base: FRONT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
   market:
     identifier: mooniswap
@@ -44,6 +54,11 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
+  market:
+    identifier: sakeswap
+    name: SakeSwap
   target: ETH
 - base: FRONT
   market:

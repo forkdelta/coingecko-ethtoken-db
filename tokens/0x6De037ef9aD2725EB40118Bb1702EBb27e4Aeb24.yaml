@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: RenderTokenOfficial
   twitter_screen_name: rendertoken
 liquidity_score: 44.86
-market_cap_rank: 277
+market_cap_rank: 279
 name: Render Token
 public_interest_score: 0.0
 symbol: rndr
@@ -44,11 +44,16 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: BTC
+- base: RNDR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: 0X6DE037EF9AD2725EB40118BB1702EBB27E4AEB24
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: paraswap
+    name: Paraswap
   target: ETH
 - base: RNDR
   market:
@@ -60,6 +65,11 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: ETH
+- base: RNDR
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
 - base: 0X6DE037EF9AD2725EB40118BB1702EBB27E4AEB24
   market:
     identifier: uniswap

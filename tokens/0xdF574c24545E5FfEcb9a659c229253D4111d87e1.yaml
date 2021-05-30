@@ -27,11 +27,21 @@ links:
     - https://github.com/stcoins/HUSD
   twitter_screen_name: Stablecoin_HUSD
 liquidity_score: 68.798
-market_cap_rank: 93
+market_cap_rank: 87
 name: HUSD
 public_interest_score: 0.0
 symbol: husd
 tickers:
+- base: HUSD
+  market:
+    identifier: anyswap
+    name: Anyswap
+  target: HT
+- base: HUSD
+  market:
+    identifier: biki
+    name: BiKi
+  target: USDT
 - base: HUSD
   market:
     identifier: curve
@@ -41,17 +51,7 @@ tickers:
   market:
     identifier: curve
     name: Curve Finance
-  target: USDC
-- base: HUSD
-  market:
-    identifier: curve
-    name: Curve Finance
   target: USDT
-- base: 0X0298C2B32EAE4DA002A15F36FDF7615BEA3DA047
-  market:
-    identifier: mdex
-    name: Mdex
-  target: HT
 - base: 0XDF574C24545E5FFECB9A659C229253D4111D87E1
   market:
     identifier: one_inch

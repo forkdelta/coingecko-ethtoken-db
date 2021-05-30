@@ -1,18 +1,18 @@
 ---
 address: '0x35b55c25731E9b05B1d8480ba39463d52C9D0211'
-coingecko_rank: 6805
+coingecko_rank: 6906
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
-  StonkSwap is a DEX protocol to wrap stocks and make them available on DeFi. Each stock token is backed
-  1 to 1 by real stocks, which are purchased and held by a custodian. STONK is a government token that
-  is also used for paying trade fees on StonkSwap.
+  StockSwap aims to offer architectural improvements to the stock market system by offering stocks trading
+  using crypto technology. We plan to offer dividends, voting rights, fractional shares, 24/7 trading
+  with a crypto on/off ramp. Simply trade stocks.
 developer_score: 0.0
 id: stonk
 image:
-  large: https://assets.coingecko.com/coins/images/11690/large/PNG-logo-circle-200.png?1618533501
-  small: https://assets.coingecko.com/coins/images/11690/small/PNG-logo-circle-200.png?1618533501
-  thumb: https://assets.coingecko.com/coins/images/11690/thumb/PNG-logo-circle-200.png?1618533501
+  large: https://assets.coingecko.com/coins/images/11690/large/PNG_logo_200px.png?1622340402
+  small: https://assets.coingecko.com/coins/images/11690/small/PNG_logo_200px.png?1622340402
+  thumb: https://assets.coingecko.com/coins/images/11690/thumb/PNG_logo_200px.png?1622340402
 links:
   announcement_url:
   - https://stonkswap.medium.com/
@@ -22,15 +22,20 @@ links:
   chat_url:
   - https://discord.gg/HWVjKwTDk8
   homepage:
-  - https://www.stonkswap.com/
+  - https://www.stockswap.app/
   repos_url:
     github:
     - https://github.com/stonkdev/STONK
-  telegram_channel_identifier: StonkSwap
-  twitter_screen_name: StonkSwap
+  telegram_channel_identifier: StockSwapOfficial
+  twitter_screen_name: StockSwapApp
 liquidity_score: 1.0
 market_cap_rank: null
 name: Stonk Swap
 public_interest_score: 0.0
 symbol: stonk
-tickers: []
+tickers:
+- base: 0X35B55C25731E9B05B1D8480BA39463D52C9D0211
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

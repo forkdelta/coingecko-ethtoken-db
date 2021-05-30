@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: skrumble
   twitter_screen_name: SkrumbleNetwork
 liquidity_score: 17.805
-market_cap_rank: 1346
+market_cap_rank: 1329
 name: Skrumble Network
 public_interest_score: 0.0
 symbol: skm
-tickers: []
+tickers:
+- base: SKM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: SKM
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT

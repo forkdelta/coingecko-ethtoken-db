@@ -50,16 +50,16 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 51.672
-market_cap_rank: 143
+market_cap_rank: 145
 name: Status
 public_interest_score: 0.0
 symbol: SNT
 tickers:
-- base: SNT
+- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: SNT
   market:
     identifier: dove_wallet
@@ -69,27 +69,22 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: PAX
-- base: SNT
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
   target: TUSD
-- base: SNT
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
-- base: SNT
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: SNT
   market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: SNT
+  market:
+    identifier: tokok
+    name: TOKOK
+  target: BTC
+- base: SNT
+  market:
+    identifier: tokok
+    name: TOKOK
+  target: USDT
 - base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
   market:
     identifier: uniswap

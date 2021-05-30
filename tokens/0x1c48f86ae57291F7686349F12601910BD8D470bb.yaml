@@ -21,17 +21,17 @@ links:
     - https://github.com/oklink/demo-net
   twitter_screen_name: OKLink
 liquidity_score: 64.305
-market_cap_rank: 561
+market_cap_rank: 525
 name: USDK
 public_interest_score: 0.0
 symbol: usdk
 tickers:
-- base: BTC
+- base: USK
   market:
-    identifier: bkex
-    name: BKEX
-  target: USDK
-- base: USDT
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
+- base: BTC
   market:
     identifier: bkex
     name: BKEX
@@ -40,18 +40,18 @@ tickers:
   market:
     identifier: curve
     name: Curve Finance
-  target: DAI
-- base: BSV
+  target: USDT
+- base: USDK
   market:
-    identifier: floatsv
-    name: Float SV
-  target: USDK
+    identifier: okcoin
+    name: Okcoin
+  target: USD
 - base: USDK
   market:
     identifier: okcoin
     name: Okcoin
   target: USDT
-- base: NDN
+- base: ROAD
   market:
     identifier: okex
     name: OKEx
@@ -61,16 +61,26 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: ROAD
+- base: DEP
   market:
     identifier: okex
     name: OKEx
   target: USDK
-- base: EM
+- base: LAMB
   market:
     identifier: okex
     name: OKEx
   target: USDK
+- base: NDN
+  market:
+    identifier: okex
+    name: OKEx
+  target: USDK
+- base: 0X1C48F86AE57291F7686349F12601910BD8D470BB
+  market:
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
+  target: ETH
 - base: 0X1C48F86AE57291F7686349F12601910BD8D470BB
   market:
     identifier: uniswap_v2

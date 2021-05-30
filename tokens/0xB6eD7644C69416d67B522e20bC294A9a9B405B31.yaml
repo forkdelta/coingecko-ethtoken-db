@@ -36,18 +36,23 @@ links:
   telegram_channel_identifier: ZEROxBTC
   twitter_screen_name: 0xBTC
 liquidity_score: 18.756
-market_cap_rank: 1088
+market_cap_rank: 1060
 name: 0xBitcoin
 public_interest_score: 0.0
 symbol: 0xbtc
 tickers:
-- base: 0XB6ED7644C69416D67B522E20BC294A9A9B405B31
+- base: 0XBTC
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: hotbit
+    name: Hotbit
   target: ETH
 - base: 0XB6ED7644C69416D67B522E20BC294A9A9B405B31
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 0X514910771AF9CA656AF840DFF83E8264ECF986CA
   market:
     identifier: uniswap
     name: Uniswap (v3)
-  target: ETH
+  target: 0XB6ED7644C69416D67B522E20BC294A9A9B405B31

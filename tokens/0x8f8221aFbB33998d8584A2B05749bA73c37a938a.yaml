@@ -94,16 +94,21 @@ links:
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
 liquidity_score: 25.58
-market_cap_rank: 413
+market_cap_rank: 405
 name: Request
 public_interest_score: 0.0
 symbol: req
 tickers:
-- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
+- base: REQ
   market:
-    identifier: balancer_v1
-    name: Balancer (v1)
+    identifier: gate
+    name: Gate.io
   target: ETH
+- base: REQ
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
 - base: REQ
   market:
     identifier: kyber_network

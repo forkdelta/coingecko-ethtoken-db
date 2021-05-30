@@ -67,19 +67,24 @@ tickers:
   target: USDC
 - base: UMA
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: EUR
+    identifier: cex
+    name: CEX.IO
+  target: ETH
 - base: UMA
   market:
     identifier: cex
     name: CEX.IO
   target: USDT
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
+- base: UMA
   market:
-    identifier: defi_swap
-    name: DeFi Swap
-  target: ETH
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: UMA
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
 - base: UMA
   market:
     identifier: dove_wallet
@@ -90,11 +95,6 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: NGN
-- base: UMA
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: PAX
 - base: UMA
   market:
     identifier: dove_wallet
@@ -124,6 +124,11 @@ tickers:
   market:
     identifier: mooniswap
     name: Mooniswap
+  target: ETH
+- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:

@@ -63,8 +63,18 @@ links:
   telegram_channel_identifier: jupiterproject
   twitter_screen_name: JUP_project
 liquidity_score: 24.731
-market_cap_rank: 1174
+market_cap_rank: 1095
 name: Jupiter
 public_interest_score: 0.0
 symbol: jup
-tickers: []
+tickers:
+- base: JUP
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
+- base: JUP
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

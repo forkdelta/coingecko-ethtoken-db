@@ -1,6 +1,6 @@
 ---
 address: '0x2001f2A0Cf801EcFda622f6C28fb6E10d803D969'
-coingecko_rank: 3299
+coingecko_rank: 3298
 coingecko_score: 8.607
 community_score: 28.315
 description: >-
@@ -31,6 +31,11 @@ name: CoinLoan
 public_interest_score: 0.0
 symbol: clt
 tickers:
+- base: 0X2001F2A0CF801ECFDA622F6C28FB6E10D803D969
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
 - base: CLT
   market:
     identifier: yobit
@@ -46,11 +51,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: CLT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: CLT
   market:
     identifier: yobit

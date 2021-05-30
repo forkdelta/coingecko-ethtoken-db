@@ -24,13 +24,28 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 4.224
-market_cap_rank: 1532
+market_cap_rank: 1506
 name: sXRP
 public_interest_score: 0.0
 symbol: sxrp
 tickers:
+- base: 0XA2B0FDE6D710E201D0D608E924A484D1A5FED57C
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: SXRP
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
 - base: SXRP
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: 0XA2B0FDE6D710E201D0D608E924A484D1A5FED57C
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0x420412E765BFa6d85aaaC94b4f7b708C89be2e2B'
-coingecko_rank: 3301
+coingecko_rank: 3300
 coingecko_score: 8.606
 community_score: 6.196
 description: >-
@@ -48,7 +48,17 @@ tickers:
     identifier: ftx_us
     name: FTX.US
   target: BRZ
-- base: USDT
+- base: BRZ
+  market:
+    identifier: novadax
+    name: NovaDAX
+  target: ETH
+- base: ETH
+  market:
+    identifier: zbx
+    name: ZBX
+  target: BRZ
+- base: BTC
   market:
     identifier: zbx
     name: ZBX

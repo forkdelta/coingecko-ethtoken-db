@@ -57,16 +57,11 @@ name: VNDC
 public_interest_score: 0.0
 symbol: vndc
 tickers:
-- base: USDC
+- base: VNDC
   market:
-    identifier: exmarkets
-    name: ExMarkets
-  target: VNDC
-- base: BTC
-  market:
-    identifier: exmarkets
-    name: ExMarkets
-  target: VNDC
+    identifier: coinmargin
+    name: CoinMargin
+  target: MKS
 - base: DDK
   market:
     identifier: exmarkets
@@ -77,8 +72,3 @@ tickers:
     identifier: tomodex
     name: TomoDEX
   target: TOMO
-- base: 0X1F3F677ECC58F6A1F9E2CF410DF4776A8546B5DE
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH

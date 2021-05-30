@@ -36,4 +36,14 @@ market_cap_rank: null
 name: Jobchain
 public_interest_score: 0.0
 symbol: job
-tickers: []
+tickers:
+- base: JOB
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: JOB
+  market:
+    identifier: digifinex
+    name: Digifinex
+  target: USDT

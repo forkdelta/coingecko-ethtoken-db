@@ -21,7 +21,7 @@ links:
   - https://www.etgproject.org/
   twitter_screen_name: ethereumgoldetg
 liquidity_score: 1.0
-market_cap_rank: 2243
+market_cap_rank: 1724
 name: Ethereum Gold
 public_interest_score: 0.0
 symbol: etg
@@ -33,6 +33,11 @@ tickers:
   target: ETH
 - base: ETG
   market:
+    identifier: stocks_exchange
+    name: STEX
+  target: LTC
+- base: ETG
+  market:
     identifier: vindax
     name: Vindax
   target: BTC
@@ -40,4 +45,4 @@ tickers:
   market:
     identifier: vindax
     name: Vindax
-  target: USDT
+  target: ETH

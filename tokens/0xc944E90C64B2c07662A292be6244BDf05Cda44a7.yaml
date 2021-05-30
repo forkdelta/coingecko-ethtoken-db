@@ -40,7 +40,7 @@ links:
   telegram_channel_identifier: graphprotocol
   twitter_screen_name: graphprotocol
 liquidity_score: 61.74
-market_cap_rank: 94
+market_cap_rank: 96
 name: The Graph
 public_interest_score: 0.0
 symbol: grt
@@ -49,17 +49,22 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: GBP
+  target: BTC
 - base: GRT
   market:
-    identifier: btcturk
-    name: BtcTurk PRO
-  target: BTC
-- base: 0X46C54B16AF7747067F412C78EBADAE203A26ADA0
+    identifier: bitbay
+    name: BitBay
+  target: EUR
+- base: GRT
   market:
-    identifier: pangolin
-    name: Pangolin
-  target: AVAX
+    identifier: bitbay
+    name: BitBay
+  target: USDT
+- base: GRT
+  market:
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
 - base: 0XC944E90C64B2C07662A292BE6244BDF05CDA44A7
   market:
     identifier: paraswap

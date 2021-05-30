@@ -31,6 +31,11 @@ name: WETH
 public_interest_score: 0.0
 symbol: weth
 tickers:
+- base: HEX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: CRV
   market:
     identifier: bamboo_relay
@@ -71,12 +76,22 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DEXT
+- base: LCX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: MTA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: MRPH
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ID
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -106,17 +121,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: MRPH
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: DEC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: LCX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -132,11 +137,6 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: C20
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: ID
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -176,18 +176,3 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: BUSD
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: BUSD
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: DAI
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: USDT

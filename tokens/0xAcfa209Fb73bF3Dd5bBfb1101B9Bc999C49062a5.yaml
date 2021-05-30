@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: BCDiploma
   twitter_screen_name: 'MyEvidenZ '
 liquidity_score: 1.0
-market_cap_rank: 1208
+market_cap_rank: 1216
 name: Blockchain Certified Data Token
 public_interest_score: 0.0
 symbol: bcdt
@@ -42,4 +42,14 @@ tickers:
   market:
     identifier: balancer_v1
     name: Balancer (v1)
+  target: ETH
+- base: BCDT
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: 0XACFA209FB73BF3DD5BBFB1101B9BC999C49062A5
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
