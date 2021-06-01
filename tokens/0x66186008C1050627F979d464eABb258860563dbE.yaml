@@ -1,6 +1,6 @@
 ---
 address: '0x66186008C1050627F979d464eABb258860563dbE'
-coingecko_rank: 1116
+coingecko_rank: 1114
 coingecko_score: 20.888
 community_score: 7.023
 description: >-
@@ -24,7 +24,7 @@ links:
     - https://github.com/MediShares/MDSToken
   twitter_screen_name: MediShares
 liquidity_score: 19.688
-market_cap_rank: 1045
+market_cap_rank: 1060
 name: MediShares
 public_interest_score: 0.0
 symbol: mds
@@ -33,7 +33,12 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
+  target: BTC
+- base: MDS
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
 - base: 0X66186008C1050627F979D464EABB258860563DBE
   market:
     identifier: uniswap_v2

@@ -1,6 +1,6 @@
 ---
 address: '0xdB25f211AB05b1c97D595516F45794528a807ad8'
-coingecko_rank: 876
+coingecko_rank: 874
 coingecko_score: 23.197
 community_score: 8.592
 description: >-
@@ -31,32 +31,22 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 21.521
-market_cap_rank: 481
+market_cap_rank: 505
 name: STASIS EURO
 public_interest_score: 0.0
 symbol: eurs
 tickers:
-- base: EUS
-  market:
-    identifier: bitfinex
-    name: Bitfinex
-  target: USD
 - base: EURS
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: DAI
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: EOSDT
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: ETH
+- base: BCH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -66,31 +56,21 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: ZEC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: NEO
+- base: EOS
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: EURS
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: TUSD
-- base: ETH
-  market:
-    identifier: nice_hash
-    name: NiceHash
-  target: EURS
-- base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
 - base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
   market:
     identifier: paraswap
@@ -105,9 +85,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
+  target: USD
 - base: EURS
   market:
-    identifier: yobit
-    name: YoBit
+    identifier: zero_ex
+    name: 0x Protocol
   target: USD

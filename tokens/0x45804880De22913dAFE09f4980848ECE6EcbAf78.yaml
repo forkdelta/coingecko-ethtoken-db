@@ -1,6 +1,6 @@
 ---
 address: '0x45804880De22913dAFE09f4980848ECE6EcbAf78'
-coingecko_rank: 647
+coingecko_rank: 646
 coingecko_score: 25.931
 community_score: 9.123
 description: >-
@@ -42,11 +42,16 @@ links:
     - https://github.com/paxosglobal/paxos-gold-contract
   twitter_screen_name: paxosglobal
 liquidity_score: 48.859
-market_cap_rank: 166
+market_cap_rank: 179
 name: PAX Gold
 public_interest_score: 0.0
 symbol: paxg
 tickers:
+- base: PAXG
+  market:
+    identifier: bitopro
+    name: BitoPro
+  target: TWD
 - base: PAXG
   market:
     identifier: bitopro
@@ -62,11 +67,11 @@ tickers:
     identifier: cex
     name: CEX.IO
   target: USDT
-- base: PAXG
+- base: 0X45804880DE22913DAFE09F4980848ECE6ECBAF78
   market:
-    identifier: ftx_us
-    name: FTX.US
-  target: USDT
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: PAXG
   market:
     identifier: serum_dex

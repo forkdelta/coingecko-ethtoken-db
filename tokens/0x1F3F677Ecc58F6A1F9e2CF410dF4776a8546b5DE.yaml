@@ -1,6 +1,6 @@
 ---
 address: '0x1F3F677Ecc58F6A1F9e2CF410dF4776a8546b5DE'
-coingecko_rank: 3104
+coingecko_rank: 3102
 coingecko_score: 9.53
 community_score: 6.203
 description: >-
@@ -57,11 +57,6 @@ name: VNDC
 public_interest_score: 0.0
 symbol: vndc
 tickers:
-- base: VNDC
-  market:
-    identifier: coinmargin
-    name: CoinMargin
-  target: MKS
 - base: DDK
   market:
     identifier: exmarkets
@@ -72,3 +67,8 @@ tickers:
     identifier: tomodex
     name: TomoDEX
   target: TOMO
+- base: 0X1F3F677ECC58F6A1F9E2CF410DF4776A8546B5DE
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0x68d57c9a1C35f63E2c83eE8e49A64e9d70528D25'
-coingecko_rank: 423
+coingecko_rank: 422
 coingecko_score: 30.016
 community_score: 31.404
 description: >-
@@ -47,13 +47,23 @@ links:
   telegram_channel_identifier: sirinlabs
   twitter_screen_name: sirinlabs
 liquidity_score: 14.051
-market_cap_rank: 1064
+market_cap_rank: 1105
 name: Sirin Labs Token
 public_interest_score: 0.0
 symbol: srn
 tickers:
 - base: SRN
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: SRN
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: 0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

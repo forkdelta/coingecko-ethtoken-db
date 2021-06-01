@@ -1,6 +1,6 @@
 ---
 address: '0xf8C3527CC04340b208C854E985240c02F7B7793f'
-coingecko_rank: 744
+coingecko_rank: 742
 coingecko_score: 24.494
 community_score: 10.234
 description: >-
@@ -25,36 +25,31 @@ links:
   telegram_channel_identifier: FrontierDotXYZ
   twitter_screen_name: FrontierDotXYZ
 liquidity_score: 46.618
-market_cap_rank: 476
+market_cap_rank: 485
 name: Frontier
 public_interest_score: 0.0
 symbol: front
 tickers:
-- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
+- base: FRONT
   market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: USDC
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
 - base: FRONT
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: BTC
-- base: FRONT
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
+  target: USDT
 - base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
   market:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
-- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
+- base: FRONT
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: poloniex
+    name: Poloniex
+  target: BTC
 - base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
   market:
     identifier: sakeswap
@@ -65,3 +60,8 @@ tickers:
     identifier: serum_dex
     name: Serum DEX
   target: USDC
+- base: FRONT
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

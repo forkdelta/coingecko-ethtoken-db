@@ -49,7 +49,7 @@ links:
   subreddit_url: https://www.reddit.com/r/rocketpool
   twitter_screen_name: Rocket_Pool
 liquidity_score: 30.425
-market_cap_rank: 182
+market_cap_rank: 176
 name: Rocket Pool
 public_interest_score: 0.0
 symbol: rpl
@@ -58,6 +58,16 @@ tickers:
   market:
     identifier: balancer
     name: Balancer (v2)
+  target: ETH
+- base: 0XB4EFD85C19999D84251304BDA99E90B92300BD93
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: RPL
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH
 - base: 0XB4EFD85C19999D84251304BDA99E90B92300BD93
   market:
@@ -74,8 +84,3 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: 0XB4EFD85C19999D84251304BDA99E90B92300BD93
-- base: 0XB4EFD85C19999D84251304BDA99E90B92300BD93
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

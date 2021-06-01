@@ -1,23 +1,19 @@
 ---
 address: '0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85'
-coingecko_rank: 384
+coingecko_rank: 383
 coingecko_score: 31.023
 community_score: 34.662
 description: >-
-  Fetch.AI ("the Project") brings together machine learning ("ML"), artificial intelligence ("AI"), multi-agent
-  systems and decentralized ledger technology to create an economic internet — an environment where digital
-  representatives of the economy's moving parts (such as data, hardware, services, people and infrastructure)
-  can get useful work done through effective introductions and predictions
-
-
-  These agents can be thought of as digital entities: life-forms that are able to make decisions on their
-  own behalf as well as on behalf of their stakeholders (individuals, private enterprises and governments
-  for example). Fetch.AI's digital world is exposed to agents via its Open Economic Framework (OEF) and
-  is underpinned by unique smart ledger technology to deliver high performance, low cost transactions.
-  The ledger delivers useful proof-of-work that builds market intelligence and trust over time — growing
-  the value of the network as it is used. Fetch.AI can be neatly interfaced to existing systems with minimal
-  effort, allowing it to take advantage of the old economy whilst building the new: plug existing data
-  in to Fetch.AI and watch markets spontaneously form from the bottom up.
+  Fetch.ai is delivering AI to the crypto economy. Autonomous Economic Agents, powered by artificial intelligence,
+  can provide automation to decentralised finance that can serve the needs of a single user or aggregate
+  millions of data points for on-chain oracles. These agent-based systems provide greater flexibility,
+  speed and crypto-economic security than existing oracle networks and represent the future of decentralized
+  finance. This technology enables creation of personalised oracles that maintain user’s DeFi positions
+  using decentralized and non-custodial protocols to increase the security and convenience of crypto asset
+  management. The Fetch.ai network is an interchain protocol, based on the Cosmos-SDK, and uses a high-performance
+  WASM-based smart contract language (Cosmwasm) to allow advanced cryptography and machine learning logic
+  to be implemented on chain. This also allows the Fetch.ai network to serve as a layer-2 network for
+  Ethereum and as an interchain bridge to the rest of the blockchain world.
 developer_score: 0.0
 id: fetch-ai
 image:
@@ -28,26 +24,32 @@ links:
   announcement_url:
   - https://medium.com/fetch-ai
   blockchain_site:
-  - https://blockchair.com/ethereum/erc-20/token/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85
   - https://etherscan.io/token/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85
   - https://ethplorer.io/address/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85
+  - https://explore.fetch.ai/
+  - https://www.mintscan.io/fetchai/
+  chat_url:
+  - https://discord.com/invite/UDzpBFa
   homepage:
   - https://fetch.ai/
   repos_url:
     github:
     - https://github.com/fetchai/agents-aea
+    - https://github.com/fetchai/cosmos-explorer
+    - https://github.com/fetchai/cosmos-sdk
+    - https://github.com/fetchai/fetchd
     - https://github.com/fetchai/ledger
   subreddit_url: https://www.reddit.com/r/FetchAI_Community/
   telegram_channel_identifier: fetch_ai
   twitter_screen_name: fetch_ai
 liquidity_score: 47.278
-market_cap_rank: 205
+market_cap_rank: 196
 name: Fetch.ai
 public_interest_score: 0.0
 symbol: fet
 tickers:
-- base: 0X1D287CC25DAD7CCAF76A26BC660C5F7C8E2A05BD
+- base: FET
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: bitmax
+    name: AscendEX (BitMax)
+  target: USDT

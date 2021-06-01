@@ -20,16 +20,26 @@ links:
   telegram_channel_identifier: reefdefi
   twitter_screen_name: ReefDeFi
 liquidity_score: 55.463
-market_cap_rank: 149
+market_cap_rank: 156
 name: Reef Finance
 public_interest_score: 0.0
 symbol: reef
 tickers:
 - base: REEF
   market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: REEF
+  market:
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: REEF
+  market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
+  target: BTC
 - base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
   market:
     identifier: pancakeswap

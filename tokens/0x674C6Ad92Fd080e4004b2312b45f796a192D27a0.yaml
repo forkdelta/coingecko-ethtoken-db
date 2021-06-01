@@ -1,6 +1,6 @@
 ---
 address: '0x674C6Ad92Fd080e4004b2312b45f796a192D27a0'
-coingecko_rank: 665
+coingecko_rank: 664
 coingecko_score: 25.761
 community_score: 8.311
 description: >-
@@ -31,22 +31,37 @@ links:
   telegram_channel_identifier: neutrino_protocol_news
   twitter_screen_name: neutrino_proto
 liquidity_score: 46.735
-market_cap_rank: 142
+market_cap_rank: 154
 name: Neutrino USD
 public_interest_score: 0.0
 symbol: usdn
 tickers:
-- base: 0X674C6AD92FD080E4004B2312B45F796A192D27A0
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
 - base: USDN
   market:
     identifier: waves
     name: Waves.Exchange
   target: TRYN
+- base: DASH
+  market:
+    identifier: waves
+    name: Waves.Exchange
+  target: USDN
 - base: TN
+  market:
+    identifier: waves
+    name: Waves.Exchange
+  target: USDN
+- base: ZEC
+  market:
+    identifier: waves
+    name: Waves.Exchange
+  target: USDN
+- base: BCH
+  market:
+    identifier: waves
+    name: Waves.Exchange
+  target: USDN
+- base: XMR
   market:
     identifier: waves
     name: Waves.Exchange

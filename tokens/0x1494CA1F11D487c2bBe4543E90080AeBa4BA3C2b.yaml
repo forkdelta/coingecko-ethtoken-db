@@ -1,6 +1,6 @@
 ---
 address: '0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b'
-coingecko_rank: 841
+coingecko_rank: 839
 coingecko_score: 23.556
 community_score: 9.516
 description: >-
@@ -28,23 +28,38 @@ links:
     - https://github.com/SetProtocol/set-v2
   twitter_screen_name: SetProtocol
 liquidity_score: 39.017
-market_cap_rank: 248
+market_cap_rank: 232
 name: DeFiPulse Index
 public_interest_score: 0.0
 symbol: dpi
 tickers:
+- base: DPI
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
 - base: 0X1494CA1F11D487C2BBE4543E90080AEBA4BA3C2B
   market:
-    identifier: linkswap
-    name: Linkswap
-  target: LINK
-- base: DPI
+    identifier: paraswap
+    name: Paraswap
+  target: DAI
+- base: 0X1494CA1F11D487C2BBE4543E90080AEBA4BA3C2B
   market:
-    identifier: tokenlon
-    name: Tokenlon
+    identifier: paraswap
+    name: Paraswap
   target: ETH
+- base: 0X1494CA1F11D487C2BBE4543E90080AEBA4BA3C2B
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
 - base: DPI
   market:
-    identifier: tokenlon
-    name: Tokenlon
-  target: USDT
+    identifier: secretswap
+    name: SecretSwap
+  target: SCRT
+- base: DPI
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

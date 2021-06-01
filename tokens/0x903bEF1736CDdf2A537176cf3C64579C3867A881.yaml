@@ -1,6 +1,6 @@
 ---
 address: '0x903bEF1736CDdf2A537176cf3C64579C3867A881'
-coingecko_rank: 1939
+coingecko_rank: 1937
 coingecko_score: 15.581
 community_score: 6.42
 description: >-
@@ -25,16 +25,21 @@ links:
   telegram_channel_identifier: ichifarm
   twitter_screen_name: ichifarm
 liquidity_score: 10.083
-market_cap_rank: 745
+market_cap_rank: 743
 name: ICHI
 public_interest_score: 0.0
 symbol: ichi
 tickers:
+- base: ICHI
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: 0X903BEF1736CDDF2A537176CF3C64579C3867A881
   market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDC
 - base: ICHI
   market:
     identifier: whitebit

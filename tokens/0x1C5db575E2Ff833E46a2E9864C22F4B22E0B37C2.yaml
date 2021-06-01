@@ -29,13 +29,23 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 13.269
-market_cap_rank: 1606
+market_cap_rank: 1621
 name: renZEC
 public_interest_score: 0.0
 symbol: renzec
 tickers:
+- base: RENZEC
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: 0X1C5DB575E2FF833E46A2E9864C22F4B22E0B37C2
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0X1C5DB575E2FF833E46A2E9864C22F4B22E0B37C2
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

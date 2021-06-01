@@ -1,6 +1,6 @@
 ---
 address: '0x1500205f50bf3FD976466d0662905c9ff254fc9c'
-coingecko_rank: 4226
+coingecko_rank: 4224
 coingecko_score: 4.718
 community_score: 6.9
 description: >-
@@ -36,6 +36,11 @@ symbol: bbt
 tickers:
 - base: BBT
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: BBT
+  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
@@ -43,9 +48,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
+  target: RUR
 - base: BBT
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: USD

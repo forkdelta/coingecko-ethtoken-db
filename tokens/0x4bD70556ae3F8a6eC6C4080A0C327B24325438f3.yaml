@@ -1,6 +1,6 @@
 ---
 address: '0x4bD70556ae3F8a6eC6C4080A0C327B24325438f3'
-coingecko_rank: 1128
+coingecko_rank: 1126
 coingecko_score: 20.828
 community_score: 9.06
 description: >-
@@ -9,9 +9,9 @@ description: >-
 developer_score: 0.0
 id: hxro
 image:
-  large: https://assets.coingecko.com/coins/images/7805/large/hxro-squarelogo-1585089594129.png?1586221980
-  small: https://assets.coingecko.com/coins/images/7805/small/hxro-squarelogo-1585089594129.png?1586221980
-  thumb: https://assets.coingecko.com/coins/images/7805/thumb/hxro-squarelogo-1585089594129.png?1586221980
+  large: https://assets.coingecko.com/coins/images/7805/large/Hxro_Profile_Transparent.png?1622443308
+  small: https://assets.coingecko.com/coins/images/7805/small/Hxro_Profile_Transparent.png?1622443308
+  thumb: https://assets.coingecko.com/coins/images/7805/thumb/Hxro_Profile_Transparent.png?1622443308
 links:
   announcement_url:
   - https://medium.com/@hxromedia
@@ -20,11 +20,21 @@ links:
   - https://ethplorer.io/address/0x4bd70556ae3f8a6ec6c4080a0c327b24325438f3
   homepage:
   - https://hxro.io/
-  telegram_channel_identifier: The_Trading_Pit
+  telegram_channel_identifier: Hxro_Consortium
   twitter_screen_name: RealHxro
 liquidity_score: 25.57
-market_cap_rank: 217
+market_cap_rank: 226
 name: Hxro
 public_interest_score: 0.0
 symbol: hxro
-tickers: []
+tickers:
+- base: 0X4BD70556AE3F8A6EC6C4080A0C327B24325438F3
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: HXRO
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

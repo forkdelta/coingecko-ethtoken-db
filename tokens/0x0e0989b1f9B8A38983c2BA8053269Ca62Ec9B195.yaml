@@ -1,6 +1,6 @@
 ---
 address: '0x0e0989b1f9B8A38983c2BA8053269Ca62Ec9B195'
-coingecko_rank: 436
+coingecko_rank: 435
 coingecko_score: 29.673
 community_score: 28.224
 description: >-
@@ -27,8 +27,18 @@ links:
     - https://github.com/poetapp/poet-js
   subreddit_url: https://www.reddit.com/r/poetproject
 liquidity_score: 1.0
-market_cap_rank: 2061
+market_cap_rank: 2046
 name: Po.et
 public_interest_score: 0.0
 symbol: poe
-tickers: []
+tickers:
+- base: POE
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: POE
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH

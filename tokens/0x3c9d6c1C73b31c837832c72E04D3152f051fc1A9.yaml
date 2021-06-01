@@ -1,6 +1,6 @@
 ---
 address: '0x3c9d6c1C73b31c837832c72E04D3152f051fc1A9'
-coingecko_rank: 1118
+coingecko_rank: 1116
 coingecko_score: 20.888
 community_score: 8.21
 description: ""
@@ -26,16 +26,31 @@ links:
   telegram_channel_identifier: boringDAO
   twitter_screen_name: TheBoringDAO
 liquidity_score: 32.292
-market_cap_rank: 571
+market_cap_rank: 561
 name: BoringDAO
 public_interest_score: 0.0
 symbol: bor
 tickers:
 - base: BOR
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: BOR
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: BOR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: BOR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: BOR
   market:
     identifier: huobi_korea

@@ -1,6 +1,6 @@
 ---
 address: '0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9'
-coingecko_rank: 587
+coingecko_rank: 586
 coingecko_score: 26.613
 community_score: 0.0
 description: >-
@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
 liquidity_score: 63.342
-market_cap_rank: 225
+market_cap_rank: 221
 name: Swipe
 public_interest_score: 0.0
 symbol: sxp
@@ -49,7 +49,42 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: NGN
+  target: ETH
+- base: SXP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
+- base: SXP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
+- base: 0X8CE9137D39326AD0CD6491FB5CC0CBA0E089B6A9
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
+- base: SXP
+  market:
+    identifier: pantherswap
+    name: PantherSwap
+  target: WBNB
+- base: SXP
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: TRX
+- base: SXP
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: SXP
   market:
     identifier: serum_dex
@@ -60,3 +95,8 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: ETH
+- base: SXP
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

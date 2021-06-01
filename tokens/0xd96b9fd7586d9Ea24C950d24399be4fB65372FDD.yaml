@@ -1,6 +1,6 @@
 ---
 address: '0xd96b9fd7586d9Ea24C950d24399be4fB65372FDD'
-coingecko_rank: 5725
+coingecko_rank: 5720
 coingecko_score: 1.73
 community_score: 6.952
 description: >-
@@ -28,6 +28,11 @@ symbol: btcs
 tickers:
 - base: BTCS
   market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
+- base: BTCS
+  market:
     identifier: yobit
     name: YoBit
   target: BTC
@@ -35,4 +40,9 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: WAVES
+  target: ETH
+- base: BTCS
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

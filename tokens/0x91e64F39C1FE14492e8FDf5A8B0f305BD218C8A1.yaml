@@ -1,6 +1,6 @@
 ---
 address: '0x91e64F39C1FE14492e8FDf5A8B0f305BD218C8A1'
-coingecko_rank: 1433
+coingecko_rank: 1431
 coingecko_score: 18.632
 community_score: 39.245
 description: >-
@@ -35,8 +35,23 @@ links:
   telegram_channel_identifier: Vodixgroup
   twitter_screen_name: vodi_app
 liquidity_score: 1.0
-market_cap_rank: 1970
+market_cap_rank: 1950
 name: Vodi X
 public_interest_score: 0.0
 symbol: vdx
-tickers: []
+tickers:
+- base: VDX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: VDX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
+- base: VDX
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT

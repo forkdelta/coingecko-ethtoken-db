@@ -1,6 +1,6 @@
 ---
 address: '0x1234567461d3f8Db7496581774Bd869C83D51c93'
-coingecko_rank: 1369
+coingecko_rank: 1367
 coingecko_score: 19.024
 community_score: 29.096
 description: >-
@@ -38,14 +38,24 @@ symbol: cat
 tickers:
 - base: 0X1234567461D3F8DB7496581774BD869C83D51C93
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: CAT
   market:
     identifier: yobit
     name: YoBit
   target: BTC
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
+- base: CAT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
 - base: CAT
   market:
     identifier: yobit

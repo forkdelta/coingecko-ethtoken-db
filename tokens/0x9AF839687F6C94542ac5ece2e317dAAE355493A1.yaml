@@ -1,6 +1,6 @@
 ---
 address: '0x9AF839687F6C94542ac5ece2e317dAAE355493A1'
-coingecko_rank: 1813
+coingecko_rank: 1811
 coingecko_score: 16.299
 community_score: 7.307
 description: >-
@@ -23,8 +23,18 @@ links:
   telegram_channel_identifier: hydroprotocol
   twitter_screen_name: protocol_hydro
 liquidity_score: 18.391
-market_cap_rank: 1255
+market_cap_rank: 1275
 name: Hydro Protocol
 public_interest_score: 0.0
 symbol: hot
-tickers: []
+tickers:
+- base: HOT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: 0X9AF839687F6C94542AC5ECE2E317DAAE355493A1
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

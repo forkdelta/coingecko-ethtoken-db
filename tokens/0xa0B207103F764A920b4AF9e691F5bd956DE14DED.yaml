@@ -1,6 +1,6 @@
 ---
 address: '0xa0B207103F764A920b4AF9e691F5bd956DE14DED'
-coingecko_rank: 3395
+coingecko_rank: 3393
 coingecko_score: 8.158
 community_score: 4.907
 description: >-
@@ -35,18 +35,23 @@ links:
     - https://github.com/Abitshadow/abitshadow
   twitter_screen_name: ABSTOKEN
 liquidity_score: 1.0
-market_cap_rank: 2708
+market_cap_rank: 2691
 name: Abitshadow Token
 public_interest_score: 0.0
 symbol: abst
 tickers:
 - base: ABST
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: ABST
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: BTC
+- base: ABST
+  market:
     identifier: mercatox
     name: Mercatox
   target: TUSD
-- base: ABST
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH

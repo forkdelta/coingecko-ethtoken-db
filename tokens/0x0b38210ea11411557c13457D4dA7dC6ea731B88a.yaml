@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: API3DAO
   twitter_screen_name: API3DAO
 liquidity_score: 45.181
-market_cap_rank: 339
+market_cap_rank: 337
 name: API3
 public_interest_score: 0.0
 symbol: api3
 tickers:
+- base: API3
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: API3
   market:
     identifier: huobi_id
@@ -42,11 +47,6 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: DAI
-- base: 0X0B38210EA11411557C13457D4DA7DC6EA731B88A
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
 - base: 0X0B38210EA11411557C13457D4DA7DC6EA731B88A
   market:
     identifier: paraswap

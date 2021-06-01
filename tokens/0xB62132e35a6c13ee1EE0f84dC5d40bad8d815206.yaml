@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: nexofinance
   twitter_screen_name: NexoFinance
 liquidity_score: 41.519
-market_cap_rank: 80
+market_cap_rank: 83
 name: NEXO
 public_interest_score: 0.0
 symbol: nexo
@@ -44,19 +44,39 @@ tickers:
   target: ETH
 - base: NEXO
   market:
-    identifier: idex
-    name: Idex
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: NEXO
   market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: 0XB62132E35A6C13EE1EE0F84DC5D40BAD8D815206
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 0XB62132E35A6C13EE1EE0F84DC5D40BAD8D815206
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: NEXO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: BTC
 - base: NEXO
   market:
     identifier: yobit
     name: YoBit
   target: DOGE
+- base: NEXO
+  market:
+    identifier: yobit
+    name: YoBit
+  target: ETH
 - base: NEXO
   market:
     identifier: yobit

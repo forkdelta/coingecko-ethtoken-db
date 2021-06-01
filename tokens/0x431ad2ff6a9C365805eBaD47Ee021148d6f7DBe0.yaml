@@ -1,25 +1,47 @@
 ---
 address: '0x431ad2ff6a9C365805eBaD47Ee021148d6f7DBe0'
-coingecko_rank: 800
+coingecko_rank: 798
 coingecko_score: 23.956
 community_score: 20.775
-description: "dForce advocates for building an integrated and interoperable open finance and monetary\
-  \ protocol matrix, including asset protocols (USDx, GOLDx, dToken), liquidity protocol (dForce Trade),\
-  \ and lending protocol (soon-to-be-launched dForce Lending).\ndForce Token (DF) is the utility token\
-  \ that facilitates governance, risk buffers and interest alignment across the dForce Network.\nOur team\
-  \ includes both crypto veterans and professionals from Goldman Sachs, Standard Chartered Bank, Hony\
-  \ Capital. dForce is backed by investors including CMBI (China Merchants Bank International), Multicoin\
-  \ Capital and Huobi Capital (the investment arm of Huobi Group).\nKey Protocols:\n•\tUSDx (https://usdx.dforce.network/),\
-  \ the first decentralized and fiat-back stablecoin implementing systematic interest. USDx holders can\
-  \ earn interest by simply depositing USDx into the USR contract and can withdraw at any time.\n•\tGOLDx\
-  \ (https://goldx.dforce.network/), a gold token 100% backed by physical gold (through constituent gold\
-  \ token PAXG) and is denominated in gram. GOLDx is featured by 0 transaction fee and is 100% compatible\
-  \ with all DeFi protocols, making it easy for DeFi integrations.\n•\tYield Market (dToken) (https://markets.dforce.network/),\
-  \ the most accessible yield aggregator to farm the most attractive risk-adjusted yield across DeFi protocols\
-  \ (the highest underlying yield in the market at present). Instant withdrawal supported.\n•\tdForce\
-  \ Trade (https://trade.dforce.network), as an upgrade of dForce Swap, dForce Trade will scan for the\
-  \ best possible price and aggregate proper liquidity across multiple platforms to facilitate large-volume\
-  \ trades.\n•\tdForce Lending (coming soon), fully open and permission-less lending platform."
+description: >-
+  dForce advocates for building an integrated and interoperable open finance protocol matrix, covering
+  assets (multicurrency stablecoins, synthetic assets, USDx, GOLDx), lending (global liquidity pool) and
+  trading (aggregator and AMM). dForce is currently deployed on Ethereum and Binance Smart Chain (BSC).
+
+
+  Our team includes both crypto veterans and professionals from Goldman Sachs, Standard Chartered Bank,
+  CitiBank, Hony Capital. dForce is backed by investors including CMBI (China Merchants Bank International),
+  Multicoin Capital and Huobi Capital (the investment arm of Huobi Group).
+
+
+  We work with the world’s top-ranked security companies (Trail of Bits, Consensys Diligence, Certik,
+  Quantstamp, Certora, PeckShield, SlowMist, SECBIT) on smart contract audits for all dForce native protocols.
+
+
+  dForce Token (DF) is the governance token across dForce network, conferring holders the power to influence
+  decisions concerning dForce protocols, including onboarding of new assets and collaterals, changes to
+  risk parameters, fee accrual, interest alignment through voting process.
+
+
+  Key Protocols:
+
+  • dForce Lending & Synthetic Asset Protocol (https://app.dforce.network/), a pool-based general lending
+  protocol which supports multisided transactions while featuring native over-collateralized stablecoins
+  such as USX and EUX, essential cryptos such as xBTC and xETH, as well as synthetic assets that track
+  stocks.
+
+  • Yield Market (dToken) (https://markets.dforce.network/), the most accessible yield aggregator to farm
+  the most attractive risk-adjusted yield across DeFi protocols. Instant withdrawal supported. • USDx
+  (https://usdx.dforce.network/), the first decentralized and fiat-back stablecoin implementing systematic
+  interest. 1 USDx = 80% USDC +10% PAX + 10% TUSD. USDx holders can earn interest by simply depositing
+  USDx into the USR contract and can withdraw at any time.
+
+  • GOLDx (https://goldx.dforce.network/), a gold token 100% backed by physical gold (through constituent
+  gold token PAXG) and is denominated in gram. GOLDx is featured by 0 transaction fee and is 100% compatible
+  with all DeFi protocols, making it easy for DeFi integrations.
+
+  • dForce Trade (https://trade.dforce.network), aggregate proper liquidity and secure the best available
+  price across multiple platforms to facilitate large-volume trades.
 developer_score: 0.0
 id: dforce-token
 image:
@@ -47,7 +69,7 @@ links:
   telegram_channel_identifier: dforcenet
   twitter_screen_name: dforcenet
 liquidity_score: 32.59
-market_cap_rank: 433
+market_cap_rank: 410
 name: dForce Token
 public_interest_score: 0.0
 symbol: df
@@ -59,24 +81,9 @@ tickers:
   target: ETH
 - base: DF
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: DF
-  market:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
-- base: DF
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: HT
-- base: DF
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: USDT
 - base: DF
   market:
     identifier: tokok
