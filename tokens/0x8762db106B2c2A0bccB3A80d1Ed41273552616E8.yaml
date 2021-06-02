@@ -1,8 +1,8 @@
 ---
 address: '0x8762db106B2c2A0bccB3A80d1Ed41273552616E8'
-coingecko_rank: 222
-coingecko_score: 36.834
-community_score: 10.356
+coingecko_rank: 237
+coingecko_score: 36.192
+community_score: 10.381
 description: >-
   Reserve aims to build a stable, decentralized, asset-backed cryptocurrency and a digital payment system
   that scales supply with demand and maintains 100% or more collateral backing. Ultimately, Reserve’s
@@ -19,7 +19,7 @@ description: >-
 
   (3) A growing variety of tokenized real-world assets (such as other stablecoins) that are held by the
   Reserve smart contract to back RSV.
-developer_score: 35.044
+developer_score: 30.936
 id: reserve-rights-token
 image:
   large: https://assets.coingecko.com/coins/images/8365/large/Reserve_Rights.png?1557737411
@@ -38,27 +38,27 @@ links:
     - https://github.com/reserve-protocol/rsr
   telegram_channel_identifier: reservecurrency
   twitter_screen_name: reserveprotocol
-liquidity_score: 55.665
-market_cap_rank: 125
+liquidity_score: 57.276
+market_cap_rank: 126
 name: Reserve Rights Token
-public_interest_score: 0.0
+public_interest_score: 0.024
 symbol: rsr
 tickers:
+- base: RSR
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
 - base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
   market:
-    identifier: balancer_v1
-    name: Balancer (v1)
+    identifier: paraswap
+    name: Paraswap
   target: ETH
 - base: RSR
   market:
-    identifier: floatsv
-    name: Float SV
-  target: USDT
-- base: RSR
-  market:
-    identifier: kyber_network
-    name: Kyber Network
-  target: ETH
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: RSR
   market:
     identifier: serum_dex

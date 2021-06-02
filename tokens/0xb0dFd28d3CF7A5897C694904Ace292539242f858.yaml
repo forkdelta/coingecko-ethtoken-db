@@ -1,8 +1,8 @@
 ---
 address: '0xb0dFd28d3CF7A5897C694904Ace292539242f858'
-coingecko_rank: 1538
-coingecko_score: 17.89
-community_score: 23.224
+coingecko_rank: 1419
+coingecko_score: 18.475
+community_score: 23.309
 description: >-
   LOTTO is a token that automatically enters all holders into a lottery once per day. LOTTO performs a
   rebase that removes 1 token from all holders, pools those tokens together, and gives them to one random
@@ -24,9 +24,19 @@ links:
   subreddit_url: https://www.reddit.com
   telegram_channel_identifier: lottofinance
   twitter_screen_name: LottoFinance
-liquidity_score: 9.37
-market_cap_rank: 1429
+liquidity_score: 12.474
+market_cap_rank: 1436
 name: Lotto
-public_interest_score: 0.0
+public_interest_score: 0.009
 symbol: lotto
-tickers: []
+tickers:
+- base: LOTTO
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: LOTTO
+  market:
+    identifier: catex
+    name: Catex
+  target: USDT

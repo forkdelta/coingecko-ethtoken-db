@@ -1,8 +1,8 @@
 ---
 address: '0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a'
 coingecko_rank: 684
-coingecko_score: 25.376
-community_score: 9.337
+coingecko_score: 25.428
+community_score: 9.351
 description: >-
   Populous is a peer-to-peer invoice platform founded in 2017 at a high point in the blockchain and cryptocurrency
   craze. It makes use of blockchain's distributed ledger technology to provide a global trading platform
@@ -44,12 +44,17 @@ links:
     github:
     - https://github.com/bitpopulous/populous-smartcontracts
   twitter_screen_name: bitpopulous
-liquidity_score: 34.747
-market_cap_rank: 330
+liquidity_score: 34.707
+market_cap_rank: 333
 name: Populous
-public_interest_score: 0.0
+public_interest_score: 0.003
 symbol: ppt
 tickers:
+- base: PPT
+  market:
+    identifier: probit
+    name: ProBit
+  target: KRW
 - base: 0XD4FA1460F537BB9085D22C7BCCB5DD450EF28E3A
   market:
     identifier: uniswap_v2
@@ -65,3 +70,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: PPT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

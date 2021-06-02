@@ -1,7 +1,7 @@
 ---
 address: '0x123151402076fc819B7564510989e475c9cD93CA'
-coingecko_rank: 2861
-coingecko_score: 10.754
+coingecko_rank: 2868
+coingecko_score: 10.752
 community_score: 0.0
 description: >-
   Wrapped-DGLD (wDGLD) is the first ERC-20 token pegged one-to-one with DGLD, the world’s most advanced
@@ -24,8 +24,18 @@ links:
     github:
     - https://github.com/commerceblock/dgld-smart-contracts
 liquidity_score: 1.0
-market_cap_rank: 1588
+market_cap_rank: 1589
 name: Wrapped-DGLD
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: wdgld
-tickers: []
+tickers:
+- base: WDGLD
+  market:
+    identifier: blockchain_com
+    name: Blockchain.com
+  target: USD
+- base: 0X123151402076FC819B7564510989E475C9CD93CA
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

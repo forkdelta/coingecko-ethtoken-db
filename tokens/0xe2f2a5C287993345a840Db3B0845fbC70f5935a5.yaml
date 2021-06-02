@@ -1,11 +1,11 @@
 ---
 address: '0xe2f2a5C287993345a840Db3B0845fbC70f5935a5'
-coingecko_rank: 309
-coingecko_score: 33.328
-community_score: 9.07
+coingecko_rank: 319
+coingecko_score: 33.105
+community_score: 9.094
 description: >-
   mUSD is a meta-stablecoin with a native yield
-developer_score: 66.209
+developer_score: 68.76
 id: musd
 image:
   large: https://assets.coingecko.com/coins/images/11576/large/mStable_USD.png?1595591803
@@ -25,17 +25,27 @@ links:
     - https://github.com/mstable/mStable-contracts
   telegram_channel_identifier: mstableofficial
   twitter_screen_name: mstable_
-liquidity_score: 10.617
-market_cap_rank: 576
+liquidity_score: 6.288
+market_cap_rank: 581
 name: mStable USD
-public_interest_score: 0.0
+public_interest_score: 0.011
 symbol: musd
 tickers:
+- base: 0XA3BED4E1C75D00FA6F4E5E6922DB7261B5E9ACD2
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: 0XE2F2A5C287993345A840DB3B0845FBC70F5935A5
 - base: MUSD
   market:
     identifier: curve
     name: Curve Finance
   target: DAI
+- base: MUSD
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: USDC
 - base: MUSD
   market:
     identifier: curve

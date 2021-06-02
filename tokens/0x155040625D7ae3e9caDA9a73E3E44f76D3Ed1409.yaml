@@ -1,8 +1,8 @@
 ---
 address: '0x155040625D7ae3e9caDA9a73E3E44f76D3Ed1409'
-coingecko_rank: 2243
-coingecko_score: 13.732
-community_score: 8.661
+coingecko_rank: 2165
+coingecko_score: 14.122
+community_score: 8.674
 description: ""
 developer_score: 0.0
 id: revomon
@@ -18,12 +18,17 @@ links:
   homepage:
   - https://revomon.io/
   twitter_screen_name: RevomonVR
-liquidity_score: 11.517
-market_cap_rank: 2049
+liquidity_score: 13.283
+market_cap_rank: 2058
 name: Revomon
-public_interest_score: 0.0
+public_interest_score: 0.008
 symbol: revo
 tickers:
+- base: REVO
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: USDT
 - base: 0X155040625D7AE3E9CADA9A73E3E44F76D3ED1409
   market:
     identifier: pancakeswap
@@ -34,3 +39,8 @@ tickers:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: USDT
+- base: 0X155040625D7AE3E9CADA9A73E3E44F76D3ED1409
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB

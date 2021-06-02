@@ -1,10 +1,10 @@
 ---
 address: '0x1456688345527bE1f37E9e627DA0837D6f08C925'
-coingecko_rank: 263
-coingecko_score: 34.836
+coingecko_rank: 264
+coingecko_score: 35.039
 community_score: 0.0
 description: ""
-developer_score: 53.501
+developer_score: 56.303
 id: usdp
 image:
   large: https://assets.coingecko.com/coins/images/13234/large/USDP.png?1606579598
@@ -23,9 +23,24 @@ links:
     github:
     - https://github.com/unitprotocol/core
   telegram_channel_identifier: unit_en
-liquidity_score: 39.018
-market_cap_rank: 260
+liquidity_score: 36.163
+market_cap_rank: 257
 name: USDP Stablecoin
-public_interest_score: 0.0
+public_interest_score: 0.004
 symbol: usdp
-tickers: []
+tickers:
+- base: USDP
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: DAI
+- base: USDP
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: USDT
+- base: USDT
+  market:
+    identifier: p2pb2b
+    name: P2PB2B
+  target: USDP

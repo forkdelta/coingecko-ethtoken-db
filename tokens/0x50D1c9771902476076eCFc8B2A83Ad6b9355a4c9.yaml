@@ -1,8 +1,8 @@
 ---
 address: '0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9'
-coingecko_rank: 400
-coingecko_score: 30.581
-community_score: 10.862
+coingecko_rank: 434
+coingecko_score: 29.813
+community_score: 10.912
 description: >-
   FTT is FTX's exchange token. Holders get a fraction of exchange fees, a fraction of the liquidation
   insurance fund, and can use the token as collateral and to get togther OTC spreads on FTX.
@@ -25,10 +25,10 @@ links:
   - https://help.ftx.com/hc/en-us/sections/360004460952-FTX-Token-FTT
   telegram_channel_identifier: FTX_Official
   twitter_screen_name: FTX_official
-liquidity_score: 60.945
+liquidity_score: 56.926
 market_cap_rank: 45
 name: FTX Token
-public_interest_score: 0.0
+public_interest_score: 0.576
 symbol: ftt
 tickers:
 - base: FTT
@@ -41,8 +41,28 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: HT
+- base: FTT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
 - base: FTX TOKEN
   market:
     identifier: luaswap
     name: Luaswap
   target: LUA
+- base: FTT
+  market:
+    identifier: serumswap
+    name: SerumSwap
+  target: SRM
+- base: FTT
+  market:
+    identifier: serumswap
+    name: SerumSwap
+  target: USDC
+- base: FTT
+  market:
+    identifier: serumswap
+    name: SerumSwap
+  target: USDT

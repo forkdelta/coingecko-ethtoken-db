@@ -1,10 +1,10 @@
 ---
 address: '0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55'
 coingecko_rank: 65
-coingecko_score: 50.558
-community_score: 36.758
+coingecko_score: 51.488
+community_score: 36.841
 description: ""
-developer_score: 67.127
+developer_score: 69.186
 id: band-protocol
 image:
   large: https://assets.coingecko.com/coins/images/9545/large/band-protocol.png?1568730326
@@ -29,12 +29,22 @@ links:
   subreddit_url: https://www.reddit.com/r/bandprotocol
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
-liquidity_score: 57.097
-market_cap_rank: 162
+liquidity_score: 58.805
+market_cap_rank: 163
 name: Band Protocol
-public_interest_score: 0.0
+public_interest_score: 0.01
 symbol: band
 tickers:
+- base: BAND
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: GBP
+- base: BAND
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: TUSD
 - base: BAND
   market:
     identifier: dove_wallet
@@ -42,11 +52,11 @@ tickers:
   target: USDC
 - base: BAND
   market:
-    identifier: exx
-    name: EXX
+    identifier: dove_wallet
+    name: Dove Wallet
   target: USDT
-- base: 0X46E7628E8B4350B2716AB470EE0BA1FA9E76C6C5
+- base: BAND
   market:
-    identifier: sushiswap_fantom
-    name: Sushiswap (Fantom)
-  target: FTM
+    identifier: floatsv
+    name: Float SV
+  target: USDT

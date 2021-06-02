@@ -1,8 +1,8 @@
 ---
 address: '0x2ba592F78dB6436527729929AAf6c908497cB200'
-coingecko_rank: 895
-coingecko_score: 22.968
-community_score: 10.057
+coingecko_rank: 916
+coingecko_score: 22.576
+community_score: 10.088
 description: ""
 developer_score: 0.0
 id: cream-2
@@ -22,19 +22,24 @@ links:
   - https://cream.finance/
   telegram_channel_identifier: CreamdotFinance
   twitter_screen_name: CreamdotFinance
-liquidity_score: 37.157
-market_cap_rank: 325
+liquidity_score: 34.302
+market_cap_rank: 322
 name: Cream
-public_interest_score: 0.0
+public_interest_score: 0.029
 symbol: cream
 tickers:
+- base: 0X2BA592F78DB6436527729929AAF6C908497CB200
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0X2BA592F78DB6436527729929AAF6C908497CB200
   market:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
-- base: CREAM
+- base: 0X2BA592F78DB6436527729929AAF6C908497CB200
   market:
-    identifier: serum_dex
-    name: Serum DEX
-  target: USDC
+    identifier: one_inch
+    name: 1inch
+  target: ETH

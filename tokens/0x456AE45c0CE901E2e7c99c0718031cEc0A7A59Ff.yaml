@@ -1,8 +1,8 @@
 ---
 address: '0x456AE45c0CE901E2e7c99c0718031cEc0A7A59Ff'
-coingecko_rank: 6192
-coingecko_score: 1.365
-community_score: 5.294
+coingecko_rank: 6313
+coingecko_score: 1.374
+community_score: 5.338
 description: >-
   The Vision Network is a set of infrastructure for building a decentralized Internet. It is a distributed
   extensible virtual network, based on the physical network layer and the ISP network layer.
@@ -40,4 +40,14 @@ market_cap_rank: null
 name: Vision Network
 public_interest_score: 0.0
 symbol: vsn
-tickers: []
+tickers:
+- base: VSN
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: 0X456AE45C0CE901E2E7C99C0718031CEC0A7A59FF
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

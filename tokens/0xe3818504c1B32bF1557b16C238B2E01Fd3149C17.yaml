@@ -1,12 +1,12 @@
 ---
 address: '0xe3818504c1B32bF1557b16C238B2E01Fd3149C17'
-coingecko_rank: 595
-coingecko_score: 26.538
-community_score: 30.774
+coingecko_rank: 639
+coingecko_score: 26.118
+community_score: 30.773
 description: >-
   Starting with a cryptocurrency wallet, Pillar will evolve into an open-source ecosystem where you control
   what, when, and with who you share your personal information.
-developer_score: 28.619
+developer_score: 28.966
 id: pillar
 image:
   large: https://assets.coingecko.com/coins/images/809/large/PLR_Token.png?1595237935
@@ -26,10 +26,10 @@ links:
   subreddit_url: https://www.reddit.com/r/PillarProject/
   telegram_channel_identifier: pillarofficial
   twitter_screen_name: PillarWallet
-liquidity_score: 4.556
-market_cap_rank: 892
+liquidity_score: 1.0
+market_cap_rank: 894
 name: Pillar
-public_interest_score: 0.0
+public_interest_score: 0.004
 symbol: plr
 tickers:
 - base: PLR
@@ -37,6 +37,11 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: BNT
+- base: PLR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: PLR
   market:
     identifier: hotbit
@@ -47,6 +52,11 @@ tickers:
     identifier: hotbit
     name: Hotbit
   target: ETH
+- base: PLR
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: 0XE3818504C1B32BF1557B16C238B2E01FD3149C17
   market:
     identifier: one_inch

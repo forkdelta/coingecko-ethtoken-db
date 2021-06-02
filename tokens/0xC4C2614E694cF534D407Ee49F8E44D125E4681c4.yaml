@@ -1,8 +1,8 @@
 ---
 address: '0xC4C2614E694cF534D407Ee49F8E44D125E4681c4'
-coingecko_rank: 1426
-coingecko_score: 18.676
-community_score: 9.778
+coingecko_rank: 1360
+coingecko_score: 18.931
+community_score: 9.836
 description: >-
   The CHAIN token is the primary medium of exchange used for all entry fees and contest payouts on the
   Chain Games network.
@@ -27,9 +27,19 @@ links:
     - https://github.com/Chain-Games
   telegram_channel_identifier: chaingames
   twitter_screen_name: realchaingames
-liquidity_score: 18.474
-market_cap_rank: 474
+liquidity_score: 19.117
+market_cap_rank: 491
 name: Chain Games
-public_interest_score: 0.0
+public_interest_score: 0.033
 symbol: chain
-tickers: []
+tickers:
+- base: 0X35DE111558F691F77F791FB0C08B2D6B931A9D47
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB
+- base: CHAIN
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC

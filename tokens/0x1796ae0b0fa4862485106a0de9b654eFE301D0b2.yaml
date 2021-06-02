@@ -1,8 +1,8 @@
 ---
 address: '0x1796ae0b0fa4862485106a0de9b654eFE301D0b2'
-coingecko_rank: 1376
-coingecko_score: 18.956
-community_score: 10.396
+coingecko_rank: 1438
+coingecko_score: 18.351
+community_score: 10.431
 description: >-
   Polkamon are beautifully animated digital collectibles with varying scarcities. Each Polkamon is backed
   by a truly unique NFT and can be unpacked with $PMON tokens.
@@ -25,9 +25,19 @@ links:
     - https://github.com/polkamon
   telegram_channel_identifier: polkamonorg
   twitter_screen_name: Polkamonorg
-liquidity_score: 24.111
-market_cap_rank: 905
+liquidity_score: 20.82
+market_cap_rank: 894
 name: Polkamon
-public_interest_score: 0.0
+public_interest_score: 0.063
 symbol: pmon
-tickers: []
+tickers:
+- base: 0X0E09FABB73BD3ADE0A17ECC321FD13A19E81CE82
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: 0X1796AE0B0FA4862485106A0DE9B654EFE301D0B2
+- base: 0X1796AE0B0FA4862485106A0DE9B654EFE301D0B2
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: USDT

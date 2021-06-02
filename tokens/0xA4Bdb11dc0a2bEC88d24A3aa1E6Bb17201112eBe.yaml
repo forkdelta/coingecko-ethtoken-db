@@ -1,8 +1,8 @@
 ---
 address: '0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe'
-coingecko_rank: 5650
-coingecko_score: 1.775
-community_score: 7.158
+coingecko_rank: 5747
+coingecko_score: 1.78
+community_score: 7.178
 description: >-
   Stably USD (formerly “StableUSD”), also known as USDS, is a US Dollar-pegged stablecoin fully backed
   1-to-1 and redeemable for USD held in an FDIC-insured trust account managed by Prime Trust, a state-chartered
@@ -31,15 +31,10 @@ links:
 liquidity_score: 1.0
 market_cap_rank: null
 name: Stably USD
-public_interest_score: 0.0
+public_interest_score: 0.012
 symbol: USDS
 tickers:
 - base: ONE-5F9
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: USDSB-1AC
-- base: BTCB-1DE
   market:
     identifier: binance_dex
     name: Binance DEX
@@ -49,3 +44,18 @@ tickers:
     identifier: binance_dex
     name: Binance DEX
   target: USDSB-1AC
+- base: USDS
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USD
+- base: BTC
+  market:
+    identifier: crex24
+    name: CREX24
+  target: USDS
+- base: 0XA4BDB11DC0A2BEC88D24A3AA1E6BB17201112EBE
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

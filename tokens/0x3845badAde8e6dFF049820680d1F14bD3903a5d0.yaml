@@ -1,8 +1,8 @@
 ---
 address: '0x3845badAde8e6dFF049820680d1F14bD3903a5d0'
-coingecko_rank: 568
-coingecko_score: 26.969
-community_score: 10.79
+coingecko_rank: 545
+coingecko_score: 27.531
+community_score: 10.835
 description: >-
   The Sandbox is a community-driven platform where creators can monetize voxel ASSETS and gaming experiences
   on the blockchain.
@@ -30,12 +30,17 @@ links:
   - https://www.sandbox.game/en/
   telegram_channel_identifier: sandboxgame
   twitter_screen_name: TheSandboxGame
-liquidity_score: 52.611
-market_cap_rank: 194
+liquidity_score: 55.05
+market_cap_rank: 192
 name: The Sandbox
-public_interest_score: 0.0
+public_interest_score: 0.091
 symbol: sand
 tickers:
+- base: SAND
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: USDT
 - base: 0X3845BADADE8E6DFF049820680D1F14BD3903A5D0
   market:
     identifier: dmm
@@ -43,16 +48,6 @@ tickers:
   target: ETH
 - base: SAND
   market:
-    identifier: exx
-    name: EXX
-  target: USDT
-- base: SAND
-  market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: poloniex
+    name: Poloniex
   target: BTC
-- base: SAND
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: USDC

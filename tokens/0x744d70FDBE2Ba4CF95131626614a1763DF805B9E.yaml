@@ -1,8 +1,8 @@
 ---
 address: '0x744d70FDBE2Ba4CF95131626614a1763DF805B9E'
-coingecko_rank: 38
-coingecko_score: 55.48
-community_score: 37.677
+coingecko_rank: 37
+coingecko_score: 55.93
+community_score: 37.741
 description: >-
   Status is a mobile operating system that will completely change the way the world interacts with the
   <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> network.  Designed as a decentralized
@@ -27,7 +27,7 @@ description: >-
 
   SNT is currently available for trade on many online exchanges, including <a href="https://www.coingecko.com/en/exchanges/huobi">Huobi</a>,
   <a href="https://www.coingecko.com/en/exchanges/binance">Binance</a>, and <a href="https://www.coingecko.com/en/exchanges/bittrex">Bittrex</a>.
-developer_score: 89.147
+developer_score: 93.16
 id: status
 image:
   large: https://assets.coingecko.com/coins/images/779/large/status.png?1548610778
@@ -49,10 +49,10 @@ links:
     - https://github.com/status-im/swarms
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
-liquidity_score: 51.672
+liquidity_score: 49.209
 market_cap_rank: 143
 name: Status
-public_interest_score: 0.0
+public_interest_score: 0.017
 symbol: SNT
 tickers:
 - base: SNT
@@ -62,29 +62,24 @@ tickers:
   target: BNT
 - base: SNT
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: SNT
-  market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: GBP
+  target: ETH
 - base: SNT
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: TUSD
-- base: SNT
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
+- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
   market:
-    identifier: tokok
-    name: TOKOK
-  target: BTC
-- base: SNT
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
   market:
-    identifier: tokok
-    name: TOKOK
-  target: USDT
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: DAI
   market:
     identifier: uniswap
@@ -94,14 +89,4 @@ tickers:
   market:
     identifier: uniswap
     name: Uniswap (v3)
-  target: ETH
-- base: SNT
-  market:
-    identifier: zebitex
-    name: Zebitex
-  target: BTC
-- base: SNT
-  market:
-    identifier: zebitex
-    name: Zebitex
   target: ETH

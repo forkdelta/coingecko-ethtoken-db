@@ -1,8 +1,8 @@
 ---
 address: '0x810908B285f85Af668F6348cD8B26D76B3EC12e1'
-coingecko_rank: 3651
-coingecko_score: 6.781
-community_score: 10.27
+coingecko_rank: 4072
+coingecko_score: 5.185
+community_score: 10.282
 description: >-
   Swapcoinz The #1 Blockchain Innovative Playground Solution For African Kids With our sole Mission to
   be a bridge between Families and Businesses.
@@ -27,9 +27,19 @@ links:
   subreddit_url: https://www.reddit.com
   telegram_channel_identifier: swapcoinzgroup
   twitter_screen_name: swapcoinz
-liquidity_score: 22.611
+liquidity_score: 14.616
 market_cap_rank: null
 name: SwapCoinz
-public_interest_score: 0.0
+public_interest_score: 0.001
 symbol: spaz
-tickers: []
+tickers:
+- base: SPAZ
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: 0X810908B285F85AF668F6348CD8B26D76B3EC12E1
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
