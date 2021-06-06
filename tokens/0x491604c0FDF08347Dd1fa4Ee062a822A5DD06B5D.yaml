@@ -1,8 +1,8 @@
 ---
 address: '0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D'
-coingecko_rank: 150
-coingecko_score: 41.958
-community_score: 35.608
+coingecko_rank: 138
+coingecko_score: 42.093
+community_score: 35.436
 description: >-
   What is Cartesi?
 
@@ -30,7 +30,7 @@ description: >-
 
   CTSI will also be used for DApps to outsource the execution of verifiable and enforceable computation
   to entities running Descartes nodes.
-developer_score: 40.217
+developer_score: 39.766
 id: cartesi
 image:
   large: https://assets.coingecko.com/coins/images/11038/large/cartesi.png?1592288021
@@ -60,14 +60,29 @@ links:
   subreddit_url: https://www.reddit.com/r/cartesi/
   telegram_channel_identifier: cartesiproject
   twitter_screen_name: cartesiproject
-liquidity_score: 49.359
-market_cap_rank: 177
+liquidity_score: 50.659
+market_cap_rank: 175
 name: Cartesi
 public_interest_score: 0.016
 symbol: ctsi
 tickers:
-- base: 0X2727AB1C2D22170ABC9B595177B2D5C6E1AB7B7B
+- base: CTSI
   market:
-    identifier: sushiswap_polygon
-    name: Sushiswap (Polygon POS)
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: CTSI
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: 0X491604C0FDF08347DD1FA4EE062A822A5DD06B5D
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
+- base: 0X8DA443F84FEA710266C8EB6BC34B71702D033EF2
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB

@@ -1,8 +1,8 @@
 ---
 address: '0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D'
-coingecko_rank: 84
-coingecko_score: 48.561
-community_score: 36.966
+coingecko_rank: 96
+coingecko_score: 46.709
+community_score: 37.123
 description: >-
   REN Tokenized BTC
 
@@ -10,7 +10,7 @@ description: >-
   Once an asset is in the custody of RenVM, an ERC20 token at a 1:1 value is minted on Ethereum - this
   can then be used as any ERC20 can within the Ethereum ecosystem (for example, swaps, collateralization,
   trades etc.)
-developer_score: 69.329
+developer_score: 67.998
 id: renbtc
 image:
   large: https://assets.coingecko.com/coins/images/11370/large/renBTC.png?1589985711
@@ -29,8 +29,8 @@ links:
   subreddit_url: https://www.reddit.com/r/RenProject/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 43.053
-market_cap_rank: 148
+liquidity_score: 35.356
+market_cap_rank: 144
 name: renBTC
 public_interest_score: 0.023
 symbol: renbtc
@@ -54,17 +54,22 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: USD
+- base: RENBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: USDT
 - base: TBTC
   market:
     identifier: curve
     name: Curve Finance
   target: RENBTC
-- base: RENBTC
+- base: BBTC
   market:
     identifier: curve
     name: Curve Finance
-  target: SBTC
+  target: RENBTC
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
     identifier: defi_swap
@@ -75,16 +80,16 @@ tickers:
     identifier: hotbit
     name: Hotbit
   target: BTC
-- base: RENBTC
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
-    identifier: kyber_network
-    name: Kyber Network
+    identifier: paraswap
+    name: Paraswap
   target: ETH
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
-    identifier: value_liquid
-    name: Value Liquid
-  target: VALUE
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
 - base: RENBTC
   market:
     identifier: zero_ex

@@ -1,8 +1,8 @@
 ---
 address: '0xEb029507d3e043DD6C87F2917C4E82B902c35618'
-coingecko_rank: 4942
-coingecko_score: 2.602
-community_score: 10.916
+coingecko_rank: 5026
+coingecko_score: 2.59
+community_score: 10.864
 description: >-
   Tracks the price of Compound (COMP) through price feeds supplied by an oracle
 developer_score: 0.0
@@ -26,6 +26,11 @@ name: sCOMP
 public_interest_score: 0.005
 symbol: scomp
 tickers:
+- base: SLTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SCOMP
 - base: SCOMP
   market:
     identifier: synthetix

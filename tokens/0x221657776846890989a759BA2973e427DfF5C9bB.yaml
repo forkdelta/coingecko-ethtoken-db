@@ -1,8 +1,8 @@
 ---
 address: '0x221657776846890989a759BA2973e427DfF5C9bB'
-coingecko_rank: 75
-coingecko_score: 49.973
-community_score: 39.673
+coingecko_rank: 72
+coingecko_score: 49.158
+community_score: 39.547
 description: >-
   Augur is a trustless, decentralized platform for prediction markets. Augur is an <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a>-based
   decentralized prediction market that leverages the wisdom of the crowds to create a search engine for
@@ -33,7 +33,7 @@ description: >-
   Ethereum network and the two largest cryptocurrency exchanges, <a href="https://www.coingecko.com/en/exchanges/poloniex">Poloniex</a>
   and <a href="https://www.coingecko.com/en/exchanges/kraken">Kraken</a>, added support for these tokens
   on their trading platforms. The project was delayed until it was launched in July 2018.
-developer_score: 69.698
+developer_score: 67.027
 id: augur
 image:
   large: https://assets.coingecko.com/coins/images/309/large/REP.png?1596339859
@@ -57,8 +57,8 @@ links:
     - https://github.com/AugurProject/augur.js
   subreddit_url: https://www.reddit.com/r/Augur
   twitter_screen_name: AugurProject
-liquidity_score: 49.887
-market_cap_rank: 244
+liquidity_score: 49.207
+market_cap_rank: 246
 name: Augur
 public_interest_score: 0.012
 symbol: rep
@@ -73,11 +73,6 @@ tickers:
     identifier: bitbay
     name: BitBay
   target: BTC
-- base: REP
-  market:
-    identifier: bitbay
-    name: BitBay
-  target: EUR
 - base: REP
   market:
     identifier: bitbay
@@ -105,9 +100,24 @@ tickers:
   target: REP
 - base: REP
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: REP
+  market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: USDC
+  target: PAX
+- base: REP
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDT
+- base: REP
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 0X221657776846890989A759BA2973E427DFF5C9BB
   market:
     identifier: one_inch
@@ -118,3 +128,13 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: ETH
+- base: REP
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC
+- base: REP
+  market:
+    identifier: whale_ex
+    name: WhaleEx
+  target: USDT

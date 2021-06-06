@@ -1,8 +1,8 @@
 ---
 address: '0x7BD198b9107496fD5cC3d7655AF52f43a8eDBc4C'
-coingecko_rank: 5988
-coingecko_score: 1.624
-community_score: 6.473
+coingecko_rank: 6078
+coingecko_score: 1.617
+community_score: 6.441
 description: >-
   oneVBTC is a stablecoin for the strudel.finance community. You must buy VBTC to mint oneVBTC. You can
   use oneVBTC to buy or sell goods and services, pay expenses and taxes, or to create USD exposure in
@@ -50,4 +50,14 @@ market_cap_rank: null
 name: oneVBTC
 public_interest_score: 0.001
 symbol: onevbtc
-tickers: []
+tickers:
+- base: 0X7BD198B9107496FD5CC3D7655AF52F43A8EDBC4C
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
+- base: 0X7BD198B9107496FD5CC3D7655AF52F43A8EDBC4C
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

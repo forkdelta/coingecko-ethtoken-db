@@ -1,8 +1,8 @@
 ---
 address: '0xC8d674114bac90148d11D3C1d33C61835a0F9DCD'
-coingecko_rank: 1315
-coingecko_score: 19.228
-community_score: 9.901
+coingecko_rank: 1692
+coingecko_score: 16.84
+community_score: 9.858
 description: >-
   Mirrored Netflix - synthetic asset tracking the price of a Netflix stock.
 developer_score: 0.0
@@ -30,9 +30,19 @@ links:
     - https://github.com/mirror-protocol
   telegram_channel_identifier: mirror_protocol
   twitter_screen_name: mirror_protocol
-liquidity_score: 22.236
-market_cap_rank: 611
+liquidity_score: 18.913
+market_cap_rank: 1418
 name: Mirrored Netflix
-public_interest_score: 0.126
+public_interest_score: 0.125
 symbol: mnflx
-tickers: []
+tickers:
+- base: 0XA04F060077D90FE2647B61E4DA4AD1F97D6649DC
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0XC8D674114BAC90148D11D3C1D33C61835A0F9DCD
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: UST

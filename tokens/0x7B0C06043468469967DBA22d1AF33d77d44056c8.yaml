@@ -1,8 +1,8 @@
 ---
 address: '0x7B0C06043468469967DBA22d1AF33d77d44056c8'
-coingecko_rank: 447
-coingecko_score: 29.403
-community_score: 31.521
+coingecko_rank: 423
+coingecko_score: 29.802
+community_score: 31.534
 description: >-
   The Morpheus.Network is a full-service, global, automated, supply chain platform for the global trading
   industry utilizing blockchain technology. This is achieved with Smart Contracts driving the supply chain
@@ -19,7 +19,7 @@ description: >-
   We are currently establishing strategic partners during the development of the platform. These include
   major logistics and customs brokers, import/export corporations involved in global trade, as well as
   actual end-users of the platform.
-developer_score: 24.242
+developer_score: 23.962
 id: morpheus-network
 image:
   large: https://assets.coingecko.com/coins/images/2379/large/MRPH_.png?1612252243
@@ -39,19 +39,24 @@ links:
   subreddit_url: https://www.reddit.com/r/MorpheusNetwork
   telegram_channel_identifier: themorpheusnetwork
   twitter_screen_name: MRPHSupplyChain
-liquidity_score: 18.643
-market_cap_rank: 547
+liquidity_score: 20.476
+market_cap_rank: 545
 name: Morpheus Network
 public_interest_score: 0.004
 symbol: mrph
 tickers:
 - base: MRPH
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: 0X7B0C06043468469967DBA22D1AF33D77D44056C8
   market:
     identifier: paraswap
     name: Paraswap
+  target: ETH
+- base: 0X7B0C06043468469967DBA22D1AF33D77D44056C8
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
   target: ETH

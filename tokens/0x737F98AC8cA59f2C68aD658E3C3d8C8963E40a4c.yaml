@@ -1,14 +1,14 @@
 ---
 address: '0x737F98AC8cA59f2C68aD658E3C3d8C8963E40a4c'
-coingecko_rank: 636
-coingecko_score: 26.129
-community_score: 7.358
+coingecko_rank: 645
+coingecko_score: 25.784
+community_score: 7.315
 description: >-
   We are a Crypto Debit Card like Monaco, TenX and Bitpay but with powerful AI, quicker transactions and
   simpler fees. Amon Card has a multi-cryptocurrency wallet. We enable crypto spending in everyday life.
   Conversions from Crypto to fiat during payment with our card are real time while our AI mitigates crypto
   volatility for the user.
-developer_score: 52.509
+developer_score: 51.501
 id: amon
 image:
   large: https://assets.coingecko.com/coins/images/2369/large/amon.png?1547036554
@@ -29,13 +29,28 @@ links:
   telegram_channel_identifier: amontech
   twitter_screen_name: amonwallet
 liquidity_score: 1.0
-market_cap_rank: 1227
+market_cap_rank: 1339
 name: Amon
 public_interest_score: 0.002
 symbol: amn
 tickers:
+- base: AMN
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: 0X737F98AC8CA59F2C68AD658E3C3D8C8963E40A4C
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: AMN
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: 0X737F98AC8CA59F2C68AD658E3C3D8C8963E40A4C
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

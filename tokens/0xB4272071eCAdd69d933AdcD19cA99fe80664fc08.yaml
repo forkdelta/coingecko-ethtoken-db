@@ -1,7 +1,7 @@
 ---
 address: '0xB4272071eCAdd69d933AdcD19cA99fe80664fc08'
-coingecko_rank: 6150
-coingecko_score: 1.501
+coingecko_rank: 6694
+coingecko_score: 1.059
 community_score: 0.0
 description: >-
   CryptoFranc (XCHF) is an ERC-20 stablecoin issued by Swiss Crypto Tokens AG, representing a Swiss Franc
@@ -29,9 +29,19 @@ links:
   homepage:
   - https://www.swisscryptotokens.ch/
   twitter_screen_name: SwissTokens
-liquidity_score: 7.505
+liquidity_score: 5.293
 market_cap_rank: null
 name: CryptoFranc
 public_interest_score: 0.001
 symbol: xchf
-tickers: []
+tickers:
+- base: BTC
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: XCH
+- base: 0XB4272071ECADD69D933ADCD19CA99FE80664FC08
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

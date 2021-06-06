@@ -1,8 +1,8 @@
 ---
 address: '0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828'
-coingecko_rank: 91
-coingecko_score: 47.763
-community_score: 9.791
+coingecko_rank: 80
+coingecko_score: 48.225
+community_score: 9.742
 description: >-
   UMA is a decentralized financial contracts platform built to enable Universal Market Access.
 
@@ -27,7 +27,7 @@ description: >-
 
   UMA tokens enable the holder to participate in community governance and resolve contract disputes through
   the DVM. The tokens are not an investment opportunity.
-developer_score: 83.63
+developer_score: 81.348
 id: uma
 image:
   large: https://assets.coingecko.com/coins/images/10951/large/UMA.png?1586307916
@@ -49,37 +49,32 @@ links:
     github:
     - https://github.com/UMAprotocol/protocol
   twitter_screen_name: UMAprotocol
-liquidity_score: 48.135
-market_cap_rank: 98
+liquidity_score: 52.827
+market_cap_rank: 92
 name: UMA
 public_interest_score: 0.013
 symbol: uma
 tickers:
-- base: UMA
+- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: EUR
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: DAI
+- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
 - base: UMA
   market:
     identifier: cex
     name: CEX.IO
   target: ETH
-- base: UMA
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
 - base: UMA
   market:
     identifier: coinone
     name: Coinone
   target: KRW
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
-  market:
-    identifier: defi_swap
-    name: DeFi Swap
-  target: ETH
 - base: UMA
   market:
     identifier: dove_wallet
@@ -89,22 +84,17 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: TUSD
-- base: UMA
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
+  target: USDT
 - base: UMA
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: USDT
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
+  target: BTC
+- base: UMA
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: probit
+    name: ProBit
+  target: KRW
 - base: UMA
   market:
     identifier: resfinex
@@ -114,14 +104,9 @@ tickers:
   market:
     identifier: tokenlon
     name: Tokenlon
-  target: ETH
+  target: USDT
 - base: UMA
   market:
-    identifier: tokenlon
-    name: Tokenlon
+    identifier: whale_ex
+    name: WhaleEx
   target: USDT
-- base: 0X04FA0D235C4ABF4BCF4787AF4CF447DE572EF828
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

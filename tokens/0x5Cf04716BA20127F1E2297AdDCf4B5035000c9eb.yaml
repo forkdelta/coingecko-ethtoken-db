@@ -1,11 +1,11 @@
 ---
 address: '0x5Cf04716BA20127F1E2297AdDCf4B5035000c9eb'
-coingecko_rank: 116
-coingecko_score: 45.402
-community_score: 34.13
+coingecko_rank: 119
+coingecko_score: 44.604
+community_score: 34.02
 description: >-
   NKN is building the largest blockchain for network sharing.
-developer_score: 54.816
+developer_score: 53.271
 id: nkn
 image:
   large: https://assets.coingecko.com/coins/images/3375/large/nkn.png?1548329212
@@ -32,9 +32,24 @@ links:
   subreddit_url: https://www.reddit.com/r/nknblockchain/
   telegram_channel_identifier: nknorg
   twitter_screen_name: NKN_ORG
-liquidity_score: 49.98
-market_cap_rank: 178
+liquidity_score: 48.26
+market_cap_rank: 190
 name: NKN
-public_interest_score: 0.016
+public_interest_score: 0.018
 symbol: nkn
-tickers: []
+tickers:
+- base: NKN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: NKN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: NKN
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC

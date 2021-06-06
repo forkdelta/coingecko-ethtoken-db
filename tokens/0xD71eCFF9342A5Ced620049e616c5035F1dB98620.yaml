@@ -1,8 +1,8 @@
 ---
 address: '0xD71eCFF9342A5Ced620049e616c5035F1dB98620'
-coingecko_rank: 920
-coingecko_score: 22.535
-community_score: 10.916
+coingecko_rank: 804
+coingecko_score: 23.818
+community_score: 10.864
 description: >-
   Synth sEUR by Synthetix
 
@@ -22,9 +22,24 @@ links:
   homepage:
   - https://synthetix.io
   twitter_screen_name: synthetix_io
-liquidity_score: 33.99
-market_cap_rank: 334
+liquidity_score: 38.797
+market_cap_rank: 277
 name: sEUR
 public_interest_score: 0.046
 symbol: seur
-tickers: []
+tickers:
+- base: 0XD71ECFF9342A5CED620049E616C5035F1DB98620
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: SEUR
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH
+- base: SEUR
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

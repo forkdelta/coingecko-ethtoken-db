@@ -1,13 +1,13 @@
 ---
 address: '0x27702a26126e0B3702af63Ee09aC4d1A084EF628'
-coingecko_rank: 424
-coingecko_score: 29.976
-community_score: 25.437
+coingecko_rank: 439
+coingecko_score: 29.267
+community_score: 25.462
 description: >-
   aleph.im is a decentralized cloud storage, database and computing platform, that is compatible with
   blockchains and speaks their languages. It aims to be the infrastructure layer of the DeFI (decentralized
   finance) ecosystem.
-developer_score: 21.589
+developer_score: 21.33
 id: aleph
 image:
   large: https://assets.coingecko.com/coins/images/11676/large/Monochram-aleph.png?1608483725
@@ -33,14 +33,34 @@ links:
   subreddit_url: https://www.reddit.com/r/Aleph_im/
   telegram_channel_identifier: alephim
   twitter_screen_name: aleph_im
-liquidity_score: 30.393
-market_cap_rank: 535
+liquidity_score: 28.665
+market_cap_rank: 620
 name: Aleph.im
 public_interest_score: 0.004
 symbol: aleph
 tickers:
 - base: 0X27702A26126E0B3702AF63EE09AC4D1A084EF628
   market:
+    identifier: dmm
+    name: DMM
+  target: ETH
+- base: 0X27702A26126E0B3702AF63EE09AC4D1A084EF628
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X27702A26126E0B3702AF63EE09AC4D1A084EF628
+  market:
     identifier: paraswap
     name: Paraswap
-  target: DAI
+  target: ETH
+- base: ALEPH
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: ALEPH
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

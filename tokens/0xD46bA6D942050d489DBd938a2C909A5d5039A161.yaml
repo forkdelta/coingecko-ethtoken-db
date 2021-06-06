@@ -1,8 +1,8 @@
 ---
 address: '0xD46bA6D942050d489DBd938a2C909A5d5039A161'
-coingecko_rank: 212
-coingecko_score: 37.271
-community_score: 9.525
+coingecko_rank: 239
+coingecko_score: 35.815
+community_score: 9.477
 description: >-
   Ampleforth is a digital-asset-protocol for smart commodity-money.
 
@@ -12,7 +12,7 @@ description: >-
   once every 24 hours, increasing or decreasing the number of tokens in each holder’s wallet pro-rata.
   Ampleforth is the only asset in the world with this elastic supply property, and therefore has counter-cyclical
   trading pressure and is uncorrelated with other digital assets such as Bitcoin.
-developer_score: 56.489
+developer_score: 53.801
 id: ampleforth
 image:
   large: https://assets.coingecko.com/coins/images/4708/large/Ampleforth.png?1561684250
@@ -31,8 +31,8 @@ links:
     - https://github.com/ampleforth/uFragments
   telegram_channel_identifier: Ampleforth
   twitter_screen_name: ampleforthorg
-liquidity_score: 34.534
-market_cap_rank: 189
+liquidity_score: 30.871
+market_cap_rank: 205
 name: Ampleforth
 public_interest_score: 0.028
 symbol: ampl
@@ -49,11 +49,6 @@ tickers:
   target: ETH
 - base: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
   market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
-- base: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
-  market:
     identifier: one_inch_liquidity_protocol
     name: 1inch Liquidity Protocol
   target: ETH
@@ -62,17 +57,27 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
+- base: 0X1F9840A85D5AF5BF1D1762F925BDADDC4201F984
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: USDT
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
 - base: ETH
   market:
     identifier: uniswap
     name: Uniswap (v3)
   target: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
 - base: 0X77FBA179C79DE5B7653F68B5039AF940ADA60CE0
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
+- base: DAI
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XD46BA6D942050D489DBD938A2C909A5D5039A161
+- base: 0X4FABB145D64652A948D72533023F6E7A623C7C53
   market:
     identifier: uniswap
     name: Uniswap (v3)

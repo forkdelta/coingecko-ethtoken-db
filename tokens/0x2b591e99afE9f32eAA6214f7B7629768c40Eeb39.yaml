@@ -1,8 +1,8 @@
 ---
 address: '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39'
-coingecko_rank: 1548
-coingecko_score: 17.699
-community_score: 35.823
+coingecko_rank: 1528
+coingecko_score: 17.839
+community_score: 36.274
 description: >-
   Launched on December 2, 2019 by Richard Heart and team, HEX is the first certificate of deposit on the
   blockchain, essentially time deposits that gain interest, HEX is an ERC20 Token that runs over the Ethereum
@@ -29,7 +29,7 @@ links:
   subreddit_url: https://www.reddit.com/r/HEXcrypto/
   telegram_channel_identifier: HEXcrypto
   twitter_screen_name: HEXcrypto
-liquidity_score: 49.077
+liquidity_score: 49.281
 market_cap_rank: null
 name: HEX
 public_interest_score: 0.054
@@ -40,6 +40,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: HEX
+  market:
+    identifier: bidesk
+    name: Bidesk
+  target: BTC
 - base: HEX
   market:
     identifier: bidesk
@@ -55,26 +60,16 @@ tickers:
     identifier: bitcoin_com
     name: Bitcoin.com Exchange
   target: ETH
-- base: HEX
-  market:
-    identifier: catex
-    name: Catex
-  target: BTC
-- base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
 - base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
   market:
     identifier: paraswap
     name: Paraswap
   target: USDT
-- base: HEX
+- base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
   market:
-    identifier: xt
-    name: XT.COM
-  target: USDT
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: DAI
 - base: HEX
   market:
     identifier: yobit
@@ -82,6 +77,11 @@ tickers:
   target: DOGE
 - base: HEX
   market:
-    identifier: zero_ex
-    name: 0x Protocol
+    identifier: yobit
+    name: YoBit
   target: USD
+- base: HEX
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO

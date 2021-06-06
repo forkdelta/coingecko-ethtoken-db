@@ -1,8 +1,8 @@
 ---
 address: '0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b'
-coingecko_rank: 774
-coingecko_score: 24.278
-community_score: 9.54
+coingecko_rank: 781
+coingecko_score: 24.065
+community_score: 9.517
 description: >-
   A basket created by DeFiPulse of the top DeFi tokens by market cap. The DPI Set is rebalanced monthly
   to realign to its market cap weighted index. Buy into the top DeFi tokens by buying the DeFiPulse Index
@@ -27,37 +27,12 @@ links:
     github:
     - https://github.com/SetProtocol/set-v2
   twitter_screen_name: SetProtocol
-liquidity_score: 41.517
-market_cap_rank: 230
+liquidity_score: 40.153
+market_cap_rank: 237
 name: DeFiPulse Index
 public_interest_score: 0.014
 symbol: dpi
 tickers:
-- base: 0X1494CA1F11D487C2BBE4543E90080AEBA4BA3C2B
-  market:
-    identifier: defi_swap
-    name: DeFi Swap
-  target: ETH
-- base: DPI
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
-- base: DPI
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
-- base: DPI
-  market:
-    identifier: hotbit
-    name: Hotbit
-  target: USDT
-- base: 0X1494CA1F11D487C2BBE4543E90080AEBA4BA3C2B
-  market:
-    identifier: linkswap
-    name: Linkswap
-  target: LINK
 - base: 0X1494CA1F11D487C2BBE4543E90080AEBA4BA3C2B
   market:
     identifier: paraswap
@@ -78,3 +53,8 @@ tickers:
     identifier: secretswap
     name: SecretSwap
   target: SCRT
+- base: DPI
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

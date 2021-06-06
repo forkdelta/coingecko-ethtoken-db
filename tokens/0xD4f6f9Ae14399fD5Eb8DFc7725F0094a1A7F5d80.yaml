@@ -1,8 +1,8 @@
 ---
 address: '0xD4f6f9Ae14399fD5Eb8DFc7725F0094a1A7F5d80'
-coingecko_rank: 4006
-coingecko_score: 5.379
-community_score: 8.443
+coingecko_rank: 3818
+coingecko_score: 6.255
+community_score: 8.396
 description: >-
   Bitsten Token, created to support the Bitsten Exchange project, and will be the largest exchange in
   Indonesia and Asia in the future, we use a very small fee and share the profit of the company to the
@@ -21,9 +21,24 @@ links:
   - https://bitsten.com
   telegram_channel_identifier: bitsten_official
   twitter_screen_name: BitstenToken
-liquidity_score: 17.608
+liquidity_score: 22.038
 market_cap_rank: null
 name: Bitsten Token
 public_interest_score: 0.008
 symbol: bst
-tickers: []
+tickers:
+- base: BST
+  market:
+    identifier: bitsten
+    name: Bitsten
+  target: IDRT
+- base: BST
+  market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: 0XD4F6F9AE14399FD5EB8DFC7725F0094A1A7F5D80
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

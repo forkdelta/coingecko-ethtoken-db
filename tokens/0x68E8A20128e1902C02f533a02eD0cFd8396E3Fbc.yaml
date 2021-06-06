@@ -1,8 +1,8 @@
 ---
 address: '0x68E8A20128e1902C02f533a02eD0cFd8396E3Fbc'
-coingecko_rank: 6236
-coingecko_score: 1.431
-community_score: 6.503
+coingecko_rank: 6072
+coingecko_score: 1.623
+community_score: 6.469
 description: >-
   The AFI token is used in the ARIES FINANCIAL protocol. It is obtained by pooling stablecoins or tokens,
   afiTokens or Uniswap LP tokens.
@@ -27,9 +27,14 @@ links:
     - https://github.com/aries-financial-defi
   telegram_channel_identifier: aries_financial_official
   twitter_screen_name: _AriesFinancial
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: Aries Financial
 public_interest_score: 0.005
 symbol: afi
-tickers: []
+tickers:
+- base: 0X68E8A20128E1902C02F533A02ED0CFD8396E3FBC
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

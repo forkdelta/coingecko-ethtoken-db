@@ -1,8 +1,8 @@
 ---
 address: '0x910524678C0B1B23FFB9285a81f99C29C11CBaEd'
-coingecko_rank: 2338
-coingecko_score: 13.181
-community_score: 8.3
+coingecko_rank: 2446
+coingecko_score: 12.766
+community_score: 8.257
 description: >-
   AZUKI is a secondary token designed for use in Doki Doki NFT products
 developer_score: 0.0
@@ -26,9 +26,19 @@ links:
     - https://github.com/dokidokidefi
   telegram_channel_identifier: ddnfg
   twitter_screen_name: dokidokifinance
-liquidity_score: 2.376
-market_cap_rank: 1417
+liquidity_score: 0.295
+market_cap_rank: 1462
 name: Azuki
 public_interest_score: 0.008
 symbol: azuki
-tickers: []
+tickers:
+- base: 0X910524678C0B1B23FFB9285A81F99C29C11CBAED
+  market:
+    identifier: linkswap
+    name: Linkswap
+  target: LINK
+- base: 0X910524678C0B1B23FFB9285A81F99C29C11CBAED
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

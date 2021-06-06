@@ -1,8 +1,8 @@
 ---
 address: '0xA9d232cC381715aE791417B624D7C4509D2c28DB'
-coingecko_rank: 3265
-coingecko_score: 8.802
-community_score: 6.603
+coingecko_rank: 3326
+coingecko_score: 8.615
+community_score: 6.566
 description: >-
   Basis Gold Shares — receive BSG during supply expansions when the price is above the target.
 developer_score: 0.0
@@ -26,9 +26,14 @@ links:
     - https://github.com/build-finance/basis-gold-protocol
   telegram_channel_identifier: GoldBasis
   twitter_screen_name: GoldBasis
-liquidity_score: 1.0
-market_cap_rank: 2656
+liquidity_score: 0.0
+market_cap_rank: 2677
 name: Basis Gold Share
 public_interest_score: 0.001
 symbol: bsgs
-tickers: []
+tickers:
+- base: 0XA9D232CC381715AE791417B624D7C4509D2C28DB
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

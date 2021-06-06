@@ -1,8 +1,8 @@
 ---
 address: '0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf'
-coingecko_rank: 265
-coingecko_score: 34.949
-community_score: 40.16
+coingecko_rank: 274
+coingecko_score: 34.161
+community_score: 40.483
 description: ""
 developer_score: 0.0
 id: reef-finance
@@ -19,8 +19,8 @@ links:
   subreddit_url: https://www.reddit.com/r/ReefDeFi/
   telegram_channel_identifier: reefdefi
   twitter_screen_name: ReefDeFi
-liquidity_score: 58.587
-market_cap_rank: 157
+liquidity_score: 54.387
+market_cap_rank: 160
 name: Reef Finance
 public_interest_score: 0.052
 symbol: reef
@@ -30,18 +30,13 @@ tickers:
     identifier: huobi_id
     name: Huobi Indonesia
   target: USDT
-- base: REEF
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: BTC
-- base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
-  market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: BUSD
 - base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
   market:
     identifier: pancakeswap_v1
     name: PancakeSwap (v1)
   target: WBNB
+- base: WBNB
+  market:
+    identifier: pantherswap
+    name: PantherSwap
+  target: REEF

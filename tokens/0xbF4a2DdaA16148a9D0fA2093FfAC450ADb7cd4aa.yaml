@@ -1,8 +1,8 @@
 ---
 address: '0xbF4a2DdaA16148a9D0fA2093FfAC450ADb7cd4aa'
-coingecko_rank: 5941
-coingecko_score: 1.652
-community_score: 6.602
+coingecko_rank: 6034
+coingecko_score: 1.645
+community_score: 6.568
 description: >-
   Erc20 design for mass adoption
 developer_score: 0.0
@@ -32,14 +32,24 @@ tickers:
   market:
     identifier: balancer_v1
     name: Balancer (v1)
+  target: DAI
+- base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: ETH
 - base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
   market:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
+- base: ETHMNY
+  market:
+    identifier: satoexchange
+    name: SatoExchange
+  target: ETH
 - base: 0XBF4A2DDAA16148A9D0FA2093FFAC450ADB7CD4AA
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: uniswap
+    name: Uniswap (v3)
   target: ETH

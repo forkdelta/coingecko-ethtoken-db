@@ -1,8 +1,8 @@
 ---
 address: '0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd'
-coingecko_rank: 375
-coingecko_score: 31.331
-community_score: 31.532
+coingecko_rank: 364
+coingecko_score: 31.567
+community_score: 31.502
 description: >-
   DODO is a Decentralized Exchange (DEX) running on Ethereum and Binance Smart Chain. 
 
@@ -36,8 +36,8 @@ links:
   subreddit_url: https://www.reddit.com/r/DodoEx/
   telegram_channel_identifier: dodoex_official
   twitter_screen_name: BreederDodo
-liquidity_score: 51.824
-market_cap_rank: 202
+liquidity_score: 52.739
+market_cap_rank: 211
 name: DODO
 public_interest_score: 0.074
 symbol: dodo
@@ -47,11 +47,21 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
-- base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
+- base: 0X2C7CC3B6ACDD71211E951F65C02BA2575BE25399
   market:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0XB078D617A2C50BA77F1914FBB0DB9A7DCE95CC84
+- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0XEFC41E176A20AE15C7C20DA48D40D83D098845D8
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
@@ -67,3 +77,8 @@ tickers:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: BUSD
+- base: DODO
+  market:
+    identifier: zkswap
+    name: ZKSwap
+  target: USDT

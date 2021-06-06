@@ -1,8 +1,8 @@
 ---
 address: '0x8f8221aFbB33998d8584A2B05749bA73c37a938a'
-coingecko_rank: 206
-coingecko_score: 37.791
-community_score: 41.195
+coingecko_rank: 207
+coingecko_score: 37.258
+community_score: 41.148
 description: >-
   What Is Request (REQ)?
 
@@ -75,7 +75,7 @@ description: >-
 
   REQ is an ERC-20 token based on the Ethereum platform. The requests made with REQ are stored on an immutable
   digital ledger. This ledger also serves as proof for all auditing purposes.
-developer_score: 43.2
+developer_score: 41.779
 id: request-network
 image:
   large: https://assets.coingecko.com/coins/images/1031/large/Request_icon.png?1550832088
@@ -93,16 +93,31 @@ links:
     - https://github.com/RequestNetwork/Request_SmartContracts
   subreddit_url: https://www.reddit.com/r/RequestNetwork
   twitter_screen_name: requestnetwork
-liquidity_score: 23.687
-market_cap_rank: 384
+liquidity_score: 22.405
+market_cap_rank: 373
 name: Request
 public_interest_score: 0.004
 symbol: req
 tickers:
 - base: REQ
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: REQ
+  market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: BTC
+- base: REQ
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: REQ
   market:
@@ -113,9 +128,19 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: DOGE
+  target: ETH
 - base: REQ
   market:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: REQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD
+- base: REQ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

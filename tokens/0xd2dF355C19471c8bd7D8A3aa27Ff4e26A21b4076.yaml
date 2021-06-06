@@ -1,8 +1,8 @@
 ---
 address: '0xd2dF355C19471c8bd7D8A3aa27Ff4e26A21b4076'
-coingecko_rank: 4605
-coingecko_score: 3.82
-community_score: 10.916
+coingecko_rank: 4516
+coingecko_score: 4.248
+community_score: 10.864
 description: >-
   Synthetic Aave by Synthetix,
 
@@ -23,9 +23,19 @@ links:
   homepage:
   - https://www.synthetix.io
   twitter_screen_name: synthetix_io
-liquidity_score: 7.079
+liquidity_score: 9.278
 market_cap_rank: null
 name: sAAVE
 public_interest_score: 0.046
 symbol: saave
-tickers: []
+tickers:
+- base: SAAVE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SBTC
+- base: SAAVE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SETH

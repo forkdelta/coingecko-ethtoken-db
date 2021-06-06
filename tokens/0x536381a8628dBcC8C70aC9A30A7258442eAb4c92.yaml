@@ -1,17 +1,9 @@
 ---
 address: '0x536381a8628dBcC8C70aC9A30A7258442eAb4c92'
-coingecko_rank: 3644
-coingecko_score: 6.823
-community_score: 30.103
-description: >-
-  Pantos is an open-source research project founded by the team behind Bitpanda and is being developed
-  in collaboration with researchers at the Technical University of Vienna. The project aims to establish
-  an open standard for truly decentralised cross-blockchain token transfers and blockchain interoperability.
-  Over the course of the last few years, several working Proof of Concept solutions have been released,
-  displaying our research results and highlighting the importance of blockchain agnostic solutions. While
-  today's interoperability solutions are often designed in a (semi) centralised manner, Pantos aims to
-  enable the transfer of tokens to other blockchains without the need for an intermediary blockchain,
-  thus always preserving the security and integrity of the involved blockchains.
+coingecko_rank: 3694
+coingecko_score: 6.816
+community_score: 30.07
+description: ""
 developer_score: 0.0
 id: pantos
 image:
@@ -42,6 +34,16 @@ name: Pantos
 public_interest_score: 0.001
 symbol: pan
 tickers:
+- base: PAN
+  market:
+    identifier: bitpanda
+    name: Bitpanda Pro
+  target: BTC
+- base: PAN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: 0X536381A8628DBCC8C70AC9A30A7258442EAB4C92
   market:
     identifier: uniswap_v2

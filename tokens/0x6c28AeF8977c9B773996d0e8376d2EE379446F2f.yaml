@@ -1,8 +1,8 @@
 ---
 address: '0x6c28AeF8977c9B773996d0e8376d2EE379446F2f'
-coingecko_rank: 398
-coingecko_score: 30.651
-community_score: 31.349
+coingecko_rank: 400
+coingecko_score: 30.296
+community_score: 31.95
 description: >-
   QuickSwap is a permissionless decentralized exchange (DEX) based on Ethereum, powered by Polygon Network’s
   Layer 2 scalability infrastructure. By utilizing Layer 2 for transactions, QuickSwap users will be able
@@ -29,9 +29,19 @@ links:
   subreddit_url: https://www.reddit.com/r/QuickSwap/
   telegram_channel_identifier: QuickSwapDEX
   twitter_screen_name: QuickswapDEX
-liquidity_score: 50.341
-market_cap_rank: 278
+liquidity_score: 48.134
+market_cap_rank: 305
 name: Quickswap
-public_interest_score: 0.171
+public_interest_score: 0.174
 symbol: quick
-tickers: []
+tickers:
+- base: 0X6C28AEF8977C9B773996D0E8376D2EE379446F2F
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: 0X6C28AEF8977C9B773996D0E8376D2EE379446F2F
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDT

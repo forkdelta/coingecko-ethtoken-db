@@ -1,8 +1,8 @@
 ---
 address: '0x0d438F3b5175Bebc262bF23753C1E53d03432bDE'
-coingecko_rank: 686
-coingecko_score: 25.418
-community_score: 9.512
+coingecko_rank: 680
+coingecko_score: 25.271
+community_score: 9.47
 description: >-
   NXM token itself is created solely for internal use within the Nexus Mutual protocol and all of its
   holders must go through KYC. As such, a wrapped version is created to allow more users to own the token
@@ -26,37 +26,17 @@ links:
   homepage:
   - https://nexusmutual.io/
   twitter_screen_name: NexusMutual
-liquidity_score: 47.625
-market_cap_rank: 251
+liquidity_score: 46.63
+market_cap_rank: 244
 name: Wrapped NXM
 public_interest_score: 0.016
 symbol: wnxm
 tickers:
-- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
 - base: WNXM
   market:
     identifier: dove_wallet
     name: Dove Wallet
   target: PAX
-- base: WNXM
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDC
-- base: WNXM
-  market:
-    identifier: huobi_id
-    name: Huobi Indonesia
-  target: USDT
-- base: WNXM
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH
 - base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
   market:
     identifier: one_inch_liquidity_protocol
@@ -67,11 +47,11 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: DAI
-- base: WNXM
+- base: 0X0D438F3B5175BEBC262BF23753C1E53D03432BDE
   market:
-    identifier: poloniex
-    name: Poloniex
-  target: USDT
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: WNXM
   market:
     identifier: zero_ex

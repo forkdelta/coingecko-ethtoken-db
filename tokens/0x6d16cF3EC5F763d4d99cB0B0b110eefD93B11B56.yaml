@@ -1,8 +1,8 @@
 ---
 address: '0x6d16cF3EC5F763d4d99cB0B0b110eefD93B11B56'
-coingecko_rank: 3341
-coingecko_score: 8.404
-community_score: 38.201
+coingecko_rank: 3264
+coingecko_score: 8.955
+community_score: 37.945
 description: >-
   Tracks the price of Perpetual Oil Futures (OIL) through price feeds supplied by an oracle.
 developer_score: 0.0
@@ -24,9 +24,19 @@ links:
     - https://github.com/synthetixio
   subreddit_url: https://www.reddit.com/r/synthetix_io/
   twitter_screen_name: synthetix_io
-liquidity_score: 0.0
+liquidity_score: 3.036
 market_cap_rank: null
 name: Synth sOIL
 public_interest_score: 0.0
 symbol: soil
-tickers: []
+tickers:
+- base: SXAU
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SOIL
+- base: SOIL
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

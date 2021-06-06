@@ -1,8 +1,8 @@
 ---
 address: '0xeDEec5691f23E4914cF0183A4196bBEb30d027a0'
-coingecko_rank: 3763
-coingecko_score: 6.307
-community_score: 27.757
+coingecko_rank: 3813
+coingecko_score: 6.279
+community_score: 27.633
 description: >-
   $WSTA is a wrapped version of $STA token, currently at 1:1. It works similar to WETH with the unique
   feature of ""safe deflation"", as opposed  to $STA which can be taken advantage of as a result of the
@@ -32,4 +32,9 @@ market_cap_rank: null
 name: Wrapped Statera
 public_interest_score: 0.002
 symbol: wsta
-tickers: []
+tickers:
+- base: 0XEDEEC5691F23E4914CF0183A4196BBEB30D027A0
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

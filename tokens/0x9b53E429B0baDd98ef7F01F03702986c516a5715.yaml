@@ -1,8 +1,8 @@
 ---
 address: '0x9b53E429B0baDd98ef7F01F03702986c516a5715'
-coingecko_rank: 2294
-coingecko_score: 13.467
-community_score: 7.814
+coingecko_rank: 2285
+coingecko_score: 13.533
+community_score: 8.096
 description: >-
   The hybrix protocol makes it possible to constructively "hijack" ledger systems and use their combined
   powers to create truly cross-ledger asset transactions, with all the benefits of the underlying ecosystems.
@@ -28,13 +28,38 @@ links:
   telegram_channel_identifier: hybrixgroup
   twitter_screen_name: hybrix_io
 liquidity_score: 1.0
-market_cap_rank: 1081
+market_cap_rank: 1089
 name: Hybrix
 public_interest_score: 0.005
 symbol: hy
 tickers:
 - base: HY
   market:
+    identifier: biki
+    name: BiKi
+  target: USDT
+- base: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: HY
+  market:
     identifier: tomodex
     name: TomoDEX
   target: USDT
+- base: DAI
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
+- base: 0X9B53E429B0BADD98EF7F01F03702986C516A5715
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

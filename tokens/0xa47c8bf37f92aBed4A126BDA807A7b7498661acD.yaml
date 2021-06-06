@@ -1,8 +1,8 @@
 ---
 address: '0xa47c8bf37f92aBed4A126BDA807A7b7498661acD'
-coingecko_rank: 455
-coingecko_score: 29.251
-community_score: 10.423
+coingecko_rank: 465
+coingecko_score: 28.708
+community_score: 10.383
 description: >-
   USD pegged Terra Stablecoin
 developer_score: 0.0
@@ -26,8 +26,8 @@ links:
     github:
     - https://github.com/terra-project
   twitter_screen_name: terra_money
-liquidity_score: 56.301
-market_cap_rank: 60
+liquidity_score: 53.719
+market_cap_rank: 59
 name: TerraUSD
 public_interest_score: 0.101
 symbol: ust
@@ -37,7 +37,27 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: 0X59A921DB27DD6D4D974745B7FFC5C33932653442
+- base: 0XA47C8BF37F92ABED4A126BDA807A7B7498661ACD
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
+- base: 0X41BBEDD7286DAAB5910A1F15D12CBDA839852BD7
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: UST
+- base: 0X56AA298A19C93C6801FDDE870FA63EF75CC0AF72
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: UST
+- base: 0XC8D674114BAC90148D11D3C1D33C61835A0F9DCD
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: UST
+- base: 0X1D350417D9787E000CC1B95D70E9536DCD91F373
   market:
     identifier: uniswap_v2
     name: Uniswap (v2)
@@ -48,11 +68,6 @@ tickers:
     name: Uniswap (v2)
   target: UST
 - base: 0XF72FCD9DCF0190923FADD44811E240EF4533FC86
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: UST
-- base: 0X1D350417D9787E000CC1B95D70E9536DCD91F373
   market:
     identifier: uniswap_v2
     name: Uniswap (v2)
