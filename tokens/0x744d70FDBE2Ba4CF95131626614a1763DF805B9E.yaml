@@ -1,8 +1,8 @@
 ---
 address: '0x744d70FDBE2Ba4CF95131626614a1763DF805B9E'
 coingecko_rank: 43
-coingecko_score: 54.767
-community_score: 37.447
+coingecko_score: 54.741
+community_score: 37.44
 description: >-
   Status is a mobile operating system that will completely change the way the world interacts with the
   <a href="https://www.coingecko.com/en/coins/ethereum">Ethereum</a> network.  Designed as a decentralized
@@ -27,7 +27,7 @@ description: >-
 
   SNT is currently available for trade on many online exchanges, including <a href="https://www.coingecko.com/en/exchanges/huobi">Huobi</a>,
   <a href="https://www.coingecko.com/en/exchanges/binance">Binance</a>, and <a href="https://www.coingecko.com/en/exchanges/bittrex">Bittrex</a>.
-developer_score: 89.777
+developer_score: 89.776
 id: status
 image:
   large: https://assets.coingecko.com/coins/images/779/large/status.png?1548610778
@@ -49,7 +49,7 @@ links:
     - https://github.com/status-im/swarms
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
-liquidity_score: 47.986
+liquidity_score: 47.898
 market_cap_rank: 142
 name: Status
 public_interest_score: 0.017
@@ -64,19 +64,24 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: USDT
-- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
+  target: BTC
+- base: SNT
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: ETH
+- base: SNT
+  market:
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
   market:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: SNT
+- base: DAI
   market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E

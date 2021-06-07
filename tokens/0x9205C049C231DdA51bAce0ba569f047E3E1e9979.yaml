@@ -1,8 +1,8 @@
 ---
 address: '0x9205C049C231DdA51bAce0ba569f047E3E1e9979'
-coingecko_rank: 6598
+coingecko_rank: 6595
 coingecko_score: 1.184
-community_score: 4.475
+community_score: 4.473
 description: >-
   The goal of LATAM Cash is to provide an integrated crypto financial platform, a crypto bank for deposits,
   withdraws and loans for its users. LATAM Cash will provide simple payment platform through mobile, International
@@ -53,6 +53,16 @@ symbol: lmch
 tickers:
 - base: LMCH
   market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: LMCH
+  market:
     identifier: digifinex
     name: Digifinex
+  target: BTC
+- base: LMCH
+  market:
+    identifier: stocks_exchange
+    name: STEX
   target: BTC

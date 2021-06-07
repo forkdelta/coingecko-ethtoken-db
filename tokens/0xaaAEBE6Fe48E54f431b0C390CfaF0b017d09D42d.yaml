@@ -1,8 +1,8 @@
 ---
 address: '0xaaAEBE6Fe48E54f431b0C390CfaF0b017d09D42d'
-coingecko_rank: 243
-coingecko_score: 35.766
-community_score: 45.677
+coingecko_rank: 248
+coingecko_score: 35.41
+community_score: 44.731
 description: >-
   For crypto to continue to spread and gain traction we’ve got to bring the next 100m people into the
   crypto community. In order to do that, real products built by real teams have to provide real utility
@@ -29,8 +29,8 @@ links:
   - https://celsius.network/
   subreddit_url: https://www.reddit.com/r/CelsiusNetwork
   twitter_screen_name: celsiusnetwork
-liquidity_score: 48.187
-market_cap_rank: 39
+liquidity_score: 47.379
+market_cap_rank: 40
 name: Celsius Network
 public_interest_score: 0.128
 symbol: cel
@@ -39,11 +39,21 @@ tickers:
   market:
     identifier: balancer_v1
     name: Balancer (v1)
+  target: ETH
+- base: 0XAAAEBE6FE48E54F431B0C390CFAF0B017D09D42D
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: USDC
 - base: CEL
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: CEL
+  market:
+    identifier: bitcratic
+    name: Bitcratic
   target: ETH
 - base: CEL
   market:
@@ -65,8 +75,3 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
-- base: 0X419C4DB4B9E25D6DB2AD9691CCB832C8D9FDA05E
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: 0XAAAEBE6FE48E54F431B0C390CFAF0B017D09D42D

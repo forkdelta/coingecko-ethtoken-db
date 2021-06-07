@@ -1,8 +1,8 @@
 ---
 address: '0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF'
-coingecko_rank: 989
-coingecko_score: 21.753
-community_score: 11.039
+coingecko_rank: 988
+coingecko_score: 21.772
+community_score: 11.037
 description: >-
   Rarible is a creator-centric NFT marketplace and issuance platform. $RARI is a governance token with
   Marketplace Liquidity Mining program and the airdrop for the large NFT holders.
@@ -24,12 +24,17 @@ links:
   - https://app.rarible.com/rari
   telegram_channel_identifier: rarible
   twitter_screen_name: rariblecom
-liquidity_score: 32.206
-market_cap_rank: 510
+liquidity_score: 32.529
+market_cap_rank: 511
 name: Rarible
 public_interest_score: 0.0
 symbol: rari
 tickers:
+- base: 0XFCA59CD816AB1EAD66534D82BC21E7515CE441CF
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: DAI
 - base: 0XFCA59CD816AB1EAD66534D82BC21E7515CE441CF
   market:
     identifier: balancer_v1
@@ -40,11 +45,6 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: BNT
-- base: RARI
-  market:
-    identifier: kraken
-    name: Kraken
-  target: GBP
 - base: 0XFCA59CD816AB1EAD66534D82BC21E7515CE441CF
   market:
     identifier: one_inch_liquidity_protocol

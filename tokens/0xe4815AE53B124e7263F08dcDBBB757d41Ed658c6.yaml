@@ -1,8 +1,8 @@
 ---
 address: '0xe4815AE53B124e7263F08dcDBBB757d41Ed658c6'
-coingecko_rank: 690
-coingecko_score: 25.134
-community_score: 9.059
+coingecko_rank: 679
+coingecko_score: 25.351
+community_score: 9.057
 description: >-
   ZKSwap is a layer2 DEX based on the ZK-Rollup technology and using the AMM model. ZKSwap provides zero-gas
   fee swapping and instantaneous confirmation, solving the scaling issues, with peak TVL over $1 billion.
@@ -34,12 +34,22 @@ links:
   - https://zks.org/en
   telegram_channel_identifier: zkswapofficial
   twitter_screen_name: ZKSwapOfficial
-liquidity_score: 45.571
-market_cap_rank: 207
+liquidity_score: 46.517
+market_cap_rank: 220
 name: ZKSwap
 public_interest_score: 0.005
 symbol: zks
 tickers:
+- base: ZKS
+  market:
+    identifier: bitrue
+    name: Bitrue
+  target: USDT
+- base: ZKS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: ZKS
   market:
     identifier: tokenlon
@@ -50,3 +60,18 @@ tickers:
     identifier: zkswap
     name: ZKSwap
   target: DAI
+- base: SHIB
+  market:
+    identifier: zkswap
+    name: ZKSwap
+  target: ZKS
+- base: TRIBE
+  market:
+    identifier: zkswap
+    name: ZKSwap
+  target: ZKS
+- base: XDEX
+  market:
+    identifier: zkswap
+    name: ZKSwap
+  target: ZKS

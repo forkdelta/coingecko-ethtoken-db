@@ -1,8 +1,8 @@
 ---
 address: '0x1715AC0743102BF5Cd58EfBB6Cf2dC2685d967b6'
-coingecko_rank: 5027
+coingecko_rank: 5020
 coingecko_score: 2.59
-community_score: 10.864
+community_score: 10.862
 description: >-
   Tracks the price of Polkadot (DOT) through price feeds supplied by an oracle.
 developer_score: 0.0
@@ -33,3 +33,8 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SDOT
+- base: SDOT
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

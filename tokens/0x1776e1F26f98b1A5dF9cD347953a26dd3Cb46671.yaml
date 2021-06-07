@@ -1,8 +1,8 @@
 ---
 address: '0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671'
-coingecko_rank: 83
-coingecko_score: 47.855
-community_score: 34.374
+coingecko_rank: 84
+coingecko_score: 47.547
+community_score: 34.508
 description: >-
   A new kind of hedge fund built by a network of data scientists.
 developer_score: 59.349
@@ -27,22 +27,17 @@ links:
     - https://github.com/numerai/numerapi-1
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
-liquidity_score: 55.969
-market_cap_rank: 167
+liquidity_score: 54.058
+market_cap_rank: 169
 name: Numeraire
 public_interest_score: 0.004
 symbol: nmr
 tickers:
-- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
+- base: NMR
   market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: USDC
-- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
-  market:
-    identifier: mooniswap
-    name: Mooniswap
-  target: ETH
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
 - base: NMR
   market:
     identifier: yobit
@@ -57,4 +52,14 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: RUR
+- base: NMR
+  market:
+    identifier: yobit
+    name: YoBit
   target: USD
+- base: NMR
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

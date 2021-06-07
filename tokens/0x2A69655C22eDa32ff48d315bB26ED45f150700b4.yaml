@@ -1,8 +1,8 @@
 ---
 address: '0x2A69655C22eDa32ff48d315bB26ED45f150700b4'
-coingecko_rank: 2433
+coingecko_rank: 2438
 coingecko_score: 12.817
-community_score: 7.294
+community_score: 7.293
 description: >-
   Wrapped Tezos (wXTZ) is a fully collateralized representation of XTZ. It is a project of StakerDAO,
   the same team behind Staker. wXTZ is meant to be used in DeFi applications on the Tezos blockchain,
@@ -34,4 +34,9 @@ market_cap_rank: null
 name: Wrapped Tezos
 public_interest_score: 0.004
 symbol: wxtz
-tickers: []
+tickers:
+- base: 0X2A69655C22EDA32FF48D315BB26ED45F150700B4
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

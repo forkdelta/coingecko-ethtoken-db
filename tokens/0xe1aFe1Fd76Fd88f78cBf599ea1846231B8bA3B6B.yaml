@@ -1,8 +1,8 @@
 ---
 address: '0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B'
-coingecko_rank: 2043
-coingecko_score: 14.781
-community_score: 10.861
+coingecko_rank: 2112
+coingecko_score: 14.411
+community_score: 10.857
 description: >-
   Tracks the price of the index: DeFi Index (DEFI) through price feeds supplied by an oracle. This index
   is made up of the following assets and weights: 92.583 of LINK (Chainlink), 0.432 of MKR (Maker), 502.718
@@ -25,9 +25,14 @@ links:
   homepage:
   - https://www.synthetix.io/tokens/
   twitter_screen_name: synthetix_io
-liquidity_score: 2.896
-market_cap_rank: 962
+liquidity_score: 1.193
+market_cap_rank: 1155
 name: sDEFI
 public_interest_score: 0.046
 symbol: sdefi
-tickers: []
+tickers:
+- base: 0XE1AFE1FD76FD88F78CBF599EA1846231B8BA3B6B
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

@@ -1,8 +1,8 @@
 ---
 address: '0x476c5E26a75bd202a9683ffD34359C0CC15be0fF'
-coingecko_rank: 529
-coingecko_score: 27.646
-community_score: 10.494
+coingecko_rank: 525
+coingecko_score: 27.658
+community_score: 10.493
 description: ""
 developer_score: 0.0
 id: serum
@@ -23,17 +23,12 @@ links:
   - https://projectserum.com/
   telegram_channel_identifier: ProjectSerum
   twitter_screen_name: projectserum
-liquidity_score: 55.794
-market_cap_rank: 186
+liquidity_score: 55.986
+market_cap_rank: 182
 name: Serum
 public_interest_score: 0.07
 symbol: srm
 tickers:
-- base: SRM
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: SRM
   market:
     identifier: hitbtc
@@ -44,6 +39,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: 0X476C5E26A75BD202A9683FFD34359C0CC15BE0FF
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: USDC
   market:
     identifier: serumswap

@@ -1,8 +1,8 @@
 ---
 address: '0xADE00C28244d5CE17D72E40330B1c318cD12B7c3'
 coingecko_rank: 166
-coingecko_score: 40.096
-community_score: 35.27
+coingecko_score: 40.186
+community_score: 35.265
 description: >-
   AdEx (ADX) stands for “advertising exchange.” After a successful crowdfunding campaign in 2017, AdEx
   was the first startup to release an open-source protocol for decentralized advertising in 2018 and the
@@ -44,7 +44,7 @@ links:
   subreddit_url: https://www.reddit.com/r/AdEx
   telegram_channel_identifier: AdExNetworkOfficial
   twitter_screen_name: AdEx_Network
-liquidity_score: 31.734
+liquidity_score: 32.081
 market_cap_rank: 293
 name: AdEx
 public_interest_score: 0.169
@@ -55,11 +55,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: ADX
-  market:
-    identifier: bittrex
-    name: Bittrex
-  target: ETH
 - base: ADXN
   market:
     identifier: hitbtc
@@ -75,23 +70,18 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: ADX
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
 - base: 0XADE00C28244D5CE17D72E40330B1C318CD12B7C3
   market:
     identifier: mooniswap
     name: Mooniswap
-  target: ETH
-- base: 0XADE00C28244D5CE17D72E40330B1C318CD12B7C3
-  market:
-    identifier: one_inch
-    name: 1inch
   target: ETH
 - base: 0X4470BB87D77B963A013DB939BE332F927F2B992E
   market:
     identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH
-- base: ADX
-  market:
-    identifier: upbit_indonesia
-    name: 'Upbit Indonesia '
-  target: BTC

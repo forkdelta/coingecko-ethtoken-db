@@ -1,13 +1,13 @@
 ---
 address: '0xc719d010B63E5bbF2C0551872CD5316ED26AcD83'
-coingecko_rank: 309
-coingecko_score: 33.001
-community_score: 30.923
+coingecko_rank: 313
+coingecko_score: 32.967
+community_score: 30.918
 description: >-
   Etherisc is building a platform for decentralized insurance applications. We aim to use blockchain technologyto
   help make the purchase and sale of insurance more efficient, enable lower operational costs, provide
   greater transparency into the industry and democratize access to reinsurance investments.
-developer_score: 42.228
+developer_score: 42.227
 id: etherisc
 image:
   large: https://assets.coingecko.com/coins/images/4586/large/dip.png?1547039863
@@ -28,9 +28,19 @@ links:
   subreddit_url: https://www.reddit.com/r/etherisc/
   telegram_channel_identifier: etherisc_community
   twitter_screen_name: etherisc
-liquidity_score: 14.838
-market_cap_rank: 578
+liquidity_score: 14.704
+market_cap_rank: 581
 name: Etherisc DIP Token
 public_interest_score: 0.007
 symbol: dip
-tickers: []
+tickers:
+- base: 0XC719D010B63E5BBF2C0551872CD5316ED26ACD83
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X48B1B0D077B4919B65B4E4114806DD803901E1D9
+  market:
+    identifier: sushiswap_xdai
+    name: Sushiswap (xDai)
+  target: XDAI

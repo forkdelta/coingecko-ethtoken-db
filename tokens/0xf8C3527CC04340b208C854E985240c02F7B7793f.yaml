@@ -1,8 +1,8 @@
 ---
 address: '0xf8C3527CC04340b208C854E985240c02F7B7793f'
-coingecko_rank: 797
-coingecko_score: 23.87
-community_score: 10.207
+coingecko_rank: 794
+coingecko_score: 23.895
+community_score: 10.204
 description: >-
   Frontier is a chain-agnostic DeFi aggregation layer. With our applications, users can participate in
   protocol tracking and management, staking, liquidity provision, CDP creation & monitoring, and more.
@@ -24,7 +24,7 @@ links:
     - https://github.com/frontierwallet
   telegram_channel_identifier: FrontierDotXYZ
   twitter_screen_name: FrontierDotXYZ
-liquidity_score: 43.649
+liquidity_score: 43.883
 market_cap_rank: 497
 name: Frontier
 public_interest_score: 0.011
@@ -52,9 +52,24 @@ tickers:
   target: FRONT
 - base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
   market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
+- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
+  market:
     identifier: paraswap
     name: Paraswap
   target: ETH
+- base: FRONT
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
   market:
     identifier: sakeswap
@@ -64,7 +79,7 @@ tickers:
   market:
     identifier: serum_dex
     name: Serum DEX
-  target: USDT
+  target: USDC
 - base: FRONT
   market:
     identifier: serumswap

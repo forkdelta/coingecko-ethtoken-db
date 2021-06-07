@@ -1,8 +1,8 @@
 ---
 address: '0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828'
-coingecko_rank: 80
-coingecko_score: 48.225
-community_score: 9.742
+coingecko_rank: 82
+coingecko_score: 48.144
+community_score: 9.74
 description: >-
   UMA is a decentralized financial contracts platform built to enable Universal Market Access.
 
@@ -27,7 +27,7 @@ description: >-
 
   UMA tokens enable the holder to participate in community governance and resolve contract disputes through
   the DVM. The tokens are not an investment opportunity.
-developer_score: 81.348
+developer_score: 81.347
 id: uma
 image:
   large: https://assets.coingecko.com/coins/images/10951/large/UMA.png?1586307916
@@ -49,8 +49,8 @@ links:
     github:
     - https://github.com/UMAprotocol/protocol
   twitter_screen_name: UMAprotocol
-liquidity_score: 52.827
-market_cap_rank: 92
+liquidity_score: 52.535
+market_cap_rank: 94
 name: UMA
 public_interest_score: 0.013
 symbol: uma
@@ -72,6 +72,11 @@ tickers:
   target: ETH
 - base: UMA
   market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
+- base: UMA
+  market:
     identifier: coinone
     name: Coinone
   target: KRW
@@ -79,7 +84,17 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: PAX
+  target: ETH
+- base: UMA
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: UMA
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
 - base: UMA
   market:
     identifier: dove_wallet
@@ -87,19 +102,9 @@ tickers:
   target: USDT
 - base: UMA
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: BTC
-- base: UMA
-  market:
     identifier: probit
     name: ProBit
   target: KRW
-- base: UMA
-  market:
-    identifier: resfinex
-    name: Resfinex
-  target: USDT
 - base: UMA
   market:
     identifier: tokenlon

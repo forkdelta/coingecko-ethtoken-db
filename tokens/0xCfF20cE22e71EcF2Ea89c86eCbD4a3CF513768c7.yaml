@@ -1,6 +1,6 @@
 ---
 address: '0xCfF20cE22e71EcF2Ea89c86eCbD4a3CF513768c7'
-coingecko_rank: 6645
+coingecko_rank: 6649
 coingecko_score: 1.123
 community_score: 4.195
 description: >-
@@ -40,6 +40,11 @@ tickers:
     identifier: coinmargin
     name: CoinMargin
   target: ETH
+- base: DDK
+  market:
+    identifier: coinmargin
+    name: CoinMargin
+  target: MKS
 - base: VNDC
   market:
     identifier: coinmargin
@@ -47,11 +52,11 @@ tickers:
   target: MKS
 - base: MKS
   market:
-    identifier: exmarkets
-    name: ExMarkets
-  target: BTC
+    identifier: coinmargin
+    name: CoinMargin
+  target: USDT
 - base: MKS
   market:
     identifier: exmarkets
     name: ExMarkets
-  target: ETH
+  target: BTC

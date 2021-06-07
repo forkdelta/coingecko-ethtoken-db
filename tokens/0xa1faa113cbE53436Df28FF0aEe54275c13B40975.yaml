@@ -1,8 +1,8 @@
 ---
 address: '0xa1faa113cbE53436Df28FF0aEe54275c13B40975'
-coingecko_rank: 598
-coingecko_score: 26.497
-community_score: 10.219
+coingecko_rank: 599
+coingecko_score: 26.489
+community_score: 10.216
 description: >-
   Alpha Finance Lab is focused on researching and building in the Decentralized Finance (DeFi) space.
   Alpha Lending, the first product built by Alpha Finance Lab, is a decentralized lending protocol with
@@ -28,12 +28,17 @@ links:
     - https://github.com/AlphaFinanceLab/alphahomora
   telegram_channel_identifier: AlphaFinanceLab
   twitter_screen_name: alphafinancelab
-liquidity_score: 50.365
-market_cap_rank: 192
+liquidity_score: 50.551
+market_cap_rank: 195
 name: Alpha Finance
 public_interest_score: 0.046
 symbol: alpha
 tickers:
+- base: 0XA1FAA113CBE53436DF28FF0AEE54275C13B40975
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
 - base: 0XA1FAA113CBE53436DF28FF0AEE54275C13B40975
   market:
     identifier: pancakeswap_v1
@@ -44,3 +49,8 @@ tickers:
     identifier: tokenlon
     name: Tokenlon
   target: ETH
+- base: ALPHA
+  market:
+    identifier: zkswap
+    name: ZKSwap
+  target: USDT

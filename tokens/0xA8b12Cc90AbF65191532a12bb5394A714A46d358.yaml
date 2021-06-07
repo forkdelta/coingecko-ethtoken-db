@@ -1,8 +1,8 @@
 ---
 address: '0xA8b12Cc90AbF65191532a12bb5394A714A46d358'
-coingecko_rank: 1561
-coingecko_score: 17.644
-community_score: 7.112
+coingecko_rank: 1572
+coingecko_score: 17.537
+community_score: 7.114
 description: >-
   The protocol consists of pBTC35A tokens and MARS tokens. Each pBTC35A token represents 1TH/s hashrate
   with pre-determined power ratio, mining rigs would be in Poolin Superhashrate’s custody during life
@@ -28,9 +28,14 @@ links:
     - https://github.com/MarsFi/POWToken
   telegram_channel_identifier: marsproject1
   twitter_screen_name: MarsProject2020
-liquidity_score: 19.267
-market_cap_rank: 742
+liquidity_score: 18.757
+market_cap_rank: 745
 name: pBTC35A
 public_interest_score: 0.0
 symbol: pbtc35a
-tickers: []
+tickers:
+- base: PBTC35A
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

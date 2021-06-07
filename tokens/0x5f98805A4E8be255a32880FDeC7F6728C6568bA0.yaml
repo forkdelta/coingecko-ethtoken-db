@@ -1,8 +1,8 @@
 ---
 address: '0x5f98805A4E8be255a32880FDeC7F6728C6568bA0'
-coingecko_rank: 468
-coingecko_score: 28.681
-community_score: 25.187
+coingecko_rank: 442
+coingecko_score: 29.205
+community_score: 25.141
 description: >-
   LUSD is a fully redeemable USD-pegged stablecoin issued by the Liquity Protocol. Liquity is a decentralized
   borrowing protocol that allows you to draw 0% interest loans against Ether used as collateral. Loans
@@ -35,9 +35,19 @@ links:
     - https://github.com/liquity/dev
   subreddit_url: https://www.reddit.com/r/Liquity/
   twitter_screen_name: LiquityProtocol
-liquidity_score: 40.753
+liquidity_score: 43.231
 market_cap_rank: 103
 name: Liquity USD
 public_interest_score: 0.015
 symbol: lusd
-tickers: []
+tickers:
+- base: 0X5F98805A4E8BE255A32880FDEC7F6728C6568BA0
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0X956F47F50A910163D8BF957CF5846D573E7F87CA
+- base: LUSD
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

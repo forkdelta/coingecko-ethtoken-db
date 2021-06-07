@@ -1,8 +1,8 @@
 ---
 address: '0x30647a72Dc82d7Fbb1123EA74716aB8A317Eac19'
-coingecko_rank: 5506
+coingecko_rank: 5500
 coingecko_score: 1.991
-community_score: 9.049
+community_score: 9.046
 description: >-
   imUSD is a USD interest bearing token that represents the yield accruing to mUSD in the mStable Save
   contract. It is transferred and can be used as collateral in other DeFi platforms
@@ -27,4 +27,9 @@ market_cap_rank: null
 name: imUSD
 public_interest_score: 0.011
 symbol: imusd
-tickers: []
+tickers:
+- base: 0X30647A72DC82D7FBB1123EA74716AB8A317EAC19
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

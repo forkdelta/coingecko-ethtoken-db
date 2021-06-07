@@ -1,8 +1,8 @@
 ---
 address: '0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6'
-coingecko_rank: 1045
-coingecko_score: 21.26
-community_score: 10.863
+coingecko_rank: 948
+coingecko_score: 22.16
+community_score: 10.861
 description: >-
   sBTC or synthetic BTC is a synthetic asset launched by Synthetix Exchange. sBTC mirrors and tracks the
   price of Bitcoin provided by an oracle - Chainlink.
@@ -21,12 +21,17 @@ links:
   homepage:
   - https://www.synthetix.io
   twitter_screen_name: synthetix_io
-liquidity_score: 29.084
-market_cap_rank: 427
+liquidity_score: 33.383
+market_cap_rank: 430
 name: sBTC
 public_interest_score: 0.046
 symbol: sbtc
 tickers:
+- base: RENBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SBTC
 - base: BBTC
   market:
     identifier: curve
@@ -52,3 +57,8 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SBTC
+- base: 0XFE18BE6B3BD88A2D2A7F928D00292E7A9963CFC6
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

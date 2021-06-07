@@ -1,8 +1,8 @@
 ---
 address: '0x37F04d2C3AE075Fad5483bB918491F656B12BDB6'
-coingecko_rank: 2899
-coingecko_score: 10.78
-community_score: 33.113
+coingecko_rank: 2895
+coingecko_score: 10.779
+community_score: 33.107
 description: >-
   VestChain is the unique blockchain platform that has full capacity to tackle the problems inherent to
   the existing blockchains, i.e that of expandability and time needed for confirmation.
@@ -44,6 +44,16 @@ symbol: vest
 tickers:
 - base: VEST
   market:
+    identifier: btc_alpha
+    name: BTC-Alpha
+  target: BTC
+- base: VEST
+  market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: VEST
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

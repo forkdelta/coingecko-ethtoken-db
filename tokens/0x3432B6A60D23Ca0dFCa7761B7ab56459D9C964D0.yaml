@@ -1,8 +1,8 @@
 ---
 address: '0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0'
-coingecko_rank: 1031
-coingecko_score: 21.364
-community_score: 8.535
+coingecko_rank: 1059
+coingecko_score: 21.09
+community_score: 8.537
 description: >-
   The Frax Share token is the governance and value accrual token of the Frax Stablecoin Protocol
 developer_score: 0.0
@@ -24,12 +24,22 @@ links:
     - https://github.com/fraxfinance/frax-solidity
   telegram_channel_identifier: fraxfinance
   twitter_screen_name: fraxfinance
-liquidity_score: 33.645
-market_cap_rank: 519
+liquidity_score: 32.062
+market_cap_rank: 529
 name: Frax Share
 public_interest_score: 0.011
 symbol: fxs
 tickers:
+- base: FXS
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: FXS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: 0X29CED01C447166958605519F10DCF8B0255FB379
   market:
     identifier: pancakeswap_v1

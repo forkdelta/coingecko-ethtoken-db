@@ -1,6 +1,6 @@
 ---
 address: '0x0AfFa06e7Fbe5bC9a764C979aA66E8256A631f02'
-coingecko_rank: 7118
+coingecko_rank: 7120
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -29,6 +29,11 @@ name: Polybius
 public_interest_score: 0.002
 symbol: plbt
 tickers:
+- base: PLBT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: 0X0AFFA06E7FBE5BC9A764C979AA66E8256A631F02
   market:
     identifier: uniswap_v2
@@ -54,8 +59,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: USD
-- base: PLBT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES

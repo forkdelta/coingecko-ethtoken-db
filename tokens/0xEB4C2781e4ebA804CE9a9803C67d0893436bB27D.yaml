@@ -1,8 +1,8 @@
 ---
 address: '0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D'
-coingecko_rank: 96
-coingecko_score: 46.709
-community_score: 37.123
+coingecko_rank: 105
+coingecko_score: 45.826
+community_score: 36.926
 description: >-
   REN Tokenized BTC
 
@@ -29,22 +29,17 @@ links:
   subreddit_url: https://www.reddit.com/r/RenProject/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 35.356
-market_cap_rank: 144
+liquidity_score: 31.186
+market_cap_rank: 147
 name: renBTC
 public_interest_score: 0.023
 symbol: renbtc
 tickers:
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
 - base: RENBTC
   market:
     identifier: bittrex
     name: Bittrex
-  target: ETH
+  target: BTC
 - base: RENBTC
   market:
     identifier: bittrex
@@ -60,26 +55,31 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: USDT
-- base: TBTC
-  market:
-    identifier: curve
-    name: Curve Finance
-  target: RENBTC
 - base: BBTC
   market:
     identifier: curve
     name: Curve Finance
   target: RENBTC
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+- base: TBTC
   market:
-    identifier: defi_swap
-    name: DeFi Swap
-  target: ETH
+    identifier: curve
+    name: Curve Finance
+  target: RENBTC
+- base: RENBTC
+  market:
+    identifier: curve
+    name: Curve Finance
+  target: SBTC
 - base: RENBTC
   market:
     identifier: hotbit
     name: Hotbit
   target: BTC
+- base: RENBTC
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
     identifier: paraswap
@@ -87,11 +87,11 @@ tickers:
   target: ETH
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+  market:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
-- base: RENBTC
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

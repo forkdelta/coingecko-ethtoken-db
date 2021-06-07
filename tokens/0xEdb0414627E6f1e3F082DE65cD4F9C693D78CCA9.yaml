@@ -1,8 +1,8 @@
 ---
 address: '0xEdb0414627E6f1e3F082DE65cD4F9C693D78CCA9'
-coingecko_rank: 1138
-coingecko_score: 20.449
-community_score: 9.858
+coingecko_rank: 1155
+coingecko_score: 20.255
+community_score: 9.856
 description: >-
   Mirrored Twitter - synthetic asset tracking the price of a Twitter stock.
 developer_score: 0.0
@@ -30,9 +30,19 @@ links:
     - https://github.com/mirror-protocol
   telegram_channel_identifier: mirror_protocol
   twitter_screen_name: mirror_protocol
-liquidity_score: 28.196
-market_cap_rank: 582
+liquidity_score: 27.123
+market_cap_rank: 600
 name: Mirrored Twitter
 public_interest_score: 0.125
 symbol: mtwtr
-tickers: []
+tickers:
+- base: 0XEDB0414627E6F1E3F082DE65CD4F9C693D78CCA9
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
+- base: 0XEDB0414627E6F1E3F082DE65CD4F9C693D78CCA9
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: UST

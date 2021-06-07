@@ -1,8 +1,8 @@
 ---
 address: '0x2fe39f22EAC6d3c1C86DD9D143640EbB94609FCE'
-coingecko_rank: 5930
-coingecko_score: 1.711
-community_score: 6.868
+coingecko_rank: 5937
+coingecko_score: 1.71
+community_score: 6.865
 description: >-
   We at JD Coin are different. By different, we mean literally. Our philosophy is enshrined in believing
   that ‘Small is Good’.
@@ -59,9 +59,24 @@ symbol: jdc
 tickers:
 - base: JDC
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: BTC
+- base: JDC
+  market:
+    identifier: catex
+    name: Catex
+  target: BTC
+- base: JDC
+  market:
     identifier: catex
     name: Catex
   target: ETH
+- base: JDC
+  market:
+    identifier: catex
+    name: Catex
+  target: USDT
 - base: JDC
   market:
     identifier: etherflyer

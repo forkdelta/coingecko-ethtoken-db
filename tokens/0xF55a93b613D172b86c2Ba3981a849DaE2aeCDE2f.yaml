@@ -1,8 +1,8 @@
 ---
 address: '0xF55a93b613D172b86c2Ba3981a849DaE2aeCDE2f'
-coingecko_rank: 3210
-coingecko_score: 9.21
-community_score: 9.239
+coingecko_rank: 3243
+coingecko_score: 9.058
+community_score: 9.235
 description: >-
   YFX (Your Futures Exchange) is a completely transparent decentralized perpetual contract trading platform.
   All funds are managed by smart contracts. The platform cannot operate any funds of users. All smart
@@ -32,7 +32,7 @@ links:
   - https://www.yfx.com/
   telegram_channel_identifier: YFX_EN
   twitter_screen_name: YFX_Defi
-liquidity_score: 35.882
+liquidity_score: 35.128
 market_cap_rank: null
 name: Your Futures Exchange
 public_interest_score: 0.012
@@ -43,8 +43,13 @@ tickers:
     identifier: bigone
     name: BigONE
   target: USDT
+- base: YFX
+  market:
+    identifier: biki
+    name: BiKi
+  target: USDT
 - base: 0XF55A93B613D172B86C2BA3981A849DAE2AECDE2F
   market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
+    identifier: mdex_bsc
+    name: Mdex BSC
+  target: BNB
