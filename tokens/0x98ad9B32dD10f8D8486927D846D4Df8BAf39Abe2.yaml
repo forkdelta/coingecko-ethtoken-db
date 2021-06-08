@@ -1,8 +1,8 @@
 ---
 address: '0x98ad9B32dD10f8D8486927D846D4Df8BAf39Abe2'
-coingecko_rank: 3119
-coingecko_score: 9.645
-community_score: 6.593
+coingecko_rank: 3068
+coingecko_score: 9.974
+community_score: 6.591
 description: >-
   VELO aims to implements a simple rule-based inverse and elastic supply curve that expands and contracts
   token supply, enables direct interaction with velocity.
@@ -27,9 +27,14 @@ links:
     - https://github.com/velo-finance/velo-protocol
   telegram_channel_identifier: Velotoken
   twitter_screen_name: velotoken
-liquidity_score: 0.0
-market_cap_rank: 2468
+liquidity_score: 1.0
+market_cap_rank: 2464
 name: VELO Token
 public_interest_score: 0.0
 symbol: vlo
-tickers: []
+tickers:
+- base: 0X98AD9B32DD10F8D8486927D846D4DF8BAF39ABE2
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

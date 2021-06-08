@@ -1,8 +1,8 @@
 ---
 address: '0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D'
 coingecko_rank: 105
-coingecko_score: 45.826
-community_score: 36.926
+coingecko_score: 46.057
+community_score: 36.683
 description: >-
   REN Tokenized BTC
 
@@ -29,8 +29,8 @@ links:
   subreddit_url: https://www.reddit.com/r/RenProject/
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
-liquidity_score: 31.186
-market_cap_rank: 147
+liquidity_score: 32.612
+market_cap_rank: 143
 name: renBTC
 public_interest_score: 0.023
 symbol: renbtc
@@ -84,6 +84,11 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
+  target: DAI
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+  market:
+    identifier: paraswap
+    name: Paraswap
   target: ETH
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
@@ -95,3 +100,8 @@ tickers:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
+- base: RENBTC
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

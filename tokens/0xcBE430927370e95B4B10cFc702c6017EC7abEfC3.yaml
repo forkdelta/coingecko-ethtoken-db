@@ -1,8 +1,8 @@
 ---
 address: '0xcBE430927370e95B4B10cFc702c6017EC7abEfC3'
-coingecko_rank: 5303
-coingecko_score: 2.144
-community_score: 9.741
+coingecko_rank: 5157
+coingecko_score: 2.343
+community_score: 9.739
 description: >-
   "YD-ETH-JUN21 is a synthetic ""yield dollar"" token that will approach the value of $1 upon expiry,
   which will be June 30th, 2021. It is collateralized by wETH, and upon expiry, will be redeemable for
@@ -27,9 +27,14 @@ links:
     github:
     - https://github.com/UMAprotocol/
   twitter_screen_name: UMAprotocol
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: YD-ETH-JUN21
 public_interest_score: 0.013
 symbol: yd-eth-jun21
-tickers: []
+tickers:
+- base: 0XCBE430927370E95B4B10CFC702C6017EC7ABEFC3
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC

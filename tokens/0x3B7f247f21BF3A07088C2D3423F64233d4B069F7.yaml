@@ -1,8 +1,8 @@
 ---
 address: '0x3B7f247f21BF3A07088C2D3423F64233d4B069F7'
-coingecko_rank: 4915
-coingecko_score: 2.922
-community_score: 9.002
+coingecko_rank: 4927
+coingecko_score: 2.982
+community_score: 9.0
 description: >-
   DYNAMITE is a deflationary currency.Initially, there were 900,000 DYNMTs.Whenever a DYNMT is transferred,
   2% of the transaction will be destroyed
@@ -25,9 +25,14 @@ links:
     - https://github.com/DynamiteToken/Dynamite
   telegram_channel_identifier: DYNMT
   twitter_screen_name: ddynmt
-liquidity_score: 4.706
+liquidity_score: 5.012
 market_cap_rank: null
 name: DYNAMITE Token
 public_interest_score: 0.001
 symbol: dynmt
-tickers: []
+tickers:
+- base: 0X3B7F247F21BF3A07088C2D3423F64233D4B069F7
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

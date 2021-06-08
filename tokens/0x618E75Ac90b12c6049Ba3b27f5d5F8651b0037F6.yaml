@@ -1,8 +1,8 @@
 ---
 address: '0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6'
-coingecko_rank: 1360
-coingecko_score: 18.889
-community_score: 9.481
+coingecko_rank: 1358
+coingecko_score: 18.985
+community_score: 9.478
 description: >-
   QASH (pronounced “cash”) is the native currency for the Quoine (pronounced “coin”) which is now rebranded
   to <a href="https://www.coingecko.com/en/exchanges/quoine">Liquid</a>. Liquid is a global cryptocurrency
@@ -59,14 +59,19 @@ links:
   subreddit_url: https://www.reddit.com/r/liquid
   telegram_channel_identifier: QUOINENews
   twitter_screen_name: Liquid_Global
-liquidity_score: 21.227
-market_cap_rank: 636
+liquidity_score: 21.729
+market_cap_rank: 624
 name: QASH
 public_interest_score: 0.109
 symbol: qash
 tickers:
+- base: QSH
+  market:
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: QASH
   market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC

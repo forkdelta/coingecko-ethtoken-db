@@ -1,8 +1,8 @@
 ---
 address: '0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7'
-coingecko_rank: 1721
-coingecko_score: 16.649
-community_score: 8.268
+coingecko_rank: 1785
+coingecko_score: 16.4
+community_score: 8.266
 description: >-
   CORE is a non-inflationary cryptocurrency that is designed to execute profit-generating strategies autonomously
   with a completely decentralized approach. In existing autonomous strategy-executing platforms a team
@@ -33,9 +33,19 @@ links:
     - https://github.com/cVault-finance
   telegram_channel_identifier: COREVault
   twitter_screen_name: CORE_Vault
-liquidity_score: 8.391
-market_cap_rank: 422
+liquidity_score: 7.172
+market_cap_rank: 398
 name: cVault.finance
 public_interest_score: 0.006
 symbol: core
-tickers: []
+tickers:
+- base: CORE
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: 0X62359ED7505EFC61FF1D56FEF82158CCAFFA23D7
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

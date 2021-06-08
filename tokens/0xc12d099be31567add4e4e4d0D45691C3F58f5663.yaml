@@ -1,8 +1,8 @@
 ---
 address: '0xc12d099be31567add4e4e4d0D45691C3F58f5663'
-coingecko_rank: 317
-coingecko_score: 32.852
-community_score: 26.39
+coingecko_rank: 318
+coingecko_score: 32.87
+community_score: 26.387
 description: >-
   Auctus is a decentralized options protocol. Users can mint call and put options for different markets
   at different strike prices, and trade options in a trustless and decentralized manner without having
@@ -44,7 +44,7 @@ links:
   telegram_channel_identifier: auctusoptions
   twitter_screen_name: AuctusOptions
 liquidity_score: 1.0
-market_cap_rank: 1255
+market_cap_rank: 1270
 name: Auctus
 public_interest_score: 0.006
 symbol: auc
@@ -53,7 +53,22 @@ tickers:
   market:
     identifier: balancer_v1
     name: Balancer (v1)
+  target: ETH
+- base: 0XC12D099BE31567ADD4E4E4D0D45691C3F58F5663
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: USDC
+- base: AUC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: AUC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
 - base: 0XC12D099BE31567ADD4E4E4D0D45691C3F58F5663
   market:
     identifier: one_inch

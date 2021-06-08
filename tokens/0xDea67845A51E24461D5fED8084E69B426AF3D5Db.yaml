@@ -1,7 +1,7 @@
 ---
 address: '0xDea67845A51E24461D5fED8084E69B426AF3D5Db'
-coingecko_rank: 2551
-coingecko_score: 12.313
+coingecko_rank: 2562
+coingecko_score: 12.288
 community_score: 7.265
 description: >-
   HodlTree is a second-generation decentralized lending protocol.
@@ -27,8 +27,18 @@ links:
   telegram_channel_identifier: hodltree
   twitter_screen_name: hodltree
 liquidity_score: 1.0
-market_cap_rank: 1653
+market_cap_rank: 1616
 name: HodlTree
 public_interest_score: 0.001
 symbol: htre
-tickers: []
+tickers:
+- base: 0XDEA67845A51E24461D5FED8084E69B426AF3D5DB
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
+- base: 0XDEA67845A51E24461D5FED8084E69B426AF3D5DB
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

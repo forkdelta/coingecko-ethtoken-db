@@ -1,12 +1,12 @@
 ---
 address: '0x57Ab1ec28D129707052df4dF418D58a2D46d5f51'
 coingecko_rank: 55
-coingecko_score: 51.874
-community_score: 37.869
+coingecko_score: 52.103
+community_score: 37.889
 description: >-
   sUSD, or synthetic USD, is a synthetic asset launched by Synthetix Exchange. sUSD mirrors and tracks
   the price of USD provided by an oracle - Chainlink.
-developer_score: 75.098
+developer_score: 75.097
 id: nusd
 image:
   large: https://assets.coingecko.com/coins/images/5013/large/sUSD.png?1616150765
@@ -25,8 +25,8 @@ links:
     - https://github.com/Synthetixio/synthetix
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
-liquidity_score: 52.546
-market_cap_rank: 174
+liquidity_score: 53.846
+market_cap_rank: 167
 name: sUSD
 public_interest_score: 0.046
 symbol: susd
@@ -45,23 +45,18 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
-  target: DAI
+  target: ETH
 - base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
   market:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: SAMZN
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: SGOOG
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SFB
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SYFI
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -71,12 +66,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SEOS
+- base: SNFLX
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SNFLX
+- base: SFB
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -87,21 +82,6 @@ tickers:
     name: Synthetix Exchange
   target: SUSD
 - base: SDOT
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SXAU
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SLINK
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SRUNE
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -136,17 +116,12 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SOIL
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
 - base: S1INCH
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SXTZ
+- base: SADA
   market:
     identifier: synthetix
     name: Synthetix Exchange

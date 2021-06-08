@@ -1,8 +1,8 @@
 ---
 address: '0x037A54AaB062628C9Bbae1FDB1583c195585fe41'
-coingecko_rank: 1476
-coingecko_score: 18.17
-community_score: 9.962
+coingecko_rank: 1479
+coingecko_score: 18.152
+community_score: 9.959
 description: "LCX.com - Innovating Capital Markets. Solutions for compliant digital assets and security\
   \ tokens. LCX is a secure and compliant platform for buying, selling, transferring, and storing digital\
   \ currency.\n\nLCX, the Liechtenstein Cryptoassets Exchange, was founded in 2018 with headquarters in\
@@ -43,8 +43,8 @@ links:
   - https://www.LCX.com
   telegram_channel_identifier: JoinLCX
   twitter_screen_name: lcx
-liquidity_score: 20.004
-market_cap_rank: 886
+liquidity_score: 19.831
+market_cap_rank: 859
 name: LCX
 public_interest_score: 0.023
 symbol: lcx
@@ -54,12 +54,52 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: LCX
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: BTC
+- base: DGB
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: POLK
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: DAG
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
 - base: MKR
   market:
     identifier: lcx
     name: LCX Exchange
   target: LCX
-- base: ENJ
+- base: MANA
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: QNT
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: SAND
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: CELO
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: UNI
   market:
     identifier: lcx
     name: LCX Exchange
@@ -69,11 +109,11 @@ tickers:
     identifier: lcx
     name: LCX Exchange
   target: LCX
-- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+- base: LCX
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: lcx
+    name: LCX Exchange
+  target: USDC
 - base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
   market:
     identifier: paraswap
@@ -84,6 +124,11 @@ tickers:
     identifier: probit
     name: ProBit
   target: BTC
+- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
 - base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
   market:
     identifier: uniswap

@@ -1,8 +1,8 @@
 ---
 address: '0x6810e776880C02933D47DB1b9fc05908e5386b96'
-coingecko_rank: 179
-coingecko_score: 39.084
-community_score: 23.765
+coingecko_rank: 171
+coingecko_score: 39.67
+community_score: 23.596
 description: ""
 developer_score: 50.664
 id: gnosis
@@ -31,8 +31,8 @@ links:
     - https://github.com/gnosis/safe-contracts/
     - https://github.com/gnosis/safe-react/
   subreddit_url: https://www.reddit.com/r/gnosisPM
-  twitter_screen_name: https://twitter.com/gnosisPM
-liquidity_score: 34.52
+  twitter_screen_name: gnosisPM
+liquidity_score: 37.544
 market_cap_rank: 166
 name: Gnosis
 public_interest_score: 0.009
@@ -45,9 +45,9 @@ tickers:
   target: BTC
 - base: GNO
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: bvnex
+    name: Bvnex
+  target: USDT
 - base: GNO
   market:
     identifier: hitbtc
@@ -68,6 +68,16 @@ tickers:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
+- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: GNO
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT
 - base: GNO
   market:
     identifier: yobit

@@ -1,7 +1,7 @@
 ---
 address: '0x72955eCFf76E48F2C8AbCCe11d54e5734D6f3657'
-coingecko_rank: 4408
-coingecko_score: 4.526
+coingecko_rank: 3967
+coingecko_score: 5.786
 community_score: 5.755
 description: >-
   TrustVerse is a wealth management platform with an integrated digital estate planning protocol. The
@@ -27,9 +27,19 @@ links:
   - https://trustverse.io/
   telegram_channel_identifier: trustverse_officialchannel
   twitter_screen_name: trustverse
-liquidity_score: 16.298
+liquidity_score: 22.601
 market_cap_rank: null
 name: TrustVerse
 public_interest_score: 0.001
 symbol: trv
-tickers: []
+tickers:
+- base: TRV
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: BTC
+- base: TRV
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

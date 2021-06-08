@@ -1,8 +1,8 @@
 ---
 address: '0x73104e9d3Da91e410A6c211068f7BFfabBbD3e26'
-coingecko_rank: 5355
-coingecko_score: 2.097
-community_score: 9.517
+coingecko_rank: 5192
+coingecko_score: 2.297
+community_score: 9.516
 description: >-
   Moonshot is an automated strategy that buys when RSI and volatility is high, sells when RSI and volatility
   is low, and otherwise holds its current position.
@@ -27,9 +27,14 @@ links:
     github:
     - https://github.com/SetProtocol/set-protocol-contracts
   twitter_screen_name: SetProtocol
-liquidity_score: 0.0
+liquidity_score: 1.0
 market_cap_rank: null
 name: ETH Moonshot X Set
 public_interest_score: 0.067
 symbol: ethmoonx
-tickers: []
+tickers:
+- base: 0X73104E9D3DA91E410A6C211068F7BFFABBBD3E26
+  market:
+    identifier: token_sets
+    name: TokenSets
+  target: USD

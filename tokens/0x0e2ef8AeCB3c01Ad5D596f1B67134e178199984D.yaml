@@ -1,8 +1,8 @@
 ---
 address: '0x0e2ef8AeCB3c01Ad5D596f1B67134e178199984D'
-coingecko_rank: 4937
-coingecko_score: 2.847
-community_score: 7.682
+coingecko_rank: 4755
+coingecko_score: 3.57
+community_score: 7.669
 description: >-
   Landbox is a blockchain real estate project established based upon professional experiences in the existing
   real estate development and education industries. By utilizing ""prop-tech"" - a tech solution combining
@@ -31,14 +31,19 @@ links:
   - https://landbox.io/
   telegram_channel_identifier: LandToken
   twitter_screen_name: Landbox_
-liquidity_score: 5.783
+liquidity_score: 9.416
 market_cap_rank: null
 name: LandBox
 public_interest_score: 0.001
 symbol: land
 tickers:
-- base: LAND
+- base: 0X557F20CE25B41640ADE4A3085D42D7E626D7965A
   market:
-    identifier: probit
-    name: ProBit
-  target: KRW
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0X0E2EF8AECB3C01AD5D596F1B67134E178199984D
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
