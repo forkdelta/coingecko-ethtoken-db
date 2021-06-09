@@ -31,15 +31,20 @@ tickers:
   target: BTC
 - base: YO
   market:
+    identifier: crex24
+    name: CREX24
+  target: BTC
+- base: YO
+  market:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: ZEC
+- base: HEX
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: HEX
+- base: BTT
   market:
     identifier: yobit
     name: YoBit
@@ -49,12 +54,7 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: CNB
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
-- base: ETC
+- base: VERA
   market:
     identifier: yobit
     name: YoBit
@@ -64,22 +64,27 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: VERA
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: DASH
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: USDT
+- base: XEM
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: XRP
+- base: TALK
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: ZEC
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: USDT
   market:
     identifier: yobit
     name: YoBit

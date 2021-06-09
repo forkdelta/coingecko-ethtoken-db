@@ -33,11 +33,21 @@ name: Brazilian Digital Token
 public_interest_score: 0.001
 symbol: brz
 tickers:
-- base: BRZ
+- base: BTC
   market:
-    identifier: bittrex
-    name: Bittrex
-  target: USDT
+    identifier: coinbene
+    name: CoinBene
+  target: BRZ
+- base: BTC
+  market:
+    identifier: ftx_us
+    name: FTX.US
+  target: BRZ
+- base: USDT
+  market:
+    identifier: zbx
+    name: ZBX
+  target: BRZ
 - base: BTC
   market:
     identifier: zbx

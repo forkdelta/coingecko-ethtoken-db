@@ -30,7 +30,7 @@ links:
   telegram_channel_identifier: renproject
   twitter_screen_name: renprotocol
 liquidity_score: 32.612
-market_cap_rank: 143
+market_cap_rank: 142
 name: renBTC
 public_interest_score: 0.023
 symbol: renbtc
@@ -40,6 +40,11 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: BTC
+- base: RENBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: ETH
 - base: RENBTC
   market:
     identifier: bittrex
@@ -55,21 +60,16 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: USDT
-- base: BBTC
-  market:
-    identifier: curve
-    name: Curve Finance
-  target: RENBTC
 - base: TBTC
   market:
     identifier: curve
     name: Curve Finance
   target: RENBTC
-- base: RENBTC
+- base: BBTC
   market:
     identifier: curve
     name: Curve Finance
-  target: SBTC
+  target: RENBTC
 - base: RENBTC
   market:
     identifier: hotbit
@@ -80,26 +80,16 @@ tickers:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
+- base: RENBTC
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
     identifier: paraswap
     name: Paraswap
   target: DAI
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: USDT
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
-  market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
 - base: RENBTC
   market:
     identifier: zero_ex

@@ -31,16 +31,41 @@ links:
   telegram_channel_identifier: sandboxgame
   twitter_screen_name: TheSandboxGame
 liquidity_score: 51.792
-market_cap_rank: 205
+market_cap_rank: 206
 name: The Sandbox
 public_interest_score: 0.09
 symbol: sand
 tickers:
 - base: SAND
   market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: SAND
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: SAND
+  market:
     identifier: lcx
     name: LCX Exchange
   target: LCX
+- base: SAND
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: USDC
+- base: 0X3845BADADE8E6DFF049820680D1F14BD3903A5D0
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: DAI
+- base: 0X3845BADADE8E6DFF049820680D1F14BD3903A5D0
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
 - base: SAND
   market:
     identifier: whale_ex

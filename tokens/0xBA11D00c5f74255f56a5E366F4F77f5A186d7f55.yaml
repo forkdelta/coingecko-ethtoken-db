@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 58.279
-market_cap_rank: 170
+market_cap_rank: 169
 name: Band Protocol
 public_interest_score: 0.01
 symbol: band
-tickers: []
+tickers:
+- base: BAND
+  market:
+    identifier: bvnex
+    name: Bvnex
+  target: USDT
+- base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
+  market:
+    identifier: sakeswap
+    name: SakeSwap
+  target: ETH

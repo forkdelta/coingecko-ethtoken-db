@@ -56,20 +56,30 @@ links:
   subreddit_url: https://www.reddit.com/r/Dentacoin
   twitter_screen_name: dentacoin
 liquidity_score: 14.037
-market_cap_rank: 613
+market_cap_rank: 628
 name: Dentacoin
 public_interest_score: 0.041
 symbol: dcn
 tickers:
 - base: DCN
   market:
-    identifier: graviex
-    name: Graviex
-  target: BTC
+    identifier: buyucoin
+    name: BuyUcoin
+  target: USDT
+- base: DCN
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
 - base: DCN
   market:
     identifier: graviex
     name: Graviex
+  target: ETH
+- base: 0X08D32B0DA63E2C3BCF8019C9C5D849D7A9D791E6
+  market:
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
   target: ETH
 - base: DCN
   market:
@@ -80,9 +90,4 @@ tickers:
   market:
     identifier: satoexchange
     name: SatoExchange
-  target: ETH
-- base: 0X08D32B0DA63E2C3BCF8019C9C5D849D7A9D791E6
-  market:
-    identifier: sushiswap
-    name: Sushiswap
   target: ETH

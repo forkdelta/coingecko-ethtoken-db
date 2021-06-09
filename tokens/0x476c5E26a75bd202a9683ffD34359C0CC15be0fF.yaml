@@ -24,11 +24,21 @@ links:
   telegram_channel_identifier: ProjectSerum
   twitter_screen_name: projectserum
 liquidity_score: 56.428
-market_cap_rank: 187
+market_cap_rank: 190
 name: Serum
 public_interest_score: 0.07
 symbol: srm
 tickers:
+- base: SRM
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: SRM
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: SRM
   market:
     identifier: bvnex
@@ -39,56 +49,6 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
-- base: 0X476C5E26A75BD202A9683FFD34359C0CC15BE0FF
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
-- base: USDC
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: SUSHI
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: LINK
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: BTC
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: FTT
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: YFI
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: ETH
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: USDT
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
-- base: FRONT
-  market:
-    identifier: serumswap
-    name: SerumSwap
-  target: SRM
 - base: SRM
   market:
     identifier: whale_ex

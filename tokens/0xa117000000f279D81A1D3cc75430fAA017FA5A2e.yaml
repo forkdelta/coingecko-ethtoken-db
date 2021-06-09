@@ -72,11 +72,16 @@ links:
   subreddit_url: https://www.reddit.com/r/aragonproject
   twitter_screen_name: AragonProject
 liquidity_score: 52.727
-market_cap_rank: 231
+market_cap_rank: 235
 name: Aragon
 public_interest_score: 0.018
 symbol: ant
 tickers:
+- base: 0X960B236A07CF122663C4303350609A66A7B288C0
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0X960B236A07CF122663C4303350609A66A7B288C0
   market:
     identifier: balancer_v1
@@ -92,8 +97,3 @@ tickers:
     identifier: cex
     name: CEX.IO
   target: USDT
-- base: ANT
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: ETH

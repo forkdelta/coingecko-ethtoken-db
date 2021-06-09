@@ -26,11 +26,21 @@ links:
   telegram_channel_identifier: DIAdata_org
   twitter_screen_name: DIAdata_org
 liquidity_score: 43.074
-market_cap_rank: 365
+market_cap_rank: 359
 name: DIA
 public_interest_score: 0.005
 symbol: DIA
 tickers:
+- base: DIA
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: DIA
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: DIA
   market:
     identifier: bamboo_relay
@@ -51,8 +61,8 @@ tickers:
     identifier: okex
     name: OKEx
   target: ETH
-- base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
+- base: DIA
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: quoine
+    name: Liquid
+  target: USDT

@@ -24,7 +24,7 @@ links:
   telegram_channel_identifier: luaswap
   twitter_screen_name: luaswap
 liquidity_score: 6.115
-market_cap_rank: 1167
+market_cap_rank: 1164
 name: LuaSwap
 public_interest_score: 0.021
 symbol: lua
@@ -34,7 +34,12 @@ tickers:
     identifier: luaswap
     name: Luaswap
   target: FRONT
-- base: UNI
+- base: LUA
+  market:
+    identifier: luaswap
+    name: Luaswap
+  target: KAI
+- base: SUSHI
   market:
     identifier: luaswap
     name: Luaswap

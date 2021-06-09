@@ -79,11 +79,16 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 31.401
-market_cap_rank: 160
+market_cap_rank: 153
 name: Golem
 public_interest_score: 0.013
 symbol: glm
 tickers:
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: ETH
 - base: GNT
   market:
     identifier: bitbay
@@ -94,16 +99,6 @@ tickers:
     identifier: bitrue
     name: Bitrue
   target: BTC
-- base: GLM
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
-- base: GLM
-  market:
-    identifier: gate
-    name: Gate.io
-  target: ETH
 - base: GLM
   market:
     identifier: huobi_korea

@@ -24,11 +24,16 @@ links:
   telegram_channel_identifier: swapfolio_app
   twitter_screen_name: swapfolio_app
 liquidity_score: 14.293
-market_cap_rank: 1607
+market_cap_rank: 1475
 name: Swapfolio
 public_interest_score: 0.007
 symbol: swfl
 tickers:
+- base: SWFL
+  market:
+    identifier: biki
+    name: BiKi
+  target: USDT
 - base: 0XBA21EF4C9F433EDE00BADEFCC2754B8E74BD538A
   market:
     identifier: one_inch
@@ -38,4 +43,14 @@ tickers:
   market:
     identifier: stocks_exchange
     name: STEX
+  target: ETH
+- base: SWFL
+  market:
+    identifier: stocks_exchange
+    name: STEX
   target: USDT
+- base: 0XBA21EF4C9F433EDE00BADEFCC2754B8E74BD538A
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

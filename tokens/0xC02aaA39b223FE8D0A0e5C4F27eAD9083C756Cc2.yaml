@@ -31,12 +31,17 @@ name: WETH
 public_interest_score: 0.012
 symbol: weth
 tickers:
-- base: TRU
+- base: HEX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: KEEP
+- base: MATIC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: TRU
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -46,7 +51,7 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: COMP
+- base: DEC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -57,6 +62,16 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: DIA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RSR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DXD
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -77,6 +92,21 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: MTA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DATA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BAND
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: ABT
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -110,7 +140,7 @@ tickers:
   market:
     identifier: dodo
     name: DODO
-  target: KONO
+  target: LOL
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: dodo
@@ -128,13 +158,13 @@ tickers:
   target: WETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
-    identifier: dodo
-    name: DODO
-  target: XYO
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
     identifier: mooniswap
     name: Mooniswap
+  target: ETH
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: one_inch_liquidity_protocol
+    name: 1inch Liquidity Protocol
   target: ETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:

@@ -19,14 +19,16 @@ links:
   announcement_url:
   - https://soar-fi.medium.com/
   blockchain_site:
+  - https://bscscan.com/token/0xb5b408d20c807c0e943836ca62e1feedc75aa97e
   - https://etherscan.io/token/0xbae5f2d8a1299e5c4963eaff3312399253f27ccb
   - https://ethplorer.io/address/0xbae5f2d8a1299e5c4963eaff3312399253f27ccb
   homepage:
+  - https://bridge.soar.fi/
   - https://soar.fi
   telegram_channel_identifier: SoarFi
   twitter_screen_name: Soar_Fi
 liquidity_score: 1.0
-market_cap_rank: 1531
+market_cap_rank: 1538
 name: Soar
 public_interest_score: 0.003
 symbol: soar
@@ -36,3 +38,13 @@ tickers:
     identifier: one_inch_liquidity_protocol
     name: 1inch Liquidity Protocol
   target: ETH
+- base: 0X0E09FABB73BD3ADE0A17ECC321FD13A19E81CE82
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: 0XB5B408D20C807C0E943836CA62E1FEEDC75AA97E
+- base: 0XB5B408D20C807C0E943836CA62E1FEEDC75AA97E
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB

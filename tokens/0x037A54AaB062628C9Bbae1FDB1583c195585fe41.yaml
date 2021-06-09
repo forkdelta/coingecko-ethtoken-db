@@ -44,7 +44,7 @@ links:
   telegram_channel_identifier: JoinLCX
   twitter_screen_name: lcx
 liquidity_score: 19.831
-market_cap_rank: 859
+market_cap_rank: 851
 name: LCX
 public_interest_score: 0.023
 symbol: lcx
@@ -56,30 +56,10 @@ tickers:
   target: WETH
 - base: LCX
   market:
-    identifier: lcx
-    name: LCX Exchange
-  target: BTC
-- base: DGB
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
-- base: POLK
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
-- base: DAG
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
+    identifier: idex
+    name: Idex
+  target: ETH
 - base: MKR
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
-- base: MANA
   market:
     identifier: lcx
     name: LCX Exchange
@@ -89,31 +69,16 @@ tickers:
     identifier: lcx
     name: LCX Exchange
   target: LCX
-- base: SAND
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
-- base: CELO
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
-- base: UNI
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
 - base: REVV
   market:
     identifier: lcx
     name: LCX Exchange
   target: LCX
-- base: LCX
+- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
   market:
-    identifier: lcx
-    name: LCX Exchange
-  target: USDC
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
   market:
     identifier: paraswap
@@ -124,11 +89,11 @@ tickers:
     identifier: probit
     name: ProBit
   target: BTC
-- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+- base: LCX
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH
+    identifier: quoine
+    name: Liquid
+  target: USDC
 - base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
   market:
     identifier: uniswap

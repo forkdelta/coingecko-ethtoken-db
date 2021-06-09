@@ -65,11 +65,21 @@ links:
   telegram_channel_identifier: iexec_rlc_official
   twitter_screen_name: iEx_ec
 liquidity_score: 52.105
-market_cap_rank: 156
+market_cap_rank: 159
 name: iExec RLC
 public_interest_score: 0.012
 symbol: rlc
 tickers:
+- base: RLC
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: RLC
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: RLC
   market:
     identifier: bancor
@@ -77,21 +87,31 @@ tickers:
   target: BNT
 - base: RLC
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: BTC
-- base: RLC
-  market:
     identifier: forkdelta
     name: ForkDelta
   target: ETH
-- base: 0X607F4C5BB672230E8672085532F7E901544A7375
+- base: RLC
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
+    identifier: kyber_network
+    name: Kyber Network
   target: ETH
 - base: 0X607F4C5BB672230E8672085532F7E901544A7375
   market:
     identifier: uniswap
     name: Uniswap (v3)
   target: ETH
+- base: 0X607F4C5BB672230E8672085532F7E901544A7375
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: RLC
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: INR
+- base: RLC
+  market:
+    identifier: wazirx
+    name: WazirX
+  target: USDT

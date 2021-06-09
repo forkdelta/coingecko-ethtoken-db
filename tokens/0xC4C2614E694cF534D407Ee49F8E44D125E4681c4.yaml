@@ -28,13 +28,28 @@ links:
   telegram_channel_identifier: chaingames
   twitter_screen_name: realchaingames
 liquidity_score: 15.807
-market_cap_rank: 495
+market_cap_rank: 501
 name: Chain Games
 public_interest_score: 0.032
 symbol: chain
 tickers:
+- base: 0X0E09FABB73BD3ADE0A17ECC321FD13A19E81CE82
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X35DE111558F691F77F791FB0C08B2D6B931A9D47
 - base: 0X35DE111558F691F77F791FB0C08B2D6B931A9D47
   market:
     identifier: pancakeswap_v1
     name: PancakeSwap (v1)
   target: WBNB
+- base: CHAIN
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: CHAIN
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

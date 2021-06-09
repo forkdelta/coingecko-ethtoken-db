@@ -43,8 +43,18 @@ links:
   telegram_channel_identifier: 'fly_global '
   twitter_screen_name: FrankLinYield
 liquidity_score: 22.53
-market_cap_rank: 550
+market_cap_rank: 574
 name: Franklin
 public_interest_score: 0.007
 symbol: fly
-tickers: []
+tickers:
+- base: FLY
+  market:
+    identifier: btse
+    name: BTSE
+  target: USD
+- base: FLY
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

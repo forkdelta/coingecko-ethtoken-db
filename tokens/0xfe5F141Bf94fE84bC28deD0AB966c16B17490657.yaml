@@ -58,15 +58,20 @@ links:
   telegram_channel_identifier: ihavecred
   twitter_screen_name: ihavecred
 liquidity_score: 15.199
-market_cap_rank: 1418
+market_cap_rank: 1437
 name: LibraToken
 public_interest_score: 0.006
 symbol: lba
 tickers:
-- base: 0XFE5F141BF94FE84BC28DED0AB966C16B17490657
+- base: LBA
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: bilaxy
+    name: Bilaxy
+  target: ETH
+- base: LBA
+  market:
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: LBA
   market:
@@ -83,3 +88,13 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: LBA
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

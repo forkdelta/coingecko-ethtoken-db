@@ -29,6 +29,11 @@ name: TrueAUD
 public_interest_score: 0.02
 symbol: taud
 tickers:
+- base: BNB
+  market:
+    identifier: binance_dex
+    name: Binance DEX
+  target: TAUDB-888
 - base: 0X00006100F7090010005F1BD7AE6122C3C2CF0090
   market:
     identifier: uniswap_v2

@@ -35,6 +35,16 @@ symbol: opm
 tickers:
 - base: OPM
   market:
+    identifier: probit
+    name: ProBit
+  target: ETH
+- base: OPM
+  market:
     identifier: stocks_exchange
     name: STEX
+  target: ETH
+- base: 0XF4C17BC4979C1DC7B4CA50115358DEC58C67FD9D
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

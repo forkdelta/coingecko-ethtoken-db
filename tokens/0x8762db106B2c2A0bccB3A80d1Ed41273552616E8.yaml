@@ -46,6 +46,26 @@ symbol: rsr
 tickers:
 - base: RSR
   market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: RSR
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: RSR
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RSR
+  market:
     identifier: kyber_network
     name: Kyber Network
   target: ETH
@@ -53,6 +73,11 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
+  target: ETH
+- base: RSR
+  market:
+    identifier: secretswap
+    name: SecretSwap
   target: ETH
 - base: RSR
   market:

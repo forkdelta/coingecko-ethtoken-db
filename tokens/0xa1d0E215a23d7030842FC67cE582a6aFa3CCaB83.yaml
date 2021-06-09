@@ -25,11 +25,21 @@ links:
   telegram_channel_identifier: yfiifinance
   twitter_screen_name: DfiMoney
 liquidity_score: 50.377
-market_cap_rank: 360
+market_cap_rank: 363
 name: DFI.money
 public_interest_score: 0.004
 symbol: yfii
 tickers:
+- base: YFII
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: YFII
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: YFII
   market:
     identifier: cex
@@ -37,6 +47,16 @@ tickers:
   target: ETH
 - base: YFII
   market:
-    identifier: probit
-    name: ProBit
-  target: KRW
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: YFII
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

@@ -40,27 +40,22 @@ name: Swipe
 public_interest_score: 0.035
 symbol: sxp
 tickers:
+- base: SXP
+  market:
+    identifier: atomars
+    name: Atomars
+  target: BTC
+- base: SXP
+  market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
 - base: 0X8AC76A51CC950D9822D68B83FE1AD97B32CD580D
   market:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
 - base: 0X111111111117DC0AA78B770FA6A738034120C302
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X2C7CC3B6ACDD71211E951F65C02BA2575BE25399
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X0F9E4D49F25DE22C2202AF916B681FBB3790497B
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -75,21 +70,36 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: SXP
+- base: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: BTC
-- base: 0X8CE9137D39326AD0CD6491FB5CC0CBA0E089B6A9
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+- base: 0X2C7CC3B6ACDD71211E951F65C02BA2575BE25399
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+- base: 0X0F9E4D49F25DE22C2202AF916B681FBB3790497B
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
 - base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: 0XFA90D5D5FF08D9A06C9FDF89B4B22217B9DBC418
+- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
 - base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
   market:
     identifier: pancakeswap_v1

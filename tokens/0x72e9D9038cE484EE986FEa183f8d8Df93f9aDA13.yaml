@@ -22,8 +22,23 @@ links:
   telegram_channel_identifier: SmartCredit_Community
   twitter_screen_name: smartcredit_io
 liquidity_score: 19.246
-market_cap_rank: 1346
+market_cap_rank: 1358
 name: SmartCredit Token
 public_interest_score: 0.003
 symbol: smartcredit
-tickers: []
+tickers:
+- base: SMARTCREDIT
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: SMARTCREDIT
+  market:
+    identifier: loopring
+    name: Loopring
+  target: ETH
+- base: SMARTCREDIT
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
