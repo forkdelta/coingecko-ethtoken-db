@@ -28,11 +28,21 @@ links:
   telegram_channel_identifier: https://t.me/internxt
   twitter_screen_name: Internxt
 liquidity_score: 10.941
-market_cap_rank: 1378
+market_cap_rank: 1397
 name: Internxt
 public_interest_score: 0.022
 symbol: inxt
 tickers:
+- base: INXT
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: INXT
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
 - base: INXT
   market:
     identifier: mercatox
@@ -48,8 +58,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: INXT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD

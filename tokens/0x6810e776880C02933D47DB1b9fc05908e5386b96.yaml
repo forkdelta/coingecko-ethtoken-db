@@ -33,7 +33,7 @@ links:
   subreddit_url: https://www.reddit.com/r/gnosisPM
   twitter_screen_name: gnosisPM
 liquidity_score: 37.544
-market_cap_rank: 167
+market_cap_rank: 169
 name: Gnosis
 public_interest_score: 0.009
 symbol: gno
@@ -50,8 +50,13 @@ tickers:
   target: USDT
 - base: GNO
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: GNO
+  market:
+    identifier: hotbit
+    name: Hotbit
   target: ETH
 - base: GNO
   market:
@@ -63,11 +68,6 @@ tickers:
     identifier: loopring_amm
     name: Loopring AMM
   target: ETH
-- base: 0X6810E776880C02933D47DB1B9FC05908E5386B96
-  market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
 - base: GNO
   market:
     identifier: stocks_exchange
@@ -78,11 +78,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: GNO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD
 - base: GNO
   market:
     identifier: yobit

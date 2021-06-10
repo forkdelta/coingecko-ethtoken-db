@@ -1,6 +1,6 @@
 ---
 address: '0xC28E27870558cF22ADD83540d2126da2e4b464c2'
-coingecko_rank: 1817
+coingecko_rank: 1816
 coingecko_score: 16.167
 community_score: 0.0
 description: ""
@@ -19,13 +19,23 @@ links:
   homepage:
   - https://sashimi.cool/
 liquidity_score: 25.391
-market_cap_rank: 1304
+market_cap_rank: 1337
 name: Sashimi
 public_interest_score: 0.019
 symbol: sashimi
 tickers:
+- base: SASHIMI
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: 0XC28E27870558CF22ADD83540D2126DA2E4B464C2
   market:
     identifier: sushiswap
     name: Sushiswap
+  target: ETH
+- base: 0XC28E27870558CF22ADD83540D2126DA2E4B464C2
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

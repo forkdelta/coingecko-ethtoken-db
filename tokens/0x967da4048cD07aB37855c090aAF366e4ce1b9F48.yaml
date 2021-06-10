@@ -70,13 +70,28 @@ tickers:
   target: USDT
 - base: OCEAN
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
+- base: OCEAN
+  market:
     identifier: bvnex
     name: Bvnex
   target: USDT
+- base: OCEAN
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: 0X967DA4048CD07AB37855C090AAF366E4CE1B9F48
   market:
     identifier: paraswap
     name: Paraswap
+  target: ETH
+- base: 0X967DA4048CD07AB37855C090AAF366E4CE1B9F48
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
   target: ETH
 - base: 0X967DA4048CD07AB37855C090AAF366E4CE1B9F48
   market:

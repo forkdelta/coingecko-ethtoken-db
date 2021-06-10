@@ -1,6 +1,6 @@
 ---
 address: '0x947938339BF61c84669E303Bc39c794D65A525D0'
-coingecko_rank: 7461
+coingecko_rank: 7329
 coingecko_score: 0.2
 community_score: 0.0
 description: >-
@@ -30,4 +30,14 @@ market_cap_rank: null
 name: FME
 public_interest_score: 0.0
 symbol: fme
-tickers: []
+tickers:
+- base: FME
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: FME
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT

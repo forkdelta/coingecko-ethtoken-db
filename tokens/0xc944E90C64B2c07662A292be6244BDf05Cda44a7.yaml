@@ -40,7 +40,7 @@ links:
   telegram_channel_identifier: graphprotocol
   twitter_screen_name: graphprotocol
 liquidity_score: 62.151
-market_cap_rank: 91
+market_cap_rank: 94
 name: The Graph
 public_interest_score: 0.061
 symbol: grt
@@ -62,16 +62,21 @@ tickers:
   target: GBP
 - base: GRT
   market:
+    identifier: huobi_id
+    name: Huobi Indonesia
+  target: USDT
+- base: GRT
+  market:
     identifier: loopring_amm
     name: Loopring AMM
-  target: ETH
-- base: 0XC944E90C64B2C07662A292BE6244BDF05CDA44A7
-  market:
-    identifier: one_inch
-    name: 1inch
   target: ETH
 - base: 0X46C54B16AF7747067F412C78EBADAE203A26ADA0
   market:
     identifier: pangolin
     name: Pangolin
   target: AVAX
+- base: 0XC944E90C64B2C07662A292BE6244BDF05CDA44A7
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH

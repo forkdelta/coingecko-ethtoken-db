@@ -39,11 +39,16 @@ links:
   telegram_channel_identifier: dxDAO
   twitter_screen_name: Dxdao_
 liquidity_score: 26.334
-market_cap_rank: 763
+market_cap_rank: 785
 name: DXdao
 public_interest_score: 0.042
 symbol: dxd
 tickers:
+- base: 0XA1D65E8FB6E87B60FECCBC582F7F97804B725521
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: DXD
   market:
     identifier: bamboo_relay
@@ -51,11 +56,16 @@ tickers:
   target: WETH
 - base: DXD
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: ETH
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: DXD
   market:
     identifier: hotbit
     name: Hotbit
-  target: USDT
+  target: ETH
+- base: 0XA1D65E8FB6E87B60FECCBC582F7F97804B725521
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0xd794DD1CAda4cf79C9EebaAb8327a1B0507ef7d4'
-coingecko_rank: 1277
+coingecko_rank: 1276
 coingecko_score: 19.374
 community_score: 7.558
 description: >-
@@ -25,8 +25,18 @@ links:
   telegram_channel_identifier: hyveworks
   twitter_screen_name: join_hyve
 liquidity_score: 28.505
-market_cap_rank: 864
+market_cap_rank: 865
 name: Hyve
 public_interest_score: 0.003
 symbol: hyve
-tickers: []
+tickers:
+- base: HYVE
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
+- base: HYVE
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH

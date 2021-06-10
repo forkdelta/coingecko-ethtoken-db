@@ -1,6 +1,6 @@
 ---
 address: '0x28c8d01FF633eA9Cd8fc6a451D7457889E698de6'
-coingecko_rank: 2620
+coingecko_rank: 2619
 coingecko_score: 12.022
 community_score: 8.099
 description: >-
@@ -21,11 +21,16 @@ links:
   - https://www.etgproject.org/
   twitter_screen_name: ethereumgoldetg
 liquidity_score: 1.0
-market_cap_rank: 1899
+market_cap_rank: 2146
 name: Ethereum Gold
 public_interest_score: 0.003
 symbol: etg
 tickers:
+- base: ETG
+  market:
+    identifier: fatbtc
+    name: FatBTC
+  target: ETH
 - base: ETG
   market:
     identifier: stocks_exchange
@@ -41,3 +46,8 @@ tickers:
     identifier: vindax
     name: Vindax
   target: ETH
+- base: ETG
+  market:
+    identifier: vindax
+    name: Vindax
+  target: USDT

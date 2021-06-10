@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: rarible
   twitter_screen_name: rariblecom
 liquidity_score: 32.511
-market_cap_rank: 538
+market_cap_rank: 553
 name: Rarible
 public_interest_score: 0.0
 symbol: rari
@@ -34,9 +34,14 @@ tickers:
   market:
     identifier: balancer_v1
     name: Balancer (v1)
+  target: DAI
+- base: 0XFCA59CD816AB1EAD66534D82BC21E7515CE441CF
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
   target: USDC
 - base: 0XFCA59CD816AB1EAD66534D82BC21E7515CE441CF
   market:
-    identifier: one_inch_liquidity_protocol
-    name: 1inch Liquidity Protocol
-  target: ETH
+    identifier: paraswap
+    name: Paraswap
+  target: USDT

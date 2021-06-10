@@ -1,6 +1,6 @@
 ---
 address: '0x2F141Ce366a2462f02cEA3D12CF93E4DCa49e4Fd'
-coingecko_rank: 1603
+coingecko_rank: 1602
 coingecko_score: 17.389
 community_score: 10.344
 description: >-
@@ -24,7 +24,7 @@ links:
   - https://www.FREEcoin.technology
   twitter_screen_name: THE_FREE_COIN
 liquidity_score: 13.087
-market_cap_rank: 634
+market_cap_rank: 633
 name: FREE coin
 public_interest_score: 0.028
 symbol: free
@@ -46,19 +46,24 @@ tickers:
   target: USDT
 - base: FREE
   market:
+    identifier: etherflyer
+    name: EtherFlyer
+  target: ETH
+- base: FREE
+  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
-- base: 0X12E34CDF6A031A10FE241864C32FB03A4FDAD739
+- base: FREE
   market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: 0XDF1F0026374D4BCC490BE5E316963CF6DF2FFF19
-- base: 0X12E34CDF6A031A10FE241864C32FB03A4FDAD739
+    identifier: mercatox
+    name: Mercatox
+  target: TUSD
+- base: FREE
   market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: USDT
+    identifier: probit
+    name: ProBit
+  target: BTC
 - base: FREE
   market:
     identifier: resfinex

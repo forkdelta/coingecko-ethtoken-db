@@ -30,16 +30,31 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 58.279
-market_cap_rank: 169
+market_cap_rank: 165
 name: Band Protocol
 public_interest_score: 0.01
 symbol: band
 tickers:
 - base: BAND
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: BAND
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: BTC
+- base: BAND
+  market:
     identifier: bvnex
     name: Bvnex
   target: USDT
+- base: BAND
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
 - base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
   market:
     identifier: sakeswap

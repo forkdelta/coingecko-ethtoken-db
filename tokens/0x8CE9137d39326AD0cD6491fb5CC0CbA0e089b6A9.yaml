@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
 liquidity_score: 61.149
-market_cap_rank: 230
+market_cap_rank: 225
 name: Swipe
 public_interest_score: 0.035
 symbol: sxp
@@ -50,6 +50,11 @@ tickers:
     identifier: atomars
     name: Atomars
   target: USDT
+- base: SXP
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: BTC
 - base: 0X8AC76A51CC950D9822D68B83FE1AD97B32CD580D
   market:
     identifier: dodo_bsc
@@ -60,17 +65,12 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
+- base: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
   market:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -81,6 +81,11 @@ tickers:
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
 - base: 0X0F9E4D49F25DE22C2202AF916B681FBB3790497B
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+- base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -100,16 +105,11 @@ tickers:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: BUSD
-- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+- base: SXP
   market:
-    identifier: pancakeswap_v1
-    name: PancakeSwap (v1)
-  target: BUSD
-- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-  market:
-    identifier: pancakeswap_v1
-    name: PancakeSwap (v1)
-  target: WBNB
+    identifier: poloniex
+    name: Poloniex
+  target: TRX
 - base: 0X8CE9137D39326AD0CD6491FB5CC0CBA0E089B6A9
   market:
     identifier: uniswap

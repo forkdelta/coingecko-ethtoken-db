@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: FTX_Official
   twitter_screen_name: FTX_official
 liquidity_score: 57.989
-market_cap_rank: 46
+market_cap_rank: 45
 name: FTX Token
 public_interest_score: 0.57
 symbol: ftt
 tickers:
+- base: FTT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
 - base: FTT
   market:
     identifier: hitbtc
@@ -41,11 +46,11 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
-- base: 0X50D1C9771902476076ECFC8B2A83AD6B9355A4C9
+- base: FTT
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: HT
 - base: FTT
   market:
     identifier: tomodex

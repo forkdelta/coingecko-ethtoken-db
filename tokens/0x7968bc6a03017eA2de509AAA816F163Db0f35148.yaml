@@ -1,6 +1,6 @@
 ---
 address: '0x7968bc6a03017eA2de509AAA816F163Db0f35148'
-coingecko_rank: 1376
+coingecko_rank: 1375
 coingecko_score: 18.838
 community_score: 8.216
 description: ""
@@ -21,11 +21,16 @@ links:
   telegram_channel_identifier: hedgetofficial
   twitter_screen_name: team_hedget
 liquidity_score: 25.577
-market_cap_rank: 890
+market_cap_rank: 895
 name: Hedget
 public_interest_score: 0.004
 symbol: hget
 tickers:
+- base: HGET
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
 - base: HGET
   market:
     identifier: poloniex
@@ -36,6 +41,11 @@ tickers:
     identifier: poloniex
     name: Poloniex
   target: USDT
+- base: HGET
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
 - base: 0X7968BC6A03017EA2DE509AAA816F163DB0F35148
   market:
     identifier: sushiswap

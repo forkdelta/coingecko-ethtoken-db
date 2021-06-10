@@ -1,6 +1,6 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 3075
+coingecko_rank: 3073
 coingecko_score: 9.923
 community_score: 0.0
 description: >-
@@ -31,12 +31,17 @@ name: WETH
 public_interest_score: 0.012
 symbol: weth
 tickers:
-- base: HEX
+- base: COMP
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: MATIC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: CRV
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -51,17 +56,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DEC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: BAO
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: DIA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: DEC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -101,6 +106,16 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: SNX
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: TORN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BAND
   market:
     identifier: bamboo_relay
@@ -112,11 +127,6 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: JRT
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: ADX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -151,6 +161,11 @@ tickers:
     identifier: dodo
     name: DODO
   target: USDT
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: dodo
+    name: DODO
+  target: VETH
 - base: 0X7025BAB2EC90410DE37F488D1298204CD4D6B29D
   market:
     identifier: dodo
@@ -171,11 +186,6 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: BUSD
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: DAI
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: paraswap

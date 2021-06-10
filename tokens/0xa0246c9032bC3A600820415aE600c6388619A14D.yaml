@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: Breadforthepeople
   twitter_screen_name: harvest_finance
 liquidity_score: 27.997
-market_cap_rank: 506
+market_cap_rank: 524
 name: Harvest Finance
 public_interest_score: 0.026
 symbol: farm
@@ -38,6 +38,11 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: USDC
+- base: 0XA0246C9032BC3A600820415AE600C6388619A14D
+  market:
+    identifier: defi_swap
+    name: DeFi Swap
+  target: ETH
 - base: 0X8AC76A51CC950D9822D68B83FE1AD97B32CD580D
   market:
     identifier: dodo_bsc
@@ -52,6 +57,11 @@ tickers:
   market:
     identifier: loopring_amm
     name: Loopring AMM
+  target: ETH
+- base: FARM
+  market:
+    identifier: probit
+    name: ProBit
   target: ETH
 - base: 0XA0246C9032BC3A600820415AE600C6388619A14D
   market:

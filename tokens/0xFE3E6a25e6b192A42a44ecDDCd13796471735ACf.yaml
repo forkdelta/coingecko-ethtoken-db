@@ -20,7 +20,7 @@ links:
   telegram_channel_identifier: reefdefi
   twitter_screen_name: ReefDeFi
 liquidity_score: 53.463
-market_cap_rank: 163
+market_cap_rank: 158
 name: Reef Finance
 public_interest_score: 0.052
 symbol: reef
@@ -35,22 +35,7 @@ tickers:
     identifier: atomars
     name: Atomars
   target: USDT
-- base: 0X0E09FABB73BD3ADE0A17ECC321FD13A19E81CE82
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
-- base: 0X7083609FCE4D1D8DC0C979AAB8C869EA2C873402
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
-- base: 0XE02DF9E3E622DEBDD69FB838BB799E3F168902C5
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
-- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+- base: 0X1D2F0DA169CEB9FC7B3144628DB156F3F6C60DBE
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -60,7 +45,22 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
-- base: 0X1D2F0DA169CEB9FC7B3144628DB156F3F6C60DBE
+- base: 0X7083609FCE4D1D8DC0C979AAB8C869EA2C873402
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+- base: 0X0E09FABB73BD3ADE0A17ECC321FD13A19E81CE82
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+- base: 0XE02DF9E3E622DEBDD69FB838BB799E3F168902C5
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -69,17 +69,22 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: BTC
+- base: REEF
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
+- base: REEF
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
 - base: 0X8076C74C5E3F5852037F31FF0093EEB8C8ADD8D3
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
-- base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
-  market:
-    identifier: pancakeswap_v1
-    name: PancakeSwap (v1)
-  target: WBNB
 - base: WBNB
   market:
     identifier: pantherswap

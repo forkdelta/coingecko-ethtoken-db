@@ -49,11 +49,21 @@ symbol: qnt
 tickers:
 - base: QNT
   market:
+    identifier: idex
+    name: Idex
+  target: ETH
+- base: QNT
+  market:
     identifier: lcx
     name: LCX Exchange
   target: LCX
 - base: 0X4A220E6096B25EADB88358CB44068A3248254675
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
+    identifier: paraswap
+    name: Paraswap
   target: ETH
+- base: 0X4A220E6096B25EADB88358CB44068A3248254675
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT

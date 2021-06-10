@@ -31,11 +31,16 @@ links:
   telegram_channel_identifier: deversifi
   twitter_screen_name: deversifi
 liquidity_score: 1.0
-market_cap_rank: 927
+market_cap_rank: 960
 name: Nectar
 public_interest_score: 0.001
 symbol: nec
 tickers:
+- base: 0XCC80C051057B774CD75067DC48F8987C4EB97A5E
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: NEC
   market:
     identifier: deversifi
@@ -45,4 +50,9 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0XCC80C051057B774CD75067DC48F8987C4EB97A5E
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

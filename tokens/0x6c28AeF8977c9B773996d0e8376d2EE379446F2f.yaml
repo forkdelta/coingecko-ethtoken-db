@@ -30,13 +30,23 @@ links:
   telegram_channel_identifier: QuickSwapDEX
   twitter_screen_name: QuickswapDEX
 liquidity_score: 47.523
-market_cap_rank: 315
+market_cap_rank: 325
 name: Quickswap
 public_interest_score: 0.174
 symbol: quick
 tickers:
+- base: QUICK
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: 0X6C28AEF8977C9B773996D0E8376D2EE379446F2F
   market:
     identifier: uniswap
     name: Uniswap (v3)
   target: ETH
+- base: 0X6C28AEF8977C9B773996D0E8376D2EE379446F2F
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDT
