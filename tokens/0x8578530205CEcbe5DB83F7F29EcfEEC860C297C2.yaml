@@ -30,18 +30,23 @@ links:
     - https://github.com/smartofgiving/AOG
   twitter_screen_name: AogCoin
 liquidity_score: 1.0
-market_cap_rank: 1191
+market_cap_rank: 1165
 name: smARTOFGIVING
 public_interest_score: 0.001
 symbol: aog
 tickers:
 - base: AOG
   market:
+    identifier: buyucoin
+    name: BuyUcoin
+  target: INR
+- base: AOG
+  market:
     identifier: crex24
     name: CREX24
   target: BTC
-- base: 0X8578530205CECBE5DB83F7F29ECFEEC860C297C2
+- base: AOG
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: vindax
+    name: Vindax
+  target: USDT

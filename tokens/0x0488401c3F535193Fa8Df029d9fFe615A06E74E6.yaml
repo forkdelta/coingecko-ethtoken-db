@@ -162,18 +162,23 @@ links:
   telegram_channel_identifier: SparkpointOfficial
   twitter_screen_name: sparkpointio
 liquidity_score: 18.965
-market_cap_rank: 517
+market_cap_rank: 522
 name: SparkPoint
 public_interest_score: 0.022
 symbol: srk
 tickers:
-- base: 0X0488401C3F535193FA8DF029D9FFE615A06E74E6
+- base: SRK
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: bitmart
+    name: BitMart
   target: ETH
 - base: SRK
   market:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: SRK
+  market:
+    identifier: vitex
+    name: ViteX
+  target: ETH

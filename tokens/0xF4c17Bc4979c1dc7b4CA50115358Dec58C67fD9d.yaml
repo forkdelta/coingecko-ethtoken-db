@@ -33,8 +33,13 @@ name: Omega Protocol Money
 public_interest_score: 0.0
 symbol: opm
 tickers:
-- base: 0XF4C17BC4979C1DC7B4CA50115358DEC58C67FD9D
+- base: OPM
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: probit
+    name: ProBit
+  target: ETH
+- base: OPM
+  market:
+    identifier: stocks_exchange
+    name: STEX
   target: ETH

@@ -27,11 +27,16 @@ links:
   subreddit_url: https://www.reddit.com/r/BloomToken/
   twitter_screen_name: bloom
 liquidity_score: 1.0
-market_cap_rank: 1235
+market_cap_rank: 1215
 name: Bloom
 public_interest_score: 0.005
 symbol: blt
 tickers:
+- base: 0X107C4504CD79C5D2696EA0030A8DD4E92601B82E
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: 0X107C4504CD79C5D2696EA0030A8DD4E92601B82E
   market:
     identifier: one_inch
@@ -46,9 +51,4 @@ tickers:
   market:
     identifier: uniswap
     name: Uniswap (v3)
-  target: ETH
-- base: 0X107C4504CD79C5D2696EA0030A8DD4E92601B82E
-  market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
   target: ETH

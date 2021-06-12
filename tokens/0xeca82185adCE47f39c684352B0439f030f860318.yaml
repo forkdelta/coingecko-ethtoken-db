@@ -69,6 +69,16 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: 0XECA82185ADCE47F39C684352B0439F030F860318
+- base: PERL
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: BTC
+- base: PERL
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
 - base: 0X0F9E4D49F25DE22C2202AF916B681FBB3790497B
   market:
     identifier: dodo_bsc
@@ -124,3 +134,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: 0XECA82185ADCE47F39C684352B0439F030F860318
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

@@ -23,16 +23,16 @@ links:
   telegram_channel_identifier: CreamdotFinance
   twitter_screen_name: CreamdotFinance
 liquidity_score: 37.305
-market_cap_rank: 275
+market_cap_rank: 281
 name: Cream
 public_interest_score: 0.029
 symbol: cream
 tickers:
-- base: CREAM
+- base: 0X2BA592F78DB6436527729929AAF6C908497CB200
   market:
-    identifier: anyswap
-    name: Anyswap
-  target: BNB
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: CREAM
   market:
     identifier: cex
@@ -47,9 +47,4 @@ tickers:
   market:
     identifier: mooniswap
     name: Mooniswap
-  target: ETH
-- base: 0X2BA592F78DB6436527729929AAF6C908497CB200
-  market:
-    identifier: paraswap
-    name: Paraswap
   target: ETH

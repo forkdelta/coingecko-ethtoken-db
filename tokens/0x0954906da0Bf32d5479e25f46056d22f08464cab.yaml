@@ -25,8 +25,13 @@ links:
   - https://gov.indexcoop.com/
   twitter_screen_name: indexcoop
 liquidity_score: 14.955
-market_cap_rank: 448
+market_cap_rank: 467
 name: Index Cooperative
 public_interest_score: 0.014
 symbol: index
-tickers: []
+tickers:
+- base: INDEX
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH

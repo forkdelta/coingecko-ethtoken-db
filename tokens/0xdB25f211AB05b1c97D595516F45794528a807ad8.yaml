@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: stasis_community
   twitter_screen_name: stasisnet
 liquidity_score: 16.151
-market_cap_rank: 503
+market_cap_rank: 475
 name: STASIS EURO
 public_interest_score: 0.002
 symbol: eurs
@@ -61,12 +61,32 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: EURS
+- base: XRP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: XMR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
+- base: BOX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: EURS
 - base: LTC
   market:
     identifier: hitbtc
     name: HitBTC
   target: EURS
-- base: NEO
+- base: DASH
   market:
     identifier: hitbtc
     name: HitBTC
@@ -78,14 +98,14 @@ tickers:
   target: EURS
 - base: EURS
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: TUSD
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: DAI
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0XDB25F211AB05B1C97D595516F45794528A807AD8
   market:
     identifier: paraswap
@@ -100,9 +120,4 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: USD
-- base: EURS
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
   target: USD

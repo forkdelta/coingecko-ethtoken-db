@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: yfiifinance
   twitter_screen_name: DfiMoney
 liquidity_score: 50.377
-market_cap_rank: 373
+market_cap_rank: 369
 name: DFI.money
 public_interest_score: 0.004
 symbol: yfii
@@ -47,11 +47,6 @@ tickers:
   target: ETH
 - base: YFII
   market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
-- base: YFII
-  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -70,8 +65,8 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
-- base: 0XA1D0E215A23D7030842FC67CE582A6AFA3CCAB83
+- base: YFII
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: zkswap
+    name: ZKSwap
+  target: USDT

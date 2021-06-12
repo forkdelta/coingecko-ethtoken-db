@@ -28,13 +28,18 @@ links:
     - https://github.com/sportx-bet/smart-contracts
   twitter_screen_name: SportX_Project
 liquidity_score: 6.88
-market_cap_rank: 604
+market_cap_rank: 613
 name: SportX
 public_interest_score: 0.005
 symbol: sx
 tickers:
-- base: 0X99FE3B1391503A1BC1788051347A1324BFF41452
+- base: 0X831753DD7087CAC61AB5644B308642CC1C33DC13
   market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X840195888DB4D6A99ED9F73FCD3B225BB3CB1A79
+- base: 0X840195888DB4D6A99ED9F73FCD3B225BB3CB1A79
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0XAAA5B9E6C589642F98A1CDA99B9D024B8407285A

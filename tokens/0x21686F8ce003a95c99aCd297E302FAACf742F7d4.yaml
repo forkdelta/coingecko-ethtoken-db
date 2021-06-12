@@ -37,13 +37,33 @@ name: Wrapped Conceal
 public_interest_score: 0.0
 symbol: wccx
 tickers:
-- base: 0X547CBE0F0C25085E7015AA6939B28402EB0CCDAC
+- base: 0X988C11625472340B7B36FF1534893780E0D8D841
+  market:
+    identifier: bakeryswap
+    name: Bakeryswap
+  target: BNB
+- base: 0X988C11625472340B7B36FF1534893780E0D8D841
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
-  target: 0X988C11625472340B7B36FF1534893780E0D8D841
+  target: BUSD
+- base: 0X988C11625472340B7B36FF1534893780E0D8D841
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0X0D500B1D8E8EF31E21C99D1DB9A6444D3ADF1270
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X137EE749F0F8C2ED34CA00DE33BB59E3DAFA494A
 - base: 0X137EE749F0F8C2ED34CA00DE33BB59E3DAFA494A
   market:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)
-  target: ETH
+  target: 0X2791BCA1F2DE4661ED88A30C99A7A9449AA84174
+- base: 0X137EE749F0F8C2ED34CA00DE33BB59E3DAFA494A
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0XC2132D05D31C914A87C6611C10748AEB04B58E8F

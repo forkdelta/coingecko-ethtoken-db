@@ -36,11 +36,11 @@ name: Token Pocket
 public_interest_score: 0.012
 symbol: tpt
 tickers:
-- base: TPT
+- base: 0XE9E7CEA3DEDCA5984780BAFC599BD69ADD087D56
   market:
-    identifier: newdex
-    name: Newdex
-  target: USDT
+    identifier: mdex_bsc
+    name: Mdex BSC
+  target: 0XECA41281C24451168A37211F0BC2B8645AF45092
 - base: 0XECA41281C24451168A37211F0BC2B8645AF45092
   market:
     identifier: pancakeswap
@@ -61,8 +61,3 @@ tickers:
     identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH
-- base: TPT
-  market:
-    identifier: whale_ex
-    name: WhaleEx
-  target: USDT

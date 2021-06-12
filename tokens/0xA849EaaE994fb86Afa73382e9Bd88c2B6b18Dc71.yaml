@@ -44,8 +44,13 @@ name: MVL
 public_interest_score: 0.004
 symbol: mvl
 tickers:
-- base: 0XA849EAAE994FB86AFA73382E9BD88C2B6B18DC71
+- base: MVL
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
-  target: ETH
+    identifier: bitsonic
+    name: Bitsonic
+  target: KRW
+- base: MVL
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

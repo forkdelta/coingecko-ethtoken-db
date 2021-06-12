@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 53.846
-market_cap_rank: 179
+market_cap_rank: 185
 name: sUSD
 public_interest_score: 0.046
 symbol: susd
@@ -46,22 +46,22 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
-- base: SAMZN
+- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
   market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
 - base: SFB
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SGOOG
+- base: SDOT
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: STRX
+- base: SOIL
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -71,7 +71,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SCRV
+- base: SEOS
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -81,12 +81,37 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: SDASH
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SLTC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SADA
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
 - base: STSLA
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: S1INCH
+- base: SETC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: SXRP
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD
+- base: IETH
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -96,3 +121,13 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
+- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: SUSD
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

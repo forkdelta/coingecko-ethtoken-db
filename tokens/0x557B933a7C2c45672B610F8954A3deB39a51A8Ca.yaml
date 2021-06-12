@@ -29,11 +29,16 @@ links:
   telegram_channel_identifier: REVVCommunity
   twitter_screen_name: REVV_Token
 liquidity_score: 24.879
-market_cap_rank: 689
+market_cap_rank: 674
 name: REVV
 public_interest_score: 0.012
 symbol: revv
 tickers:
+- base: REVV
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: dodo
@@ -41,14 +46,14 @@ tickers:
   target: REVV
 - base: REVV
   market:
-    identifier: lcx
-    name: LCX Exchange
-  target: BTC
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: REVV
   market:
     identifier: lcx
     name: LCX Exchange
-  target: LCX
+  target: BTC
 - base: 0X557B933A7C2C45672B610F8954A3DEB39A51A8CA
   market:
     identifier: mooniswap

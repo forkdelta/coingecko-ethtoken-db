@@ -35,7 +35,7 @@ links:
   telegram_channel_identifier: SwipeWallet
   twitter_screen_name: SwipeWallet
 liquidity_score: 61.149
-market_cap_rank: 225
+market_cap_rank: 238
 name: Swipe
 public_interest_score: 0.035
 symbol: sxp
@@ -55,12 +55,12 @@ tickers:
     identifier: bithumb_global
     name: Bithumb Global
   target: BTC
-- base: 0X8AC76A51CC950D9822D68B83FE1AD97B32CD580D
+- base: 0X111111111117DC0AA78B770FA6A738034120C302
   market:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X111111111117DC0AA78B770FA6A738034120C302
+- base: 0X8AC76A51CC950D9822D68B83FE1AD97B32CD580D
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -70,12 +70,12 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+- base: 0X2C7CC3B6ACDD71211E951F65C02BA2575BE25399
   market:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X2C7CC3B6ACDD71211E951F65C02BA2575BE25399
+- base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -85,21 +85,21 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
+- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
+- base: 0X8CE9137D39326AD0CD6491FB5CC0CBA0E089B6A9
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-- base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
-  market:
-    identifier: pancakeswap
-    name: PancakeSwap (v2)
-  target: 0XFA90D5D5FF08D9A06C9FDF89B4B22217B9DBC418
 - base: 0X47BEAD2563DCBF3BF2C9407FEA4DC236FABA485A
   market:
     identifier: pancakeswap
@@ -110,6 +110,11 @@ tickers:
     identifier: poloniex
     name: Poloniex
   target: TRX
+- base: SXP
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT
 - base: 0X8CE9137D39326AD0CD6491FB5CC0CBA0E089B6A9
   market:
     identifier: uniswap

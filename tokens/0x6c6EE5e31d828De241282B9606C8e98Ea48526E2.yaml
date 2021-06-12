@@ -83,7 +83,7 @@ links:
   telegram_channel_identifier: channelholo
   twitter_screen_name: h_o_l_o_
 liquidity_score: 61.332
-market_cap_rank: 68
+market_cap_rank: 70
 name: Holo
 public_interest_score: 0.026
 symbol: hot
@@ -93,6 +93,11 @@ tickers:
     identifier: atomars
     name: Atomars
   target: USDT
+- base: 0X6C6EE5E31D828DE241282B9606C8E98EA48526E2
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: HOT
   market:
     identifier: bigone
@@ -100,11 +105,6 @@ tickers:
   target: BTC
 - base: HOT
   market:
-    identifier: bilaxy
-    name: Bilaxy
-  target: ETH
-- base: HOT
-  market:
     identifier: catex
     name: Catex
   target: BTC
@@ -118,11 +118,6 @@ tickers:
     identifier: lcx
     name: LCX Exchange
   target: BTC
-- base: HOT
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: LCX
 - base: HOT
   market:
     identifier: zebitex

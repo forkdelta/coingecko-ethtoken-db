@@ -32,8 +32,23 @@ name: Sparkle Loyalty
 public_interest_score: 0.0
 symbol: sprkl
 tickers:
-- base: 0X4B7AD3A56810032782AFCE12D7D27122BDB96EFF
+- base: SPRKL
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: cointiger
+    name: CoinTiger
+  target: BTC
+- base: SPRKL
+  market:
+    identifier: cointiger
+    name: CoinTiger
   target: ETH
+- base: SPRKL
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
+- base: SPRKL
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

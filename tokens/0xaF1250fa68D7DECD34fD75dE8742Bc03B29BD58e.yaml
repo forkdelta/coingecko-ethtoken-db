@@ -41,8 +41,13 @@ name: Invictus Hyperion Fund
 public_interest_score: 0.024
 symbol: ihf
 tickers:
-- base: 0XAF1250FA68D7DECD34FD75DE8742BC03B29BD58E
+- base: IHF
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: forkdelta
+    name: ForkDelta
   target: ETH
+- base: IHF
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

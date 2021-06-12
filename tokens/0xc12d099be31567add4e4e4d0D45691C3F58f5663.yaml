@@ -44,7 +44,7 @@ links:
   telegram_channel_identifier: auctusoptions
   twitter_screen_name: AuctusOptions
 liquidity_score: 1.0
-market_cap_rank: 1170
+market_cap_rank: 1186
 name: Auctus
 public_interest_score: 0.006
 symbol: auc
@@ -54,6 +54,11 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
+- base: 0XC12D099BE31567ADD4E4E4D0D45691C3F58F5663
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
 - base: AUC
   market:
     identifier: hitbtc
@@ -64,3 +69,8 @@ tickers:
     identifier: one_inch
     name: 1inch
   target: ETH
+- base: 0X3028B4395F98777123C7DA327010C40F3C7CC4EF
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB

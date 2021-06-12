@@ -26,8 +26,18 @@ links:
   telegram_channel_identifier: coinflex_EN
   twitter_screen_name: CoinFLEXdotcom
 liquidity_score: 11.114
-market_cap_rank: 1311
+market_cap_rank: 1290
 name: FLEX Coin
 public_interest_score: 0.006
 symbol: flex
-tickers: []
+tickers:
+- base: FLEX
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: BCH
+- base: FLEX
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD

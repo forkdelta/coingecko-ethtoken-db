@@ -28,4 +28,14 @@ market_cap_rank: null
 name: Wrapped xBTC
 public_interest_score: 0.001
 symbol: wxbtc
-tickers: []
+tickers:
+- base: WXBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: WXBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT

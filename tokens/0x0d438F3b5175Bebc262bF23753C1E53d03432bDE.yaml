@@ -27,8 +27,18 @@ links:
   - https://nexusmutual.io/
   twitter_screen_name: NexusMutual
 liquidity_score: 46.827
-market_cap_rank: 252
+market_cap_rank: 248
 name: Wrapped NXM
 public_interest_score: 0.016
 symbol: wnxm
-tickers: []
+tickers:
+- base: WNXM
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
+- base: WNXM
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

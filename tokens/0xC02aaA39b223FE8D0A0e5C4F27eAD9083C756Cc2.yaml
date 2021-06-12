@@ -31,7 +31,7 @@ name: WETH
 public_interest_score: 0.012
 symbol: weth
 tickers:
-- base: COMP
+- base: REN
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -61,6 +61,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: STAKE
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: DIA
   market:
     identifier: bamboo_relay
@@ -76,11 +81,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DXD
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: LCX
   market:
     identifier: bamboo_relay
@@ -91,7 +91,12 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: UBT
+- base: TORN
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: RENBTC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -102,16 +107,6 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: DATA
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: SNX
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: TORN
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -131,12 +126,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: SNGLS
+- base: CRC
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: ID
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SNX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -160,17 +160,17 @@ tickers:
   market:
     identifier: dodo
     name: DODO
+  target: TLAL
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: dodo
+    name: DODO
   target: USDT
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: dodo
     name: DODO
   target: VETH
-- base: 0X7025BAB2EC90410DE37F488D1298204CD4D6B29D
-  market:
-    identifier: dodo
-    name: DODO
-  target: WETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: mooniswap
@@ -186,6 +186,16 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: BUSD
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: DAI
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: paraswap

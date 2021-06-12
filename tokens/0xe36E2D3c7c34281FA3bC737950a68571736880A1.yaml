@@ -27,8 +27,23 @@ links:
     - https://github.com/Synthetixio
   twitter_screen_name: synthetix_io
 liquidity_score: 1.0
-market_cap_rank: 1696
+market_cap_rank: 1680
 name: sADA
 public_interest_score: 0.046
 symbol: sada
-tickers: []
+tickers:
+- base: SEOS
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SADA
+- base: SETC
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SADA
+- base: SADA
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUSD

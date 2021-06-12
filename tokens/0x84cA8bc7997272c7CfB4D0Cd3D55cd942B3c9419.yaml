@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: DIAdata_org
   twitter_screen_name: DIAdata_org
 liquidity_score: 43.074
-market_cap_rank: 366
+market_cap_rank: 380
 name: DIA
 public_interest_score: 0.005
 symbol: DIA
@@ -61,8 +61,18 @@ tickers:
     identifier: okex
     name: OKEx
   target: ETH
+- base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: DIA
   market:
     identifier: quoine
     name: Liquid
-  target: USDT
+  target: BTC
+- base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

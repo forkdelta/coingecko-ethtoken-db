@@ -31,21 +31,26 @@ links:
   telegram_channel_identifier: sentinel_co
   twitter_screen_name: Sentinel_co
 liquidity_score: 14.26
-market_cap_rank: 760
+market_cap_rank: 620
 name: Sentinel [OLD]
 public_interest_score: 0.009
 symbol: dvpn
 tickers:
 - base: SENT
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: hotbit
+    name: Hotbit
+  target: BTC
+- base: SENT
+  market:
+    identifier: hotbit
+    name: Hotbit
   target: ETH
 - base: SENT
   market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: SENT
   market:
     identifier: yobit

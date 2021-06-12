@@ -36,6 +36,11 @@ tickers:
     identifier: bancor
     name: Bancor Network
   target: BNT
+- base: BOR
+  market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
 - base: 0X0E09FABB73BD3ADE0A17ECC321FD13A19E81CE82
   market:
     identifier: dodo_bsc
@@ -46,18 +51,23 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X92D7756C60DCFD4C689290E8A9F4D263B3B32241
-- base: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X92D7756C60DCFD4C689290E8A9F4D263B3B32241
 - base: 0X8AC76A51CC950D9822D68B83FE1AD97B32CD580D
   market:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X92D7756C60DCFD4C689290E8A9F4D263B3B32241
-- base: 0X3C9D6C1C73B31C837832C72E04D3152F051FC1A9
+- base: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X92D7756C60DCFD4C689290E8A9F4D263B3B32241
+- base: BOR
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: BOR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH

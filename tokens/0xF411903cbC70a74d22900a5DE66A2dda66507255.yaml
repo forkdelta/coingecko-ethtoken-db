@@ -26,7 +26,7 @@ links:
   telegram_channel_identifier: Verasity_Official
   twitter_screen_name: verasitytech
 liquidity_score: 49.405
-market_cap_rank: 295
+market_cap_rank: 301
 name: Verasity
 public_interest_score: 0.028
 symbol: vra
@@ -35,7 +35,17 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
+  target: ETH
+- base: 0XF411903CBC70A74D22900A5DE66A2DDA66507255
+  market:
+    identifier: paraswap
+    name: Paraswap
   target: USDT
+- base: VRA
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
 - base: VRA
   market:
     identifier: probit
@@ -51,23 +61,23 @@ tickers:
     identifier: stocks_exchange
     name: STEX
   target: BTC
+- base: VRA
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: ETH
 - base: VRAB
   market:
     identifier: stocks_exchange
     name: STEX
   target: ETH
-- base: VRA
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: ETH
-- base: VRA
-  market:
-    identifier: stocks_exchange
-    name: STEX
-  target: USDT
 - base: ETH
   market:
     identifier: uniswap
     name: Uniswap (v3)
   target: 0XF411903CBC70A74D22900A5DE66A2DDA66507255
+- base: VRA
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

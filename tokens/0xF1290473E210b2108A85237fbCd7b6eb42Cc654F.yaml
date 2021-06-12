@@ -44,19 +44,34 @@ symbol: hedg
 tickers:
 - base: HEDG
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: HEDG
-  market:
     identifier: bitcoin_com
     name: Bitcoin.com Exchange
   target: BCH
 - base: HEDG
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: BTC
+- base: HEDG
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
+- base: HEDG
+  market:
     identifier: cointiger
     name: CoinTiger
   target: BTC
+- base: HEDG
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: HEDG
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: 0XF1290473E210B2108A85237FBCD7B6EB42CC654F
   market:
     identifier: one_inch
