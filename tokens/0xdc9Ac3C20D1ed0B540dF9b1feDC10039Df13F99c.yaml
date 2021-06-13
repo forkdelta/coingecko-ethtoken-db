@@ -47,11 +47,16 @@ links:
   telegram_channel_identifier: utrustofficial
   twitter_screen_name: UTRUST
 liquidity_score: 42.66
-market_cap_rank: 253
+market_cap_rank: 248
 name: UTRUST
 public_interest_score: 0.016
 symbol: utk
 tickers:
+- base: UTK
+  market:
+    identifier: bithumb_global
+    name: Bithumb Global
+  target: USDT
 - base: UTK
   market:
     identifier: forkdelta
@@ -61,4 +66,9 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
+  target: ETH
+- base: 0XDC9AC3C20D1ED0B540DF9B1FEDC10039DF13F99C
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH

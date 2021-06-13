@@ -79,7 +79,7 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 31.401
-market_cap_rank: 160
+market_cap_rank: 163
 name: Golem
 public_interest_score: 0.013
 symbol: glm
@@ -91,14 +91,14 @@ tickers:
   target: EUR
 - base: GLM
   market:
+    identifier: bitrue
+    name: Bitrue
+  target: BTC
+- base: GLM
+  market:
     identifier: cex
     name: CEX.IO
   target: USDT
-- base: GLM
-  market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: BTC
 - base: GLM
   market:
     identifier: huobi_korea
@@ -114,11 +114,6 @@ tickers:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: BTC
 - base: GNT
   market:
     identifier: yobit

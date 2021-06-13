@@ -52,11 +52,16 @@ links:
   telegram_channel_identifier: goldmintio
   twitter_screen_name: goldmint_io
 liquidity_score: 1.0
-market_cap_rank: 2286
+market_cap_rank: 2280
 name: Goldmint
 public_interest_score: 0.0
 symbol: mntp
 tickers:
+- base: MNTP
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: 0X83CEE9E086A77E492EE0BB93C2B0437AD6FDECCC
   market:
     identifier: one_inch
@@ -71,17 +76,7 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
-  target: BTC
-- base: MNTP
-  market:
-    identifier: yobit
-    name: YoBit
   target: ETH
-- base: MNTP
-  market:
-    identifier: yobit
-    name: YoBit
-  target: RUR
 - base: MNTP
   market:
     identifier: yobit

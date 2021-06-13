@@ -1,6 +1,6 @@
 ---
 address: '0x000000000000d0151E748d25b766e77efe2A6c83'
-coingecko_rank: 2613
+coingecko_rank: 2611
 coingecko_score: 12.061
 community_score: 9.314
 description: >-
@@ -29,8 +29,18 @@ links:
   telegram_channel_identifier: xdefilab
   twitter_screen_name: xdefilab
 liquidity_score: 1.0
-market_cap_rank: 2002
+market_cap_rank: 1997
 name: XDEFI Governance Token
 public_interest_score: 0.003
 symbol: xdex
-tickers: []
+tickers:
+- base: XDEX
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD
+- base: XDEX
+  market:
+    identifier: zkswap
+    name: ZKSwap
+  target: USDT

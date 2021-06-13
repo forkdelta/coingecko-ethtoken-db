@@ -1,6 +1,6 @@
 ---
 address: '0xAec7d1069e3a914a3EB50f0BFB1796751f2ce48a'
-coingecko_rank: 4080
+coingecko_rank: 4078
 coingecko_score: 5.366
 community_score: 5.899
 description: >-
@@ -34,8 +34,18 @@ name: S4FE
 public_interest_score: 0.001
 symbol: s4f
 tickers:
+- base: S4F
+  market:
+    identifier: mercatox
+    name: Mercatox
+  target: ETH
 - base: 0XAEC7D1069E3A914A3EB50F0BFB1796751F2CE48A
   market:
     identifier: uniswap
     name: Uniswap (v3)
+  target: ETH
+- base: 0XAEC7D1069E3A914A3EB50F0BFB1796751F2CE48A
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

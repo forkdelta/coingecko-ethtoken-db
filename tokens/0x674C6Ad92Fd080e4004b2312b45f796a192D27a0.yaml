@@ -36,6 +36,11 @@ name: Neutrino USD
 public_interest_score: 0.001
 symbol: usdn
 tickers:
+- base: 0X674C6AD92FD080E4004B2312B45F796A192D27A0
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: ETH
   market:
     identifier: p2pb2b
@@ -45,6 +50,11 @@ tickers:
   market:
     identifier: p2pb2b
     name: P2PB2B
+  target: USDN
+- base: WCT
+  market:
+    identifier: swop_fi
+    name: Swop.Fi
   target: USDN
 - base: USDN
   market:

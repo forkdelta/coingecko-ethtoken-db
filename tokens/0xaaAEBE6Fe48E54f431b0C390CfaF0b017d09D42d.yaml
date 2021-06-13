@@ -30,7 +30,7 @@ links:
   subreddit_url: https://www.reddit.com/r/CelsiusNetwork
   twitter_screen_name: celsiusnetwork
 liquidity_score: 46.58
-market_cap_rank: 36
+market_cap_rank: 37
 name: Celsius Network
 public_interest_score: 0.128
 symbol: cel
@@ -45,6 +45,11 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: USDC
+- base: CEL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: CEL
   market:
     identifier: bitcratic
@@ -65,11 +70,6 @@ tickers:
     identifier: linkswap
     name: Linkswap
   target: LINK
-- base: CEL
-  market:
-    identifier: loopring_amm
-    name: Loopring AMM
-  target: ETH
 - base: 0XAAAEBE6FE48E54F431B0C390CFAF0B017D09D42D
   market:
     identifier: paraswap
@@ -85,3 +85,8 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: 0XAAAEBE6FE48E54F431B0C390CFAF0B017D09D42D
+- base: CEL
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

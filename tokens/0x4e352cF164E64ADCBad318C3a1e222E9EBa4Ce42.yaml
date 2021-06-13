@@ -28,8 +28,18 @@ links:
   telegram_channel_identifier: Mcdex
   twitter_screen_name: MonteCarloDEX
 liquidity_score: 28.688
-market_cap_rank: 462
+market_cap_rank: 476
 name: MCDEX
 public_interest_score: 0.004
 symbol: mcb
-tickers: []
+tickers:
+- base: MCB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: 0X4E352CF164E64ADCBAD318C3A1E222E9EBA4CE42
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

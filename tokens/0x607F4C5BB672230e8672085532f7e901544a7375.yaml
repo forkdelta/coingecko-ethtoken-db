@@ -67,7 +67,7 @@ links:
   telegram_channel_identifier: iexec_rlc_official
   twitter_screen_name: iEx_ec
 liquidity_score: 52.105
-market_cap_rank: 173
+market_cap_rank: 168
 name: iExec RLC
 public_interest_score: 0.012
 symbol: rlc
@@ -84,13 +84,18 @@ tickers:
   target: USDT
 - base: RLC
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: RLC
-  market:
     identifier: forkdelta
     name: ForkDelta
+  target: ETH
+- base: 0X607F4C5BB672230E8672085532F7E901544A7375
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X607F4C5BB672230E8672085532F7E901544A7375
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
   target: ETH
 - base: 0X607F4C5BB672230E8672085532F7E901544A7375
   market:

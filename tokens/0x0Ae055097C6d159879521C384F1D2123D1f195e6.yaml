@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: xdaistable
   twitter_screen_name: xdaichain
 liquidity_score: 32.14
-market_cap_rank: 458
+market_cap_rank: 454
 name: xDAI Stake
 public_interest_score: 0.017
 symbol: stake
@@ -39,6 +39,11 @@ tickers:
     identifier: atomars
     name: Atomars
   target: USDT
+- base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: STAKE
   market:
     identifier: bamboo_relay
@@ -64,8 +69,3 @@ tickers:
     identifier: poloniex
     name: Poloniex
   target: USDT
-- base: 0X0AE055097C6D159879521C384F1D2123D1F195E6
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

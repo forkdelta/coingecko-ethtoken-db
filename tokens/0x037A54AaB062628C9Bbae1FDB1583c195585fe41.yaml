@@ -1,6 +1,6 @@
 ---
 address: '0x037A54AaB062628C9Bbae1FDB1583c195585fe41'
-coingecko_rank: 1478
+coingecko_rank: 1477
 coingecko_score: 18.152
 community_score: 9.959
 description: "LCX.com - Innovating Capital Markets. Solutions for compliant digital assets and security\
@@ -44,7 +44,7 @@ links:
   telegram_channel_identifier: JoinLCX
   twitter_screen_name: lcx
 liquidity_score: 19.831
-market_cap_rank: 811
+market_cap_rank: 824
 name: LCX
 public_interest_score: 0.023
 symbol: lcx
@@ -59,12 +59,52 @@ tickers:
     identifier: idex
     name: Idex
   target: ETH
-- base: LTC
+- base: LCX
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: BTC
+- base: MATIC
   market:
     identifier: lcx
     name: LCX Exchange
   target: LCX
 - base: DGB
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: LTC
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: SAND
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: INXT
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: UNI
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: MKR
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: POLK
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: BAT
   market:
     identifier: lcx
     name: LCX Exchange
@@ -79,18 +119,38 @@ tickers:
     identifier: lcx
     name: LCX Exchange
   target: LCX
+- base: MANA
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
 - base: CELO
   market:
     identifier: lcx
     name: LCX Exchange
   target: LCX
-- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+- base: OGN
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
-- base: 0X037A54AAB062628C9BBAE1FDB1583C195585FE41
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: CEL
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: DOGE
+  market:
+    identifier: lcx
+    name: LCX Exchange
+  target: LCX
+- base: LCX
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: LCX
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

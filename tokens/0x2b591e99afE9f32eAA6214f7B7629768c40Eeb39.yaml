@@ -1,6 +1,6 @@
 ---
 address: '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39'
-coingecko_rank: 1486
+coingecko_rank: 1485
 coingecko_score: 18.09
 community_score: 37.106
 description: >-
@@ -37,9 +37,9 @@ symbol: hex
 tickers:
 - base: HEX
   market:
-    identifier: bitcoin_com
-    name: Bitcoin.com Exchange
-  target: BCH
+    identifier: bidesk
+    name: Bidesk
+  target: BTC
 - base: HEX
   market:
     identifier: bitcoin_com
@@ -50,11 +50,26 @@ tickers:
     identifier: catex
     name: Catex
   target: BTC
+- base: HEX
+  market:
+    identifier: catex
+    name: Catex
+  target: TRX
 - base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
   market:
     identifier: paraswap
     name: Paraswap
   target: DAI
+- base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
+- base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
 - base: 0X0B3F868E0BE5597D5DB7FEB59E1CADBB0FDDA50A
   market:
     identifier: sushiswap_polygon
@@ -70,8 +85,13 @@ tickers:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)
   target: 0XC2132D05D31C914A87C6611C10748AEB04B58E8F
+- base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
 - base: HEX
   market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD
+    identifier: yobit
+    name: YoBit
+  target: DOGE

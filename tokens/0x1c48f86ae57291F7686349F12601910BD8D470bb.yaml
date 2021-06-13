@@ -21,7 +21,7 @@ links:
     - https://github.com/oklink/demo-net
   twitter_screen_name: OKLink
 liquidity_score: 61.653
-market_cap_rank: 515
+market_cap_rank: 520
 name: USDK
 public_interest_score: 0.111
 symbol: usdk
@@ -36,11 +36,6 @@ tickers:
     identifier: curve
     name: Curve Finance
   target: DAI
-- base: USDK
-  market:
-    identifier: curve
-    name: Curve Finance
-  target: USDT
 - base: BTC
   market:
     identifier: floatsv
@@ -50,7 +45,7 @@ tickers:
   market:
     identifier: okcoin
     name: Okcoin
-  target: USD
+  target: USDT
 - base: LEO
   market:
     identifier: okex
@@ -86,11 +81,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: NDN
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
 - base: PLG
   market:
     identifier: okex
@@ -101,17 +91,7 @@ tickers:
     identifier: okex
     name: OKEx
   target: USDK
-- base: DEP
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
 - base: FTM
-  market:
-    identifier: okex
-    name: OKEx
-  target: USDK
-- base: EM
   market:
     identifier: okex
     name: OKEx

@@ -1,6 +1,6 @@
 ---
 address: '0x06AF07097C9Eeb7fD685c692751D5C66dB49c215'
-coingecko_rank: 3081
+coingecko_rank: 3079
 coingecko_score: 9.869
 community_score: 0.0
 description: >-
@@ -21,8 +21,18 @@ links:
     github:
     - https://github.com/dapphub/chai
 liquidity_score: 1.0
-market_cap_rank: 2051
+market_cap_rank: 2070
 name: Chai
 public_interest_score: 0.002
 symbol: chai
-tickers: []
+tickers:
+- base: 0X06AF07097C9EEB7FD685C692751D5C66DB49C215
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X06AF07097C9EEB7FD685C692751D5C66DB49C215
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

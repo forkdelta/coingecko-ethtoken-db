@@ -43,8 +43,18 @@ links:
   telegram_channel_identifier: revainorg
   twitter_screen_name: Revain_org
 liquidity_score: 33.13
-market_cap_rank: 1116
+market_cap_rank: 1118
 name: Revain
 public_interest_score: 0.02
 symbol: rev
-tickers: []
+tickers:
+- base: REV
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
+- base: REV
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: USDT

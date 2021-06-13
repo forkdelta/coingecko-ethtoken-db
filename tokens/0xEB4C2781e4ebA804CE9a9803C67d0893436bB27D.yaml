@@ -45,16 +45,21 @@ tickers:
     identifier: bittrex
     name: Bittrex
   target: USDT
-- base: BBTC
+- base: RENBTC
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USD
+- base: TBTC
   market:
     identifier: curve
     name: Curve Finance
   target: RENBTC
 - base: RENBTC
   market:
-    identifier: hotbit
-    name: Hotbit
-  target: BTC
+    identifier: curve
+    name: Curve Finance
+  target: SBTC
 - base: RENBTC
   market:
     identifier: kyber_network
@@ -74,7 +79,17 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
+  target: ETH
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+  market:
+    identifier: paraswap
+    name: Paraswap
   target: USDT
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
 - base: RENBTC
   market:
     identifier: zero_ex

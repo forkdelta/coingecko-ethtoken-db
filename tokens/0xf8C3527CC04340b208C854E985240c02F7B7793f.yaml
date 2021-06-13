@@ -25,7 +25,7 @@ links:
   telegram_channel_identifier: FrontierDotXYZ
   twitter_screen_name: FrontierDotXYZ
 liquidity_score: 43.777
-market_cap_rank: 499
+market_cap_rank: 513
 name: Frontier
 public_interest_score: 0.011
 symbol: front
@@ -37,14 +37,24 @@ tickers:
   target: USDC
 - base: FRONT
   market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: ETH
+- base: FRONT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: FRONT
+  market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: BTC
-- base: LUA
+  target: ETH
+- base: FRONT
   market:
-    identifier: luaswap
-    name: Luaswap
-  target: FRONT
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
 - base: 0X55D398326F99059FF775485246999027B3197955
   market:
     identifier: mdex_bsc
@@ -60,3 +70,13 @@ tickers:
     identifier: okex
     name: OKEx
   target: ETH
+- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
+  market:
+    identifier: sakeswap
+    name: SakeSwap
+  target: ETH
+- base: FRONT
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

@@ -30,33 +30,23 @@ links:
   telegram_channel_identifier: bandprotocol
   twitter_screen_name: bandprotocol
 liquidity_score: 58.279
-market_cap_rank: 175
+market_cap_rank: 169
 name: Band Protocol
 public_interest_score: 0.01
 symbol: band
 tickers:
 - base: BAND
   market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: BAND
-  market:
     identifier: bvnex
     name: Bvnex
   target: USDT
+- base: BAND
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: ETH
 - base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
   market:
     identifier: sakeswap
     name: SakeSwap
   target: ETH
-- base: 0X46E7628E8B4350B2716AB470EE0BA1FA9E76C6C5
-  market:
-    identifier: sushiswap_fantom
-    name: Sushiswap (Fantom)
-  target: FTM
-- base: BAND
-  market:
-    identifier: whale_ex
-    name: WhaleEx
-  target: USDT

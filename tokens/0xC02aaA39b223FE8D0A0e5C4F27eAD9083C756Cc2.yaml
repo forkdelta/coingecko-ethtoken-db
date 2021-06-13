@@ -1,6 +1,6 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 3073
+coingecko_rank: 3071
 coingecko_score: 9.923
 community_score: 0.0
 description: >-
@@ -31,6 +31,16 @@ name: WETH
 public_interest_score: 0.012
 symbol: weth
 tickers:
+- base: YFI
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: COMP
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: REN
   market:
     identifier: bamboo_relay
@@ -56,17 +66,12 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: BAO
+- base: DXD
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: STAKE
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: DIA
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -81,12 +86,17 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: LCX
+- base: MTA
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: ONG
+- base: DIA
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: LCX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -97,11 +107,6 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: RENBTC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: MTA
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -127,6 +132,11 @@ tickers:
     name: Bamboo Relay
   target: WETH
 - base: CRC
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: CEL
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -170,7 +180,7 @@ tickers:
   market:
     identifier: dodo
     name: DODO
-  target: VETH
+  target: XYO
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: mooniswap
@@ -195,7 +205,12 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
-  target: USDT
+  target: DAI
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: paraswap

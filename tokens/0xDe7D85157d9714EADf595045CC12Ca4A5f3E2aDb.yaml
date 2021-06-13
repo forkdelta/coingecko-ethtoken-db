@@ -30,8 +30,18 @@ links:
   telegram_channel_identifier: STPofficial
   twitter_screen_name: STP_Networks
 liquidity_score: 48.724
-market_cap_rank: 395
+market_cap_rank: 419
 name: STP Network
 public_interest_score: 0.004
 symbol: stpt
-tickers: []
+tickers:
+- base: STPT
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: BTC
+- base: STPT
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC

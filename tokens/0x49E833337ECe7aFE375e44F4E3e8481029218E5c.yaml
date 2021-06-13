@@ -31,7 +31,7 @@ links:
   telegram_channel_identifier: ValueDeFi
   twitter_screen_name: value_defi
 liquidity_score: 39.074
-market_cap_rank: 918
+market_cap_rank: 916
 name: Value DeFi
 public_interest_score: 0.173
 symbol: value
@@ -48,19 +48,29 @@ tickers:
   target: BTC
 - base: VALUE
   market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: VALUE
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
+- base: VALUE
+  market:
     identifier: okex
     name: OKEx
+  target: ETH
+- base: 0X49E833337ECE7AFE375E44F4E3E8481029218E5C
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: VALUE
   market:
     identifier: poloniex
     name: Poloniex
   target: USDT
-- base: 0X81859801B01764D4F0FA5E64729F5A6C3B91435B
-  market:
-    identifier: value_liquid
-    name: Value Liquid
-  target: VALUE
 - base: 0XA0B86991C6218B36C1D19D4A2E9EB0CE3606EB48
   market:
     identifier: value_liquid
