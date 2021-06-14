@@ -93,8 +93,18 @@ links:
   subreddit_url: https://www.reddit.com/r/MakerDAO
   twitter_screen_name: MakerDAO
 liquidity_score: 1.0
-market_cap_rank: 450
+market_cap_rank: 452
 name: Sai
 public_interest_score: 0.063
 symbol: sai
-tickers: []
+tickers:
+- base: 0X89D24A6B4CCB1B6FAA2625FE562BDD9A23260359
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0X89D24A6B4CCB1B6FAA2625FE562BDD9A23260359
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

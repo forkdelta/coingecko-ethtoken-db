@@ -1,6 +1,6 @@
 ---
 address: '0xd2dF355C19471c8bd7D8A3aa27Ff4e26A21b4076'
-coingecko_rank: 4669
+coingecko_rank: 4660
 coingecko_score: 3.847
 community_score: 10.86
 description: >-
@@ -28,4 +28,19 @@ market_cap_rank: null
 name: sAAVE
 public_interest_score: 0.046
 symbol: saave
-tickers: []
+tickers:
+- base: SAAVE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: S1INCH
+- base: SLINK
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SAAVE
+- base: SAAVE
+  market:
+    identifier: synthetix
+    name: Synthetix Exchange
+  target: SUNI

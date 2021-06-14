@@ -1,6 +1,6 @@
 ---
 address: '0xb5a4ac5b04E777230bA3381195EfF6a60c3934F2'
-coingecko_rank: 1400
+coingecko_rank: 1398
 coingecko_score: 18.655
 community_score: 8.109
 description: >-
@@ -39,7 +39,7 @@ links:
   telegram_channel_identifier: insuresystem
   twitter_screen_name: InsureToken
 liquidity_score: 16.71
-market_cap_rank: 358
+market_cap_rank: 341
 name: inSure DeFi
 public_interest_score: 0.004
 symbol: sure
@@ -51,6 +51,11 @@ tickers:
   target: ETH
 - base: SURE
   market:
+    identifier: bilaxy
+    name: Bilaxy
+  target: USDT
+- base: SURE
+  market:
     identifier: crex24
     name: CREX24
   target: ETH
@@ -59,8 +64,23 @@ tickers:
     identifier: crex24
     name: CREX24
   target: USDT
+- base: 0X269B47B64182ACCB6233C279001C0519AC0FCA2C
+  market:
+    identifier: quickswap
+    name: Quickswap
+  target: ETH
+- base: SURE
+  market:
+    identifier: stocks_exchange
+    name: STEX
+  target: BTC
 - base: 0XB5A4AC5B04E777230BA3381195EFF6A60C3934F2
   market:
     identifier: uniswap_v2
     name: Uniswap (v2)
   target: ETH
+- base: SURE
+  market:
+    identifier: vindax
+    name: Vindax
+  target: BTC

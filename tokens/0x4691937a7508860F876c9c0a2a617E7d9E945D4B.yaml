@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: wootrade
   twitter_screen_name: wootraderS
 liquidity_score: 54.328
-market_cap_rank: 128
+market_cap_rank: 129
 name: Wootrade Network
 public_interest_score: 0.008
 symbol: woo
 tickers:
+- base: 0X4691937A7508860F876C9C0A2A617E7D9E945D4B
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
 - base: WOO
   market:
     identifier: btse
@@ -42,3 +47,8 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
+- base: WOO
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT

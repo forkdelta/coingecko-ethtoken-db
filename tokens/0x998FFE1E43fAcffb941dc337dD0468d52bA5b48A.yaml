@@ -1,6 +1,6 @@
 ---
 address: '0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A'
-coingecko_rank: 1569
+coingecko_rank: 1567
 coingecko_score: 17.607
 community_score: 7.381
 description: >-
@@ -33,16 +33,11 @@ links:
   telegram_channel_identifier: rupiahtokeninternational
   twitter_screen_name: RupiahTokenIDRT
 liquidity_score: 26.264
-market_cap_rank: 1483
+market_cap_rank: 1495
 name: Rupiah Token
 public_interest_score: 0.001
 symbol: idrt
 tickers:
-- base: BUSD-BD1
-  market:
-    identifier: binance_dex
-    name: Binance DEX
-  target: IDRTB-178
 - base: BST
   market:
     identifier: bitsten
@@ -53,6 +48,11 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: BTC
+- base: 0X998FFE1E43FACFFB941DC337DD0468D52BA5B48A
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: IDRTL
   market:
     identifier: upbit_indonesia

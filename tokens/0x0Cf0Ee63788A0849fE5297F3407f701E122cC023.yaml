@@ -29,7 +29,7 @@ links:
   telegram_channel_identifier: streamrdata
   twitter_screen_name: streamr
 liquidity_score: 35.602
-market_cap_rank: 248
+market_cap_rank: 264
 name: Streamr
 public_interest_score: 0.007
 symbol: data
@@ -39,11 +39,21 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
+- base: 0X0CF0EE63788A0849FE5297F3407F701E122CC023
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
 - base: DATA
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: DATA
+  market:
+    identifier: forkdelta
+    name: ForkDelta
+  target: ETH
 - base: 0X0CF0EE63788A0849FE5297F3407F701E122CC023
   market:
     identifier: paraswap

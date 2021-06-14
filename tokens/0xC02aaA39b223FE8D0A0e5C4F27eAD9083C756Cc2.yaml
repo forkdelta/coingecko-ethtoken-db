@@ -1,6 +1,6 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 3071
+coingecko_rank: 3066
 coingecko_score: 9.923
 community_score: 0.0
 description: >-
@@ -31,12 +31,7 @@ name: WETH
 public_interest_score: 0.012
 symbol: weth
 tickers:
-- base: YFI
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: COMP
+- base: HEX
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -116,6 +111,16 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: ONG
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: NPXS
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BAND
   market:
     identifier: bamboo_relay
@@ -151,6 +156,11 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: RPL
+  market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
 - base: BNB
   market:
     identifier: bamboo_relay
@@ -176,11 +186,11 @@ tickers:
     identifier: dodo
     name: DODO
   target: USDT
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+- base: 0X89DCFF5FD892F2BFC8B75DBA12804B651F769579
   market:
     identifier: dodo
     name: DODO
-  target: XYO
+  target: WETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: mooniswap
@@ -206,11 +216,6 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: DAI
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: paraswap

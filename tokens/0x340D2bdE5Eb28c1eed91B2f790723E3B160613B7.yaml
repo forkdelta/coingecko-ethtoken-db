@@ -32,8 +32,18 @@ links:
   subreddit_url: https://www.reddit.com/r/blockv
   twitter_screen_name: blockv_io
 liquidity_score: 12.576
-market_cap_rank: 428
+market_cap_rank: 421
 name: BLOCKv
 public_interest_score: 0.002
 symbol: vee
-tickers: []
+tickers:
+- base: VEE
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: 0X340D2BDE5EB28C1EED91B2F790723E3B160613B7
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH

@@ -29,8 +29,18 @@ links:
   telegram_channel_identifier: parsiq_group
   twitter_screen_name: parsiq_net
 liquidity_score: 23.25
-market_cap_rank: 339
+market_cap_rank: 327
 name: PARSIQ
 public_interest_score: 0.006
 symbol: prq
-tickers: []
+tickers:
+- base: PRQ
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: 0X362BC847A3A9637D3AF6624EEC853618A43ED7D2
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDT

@@ -39,7 +39,7 @@ links:
   telegram_channel_identifier: reservecurrency
   twitter_screen_name: reserveprotocol
 liquidity_score: 57.242
-market_cap_rank: 135
+market_cap_rank: 131
 name: Reserve Rights Token
 public_interest_score: 0.024
 symbol: rsr
@@ -59,6 +59,21 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: RSR
+  market:
+    identifier: emirex
+    name: Emirex
+  target: BTC
+- base: RSR
+  market:
+    identifier: emirex
+    name: Emirex
+  target: USDT
+- base: RSR
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8
   market:
     identifier: paraswap
@@ -69,3 +84,13 @@ tickers:
     identifier: secretswap
     name: SecretSwap
   target: ETH
+- base: RSR
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC
+- base: RSR
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

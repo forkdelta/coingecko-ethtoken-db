@@ -37,11 +37,21 @@ links:
   telegram_channel_identifier: dodoex_official
   twitter_screen_name: BreederDodo
 liquidity_score: 50.744
-market_cap_rank: 217
+market_cap_rank: 220
 name: DODO
 public_interest_score: 0.074
 symbol: dodo
 tickers:
+- base: DODO
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: BTC
+- base: DODO
+  market:
+    identifier: bitcoin_com
+    name: Bitcoin.com Exchange
+  target: USD
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
@@ -61,12 +71,12 @@ tickers:
   market:
     identifier: dodo_bsc
     name: Dodo BSC
-  target: 0X1D2F0DA169CEB9FC7B3144628DB156F3F6C60DBE
+  target: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
     name: Dodo BSC
-  target: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
+  target: 0X1D2F0DA169CEB9FC7B3144628DB156F3F6C60DBE
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
@@ -87,11 +97,6 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X40986A85B4CFCDB054A6CBFB1210194FEE51AF88
-- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X4338665CBB7B2485A8855A139B75D5E34AB0DB94
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
@@ -127,11 +132,11 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X603C7F932ED1FC6575303D8FB018FDCBB0F39A95
-- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+- base: 0X2170ED0880AC9A755FD29B2688956BD959F933F8
   market:
     identifier: dodo_bsc
     name: Dodo BSC
-  target: 0X667BEBFF5CDA3C4A460B514AB478DA0A8CF80910
+  target: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
 - base: 0X667BEBFF5CDA3C4A460B514AB478DA0A8CF80910
   market:
     identifier: dodo_bsc
@@ -157,7 +162,12 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
-- base: 0X2C7CC3B6ACDD71211E951F65C02BA2575BE25399
+- base: 0XE02DF9E3E622DEBDD69FB838BB799E3F168902C5
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
+- base: 0X8AA688AB789D1848D131C65D98CEAA8875D97EF1
   market:
     identifier: dodo_bsc
     name: Dodo BSC
@@ -177,11 +187,6 @@ tickers:
     identifier: dodo_bsc
     name: Dodo BSC
   target: 0X68922994476089D8073C76E838C18A8C45473FDD
-- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X7083609FCE4D1D8DC0C979AAB8C869EA2C873402
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
@@ -261,11 +266,6 @@ tickers:
   market:
     identifier: dodo_bsc
     name: Dodo BSC
-  target: 0XF0E406C49C63ABF358030A299C0E00118C4C6BA5
-- base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
   target: 0XF952FC3CA7325CC27D15885D37117676D25BFDA6
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
@@ -276,12 +276,22 @@ tickers:
   market:
     identifier: dodo_bsc
     name: Dodo BSC
-  target: BTCB
+  target: 0XFFEECBF8D7267757C2DC3D13D730E97E15BFDF7F
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: dodo_bsc
     name: Dodo BSC
-  target: USDT
+  target: BTCB
+- base: DODO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: DODO
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: 0X67EE3CB086F8A16F34BEE3CA72FAD36F7DB929E2
   market:
     identifier: pancakeswap

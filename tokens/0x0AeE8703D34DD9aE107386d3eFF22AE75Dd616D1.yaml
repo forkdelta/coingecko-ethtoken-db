@@ -1,6 +1,6 @@
 ---
 address: '0x0AeE8703D34DD9aE107386d3eFF22AE75Dd616D1'
-coingecko_rank: 2144
+coingecko_rank: 2140
 coingecko_score: 14.254
 community_score: 8.462
 description: ""
@@ -20,8 +20,23 @@ links:
   - http://tranche.finance
   twitter_screen_name: TrancheFinance
 liquidity_score: 2.174
-market_cap_rank: 724
+market_cap_rank: 723
 name: Tranche Finance
 public_interest_score: 0.0
 symbol: SLICE
-tickers: []
+tickers:
+- base: SLICE
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: SLICE
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: USDT
+- base: SLICE
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH

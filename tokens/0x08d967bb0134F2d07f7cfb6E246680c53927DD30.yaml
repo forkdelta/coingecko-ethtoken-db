@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: mathwallet
   twitter_screen_name: MathWallet
 liquidity_score: 18.895
-market_cap_rank: 199
+market_cap_rank: 206
 name: MATH
 public_interest_score: 0.022
 symbol: math
@@ -42,4 +42,14 @@ tickers:
   market:
     identifier: serum_dex
     name: Serum DEX
+  target: USDC
+- base: MATH
+  market:
+    identifier: serum_dex
+    name: Serum DEX
   target: USDT
+- base: 0X08D967BB0134F2D07F7CFB6E246680C53927DD30
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

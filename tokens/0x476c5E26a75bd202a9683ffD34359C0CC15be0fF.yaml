@@ -24,7 +24,7 @@ links:
   telegram_channel_identifier: ProjectSerum
   twitter_screen_name: projectserum
 liquidity_score: 56.428
-market_cap_rank: 202
+market_cap_rank: 197
 name: Serum
 public_interest_score: 0.07
 symbol: srm
@@ -41,9 +41,24 @@ tickers:
   target: USDT
 - base: SRM
   market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
+- base: SRM
+  market:
     identifier: bvnex
     name: Bvnex
   target: USDT
+- base: YFI
+  market:
+    identifier: raydium
+    name: Raydium
+  target: SRM
+- base: BTC
+  market:
+    identifier: raydium
+    name: Raydium
+  target: SRM
 - base: SRM
   market:
     identifier: tokenlon

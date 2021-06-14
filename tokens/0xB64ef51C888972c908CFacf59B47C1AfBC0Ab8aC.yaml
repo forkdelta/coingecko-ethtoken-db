@@ -57,7 +57,7 @@ links:
   telegram_channel_identifier: storjproject
   twitter_screen_name: storj
 liquidity_score: 52.906
-market_cap_rank: 252
+market_cap_rank: 258
 name: Storj
 public_interest_score: 0.04
 symbol: storj
@@ -72,6 +72,11 @@ tickers:
     identifier: atomars
     name: Atomars
   target: USDT
+- base: STORJ
+  market:
+    identifier: emirex
+    name: Emirex
+  target: BTC
 - base: STORJ
   market:
     identifier: huobi_id
@@ -91,4 +96,19 @@ tickers:
   market:
     identifier: yobit
     name: YoBit
+  target: BTC
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
   target: DOGE
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: RUR
+- base: STORJ
+  market:
+    identifier: yobit
+    name: YoBit
+  target: WAVES

@@ -1,6 +1,6 @@
 ---
 address: '0xe81D72D14B1516e68ac3190a46C93302Cc8eD60f'
-coingecko_rank: 4732
+coingecko_rank: 4723
 coingecko_score: 3.617
 community_score: 0.0
 description: >-
@@ -34,6 +34,11 @@ symbol: cl
 tickers:
 - base: CL
   market:
+    identifier: emirex
+    name: Emirex
+  target: BTC
+- base: CL
+  market:
     identifier: mercatox
     name: Mercatox
   target: ETH
@@ -47,8 +52,3 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
-- base: CL
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USD

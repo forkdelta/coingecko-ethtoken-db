@@ -40,7 +40,7 @@ links:
   telegram_channel_identifier: graphprotocol
   twitter_screen_name: graphprotocol
 liquidity_score: 62.151
-market_cap_rank: 95
+market_cap_rank: 87
 name: The Graph
 public_interest_score: 0.061
 symbol: grt
@@ -59,7 +59,12 @@ tickers:
   market:
     identifier: bitbay
     name: BitBay
-  target: GBP
+  target: EUR
+- base: GRT
+  market:
+    identifier: btcnext
+    name: BTCNEXT
+  target: USDT
 - base: GRT
   market:
     identifier: huobi_id
@@ -81,6 +86,11 @@ tickers:
     name: Paraswap
   target: ETH
 - base: 0X0B3F868E0BE5597D5DB7FEB59E1CADBB0FDDA50A
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X5FE2B58C013D7601147DCDD68C143A77499F5531
+- base: 0X0D500B1D8E8EF31E21C99D1DB9A6444D3ADF1270
   market:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)

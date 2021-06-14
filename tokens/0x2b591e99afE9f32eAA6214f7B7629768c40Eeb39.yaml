@@ -1,6 +1,6 @@
 ---
 address: '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39'
-coingecko_rank: 1485
+coingecko_rank: 1483
 coingecko_score: 18.09
 community_score: 37.106
 description: >-
@@ -37,6 +37,11 @@ symbol: hex
 tickers:
 - base: HEX
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: HEX
+  market:
     identifier: bidesk
     name: Bidesk
   target: BTC
@@ -54,7 +59,7 @@ tickers:
   market:
     identifier: catex
     name: Catex
-  target: TRX
+  target: ETH
 - base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
   market:
     identifier: paraswap
@@ -79,19 +84,9 @@ tickers:
   market:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)
-  target: 0X2791BCA1F2DE4661ED88A30C99A7A9449AA84174
-- base: 0X23D29D30E35C5E8D321E1DC9A8A61BFD846D4C5C
-  market:
-    identifier: sushiswap_polygon
-    name: Sushiswap (Polygon POS)
   target: 0XC2132D05D31C914A87C6611C10748AEB04B58E8F
 - base: 0X2B591E99AFE9F32EAA6214F7B7629768C40EEB39
   market:
     identifier: uniswap
     name: Uniswap (v3)
   target: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
-- base: HEX
-  market:
-    identifier: yobit
-    name: YoBit
-  target: DOGE

@@ -79,11 +79,16 @@ links:
   subreddit_url: https://www.reddit.com/r/GolemProject
   twitter_screen_name: golemproject
 liquidity_score: 31.401
-market_cap_rank: 163
+market_cap_rank: 154
 name: Golem
 public_interest_score: 0.013
 symbol: glm
 tickers:
+- base: GNT
+  market:
+    identifier: bitbay
+    name: BitBay
+  target: ETH
 - base: GNT
   market:
     identifier: bitbay
@@ -109,11 +114,6 @@ tickers:
     identifier: okex
     name: OKEx
   target: BTC
-- base: 0X7DD9C5CBA05E151C895FDE1CF355C9A1D5DA6429
-  market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
 - base: GNT
   market:
     identifier: yobit
@@ -124,3 +124,8 @@ tickers:
     identifier: yobit
     name: YoBit
   target: RUR
+- base: GNT
+  market:
+    identifier: yobit
+    name: YoBit
+  target: USD

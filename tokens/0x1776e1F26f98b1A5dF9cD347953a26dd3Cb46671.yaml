@@ -28,7 +28,7 @@ links:
   subreddit_url: https://www.reddit.com/r/numerai
   twitter_screen_name: numerai
 liquidity_score: 50.792
-market_cap_rank: 175
+market_cap_rank: 173
 name: Numeraire
 public_interest_score: 0.004
 symbol: nmr
@@ -98,6 +98,21 @@ tickers:
     identifier: dove_wallet
     name: Dove Wallet
   target: USDT
+- base: NMR
+  market:
+    identifier: emirex
+    name: Emirex
+  target: BTC
+- base: NMR
+  market:
+    identifier: emirex
+    name: Emirex
+  target: USDT
+- base: 0X1776E1F26F98B1A5DF9CD347953A26DD3CB46671
+  market:
+    identifier: mooniswap
+    name: Mooniswap
+  target: ETH
 - base: NMR
   market:
     identifier: yobit

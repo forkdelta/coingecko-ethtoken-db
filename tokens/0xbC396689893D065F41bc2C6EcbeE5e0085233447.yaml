@@ -23,7 +23,7 @@ links:
   telegram_channel_identifier: perpetualprotocol
   twitter_screen_name: perpprotocol
 liquidity_score: 45.853
-market_cap_rank: 222
+market_cap_rank: 217
 name: Perpetual Protocol
 public_interest_score: 0.008
 symbol: perp
@@ -33,6 +33,16 @@ tickers:
     identifier: bilaxy
     name: Bilaxy
   target: ETH
+- base: PERP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: PERP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
 - base: 0XBC396689893D065F41BC2C6ECBEE5E0085233447
   market:
     identifier: paraswap
@@ -43,8 +53,8 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
-- base: USDC
+- base: PERP
   market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: 0XBC396689893D065F41BC2C6ECBEE5E0085233447
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDC

@@ -30,7 +30,7 @@ links:
   subreddit_url: https://www.reddit.com/r/CelsiusNetwork
   twitter_screen_name: celsiusnetwork
 liquidity_score: 46.58
-market_cap_rank: 37
+market_cap_rank: 42
 name: Celsius Network
 public_interest_score: 0.128
 symbol: cel
@@ -52,16 +52,6 @@ tickers:
   target: WETH
 - base: CEL
   market:
-    identifier: bitcratic
-    name: Bitcratic
-  target: ETH
-- base: CEL
-  market:
-    identifier: lcx
-    name: LCX Exchange
-  target: ETH
-- base: CEL
-  market:
     identifier: lcx
     name: LCX Exchange
   target: LCX
@@ -80,6 +70,11 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: 0X0D500B1D8E8EF31E21C99D1DB9A6444D3ADF1270
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0XD85D1E945766FEA5EDA9103F918BD915FBCA63E6
 - base: USDC
   market:
     identifier: uniswap

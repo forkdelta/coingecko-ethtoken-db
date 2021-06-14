@@ -26,21 +26,26 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 59.876
-market_cap_rank: 224
+market_cap_rank: 212
 name: Kyber Network Crystal Legacy
 public_interest_score: 0.015
 symbol: kncl
 tickers:
+- base: 0XDD974D5C2E2928DEA5F71B9825B8B646686BD200
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: DAI
+- base: KNC
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: EUR
 - base: KNC
   market:
     identifier: bvnex
     name: Bvnex
   target: USDT
-- base: KNC
-  market:
-    identifier: cex
-    name: CEX.IO
-  target: ETH
 - base: KNC
   market:
     identifier: coinzoom

@@ -1,6 +1,6 @@
 ---
 address: '0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566'
-coingecko_rank: 1479
+coingecko_rank: 1477
 coingecko_score: 18.143
 community_score: 16.166
 description: >-
@@ -32,7 +32,7 @@ links:
   telegram_channel_identifier: HitChain_EN
   twitter_screen_name: Hit_Chain
 liquidity_score: 14.675
-market_cap_rank: 1031
+market_cap_rank: 1036
 name: HitChain
 public_interest_score: 0.002
 symbol: hit
@@ -42,7 +42,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: HIT
-- base: XMR
+- base: BCH
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: HIT
+- base: DOT
   market:
     identifier: hitbtc
     name: HitBTC
@@ -52,17 +57,12 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: HIT
-- base: BNB
+- base: XMR
   market:
     identifier: hitbtc
     name: HitBTC
   target: HIT
 - base: XRP
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: HIT
-- base: DOT
   market:
     identifier: hitbtc
     name: HitBTC
