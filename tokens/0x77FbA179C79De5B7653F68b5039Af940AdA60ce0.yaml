@@ -27,16 +27,26 @@ links:
   telegram_channel_identifier: Ampleforth
   twitter_screen_name: AmpleforthOrg
 liquidity_score: 41.424
-market_cap_rank: 249
+market_cap_rank: 255
 name: Ampleforth Governance Token
 public_interest_score: 0.028
 symbol: forth
 tickers:
 - base: FORTH
   market:
-    identifier: okex
-    name: OKEx
+    identifier: aex
+    name: AEX
+  target: USDT
+- base: FORTH
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: BTC
+- base: FORTH
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT
 - base: 0X77FBA179C79DE5B7653F68B5039AF940ADA60CE0
   market:
     identifier: uniswap

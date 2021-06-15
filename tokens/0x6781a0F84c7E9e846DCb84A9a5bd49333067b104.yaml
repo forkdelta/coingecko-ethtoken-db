@@ -57,11 +57,21 @@ links:
   telegram_channel_identifier: ZapOracles
   twitter_screen_name: ZapProtocol
 liquidity_score: 10.917
-market_cap_rank: 706
+market_cap_rank: 722
 name: Zap
 public_interest_score: 0.004
 symbol: zap
 tickers:
+- base: ZAP
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: 0X6781A0F84C7E9E846DCB84A9A5BD49333067B104
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0X6781A0F84C7E9E846DCB84A9A5BD49333067B104
   market:
     identifier: paraswap
@@ -72,8 +82,3 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
-- base: 0X6781A0F84C7E9E846DCB84A9A5BD49333067B104
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

@@ -37,6 +37,11 @@ symbol: noia
 tickers:
 - base: NOIA
   market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
+- base: NOIA
+  market:
     identifier: nash
     name: Nash
   target: BTC
@@ -50,8 +55,3 @@ tickers:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)
   target: 0X957D1AD5214468332C5E6C00305A25116F9A46BB
-- base: 0XA8C8CFB141A3BB59FEA1E2EA6B79B5ECBCD7B6CA
-  market:
-    identifier: uniswap
-    name: Uniswap (v3)
-  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0x4FbB350052Bca5417566f188eB2EBCE5b19BC964'
-coingecko_rank: 4705
+coingecko_rank: 4704
 coingecko_score: 3.667
 community_score: 15.755
 description: >-
@@ -44,4 +44,14 @@ market_cap_rank: null
 name: RigoBlock
 public_interest_score: 0.01
 symbol: grg
-tickers: []
+tickers:
+- base: GRG
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
+  target: ETH
+- base: 0X4FBB350052BCA5417566F188EB2EBCE5B19BC964
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

@@ -28,7 +28,7 @@ links:
   telegram_channel_identifier: Breadforthepeople
   twitter_screen_name: harvest_finance
 liquidity_score: 27.997
-market_cap_rank: 533
+market_cap_rank: 525
 name: Harvest Finance
 public_interest_score: 0.026
 symbol: farm
@@ -38,11 +38,6 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: USDC
-- base: 0X8AC76A51CC950D9822D68B83FE1AD97B32CD580D
-  market:
-    identifier: dodo_bsc
-    name: Dodo BSC
-  target: 0X4B5C23CAC08A567ECF0C1FFCA8372A45A5D33743
 - base: FARM
   market:
     identifier: hitbtc
@@ -50,9 +45,19 @@ tickers:
   target: USD
 - base: 0XA0246C9032BC3A600820415AE600C6388619A14D
   market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
+- base: 0XA0246C9032BC3A600820415AE600C6388619A14D
+  market:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: FARM
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: BTC
 - base: FARM
   market:
     identifier: probit

@@ -82,29 +82,19 @@ symbol: gusd
 tickers:
 - base: GUSD
   market:
-    identifier: cex
-    name: CEX.IO
-  target: EUR
-- base: GUSD
-  market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: GUSD
-  market:
     identifier: floatsv
     name: Float SV
   target: USDT
+- base: EOS
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: GUSD
 - base: GUSD
   market:
     identifier: hotbit
     name: Hotbit
   target: USDT
-- base: GUSD
-  market:
-    identifier: okex
-    name: OKEx
-  target: BTC
 - base: 0X056FD409E1D7A124BD7017459DFEA2F387B6D5CD
   market:
     identifier: uniswap

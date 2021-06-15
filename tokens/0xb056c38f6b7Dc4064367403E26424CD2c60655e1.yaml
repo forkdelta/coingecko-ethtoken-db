@@ -1,6 +1,6 @@
 ---
 address: '0xb056c38f6b7Dc4064367403E26424CD2c60655e1'
-coingecko_rank: 3242
+coingecko_rank: 3241
 coingecko_score: 9.132
 community_score: 25.828
 description: >-
@@ -33,8 +33,23 @@ name: CEEK Smart VR Token
 public_interest_score: 0.002
 symbol: ceek
 tickers:
+- base: CEEK
+  market:
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: 0XB056C38F6B7DC4064367403E26424CD2C60655E1
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: CEEK
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
+- base: 0XB056C38F6B7DC4064367403E26424CD2C60655E1
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

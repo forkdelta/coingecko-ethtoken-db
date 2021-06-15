@@ -1,6 +1,6 @@
 ---
 address: '0x261EfCdD24CeA98652B9700800a13DfBca4103fF'
-coingecko_rank: 2462
+coingecko_rank: 2461
 coingecko_score: 12.72
 community_score: 10.859
 description: >-
@@ -24,13 +24,18 @@ links:
   - https://www.synthetix.io/tokens/
   twitter_screen_name: synthetix_io
 liquidity_score: 1.819
-market_cap_rank: 2007
+market_cap_rank: 1954
 name: sXAU
 public_interest_score: 0.046
 symbol: sxau
 tickers:
-- base: SXAU
+- base: 0X261EFCDD24CEA98652B9700800A13DFBCA4103FF
   market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: 0X261EFCDD24CEA98652B9700800A13DFBCA4103FF
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

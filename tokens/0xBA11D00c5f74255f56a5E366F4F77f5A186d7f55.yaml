@@ -37,6 +37,11 @@ symbol: band
 tickers:
 - base: BAND
   market:
+    identifier: atomars
+    name: Atomars
+  target: USDT
+- base: BAND
+  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
@@ -47,18 +52,13 @@ tickers:
   target: BTC
 - base: BAND
   market:
-    identifier: bvnex
-    name: Bvnex
+    identifier: cex
+    name: CEX.IO
   target: USDT
 - base: BAND
   market:
-    identifier: cex
-    name: CEX.IO
-  target: ETH
-- base: BAND
-  market:
-    identifier: cex
-    name: CEX.IO
+    identifier: dove_wallet
+    name: Dove Wallet
   target: USDT
 - base: BAND
   market:
@@ -67,11 +67,6 @@ tickers:
   target: BTC
 - base: 0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55
   market:
-    identifier: sakeswap
-    name: SakeSwap
-  target: ETH
-- base: 0X46E7628E8B4350B2716AB470EE0BA1FA9E76C6C5
-  market:
-    identifier: sushiswap_fantom
-    name: Sushiswap (Fantom)
-  target: FTM
+    identifier: paraswap
+    name: Paraswap
+  target: DAI

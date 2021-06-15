@@ -25,8 +25,18 @@ links:
   telegram_channel_identifier: AlphaQuark
   twitter_screen_name: Alphaquark_
 liquidity_score: 44.703
-market_cap_rank: 581
+market_cap_rank: 582
 name: Alpha Quark Token
 public_interest_score: 0.001
 symbol: aqt
-tickers: []
+tickers:
+- base: AQT
+  market:
+    identifier: bithumb
+    name: Bithumb
+  target: BTC
+- base: AQT
+  market:
+    identifier: gopax
+    name: GoPax
+  target: KRW
