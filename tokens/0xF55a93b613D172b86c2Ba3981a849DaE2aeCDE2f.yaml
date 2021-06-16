@@ -1,6 +1,6 @@
 ---
 address: '0xF55a93b613D172b86c2Ba3981a849DaE2aeCDE2f'
-coingecko_rank: 3282
+coingecko_rank: 3281
 coingecko_score: 8.931
 community_score: 9.229
 description: >-
@@ -40,11 +40,21 @@ symbol: yfx
 tickers:
 - base: YFX
   market:
-    identifier: bigone
-    name: BigONE
+    identifier: biki
+    name: BiKi
   target: USDT
+- base: 0X55D398326F99059FF775485246999027B3197955
+  market:
+    identifier: mdex_bsc
+    name: Mdex BSC
+  target: 0XF55A93B613D172B86C2BA3981A849DAE2AECDE2F
 - base: 0XBB4CDB9CBD36B01BD1CBAEBF2DE08D9173BC095C
   market:
     identifier: mdex_bsc
     name: Mdex BSC
   target: 0XF55A93B613D172B86C2BA3981A849DAE2AECDE2F
+- base: 0XF55A93B613D172B86C2BA3981A849DAE2AECDE2F
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH

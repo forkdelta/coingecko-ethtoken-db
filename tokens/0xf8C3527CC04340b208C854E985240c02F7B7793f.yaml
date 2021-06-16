@@ -25,16 +25,11 @@ links:
   telegram_channel_identifier: FrontierDotXYZ
   twitter_screen_name: FrontierDotXYZ
 liquidity_score: 43.777
-market_cap_rank: 496
+market_cap_rank: 514
 name: Frontier
 public_interest_score: 0.011
 symbol: front
 tickers:
-- base: FRONT
-  market:
-    identifier: bitcoin_com
-    name: Bitcoin.com Exchange
-  target: ETH
 - base: FRONT
   market:
     identifier: bithumb_global
@@ -42,24 +37,29 @@ tickers:
   target: USDT
 - base: FRONT
   market:
-    identifier: hitbtc
-    name: HitBTC
+    identifier: huobi_korea
+    name: Huobi Korea
   target: BTC
-- base: FRONT
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: ETH
 - base: FRONT
   market:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
+- base: LUA
+  market:
+    identifier: luaswap
+    name: Luaswap
+  target: FRONT
 - base: 0X55D398326F99059FF775485246999027B3197955
   market:
     identifier: mdex_bsc
     name: Mdex BSC
   target: 0X928E55DAB735AA8260AF3CEDADA18B5F70C72F1B
+- base: 0X928E55DAB735AA8260AF3CEDADA18B5F70C72F1B
+  market:
+    identifier: mdex_bsc
+    name: Mdex BSC
+  target: 0XE9E7CEA3DEDCA5984780BAFC599BD69ADD087D56
 - base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
   market:
     identifier: mooniswap
@@ -67,16 +67,11 @@ tickers:
   target: ETH
 - base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
   market:
-    identifier: one_inch
-    name: 1inch
-  target: ETH
-- base: FRONT
-  market:
-    identifier: poloniex
-    name: Poloniex
-  target: BTC
-- base: 0XF8C3527CC04340B208C854E985240C02F7B7793F
-  market:
     identifier: sakeswap
     name: SakeSwap
   target: ETH
+- base: FRONT
+  market:
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

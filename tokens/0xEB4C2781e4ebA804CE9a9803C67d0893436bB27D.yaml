@@ -44,29 +44,29 @@ tickers:
   market:
     identifier: bittrex
     name: Bittrex
+  target: BTC
+- base: RENBTC
+  market:
+    identifier: bittrex
+    name: Bittrex
   target: ETH
 - base: RENBTC
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
-  target: ETH
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+    identifier: bittrex
+    name: Bittrex
+  target: USD
+- base: RENBTC
   market:
-    identifier: paraswap
-    name: Paraswap
-  target: ETH
-- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
-  market:
-    identifier: paraswap
-    name: Paraswap
+    identifier: bittrex
+    name: Bittrex
   target: USDT
+- base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH
 - base: 0XEB4C2781E4EBA804CE9A9803C67D0893436BB27D
   market:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
-- base: RENBTC
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

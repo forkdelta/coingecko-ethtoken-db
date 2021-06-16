@@ -26,7 +26,7 @@ links:
   subreddit_url: https://www.reddit.com/r/synthetix_io
   twitter_screen_name: synthetix_io
 liquidity_score: 53.846
-market_cap_rank: 194
+market_cap_rank: 206
 name: sUSD
 public_interest_score: 0.046
 symbol: susd
@@ -38,9 +38,19 @@ tickers:
   target: USDC
 - base: SUSD
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: SUSD
+  market:
     identifier: gate
     name: Gate.io
   target: ETH
+- base: SUSD
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
 - base: SUSD
   market:
     identifier: kyber_network
@@ -60,28 +70,13 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
-  target: ETH
-- base: 0X57AB1EC28D129707052DF4DF418D58A2D46D5F51
-  market:
-    identifier: paraswap
-    name: Paraswap
   target: USDT
 - base: SREN
   market:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SEOS
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SFB
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
-- base: SNFLX
+- base: SGOOG
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -96,7 +91,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SBNB
+- base: SFB
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -111,7 +106,7 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: SADA
+- base: SAMZN
   market:
     identifier: synthetix
     name: Synthetix Exchange
@@ -131,11 +126,6 @@ tickers:
     identifier: synthetix
     name: Synthetix Exchange
   target: SUSD
-- base: IEOS
-  market:
-    identifier: synthetix
-    name: Synthetix Exchange
-  target: SUSD
 - base: SXMR
   market:
     identifier: synthetix
@@ -146,8 +136,3 @@ tickers:
     identifier: uniswap
     name: Uniswap (v3)
   target: ETH
-- base: SUSD
-  market:
-    identifier: zero_ex
-    name: 0x Protocol
-  target: USD

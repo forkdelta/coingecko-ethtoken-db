@@ -35,8 +35,23 @@ links:
   telegram_channel_identifier: feiprotocol
   twitter_screen_name: feiprotocol
 liquidity_score: 57.252
-market_cap_rank: 125
+market_cap_rank: 124
 name: Fei Protocol
 public_interest_score: 0.06
 symbol: fei
-tickers: []
+tickers:
+- base: DAI
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: 0X956F47F50A910163D8BF957CF5846D573E7F87CA
+- base: 0X956F47F50A910163D8BF957CF5846D573E7F87CA
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH
+- base: FEI
+  market:
+    identifier: zero_ex
+    name: 0x Protocol
+  target: USD

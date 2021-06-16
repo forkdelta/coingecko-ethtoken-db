@@ -38,8 +38,18 @@ tickers:
     identifier: balancer_v1
     name: Balancer (v1)
   target: ETH
-- base: 0X4E352CF164E64ADCBAD318C3A1E222E9EBA4CE42
+- base: MCB
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: MCB
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: USDT
+- base: MCB
+  market:
+    identifier: loopring_amm
+    name: Loopring AMM
   target: ETH

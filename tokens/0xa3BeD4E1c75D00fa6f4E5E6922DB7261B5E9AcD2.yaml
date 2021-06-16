@@ -55,11 +55,6 @@ tickers:
   target: WETH
 - base: MTA
   market:
-    identifier: cex
-    name: CEX.IO
-  target: USDT
-- base: MTA
-  market:
     identifier: gate
     name: Gate.io
   target: ETH
@@ -68,3 +63,8 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
+- base: MTA
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

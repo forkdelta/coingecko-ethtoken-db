@@ -37,11 +37,16 @@ links:
   telegram_channel_identifier: sentivate
   twitter_screen_name: sentivate
 liquidity_score: 16.572
-market_cap_rank: 601
+market_cap_rank: 617
 name: Sentivate
 public_interest_score: 0.002
 symbol: sntvt
 tickers:
+- base: 0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8
+  market:
+    identifier: one_inch
+    name: 1inch
+  target: ETH
 - base: 0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8
   market:
     identifier: uniswap
@@ -49,6 +54,6 @@ tickers:
   target: ETH
 - base: 0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8
   market:
-    identifier: value_liquid
-    name: Value Liquid
-  target: VALUE
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

@@ -99,20 +99,30 @@ name: Request
 public_interest_score: 0.004
 symbol: req
 tickers:
+- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: USDC
 - base: REQ
   market:
-    identifier: gopax
-    name: GoPax
-  target: KRW
+    identifier: bitfinex
+    name: Bitfinex
+  target: USD
 - base: REQ
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
+    identifier: gate
+    name: Gate.io
   target: ETH
 - base: REQ
   market:
     identifier: kyber_network
     name: Kyber Network
+  target: ETH
+- base: 0X8F8221AFBB33998D8584A2B05749BA73C37A938A
+  market:
+    identifier: one_inch
+    name: 1inch
   target: ETH
 - base: REQ
   market:

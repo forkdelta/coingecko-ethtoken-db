@@ -40,21 +40,11 @@ links:
   telegram_channel_identifier: graphprotocol
   twitter_screen_name: graphprotocol
 liquidity_score: 62.151
-market_cap_rank: 91
+market_cap_rank: 87
 name: The Graph
 public_interest_score: 0.061
 symbol: grt
 tickers:
-- base: GRT
-  market:
-    identifier: atomars
-    name: Atomars
-  target: BTC
-- base: GRT
-  market:
-    identifier: atomars
-    name: Atomars
-  target: USDT
 - base: GRT
   market:
     identifier: bitbay
@@ -62,9 +52,19 @@ tickers:
   target: EUR
 - base: GRT
   market:
-    identifier: loopring_amm
-    name: Loopring AMM
+    identifier: bitbay
+    name: BitBay
+  target: GBP
+- base: GRT
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
+- base: GRT
+  market:
+    identifier: kraken
+    name: Kraken
+  target: AUD
 - base: 0X46C54B16AF7747067F412C78EBADAE203A26ADA0
   market:
     identifier: pangolin
@@ -75,17 +75,22 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
+- base: 0XC944E90C64B2C07662A292BE6244BDF05CDA44A7
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: USDT
 - base: GRT
   market:
     identifier: serum_dex
     name: Serum DEX
   target: USDC
-- base: 0X0D500B1D8E8EF31E21C99D1DB9A6444D3ADF1270
+- base: 0X0B3F868E0BE5597D5DB7FEB59E1CADBB0FDDA50A
   market:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)
   target: 0X5FE2B58C013D7601147DCDD68C143A77499F5531
-- base: 0X0B3F868E0BE5597D5DB7FEB59E1CADBB0FDDA50A
+- base: 0X0D500B1D8E8EF31E21C99D1DB9A6444D3ADF1270
   market:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)

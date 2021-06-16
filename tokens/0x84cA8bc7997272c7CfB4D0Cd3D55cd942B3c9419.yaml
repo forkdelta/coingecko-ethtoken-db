@@ -26,31 +26,16 @@ links:
   telegram_channel_identifier: DIAdata_org
   twitter_screen_name: DIAdata_org
 liquidity_score: 43.074
-market_cap_rank: 375
+market_cap_rank: 377
 name: DIA
 public_interest_score: 0.005
 symbol: DIA
 tickers:
 - base: DIA
   market:
-    identifier: atomars
-    name: Atomars
-  target: BTC
-- base: DIA
-  market:
-    identifier: atomars
-    name: Atomars
-  target: USDT
-- base: DIA
-  market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: DIA
-  market:
-    identifier: coinone
-    name: Coinone
-  target: KRW
 - base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
   market:
     identifier: mooniswap
@@ -61,6 +46,16 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: ETH
+- base: DIA
+  market:
+    identifier: quoine
+    name: Liquid
+  target: BTC
+- base: DIA
+  market:
+    identifier: quoine
+    name: Liquid
+  target: USDT
 - base: 0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419
   market:
     identifier: uniswap

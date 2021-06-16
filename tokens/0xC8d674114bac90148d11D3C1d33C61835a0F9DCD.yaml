@@ -1,6 +1,6 @@
 ---
 address: '0xC8d674114bac90148d11D3C1d33C61835a0F9DCD'
-coingecko_rank: 2379
+coingecko_rank: 2378
 coingecko_score: 13.074
 community_score: 9.855
 description: >-
@@ -31,8 +31,18 @@ links:
   telegram_channel_identifier: mirror_protocol
   twitter_screen_name: mirror_protocol
 liquidity_score: 0.0
-market_cap_rank: 1425
+market_cap_rank: 1420
 name: Mirrored Netflix
 public_interest_score: 0.125
 symbol: mnflx
-tickers: []
+tickers:
+- base: 0X23396CF899CA06C4472205FC903BDB4DE249D6FC
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: 0XA04F060077D90FE2647B61E4DA4AD1F97D6649DC
+- base: 0XC8D674114BAC90148D11D3C1D33C61835A0F9DCD
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: UST

@@ -1,6 +1,6 @@
 ---
 address: '0x9205C049C231DdA51bAce0ba569f047E3E1e9979'
-coingecko_rank: 5282
+coingecko_rank: 5280
 coingecko_score: 2.171
 community_score: 4.479
 description: >-
@@ -58,8 +58,18 @@ tickers:
   target: BTC
 - base: LMCH
   market:
+    identifier: crex24
+    name: CREX24
+  target: ETH
+- base: LMCH
+  market:
     identifier: digifinex
     name: Digifinex
+  target: BTC
+- base: LMCH
+  market:
+    identifier: stocks_exchange
+    name: STEX
   target: BTC
 - base: LMCH
   market:

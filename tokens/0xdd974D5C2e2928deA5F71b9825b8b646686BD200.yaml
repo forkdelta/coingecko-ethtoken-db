@@ -26,11 +26,16 @@ links:
   telegram_channel_identifier: officialkybernetwork
   twitter_screen_name: kybernetwork
 liquidity_score: 59.876
-market_cap_rank: 221
+market_cap_rank: 220
 name: Kyber Network Crystal Legacy
 public_interest_score: 0.015
 symbol: kncl
 tickers:
+- base: KNC
+  market:
+    identifier: aprobit
+    name: Aprobit
+  target: KRW
 - base: 0XDD974D5C2E2928DEA5F71B9825B8B646686BD200
   market:
     identifier: balancer_v1
@@ -38,21 +43,26 @@ tickers:
   target: DAI
 - base: KNC
   market:
-    identifier: bione
-    name: BiONE
-  target: USDT
-- base: KNC
-  market:
-    identifier: coinzoom
-    name: Coinzoom
-  target: USDT
+    identifier: bittrex
+    name: Bittrex
+  target: EUR
 - base: KNC
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: PAX
+  target: ETH
+- base: KNC
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: KNCL
+  market:
+    identifier: kyber_network
+    name: Kyber Network
+  target: ETH
 - base: 0XDD974D5C2E2928DEA5F71B9825B8B646686BD200
   market:
-    identifier: value_liquid
-    name: Value Liquid
-  target: VALUE
+    identifier: sashimiswap
+    name: Sashimiswap
+  target: ETH

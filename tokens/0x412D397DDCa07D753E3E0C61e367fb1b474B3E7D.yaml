@@ -1,6 +1,6 @@
 ---
 address: '0x412D397DDCa07D753E3E0C61e367fb1b474B3E7D'
-coingecko_rank: 4003
+coingecko_rank: 4002
 coingecko_score: 5.612
 community_score: 6.527
 description: >-
@@ -32,4 +32,19 @@ market_cap_rank: null
 name: 8X8 Protocol
 public_interest_score: 0.001
 symbol: exe
-tickers: []
+tickers:
+- base: EXE
+  market:
+    identifier: bittrex
+    name: Bittrex
+  target: BTC
+- base: EXE
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: BTC
+- base: EXE
+  market:
+    identifier: poloniex
+    name: Poloniex
+  target: USDT

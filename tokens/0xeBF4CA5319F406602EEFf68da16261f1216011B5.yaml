@@ -1,6 +1,6 @@
 ---
 address: '0xeBF4CA5319F406602EEFf68da16261f1216011B5'
-coingecko_rank: 3573
+coingecko_rank: 3572
 coingecko_score: 7.43
 community_score: 11.081
 description: >-
@@ -26,9 +26,14 @@ symbol: yo
 tickers:
 - base: YO
   market:
-    identifier: crex24
-    name: CREX24
+    identifier: bithumb_global
+    name: Bithumb Global
   target: BTC
+- base: 0XEBF4CA5319F406602EEFF68DA16261F1216011B5
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
 - base: YO
   market:
     identifier: yobit
@@ -39,21 +44,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: ETH
-- base: YO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: USDT
-- base: YO
-  market:
-    identifier: yobit
-    name: YoBit
-  target: WAVES
-- base: BTT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: LTC
   market:
     identifier: yobit
@@ -69,11 +59,6 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: TALK
-  market:
-    identifier: yobit
-    name: YoBit
-  target: YO
 - base: XEM
   market:
     identifier: yobit
@@ -84,7 +69,17 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
+- base: BNB
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
 - base: ETH
+  market:
+    identifier: yobit
+    name: YoBit
+  target: YO
+- base: BTT
   market:
     identifier: yobit
     name: YoBit
@@ -94,12 +89,12 @@ tickers:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BNB
+- base: BCHSV
   market:
     identifier: yobit
     name: YoBit
   target: YO
-- base: BCHSV
+- base: EOS
   market:
     identifier: yobit
     name: YoBit

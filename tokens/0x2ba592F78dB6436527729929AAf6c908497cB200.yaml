@@ -23,11 +23,16 @@ links:
   telegram_channel_identifier: CreamdotFinance
   twitter_screen_name: CreamdotFinance
 liquidity_score: 37.305
-market_cap_rank: 274
+market_cap_rank: 271
 name: Cream
 public_interest_score: 0.029
 symbol: cream
 tickers:
+- base: CREAM
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: ETH
 - base: CREAM
   market:
     identifier: cex
@@ -43,8 +48,3 @@ tickers:
     identifier: mooniswap
     name: Mooniswap
   target: ETH
-- base: CREAM
-  market:
-    identifier: serum_dex
-    name: Serum DEX
-  target: USDC

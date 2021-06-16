@@ -1,6 +1,6 @@
 ---
 address: '0xF1290473E210b2108A85237fbCd7b6eb42Cc654F'
-coingecko_rank: 2992
+coingecko_rank: 2991
 coingecko_score: 10.301
 community_score: 7.835
 description: >-
@@ -44,21 +44,26 @@ symbol: hedg
 tickers:
 - base: HEDG
   market:
-    identifier: bitcoin_com
-    name: Bitcoin.com Exchange
-  target: BCH
+    identifier: bancor
+    name: Bancor Network
+  target: BNT
 - base: HEDG
   market:
     identifier: bitcoin_com
     name: Bitcoin.com Exchange
-  target: BTC
+  target: USD
 - base: HEDG
   market:
     identifier: hitbtc
     name: HitBTC
-  target: BTC
+  target: USD
+- base: HEDG
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT
 - base: 0XF1290473E210B2108A85237FBCD7B6EB42CC654F
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

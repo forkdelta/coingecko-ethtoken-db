@@ -28,7 +28,7 @@ links:
   subreddit_url: https://www.reddit.com/r/STOX
   twitter_screen_name: stx_coin
 liquidity_score: 1.0
-market_cap_rank: 1933
+market_cap_rank: 1937
 name: Stox
 public_interest_score: 0.002
 symbol: stx
@@ -37,9 +37,14 @@ tickers:
   market:
     identifier: hitbtc
     name: HitBTC
-  target: ETH
-- base: 0X006BEA43BAA3F7A6F765F14F10A1A1B08334EF45
+  target: BTC
+- base: STX
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: hitbtc
+    name: HitBTC
   target: ETH
+- base: STX
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD

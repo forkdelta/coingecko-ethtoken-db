@@ -28,11 +28,21 @@ links:
   telegram_channel_identifier: mathwallet
   twitter_screen_name: MathWallet
 liquidity_score: 18.895
-market_cap_rank: 212
+market_cap_rank: 207
 name: MATH
 public_interest_score: 0.022
 symbol: math
 tickers:
+- base: 0X08D967BB0134F2D07F7CFB6E246680C53927DD30
+  market:
+    identifier: balancer_v1
+    name: Balancer (v1)
+  target: ETH
+- base: MATH
+  market:
+    identifier: ftx_spot
+    name: FTX
+  target: USD
 - base: MATH
   market:
     identifier: hotbit
@@ -53,3 +63,8 @@ tickers:
     identifier: serum_dex
     name: Serum DEX
   target: USDT
+- base: 0X08D967BB0134F2D07F7CFB6E246680C53927DD30
+  market:
+    identifier: sushiswap
+    name: Sushiswap
+  target: ETH
