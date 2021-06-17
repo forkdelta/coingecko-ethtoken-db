@@ -101,16 +101,6 @@ tickers:
   target: EUR
 - base: GLM
   market:
-    identifier: bitbns
-    name: BitBNS
-  target: INR
-- base: GNT
-  market:
-    identifier: bitbns
-    name: BitBNS
-  target: INR
-- base: GLM
-  market:
     identifier: bitrue
     name: Bitrue
   target: BTC
@@ -118,7 +108,7 @@ tickers:
   market:
     identifier: cex
     name: CEX.IO
-  target: USDT
+  target: USD
 - base: GLM
   market:
     identifier: huobi_korea
@@ -129,16 +119,16 @@ tickers:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
+- base: 0X7DD9C5CBA05E151C895FDE1CF355C9A1D5DA6429
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: USDT
 - base: GNT
   market:
     identifier: yobit
     name: YoBit
   target: BTC
-- base: GNT
-  market:
-    identifier: yobit
-    name: YoBit
-  target: ETH
 - base: GNT
   market:
     identifier: yobit

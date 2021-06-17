@@ -32,16 +32,21 @@ symbol: goldr
 tickers:
 - base: GOLDR
   market:
-    identifier: crex24
-    name: CREX24
-  target: BTC
-- base: GOLDR
-  market:
-    identifier: crex24
-    name: CREX24
-  target: USDPM
-- base: GOLDR
-  market:
     identifier: digifinex
     name: Digifinex
   target: BTC
+- base: GOLDR
+  market:
+    identifier: hotbit
+    name: Hotbit
+  target: ETH
+- base: GOLDR
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
+- base: GOLDR
+  market:
+    identifier: probit
+    name: ProBit
+  target: USDT

@@ -1,6 +1,6 @@
 ---
 address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'
-coingecko_rank: 3064
+coingecko_rank: 3063
 coingecko_score: 9.923
 community_score: 0.0
 description: >-
@@ -31,22 +31,12 @@ name: WETH
 public_interest_score: 0.012
 symbol: weth
 tickers:
-- base: YFI
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: SUSD
+- base: REN
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: HEX
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: REN
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -61,22 +51,12 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: STAKE
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: MTA
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
 - base: DIA
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: TORN
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
@@ -91,16 +71,6 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: NPXS
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
-- base: CRC
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: SNX
   market:
     identifier: bamboo_relay
@@ -111,16 +81,21 @@ tickers:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
-- base: RPL
-  market:
-    identifier: bamboo_relay
-    name: Bamboo Relay
-  target: WETH
 - base: BNB
   market:
     identifier: bamboo_relay
     name: Bamboo Relay
   target: WETH
+- base: 0X42DBBD5AE373FEA2FC320F62D44C058522BB3758
+  market:
+    identifier: dfyn
+    name: Dfyn
+  target: WETH
+- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
+  market:
+    identifier: dodo
+    name: DODO
+  target: LOL
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: dodo
@@ -131,11 +106,6 @@ tickers:
     identifier: dodo
     name: DODO
   target: USDT
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: dodo
-    name: DODO
-  target: VETH
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
     identifier: dodo
@@ -155,16 +125,6 @@ tickers:
   market:
     identifier: paraswap
     name: Paraswap
-  target: BUSD
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: paraswap
-    name: Paraswap
-  target: DAI
-- base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
-  market:
-    identifier: paraswap
-    name: Paraswap
   target: DAI
 - base: 0XC02AAA39B223FE8D0A0E5C4F27EAD9083C756CC2
   market:
@@ -176,3 +136,98 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: 0X2791BCA1F2DE4661ED88A30C99A7A9449AA84174
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X1BFD67037B42CF73ACF2047067BD4F2C47D9BFD6
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X0D500B1D8E8EF31E21C99D1DB9A6444D3ADF1270
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X46F48FBDEDAA6F5500993BEDE9539EF85F4BEE8E
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X3A3DF212B7AA91AA0402B9035B098891D276572B
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X7C4A54F5D20B4023D6746F1F765F4DFE7C39A7E6
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X172370D5CD63279EFA6D502DAB29171933A610AF
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X7CDC0421469398E0F3AA8890693D86C840AC8931
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X11602A402281974A70C2B4824D58EBEDE967E2BE
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X2A93172C8DCCBFBC60A39D56183B7279A2F647B4
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X385EEAC5CB85A38A9A07A70C73E0A3271CFB54A7
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X175BDC4E52EECB675B86FC4C9A3EA3F80ADBB610
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X521CDDC0CBA84F14C69C1E99249F781AA73EE0BC
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X53E0BCA35EC356BD5DDDFEBBD1FC0FD03FABAD39
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X0B3F868E0BE5597D5DB7FEB59E1CADBB0FDDA50A
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X5C7F7FE4766FE8F0FA9B41E2E4194D939488FF1C
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X50B728D8D964FD00C2D0AAD81718B71311FEF68A
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X5B6AB5078BD2BBF1A215FFFBA16A94B7DF7F639D
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619
+- base: 0X05089C9EBFFA4F0ACA269E32056B1B36B37ED71B
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X7CEB23FD6BC0ADD59E62AC25578270CFF1B9F619

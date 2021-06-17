@@ -37,9 +37,19 @@ symbol: hex
 tickers:
 - base: HEX
   market:
+    identifier: bamboo_relay
+    name: Bamboo Relay
+  target: WETH
+- base: HEX
+  market:
     identifier: bidesk
     name: Bidesk
   target: BTC
+- base: HEX
+  market:
+    identifier: bidesk
+    name: Bidesk
+  target: USDT
 - base: HEX
   market:
     identifier: bitcoin_com
@@ -85,11 +95,21 @@ tickers:
     identifier: paraswap
     name: Paraswap
   target: USDT
+- base: 0X0D500B1D8E8EF31E21C99D1DB9A6444D3ADF1270
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X23D29D30E35C5E8D321E1DC9A8A61BFD846D4C5C
 - base: 0X0B3F868E0BE5597D5DB7FEB59E1CADBB0FDDA50A
   market:
     identifier: sushiswap_polygon
     name: Sushiswap (Polygon POS)
   target: 0X23D29D30E35C5E8D321E1DC9A8A61BFD846D4C5C
+- base: 0X23D29D30E35C5E8D321E1DC9A8A61BFD846D4C5C
+  market:
+    identifier: sushiswap_polygon
+    name: Sushiswap (Polygon POS)
+  target: 0X2791BCA1F2DE4661ED88A30C99A7A9449AA84174
 - base: 0X23D29D30E35C5E8D321E1DC9A8A61BFD846D4C5C
   market:
     identifier: sushiswap_polygon

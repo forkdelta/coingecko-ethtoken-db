@@ -28,4 +28,14 @@ market_cap_rank: null
 name: YFII Gold
 public_interest_score: 0.001
 symbol: yfiig
-tickers: []
+tickers:
+- base: YFIIG
+  market:
+    identifier: cointiger
+    name: CoinTiger
+  target: USDT
+- base: 0XEF8BA8CBA86F81B3108F60186FCE9C81B5096D5C
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

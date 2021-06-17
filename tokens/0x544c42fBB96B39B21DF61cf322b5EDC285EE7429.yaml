@@ -27,11 +27,16 @@ links:
   telegram_channel_identifier: insurace_protocol
   twitter_screen_name: insur_ace
 liquidity_score: 23.686
-market_cap_rank: 747
+market_cap_rank: 643
 name: InsurAce
 public_interest_score: 0.009
 symbol: insur
 tickers:
+- base: INSUR
+  market:
+    identifier: gate
+    name: Gate.io
+  target: ETH
 - base: INSUR
   market:
     identifier: hitbtc
@@ -42,3 +47,8 @@ tickers:
     identifier: hitbtc
     name: HitBTC
   target: USD
+- base: INSUR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH

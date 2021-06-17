@@ -50,21 +50,11 @@ links:
   subreddit_url: https://www.reddit.com/r/statusim/
   twitter_screen_name: ethstatus
 liquidity_score: 48.006
-market_cap_rank: 156
+market_cap_rank: 159
 name: Status
 public_interest_score: 0.017
 symbol: SNT
 tickers:
-- base: 0X744D70FDBE2BA4CF95131626614A1763DF805B9E
-  market:
-    identifier: balancer_v1
-    name: Balancer (v1)
-  target: ETH
-- base: SNT
-  market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
 - base: SNT
   market:
     identifier: crex24
@@ -74,17 +64,12 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: BTC
-- base: SNT
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
   target: ETH
 - base: SNT
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: GBP
+  target: EUR
 - base: SNT
   market:
     identifier: dove_wallet
@@ -94,7 +79,17 @@ tickers:
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: USDT
+  target: TUSD
+- base: SNT
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: USDC
+- base: SNT
+  market:
+    identifier: probit
+    name: ProBit
+  target: KRW
 - base: DAI
   market:
     identifier: uniswap

@@ -45,11 +45,16 @@ links:
   telegram_channel_identifier: mirror_protocol
   twitter_screen_name: mirror_protocol
 liquidity_score: 49.424
-market_cap_rank: 151
+market_cap_rank: 154
 name: Mirror Protocol
 public_interest_score: 0.125
 symbol: mir
 tickers:
+- base: 0X1AF3F329E8BE154074D8769D1FFA4EE058B1DBC3
+  market:
+    identifier: dodo_bsc
+    name: Dodo BSC
+  target: 0X5B6DCF557E2ABE2323C48445E8CC948910D8C2C9
 - base: MIR
   market:
     identifier: hitbtc
@@ -65,8 +70,23 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: BTC
+- base: MIR
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: USDT
+- base: 0X23396CF899CA06C4472205FC903BDB4DE249D6FC
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: 0X5B6DCF557E2ABE2323C48445E8CC948910D8C2C9
 - base: 0X5B6DCF557E2ABE2323C48445E8CC948910D8C2C9
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: WBNB
+- base: 0X09A3ECAFA817268F77BE1283176B946C4FF2E608
+  market:
+    identifier: paraswap
+    name: Paraswap
+  target: ETH

@@ -49,4 +49,14 @@ market_cap_rank: 32
 name: OKB
 public_interest_score: 1.029
 symbol: okb
-tickers: []
+tickers:
+- base: OKB
+  market:
+    identifier: probit
+    name: ProBit
+  target: KRW
+- base: 0X75231F58B43240C9718DD58B4967C5114342A86C
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

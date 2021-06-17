@@ -31,8 +31,23 @@ links:
   telegram_channel_identifier: casinobettingcoin
   twitter_screen_name: getcbc
 liquidity_score: 1.0
-market_cap_rank: 821
+market_cap_rank: 795
 name: CBC.network
 public_interest_score: 0.001
 symbol: cbc
-tickers: []
+tickers:
+- base: CBC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: ETH
+- base: CBC
+  market:
+    identifier: hitbtc
+    name: HitBTC
+  target: USD
+- base: 0X26DB5439F651CAF491A87D48799DA81F191BDB6B
+  market:
+    identifier: uniswap
+    name: Uniswap (v3)
+  target: ETH

@@ -67,19 +67,14 @@ symbol: powr
 tickers:
 - base: POWR
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: ETH
 - base: POWR
   market:
     identifier: dove_wallet
     name: Dove Wallet
-  target: NGN
-- base: POWR
-  market:
-    identifier: dove_wallet
-    name: Dove Wallet
-  target: USDT
+  target: USDC
 - base: POWR
   market:
     identifier: hitbtc
@@ -89,14 +84,19 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: ETH
-- base: 0X595832F8FC6BF59C85C527FEC3740A1B7A361269
+  target: BTC
+- base: POWR
   market:
-    identifier: one_inch
-    name: 1inch
+    identifier: huobi_korea
+    name: Huobi Korea
   target: ETH
 - base: 0X595832F8FC6BF59C85C527FEC3740A1B7A361269
   market:
     identifier: sushiswap
     name: Sushiswap
   target: ETH
+- base: POWR
+  market:
+    identifier: upbit_indonesia
+    name: 'Upbit Indonesia '
+  target: BTC

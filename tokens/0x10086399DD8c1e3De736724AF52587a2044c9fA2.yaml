@@ -1,6 +1,6 @@
 ---
 address: '0x10086399DD8c1e3De736724AF52587a2044c9fA2'
-coingecko_rank: 3524
+coingecko_rank: 3523
 coingecko_score: 7.678
 community_score: 6.342
 description: >-
@@ -46,6 +46,21 @@ symbol: tmtg
 tickers:
 - base: TMTG
   market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: EUR
+- base: TMTG
+  market:
+    identifier: dove_wallet
+    name: Dove Wallet
+  target: PAX
+- base: TMTG
+  market:
     identifier: quoine
     name: Liquid
   target: USD
+- base: 0X10086399DD8C1E3DE736724AF52587A2044C9FA2
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

@@ -1,6 +1,6 @@
 ---
 address: '0x4161725D019690a3E0de50f6bE67b07a86A9fAe1'
-coingecko_rank: 3401
+coingecko_rank: 3400
 coingecko_score: 8.308
 community_score: 9.71
 description: >-
@@ -36,6 +36,11 @@ name: Token Pocket
 public_interest_score: 0.012
 symbol: tpt
 tickers:
+- base: 0XECA41281C24451168A37211F0BC2B8645AF45092
+  market:
+    identifier: julswap
+    name: Julswap
+  target: BNB
 - base: 0XE9E7CEA3DEDCA5984780BAFC599BD69ADD087D56
   market:
     identifier: mdex_bsc
@@ -50,7 +55,22 @@ tickers:
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
+  target: BUSD
+- base: 0XECA41281C24451168A37211F0BC2B8645AF45092
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
   target: USDT
+- base: 0XECA41281C24451168A37211F0BC2B8645AF45092
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0XECA41281C24451168A37211F0BC2B8645AF45092
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: BUSD
 - base: 0X4161725D019690A3E0DE50F6BE67B07A86A9FAE1
   market:
     identifier: sakeswap

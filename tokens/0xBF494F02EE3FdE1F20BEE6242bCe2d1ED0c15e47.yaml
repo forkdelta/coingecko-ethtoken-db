@@ -24,8 +24,18 @@ links:
   telegram_channel_identifier: worldtokenofficial
   twitter_screen_name: worldtoken_
 liquidity_score: 15.37
-market_cap_rank: 1117
+market_cap_rank: 1109
 name: World Token
 public_interest_score: 0.007
 symbol: world
-tickers: []
+tickers:
+- base: 0X31FFBE9BF84B4D9D02CD40ECCAB4AF1E2877BBC6
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0X31FFBE9BF84B4D9D02CD40ECCAB4AF1E2877BBC6
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB

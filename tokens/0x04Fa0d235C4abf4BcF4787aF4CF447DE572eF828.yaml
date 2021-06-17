@@ -50,7 +50,7 @@ links:
     - https://github.com/UMAprotocol/protocol
   twitter_screen_name: UMAprotocol
 liquidity_score: 52.781
-market_cap_rank: 95
+market_cap_rank: 96
 name: UMA
 public_interest_score: 0.013
 symbol: uma
@@ -62,9 +62,19 @@ tickers:
   target: DAI
 - base: UMA
   market:
+    identifier: btcnext
+    name: BTCNEXT
+  target: USDT
+- base: UMA
+  market:
     identifier: cex
     name: CEX.IO
   target: ETH
+- base: UMA
+  market:
+    identifier: cex
+    name: CEX.IO
+  target: USDT
 - base: UMA
   market:
     identifier: hitbtc
@@ -72,9 +82,14 @@ tickers:
   target: BTC
 - base: UMA
   market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: BTC
+- base: UMA
+  market:
+    identifier: huobi_korea
+    name: Huobi Korea
+  target: ETH
 - base: UMA
   market:
     identifier: tokenlon

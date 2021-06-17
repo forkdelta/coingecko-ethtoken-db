@@ -1,6 +1,6 @@
 ---
 address: '0x20AE0cA9D42e6Ffeb1188F341A7D63450452dEF6'
-coingecko_rank: 3090
+coingecko_rank: 3089
 coingecko_score: 9.778
 community_score: 8.013
 description: "Cipher (CPR) is A Utility Token For The Crypto Community. The community will get rewards,\
@@ -38,8 +38,18 @@ links:
   telegram_channel_identifier: ciphernewz
   twitter_screen_name: ciphertoken
 liquidity_score: 1.0
-market_cap_rank: 2451
+market_cap_rank: 2452
 name: CIPHER
 public_interest_score: 0.001
 symbol: cpr
-tickers: []
+tickers:
+- base: 0X20AE0CA9D42E6FFEB1188F341A7D63450452DEF6
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH
+- base: CPR
+  market:
+    identifier: vindax
+    name: Vindax
+  target: BTC

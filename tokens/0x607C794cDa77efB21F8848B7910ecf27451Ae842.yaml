@@ -43,7 +43,7 @@ links:
   telegram_channel_identifier: defipie
   twitter_screen_name: defipiepie
 liquidity_score: 11.107
-market_cap_rank: 1685
+market_cap_rank: 1707
 name: DeFiPie
 public_interest_score: 0.009
 symbol: PIE
@@ -55,16 +55,6 @@ tickers:
   target: ETH
 - base: PIE
   market:
-    identifier: bibox
-    name: Bibox
-  target: USDT
-- base: PIE
-  market:
-    identifier: bitforex
-    name: Bitforex
-  target: USDT
-- base: PIE
-  market:
     identifier: hotbit
     name: Hotbit
   target: ETH
@@ -72,4 +62,14 @@ tickers:
   market:
     identifier: one_inch
     name: 1inch
+  target: ETH
+- base: 0XC4B35D3A24E3E8941C5D87FD21D0725642F50308
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0X607C794CDA77EFB21F8848B7910ECF27451AE842
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
   target: ETH

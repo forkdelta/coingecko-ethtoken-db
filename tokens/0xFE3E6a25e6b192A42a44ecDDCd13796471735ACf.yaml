@@ -20,7 +20,7 @@ links:
   telegram_channel_identifier: reefdefi
   twitter_screen_name: ReefDeFi
 liquidity_score: 53.463
-market_cap_rank: 160
+market_cap_rank: 162
 name: Reef Finance
 public_interest_score: 0.052
 symbol: reef
@@ -34,12 +34,32 @@ tickers:
   market:
     identifier: huobi_korea
     name: Huobi Korea
-  target: USDT
+  target: BTC
+- base: 0X0E09FABB73BD3ADE0A17ECC321FD13A19E81CE82
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
 - base: 0X1D2F0DA169CEB9FC7B3144628DB156F3F6C60DBE
   market:
     identifier: pancakeswap
     name: PancakeSwap (v2)
   target: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+- base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
+- base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0XF21768CCBC73EA5B6FD3C687208A7C2DEF2D966E
+  market:
+    identifier: pancakeswap_v1
+    name: PancakeSwap (v1)
+  target: WBNB
 - base: WBNB
   market:
     identifier: pantherswap

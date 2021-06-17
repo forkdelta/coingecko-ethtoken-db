@@ -24,11 +24,16 @@ links:
   telegram_channel_identifier: Upbots
   twitter_screen_name: UpBotscom
 liquidity_score: 18.578
-market_cap_rank: 800
+market_cap_rank: 796
 name: UpBots
 public_interest_score: 0.006
 symbol: ubxt
 tickers:
+- base: 0XBBEB90CFB6FAFA1F69AA130B7341089ABEEF5811
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
 - base: 0XBBEB90CFB6FAFA1F69AA130B7341089ABEEF5811
   market:
     identifier: pancakeswap
@@ -38,9 +43,9 @@ tickers:
   market:
     identifier: serum_dex
     name: Serum DEX
-  target: USDT
-- base: 0X8564653879A18C560E7C0EA0E084C516C62F5653
+  target: USDC
+- base: UBXT
   market:
-    identifier: sushiswap
-    name: Sushiswap
-  target: ETH
+    identifier: serum_dex
+    name: Serum DEX
+  target: USDT

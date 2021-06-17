@@ -26,31 +26,16 @@ links:
   telegram_channel_identifier: boringDAO
   twitter_screen_name: TheBoringDAO
 liquidity_score: 34.642
-market_cap_rank: 488
+market_cap_rank: 489
 name: BoringDAO
 public_interest_score: 0.007
 symbol: bor
 tickers:
 - base: BOR
   market:
-    identifier: bancor
-    name: Bancor Network
-  target: BNT
-- base: BOR
-  market:
     identifier: bilaxy
     name: Bilaxy
   target: USDT
-- base: BOR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: BTC
-- base: BOR
-  market:
-    identifier: hitbtc
-    name: HitBTC
-  target: USD
 - base: BOR
   market:
     identifier: huobi_korea
@@ -61,8 +46,13 @@ tickers:
     identifier: huobi_korea
     name: Huobi Korea
   target: ETH
-- base: BOR
+- base: 0X92D7756C60DCFD4C689290E8A9F4D263B3B32241
   market:
-    identifier: huobi_korea
-    name: Huobi Korea
-  target: USDT
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: WBNB
+- base: 0X3C9D6C1C73B31C837832C72E04D3152F051FC1A9
+  market:
+    identifier: uniswap_v2
+    name: Uniswap (v2)
+  target: ETH

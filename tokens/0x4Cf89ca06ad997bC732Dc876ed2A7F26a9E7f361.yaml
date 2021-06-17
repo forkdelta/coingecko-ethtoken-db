@@ -26,13 +26,18 @@ links:
   telegram_channel_identifier: mysterium_network
   twitter_screen_name: MysteriumNet
 liquidity_score: 1.0
-market_cap_rank: 800
+market_cap_rank: 825
 name: Mysterium
 public_interest_score: 0.021
 symbol: myst
 tickers:
-- base: 0X4CF89CA06AD997BC732DC876ED2A7F26A9E7F361
+- base: MYST
   market:
-    identifier: uniswap_v2
-    name: Uniswap (v2)
+    identifier: hitbtc
+    name: HitBTC
+  target: BTC
+- base: MYST
+  market:
+    identifier: hitbtc
+    name: HitBTC
   target: ETH

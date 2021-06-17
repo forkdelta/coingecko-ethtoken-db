@@ -31,8 +31,18 @@ links:
   telegram_channel_identifier: tixlOrg
   twitter_screen_name: TixlOrg
 liquidity_score: 16.737
-market_cap_rank: 844
+market_cap_rank: 810
 name: Tixl
 public_interest_score: 0.007
 symbol: txl
-tickers: []
+tickers:
+- base: 0X1FFD0B47127FDD4097E54521C9E2C7F0D66AAFC5
+  market:
+    identifier: pancakeswap
+    name: PancakeSwap (v2)
+  target: BUSD
+- base: TXL
+  market:
+    identifier: probit
+    name: ProBit
+  target: BTC
